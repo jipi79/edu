@@ -1,0 +1,184 @@
+// 수업 원본(JSON)에서 인쇄용 PDF 두 개를 만든다.
+//   활동지: 아이가 쓰는 종이(정답 없음)
+//   부모용 진행 안내: 장별 발문·예상 답·정답·막힐 때 대응, 활동지 정답, 기록표
+//
+//   node tools/handouts/build_handouts.js <lesson.json> [--out <dir>] [--thumbs <dir>]
+//
+// --thumbs 에 수업용 PPTX를 렌더링한 slide-01.jpg … 가 있으면 안내서에 장 미리보기를 넣는다.
+// 집에서는 아이와 같은 화면을 보므로, 정답이 든 발표자 노트 대신 이 안내서를 부모가 따로 본다.
+const fs = require("fs");
+const path = require("path");
+const { chromium } = require("playwright");
+
+function parseArgs(argv) {
+  const args = { lesson: null, out: null, thumbs: null };
+  for (let i = 2; i < argv.length; i++) {
+    if (argv[i] === "--out") args.out = argv[++i];
+    else if (argv[i] === "--thumbs") args.thumbs = argv[++i];
+    else args.lesson = argv[i];
+  }
+  if (!args.lesson) throw new Error("사용법: node tools/handouts/build_handouts.js <lesson.json> [--out <dir>] [--thumbs <dir>]");
+  return args;
+}
+
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+const CSS = `
+  @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Malgun Gothic", "맑은 고딕", "NanumGothic", sans-serif; color: #1F2937; font-size: 11pt; line-height: 1.55; margin: 0; }
+  h1 { font-size: 20pt; margin: 0 0 2mm; }
+  h2 { font-size: 13.5pt; margin: 7mm 0 2.5mm; color: #264653; }
+  .sub { color: #4B5563; font-size: 10pt; margin-bottom: 5mm; }
+  .frac { display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; margin: 0 1.2mm; font-weight: 700; }
+  .frac > span { display: block; min-width: 7mm; text-align: center; line-height: 1.15; }
+  .frac > span + span { border-top: 2px solid currentColor; }
+  .blank { display: inline-block; width: 7mm; height: 7mm; border: 1.6px solid #1F2937; margin: 0.8mm auto; }
+  .op { font-weight: 700; margin: 0 1.5mm; vertical-align: middle; }
+  .eq { font-size: 17pt; margin: 2mm 0; }
+  .item { break-inside: avoid; margin-bottom: 6mm; }
+  .no { display: inline-flex; width: 7.5mm; height: 7.5mm; border-radius: 50%; background: #264653; color: #fff; font-weight: 700; align-items: center; justify-content: center; margin-right: 2mm; font-size: 10.5pt; }
+  .prompt { font-size: 12pt; font-weight: 700; }
+  .figrow { display: flex; align-items: center; gap: 3mm; margin: 2mm 0 2mm 9.5mm; }
+  .line { border-bottom: 1px solid #9CA3AF; height: 9mm; margin-left: 9.5mm; }
+  .linelabel { margin: 3mm 0 0 9.5mm; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #264653; padding-bottom: 2mm; margin-bottom: 5mm; }
+  .name { font-size: 11pt; }
+  .box { background: #EAF3F1; border-radius: 3mm; padding: 3.5mm 4.5mm; margin: 2mm 0; break-inside: avoid; }
+  .warn { background: #FDEBDD; }
+  table { border-collapse: collapse; width: 100%; font-size: 10pt; }
+  th, td { border: 1px solid #CBD5E1; padding: 1.6mm 2.2mm; text-align: left; vertical-align: top; }
+  th { background: #EAF3F1; }
+  .slide { display: flex; gap: 4mm; break-inside: avoid; border-top: 1px solid #CBD5E1; padding: 3mm 0; }
+  .slide img { width: 62mm; border: 1px solid #CBD5E1; flex: none; align-self: flex-start; }
+  .slide .body { flex: 1; font-size: 10pt; }
+  .slide .body b.k { color: #264653; }
+  .slide ul { margin: 0.5mm 0 1.5mm; padding-left: 5mm; }
+  .tag { display: inline-block; background: #264653; color: #fff; border-radius: 2mm; padding: 0 2mm; font-size: 9pt; margin-right: 1.5mm; }
+  .tag.t { background: #C8434E; }
+`;
+
+function fracHtml(item) {
+  const slot = (v) => (v === null || v === undefined ? '<span><i class="blank"></i></span>' : `<span>${esc(v)}</span>`);
+  return `<span class="frac">${slot(item[0])}${slot(item[1])}</span>`;
+}
+
+function eqHtml(items) {
+  return `<div class="eq">${items.map((it) => (Array.isArray(it) ? fracHtml(it) : `<span class="op">${esc(it)}</span>`)).join("")}</div>`;
+}
+
+function barSvg(bar, widthMm = 120, heightMm = 12) {
+  const parts = bar.parts;
+  const shaded = new Set(bar.shaded || []);
+  const cw = widthMm / parts;
+  let cells = "";
+  for (let i = 0; i < parts; i++) {
+    cells += `<rect x="${i * cw}" y="0" width="${cw}" height="${heightMm}" fill="${shaded.has(i) ? "#E9762B" : "#FFFFFF"}" stroke="#1F2937" stroke-width="0.4"/>`;
+  }
+  return `<svg width="${widthMm}mm" height="${heightMm}mm" viewBox="-0.4 -0.4 ${widthMm + 0.8} ${heightMm + 0.8}" role="img" aria-label="${parts}칸 띠">${cells}<rect x="0" y="0" width="${widthMm}" height="${heightMm}" fill="none" stroke="#1F2937" stroke-width="0.7"/></svg>`;
+}
+
+function worksheetHtml(L) {
+  const ws = L.worksheet;
+  const items = ws.items.map((it) => {
+    let h = it.new_page ? `<div style="break-before: page"></div>${it.heading ? `<h2 style="margin-top:0">${esc(it.heading)}</h2>` : ""}` : "";
+    h += `<div class="item"><div><span class="no">${it.no}</span><span class="prompt">${esc(it.prompt)}</span></div>`;
+    for (const bar of it.bars || []) {
+      h += `<div class="figrow">${bar.label ? `<span style="font-size:13pt">${fracHtml(bar.label)}</span>` : ""}${barSvg(bar)}</div>`;
+    }
+    if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
+    if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;
+    if (it.line_label) h += `<div class="linelabel">${esc(it.line_label)}</div>`;
+    for (let i = 0; i < (it.lines || 0); i++) h += '<div class="line"></div>';
+    return h + "</div>";
+  });
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+    <div class="head"><div><h1>${esc(ws.title)}</h1><div class="sub" style="margin:0">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시</div></div>
+    <div class="name">이름 ______________ &nbsp; 날짜 ____________</div></div>
+    ${items.join("")}
+  </body></html>`;
+}
+
+function listHtml(label, items, cls = "") {
+  if (!items || !items.length) return "";
+  return `<b class="k ${cls}">${label}</b><ul>${items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`;
+}
+
+function guideHtml(L, thumbs) {
+  const slides = L.slides.map((s, i) => {
+    const n = s.notes;
+    const img = thumbs[i] ? `<img src="${thumbs[i]}" alt="${esc(s.id)} 미리보기">` : "";
+    const tags = `<span class="tag">${esc(s.id)}</span>${s.teacher_only ? '<span class="tag t">학생용에서 빠짐</span>' : ""}`;
+    return `<div class="slide">${img}<div class="body">
+      <div>${tags}<b>${esc(s.title)}</b> · ${esc(s.purpose)} · ${esc(n.시간 || "")}</div>
+      <div>${esc(n.목적 || "")}</div>
+      ${listHtml("이렇게 말해 보세요", n.말하기)}${listHtml("예상 답", n.예상답)}${listHtml("정답", n.정답)}
+      ${listHtml("막히면", n.막히면)}${listHtml("주의", n.주의)}
+    </div></div>`;
+  });
+  const rows = L.slides.map((s) => `<tr><td>${esc(s.id)}</td><td>${esc(s.purpose)}</td><td>${esc(s.notes.시간 || "")}</td><td>${esc(s.objectives.join(", ") || "—")}</td></tr>`).join("");
+  const ws = L.worksheet;
+  const answers = ws ? `<h2>활동지 정답</h2><table><tr><th style="width:12mm">번호</th><th>정답</th></tr>${ws.items.map((it) => `<tr><td>${it.no}</td><td>${esc(it.answer)}</td></tr>`).join("")}</table>` : "";
+  const record = ws && ws.record ? `<h2>오늘의 기록</h2><div class="box">${ws.record.map((r) => `<div>${esc(r)}</div>`).join("")}<div style="margin-top:2mm">메모: ______________________________________________</div></div>` : "";
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+    <h1>부모용 진행 안내 · ${esc(L.title)}</h1>
+    <div class="sub">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시 · 약 ${L.minutes}분 · 수업 ID ${esc(L.id)}</div>
+    <div class="box warn"><b>시작 전에</b><ul style="margin:1mm 0 0">
+      <li>아이에게는 PPT를 <b>슬라이드 쇼</b>로 보여 주세요. 일반 보기 화면 아래쪽 노트에는 정답이 있습니다. 진행은 이 안내서를 보며 합니다.</li>
+      <li>준비물: ${esc(L.materials.join(", "))}</li>
+      <li>정답을 바로 알려 주기보다 “어떻게 알았어?”라고 묻고 아이가 설명하게 하세요. 막히면 각 장의 ‘막히면’을 따르세요.</li>
+      <li>아이가 지치면 S08 뒤에서 나누어 이틀에 해도 됩니다.</li>
+    </ul></div>
+    <h2>오늘의 목표와 확인 방법</h2>
+    ${L.objectives.map((o) => `<div class="box"><b>목표 ${esc(o.id)}</b> ${esc(o.text)}<br><b class="k">확인</b> ${esc(o.evidence)}<br><b class="k">성공 기준</b> ${esc(o.success)}</div>`).join("")}
+    <h2>먼저 알고 있어야 할 것</h2>
+    <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>
+    <div>S02에서 흔들리면 S15(보충)를 먼저 합니다. 보충으로도 어려우면 초3 분수부터 다시 다지는 것이 좋습니다.</div>
+    <h2>자주 나오는 오해</h2>
+    <table><tr><th style="width:45%">아이가 이렇게 생각하면</th><th>이렇게 도와주세요</th></tr>
+    ${L.misconceptions.map((m) => `<tr><td>${esc(m.text)}</td><td>${esc(m.response)}</td></tr>`).join("")}</table>
+    <div style="margin-top:2mm"><b>오늘 다루지 않는 것</b> ${esc(L.boundary)}</div>
+    <h2>진행 순서</h2>
+    <table><tr><th style="width:12mm">장</th><th>하는 일</th><th style="width:18mm">시간</th><th style="width:16mm">목표</th></tr>${rows}</table>
+    <h2 style="break-before: page; margin-top: 0">장별 안내</h2>
+    ${slides.join("")}
+    ${answers}${record}
+  </body></html>`;
+}
+
+async function toPdf(browser, html, file) {
+  const page = await browser.newPage();
+  await page.setContent(html, { waitUntil: "load" });
+  await page.pdf({ path: file, format: "A4", printBackground: true, preferCSSPageSize: true });
+  await page.close();
+}
+
+async function main() {
+  const args = parseArgs(process.argv);
+  const L = JSON.parse(fs.readFileSync(args.lesson, "utf-8"));
+  const outDir = args.out || path.join("dist", L.grade_label, L.strand_label, L.unit_folder);
+  fs.mkdirSync(outDir, { recursive: true });
+  let thumbs = [];
+  if (args.thumbs && fs.existsSync(args.thumbs)) {
+    thumbs = fs.readdirSync(args.thumbs).filter((f) => /^slide-\d+\.jpg$/.test(f)).sort()
+      .map((f) => "data:image/jpeg;base64," + fs.readFileSync(path.join(args.thumbs, f)).toString("base64"));
+  }
+  const browser = await chromium.launch();
+  try {
+    if (L.worksheet) {
+      const ws = path.join(outDir, `${L.file_stem}_활동지.pdf`);
+      await toPdf(browser, worksheetHtml(L), ws);
+      console.log(ws);
+    }
+    const guide = path.join(outDir, `${L.file_stem}_부모용안내.pdf`);
+    await toPdf(browser, guideHtml(L, thumbs), guide);
+    console.log(guide);
+  } finally {
+    await browser.close();
+  }
+}
+
+main().catch((err) => {
+  console.error(err.message || err);
+  process.exit(1);
+});
