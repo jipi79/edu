@@ -1,0 +1,4134 @@
+[
+  {
+    "unit_id": "1.1.1",
+    "strand": "KOR",
+    "field_id": "1.1",
+    "name": "말소리와 글자",
+    "grades_text": "초1–초2",
+    "grades": [
+      "G01",
+      "G02"
+    ]
+  },
+  {
+    "unit_id": "1.1.2",
+    "strand": "KOR",
+    "field_id": "1.1",
+    "name": "낱말 읽기와 쓰기",
+    "grades_text": "초1–초2",
+    "grades": [
+      "G01",
+      "G02"
+    ]
+  },
+  {
+    "unit_id": "1.1.3",
+    "strand": "KOR",
+    "field_id": "1.1",
+    "name": "문장 읽기와 뜻 파악",
+    "grades_text": "초1–초2",
+    "grades": [
+      "G01",
+      "G02"
+    ]
+  },
+  {
+    "unit_id": "1.1.4",
+    "strand": "KOR",
+    "field_id": "1.1",
+    "name": "기초 글쓰기와 읽기 습관",
+    "grades_text": "초1–초3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03"
+    ]
+  },
+  {
+    "unit_id": "1.2.1",
+    "strand": "KOR",
+    "field_id": "1.2",
+    "name": "경청과 대화 예절",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.2.2",
+    "strand": "KOR",
+    "field_id": "1.2",
+    "name": "설명과 발표",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.2.3",
+    "strand": "KOR",
+    "field_id": "1.2",
+    "name": "면담과 협력적 토의",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "1.2.4",
+    "strand": "KOR",
+    "field_id": "1.2",
+    "name": "논증과 토론 및 협상",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "1.3.1",
+    "strand": "KOR",
+    "field_id": "1.3",
+    "name": "내용 파악과 요약",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.3.2",
+    "strand": "KOR",
+    "field_id": "1.3",
+    "name": "추론과 글의 구조",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "1.3.3",
+    "strand": "KOR",
+    "field_id": "1.3",
+    "name": "비판적 읽기와 자료 비교",
+    "grades_text": "중3, 고1",
+    "grades": [
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "1.3.4",
+    "strand": "KOR",
+    "field_id": "1.3",
+    "name": "주제 탐구 독서",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "1.4.1",
+    "strand": "KOR",
+    "field_id": "1.4",
+    "name": "경험과 정보의 표현",
+    "grades_text": "초2–초6",
+    "grades": [
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.4.2",
+    "strand": "KOR",
+    "field_id": "1.4",
+    "name": "글의 구조와 고쳐쓰기",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "1.4.3",
+    "strand": "KOR",
+    "field_id": "1.4",
+    "name": "주장과 근거를 갖춘 글",
+    "grades_text": "초6, 중3, 고1",
+    "grades": [
+      "G06",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "1.4.4",
+    "strand": "KOR",
+    "field_id": "1.4",
+    "name": "요약과 평가 및 통합 논술",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "1.5.1",
+    "strand": "KOR",
+    "field_id": "1.5",
+    "name": "낱말과 문장의 기초",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.5.2",
+    "strand": "KOR",
+    "field_id": "1.5",
+    "name": "소리와 단어의 체계",
+    "grades_text": "중1–중2",
+    "grades": [
+      "G07",
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "1.5.3",
+    "strand": "KOR",
+    "field_id": "1.5",
+    "name": "문장과 담화 및 언어 예절",
+    "grades_text": "중2–중3",
+    "grades": [
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "1.5.4",
+    "strand": "KOR",
+    "field_id": "1.5",
+    "name": "언어 변화와 규범 탐구",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "1.6.1",
+    "strand": "KOR",
+    "field_id": "1.6",
+    "name": "이야기와 동시 감상",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.6.2",
+    "strand": "KOR",
+    "field_id": "1.6",
+    "name": "갈래와 표현 방식",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "1.6.3",
+    "strand": "KOR",
+    "field_id": "1.6",
+    "name": "작품의 맥락과 해석",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "1.6.4",
+    "strand": "KOR",
+    "field_id": "1.6",
+    "name": "문학사와 비교 및 창작",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "1.7.1",
+    "strand": "KOR",
+    "field_id": "1.7",
+    "name": "생활 속 매체와 정보 찾기",
+    "grades_text": "초2–초6",
+    "grades": [
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "1.7.2",
+    "strand": "KOR",
+    "field_id": "1.7",
+    "name": "광고와 뉴스 읽기",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "1.7.3",
+    "strand": "KOR",
+    "field_id": "1.7",
+    "name": "출처 검증과 디지털 소통",
+    "grades_text": "중1–중3, 고1",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "1.7.4",
+    "strand": "KOR",
+    "field_id": "1.7",
+    "name": "복합매체 제작과 비평",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.1.1",
+    "strand": "MAT",
+    "field_id": "2.1",
+    "name": "자연수와 사칙연산",
+    "grades_text": "초1–초5",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05"
+    ]
+  },
+  {
+    "unit_id": "2.1.2",
+    "strand": "MAT",
+    "field_id": "2.1",
+    "name": "분수와 소수 및 비",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "2.1.3",
+    "strand": "MAT",
+    "field_id": "2.1",
+    "name": "정수와 유리수 및 실수",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "2.1.4",
+    "strand": "MAT",
+    "field_id": "2.1",
+    "name": "복소수와 수 체계의 확장",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.2.1",
+    "strand": "MAT",
+    "field_id": "2.2",
+    "name": "등식과 수량 관계",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "2.2.2",
+    "strand": "MAT",
+    "field_id": "2.2",
+    "name": "문자식과 일차 관계",
+    "grades_text": "중1–중2",
+    "grades": [
+      "G07",
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "2.2.3",
+    "strand": "MAT",
+    "field_id": "2.2",
+    "name": "다항식과 이차방정식",
+    "grades_text": "중2–중3",
+    "grades": [
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "2.2.4",
+    "strand": "MAT",
+    "field_id": "2.2",
+    "name": "다양한 방정식과 부등식",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.2.5",
+    "strand": "MAT",
+    "field_id": "2.2",
+    "name": "행렬과 정보의 배열",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.3.1",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "규칙과 대응 찾기",
+    "grades_text": "초1–초5",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05"
+    ]
+  },
+  {
+    "unit_id": "2.3.2",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "비례와 일차함수",
+    "grades_text": "중1–중2",
+    "grades": [
+      "G07",
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "2.3.3",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "이차함수와 그래프",
+    "grades_text": "중3",
+    "grades": [
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "2.3.4",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "함수와 합성함수 및 역함수",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.3.5",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "유리함수와 무리함수",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.3.6",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "지수함수와 로그함수 및 삼각함수",
+    "grades_text": "고2",
+    "grades": [
+      "G11"
+    ]
+  },
+  {
+    "unit_id": "2.3.7",
+    "strand": "MAT",
+    "field_id": "2.3",
+    "name": "수열과 귀납적 추론",
+    "grades_text": "고2",
+    "grades": [
+      "G11"
+    ]
+  },
+  {
+    "unit_id": "2.4.1",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "도형과 길이 및 시간",
+    "grades_text": "초1–초4",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "2.4.2",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "넓이와 부피 및 대칭",
+    "grades_text": "초4–초6",
+    "grades": [
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "2.4.3",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "도형의 성질과 닮음 및 삼각비",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "2.4.4",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "좌표와 도형의 방정식",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.4.5",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "이차곡선",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.4.6",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "공간도형과 공간좌표",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.4.7",
+    "strand": "MAT",
+    "field_id": "2.4",
+    "name": "벡터와 연산",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.5.1",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "자료 분류와 그래프",
+    "grades_text": "초2–초6",
+    "grades": [
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "2.5.2",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "평균과 가능성",
+    "grades_text": "초5",
+    "grades": [
+      "G05"
+    ]
+  },
+  {
+    "unit_id": "2.5.3",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "분포와 산포 및 상관관계",
+    "grades_text": "중1, 중3",
+    "grades": [
+      "G07",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "2.5.4",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "경우의 수와 확률의 기초",
+    "grades_text": "중2",
+    "grades": [
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "2.5.5",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "순열과 조합",
+    "grades_text": "고1–고2",
+    "grades": [
+      "G10",
+      "G11"
+    ]
+  },
+  {
+    "unit_id": "2.5.6",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "조건부확률과 확률분포",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.5.7",
+    "strand": "MAT",
+    "field_id": "2.5",
+    "name": "표본과 통계적 추정",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.6.1",
+    "strand": "MAT",
+    "field_id": "2.6",
+    "name": "함수의 극한과 연속",
+    "grades_text": "고2",
+    "grades": [
+      "G11"
+    ]
+  },
+  {
+    "unit_id": "2.6.2",
+    "strand": "MAT",
+    "field_id": "2.6",
+    "name": "미분과 변화율",
+    "grades_text": "고2",
+    "grades": [
+      "G11"
+    ]
+  },
+  {
+    "unit_id": "2.6.3",
+    "strand": "MAT",
+    "field_id": "2.6",
+    "name": "미분의 활용",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.6.4",
+    "strand": "MAT",
+    "field_id": "2.6",
+    "name": "적분과 누적량",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.6.5",
+    "strand": "MAT",
+    "field_id": "2.6",
+    "name": "수열의 극한과 급수",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.6.6",
+    "strand": "MAT",
+    "field_id": "2.6",
+    "name": "여러 함수의 미적분",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.7.1",
+    "strand": "MAT",
+    "field_id": "2.7",
+    "name": "여러 방법으로 문제 풀기",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "2.7.2",
+    "strand": "MAT",
+    "field_id": "2.7",
+    "name": "집합과 명제",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.7.3",
+    "strand": "MAT",
+    "field_id": "2.7",
+    "name": "추측과 반례 및 증명",
+    "grades_text": "중1–중3, 고1",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "2.7.4",
+    "strand": "MAT",
+    "field_id": "2.7",
+    "name": "실생활 수학 모델",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "2.7.5",
+    "strand": "MAT",
+    "field_id": "2.7",
+    "name": "수학의 연결과 탐구",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "3.1.1",
+    "strand": "ENG",
+    "field_id": "3.1",
+    "name": "소리와 알파벳",
+    "grades_text": "초3–초4",
+    "grades": [
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "3.1.2",
+    "strand": "ENG",
+    "field_id": "3.1",
+    "name": "낱말과 기본 표현",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "3.1.3",
+    "strand": "ENG",
+    "field_id": "3.1",
+    "name": "문장 구조와 의미",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "3.1.4",
+    "strand": "ENG",
+    "field_id": "3.1",
+    "name": "어휘와 표현의 확장",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "3.2.1",
+    "strand": "ENG",
+    "field_id": "3.2",
+    "name": "익숙한 말과 짧은 글",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "3.2.2",
+    "strand": "ENG",
+    "field_id": "3.2",
+    "name": "요지와 세부 정보",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "3.2.3",
+    "strand": "ENG",
+    "field_id": "3.2",
+    "name": "추론과 관점 파악",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "3.2.4",
+    "strand": "ENG",
+    "field_id": "3.2",
+    "name": "다양한 자료의 종합",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "3.3.1",
+    "strand": "ENG",
+    "field_id": "3.3",
+    "name": "소개와 기초 묘사",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "3.3.2",
+    "strand": "ENG",
+    "field_id": "3.3",
+    "name": "경험과 계획의 표현",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "3.3.3",
+    "strand": "ENG",
+    "field_id": "3.3",
+    "name": "의견과 근거의 표현",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "3.3.4",
+    "strand": "ENG",
+    "field_id": "3.3",
+    "name": "목적별 글쓰기와 발표",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "3.4.1",
+    "strand": "ENG",
+    "field_id": "3.4",
+    "name": "묻고 답하기",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "3.4.2",
+    "strand": "ENG",
+    "field_id": "3.4",
+    "name": "확인과 바꾸어 말하기",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "3.4.3",
+    "strand": "ENG",
+    "field_id": "3.4",
+    "name": "협력적 토의",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "3.4.4",
+    "strand": "ENG",
+    "field_id": "3.4",
+    "name": "토론과 상황별 소통",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "3.5.1",
+    "strand": "ENG",
+    "field_id": "3.5",
+    "name": "생활문화 만나기",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "3.5.2",
+    "strand": "ENG",
+    "field_id": "3.5",
+    "name": "문화적 맥락과 고정관념",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "3.5.3",
+    "strand": "ENG",
+    "field_id": "3.5",
+    "name": "문학과 세계 문화",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "3.5.4",
+    "strand": "ENG",
+    "field_id": "3.5",
+    "name": "미디어와 직무 관련 영어",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.1.1",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "시간과 생활의 변화",
+    "grades_text": "초1–초3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03"
+    ]
+  },
+  {
+    "unit_id": "4.1.2",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "지역사와 문화유산",
+    "grades_text": "초3–초4",
+    "grades": [
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "4.1.3",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "선사 문화와 고대 국가",
+    "grades_text": "초5, 중3",
+    "grades": [
+      "G05",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.1.4",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "고려와 조선의 사회와 문화",
+    "grades_text": "초5, 중3",
+    "grades": [
+      "G05",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.1.5",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "세계사와 지역 간 교류",
+    "grades_text": "중2, 고2–고3",
+    "grades": [
+      "G08",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.1.6",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "근현대 한국과 세계",
+    "grades_text": "초5–초6, 중3, 고1",
+    "grades": [
+      "G05",
+      "G06",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "4.1.7",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "현대 한국의 민주주의와 사회 변화",
+    "grades_text": "초6, 중3, 고1",
+    "grades": [
+      "G06",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "4.1.8",
+    "strand": "SOC",
+    "field_id": "4.1",
+    "name": "역사 해석과 공공의 기억",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.2.1",
+    "strand": "SOC",
+    "field_id": "4.2",
+    "name": "우리 주변과 지도",
+    "grades_text": "초1–초4",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "4.2.2",
+    "strand": "SOC",
+    "field_id": "4.2",
+    "name": "자연환경과 생활",
+    "grades_text": "초3–초6, 중1",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07"
+    ]
+  },
+  {
+    "unit_id": "4.2.3",
+    "strand": "SOC",
+    "field_id": "4.2",
+    "name": "인구와 도시 및 산업",
+    "grades_text": "초5, 중1–중3",
+    "grades": [
+      "G05",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.2.4",
+    "strand": "SOC",
+    "field_id": "4.2",
+    "name": "한국과 세계의 지역 탐구",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.2.5",
+    "strand": "SOC",
+    "field_id": "4.2",
+    "name": "공간정보와 지속가능한 지역",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.3.1",
+    "strand": "SOC",
+    "field_id": "4.3",
+    "name": "규칙과 공동의 결정",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "4.3.2",
+    "strand": "SOC",
+    "field_id": "4.3",
+    "name": "민주주의와 국가 기관",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.3.3",
+    "strand": "SOC",
+    "field_id": "4.3",
+    "name": "선거와 정치 참여",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.3.4",
+    "strand": "SOC",
+    "field_id": "4.3",
+    "name": "국제 질서와 협력",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.4.1",
+    "strand": "SOC",
+    "field_id": "4.4",
+    "name": "권리와 책임",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "4.4.2",
+    "strand": "SOC",
+    "field_id": "4.4",
+    "name": "헌법과 기본권",
+    "grades_text": "중2–중3, 고1",
+    "grades": [
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "4.4.3",
+    "strand": "SOC",
+    "field_id": "4.4",
+    "name": "생활 속 법과 분쟁 해결",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.4.4",
+    "strand": "SOC",
+    "field_id": "4.4",
+    "name": "사법 절차와 시민의 권리",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.5.1",
+    "strand": "SOC",
+    "field_id": "4.5",
+    "name": "필요와 선택 및 교환",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "4.5.2",
+    "strand": "SOC",
+    "field_id": "4.5",
+    "name": "시장과 가격 및 경제 주체",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.5.3",
+    "strand": "SOC",
+    "field_id": "4.5",
+    "name": "국가경제와 국제거래",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.5.4",
+    "strand": "SOC",
+    "field_id": "4.5",
+    "name": "예산과 저축 및 신용",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.5.5",
+    "strand": "SOC",
+    "field_id": "4.5",
+    "name": "금융상품과 위험 및 소비자 보호",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.5.6",
+    "strand": "SOC",
+    "field_id": "4.5",
+    "name": "경제 변화와 공정성",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.6.1",
+    "strand": "SOC",
+    "field_id": "4.6",
+    "name": "공동체와 문화 다양성",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "4.6.2",
+    "strand": "SOC",
+    "field_id": "4.6",
+    "name": "사회화와 집단 및 제도",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "4.6.3",
+    "strand": "SOC",
+    "field_id": "4.6",
+    "name": "불평등과 사회 변동",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "4.6.4",
+    "strand": "SOC",
+    "field_id": "4.6",
+    "name": "사회조사와 문제 해결",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.1.1",
+    "strand": "ETH",
+    "field_id": "5.1",
+    "name": "자기 이해와 존중",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "5.1.2",
+    "strand": "ETH",
+    "field_id": "5.1",
+    "name": "정직과 책임 및 자기 조절",
+    "grades_text": "초2–초6, 중1–중3",
+    "grades": [
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "5.1.3",
+    "strand": "ETH",
+    "field_id": "5.1",
+    "name": "삶의 의미와 행복",
+    "grades_text": "중1–중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.2.1",
+    "strand": "ETH",
+    "field_id": "5.2",
+    "name": "공감과 배려",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "5.2.2",
+    "strand": "ETH",
+    "field_id": "5.2",
+    "name": "우정과 가족 및 존중",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "5.2.3",
+    "strand": "ETH",
+    "field_id": "5.2",
+    "name": "갈등과 폭력 및 혐오",
+    "grades_text": "중1–중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.3.1",
+    "strand": "ETH",
+    "field_id": "5.3",
+    "name": "공정한 규칙과 협력",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "5.3.2",
+    "strand": "ETH",
+    "field_id": "5.3",
+    "name": "인권과 정의",
+    "grades_text": "초6, 중1–중3, 고1",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "5.3.3",
+    "strand": "ETH",
+    "field_id": "5.3",
+    "name": "공동선과 시민의 책임",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.4.1",
+    "strand": "ETH",
+    "field_id": "5.4",
+    "name": "생명 존중과 돌봄",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "5.4.2",
+    "strand": "ETH",
+    "field_id": "5.4",
+    "name": "인간과 자연의 관계",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "5.4.3",
+    "strand": "ETH",
+    "field_id": "5.4",
+    "name": "생태윤리와 세대 간 책임",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.5.1",
+    "strand": "ETH",
+    "field_id": "5.5",
+    "name": "도덕적 질문과 판단 근거",
+    "grades_text": "중1–중3, 고1",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "5.5.2",
+    "strand": "ETH",
+    "field_id": "5.5",
+    "name": "동양과 한국의 윤리사상",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.5.3",
+    "strand": "ETH",
+    "field_id": "5.5",
+    "name": "서양 윤리사상과 사회사상",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.5.4",
+    "strand": "ETH",
+    "field_id": "5.5",
+    "name": "윤리적 딜레마와 성찰",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.6.1",
+    "strand": "ETH",
+    "field_id": "5.6",
+    "name": "생명과 의료의 윤리",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.6.2",
+    "strand": "ETH",
+    "field_id": "5.6",
+    "name": "과학기술과 디지털 윤리",
+    "grades_text": "중1–중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.6.3",
+    "strand": "ETH",
+    "field_id": "5.6",
+    "name": "소비와 노동 및 문화의 윤리",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "5.6.4",
+    "strand": "ETH",
+    "field_id": "5.6",
+    "name": "평화와 공존 및 세계시민",
+    "grades_text": "초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.1.1",
+    "strand": "SCI",
+    "field_id": "6.1",
+    "name": "관찰과 측정 및 분류",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "6.1.2",
+    "strand": "SCI",
+    "field_id": "6.1",
+    "name": "질문과 변인 및 실험 설계",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "6.1.3",
+    "strand": "SCI",
+    "field_id": "6.1",
+    "name": "자료 해석과 증거 기반 설명",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "6.1.4",
+    "strand": "SCI",
+    "field_id": "6.1",
+    "name": "과학적 모형과 연구 프로젝트",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.2.1",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "힘과 움직임 및 열과 소리",
+    "grades_text": "초3, 초5–초6",
+    "grades": [
+      "G03",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "6.2.2",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "빛과 전기 및 자석",
+    "grades_text": "초4–초6",
+    "grades": [
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "6.2.3",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "운동 법칙과 에너지",
+    "grades_text": "중1, 중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.2.4",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "열과 열역학",
+    "grades_text": "중1, 고2–고3",
+    "grades": [
+      "G07",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.2.5",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "전기회로와 전기장",
+    "grades_text": "중2, 고2–고3",
+    "grades": [
+      "G08",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.2.6",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "자기장과 전자기 유도",
+    "grades_text": "중2, 고2–고3",
+    "grades": [
+      "G08",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.2.7",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "파동과 빛",
+    "grades_text": "중2, 고2–고3",
+    "grades": [
+      "G08",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.2.8",
+    "strand": "SCI",
+    "field_id": "6.2",
+    "name": "현대 물리와 물리 탐구",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.3.1",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "물질의 성질과 상태",
+    "grades_text": "초3–초4",
+    "grades": [
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "6.3.2",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "혼합물과 용해 및 산과 염기",
+    "grades_text": "초5–초6",
+    "grades": [
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "6.3.3",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "입자 모형과 화학 변화",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "6.3.4",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "원자 구조와 주기성",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.3.5",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "화학 결합과 분자 구조",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.3.6",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "몰과 반응의 양적 관계",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.3.7",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "산과 염기 및 산화와 환원",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.3.8",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "반응의 에너지와 화학 평형",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.3.9",
+    "strand": "SCI",
+    "field_id": "6.3",
+    "name": "반응 속도와 촉매",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.1",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "생물의 다양성과 한살이",
+    "grades_text": "초1–초4",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "6.4.2",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "우리 몸과 식물의 기능",
+    "grades_text": "초5–초6, 중1–중2",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "6.4.3",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "세포의 구조와 물질대사",
+    "grades_text": "중1–중2, 고2–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.4",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "항상성과 방어 작용",
+    "grades_text": "중3, 고2–고3",
+    "grades": [
+      "G09",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.5",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "생식과 유전",
+    "grades_text": "중3, 고2–고3",
+    "grades": [
+      "G09",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.6",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "유전 정보의 전달과 발현",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.7",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "진화와 생물다양성",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.8",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "생태계의 구조와 상호작용",
+    "grades_text": "초4, 중3, 고1–고3",
+    "grades": [
+      "G04",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.4.9",
+    "strand": "SCI",
+    "field_id": "6.4",
+    "name": "생명기술의 원리와 영향",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.5.1",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "지표와 물 및 날씨",
+    "grades_text": "초1–초5",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05"
+    ]
+  },
+  {
+    "unit_id": "6.5.2",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "지구와 달 및 태양계",
+    "grades_text": "초4, 초6, 중1",
+    "grades": [
+      "G04",
+      "G06",
+      "G07"
+    ]
+  },
+  {
+    "unit_id": "6.5.3",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "지권과 지질 변화",
+    "grades_text": "중2, 고2–고3",
+    "grades": [
+      "G08",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.5.4",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "대기와 날씨",
+    "grades_text": "중3, 고2–고3",
+    "grades": [
+      "G09",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.5.5",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "해양과 기후 시스템",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.5.6",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "별의 성질과 진화",
+    "grades_text": "중3, 고2–고3",
+    "grades": [
+      "G09",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.5.7",
+    "strand": "SCI",
+    "field_id": "6.5",
+    "name": "은하와 우주 탐구",
+    "grades_text": "중3, 고3",
+    "grades": [
+      "G09",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "6.6.1",
+    "strand": "SCI",
+    "field_id": "6.6",
+    "name": "생활 속 과학과 안전",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "6.6.2",
+    "strand": "SCI",
+    "field_id": "6.6",
+    "name": "과학 지식의 형성과 변화",
+    "grades_text": "중1–중3, 고1",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "6.6.3",
+    "strand": "SCI",
+    "field_id": "6.6",
+    "name": "통합과학의 연결 개념",
+    "grades_text": "고1",
+    "grades": [
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "6.6.4",
+    "strand": "SCI",
+    "field_id": "6.6",
+    "name": "과학 정보와 사회적 의사 결정",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.1.1",
+    "strand": "TEC",
+    "field_id": "7.1",
+    "name": "나의 성장과 생활 역할",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "7.1.2",
+    "strand": "TEC",
+    "field_id": "7.1",
+    "name": "청소년 발달과 관계",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "7.1.3",
+    "strand": "TEC",
+    "field_id": "7.1",
+    "name": "가족의 다양성과 돌봄",
+    "grades_text": "초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.1.4",
+    "strand": "TEC",
+    "field_id": "7.1",
+    "name": "아동발달과 부모의 역할",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.2.1",
+    "strand": "TEC",
+    "field_id": "7.2",
+    "name": "식품과 식사 준비",
+    "grades_text": "초5–초6",
+    "grades": [
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "7.2.2",
+    "strand": "TEC",
+    "field_id": "7.2",
+    "name": "옷의 기능과 관리",
+    "grades_text": "초5–초6, 중1–중2",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "7.2.3",
+    "strand": "TEC",
+    "field_id": "7.2",
+    "name": "주거와 생활공간",
+    "grades_text": "중2–중3",
+    "grades": [
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "7.2.4",
+    "strand": "TEC",
+    "field_id": "7.2",
+    "name": "지속가능한 생활문화 탐구",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.3.1",
+    "strand": "TEC",
+    "field_id": "7.3",
+    "name": "생활자원과 시간 관리",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "7.3.2",
+    "strand": "TEC",
+    "field_id": "7.3",
+    "name": "합리적 소비와 소비자 권리",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "7.3.3",
+    "strand": "TEC",
+    "field_id": "7.3",
+    "name": "가계와 생애 설계",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.3.4",
+    "strand": "TEC",
+    "field_id": "7.3",
+    "name": "일상생활과 사회정서적 자립",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.4.1",
+    "strand": "TEC",
+    "field_id": "7.4",
+    "name": "생활 문제 발견과 구상",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "7.4.2",
+    "strand": "TEC",
+    "field_id": "7.4",
+    "name": "재료와 도구 및 제작",
+    "grades_text": "초3–초6, 중1–중3",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "7.4.3",
+    "strand": "TEC",
+    "field_id": "7.4",
+    "name": "설계 조건과 대안 비교",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "7.4.4",
+    "strand": "TEC",
+    "field_id": "7.4",
+    "name": "시제품 시험과 개선",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.5.1",
+    "strand": "TEC",
+    "field_id": "7.5",
+    "name": "생산과 재배 및 생활기술",
+    "grades_text": "초5–초6",
+    "grades": [
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "7.5.2",
+    "strand": "TEC",
+    "field_id": "7.5",
+    "name": "제조와 건설 기술",
+    "grades_text": "중2",
+    "grades": [
+      "G08"
+    ]
+  },
+  {
+    "unit_id": "7.5.3",
+    "strand": "TEC",
+    "field_id": "7.5",
+    "name": "수송과 에너지 기술",
+    "grades_text": "중2–중3, 고1",
+    "grades": [
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "7.5.4",
+    "strand": "TEC",
+    "field_id": "7.5",
+    "name": "생명기술과 지속가능한 기술",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.6.1",
+    "strand": "TEC",
+    "field_id": "7.6",
+    "name": "발명과 아이디어 표현",
+    "grades_text": "초4–초6, 중1–중3",
+    "grades": [
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "7.6.2",
+    "strand": "TEC",
+    "field_id": "7.6",
+    "name": "센서와 제어 및 로봇",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.6.3",
+    "strand": "TEC",
+    "field_id": "7.6",
+    "name": "융합공학 설계",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "7.6.4",
+    "strand": "TEC",
+    "field_id": "7.6",
+    "name": "지식재산과 기술의 사회적 책임",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.1.1",
+    "strand": "INF",
+    "field_id": "8.1",
+    "name": "디지털 기기와 기본 사용",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "8.1.2",
+    "strand": "INF",
+    "field_id": "8.1",
+    "name": "하드웨어와 소프트웨어",
+    "grades_text": "중1",
+    "grades": [
+      "G07"
+    ]
+  },
+  {
+    "unit_id": "8.1.3",
+    "strand": "INF",
+    "field_id": "8.1",
+    "name": "네트워크와 연결",
+    "grades_text": "중2–중3, 고1",
+    "grades": [
+      "G08",
+      "G09",
+      "G10"
+    ]
+  },
+  {
+    "unit_id": "8.1.4",
+    "strand": "INF",
+    "field_id": "8.1",
+    "name": "피지컬 컴퓨팅과 시스템 설계",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.2.1",
+    "strand": "INF",
+    "field_id": "8.2",
+    "name": "자료와 디지털 표현",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "8.2.2",
+    "strand": "INF",
+    "field_id": "8.2",
+    "name": "데이터의 표현과 구조",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "8.2.3",
+    "strand": "INF",
+    "field_id": "8.2",
+    "name": "수집과 정제 및 시각화",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.2.4",
+    "strand": "INF",
+    "field_id": "8.2",
+    "name": "데이터 모델링과 평가",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.3.1",
+    "strand": "INF",
+    "field_id": "8.3",
+    "name": "순서와 반복 및 조건",
+    "grades_text": "초3–초6",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "8.3.2",
+    "strand": "INF",
+    "field_id": "8.3",
+    "name": "변수와 자료 및 함수",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "8.3.3",
+    "strand": "INF",
+    "field_id": "8.3",
+    "name": "문제 분해와 알고리즘 설계",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.3.4",
+    "strand": "INF",
+    "field_id": "8.3",
+    "name": "검증과 오류 수정 및 효율",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.4.1",
+    "strand": "INF",
+    "field_id": "8.4",
+    "name": "인공지능의 사례와 한계",
+    "grades_text": "초5–초6",
+    "grades": [
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "8.4.2",
+    "strand": "INF",
+    "field_id": "8.4",
+    "name": "데이터와 학습의 관계",
+    "grades_text": "초6, 중2–중3",
+    "grades": [
+      "G06",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "8.4.3",
+    "strand": "INF",
+    "field_id": "8.4",
+    "name": "학습 방법과 모델 평가",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.4.4",
+    "strand": "INF",
+    "field_id": "8.4",
+    "name": "생성형 AI와 책임 있는 활용",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.5.1",
+    "strand": "INF",
+    "field_id": "8.5",
+    "name": "디지털 예절과 개인정보",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "8.5.2",
+    "strand": "INF",
+    "field_id": "8.5",
+    "name": "저작권과 정보 신뢰성",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "8.5.3",
+    "strand": "INF",
+    "field_id": "8.5",
+    "name": "보안 위협과 예방",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.5.4",
+    "strand": "INF",
+    "field_id": "8.5",
+    "name": "디지털 격차와 AI의 영향",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.6.1",
+    "strand": "INF",
+    "field_id": "8.6",
+    "name": "문제와 사용자 정의",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "8.6.2",
+    "strand": "INF",
+    "field_id": "8.6",
+    "name": "구현과 협업",
+    "grades_text": "중2–중3, 고1–고2",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11"
+    ]
+  },
+  {
+    "unit_id": "8.6.3",
+    "strand": "INF",
+    "field_id": "8.6",
+    "name": "평가와 개선",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "8.6.4",
+    "strand": "INF",
+    "field_id": "8.6",
+    "name": "발표와 재현 가능한 공유",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.1.1",
+    "strand": "ART",
+    "field_id": "9.1",
+    "name": "소리와 리듬 및 가락",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "9.1.2",
+    "strand": "ART",
+    "field_id": "9.1",
+    "name": "노래와 악기 연주",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "9.1.3",
+    "strand": "ART",
+    "field_id": "9.1",
+    "name": "음악 감상과 문화 이해",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "9.1.4",
+    "strand": "ART",
+    "field_id": "9.1",
+    "name": "음악 창작과 변형",
+    "grades_text": "초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.1.5",
+    "strand": "ART",
+    "field_id": "9.1",
+    "name": "연주 해석과 감상 비평",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.2.1",
+    "strand": "ART",
+    "field_id": "9.2",
+    "name": "감각과 관찰 및 미적 발견",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "9.2.2",
+    "strand": "ART",
+    "field_id": "9.2",
+    "name": "조형 요소와 재료 탐색",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "9.2.3",
+    "strand": "ART",
+    "field_id": "9.2",
+    "name": "주제와 표현 계획",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "9.2.4",
+    "strand": "ART",
+    "field_id": "9.2",
+    "name": "작품 감상과 문화적 맥락",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.2.5",
+    "strand": "ART",
+    "field_id": "9.2",
+    "name": "창작의 성찰과 비평",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.3.1",
+    "strand": "ART",
+    "field_id": "9.3",
+    "name": "생활 속 예술과 시각문화",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "9.3.2",
+    "strand": "ART",
+    "field_id": "9.3",
+    "name": "디지털 음악과 시각 표현",
+    "grades_text": "초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.3.3",
+    "strand": "ART",
+    "field_id": "9.3",
+    "name": "예술과 사회 및 문화적 관점",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "9.3.4",
+    "strand": "ART",
+    "field_id": "9.3",
+    "name": "매체 표현과 책임 있는 공유",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.1.1",
+    "strand": "PHE",
+    "field_id": "10.1",
+    "name": "기본 움직임과 신체 인식",
+    "grades_text": "초1–초4",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "unit_id": "10.1.2",
+    "strand": "PHE",
+    "field_id": "10.1",
+    "name": "체력 요소와 운동 방법",
+    "grades_text": "초3–초6, 중1–중3",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.1.3",
+    "strand": "PHE",
+    "field_id": "10.1",
+    "name": "운동 계획과 자기 관리",
+    "grades_text": "초5–초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.1.4",
+    "strand": "PHE",
+    "field_id": "10.1",
+    "name": "평생 신체활동과 건강",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.2.1",
+    "strand": "PHE",
+    "field_id": "10.2",
+    "name": "놀이와 기본 스포츠 기능",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "10.2.2",
+    "strand": "PHE",
+    "field_id": "10.2",
+    "name": "종목의 원리와 기능",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.2.3",
+    "strand": "PHE",
+    "field_id": "10.2",
+    "name": "전략과 팀 협력",
+    "grades_text": "초5–초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.2.4",
+    "strand": "PHE",
+    "field_id": "10.2",
+    "name": "스포츠 문화와 과학",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.3.1",
+    "strand": "PHE",
+    "field_id": "10.3",
+    "name": "리듬과 움직임 표현",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "10.3.2",
+    "strand": "PHE",
+    "field_id": "10.3",
+    "name": "표현 요소의 조합",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.3.3",
+    "strand": "PHE",
+    "field_id": "10.3",
+    "name": "협력적 구성과 감상",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.4.1",
+    "strand": "PHE",
+    "field_id": "10.4",
+    "name": "위생과 수면 및 생활습관",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "10.4.2",
+    "strand": "PHE",
+    "field_id": "10.4",
+    "name": "감염과 예방 및 건강정보",
+    "grades_text": "초3–초6, 중1–중3",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.4.3",
+    "strand": "PHE",
+    "field_id": "10.4",
+    "name": "건강 위험요인과 예방",
+    "grades_text": "중1–중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.4.4",
+    "strand": "PHE",
+    "field_id": "10.4",
+    "name": "건강관리와 의료 이용",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.5.1",
+    "strand": "PHE",
+    "field_id": "10.5",
+    "name": "감정 알아차리기와 표현",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "10.5.2",
+    "strand": "PHE",
+    "field_id": "10.5",
+    "name": "스트레스와 대처",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.5.3",
+    "strand": "PHE",
+    "field_id": "10.5",
+    "name": "관계와 중독 예방",
+    "grades_text": "중1–중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.5.4",
+    "strand": "PHE",
+    "field_id": "10.5",
+    "name": "도움 요청과 지지 자원",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.6.1",
+    "strand": "PHE",
+    "field_id": "10.6",
+    "name": "몸의 소중함과 경계",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "10.6.2",
+    "strand": "PHE",
+    "field_id": "10.6",
+    "name": "사춘기와 생식 건강",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.6.3",
+    "strand": "PHE",
+    "field_id": "10.6",
+    "name": "동의와 평등한 관계",
+    "grades_text": "초5–초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.6.4",
+    "strand": "PHE",
+    "field_id": "10.6",
+    "name": "성 건강과 정보 판단",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.7.1",
+    "strand": "PHE",
+    "field_id": "10.7",
+    "name": "생활과 교통 및 재난 안전",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "10.7.2",
+    "strand": "PHE",
+    "field_id": "10.7",
+    "name": "활동과 실험 및 디지털 안전",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.7.3",
+    "strand": "PHE",
+    "field_id": "10.7",
+    "name": "응급상황의 판단과 신고",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.7.4",
+    "strand": "PHE",
+    "field_id": "10.7",
+    "name": "응급처치와 공동체 대응",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.8.1",
+    "strand": "PHE",
+    "field_id": "10.8",
+    "name": "건강정보와 광고",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "10.8.2",
+    "strand": "PHE",
+    "field_id": "10.8",
+    "name": "건강권과 접근성",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.8.3",
+    "strand": "PHE",
+    "field_id": "10.8",
+    "name": "건강문화와 환경 변화",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "10.8.4",
+    "strand": "PHE",
+    "field_id": "10.8",
+    "name": "공동체 건강 프로젝트",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.1.1",
+    "strand": "HUM",
+    "field_id": "11.1",
+    "name": "생활 속 질문과 이유 찾기",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "11.1.2",
+    "strand": "HUM",
+    "field_id": "11.1",
+    "name": "나의 삶과 철학함",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.1.3",
+    "strand": "HUM",
+    "field_id": "11.1",
+    "name": "공동체와 철학함",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.1.4",
+    "strand": "HUM",
+    "field_id": "11.1",
+    "name": "생태계와 철학함",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.1.5",
+    "strand": "HUM",
+    "field_id": "11.1",
+    "name": "창조성과 철학함",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.2.1",
+    "strand": "HUM",
+    "field_id": "11.2",
+    "name": "주장과 이유 및 반례",
+    "grades_text": "초3–초6, 중1–중3",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "11.2.2",
+    "strand": "HUM",
+    "field_id": "11.2",
+    "name": "언어와 논증의 오류",
+    "grades_text": "중1–중3, 고1–고3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.2.3",
+    "strand": "HUM",
+    "field_id": "11.2",
+    "name": "연역과 귀납",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.2.4",
+    "strand": "HUM",
+    "field_id": "11.2",
+    "name": "명제와 기호논리",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.2.5",
+    "strand": "HUM",
+    "field_id": "11.2",
+    "name": "과학적 설명과 비판적 검토",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.3.1",
+    "strand": "HUM",
+    "field_id": "11.3",
+    "name": "감정과 행동의 관찰",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "11.3.2",
+    "strand": "HUM",
+    "field_id": "11.3",
+    "name": "마음의 과학적 탐구",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.3.3",
+    "strand": "HUM",
+    "field_id": "11.3",
+    "name": "자기 이해와 인지 및 동기",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.3.4",
+    "strand": "HUM",
+    "field_id": "11.3",
+    "name": "타인 이해와 사회적 행동",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.3.5",
+    "strand": "HUM",
+    "field_id": "11.3",
+    "name": "삶과 적응",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.4.1",
+    "strand": "HUM",
+    "field_id": "11.4",
+    "name": "배움의 습관과 자기 점검",
+    "grades_text": "초1–초6, 중1–중3",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "11.4.2",
+    "strand": "HUM",
+    "field_id": "11.4",
+    "name": "교육의 의미와 목적",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.4.3",
+    "strand": "HUM",
+    "field_id": "11.4",
+    "name": "교육 활동과 학습 원리",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.4.4",
+    "strand": "HUM",
+    "field_id": "11.4",
+    "name": "교육 제도와 기회",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.4.5",
+    "strand": "HUM",
+    "field_id": "11.4",
+    "name": "미래 교육과 평생학습",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.5.1",
+    "strand": "HUM",
+    "field_id": "11.5",
+    "name": "문화 속 종교의 흔적",
+    "grades_text": "초3–초6, 중1–중3",
+    "grades": [
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "11.5.2",
+    "strand": "HUM",
+    "field_id": "11.5",
+    "name": "인간과 종교",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.5.3",
+    "strand": "HUM",
+    "field_id": "11.5",
+    "name": "다양한 종교와 세계관",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.5.4",
+    "strand": "HUM",
+    "field_id": "11.5",
+    "name": "종교와 문화유산",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "11.5.5",
+    "strand": "HUM",
+    "field_id": "11.5",
+    "name": "변화하는 사회와 공존",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "12.1.1",
+    "strand": "CAR",
+    "field_id": "12.1",
+    "name": "흥미와 강점 발견",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "12.1.2",
+    "strand": "CAR",
+    "field_id": "12.1",
+    "name": "가치관과 삶의 모습",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "12.1.3",
+    "strand": "CAR",
+    "field_id": "12.1",
+    "name": "관계와 협력 역량",
+    "grades_text": "초5–초6, 중1–중3",
+    "grades": [
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "12.1.4",
+    "strand": "CAR",
+    "field_id": "12.1",
+    "name": "자기 이해의 갱신",
+    "grades_text": "고1–고3",
+    "grades": [
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "12.2.1",
+    "strand": "CAR",
+    "field_id": "12.2",
+    "name": "생활 속 일과 직업",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "12.2.2",
+    "strand": "CAR",
+    "field_id": "12.2",
+    "name": "직업 정보와 탐색 방법",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "12.2.3",
+    "strand": "CAR",
+    "field_id": "12.2",
+    "name": "사회 변화와 직업의 변화",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "12.2.4",
+    "strand": "CAR",
+    "field_id": "12.2",
+    "name": "체험과 권리 및 책임",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "12.3.1",
+    "strand": "CAR",
+    "field_id": "12.3",
+    "name": "작은 목표와 실천",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "12.3.2",
+    "strand": "CAR",
+    "field_id": "12.3",
+    "name": "진학과 학습 경로 탐색",
+    "grades_text": "중2–중3",
+    "grades": [
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "12.3.3",
+    "strand": "CAR",
+    "field_id": "12.3",
+    "name": "과목 선택과 학업 설계",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "12.3.4",
+    "strand": "CAR",
+    "field_id": "12.3",
+    "name": "전환과 대안 및 평생 진로",
+    "grades_text": "고3",
+    "grades": [
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.1.1",
+    "strand": "ENV",
+    "field_id": "13.1",
+    "name": "환경과 만나는 경험",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "13.1.2",
+    "strand": "ENV",
+    "field_id": "13.1",
+    "name": "장소와 생활의 관계",
+    "grades_text": "초2–초6, 중1–중3",
+    "grades": [
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "13.1.3",
+    "strand": "ENV",
+    "field_id": "13.1",
+    "name": "환경관과 가치",
+    "grades_text": "중3, 고1–고3",
+    "grades": [
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.1.4",
+    "strand": "ENV",
+    "field_id": "13.1",
+    "name": "환경정의와 책임",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.2.1",
+    "strand": "ENV",
+    "field_id": "13.2",
+    "name": "주변 생태계의 관계",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "13.2.2",
+    "strand": "ENV",
+    "field_id": "13.2",
+    "name": "물과 에너지 및 물질의 순환",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "13.2.3",
+    "strand": "ENV",
+    "field_id": "13.2",
+    "name": "생태계와 사회 체계",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.2.4",
+    "strand": "ENV",
+    "field_id": "13.2",
+    "name": "복잡성과 되먹임",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.3.1",
+    "strand": "ENV",
+    "field_id": "13.3",
+    "name": "생활 속 오염과 폐기물",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "13.3.2",
+    "strand": "ENV",
+    "field_id": "13.3",
+    "name": "자원과 소비 및 순환경제",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "13.3.3",
+    "strand": "ENV",
+    "field_id": "13.3",
+    "name": "생물다양성과 토지 이용",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.3.4",
+    "strand": "ENV",
+    "field_id": "13.3",
+    "name": "환경 쟁점의 의사결정",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.4.1",
+    "strand": "ENV",
+    "field_id": "13.4",
+    "name": "날씨와 기후 및 생활",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "13.4.2",
+    "strand": "ENV",
+    "field_id": "13.4",
+    "name": "기후변화의 근거와 영향",
+    "grades_text": "초6, 중1–중3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "13.4.3",
+    "strand": "ENV",
+    "field_id": "13.4",
+    "name": "감축과 적응",
+    "grades_text": "중2–중3, 고1–고3",
+    "grades": [
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.4.4",
+    "strand": "ENV",
+    "field_id": "13.4",
+    "name": "기후정책과 공정한 전환",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.5.1",
+    "strand": "ENV",
+    "field_id": "13.5",
+    "name": "생활 습관의 점검과 변화",
+    "grades_text": "초1–초6",
+    "grades": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06"
+    ]
+  },
+  {
+    "unit_id": "13.5.2",
+    "strand": "ENV",
+    "field_id": "13.5",
+    "name": "지속가능한 선택",
+    "grades_text": "중1–중3",
+    "grades": [
+      "G07",
+      "G08",
+      "G09"
+    ]
+  },
+  {
+    "unit_id": "13.5.3",
+    "strand": "ENV",
+    "field_id": "13.5",
+    "name": "공동체 조사와 참여",
+    "grades_text": "초6, 중1–중3, 고1–고3",
+    "grades": [
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "G10",
+      "G11",
+      "G12"
+    ]
+  },
+  {
+    "unit_id": "13.5.4",
+    "strand": "ENV",
+    "field_id": "13.5",
+    "name": "프로젝트의 실행과 평가",
+    "grades_text": "고2–고3",
+    "grades": [
+      "G11",
+      "G12"
+    ]
+  }
+]
