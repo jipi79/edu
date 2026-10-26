@@ -172,8 +172,9 @@ function jamo(html) {
 }
 
 function tableHtml(t) {
-  const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${jamo(esc(h))}</th>`).join("")}</tr>` : "";
-  const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${jamo(esc(c))}</th>` : `<td style="height:9mm; min-width:18mm; text-align:center">${jamo(esc(c))}</td>`);
+  const br = (s) => jamo(esc(s)).replace(/\n/g, "<br>");
+  const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${br(h)}</th>`).join("")}</tr>` : "";
+  const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${br(c)}</th>` : `<td style="height:9mm; min-width:18mm; text-align:center">${br(c)}</td>`);
   const rows = t.rows.map((r) => `<tr>${r.map(cell).join("")}</tr>`).join("");
   // widths(합이 1인 비율)가 있으면 열 너비를 그 비율로 나눈다.
   const cols = t.widths ? `<colgroup>${t.widths.map((f) => `<col style="width:${(f * 100).toFixed(1)}%">`).join("")}</colgroup>` : "";

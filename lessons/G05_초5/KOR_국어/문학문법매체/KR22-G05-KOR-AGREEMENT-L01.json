@@ -33,6 +33,16 @@
       "text": "자료 출처 확인",
       "lesson": "KR22-G05-KOR-SOURCE-L01",
       "grade_item": "KR22-G05-KOR-I03"
+    },
+    {
+      "text": "바르고 고운 말",
+      "lesson": "KR22-G02-KOR-POLITE-L01",
+      "grade_item": "KR22-G02-KOR-I03"
+    },
+    {
+      "text": "문장의 기본 짜임",
+      "lesson": "KR22-G04-KOR-SENTFORM-L01",
+      "grade_item": "KR22-G04-KOR-I03"
     }
   ],
   "objectives": [

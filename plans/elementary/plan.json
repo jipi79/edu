@@ -4814,7 +4814,9 @@
   "objective": "의견과 이유를 구별하고 알맞은 이유를 든다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G03-KOR-PARAGRAPH-L01"
+  ],
   "file_stem": "초4_국어_토의와쓰기_01_의견과이유",
   "source": "lessons/G04_초4/KOR_국어/토의와쓰기/KR22-G04-KOR-OPINION-L01.json",
   "status": "제작 완료"
@@ -4891,7 +4893,9 @@
   "objective": "‘누가/무엇이’와 ‘어찌하다/어떠하다/무엇이다’로 문장의 짜임을 살핀다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G01-KOR-SENTENCE-L01"
+  ],
   "file_stem": "초4_국어_언어문학매체_01_문장의기본짜임",
   "source": "lessons/G04_초4/KOR_국어/언어문학매체/KR22-G04-KOR-SENTFORM-L01.json",
   "status": "제작 완료"
@@ -6696,7 +6700,9 @@
   "objective": "이야기의 인물·사건·배경을 파악하고 서로의 관계를 설명한다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G03-KOR-CHARACTER-L01"
+  ],
   "file_stem": "초5_국어_문학문법매체_01_인물·사건·배경",
   "source": "lessons/G05_초5/KOR_국어/문학문법매체/KR22-G05-KOR-STORYELEM-L01.json",
   "status": "제작 완료"
@@ -6722,7 +6728,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-KOR-STORYELEM-L01"
+   "KR22-G05-KOR-STORYELEM-L01",
+   "KR22-G04-KOR-MEDIACOMP-L01"
   ],
   "file_stem": "초5_국어_문학문법매체_02_자료출처확인",
   "source": "lessons/G05_초5/KOR_국어/문학문법매체/KR22-G05-KOR-SOURCE-L01.json",
@@ -6749,7 +6756,9 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-KOR-SOURCE-L01"
+   "KR22-G05-KOR-SOURCE-L01",
+   "KR22-G02-KOR-POLITE-L01",
+   "KR22-G04-KOR-SENTFORM-L01"
   ],
   "file_stem": "초5_국어_문학문법매체_03_문장표현점검",
   "source": "lessons/G05_초5/KOR_국어/문학문법매체/KR22-G05-KOR-AGREEMENT-L01.json",
@@ -8824,7 +8833,7 @@
   ],
   "file_stem": "초6_국어_토론과글쓰기_03_독자를생각하며고쳐쓰기",
   "source": "lessons/G06_초6/KOR_국어/토론과글쓰기/KR22-G06-KOR-REVISE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-INTERPRET-L01",
@@ -8928,7 +8937,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_01_분수의나눗셈1",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-FRACDIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-FRACDIV2-L01",
@@ -9188,7 +9197,7 @@
   ],
   "file_stem": "초6_수학_입체와측정_03_쌓기나무와공간감각",
   "source": "lessons/G06_초6/MAT_수학/입체와측정/KR22-G06-MAT-VIEWS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-SURFACE-L01",

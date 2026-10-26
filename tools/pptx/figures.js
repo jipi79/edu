@@ -1,7 +1,7 @@
 // 교육용 그림 라이브러리. 모든 그림은 PowerPoint 도형·표·차트로 그려 수량이 정확하고 고칠 수 있다.
 // 각 함수는 주어진 상자 box={x,y,w,h} 안에 들어가도록 크기를 정하고 가운데에 놓는다.
 const { P, TINT, textOpts, colorOf } = require("./style");
-const { widthIn } = require("./fit");
+const { widthIn, countLines } = require("./fit");
 
 const INK = P.dk1;
 
@@ -320,28 +320,31 @@ function blocks10(deck, slide, sid, fig, box) {
 // ---------- 표 ----------
 function table(deck, slide, sid, fig, box) {
   const cols = (fig.headers || fig.rows[0]).length;
-  const rows = fig.rows.length + (fig.headers ? 1 : 0);
-  let pt = fig.size || deck.style.small;
-  const rowH = () => Math.max(0.4, (pt * 1.55) / 72);
-  while (pt > 16 && rows * rowH() > box.h) pt -= 2;
-  if (rows * rowH() > box.h + 0.02) deck.problems.push(`${sid}: 표(${rows}줄)가 자리에 들어가지 않는다(필요 ${(rows * rowH()).toFixed(2)}in > ${box.h.toFixed(2)}in). 줄이나 옆의 글을 줄인다`);
+  const allRows = [...(fig.headers ? [fig.headers] : []), ...fig.rows];
   const w = Math.min(box.w, fig.width || Math.max(cols * 1.8, 4));
   if (fig.widths && Math.abs(fig.widths.reduce((s, f) => s + f, 0) - 1) > 0.02) deck.problems.push(`${sid}: 표 widths는 합이 1인 비율로 쓴다(지금 합 ${fig.widths.reduce((s, f) => s + f, 0)})`);
   const colW = fig.widths ? fig.widths.map((f) => w * f) : Array.from({ length: cols }, () => w / cols);
   // 낱자(ㄱ, ㅏ 같은 호환용 자모)는 글꼴에서 작게 그려지므로 크게 쓴다
   const JAMO = /^[\u3131-\u318E]+$/;
+  let pt = fig.size || deck.style.small;
+  // 줄마다 가장 많은 줄 수를 가진 칸에 맞춰 높이를 정한다(두 줄 칸이 있으면 그 줄만 높게).
+  const heights = () => allRows.map((r) => {
+    const lines = Math.max(...r.map((t, i) => countLines(String(t), colW[i] - 0.1, JAMO.test(String(t)) ? pt * 1.4 : pt)));
+    return Math.max(0.4, (pt * 1.55) / 72, (lines * pt * 1.22) / 72 + 0.12);
+  });
+  const total = () => heights().reduce((s, v) => s + v, 0);
+  while (pt > 16 && total() > box.h) pt -= 2;
+  if (total() > box.h + 0.02) deck.problems.push(`${sid}: 표(${allRows.length}줄)가 자리에 들어가지 않는다(필요 ${total().toFixed(2)}in > ${box.h.toFixed(2)}in). 줄이나 옆의 글을 줄인다`);
+  const rowH = heights();
   const cell = (t, head) => ({
     text: String(t), options: { bold: !!head, fill: { color: head ? P.lt2 : P.lt1 }, color: INK, align: fig.align || "center", valign: "middle", fontFace: deck.font, fontSize: JAMO.test(String(t)) ? Math.round(pt * 1.4) : pt },
   });
-  // 칸마다 글이 들어가는지 본다(칸 높이에 두 줄까지)
-  const allRows = [...(fig.headers ? [fig.headers] : []), ...fig.rows];
-  allRows.forEach((r) => r.forEach((t, i) => deck.checkFit(sid, String(t), colW[i] - 0.1, Math.max(rowH(), (pt * 2.5) / 72), [pt])));
   const data = [];
   if (fig.headers) data.push(fig.headers.map((t) => cell(t, true)));
   fig.rows.forEach((r) => data.push(r.map((t, i) => cell(t, fig.firstColHead && i === 0))));
-  const h = rows * rowH();
+  const h = rowH.reduce((s, v) => s + v, 0);
   slide.addTable(data, {
-    x: box.x + (box.w - w) / 2, y: box.y + (box.h - h) / 2, w, colW, rowH: rowH(),
+    x: box.x + (box.w - w) / 2, y: box.y + (box.h - h) / 2, w, colW, rowH,
     border: { type: "solid", pt: 1, color: "94A3B8" }, margin: 3, objectName: deck.name(sid, "table"),
   });
 }
