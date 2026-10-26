@@ -142,7 +142,7 @@ function geoPrims(fig, em) {
   }
   for (const s of fig.segments || []) {
     const [a, b] = segEnds(fig, s);
-    out.push({ k: "line", a, b, w: s.width || 2.25, color: s.color || "ink", dash: !!s.dash, arrowStart: s.arrow === "start" || s.arrow === "both", arrowEnd: s.arrow === "end" || s.arrow === "both", main: true });
+    out.push({ k: "line", a, b, w: s.width || 2.25, color: s.color || "ink", dash: !!s.dash, arrowStart: s.arrow === "start" || s.arrow === "both", arrowEnd: s.arrow === true || s.arrow === "end" || s.arrow === "both", main: true });
   }
   // 같은 길이 표시(ticks)와 길이 이름표는 모든 변(다각형의 변·선분)에 줄 수 있다.
   const sides = [];
