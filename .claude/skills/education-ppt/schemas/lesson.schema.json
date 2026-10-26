@@ -2,64 +2,346 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "수업 모듈(한 차시) 원본",
   "type": "object",
-  "required": ["id", "concept_id", "title", "grade", "grade_label", "band", "strand", "strand_label", "unit_folder",
-               "sequence", "file_stem", "minutes", "mode", "status", "curriculum", "prerequisites", "objectives",
-               "materials", "boundary", "misconceptions", "checks", "slides"],
+  "required": [
+    "id",
+    "concept_id",
+    "title",
+    "grade",
+    "grade_label",
+    "band",
+    "strand",
+    "strand_label",
+    "unit_folder",
+    "sequence",
+    "file_stem",
+    "minutes",
+    "mode",
+    "status",
+    "curriculum",
+    "prerequisites",
+    "objectives",
+    "materials",
+    "boundary",
+    "misconceptions",
+    "slides",
+    "worksheet"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^KR22-G(0[1-9]|1[0-2])-[A-Z]{3}-[A-Z0-9-]+-L[0-9]{2}$" },
-    "concept_id": { "type": "string" },
-    "title": { "type": "string", "minLength": 1 },
-    "grade": { "type": "string", "pattern": "^G(0[1-9]|1[0-2])$" },
-    "band": { "enum": ["E12", "E34", "E56", "M", "H"] },
-    "strand": { "enum": ["KOR", "MAT", "ENG", "SOC", "ETH", "SCI", "TEC", "INF", "ART", "PHE", "HUM", "CAR", "ENV"] },
-    "sequence": { "type": "integer", "minimum": 1 },
-    "minutes": { "type": "integer", "minimum": 5, "maximum": 120 },
-    "mode": { "enum": ["home-1to1", "classroom", "self-study"] },
-    "status": { "enum": ["계획", "원고 완료", "제작 완료", "검토 완료", "배포"] },
+    "id": {
+      "type": "string",
+      "pattern": "^KR22-G(0[1-9]|1[0-2])-[A-Z]{3}-[A-Z0-9-]+-L[0-9]{2}$"
+    },
+    "concept_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "grade": {
+      "type": "string",
+      "pattern": "^G(0[1-9]|1[0-2])$"
+    },
+    "band": {
+      "enum": [
+        "E12",
+        "E34",
+        "E56",
+        "M",
+        "H"
+      ]
+    },
+    "strand": {
+      "enum": [
+        "KOR",
+        "MAT",
+        "ENG",
+        "SOC",
+        "ETH",
+        "SCI",
+        "TEC",
+        "INF",
+        "ART",
+        "PHE",
+        "HUM",
+        "CAR",
+        "ENV"
+      ]
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "minutes": {
+      "type": "integer",
+      "minimum": 5,
+      "maximum": 120
+    },
+    "mode": {
+      "enum": [
+        "home-1to1",
+        "classroom",
+        "self-study"
+      ]
+    },
+    "status": {
+      "enum": [
+        "계획",
+        "원고 완료",
+        "제작 완료",
+        "검토 완료",
+        "배포"
+      ]
+    },
     "curriculum": {
       "type": "object",
-      "required": ["version", "grade_items", "units", "standard_code", "link_status"],
+      "required": [
+        "version",
+        "grade_items",
+        "units",
+        "standard_code",
+        "link_status"
+      ],
       "properties": {
-        "grade_items": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
-        "units": { "type": "array", "items": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" }, "minItems": 1 },
-        "standard_code": { "type": ["string", "null"] },
-        "link_status": { "enum": ["확인됨", "부분 확인", "자체 확장"] }
+        "grade_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "units": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+          },
+          "minItems": 1
+        },
+        "standard_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "link_status": {
+          "enum": [
+            "확인됨",
+            "부분 확인",
+            "자체 확장"
+          ]
+        }
       }
     },
     "prerequisites": {
       "type": "array",
-      "items": { "type": "object", "required": ["text"], "properties": { "lesson": { "type": ["string", "null"] }, "grade_item": { "type": ["string", "null"] } } }
+      "items": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "lesson": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "grade_item": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
     },
     "objectives": {
-      "type": "array", "minItems": 1, "maxItems": 3,
-      "items": { "type": "object", "required": ["id", "text", "evidence", "success"] }
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "evidence",
+          "success"
+        ]
+      }
     },
-    "materials": { "type": "array", "items": { "type": "string" } },
-    "misconceptions": { "type": "array", "items": { "type": "object", "required": ["id", "text", "response"] } },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text",
+          "response"
+        ]
+      }
+    },
     "checks": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["type"],
-        "properties": { "type": { "enum": ["equiv", "not_equiv", "blank", "bar"] } }
-      }
-    },
-    "slides": {
-      "type": "array", "minItems": 1,
-      "items": {
-        "type": "object",
-        "required": ["id", "layout", "section", "purpose", "role", "objectives", "title", "notes"],
+        "required": [
+          "type"
+        ],
         "properties": {
-          "id": { "type": "string", "pattern": "^S[0-9]{2}$" },
-          "layout": { "enum": ["cover", "content", "closing", "support"] },
-          "role": { "enum": ["intro", "prior", "teach", "practice", "check", "feedback", "review", "support"] },
-          "teacher_only": { "type": "boolean" },
-          "objectives": { "type": "array", "items": { "type": "string" } },
-          "blocks": { "type": "array", "items": { "type": "object", "required": ["type"] } },
-          "notes": { "type": "object", "required": ["목적", "시간"] }
+          "type": {
+            "enum": [
+              "equiv",
+              "not_equiv",
+              "blank",
+              "bar",
+              "count"
+            ]
+          }
         }
       }
     },
-    "worksheet": { "type": "object", "required": ["title", "items"] }
+    "slides": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "section",
+          "purpose",
+          "role",
+          "objectives",
+          "title",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^S[0-9]{2}$"
+          },
+          "layout": {
+            "enum": [
+              "cover",
+              "content",
+              "closing",
+              "support"
+            ]
+          },
+          "role": {
+            "enum": [
+              "intro",
+              "prior",
+              "teach",
+              "practice",
+              "check",
+              "feedback",
+              "review",
+              "support"
+            ]
+          },
+          "teacher_only": {
+            "type": "boolean"
+          },
+          "objectives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type"
+              ]
+            }
+          },
+          "notes": {
+            "type": "object",
+            "required": [
+              "목적",
+              "시간",
+              "말하기"
+            ],
+            "properties": {
+              "말하기": {
+                "type": "array",
+                "minItems": 1
+              }
+            }
+          },
+          "kind": {
+            "enum": [
+              "cover",
+              "concept",
+              "steps",
+              "practice",
+              "check",
+              "choice",
+              "compare",
+              "passage",
+              "cards",
+              "table",
+              "chart",
+              "activity",
+              "answers",
+              "summary",
+              "support",
+              "blocks"
+            ]
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "kind"
+            ]
+          },
+          {
+            "required": [
+              "blocks"
+            ]
+          }
+        ]
+      }
+    },
+    "worksheet": {
+      "type": "object",
+      "required": [
+        "title",
+        "items"
+      ],
+      "properties": {
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "no",
+              "prompt",
+              "answer"
+            ]
+          }
+        }
+      }
+    },
+    "format": {
+      "enum": [
+        "ppt",
+        "act"
+      ]
+    },
+    "plan_objective": {
+      "type": "string"
+    }
   }
 }

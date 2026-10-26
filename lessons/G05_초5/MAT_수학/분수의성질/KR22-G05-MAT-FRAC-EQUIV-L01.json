@@ -11,6 +11,7 @@
   "sequence": 1,
   "file_stem": "초5_수학_분수의성질_01_크기가같은분수",
   "minutes": 40,
+  "break_after": "S08",
   "mode": "home-1to1",
   "status": "제작 완료",
   "curriculum": {
@@ -23,7 +24,7 @@
   },
   "prerequisites": [
     { "text": "같은 크기의 전체를 똑같이 나누는 뜻(등분)", "lesson": null, "grade_item": "KR22-G03-MAT-I02" },
-    { "text": "분자와 분모의 뜻", "lesson": null, "grade_item": "KR22-G03-MAT-I02" },
+    { "text": "분자와 분모의 뜻(단위분수와 크기 비교)", "lesson": "KR22-G03-MAT-UNITFRAC-L01", "grade_item": "KR22-G03-MAT-I02" },
     { "text": "자연수의 곱셈과 나눗셈(곱셈구구 범위)", "lesson": null, "grade_item": "KR22-G03-MAT-I01" }
   ],
   "objectives": [

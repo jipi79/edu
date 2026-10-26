@@ -4,41 +4,18 @@
 //
 //   node tools/pptx/build_lesson.js <lesson.json> [--out <dir>]
 //
-// 그림(분수 막대, 격자, 분수 표기)은 모두 PowerPoint 도형과 텍스트 상자로 그려서
-// 수량과 눈금이 정확하고 PowerPoint에서 바로 고칠 수 있게 한다.
+// 장은 두 가지 방식으로 쓸 수 있다.
+//   kind   : 내용만 쓰면 kinds.js가 자동으로 배치한다(기본).
+//   blocks : 좌표를 직접 주는 방식(특수한 그림이 필요할 때).
+// 그림(분수 막대, 수직선, 시계 등)은 모두 PowerPoint 도형·표·차트로 그려 수량이 정확하고 고칠 수 있다.
+// 글이 상자에 들어가지 않으면 빌드가 실패한다. 원고의 문장을 줄이거나 장을 나눈다.
 const fs = require("fs");
 const path = require("path");
 const pptxgen = require("pptxgenjs");
 const JSZip = require(require.resolve("jszip", { paths: [require.resolve("pptxgenjs")] }));
-
-const FONT = "맑은 고딕";
-const LANG = "ko-KR";
-const W = 13.333;
-const H = 7.5;
-
-const THEME = {
-  name: "Education Classroom",
-  colors: {
-    dk1: "1F2937", lt1: "FFFFFF", dk2: "264653", lt2: "EAF3F1",
-    accent1: "E9762B", accent2: "2A9D8F", accent3: "C8434E", accent4: "3D5A80",
-    accent5: "F2C14E", accent6: "4B5563", hlink: "3D5A80", folHlink: "7A4E8A",
-  },
-};
-const P = THEME.colors;
-// 테마 슬롯에 없는 옅은 색. 카드와 칩의 배경에만 쓴다.
-const TINT = {
-  tint: P.lt2, accent: "FDEBDD", good: "E3F4F1", bad: "FBE6E7", info: "E6ECF4",
-  onDark: "32606F", support: "F4F7F6", onDarkMuted: "C9DCD8",
-};
-
-// 학년군별 글자 크기(pt). 화면 투사 기준 본문 24~30pt, 저학년은 더 크게.
-const BAND = {
-  E12: { title: 44, body: 32, small: 26 },
-  E34: { title: 40, body: 30, small: 24 },
-  E56: { title: 40, body: 28, small: 22 },
-  M: { title: 36, body: 26, small: 20 },
-  H: { title: 36, body: 24, small: 20 },
-};
+const { FONT, LANG, THEME, P, TINT, BAND, textOpts, sizeOf, colorOf } = require("./style");
+const { heightOf, widthIn } = require("./fit");
+const { KINDS } = require("./kinds");
 
 function parseArgs(argv) {
   const args = { lesson: null, out: null };
@@ -54,45 +31,16 @@ function defaultOutDir(lesson) {
   return path.join("dist", lesson.grade_label, lesson.strand_label, lesson.unit_folder);
 }
 
-// ---------- 텍스트 공통 ----------
-
-// margin: pt 단위. 배열이면 [왼쪽, 오른쪽, 아래, 위] 순서다(pptxgenjs).
-function textOpts(extra) {
-  return { fontFace: FONT, lang: LANG, isTextBox: true, ...extra };
-}
-
-function sizeOf(style, size, fallback) {
-  if (typeof size === "number") return size;
-  return style[size || fallback];
-}
-
-function colorOf(name) {
-  const map = {
-    ink: P.dk1, muted: P.accent6, onDark: P.lt1, onDarkMuted: TINT.onDarkMuted,
-    accent: P.accent1, good: P.accent2, bad: P.accent3, info: P.accent4,
-  };
-  return map[name || "ink"] || name;
-}
-
-// ---------- 분수 표기 ----------
-
-function fracMetrics(pt, n, d) {
-  const lh = (pt * 1.18) / 72;
-  const digits = Math.max(String(n ?? "0").length, String(d ?? "0").length);
-  const w = Math.max((0.58 * pt * digits) / 72 + 0.18, (pt * 1.05) / 72 + 0.12);
-  return { w, h: lh * 2 + 0.08, lh };
-}
-
-function opWidth(text, pt) {
-  return ((0.62 * pt) / 72) * Math.max(1, [...text].length) + 0.28;
-}
+const DEFAULT_LAYOUT = { cover: "cover", summary: "closing" };
 
 class Deck {
   constructor(lesson, variant) {
     this.lesson = lesson;
     this.variant = variant;
     this.style = BAND[lesson.band] || BAND.E56;
+    this.font = FONT;
     this.alt = new Map(); // objectName → 대체 설명
+    this.problems = [];
     this.pres = new pptxgen();
     this.pres.layout = "LAYOUT_WIDE";
     this.pres.theme = { headFontFace: FONT, bodyFontFace: FONT };
@@ -127,8 +75,8 @@ class Deck {
         {
           placeholder: {
             options: {
-              name: "title", type: "title", x: 0.8, y: 0.7, w: 7.2, h: 1.3,
-              fontFace: FONT, fontSize: s.title + 8, bold: true, color: P.lt1, valign: "middle", align: "left", margin: 0,
+              name: "title", type: "title", x: 0.8, y: 0.7, w: 7.3, h: 1.3,
+              fontFace: FONT, fontSize: s.title + 6, bold: true, color: P.lt1, valign: "middle", align: "left", margin: 0,
             },
             text: "",
           },
@@ -136,8 +84,8 @@ class Deck {
         {
           placeholder: {
             options: {
-              name: "subtitle", type: "body", x: 0.8, y: 2.1, w: 7.2, h: 1.8,
-              fontFace: FONT, fontSize: s.body + 2, color: TINT.onDarkMuted, valign: "top", margin: 0,
+              name: "subtitle", type: "body", x: 0.8, y: 2.1, w: 7.3, h: 1.8,
+              fontFace: FONT, fontSize: s.body, color: TINT.onDarkMuted, valign: "top", margin: 0,
             },
             text: "",
           },
@@ -170,7 +118,109 @@ class Deck {
     return `${slideId}-${kind}${this.counter}`;
   }
 
-  // ---------- 블록 ----------
+  // ---------- 글자 맞춤 ----------
+
+  textH(text, w, pt) {
+    return heightOf([{ text: String(text), pt }], w);
+  }
+
+  // 들어가는 가장 큰 크기를 고른다. 없으면 문제로 기록하고 가장 작은 크기를 쓴다.
+  checkFit(sid, text, w, h, sizes) {
+    for (const pt of sizes) if (this.textH(text, w, pt) <= h + 0.02) return pt;
+    const pt = sizes[sizes.length - 1];
+    this.problems.push(`${sid}: 글이 넘친다(${pt}pt, 필요 ${this.textH(text, w, pt).toFixed(2)}in > 공간 ${h.toFixed(2)}in): "${String(text).slice(0, 40)}…"`);
+    return pt;
+  }
+
+  para(slide, sid, text, box, opts = {}) {
+    const pt = this.checkFit(sid, text, box.w, box.h, opts.sizes || [this.style.body, this.style.small]);
+    slide.addText(String(text), textOpts({
+      x: box.x, y: box.y, w: box.w, h: box.h, fontSize: pt, bold: !!opts.bold, color: colorOf(opts.color),
+      align: opts.align || "left", valign: opts.valign || "top", margin: 0, objectName: this.name(sid, "text"),
+    }));
+    return pt;
+  }
+
+  cardParas(c, pt) {
+    const s = this.style;
+    const paras = [];
+    if (c.title) paras.push({ text: c.title, pt: pt.title });
+    if (c.text) paras.push({ text: c.text, pt: c.title ? pt.text : pt.lead });
+    (c.items || []).forEach((t) => paras.push({ text: t, pt: pt.item }));
+    return paras;
+  }
+
+  cardSizes() {
+    const s = this.style;
+    return [
+      { title: s.body, lead: s.body, text: s.small, item: s.small },
+      { title: s.small, lead: s.small, text: Math.max(16, s.small - 2), item: Math.max(16, s.small - 2) },
+    ];
+  }
+
+  // 카드의 자연스러운 높이(가장 큰 글자 크기 기준, 최소 0.95in)
+  cardHeight(c, w) {
+    const paras = this.cardParas(c, this.cardSizes()[0]);
+    return Math.max(0.95, heightOf(paras, w - 0.6) + 0.36);
+  }
+
+  cardFit(slide, sid, box, c) {
+    const tones = { tint: TINT.tint, accent: TINT.accent, onDark: TINT.onDark, info: TINT.info, good: TINT.good, bad: TINT.bad };
+    const fill = tones[c.tone || "tint"];
+    slide.addShape(this.pres.shapes.ROUNDED_RECTANGLE, {
+      x: box.x, y: box.y, w: box.w, h: box.h, rectRadius: 0.12, fill: { color: fill }, line: { color: fill, width: 0 },
+      objectName: this.name(sid, "card"),
+    });
+    const innerW = box.w - 0.6;
+    const innerH = box.h - 0.3;
+    const sizes = this.cardSizes();
+    let chosen = sizes.find((pt) => heightOf(this.cardParas(c, pt), innerW) <= innerH + 0.02);
+    if (!chosen) {
+      chosen = sizes[sizes.length - 1];
+      this.problems.push(`${sid}: 카드 글이 넘친다: "${String(c.title || c.text || (c.items || [])[0]).slice(0, 40)}…"`);
+    }
+    const paras = this.cardParas(c, chosen);
+    const runs = paras.map((p, i) => ({
+      text: p.text, options: { fontSize: p.pt, bold: !!c.title && i === 0, breakLine: i < paras.length - 1 },
+    }));
+    const onlyTitle = c.title && !c.text && !(c.items || []).length;
+    slide.addText(runs, textOpts({
+      x: box.x + 0.3, y: box.y + 0.15, w: innerW, h: innerH, color: c.tone === "onDark" ? P.lt1 : P.dk1,
+      valign: onlyTitle ? "top" : "middle", margin: 0, paraSpaceAfter: 6, objectName: this.name(sid, "cardtext"),
+    }));
+  }
+
+  passageBox(slide, sid, box, title, paras) {
+    slide.addShape(this.pres.shapes.ROUNDED_RECTANGLE, {
+      x: box.x, y: box.y, w: box.w, h: box.h, rectRadius: 0.1, fill: { color: P.lt1 }, line: { color: P.dk2, width: 1.5 },
+      objectName: this.name(sid, "passagebox"),
+    });
+    const s = this.style;
+    const innerW = box.w - 0.6;
+    const innerH = box.h - 0.4;
+    const sizes = [s.body, s.body - 2, s.small, Math.max(16, s.small - 2), Math.max(16, s.small - 4)];
+    const build = (pt) => [...(title ? [{ text: title, pt: pt + 2 }] : []), ...paras.map((t) => ({ text: t, pt }))];
+    let pt = sizes.find((p) => heightOf(build(p), innerW, 8) <= innerH + 0.02);
+    if (!pt) {
+      pt = sizes[sizes.length - 1];
+      this.problems.push(`${sid}: 지문이 넘친다. 지문을 줄이거나 두 장으로 나눈다`);
+    }
+    const list = build(pt);
+    slide.addText(list.map((p, i) => ({ text: p.text, options: { fontSize: p.pt, bold: !!title && i === 0, breakLine: i < list.length - 1 } })), textOpts({
+      x: box.x + 0.3, y: box.y + 0.2, w: innerW, h: innerH, color: P.dk1, valign: "top", margin: 0, paraSpaceAfter: 8, lineSpacingMultiple: 1.05,
+      objectName: this.name(sid, "passage"),
+    }));
+  }
+
+  stepNo(slide, sid, n, x, y, d) {
+    slide.addText(String(n), textOpts({
+      shape: this.pres.shapes.OVAL, x, y, w: d, h: d, fill: { color: P.dk2 }, line: { color: P.dk2, width: 0 },
+      fontSize: Math.min(this.style.small, 24), bold: true, color: P.lt1, align: "center", valign: "middle", margin: 0,
+      objectName: this.name(sid, "stepno"),
+    }));
+  }
+
+  // ---------- 좌표 블록(blocks 방식) ----------
 
   text(slide, sid, b) {
     const s = this.style;
@@ -182,25 +232,7 @@ class Deck {
   }
 
   card(slide, sid, b) {
-    const s = this.style;
-    const dark = b.tone === "onDark";
-    const fill = { tint: TINT.tint, accent: TINT.accent, onDark: TINT.onDark }[b.tone || "tint"];
-    const fg = dark ? P.lt1 : P.dk1;
-    slide.addShape(this.pres.shapes.ROUNDED_RECTANGLE, {
-      x: b.x, y: b.y, w: b.w, h: b.h, rectRadius: 0.12, fill: { color: fill }, line: { color: fill, width: 0 },
-      objectName: this.name(sid, "card"),
-    });
-    const pad = 0.3;
-    const runs = [];
-    if (b.title) runs.push({ text: b.title, options: { bold: true, fontSize: s.body, breakLine: !!(b.text || b.items) } });
-    if (b.text) runs.push({ text: b.text, options: { fontSize: b.title ? s.small : s.body } });
-    (b.items || []).forEach((t, i, arr) => runs.push({ text: t, options: { fontSize: s.small, breakLine: i < arr.length - 1 } }));
-    if (!runs.length) return;
-    const onlyTitle = b.title && !b.text && !b.items;
-    slide.addText(runs, textOpts({
-      x: b.x + pad, y: b.y + (onlyTitle ? 0.2 : 0.12), w: b.w - 2 * pad, h: onlyTitle ? 0.7 : b.h - 0.24,
-      color: fg, valign: onlyTitle ? "top" : "middle", margin: 0, paraSpaceAfter: 6, objectName: this.name(sid, "cardtext"),
-    }));
+    this.cardFit(slide, sid, b, b);
   }
 
   chip(slide, sid, b) {
@@ -211,11 +243,13 @@ class Deck {
       goodOnDark: [P.accent2, P.lt1], badOnDark: [P.accent3, P.lt1],
     };
     const [fill, fg] = tones[b.tone || "info"];
-    const size = sizeOf(s, b.size, b.tone === "label" ? "body" : "small");
+    const sizes = b.tone === "label" ? [sizeOf(s, b.size, "body")] : [sizeOf(s, b.size, "small"), Math.max(16, s.small - 2)];
+    const pad = b.tone === "label" ? 0 : 0.4;
+    const pt = b.tone === "label" ? sizes[0] : this.checkFit(sid, b.text, b.w - pad, b.h - 0.1, sizes);
     slide.addText(b.text, textOpts({
       shape: this.pres.shapes.ROUNDED_RECTANGLE, rectRadius: Math.min(0.16, b.h / 2.5),
       x: b.x, y: b.y, w: b.w, h: b.h, fill: { color: fill }, line: { color: fill, width: 0 },
-      fontSize: size, bold: true, color: fg, align: b.tone === "label" ? "center" : "left",
+      fontSize: pt, bold: true, color: fg, align: b.tone === "label" ? "center" : "left",
       valign: "middle", margin: b.tone === "label" ? 0 : [14, 14, 0, 0], objectName: this.name(sid, "chip"),
     }));
   }
@@ -260,9 +294,25 @@ class Deck {
     this.outline(slide, sid, b, b.alt);
   }
 
+  fracMetrics(pt, n, d) {
+    const lh = (pt * 1.18) / 72;
+    const digits = Math.max(String(n ?? "0").length, String(d ?? "0").length);
+    const w = Math.max((0.58 * pt * digits) / 72 + 0.18, (pt * 1.05) / 72 + 0.12);
+    return { w, h: lh * 2 + 0.08, lh };
+  }
+
+  // 분수가 들어 있으면 두 줄 높이, 아니면 한 줄 높이
+  eqHeight(items, pt) {
+    return items.some((it) => Array.isArray(it)) ? this.fracMetrics(pt, 1, 1).h : (pt * 1.3) / 72;
+  }
+
+  opWidth(text, pt) {
+    return Math.max(widthIn(String(text), pt) + 0.28, 0.4);
+  }
+
   frac(slide, sid, b) {
     const pt = b.size || this.style.body;
-    const m = fracMetrics(pt, b.n, b.d);
+    const m = this.fracMetrics(pt, b.n, b.d);
     const color = colorOf(b.color);
     const slot = (value, y) => {
       if (value === null || value === undefined) {
@@ -288,18 +338,27 @@ class Deck {
   }
 
   op(slide, sid, text, x, y, pt, h, color) {
-    const w = opWidth(text, pt);
-    slide.addText(text, textOpts({
+    const w = this.opWidth(text, pt);
+    if (text === "□") {
+      const box = (pt * 1.18 * 0.74) / 72;
+      slide.addShape(this.pres.shapes.RECTANGLE, {
+        x: x + (w - box) / 2, y: y + (h - box) / 2, w: box, h: box, fill: { color: P.lt1 }, line: { color, width: 1.75 },
+        objectName: this.name(sid, "blank"),
+      });
+      return w;
+    }
+    slide.addText(String(text), textOpts({
       x, y, w, h, fontSize: pt, bold: true, color, align: "center", valign: "middle", margin: 0,
       objectName: this.name(sid, "op"),
     }));
     return w;
   }
 
+  // items: [1,2] 분수, [null,6] 빈칸 있는 분수, "=" 같은 글자, "□" 빈칸
   eq(slide, sid, b) {
     const pt = b.size || this.style.body;
     const color = colorOf(b.color);
-    const h = fracMetrics(pt, 1, 1).h;
+    const h = this.eqHeight(b.items, pt);
     let x = b.x;
     for (const item of b.items) {
       if (Array.isArray(item)) {
@@ -315,10 +374,10 @@ class Deck {
   eqx(slide, sid, b) {
     const pt = b.size || this.style.body;
     const color = colorOf(b.color);
-    const a = fracMetrics(pt, ...b.from);
-    const c = fracMetrics(pt, ...b.to);
+    const a = this.fracMetrics(pt, ...b.from);
+    const c = this.fracMetrics(pt, ...b.to);
     const join = b.join || "=";
-    const jw = opWidth(join, pt);
+    const jw = this.opWidth(join, pt);
     const xa = b.x;
     const xj = xa + a.w + 0.12;
     const xb = xj + jw + 0.12;
@@ -357,11 +416,7 @@ class Deck {
     const d = 0.62;
     b.items.forEach((t, i) => {
       const y = b.y + i * b.step;
-      slide.addText(String(i + 1), textOpts({
-        shape: this.pres.shapes.OVAL, x: b.x, y: y + 0.04, w: d, h: d, fill: { color: P.dk2 }, line: { color: P.dk2, width: 0 },
-        fontSize: s.small, bold: true, color: P.lt1, align: "center", valign: "middle", margin: 0,
-        objectName: this.name(sid, "stepno"),
-      }));
+      this.stepNo(slide, sid, i + 1, b.x, y + 0.04, d);
       slide.addText(t, textOpts({
         x: b.x + d + 0.25, y, w: b.w - d - 0.25, h: b.step - 0.12, fontSize: sizeOf(s, b.size, "body"),
         color: P.dk1, valign: "top", margin: 0, objectName: this.name(sid, "steptext"),
@@ -372,10 +427,20 @@ class Deck {
   // ---------- 장 ----------
 
   addSlide(spec, sectionTitle) {
-    const master = { cover: "COVER", content: "CONTENT", closing: "CLOSING", support: "SUPPORT" }[spec.layout || "content"];
+    const layout = spec.layout || DEFAULT_LAYOUT[spec.kind] || "content";
+    const master = { cover: "COVER", content: "CONTENT", closing: "CLOSING", support: "SUPPORT" }[layout];
     const slide = this.pres.addSlide({ masterName: master, sectionTitle });
     slide.addText(spec.title, { placeholder: "title", fontFace: FONT, lang: LANG });
-    if (spec.subtitle) slide.addText(spec.subtitle, { placeholder: "subtitle", fontFace: FONT, lang: LANG });
+    if (widthIn(spec.title, this.style.title) > (layout === "cover" ? 7.3 : 12.1)) this.problems.push(`${spec.id}: 제목이 한 줄에 들어가지 않는다: "${spec.title}"`);
+    const subtitle = spec.subtitle || spec.question;
+    if (layout === "cover" && subtitle) {
+      this.checkFit(spec.id, subtitle, 7.3, 1.8, [this.style.body]);
+      slide.addText(subtitle, { placeholder: "subtitle", fontFace: FONT, lang: LANG });
+    }
+    if (spec.kind && spec.kind !== "blocks") {
+      if (!KINDS[spec.kind]) throw new Error(`${spec.id}: 알 수 없는 장 종류 ${spec.kind}`);
+      KINDS[spec.kind](this, slide, this.variant === "student" ? stripTeacher(spec) : spec);
+    }
     for (const b of spec.blocks || []) {
       if (b.teacher_only && this.variant === "student") continue;
       if (!this[b.type]) throw new Error(`${spec.id}: 알 수 없는 블록 종류 ${b.type}`);
@@ -396,6 +461,13 @@ class Deck {
     }
     return slides.length;
   }
+}
+
+// 학생용에서는 장 안의 교사 전용 항목(예: 정답이 적힌 카드)을 뺀다
+function stripTeacher(spec) {
+  const out = { ...spec };
+  for (const k of ["key", "hint", "question"]) if (out[k] && out[k].teacher_only) delete out[k];
+  return out;
 }
 
 function formatNotes(spec) {
@@ -448,6 +520,9 @@ async function main() {
   for (const [variant, suffix] of [["teacher", ""], ["student", "_학생용"]]) {
     const deck = new Deck(lesson, variant);
     const count = deck.build();
+    if (deck.problems.length) {
+      throw new Error(`배치 문제 ${deck.problems.length}건 (${lesson.id}):\n  ` + [...new Set(deck.problems)].join("\n  "));
+    }
     const file = path.join(outDir, `${lesson.file_stem}${suffix}.pptx`);
     await deck.pres.writeFile({ fileName: file });
     await finalize(file, deck.alt);

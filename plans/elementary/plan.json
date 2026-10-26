@@ -332,7 +332,7 @@
   "pre": [],
   "file_stem": "초1_수학_수와연산_01_9까지의수",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-NUM9-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-NUM9ORD-L01",
@@ -2719,7 +2719,7 @@
   ],
   "file_stem": "초3_국어_읽기와어휘_01_문단의중심문장",
   "source": "lessons/G03_초3/KOR_국어/읽기와어휘/KR22-G03-KOR-MAINIDEA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-CONTEXT-L01",
@@ -4224,7 +4224,7 @@
   "pre": [],
   "file_stem": "초3_음악·미술_음악표현_01_박과리듬",
   "source": "lessons/G03_초3/ART_음악·미술/음악표현/KR22-G03-ART-BEATRHYTHM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ART-ELEMENTS-L01",

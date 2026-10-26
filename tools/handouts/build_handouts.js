@@ -78,6 +78,95 @@ function barSvg(bar, widthMm = 120, heightMm = 12) {
   return `<svg width="${widthMm}mm" height="${heightMm}mm" viewBox="-0.4 -0.4 ${widthMm + 0.8} ${heightMm + 0.8}" role="img" aria-label="${parts}칸 띠">${cells}<rect x="0" y="0" width="${widthMm}" height="${heightMm}" fill="none" stroke="#1F2937" stroke-width="0.7"/></svg>`;
 }
 
+
+function clockSvg(c, d = 46) {
+  const r = d / 2;
+  let g = `<circle cx="${r}" cy="${r}" r="${r - 0.6}" fill="#fff" stroke="#1F2937" stroke-width="0.9"/>`;
+  for (let k = 0; k < 60; k++) {
+    const a = (k * 6 * Math.PI) / 180;
+    const l = k % 5 === 0 ? 2.6 : 1.2;
+    g += `<line x1="${r + Math.sin(a) * (r - 1)}" y1="${r - Math.cos(a) * (r - 1)}" x2="${r + Math.sin(a) * (r - 1 - l)}" y2="${r - Math.cos(a) * (r - 1 - l)}" stroke="#1F2937" stroke-width="${k % 5 === 0 ? 0.6 : 0.25}"/>`;
+  }
+  for (let k = 1; k <= 12; k++) {
+    const a = (k * 30 * Math.PI) / 180;
+    g += `<text x="${r + Math.sin(a) * r * 0.72}" y="${r - Math.cos(a) * r * 0.72 + 1.6}" font-size="4.6" text-anchor="middle" font-weight="700">${k}</text>`;
+  }
+  if (c.h !== undefined) {
+    const m = c.m || 0;
+    const ha = (((c.h % 12) + m / 60) * 30 * Math.PI) / 180;
+    const ma = (m * 6 * Math.PI) / 180;
+    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ha) * r * 0.5}" y2="${r - Math.cos(ha) * r * 0.5}" stroke="#C8434E" stroke-width="1.8" stroke-linecap="round"/>`;
+    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ma) * r * 0.78}" y2="${r - Math.cos(ma) * r * 0.78}" stroke="#1F2937" stroke-width="1.1" stroke-linecap="round"/>`;
+  }
+  g += `<circle cx="${r}" cy="${r}" r="1" fill="#1F2937"/>`;
+  return `<svg width="${d}mm" height="${d}mm" viewBox="0 0 ${d} ${d}">${g}</svg>`;
+}
+
+function numberlineSvg(n, w = 160) {
+  const step = n.step || 1;
+  const count = Math.round((n.max - n.min) / step);
+  const x0 = 6, x1 = w - 6, y = 8;
+  let g = `<line x1="2" y1="${y}" x2="${w - 2}" y2="${y}" stroke="#1F2937" stroke-width="0.6"/>`;
+  for (let i = 0; i <= count; i++) {
+    const v = +(n.min + i * step).toFixed(6);
+    const x = x0 + ((x1 - x0) * i) / count;
+    g += `<line x1="${x}" y1="${y - 2}" x2="${x}" y2="${y + 2}" stroke="#1F2937" stroke-width="0.5"/>`;
+    const show = !n.labels || n.labels === "all" || (n.labels === "ends" && (i === 0 || i === count)) || (Array.isArray(n.labels) && n.labels.includes(v));
+    if (show) g += `<text x="${x}" y="${y + 7}" font-size="4" text-anchor="middle">${v}</text>`;
+  }
+  return `<svg width="${w}mm" height="16mm" viewBox="0 0 ${w} 16">${g}</svg>`;
+}
+
+function gridSvg(gr, cell = 10) {
+  let shaded = gr.shaded || [];
+  if (typeof shaded === "number") shaded = Array.from({ length: shaded }, (_, k) => [Math.floor(k / gr.cols), k % gr.cols]);
+  const set = new Set(shaded.map(([r, c]) => `${r},${c}`));
+  let g = "";
+  for (let r = 0; r < gr.rows; r++) for (let c = 0; c < gr.cols; c++) {
+    g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="${set.has(`${r},${c}`) ? "#E9762B" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
+  }
+  return `<svg width="${gr.cols * cell}mm" height="${gr.rows * cell}mm" viewBox="-0.4 -0.4 ${gr.cols * cell + 0.8} ${gr.rows * cell + 0.8}">${g}</svg>`;
+}
+
+function arraySvg(a, cell = 8) {
+  let g = "";
+  const count = a.count ?? a.rows * a.cols;
+  for (let r = 0; r < a.rows; r++) for (let c = 0; c < a.cols; c++) {
+    if (r * a.cols + c < count) g += `<circle cx="${c * cell + cell / 2}" cy="${r * cell + cell / 2}" r="${cell * 0.3}" fill="#E9762B" stroke="#1F2937" stroke-width="0.3"/>`;
+  }
+  return `<svg width="${a.cols * cell}mm" height="${a.rows * cell}mm" viewBox="0 0 ${a.cols * cell} ${a.rows * cell}">${g}</svg>`;
+}
+
+function pieSvg(pc, d = 36) {
+  const r = d / 2 - 0.6;
+  const set = Array.isArray(pc.shaded) ? new Set(pc.shaded) : new Set(Array.from({ length: pc.shaded || 0 }, (_, i) => i));
+  let g = "";
+  for (let i = 0; i < pc.parts; i++) {
+    const a0 = (i / pc.parts) * 2 * Math.PI;
+    const a1 = ((i + 1) / pc.parts) * 2 * Math.PI;
+    const p = (a) => `${d / 2 + Math.sin(a) * r},${d / 2 - Math.cos(a) * r}`;
+    g += `<path d="M${d / 2},${d / 2} L${p(a0)} A${r},${r} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${p(a1)} Z" fill="${set.has(i) ? "#E9762B" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
+  }
+  return `<svg width="${d}mm" height="${d}mm" viewBox="0 0 ${d} ${d}">${g}</svg>`;
+}
+
+function tableHtml(t) {
+  const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr>` : "";
+  const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td style="height:9mm; text-align:center">${esc(c)}</td>`).join("")}</tr>`).join("");
+  return `<table style="width:auto; min-width:90mm; font-size:11.5pt">${head}${rows}</table>`;
+}
+
+function figureHtml(it) {
+  const parts = [];
+  if (it.clock) parts.push(...[].concat(it.clock).map((c) => clockSvg(c)));
+  if (it.numberline) parts.push(numberlineSvg(it.numberline));
+  if (it.grid) parts.push(...[].concat(it.grid).map((g) => gridSvg(g)));
+  if (it.array) parts.push(...[].concat(it.array).map((a) => arraySvg(a)));
+  if (it.pie) parts.push(...[].concat(it.pie).map((pc) => pieSvg(pc)));
+  if (it.table) parts.push(tableHtml(it.table));
+  return parts.length ? `<div class="figrow" style="flex-wrap:wrap; gap:8mm">${parts.join("")}</div>` : "";
+}
+
 function worksheetHtml(L) {
   const ws = L.worksheet;
   const items = ws.items.map((it) => {
@@ -86,10 +175,15 @@ function worksheetHtml(L) {
     for (const bar of it.bars || []) {
       h += `<div class="figrow">${bar.label ? `<span style="font-size:13pt">${fracHtml(bar.label)}</span>` : ""}${barSvg(bar)}</div>`;
     }
+    if (it.read) h += `<div class="box" style="margin-left:9.5mm; font-size:13pt">${esc(it.read).replace(/\n/g, "<br>")}</div>`;
+    h += figureHtml(it);
+    if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:12pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
+    if (it.big) h += `<div style="margin:2mm 0 0 9.5mm; font-size:26pt; letter-spacing:4mm; font-weight:700">${esc(it.big)}</div>`;
     if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
     if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;
     if (it.line_label) h += `<div class="linelabel">${esc(it.line_label)}</div>`;
     for (let i = 0; i < (it.lines || 0); i++) h += '<div class="line"></div>';
+    if (it.box) h += `<div style="margin:2mm 0 0 9.5mm; height:${it.box}mm; border:1.2px dashed #9CA3AF; border-radius:2mm"></div>`;
     return h + "</div>";
   });
   return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
@@ -102,6 +196,18 @@ function worksheetHtml(L) {
 function listHtml(label, items, cls = "") {
   if (!items || !items.length) return "";
   return `<b class="k ${cls}">${label}</b><ul>${items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`;
+}
+
+
+// 선수 확인 장과 보충 장이 있으면 어디로 가야 하는지 알려 준다
+function supportLine(L) {
+  const prior = L.slides.find((s) => s.role === "prior");
+  const support = L.slides.find((s) => s.role === "support");
+  const pre = L.prerequisites.filter((p) => p.lesson).map((p) => esc(p.text));
+  let t = "";
+  if (prior && support) t += `${esc(prior.id)}에서 흔들리면 ${esc(support.id)}(보충)를 먼저 합니다. `;
+  if (pre.length) t += `보충으로도 어려우면 앞 차시(${pre.join(", ")})부터 다시 다지는 것이 좋습니다.`;
+  return t ? `<div>${t}</div>` : "";
 }
 
 function guideHtml(L, thumbs) {
@@ -127,13 +233,14 @@ function guideHtml(L, thumbs) {
       <li>아이에게는 PPT를 <b>슬라이드 쇼</b>로 보여 주세요. 일반 보기 화면 아래쪽 노트에는 정답이 있습니다. 진행은 이 안내서를 보며 합니다.</li>
       <li>준비물: ${esc(L.materials.join(", "))}</li>
       <li>정답을 바로 알려 주기보다 “어떻게 알았어?”라고 묻고 아이가 설명하게 하세요. 막히면 각 장의 ‘막히면’을 따르세요.</li>
-      <li>아이가 지치면 S08 뒤에서 나누어 이틀에 해도 됩니다.</li>
+      ${L.break_after ? `<li>아이가 지치면 ${esc(L.break_after)} 뒤에서 나누어 이틀에 해도 됩니다.</li>` : ""}
+      ${L.format === "act" ? "<li>활동 중심 차시입니다. 화면은 짧은 안내이고, 실제 활동과 관찰 기록이 중심입니다.</li>" : ""}
     </ul></div>
     <h2>오늘의 목표와 확인 방법</h2>
     ${L.objectives.map((o) => `<div class="box"><b>목표 ${esc(o.id)}</b> ${esc(o.text)}<br><b class="k">확인</b> ${esc(o.evidence)}<br><b class="k">성공 기준</b> ${esc(o.success)}</div>`).join("")}
     <h2>먼저 알고 있어야 할 것</h2>
     <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>
-    <div>S02에서 흔들리면 S15(보충)를 먼저 합니다. 보충으로도 어려우면 초3 분수부터 다시 다지는 것이 좋습니다.</div>
+    ${supportLine(L)}
     <h2>자주 나오는 오해</h2>
     <table><tr><th style="width:45%">아이가 이렇게 생각하면</th><th>이렇게 도와주세요</th></tr>
     ${L.misconceptions.map((m) => `<tr><td>${esc(m.text)}</td><td>${esc(m.response)}</td></tr>`).join("")}</table>
