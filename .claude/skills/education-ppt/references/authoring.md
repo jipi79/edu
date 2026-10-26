@@ -65,7 +65,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `table` | `text`?, `table` (`{headers, rows, widths?}`), `key`? | 표 |
 | `chart` | `text`?, `chart` (`{chart: bar|line|pie, labels, values, valueTitle?, max?}`), `question`? | PowerPoint 차트 |
 | `activity` | `text`?, `steps`[2~5], `criteria`[2~4]?, `criteriaTitle`?, `safety`?, `figure`? | 단계 왼쪽, 관찰 기준 체크리스트 오른쪽, 안전 문구 아래 |
-| `answers` | `good`[ {eq|text, note?} ], `bad`[ … ], `explain`? | 반드시 `teacher_only: true`, `role: feedback` |
+| `answers` | `good`[ {eq|text, note?} ], `bad`[ … ], `explain`?, `goodTitle`?·`badTitle`?(머리말, 기본 “○ 정답”·“× 흔한 실수” — 이유로 판단하는 도덕·정보·쓰기는 “잘한 모습”처럼 바꾼다) | 반드시 `teacher_only: true`, `role: feedback` |
 | `summary` | `key`, `do`?, `dont`?, `review`[1~3] ({text} 또는 {eq}), `next`? | 어두운 정리 장 |
 | `blocks` | `blocks`[…] | 좌표를 직접 주는 방식(특수한 경우만) |
 

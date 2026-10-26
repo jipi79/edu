@@ -307,7 +307,8 @@ const KINDS = {
   answers(deck, slide, spec) {
     let r = area();
     r = takeBottom(deck, slide, spec.id, spec.explain ? { text: spec.explain } : null, r, "tint");
-    const sides = [[spec.good, "○ 정답", "good"], [spec.bad, "× 흔한 실수", "bad"]].filter(([l]) => l && l.length);
+    // 도덕·정보처럼 이유로 판단하는 차시는 goodTitle·badTitle로 머리말을 바꾼다(예: "잘한 모습", "다시 생각해 볼 모습").
+    const sides = [[spec.good, spec.goodTitle || "○ 정답", "good"], [spec.bad, spec.badTitle || "× 흔한 실수", "bad"]].filter(([l]) => l && l.length);
     const boxes = sides.length === 2 ? split(r, 0.5) : [r];
     sides.forEach(([list, title, tone], k) => {
       const b = boxes[k];

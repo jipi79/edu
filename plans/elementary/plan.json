@@ -870,7 +870,7 @@
   "pre": [],
   "file_stem": "초1_사회·역사_나와학교_01_학교의장소와사람들",
   "source": "lessons/G01_초1/SOC_사회·역사/나와학교/KR22-G01-SOC-SCHOOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-SOC-PROMISE-L01",
@@ -991,7 +991,9 @@
   "objective": "맡은 일을 끝까지 하고 친구와 생물을 배려하는 방법을 정한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ETH-PRECIOUS-L01"
+  ],
   "file_stem": "초1_도덕·윤리_책임과돌봄_01_맡은일과배려",
   "source": "lessons/G01_초1/ETH_도덕·윤리/책임과돌봄/KR22-G01-ETH-CARE-L01.json",
   "status": "제작 완료"
@@ -1113,7 +1115,7 @@
   "pre": [],
   "file_stem": "초1_기술·가정_만들기_01_안전한재료로만들기",
   "source": "lessons/G01_초1/TEC_기술·가정/만들기/KR22-G01-TEC-MAKE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-INF-DEVICE-L01",
@@ -1136,7 +1138,7 @@
   "pre": [],
   "file_stem": "초1_정보·AI_기기와절차_01_디지털기기와순서",
   "source": "lessons/G01_초1/INF_정보·AI/기기와절차/KR22-G01-INF-DEVICE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-INF-PRIVACY-L01",
@@ -1156,10 +1158,12 @@
   "objective": "사용 시간을 지키고 개인정보를 함부로 알려주지 않는다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-INF-DEVICE-L01"
+  ],
   "file_stem": "초1_정보·AI_디지털약속_01_사용시간과개인정보",
   "source": "lessons/G01_초1/INF_정보·AI/디지털약속/KR22-G01-INF-PRIVACY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-ART-BEAT-L01",
@@ -1279,7 +1283,7 @@
   "pre": [],
   "file_stem": "초1_체육·보건·안전_생활안전_01_등하굣길과놀이안전",
   "source": "lessons/G01_초1/PHE_체육·보건·안전/생활안전/KR22-G01-PHE-SAFEWAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-HUM-WHY-L01",
@@ -1350,7 +1354,7 @@
   "pre": [],
   "file_stem": "초1_진로·직업_흥미와일_01_좋아하는활동과우리를돕는일",
   "source": "lessons/G01_초1/CAR_진로·직업/흥미와일/KR22-G01-CAR-HELPERS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-CAR-GOAL-L01",
@@ -2328,7 +2332,7 @@
   "pre": [],
   "file_stem": "초2_도덕·윤리_정직과약속_01_정직과약속",
   "source": "lessons/G02_초2/ETH_도덕·윤리/정직과약속/KR22-G02-ETH-HONEST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-ETH-FAIRUSE-L01",
@@ -2352,7 +2356,7 @@
   "pre": [],
   "file_stem": "초2_도덕·윤리_공감과협력_01_공감과공정한사용",
   "source": "lessons/G02_초2/ETH_도덕·윤리/공감과협력/KR22-G02-ETH-FAIRUSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SCI-GROW-L01",
@@ -2446,7 +2450,7 @@
   "pre": [],
   "file_stem": "초2_기술·가정_자립과나눔_01_시간관리와집안일나누기",
   "source": "lessons/G02_초2/TEC_기술·가정/자립과나눔/KR22-G02-TEC-CHORES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-TEC-TOOLS-L01",
@@ -2469,7 +2473,7 @@
   "pre": [],
   "file_stem": "초2_기술·가정_재료와제작_01_재료비교와도구안전",
   "source": "lessons/G02_초2/TEC_기술·가정/재료와제작/KR22-G02-TEC-TOOLS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-INF-ORDER-L01",
@@ -7699,7 +7703,7 @@
   "pre": [],
   "file_stem": "초5_사회·역사_역사와생활_01_선사시대와고조선",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-PREHIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-KINGDOMS-L01",

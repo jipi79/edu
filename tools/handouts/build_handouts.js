@@ -289,7 +289,7 @@ function supportLine(L) {
   const support = L.slides.find((s) => s.role === "support");
   const pre = L.prerequisites.filter((p) => p.lesson).map((p) => esc(p.text));
   let t = "";
-  if (prior && support) t += `${esc(prior.id)}에서 흔들리면 ${esc(support.id)}(보충)를 먼저 합니다. `;
+  if (prior && support) t += `${esc(prior.id)}에서 흔들리면 보충 장 ${esc(support.id)}부터 합니다. `;
   if (pre.length) t += `보충으로도 어려우면 앞 차시(${pre.join(", ")})부터 다시 다지는 것이 좋습니다.`;
   return t ? `<div>${t}</div>` : "";
 }
