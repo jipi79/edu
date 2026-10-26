@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G06-SCI-ROTATION-L01",
+  "concept_id": "SCI-ROTATION",
+  "title": "자전과 낮과 밤",
+  "grade": "G06",
+  "grade_label": "초6",
+  "band": "E56",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "지구와계절",
+  "sequence": 1,
+  "file_stem": "초6_과학_지구와계절_01_자전과낮과밤",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G06-SCI-I03"
+    ],
+    "units": [
+      "6.5.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "지구의 자전으로 낮과 밤, 하루 동안 태양·달의 움직임을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "달의 모양 변화",
+      "lesson": "KR22-G04-SCI-MOON-L01",
+      "grade_item": "KR22-G04-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "자전과 낮과 밤 활동지",
+    "items": [],
+    "record": []
+  }
+}
