@@ -7152,7 +7152,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-MAT-CORRESP-L01"
+   "KR22-G05-MAT-CORRESP-L01",
+   "KR22-G04-MAT-MOVE-L01"
   ],
   "file_stem": "초5_수학_도형과측정_02_합동인도형",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-CONGRUENT-L01.json",
@@ -7204,7 +7205,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-MAT-SYMMETRY-L01"
+   "KR22-G05-MAT-SYMMETRY-L01",
+   "KR22-G03-MAT-RIGHT-L01"
   ],
   "file_stem": "초5_수학_도형과측정_04_직육면체와정육면체",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-CUBOID-L01.json",
@@ -7230,7 +7232,9 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-MAT-CUBOID-L01"
+   "KR22-G05-MAT-CUBOID-L01",
+   "KR22-G04-MAT-QUAD-L01",
+   "KR22-G04-MAT-POLYGON-L01"
   ],
   "file_stem": "초5_수학_도형과측정_05_다각형의둘레",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-PERIMETER-L01.json",
@@ -7359,7 +7363,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-MAT-MEAN-L01"
+   "KR22-G05-MAT-MEAN-L01",
+   "KR22-G03-MAT-FRAC-L01"
   ],
   "file_stem": "초5_수학_자료_02_일이일어날가능성",
   "source": "lessons/G05_초5/MAT_수학/자료/KR22-G05-MAT-CHANCE-L01.json",
@@ -7516,7 +7521,7 @@
   "pre": [],
   "file_stem": "초5_영어_상호작용과문화_01_길묻고안내하기",
   "source": "lessons/G05_초5/ENG_영어/상호작용과문화/KR22-G05-ENG-DIRECTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-SHOPPING-L01",
@@ -8858,6 +8863,7 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
+   "KR22-G04-KOR-EXPRESS-L01",
    "KR22-G05-KOR-STORYELEM-L01"
   ],
   "file_stem": "초6_국어_문학과매체_01_작품해석나누기",
@@ -8884,11 +8890,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G06-KOR-INTERPRET-L01"
+   "KR22-G06-KOR-INTERPRET-L01",
+   "KR22-G06-KOR-FACTOPIN-L01"
   ],
   "file_stem": "초6_국어_문학과매체_02_뉴스와광고비판적으로보기",
   "source": "lessons/G06_초6/KOR_국어/문학과매체/KR22-G06-KOR-NEWSAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-MULTIMEDIA-L01",
@@ -9486,7 +9493,7 @@
   ],
   "file_stem": "초6_영어_말하기와쓰기_02_비교하기",
   "source": "lessons/G06_초6/ENG_영어/말하기와쓰기/KR22-G06-ENG-COMPARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-OPINION-L01",

@@ -32,6 +32,11 @@
       "text": "규칙과 대응",
       "lesson": "KR22-G05-MAT-CORRESP-L01",
       "grade_item": "KR22-G05-MAT-I03"
+    },
+    {
+      "text": "평면도형의 이동",
+      "lesson": "KR22-G04-MAT-MOVE-L01",
+      "grade_item": "KR22-G04-MAT-I02"
     }
   ],
   "objectives": [

@@ -91,7 +91,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `shapes` | `items`[ {shape, label?, shaded?} ] — circle·triangle·rtriangle·square·rect·pentagon·hexagon·parallelogram·trapezoid·rhombus·cube·cuboid·cylinder·sphere·cone | 평면·입체 도형 |
 | `angle` | `deg`, `label`? | 각도 |
 | `geo` | `points`{이름:[x,y]} (y는 위가 +, `_`로 시작하는 이름은 표시 안 함), `polygons`[ {pts, fill?(tint·accent·good·info·yellow·none), dash?, open?, sides?[ {label?, ticks?} 또는 null — 변 순서 pts[i]→pts[i+1]] } ], `segments`[ {from, to, extend?(end·start·both: 반직선·직선), arrow?, dash?, label?, ticks?} ], `circles`[ {center, r, fill?} ], `angles`[ {at, from, to, label?} ], `rights`[[A,B,C]](B에 직각 표시), `dots`?(true·[이름]), `texts`[ {at, text, size?("label"·"tiny"), bg?(흰 바탕)} ], `grid`?("square" 모눈·"dot" 점판), `grid_margin`?(정수, 기본 1칸), `name_dir`?{이름: up·down·left·right·ul·ur·dl·dr}, `names`?(false면 점 이름 숨김), `ws_unit`?(활동지 1칸 mm, 기본 10), `ws_max_h`?(활동지 그림 최대 높이 mm, 기본 80 — 실제 1 cm 모눈이 필요하면 키운다) | 선분·반직선·직선, 각, 직각, 삼각형·사각형·다각형, 원(중심·반지름·지름), 수직·평행, 대각선, 모눈 위 넓이·이동·대칭, 합동. 좌표가 곧 모양이므로 길이·각·평행·직각이 실제로 맞게 좌표를 고른다(이름표의 길이·각도와 모양이 어긋나지 않게) |
-| (geo 공통 선택) | `max_unit`(슬라이드 1단위의 최대 인치 — 같은 도형을 여러 장에서 같은 크기로 그릴 때), `angles`의 `r`(부채꼴 반지름)·`label_dist`, 선분의 `color`·`width` | |
+| (geo 공통 선택) | `scale`(슬라이드 1단위의 인치를 정확히 — 같은 도형을 여러 장·여러 그림에서 같은 크기로 그릴 때. 자리에 안 들어가면 빌드 실패), `max_unit`(1단위의 최대 인치), `angles`의 `r`(부채꼴 반지름)·`label_dist`, 다각형의 `width`(0이면 테두리 없이 색만)·`color`·`dash`, 변 `sides[i].side`(1·-1: 이름표를 놓을 쪽), 선분의 `color`·`width`·`label_side`, 색은 팔레트 이름 또는 6자리 hex | |
 | `ruler` | `cm`(길이), `mm`?(false면 5 mm 눈금까지만), `start`?(첫 눈금 수), `objects`[ {from, to, label?} ](cm 단위, 자 위에 막대로) | 길이 재기(cm·mm). 활동지에서는 실제 크기(1 cm = 10 mm)로 인쇄된다 |
 | `protractor` | `deg`?(잴 각), `base`?(밑변 방향, 기본 0), `scales`?(both·inner·outer), `step`?, `ray`?(변 길이, 기본 1.2), `mark`?(false면 각 표시 없음), `ws_radius`?(활동지 반지름 mm, 기본 45 — 두 개를 나란히 두려면 33) | 각도기로 각 재기. 안쪽(주황) 눈금은 오른쪽 0°, 바깥(파랑) 눈금은 왼쪽 0°. 넓은 자리(점 카드 없는 concept, `wide` 연습)에 두어야 10°마다 숫자가 나온다 |
 | `chart` | `chart`, `labels`, `values`, `title`?, `valueTitle`?, `max`?, `min`?, `step`?(눈금 한 칸) | 그래프. 눈금 한 칸을 말하는 차시는 `step`을 꼭 준다. 물결선·칸 단위 그림이 필요하면 `geo`로 그린다 |
@@ -129,6 +129,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 { "type": "blank", "expr": "2/3 = □/6", "answer": 4, "where": "S09 ①" }
 { "type": "equiv", "values": ["1/2", "2/4"], "where": "S06" }       // 대분수는 "2 3/5", 자연수는 "4"
 { "type": "compare", "values": ["3 + 1/5 − (1 + 3/5)", "1 + 3/5"], "rel": "=", "where": "S08" }   // 식 비교(− × ÷ 사용 가능)
+// 식 안의 3/4(빗금 앞뒤에 빈칸 없음)은 분수 하나로 읽는다: "3/4 ÷ 2/3 = □/8" 은 (3/4)÷(2/3). 나눗셈 기호로 쓰려면 ÷를 쓴다.
 { "type": "not_equiv", "values": ["1/2", "2/3"], "where": "S10" }
 { "type": "bar", "slide": "S02", "parts": 4, "shaded": 1, "value": "1/4", "where": "S02 가" }
 { "type": "count", "slide": "S08", "value": 8, "where": "S08 ① 점 8개" }   // 점 배열·십 칸·격자·수 모형이 그 수를 나타내는지

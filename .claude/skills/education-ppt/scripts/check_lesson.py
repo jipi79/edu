@@ -61,6 +61,8 @@ def shaded_end(b):
 
 def exact(expr):
     """숫자·소수·분수와 + - × ÷ ( ) 로 된 식을 분수로 정확히 계산한다."""
+    # 3/4 같은 분수(빗금 앞뒤에 빈칸 없음)는 한 덩어리로 읽어 ÷보다 먼저 계산한다: 3/4 ÷ 2/3 = (3/4) ÷ (2/3)
+    expr = re.sub(r"(\d+(?:\.\d+)?)/(\d+(?:\.\d+)?)", r"(\1/\2)", expr)
     py = re.sub(r"\d+(?:\.\d+)?", lambda m: f"F('{m.group()}')", expr.replace("×", "*").replace("÷", "/").replace("−", "-"))
     return eval(py, {"__builtins__": {}}, {"F": Fraction})
 

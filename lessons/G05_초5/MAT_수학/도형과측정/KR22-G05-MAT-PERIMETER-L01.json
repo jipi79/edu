@@ -32,6 +32,16 @@
       "text": "직육면체와 정육면체",
       "lesson": "KR22-G05-MAT-CUBOID-L01",
       "grade_item": "KR22-G05-MAT-I03"
+    },
+    {
+      "text": "여러 가지 사각형",
+      "lesson": "KR22-G04-MAT-QUAD-L01",
+      "grade_item": "KR22-G04-MAT-I02"
+    },
+    {
+      "text": "다각형과 대각선",
+      "lesson": "KR22-G04-MAT-POLYGON-L01",
+      "grade_item": "KR22-G04-MAT-I02"
     }
   ],
   "objectives": [

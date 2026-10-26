@@ -199,7 +199,11 @@ class Deck {
     const innerW = box.w - 0.6;
     const innerH = box.h - 0.4;
     const sizes = [s.body, s.body - 2, s.small, Math.max(16, s.small - 2), Math.max(16, s.small - 4)];
-    const build = (pt) => [...(title ? [{ text: title, pt: pt + 2 }] : []), ...paras.map((t) => (typeof t === "string" ? { text: t, pt } : { text: t.text, pt, align: t.align }))];
+    // 문단 안의 줄바꿈(\n)은 각각 문단으로 그려지므로(문단 뒤 간격 포함) 미리 나누어 잰다(시의 행·연).
+    const build = (pt) => [...(title ? [{ text: title, pt: pt + 2 }] : []), ...paras.flatMap((t) => {
+      const o = typeof t === "string" ? { text: t } : t;
+      return String(o.text).split("\n").map((line) => ({ text: line, pt, align: o.align }));
+    })];
     let pt = sizes.find((p) => heightOf(build(p), innerW, 8) <= innerH + 0.02);
     if (!pt) {
       pt = sizes[sizes.length - 1];

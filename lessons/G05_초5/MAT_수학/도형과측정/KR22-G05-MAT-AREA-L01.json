@@ -452,17 +452,19 @@
               "fill": "tint",
               "sides": [
                 {
-                  "label": "1 cm"
+                  "label": "1 cm",
+                  "side": -1
                 },
                 null,
                 null,
                 {
-                  "label": "1 cm"
+                  "label": "1 cm",
+                  "side": -1
                 }
               ]
             }
           ],
-          "max_unit": 0.5,
+          "max_unit": 0.55,
           "caption": "1 cm²",
           "alt": "한 변이 1 cm인 정사각형"
         },
@@ -500,14 +502,14 @@
           "grid": "square",
           "names": false,
           "alt": "모눈 한 칸이 1 cm²인 모눈 위의 가로 4칸, 세로 3칸 직사각형(12칸)",
-          "max_unit": 0.5,
+          "max_unit": 0.55,
           "caption": "1 cm²가 12개: 12 cm²"
         }
       ],
       "points": [
         {
           "title": "1 cm²",
-          "text": "한 변이 1 cm인 정사각형의 넓이, ‘1 제곱센티미터’라고 읽어요."
+          "text": "한 변이 1 cm인 정사각형의 넓이, ‘1 제곱센티미터’라고 읽어요."
         },
         {
           "title": "넓이 나타내기",
@@ -579,12 +581,14 @@
             "fill": "tint",
             "sides": [
               {
-                "label": "5 cm"
+                "label": "5 cm",
+                "side": -1
               },
               null,
               null,
               {
-                "label": "3 cm"
+                "label": "3 cm",
+                "side": -1
               }
             ]
           }
@@ -654,12 +658,14 @@
             "fill": "tint",
             "sides": [
               {
-                "label": "4 cm"
+                "label": "4 cm",
+                "side": -1
               },
               null,
               null,
               {
-                "label": "4 cm"
+                "label": "4 cm",
+                "side": -1
               }
             ]
           }
@@ -782,10 +788,12 @@
               "fill": "tint",
               "sides": [
                 {
-                  "label": "5 cm"
+                  "label": "5 cm",
+                  "side": -1
                 },
                 {
-                  "label": "1 cm"
+                  "label": "1 cm",
+                  "side": -1
                 },
                 null,
                 null
@@ -795,7 +803,7 @@
           "grid": "square",
           "names": false,
           "alt": "가로 5 cm, 세로 1 cm인 직사각형",
-          "max_unit": 0.55,
+          "max_unit": 0.43,
           "caption": "가"
         },
         {
@@ -829,10 +837,12 @@
               "fill": "tint",
               "sides": [
                 {
-                  "label": "3 cm"
+                  "label": "3 cm",
+                  "side": -1
                 },
                 {
-                  "label": "3 cm"
+                  "label": "3 cm",
+                  "side": -1
                 },
                 null,
                 null
@@ -842,7 +852,7 @@
           "grid": "square",
           "names": false,
           "alt": "한 변이 3 cm인 정사각형",
-          "max_unit": 0.55,
+          "max_unit": 0.43,
           "caption": "나"
         }
       ],
@@ -911,12 +921,14 @@
               "fill": "tint",
               "sides": [
                 {
-                  "label": "1 m"
+                  "label": "1 m",
+                  "side": -1
                 },
                 null,
                 null,
                 {
-                  "label": "1 m"
+                  "label": "1 m",
+                  "side": -1
                 }
               ]
             }
@@ -965,12 +977,14 @@
               "fill": "E6ECF4",
               "sides": [
                 {
-                  "label": "1 km"
+                  "label": "1 km",
+                  "side": -1
                 },
                 null,
                 null,
                 {
-                  "label": "1 km"
+                  "label": "1 km",
+                  "side": -1
                 }
               ]
             }
@@ -1191,7 +1205,7 @@
         },
         {
           "text": "③ 600",
-          "note": "1 m² = 100 cm²로 봄"
+          "note": "1 m²를 100 cm²로"
         }
       ],
       "explain": "틀리면 둘레(길이)와 넓이(칸 수)를 모눈에서 다시 구별하게 하세요.",
@@ -1334,10 +1348,12 @@
           ]
         ],
         "widths": [
-          0.22,
-          0.28,
-          0.5
-        ]
+          0.2,
+          0.25,
+          0.55
+        ],
+        "width": 10.5,
+        "size": 26
       },
       "key": {
         "title": "넓이도 같은 방법으로",

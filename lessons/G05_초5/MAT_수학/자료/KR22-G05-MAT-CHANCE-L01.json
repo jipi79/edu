@@ -31,6 +31,11 @@
       "text": "평균",
       "lesson": "KR22-G05-MAT-MEAN-L01",
       "grade_item": "KR22-G05-MAT-I04"
+    },
+    {
+      "text": "분수의 뜻",
+      "lesson": "KR22-G03-MAT-FRAC-L01",
+      "grade_item": "KR22-G03-MAT-I02"
     }
   ],
   "objectives": [

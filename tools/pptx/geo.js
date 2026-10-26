@@ -105,7 +105,7 @@ function geoPrims(fig, em) {
     }
   }
   for (const pg of fig.polygons || []) {
-    out.push({ k: "poly", pts: pg.pts.map((p) => at(fig, p)), closed: pg.open !== true, fill: pg.open || fig.grid ? null : fillOf(pg.fill ?? "tint"), dash: !!pg.dash, w: pg.width || 2.25, color: pg.color || "ink", main: true });
+    out.push({ k: "poly", pts: pg.pts.map((p) => at(fig, p)), closed: pg.open !== true, fill: pg.open || fig.grid ? null : fillOf(pg.fill ?? "tint"), dash: !!pg.dash, w: pg.width ?? 2.25, color: pg.color || "ink", main: true });
   }
   for (const c of fig.circles || []) {
     out.push({ k: "circle", c: at(fig, c.center), r: c.r, fill: fillOf(c.fill ?? "none"), dash: !!c.dash, w: c.width || 2.25, color: c.color || "ink", main: true });
@@ -135,12 +135,18 @@ function geoPrims(fig, em) {
   }
   // 같은 길이 표시(ticks)와 길이 이름표는 모든 변(다각형의 변·선분)에 줄 수 있다.
   const sides = [];
-  for (const pg of fig.polygons || []) (pg.sides || []).forEach((sd, i) => { if (sd) { const n = pg.pts.length; sides.push({ a: at(fig, pg.pts[i]), b: at(fig, pg.pts[(i + 1) % n]), ...sd }); } });
+  // 다각형의 변 이름표는 그 다각형의 가운데에서 먼 쪽(바깥)에 둔다. side: 1·-1로 직접 고를 수 있다.
+  for (const pg of fig.polygons || []) {
+    const vs = pg.pts.map((p) => at(fig, p));
+    const c = mul(vs.reduce(add, [0, 0]), 1 / vs.length);
+    (pg.sides || []).forEach((sd, i) => { if (sd) { const n = pg.pts.length; sides.push({ a: vs[i], b: vs[(i + 1) % n], c, ...sd }); } });
+  }
   for (const s of fig.segments || []) if (s.label || s.ticks) sides.push({ a: at(fig, s.from), b: at(fig, s.to), label: s.label, ticks: s.ticks, side: s.label_side });
   for (const sd of sides) {
     const mid = mul(add(sd.a, sd.b), 0.5), d = unit(sub(sd.b, sd.a));
     let n = [-d[1], d[0]];
-    if (sd.side ? sd.side < 0 : len(sub(add(mid, n), centre)) < len(sub(mid, centre))) n = mul(n, -1);
+    const cc = sd.c || centre;
+    if (sd.side ? sd.side < 0 : len(sub(add(mid, mul(n, 0.01)), cc)) < len(sub(mid, cc))) n = mul(n, -1);
     for (let t = 0; t < (sd.ticks || 0); t++) {
       const c = add(mid, mul(d, (t - (sd.ticks - 1) / 2) * 0.28 * em));
       out.push({ k: "line", a: add(c, mul(n, 0.3 * em)), b: sub(c, mul(n, 0.3 * em)), w: 1.75, color: "ink" });
@@ -159,7 +165,8 @@ function geoPrims(fig, em) {
   if (fig.names !== false) {
     for (const name of Object.keys(fig.points || {})) {
       if (name.startsWith("_")) continue;
-      out.push({ k: "text", at: add(at(fig, name), mul(nameDir(fig, name), 0.8 * em)), text: name, size: "label" });
+      const big = /^[\u3131-\u318E]+$/.test(name) ? 1.3 : 1;
+      out.push({ k: "text", at: add(at(fig, name), mul(nameDir(fig, name), 0.8 * em * big)), text: name, size: "label" });
     }
   }
   for (const t of fig.texts || []) out.push({ k: "text", at: at(fig, t.at), text: t.text, size: t.size || "label", color: t.color, bold: t.bold, bg: !!t.bg });
@@ -227,9 +234,15 @@ function protractorPrims(fig, em) {
 }
 
 const KINDS = {
-  geo: { extent: geoExtent, prims: geoPrims, maxUnit: 1.0, pad: (f) => (f.names !== false && Object.keys(f.points || {}).some((n) => !n.startsWith("_"))) || (f.angles || []).some((a) => a.label) || (f.segments || []).some((s) => s.label) || (f.polygons || []).some((p) => (p.sides || []).some((s) => s && s.label)) },
-  ruler: { extent: rulerExtent, prims: rulerPrims, maxUnit: 1.0, pad: () => false },
-  protractor: { extent: protractorExtent, prims: protractorPrims, maxUnit: 3.2, pad: () => false },
+  geo: { extent: geoExtent, prims: geoPrims, maxUnit: 1.0, pad: (f) => {
+    // 바깥 여백(글자 높이의 배수): 변 이름표가 있으면 가장 긴 이름표 폭만큼, 점 이름·각 이름표만 있으면 1.6
+    const labels = [...(f.segments || []).map((s) => s.label), ...(f.polygons || []).flatMap((p) => (p.sides || []).map((s) => s && s.label))].filter(Boolean);
+    const widest = Math.max(0, ...labels.map((t) => [...String(t)].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ㈀-㋿]/.test(ch) ? 0.98 : 0.62), 0)));
+    const named = (f.names !== false && Object.keys(f.points || {}).some((n) => !n.startsWith("_"))) || (f.angles || []).some((a) => a.label);
+    return labels.length ? Math.max(1.6, widest + 0.6) : named ? 1.6 : 0;
+  } },
+  ruler: { extent: rulerExtent, prims: rulerPrims, maxUnit: 1.0, pad: () => 0 },
+  protractor: { extent: protractorExtent, prims: protractorPrims, maxUnit: 3.2, pad: () => 0 },
 };
 
 // 상자(물리 단위: 슬라이드는 인치, 활동지는 mm)에 맞춰 축척을 정하고 기본 도형 목록을 돌려준다.
@@ -237,14 +250,17 @@ const KINDS = {
 function layout(fig, box, labelSize, maxUnit) {
   const K = KINDS[fig.type];
   const e = K.extent(fig);
-  // 이름표 자리: 글자 1.2줄만큼, 단 작은 상자에서는 상자의 20%까지만.
-  const pad = K.pad(fig) ? Math.min(labelSize * 1.2, 0.2 * box.w, 0.2 * box.h) : labelSize * 0.3;
+  // 이름표 자리: 이름표 크기만큼(K.pad, 글자 높이의 배수), 단 작은 상자에서는 상자의 22%까지만.
+  const padEm = K.pad(fig);
+  const pad = padEm ? Math.min(labelSize * Math.min(padEm, 1.2 + 0.4 * (padEm - 1.6)), 0.22 * box.w, 0.22 * box.h) : labelSize * 0.3;
   const spanX = Math.max(e[2] - e[0], 1e-6), spanY = Math.max(e[3] - e[1], 1e-6);
-  const s = Math.min((box.w - 2 * pad) / spanX, (box.h - 2 * pad) / spanY, maxUnit ?? K.maxUnit);
+  const fitS = Math.min((box.w - 2 * pad) / spanX, (box.h - 2 * pad) / spanY);
+  // scale(1단위의 인치)을 주면 그대로 쓴다. 상자에 들어가지 않으면 too_big으로 알린다.
+  const s = fig.scale ? fig.scale : Math.min(fitS, maxUnit ?? K.maxUnit);
   if (s <= 0) throw new Error(`${fig.type}: 그림 상자가 너무 작습니다`);
   const ox = box.x + (box.w - spanX * s) / 2 - e[0] * s;
   const oy = box.y + (box.h - spanY * s) / 2 + e[3] * s;
-  return { s, prims: K.prims(fig, labelSize / s), map: (p) => [ox + p[0] * s, oy - p[1] * s], used: { w: spanX * s + 2 * pad, h: spanY * s + 2 * pad } };
+  return { s, tooBig: fig.scale ? fig.scale > fitS + 1e-6 : false, prims: K.prims(fig, labelSize / s), map: (p) => [ox + p[0] * s, oy - p[1] * s], used: { w: spanX * s + 2 * pad, h: spanY * s + 2 * pad } };
 }
 
 // 활동지용 SVG. 1단위 = unitMm mm(자는 실제 cm 크기 그대로).
@@ -252,13 +268,13 @@ function toSvg(fig, opts = {}) {
   const K = KINDS[fig.type];
   const e = K.extent(fig);
   const ptMm = (opts.pt || 11) * 0.3528;
-  const pad = K.pad(fig) ? ptMm * 1.6 : ptMm * 0.3;
+  const pad = K.pad(fig) ? ptMm * K.pad(fig) : ptMm * 0.3;
   const unitMm = fig.type === "ruler" ? 10 : fig.type === "protractor" ? (fig.ws_radius || 45) : fig.ws_unit || 10;
   const maxW = opts.maxW || 170, maxH = fig.ws_max_h || opts.maxH || 80;
   const s = Math.min(unitMm, (maxW - 2 * pad) / Math.max(e[2] - e[0], 1e-6), (maxH - 2 * pad) / Math.max(e[3] - e[1], 1e-6));
   const W = (e[2] - e[0]) * s + 2 * pad, H = (e[3] - e[1]) * s + 2 * pad;
   const X = (p) => (pad + (p[0] - e[0]) * s).toFixed(2), Y = (p) => (pad + (e[3] - p[1]) * s).toFixed(2);
-  const C = { ink: "#1F2937", grid: "#B8C2CC", accent: "#E9762B", info: "#3D5A80", good: "#2A9D8F", onFill: "#1F2937" };
+  const C = { ink: "#1F2937", grid: "#9AA5B1", accent: "#E9762B", info: "#3D5A80", good: "#2A9D8F", onFill: "#1F2937" };
   const F = { tint: "#FBE3D2", accent: "#E9762B", good: "#2A9D8F", info: "#3D5A80", yellow: "#F2C14E", paper: "#FFFFFF" };
   const col = (c) => C[c] || (c ? `#${c}` : C.ink);
   const fil = (f) => (f ? F[f] || `#${f}` : "none");
@@ -278,7 +294,7 @@ function toSvg(fig, opts = {}) {
       const pts = [q.c, ...arcPts(q.c, q.r, q.a1, q.a2, 24)];
       g += `<polygon points="${pts.map((p) => `${X(p)},${Y(p)}`).join(" ")}" fill="${fil(q.fill)}" stroke="none"/>`;
     } else if (q.k === "dot") {
-      g += `<circle cx="${X(q.c)}" cy="${Y(q.c)}" r="${(0.7 * q.size).toFixed(2)}" fill="${col(q.color)}"/>`;
+      g += `<circle cx="${X(q.c)}" cy="${Y(q.c)}" r="${(q.color === "grid" ? 0.6 : 0.7 * q.size).toFixed(2)}" fill="${col(q.color)}"/>`;
     } else if (q.k === "text") {
       const size = q.size === "tiny" || q.size === "tinier" ? Math.min(8, Math.max(5.5, s * 0.16)) * (q.size === "tinier" ? 0.88 : 1) : /^[\u3131-\u318E]+$/.test(String(q.text)) ? (opts.pt || 11) * 1.35 : opts.pt || 11;
       String(q.text).split("\n").forEach((line, i, all) => {

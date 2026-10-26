@@ -617,7 +617,8 @@ const GEO_FILL = { tint: TINT.accent, accent: P.accent1, good: P.accent2, info: 
 const GEO_LINE = { ink: INK, grid: "B8C2CC", accent: P.accent1, info: P.accent4, good: P.accent2, onFill: INK };
 function coords(deck, slide, sid, fig, box) {
   const pt = deck.style.small;
-  const { s, prims, map } = GEO.layout(fig, box, pt / 72, fig.max_unit);
+  const { s, prims, map, tooBig } = GEO.layout(fig, box, pt / 72, fig.max_unit);
+  if (tooBig) deck.problems.push(`${sid}: ${fig.type} 그림이 scale ${fig.scale}in로는 자리에 들어가지 않는다(scale을 줄이거나 자리를 넓힌다)`);
   // 각도기 숫자는 반지름에 맞춘다(10°마다 숫자가 겹치지 않는 크기).
   // 안쪽 눈금 숫자(tinier)는 원둘레가 짧으므로 조금 더 작게 쓴다.
   const tiny = Math.max(9, Math.min(15, Math.round(s * 4.6)));
