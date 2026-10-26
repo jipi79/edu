@@ -203,13 +203,15 @@ function numberline(deck, slide, sid, fig, box) {
 
 // ---------- 점 배열·십 칸·수 모형 ----------
 function array(deck, slide, sid, fig, box) {
-  const cell = Math.min(box.w / fig.cols, box.h / fig.rows, 0.75);
+  // cell을 주면 여러 배열의 점 크기를 같게 맞출 수 있다(양 비교 그림에서 필요)
+  const cell = Math.min(box.w / fig.cols, box.h / fig.rows, fig.cell || 0.75);
   const w = cell * fig.cols;
   const h = cell * fig.rows;
   const x = box.x + (box.w - w) / 2;
   const y = box.y + (box.h - h) / 2;
   const d = cell * 0.62;
   const count = fig.count ?? fig.rows * fig.cols;
+  const crossedFrom = count - (fig.crossed || 0);
   for (let r = 0; r < fig.rows; r++) {
     for (let c = 0; c < fig.cols; c++) {
       if (r * fig.cols + c >= count) continue;
@@ -217,6 +219,13 @@ function array(deck, slide, sid, fig, box) {
         x: x + c * cell + (cell - d) / 2, y: y + r * cell + (cell - d) / 2, w: d, h: d,
         fill: { color: fig.color ? colorOf(fig.color) : P.accent1 }, line: { color: INK, width: 1 }, objectName: deck.name(sid, "dot"),
       });
+      if (r * fig.cols + c >= crossedFrom) {
+        const cx = x + c * cell + cell / 2;
+        const cy = y + r * cell + cell / 2;
+        const k = d * 0.62;
+        segment(deck, slide, sid, cx - k, cy - k, cx + k, cy + k, { color: P.accent3, width: 3.5 });
+        segment(deck, slide, sid, cx - k, cy + k, cx + k, cy - k, { color: P.accent3, width: 3.5 });
+      }
     }
   }
   if (fig.group === "row") {
@@ -226,7 +235,7 @@ function array(deck, slide, sid, fig, box) {
   }
   const name = deck.name(sid, "figure");
   slide.addShape(deck.pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: P.lt1, transparency: 100 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: name });
-  deck.alt.set(name, fig.alt || `점 ${count}개를 ${fig.rows}줄 ${fig.cols}개씩 놓은 배열`);
+  deck.alt.set(name, fig.alt || `점 ${count}개를 ${fig.rows}줄 ${fig.cols}개씩 놓은 배열${fig.crossed ? `, 그중 ${fig.crossed}개에 × 표시` : ""}`);
 }
 
 function tenframe(deck, slide, sid, fig, box) {
@@ -249,7 +258,7 @@ function tenframe(deck, slide, sid, fig, box) {
         left -= 1;
       }
     }
-    deck.outline(slide, sid, { x: fx, y, w: fw, h: cell * 2 }, f === 0 ? (fig.alt || `십 칸 틀에 ${fig.count}개`) : null);
+    deck.outline(slide, sid, { x: fx, y, w: fw, h: cell * 2 }, `${frames}개의 십 칸 틀 중 ${f + 1}번째: 모두 ${fig.count}개`);
   }
 }
 
@@ -259,7 +268,7 @@ function blocks10(deck, slide, sid, fig, box) {
   const ones = fig.ones || 0;
   // 단위 정육면체 한 칸의 크기 u: 백 모형 10u, 십 모형 10u 높이
   const widthUnits = hund * 10.6 + tens * 1.6 + Math.ceil(ones / 5) * 1.3 + 1;
-  const u = Math.min(box.h / 10.4, box.w / widthUnits, 0.38);
+  const u = Math.min(box.h / 10.4, box.w / widthUnits, fig.unit || 0.38);
   let x = box.x + (box.w - u * (widthUnits - 1)) / 2;
   const y = box.y + (box.h - u * 10) / 2;
   const line = { color: INK, width: 0.75 };
@@ -528,7 +537,40 @@ function text(deck, slide, sid, fig, box) {
   }));
 }
 
-const FIGURES = { bar: bars, bars, grid, pie, eq, eqx, frac, numberline, array, tenframe, blocks10, table, placevalue, clock, shapes, angle, chart, flow, timeline, letters, words, text };
+
+// ---------- 가르기·모으기 ----------
+function bond(deck, slide, sid, fig, box) {
+  const pt = fig.size || deck.style.body + 4;
+  const d = Math.min((pt * 2.1) / 72, box.h / 2.4, box.w / 3.4);
+  const fs = Math.round(d * 72 * 0.5);
+  const gapY = Math.min(box.h - 2 * d, d * 1.1);
+  const top = box.y + (box.h - (2 * d + gapY)) / 2;
+  const cx = box.x + box.w / 2;
+  const spread = Math.min(box.w / 2 - d / 2, d * 1.4);
+  const merge = !!fig.merge;
+  const yWhole = merge ? top + d + gapY : top;
+  const yParts = merge ? top : top + d + gapY;
+  const nodes = [[cx, yWhole, fig.whole, true], [cx - spread, yParts, fig.parts[0], false], [cx + spread, yParts, fig.parts[1], false]];
+  // 선을 먼저 그려 원 아래에 깔리게 한다
+  for (const [px] of [nodes[1], nodes[2]]) {
+    const x1 = cx, y1 = merge ? yWhole : yWhole + d;
+    const x2 = px, y2 = merge ? yParts + d : yParts;
+    segment(deck, slide, sid, x1, y1, x2, y2, { color: INK, width: 2.5 });
+  }
+  const name = deck.name(sid, "figure");
+  nodes.forEach(([x, y, v, whole], i) => {
+    const blank = v === null || v === undefined;
+    slide.addText(blank ? "" : String(v), textOpts({
+      shape: deck.pres.shapes.OVAL, x: x - d / 2, y, w: d, h: d,
+      fill: { color: blank ? P.lt1 : whole ? TINT.accent : P.lt2 }, line: { color: whole ? P.accent1 : P.dk2, width: 2.5, dashType: blank ? "dash" : "solid" },
+      fontSize: fs, bold: true, color: INK, align: "center", valign: "middle", margin: 0, objectName: i === 0 ? name : deck.name(sid, "bondpart"),
+    }));
+  });
+  const say = (v) => (v === null || v === undefined ? "빈칸" : v);
+  deck.alt.set(name, fig.alt || `${say(fig.whole)}을(를) ${say(fig.parts[0])}와(과) ${say(fig.parts[1])}(으)로 ${merge ? "모으기" : "가르기"}`);
+}
+
+const FIGURES = { bond, bar: bars, bars, grid, pie, eq, eqx, frac, numberline, array, tenframe, blocks10, table, placevalue, clock, shapes, angle, chart, flow, timeline, letters, words, text };
 
 // 그림 하나 또는 여러 개(가로로 나란히, 각각 caption 가능)를 상자에 그린다.
 function drawFigures(deck, slide, sid, figs, box) {

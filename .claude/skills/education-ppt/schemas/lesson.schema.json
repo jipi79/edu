@@ -201,7 +201,9 @@
               "not_equiv",
               "blank",
               "bar",
-              "count"
+              "count",
+              "compare",
+              "bond"
             ]
           }
         }

@@ -358,7 +358,7 @@
   ],
   "file_stem": "초1_수학_수와연산_02_수의순서와크기비교",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-NUM9ORD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-COMPOSE-L01",
@@ -384,7 +384,7 @@
   ],
   "file_stem": "초1_수학_수와연산_03_가르기와모으기",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-COMPOSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-ADD-L01",
@@ -410,7 +410,7 @@
   ],
   "file_stem": "초1_수학_수와연산_04_덧셈의뜻",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-ADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-SUB-L01",
@@ -436,7 +436,7 @@
   ],
   "file_stem": "초1_수학_수와연산_05_뺄셈의뜻",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-SUB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-NUM50-L01",
@@ -462,7 +462,7 @@
   ],
   "file_stem": "초1_수학_수와연산_06_50까지의수",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-NUM50-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-NUM100-L01",
@@ -488,7 +488,7 @@
   ],
   "file_stem": "초1_수학_수와연산_07_100까지의수",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-NUM100-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-ADD3-L01",
@@ -618,6 +618,57 @@
   ],
   "file_stem": "초1_수학_수와연산_12_두자리수의덧셈과뺄셈",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-ADD2D-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G01-MAT-ORDINAL-L01",
+  "concept_id": "MAT-ORDINAL",
+  "grade": "G01",
+  "grade_label": "초1",
+  "band": "E12",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G01-MAT-I01",
+  "folder": "몇째와짝수홀수",
+  "sequence": 1,
+  "units": [
+   "2.1.1"
+  ],
+  "title": "몇째인지 알기",
+  "objective": "순서를 나타내는 말(첫째, 둘째…)로 위치를 말하고, 개수를 나타내는 말과 구별한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G01-MAT-NUM9ORD-L01"
+  ],
+  "file_stem": "초1_수학_몇째와짝수홀수_01_몇째인지알기",
+  "source": "lessons/G01_초1/MAT_수학/몇째와짝수홀수/KR22-G01-MAT-ORDINAL-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G01-MAT-EVENODD-L01",
+  "concept_id": "MAT-EVENODD",
+  "grade": "G01",
+  "grade_label": "초1",
+  "band": "E12",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G01-MAT-I01",
+  "folder": "몇째와짝수홀수",
+  "sequence": 2,
+  "units": [
+   "2.1.1"
+  ],
+  "title": "짝수와 홀수",
+  "objective": "둘씩 짝을 지어 남는 것이 있는지로 짝수와 홀수를 구별한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G01-MAT-ORDINAL-L01",
+   "KR22-G01-MAT-NUM100-L01"
+  ],
+  "file_stem": "초1_수학_몇째와짝수홀수_02_짝수와홀수",
+  "source": "lessons/G01_초1/MAT_수학/몇째와짝수홀수/KR22-G01-MAT-EVENODD-L01.json",
   "status": "계획"
  },
  {
@@ -2745,7 +2796,7 @@
   ],
   "file_stem": "초3_국어_읽기와어휘_02_문맥으로낱말뜻짐작",
   "source": "lessons/G03_초3/KOR_국어/읽기와어휘/KR22-G03-KOR-CONTEXT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-DICT-L01",
@@ -2771,7 +2822,7 @@
   ],
   "file_stem": "초3_국어_읽기와어휘_03_국어사전찾기",
   "source": "lessons/G03_초3/KOR_국어/읽기와어휘/KR22-G03-KOR-DICT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-PRESENT-L01",
@@ -2795,7 +2846,7 @@
   "pre": [],
   "file_stem": "초3_국어_발표와쓰기_01_조사한내용발표하기",
   "source": "lessons/G03_초3/KOR_국어/발표와쓰기/KR22-G03-KOR-PRESENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-PARAGRAPH-L01",
@@ -2822,7 +2873,7 @@
   ],
   "file_stem": "초3_국어_발표와쓰기_02_문단쓰기",
   "source": "lessons/G03_초3/KOR_국어/발표와쓰기/KR22-G03-KOR-PARAGRAPH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-LETTER-L01",
@@ -2848,7 +2899,7 @@
   ],
   "file_stem": "초3_국어_발표와쓰기_03_마음을전하는편지",
   "source": "lessons/G03_초3/KOR_국어/발표와쓰기/KR22-G03-KOR-LETTER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-CHARACTER-L01",
@@ -2874,7 +2925,7 @@
   ],
   "file_stem": "초3_국어_문학과매체_01_인물의마음과까닭",
   "source": "lessons/G03_초3/KOR_국어/문학과매체/KR22-G03-KOR-CHARACTER-L01.json",
-  "status": "계획"
+  "status": "원고 완료"
  },
  {
   "id": "KR22-G03-KOR-SENSORY-L01",

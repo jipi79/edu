@@ -81,9 +81,10 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `eq` | `items` (분수는 [분자,분모], 빈칸은 null 또는 "□", 기호는 문자열) 또는 `lines`[…] | 식. 분수가 없으면 한 줄 글자 |
 | `eqx` | `from`, `to`, `op`("×2"), `join`?("="·"→") | 분수 변환 화살표 |
 | `numberline` | `min`, `max`, `step`?, `labels`?("all"·"ends"·[값]), `marks`?[{at,label}], `jumps`?[{from,to,label}] | 수직선, 뛰어 세기 |
-| `array` | `rows`, `cols`, `count`?, `group`?("row"·"col") | 곱셈·나눗셈 묶음 |
+| `array` | `rows`, `cols`, `count`?, `group`?("row"·"col"), `crossed`?(뒤에서부터 × 표시할 개수), `cell`?(점 칸 크기, in) | 세기·곱셈·나눗셈 묶음, 덜어 내기(crossed). 양을 나란히 비교할 때는 모든 배열에 같은 `cell` 을 준다 |
 | `tenframe` | `count`, `frames`? | 10의 보수, 가르기·모으기 |
-| `blocks10` | `hundreds`?, `tens`, `ones` | 자릿값(수 모형) |
+| `blocks10` | `hundreds`?, `tens`, `ones`, `unit`?(한 칸 크기, in) | 자릿값(수 모형). 여러 개를 나란히 둘 때는 같은 `unit` |
+| `bond` | `whole`, `parts`[2] (빈칸은 null), `merge`? | 가르기(전체 위)·모으기(merge: 부분 위) |
 | `placevalue` | `headers`, `rows` | 자릿값 표 |
 | `table` | `headers`, `rows`, `widths`?, `firstColHead`? | 표 |
 | `clock` | `h`, `m`(시곗바늘 없이 그리려면 h 생략) | 시각 |
@@ -124,6 +125,8 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 { "type": "not_equiv", "values": ["1/2", "2/3"], "where": "S10" }
 { "type": "bar", "slide": "S02", "parts": 4, "shaded": 1, "value": "1/4", "where": "S02 가" }
 { "type": "count", "slide": "S08", "value": 8, "where": "S08 ① 점 8개" }   // 점 배열·십 칸·격자·수 모형이 그 수를 나타내는지
+{ "type": "compare", "values": ["58", "64"], "rel": "<", "where": "S09 ②" }   // 크기 비교(<, >, =)
+{ "type": "bond", "whole": 7, "parts": [4, 3], "where": "S05 가르기" }
 ```
 
 `blank` 의 식에는 정수·소수·분수(a/b)와 + − × ÷ ( ) 만 쓴다. □는 어디에 있어도 되며 정확한 분수 계산으로 검산한다(예: `"36 + 47 = □"`, `"0.3 + 0.45 = □"`, `"1/2 + 1/4 = □/4"`). 나머지가 있는 나눗셈은 `"□ × 4 + 3 = 23"` 처럼 곱셈식으로 쓴다.
@@ -136,7 +139,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 |---|---|
 | `eq` / `eqs` | 식(빈칸 있는 분수 포함) 하나 / 여러 개 |
 | `bars` | 분수 막대 [ {parts, shaded, label?} ] |
-| `clock`, `numberline`, `grid`, `array`, `pie`, `table` | 그림(시계는 h 없이 주면 아이가 바늘을 그린다) |
+| `clock`, `numberline`, `grid`, `array`, `pie`, `table`, `tenframe`, `bond` | 그림(시계는 h 없이 주면 아이가 바늘을 그린다, bond의 null은 빈 동그라미) |
 | `read` | 읽을 글(상자) |
 | `choices` | 고르기 보기(☐) |
 | `big` | 큰 글자(따라 쓰기 낱말 등) |

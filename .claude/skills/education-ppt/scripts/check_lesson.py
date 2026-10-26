@@ -190,6 +190,15 @@ def check(path):
                     errors.append(f"정답 검산({where}): 계산할 수 없는 식 {c['expr']}")
                 elif exact(left) != exact(right):
                     errors.append(f"정답 검산({where}): {c['expr']} 에 {c['answer']}를 넣으면 성립하지 않는다")
+            elif c["type"] == "compare":
+                a, b = (exact(v) for v in c["values"])
+                ok = {"<": a < b, ">": a > b, "=": a == b}[c["rel"]]
+                if not ok:
+                    errors.append(f"정답 검산({where}): {c['values'][0]} {c['rel']} {c['values'][1]} 가 성립하지 않는다")
+            elif c["type"] == "bond":
+                w, (p, q) = c["whole"], c["parts"]
+                if w != p + q:
+                    errors.append(f"정답 검산({where}): {p}와 {q}를 모으면 {w}가 아니다")
             elif c["type"] == "count":
                 counts = [figure_count(b) for b in walk(by_id[c["slide"]])]
                 if c["value"] not in counts:

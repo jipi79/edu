@@ -156,6 +156,38 @@ function tableHtml(t) {
   return `<table style="width:auto; min-width:90mm; font-size:11.5pt">${head}${rows}</table>`;
 }
 
+
+function tenframeSvg(t, cell = 9) {
+  const frames = t.frames || (t.count > 10 ? 2 : 1);
+  let g = "";
+  let left = t.count || 0;
+  for (let f = 0; f < frames; f++) {
+    const ox = f * (cell * 5 + 6);
+    for (let k = 0; k < 10; k++) {
+      const x = ox + (k % 5) * cell, y = Math.floor(k / 5) * cell;
+      g += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" fill="#fff" stroke="#1F2937" stroke-width="0.4"/>`;
+      if (left > 0) { g += `<circle cx="${x + cell / 2}" cy="${y + cell / 2}" r="${cell * 0.32}" fill="#E9762B" stroke="#1F2937" stroke-width="0.3"/>`; left -= 1; }
+    }
+  }
+  const w = frames * cell * 5 + (frames - 1) * 6;
+  return `<svg width="${w}mm" height="${cell * 2}mm" viewBox="-0.4 -0.4 ${w + 0.8} ${cell * 2 + 0.8}">${g}</svg>`;
+}
+
+function bondSvg(b, d = 13) {
+  const W = d * 4.2, H = d * 2.8;
+  const merge = !!b.merge;
+  const yw = merge ? H - d / 2 - 0.5 : d / 2 + 0.5, yp = merge ? d / 2 + 0.5 : H - d / 2 - 0.5;
+  const pts = [[W / 2, yw, b.whole], [d * 0.7, yp, b.parts[0]], [W - d * 0.7, yp, b.parts[1]]];
+  let g = "";
+  for (const [x, y] of pts.slice(1)) g += `<line x1="${W / 2}" y1="${yw}" x2="${x}" y2="${y}" stroke="#1F2937" stroke-width="0.6"/>`;
+  for (const [x, y, v] of pts) {
+    const blank = v === null || v === undefined;
+    g += `<circle cx="${x}" cy="${y}" r="${d / 2}" fill="#fff" stroke="#264653" stroke-width="0.6" ${blank ? 'stroke-dasharray="1.5 1"' : ""}/>`;
+    if (!blank) g += `<text x="${x}" y="${y + 2.2}" font-size="6.5" font-weight="700" text-anchor="middle">${v}</text>`;
+  }
+  return `<svg width="${W}mm" height="${H}mm" viewBox="0 0 ${W} ${H}">${g}</svg>`;
+}
+
 function figureHtml(it) {
   const parts = [];
   if (it.clock) parts.push(...[].concat(it.clock).map((c) => clockSvg(c)));
@@ -164,6 +196,8 @@ function figureHtml(it) {
   if (it.array) parts.push(...[].concat(it.array).map((a) => arraySvg(a)));
   if (it.pie) parts.push(...[].concat(it.pie).map((pc) => pieSvg(pc)));
   if (it.table) parts.push(tableHtml(it.table));
+  if (it.tenframe) parts.push(...[].concat(it.tenframe).map((t) => tenframeSvg(t)));
+  if (it.bond) parts.push(...[].concat(it.bond).map((b) => bondSvg(b)));
   return parts.length ? `<div class="figrow" style="flex-wrap:wrap; gap:8mm">${parts.join("")}</div>` : "";
 }
 
