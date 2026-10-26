@@ -33,7 +33,7 @@ def frac(text):
     if m:
         return int(m.group(1)) + Fraction(int(m.group(2)), int(m.group(3)))
     if "/" not in str(text):
-        return Fraction(int(str(text).strip()))
+        return Fraction(str(text).strip())  # 자연수·소수(0.40)
     n, d = str(text).split("/")
     return Fraction(int(n), int(d))
 

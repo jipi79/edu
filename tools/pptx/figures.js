@@ -610,7 +610,9 @@ function coords(deck, slide, sid, fig, box) {
   const pt = deck.style.small;
   const { s, prims, map } = GEO.layout(fig, box, pt / 72, fig.max_unit);
   // 각도기 숫자는 반지름에 맞춘다(10°마다 숫자가 겹치지 않는 크기).
-  const tiny = Math.max(11, Math.min(16, Math.round(s * 4.8)));
+  // 안쪽 눈금 숫자(tinier)는 원둘레가 짧으므로 조금 더 작게 쓴다.
+  const tiny = Math.max(9, Math.min(15, Math.round(s * 4.6)));
+  const tinier = Math.max(8, Math.round(tiny * 0.88));
   const lineOf = (q) => ({ color: GEO_LINE[q.color] || q.color || INK, width: q.w || 1.5, ...(q.dash ? { dashType: "dash" } : {}) });
   let main = null;
   for (const q of prims) {
@@ -635,19 +637,26 @@ function coords(deck, slide, sid, fig, box) {
       const [cx, cy] = map(q.c), r = q.r * s;
       slide.addShape(deck.pres.shapes.OVAL, { x: cx - r, y: cy - r, w: 2 * r, h: 2 * r, line: lineOf(q), objectName: name, ...(q.fill ? { fill: { color: GEO_FILL[q.fill] || q.fill } } : {}) });
     } else if (q.k === "sector") {
-      const [cx, cy] = map(q.c), r = q.r * s;
-      const norm = (d) => ((d % 360) + 360) % 360;
-      slide.addShape(deck.pres.shapes.PIE, { x: cx - r, y: cy - r, w: 2 * r, h: 2 * r, angleRange: [norm(360 - q.a2), norm(360 - q.a1)], fill: { color: GEO_FILL[q.fill] || P.accent5 }, line: { color: GEO_FILL[q.fill] || P.accent5, width: 0 }, objectName: name });
+      // 부채꼴은 보이는 부분만 다각형으로 그린다(원 전체를 상자로 잡지 않아 슬라이드 밖 판정이 정확하다).
+      const pts = [q.c, ...GEO.arcPts(q.c, q.r, q.a1, q.a2, 24)].map(map);
+      const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+      const bx = Math.min(...xs), by = Math.min(...ys);
+      slide.addShape(deck.pres.shapes.CUSTOM_GEOMETRY, {
+        x: bx, y: by, w: Math.max(Math.max(...xs) - bx, 0.01), h: Math.max(Math.max(...ys) - by, 0.01),
+        points: [...pts.map(([px, py]) => ({ x: px - bx, y: py - by })), { close: true }],
+        fill: { color: GEO_FILL[q.fill] || P.accent5 }, line: { type: "none" }, objectName: name,
+      });
     } else if (q.k === "dot") {
       const [cx, cy] = map(q.c), d = 0.13 * q.size;
       slide.addShape(deck.pres.shapes.OVAL, { x: cx - d / 2, y: cy - d / 2, w: d, h: d, fill: { color: GEO_LINE[q.color] || INK }, line: { color: GEO_LINE[q.color] || INK, width: 0 }, objectName: name });
     } else if (q.k === "text") {
       // 낱자(ㄱ, ㄴ)로 된 점 이름은 글꼴에서 작게 그려지므로 크게 쓴다.
-      const size = q.size === "tiny" ? tiny : /^[\u3131-\u318E]+$/.test(String(q.text)) ? Math.round(pt * 1.35) : pt;
+      const size = q.size === "tiny" ? tiny : q.size === "tinier" ? tinier : /^[\u3131-\u318E]+$/.test(String(q.text)) ? Math.round(pt * 1.35) : pt;
       const lines = String(q.text).split("\n");
       const w = Math.max(...lines.map((l) => widthIn(l, size))) + 0.12;
       const h = (size * 1.25 * lines.length) / 72;
       const [cx, cy] = map(q.at);
+      if (q.bg) slide.addShape(deck.pres.shapes.RECTANGLE, { x: cx - (w - 0.1) / 2, y: cy - (h * 0.8) / 2, w: w - 0.1, h: h * 0.8, fill: { color: P.lt1 }, line: { type: "none" }, objectName: deck.name(sid, "labelbg") });
       label(deck, slide, sid, q.text, cx - w / 2, cy - h / 2, w, h, size, { color: q.color === "onFill" ? "ink" : q.color, bold: q.bold });
     }
   }

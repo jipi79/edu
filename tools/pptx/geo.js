@@ -118,7 +118,10 @@ function geoPrims(fig, em) {
     } else {
       const r = a.r ?? Math.min(1.3 * em, room);
       out.push({ k: "sector", c: v, r, a1, a2: a1 + sweep, fill: a.fill || "yellow" });
-      if (a.label) out.push({ k: "text", at: polar(v, r + 0.95 * em, a1 + sweep / 2), text: a.label, size: "label" });
+      // 좁은 각은 이름표가 두 변에 닿지 않을 만큼 꼭짓점에서 멀리 둔다.
+      const half = Math.sin((Math.min(sweep, 179) * Math.PI) / 360);
+      const dist = a.label_dist ?? Math.max(r + 0.95 * em, (0.9 * em) / Math.max(half, 0.15));
+      if (a.label) out.push({ k: "text", at: polar(v, dist, a1 + sweep / 2), text: a.label, size: "label" });
     }
   }
   for (const s of fig.segments || []) {
@@ -140,7 +143,7 @@ function geoPrims(fig, em) {
     if (sd.label) {
       // 이름표 상자(폭 tw, 높이 th)가 변과 겹치지 않을 만큼 법선 방향으로 띄운다.
       const rows = String(sd.label).split("\n");
-      const tw = Math.max(...rows.map((r) => [...r].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ]/.test(ch) ? 0.98 : ch === " " ? 0.3 : 0.62), 0))) * em;
+      const tw = Math.max(...rows.map((r) => [...r].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ㈀-㋿]/.test(ch) ? 0.98 : ch === " " ? 0.3 : 0.62), 0))) * em;
       const th = 1.2 * rows.length * em;
       const d = 0.3 * em + Math.abs(n[0]) * tw / 2 + Math.abs(n[1]) * th / 2;
       out.push({ k: "text", at: add(mid, mul(n, d)), text: sd.label, size: "label" });
@@ -195,13 +198,6 @@ function protractorPrims(fig, em) {
     const long = d % 10 === 0;
     out.push({ k: "line", a: polar([0, 0], 1, d), b: polar([0, 0], long ? 0.88 : 0.93, d), w: long ? 1.25 : 0.75, color: "ink" });
   }
-  // 숫자 간격이 좁으면(각도기가 작으면) 20°마다 쓴다. em이 작을수록 각도기가 크다.
-  const step = fig.step || (em <= 0.16 ? 10 : 20);
-  const scales = fig.scales || "both";
-  for (let d = 0; d <= 180; d += step) {
-    if (scales !== "inner") out.push({ k: "text", at: polar([0, 0], 0.8, 180 - d), text: String(d), size: "tiny", color: "info" });
-    if (scales !== "outer") out.push({ k: "text", at: polar([0, 0], 0.62, d), text: String(d), size: "tiny", color: "accent" });
-  }
   out.push({ k: "line", a: [-1, 0], b: [1, 0], w: 1.5, color: "ink" });
   out.push({ k: "line", a: [0, 0], b: [0, 0.12], w: 1.5, color: "ink" });
   const base = fig.base || 0, r = fig.ray ?? 1.2;
@@ -209,6 +205,17 @@ function protractorPrims(fig, em) {
     if (fig.mark !== false) out.push({ k: "sector", c: [0, 0], r: 0.3, a1: base, a2: base + fig.deg, fill: "yellow" });
     out.push({ k: "line", a: [0, 0], b: polar([0, 0], r, base), w: 2.5, color: "ink", main: true });
     out.push({ k: "line", a: [0, 0], b: polar([0, 0], r, base + fig.deg), w: 2.5, color: "ink" });
+  }
+  // 숫자는 변(반직선) 위에 흰 바탕으로 써서 읽어야 할 숫자가 선에 가려지지 않게 한다.
+  // 숫자 간격이 좁으면(각도기가 작으면) 20°마다 쓴다. em이 작을수록 각도기가 크다.
+  const step = fig.step || (em <= 0.2 ? 10 : 20);
+  const scales = fig.scales || "both";
+  const lift = (d, p) => (d === 0 || d === 180 ? [p[0], p[1] + 0.55 * em] : p);
+  for (let d = 0; d <= 180; d += step) {
+    // 0·180은 밑금 위로 올려 쓰므로 흰 바탕이 필요 없다(바탕이 옆 숫자를 가리지 않게).
+    const bg = d !== 0 && d !== 180;
+    if (scales !== "inner") out.push({ k: "text", at: lift(d, polar([0, 0], 0.8, 180 - d)), text: String(d), size: "tiny", color: "info", bg });
+    if (scales !== "outer") out.push({ k: "text", at: lift(d, polar([0, 0], 0.64, d)), text: String(d), size: "tinier", color: "accent", bg });
   }
   out.push({ k: "dot", c: [0, 0], size: 0.8, color: "ink" });
   return out;
@@ -268,9 +275,13 @@ function toSvg(fig, opts = {}) {
     } else if (q.k === "dot") {
       g += `<circle cx="${X(q.c)}" cy="${Y(q.c)}" r="${(0.7 * q.size).toFixed(2)}" fill="${col(q.color)}"/>`;
     } else if (q.k === "text") {
-      const size = q.size === "tiny" ? Math.min(8, Math.max(5.5, s * 0.16)) : /^[\u3131-\u318E]+$/.test(String(q.text)) ? (opts.pt || 11) * 1.35 : opts.pt || 11;
+      const size = q.size === "tiny" || q.size === "tinier" ? Math.min(8, Math.max(5.5, s * 0.16)) * (q.size === "tinier" ? 0.88 : 1) : /^[\u3131-\u318E]+$/.test(String(q.text)) ? (opts.pt || 11) * 1.35 : opts.pt || 11;
       String(q.text).split("\n").forEach((line, i, all) => {
         const dy = (i - (all.length - 1) / 2) * size * 0.3528 * 1.2;
+        if (q.bg) {
+          const tw = String(line).length * 0.6 * size * 0.3528 + 0.6, th = size * 0.3528 * 1.05;
+          g += `<rect x="${(Number(X(q.at)) - tw / 2).toFixed(2)}" y="${(Number(Y(q.at)) + dy - th / 2).toFixed(2)}" width="${tw.toFixed(2)}" height="${th.toFixed(2)}" fill="#FFFFFF"/>`;
+        }
         g += `<text x="${X(q.at)}" y="${(Number(Y(q.at)) + dy).toFixed(2)}" font-size="${(size * 0.3528).toFixed(2)}" text-anchor="middle" dominant-baseline="central" fill="${col(q.color)}" font-weight="${q.bold === false ? 400 : 700}">${String(line).replace(/&/g, "&amp;").replace(/</g, "&lt;")}</text>`;
       });
     }
