@@ -6191,7 +6191,7 @@
   ],
   "file_stem": "초4_과학_기후와생활_01_기후변화와생활",
   "source": "lessons/G04_초4/SCI_과학/기후와생활/KR22-G04-SCI-CLIMATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-TEC-REUSE-L01",
@@ -7710,7 +7710,9 @@
   "objective": "지도에서 우리나라의 위치와 영토·영해·영공을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SOC-MAP-L01"
+  ],
   "file_stem": "초5_사회·역사_국토와생활_01_우리나라의위치와영역",
   "source": "lessons/G05_초5/SOC_사회·역사/국토와생활/KR22-G05-SOC-TERRITORY-L01.json",
   "status": "제작 완료"
@@ -7948,7 +7950,9 @@
   "objective": "인권의 뜻을 알고 생활 속 인권 보호 사례를 찾는다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SOC-FAMILIES-L01"
+  ],
   "file_stem": "초5_사회·역사_권리와생활_01_인권",
   "source": "lessons/G05_초5/SOC_사회·역사/권리와생활/KR22-G05-SOC-RIGHTS-L01.json",
   "status": "제작 완료"
@@ -7999,11 +8003,12 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G05-SOC-LAW-L01"
+   "KR22-G05-SOC-LAW-L01",
+   "KR22-G04-SOC-SCARCITY-L01"
   ],
   "file_stem": "초5_사회·역사_권리와생활_03_경제적선택",
   "source": "lessons/G05_초5/SOC_사회·역사/권리와생활/KR22-G05-SOC-SPENDING-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ETH-CONSEQ-L01",
