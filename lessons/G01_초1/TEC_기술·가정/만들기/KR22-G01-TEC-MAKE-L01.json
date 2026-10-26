@@ -1,0 +1,49 @@
+{
+  "id": "KR22-G01-TEC-MAKE-L01",
+  "concept_id": "TEC-MAKE",
+  "title": "안전한 재료로 만들기",
+  "grade": "G01",
+  "grade_label": "초1",
+  "band": "E12",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "만들기",
+  "sequence": 1,
+  "file_stem": "초1_기술·가정_만들기_01_안전한재료로만들기",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G01-TEC-I02"
+    ],
+    "units": [
+      "7.1.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "종이 등 안전한 재료로 필요한 물건을 구상해 만든다.",
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "안전한 재료로 만들기 활동지",
+    "items": [],
+    "record": []
+  }
+}
