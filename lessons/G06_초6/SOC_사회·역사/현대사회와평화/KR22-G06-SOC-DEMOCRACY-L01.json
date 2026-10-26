@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G06-SOC-DEMOCRACY-L01",
+  "concept_id": "SOC-DEMOCRACY",
+  "title": "민주주의의 발전",
+  "grade": "G06",
+  "grade_label": "초6",
+  "band": "E56",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "현대사회와평화",
+  "sequence": 1,
+  "file_stem": "초6_사회·역사_현대사회와평화_01_민주주의의발전",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G06-SOC-I01"
+    ],
+    "units": [
+      "4.1.7",
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "4·19 혁명, 5·18 민주화 운동, 6월 민주 항쟁으로 민주주의의 발전을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "광복과 6·25전쟁",
+      "lesson": "KR22-G05-SOC-LIBERATION-L01",
+      "grade_item": "KR22-G05-SOC-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "민주주의의 발전 활동지",
+    "items": [],
+    "record": []
+  }
+}
