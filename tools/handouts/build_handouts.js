@@ -9,6 +9,7 @@
 const fs = require("fs");
 const path = require("path");
 const { chromium } = require("playwright");
+const GEO = require("../pptx/geo");
 
 function parseArgs(argv) {
   const args = { lesson: null, out: null, thumbs: null };
@@ -204,6 +205,7 @@ function figureHtml(it) {
   if (it.table) parts.push(tableHtml(it.table));
   if (it.tenframe) parts.push(...[].concat(it.tenframe).map((t) => tenframeSvg(t)));
   if (it.bond) parts.push(...[].concat(it.bond).map((b) => bondSvg(b)));
+  for (const type of ["geo", "ruler", "protractor"]) if (it[type]) parts.push(...[].concat(it[type]).map((g) => GEO.toSvg({ ...g, type })));
   return parts.length ? `<div class="figrow" style="flex-wrap:wrap; gap:8mm">${parts.join("")}</div>` : "";
 }
 

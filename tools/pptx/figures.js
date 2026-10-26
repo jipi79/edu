@@ -5,11 +5,11 @@ const { widthIn } = require("./fit");
 
 const INK = P.dk1;
 
-function segment(deck, slide, sid, x1, y1, x2, y2, line) {
+function segment(deck, slide, sid, x1, y1, x2, y2, line, name) {
   // 기본 선은 왼쪽 위 → 오른쪽 아래로 그려진다. 다른 방향은 뒤집기로 나타낸다.
   const opts = {
     x: Math.min(x1, x2), y: Math.min(y1, y2), w: Math.abs(x2 - x1), h: Math.abs(y2 - y1),
-    line, objectName: deck.name(sid, "line"),
+    line, objectName: name || deck.name(sid, "line"),
   };
   const right = x2 >= x1;
   const down = y2 >= y1;
@@ -583,7 +583,59 @@ function bond(deck, slide, sid, fig, box) {
   deck.alt.set(name, fig.alt || `${say(fig.whole)}을(를) ${say(fig.parts[0])}와(과) ${say(fig.parts[1])}(으)로 ${merge ? "모으기" : "가르기"}`);
 }
 
-const FIGURES = { bond, bar: bars, bars, grid, pie, eq, eqx, frac, numberline, array, tenframe, blocks10, table, placevalue, clock, shapes, angle, chart, flow, timeline, letters, words, text };
+// ---------- 좌표 그림: 도형(geo)·자(ruler)·각도기(protractor) ----------
+// 기본 도형 목록은 geo.js가 만들고, 여기서는 슬라이드에 그린다(활동지는 geo.toSvg).
+const GEO = require("./geo");
+const GEO_FILL = { tint: TINT.accent, accent: P.accent1, good: P.accent2, info: P.accent4, yellow: P.accent5, paper: P.lt1 };
+const GEO_LINE = { ink: INK, grid: "B8C2CC", accent: P.accent1, info: P.accent4, good: P.accent2, onFill: INK };
+function coords(deck, slide, sid, fig, box) {
+  const pt = deck.style.small;
+  const { s, prims, map } = GEO.layout(fig, box, pt / 72, fig.max_unit);
+  // 각도기 숫자는 반지름에 맞춘다(10°마다 숫자가 겹치지 않는 크기).
+  const tiny = Math.max(11, Math.min(16, Math.round(s * 4.8)));
+  const lineOf = (q) => ({ color: GEO_LINE[q.color] || q.color || INK, width: q.w || 1.5, ...(q.dash ? { dashType: "dash" } : {}) });
+  let main = null;
+  for (const q of prims) {
+    let name = deck.name(sid, q.main && !main ? "figure" : "mark");
+    if (q.main && !main) main = name;
+    if (q.k === "line") {
+      const [x1, y1] = map(q.a), [x2, y2] = map(q.b);
+      const line = { ...lineOf(q), ...(q.arrowEnd ? { endArrowType: "triangle" } : {}), ...(q.arrowStart ? { beginArrowType: "triangle" } : {}) };
+      segment(deck, slide, sid, x1, y1, x2, y2, line, name);
+    } else if (q.k === "poly") {
+      const pts = q.pts.map(map);
+      const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+      const bx = Math.min(...xs), by = Math.min(...ys);
+      const bw = Math.max(Math.max(...xs) - bx, 0.01), bh = Math.max(Math.max(...ys) - by, 0.01);
+      const points = pts.map(([px, py]) => ({ x: px - bx, y: py - by }));
+      if (q.closed) points.push({ close: true });
+      slide.addShape(deck.pres.shapes.CUSTOM_GEOMETRY, {
+        x: bx, y: by, w: bw, h: bh, points, line: q.w === 0 ? { type: "none" } : lineOf(q), objectName: name,
+        ...(q.fill ? { fill: { color: GEO_FILL[q.fill] || q.fill } } : {}),
+      });
+    } else if (q.k === "circle") {
+      const [cx, cy] = map(q.c), r = q.r * s;
+      slide.addShape(deck.pres.shapes.OVAL, { x: cx - r, y: cy - r, w: 2 * r, h: 2 * r, line: lineOf(q), objectName: name, ...(q.fill ? { fill: { color: GEO_FILL[q.fill] || q.fill } } : {}) });
+    } else if (q.k === "sector") {
+      const [cx, cy] = map(q.c), r = q.r * s;
+      const norm = (d) => ((d % 360) + 360) % 360;
+      slide.addShape(deck.pres.shapes.PIE, { x: cx - r, y: cy - r, w: 2 * r, h: 2 * r, angleRange: [norm(360 - q.a2), norm(360 - q.a1)], fill: { color: GEO_FILL[q.fill] || P.accent5 }, line: { color: GEO_FILL[q.fill] || P.accent5, width: 0 }, objectName: name });
+    } else if (q.k === "dot") {
+      const [cx, cy] = map(q.c), d = 0.13 * q.size;
+      slide.addShape(deck.pres.shapes.OVAL, { x: cx - d / 2, y: cy - d / 2, w: d, h: d, fill: { color: GEO_LINE[q.color] || INK }, line: { color: GEO_LINE[q.color] || INK, width: 0 }, objectName: name });
+    } else if (q.k === "text") {
+      const size = q.size === "tiny" ? tiny : pt;
+      const lines = String(q.text).split("\n");
+      const w = Math.max(...lines.map((l) => widthIn(l, size))) + 0.12;
+      const h = (size * 1.25 * lines.length) / 72;
+      const [cx, cy] = map(q.at);
+      label(deck, slide, sid, q.text, cx - w / 2, cy - h / 2, w, h, size, { color: q.color === "onFill" ? "ink" : q.color, bold: q.bold });
+    }
+  }
+  if (main) deck.alt.set(main, fig.alt || { geo: "도형", ruler: "자", protractor: "각도기" }[fig.type]);
+}
+
+const FIGURES = { geo: coords, ruler: coords, protractor: coords, bond, bar: bars, bars, grid, pie, eq, eqx, frac, numberline, array, tenframe, blocks10, table, placevalue, clock, shapes, angle, chart, flow, timeline, letters, words, text };
 
 // 그림 하나 또는 여러 개(가로로 나란히, 각각 caption 가능)를 상자에 그린다.
 function drawFigures(deck, slide, sid, figs, box) {
@@ -604,7 +656,7 @@ function drawFigures(deck, slide, sid, figs, box) {
 }
 
 // 그림이 가로로 넓은 종류인지(위아래 배치) 아닌지(좌우 배치)
-const WIDE = new Set(["bar", "bars", "numberline", "timeline", "flow", "table", "chart", "letters", "words", "eq", "eqx", "blocks10", "tenframe"]);
+const WIDE = new Set(["ruler", "bar", "bars", "numberline", "timeline", "flow", "table", "chart", "letters", "words", "eq", "eqx", "blocks10", "tenframe"]);
 function isWide(figs) {
   const list = Array.isArray(figs) ? figs : [figs];
   return list.length > 1 || list.some((f) => WIDE.has(f.type) || (f.type === "shapes" && f.items.length > 2) || (f.type === "grid" && f.cols >= f.rows * 2.5));

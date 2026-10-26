@@ -78,7 +78,12 @@ function problem(deck, slide, sid, p, box, label) {
 
 const KINDS = {
   cover(deck, slide, spec) {
-    if (figureOf(spec)) drawFigures(deck, slide, spec.id, figureOf(spec), { x: 8.4, y: 0.7, w: 4.3, h: 3.2 });
+    const fig = figureOf(spec);
+    // 선으로만 그리는 좌표 그림은 어두운 바탕에서 보이도록 흰 판 위에 그린다.
+    if (fig && [].concat(fig).some((f) => ["geo", "ruler", "protractor"].includes(f.type))) {
+      slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: 8.25, y: 0.55, w: 4.6, h: 3.5, rectRadius: 0.15, fill: { color: "FFFFFF" }, line: { color: "FFFFFF", width: 0 }, objectName: deck.name(spec.id, "panel") });
+    }
+    if (fig) drawFigures(deck, slide, spec.id, fig, { x: 8.4, y: 0.7, w: 4.3, h: 3.2 });
     if (spec.goals) {
       const c = { tone: "onDark", title: "오늘 할 수 있게 될 것", items: spec.goals };
       const h = Math.max(1.6, deck.cardHeight(c, 11.73));
