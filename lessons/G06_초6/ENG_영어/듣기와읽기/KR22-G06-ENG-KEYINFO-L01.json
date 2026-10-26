@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "대화와 글에서 핵심 정보를 찾는다.",
   "prerequisites": [
     {
       "text": "세부 정보 찾기",
@@ -37,19 +36,739 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "부모가 읽어 주는 짧은 대화를 듣고, 질문을 먼저 확인한 뒤 무엇을·언제·어디서에 해당하는 핵심 정보를 찾아 말하며, 대화 중간에 바뀐 약속(요일 등)은 마지막에 정한 것으로 답한다.",
+      "evidence": "찾는 방법(S03), 잡을 낱말(S04), 듣고 찾기(S05), 들은 대화 읽기(S06), 언제 만날까요(S07), 혼자 해 보기(S10), 활동지 1·2·6",
+      "success": "새로 듣는 대화에서 무엇을·언제·어디서 세 가지를 모두 바르게 찾고, 약속이 바뀐 대화 2개 가운데 2개 모두 바뀐 뒤의 정보로 답한다."
+    },
+    {
+      "id": "B",
+      "text": "짧은 안내문과 메시지를 읽고 질문에 필요한 핵심 정보(언제·어디서·가져갈 것·값)를 찾아 말이나 표로 정리하고, 질문과 관계없는 문장을 가려낸다.",
+      "evidence": "찾는 방법(S03), 잡을 낱말(S04), 들은 대화 읽기(S06), 안내문 읽기(S08), 필요한 문장 고르기(S09), 마무리 확인(S12), 활동지 3·4·5",
+      "success": "처음 보는 안내문의 질문 3개 가운데 2개 이상을 스스로 찾아 답하고, 메시지에서 필요 없는 문장 1개를 골라 이유를 말한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "달력(요일 확인)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "핵심 정보는 무엇을·언제(요일·시각·날짜)·어디서·가져갈 것·값으로 한정한다. 듣기 대본은 부모가 읽어 주는 4~6줄의 짧은 대화이고, 글은 3~4줄의 안내문·메시지만 쓴다. 글의 중심 생각(주제) 찾기, 사건의 순서, 인물의 마음 추론은 다루지 않는다(사건 순서는 다음 차시). 듣고 말하기에서 영어로 답하지 못해도 우리말로 정확히 답하면 핵심 정보를 찾은 것으로 본다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "대화에서 처음 들은(또는 여러 번 들은) 정보를 답으로 고른다(금요일이 안 된다고 했는데 Friday를 고름).",
+      "response": "Sorry, I can't.나 How about ~?처럼 약속이 바뀌는 신호를 알려 주고, 마지막에 정한 정보를 고르게 한다(S03, S07, S10, 활동지 1)."
+    },
+    {
+      "id": "M2",
+      "text": "모든 낱말을 알아들어야 한다고 생각해 모르는 낱말이 나오면 포기하거나, 질문과 관계없는 정보(고양이 이야기, 인사말)를 답으로 말한다.",
+      "response": "질문을 먼저 읽고 찾을 것만 정해 듣게 하며, 필요한 문장과 없어도 되는 문장을 가르는 연습을 한다(S03, S06, S09, 활동지 4)."
+    },
+    {
+      "id": "M3",
+      "text": "When과 Where를 헷갈려 ‘언제’를 물었는데 장소로, ‘어디서’를 물었는데 시각으로 답한다.",
+      "response": "When → 요일·시각, Where → 장소로 짝을 지어 기억하게 하고, 답하기 전에 질문 낱말을 다시 확인하게 한다(S04, S11, 활동지 2)."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "핵심 정보 파악",
+      "question": "대화를 듣고 꼭 알아야 할\n정보를 어떻게 찾을까요?",
+      "goals": [
+        "① 대화를 듣고 무엇을, 언제, 어디서 하는지 찾아요.",
+        "② 안내문과 메시지를 읽고 중요한 정보를 찾아요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "What?",
+            "sub": "무엇을"
+          },
+          {
+            "word": "When?",
+            "sub": "언제"
+          },
+          {
+            "word": "Where?",
+            "sub": "어디서"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "대화나 글에서 ‘꼭 알아야 할 정보’가 무엇인지 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구가 ‘토요일 10시에 공원에서 배드민턴 치자’라고 했어. 약속에 가려면 꼭 기억해야 할 것은 뭘까?”",
+          "“오늘은 영어 대화를 듣거나 글을 읽고, 무엇을, 언제, 어디서 하는지처럼 꼭 필요한 정보를 찾는 연습을 할 거야.”"
+        ],
+        "예상답": [
+          "“토요일, 10시, 공원이요.” “배드민턴이요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(What? When? Where? Saturday, Sunday, Friday, o'clock, park, library, swimming pool)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "이 차시의 듣기 대본은 부모님이 노트(또는 부모용 안내)를 보고 읽어 줍니다. 아이가 대본을 미리 보지 않도록 화면은 슬라이드 쇼로 보여 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(세부 정보 찾기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "세부 정보 떠올리기",
+      "text": "①은 뜻을 말하고, ②는 읽고 Who? What? Where? When?에 답해요.",
+      "problems": [
+        {
+          "text": "Who　·　What　·　When　·　Where"
+        },
+        {
+          "text": "Mina plays soccer at the park on Sunday."
+        }
+      ],
+      "notes": {
+        "목적": "5학년 ‘세부 정보 찾기’에서 익힌 묻는 낱말(Who, What, When, Where)의 뜻을 알고, 짧은 문장에서 그 답을 찾는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, Who, What, When, Where는 각각 무슨 뜻이야?”",
+          "“②를 읽어 볼래? Who? 누가 해? What? 무엇을 해? Where? 어디서? When? 언제?”"
+        ],
+        "정답": [
+          "① Who 누가, What 무엇을, When 언제, Where 어디서",
+          "② Who: Mina / What: plays soccer(축구) / Where: at the park(공원에서) / When: on Sunday(일요일에)"
+        ],
+        "막히면": [
+          "②는 부모가 한 번 읽어 준 뒤 낱말마다 손가락으로 짚으며 찾게 합니다.",
+          "①의 뜻을 두 개 이상 모르거나 ②에서 두 개 이상 찾지 못하면 S14(보충)를 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "핵심 정보를 찾는 순서",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "핵심 정보 찾는 방법",
+      "steps": [
+        "질문을 먼저 읽어요.",
+        "무엇을 찾을지 정해요. (언제? 어디서?)",
+        "듣거나 읽으면서 그 낱말을 잡아요.",
+        "바뀐 말이 없는지 끝까지 확인해요."
+      ],
+      "key": "핵심 정보: 질문에 답하는 데 꼭 필요한 정보",
+      "notes": {
+        "목적": "핵심 정보는 ‘질문에 답하는 데 꼭 필요한 정보’라는 것과, 찾는 순서(질문 먼저 → 찾을 것 정하기 → 그 낱말 잡기 → 끝까지 확인)를 압니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“핵심 정보는 질문에 답하는 데 꼭 필요한 정보야. 다 알아듣지 못해도 괜찮아. 필요한 것만 잡으면 돼.”",
+          "“먼저 질문을 읽고, 무엇을 찾을지 정해. ‘언제?’를 물으면 요일이나 시각을 찾는 거야.”",
+          "“마지막이 중요해. 약속이 중간에 바뀔 수도 있으니까 끝까지 들어야 해.”"
+        ],
+        "예상답": [
+          "“질문을 먼저 봐요.” “언제를 물으면 요일이나 시각을 들어요.”"
+        ],
+        "막히면": [
+          "S01의 예(토요일 10시 공원 배드민턴)로 다시 설명합니다. ‘언제?’ → 토요일 10시, ‘어디서?’ → 공원."
+        ],
+        "주의": [
+          "모든 낱말을 알아들어야 한다고 생각하면 듣기가 어렵게 느껴집니다. 모르는 낱말이 있어도 괜찮다고 말해 주세요(M2)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "What·When·Where의 답이 되는 낱말",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "어떤 낱말을 잡을까요?",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "What?",
+            "sub": "play badminton"
+          },
+          {
+            "word": "When?",
+            "sub": "on Saturday, at ten o'clock"
+          },
+          {
+            "word": "Where?",
+            "sub": "at the park, at the library"
+          }
+        ],
+        "perRow": 3
+      },
+      "key": "What? → 하는 일　　When? → 요일·시각　　Where? → 장소",
+      "notes": {
+        "목적": "질문마다 어떤 낱말이 답이 되는지(When → 요일·시각, Where → 장소) 미리 알고 들으면 핵심 정보를 잡기 쉽다는 것을 압니다(M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“What?을 물으면 하는 일, 예를 들어 play badminton을 찾아.”",
+          "“When?을 물으면 요일이나 시각이야. on Saturday, at ten o'clock. 소리를 듣고 따라 해 봐.”",
+          "“Where?를 물으면 장소야. at the park, at the library. 장소 앞에는 at, in 같은 말이 자주 와.”"
+        ],
+        "예상답": [
+          "“When은 요일이나 시각이요.” “Where는 장소요.”"
+        ],
+        "막히면": [
+          "요일 낱말이 어려우면 S14(보충)의 요일 카드로 먼저 연습합니다."
+        ],
+        "주의": [
+          "When을 물었는데 장소로 답하거나 Where를 물었는데 시각으로 답하는 실수가 흔합니다(M3)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "대화 듣고 핵심 정보 찾기(함께)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "듣고 찾기 ①",
+      "text": "질문을 먼저 읽어요. 그다음 대화를 듣고 답해요.",
+      "problems": [
+        {
+          "text": "두 사람은 무엇을 하기로 했나요?"
+        },
+        {
+          "text": "언제 만나나요?"
+        },
+        {
+          "text": "어디에서 만나나요?"
+        }
+      ],
+      "hint": "들을 때 요일·시각·장소 낱말을 잡아요.",
+      "notes": {
+        "목적": "질문을 먼저 읽고, 부모가 읽어 주는 대화를 들으며 무엇을·언제·어디서를 찾습니다. 처음이므로 함께 합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“먼저 질문 세 개를 같이 읽자. 무엇을? 언제? 어디서? 이제 엄마(아빠)가 대화를 두 번 읽어 줄게. 잘 들어 봐.”",
+          "부모가 읽을 대본: Mina: Jiho, let's play badminton this Saturday. / Jiho: Sounds good. What time? / Mina: At ten o'clock. / Jiho: Where? / Mina: At the park near my house. / Jiho: Okay. See you then.",
+          "“두 사람은 무엇을 하기로 했어? 언제 만나? 어디에서 만나? 어떤 낱말을 듣고 알았어?”"
+        ],
+        "정답": [
+          "① 배드민턴 치기(play badminton) ② 토요일 10시(this Saturday, at ten o'clock) ③ 미나네 집 근처 공원(at the park)"
+        ],
+        "막히면": [
+          "한 번 더 읽어 주되, 답이 들어 있는 문장에서 조금 천천히 읽습니다.",
+          "그래도 어려우면 질문 하나씩만 생각하며 듣게 합니다(첫 번째는 ‘언제?’만)."
+        ],
+        "주의": [
+          "대본은 부모님만 봅니다. 두 사람의 목소리를 조금 다르게 하여 보통 빠르기로 두 번 읽어 주세요. 대본이 화면에 나오는 것은 듣기가 끝난 다음 장(S06)뿐입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "들은 대화를 읽으며 핵심 낱말 짚기",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "방금 들은 대화",
+      "text": "무엇을, 언제, 어디서에 해당하는 낱말을 짚어요.",
+      "passage": {
+        "paragraphs": [
+          "Mina: Jiho, let's play badminton this Saturday.",
+          "Jiho: Sounds good. What time?",
+          "Mina: At ten o'clock.",
+          "Jiho: Where?",
+          "Mina: At the park near my house.",
+          "Jiho: Okay. See you then."
+        ]
+      },
+      "notes": {
+        "목적": "듣기가 끝난 뒤 대본을 보며, 답이 된 낱말(핵심 정보)이 어디에 있었는지 확인합니다. 글에서 핵심 낱말을 찾는 방법도 함께 익힙니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“방금 들은 대화야. 같이 읽어 볼까? 엄마(아빠)는 미나, 너는 지호.”",
+          "“무엇을, 언제, 어디서에 해당하는 낱말을 손가락으로 짚어 볼래?”",
+          "“Sounds good.이나 See you then.은 핵심 정보일까?”"
+        ],
+        "예상답": [
+          "badminton, this Saturday, at ten o'clock, at the park를 짚습니다.",
+          "“Sounds good.은 좋다는 말이라 약속 내용은 아니에요.”"
+        ],
+        "막히면": [
+          "질문 하나(언제?)를 다시 말해 주고 그 답이 있는 줄만 찾게 합니다."
+        ],
+        "주의": [
+          "Sounds good.(좋아), See you then.(그때 봐)처럼 대화를 이어 주는 말은 핵심 정보가 아닙니다(M2).",
+          "여기까지가 배우는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(먼저 들은 정보 고르기)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "언제 만날까요?",
+      "claim": "대화를 듣고 두 사람이 언제 만나는지 찾아요. 친구는 가라고 답했어요.",
+      "left": {
+        "title": "가",
+        "text": "Friday"
+      },
+      "right": {
+        "title": "나",
+        "text": "Saturday"
+      },
+      "question": "언제 만나나요? 친구는 왜 틀렸을까요?",
+      "notes": {
+        "목적": "대화 중간에 약속이 바뀌면 처음 들은 정보가 아니라 마지막에 정한 정보가 핵심이라는 것을 압니다(M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 ‘언제 만나는지’만 찾을 거야. 엄마(아빠)가 대화를 두 번 읽어 줄게.”",
+          "부모가 읽을 대본: Mina: Can you come to my house on Friday? / Jiho: Sorry, I can't. I have a piano lesson on Friday. / Mina: How about Saturday? / Jiho: Saturday is fine.",
+          "“친구는 가(Friday)라고 답했대. 맞을까? 왜 틀렸을까?”"
+        ],
+        "정답": [
+          "나(Saturday). 미나가 처음에 금요일을 말했지만 지호가 피아노 수업이 있어서 안 된다고 했고, 토요일로 바꾸었습니다. Friday를 먼저, 두 번 들어서 고르기 쉽지만 마지막에 정한 날이 핵심 정보입니다."
+        ],
+        "막히면": [
+          "대본의 Sorry, I can't.(미안, 못 가)와 How about ~?(~는 어때?)에서 약속이 바뀐다는 것을 알려 주고 다시 듣게 합니다."
+        ],
+        "주의": [
+          "대본은 부모님만 봅니다. 두 사람의 목소리를 조금 다르게 하여 보통 빠르기로 두 번 읽어 주세요. 이 장의 대본은 화면에 나오지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "안내문에서 핵심 정보 찾기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "안내문 읽기",
+      "text": "gym 체육관　·　scissors 가위　·　glue stick 딱풀",
+      "passage": {
+        "title": "Science Day",
+        "paragraphs": [
+          "Let's make paper rockets!",
+          "When: Friday, June 7, at two o'clock",
+          "Where: the school gym",
+          "Bring: scissors and a glue stick"
+        ]
+      },
+      "question": "① 언제 하나요?　② 어디에서 하나요?　③ 무엇을 가져가나요?",
+      "notes": {
+        "목적": "안내문을 읽고 언제, 어디서, 무엇을 가져가는지 찾습니다. 안내문은 질문의 답이 항목별로 나뉘어 있다는 것을 압니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“학교 안내문이야. 같이 읽어 볼까? 위에 있는 낱말 뜻을 보면서 읽어. Bring은 ‘가져오세요’라는 뜻이야.”",
+          "“①, 언제 해? ②, 어디에서 해? ③, 무엇을 가져가야 해?”",
+          "“어디를 보고 찾았어? When, Where, Bring이 질문과 짝이 되지?”"
+        ],
+        "정답": [
+          "① 6월 7일 금요일 2시(Friday, June 7, at two o'clock) ② 학교 체육관(the school gym) ③ 가위와 딱풀(scissors and a glue stick)"
+        ],
+        "막히면": [
+          "When:, Where:, Bring: 앞부분만 먼저 손가락으로 짚게 한 뒤, 그 뒤에 오는 말을 읽게 합니다.",
+          "June은 6월입니다. 달 이름이 어려우면 부모가 알려 줍니다."
+        ],
+        "주의": [
+          "Let's make paper rockets!는 무엇을 하는지 알려 주는 문장입니다. 오늘 질문(언제, 어디서, 가져갈 것)의 답은 아닙니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "메시지에서 필요한 정보와 필요 없는 정보 가리기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "필요한 문장 고르기",
+      "text": "파티에 가려면 꼭 알아야 할 문장은? 없어도 되는 문장은?",
+      "passage": {
+        "title": "Mina's message to Jun",
+        "numbered": true,
+        "paragraphs": [
+          "My birthday party is on Sunday.",
+          "It starts at one o'clock.",
+          "It's at my house.",
+          "My cat Coco loves parties!"
+        ]
+      },
+      "notes": {
+        "목적": "메시지를 읽고, 파티에 가는 데 꼭 필요한 문장과 없어도 되는 문장을 가립니다(M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“미나가 준에게 보낸 메시지야. 한 문장씩 읽어 볼까?”",
+          "“준이 파티에 가려면 꼭 알아야 할 문장은 몇 번이야? 없어도 되는 문장은?”",
+          "“왜 그렇게 생각해?”"
+        ],
+        "정답": [
+          "꼭 필요한 문장: ① 일요일(on Sunday) ② 1시(at one o'clock) ③ 미나네 집(at my house)",
+          "없어도 되는 문장: ④ My cat Coco loves parties!(고양이 이야기는 파티에 가는 데 필요한 정보가 아닙니다.)"
+        ],
+        "막히면": [
+          "“파티에 가려면 무엇을 알아야 할까? 언제? 어디서?”라고 질문을 먼저 정해 주고 다시 읽게 합니다."
+        ],
+        "주의": [
+          "④처럼 재미있지만 질문과 관계없는 정보도 있습니다. 재미있는 문장을 지우라는 것이 아니라, 핵심 정보와 구별하는 연습입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 대화 듣고 핵심 정보 찾기",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "혼자 해 보기",
+      "text": "질문을 먼저 읽고, 대화를 들은 뒤 답해요.",
+      "problems": [
+        {
+          "text": "두 사람은 무엇을 하기로 했나요?"
+        },
+        {
+          "text": "언제 만나나요?"
+        },
+        {
+          "text": "어디에서 만나나요?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 대화를 듣고 무엇을·언제·어디서를 찾고, 중간에 바뀐 약속에 속지 않는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 질문을 읽어. 엄마(아빠)가 대화를 두 번 읽어 줄게.”",
+          "부모가 읽을 대본: Jiho: Let's go swimming this Saturday. / Mina: Sorry, I can't. I have a soccer game on Saturday. / Jiho: How about Sunday? / Mina: Okay. What time? / Jiho: At two o'clock. Let's meet at the swimming pool. / Mina: Great. See you then.",
+          "“무엇을 하기로 했어? 언제 만나? 어디에서 만나?”"
+        ],
+        "정답": [
+          "① 수영하러 가기(go swimming) ② 일요일 2시(Sunday, at two o'clock) ③ 수영장(at the swimming pool)",
+          "기준: 세 가지 모두 맞으면 통과입니다. ②에서 Saturday라고 하면 바뀐 약속을 놓친 것입니다. 우리말로 답해도 됩니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 한 번 더 읽어 줍니다(모두 세 번까지).",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "대본은 부모님만 봅니다. 두 사람의 목소리를 조금 다르게 하여 보통 빠르기로 두 번 읽어 주세요. 이 장의 대본은 화면에 나오지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① go swimming"
+        },
+        {
+          "text": "② Sunday, two o'clock"
+        },
+        {
+          "text": "③ the swimming pool"
+        }
+      ],
+      "bad": [
+        {
+          "text": "② Saturday",
+          "note": "바뀐 약속을 놓침"
+        },
+        {
+          "text": "③ two o'clock",
+          "note": "Where에 시각으로 답함"
+        }
+      ],
+      "explain": "약속이 바뀌면 마지막에 정한 것이 핵심 정보예요.",
+      "notes": {
+        "목적": "아이의 대답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자.”",
+          "“오른쪽처럼 답하면 무엇을 놓친 걸까?”"
+        ],
+        "예상답": [
+          "“토요일은 안 된다고 해서 일요일로 바꿨어요.” “Where를 물었으니 장소로 답해요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 원하면 S10의 대본을 이 장에서 아이와 함께 소리 내어 읽어 확인합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "마무리 확인(안내문 읽고 핵심 정보 찾기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "혼자 안내문 읽기",
+      "text": "안내문을 혼자 읽고 답해요. (each 하나마다)",
+      "passage": {
+        "title": "Book Sale",
+        "paragraphs": [
+          "When: Wednesday, May 15, at three o'clock",
+          "Where: the school library",
+          "Each book is 500 won."
+        ]
+      },
+      "question": "① 언제 하나요?　② 어디에서 하나요?　③ 책 한 권은 얼마인가요?",
+      "notes": {
+        "목적": "처음 보는 안내문에서 도움 없이 핵심 정보를 찾는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번 안내문은 혼자 읽고 답해 볼래? ①, 언제 해? ②, 어디에서 해? ③, 책 한 권은 얼마야?”",
+          "“어디를 보고 찾았어?”"
+        ],
+        "정답": [
+          "① 5월 15일 수요일 3시(Wednesday, May 15, at three o'clock) ② 학교 도서관(the school library) ③ 500원(five hundred won)",
+          "기준: 세 가지 가운데 두 가지 이상을 스스로 찾으면 통과입니다."
+        ],
+        "막히면": [
+          "S08처럼 When:, Where: 앞부분을 먼저 찾게 합니다. each는 ‘한 개마다’라는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "질문을 먼저 읽고, 무엇을·언제·어디서를 잡아요.\n약속이 바뀌면 마지막에 정한 것이 핵심 정보예요.",
+      "do": "질문 먼저 읽기",
+      "dont": "처음 들은 말만 기억하기",
+      "review": [
+        {
+          "text": "핵심 정보를 찾을 때\n먼저 할 일은?"
+        },
+        {
+          "text": "When?의 답이\n되는 낱말은?"
+        },
+        {
+          "text": "약속이 바뀌면\n무엇을 기억해요?"
+        }
+      ],
+      "next": "사건 순서 파악",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“핵심 정보를 찾을 때 무엇을 먼저 해?”",
+          "“약속이 중간에 바뀌면 어떤 정보를 기억해야 해?”"
+        ],
+        "예상답": [
+          "“질문을 먼저 읽어요.” “마지막에 정한 것이요.”"
+        ],
+        "정답": [
+          "① 질문을 먼저 읽고 무엇을 찾을지 정해요.",
+          "② 요일이나 시각",
+          "③ 처음 말한 것이 아니라 마지막에 정한 것"
+        ],
+        "주의": [
+          "가족끼리 약속을 정할 때 “언제? 어디서?”를 영어로 물어보며 놀이처럼 복습해 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(묻는 낱말, 요일)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 묻는 낱말과 요일",
+      "layout": "support",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Who?",
+            "sub": "누가"
+          },
+          {
+            "word": "What?",
+            "sub": "무엇을"
+          },
+          {
+            "word": "When?",
+            "sub": "언제"
+          },
+          {
+            "word": "Where?",
+            "sub": "어디서"
+          }
+        ],
+        "perRow": 4
+      },
+      "key": "Monday　Tuesday　Wednesday　Thursday　Friday　Saturday　Sunday",
+      "notes": {
+        "목적": "S02에서 묻는 낱말이나 세부 정보 찾기가 흔들리면, 핵심 정보를 찾기 전에 먼저 다집니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“묻는 낱말을 소리를 듣고 따라 말해 보자. Who? What? When? Where?” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“요일도 읽어 볼까? Monday, Tuesday … Sunday. 오늘은 무슨 요일이야?”",
+          "“Mina plays soccer on Sunday. When? 언제야?”"
+        ],
+        "정답": [
+          "Who 누가, What 무엇을, When 언제, Where 어디서 / Monday 월요일 … Sunday 일요일 / When? → on Sunday(일요일에)"
+        ],
+        "막히면": [
+          "달력의 요일 칸을 함께 짚으며 요일 낱말을 읽습니다."
+        ],
+        "주의": [
+          "보충 뒤에도 Who·What·When·Where의 답을 짧은 문장에서 찾지 못하면 5학년 ‘세부 정보 찾기’ 차시를 먼저 다시 하고 이 차시를 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "핵심 정보 파악 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "대화를 듣고, 두 사람이 언제 만나는지 ✔ 하세요.",
+        "choices": [
+          "on Friday",
+          "on Saturday",
+          "on Sunday"
+        ],
+        "choices_size": 16,
+        "answer": "부모가 대화를 두 번 읽어 줍니다. 부모가 읽을 대본: Mina: Let's go to the library on Friday. / Jiho: Sorry, I'm busy on Friday. How about Saturday? / Mina: Okay. Let's meet at the bus stop at ten o'clock. / Jiho: Great. → on Saturday (금요일은 바쁘다고 해서 토요일로 바꾸었습니다.)"
+      },
+      {
+        "no": 2,
+        "prompt": "같은 대화를 다시 듣고, 두 사람이 어디에서 만나는지 ✔ 하세요.",
+        "choices": [
+          "at the library",
+          "at the bus stop",
+          "at the park"
+        ],
+        "choices_size": 16,
+        "answer": "at the bus stop (도서관에 가지만 만나는 곳은 버스 정류장입니다. 질문이 ‘만나는 곳’인지 확인했는지 봅니다.)"
+      },
+      {
+        "no": 3,
+        "prompt": "안내문을 읽고 표를 채우세요. 우리말로 써도 돼요.",
+        "read": "Movie Night\nWhen: Friday, at six o'clock\nWhere: the school gym\nBring: a blanket",
+        "table": {
+          "headers": [
+            "무엇을",
+            "언제",
+            "어디서",
+            "가져갈 것"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "size": 14,
+          "widths": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        },
+        "answer": "무엇을: 영화 보기(Movie Night) / 언제: 금요일 6시 / 어디서: 학교 체육관 / 가져갈 것: 담요(a blanket) (네 칸 가운데 세 칸 이상 맞으면 통과)"
+      },
+      {
+        "no": 4,
+        "prompt": "생일 파티에 가는 데 필요 없는 문장에 ✔ 하세요.",
+        "choices": [
+          "The party is on Saturday.",
+          "It starts at two o'clock.",
+          "My favorite color is blue.",
+          "It's at the park."
+        ],
+        "choices_size": 16,
+        "answer": "My favorite color is blue. (좋아하는 색은 파티에 가는 데 필요한 정보가 아닙니다.)"
+      },
+      {
+        "no": 5,
+        "prompt": "소리 내어 읽으며 따라 쓰고, 빈 줄에 한 번씩 더 쓰세요.",
+        "eng": {
+          "trace": [
+            "When is the party?",
+            "It's on Saturday.",
+            "Where is the party?",
+            "It's at the park."
+          ],
+          "blank": 2
+        },
+        "answer": "네 문장을 보고 따라 쓰고, 빈 줄에 질문과 대답을 한 번씩 더 쓰면 맞습니다. 요일(Saturday)의 첫 글자를 대문자로 썼는지, It's의 아포스트로피(')와 물음표(?)·마침표(.)를 바르게 썼는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 핵심 정보를 찾을 때 먼저 할 일은 무엇인가요?\n② When?의 답이 되는 낱말은 어떤 낱말인가요?\n③ 약속이 중간에 바뀌면 무엇을 기억해야 하나요?",
+        "answer": "① 질문을 먼저 읽고 무엇을 찾을지 정해요. ② 요일이나 시각(on Saturday, at ten o'clock) ③ 마지막에 정한 것 (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S10 혼자 해 보기: 세 가지 모두 □  두 가지 □  하나 이하 □ (바뀐 약속을 놓침 □)",
+      "S12 마무리 확인: 세 가지 □  두 가지 □  하나 이하 □",
+      "활동지 1·2 듣기: 둘 다 맞음 □  하나 □  아직 □"
+    ]
+  },
+  "break_after": "S06"
 }

@@ -1,0 +1,972 @@
+{
+  "id": "KR22-G06-ENG-WORLD-L01",
+  "concept_id": "ENG-WORLD",
+  "title": "세계 문화 존중",
+  "grade": "G06",
+  "grade_label": "초6",
+  "band": "E56",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "의사소통",
+  "sequence": 3,
+  "file_stem": "초6_영어_의사소통_03_세계문화존중",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "제작 완료",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G06-ENG-I03"
+    ],
+    "units": [
+      "3.4.1",
+      "3.5.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "제안하고 답하기",
+      "lesson": "KR22-G06-ENG-SUGGEST-L01",
+      "grade_item": "KR22-G06-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "한 나라를 골라 믿을 만한 자료 두 곳에서 수도, 많은 사람이 쓰는 말, 널리 알려진 음식을 조사하고, Let me tell you about ~. The capital is ~. Many people speak ~. ~ is a famous food.로 네 문장 이상 소개한다.",
+      "evidence": "나라 소개 문장(S03), 네 나라 조사표(S04), 조사표 보고 말하기(S07), 조사하기(S09), 발표 연습(S10), 혼자 해 보기(S11 ①④), 활동지 1·2·4·5·6",
+      "success": "발표 점검표 다섯 가지 가운데 네 가지 이상을 지켜 조사한 나라를 네 문장 이상으로 소개하고, 소개한 수도·말·음식이 조사표의 자료와 맞는다."
+    },
+    {
+      "id": "B",
+      "text": "다른 나라의 문화를 소개하거나 들을 때 Many people ~, ~ is a famous food.처럼 한 나라 사람을 모두 같다고 하지 않고, That's interesting!처럼 존중하는 말로 반응한다.",
+      "evidence": "Many people과 All people 비교(S05), 존중하며 듣는 말(S06), That's weird. 비교(S08), 발표 듣고 반응하기(S10), 혼자 해 보기(S11 ②③), 마무리 확인(S13), 활동지 3·5·6",
+      "success": "All people ~ 문장을 Many people ~나 ~ is a famous food.로 고쳐 말하고, 부모의 발표를 듣고 That's interesting! 같은 존중하는 말로 반응한다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "사회과부도나 세계 지도, 백과사전(책 또는 인터넷 백과사전)",
+    "교과서 디지털 자료나 사전 앱(나라 이름과 표현 소리 듣기)"
+  ],
+  "boundary": "나라 소개는 수도, 많은 사람이 쓰는 말, 널리 알려진 음식 세 가지만 다룬다. 인구·넓이·순위처럼 바뀌거나 자료마다 다른 정보, 종교·정치, 한 나라 사람들의 성격이나 습관을 하나로 묶어 말하는 내용은 다루지 않는다. 화면의 예는 오랫동안 바뀌지 않은 사실(한국·일본·이탈리아·베트남·캐나다의 수도와 많이 쓰는 말, 널리 알려진 음식)만 쓴다. 영어는 Let me tell you about ~., The capital is ~., Many people speak ~., ~ is a famous food., I want to visit(try) ~.와 듣는 사람의 That's interesting!만 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "우리와 다른 문화를 이상하다(That's weird.)거나 틀렸다고 말한다.",
+      "response": "다른 것은 틀린 것이 아니라는 것을 이야기하고, That's interesting!이나 I want to try ~.처럼 존중하며 궁금해하는 말로 반응하게 한다(S06, S08, S13)."
+    },
+    {
+      "id": "M2",
+      "text": "All people in Italy eat pizza every day.처럼 한 나라 사람이 모두 똑같다고 말한다.",
+      "response": "우리 가족도 날마다 비빔밥을 먹지는 않는다는 것을 떠올리게 하고, Many people ~나 ~ is a famous food.로 고쳐 말하게 한다(S05, S11 ③, S13, 활동지 3)."
+    },
+    {
+      "id": "M3",
+      "text": "수도는 가장 크거나 잘 알려진 도시라고 짐작해 자료를 확인하지 않고 쓴다(캐나다의 수도를 Toronto라고 함).",
+      "response": "캐나다(Ottawa)와 베트남(Hanoi)처럼 가장 큰 도시가 수도가 아닌 나라가 있다는 것을 보이고, 자료 두 곳에서 확인하게 한다(S04, S09, S11 ④)."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "세계 문화 존중",
+      "question": "다른 나라를 조사해서\n영어로 소개해 볼까요?",
+      "goals": [
+        "① 한 나라의 수도·말·음식을 조사해 영어로 소개해요.",
+        "② 다른 문화를 존중하는 말로 듣고 반응해요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Let me tell you about ~."
+          },
+          {
+            "word": "That's interesting!"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "다른 나라를 조사해 소개하고, 우리와 다른 문화를 존중하며 듣는 활동에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“가 보고 싶은 나라가 있어? 그 나라에 대해 무엇을 알고 있어?”",
+          "“오늘은 한 나라를 조사해서 영어로 소개하고, 다른 나라 이야기를 들을 때 존중하는 말로 반응해 볼 거야.”"
+        ],
+        "예상답": [
+          "“일본이요. 초밥이 유명해요.” “캐나다요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 나라 이름과 표현(Korea, Japan, Italy, Vietnam, Canada, Let me tell you about Korea. The capital is Seoul. Many people speak Korean. Bibimbap is a famous food. That's interesting!)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "이 차시에서는 ‘어떤 나라에서는’, ‘많은 사람들이’처럼 말합니다. 한 나라 사람이 모두 똑같이 생활하는 것은 아닙니다. 아이가 다른 나라를 보고 웃거나 이상하다고 해도 꾸짖지 말고 S08에서 함께 이야기합니다.",
+          "조사(S09)에 시간이 더 필요하면 S08까지 하고 나누어, 조사는 다음 날 함께 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(제안에 대답하기, 나라 이름)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 표현 떠올리기",
+      "text": "①은 영어로 대답하고, ②는 읽고 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "Let's look at a world map.\n좋다고 대답해요."
+        },
+        {
+          "text": "Korea　Japan　Italy\nVietnam　Canada"
+        }
+      ],
+      "notes": {
+        "목적": "지난 차시(제안하고 답하기)의 대답을 기억하는지, 오늘 쓸 나라 이름을 읽고 뜻을 아는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 엄마(아빠)가 제안할게. Let's look at a world map. 좋다고 대답해 줘.”",
+          "“②의 나라 이름을 하나씩 읽고 어느 나라인지 우리말로 말해 줄래? 지도에서 찾아봐도 좋아.”"
+        ],
+        "정답": [
+          "① Sounds good.",
+          "② Korea 한국, Japan 일본, Italy 이탈리아, Vietnam 베트남, Canada 캐나다"
+        ],
+        "막히면": [
+          "①이 막히면 제안하고 답하기 차시의 S05를 잠깐 다시 봅니다.",
+          "나라 이름을 두 개 이상 읽지 못하면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "world map은 ‘세계 지도’입니다. 지도나 지구본이 있으면 펼쳐 두고 나라를 짚으며 수업합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "나라를 소개하는 네 문장",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "나라를 소개해요",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Let me tell you about Korea.",
+            "sub": "한국을 소개할게요."
+          },
+          {
+            "word": "The capital is Seoul.",
+            "sub": "수도는 서울이에요."
+          },
+          {
+            "word": "Many people speak Korean.",
+            "sub": "많은 사람이 한국어를 써요."
+          },
+          {
+            "word": "Bibimbap is a famous food.",
+            "sub": "비빔밥은 널리 알려진 음식이에요."
+          }
+        ],
+        "perRow": 2
+      },
+      "key": "시작 → 수도 → 많은 사람이 쓰는 말 → 널리 알려진 음식",
+      "notes": {
+        "목적": "우리나라를 예로 나라를 소개하는 네 문장(시작, 수도, 많은 사람이 쓰는 말, 널리 알려진 음식)을 익힙니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“우리나라를 영어로 소개해 볼게. 소리를 듣고 한 문장씩 따라 해 보자. Let me tell you about Korea.”",
+          "“The capital is Seoul. capital은 ‘수도’야. Many people speak Korean. speak은 ‘말하다’. Bibimbap is a famous food. famous는 ‘유명한, 널리 알려진’이야.”",
+          "“이제 네 문장을 이어서 엄마(아빠)에게 소개해 줄래?”"
+        ],
+        "예상답": [
+          "“Let me tell you about Korea. The capital is Seoul. Many people speak Korean. Bibimbap is a famous food.”"
+        ],
+        "막히면": [
+          "문장마다 부모가 앞부분(The capital is …)을 말해 주고 아이가 뒷부분을 채우게 합니다."
+        ],
+        "주의": [
+          "Let me tell you about ~.는 ‘~에 대해 말해 줄게요.’라는 뜻으로 발표를 시작할 때 씁니다.",
+          "Many people speak ~.처럼 ‘많은 사람들이’라고 말하는 데 익숙해지게 합니다(M2)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "네 나라 조사표 읽기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "네 나라 조사표",
+      "table": {
+        "headers": [
+          "나라",
+          "수도",
+          "많은 사람이 쓰는 말",
+          "널리 알려진 음식"
+        ],
+        "rows": [
+          [
+            "Japan(일본)",
+            "Tokyo",
+            "Japanese",
+            "sushi"
+          ],
+          [
+            "Italy(이탈리아)",
+            "Rome",
+            "Italian",
+            "pizza"
+          ],
+          [
+            "Vietnam(베트남)",
+            "Hanoi",
+            "Vietnamese",
+            "pho(쌀국수)"
+          ],
+          [
+            "Canada(캐나다)",
+            "Ottawa",
+            "English, French",
+            "maple syrup"
+          ]
+        ],
+        "widths": [
+          0.26,
+          0.18,
+          0.28,
+          0.28
+        ],
+        "width": 11.5,
+        "size": 26
+      },
+      "key": "수도는 가장 큰 도시가 아닐 수도 있어요. 꼭 확인해요.",
+      "notes": {
+        "목적": "조사표에서 나라별 수도, 많은 사람이 쓰는 말, 널리 알려진 음식을 읽고, 수도가 가장 큰 도시가 아닐 수도 있다는 것을 압니다(M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“표를 한 줄씩 읽어 보자. Japan, Tokyo, Japanese, sushi.” (나라 이름과 낱말은 소리 자료로 확인합니다.)",
+          "“캐나다에서 가장 큰 도시는 Toronto야. 그런데 수도는? 표에서 찾아봐.”",
+          "“베트남의 수도는? 이탈리아에서 많은 사람이 쓰는 말은?”"
+        ],
+        "예상답": [
+          "“캐나다의 수도는 Ottawa예요.” “베트남은 Hanoi요.” “Italian이요.”"
+        ],
+        "막히면": [
+          "표의 칸을 손가락으로 짚으며 줄(나라)과 칸(수도·말·음식)이 만나는 곳을 찾게 합니다."
+        ],
+        "주의": [
+          "캐나다에서 가장 큰 도시는 Toronto이고 베트남에서 가장 큰 도시는 Ho Chi Minh City이지만, 수도는 각각 Ottawa와 Hanoi입니다. 수도는 짐작하지 말고 자료에서 확인합니다(M3).",
+          "캐나다는 영어와 프랑스어를 모두 공용어로 씁니다. pho는 베트남의 쌀국수입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "compare",
+      "section": "개념",
+      "purpose": "Many people과 All people 비교",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "모든 사람이 똑같을까요?",
+      "claim": "이탈리아의 음식을 두 친구가 이렇게 소개했어요.",
+      "left": {
+        "title": "가",
+        "mark": "x",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "All people in Italy eat pizza every day."
+            }
+          ],
+          "perRow": 1
+        },
+        "text": "모든 사람이 날마다? 사실이 아니에요."
+      },
+      "right": {
+        "title": "나",
+        "mark": "o",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "Pizza is a famous food in Italy."
+            }
+          ],
+          "perRow": 1
+        },
+        "text": "널리 알려진 음식이라고 말해요."
+      },
+      "question": "한 나라 사람들도 저마다 달라요. Many people, famous로 말해요.",
+      "notes": {
+        "목적": "한 나라 사람이 모두 똑같다고 말하지 않고 ‘널리 알려진’, ‘많은 사람들이’로 소개해야 한다는 것을 압니다(M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“가는 ‘이탈리아의 모든 사람이 날마다 피자를 먹어요.’라는 뜻이야. 정말 그럴까?”",
+          "“우리 가족은 날마다 비빔밥을 먹어? 한국 사람이 모두 비빔밥을 좋아할까?”",
+          "“그래서 나처럼 ‘널리 알려진 음식’이라고 말하는 거야. Many people ~이라고 해도 좋아.”"
+        ],
+        "예상답": [
+          "“아니요. 날마다 먹지는 않아요.” “좋아하지 않는 사람도 있어요.”"
+        ],
+        "막히면": [
+          "우리 가족의 식사를 예로 들어, 한 나라 안에서도 사람마다 다르다는 것을 이야기합니다."
+        ],
+        "주의": [
+          "All people(모든 사람)이나 every day(날마다)처럼 모두를 하나로 묶는 말은 사실이 아닌 경우가 많습니다(M2).",
+          "이 장은 설명 장이라 ○, ×를 보여 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "존중하며 듣고 반응하기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "존중하며 들어요",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "That's interesting!",
+            "sub": "흥미롭다! 재미있다!"
+          },
+          {
+            "word": "I want to try pho.",
+            "sub": "쌀국수를 먹어 보고 싶어요."
+          }
+        ],
+        "perRow": 1
+      },
+      "key": "다른 것은 틀린 것이 아니에요. 궁금하면 물어봐요.",
+      "notes": {
+        "목적": "다른 나라의 소개를 들을 때 That's interesting!이나 I want to try ~.처럼 존중하며 궁금해하는 말로 반응합니다(M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“친구가 Pho is a famous food in Vietnam.이라고 소개했어. 어떻게 반응하면 좋을까? That's interesting! ‘재미있다, 흥미롭다!’라는 뜻이야.”",
+          "“먹어 보고 싶으면 I want to try pho. 가 보고 싶으면 I want to visit Vietnam.”",
+          "“궁금한 것이 있으면 지난 시간에 배운 말로 물어봐도 돼. How do you spell \"pho\"?”"
+        ],
+        "예상답": [
+          "“That's interesting!” “I want to try pho.”"
+        ],
+        "막히면": [
+          "엄지를 올리며 That's interesting!을 말하게 하고, 소리 자료로 따라 하게 합니다."
+        ],
+        "주의": [
+          "우리와 다른 것은 틀린 것이 아닙니다. ‘다르다’와 ‘틀리다’를 구별해 말하게 해 주세요(M1).",
+          "try는 ‘먹어 보다, 해 보다’라는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "조사표 보고 소개 문장 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "조사표 보고 말해요",
+      "text": "S04의 조사표를 보고 빈칸에 알맞은 말을 넣어 말해요.",
+      "problems": [
+        {
+          "text": "The capital of Italy is ______."
+        },
+        {
+          "text": "Many people in Vietnam speak ______."
+        },
+        {
+          "text": "______ is a famous food in Japan."
+        }
+      ],
+      "notes": {
+        "목적": "조사표의 사실을 소개 문장 틀에 넣어 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“S04의 조사표를 보면서 빈칸에 들어갈 말을 넣어 문장 전체를 말해 줘.”",
+          "“③은 문장 맨 앞이니까 쓸 때는 무엇으로 시작해야 할까?”"
+        ],
+        "정답": [
+          "① Rome (The capital of Italy is Rome.)",
+          "② Vietnamese (Many people in Vietnam speak Vietnamese.)",
+          "③ Sushi (Sushi is a famous food in Japan. 문장 맨 앞이라 대문자 S)"
+        ],
+        "막히면": [
+          "S04의 조사표를 다시 보여 주고 나라 줄을 먼저 찾게 합니다."
+        ],
+        "주의": [
+          "The capital of Italy is ~.처럼 of 다음에 나라 이름을 넣으면 어느 나라의 수도인지 분명해집니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(That's weird.)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "어떻게 반응할까요?",
+      "claim": "친구가 Many people in Canada speak English or French.라고 소개했어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "That's weird."
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "That's interesting!"
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "question": "존중하는 반응은? 왜 그렇게 생각해요?",
+      "notes": {
+        "목적": "다른 나라의 소개를 들을 때 이상하다고 하지 않고 존중하며 반응해야 한다는 것을 비교합니다(M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구가 캐나다를 소개했어. 두 사람이 이렇게 반응했어. weird는 ‘이상한’이라는 뜻이야.”",
+          "“소개한 친구는 어느 쪽 반응을 들으면 기분이 좋을까? 왜?”"
+        ],
+        "정답": [
+          "나(That's interesting!)가 존중하는 반응입니다. 우리와 다른 것은 틀리거나 이상한 것이 아니라 그 나라의 문화이고, 관심을 갖고 들으면 서로 더 잘 알 수 있습니다."
+        ],
+        "막히면": [
+          "S06의 ‘다른 것은 틀린 것이 아니에요’를 다시 읽어 줍니다.",
+          "아이가 낯선 음식이나 말을 보고 웃으면, 다른 나라 친구가 우리 음식을 보고 웃으면 어떤 기분일지 물어봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "한 나라 조사하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "한 나라 조사하기",
+      "steps": [
+        "소개할 나라를 하나 골라요.",
+        "사회과부도나 백과사전에서 수도, 말, 음식을 찾아요.",
+        "다른 자료 하나로 한 번 더 확인해요.",
+        "활동지 1의 조사표에 써요."
+      ],
+      "criteria": [
+        "믿을 만한 자료에서 찾았어요",
+        "두 곳에서 확인했어요",
+        "찾은 자료 이름을 적었어요"
+      ],
+      "criteriaTitle": "조사 점검",
+      "notes": {
+        "목적": "소개할 나라를 골라 믿을 만한 자료 두 곳에서 수도, 많은 사람이 쓰는 말, 널리 알려진 음식을 찾아 조사표에 씁니다(M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“소개하고 싶은 나라를 하나 골라 볼래? 조사표에 있는 나라도 좋고 다른 나라도 좋아.”",
+          "“사회과부도나 백과사전에서 수도, 많은 사람이 쓰는 말, 널리 알려진 음식을 찾아보자. 다른 자료에서도 똑같은지 한 번 더 확인하자.”",
+          "“찾은 것을 활동지 1의 조사표에 쓰고, 어디에서 찾았는지도 써 줘.”"
+        ],
+        "예상답": [
+          "예: Canada – Ottawa – English, French – maple syrup (사회과부도, 백과사전)",
+          "기준: 세 칸을 모두 채우고, 자료 두 곳에서 같은 내용을 확인하고, 자료 이름을 적으면 됩니다."
+        ],
+        "막히면": [
+          "시간이 부족하거나 자료가 없으면 S04 조사표의 나라 가운데 하나를 골라 그 내용을 옮겨 적게 합니다.",
+          "영어 철자를 모르면 자료의 영어 표기를 보고 옮겨 쓰거나 부모님께 How do you spell ~?으로 묻게 합니다."
+        ],
+        "주의": [
+          "인구·순위처럼 자주 바뀌거나 자료마다 다른 정보, 한 나라 사람들의 성격을 하나로 말하는 내용은 조사하지 않습니다.",
+          "두 자료의 내용이 다르면 부모님과 함께 정부·공공기관 자료나 백과사전으로 다시 확인합니다. 그래도 분명하지 않은 내용은 발표에 넣지 않습니다.",
+          "조사는 다음 날 해도 됩니다. 그때는 조사를 마친 뒤 S10부터 이어 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "발표 연습과 듣고 반응하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "발표 연습하기",
+      "steps": [
+        "Let me tell you about ~.로 시작해요.",
+        "수도, 말, 음식을 한 문장씩 말해요.",
+        "I want to visit(try) ~.로 마무리해요.",
+        "엄마(아빠)는 That's interesting!으로 반응하고 질문해요."
+      ],
+      "criteria": [
+        "나라 이름으로 시작했어요",
+        "세 가지를 문장으로 말했어요",
+        "모든 사람이라고 하지 않았어요",
+        "또박또박 말했어요"
+      ],
+      "criteriaTitle": "발표 점검표",
+      "notes": {
+        "목적": "조사한 나라를 네 문장 이상으로 발표하고, 부모는 존중하는 말로 반응하며 질문해 실제 발표처럼 연습합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“조사표를 보면서 발표해 줘. Let me tell you about ~.로 시작하자.”",
+          "(아이의 발표가 끝나면) “That's interesting! How do you spell \"Ottawa\"?” (질문은 나라에 맞게 바꿉니다.)",
+          "“이번에는 엄마(아빠)가 발표할게. 듣고 반응해 줘.” (S04의 다른 나라로 발표합니다.)",
+          "“오른쪽 점검표로 네 발표를 같이 확인해 보자.”"
+        ],
+        "예상답": [
+          "예: “Let me tell you about Canada. The capital is Ottawa. Many people speak English or French. Maple syrup is a famous food. I want to visit Canada.”",
+          "발표 점검표(다섯 가지 가운데 네 가지 이상이면 통과): ① Let me tell you about + 나라 이름으로 시작한다 ② 수도·많은 사람이 쓰는 말·널리 알려진 음식을 한 문장씩 말한다(The capital is ~. Many people speak ~. ~ is a famous food.) ③ All people처럼 한 나라 사람을 모두 같다고 하지 않는다 ④ 말한 사실이 조사표의 자료와 맞는다 ⑤ 듣는 사람을 보며 또박또박 말한다."
+        ],
+        "막히면": [
+          "S03의 네 문장 틀을 화면에 띄워 놓고 조사표의 낱말만 바꾸어 말하게 합니다.",
+          "처음에는 조사표를 보며 말하고, 두 번째에는 되도록 보지 않고 말해 봅니다."
+        ],
+        "주의": [
+          "발표 내용이 맞는지는 조사표의 자료로 확인합니다. 영어 발음이 서툴러도 점검표를 지켰으면 잘한 것입니다.",
+          "아이가 부모님의 발표에 That's weird.처럼 반응하면 S08을 다시 이야기합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 발표하고 존중하며 반응하기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 영어로 말해 보세요.",
+      "problems": [
+        {
+          "text": "조사한 나라를\n네 문장 이상으로 소개해요."
+        },
+        {
+          "text": "엄마(아빠)의 발표를 듣고\n존중하는 말로 반응해요."
+        },
+        {
+          "text": "고쳐 말해요:\nAll people in Japan eat sushi."
+        },
+        {
+          "text": "캐나다의 수도를\n영어 문장으로 말해요."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 조사한 나라를 발표하고, 존중하는 반응과 바른 소개 문장을 말하는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“①, 이번에는 조사표를 보지 않고 발표해 볼래?” (어려우면 조사표를 보아도 되고, 기록표에 ‘도움’으로 표시합니다.)",
+          "“②, 엄마(아빠)가 발표할게. Let me tell you about Vietnam. The capital is Hanoi. Many people speak Vietnamese. Pho is a famous food. 어떻게 반응할래?”",
+          "“③, 이 문장을 바르게 고쳐 말해 줘.” “④, 캐나다의 수도를 영어 문장으로 말해 줘.”"
+        ],
+        "정답": [
+          "① 발표 점검표(다섯 가지 가운데 네 가지 이상이면 통과): ① Let me tell you about + 나라 이름으로 시작한다 ② 수도·많은 사람이 쓰는 말·널리 알려진 음식을 한 문장씩 말한다(The capital is ~. Many people speak ~. ~ is a famous food.) ③ All people처럼 한 나라 사람을 모두 같다고 하지 않는다 ④ 말한 사실이 조사표의 자료와 맞는다 ⑤ 듣는 사람을 보며 또박또박 말한다.",
+          "② That's interesting! (I want to try pho. / I want to visit Vietnam.도 맞음)",
+          "③ Sushi is a famous food in Japan. (또는 Many people in Japan eat sushi.)",
+          "④ The capital of Canada is Ottawa. (The capital is Ottawa.도 맞음)",
+          "기준: 네 가지 가운데 세 가지 이상을 스스로 하면 통과입니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “발표는 무엇으로 시작했지?”, “모든 사람이 그럴까?”처럼 실마리만 줍니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "대답 예와 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "대답 예 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① Let me tell you about ~.\nThe capital is ~. …"
+        },
+        {
+          "text": "② That's interesting!"
+        },
+        {
+          "text": "③ Sushi is a famous food\nin Japan."
+        },
+        {
+          "text": "④ The capital of Canada\nis Ottawa."
+        }
+      ],
+      "bad": [
+        {
+          "text": "That's weird.",
+          "note": "존중하는 말로"
+        },
+        {
+          "text": "All people in ~",
+          "note": "Many people"
+        },
+        {
+          "text": "Toronto",
+          "note": "수도는 Ottawa"
+        }
+      ],
+      "notes": {
+        "목적": "아이의 대답을 예와 비교하고 흔한 실수를 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 한 것과 왼쪽 예를 비교해 보자.”",
+          "“오른쪽처럼 말하면 왜 알맞지 않을까?”"
+        ],
+        "예상답": [
+          "“weird는 존중하는 말이 아니에요.” “모든 사람이 똑같지는 않아요.” “캐나다의 수도는 Ottawa예요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. ①은 조사한 나라마다 다르므로 발표 점검표로 봅니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "바르게 말한 것은?",
+      "options": [
+        {
+          "text": "That's weird."
+        },
+        {
+          "text": "That's interesting!"
+        },
+        {
+          "text": "All people in Italy eat pizza every day."
+        },
+        {
+          "text": "Pizza is a famous food in Italy."
+        }
+      ],
+      "question": "존중하면서 바르게 말한 것 두 개는? 왜 그렇게 생각해요?",
+      "notes": {
+        "목적": "처음 보는 형식에서 존중하는 반응과 일반화하지 않는 소개 문장을 고르는지 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“가, 나, 다, 라를 읽어 볼까? 존중하면서 바르게 말한 것 두 개를 골라 줘. 왜 그렇게 생각해?”",
+          "“나머지는 어떻게 고쳐 말하면 좋을까?”"
+        ],
+        "정답": [
+          "나와 라. 나는 존중하는 반응이고, 라는 널리 알려진 음식이라고 사실대로 소개합니다.",
+          "가는 That's interesting!으로, 다는 Pizza is a famous food in Italy.나 Many people in Italy eat pizza.로 고쳐 말합니다."
+        ],
+        "막히면": [
+          "S05와 S08을 다시 보여 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "정리와 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "조사한 사실로 나라를 소개하고,\n다른 문화는 That's interesting!처럼 존중하며 들어요.",
+      "do": "‘많은 사람들이’로 말하기",
+      "dont": "All people ~ / That's weird.",
+      "review": [
+        {
+          "text": "캐나다의 수도를\n영어 문장으로"
+        },
+        {
+          "text": "다른 나라 소개를 듣고\n존중하는 말 하기"
+        },
+        {
+          "text": "All people in Japan\neat sushi.를 고쳐 말하기"
+        }
+      ],
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“나라를 소개할 때 무엇을 조사해서 어떤 순서로 말했지?”",
+          "“다른 나라 이야기를 들을 때는 어떻게 반응하면 좋을까?”"
+        ],
+        "예상답": [
+          "“수도, 많이 쓰는 말, 유명한 음식이요.” “That's interesting!이라고 해요.”"
+        ],
+        "정답": [
+          "① The capital of Canada is Ottawa.",
+          "② That's interesting! (I want to try ~. / I want to visit ~.도 맞음)",
+          "③ Sushi is a famous food in Japan. (또는 Many people in Japan eat sushi.)"
+        ],
+        "주의": [
+          "계획상 초등 영어의 마지막 차시입니다. 뉴스나 책에서 다른 나라가 나오면 조사표를 하나씩 더 채워 보며 3~6학년 영어 표현을 복습해 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(나라 이름, 제안에 대답하기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 나라 이름 다시 보기",
+      "layout": "support",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Korea",
+            "sub": "한국"
+          },
+          {
+            "word": "Japan",
+            "sub": "일본"
+          },
+          {
+            "word": "China",
+            "sub": "중국"
+          },
+          {
+            "word": "Italy",
+            "sub": "이탈리아"
+          },
+          {
+            "word": "Vietnam",
+            "sub": "베트남"
+          },
+          {
+            "word": "Canada",
+            "sub": "캐나다"
+          }
+        ],
+        "perRow": 3
+      },
+      "key": "나라 이름은 대문자로 시작해요.",
+      "notes": {
+        "목적": "S02에서 나라 이름이나 제안에 대답하기가 흔들리면, 나라 소개를 배우기 전에 먼저 다집니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“나라 이름을 소리를 듣고 따라 읽어 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“지도에서 Japan을 찾아볼까? Canada는 어디 있어?”",
+          "“엄마(아빠)가 제안할게. Let's find Italy. 좋다고 대답해 줘.”"
+        ],
+        "정답": [
+          "Korea 한국, Japan 일본, Italy 이탈리아, Vietnam 베트남, Canada 캐나다, China 중국 / Sounds good."
+        ],
+        "막히면": [
+          "나라 이름의 첫 글자를 먼저 짚고, 지도에서 그 나라를 손가락으로 따라가며 읽게 합니다."
+        ],
+        "주의": [
+          "계획상 앞 차시는 ‘제안하고 답하기’(KR22-G06-ENG-SUGGEST-L01)입니다. Sounds good.이 흔들리면 그 차시의 S05를 다시 봅니다. 다른 나라의 문화를 존중하는 태도는 3학년 ‘나라별 인사 문화’(KR22-G03-ENG-GREETCULT-L01)와 4학년 ‘생활 예절 비교’(KR22-G04-ENG-MANNERS-L01)에서도 다루었으니 함께 떠올려 보세요."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "세계 문화 존중 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "소개할 나라를 하나 골라 조사표를 채우세요. 자료 두 곳에서 확인하고, 찾아본 자료 이름을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "나라",
+              ""
+            ],
+            [
+              "수도",
+              ""
+            ],
+            [
+              "많은 사람이 쓰는 말",
+              ""
+            ],
+            [
+              "널리 알려진 음식",
+              ""
+            ],
+            [
+              "찾아본 자료 두 곳",
+              ""
+            ]
+          ],
+          "widths": [
+            0.3,
+            0.7
+          ],
+          "firstColHead": true,
+          "size": 13
+        },
+        "answer": "아이가 고른 나라에 맞게 칸을 채우면 됩니다. 부모님이 사회과부도나 백과사전으로 수도·말·음식이 맞는지 함께 확인해 주세요. 예: Canada / Ottawa / English, French / maple syrup / 사회과부도, 백과사전. 기준: 세 칸이 자료와 맞고, 자료 두 곳을 적었으면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "조사표를 보고 빈칸에 알맞은 말을 쓰세요.",
+        "read": "Italy: Rome · Italian · pizza\nVietnam: Hanoi · Vietnamese · pho\nJapan: Tokyo · Japanese · sushi\nCanada: Ottawa · English, French · maple syrup",
+        "table": {
+          "rows": [
+            [
+              "①",
+              "The capital of Italy is ______________."
+            ],
+            [
+              "②",
+              "Many people in Vietnam speak ______________."
+            ],
+            [
+              "③",
+              "______________ is a famous food in Japan."
+            ],
+            [
+              "④",
+              "The capital of Canada is ______________."
+            ]
+          ],
+          "widths": [
+            0.07,
+            0.93
+          ],
+          "firstColHead": true,
+          "size": 14
+        },
+        "answer": "① Rome ② Vietnamese ③ Sushi(문장 맨 앞이라 대문자 S) ④ Ottawa (4개 가운데 3개 이상 맞으면 통과. 나라·도시·언어 이름은 대문자로 시작하는지 봅니다.)"
+      },
+      {
+        "no": 3,
+        "prompt": "존중하면서 바르게 말한 것에 모두 ✔ 하세요.",
+        "choices": [
+          "That's interesting!",
+          "That's weird.",
+          "Pizza is a famous food in Italy.",
+          "All people in Italy eat pizza every day."
+        ],
+        "choices_size": 16,
+        "answer": "첫째(That's interesting!)와 셋째(Pizza is a famous food in Italy.) 2개. 둘째는 존중하지 않는 반응이고, 넷째는 한 나라 사람이 모두 같다고 말했습니다."
+      },
+      {
+        "no": 4,
+        "prompt": "흐린 글씨 뒤에 조사한 나라 이름을 이어 쓰고, 빈 줄에 수도·말·음식을 한 문장씩 쓰세요. 한 줄에 다 들어가지 않으면 다음 줄에 이어 써도 돼요.",
+        "eng": {
+          "trace": [
+            "Let me tell you about"
+          ],
+          "blank": 4,
+          "height": 13
+        },
+        "answer": "예: Let me tell you about Canada. / The capital is Ottawa. / Many people speak English or French. / Maple syrup is a famous food. 기준: 네 문장이 조사표와 맞고, 나라·도시·언어 이름을 대문자로 시작하며, 문장 끝에 마침표를 찍으면 통과입니다. All people처럼 쓰지 않았는지 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "4에 쓴 글로 부모님께 발표하세요. 부모님이 발표 점검표에 ✔ 해 주세요.",
+        "table": {
+          "headers": [
+            "발표 점검표",
+            "✔"
+          ],
+          "rows": [
+            [
+              "Let me tell you about ~.으로 시작했어요.",
+              ""
+            ],
+            [
+              "수도·말·음식을 한 문장씩 말했어요.",
+              ""
+            ],
+            [
+              "‘모든 사람’이라고 하지 않았어요.",
+              ""
+            ],
+            [
+              "조사한 자료와 내용이 맞아요.",
+              ""
+            ],
+            [
+              "듣는 사람을 보며 또박또박 말했어요.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.85,
+            0.15
+          ],
+          "size": 13
+        },
+        "answer": "다섯 가지 가운데 네 가지 이상 ✔이면 통과입니다. 발표가 끝나면 That's interesting!으로 반응하고 질문을 하나 해 주세요(예: How do you spell \"Ottawa\"?)."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 캐나다의 수도를 영어 문장으로 말해 보세요.\n② 다른 나라 소개를 듣고 존중하는 말로 반응해 보세요.\n③ All people in Japan eat sushi.를 바르게 고쳐 말해 보세요.",
+        "answer": "① The capital of Canada is Ottawa. ② That's interesting! (I want to try ~. / I want to visit ~.도 맞음) ③ Sushi is a famous food in Japan. (또는 Many people in Japan eat sushi.) (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 네 가지 모두 □  세 가지 □  두 가지 이하 □ (도움을 받음 □)",
+      "S13 마무리 확인: 이유까지 말함 □  고르기만 함 □  아직 □",
+      "발표 점검표(활동지 5): 다섯 가지 □  네 가지 □  세 가지 이하 □"
+    ]
+  },
+  "break_after": "S08"
+}

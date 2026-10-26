@@ -1,0 +1,875 @@
+{
+  "id": "KR22-G06-ENG-CLARIFY-L01",
+  "concept_id": "ENG-CLARIFY",
+  "title": "뜻 확인하기",
+  "grade": "G06",
+  "grade_label": "초6",
+  "band": "E56",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "의사소통",
+  "sequence": 1,
+  "file_stem": "초6_영어_의사소통_01_뜻확인하기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "제작 완료",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G06-ENG-I03"
+    ],
+    "units": [
+      "3.4.1",
+      "3.5.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "상대의 말을 잘 못 들었을 때 Pardon? 또는 Can you say that again?으로 다시 말해 달라고 하고, 모르는 낱말이 나오면 What does \"~\" mean?으로 뜻을 물어 대화를 이어 간다.",
+      "evidence": "Pardon? 익히기(S03), What does ~ mean? 익히기(S04), 대화 역할극(S06), 이럴 때 하는 말(S07 ①②), What is ~ mean? 비교(S08), 빈칸 대화(S10), 혼자 해 보기(S11 ①②), 마무리 확인(S13), 활동지 1·2·4·5·6",
+      "success": "부모와의 역할극에서 잘 못 들은 말 1번, 모르는 낱말 1번을 만났을 때 도움 없이 Pardon?(또는 Can you say that again?)과 What does \"~\" mean?을 알맞게 말한다."
+    },
+    {
+      "id": "B",
+      "text": "How do you spell \"~\"?로 철자를 묻고, 알파벳 이름으로 말하는 철자를 듣고 낱말을 쓰거나 아는 낱말의 철자를 알파벳 이름으로 말해 준다.",
+      "evidence": "How do you spell ~? 익히기(S05), 대화 역할극(S06), 이럴 때 하는 말(S07 ③), 철자 주고받기 놀이(S09), 빈칸 대화(S10 ③), 혼자 해 보기(S11 ③④), 마무리 확인(S13), 활동지 1·2·3·4·6",
+      "success": "How do you spell \"~\"?을 스스로 묻고, 부모가 알파벳 이름으로 말하는 낱말 3개 가운데 2개 이상을 바르게 받아 쓴다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필, 공책",
+    "교과서 디지털 자료나 사전 앱(표현 소리와 알파벳 이름 듣기)"
+  ],
+  "boundary": "표현은 Pardon?, Can you say that again?, What does \"~\" mean?, It means ~., How do you spell \"~\"?과 알파벳 이름으로 철자 말하기(H-U-G-E.)만 다룬다. 뜻을 영어로 설명하는 대답(It means very big.)은 아는 낱말로 된 짧은 것을 부모가 말하고 아이는 듣고 따라 하는 정도로 한다. Sorry?, Excuse me?, What did you say?, Could you speak more slowly?, How do you say ~ in English? 등 다른 확인 표현은 다루지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "잘 못 들었을 때 What?만 퉁명스럽게 말하거나, 묻지 않고 아는 척 넘어간다.",
+      "response": "Pardon?과 Can you say that again?이 공손한 표현이고, 다시 묻는 것은 대화를 잘 이어 가는 방법이라는 것을 역할극으로 경험하게 한다(S03, S07, S12)."
+    },
+    {
+      "id": "M2",
+      "text": "What is \"huge\" mean?, What means huge?처럼 does를 빼거나 is를 넣고, 순서를 바꾼다.",
+      "response": "What does ~ mean?을 한 덩어리로 소리 내어 연습하고, 틀린 문장과 나란히 비교한다(S04, S08, 활동지 5)."
+    },
+    {
+      "id": "M3",
+      "text": "철자를 말할 때 알파벳 이름 대신 글자의 소리로 말하거나, 받아 쓸 때 이름이 비슷한 글자(G와 J, E와 I 등)를 헷갈린다.",
+      "response": "알파벳 이름표(S15)를 보며 이름으로 말하게 하고, 헷갈리면 Pardon?으로 다시 말해 달라고 하게 한다(S05, S09, 활동지 3)."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "뜻 확인하기",
+      "question": "잘 못 들었거나 모르는 낱말이 나오면\n영어로 어떻게 물어볼까요?",
+      "goals": [
+        "① Pardon?, What does ~ mean?으로 다시 묻거나 뜻을 물어요.",
+        "② How do you spell ~?으로 철자를 묻고 답해요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Pardon?"
+          },
+          {
+            "word": "What does ~ mean?"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "대화 중에 못 알아들은 말이나 모르는 낱말이 있을 때 다시 물어보는 상황에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구 말을 잘 못 들었거나 모르는 낱말이 나오면 우리말로는 어떻게 해?”",
+          "“영어로도 그렇게 물어볼 수 있어. 오늘은 다시 말해 달라고 하기, 뜻 묻기, 철자 묻기를 해 볼 거야. 물어보면 대화를 끝까지 이어 갈 수 있어.”"
+        ],
+        "예상답": [
+          "“뭐라고? 다시 말해 줘.” “그게 무슨 뜻이야?”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(Pardon? Can you say that again? What does \"huge\" mean? It means very big. How do you spell \"huge\"?)과 알파벳 이름(A부터 Z까지)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "오늘은 부모님과 역할극을 많이 합니다. 부모님이 일부러 작게 말하거나 어려운 낱말을 섞어 아이가 물어볼 기회를 만들어 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(알파벳 이름)",
+      "role": "prior",
+      "objectives": [],
+      "title": "알파벳 이름 떠올리기",
+      "text": "①은 철자를 말하고, ②는 듣고 낱말을 말해요.",
+      "problems": [
+        {
+          "text": "desk의 철자를 알파벳 이름으로 말해요."
+        },
+        {
+          "text": "엄마(아빠)가 말하는 철자를 듣고\n무슨 낱말인지 말해요."
+        }
+      ],
+      "notes": {
+        "목적": "철자를 묻고 답하려면 알파벳 이름을 알아야 합니다. 낱말의 철자를 알파벳 이름으로 말하고, 들은 이름으로 낱말을 알아내는지 확인합니다. 이 차시는 계획상 앞 차시가 없으므로 3학년 알파벳 차시의 내용을 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, desk의 철자를 알파벳 이름으로 한 글자씩 말해 줄래?”",
+          "“②, 엄마(아빠)가 알파벳 이름으로 말할게. 잘 듣고 무슨 낱말인지 말해 봐. B-A-G.”"
+        ],
+        "정답": [
+          "① D-E-S-K",
+          "② bag (B-A-G)"
+        ],
+        "막히면": [
+          "①에서 글자의 소리로 말하면 “글자의 이름으로 말해 볼까? A, B, C처럼.”이라고 알려 줍니다.",
+          "알파벳 이름을 여러 개 헷갈리거나 ②를 알아내지 못하면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "철자를 말할 때는 글자의 소리가 아니라 이름(A, B, C…)으로 말합니다. 대문자로 말해도 소문자로 말해도 이름은 같습니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "Pardon?과 Can you say that again?",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "Pardon?",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Pardon?",
+            "sub": "뭐라고요? (다시 말해 주세요.)"
+          },
+          {
+            "word": "Can you say that again?",
+            "sub": "다시 말해 줄 수 있어요?"
+          }
+        ],
+        "perRow": 1
+      },
+      "key": "잘 못 들었을 때는 끝을 올려 물어요.",
+      "notes": {
+        "목적": "상대의 말을 잘 못 들었을 때 Pardon? 또는 Can you say that again?으로 공손하게 다시 말해 달라고 합니다(M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“잘 못 들었을 때는 Pardon?이라고 해. 끝을 올려서 묻듯이. 소리를 듣고 따라 해 보자. Pardon?”",
+          "“조금 더 길게 Can you say that again?이라고 해도 돼. ‘다시 말해 줄 수 있어?’라는 뜻이야.”",
+          "“엄마(아빠)가 아주 작게 말해 볼게. (작게) I like pears. 뭐라고 해야 할까?” → 아이가 Pardon?이라고 하면 또박또박 다시 말해 줍니다."
+        ],
+        "예상답": [
+          "“Pardon?” “Can you say that again?”"
+        ],
+        "막히면": [
+          "Par-don처럼 두 부분으로 나누어 천천히 말하고, 끝을 올리는 말투를 소리 자료로 따라 하게 합니다.",
+          "Can you say that again?이 길면 that again? … say that again? … Can you say that again?처럼 뒤에서부터 붙여 말합니다."
+        ],
+        "주의": [
+          "What?만 말하면 퉁명스럽게 들릴 수 있습니다. Pardon?이나 Can you say that again?이 더 공손합니다(M1).",
+          "못 들은 것을 묻는 것은 부끄러운 일이 아니라 대화를 잘 이어 가는 방법이라고 말해 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "What does ~ mean?으로 뜻 묻기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "What does ~ mean?",
+      "text": "엄마(아빠)와 역할을 나누어 읽어요.",
+      "passage": {
+        "paragraphs": [
+          "A: My dog is huge.",
+          "B: What does \"huge\" mean?",
+          "A: It means very big.",
+          "B: Oh, I see."
+        ]
+      },
+      "question": "모르는 낱말은 does와 mean 사이에 넣어 물어요.",
+      "notes": {
+        "목적": "모르는 낱말이 나오면 What does \"~\" mean?으로 뜻을 묻고, It means ~.로 대답한다는 것을 압니다(M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“A가 My dog is huge.라고 했어. 그런데 B는 huge를 몰라. 그래서 뭐라고 물었어?”",
+          "“What does huge mean? ‘huge는 무슨 뜻이야?’라는 뜻이야. 따라 해 보자. What does … mean?”",
+          "“A는 It means very big.이라고 대답했어. ‘아주 크다는 뜻이야.’ 이번에는 엄마(아빠)가 A, 네가 B야.”"
+        ],
+        "예상답": [
+          "“What does \"huge\" mean?” “Oh, I see.”"
+        ],
+        "막히면": [
+          "What does … mean?을 손뼉에 맞춰 한 덩어리로 말한 뒤 가운데에 huge를 넣게 합니다.",
+          "뒤에서부터 붙여 말합니다. mean? … huge mean? … does huge mean? … What does huge mean?"
+        ],
+        "주의": [
+          "궁금한 낱말은 does와 mean 사이에 넣습니다. 쓸 때는 그 낱말에 큰따옴표(\"\")를 붙이면 알아보기 쉽습니다. What is huge mean?처럼 is를 넣지 않습니다(M2).",
+          "Oh, I see.는 ‘아, 알겠어.’라는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "How do you spell ~?으로 철자 묻기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "How do you spell ~?",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "How do you spell \"huge\"?",
+            "sub": "huge의 철자가 뭐예요?"
+          },
+          {
+            "word": "H-U-G-E.",
+            "sub": "알파벳 이름으로 한 글자씩 말해요."
+          }
+        ],
+        "perRow": 1
+      },
+      "key": "철자는 글자의 소리가 아니라 알파벳 이름으로 말해요.",
+      "notes": {
+        "목적": "How do you spell \"~\"?으로 철자를 묻고, 철자는 알파벳 이름으로 한 글자씩 말한다는 것을 압니다(M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“huge를 공책에 쓰고 싶은데 철자를 모르면? How do you spell huge? 따라 해 보자.”",
+          "“대답은 알파벳 이름으로 한 글자씩 해. H-U-G-E.” (손가락으로 한 글자씩 짚으며 말합니다.)",
+          "“이번에는 네가 물어봐. 엄마(아빠)가 대답할게.” (desk, bag처럼 아는 낱말로도 주고받습니다.)"
+        ],
+        "예상답": [
+          "“How do you spell \"huge\"?” (부모: H-U-G-E.) 아이가 듣고 huge를 씁니다."
+        ],
+        "막히면": [
+          "spell은 ‘철자를 말하다’라는 뜻이라고 알려 주고, How do you spell을 한 덩어리로 여러 번 말하게 합니다."
+        ],
+        "주의": [
+          "철자는 글자의 소리가 아니라 이름으로 말합니다(M3). G와 J, E와 I처럼 이름이 비슷한 글자는 S15의 알파벳 이름표로 확인합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "세 표현으로 대화 이어 가기(역할극)",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "대화를 이어 가요",
+      "passage": {
+        "paragraphs": [
+          "Mina: Look! My cat is tiny.",
+          "Tom: Pardon?",
+          "Mina: My cat is tiny.",
+          "Tom: What does \"tiny\" mean?",
+          "Mina: It means very small.",
+          "Tom: How do you spell \"tiny\"?",
+          "Mina: T-I-N-Y.",
+          "Tom: Thank you!"
+        ]
+      },
+      "notes": {
+        "목적": "세 표현을 차례로 써서 대화를 끊지 않고 이어 가는 전체 흐름을 역할극으로 익힙니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 Mina, 네가 Tom이야. 엄마(아빠)부터 읽을게. Look! My cat is tiny.”",
+          "“Tom은 세 번 물어봤어. 처음에는 왜 물었어? 두 번째는? 세 번째는?”",
+          "“이번에는 역할을 바꿔서 해 보자.”"
+        ],
+        "예상답": [
+          "“처음에는 잘 못 들어서 Pardon?, 두 번째는 tiny의 뜻을 몰라서, 세 번째는 철자를 몰라서 물었어요.”"
+        ],
+        "막히면": [
+          "한 줄씩 부모가 먼저 읽고 아이가 따라 읽은 다음 역할을 나눕니다.",
+          "tiny의 뜻(아주 작은)을 확인합니다."
+        ],
+        "주의": [
+          "Thank you!로 마무리하면 대화가 자연스럽게 끝납니다.",
+          "여기까지가 배우는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "상황에 맞는 표현 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "이럴 때 뭐라고 할까요?",
+      "text": "상황에 알맞은 영어 표현을 말해요.",
+      "problems": [
+        {
+          "text": "엄마(아빠)의 말이 너무 작아서 못 들었어요."
+        },
+        {
+          "text": "친구가 It's a giant tree.라고 했는데\ngiant의 뜻을 몰라요."
+        },
+        {
+          "text": "tiger를 쓰고 싶은데 철자를 몰라요."
+        }
+      ],
+      "notes": {
+        "목적": "상황을 보고 다시 말해 달라기, 뜻 묻기, 철자 묻기 가운데 알맞은 표현을 골라 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 이럴 때는 영어로 뭐라고 해?”",
+          "“②, ③도 말해 줘. 왜 그 표현을 골랐어?”"
+        ],
+        "정답": [
+          "① Pardon? (또는 Can you say that again?)",
+          "② What does \"giant\" mean?",
+          "③ How do you spell \"tiger\"?"
+        ],
+        "막히면": [
+          "“못 들은 거야, 뜻을 모르는 거야, 철자를 모르는 거야?”라고 먼저 우리말로 묻습니다.",
+          "S03~S05의 화면을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "giant는 ‘거대한, 아주 큰’이라는 뜻입니다. 아이가 물으면 It means very big.이라고 대답해 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(What is ~ mean?)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 쪽이 바를까요?",
+      "claim": "tiny의 뜻을 몰라서 두 친구가 이렇게 물었어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "What is \"tiny\" mean?"
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "What does \"tiny\" mean?"
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "question": "바르게 물은 쪽은? 무엇이 다른가요?",
+      "notes": {
+        "목적": "뜻을 물을 때 What does ~ mean?에서 does를 빼거나 is를 넣지 않는다는 것을 비교합니다(M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“뜻을 물을 때는 What 다음에 무엇이 왔지?”"
+        ],
+        "정답": [
+          "바르게 말한 쪽은 나(What does \"tiny\" mean?)입니다. 뜻을 물을 때는 What does + 낱말 + mean?으로 말하고 is를 넣지 않습니다."
+        ],
+        "막히면": [
+          "S04의 대화를 다시 읽고 What does를 손가락으로 짚게 합니다."
+        ],
+        "주의": [
+          "What means tiny?처럼 순서를 바꾸는 실수도 있습니다. 같은 방법으로 고쳐 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "철자 주고받기 놀이",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "철자 주고받기 놀이",
+      "steps": [
+        "엄마(아빠)가 낱말을 말해요.",
+        "How do you spell ~?으로 물어요.",
+        "철자를 들으며 공책에 써요.",
+        "쓴 낱말을 읽어요.",
+        "역할을 바꿔 3번 해요."
+      ],
+      "criteria": [
+        "철자를 영어로 물었어요",
+        "들은 철자대로 바르게 썼어요",
+        "알파벳 이름으로 철자를 말했어요"
+      ],
+      "notes": {
+        "목적": "How do you spell ~?으로 철자를 묻고, 알파벳 이름으로 듣고 쓰며, 철자를 말해 줍니다(M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 낱말을 하나 말할게. lion. 철자를 물어봐 줄래?” (아이: How do you spell \"lion\"?) → “L-I-O-N.”",
+          "“들은 대로 공책에 써 봐. 다 썼으면 읽어 보고 철자를 다시 말해 줘.”",
+          "“이번에는 네가 낱말을 말하고 엄마(아빠)가 물어볼게.”"
+        ],
+        "예상답": [
+          "아이: “How do you spell \"lion\"?” → lion을 씁니다. / 부모가 물으면 아이가 desk → D-E-S-K처럼 말합니다.",
+          "기준: How do you spell ~?으로 묻고, 들은 철자로 낱말을 바르게 쓰고, 아는 낱말의 철자를 알파벳 이름으로 말하면 됩니다."
+        ],
+        "막히면": [
+          "잘 못 들은 글자가 있으면 Pardon?으로 다시 말해 달라고 하게 합니다. 오늘 배운 표현을 모두 쓰는 좋은 기회입니다.",
+          "부모는 글자 사이를 조금 띄어 천천히 말합니다."
+        ],
+        "주의": [
+          "낱말 예: lion, snow, tiger, apple, giant. 3번 이상 주고받습니다.",
+          "G와 J, E와 I를 헷갈리면 S15의 알파벳 이름표에서 함께 찾아봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "빈칸 대화 완성하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "빈칸에 들어갈 말",
+      "text": "빈칸에 들어갈 말을 넣어 B의 말을 해요.",
+      "problems": [
+        {
+          "text": "A: I have a puppy.　B: ______?\nA: I have a puppy."
+        },
+        {
+          "text": "B: What ______ \"puppy\" ______?\nA: It means a baby dog."
+        },
+        {
+          "text": "B: How do you ______ \"puppy\"?\nA: P-U-P-P-Y."
+        }
+      ],
+      "notes": {
+        "목적": "대화의 빈칸에 들어갈 말을 넣어 세 표현을 정확한 형태로 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 A를 읽을게. 너는 B야. 빈칸에는 무엇이 들어갈까?”",
+          "“A: I have a puppy. B: 음~?” “B: What 음~ puppy 음~?” “B: How do you 음~ puppy?”",
+          "“빈칸을 채워서 처음부터 끝까지 대화를 해 보자.”"
+        ],
+        "정답": [
+          "① Pardon? (Can you say that again?도 맞음)",
+          "② does, mean (What does \"puppy\" mean?)",
+          "③ spell (How do you spell \"puppy\"?)"
+        ],
+        "막히면": [
+          "①은 A가 같은 말을 다시 한 것을 보고 왜 다시 말했는지 생각하게 합니다.",
+          "②③은 S04, S05를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "puppy는 ‘강아지(어린 개)’라는 뜻이라 It means a baby dog.이라고 대답합니다. 철자는 P-U-P-P-Y입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 역할극으로 대화 이어 가기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "엄마(아빠)와 대화를 이어 가요. 필요할 때 영어로 물어요.",
+      "problems": [
+        {
+          "text": "잘 못 들었어요."
+        },
+        {
+          "text": "모르는 낱말이 나왔어요."
+        },
+        {
+          "text": "철자를 알고 싶어요."
+        },
+        {
+          "text": "들은 철자대로 공책에 써요."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 실제 대화에서 알맞은 확인 표현을 골라 쓰고, 들은 철자로 낱말을 쓰는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 화면에 표현이 없어. 엄마(아빠)와 대화하면서 필요할 때 물어봐.”",
+          "① (일부러 아주 작고 빠르게) “I like pears.” → 아이가 다시 물으면 또박또박 다시 말합니다.",
+          "② “Look at that giraffe. It's enormous.” → 아이가 뜻을 물으면 “It means very, very big.”",
+          "③ “giraffe의 철자를 물어봐.” → 아이가 물으면 “G-I-R-A-F-F-E.” ④ “들은 대로 공책에 써 봐.”"
+        ],
+        "정답": [
+          "① Pardon? 또는 Can you say that again?",
+          "② What does \"enormous\" mean?",
+          "③ How do you spell \"giraffe\"?",
+          "④ giraffe (G-I-R-A-F-F-E)",
+          "기준: 네 가지 가운데 세 가지 이상을 도움 없이 하면 통과입니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “지금은 못 들은 거야, 뜻을 모르는 거야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "enormous는 아이가 모를 만한 낱말이라 일부러 골랐습니다. 아이가 이미 안다면 다른 어려운 낱말로 바꿔도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① Pardon?"
+        },
+        {
+          "text": "② What does\n\"enormous\" mean?"
+        },
+        {
+          "text": "③ How do you spell\n\"giraffe\"?"
+        },
+        {
+          "text": "④ giraffe"
+        }
+      ],
+      "bad": [
+        {
+          "text": "What?",
+          "note": "퉁명스럽게 들려요"
+        },
+        {
+          "text": "What is \"enormous\"\nmean?",
+          "note": "is → does"
+        }
+      ],
+      "notes": {
+        "목적": "아이의 대답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자.”",
+          "“오른쪽처럼 말하면 어디가 어색할까?”"
+        ],
+        "예상답": [
+          "“What?보다 Pardon?이 더 공손해요.” “is가 아니라 does예요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(상황에 맞는 표현)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "알맞은 말을 골라요",
+      "options": [
+        {
+          "text": "Pardon?"
+        },
+        {
+          "text": "What does \"huge\" mean?"
+        },
+        {
+          "text": "How do you spell \"huge\"?"
+        },
+        {
+          "text": "Thank you."
+        }
+      ],
+      "question": "엄마(아빠)가 말하는 상황에 알맞은 말은? 어떻게 알았나요?",
+      "notes": {
+        "목적": "처음 보는 형식에서 상황을 듣고 알맞은 확인 표현을 고르는지 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 상황을 말할게. 친구가 말한 낱말 huge의 철자를 알고 싶어. 어떤 말을 할까? 어떻게 알았어?”",
+          "“이번에는, 친구 말이 너무 작아서 못 들었어.”"
+        ],
+        "정답": [
+          "철자를 알고 싶을 때 → 다 (How do you spell \"huge\"?)",
+          "못 들었을 때 → 가 (Pardon?)"
+        ],
+        "막히면": [
+          "“못 들은 거야, 뜻을 모르는 거야, 철자를 모르는 거야?”라고 먼저 묻습니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "못 들으면 Pardon?, 뜻을 모르면 What does ~ mean?,\n철자를 모르면 How do you spell ~?으로 물어요.",
+      "do": "모르면 영어로 묻기",
+      "dont": "What? / What is ~ mean?",
+      "review": [
+        {
+          "text": "못 들었을 때 하는 말\n두 가지"
+        },
+        {
+          "text": "giant의 뜻을\n영어로 묻기"
+        },
+        {
+          "text": "T-I-N-Y를 듣고\n낱말 말하기"
+        }
+      ],
+      "next": "제안하고 답하기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“잘 못 들었을 때, 뜻을 모를 때, 철자를 모를 때 각각 뭐라고 했지?”"
+        ],
+        "예상답": [
+          "“Pardon?” “What does ~ mean?” “How do you spell ~?”"
+        ],
+        "정답": [
+          "① Pardon? / Can you say that again? ② What does \"giant\" mean? ③ tiny (T-I-N-Y)"
+        ],
+        "주의": [
+          "영어 영상이나 책을 볼 때 모르는 낱말이 나오면 부모님께 What does ~ mean?으로 묻게 하면 좋은 복습이 됩니다. 다음 차시는 ‘제안하고 답하기’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(알파벳 이름)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 알파벳 이름 다시 보기",
+      "layout": "support",
+      "figure": {
+        "type": "letters",
+        "items": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P",
+          "Q",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ],
+        "perRow": 13
+      },
+      "key": "철자를 말할 때는 알파벳 이름으로 말해요.　cat → C-A-T",
+      "notes": {
+        "목적": "S02에서 알파벳 이름이 흔들리면, 철자 묻고 답하기를 배우기 전에 먼저 다집니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“알파벳 이름을 소리를 듣고 따라 말해 보자. A, B, C….” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 글자 이름을 말하면 그 글자를 짚어 봐. G! J! E! I!”",
+          "“이제 cat의 철자를 이름으로 말해 볼까?”"
+        ],
+        "정답": [
+          "글자를 바르게 짚으면 맞습니다. cat → C-A-T"
+        ],
+        "막히면": [
+          "헷갈리는 글자(G와 J, E와 I, B와 V 등)만 골라 여러 번 짚게 합니다."
+        ],
+        "주의": [
+          "이 차시는 계획상 앞 차시가 없습니다. 보충 뒤에도 알파벳 이름을 많이 헷갈리면 3학년 ‘알파벳 A부터 M까지’(KR22-G03-ENG-ABC1-L01)와 ‘알파벳 N부터 Z까지’(KR22-G03-ENG-ABC2-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "뜻 확인하기 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "상황에 알맞은 말을 골라 기호를 쓰세요.",
+        "read": "㉠ Pardon?　　㉡ What does \"tiny\" mean?　　㉢ How do you spell \"tiny\"?",
+        "table": {
+          "rows": [
+            [
+              "①",
+              "친구의 말을 잘 못 들었어요.",
+              ""
+            ],
+            [
+              "②",
+              "tiny의 뜻을 몰라요.",
+              ""
+            ],
+            [
+              "③",
+              "tiny를 쓰고 싶은데 철자를 몰라요.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.08,
+            0.7,
+            0.22
+          ],
+          "firstColHead": true,
+          "size": 14
+        },
+        "answer": "① ㉠ ② ㉡ ③ ㉢ (3개 모두 맞으면 통과)"
+      },
+      {
+        "no": 2,
+        "prompt": "대화를 읽고 빈칸 ①~④에 알맞은 말을 쓰세요.",
+        "read": "A: I have a puppy.\nB: (①)\nA: I have a puppy.\nB: What (②) \"puppy\" (③)?\nA: It means a baby dog.\nB: How do you (④) \"puppy\"?\nA: P-U-P-P-Y.",
+        "table": {
+          "rows": [
+            [
+              "①",
+              "",
+              "②",
+              ""
+            ],
+            [
+              "③",
+              "",
+              "④",
+              ""
+            ]
+          ],
+          "widths": [
+            0.08,
+            0.42,
+            0.08,
+            0.42
+          ],
+          "size": 14
+        },
+        "answer": "① Pardon? (Can you say that again?도 맞음. 물음표까지) ② does ③ mean ④ spell (4개 가운데 3개 이상 맞으면 통과)"
+      },
+      {
+        "no": 3,
+        "prompt": "부모님이 알파벳 이름으로 말하는 철자를 듣고, 한 줄에 낱말 하나씩 쓰세요.",
+        "eng": {
+          "blank": 3,
+          "height": 13
+        },
+        "answer": "부모가 ① T-I-G-E-R ② S-N-O-W ③ G-I-A-N-T를 차례로 말해 줍니다. tiger, snow, giant를 쓰면 맞습니다(3개 가운데 2개 이상이면 통과). 아이가 잘 못 들으면 Pardon?이라고 묻게 하고 다시 말해 줍니다. 낱말은 소문자로 씁니다."
+      },
+      {
+        "no": 4,
+        "prompt": "소리 내어 말하며 따라 쓰세요.",
+        "eng": {
+          "trace": [
+            "Pardon?",
+            "What does \"huge\" mean?",
+            "How do you spell \"huge\"?"
+          ]
+        },
+        "answer": "보고 따라 썼으면 맞습니다. 첫 글자(P, W, H)는 대문자이고, 끝에 물음표(?)를 씁니다. huge 앞뒤의 큰따옴표는 빠뜨려도 틀리지 않지만 붙이면 어느 낱말을 묻는지 잘 보입니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 5,
+        "prompt": "giant의 뜻을 바르게 물은 문장에 ✔ 하세요.",
+        "choices": [
+          "What does \"giant\" mean?",
+          "What is \"giant\" mean?",
+          "What means \"giant\"?",
+          "How do you spell \"giant\"?"
+        ],
+        "choices_size": 16,
+        "answer": "첫째(What does \"giant\" mean?) 하나. 둘째와 셋째는 형태가 틀렸고, 넷째는 철자를 묻는 말입니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 잘 못 들었을 때 하는 말 두 가지를 말해 보세요.\n② giant의 뜻을 영어로 물어보세요.\n③ 부모님이 T-I-N-Y라고 말하면 무슨 낱말인지 말해 보세요.",
+        "answer": "① Pardon? / Can you say that again? ② What does \"giant\" mean? ③ tiny (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 네 가지 모두 □  세 가지 □  두 가지 이하 □ (도움을 받음 □)",
+      "S13 마무리 확인: 두 상황 모두 □  하나만 □  아직 □",
+      "활동지 3 철자 받아쓰기: 세 개 □  두 개 □  한 개 이하 □"
+    ]
+  },
+  "break_after": "S06"
+}

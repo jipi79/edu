@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "How much is it? It's ~ won. 으로 값을 묻고 답한다.",
   "prerequisites": [
     {
       "text": "길 묻고 안내하기",
@@ -38,19 +37,851 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "100원~5,000원의 백·천 단위 값을 숫자 낱말과 hundred, thousand로 말하고, How much is it?에 It's ~ won.으로 대답하며, 들은 값을 숫자로 알아듣는다.",
+      "evidence": "hundred와 thousand(S03), 값 묻고 답하기(S04), 얼마예요(S06), thousands 비교(S07), 빈칸 대화(S08 ②), 가게 놀이(S09), 혼자 해 보기(S10 ①②), 마무리 확인(S12), 활동지 1·2·4·6",
+      "success": "가격표 6개 가운데 5개 이상을 It's ~ won.으로 바르게 말하고(thousand·hundred·won에 s를 붙이지 않음), 들은 값 4개 가운데 3개 이상을 알맞은 가격표나 숫자로 고른다."
+    },
+    {
+      "id": "B",
+      "text": "I'd like ~.로 사고 싶은 물건을 말하고, 물건이나 돈을 건넬 때 Here you are.라고 말하며 물건 사기 대화를 끝까지 한다.",
+      "evidence": "물건 사기 대화(S05), 빈칸 대화(S08 ①③), 가게 놀이(S09), 혼자 해 보기(S10 ③④), 활동지 3·5·6",
+      "success": "가게 놀이에서 손님 역할로 I'd like ~. → How much is it? → Here you are.를 도움 없이 차례대로 말하고, 주인 역할로 It's ~ won.을 말한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "집에 있는 물건 3개(연필, 공, 모자 등)",
+    "가격표를 만들 작은 종이와 펜",
+    "동전·지폐(100원, 500원, 1,000원, 5,000원) 또는 금액을 쓴 종이 돈",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "값은 100원부터 5,000원까지의 백·천 단위(100, 300, 500, 700, 1,000~5,000원)를 다루고, 1,500원처럼 천과 백이 함께 있는 값은 도전 문제로만 쓴다. 만 원 이상, 십 단위(50원 등), 거스름돈 계산, 여러 개의 값(How much are they?), 할인·흥정은 다루지 않는다. 표현은 How much is it? It's ~ won. I'd like ~. Here you are. 네 가지이며, 물건은 한 개인 물건(a pencil, a ball 등)만 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "2,000이 ‘천이 두 개’라서 two thousands, won을 wons처럼 s를 붙인다.",
+      "response": "숫자 뒤의 hundred, thousand와 돈 단위 won은 늘 같은 모양이라고 짚고, 틀린 말과 바른 말을 나란히 비교한다(S03, S07, S11, 활동지 1)."
+    },
+    {
+      "id": "M2",
+      "text": "hundred와 thousand를 헷갈려 300원을 three thousand won으로 말하거나, 들은 값을 0의 개수가 다르게 쓴다.",
+      "response": "0이 두 개면 hundred, 세 개면 thousand라고 정하고, 비슷한 값(300원·3,000원, 500원·5,000원)을 듣고 고르게 한다(S03, S12, 활동지 4)."
+    },
+    {
+      "id": "M3",
+      "text": "How much is it?에 Yes.나 It's a pencil.처럼 맞지 않게 대답하거나, 돈을 낼 때 Here you are. 대신 Thank you.만 말한다.",
+      "response": "How much는 ‘얼마’를 묻는 말이라 값으로 대답하고, 무엇을 건넬 때는 Here you are.라고 말한다는 것을 실제 물건과 돈을 주고받으며 익힌다(S04, S05, S09)."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "물건 사기",
+      "question": "가게에서 물건값을\n영어로 어떻게 물을까요?",
+      "goals": [
+        "① How much is it?으로 값을 묻고 답해요.",
+        "② I'd like ~.로 사고 싶은 것을 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "How much is it?"
+          },
+          {
+            "word": "I'd like a ball."
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "가게에서 물건을 사는 상황에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“가게에서 물건을 살 때 주인에게 뭐라고 물어봐? 값을 모르면?”",
+          "“오늘은 영어로 값을 묻고, 사고 싶은 것을 말하고, 돈을 주고받는 말을 배울 거야.”"
+        ],
+        "예상답": [
+          "“이거 얼마예요?” “이거 주세요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(How much is it? It's two thousand won. I'd like a ball. Here you are. 와 hundred, thousand, won)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "100원·500원 동전과 1,000원·5,000원 지폐가 있으면 준비해 두세요. 없으면 종이에 금액을 써서 종이 돈으로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(길 묻기, 숫자 낱말)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 시간 떠올리기",
+      "text": "①은 영어로 묻고, ②③은 해 보세요.",
+      "problems": [
+        {
+          "text": "도서관이 어디 있는지 영어로 물어요."
+        },
+        {
+          "text": "Turn right.의 뜻을 몸으로 보여요."
+        },
+        {
+          "text": "1부터 10까지 영어로 세어요."
+        }
+      ],
+      "notes": {
+        "목적": "앞 차시(길 묻고 안내하기)의 묻는 말과 안내하는 말, 그리고 오늘 값을 말할 때 꼭 필요한 숫자 낱말 one~ten을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 도서관이 어디 있는지 영어로 물어봐 줄래?”",
+          "“②, Turn right.는 무슨 뜻이지? 몸으로 보여 줘.”",
+          "“③, 1부터 10까지 영어로 세어 볼까?”"
+        ],
+        "정답": [
+          "① Where is the library?",
+          "② 오른쪽으로 돌아요(몸을 오른쪽으로 돌림).",
+          "③ one, two, three, four, five, six, seven, eight, nine, ten"
+        ],
+        "막히면": [
+          "부모가 Where is를 먼저 말해 주고 이어 말하게 합니다.",
+          "③에서 숫자 낱말을 세 개 이상 빠뜨리거나 틀리면 S14(보충)를 먼저 합니다. 숫자 낱말은 오늘 값을 말하는 데 꼭 필요합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "hundred(백)와 thousand(천)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "hundred와 thousand",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "one hundred",
+            "sub": "100"
+          },
+          {
+            "word": "five hundred",
+            "sub": "500"
+          },
+          {
+            "word": "one thousand",
+            "sub": "1,000"
+          },
+          {
+            "word": "two thousand",
+            "sub": "2,000"
+          },
+          {
+            "word": "three thousand",
+            "sub": "3,000"
+          },
+          {
+            "word": "five thousand",
+            "sub": "5,000"
+          }
+        ],
+        "perRow": 3
+      },
+      "key": "hundred 백　·　thousand 천 (여러 개여도 s를 붙이지 않아요)",
+      "notes": {
+        "목적": "백 단위·천 단위 값을 숫자 낱말 + hundred/thousand로 말합니다(M1, M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“100은 one hundred야. 소리를 듣고 따라 해 봐. one hundred. 500은? 5가 백 개 있으니 five hundred.”",
+          "“1,000은 one thousand. 2,000은 two thousand. 천이 두 개여도 thousands가 아니라 thousand야.”",
+          "“엄마(아빠)가 숫자를 짚으면 영어로 말해 줘.” (500 → 3,000 → 100 → 5,000 → 1,000 → 2,000 순서로 짚습니다.)"
+        ],
+        "예상답": [
+          "“five hundred.” “three thousand.” “one hundred.” “five thousand.”"
+        ],
+        "막히면": [
+          "앞자리 숫자를 먼저 영어로 말하게 하고(5 → five), 뒤에 0이 두 개면 hundred, 세 개면 thousand를 붙이게 합니다.",
+          "동전과 지폐가 있으면 500원 동전, 1,000원 지폐를 직접 보며 말합니다."
+        ],
+        "주의": [
+          "2,000은 two thousand입니다. thousand와 hundred 뒤에 s를 붙이지 않습니다(M1).",
+          "hundred와 thousand는 소리가 다릅니다. 소리 자료로 두 낱말을 번갈아 들어 보게 합니다(M2)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "How much is it?으로 값 묻고 답하기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "How much is it?",
+      "text": "엄마(아빠)와 역할을 나누어 말해요.",
+      "passage": {
+        "paragraphs": [
+          "A: How much is it?",
+          "B: It's five hundred won."
+        ]
+      },
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "pencil",
+            "sub": "500원"
+          }
+        ],
+        "perRow": 1
+      },
+      "question": "How much is it?은 ‘얼마예요?’라는 뜻이에요.",
+      "notes": {
+        "목적": "How much is it?으로 값을 묻고, It's ~ won.으로 대답합니다(M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“A가 연필을 가리키며 How much is it?이라고 물었어. ‘이거 얼마예요?’라는 뜻이야. 따라 해 봐. How much is it?”",
+          "“B는 가격표를 보고 대답했어. It's five hundred won. 500원이에요.”",
+          "“이번에는 네가 A, 엄마(아빠)가 B야. 물어봐 줄래?” (그다음 역할을 바꿉니다.)"
+        ],
+        "예상답": [
+          "“How much is it?” “It's five hundred won.”"
+        ],
+        "막히면": [
+          "뒤에서부터 붙여 말합니다. is it? … much is it? … How much is it?",
+          "won은 우리 돈의 단위라서 금액 뒤에 꼭 붙입니다. It's five hundred까지 말하고 멈추면 “얼마의 무엇?”이라고 물어 won을 붙이게 합니다."
+        ],
+        "주의": [
+          "won은 값이 커도 wons로 바꾸지 않습니다(M1).",
+          "How much is it?에는 Yes.나 It's a pencil.이 아니라 값으로 대답합니다(M3)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "I'd like ~. / Here you are.로 물건 사기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "I'd like a ball.",
+      "text": "A는 손님, B는 가게 주인이에요. 역할을 나누어 말해요.",
+      "passage": {
+        "paragraphs": [
+          "A: Hello. I'd like a ball.",
+          "B: Here you are.",
+          "A: How much is it?",
+          "B: It's two thousand won.",
+          "A: Here you are.",
+          "B: Thank you."
+        ]
+      },
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "ball",
+            "sub": "2,000원"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "I'd like ~.로 사고 싶은 것을 말하고, 물건이나 돈을 건넬 때 Here you are.라고 말하는 대화를 익힙니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“A는 손님, B는 가게 주인이야. A가 I'd like a ball.이라고 했어. ‘공을 사고 싶어요(공 주세요)’라는 뜻이야. I'd는 I would를 줄인 말이야.”",
+          "“B가 공을 건네며 Here you are. ‘여기 있어요’라는 뜻이야. 물건이나 돈을 건넬 때 하는 말이야.”",
+          "“A가 값을 묻고, B가 값을 말하고, A가 돈을 건네며 또 Here you are. 마지막에 B가 Thank you.”",
+          "“이번에는 네가 A(손님)야. 엄마(아빠)가 가게 주인 할게.” (그다음 역할을 바꿉니다.)"
+        ],
+        "예상답": [
+          "“I'd like a ball.” “How much is it?” “Here you are.”(돈을 건네며)"
+        ],
+        "막히면": [
+          "I'd like를 한 덩어리로 여러 번 말한 뒤 물건 낱말을 붙이게 합니다.",
+          "Here you are.는 실제로 물건(공, 연필)을 건네면서 말하면 쉽게 익힙니다."
+        ],
+        "주의": [
+          "Here you are.는 물건을 줄 때도, 돈을 낼 때도 씁니다. 손님과 주인이 모두 말할 수 있습니다.",
+          "I'd의 아포스트로피(')는 would의 woul이 빠진 자리라는 표시입니다.",
+          "여기까지 새 표현이 모두 나왔습니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "concept",
+      "section": "연습",
+      "purpose": "가격표를 보고 값 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "얼마예요?",
+      "text": "엄마(아빠)가 How much is it?이라고 물으면 값을 말해요.",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "① ruler",
+            "sub": "1,000원"
+          },
+          {
+            "word": "② robot",
+            "sub": "3,000원"
+          },
+          {
+            "word": "③ cap",
+            "sub": "5,000원"
+          },
+          {
+            "word": "④ notebook",
+            "sub": "1,500원",
+            "highlight": true
+          }
+        ],
+        "perRow": 4
+      },
+      "key": "④는 도전! 천과 백을 이어서 말해요.",
+      "notes": {
+        "목적": "가격표를 보고 How much is it?에 It's ~ won.으로 대답합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 물건을 하나씩 가리키며 물어볼게. ①, How much is it?”",
+          "“②, How much is it?” “③, How much is it?”",
+          "“④는 도전이야. 1,000과 500을 이어서 말해 볼까?”",
+          "“어떻게 알았어? 0이 몇 개야?”"
+        ],
+        "정답": [
+          "① It's one thousand won. ② It's three thousand won. ③ It's five thousand won.",
+          "④ It's one thousand five hundred won. (도전: 못 해도 괜찮습니다)"
+        ],
+        "막히면": [
+          "앞자리 숫자와 0의 개수를 먼저 말하게 합니다(3,000 → 3, 0이 세 개 → three thousand).",
+          "④가 어려우면 부모가 one thousand, five hundred를 나누어 말해 주고 이어 말하게 합니다."
+        ],
+        "주의": [
+          "④처럼 천과 백이 함께 있으면 thousand를 먼저, hundred를 나중에 말합니다. 사이에 and를 넣지 않아도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(thousands, wons)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "two thousand일까요?",
+      "claim": "친구가 2,000원을 보고 두 가지로 말했어요.",
+      "left": {
+        "title": "가",
+        "text": "It's two thousands wons."
+      },
+      "right": {
+        "title": "나",
+        "text": "It's two thousand won."
+      },
+      "question": "바르게 말한 것은 어느 쪽인가요? 왜 그렇게 생각해요?",
+      "notes": {
+        "목적": "hundred, thousand, won 뒤에 s를 붙이지 않는다는 것을 비교로 확인합니다(M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구가 2,000원을 보고 두 가지로 말했어. 가와 나를 읽어 볼까?”",
+          "“바르게 말한 것은 어느 쪽이야? 왜 그렇게 생각해?”",
+          "“그러면 5,000원은 어떻게 말할까?”"
+        ],
+        "정답": [
+          "나가 바릅니다. 숫자 낱말 뒤의 thousand와 hundred에는 s를 붙이지 않고, won에도 s를 붙이지 않습니다.",
+          "5,000원 → It's five thousand won."
+        ],
+        "막히면": [
+          "‘2개’라서 s를 붙이고 싶어 하면, 숫자 뒤의 thousand와 hundred는 늘 같은 모양이라고 알려 주고 three thousand, five hundred를 함께 말해 봅니다."
+        ],
+        "주의": [
+          "여기까지가 배우는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "빈칸 대화",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "빈칸에 들어갈 말",
+      "text": "빈칸에 들어갈 말을 보기에서 골라 말해요.",
+      "problems": [
+        {
+          "text": "A: I'd ______ a cap.\nB: Here you are."
+        },
+        {
+          "text": "A: How ______ is it?\nB: It's five thousand won."
+        },
+        {
+          "text": "A: Here you ______. (돈을 주며)\nB: Thank you."
+        }
+      ],
+      "hint": "보기:　like　·　much　·　are",
+      "notes": {
+        "목적": "물건 사기 대화의 빈칸에 알맞은 말을 넣어 대화를 완성합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 읽어 줄게. 빈칸에서는 ‘음~’ 하고 멈출 거야. 보기의 like, much, are 가운데 무엇이 들어갈까?”",
+          "“①, A: I'd 음~ a cap. B: Here you are.”",
+          "“②, A: How 음~ is it? B: It's five thousand won.” “③, A가 돈을 건네며 Here you 음~.”",
+          "“이제 빈칸을 채워서 엄마(아빠)와 한 줄씩 나누어 말해 보자.”"
+        ],
+        "정답": [
+          "① like (I'd like a cap.)",
+          "② much (How much is it?)",
+          "③ are (Here you are.)"
+        ],
+        "막히면": [
+          "보기의 세 낱말을 빈칸에 하나씩 넣어 읽어 주고 어울리는 것을 고르게 합니다.",
+          "S05의 대화를 다시 보며 같은 자리를 찾게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "가게 놀이",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "가게 놀이",
+      "steps": [
+        "물건 3개에 가격표를 붙여요.",
+        "손님은 I'd like ~.로 말해요.",
+        "How much is it?으로 묻고 It's ~ won.으로 답해요.",
+        "Here you are.로 주고받고 역할을 바꿔요."
+      ],
+      "criteria": [
+        "I'd like ~.로 말했어요",
+        "값을 듣고 맞는 돈을 냈어요",
+        "It's ~ won.으로 값을 말했어요"
+      ],
+      "notes": {
+        "목적": "집에 있는 물건으로 가게 놀이를 하며 값을 묻고 답하고 물건을 삽니다.",
+        "시간": "약 6분",
+        "말하기": [
+          "“집에 있는 물건 세 개로 가게를 차려 보자. 가격표를 써서 붙여 줄래?” (500원, 1,000원, 2,000원처럼 백·천 단위 값만 씁니다.)",
+          "“엄마(아빠)가 손님 할게. Hello. I'd like a pencil. How much is it?”",
+          "“이번에는 네가 손님이야. 사고 싶은 것을 말하고 값을 물어봐. 엄마(아빠)가 값을 말하면 그만큼 돈을 내 줘.”"
+        ],
+        "예상답": [
+          "가게 주인 아이: “Here you are.” “It's five hundred won.” “Thank you.”",
+          "손님 아이: “I'd like a ball.” “How much is it?” (값을 듣고 돈을 내며) “Here you are.”"
+        ],
+        "막히면": [
+          "가격표를 보며 말하게 하고, 값을 말하기 어려우면 S03의 숫자 카드를 다시 봅니다.",
+          "돈을 내기 어려우면 동전·지폐 대신 금액을 쓴 종이를 건네게 합니다."
+        ],
+        "주의": [
+          "두 번 이상 역할을 바꿉니다. 거스름돈 계산은 오늘의 목표가 아니므로, 값과 같은 금액을 내게 합니다.",
+          "물건 낱말을 모르면 우리말을 물어보고 부모가 영어 낱말을 알려 줍니다(a pencil, a cup, a book처럼 한 개인 물건)."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 값 묻고 답하기, 물건 사기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "영어로 말해 보세요.",
+      "problems": [
+        {
+          "text": "인형 값을 물어요."
+        },
+        {
+          "text": "인형 값을 말해요."
+        },
+        {
+          "text": "펜을 사고 싶다고 말해요."
+        },
+        {
+          "text": "돈을 건네며 말해요."
+        }
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "doll",
+            "sub": "4,000원"
+          },
+          {
+            "word": "pen",
+            "sub": "700원"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "도움 없이 값을 묻고 답하고, 사고 싶은 것을 말하고, 돈을 건네는 말을 하는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①, 인형 값을 영어로 물어봐.”",
+          "“②, 이번에는 엄마(아빠)가 물어볼게. How much is it? 인형 값을 말해 줘.”",
+          "“③, 펜을 사고 싶어. 영어로 말해 줘.” “④, 가게 주인에게 돈을 내면서 뭐라고 말할까?”"
+        ],
+        "정답": [
+          "① How much is it?",
+          "② It's four thousand won.",
+          "③ I'd like a pen.",
+          "④ Here you are.",
+          "기준: 네 가지 가운데 세 가지 이상을 스스로 말하면 통과입니다. ②는 four thousand와 won을 모두 말해야 맞습니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “값을 물을 때 쓰는 말이 뭐였지?”처럼 상황만 다시 말해 줍니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① How much is it?"
+        },
+        {
+          "text": "② It's four thousand won."
+        },
+        {
+          "text": "③ I'd like a pen."
+        },
+        {
+          "text": "④ Here you are."
+        }
+      ],
+      "bad": [
+        {
+          "text": "② four thousands",
+          "note": "s를 붙이지 않음"
+        },
+        {
+          "text": "④ Thank you.",
+          "note": "돈을 줄 때는 Here you are."
+        }
+      ],
+      "explain": "값은 숫자 낱말 + hundred/thousand + won으로 말해요.",
+      "notes": {
+        "목적": "아이의 대답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자.”",
+          "“오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“thousand에 s를 붙이면 안 돼요.” “돈을 줄 때는 Here you are.예요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(값 듣고 고르기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "알맞은 가격표를 골라요",
+      "options": [
+        {
+          "text": "300원"
+        },
+        {
+          "text": "3,000원"
+        },
+        {
+          "text": "500원"
+        },
+        {
+          "text": "5,000원"
+        }
+      ],
+      "question": "엄마(아빠)가 말하는 값은 어느 것일까요? 어떻게 알았나요?",
+      "notes": {
+        "목적": "처음 보는 형식에서 값을 듣고 hundred와 thousand를 구별해 알맞은 가격표를 고르는지 확인합니다(M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 물어보고 대답할게. How much is it? It's three thousand won. 가, 나, 다, 라 중에서 어느 가격표일까? 어떻게 알았어?”",
+          "“How much is it? It's five hundred won.”"
+        ],
+        "정답": [
+          "It's three thousand won. → 나(3,000원). 가(300원)는 three hundred won입니다.",
+          "It's five hundred won. → 다(500원). 라(5,000원)는 five thousand won입니다."
+        ],
+        "막히면": [
+          "hundred와 thousand 가운데 어느 소리가 들렸는지 먼저 묻고, 0의 개수로 고르게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "값 묻기: How much is it? → It's ~ won.\n사기: I'd like ~.　건네기: Here you are.",
+      "do": "two thousand won",
+      "dont": "two thousands wons",
+      "review": [
+        {
+          "text": "값을 묻는 말은?"
+        },
+        {
+          "text": "3,000원을\n영어로 말하기"
+        },
+        {
+          "text": "모자를 사고 싶다고\n영어로 말하기"
+        }
+      ],
+      "next": "명절과 문화",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“값을 물을 때는 어떻게 말하지?”",
+          "“2,000원은 영어로?”"
+        ],
+        "예상답": [
+          "“How much is it?” “It's two thousand won.”"
+        ],
+        "정답": [
+          "① How much is it?",
+          "② It's three thousand won.",
+          "③ I'd like a cap."
+        ],
+        "주의": [
+          "마트나 문구점에서 가격표를 보며 “How much is it?”, “It's ~ won.”을 놀이처럼 주고받아 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(숫자 낱말, 길 묻기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 숫자 낱말 다시 하기",
+      "layout": "support",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "one",
+            "sub": "1"
+          },
+          {
+            "word": "two",
+            "sub": "2"
+          },
+          {
+            "word": "three",
+            "sub": "3"
+          },
+          {
+            "word": "four",
+            "sub": "4"
+          },
+          {
+            "word": "five",
+            "sub": "5"
+          },
+          {
+            "word": "six",
+            "sub": "6"
+          },
+          {
+            "word": "seven",
+            "sub": "7"
+          },
+          {
+            "word": "eight",
+            "sub": "8"
+          },
+          {
+            "word": "nine",
+            "sub": "9"
+          },
+          {
+            "word": "ten",
+            "sub": "10"
+          }
+        ],
+        "perRow": 5
+      },
+      "key": "Where is the library? → Go straight. Turn left.",
+      "notes": {
+        "목적": "S02에서 숫자 낱말이나 길 묻기가 흔들리면, 값을 말하기 전에 먼저 다집니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“숫자 낱말을 소리를 듣고 따라 읽어 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 숫자를 짚으면 영어로 말해 줘.” (차례를 섞어 짚습니다.)",
+          "“아래 대화를 엄마(아빠)와 나누어 말해 보자. Where is the library?”"
+        ],
+        "정답": [
+          "one 1, two 2, three 3, four 4, five 5, six 6, seven 7, eight 8, nine 9, ten 10 / Go straight. Turn left."
+        ],
+        "막히면": [
+          "바둑돌을 숫자만큼 놓으며 숫자 낱말을 함께 말합니다."
+        ],
+        "주의": [
+          "보충 뒤에도 숫자 낱말을 절반 넘게 말하지 못하면 4학년 ‘시각 묻고 답하기’(KR22-G04-ENG-WHATTIME-L01)의 숫자 낱말부터, 길을 묻지 못하면 앞 차시 ‘길 묻고 안내하기’(KR22-G05-ENG-DIRECTION-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "물건 사기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "가격표를 보고 알맞은 말에 ✔ 하세요.",
+        "read": "가격표:  2,000원",
+        "choices": [
+          "It's two hundred won.",
+          "It's two thousand won.",
+          "It's two thousands won."
+        ],
+        "choices_size": 16,
+        "answer": "It's two thousand won. (셋째는 thousand에 s를 붙여 틀립니다. 첫째는 200원입니다.)"
+      },
+      {
+        "no": 2,
+        "prompt": "값을 영어로 쓰세요. 빈칸 하나에 낱말 하나를 써요.",
+        "table": {
+          "rows": [
+            [
+              "① 500원",
+              "It's ________ ________ won."
+            ],
+            [
+              "② 1,000원",
+              "It's ________ ________ won."
+            ],
+            [
+              "③ 3,000원",
+              "It's ________ ________ won."
+            ]
+          ],
+          "firstColHead": true,
+          "size": 14,
+          "widths": [
+            0.22,
+            0.78
+          ]
+        },
+        "answer": "① five hundred ② one thousand ③ three thousand (세 개 모두 맞으면 통과. S03의 카드를 보고 써도 됩니다.)"
+      },
+      {
+        "no": 3,
+        "prompt": "소리 내어 읽으며 따라 쓰고, 빈 줄에 한 번씩 더 쓰세요.",
+        "eng": {
+          "trace": [
+            "How much is it?",
+            "It's two thousand won.",
+            "I'd like a ball.",
+            "Here you are."
+          ],
+          "blank": 2
+        },
+        "answer": "네 문장을 보고 따라 쓰고, 빈 줄에 두 문장 이상 더 쓰면 맞습니다. It's와 I'd의 아포스트로피('), 끝의 물음표(?)·마침표(.)를 바르게 썼는지, thousand에 s를 붙이지 않았는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 4,
+        "prompt": "부모님이 말하는 값을 듣고 숫자로 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "①",
+              "____________ 원"
+            ],
+            [
+              "②",
+              "____________ 원"
+            ]
+          ],
+          "firstColHead": true,
+          "size": 14
+        },
+        "answer": "부모가 ① It's one thousand five hundred won. ② It's three hundred won.를 두 번씩 읽어 줍니다. 정답은 ① 1,500원 ② 300원입니다. ②에 3,000을 쓰면 hundred와 thousand를 헷갈린 것이니 S03과 S12를 다시 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "가게 놀이에서 산 물건과 값을 영어로 쓰세요.\n예) I'd like a ball. It's two thousand won.",
+        "eng": {
+          "blank": 2
+        },
+        "answer": "I'd like a(an) ~.와 It's ~ won.을 한 문장씩 쓰면 맞습니다. 값의 영어가 가격표와 맞는지, thousand·hundred·won에 s를 붙이지 않았는지 봅니다. 물건 낱말의 철자는 부모가 알려 주어도 됩니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 물건값을 묻는 말을 영어로 해 보세요.\n② 3,000원을 영어로 말해 보세요.\n③ 모자를 사고 싶다고 영어로 말해 보세요.",
+        "answer": "① How much is it? ② It's three thousand won. ③ I'd like a cap. (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S10 혼자 해 보기: 네 가지 모두 □  세 가지 □  두 가지 이하 □ (도움을 받음 □)",
+      "S12 마무리 확인: 두 값 모두 □  하나만 □  아직 □",
+      "가게 놀이(S09): 손님 역할 혼자 □  주인 역할 혼자 □  도움을 받아 □"
+    ]
+  },
+  "break_after": "S07"
 }

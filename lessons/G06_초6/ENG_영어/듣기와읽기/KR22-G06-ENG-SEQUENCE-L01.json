@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "first·then·finally 등 단서로 사건의 순서를 파악한다.",
   "prerequisites": [
     {
       "text": "핵심 정보 파악",
@@ -37,19 +36,792 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "First(먼저), Then·Next(그다음에), Finally(마지막으로)의 뜻을 알고, 순서가 섞인 짧은 글(4문장)을 읽고 신호어와 내용을 근거로 일이 일어난 순서대로 놓는다.",
+      "evidence": "신호어(S03), Mina's Morning(S04), 빠진 순서(S05), 샌드위치 순서(S06), 적힌 차례 비교(S07), 순서 카드 놀이(S09), 혼자 해 보기(S10), 활동지 1·2·4",
+      "success": "처음 보는 섞인 문장 4개를 모두 바른 순서로 놓고, 처음·끝은 신호어로, 가운데(Then·Next)는 내용으로 정했다고 이유를 말한다."
+    },
+    {
+      "id": "B",
+      "text": "부모가 읽어 주는 짧은 이야기(4문장)를 듣고 일어난 순서대로 사건 카드를 놓고, First, Then, Next, Finally를 넣어 순서대로 다시 말한다.",
+      "evidence": "신호어(S03), 듣고 순서 정하기(S08), 순서 카드 놀이(S09), 듣고 다시 말하기(S12), 활동지 3·5·6",
+      "success": "처음 듣는 이야기 2개 가운데 1개 이상에서 카드 네 장을 모두 바른 순서로 놓고, 신호어 세 개 이상을 넣어 순서대로 다시 말한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 띠 4장(긴 종이를 잘라 씁니다)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "신호어는 First, Then, Next, Finally 네 가지만 다룬다(After that, Before, At last, Second 등은 다루지 않는다). 글은 4문장의 일과·만들기·하루 이야기로 하고, 시제는 현재형만 쓴다. 신호어 없이 내용만으로 순서를 추론하기, 원인과 결과, 시간 표현(at 7:00)으로 순서 정하기는 다루지 않는다. 동사의 -s, -es는 읽고 이해하는 데만 쓰고 따로 가르치지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "글이나 카드가 놓인 차례(위에서부터, 가·나·다 순)를 일이 일어난 순서로 생각한다.",
+      "response": "놓인 차례대로 하면 이상한 순서가 된다는 것을 비교로 확인하고, 신호어부터 찾게 한다(S06, S07, S11)."
+    },
+    {
+      "id": "M2",
+      "text": "Then이 늘 Next보다 먼저라고 생각하거나, Then과 Next가 함께 있을 때 내용을 확인하지 않는다.",
+      "response": "Then과 Next는 둘 다 ‘그다음에’라는 것을 알려 주고, 가운데 순서는 내용(씨앗을 심어야 물을 줄 수 있음)으로 정하게 한다(S03, S06, S10)."
+    },
+    {
+      "id": "M3",
+      "text": "듣기에서 마지막에 들은 일만 기억하거나, 다시 말할 때 신호어를 빼고 일만 나열한다.",
+      "response": "한 문장마다 멈추며 카드를 짚게 하고, 손가락을 하나씩 펴며 First, Then, Next, Finally를 넣어 다시 말하게 한다(S08, S12)."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "사건 순서 파악",
+      "question": "일이 일어난 순서를\n어떻게 알 수 있을까요?",
+      "goals": [
+        "① 순서를 알려 주는 말을 찾아 글의 순서를 정해요.",
+        "② 이야기를 듣고 순서대로 다시 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "First"
+          },
+          {
+            "word": "Then"
+          },
+          {
+            "word": "Next"
+          },
+          {
+            "word": "Finally"
+          }
+        ],
+        "perRow": 2
+      },
+      "notes": {
+        "목적": "일에는 순서가 있고, 글에서 순서를 알려 주는 말이 있다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“아침에 일어나서 학교에 가기 전까지 무엇을 먼저 해? 그다음엔?”",
+          "“영어 글에서도 ‘먼저, 그다음에, 마지막으로’ 같은 말이 순서를 알려 줘. 오늘은 그 말을 찾아 일이 일어난 순서를 알아볼 거야.”"
+        ],
+        "예상답": [
+          "“세수하고, 밥 먹고, 이를 닦아요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(first, then, next, finally, wash her face, eat breakfast, brush her teeth, go to school, bread, jam, piece)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "S08과 S12의 듣기 대본은 부모님이 노트(또는 부모용 안내)를 보고 읽어 줍니다. 아이에게는 슬라이드 쇼로 보여 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(핵심 정보 파악)",
+      "role": "prior",
+      "objectives": [],
+      "title": "핵심 정보 떠올리기",
+      "text": "③을 먼저 답하고, ①②는 대화를 듣고 답해요.",
+      "problems": [
+        {
+          "text": "언제 만나나요?"
+        },
+        {
+          "text": "어디에서 만나나요?"
+        },
+        {
+          "text": "핵심 정보를 찾을 때 먼저 할 일은?"
+        }
+      ],
+      "notes": {
+        "목적": "앞 차시(핵심 정보 파악)에서 익힌 ‘질문 먼저 읽고 필요한 정보 잡기’를 기억하는지, 짧은 대화를 듣고 언제·어디서를 찾는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“③부터 물어볼게. 핵심 정보를 찾을 때 먼저 할 일은?”",
+          "“이제 ①②의 질문을 읽고 대화를 들어 봐.” 부모가 읽을 대본: Mina: Let's meet at the library on Monday. Jiho: Okay. What time? Mina: At four o'clock.",
+          "“언제 만나? 어디에서 만나?”"
+        ],
+        "정답": [
+          "① 월요일 4시(on Monday, at four o'clock) ② 도서관(at the library) ③ 질문을 먼저 읽고 무엇을 찾을지 정해요."
+        ],
+        "막히면": [
+          "대화를 한 번 더 읽어 줍니다.",
+          "①②를 두 번 들어도 찾지 못하면 S14(보충)를 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "순서를 알려 주는 말(신호어)",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "순서를 알려 주는 말",
+      "figure": {
+        "type": "flow",
+        "items": [
+          "First\n먼저",
+          "Then\n그다음에",
+          "Next\n그다음에",
+          "Finally\n마지막으로"
+        ]
+      },
+      "key": "Then과 Next는 둘 다 ‘그다음에’예요. 둘 다 있으면 내용을 보고 정해요.",
+      "notes": {
+        "목적": "First(먼저), Then(그다음에), Next(그다음에, 다음으로), Finally(마지막으로)의 뜻을 알고, 이런 말이 일의 순서를 알려 준다는 것을 압니다(M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“소리를 듣고 따라 해 보자. First, Then, Next, Finally.”",
+          "“First는 ‘먼저’, Finally는 ‘마지막으로’. Then과 Next는 둘 다 ‘그다음에’라는 뜻이야.”",
+          "“네가 아침에 하는 일을 엄마(아빠)가 우리말로 말해 볼게. 먼저 세수하고, 그다음에 밥 먹고, 마지막으로 학교에 가. 여기서 ‘먼저’는 영어로?”"
+        ],
+        "예상답": [
+          "“First요.” “마지막으로는 Finally요.”"
+        ],
+        "막히면": [
+          "손가락을 하나씩 펴며 First(1), Then(2), Next(3), Finally(마지막)를 말하게 합니다."
+        ],
+        "주의": [
+          "Then과 Next는 뜻이 같아서 Then이 늘 Next보다 먼저 나오는 것은 아닙니다. 둘 다 나오면 내용을 보고 순서를 정합니다(M2).",
+          "글에서는 First, 처럼 뒤에 쉼표(,)를 찍는 경우가 많습니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "신호어가 있는 글 읽기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "Mina's Morning",
+      "text": "순서를 알려 주는 말을 찾으며 읽어요.",
+      "passage": {
+        "title": "Mina's Morning",
+        "paragraphs": [
+          "First, Mina washes her face.",
+          "Then, she eats breakfast.",
+          "Next, she brushes her teeth.",
+          "Finally, she goes to school."
+        ]
+      },
+      "question": "미나가 먼저 한 일과 마지막에 한 일은 무엇인가요?",
+      "notes": {
+        "목적": "신호어가 들어 있는 짧은 글을 읽고, 신호어를 따라 일의 순서를 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“미나의 아침 이야기야. 한 문장씩 같이 읽어 볼까?”",
+          "“washes her face는 세수해요, eats breakfast는 아침을 먹어요, brushes her teeth는 이를 닦아요, goes to school은 학교에 가요.”",
+          "“순서를 알려 주는 말에 손가락을 대 볼래? 미나가 먼저 한 일은? 마지막에 한 일은?”"
+        ],
+        "예상답": [
+          "“First, Then, Next, Finally요.” “먼저 세수해요. 마지막에 학교에 가요.”"
+        ],
+        "막히면": [
+          "부모가 한 문장씩 읽고 아이가 따라 읽게 한 뒤, 신호어만 다시 짚게 합니다."
+        ],
+        "주의": [
+          "washes, eats처럼 끝에 -s, -es가 붙는 것은 ‘미나가(그녀가)’ 하는 일이라서입니다. 오늘은 읽고 이해하는 데 집중하고 따로 가르치지 않아도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "concept",
+      "section": "연습",
+      "purpose": "흐름도의 빈칸 채우기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "빠진 순서 채우기",
+      "text": "물음표(?)에 들어갈 일을 말해요.",
+      "figure": {
+        "type": "flow",
+        "items": [
+          "First\nwashes her face",
+          "Then\n?",
+          "Next\nbrushes her teeth",
+          "Finally\n?"
+        ]
+      },
+      "key": "신호어를 따라가면 일이 일어난 순서가 보여요.",
+      "notes": {
+        "목적": "앞의 글을 떠올려 흐름도의 빈칸(?)에 들어갈 일을 말합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“미나의 아침을 흐름도로 정리했어. 물음표에 들어갈 일은 뭘까? 영어로 말해도 되고, 우리말로 말해도 돼.”",
+          "“어떻게 알았어? 어떤 말을 보고 알았어?”"
+        ],
+        "정답": [
+          "Then → eats breakfast(아침을 먹어요)",
+          "Finally → goes to school(학교에 가요)"
+        ],
+        "막히면": [
+          "S04의 글로 돌아가 Then, Finally가 있는 문장을 찾게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "섞인 문장 순서대로 놓기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "샌드위치 만드는 순서",
+      "text": "문장이 섞였어요. 일이 일어난 순서대로 가~라를 말해요.",
+      "problems": [
+        {
+          "label": "가",
+          "text": "Next, put the other piece on top."
+        },
+        {
+          "label": "나",
+          "text": "Finally, cut it in half."
+        },
+        {
+          "label": "다",
+          "text": "First, take two pieces of bread."
+        },
+        {
+          "label": "라",
+          "text": "Then, put jam on one piece."
+        }
+      ],
+      "hint": "First → (Then, Next: 내용을 보고) → Finally",
+      "notes": {
+        "목적": "순서가 섞인 문장을 읽고 신호어와 내용을 보고 순서대로 놓습니다(M1, M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“잼 샌드위치를 만드는 순서야. 그런데 문장이 섞였어. 먼저 하나씩 읽어 볼까?”",
+          "“piece는 조각, jam은 잼, on top은 맨 위에, cut it in half는 반으로 잘라.”",
+          "“어느 문장이 맨 처음이야? 어떻게 알았어? 그다음은?”"
+        ],
+        "정답": [
+          "다(First) → 라(Then) → 가(Next) → 나(Finally)",
+          "빵 두 쪽을 꺼내고 → 한 쪽에 잼을 바르고 → 다른 한 쪽을 위에 얹고 → 반으로 자릅니다."
+        ],
+        "막히면": [
+          "신호어에만 먼저 동그라미를 치듯 손가락으로 짚게 합니다. First와 Finally부터 찾으면 쉽습니다.",
+          "Then과 Next가 헷갈리면 “잼을 먼저 발라야 해, 빵을 먼저 덮어야 해?”라고 내용을 묻습니다."
+        ],
+        "주의": [
+          "화면에 적힌 차례(가, 나, 다, 라)는 일이 일어난 순서가 아닙니다(M1)."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(적힌 차례대로 순서 정하기)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "적힌 차례가 순서일까요?",
+      "claim": "카드가 Finally, First, Then 차례로 놓여 있었어요. 친구는 놓인 차례대로 순서를 정했어요.",
+      "left": {
+        "title": "가 놓인 차례대로",
+        "text": "1. Finally, I go to bed.\n2. First, I eat dinner.\n3. Then, I take a shower."
+      },
+      "right": {
+        "title": "나 신호어를 보고",
+        "text": "1. First, I eat dinner.\n2. Then, I take a shower.\n3. Finally, I go to bed."
+      },
+      "question": "어느 쪽이 맞을까요? 순서는 무엇을 보고 정해야 하나요?",
+      "notes": {
+        "목적": "글이나 카드가 놓인 차례가 아니라 신호어와 내용으로 순서를 정한다는 것을 비교로 확인합니다(M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“친구는 카드를 위에서부터 놓인 차례대로 1, 2, 3이라고 했어. 가 쪽이야.”",
+          "“나는 순서를 알려 주는 말을 보고 정한 거야. 어느 쪽이 맞을까?”",
+          "“가처럼 하면 무엇이 이상해? 밥을 먹기 전에 잠을 자게 되지?”"
+        ],
+        "정답": [
+          "나가 맞습니다. 카드가 놓인 차례가 아니라 First → Then → Finally의 신호어와 내용을 보고 순서를 정해야 합니다. 가처럼 하면 저녁을 먹기 전에 잠자리에 드는 이상한 순서가 됩니다."
+        ],
+        "막히면": [
+          "실제로 몸으로 따라 해 보게 합니다. 가의 차례대로 하면 잠을 자고 나서 저녁을 먹게 된다는 것을 웃으며 확인합니다."
+        ],
+        "주의": [
+          "여기까지가 배우는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "choice",
+      "section": "연습",
+      "purpose": "이야기를 듣고 순서대로 놓기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "듣고 순서 정하기",
+      "options": [
+        {
+          "text": "takes a bath"
+        },
+        {
+          "text": "cleans his room"
+        },
+        {
+          "text": "plays soccer"
+        },
+        {
+          "text": "reads a book"
+        }
+      ],
+      "question": "이야기를 듣고 일어난 순서대로 가~라를 말해요.",
+      "notes": {
+        "목적": "부모가 읽어 주는 이야기를 듣고, 일어난 순서대로 사건 카드를 고르고 다시 말합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“먼저 카드 네 장을 같이 읽어 보자. takes a bath는 목욕해요, cleans his room은 방을 청소해요, plays soccer는 축구를 해요, reads a book은 책을 읽어요.”",
+          "“이제 지호의 토요일 이야기를 들려줄게. 일어난 순서대로 카드를 짚어 봐.” 부모가 읽을 대본: Jiho's Saturday. First, Jiho cleans his room. Then, he reads a book. Next, he plays soccer with his friends. Finally, he takes a bath.",
+          "“순서대로 말해 볼래? First, Jiho …”"
+        ],
+        "정답": [
+          "나(cleans his room) → 라(reads a book) → 다(plays soccer) → 가(takes a bath)",
+          "다시 말하기 예: First, Jiho cleans his room. Then, he reads a book. Next, he plays soccer. Finally, he takes a bath."
+        ],
+        "막히면": [
+          "한 문장 읽을 때마다 멈추고 그 카드를 짚게 합니다.",
+          "다시 말하기가 어려우면 부모가 First, Then …을 말해 주고 아이는 카드의 말만 이어 말하게 합니다."
+        ],
+        "주의": [
+          "대본은 부모님만 봅니다. 보통 빠르기로 두 번 읽어 주세요. 순서를 알려 주는 말(First, Then, Next, Finally)을 일부러 크게 읽지는 않습니다.",
+          "이 장의 카드는 대본이 아니라 일어난 일만 섞어 놓은 것입니다. 대본은 화면에 나오지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "순서 카드 놀이",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "순서 카드 놀이",
+      "steps": [
+        "부모님이 종이 띠 4장에 순서 문장을 써요.",
+        "띠를 섞고 아이가 순서대로 놓아요.",
+        "순서대로 소리 내어 읽어요.",
+        "역할을 바꿔서 해요."
+      ],
+      "criteria": [
+        "신호어를 보고 순서를 정했어요",
+        "순서대로 소리 내어 읽었어요",
+        "왜 그 순서인지 말했어요"
+      ],
+      "notes": {
+        "목적": "종이 띠에 쓴 순서 문장을 섞고 다시 순서대로 놓으며 읽고 말합니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“엄마(아빠)가 종이 띠 네 장에 문장을 하나씩 쓸게.” (First, I wake up. / Then, I wash my face. / Next, I eat breakfast. / Finally, I go to school.)",
+          "“띠를 섞을게. 순서대로 놓고 소리 내어 읽어 줘. 왜 그 순서야?”",
+          "“이번에는 네가 섞어. 엄마(아빠)가 놓아 볼게. 맞았는지 확인해 줘.”"
+        ],
+        "예상답": [
+          "아이가 First → Then → Next → Finally 순서로 띠를 놓고 읽습니다. “First가 먼저고 Finally가 마지막이에요.”"
+        ],
+        "막히면": [
+          "띠를 두 장(First, Finally)으로 시작해 하나씩 늘립니다.",
+          "글씨 쓰기가 어려우면 부모가 쓰고 아이는 놓기와 읽기만 합니다."
+        ],
+        "주의": [
+          "두 번 이상 합니다. 두 번째에는 ‘Then 대신 Next를 먼저 써도 되는지’ 이야기해 봅니다(M2)."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 섞인 문장 순서 정하기",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "혼자 해 보기",
+      "text": "문장을 읽고 일어난 순서대로 가~라를 말해요.",
+      "problems": [
+        {
+          "label": "가",
+          "text": "Next, give it some water."
+        },
+        {
+          "label": "나",
+          "text": "Finally, put the cup by the window."
+        },
+        {
+          "label": "다",
+          "text": "First, put some soil in a cup."
+        },
+        {
+          "label": "라",
+          "text": "Then, put a seed in the soil."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 섞인 문장을 읽고 신호어와 내용으로 순서를 정하는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 컵에 씨앗을 심는 순서야. 일어난 순서대로 가~라를 말해 줘.”",
+          "“어떻게 알았어? 라와 가는 왜 그 순서야?”"
+        ],
+        "정답": [
+          "다(First) → 라(Then) → 가(Next) → 나(Finally)",
+          "흙을 넣고 → 씨앗을 심고 → 물을 주고 → 창가에 둡니다.",
+          "기준: 네 장 모두 바른 순서이고, 이유를 신호어나 내용으로 말하면 통과입니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “맨 처음과 맨 마지막을 알려 주는 말을 찾아볼까?”라고만 말합니다.",
+          "soil 흙, seed 씨앗, give it some water 물을 주다, by the window 창가에. 낱말 뜻은 물어보면 알려 줍니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "다 → 라 → 가 → 나"
+        },
+        {
+          "text": "First 흙 → Then 씨앗"
+        },
+        {
+          "text": "Next 물 → Finally 창가"
+        }
+      ],
+      "bad": [
+        {
+          "text": "가 → 나 → 다 → 라",
+          "note": "적힌 차례대로 함"
+        },
+        {
+          "text": "다 → 가 → 라 → 나",
+          "note": "씨앗보다 물이 먼저"
+        }
+      ],
+      "explain": "신호어로 처음과 끝을 찾고, 가운데는 내용을 보고 정해요.",
+      "notes": {
+        "목적": "아이의 대답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자.”",
+          "“오른쪽처럼 하면 무엇이 이상할까?”"
+        ],
+        "예상답": [
+          "“씨앗을 심기 전에 물을 주면 안 돼요.” “적힌 차례대로 하면 안 돼요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(듣고 순서대로 다시 말하기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "듣고 다시 말하기",
+      "options": [
+        {
+          "text": "eat ice cream"
+        },
+        {
+          "text": "go home"
+        },
+        {
+          "text": "meet at the park"
+        },
+        {
+          "text": "ride bikes"
+        }
+      ],
+      "question": "듣고 순서대로 가~라를 말한 뒤, First~Finally를 넣어 다시 말해요.",
+      "notes": {
+        "목적": "처음 듣는 이야기에서 도움 없이 일어난 순서를 찾고, 신호어를 넣어 다시 말하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“카드를 먼저 읽어 보자. 그다음 유나의 일요일 이야기를 들려줄게.” 부모가 읽을 대본: Yuna's Sunday. First, Yuna meets her friend at the park. Then, they ride bikes. Next, they eat ice cream. Finally, they go home.",
+          "“일어난 순서대로 가~라를 말해 줘. 그다음 First, Then, Next, Finally를 넣어서 다시 말해 볼래?”"
+        ],
+        "정답": [
+          "다(meet at the park) → 라(ride bikes) → 가(eat ice cream) → 나(go home)",
+          "다시 말하기 예: First, they meet at the park. Then, they ride bikes. Next, they eat ice cream. Finally, they go home.",
+          "기준: 순서가 모두 맞고, 신호어를 세 개 이상 넣어 다시 말하면 통과입니다. 우리말을 섞어 말해도 순서와 신호어가 맞으면 통과로 봅니다."
+        ],
+        "막히면": [
+          "한 번 더 들려줍니다. 그래도 어려우면 첫 번째(First)와 마지막(Finally)만 먼저 찾게 합니다."
+        ],
+        "주의": [
+          "대본은 부모님만 봅니다. 보통 빠르기로 두 번 읽어 주세요. 순서를 알려 주는 말(First, Then, Next, Finally)을 일부러 크게 읽지는 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "First → Then / Next → Finally\n신호어로 처음과 끝을 찾고, 가운데는 내용을 보고 정해요.",
+      "do": "신호어와 내용 보기",
+      "dont": "적힌 차례대로 순서 정하기",
+      "review": [
+        {
+          "text": "Finally의 뜻은?"
+        },
+        {
+          "text": "아침에 하는 일을\nFirst, Then, Finally로"
+        },
+        {
+          "text": "Then과 Next의\n뜻은?"
+        }
+      ],
+      "next": "계획 말하기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“순서를 알려 주는 말 네 개를 말해 볼래?”",
+          "“카드가 섞여 있으면 무엇을 보고 순서를 정해?”"
+        ],
+        "예상답": [
+          "“First, Then, Next, Finally요.” “신호어하고 내용을 봐요.”"
+        ],
+        "정답": [
+          "① 마지막으로",
+          "② 예: First, I wash my face. Then, I eat breakfast. Finally, I go to school.",
+          "③ 둘 다 ‘그다음에’"
+        ],
+        "주의": [
+          "요리나 만들기를 할 때 First, Then, Finally로 순서를 말해 보는 놀이로 복습해 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(핵심 정보, 일과 낱말)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 핵심 정보와 일과 낱말",
+      "layout": "support",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "wash my face",
+            "sub": "세수하다"
+          },
+          {
+            "word": "eat breakfast",
+            "sub": "아침을 먹다"
+          },
+          {
+            "word": "brush my teeth",
+            "sub": "이를 닦다"
+          },
+          {
+            "word": "go to school",
+            "sub": "학교에 가다"
+          }
+        ],
+        "perRow": 2
+      },
+      "key": "질문 먼저 → When? 요일·시각, Where? 장소",
+      "notes": {
+        "목적": "S02에서 핵심 정보 찾기가 흔들리면, 순서 찾기 전에 먼저 다집니다. 오늘 글에 나오는 일과 낱말도 미리 익힙니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“낱말을 소리를 듣고 따라 읽어 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 말하는 동작을 몸으로 해 봐. wash my face! brush my teeth!”",
+          "“아래를 보자. 질문을 먼저 읽고 무엇을 찾을지 정했지? When이면 요일·시각, Where면 장소.”"
+        ],
+        "정답": [
+          "wash my face 세수하다, eat breakfast 아침을 먹다, brush my teeth 이를 닦다, go to school 학교에 가다"
+        ],
+        "막히면": [
+          "부모가 동작을 보여 주며 낱말을 말하고 아이가 따라 하게 합니다."
+        ],
+        "주의": [
+          "보충 뒤에도 짧은 대화에서 언제·어디서를 찾지 못하면 앞 차시 ‘핵심 정보 파악’(KR22-G06-ENG-KEYINFO-L01)을 먼저 다시 하고 이 차시를 시작합니다. 일과 낱말이 낯설면 5학년 ‘하루 일과 말하기’ 차시를 먼저 복습하는 것이 좋습니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "사건 순서 파악 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "보기에서 알맞은 뜻을 골라 쓰세요. (같은 뜻을 두 번 써도 돼요.)",
+        "read": "보기:  먼저   ·   그다음에   ·   마지막으로",
+        "table": {
+          "headers": [
+            "First",
+            "Then",
+            "Next",
+            "Finally"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "size": 14,
+          "widths": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        },
+        "answer": "First 먼저, Then 그다음에, Next 그다음에, Finally 마지막으로 (네 칸 모두 맞으면 통과)"
+      },
+      {
+        "no": 2,
+        "prompt": "문장을 읽고 일어난 순서대로 (  ) 안에 1~4를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "(     )",
+              "Next, I put on my pajamas."
+            ],
+            [
+              "(     )",
+              "Finally, I go to bed."
+            ],
+            [
+              "(     )",
+              "First, I eat dinner."
+            ],
+            [
+              "(     )",
+              "Then, I take a shower."
+            ]
+          ],
+          "size": 14,
+          "widths": [
+            0.18,
+            0.82
+          ]
+        },
+        "answer": "위에서부터 3, 4, 1, 2 (First, I eat dinner. → Then, I take a shower. → Next, I put on my pajamas. → Finally, I go to bed.)"
+      },
+      {
+        "no": 3,
+        "prompt": "부모님이 읽어 주는 이야기를 듣고, 일어난 순서대로 (  ) 안에 1~4를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "(     )",
+              "go to Tom's house"
+            ],
+            [
+              "(     )",
+              "make a card"
+            ],
+            [
+              "(     )",
+              "eat cake together"
+            ],
+            [
+              "(     )",
+              "buy a small gift"
+            ]
+          ],
+          "size": 14,
+          "widths": [
+            0.18,
+            0.82
+          ]
+        },
+        "answer": "부모가 이야기를 두 번 읽어 줍니다. 부모가 읽을 대본: It's Tom's birthday today. First, Suji makes a card for Tom. Then, she buys a small gift. Next, she goes to Tom's house. Finally, they eat cake together. → 위에서부터 3, 1, 4, 2 (make a card 1, buy a small gift 2, go to Tom's house 3, eat cake together 4)"
+      },
+      {
+        "no": 4,
+        "prompt": "소리 내어 읽으며 따라 쓰고, 빈 줄에 한 번씩 더 쓰세요.",
+        "eng": {
+          "trace": [
+            "First, I eat dinner.",
+            "Finally, I go to bed."
+          ],
+          "blank": 2
+        },
+        "answer": "두 문장을 한 번씩 더 쓰면 맞습니다. First, Finally 뒤의 쉼표(,), 문장 끝의 마침표(.), 문장 첫 글자의 대문자를 바르게 썼는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 5,
+        "prompt": "아침에 하는 일 세 가지를 First, Then, Finally를 넣어 영어로 쓰세요.\n예) First, I wash my face.",
+        "eng": {
+          "blank": 3
+        },
+        "answer": "First, ~. / Then, ~. / Finally, ~.로 세 문장을 쓰고 실제 순서와 맞으면 통과입니다(예: First, I wash my face. Then, I eat breakfast. Finally, I go to school.). 일과 낱말의 철자는 S14 카드를 보거나 부모가 알려 주어도 됩니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① Finally의 뜻을 말해 보세요.\n② 아침에 하는 일을 First, Then, Finally를 넣어 영어로 말해 보세요.\n③ Then과 Next의 뜻을 말해 보세요.",
+        "answer": "① 마지막으로 ② 예: First, I wash my face. Then, I eat breakfast. Finally, I go to school. ③ 둘 다 ‘그다음에’ (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S10 혼자 해 보기: 네 장 모두 바르게 □  두세 장 □  아직 □ (이유까지 말함 □)",
+      "S12 마무리 확인: 순서 모두 맞음 □  신호어 넣어 다시 말함 □  도움 □",
+      "순서 카드 놀이(S09): 혼자 □  도움을 받아 □  아직 □"
+    ]
+  },
+  "break_after": "S07"
 }
