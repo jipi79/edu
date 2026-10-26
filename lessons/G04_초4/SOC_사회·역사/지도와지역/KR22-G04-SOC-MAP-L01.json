@@ -5493,6 +5493,16 @@
       "figure": {
         "type": "geo",
         "names": false,
+        "points": {
+          "_t": [
+            4.5,
+            8.75
+          ],
+          "_b": [
+            4.5,
+            -1.1
+          ]
+        },
         "polygons": [
           {
             "pts": [
@@ -6191,6 +6201,16 @@
       "figure": {
         "type": "geo",
         "names": false,
+        "points": {
+          "_t": [
+            0.8,
+            8.7
+          ],
+          "_b": [
+            6.4,
+            -0.3
+          ]
+        },
         "polygons": [
           {
             "pts": [
@@ -8267,6 +8287,12 @@
       "figure": {
         "type": "geo",
         "names": false,
+        "points": {
+          "_t": [
+            2.3,
+            8.5
+          ]
+        },
         "polygons": [
           {
             "pts": [
@@ -10798,6 +10824,16 @@
         "geo": {
           "type": "geo",
           "names": false,
+          "points": {
+            "_t": [
+              0.8,
+              8.7
+            ],
+            "_b": [
+              6.4,
+              -0.3
+            ]
+          },
           "polygons": [
             {
               "pts": [

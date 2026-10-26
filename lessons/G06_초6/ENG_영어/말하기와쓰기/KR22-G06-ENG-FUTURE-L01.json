@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "I'm going to ~. 로 계획을 말하고 쓴다.",
   "prerequisites": [
     {
       "text": "지난 일 말하기",
@@ -38,19 +37,761 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "I'm going to + 동사의 기본 모양 ~.으로 내일(tomorrow)이나 이번 주말(this weekend)의 계획을 말하고 쓴다.",
+      "evidence": "I'm going to 익히기(S04), 계획 말하기(S06), played·play 비교(S07), 주말 계획 인터뷰(S09), 혼자 해 보기(S10 ①③), 마무리 확인(S12), 활동지 2·4·5",
+      "success": "계획 문장 4개 가운데 3개 이상을 am(’m)을 빠뜨리지 않고 going to 다음에 기본 모양을 써서 말하거나 쓰며, 틀린 문장에서 틀린 곳(played, plays, I going)을 찾는다."
+    },
+    {
+      "id": "B",
+      "text": "What are you going to do ~?로 상대의 계획을 묻고 대답을 알아들으며, 때를 나타내는 말과 동사 모양으로 지난 일(yesterday, -ed)과 앞으로의 계획(tomorrow, going to)을 구별한다.",
+      "evidence": "때를 나타내는 말(S03), 계획 묻기(S05), 지난 일과 계획 구별(S08), 주말 계획 인터뷰(S09), 혼자 해 보기(S10 ②④), 활동지 1·3·6",
+      "success": "What are you going to do this weekend?를 스스로 묻고, 문장 4개 가운데 3개 이상을 단서(yesterday·-ed / tomorrow·going to)를 들어 지난 일과 계획으로 구별한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "달력(어제·내일·이번 주말 찾기)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "I'm going to + 동사의 기본 모양과 What are you going to do ~?만 다룬다. 다른 사람의 계획(He's going to ~), 부정문(I'm not going to ~), 예·아니요 질문(Are you going to ~?), will, 현재진행형으로 나타내는 미래는 다루지 않는다. 때를 나타내는 말은 tomorrow, this weekend 두 가지와 비교용 yesterday만 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "going to 다음에 과거형이나 -s, -ing를 붙인다(I'm going to played / plays / swimming).",
+      "response": "going to 다음에는 늘 동사의 기본 모양이 온다는 것을 틀린 문장과 바른 문장을 비교하며 확인한다(S04, S07, S12, 활동지 2)."
+    },
+    {
+      "id": "M2",
+      "text": "am(’m)을 빼고 I going to ~.라고 말하거나 쓴다.",
+      "response": "I'm going to를 한 덩어리로 소리 내어 연습하고, 따라 쓰기에서 I'm의 아포스트로피를 확인한다(S04, S11, S12, 활동지 4)."
+    },
+    {
+      "id": "M3",
+      "text": "때를 나타내는 말과 동사 모양을 섞어 쓴다(I played soccer tomorrow. / I'm going to play soccer yesterday.).",
+      "response": "yesterday는 지난 일, tomorrow·this weekend는 계획이라는 것을 달력으로 확인하고, 두 단서(때를 나타내는 말, 동사 모양)를 함께 찾아 구별하게 한다(S03, S08, 활동지 1)."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "계획 말하기",
+      "question": "이번 주말에 무엇을 할지\n영어로 어떻게 말할까요?",
+      "goals": [
+        "① I'm going to ~.로 내 계획을 말하고 써요.",
+        "② What are you going to do ~?로 계획을 물어요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "tomorrow",
+            "sub": "내일"
+          },
+          {
+            "word": "this weekend",
+            "sub": "이번 주말"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "앞으로 할 일(계획)을 영어로 말하는 상황에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“이번 주말에 무엇을 할 계획이야? 우리말로 말해 볼래?”",
+          "“오늘은 내일이나 이번 주말에 할 일을 영어로 말하고, 다른 사람의 계획도 물어볼 거야.”"
+        ],
+        "예상답": [
+          "“친구랑 자전거 탈 거예요.” “영화 볼 거예요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(tomorrow, this weekend, I'm going to read a book. What are you going to do this weekend?)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "I'm going to는 빠르게 말할 때 소리가 줄어들어 들리기도 합니다. 오늘은 또박또박 I'm going to로 말하고 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(지난 일 말하기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 일 떠올리기",
+      "text": "①②는 뜻을 말하고, ③은 영어로 말해요.",
+      "problems": [
+        {
+          "text": "I played soccer yesterday."
+        },
+        {
+          "text": "yesterday"
+        },
+        {
+          "text": "어제 한 일을 영어로 말해요."
+        }
+      ],
+      "notes": {
+        "목적": "5학년 ‘지난 일 말하기’에서 익힌 과거형 문장(I played ~ yesterday.)을 기억하는지 확인합니다. 오늘은 지난 일과 앞으로의 계획을 구별하므로 꼭 필요합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①을 읽고 무슨 뜻인지 말해 줄래?”",
+          "“②, yesterday는 무슨 뜻이야?”",
+          "“③, 어제 한 일을 영어로 하나 말해 볼래?”"
+        ],
+        "정답": [
+          "① 나는 어제 축구를 했어요.",
+          "② 어제",
+          "③ 예: I watched TV yesterday. I played games yesterday. (I + 과거형 동사로 말하면 맞습니다. 철자보다 -ed 모양을 썼는지 봅니다.)"
+        ],
+        "막히면": [
+          "③이 어려우면 “어제 무엇을 했어?”라고 우리말로 묻고 played, watched 가운데 고르게 합니다.",
+          "①②를 스스로 하지 못하거나 ③을 도움을 받아도 말하지 못하면 S14(보충)를 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "지난 일과 앞으로의 일(때를 나타내는 말)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "어제, 오늘, 내일",
+      "figure": {
+        "type": "timeline",
+        "events": [
+          {
+            "label": "yesterday",
+            "sub": "어제 · 지난 일"
+          },
+          {
+            "label": "today",
+            "sub": "오늘"
+          },
+          {
+            "label": "tomorrow",
+            "sub": "내일 · 계획"
+          }
+        ]
+      },
+      "key": "this weekend(이번 주말)도 앞으로의 일이에요. 계획을 말할 때 써요.",
+      "notes": {
+        "목적": "yesterday는 지난 일, tomorrow와 this weekend는 앞으로의 일을 말할 때 쓴다는 것을 압니다(M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“소리를 듣고 따라 해 보자. yesterday, today, tomorrow.”",
+          "“어제 한 일은 지난 일이지? 내일 할 일은 아직 하지 않은 일, 앞으로의 계획이야.”",
+          "“this weekend는 이번 주말이야. 이번 주말도 아직 오지 않았으니까 계획이지.”"
+        ],
+        "예상답": [
+          "“yesterday는 어제, tomorrow는 내일이에요.” “내일 할 일은 계획이에요.”"
+        ],
+        "막히면": [
+          "달력에서 어제, 오늘, 내일, 이번 주말을 손가락으로 짚으며 말합니다."
+        ],
+        "주의": [
+          "오늘이 토요일이나 일요일이면 this weekend는 ‘오늘을 포함한 이번 주말’이 됩니다. 수업하는 날에 맞게 달력으로 설명해 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "I'm going to + 동사의 기본 모양",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "I'm going to ~.",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "I'm going to read a book.",
+            "sub": "나는 책을 읽을 거예요."
+          },
+          {
+            "word": "I'm going to play soccer.",
+            "sub": "나는 축구를 할 거예요."
+          },
+          {
+            "word": "I'm going to visit the museum.",
+            "sub": "나는 박물관에 갈 거예요."
+          }
+        ],
+        "perRow": 1
+      },
+      "key": "I'm going to 다음에는 동사의 기본 모양(read, play, visit)을 써요.",
+      "notes": {
+        "목적": "I'm going to 다음에 동사의 기본 모양을 써서 앞으로의 계획을 말합니다(M1, M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 해 보자. I'm going to read a book. 나는 책을 읽을 거야.”",
+          "“I'm은 I am을 줄인 말이야. I'm going to는 ‘~할 거야’라는 뜻이고, 어디로 간다는 뜻이 아니야.”",
+          "“going to 다음에는 read, play, visit처럼 동사의 기본 모양을 써. 끝에 -ed나 -s를 붙이지 않아.”",
+          "“내일 할 일을 하나 정해서 말해 볼래? I'm going to … tomorrow.”"
+        ],
+        "예상답": [
+          "“I'm going to play soccer tomorrow.” “I'm going to read a book tomorrow.”"
+        ],
+        "막히면": [
+          "I'm going to를 한 덩어리로 세 번 말한 뒤 동사를 붙이게 합니다.",
+          "동사가 떠오르지 않으면 카드의 read, play, visit 가운데 고르게 합니다."
+        ],
+        "주의": [
+          "I'm의 아포스트로피(')는 am의 a가 빠진 자리라는 표시입니다. I going to처럼 am(’m)을 빼지 않게 합니다(M2).",
+          "때를 나타내는 말(tomorrow, this weekend)은 보통 문장 끝에 붙입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "What are you going to do ~?로 계획 묻기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "What are you going to do?",
+      "text": "엄마(아빠)와 역할을 나누어 말해요.",
+      "passage": {
+        "paragraphs": [
+          "A: What are you going to do this weekend?",
+          "B: I'm going to watch a movie.",
+          "A: What are you going to do tomorrow?",
+          "B: I'm going to clean my room."
+        ]
+      },
+      "question": "What are you going to do ~?는 ‘~에 무엇을 할 거니?’라는 뜻이에요.",
+      "notes": {
+        "목적": "What are you going to do ~?로 상대의 계획을 묻고, I'm going to ~.로 대답하는 대화를 익힙니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“A가 What are you going to do this weekend?라고 물었어. ‘이번 주말에 뭐 할 거야?’라는 뜻이야. 따라 해 봐.”",
+          "“B는 I'm going to watch a movie.라고 대답했어.”",
+          "“이번에는 네가 A, 엄마(아빠)가 B야. 물어봐 줄래?” (그다음 역할을 바꿉니다.)"
+        ],
+        "예상답": [
+          "“What are you going to do this weekend?” “I'm going to watch a movie.”"
+        ],
+        "막히면": [
+          "뒤에서부터 붙여 말합니다. do? … going to do? … are you going to do? … What are you going to do?",
+          "질문이 길면 What are you going to do?까지만 먼저 말하고, this weekend는 나중에 붙입니다."
+        ],
+        "주의": [
+          "물을 때는 are you, 대답할 때는 I'm(I am)을 씁니다. 대답에서 You're going to ~.라고 하지 않게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "단서를 보고 계획 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "계획을 말해요",
+      "text": "단서를 보고 I'm going to ~.로 계획을 말해요.",
+      "problems": [
+        {
+          "text": "tomorrow　·　ride my bike"
+        },
+        {
+          "text": "this weekend　·　bake cookies"
+        },
+        {
+          "text": "tomorrow　·　clean my room"
+        }
+      ],
+      "hint": "I'm going to + 기본 모양 + 때(tomorrow, this weekend)",
+      "notes": {
+        "목적": "때와 할 일 단서를 보고 I'm going to + 기본 모양 + 때로 문장을 만들어 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①부터 해 볼까? 내일, 자전거 타기야. 영어로 계획을 말해 줘.”",
+          "“②, ③도 해 볼래? ride는 타다, bake는 굽다, clean은 청소하다야.”",
+          "“어떤 순서로 말했어? I'm going to 다음에 무엇이 왔어?”"
+        ],
+        "정답": [
+          "① I'm going to ride my bike tomorrow.",
+          "② I'm going to bake cookies this weekend.",
+          "③ I'm going to clean my room tomorrow.",
+          "때를 나타내는 말을 문장 앞에 두어 Tomorrow, I'm going to ~.라고 해도 맞습니다."
+        ],
+        "막히면": [
+          "“I'm going to”까지 부모가 말해 주고 아이는 할 일과 때를 이어 말하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(going to 다음의 동사 모양)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "played일까요, play일까요?",
+      "claim": "친구가 내일 계획을 두 가지로 말했어요.",
+      "left": {
+        "title": "가",
+        "text": "I'm going to played soccer tomorrow."
+      },
+      "right": {
+        "title": "나",
+        "text": "I'm going to play soccer tomorrow."
+      },
+      "question": "바르게 말한 것은 어느 쪽인가요? 무엇이 다른가요?",
+      "notes": {
+        "목적": "going to 다음에는 과거형(played)이 아니라 기본 모양(play)을 쓴다는 것을 비교로 확인합니다(M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구가 내일 계획을 두 가지로 말했어. 가와 나를 읽어 볼까?”",
+          "“바르게 말한 것은 어느 쪽이야? 왜 그렇게 생각해?”",
+          "“played는 언제 쓰는 말이었지?”"
+        ],
+        "정답": [
+          "나가 바릅니다. going to 다음에는 동사의 기본 모양(play)을 씁니다. played는 지난 일을 말할 때 쓰는 모양이라 tomorrow와 함께 쓰지 않습니다."
+        ],
+        "막히면": [
+          "S04의 카드를 다시 보며 going to 다음 낱말에 -ed가 있는지 확인하게 합니다."
+        ],
+        "주의": [
+          "여기까지가 배우는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "지난 일과 계획 구별하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "지난 일일까요, 계획일까요?",
+      "text": "지난 일인가요, 앞으로의 계획인가요? 단서를 찾아요.",
+      "problems": [
+        {
+          "text": "I watched a movie yesterday."
+        },
+        {
+          "text": "I'm going to watch a movie tomorrow."
+        },
+        {
+          "text": "I'm going to visit my grandma this weekend."
+        },
+        {
+          "text": "I visited the museum yesterday."
+        }
+      ],
+      "hint": "지난 일: yesterday, -ed　·　계획: tomorrow, this weekend, going to",
+      "notes": {
+        "목적": "때를 나타내는 말과 동사 모양을 단서로 지난 일과 앞으로의 계획을 구별합니다(M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“①부터 읽어 볼까? 지난 일이야, 앞으로의 계획이야? 어떻게 알았어?”",
+          "“②, ③, ④도 해 보자. 단서가 두 개씩 있어. 찾아볼래?”"
+        ],
+        "정답": [
+          "① 지난 일(watched, yesterday) ② 계획(going to watch, tomorrow) ③ 계획(going to visit, this weekend) ④ 지난 일(visited, yesterday)"
+        ],
+        "막히면": [
+          "때를 나타내는 말(yesterday, tomorrow, this weekend)에 먼저 손가락을 대게 합니다.",
+          "그다음 동사 모양(-ed인지, going to인지)을 확인하게 합니다."
+        ],
+        "주의": [
+          "①과 ②는 같은 일(영화 보기)이지만 때가 다릅니다. 같은 동사도 모양이 달라진다는 것을 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "주말 계획 인터뷰",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "주말 계획 인터뷰",
+      "steps": [
+        "달력에서 이번 주말을 찾아요.",
+        "What are you going to do this weekend?로 물어요.",
+        "대답을 듣고 무엇을 할지 우리말로 말해요.",
+        "역할을 바꿔 I'm going to ~.로 대답해요."
+      ],
+      "criteria": [
+        "What are you going to do ~?로 물었어요",
+        "going to 다음에 기본 모양을 썼어요",
+        "들은 계획을 바르게 말했어요"
+      ],
+      "notes": {
+        "목적": "달력을 보며 서로의 주말 계획을 묻고 답합니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“달력에서 이번 주말을 찾아볼까? 엄마(아빠)에게 영어로 물어봐. What are you going to do this weekend?”",
+          "(부모의 대답 예) “I'm going to go hiking. I'm going to cook spaghetti.” → “엄마(아빠)는 무엇을 할 거라고 했어?”",
+          "“이번에는 엄마(아빠)가 물어볼게. What are you going to do this weekend?”"
+        ],
+        "예상답": [
+          "아이: “What are you going to do this weekend?” 부모의 대답을 듣고 “등산 간대요.”처럼 우리말로 말합니다.",
+          "역할을 바꾸면 아이: “I'm going to play games.” “I'm going to meet my friend.”"
+        ],
+        "막히면": [
+          "대답할 동사가 떠오르지 않으면 우리말로 말하게 하고 부모가 영어 동사를 알려 줍니다(meet 만나다, go hiking 등산하다, cook 요리하다).",
+          "질문이 길면 What are you going to do?까지만 말해도 됩니다."
+        ],
+        "주의": [
+          "두 번 이상 주고받습니다. 계획은 실제 계획이 아니어도 괜찮습니다. 하고 싶은 일을 말해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 계획 말하고 묻기, 구별하기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "①②는 영어로 말하고, ③④는 읽고 답해요.",
+      "problems": [
+        {
+          "text": "내일 계획을 영어로 말해요."
+        },
+        {
+          "text": "이번 주말 계획을 영어로 물어요."
+        },
+        {
+          "text": "I'm going to ______ this weekend. (swim)"
+        },
+        {
+          "text": "I played badminton yesterday."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 계획을 말하고, 계획을 묻고, 동사 모양을 바르게 쓰고, 지난 일과 계획을 구별하는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①, 내일 계획을 하나 영어로 말해 줘.”",
+          "“②, 엄마(아빠)에게 이번 주말 계획을 영어로 물어봐.”",
+          "“③, 빈칸에 swim을 넣어 문장을 읽어 줘.” “④, 이 문장은 지난 일이야, 계획이야? 어떻게 알았어?”"
+        ],
+        "정답": [
+          "① I'm going to ~ tomorrow. (예: I'm going to read a book tomorrow.)",
+          "② What are you going to do this weekend?",
+          "③ I'm going to swim this weekend.",
+          "④ 지난 일(played, yesterday)",
+          "기준: 네 가지 가운데 세 가지 이상을 스스로 하면 통과입니다. ①③은 I'm(am)과 기본 모양을 써야 맞습니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “계획을 말할 때 쓰는 말이 뭐였지?”라고만 말합니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① I'm going to ~ tomorrow."
+        },
+        {
+          "text": "② What are you going to do?"
+        },
+        {
+          "text": "③ I'm going to swim."
+        },
+        {
+          "text": "④ 지난 일 (played, yesterday)"
+        }
+      ],
+      "bad": [
+        {
+          "text": "I going to swim.",
+          "note": "am(’m)이 빠짐"
+        },
+        {
+          "text": "going to swimming",
+          "note": "기본 모양 swim"
+        }
+      ],
+      "explain": "I'm going to + 기본 모양 + 때(tomorrow, this weekend)",
+      "notes": {
+        "목적": "아이의 대답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자.”",
+          "“오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“going to 다음에는 기본 모양이에요.” “I'm을 빼면 안 돼요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(바르게 쓴 문장 고르기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "바르게 쓴 문장은?",
+      "options": [
+        {
+          "text": "I'm going to plays tennis tomorrow."
+        },
+        {
+          "text": "I going to play tennis tomorrow."
+        },
+        {
+          "text": "I'm going to play tennis tomorrow."
+        },
+        {
+          "text": "I'm going to played tennis tomorrow."
+        }
+      ],
+      "question": "바르게 쓴 문장은 어느 것일까요? 나머지는 어디가 틀렸나요?",
+      "notes": {
+        "목적": "처음 보는 형식에서 going to 문장의 틀린 곳을 찾고, 바른 문장을 고르는지 확인합니다(M1, M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“가, 나, 다, 라를 읽어 볼까? 바르게 쓴 문장은 어느 것일까? 왜 그렇게 생각해?”",
+          "“나머지는 어디가 틀렸어?”"
+        ],
+        "정답": [
+          "다. I'm going to play tennis tomorrow.",
+          "가는 plays → play, 나는 I 다음에 am(’m)이 빠짐, 라는 played → play로 고쳐야 합니다."
+        ],
+        "막히면": [
+          "I'm이 있는지, going to 다음 낱말이 기본 모양인지 두 가지만 차례로 확인하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "계획: I'm going to + 기본 모양 + tomorrow / this weekend.\n묻기: What are you going to do ~?",
+      "do": "I'm going to play",
+      "dont": "I'm going to played",
+      "review": [
+        {
+          "text": "tomorrow의 뜻은?"
+        },
+        {
+          "text": "이번 주말 계획을\n영어로 말하기"
+        },
+        {
+          "text": "‘주말에 뭐 할 거야?’를\n영어로 묻기"
+        }
+      ],
+      "next": "비교하기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“앞으로의 계획을 말할 때 어떻게 말하지?”",
+          "“going to 다음에는 어떤 모양을 써?”"
+        ],
+        "예상답": [
+          "“I'm going to ~.” “동사의 기본 모양이요.”"
+        ],
+        "정답": [
+          "① 내일",
+          "② 예: I'm going to read a book this weekend.",
+          "③ What are you going to do this weekend?"
+        ],
+        "주의": [
+          "저녁마다 “What are you going to do tomorrow?”라고 물어 내일 계획을 한 문장씩 말해 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(지난 일 말하기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 지난 일 다시 말하기",
+      "layout": "support",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "played",
+            "sub": "play → 했다, 놀았다"
+          },
+          {
+            "word": "watched",
+            "sub": "watch → 보았다"
+          },
+          {
+            "word": "visited",
+            "sub": "visit → 방문했다"
+          },
+          {
+            "word": "yesterday",
+            "sub": "어제"
+          }
+        ],
+        "perRow": 2
+      },
+      "key": "I played soccer yesterday. → 어제 한 일(지난 일)",
+      "notes": {
+        "목적": "S02에서 지난 일 말하기가 흔들리면, 계획 말하기를 배우기 전에 먼저 다집니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“소리를 듣고 따라 읽어 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“play에 -ed를 붙이면 played, 어제 한 일을 말할 때 써.”",
+          "“어제 한 일을 하나 골라 말해 볼래? I played … yesterday.”"
+        ],
+        "정답": [
+          "played 놀았다(했다), watched 보았다, visited 방문했다, yesterday 어제 / 예: I watched TV yesterday."
+        ],
+        "막히면": [
+          "부모가 먼저 말하고 아이가 따라 말하는 것부터 다시 합니다."
+        ],
+        "주의": [
+          "보충 뒤에도 지난 일을 영어로 말하지 못하면 5학년 ‘지난 일 말하기’ 차시를 먼저 다시 하고 이 차시를 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "계획 말하기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "앞으로의 계획을 말하는 문장에 모두 ✔ 하세요.",
+        "choices": [
+          "I'm going to read a book tomorrow.",
+          "I watched TV yesterday.",
+          "I'm going to visit the zoo this weekend.",
+          "I played soccer yesterday."
+        ],
+        "choices_size": 15,
+        "answer": "첫째와 셋째 (2개). going to와 tomorrow, this weekend가 단서입니다. 둘째와 넷째는 yesterday와 -ed가 있어 지난 일입니다."
+      },
+      {
+        "no": 2,
+        "prompt": "보기에서 알맞은 말을 골라 빈칸에 쓰세요.",
+        "read": "보기:  ride   ·   bake   ·   clean",
+        "table": {
+          "rows": [
+            [
+              "①",
+              "I'm going to __________ my bike tomorrow."
+            ],
+            [
+              "②",
+              "I'm going to __________ cookies this weekend."
+            ],
+            [
+              "③",
+              "I'm going to __________ my room tomorrow."
+            ]
+          ],
+          "firstColHead": true,
+          "size": 14,
+          "widths": [
+            0.1,
+            0.9
+          ]
+        },
+        "answer": "① ride ② bake ③ clean (세 개 모두 맞으면 통과. rides, baked처럼 모양을 바꾸면 S07을 다시 봅니다.)"
+      },
+      {
+        "no": 3,
+        "prompt": "부모님이 읽어 주는 대화를 듣고, 미나의 주말 계획에 ✔ 하세요.",
+        "choices": [
+          "swim",
+          "bake cookies",
+          "visit the zoo"
+        ],
+        "choices_size": 16,
+        "answer": "부모가 대화를 두 번 읽어 줍니다. 부모가 읽을 대본: Jiho: What are you going to do this weekend, Mina? / Mina: I'm going to bake cookies. / Jiho: Sounds fun! → bake cookies"
+      },
+      {
+        "no": 4,
+        "prompt": "소리 내어 읽으며 따라 쓰고, 빈 줄에 한 번씩 더 쓰세요.",
+        "eng": {
+          "trace": [
+            "What are you going to do?",
+            "I'm going to read a book."
+          ],
+          "blank": 2
+        },
+        "answer": "두 문장을 한 번씩 더 쓰면 맞습니다. I'm의 아포스트로피('), 대문자 I, 물음표(?)·마침표(.)를 바르게 썼는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 5,
+        "prompt": "이번 주말 계획 두 가지를 I'm going to ~.로 쓰세요.\n예) I'm going to ride my bike this weekend.",
+        "eng": {
+          "blank": 2
+        },
+        "answer": "I'm going to + 기본 모양 ~.으로 두 문장을 쓰면 맞습니다. am(’m)을 빼지 않았는지, going to 다음에 -ed, -s, -ing를 붙이지 않았는지 봅니다. 동사 철자는 부모가 알려 주어도 됩니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① tomorrow의 뜻을 말해 보세요.\n② 이번 주말 계획을 영어로 말해 보세요.\n③ ‘이번 주말에 뭐 할 거야?’를 영어로 물어보세요.",
+        "answer": "① 내일 ② I'm going to ~ this weekend. (예: I'm going to read a book this weekend.) ③ What are you going to do this weekend? (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S10 혼자 해 보기: 네 가지 모두 □  세 가지 □  두 가지 이하 □ (도움을 받음 □)",
+      "S12 마무리 확인: 고르고 틀린 곳까지 말함 □  고르기만 함 □  아직 □",
+      "주말 계획 인터뷰(S09): 묻기 혼자 □  대답 혼자 □  도움 □"
+    ]
+  },
+  "break_after": "S07"
 }
