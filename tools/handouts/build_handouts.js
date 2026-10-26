@@ -159,7 +159,8 @@ function jamo(html) {
 
 function tableHtml(t) {
   const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${jamo(esc(h))}</th>`).join("")}</tr>` : "";
-  const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td style="height:9mm; min-width:18mm; text-align:center">${jamo(esc(c))}</td>`).join("")}</tr>`).join("");
+  const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${jamo(esc(c))}</th>` : `<td style="height:9mm; min-width:18mm; text-align:center">${jamo(esc(c))}</td>`);
+  const rows = t.rows.map((r) => `<tr>${r.map(cell).join("")}</tr>`).join("");
   return `<table style="width:auto; min-width:90mm; font-size:${t.size || 11.5}pt">${head}${rows}</table>`;
 }
 
