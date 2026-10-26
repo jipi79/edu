@@ -75,10 +75,13 @@ def main():
                 errors.append(f"{where}: 해석할 수 없는 줄")
                 continue
             code, title, objective = parts[0], parts[1], parts[2]
-            fmt, pre = header["fmt"], []
+            fmt, pre, chain = header["fmt"], [], True
             for extra in parts[3:]:
                 if extra in ("ppt", "act"):
                     fmt = extra
+                elif extra.startswith("pre!"):
+                    chain = False
+                    pre += [p.strip() for p in extra[4:].split(",") if p.strip()]
                 elif extra.startswith("pre"):
                     pre += [p.strip() for p in extra[3:].split(",") if p.strip()]
                 else:
@@ -95,7 +98,7 @@ def main():
                 "strand": strand, "strand_label": s["label"], "grade_item": header["item"],
                 "folder": header["folder"], "sequence": folder_seq[header["folder"]], "units": header["units"],
                 "title": title, "objective": objective, "format": fmt, "priority": header["pri"],
-                "pre": ([prev_in_item] if prev_in_item else []) + [f"KR22-{p}" if not p.startswith("KR22-") else p for p in pre],
+                "pre": ([prev_in_item] if prev_in_item and chain else []) + [f"KR22-{p}" if not p.startswith("KR22-") else p for p in pre],
             }
             L["file_stem"] = f"{g['label']}_{s['label']}_{header['folder']}_{L['sequence']:02d}_{stem_title}"
             L["source"] = lesson_path(L)

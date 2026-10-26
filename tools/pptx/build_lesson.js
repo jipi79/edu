@@ -430,8 +430,13 @@ class Deck {
     const layout = spec.layout || DEFAULT_LAYOUT[spec.kind] || "content";
     const master = { cover: "COVER", content: "CONTENT", closing: "CLOSING", support: "SUPPORT" }[layout];
     const slide = this.pres.addSlide({ masterName: master, sectionTitle });
-    slide.addText(spec.title, { placeholder: "title", fontFace: FONT, lang: LANG });
-    if (widthIn(spec.title, this.style.title) > (layout === "cover" ? 7.3 : 12.1)) this.problems.push(`${spec.id}: 제목이 한 줄에 들어가지 않는다: "${spec.title}"`);
+    // 제목은 한 줄. 굵은 큰 글자는 어림보다 넓게 그려지므로 여유(×1.1)를 두고, 넘치면 글자를 줄인다.
+    const base = layout === "cover" ? this.style.title + 6 : this.style.title;
+    const room = layout === "cover" ? 7.3 : 12.1;
+    let tpt = base;
+    while (tpt > base - 12 && widthIn(spec.title, tpt) * 1.1 > room) tpt -= 2;
+    if (widthIn(spec.title, tpt) * 1.1 > room) this.problems.push(`${spec.id}: 제목이 한 줄에 들어가지 않는다: "${spec.title}"`);
+    slide.addText(spec.title, { placeholder: "title", fontFace: FONT, lang: LANG, ...(tpt < base ? { fontSize: tpt } : {}) });
     const subtitle = spec.subtitle || spec.question;
     if (layout === "cover" && subtitle) {
       this.checkFit(spec.id, subtitle, 7.3, 1.8, [this.style.body]);

@@ -38,10 +38,10 @@ const CSS = `
   .eq { font-size: 17pt; margin: 2mm 0; }
   .item { break-inside: avoid; margin-bottom: 6mm; }
   .no { display: inline-flex; width: 7.5mm; height: 7.5mm; border-radius: 50%; background: #264653; color: #fff; font-weight: 700; align-items: center; justify-content: center; margin-right: 2mm; font-size: 10.5pt; }
-  .prompt { font-size: 12pt; font-weight: 700; }
+  .prompt { font-size: 12pt; font-weight: 700; white-space: pre-wrap; }
   .figrow { display: flex; align-items: center; gap: 3mm; margin: 2mm 0 2mm 9.5mm; }
   .line { border-bottom: 1px solid #9CA3AF; height: 9mm; margin-left: 9.5mm; }
-  .linelabel { margin: 3mm 0 0 9.5mm; }
+  .linelabel { margin: 3mm 0 0 9.5mm; white-space: pre-wrap; }
   .head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #264653; padding-bottom: 2mm; margin-bottom: 5mm; }
   .name { font-size: 11pt; }
   .box { background: #EAF3F1; border-radius: 3mm; padding: 3.5mm 4.5mm; margin: 2mm 0; break-inside: avoid; }
@@ -215,9 +215,9 @@ function worksheetHtml(L) {
     if (it.big) h += `<div style="margin:2mm 0 0 9.5mm; font-size:26pt; letter-spacing:4mm; font-weight:700">${esc(it.big)}</div>`;
     if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
     if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;
+    if (it.box) h += `<div style="margin:2mm 0 0 9.5mm; height:${it.box}mm; border:1.2px dashed #9CA3AF; border-radius:2mm"></div>`;
     if (it.line_label) h += `<div class="linelabel">${esc(it.line_label)}</div>`;
     for (let i = 0; i < (it.lines || 0); i++) h += '<div class="line"></div>';
-    if (it.box) h += `<div style="margin:2mm 0 0 9.5mm; height:${it.box}mm; border:1.2px dashed #9CA3AF; border-radius:2mm"></div>`;
     return h + "</div>";
   });
   return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>

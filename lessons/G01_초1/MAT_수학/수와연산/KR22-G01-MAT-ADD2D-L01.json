@@ -29,8 +29,13 @@
   },
   "prerequisites": [
     {
-      "text": "받아내림이 있는 뺄셈",
-      "lesson": "KR22-G01-MAT-BORROW-L01",
+      "text": "100까지의 수",
+      "lesson": "KR22-G01-MAT-NUM100-L01",
+      "grade_item": "KR22-G01-MAT-I01"
+    },
+    {
+      "text": "세 수의 덧셈과 뺄셈",
+      "lesson": "KR22-G01-MAT-ADD3-L01",
       "grade_item": "KR22-G01-MAT-I01"
     }
   ],

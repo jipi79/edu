@@ -246,6 +246,9 @@ function tenframe(deck, slide, sid, fig, box) {
   const x = box.x + (box.w - (fw * frames + gap * (frames - 1))) / 2;
   const y = box.y + (box.h - cell * 2) / 2;
   let left = fig.count;
+  // split: [a, b] 이면 앞의 a개는 주황, 다음 b개는 파랑(예: 8과 옮겨 온 2)
+  const split = fig.split || null;
+  let placed = 0;
   for (let f = 0; f < frames; f++) {
     const fx = x + f * (fw + gap);
     for (let k = 0; k < 10; k++) {
@@ -254,8 +257,10 @@ function tenframe(deck, slide, sid, fig, box) {
       deck.cell(slide, sid, cx, cy, cell, cell, false, "cell");
       if (left > 0) {
         const d = cell * 0.66;
-        slide.addShape(deck.pres.shapes.OVAL, { x: cx + (cell - d) / 2, y: cy + (cell - d) / 2, w: d, h: d, fill: { color: P.accent1 }, line: { color: INK, width: 1 }, objectName: deck.name(sid, "dot") });
+        const second = split && placed >= split[0];
+        slide.addShape(deck.pres.shapes.OVAL, { x: cx + (cell - d) / 2, y: cy + (cell - d) / 2, w: d, h: d, fill: { color: second ? P.accent4 : P.accent1 }, line: { color: INK, width: 1 }, objectName: deck.name(sid, "dot") });
         left -= 1;
+        placed += 1;
       }
     }
     deck.outline(slide, sid, { x: fx, y, w: fw, h: cell * 2 }, `${frames}개의 십 칸 틀 중 ${f + 1}번째: 모두 ${fig.count}개`);

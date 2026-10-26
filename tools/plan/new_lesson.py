@@ -24,7 +24,7 @@ def main(argv):
         "grade": L["grade"], "grade_label": L["grade_label"], "band": L["band"],
         "strand": L["strand"], "strand_label": L["strand_label"], "unit_folder": L["folder"],
         "sequence": L["sequence"], "file_stem": L["file_stem"], "format": L["format"],
-        "minutes": 40, "mode": "home-1to1", "status": "원고 완료",
+        "minutes": 40, "mode": "home-1to1", "status": "계획",
         "curriculum": {
             "version": "2022 개정 / 권장 학년 배치 v1", "grade_items": [L["grade_item"]], "units": L["units"],
             "standard_code": None, "link_status": "부분 확인",

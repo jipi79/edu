@@ -21,7 +21,7 @@
   "pre": [],
   "file_stem": "초1_국어_한글_01_기본모음",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-VOWEL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-CONS-L01",
@@ -47,7 +47,7 @@
   ],
   "file_stem": "초1_국어_한글_02_기본자음",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-CONS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-SYLLABLE-L01",
@@ -73,7 +73,7 @@
   ],
   "file_stem": "초1_국어_한글_03_받침없는글자",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-SYLLABLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-BATCHIM-L01",
@@ -99,7 +99,7 @@
   ],
   "file_stem": "초1_국어_한글_04_받침있는글자",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-BATCHIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-DOUBLE-L01",
@@ -125,7 +125,7 @@
   ],
   "file_stem": "초1_국어_한글_05_쌍자음과여러가지모음",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-DOUBLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-WORDS-L01",
@@ -151,7 +151,7 @@
   ],
   "file_stem": "초1_국어_한글_06_낱말읽고쓰기",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-WORDS-L01.json",
-  "status": "계획"
+  "status": "원고 완료"
  },
  {
   "id": "KR22-G01-KOR-SENTENCE-L01",
@@ -178,7 +178,7 @@
   ],
   "file_stem": "초1_국어_말과글_01_문장으로말하고쓰기",
   "source": "lessons/G01_초1/KOR_국어/말과글/KR22-G01-KOR-SENTENCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-PUNCT-L01",
@@ -205,7 +205,7 @@
   ],
   "file_stem": "초1_국어_말과글_02_문장부호",
   "source": "lessons/G01_초1/KOR_국어/말과글/KR22-G01-KOR-PUNCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-DIARY-L01",
@@ -232,7 +232,7 @@
   ],
   "file_stem": "초1_국어_말과글_03_그림일기쓰기",
   "source": "lessons/G01_초1/KOR_국어/말과글/KR22-G01-KOR-DIARY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-LISTEN-L01",
@@ -256,7 +256,7 @@
   "pre": [],
   "file_stem": "초1_국어_대화와문학_01_바르게듣고차례지켜말하기",
   "source": "lessons/G01_초1/KOR_국어/대화와문학/KR22-G01-KOR-LISTEN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-POEM-L01",
@@ -282,7 +282,7 @@
   ],
   "file_stem": "초1_국어_대화와문학_02_동시읽고느낌말하기",
   "source": "lessons/G01_초1/KOR_국어/대화와문학/KR22-G01-KOR-POEM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-STORY-L01",
@@ -308,7 +308,7 @@
   ],
   "file_stem": "초1_국어_대화와문학_03_그림책읽고이야기하기",
   "source": "lessons/G01_초1/KOR_국어/대화와문학/KR22-G01-KOR-STORY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-NUM9-L01",
@@ -510,11 +510,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G01-MAT-NUM100-L01"
+   "KR22-G01-MAT-ADD-L01",
+   "KR22-G01-MAT-SUB-L01"
   ],
   "file_stem": "초1_수학_수와연산_08_세수의덧셈과뺄셈",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-ADD3-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-MAKE10-L01",
@@ -540,7 +541,7 @@
   ],
   "file_stem": "초1_수학_수와연산_09_10이되는더하기",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-MAKE10-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-CARRY-L01",
@@ -566,7 +567,7 @@
   ],
   "file_stem": "초1_수학_수와연산_10_받아올림이있는덧셈",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-CARRY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-BORROW-L01",
@@ -592,7 +593,7 @@
   ],
   "file_stem": "초1_수학_수와연산_11_받아내림이있는뺄셈",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-BORROW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-ADD2D-L01",
@@ -614,11 +615,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G01-MAT-BORROW-L01"
+   "KR22-G01-MAT-NUM100-L01",
+   "KR22-G01-MAT-ADD3-L01"
   ],
   "file_stem": "초1_수학_수와연산_12_두자리수의덧셈과뺄셈",
   "source": "lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-ADD2D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-ORDINAL-L01",
@@ -643,7 +645,7 @@
   ],
   "file_stem": "초1_수학_몇째와짝수홀수_01_몇째인지알기",
   "source": "lessons/G01_초1/MAT_수학/몇째와짝수홀수/KR22-G01-MAT-ORDINAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-EVENODD-L01",
@@ -669,7 +671,7 @@
   ],
   "file_stem": "초1_수학_몇째와짝수홀수_02_짝수와홀수",
   "source": "lessons/G01_초1/MAT_수학/몇째와짝수홀수/KR22-G01-MAT-EVENODD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-SHAPE3D-L01",
@@ -692,7 +694,7 @@
   "pre": [],
   "file_stem": "초1_수학_모양과비교_01_상자·둥근기둥·공모양",
   "source": "lessons/G01_초1/MAT_수학/모양과비교/KR22-G01-MAT-SHAPE3D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-SHAPE2D-L01",
@@ -717,7 +719,7 @@
   ],
   "file_stem": "초1_수학_모양과비교_02_네모·세모·동그라미모양",
   "source": "lessons/G01_초1/MAT_수학/모양과비교/KR22-G01-MAT-SHAPE2D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-LENGTH-L01",
@@ -742,7 +744,7 @@
   ],
   "file_stem": "초1_수학_모양과비교_03_길이와높이비교",
   "source": "lessons/G01_초1/MAT_수학/모양과비교/KR22-G01-MAT-LENGTH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-COMPARE-L01",
@@ -767,7 +769,7 @@
   ],
   "file_stem": "초1_수학_모양과비교_04_무게·넓이·담을수있는양비교",
   "source": "lessons/G01_초1/MAT_수학/모양과비교/KR22-G01-MAT-COMPARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-CLOCK-L01",
@@ -791,7 +793,7 @@
   "pre": [],
   "file_stem": "초1_수학_시간과규칙_01_몇시와몇시30분",
   "source": "lessons/G01_초1/MAT_수학/시간과규칙/KR22-G01-MAT-CLOCK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-PATTERN-L01",
@@ -817,7 +819,7 @@
   ],
   "file_stem": "초1_수학_시간과규칙_02_규칙찾기",
   "source": "lessons/G01_초1/MAT_수학/시간과규칙/KR22-G01-MAT-PATTERN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-NUMPAT-L01",
@@ -844,7 +846,7 @@
   ],
   "file_stem": "초1_수학_시간과규칙_03_수배열의규칙",
   "source": "lessons/G01_초1/MAT_수학/시간과규칙/KR22-G01-MAT-NUMPAT-L01.json",
-  "status": "계획"
+  "status": "원고 완료"
  },
  {
   "id": "KR22-G01-SOC-SCHOOL-L01",
@@ -1446,7 +1448,7 @@
   ],
   "file_stem": "초2_국어_기초문해_01_소리와글자가다른낱말",
   "source": "lessons/G02_초2/KOR_국어/기초문해/KR22-G02-KOR-LINKSOUND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-SPELL-L01",
@@ -1474,7 +1476,7 @@
   ],
   "file_stem": "초2_국어_기초문해_02_헷갈리는낱말바르게쓰기",
   "source": "lessons/G02_초2/KOR_국어/기초문해/KR22-G02-KOR-SPELL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-READCHECK-L01",
@@ -1502,7 +1504,7 @@
   ],
   "file_stem": "초2_국어_기초문해_03_짧은글읽고내용확인",
   "source": "lessons/G02_초2/KOR_국어/기초문해/KR22-G02-KOR-READCHECK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-VOCAB-L01",
@@ -1530,7 +1532,7 @@
   ],
   "file_stem": "초2_국어_기초문해_04_낱말의관계",
   "source": "lessons/G02_초2/KOR_국어/기초문해/KR22-G02-KOR-VOCAB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-SEQUENCE-L01",
@@ -1556,7 +1558,7 @@
   ],
   "file_stem": "초2_국어_이야기와쓰기_01_일이일어난차례",
   "source": "lessons/G02_초2/KOR_국어/이야기와쓰기/KR22-G02-KOR-SEQUENCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-FEELING-L01",
@@ -1710,7 +1712,7 @@
   ],
   "file_stem": "초2_수학_수와계산_01_세자리수",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-NUM1000-L01.json",
-  "status": "원고 완료"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-NUM4D-L01",
@@ -1736,7 +1738,7 @@
   ],
   "file_stem": "초2_수학_수와계산_02_네자리수",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-NUM4D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-ADD2D-L01",
@@ -1764,7 +1766,7 @@
   ],
   "file_stem": "초2_수학_수와계산_03_받아올림이있는두자리수덧셈",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-ADD2D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-SUB2D-L01",
@@ -1791,7 +1793,7 @@
   ],
   "file_stem": "초2_수학_수와계산_04_받아내림이있는두자리수뺄셈",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-SUB2D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-ADDSUB-L01",
@@ -1817,7 +1819,7 @@
   ],
   "file_stem": "초2_수학_수와계산_05_덧셈과뺄셈의관계",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-ADDSUB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-MULT-L01",
@@ -1843,7 +1845,7 @@
   ],
   "file_stem": "초2_수학_수와계산_06_곱셈의뜻",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-MULT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TIMES25-L01",
@@ -1869,7 +1871,7 @@
   ],
   "file_stem": "초2_수학_수와계산_07_2단과5단",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-TIMES25-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TIMES36-L01",
@@ -1895,7 +1897,7 @@
   ],
   "file_stem": "초2_수학_수와계산_08_3단과6단",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-TIMES36-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TIMES48-L01",
@@ -1921,7 +1923,7 @@
   ],
   "file_stem": "초2_수학_수와계산_09_4단과8단",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-TIMES48-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TIMES79-L01",
@@ -1947,7 +1949,7 @@
   ],
   "file_stem": "초2_수학_수와계산_10_7단과9단",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-TIMES79-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TIMES10-L01",
@@ -1973,7 +1975,7 @@
   ],
   "file_stem": "초2_수학_수와계산_11_1과0의곱,곱셈표",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-TIMES10-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-PLANE-L01",
@@ -1998,7 +2000,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_01_여러가지도형",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-PLANE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-BLOCKS-L01",
@@ -2023,7 +2025,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_02_쌓기나무",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-BLOCKS-L01.json",
-  "status": "원고 완료"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-CM-L01",
@@ -2049,7 +2051,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_03_길이재기",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-CM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-METER-L01",
@@ -2074,7 +2076,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_04_m와cm",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-METER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TIME-L01",
@@ -2100,7 +2102,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_05_시각과시간",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-TIME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-SORT-L01",
@@ -2124,7 +2126,7 @@
   "pre": [],
   "file_stem": "초2_수학_자료와규칙_01_분류하기",
   "source": "lessons/G02_초2/MAT_수학/자료와규칙/KR22-G02-MAT-SORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-TABLEGRAPH-L01",
@@ -2150,7 +2152,7 @@
   ],
   "file_stem": "초2_수학_자료와규칙_02_표와그래프",
   "source": "lessons/G02_초2/MAT_수학/자료와규칙/KR22-G02-MAT-TABLEGRAPH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-PATTERN-L01",
