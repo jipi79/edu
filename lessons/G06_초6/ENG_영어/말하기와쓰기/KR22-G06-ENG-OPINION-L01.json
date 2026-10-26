@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "I think ~ because ~. 로 의견과 이유를 말하고 쓴다.",
   "prerequisites": [
     {
       "text": "비교하기",
@@ -38,19 +37,777 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "I think ~.로 주제에 대한 자기 생각(의견)을 ‘무엇이 + is/are + 꾸미는 말’이 들어간 완전한 문장으로 말하고 쓴다.",
+      "evidence": "I think ~. 익히기(S03), 두 친구의 의견 읽기(S05), 내 생각 말하기(S08), 의견 한 문장 쓰기(S09), 혼자 해 보기(S10 ②③), 활동지 3·4·5·6",
+      "success": "주제 3개 가운데 2개 이상에서 I think 다음에 주어와 is/are를 넣어 의견을 말하고, 의견 문장 하나를 대문자와 마침표까지 바르게 쓴다."
+    },
+    {
+      "id": "B",
+      "text": "because ~로 의견에 어울리는 까닭을 문장으로 덧붙여 말하고 쓰며, 까닭이 의견을 뒷받침하는지 판단한다.",
+      "evidence": "because로 잇기(S04), 두 친구의 까닭 찾기(S05), 까닭 골라 잇기(S06), 어울리는 까닭 비교(S07), 내 생각 말하기(S08), 혼자 해 보기(S10 ①③④), 마무리 확인(S12), 활동지 1·2·3·5·6",
+      "success": "의견 2개에 어울리는 까닭을 because 문장으로 붙여 말하거나 쓰고, 까닭이 의견과 이어지지 않는 문장을 찾아 왜 어색한지 말한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "의견은 I think + 주어 + is/are + 꾸미는 말(fun, great, cute, interesting, delicious, friendly) 한 문장으로, 까닭은 because + 주어 + 동사(I can ~, they are ~, it has ~) 한 문장으로 한다. I don't think ~, In my opinion, 까닭 여러 개 나열(First, Second), so로 잇기, 찬반 토론은 다루지 않는다. 의견의 내용은 사람마다 다를 수 있으므로 무엇을 골랐는지가 아니라 문장의 형식과 까닭의 어울림을 평가한다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "I think fun.이나 I think winter fun.처럼 I think 다음에 낱말만 쓰거나 주어나 is/are를 빠뜨린다.",
+      "response": "I think 다음에는 ‘무엇이 + 어떻다’가 다 들어간 문장이 온다는 것을 우리말(‘내 생각에 겨울은 재미있어’)과 견주어 보이고, 문장을 따로 말한 뒤 I think를 앞에 붙이게 한다(S03, S11, 활동지 3)."
+    },
+    {
+      "id": "M2",
+      "text": "because soft, because friendly처럼 because 다음에 낱말만 쓰거나, Because I can ski.를 따로 떼어 한 문장처럼 쓴다.",
+      "response": "까닭도 ‘누가 + 어떻다(무엇을 할 수 있다)’가 있는 문장이라는 것을 보이고, 의견과 까닭을 because로 이어 한 문장으로 쓰게 한다(S04, S06, S12, 활동지 3)."
+    },
+    {
+      "id": "M3",
+      "text": "의견과 상관없는 까닭을 붙인다(I think cats are cute because I am twelve.).",
+      "response": "“왜 그렇게 생각해?”라는 물음에 대한 대답이 되는지 물어 까닭이 의견을 뒷받침하는지 판단하게 한다(S07, S10 ④, 활동지 2)."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "의견 말하기",
+      "question": "여름과 겨울 가운데 무엇이 좋아요?\n왜 그렇게 생각해요?",
+      "goals": [
+        "① I think ~.로 내 생각(의견)을 말해요.",
+        "② because ~로 까닭을 붙여 말하고 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "I think ~"
+          },
+          {
+            "word": "because ~"
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "자기 생각과 그 까닭을 함께 말하는 상황에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“너는 여름이 좋아, 겨울이 좋아? 왜 그렇게 생각해?”",
+          "“오늘은 이렇게 내 생각과 그렇게 생각하는 까닭을 영어로 말하고 써 볼 거야.”"
+        ],
+        "예상답": [
+          "“여름이요. 바다에서 수영할 수 있어서요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(I think, because, fun, great, cute, interesting, delicious, friendly, I think summer is great because I can swim in the sea.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 헷갈리는 표현은 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "의견에는 맞고 틀림이 없습니다. 아이가 고른 내용이 부모님 생각과 달라도 그대로 존중하고, 까닭을 말했는지를 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(비교하기, because)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 표현 떠올리기",
+      "text": "영어로 말해요.",
+      "problems": [
+        {
+          "text": "농구공과 테니스공을 비교해 말해요."
+        },
+        {
+          "text": "I like summer because ______."
+        }
+      ],
+      "notes": {
+        "목적": "지난 차시(비교하기)의 비교 문장을 기억하는지, 5학년 ‘좋아하는 것과 이유’에서 익힌 because로 까닭을 붙일 수 있는지 확인합니다. 오늘 까닭 문장은 because를 바탕으로 합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 농구공과 테니스공을 영어로 비교해 볼래?”",
+          "“②, 빈칸에 여름을 좋아하는 까닭을 영어로 넣어 말해 줘.”"
+        ],
+        "정답": [
+          "① The basketball is bigger than the tennis ball. (또는 The tennis ball is smaller than the basketball.)",
+          "② 예: I like summer because I can swim. / because it is hot. (because 다음에 ‘누가 + 어떻다(무엇을 할 수 있다)’ 문장으로 까닭을 말하면 맞음)"
+        ],
+        "막히면": [
+          "①은 “어느 공이 더 커?”를 먼저 묻고 bigger than을 떠올리게 합니다.",
+          "②는 우리말로 까닭을 먼저 말하게 한 뒤 I can ~.으로 바꾸어 줍니다. because의 뜻을 모르거나 까닭을 문장으로 말하지 못하면 S14(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "①만 막히면 비교하기 장의 S06을 잠깐 다시 보고 넘어가도 됩니다. 오늘 수업에 꼭 필요한 것은 ②입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "I think ~.로 의견 말하기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "I think ~.",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "I think cats are cute.",
+            "sub": "내 생각에 고양이는 귀여워요."
+          },
+          {
+            "word": "I think summer is fun.",
+            "sub": "내 생각에 여름은 재미있어요."
+          }
+        ],
+        "perRow": 1
+      },
+      "key": "I think 다음에 ‘무엇이 + 어떻다’를 문장으로 말해요.",
+      "notes": {
+        "목적": "I think ~.가 ‘내 생각에는 ~’이라는 뜻이고, 다음에 ‘무엇이 + 어떻다’가 들어간 문장이 온다는 것을 압니다(M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“I think는 ‘내 생각에는’이라는 뜻이야. 소리를 듣고 따라 해 보자. I think cats are cute.”",
+          "“I think를 가리면 무엇이 남아? Cats are cute. 이것만으로도 한 문장이지? 그 앞에 I think를 붙인 거야.”",
+          "“그럼 ‘내 생각에 여름은 재미있어.’는? I think summer is fun.”"
+        ],
+        "예상답": [
+          "“I think cats are cute.” “I think summer is fun.”"
+        ],
+        "막히면": [
+          "먼저 Summer is fun.을 말하게 한 다음 앞에 I think를 붙이게 합니다.",
+          "think의 th는 혀끝을 윗니와 아랫니 사이에 살짝 대고 냅니다. 소리 자료를 듣고 따라 하게 합니다."
+        ],
+        "주의": [
+          "여럿을 말할 때(cats, dogs, books)는 are, 하나를 말할 때(summer, soccer)는 is를 씁니다.",
+          "I think 다음에 낱말만 말하면(I think fun.) 무엇이 재미있는지 알 수 없습니다(M1)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "because로 까닭 잇기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "because로 까닭을 이어요",
+      "steps": [
+        "내 생각: I think summer is fun.",
+        "까닭 떠올리기: I can swim.",
+        "because로 이어요."
+      ],
+      "problem": {
+        "text": "I think summer is fun because I can swim."
+      },
+      "key": "because는 ‘왜냐하면, ~ 때문에’라는 뜻이에요.",
+      "notes": {
+        "목적": "의견 다음에 because를 쓰고 까닭을 문장으로 이어 말한다는 것을 압니다(M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 내 생각을 말해. I think summer is fun.”",
+          "“왜 그렇게 생각해? 수영할 수 있어서지? 그건 I can swim.”",
+          "“두 문장을 because로 이어. because는 ‘왜냐하면, ~이기 때문에’라는 뜻이야. I think summer is fun because I can swim. 따라 해 보자.”"
+        ],
+        "예상답": [
+          "“I think summer is fun because I can swim.”"
+        ],
+        "막히면": [
+          "뒤에서부터 붙여 말합니다. because I can swim … summer is fun because I can swim … I think summer is fun because I can swim.",
+          "because를 be-cause처럼 두 부분으로 나누어 소리 자료를 듣고 따라 하게 합니다."
+        ],
+        "주의": [
+          "because 다음에도 ‘누가 + 무엇을 한다(어떻다)’가 있는 문장이 옵니다. because swim처럼 낱말만 붙이지 않습니다(M2).",
+          "쓸 때는 의견과 까닭을 한 문장으로 이어 쓰고 마침표는 맨 끝에 한 번 찍습니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "두 친구의 의견과 까닭 읽기",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "두 친구의 생각",
+      "text": "역할을 나누어 읽어요.",
+      "passage": {
+        "title": "Summer or Winter?",
+        "paragraphs": [
+          "Minho: I think summer is great because I can swim in the sea.",
+          "Jisu: I think winter is great because I can make a snowman."
+        ]
+      },
+      "question": "두 친구의 의견과 까닭은 무엇인가요? 누가 틀렸나요?",
+      "notes": {
+        "목적": "짧은 글에서 의견(I think ~)과 까닭(because ~)을 찾고, 같은 주제에도 의견이 다를 수 있다는 것을 압니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 민호, 너는 지수를 맡아서 읽어 보자.”",
+          "“민호는 어느 계절이 좋대? 까닭은? 지수는?”",
+          "“두 사람의 생각이 다르지? 누가 틀린 걸까?”"
+        ],
+        "예상답": [
+          "“민호는 여름이 좋대요. 바다에서 수영할 수 있어서요.” “지수는 겨울이요. 눈사람을 만들 수 있어서요.”",
+          "“둘 다 틀리지 않았어요. 생각은 다를 수 있어요.”"
+        ],
+        "막히면": [
+          "의견 부분(I think ~ great)에 밑줄을 긋듯 손가락으로 짚고, because 다음 부분을 따로 짚어 줍니다.",
+          "sea(바다), snowman(눈사람)의 뜻을 알려 줍니다."
+        ],
+        "주의": [
+          "의견은 사람마다 다를 수 있습니다. 까닭이 있으면 둘 다 좋은 의견입니다.",
+          "여기까지가 배우는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S06부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "알맞은 까닭 골라 잇기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "까닭을 골라 이어요",
+      "text": "보기에서 까닭을 골라 이어 말해요.",
+      "problems": [
+        {
+          "text": "I think cats are cute because ______."
+        },
+        {
+          "text": "I think P.E. is fun because ______."
+        },
+        {
+          "text": "I think books are great because ______."
+        }
+      ],
+      "hint": "보기:　they are soft.　·　I can play soccer.　·　I can learn new things.",
+      "notes": {
+        "목적": "의견에 어울리는 까닭을 골라 because로 이어 한 문장으로 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 고양이가 귀여운 까닭으로 보기에서 어떤 것이 어울려? 처음부터 끝까지 이어 말해 줘.”",
+          "“②, ③도 해 보자.” “왜 그 까닭을 골랐어?”"
+        ],
+        "정답": [
+          "① they are soft. → I think cats are cute because they are soft.",
+          "② I can play soccer. → I think P.E. is fun because I can play soccer.",
+          "③ I can learn new things. → I think books are great because I can learn new things."
+        ],
+        "막히면": [
+          "보기를 하나씩 넣어 읽어 주고 “이게 까닭이 돼?”라고 물어 고르게 합니다.",
+          "soft(부드러운), learn new things(새로운 것을 배우다)의 뜻을 알려 줍니다."
+        ],
+        "주의": [
+          "P.E.는 체육 시간을 줄인 말입니다. 대문자 P와 E 뒤에 마침표를 찍습니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(어울리지 않는 까닭)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "어울리는 까닭일까요?",
+      "claim": "두 친구가 ‘고양이는 귀여워요.’에 까닭을 붙였어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "I think cats are cute because I am twelve."
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "I think cats are cute because they are small and soft."
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "question": "까닭이 의견과 잘 이어진 쪽은? 왜요?",
+      "notes": {
+        "목적": "까닭이 의견을 뒷받침해야 한다는 것을 비교로 확인합니다(M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구 모두 because를 썼어. 그런데 ‘고양이가 왜 귀여워?’라는 물음에 대답이 되는 쪽은 어느 쪽이야?”",
+          "“가의 까닭은 무엇에 대한 이야기야? 고양이가 귀여운 것과 이어져?”"
+        ],
+        "정답": [
+          "나가 알맞습니다(they are small and soft는 고양이가 귀여운 까닭을 설명함). 가의 I am twelve는 나의 나이 이야기라 고양이가 귀여운 까닭이 되지 않습니다."
+        ],
+        "막히면": [
+          "의견 문장을 “왜?”로 바꾸어 묻고(“고양이가 왜 귀여워?”), 두 까닭을 차례로 대답처럼 읽어 봅니다."
+        ],
+        "주의": [
+          "문장의 형식이 맞아도 까닭이 의견과 이어지지 않으면 좋은 의견 문장이 아닙니다(M3)."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "주제를 골라 의견과 까닭 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "내 생각을 말해요",
+      "text": "하나를 골라 I think ~ because ~.로 말해요.",
+      "problems": [
+        {
+          "text": "summer · winter"
+        },
+        {
+          "text": "cats · dogs"
+        },
+        {
+          "text": "P.E. · art"
+        }
+      ],
+      "hint": "fun · great · cute · interesting · friendly\nbecause I can ~. / because they are ~.",
+      "notes": {
+        "목적": "두 가지 가운데 하나를 골라 의견과 까닭을 한 문장으로 말합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“①, 여름과 겨울 가운데 하나를 골라 I think ~ because ~.로 말해 줘.”",
+          "“②, ③도 해 보자. 엄마(아빠)도 한 가지씩 말해 볼게.” (부모도 자기 의견을 말해 주면 아이가 형식을 다시 듣습니다.)",
+          "“왜 그렇게 생각해? 까닭이 의견과 이어졌어?”"
+        ],
+        "예상답": [
+          "① I think winter is great because I can make a snowman.",
+          "② I think dogs are great because they are friendly. / I think cats are cute because they are soft.",
+          "③ I think art is fun because I can draw pictures. / I think P.E. is fun because I can play soccer.",
+          "기준: ① I think로 시작하고 의견 문장에 ‘무엇이(누가) + is/are + 꾸미는 말’이 있다 ② because 다음에 까닭이 문장(주어 + 동사)으로 온다 ③ 까닭이 의견과 이어진다(왜 그렇게 생각하는지 설명한다). 세 가지를 모두 지키면 맞습니다. 의견의 내용(무엇을 좋아하는지)은 맞고 틀림이 없습니다."
+        ],
+        "막히면": [
+          "우리말로 의견과 까닭을 먼저 말하게 한 다음, 아래 도움말의 틀에 넣어 영어로 바꿉니다.",
+          "까닭을 영어로 말하기 어려우면 I can ~.(~할 수 있어요)이나 It is ~./They are ~.로 시작하게 합니다."
+        ],
+        "주의": [
+          "cats, dogs처럼 여럿이면 are, winter, art처럼 하나면 is를 씁니다.",
+          "까닭에 비교하는 말을 써도 좋습니다(예: I think dogs are great because they are bigger than cats. 사실과 맞게)."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "의견 한 문장 쓰고 점검하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "의견 한 문장 쓰기",
+      "steps": [
+        "S08에서 말한 것 하나를 골라요.",
+        "I think ~.로 내 생각을 써요.",
+        "because 다음에 까닭을 써요.",
+        "점검표로 확인하고 고쳐요."
+      ],
+      "criteria": [
+        "I think로 시작했어요",
+        "is나 are를 넣었어요",
+        "because 다음에 문장을 썼어요",
+        "대문자와 마침표를 지켰어요"
+      ],
+      "criteriaTitle": "점검표",
+      "notes": {
+        "목적": "말한 의견 가운데 하나를 공책에 쓰고, 점검표로 스스로 고칩니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“S08에서 말한 것 가운데 가장 마음에 드는 문장 하나를 공책에 써 볼래?”",
+          "“다 썼으면 오른쪽 점검표를 하나씩 확인해 보자. I think로 시작했어? is나 are가 있어?”",
+          "“엄마(아빠)도 한 문장 쓸게. 서로 바꿔 읽고 점검표로 봐 주자.”"
+        ],
+        "예상답": [
+          "예: I think winter is great because I can make a snowman.",
+          "기준: ① I think로 시작하고 의견 문장에 ‘무엇이(누가) + is/are + 꾸미는 말’이 있다 ② because 다음에 까닭이 문장(주어 + 동사)으로 온다 ③ 까닭이 의견과 이어진다(왜 그렇게 생각하는지 설명한다). 세 가지를 모두 지키면 맞습니다. 의견의 내용(무엇을 좋아하는지)은 맞고 틀림이 없습니다. 첫 글자 I의 대문자와 끝의 마침표도 봅니다."
+        ],
+        "막히면": [
+          "철자가 막히는 낱말은 화면이나 S05·S06에서 찾아 보고 쓰게 합니다.",
+          "점검표에서 빠진 것을 찾으면 바로 고쳐 쓰게 하고 칭찬합니다."
+        ],
+        "주의": [
+          "부모님이 쓴 문장에 일부러 실수(예: because friendly)를 하나 넣어 아이가 찾게 해도 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 의견과 까닭 말하기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 영어로 말해 보세요.",
+      "problems": [
+        {
+          "text": "I think dogs are great\nbecause ______."
+        },
+        {
+          "text": "the library · great\nI can read many books."
+        },
+        {
+          "text": "spring · fall\n하나를 골라 말해요."
+        },
+        {
+          "text": "고쳐 말해요: I think soccer is fun because it is Monday."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 의견과 까닭을 한 문장으로 말하고, 어울리지 않는 까닭을 고치는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①, 빈칸에 까닭을 넣어 끝까지 말해 줘.”",
+          "“②, 두 말을 이어서 I think로 시작하는 의견 문장을 만들어 봐.”",
+          "“③, 봄과 가을 가운데 하나를 골라 의견과 까닭을 말해 줘.” “④, 까닭이 어색하지? 알맞은 까닭으로 고쳐 말해 봐.”"
+        ],
+        "정답": [
+          "① 예: I think dogs are great because they are friendly. (because 다음에 문장으로 된 까닭이면 맞음)",
+          "② I think the library is great because I can read many books.",
+          "③ 예: I think spring is great because I can see flowers. / I think fall is great because it is cool.",
+          "④ 예: I think soccer is fun because I can run and kick the ball. (Monday는 축구가 재미있는 까닭이 아님)",
+          "기준: ① I think로 시작하고 의견 문장에 ‘무엇이(누가) + is/are + 꾸미는 말’이 있다 ② because 다음에 까닭이 문장(주어 + 동사)으로 온다 ③ 까닭이 의견과 이어진다(왜 그렇게 생각하는지 설명한다). 세 가지를 모두 지키면 맞습니다. 의견의 내용(무엇을 좋아하는지)은 맞고 틀림이 없습니다. 네 개 가운데 세 개 이상이면 통과입니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “왜 그렇게 생각해?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "②는 library(도서관)의 뜻을 모르면 알려 주어도 됩니다. ③의 spring은 봄, fall은 가을입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "대답 예와 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "대답 예 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① … because they\nare friendly."
+        },
+        {
+          "text": "② I think the library is great\nbecause I can read many books."
+        },
+        {
+          "text": "③ I think spring is great\nbecause I can see flowers."
+        },
+        {
+          "text": "④ … because I can run\nand kick the ball."
+        }
+      ],
+      "bad": [
+        {
+          "text": "I think winter fun.",
+          "note": "winter is"
+        },
+        {
+          "text": "because friendly",
+          "note": "they are"
+        },
+        {
+          "text": "because it is\nMonday",
+          "note": "의견과 상관없음"
+        }
+      ],
+      "notes": {
+        "목적": "아이의 대답을 예와 비교하고 흔한 실수를 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽 예를 비교해 보자. 까닭은 달라도 괜찮아.”",
+          "“오른쪽처럼 말하면 무엇이 빠졌을까?”"
+        ],
+        "예상답": [
+          "“I think 다음에 winter is를 넣어야 해요.” “because 다음에 they are가 빠졌어요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. ①③④는 예시이므로 아이의 까닭이 다르더라도 기준에 맞으면 맞은 것으로 봅니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "바르게 쓴 문장은?",
+      "options": [
+        {
+          "text": "I think winter is fun because I can make a snowman."
+        },
+        {
+          "text": "I think winter is fun because I like pizza."
+        },
+        {
+          "text": "I think winter fun because snow."
+        },
+        {
+          "text": "Because I can ski. I think winter."
+        }
+      ],
+      "question": "의견과 까닭이 바르게 이어진 문장은? 어떻게 알았나요?",
+      "notes": {
+        "목적": "처음 보는 문장에서 형식과 까닭의 어울림을 함께 따져 바른 의견 문장을 고르는지 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“가, 나, 다, 라를 읽어 볼까? 의견과 까닭이 바르게 이어진 문장은? 어떻게 알았어?”",
+          "“나머지는 어디가 어색할까?”"
+        ],
+        "정답": [
+          "가. 나는 까닭(pizza)이 겨울이 재미있는 것과 상관없고, 다는 is와 because 다음 문장(I can play in the snow)이 빠졌고, 라는 Because 부분과 의견이 떨어져 있고 의견 문장(winter is fun)이 완성되지 않았습니다."
+        ],
+        "막히면": [
+          "S09의 점검표를 보며 하나씩 확인하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "I think ~ because ~.로 의견과 까닭을 함께 말해요.\n생각은 달라도 까닭이 있으면 좋은 의견이에요.",
+      "do": "까닭도 문장으로",
+      "dont": "I think fun. / because soft",
+      "review": [
+        {
+          "text": "because의 뜻은?"
+        },
+        {
+          "text": "좋아하는 계절을\n의견과 까닭으로"
+        },
+        {
+          "text": "because friendly를\n고쳐 말하기"
+        }
+      ],
+      "next": "뜻 확인하기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“내 생각을 말할 때 어떻게 시작하지? 까닭은 무엇으로 이었지?”",
+          "“다른 사람의 의견이 나와 다르면?”"
+        ],
+        "예상답": [
+          "“I think로 시작하고 because로 까닭을 이어요.” “다를 수 있어요. 까닭을 들어 봐요.”"
+        ],
+        "정답": [
+          "① 왜냐하면, ~ 때문에 ② 예: I think summer is great because I can swim in the sea. (기준에 맞으면 맞음) ③ I think dogs are great because they are friendly."
+        ],
+        "주의": [
+          "저녁 메뉴나 주말에 할 일을 고를 때 I think ~ because ~.로 말해 보게 하면 좋은 복습이 됩니다. 다음 차시는 ‘뜻 확인하기’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "선수 학습 보충(because로 까닭 말하기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: because 다시 하기",
+      "layout": "support",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "I like summer",
+            "sub": "나는 여름이 좋아요"
+          },
+          {
+            "word": "because I can swim.",
+            "sub": "수영할 수 있기 때문에"
+          },
+          {
+            "word": "I like cats",
+            "sub": "나는 고양이가 좋아요"
+          },
+          {
+            "word": "because they are cute.",
+            "sub": "귀엽기 때문에"
+          }
+        ],
+        "perRow": 2
+      },
+      "key": "because 다음에 까닭을 문장으로 말해요.",
+      "notes": {
+        "목적": "S02에서 because로 까닭을 말하지 못하면, 의견 말하기를 배우기 전에 먼저 다집니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“I like summer. 왜 좋아? 수영할 수 있어서. because I can swim. 이어서 말하면? I like summer because I can swim.”",
+          "“너는 무엇을 좋아해? 왜? 우리말로 먼저 말하고 영어로 바꿔 보자.”"
+        ],
+        "정답": [
+          "I like summer because I can swim. / I like cats because they are cute. (because 다음에 ‘누가 + 어떻다(무엇을 할 수 있다)’)"
+        ],
+        "막히면": [
+          "부모가 먼저 말하고 아이가 따라 말하는 것부터 다시 합니다. 까닭은 I can ~. 하나로 시작해도 됩니다."
+        ],
+        "주의": [
+          "계획상 앞 차시는 ‘비교하기’(KR22-G06-ENG-COMPARE-L01)입니다. 보충 뒤에도 because로 까닭을 말하지 못하면 5학년 ‘좋아하는 것과 이유’를 먼저 다시 하고 이 차시를 시작합니다. 비교 문장이 흔들리면 ‘비교하기’를 다시 봅니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "의견 말하기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "의견에 어울리는 까닭을 골라 기호를 쓰세요.",
+        "read": "㉠ they are soft.　　㉡ I can swim in the sea.　　㉢ I can learn new things.",
+        "table": {
+          "rows": [
+            [
+              "①",
+              "I think summer is great because",
+              ""
+            ],
+            [
+              "②",
+              "I think cats are cute because",
+              ""
+            ],
+            [
+              "③",
+              "I think books are great because",
+              ""
+            ]
+          ],
+          "widths": [
+            0.08,
+            0.7,
+            0.22
+          ],
+          "firstColHead": true,
+          "size": 14
+        },
+        "answer": "① ㉡ ② ㉠ ③ ㉢ (3개 모두 맞으면 통과)"
+      },
+      {
+        "no": 2,
+        "prompt": "까닭이 의견과 잘 이어진 문장에 모두 ✔ 하세요.",
+        "choices": [
+          "I think soccer is fun because I can run and kick the ball.",
+          "I think soccer is fun because it is Monday.",
+          "I think pizza is delicious because it has a lot of cheese.",
+          "I think cats are cute because I am twelve."
+        ],
+        "choices_size": 16,
+        "answer": "첫째와 셋째 (2개). 둘째(Monday)와 넷째(I am twelve)는 의견과 상관없는 까닭입니다."
+      },
+      {
+        "no": 3,
+        "prompt": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+        "read": "① I think winter fun because I can ski.\n② I think dogs are great because friendly.",
+        "lines": 2,
+        "line_label": "첫째 줄에 ①, 둘째 줄에 ②를 고쳐 쓰세요.",
+        "answer": "① I think winter is fun because I can ski. (is가 빠짐) ② I think dogs are great because they are friendly. (they are가 빠짐) — 두 문장 모두 대문자 I와 끝의 마침표까지 바르게 쓰면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "소리 내어 읽으며 따라 쓰세요.",
+        "eng": {
+          "trace": [
+            "I think summer is great",
+            "because I can swim in the sea."
+          ]
+        },
+        "answer": "두 줄을 따라 썼으면 맞습니다. 두 줄이 한 문장이므로 마침표는 맨 끝에만 찍습니다. 첫 글자 I는 대문자입니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 5,
+        "prompt": "주제를 하나 골라 ✔ 하고, 나의 의견과 까닭을 한 문장으로 쓰세요. (첫째 줄 I think ~, 둘째 줄 because ~)",
+        "choices": [
+          "summer · winter",
+          "cats · dogs",
+          "P.E. · art"
+        ],
+        "choices_size": 16,
+        "eng": {
+          "blank": 2
+        },
+        "answer": "예: I think dogs are great / because they are friendly. 기준: ① I think로 시작하고 의견 문장에 ‘무엇이(누가) + is/are + 꾸미는 말’이 있다 ② because 다음에 까닭이 문장(주어 + 동사)으로 온다 ③ 까닭이 의견과 이어진다(왜 그렇게 생각하는지 설명한다). 세 가지를 모두 지키면 맞습니다. 의견의 내용(무엇을 좋아하는지)은 맞고 틀림이 없습니다. 대문자 I와 끝의 마침표, is/are를 봅니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① because는 무슨 뜻인지 말해 보세요.\n② 좋아하는 계절을 I think ~ because ~.로 말해 보세요.\n③ I think dogs are great because friendly.를 바르게 고쳐 말해 보세요.",
+        "answer": "① 왜냐하면, ~ 때문에 ② 예: I think summer is great because I can swim in the sea. (I think + 의견 문장 + because + 까닭 문장이면 통과) ③ I think dogs are great because they are friendly. (세 가지 모두 도움 없이 하면 통과)"
+      }
+    ],
+    "record": [
+      "S10 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S12 마무리 확인: 이유까지 말함 □  고르기만 함 □  아직 □",
+      "활동지 5 나의 의견 쓰기: 점검표 모두 지킴 □  한두 곳 고침 □  아직 □"
+    ]
+  },
+  "break_after": "S05"
 }

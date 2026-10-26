@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G06-MAT-DECDIV3-L01",
+  "concept_id": "MAT-DECDIV3",
+  "title": "소수의 나눗셈 3",
+  "grade": "G06",
+  "grade_label": "초6",
+  "band": "E56",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "연산과비례",
+  "sequence": 9,
+  "file_stem": "초6_수학_연산과비례_09_소수의나눗셈3",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G06-MAT-I01"
+    ],
+    "units": [
+      "2.1.2",
+      "2.2.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "자릿수가 다른 (소수)÷(소수)와 (자연수)÷(소수)를 소수점을 옮겨 계산한다.",
+  "prerequisites": [
+    {
+      "text": "소수의 나눗셈 2",
+      "lesson": "KR22-G06-MAT-DECDIV2-L01",
+      "grade_item": "KR22-G06-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "소수의 나눗셈 3 활동지",
+    "items": [],
+    "record": []
+  }
+}
