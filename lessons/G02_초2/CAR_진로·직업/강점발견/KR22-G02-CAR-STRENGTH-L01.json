@@ -1,0 +1,49 @@
+{
+  "id": "KR22-G02-CAR-STRENGTH-L01",
+  "concept_id": "CAR-STRENGTH",
+  "title": "잘하는 일 찾기",
+  "grade": "G02",
+  "grade_label": "초2",
+  "band": "E12",
+  "strand": "CAR",
+  "strand_label": "진로·직업",
+  "unit_folder": "강점발견",
+  "sequence": 1,
+  "file_stem": "초2_진로·직업_강점발견_01_잘하는일찾기",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G02-CAR-I01"
+    ],
+    "units": [
+      "12.1.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "잘하는 일과 도움이 필요한 일을 구체적인 경험으로 말한다.",
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "잘하는 일 찾기 활동지",
+    "items": [],
+    "record": []
+  }
+}
