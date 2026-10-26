@@ -2231,7 +2231,9 @@
   "objective": "마을의 시설과 그곳에서 하는 일을 조사한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G01-SOC-SCHOOL-L01"
+  ],
   "file_stem": "초2_사회·역사_마을과공동체_01_마을의시설",
   "source": "lessons/G02_초2/SOC_사회·역사/마을과공동체/KR22-G02-SOC-TOWN-L01.json",
   "status": "제작 완료"
@@ -2281,7 +2283,9 @@
   "objective": "옛날과 오늘의 생활 모습을 비교한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G01-SOC-MYDAY-L01"
+  ],
   "file_stem": "초2_사회·역사_변화와다양성_01_옛날과오늘",
   "source": "lessons/G02_초2/SOC_사회·역사/변화와다양성/KR22-G02-SOC-PAST-L01.json",
   "status": "제작 완료"
@@ -2409,7 +2413,7 @@
   ],
   "file_stem": "초2_과학_생물과변화_02_계절과동식물",
   "source": "lessons/G02_초2/SCI_과학/생물과변화/KR22-G02-SCI-SEASONLIFE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SCI-PREDICT-L01",
@@ -2661,7 +2665,7 @@
   ],
   "file_stem": "초2_체육·보건·안전_경계와안전_01_싫어요말하기와안전",
   "source": "lessons/G02_초2/PHE_체육·보건·안전/경계와안전/KR22-G02-PHE-SAYNO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-HUM-REASONS-L01",
@@ -2686,7 +2690,7 @@
   ],
   "file_stem": "초2_철학·논리·심리·교육·종교_이유와다른생각_01_서로다른이유",
   "source": "lessons/G02_초2/HUM_철학·논리·심리·교육·종교/이유와다른생각/KR22-G02-HUM-REASONS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-HUM-PLANDO-L01",
@@ -5878,7 +5882,7 @@
   ],
   "file_stem": "초4_사회·역사_경제와참여_02_교환과교류",
   "source": "lessons/G04_초4/SOC_사회·역사/경제와참여/KR22-G04-SOC-TRADE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-LOCALPROB-L01",
@@ -5904,7 +5908,7 @@
   ],
   "file_stem": "초4_사회·역사_경제와참여_03_지역문제해결",
   "source": "lessons/G04_초4/SOC_사회·역사/경제와참여/KR22-G04-SOC-LOCALPROB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ETH-SELFCTRL-L01",
@@ -6126,7 +6130,7 @@
   "pre": [],
   "file_stem": "초4_과학_생물과기체_01_생태계와먹이관계",
   "source": "lessons/G04_초4/SCI_과학/생물과기체/KR22-G04-SCI-FOODCHAIN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-AIR-L01",
@@ -7723,7 +7727,7 @@
   ],
   "file_stem": "초5_사회·역사_국토와생활_02_국토의자연환경",
   "source": "lessons/G05_초5/SOC_사회·역사/국토와생활/KR22-G05-SOC-NATURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-POPULATION-L01",
@@ -7749,7 +7753,7 @@
   ],
   "file_stem": "초5_사회·역사_국토와생활_03_인구와도시",
   "source": "lessons/G05_초5/SOC_사회·역사/국토와생활/KR22-G05-SOC-POPULATION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-PREHIST-L01",
