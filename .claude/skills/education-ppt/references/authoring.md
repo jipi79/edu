@@ -95,7 +95,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `ruler` | `cm`(길이), `mm`?(false면 5 mm 눈금까지만), `start`?(첫 눈금 수), `objects`[ {from, to, label?} ](cm 단위, 자 위에 막대로) | 길이 재기(cm·mm). 활동지에서는 실제 크기(1 cm = 10 mm)로 인쇄된다 |
 | `protractor` | `deg`?(잴 각), `base`?(밑변 방향, 기본 0), `scales`?(both·inner·outer), `step`?, `ray`?(변 길이, 기본 1.2), `mark`?(false면 각 표시 없음), `ws_radius`?(활동지 반지름 mm, 기본 45 — 두 개를 나란히 두려면 33) | 각도기로 각 재기. 안쪽(주황) 눈금은 오른쪽 0°, 바깥(파랑) 눈금은 왼쪽 0°. 넓은 자리(점 카드 없는 concept, `wide` 연습)에 두어야 10°마다 숫자가 나온다 |
 | `chart` | `chart`, `labels`, `values`, `title`?, `valueTitle`?, `max`?, `min`?, `step`?(눈금 한 칸) | 그래프. 눈금 한 칸을 말하는 차시는 `step`을 꼭 준다. 물결선·칸 단위 그림이 필요하면 `geo`로 그린다 |
-| `flow` | `items`[2~6], `cycle`?, `highlight`? | 과정·한살이·순환 |
+| `flow` | `items`[2~6], `cycle`?, `highlight`?, `size`?(pt), `boxHeight`?(in) | 과정·한살이·순환 |
 | `timeline` | `events`[ {label, sub?} ] | 역사 흐름 |
 | `letters` | `items`(글자), `sub`?(읽는 소리), `perRow`?, `highlight`? | 한글 자모·알파벳 |
 | `words` | `items`[ {word, sub?, highlight?} ], `perRow`? | 낱말 카드(영어 낱말과 뜻 등) |
