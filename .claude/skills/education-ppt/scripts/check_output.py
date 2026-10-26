@@ -55,17 +55,19 @@ def check_deck(path, lesson, variant):
 
 
 def main(argv):
-    lesson_path = argv[0]
-    lesson = json.loads(Path(lesson_path).read_text(encoding="utf-8"))
-    out = Path(argv[argv.index("--dir") + 1]) if "--dir" in argv else Path("dist") / lesson["grade_label"] / lesson["strand_label"] / lesson["unit_folder"]
+    out_dir = Path(argv[argv.index("--dir") + 1]) if "--dir" in argv else None
+    lessons = [a for i, a in enumerate(argv) if a != "--dir" and (i == 0 or argv[i - 1] != "--dir")]
     failed = False
-    for variant, suffix in (("teacher", ""), ("student", "_학생용")):
-        path = out / f"{lesson['file_stem']}{suffix}.pptx"
-        errors = check_deck(path, lesson, variant) if path.exists() else ["파일이 없다"]
-        print(f"[{'통과' if not errors else f'실패 {len(errors)}건'}] {path}")
-        for e in errors:
-            print(f"  ✗ {e}")
-        failed |= bool(errors)
+    for lesson_path in lessons:
+        lesson = json.loads(Path(lesson_path).read_text(encoding="utf-8"))
+        out = out_dir or Path("dist") / lesson["grade_label"] / lesson["strand_label"] / lesson["unit_folder"]
+        for variant, suffix in (("teacher", ""), ("student", "_학생용")):
+            path = out / f"{lesson['file_stem']}{suffix}.pptx"
+            errors = check_deck(path, lesson, variant) if path.exists() else ["파일이 없다"]
+            print(f"[{'통과' if not errors else f'실패 {len(errors)}건'}] {path}")
+            for e in errors:
+                print(f"  ✗ {e}")
+            failed |= bool(errors)
     sys.exit(1 if failed else 0)
 
 

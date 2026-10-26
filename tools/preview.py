@@ -19,6 +19,8 @@ from PIL import Image, ImageDraw
 def main(lesson_path, out_dir):
     L = json.loads(Path(lesson_path).read_text(encoding="utf-8"))
     pptx = Path("dist") / L["grade_label"] / L["strand_label"] / L["unit_folder"] / f"{L['file_stem']}.pptx"
+    if not pptx.exists():
+        sys.exit(f"{pptx} 가 없다. 먼저 tools/build_one.sh 로 빌드한다(빌드가 실패했다면 그 오류를 고친다).")
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     for old in out.glob(f"{L['id']}-*.jpg"):
