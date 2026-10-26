@@ -2740,7 +2740,7 @@
   ],
   "file_stem": "초2_진로·직업_강점발견_01_잘하는일찾기",
   "source": "lessons/G02_초2/CAR_진로·직업/강점발견/KR22-G02-CAR-STRENGTH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-CAR-TEAMWORK-L01",
@@ -2765,7 +2765,7 @@
   ],
   "file_stem": "초2_진로·직업_일과협력_01_직업과협력",
   "source": "lessons/G02_초2/CAR_진로·직업/일과협력/KR22-G02-CAR-TEAMWORK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-ENV-AROUND-L01",
@@ -6160,7 +6160,7 @@
   ],
   "file_stem": "초4_과학_생물과기체_02_기체의성질",
   "source": "lessons/G04_초4/SCI_과학/생물과기체/KR22-G04-SCI-AIR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-CLIMATE-L01",
@@ -7971,7 +7971,7 @@
   ],
   "file_stem": "초5_사회·역사_권리와생활_02_법과규칙",
   "source": "lessons/G05_초5/SOC_사회·역사/권리와생활/KR22-G05-SOC-LAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-SPENDING-L01",
@@ -9742,7 +9742,9 @@
   "objective": "4·19 혁명, 5·18 민주화 운동, 6월 민주 항쟁으로 민주주의의 발전을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G05-SOC-LIBERATION-L01"
+  ],
   "file_stem": "초6_사회·역사_현대사회와평화_01_민주주의의발전",
   "source": "lessons/G06_초6/SOC_사회·역사/현대사회와평화/KR22-G06-SOC-DEMOCRACY-L01.json",
   "status": "계획"
@@ -9793,7 +9795,8 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G06-SOC-INDUSTRY-L01"
+   "KR22-G06-SOC-INDUSTRY-L01",
+   "KR22-G05-SOC-LIBERATION-L01"
   ],
   "file_stem": "초6_사회·역사_현대사회와평화_03_분단과평화통일",
   "source": "lessons/G06_초6/SOC_사회·역사/현대사회와평화/KR22-G06-SOC-PEACE-L01.json",
@@ -9818,7 +9821,9 @@
   "objective": "국회·정부·법원이 하는 일과 권력을 나누는 까닭을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G05-SOC-LAW-L01"
+  ],
   "file_stem": "초6_사회·역사_민주주의와경제_01_국가기관의역할",
   "source": "lessons/G06_초6/SOC_사회·역사/민주주의와경제/KR22-G06-SOC-GOVERNMENT-L01.json",
   "status": "계획"
@@ -9869,7 +9874,8 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G06-SOC-PARTICIPATE-L01"
+   "KR22-G05-SOC-SPENDING-L01",
+   "KR22-G04-SOC-TRADE-L01"
   ],
   "file_stem": "초6_사회·역사_민주주의와경제_03_가계와기업,시장",
   "source": "lessons/G06_초6/SOC_사회·역사/민주주의와경제/KR22-G06-SOC-MARKET-L01.json",
@@ -9894,7 +9900,9 @@
   "objective": "지구본과 세계지도로 대륙·대양과 여러 나라의 위치를 찾는다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G05-SOC-TERRITORY-L01"
+  ],
   "file_stem": "초6_사회·역사_세계와공존_01_세계여러나라",
   "source": "lessons/G06_초6/SOC_사회·역사/세계와공존/KR22-G06-SOC-WORLDMAP-L01.json",
   "status": "계획"
