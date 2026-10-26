@@ -165,7 +165,7 @@ function geoPrims(fig, em) {
     if (sd.label) {
       // 이름표 상자(폭 tw, 높이 th)가 변과 겹치지 않을 만큼 법선 방향으로 띄운다.
       const rows = String(sd.label).split("\n");
-      const tw = Math.max(...rows.map((r) => [...r].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ㈀-㋿]/.test(ch) ? 0.98 : ch === " " ? 0.3 : 0.62), 0))) * em;
+      const tw = Math.max(...rows.map((r) => [...r].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ㈀-㋿%]/.test(ch) ? 1.0 : ch === " " ? 0.3 : 0.62), 0))) * em;
       const th = 1.2 * rows.length * em;
       const d = 0.3 * em + Math.abs(n[0]) * tw / 2 + Math.abs(n[1]) * th / 2;
       out.push({ k: "text", at: add(mid, mul(n, d)), text: sd.label, size: "label" });
@@ -248,7 +248,7 @@ const KINDS = {
   geo: { extent: geoExtent, prims: geoPrims, maxUnit: 1.0, pad: (f) => {
     // 바깥 여백(글자 높이의 배수): 변 이름표가 있으면 가장 긴 이름표 폭만큼, 점 이름·각 이름표만 있으면 1.6
     const labels = [...(f.segments || []).map((s) => s.label), ...(f.polygons || []).flatMap((p) => (p.sides || []).map((s) => s && s.label))].filter(Boolean);
-    const widest = Math.max(0, ...labels.map((t) => [...String(t)].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ㈀-㋿]/.test(ch) ? 0.98 : 0.62), 0)));
+    const widest = Math.max(0, ...labels.map((t) => [...String(t)].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ㈀-㋿%]/.test(ch) ? 1.0 : 0.62), 0)));
     const named = (f.names !== false && Object.keys(f.points || {}).some((n) => !n.startsWith("_"))) || (f.angles || []).some((a) => a.label);
     return labels.length ? Math.max(1.6, widest + 0.6) : named ? 1.6 : 0;
   } },
