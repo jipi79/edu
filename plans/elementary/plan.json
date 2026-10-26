@@ -3499,7 +3499,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_03_원의중심·반지름·지름",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-CIRCLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-MMKM-L01",
@@ -3601,7 +3601,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_07_무게",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-WEIGHT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-PICTO-L01",
@@ -5027,7 +5027,7 @@
   ],
   "file_stem": "초4_수학_수와연산_05_분모가같은분수의덧셈",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-FRACADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-FRACSUB-L01",
@@ -5106,7 +5106,7 @@
   ],
   "file_stem": "초4_수학_수와연산_08_소수의덧셈과뺄셈",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-DECADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-ANGLE-L01",
