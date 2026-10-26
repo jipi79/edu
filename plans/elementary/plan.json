@@ -1584,7 +1584,7 @@
   ],
   "file_stem": "초2_국어_이야기와쓰기_02_인물의마음",
   "source": "lessons/G02_초2/KOR_국어/이야기와쓰기/KR22-G02-KOR-FEELING-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-WRITE-L01",
@@ -1610,7 +1610,7 @@
   ],
   "file_stem": "초2_국어_이야기와쓰기_03_겪은일쓰기",
   "source": "lessons/G02_초2/KOR_국어/이야기와쓰기/KR22-G02-KOR-WRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-ASK-L01",
@@ -1634,7 +1634,7 @@
   "pre": [],
   "file_stem": "초2_국어_대화와매체_01_듣고질문하기",
   "source": "lessons/G02_초2/KOR_국어/대화와매체/KR22-G02-KOR-ASK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-FINDINFO-L01",
@@ -1660,7 +1660,7 @@
   ],
   "file_stem": "초2_국어_대화와매체_02_글과그림에서정보찾기",
   "source": "lessons/G02_초2/KOR_국어/대화와매체/KR22-G02-KOR-FINDINFO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-POLITE-L01",
@@ -1686,7 +1686,7 @@
   ],
   "file_stem": "초2_국어_대화와매체_03_바르고고운말",
   "source": "lessons/G02_초2/KOR_국어/대화와매체/KR22-G02-KOR-POLITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-NUM1000-L01",
@@ -2127,7 +2127,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_06_달력보기",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-CALENDAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-MAT-SORT-L01",
@@ -2977,11 +2977,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G03-KOR-CHARACTER-L01"
+   "KR22-G03-KOR-CHARACTER-L01",
+   "KR22-G02-KOR-VOCAB-L01"
   ],
   "file_stem": "초3_국어_문학과매체_02_감각적표현",
   "source": "lessons/G03_초3/KOR_국어/문학과매체/KR22-G03-KOR-SENSORY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-MEDIA-L01",
@@ -3003,11 +3004,11 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G03-KOR-SENSORY-L01"
+   "KR22-G02-KOR-FINDINFO-L01"
   ],
   "file_stem": "초3_국어_문학과매체_03_매체에서정보찾기",
   "source": "lessons/G03_초3/KOR_국어/문학과매체/KR22-G03-KOR-MEDIA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-ADD3D-L01",
@@ -3034,7 +3035,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_01_세자리수의덧셈",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-ADD3D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-SUB3D-L01",
@@ -3061,7 +3062,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_02_세자리수의뺄셈",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-SUB3D-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-DIVIDE-L01",
@@ -3088,7 +3089,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_03_나눗셈의뜻",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-DIVIDE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-DIVFACT-L01",
@@ -3114,7 +3115,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_04_곱셈구구로몫구하기",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-DIVFACT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-MUL2X1-L01",
@@ -3141,7 +3142,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_05_두자리수×한자리수",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-MUL2X1-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-MUL3X1-L01",
@@ -3167,7 +3168,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_06_세자리수×한자리수",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-MUL3X1-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-MUL2X2-L01",
@@ -3193,7 +3194,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_07_두자리수×두자리수",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-MUL2X2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-DIV2X1-L01",
@@ -3215,11 +3216,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G03-MAT-MUL2X2-L01"
+   "KR22-G03-MAT-MUL2X2-L01",
+   "KR22-G03-MAT-DIVFACT-L01"
   ],
   "file_stem": "초3_수학_자연수계산_08_나머지가있는나눗셈",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-DIV2X1-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-DIV3X1-L01",
@@ -3245,6 +3247,58 @@
   ],
   "file_stem": "초3_수학_자연수계산_09_세자리수÷한자리수",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-DIV3X1-L01.json",
+  "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G03-MAT-SUB3D0-L01",
+  "concept_id": "MAT-SUB3D0",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G03-MAT-I01",
+  "folder": "자연수계산",
+  "sequence": 10,
+  "units": [
+   "2.1.1",
+   "2.2.1"
+  ],
+  "title": "0이 있는 수의 뺄셈",
+  "objective": "십의 자리가 0인 수에서 받아내림을 두 번 하는 뺄셈(403−156, 500−236)을 계산한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G03-MAT-SUB3D-L01"
+  ],
+  "file_stem": "초3_수학_자연수계산_10_0이있는수의뺄셈",
+  "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-SUB3D0-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G03-MAT-DIVZERO-L01",
+  "concept_id": "MAT-DIVZERO",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G03-MAT-I01",
+  "folder": "자연수계산",
+  "sequence": 11,
+  "units": [
+   "2.1.1",
+   "2.2.1"
+  ],
+  "title": "몫에 0이 있는 나눗셈",
+  "objective": "몫의 가운데나 끝에 0이 오는 나눗셈(824÷4, 81÷4)을 계산하고 곱셈으로 확인한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G03-MAT-DIV3X1-L01"
+  ],
+  "file_stem": "초3_수학_자연수계산_11_몫에0이있는나눗셈",
+  "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-DIVZERO-L01.json",
   "status": "계획"
  },
  {
@@ -3270,7 +3324,7 @@
   ],
   "file_stem": "초3_수학_분수와소수_01_분수의뜻",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-FRAC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-UNITFRAC-L01",
@@ -3295,7 +3349,7 @@
   ],
   "file_stem": "초3_수학_분수와소수_02_단위분수와크기비교",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-UNITFRAC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-DECIMAL-L01",
@@ -3320,7 +3374,7 @@
   ],
   "file_stem": "초3_수학_분수와소수_03_소수의뜻",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-DECIMAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-FRACSET-L01",
@@ -3345,7 +3399,7 @@
   ],
   "file_stem": "초3_수학_분수와소수_04_묶음을분수로",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-FRACSET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-MIXED-L01",
@@ -3370,7 +3424,7 @@
   ],
   "file_stem": "초3_수학_분수와소수_05_진분수·가분수·대분수",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-MIXED-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-LINES-L01",
@@ -3395,7 +3449,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_01_선분·반직선·직선과각",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-LINES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-RIGHT-L01",
@@ -3420,7 +3474,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_02_직각과직사각형·정사각형",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-RIGHT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-CIRCLE-L01",
@@ -3497,7 +3551,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_05_초와시간의계산",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-SECOND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-LITER-L01",
@@ -3522,7 +3576,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_06_들이",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-LITER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-WEIGHT-L01",
@@ -3595,7 +3649,7 @@
   "pre": [],
   "file_stem": "초3_영어_소리와문자_01_알파벳A부터M까지",
   "source": "lessons/G03_초3/ENG_영어/소리와문자/KR22-G03-ENG-ABC1-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-ABC2-L01",
@@ -3620,7 +3674,7 @@
   ],
   "file_stem": "초3_영어_소리와문자_02_알파벳N부터Z까지",
   "source": "lessons/G03_초3/ENG_영어/소리와문자/KR22-G03-ENG-ABC2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-LOWER-L01",
@@ -3669,7 +3723,7 @@
   "pre": [],
   "file_stem": "초3_영어_듣기와말하기_01_인사하기",
   "source": "lessons/G03_초3/ENG_영어/듣기와말하기/KR22-G03-ENG-HELLO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-NAME-L01",
@@ -3695,7 +3749,7 @@
   ],
   "file_stem": "초3_영어_듣기와말하기_02_이름묻고답하기",
   "source": "lessons/G03_초3/ENG_영어/듣기와말하기/KR22-G03-ENG-NAME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-THANKS-L01",
@@ -4635,7 +4689,7 @@
   ],
   "file_stem": "초4_국어_읽기와요약_01_문단과문단의관계",
   "source": "lessons/G04_초4/KOR_국어/읽기와요약/KR22-G04-KOR-PARAREL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-TEXTFORM-L01",
@@ -4660,7 +4714,7 @@
   ],
   "file_stem": "초4_국어_읽기와요약_02_글의짜임",
   "source": "lessons/G04_초4/KOR_국어/읽기와요약/KR22-G04-KOR-TEXTFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-SUMMARY-L01",
@@ -4685,7 +4739,7 @@
   ],
   "file_stem": "초4_국어_읽기와요약_03_중심내용간추리기",
   "source": "lessons/G04_초4/KOR_국어/읽기와요약/KR22-G04-KOR-SUMMARY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-OPINION-L01",
@@ -4866,7 +4920,7 @@
   ],
   "file_stem": "초4_수학_수와연산_01_만과다섯자리수",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-MAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-EOK-L01",
@@ -4892,7 +4946,7 @@
   ],
   "file_stem": "초4_수학_수와연산_02_억과조",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-EOK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-MUL3X2-L01",
@@ -4919,7 +4973,7 @@
   ],
   "file_stem": "초4_수학_수와연산_03_세자리수×두자리수",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-MUL3X2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-DIV3X2-L01",
@@ -4946,7 +5000,7 @@
   ],
   "file_stem": "초4_수학_수와연산_04_세자리수÷두자리수",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-DIV3X2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-FRACADD-L01",
@@ -5026,7 +5080,7 @@
   ],
   "file_stem": "초4_수학_수와연산_07_소수두자리수와세자리수",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-DEC2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-DECADD-L01",

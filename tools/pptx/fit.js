@@ -8,6 +8,8 @@ function charEm(ch) {
   if (ch === " ") return 0.3;
   if (/[A-Z0-9]/.test(ch)) return 0.64;
   if (/[a-z]/.test(ch)) return 0.55;
+  // 문장 부호·괄호는 한글 옆에서 LibreOffice가 앞뒤 간격을 더 넣어 그린다.
+  if (/[.,?!:;()[\]"'“”‘’]/.test(ch)) return 0.6;
   return 0.42;
 }
 

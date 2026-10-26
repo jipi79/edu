@@ -32,6 +32,11 @@
       "text": "(두 자리 수)×(두 자리 수)",
       "lesson": "KR22-G03-MAT-MUL2X2-L01",
       "grade_item": "KR22-G03-MAT-I01"
+    },
+    {
+      "text": "곱셈구구로 몫 구하기",
+      "lesson": "KR22-G03-MAT-DIVFACT-L01",
+      "grade_item": "KR22-G03-MAT-I01"
     }
   ],
   "objectives": [

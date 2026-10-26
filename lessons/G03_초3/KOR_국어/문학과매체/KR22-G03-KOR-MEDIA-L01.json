@@ -29,9 +29,9 @@
   },
   "prerequisites": [
     {
-      "text": "감각적 표현",
-      "lesson": "KR22-G03-KOR-SENSORY-L01",
-      "grade_item": "KR22-G03-KOR-I03"
+      "text": "글과 그림에서 정보 찾기",
+      "lesson": "KR22-G02-KOR-FINDINFO-L01",
+      "grade_item": "KR22-G02-KOR-I03"
     }
   ],
   "objectives": [

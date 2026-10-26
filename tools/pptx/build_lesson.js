@@ -436,7 +436,8 @@ class Deck {
     let tpt = base;
     while (tpt > base - 12 && widthIn(spec.title, tpt) * 1.1 > room) tpt -= 2;
     if (widthIn(spec.title, tpt) * 1.1 > room) this.problems.push(`${spec.id}: 제목이 한 줄에 들어가지 않는다: "${spec.title}"`);
-    slide.addText(spec.title, { placeholder: "title", fontFace: FONT, lang: LANG, ...(tpt < base ? { fontSize: tpt } : {}) });
+    // 자리 표시자의 글꼴 크기가 상자 옵션보다 우선하므로, 줄인 크기는 글자 단위(run)에 준다.
+    slide.addText([{ text: spec.title, options: tpt < base ? { fontSize: tpt } : {} }], { placeholder: "title", fontFace: FONT, lang: LANG });
     const subtitle = spec.subtitle || spec.question;
     if (layout === "cover" && subtitle) {
       this.checkFit(spec.id, subtitle, 7.3, 1.8, [this.style.body]);

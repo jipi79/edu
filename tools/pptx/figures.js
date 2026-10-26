@@ -58,7 +58,7 @@ function bars(deck, slide, sid, fig, box) {
       }
     }
     deck.bar(slide, sid, { x: x0, y, w: barW, h: barH, widths, shaded: [...shaded],
-      alt: b.alt || `똑같이 ${parts}칸으로 나눈 띠${shaded.size ? `, ${shaded.size}칸 색칠` : ""}` });
+      alt: b.alt || `${b.widths ? `크기가 다른 ${parts}칸으로 나눈 띠` : `똑같이 ${parts}칸으로 나눈 띠`}${shaded.size ? `, ${shaded.size}칸 색칠` : ""}` });
     if (i === 0 && fig.guide) {
       const sorted = [...shaded].sort((a, c) => a - c);
       if (sorted.length && sorted.every((v, k) => v === k)) guideX = x0 + barW * widths.slice(0, sorted.length).reduce((s, v) => s + v, 0);
@@ -305,8 +305,9 @@ function table(deck, slide, sid, fig, box) {
   const cols = (fig.headers || fig.rows[0]).length;
   const rows = fig.rows.length + (fig.headers ? 1 : 0);
   let pt = fig.size || deck.style.small;
-  const rowH = () => Math.max(0.5, (pt * 1.6) / 72);
+  const rowH = () => Math.max(0.4, (pt * 1.55) / 72);
   while (pt > 16 && rows * rowH() > box.h) pt -= 2;
+  if (rows * rowH() > box.h + 0.02) deck.problems.push(`${sid}: 표(${rows}줄)가 자리에 들어가지 않는다(필요 ${(rows * rowH()).toFixed(2)}in > ${box.h.toFixed(2)}in). 줄이나 옆의 글을 줄인다`);
   const w = Math.min(box.w, fig.width || Math.max(cols * 1.8, 4));
   const colW = fig.widths ? fig.widths.map((f) => w * f) : Array.from({ length: cols }, () => w / cols);
   // 낱자(ㄱ, ㅏ 같은 호환용 자모)는 글꼴에서 작게 그려지므로 크게 쓴다
@@ -555,7 +556,9 @@ function text(deck, slide, sid, fig, box) {
 function bond(deck, slide, sid, fig, box) {
   const pt = fig.size || deck.style.body + 4;
   const d = Math.min((pt * 2.1) / 72, box.h / 2.4, box.w / 3.4);
-  const fs = Math.round(d * 72 * 0.5);
+  // 세 자리 이상의 수도 원 안에서 한 줄로 쓰이도록 글자 수에 맞춰 줄인다.
+  const longest = Math.max(...[fig.whole, ...fig.parts].map((v) => String(v ?? "").length), 1);
+  const fs = Math.round(Math.min(d * 72 * 0.5, (d * 72 * 0.8) / (longest * 0.62)));
   const gapY = Math.min(box.h - 2 * d, d * 1.1);
   const top = box.y + (box.h - (2 * d + gapY)) / 2;
   const cx = box.x + box.w / 2;

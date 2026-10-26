@@ -70,12 +70,15 @@ function eqHtml(items) {
 }
 
 function barSvg(bar, widthMm = 120, heightMm = 12) {
-  const parts = bar.parts;
-  const shaded = new Set(bar.shaded || []);
-  const cw = widthMm / parts;
+  const widths = bar.widths || Array.from({ length: bar.parts }, () => 1 / bar.parts);
+  const parts = widths.length;
+  const shaded = Array.isArray(bar.shaded) ? new Set(bar.shaded) : new Set(Array.from({ length: bar.shaded || 0 }, (_, i) => i));
   let cells = "";
+  let x = 0;
   for (let i = 0; i < parts; i++) {
-    cells += `<rect x="${i * cw}" y="0" width="${cw}" height="${heightMm}" fill="${shaded.has(i) ? "#E9762B" : "#FFFFFF"}" stroke="#1F2937" stroke-width="0.4"/>`;
+    const cw = widthMm * widths[i];
+    cells += `<rect x="${x}" y="0" width="${cw}" height="${heightMm}" fill="${shaded.has(i) ? "#E9762B" : "#FFFFFF"}" stroke="#1F2937" stroke-width="0.4"/>`;
+    x += cw;
   }
   return `<svg width="${widthMm}mm" height="${heightMm}mm" viewBox="-0.4 -0.4 ${widthMm + 0.8} ${heightMm + 0.8}" role="img" aria-label="${parts}칸 띠">${cells}<rect x="0" y="0" width="${widthMm}" height="${heightMm}" fill="none" stroke="#1F2937" stroke-width="0.7"/></svg>`;
 }

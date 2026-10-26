@@ -83,7 +83,9 @@ const KINDS = {
     if (fig && [].concat(fig).some((f) => ["geo", "ruler", "protractor"].includes(f.type))) {
       slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: 8.25, y: 0.55, w: 4.6, h: 3.5, rectRadius: 0.15, fill: { color: "FFFFFF" }, line: { color: "FFFFFF", width: 0 }, objectName: deck.name(spec.id, "panel") });
     }
-    if (fig) drawFigures(deck, slide, spec.id, fig, { x: 8.4, y: 0.7, w: 4.3, h: 3.2 });
+    // 식은 어두운 바탕에서 밝은 글자로 쓴다.
+    const onDark = (f) => (["eq", "eqx", "text"].includes(f.type) && !f.color ? { ...f, color: "onDark" } : f);
+    if (fig) drawFigures(deck, slide, spec.id, Array.isArray(fig) ? fig.map(onDark) : onDark(fig), { x: 8.4, y: 0.7, w: 4.3, h: 3.2 });
     if (spec.goals) {
       const c = { tone: "onDark", title: "오늘 할 수 있게 될 것", items: spec.goals };
       const h = Math.max(1.6, deck.cardHeight(c, 11.73));
