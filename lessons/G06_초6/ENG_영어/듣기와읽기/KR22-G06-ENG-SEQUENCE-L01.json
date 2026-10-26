@@ -179,7 +179,9 @@
           "Then\n그다음에",
           "Next\n그다음에",
           "Finally\n마지막으로"
-        ]
+        ],
+        "size": 26,
+        "boxHeight": 1.7
       },
       "key": "Then과 Next는 둘 다 ‘그다음에’예요. 둘 다 있으면 내용을 보고 정해요.",
       "notes": {
@@ -519,7 +521,7 @@
       "teacher_only": true,
       "good": [
         {
-          "text": "다 → 라 → 가 → 나"
+          "text": "다→라→가→나"
         },
         {
           "text": "First 흙 → Then 씨앗"
@@ -530,11 +532,11 @@
       ],
       "bad": [
         {
-          "text": "가 → 나 → 다 → 라",
+          "text": "가→나→다→라",
           "note": "적힌 차례대로 함"
         },
         {
-          "text": "다 → 가 → 라 → 나",
+          "text": "다→가→라→나",
           "note": "씨앗보다 물이 먼저"
         }
       ],
@@ -735,19 +737,19 @@
         "table": {
           "rows": [
             [
-              "(     )",
+              "(      )",
               "Next, I put on my pajamas."
             ],
             [
-              "(     )",
+              "(      )",
               "Finally, I go to bed."
             ],
             [
-              "(     )",
+              "(      )",
               "First, I eat dinner."
             ],
             [
-              "(     )",
+              "(      )",
               "Then, I take a shower."
             ]
           ],
@@ -765,19 +767,19 @@
         "table": {
           "rows": [
             [
-              "(     )",
+              "(      )",
               "go to Tom's house"
             ],
             [
-              "(     )",
+              "(      )",
               "make a card"
             ],
             [
-              "(     )",
+              "(      )",
               "eat cake together"
             ],
             [
-              "(     )",
+              "(      )",
               "buy a small gift"
             ]
           ],
