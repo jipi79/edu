@@ -2436,7 +2436,7 @@
   "pre": [],
   "file_stem": "초2_과학_탐구의기초_01_예상과관찰",
   "source": "lessons/G02_초2/SCI_과학/탐구의기초/KR22-G02-SCI-PREDICT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-TEC-CHORES-L01",
@@ -2715,7 +2715,7 @@
   ],
   "file_stem": "초2_철학·논리·심리·교육·종교_학습습관_01_계획·실행·돌아보기",
   "source": "lessons/G02_초2/HUM_철학·논리·심리·교육·종교/학습습관/KR22-G02-HUM-PLANDO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-CAR-STRENGTH-L01",
@@ -6051,7 +6051,9 @@
   "objective": "흐르는 물이 땅을 깎고 옮기고 쌓는 과정을 관찰한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-EARTHSEA-L01"
+  ],
   "file_stem": "초4_과학_땅과밤하늘_01_흐르는물과땅",
   "source": "lessons/G04_초4/SCI_과학/땅과밤하늘/KR22-G04-SCI-RIVER-L01.json",
   "status": "제작 완료"
@@ -6127,7 +6129,9 @@
   "objective": "생태계 구성 요소와 먹이 사슬·먹이 그물을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-PLANTLIFE-L01"
+  ],
   "file_stem": "초4_과학_생물과기체_01_생태계와먹이관계",
   "source": "lessons/G04_초4/SCI_과학/생물과기체/KR22-G04-SCI-FOODCHAIN-L01.json",
   "status": "제작 완료"
@@ -6152,7 +6156,7 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G04-SCI-FOODCHAIN-L01"
+   "KR22-G04-SCI-WATERSTATE-L01"
   ],
   "file_stem": "초4_과학_생물과기체_02_기체의성질",
   "source": "lessons/G04_초4/SCI_과학/생물과기체/KR22-G04-SCI-AIR-L01.json",
@@ -6176,7 +6180,9 @@
   "objective": "기후변화의 생활 속 사례를 찾고 대응 행동을 제안한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SCI-AIR-L01"
+  ],
   "file_stem": "초4_과학_기후와생활_01_기후변화와생활",
   "source": "lessons/G04_초4/SCI_과학/기후와생활/KR22-G04-SCI-CLIMATE-L01.json",
   "status": "계획"
@@ -8081,7 +8087,9 @@
   "objective": "지층이 쌓이는 과정과 화석으로 과거 환경을 추리한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SCI-RIVER-L01"
+  ],
   "file_stem": "초5_과학_지층과빛_01_지층과화석",
   "source": "lessons/G05_초5/SCI_과학/지층과빛/KR22-G05-SCI-STRATA-L01.json",
   "status": "계획"
@@ -8106,7 +8114,7 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G05-SCI-STRATA-L01"
+   "KR22-G03-SCI-RECORD-L01"
   ],
   "file_stem": "초5_과학_지층과빛_02_빛의반사와굴절",
   "source": "lessons/G05_초5/SCI_과학/지층과빛/KR22-G05-SCI-LIGHT-L01.json",
@@ -8130,7 +8138,9 @@
   "objective": "용해 현상과 용액의 진하기를 비교한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SCI-WATERSTATE-L01"
+  ],
   "file_stem": "초5_과학_용액과분리_01_용해와용액",
   "source": "lessons/G05_초5/SCI_과학/용액과분리/KR22-G05-SCI-SOLUTION-L01.json",
   "status": "계획"
@@ -8154,7 +8164,8 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G05-SCI-SOLUTION-L01"
+   "KR22-G05-SCI-SOLUTION-L01",
+   "KR22-G04-SCI-MAGNET-L01"
   ],
   "file_stem": "초5_과학_용액과분리_02_혼합물의분리",
   "source": "lessons/G05_초5/SCI_과학/용액과분리/KR22-G05-SCI-SEPARATE-L01.json",
@@ -8178,7 +8189,9 @@
   "objective": "뼈·근육과 소화·순환·호흡·배설 기관의 구조와 기능을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-ANIMAL-L01"
+  ],
   "file_stem": "초5_과학_몸과건강_01_우리몸의기관",
   "source": "lessons/G05_초5/SCI_과학/몸과건강/KR22-G05-SCI-ORGANS-L01.json",
   "status": "계획"
@@ -8227,7 +8240,9 @@
   "objective": "습도·이슬·구름·비, 기압과 바람을 관찰하고 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SCI-WATERSTATE-L01"
+  ],
   "file_stem": "초5_과학_날씨열에너지_01_날씨요소",
   "source": "lessons/G05_초5/SCI_과학/날씨열에너지/KR22-G05-SCI-WEATHER-L01.json",
   "status": "계획"
@@ -10025,7 +10040,9 @@
   "objective": "지시약으로 산성·염기성 용액을 분류하고 성질을 비교한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G05-SCI-SOLUTION-L01"
+  ],
   "file_stem": "초6_과학_물질과운동_01_산과염기",
   "source": "lessons/G06_초6/SCI_과학/물질과운동/KR22-G06-SCI-ACIDBASE-L01.json",
   "status": "계획"
@@ -10050,7 +10067,7 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G06-SCI-ACIDBASE-L01"
+   "KR22-G04-SCI-AIR-L01"
   ],
   "file_stem": "초6_과학_물질과운동_02_연소와소화",
   "source": "lessons/G06_초6/SCI_과학/물질과운동/KR22-G06-SCI-BURN-L01.json",
@@ -10076,7 +10093,7 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G06-SCI-BURN-L01"
+   "KR22-G03-SCI-PUSHPULL-L01"
   ],
   "file_stem": "초6_과학_물질과운동_03_물체의빠르기",
   "source": "lessons/G06_초6/SCI_과학/물질과운동/KR22-G06-SCI-SPEED-L01.json",
@@ -10101,7 +10118,9 @@
   "objective": "뿌리·줄기·잎·꽃의 기능과 광합성의 기초를 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-PLANTLIFE-L01"
+  ],
   "file_stem": "초6_과학_식물과전기_01_식물의구조와기능",
   "source": "lessons/G06_초6/SCI_과학/식물과전기/KR22-G06-SCI-PLANTPART-L01.json",
   "status": "계획"
@@ -10126,7 +10145,7 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G06-SCI-PLANTPART-L01"
+   "KR22-G03-SCI-MATERIAL-L01"
   ],
   "file_stem": "초6_과학_식물과전기_02_전기회로",
   "source": "lessons/G06_초6/SCI_과학/식물과전기/KR22-G06-SCI-CIRCUIT-L01.json",
@@ -10152,7 +10171,8 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G06-SCI-CIRCUIT-L01"
+   "KR22-G06-SCI-CIRCUIT-L01",
+   "KR22-G04-SCI-MAGNET-L01"
   ],
   "file_stem": "초6_과학_식물과전기_03_전자석",
   "source": "lessons/G06_초6/SCI_과학/식물과전기/KR22-G06-SCI-ELECTROMAG-L01.json",
@@ -10176,7 +10196,9 @@
   "objective": "지구의 자전으로 낮과 밤, 하루 동안 태양·달의 움직임을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SCI-MOON-L01"
+  ],
   "file_stem": "초6_과학_지구와계절_01_자전과낮과밤",
   "source": "lessons/G06_초6/SCI_과학/지구와계절/KR22-G06-SCI-ROTATION-L01.json",
   "status": "계획"
@@ -10224,7 +10246,9 @@
   "objective": "탐구 질문·방법·결과·결론을 보고서로 정리한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-RECORD-L01"
+  ],
   "file_stem": "초6_과학_탐구와진로_01_탐구보고서",
   "source": "lessons/G06_초6/SCI_과학/탐구와진로/KR22-G06-SCI-REPORT-L01.json",
   "status": "계획"
