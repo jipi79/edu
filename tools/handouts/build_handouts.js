@@ -324,8 +324,8 @@ function guideHtml(L, thumbs) {
     </ul></div>
     <h2>오늘의 목표와 확인 방법</h2>
     ${L.objectives.map((o) => `<div class="box"><b>목표 ${esc(o.id)}</b> ${esc(o.text)}<br><b class="k">확인</b> ${esc(o.evidence)}<br><b class="k">성공 기준</b> ${esc(o.success)}</div>`).join("")}
-    <h2>먼저 알고 있어야 할 것</h2>
-    <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>
+    ${L.prerequisites.length ? `<h2>먼저 알고 있어야 할 것</h2>
+    <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>` : ""}
     ${supportLine(L)}
     <h2>자주 나오는 오해</h2>
     <table><tr><th style="width:45%">아이가 이렇게 생각하면</th><th>이렇게 도와주세요</th></tr>

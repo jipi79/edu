@@ -26,7 +26,13 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "오감으로 관찰하기",
+      "lesson": "KR22-G01-SCI-SENSES-L01",
+      "grade_item": "KR22-G01-SCI-I01"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

@@ -1066,7 +1066,9 @@
   "objective": "날씨와 주변 자연의 변화를 그림으로 기록한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G01-SCI-SENSES-L01"
+  ],
   "file_stem": "초1_과학_계절과자연_01_계절과날씨기록",
   "source": "lessons/G01_초1/SCI_과학/계절과자연/KR22-G01-SCI-SEASON-L01.json",
   "status": "제작 완료"
@@ -2385,7 +2387,9 @@
   "objective": "식물이 자라는 모습을 기록하고 변화를 비교한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G01-SCI-SEASON-L01"
+  ],
   "file_stem": "초2_과학_생물과변화_01_식물이자라는모습",
   "source": "lessons/G02_초2/SCI_과학/생물과변화/KR22-G02-SCI-GROW-L01.json",
   "status": "제작 완료"
@@ -2433,7 +2437,9 @@
   "objective": "현상을 예상하고 직접 관찰한 사실과 구별해 말한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G01-SCI-SENSES-L01"
+  ],
   "file_stem": "초2_과학_탐구의기초_01_예상과관찰",
   "source": "lessons/G02_초2/SCI_과학/탐구의기초/KR22-G02-SCI-PREDICT-L01.json",
   "status": "제작 완료"
@@ -2790,7 +2796,7 @@
   ],
   "file_stem": "초2_환경·생태_생활과환경_01_학교와마을의환경",
   "source": "lessons/G02_초2/ENV_환경·생태/생활과환경/KR22-G02-ENV-AROUND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-ENV-RECYCLE-L01",
