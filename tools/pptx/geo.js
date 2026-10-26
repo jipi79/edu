@@ -180,7 +180,7 @@ function geoPrims(fig, em) {
       out.push({ k: "text", at: add(at(fig, name), mul(nameDir(fig, name), 0.8 * em * big)), text: name, size: "label" });
     }
   }
-  for (const t of fig.texts || []) out.push({ k: "text", at: at(fig, t.at), text: t.text, size: t.size || "label", color: t.color, bold: t.bold, bg: !!t.bg });
+  for (const t of fig.texts || []) out.push({ k: "text", at: at(fig, t.at), text: t.text, size: t.size || "label", color: t.color, bold: t.bold, bg: !!t.bg, anchor: t.anchor });
   return out;
 }
 
@@ -307,14 +307,14 @@ function toSvg(fig, opts = {}) {
     } else if (q.k === "dot") {
       g += `<circle cx="${X(q.c)}" cy="${Y(q.c)}" r="${(q.color === "grid" ? 0.6 : 0.7 * q.size).toFixed(2)}" fill="${col(q.color)}"/>`;
     } else if (q.k === "text") {
-      const size = q.size === "tiny" || q.size === "tinier" ? Math.min(8, Math.max(5.5, s * 0.16)) * (q.size === "tinier" ? 0.88 : 1) : /^[\u3131-\u318E]+$/.test(String(q.text)) ? (opts.pt || 11) * 1.35 : opts.pt || 11;
+      const size = q.size === "tiny" || q.size === "tinier" ? Math.min(8, Math.max(5.5, s * 0.16)) * (q.size === "tinier" ? 0.88 : 1) : q.size === "small" ? (opts.pt || 11) * 0.8 : /^[\u3131-\u318E]+$/.test(String(q.text)) ? (opts.pt || 11) * 1.35 : opts.pt || 11;
       String(q.text).split("\n").forEach((line, i, all) => {
         const dy = (i - (all.length - 1) / 2) * size * 0.3528 * 1.2;
         if (q.bg) {
           const tw = String(line).length * 0.6 * size * 0.3528 + 0.6, th = size * 0.3528 * 1.05;
           g += `<rect x="${(Number(X(q.at)) - tw / 2).toFixed(2)}" y="${(Number(Y(q.at)) + dy - th / 2).toFixed(2)}" width="${tw.toFixed(2)}" height="${th.toFixed(2)}" fill="#FFFFFF"/>`;
         }
-        g += `<text x="${X(q.at)}" y="${(Number(Y(q.at)) + dy).toFixed(2)}" font-size="${(size * 0.3528).toFixed(2)}" text-anchor="middle" dominant-baseline="central" fill="${col(q.color)}" font-weight="${q.bold === false ? 400 : 700}">${String(line).replace(/&/g, "&amp;").replace(/</g, "&lt;")}</text>`;
+        g += `<text x="${X(q.at)}" y="${(Number(Y(q.at)) + dy).toFixed(2)}" font-size="${(size * 0.3528).toFixed(2)}" text-anchor="${q.anchor === "left" ? "start" : "middle"}" dominant-baseline="central" fill="${col(q.color)}" font-weight="${q.bold === false ? 400 : 700}">${String(line).replace(/&/g, "&amp;").replace(/</g, "&lt;")}</text>`;
       });
     }
   }

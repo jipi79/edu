@@ -289,7 +289,13 @@ const KINDS = {
     if (spec.criteria) {
       const [l, right] = split(r, 0.55);
       left = l;
-      deck.cardFit(slide, spec.id, right, { tone: "tint", title: spec.criteriaTitle || "이렇게 하면 잘한 거예요", items: spec.criteria.map((c) => `☐ ${c}`) });
+      const card = { tone: "tint", title: spec.criteriaTitle || "이렇게 하면 잘한 거예요", items: spec.criteria.map((c) => `☐ ${c}`) };
+      if (figureOf(spec)) {
+        // 그림과 관찰 기준을 함께: 오른쪽 위에 그림, 아래에 기준 카드
+        const ch = Math.min(right.h * 0.55, deck.cardHeight(card, right.w));
+        drawFigures(deck, slide, spec.id, figureOf(spec), { ...right, h: right.h - ch - GAP });
+        deck.cardFit(slide, spec.id, { ...right, y: right.y + right.h - ch, h: ch }, card);
+      } else deck.cardFit(slide, spec.id, right, card);
     } else if (figureOf(spec)) {
       const [l, right] = split(r, 0.55);
       left = l;

@@ -661,13 +661,15 @@ function coords(deck, slide, sid, fig, box) {
       slide.addShape(deck.pres.shapes.OVAL, { x: cx - d / 2, y: cy - d / 2, w: d, h: d, fill: { color: GEO_LINE[q.color] || INK }, line: { color: GEO_LINE[q.color] || INK, width: 0 }, objectName: name });
     } else if (q.k === "text") {
       // 낱자(ㄱ, ㄴ)로 된 점 이름은 글꼴에서 작게 그려지므로 크게 쓴다.
-      const size = q.size === "tiny" ? tiny : q.size === "tinier" ? tinier : /^[\u3131-\u318E]+$/.test(String(q.text)) ? Math.round(pt * 1.35) : pt;
+      const size = q.size === "tiny" ? tiny : q.size === "tinier" ? tinier : q.size === "small" ? Math.round(pt * 0.8) : /^[\u3131-\u318E]+$/.test(String(q.text)) ? Math.round(pt * 1.35) : pt;
       const lines = String(q.text).split("\n");
       const w = Math.max(...lines.map((l) => widthIn(l, size))) + 0.12;
       const h = (size * 1.25 * lines.length) / 72;
-      const [cx, cy] = map(q.at);
+      const [cx0, cy] = map(q.at);
+      // anchor "left": 점에서 오른쪽으로 쓴다(범례 글자 등)
+      const cx = q.anchor === "left" ? cx0 + w / 2 : cx0;
       if (q.bg) slide.addShape(deck.pres.shapes.RECTANGLE, { x: cx - (w - 0.1) / 2, y: cy - (h * 0.8) / 2, w: w - 0.1, h: h * 0.8, fill: { color: P.lt1 }, line: { type: "none" }, objectName: deck.name(sid, "labelbg") });
-      label(deck, slide, sid, q.text, cx - w / 2, cy - h / 2, w, h, size, { color: q.color === "onFill" ? "ink" : q.color, bold: q.bold });
+      label(deck, slide, sid, q.text, cx - w / 2, cy - h / 2, w, h, size, { color: q.color === "onFill" ? "ink" : q.color, bold: q.bold, align: q.anchor === "left" ? "left" : "center" });
     }
   }
   if (main) deck.alt.set(main, fig.alt || { geo: "도형", ruler: "자", protractor: "각도기" }[fig.type]);

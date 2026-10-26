@@ -994,7 +994,7 @@
   "pre": [],
   "file_stem": "초1_도덕·윤리_책임과돌봄_01_맡은일과배려",
   "source": "lessons/G01_초1/ETH_도덕·윤리/책임과돌봄/KR22-G01-ETH-CARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-SCI-SENSES-L01",
@@ -1090,7 +1090,7 @@
   "pre": [],
   "file_stem": "초1_기술·가정_생활자립_01_내물건정리와집안일",
   "source": "lessons/G01_초1/TEC_기술·가정/생활자립/KR22-G01-TEC-TIDY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-TEC-MAKE-L01",
@@ -1231,7 +1231,7 @@
   "pre": [],
   "file_stem": "초1_체육·보건·안전_움직임_01_걷기·달리기·균형놀이",
   "source": "lessons/G01_초1/PHE_체육·보건·안전/움직임/KR22-G01-PHE-MOVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-PHE-HANDWASH-L01",
@@ -1256,7 +1256,7 @@
   "pre": [],
   "file_stem": "초1_체육·보건·안전_몸과마음_01_손씻기와몸의경계",
   "source": "lessons/G01_초1/PHE_체육·보건·안전/몸과마음/KR22-G01-PHE-HANDWASH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-PHE-SAFEWAY-L01",
@@ -1373,7 +1373,7 @@
   "pre": [],
   "file_stem": "초1_진로·직업_작은목표_01_하루목표",
   "source": "lessons/G01_초1/CAR_진로·직업/작은목표/KR22-G01-CAR-GOAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-ENV-NATURE-L01",
@@ -1397,7 +1397,7 @@
   "pre": [],
   "file_stem": "초1_환경·생태_자연만나기_01_주변생물관찰과보호",
   "source": "lessons/G01_초1/ENV_환경·생태/자연만나기/KR22-G01-ENV-NATURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-ENV-SAVE-L01",
@@ -5666,7 +5666,9 @@
   "objective": "지도의 기호·방위·축척·등고선을 이해하고 지도를 읽는다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SOC-SYMBOLS-L01"
+  ],
   "file_stem": "초4_사회·역사_지도와지역_01_지도읽기",
   "source": "lessons/G04_초4/SOC_사회·역사/지도와지역/KR22-G04-SOC-MAP-L01.json",
   "status": "제작 완료"
@@ -5715,7 +5717,9 @@
   "objective": "지역의 문화유산을 조사하고 의미를 말한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SOC-TOOLS-L01"
+  ],
   "file_stem": "초4_사회·역사_지역사와유산_01_지역의문화유산",
   "source": "lessons/G04_초4/SOC_사회·역사/지역사와유산/KR22-G04-SOC-HERITAGE-L01.json",
   "status": "제작 완료"
@@ -5764,10 +5768,12 @@
   "objective": "자원의 희소성 때문에 선택이 필요함을 생활 사례로 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SOC-EXCHANGE-L01"
+  ],
   "file_stem": "초4_사회·역사_경제와참여_01_필요와선택",
   "source": "lessons/G04_초4/SOC_사회·역사/경제와참여/KR22-G04-SOC-SCARCITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-TRADE-L01",
@@ -5939,7 +5945,7 @@
   ],
   "file_stem": "초4_과학_자석과상태변화_02_물의상태변화",
   "source": "lessons/G04_초4/SCI_과학/자석과상태변화/KR22-G04-SCI-WATERSTATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-RIVER-L01",

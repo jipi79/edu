@@ -208,6 +208,8 @@ class Deck {
     if (!pt) {
       pt = sizes[sizes.length - 1];
       this.problems.push(`${sid}: 지문이 넘친다. 지문을 줄이거나 두 장으로 나눈다`);
+    } else if (pt < s.small - 2) {
+      this.problems.push(`${sid}: 지문이 ${pt}pt로 작아진다(이 학년은 ${s.small - 2}pt 이상). 지문을 줄이거나 두 장으로 나눈다`);
     }
     const list = build(pt);
     slide.addText(list.map((p, i) => ({ text: p.text, options: { fontSize: p.pt, bold: !!title && i === 0, align: p.align || "left", breakLine: i < list.length - 1 } })), textOpts({
