@@ -185,7 +185,8 @@
             "label": "tomorrow",
             "sub": "내일 · 계획"
           }
-        ]
+        ],
+        "size": 30
       },
       "key": "this weekend(이번 주말)도 앞으로의 일이에요. 계획을 말할 때 써요.",
       "notes": {
@@ -404,7 +405,7 @@
           "text": "I visited the museum yesterday."
         }
       ],
-      "hint": "지난 일: yesterday, -ed　·　계획: tomorrow, this weekend, going to",
+      "hint": "지난 일: yesterday, -ed　·　계획: tomorrow, this weekend, going to",
       "notes": {
         "목적": "때를 나타내는 말과 동사 모양을 단서로 지난 일과 앞으로의 계획을 구별합니다(M3).",
         "시간": "약 4분",
