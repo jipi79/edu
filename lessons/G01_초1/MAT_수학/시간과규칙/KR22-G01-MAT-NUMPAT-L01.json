@@ -1012,7 +1012,7 @@
       "purpose": "선수 학습 보충(1 큰 수, 10 큰 수)",
       "role": "support",
       "objectives": [],
-      "title": "보충: 1 큰 수, 10 큰 수",
+      "title": "보충: 묶음과 낱개",
       "figures": [
         {
           "type": "blocks10",

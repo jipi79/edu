@@ -1378,7 +1378,7 @@
       "purpose": "선수 학습 보충(짝 지어 비교하고 말하기)",
       "role": "support",
       "objectives": [],
-      "title": "보충: 어느 쪽이 더 많을까?",
+      "title": "보충: 더 많은 쪽은?",
       "figures": [
         {
           "type": "array",
