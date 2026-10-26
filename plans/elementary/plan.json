@@ -942,7 +942,8 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G01-SOC-FAMILY-L01"
+   "KR22-G01-SOC-FAMILY-L01",
+   "KR22-G01-MAT-CLOCK-L01"
   ],
   "file_stem": "초1_사회·역사_가족과생활_02_나의하루",
   "source": "lessons/G01_초1/SOC_사회·역사/가족과생활/KR22-G01-SOC-MYDAY-L01.json",
@@ -1019,7 +1020,7 @@
   "pre": [],
   "file_stem": "초1_과학_관찰과분류_01_오감으로관찰하기",
   "source": "lessons/G01_초1/SCI_과학/관찰과분류/KR22-G01-SCI-SENSES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-SCI-SORT-L01",
@@ -1044,7 +1045,7 @@
   ],
   "file_stem": "초1_과학_관찰과분류_02_한가지기준으로나누기",
   "source": "lessons/G01_초1/SCI_과학/관찰과분류/KR22-G01-SCI-SORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-SCI-SEASON-L01",
@@ -1068,7 +1069,7 @@
   "pre": [],
   "file_stem": "초1_과학_계절과자연_01_계절과날씨기록",
   "source": "lessons/G01_초1/SCI_과학/계절과자연/KR22-G01-SCI-SEASON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-TEC-TIDY-L01",
@@ -2283,7 +2284,7 @@
   "pre": [],
   "file_stem": "초2_사회·역사_변화와다양성_01_옛날과오늘",
   "source": "lessons/G02_초2/SOC_사회·역사/변화와다양성/KR22-G02-SOC-PAST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SOC-DIVERSE-L01",
@@ -2309,7 +2310,7 @@
   ],
   "file_stem": "초2_사회·역사_변화와다양성_02_서로다른생활",
   "source": "lessons/G02_초2/SOC_사회·역사/변화와다양성/KR22-G02-SOC-DIVERSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-ETH-HONEST-L01",
@@ -2383,7 +2384,7 @@
   "pre": [],
   "file_stem": "초2_과학_생물과변화_01_식물이자라는모습",
   "source": "lessons/G02_초2/SCI_과학/생물과변화/KR22-G02-SCI-GROW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SCI-SEASONLIFE-L01",
@@ -2608,7 +2609,7 @@
   ],
   "file_stem": "초2_체육·보건·안전_놀이와협력_01_규칙있는놀이",
   "source": "lessons/G02_초2/PHE_체육·보건·안전/놀이와협력/KR22-G02-PHE-PLAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-PHE-HABITS-L01",
@@ -2634,7 +2635,7 @@
   ],
   "file_stem": "초2_체육·보건·안전_건강과감정_01_식사·수면·위생습관",
   "source": "lessons/G02_초2/PHE_체육·보건·안전/건강과감정/KR22-G02-PHE-HABITS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-PHE-SAYNO-L01",
@@ -6075,7 +6076,7 @@
   ],
   "file_stem": "초4_과학_땅과밤하늘_02_달의모양변화",
   "source": "lessons/G04_초4/SCI_과학/땅과밤하늘/KR22-G04-SCI-MOON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-PLANETS-L01",
@@ -6101,7 +6102,7 @@
   ],
   "file_stem": "초4_과학_땅과밤하늘_03_태양계",
   "source": "lessons/G04_초4/SCI_과학/땅과밤하늘/KR22-G04-SCI-PLANETS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-FOODCHAIN-L01",
@@ -7696,7 +7697,7 @@
   "pre": [],
   "file_stem": "초5_사회·역사_국토와생활_01_우리나라의위치와영역",
   "source": "lessons/G05_초5/SOC_사회·역사/국토와생활/KR22-G05-SOC-TERRITORY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-NATURE-L01",
@@ -7881,7 +7882,7 @@
   ],
   "file_stem": "초5_사회·역사_역사와생활_05_개항과일제강점기",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-COLONIAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-LIBERATION-L01",
@@ -7908,7 +7909,7 @@
   ],
   "file_stem": "초5_사회·역사_역사와생활_06_광복과6·25전쟁",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-LIBERATION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-RIGHTS-L01",
