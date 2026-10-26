@@ -199,6 +199,19 @@ function bondSvg(b, d = 13) {
   return `<svg width="${W}mm" height="${H}mm" viewBox="0 0 ${W} ${H}">${g}</svg>`;
 }
 
+// 영어 네 줄 공책: 위에서 셋째 줄이 기준선(주황). trace 글은 흐린 글씨로 따라 쓰고, blank 줄은 빈 칸으로 쓴다.
+function engLinesHtml(e) {
+  const h = e.height || 15, w = 165;
+  const rows = [...[].concat(e.trace || []), ...Array.from({ length: e.blank || 0 }, () => "")];
+  const row = (t) => {
+    const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
+    const lines = ys.map((y, i) => `<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
+    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.82 * h).toFixed(2)}" fill="#C9CED6">${esc(t)}</text>` : "";
+    return `<svg lang="en" width="${w}mm" height="${h}mm" viewBox="0 0 ${w} ${h}" style="display:block; margin:0 0 5mm 9.5mm">${lines}${text}</svg>`;
+  };
+  return `<div style="margin-top:2mm">${rows.map(row).join("")}</div>`;
+}
+
 function figureHtml(it) {
   const parts = [];
   if (it.clock) parts.push(...[].concat(it.clock).map((c) => clockSvg(c)));
@@ -224,7 +237,12 @@ function worksheetHtml(L) {
     if (it.read) h += `<div class="box" style="margin-left:9.5mm; font-size:13pt">${esc(it.read).replace(/\n/g, "<br>")}</div>`;
     h += figureHtml(it);
     if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:12pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
-    if (it.big) h += `<div style="margin:2mm 0 0 9.5mm; font-size:${it.big_size || 26}pt; letter-spacing:4mm; font-weight:700; white-space:pre-wrap">${jamo(esc(it.big))}</div>`;
+    if (it.big) {
+      // 한글 낱자는 넓게 띄우고, 영어 낱말은 글자를 붙여 쓴다.
+      const spacing = it.big_spacing ?? (/[가-힯ㄱ-ㆎ]/.test(it.big) ? 4 : 0.5);
+      h += `<div style="margin:2mm 0 0 9.5mm; font-size:${it.big_size || 26}pt; letter-spacing:${spacing}mm; font-weight:700; white-space:pre-wrap">${jamo(esc(it.big))}</div>`;
+    }
+    if (it.eng) h += engLinesHtml(it.eng);
     if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
     if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;
     if (it.box) h += `<div style="margin:2mm 0 0 9.5mm; height:${it.box}mm; border:1.2px dashed #9CA3AF; border-radius:2mm"></div>`;

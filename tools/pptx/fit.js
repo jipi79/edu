@@ -5,9 +5,12 @@ const HANGUL = /[ᄀ-ᇿ㄰-㆏가-힯一-鿿　-〿＀-￯①-⑳○●□■�
 
 function charEm(ch) {
   if (HANGUL.test(ch)) return 0.98;
-  if (ch === " ") return 0.3;
-  if (/[A-Z0-9]/.test(ch)) return 0.64;
-  if (/[a-z]/.test(ch)) return 0.55;
+  // 줄바꿈하지 않는 공백(U+00A0)은 공백 폭이지만 어절을 나누지 않는다(영어 표현을 한 줄에 묶을 때).
+  if (ch === " " || ch === "\u00a0") return 0.3;
+  if (/[MW]/.test(ch)) return 0.92;
+  if (/[mw]/.test(ch)) return 0.82;
+  if (/[A-Z0-9]/.test(ch)) return 0.66;
+  if (/[a-z]/.test(ch)) return 0.56;
   // 문장 부호·괄호는 한글 옆에서 LibreOffice가 앞뒤 간격을 더 넣어 그린다.
   if (/[.,?!:;()[\]"'“”‘’]/.test(ch)) return 0.6;
   return 0.42;

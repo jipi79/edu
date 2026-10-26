@@ -512,6 +512,11 @@ async function finalize(file, alt) {
     let xml = await zip.file(part).async("string");
     // 한글 낱말이 중간에서 끊기지 않게(어절 단위 줄바꿈) 한다. 글 맞춤 계산도 어절 단위다.
     xml = xml.replace(/<a:pPr(?![^>]*eaLnBrk)/g, '<a:pPr eaLnBrk="0"').replace(/<a:p>(?!<a:pPr)/g, '<a:p><a:pPr eaLnBrk="0"/>');
+    // 한글 없이 영어로만 된 글은 영어로 표시해 맞춤법 검사·읽어 주기가 영어로 동작하게 한다.
+    xml = xml.replace(/<a:rPr lang="ko-KR"([^>]*)>((?:(?!<\/a:rPr>)[\s\S])*)<\/a:rPr><a:t>([^<]*)<\/a:t>/g, (m, attrs, inner, t) =>
+      /[A-Za-z]/.test(t) && !/[\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]/.test(t)
+        ? `<a:rPr lang="en-US"${attrs.replace(/altLang="[^"]*"/, 'altLang="ko-KR"')}>${inner}</a:rPr><a:t>${t}</a:t>`
+        : m);
     for (const [name, text] of alt) {
       xml = xml.replace(`name="${name}">`, `name="${name}" descr="${escapeXml(text)}">`);
     }
