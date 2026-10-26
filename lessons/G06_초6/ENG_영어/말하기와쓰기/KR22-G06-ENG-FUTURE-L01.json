@@ -39,7 +39,7 @@
       "id": "A",
       "text": "I'm going to + 동사의 기본 모양 ~.으로 내일(tomorrow)이나 이번 주말(this weekend)의 계획을 말하고 쓴다.",
       "evidence": "I'm going to 익히기(S04), 계획 말하기(S06), played·play 비교(S07), 주말 계획 인터뷰(S09), 혼자 해 보기(S10 ①③), 마무리 확인(S12), 활동지 2·4·5",
-      "success": "계획 문장 4개 가운데 3개 이상을 am(’m)을 빠뜨리지 않고 going to 다음에 기본 모양을 써서 말하거나 쓰며, 틀린 문장에서 틀린 곳(played, plays, I going)을 찾는다."
+      "success": "계획 문장 4개 가운데 3개 이상을 am('m)을 빠뜨리지 않고 going to 다음에 기본 모양을 써서 말하거나 쓰며, 틀린 문장에서 틀린 곳(played, plays, I going)을 찾는다."
     },
     {
       "id": "B",
@@ -63,7 +63,7 @@
     },
     {
       "id": "M2",
-      "text": "am(’m)을 빼고 I going to ~.라고 말하거나 쓴다.",
+      "text": "am('m)을 빼고 I going to ~.라고 말하거나 쓴다.",
       "response": "I'm going to를 한 덩어리로 소리 내어 연습하고, 따라 쓰기에서 I'm의 아포스트로피를 확인한다(S04, S11, S12, 활동지 4)."
     },
     {
@@ -254,7 +254,7 @@
           "동사가 떠오르지 않으면 카드의 read, play, visit 가운데 고르게 합니다."
         ],
         "주의": [
-          "I'm의 아포스트로피(')는 am의 a가 빠진 자리라는 표시입니다. I going to처럼 am(’m)을 빼지 않게 합니다(M2).",
+          "I'm의 아포스트로피(')는 am의 a가 빠진 자리라는 표시입니다. I going to처럼 am('m)을 빼지 않게 합니다(M2).",
           "때를 나타내는 말(tomorrow, this weekend)은 보통 문장 끝에 붙입니다."
         ]
       }
@@ -544,7 +544,7 @@
       "bad": [
         {
           "text": "I going to swim.",
-          "note": "am(’m)이 빠짐"
+          "note": "am('m)이 빠짐"
         },
         {
           "text": "going to swimming",
@@ -601,7 +601,7 @@
         ],
         "정답": [
           "다. I'm going to play tennis tomorrow.",
-          "가는 plays → play, 나는 I 다음에 am(’m)이 빠짐, 라는 played → play로 고쳐야 합니다."
+          "가는 plays → play, 나는 I 다음에 am('m)이 빠짐, 라는 played → play로 고쳐야 합니다."
         ],
         "막히면": [
           "I'm이 있는지, going to 다음 낱말이 기본 모양인지 두 가지만 차례로 확인하게 합니다."
@@ -778,7 +778,7 @@
         "eng": {
           "blank": 2
         },
-        "answer": "I'm going to + 기본 모양 ~.으로 두 문장을 쓰면 맞습니다. am(’m)을 빼지 않았는지, going to 다음에 -ed, -s, -ing를 붙이지 않았는지 봅니다. 동사 철자는 부모가 알려 주어도 됩니다."
+        "answer": "I'm going to + 기본 모양 ~.으로 두 문장을 쓰면 맞습니다. am('m)을 빼지 않았는지, going to 다음에 -ed, -s, -ing를 붙이지 않았는지 봅니다. 동사 철자는 부모가 알려 주어도 됩니다."
       },
       {
         "no": 6,

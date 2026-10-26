@@ -259,7 +259,7 @@ function worksheetHtml(L) {
     if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:${it.choices_size || 12}pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
     if (it.big) {
       // 한글 낱자는 넓게 띄우고, 영어 낱말은 글자를 붙여 쓴다.
-      const spacing = it.big_spacing ?? (/[가-힯ㄱ-ㆎ]/.test(it.big) ? 4 : 0.5);
+      const spacing = it.big_spacing ?? (/^[\s가-힯ㄱ-ㆎ　]+$/.test(it.big) ? 4 : 0.5);
       h += `<div style="margin:2mm 0 0 9.5mm; font-size:${it.big_size || 26}pt; letter-spacing:${spacing}mm; font-weight:700; white-space:pre-wrap">${jamo(esc(it.big))}</div>`;
     }
     if (it.eng) h += engLinesHtml(it.eng);

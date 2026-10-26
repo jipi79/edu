@@ -48,7 +48,7 @@
 - PAST | 지난 일 말하기 | I visited ~. 처럼 과거형으로 지난 일을 말한다.
 - BECAUSE | 좋아하는 것과 이유 | I like ~ because ~. 로 좋아하는 것과 이유를 말한다. | pre G04-ENG-ILIKE
 @ ENG-I03 | 상호작용과문화 | 3.4.1 3.5.1
-- DIRECTION | 길 묻고 안내하기 | Where is ~? Go straight. Turn left. 로 길을 묻고 안내한다.
+- DIRECTION | 길 묻고 안내하기 | Where is ~? Go straight. Turn left. 로 길을 묻고 안내한다. | pre G04-ENG-WHERE
 - SHOPPING | 물건 사기 | How much is it? It's ~ won. 으로 값을 묻고 답한다.
 - HOLIDAYS | 명절과 문화 | 여러 나라의 명절을 비교하고 차이를 존중한다.
 @ SOC-I01 | 국토와생활 | 4.2.2 4.2.3
