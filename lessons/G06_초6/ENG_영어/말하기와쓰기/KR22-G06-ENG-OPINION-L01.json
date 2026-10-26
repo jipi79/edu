@@ -164,7 +164,7 @@
       "objectives": [
         "A"
       ],
-      "title": "I think ~.",
+      "title": "I think로 의견 말하기",
       "figure": {
         "type": "words",
         "items": [
@@ -305,7 +305,22 @@
           "text": "I think books are great because ______."
         }
       ],
-      "hint": "보기:　they are soft.　·　I can play soccer.　·　I can learn new things.",
+      "aidTitle": "보기",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "they are soft."
+          },
+          {
+            "word": "I can play soccer."
+          },
+          {
+            "word": "I can learn new things."
+          }
+        ],
+        "perRow": 1
+      },
       "notes": {
         "목적": "의견에 어울리는 까닭을 골라 because로 이어 한 문장으로 말합니다.",
         "시간": "약 3분",
@@ -541,7 +556,7 @@
           "text": "① … because they\nare friendly."
         },
         {
-          "text": "② I think the library is great\nbecause I can read many books."
+          "text": "② I think the library\nis great because …"
         },
         {
           "text": "③ I think spring is great\nbecause I can see flowers."
