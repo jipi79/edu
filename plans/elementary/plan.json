@@ -7781,7 +7781,9 @@
   "objective": "유물로 선사 시대 생활을 추론하고 고조선의 성립을 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SOC-LOCALHIST-L01"
+  ],
   "file_stem": "초5_사회·역사_역사와생활_01_선사시대와고조선",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-PREHIST-L01.json",
   "status": "제작 완료"
@@ -7943,7 +7945,7 @@
   "pre": [],
   "file_stem": "초5_사회·역사_권리와생활_01_인권",
   "source": "lessons/G05_초5/SOC_사회·역사/권리와생활/KR22-G05-SOC-RIGHTS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-LAW-L01",
