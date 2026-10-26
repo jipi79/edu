@@ -139,10 +139,10 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 |---|---|
 | `eq` / `eqs` | 식(빈칸 있는 분수 포함) 하나 / 여러 개 |
 | `bars` | 분수 막대 [ {parts, shaded, label?} ] |
-| `clock`, `numberline`, `grid`, `array`, `pie`, `table`, `tenframe`, `bond` | 그림(시계는 h 없이 주면 아이가 바늘을 그린다, bond의 null은 빈 동그라미) |
+| `clock`, `numberline`, `grid`, `array`, `pie`, `table`(`size`? pt), `tenframe`, `bond` | 그림(시계는 h 없이 주면 아이가 바늘을 그린다, bond의 null은 빈 동그라미) |
 | `read` | 읽을 글(상자) |
 | `choices` | 고르기 보기(☐) |
-| `big` | 큰 글자(따라 쓰기 낱말 등) |
+| `big`, `big_size`? | 큰 글자(따라 쓰기 낱말 등, 기본 26pt). 낱말 사이는 전각 공백(　)으로 띄운다 |
 | `lines` / `line_label` | 쓰기 줄 수 / 줄 앞 안내 |
 | `box` | 그리기 칸 높이(mm) |
 | `new_page`, `heading` | 새 쪽에서 시작, 쪽 제목(예: "다음 수업을 시작할 때") |

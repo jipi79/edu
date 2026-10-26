@@ -309,8 +309,10 @@ function table(deck, slide, sid, fig, box) {
   while (pt > 16 && rows * rowH() > box.h) pt -= 2;
   const w = Math.min(box.w, fig.width || Math.max(cols * 1.8, 4));
   const colW = fig.widths ? fig.widths.map((f) => w * f) : Array.from({ length: cols }, () => w / cols);
+  // 낱자(ㄱ, ㅏ 같은 호환용 자모)는 글꼴에서 작게 그려지므로 크게 쓴다
+  const JAMO = /^[\u3131-\u318E]+$/;
   const cell = (t, head) => ({
-    text: String(t), options: { bold: !!head, fill: { color: head ? P.lt2 : P.lt1 }, color: INK, align: fig.align || "center", valign: "middle", fontFace: deck.font, fontSize: pt },
+    text: String(t), options: { bold: !!head, fill: { color: head ? P.lt2 : P.lt1 }, color: INK, align: fig.align || "center", valign: "middle", fontFace: deck.font, fontSize: JAMO.test(String(t)) ? Math.round(pt * 1.4) : pt },
   });
   // 칸마다 글이 들어가는지 본다(칸 높이에 두 줄까지)
   const allRows = [...(fig.headers ? [fig.headers] : []), ...fig.rows];
@@ -346,15 +348,15 @@ function clock(deck, slide, sid, fig, box) {
   const pt = Math.max(12, Math.round(r * 15));
   for (let k = 1; k <= 12; k++) {
     const a = (k * 30 * Math.PI) / 180;
-    const lr = r * 0.74;
+    const lr = r * 0.79;
     label(deck, slide, sid, k, cx + Math.sin(a) * lr - 0.3, cy - Math.cos(a) * lr - 0.2, 0.6, 0.4, pt);
   }
   if (fig.h !== undefined) {
     const m = fig.m || 0;
     const ha = (((fig.h % 12) + m / 60) * 30 * Math.PI) / 180;
     const ma = (m * 6 * Math.PI) / 180;
-    segment(deck, slide, sid, cx, cy, cx + Math.sin(ha) * r * 0.5, cy - Math.cos(ha) * r * 0.5, { color: P.accent3, width: 7 });
-    segment(deck, slide, sid, cx, cy, cx + Math.sin(ma) * r * 0.78, cy - Math.cos(ma) * r * 0.78, { color: INK, width: 4 });
+    segment(deck, slide, sid, cx, cy, cx + Math.sin(ha) * r * 0.44, cy - Math.cos(ha) * r * 0.44, { color: P.accent3, width: 7 });
+    segment(deck, slide, sid, cx, cy, cx + Math.sin(ma) * r * 0.64, cy - Math.cos(ma) * r * 0.64, { color: INK, width: 4 });
   }
   const dot = 0.12;
   slide.addShape(deck.pres.shapes.OVAL, { x: cx - dot / 2, y: cy - dot / 2, w: dot, h: dot, fill: { color: INK }, line: { color: INK, width: 0 }, objectName: deck.name(sid, "pin") });

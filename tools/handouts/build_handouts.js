@@ -26,7 +26,8 @@ const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 const CSS = `
   @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
   * { box-sizing: border-box; }
-  body { font-family: "Malgun Gothic", "맑은 고딕", "NanumGothic", sans-serif; color: #1F2937; font-size: 11pt; line-height: 1.55; margin: 0; }
+  body { font-family: "Malgun Gothic", "맑은 고딕", "NanumGothic", sans-serif; color: #1F2937; font-size: 11pt; line-height: 1.55; margin: 0; word-break: keep-all; }
+  .jamo { font-size: 1.45em; }
   h1 { font-size: 20pt; margin: 0 0 2mm; }
   h2 { font-size: 13.5pt; margin: 7mm 0 2.5mm; color: #264653; }
   .sub { color: #4B5563; font-size: 10pt; margin-bottom: 5mm; }
@@ -150,10 +151,15 @@ function pieSvg(pc, d = 36) {
   return `<svg width="${d}mm" height="${d}mm" viewBox="0 0 ${d} ${d}">${g}</svg>`;
 }
 
+// 낱자(ㄱ, ㅏ)는 글꼴에서 작게 그려지므로 키운다
+function jamo(html) {
+  return html.replace(/[\u3131-\u318E]+/g, (m) => `<span class="jamo">${m}</span>`);
+}
+
 function tableHtml(t) {
-  const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr>` : "";
-  const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td style="height:9mm; min-width:18mm; text-align:center">${esc(c)}</td>`).join("")}</tr>`).join("");
-  return `<table style="width:auto; min-width:90mm; font-size:11.5pt">${head}${rows}</table>`;
+  const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${jamo(esc(h))}</th>`).join("")}</tr>` : "";
+  const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td style="height:9mm; min-width:18mm; text-align:center">${jamo(esc(c))}</td>`).join("")}</tr>`).join("");
+  return `<table style="width:auto; min-width:90mm; font-size:${t.size || 11.5}pt">${head}${rows}</table>`;
 }
 
 
@@ -212,7 +218,7 @@ function worksheetHtml(L) {
     if (it.read) h += `<div class="box" style="margin-left:9.5mm; font-size:13pt">${esc(it.read).replace(/\n/g, "<br>")}</div>`;
     h += figureHtml(it);
     if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:12pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
-    if (it.big) h += `<div style="margin:2mm 0 0 9.5mm; font-size:26pt; letter-spacing:4mm; font-weight:700">${esc(it.big)}</div>`;
+    if (it.big) h += `<div style="margin:2mm 0 0 9.5mm; font-size:${it.big_size || 26}pt; letter-spacing:4mm; font-weight:700; white-space:pre-wrap">${jamo(esc(it.big))}</div>`;
     if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
     if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;
     if (it.box) h += `<div style="margin:2mm 0 0 9.5mm; height:${it.box}mm; border:1.2px dashed #9CA3AF; border-radius:2mm"></div>`;

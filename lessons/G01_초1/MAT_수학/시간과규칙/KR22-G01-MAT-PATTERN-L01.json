@@ -29,9 +29,9 @@
   },
   "prerequisites": [
     {
-      "text": "몇 시와 몇 시 30분",
-      "lesson": "KR22-G01-MAT-CLOCK-L01",
-      "grade_item": "KR22-G01-MAT-I03"
+      "text": "네모·세모·동그라미 모양",
+      "lesson": "KR22-G01-MAT-SHAPE2D-L01",
+      "grade_item": "KR22-G01-MAT-I02"
     }
   ],
   "objectives": [

@@ -69,7 +69,7 @@ function problem(deck, slide, sid, p, box, label) {
   deck.chip(slide, sid, { x: box.x, y: box.y + (box.h - chip) / 2, w: chip, h: chip, text: p.label || label, tone: "label", size: "small" });
   const inner = { x: box.x + chip + 0.25, y: box.y, w: box.w - chip - 0.25, h: box.h };
   if (p.eq) drawFigures(deck, slide, sid, { type: "eq", items: p.eq, align: "left", size: p.size }, inner);
-  else if (p.figure) drawFigures(deck, slide, sid, p.figure, { ...inner, w: Math.min(inner.w, 4.6) });
+  else if (p.figure) drawFigures(deck, slide, sid, p.figure, { ...inner, w: Math.min(inner.w, p.wide ? inner.w : 6) });
   if (p.text) {
     if (p.eq || p.figure) deck.problems.push(`${sid}: 문제에는 eq·figure·text 중 하나만 쓴다`);
     deck.para(slide, sid, p.text, inner, { sizes: [deck.style.body, deck.style.small], valign: "middle" });
@@ -166,7 +166,8 @@ const KINDS = {
     probs.forEach((p, i) => {
       const c = cols === 1 ? 0 : i % cols;
       const row = cols === 1 ? i : Math.floor(i / cols);
-      problem(deck, slide, spec.id, p, { x: box.x + c * (cw + 0.4), y: box.y + row * (rh + 0.2), w: cw, h: Math.min(rh, 1.6) }, LABELS[i]);
+      // 그림 문제는 칸 높이를 다 쓰고, 글·식 문제는 1.6in까지만 쓴다
+      problem(deck, slide, spec.id, p, { x: box.x + c * (cw + 0.4), y: box.y + row * (rh + 0.2), w: cw, h: p.figure ? rh : Math.min(rh, 1.6) }, LABELS[i]);
     });
   },
 

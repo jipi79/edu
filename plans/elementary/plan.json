@@ -739,9 +739,7 @@
   "objective": "한쪽 끝을 맞추어 길이·높이를 비교하고 비교하는 말로 나타낸다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [
-   "KR22-G01-MAT-SHAPE2D-L01"
-  ],
+  "pre": [],
   "file_stem": "초1_수학_모양과비교_03_길이와높이비교",
   "source": "lessons/G01_초1/MAT_수학/모양과비교/KR22-G01-MAT-LENGTH-L01.json",
   "status": "제작 완료"
@@ -790,7 +788,9 @@
   "objective": "시계를 보고 몇 시, 몇 시 30분을 읽고 시곗바늘로 나타낸다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G01-MAT-NUM50-L01"
+  ],
   "file_stem": "초1_수학_시간과규칙_01_몇시와몇시30분",
   "source": "lessons/G01_초1/MAT_수학/시간과규칙/KR22-G01-MAT-CLOCK-L01.json",
   "status": "제작 완료"
@@ -815,7 +815,7 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G01-MAT-CLOCK-L01"
+   "KR22-G01-MAT-SHAPE2D-L01"
   ],
   "file_stem": "초1_수학_시간과규칙_02_규칙찾기",
   "source": "lessons/G01_초1/MAT_수학/시간과규칙/KR22-G01-MAT-PATTERN-L01.json",
@@ -2093,7 +2093,7 @@
    "2.4.1"
   ],
   "title": "시각과 시간",
-  "objective": "몇 시 몇 분을 읽고 1시간=60분, 하루·달력을 생활에 쓴다.",
+  "objective": "몇 시 몇 분을 읽고 1시간=60분, 하루=24시간을 생활에 쓴다.",
   "format": "ppt",
   "priority": 1,
   "pre": [
@@ -2103,6 +2103,31 @@
   "file_stem": "초2_수학_도형과측정_05_시각과시간",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-TIME-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G02-MAT-CALENDAR-L01",
+  "concept_id": "MAT-CALENDAR",
+  "grade": "G02",
+  "grade_label": "초2",
+  "band": "E12",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G02-MAT-I02",
+  "folder": "도형과측정",
+  "sequence": 6,
+  "units": [
+   "2.4.1"
+  ],
+  "title": "달력 보기",
+  "objective": "1주일=7일, 1년=12개월을 알고 달력에서 날짜와 요일, 기간을 찾는다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G02-MAT-TIME-L01"
+  ],
+  "file_stem": "초2_수학_도형과측정_06_달력보기",
+  "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-CALENDAR-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G02-MAT-SORT-L01",
@@ -2175,11 +2200,12 @@
   "priority": 1,
   "pre": [
    "KR22-G02-MAT-TABLEGRAPH-L01",
-   "KR22-G01-MAT-NUMPAT-L01"
+   "KR22-G01-MAT-NUMPAT-L01",
+   "KR22-G02-MAT-TIMES10-L01"
   ],
   "file_stem": "초2_수학_자료와규칙_03_무늬와수의규칙",
   "source": "lessons/G02_초2/MAT_수학/자료와규칙/KR22-G02-MAT-PATTERN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SOC-TOWN-L01",
