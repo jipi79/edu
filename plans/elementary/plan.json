@@ -7261,7 +7261,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_06_직사각형의넓이",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-AREA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-AREA2-L01",
@@ -7287,7 +7287,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_07_평행사변형과삼각형의넓이",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-AREA2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-AREA3-L01",
@@ -7434,7 +7434,9 @@
   "objective": "I get up at ~. 처럼 현재형으로 일과를 말하고 쓴다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ENG-WHATTIME-L01"
+  ],
   "file_stem": "초5_영어_말하기와쓰기_01_하루일과말하기",
   "source": "lessons/G05_초5/ENG_영어/말하기와쓰기/KR22-G05-ENG-ROUTINE-L01.json",
   "status": "제작 완료"
@@ -7463,7 +7465,7 @@
   ],
   "file_stem": "초5_영어_말하기와쓰기_02_지난일말하기",
   "source": "lessons/G05_초5/ENG_영어/말하기와쓰기/KR22-G05-ENG-PAST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-BECAUSE-L01",
@@ -7485,11 +7487,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G05-ENG-PAST-L01"
+   "KR22-G05-ENG-PAST-L01",
+   "KR22-G04-ENG-ILIKE-L01"
   ],
   "file_stem": "초5_영어_말하기와쓰기_03_좋아하는것과이유",
   "source": "lessons/G05_초5/ENG_영어/말하기와쓰기/KR22-G05-ENG-BECAUSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-DIRECTION-L01",
@@ -8859,7 +8862,7 @@
   ],
   "file_stem": "초6_국어_문학과매체_01_작품해석나누기",
   "source": "lessons/G06_초6/KOR_국어/문학과매체/KR22-G06-KOR-INTERPRET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-NEWSAD-L01",
@@ -8963,7 +8966,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_02_분수의나눗셈2",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-FRACDIV2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-DECDIV-L01",
@@ -8990,7 +8993,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_03_소수의나눗셈1",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-DECDIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-DECDIV2-L01",
@@ -9091,7 +9094,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G06-MAT-PERCENT-L01"
+   "KR22-G06-MAT-PERCENT-L01",
+   "KR22-G06-MAT-RATIO-L01"
   ],
   "file_stem": "초6_수학_연산과비례_07_비례식",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-PROPORTION-L01.json",
@@ -9124,6 +9128,32 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G06-MAT-DECDIV3-L01",
+  "concept_id": "MAT-DECDIV3",
+  "grade": "G06",
+  "grade_label": "초6",
+  "band": "E56",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G06-MAT-I01",
+  "folder": "연산과비례",
+  "sequence": 9,
+  "units": [
+   "2.1.2",
+   "2.2.1"
+  ],
+  "title": "소수의 나눗셈 3",
+  "objective": "자릿수가 다른 (소수)÷(소수)와 (자연수)÷(소수)를 소수점을 옮겨 계산한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G06-MAT-DECDIV2-L01"
+  ],
+  "file_stem": "초6_수학_연산과비례_09_소수의나눗셈3",
+  "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-DECDIV3-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G06-MAT-PRISM-L01",
   "concept_id": "MAT-PRISM",
   "grade": "G06",
@@ -9146,7 +9176,7 @@
   ],
   "file_stem": "초6_수학_입체와측정_01_각기둥과각뿔",
   "source": "lessons/G06_초6/MAT_수학/입체와측정/KR22-G06-MAT-PRISM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-ROUNDSOLID-L01",

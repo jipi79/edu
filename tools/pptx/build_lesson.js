@@ -333,7 +333,7 @@ class Deck {
         const box = m.lh * 0.74;
         slide.addShape(this.pres.shapes.RECTANGLE, {
           x: b.x + (m.w - box) / 2, y: y + (m.lh - box) / 2, w: box, h: box,
-          fill: { color: P.lt1 }, line: { color, width: 1.75 }, objectName: this.name(sid, "blank"),
+          fill: { color: P.lt1, transparency: color === P.lt1 ? 100 : 0 }, line: { color, width: 1.75 }, objectName: this.name(sid, "blank"),
         });
       } else {
         slide.addText(String(value), textOpts({
@@ -355,8 +355,9 @@ class Deck {
     const w = this.opWidth(text, pt);
     if (text === "□") {
       const box = (pt * 1.18 * 0.74) / 72;
+      // 어두운 바탕(밝은 글자)에서는 빈칸 속을 비워 테두리만 보이게 한다.
       slide.addShape(this.pres.shapes.RECTANGLE, {
-        x: x + (w - box) / 2, y: y + (h - box) / 2, w: box, h: box, fill: { color: P.lt1 }, line: { color, width: 1.75 },
+        x: x + (w - box) / 2, y: y + (h - box) / 2, w: box, h: box, fill: { color: P.lt1, transparency: color === P.lt1 ? 100 : 0 }, line: { color, width: 1.75 },
         objectName: this.name(sid, "blank"),
       });
       return w;
@@ -380,7 +381,7 @@ class Deck {
         const ww = this.wholeWidth(item[0], pt);
         if (item[0] === null || item[0] === undefined) {
           const box = (pt * 1.18 * 0.74) / 72;
-          slide.addShape(this.pres.shapes.RECTANGLE, { x, y: b.y + (h - box) / 2, w: box, h: box, fill: { color: P.lt1 }, line: { color, width: 1.75 }, objectName: this.name(sid, "blank") });
+          slide.addShape(this.pres.shapes.RECTANGLE, { x, y: b.y + (h - box) / 2, w: box, h: box, fill: { color: P.lt1, transparency: color === P.lt1 ? 100 : 0 }, line: { color, width: 1.75 }, objectName: this.name(sid, "blank") });
         } else {
           slide.addText(String(item[0]), textOpts({ x, y: b.y, w: ww, h, fontSize: pt, bold: true, color, align: "right", valign: "middle", margin: 0, objectName: this.name(sid, "num") }));
         }

@@ -93,13 +93,13 @@
         "type": "words",
         "items": [
           {
-            "word": "soccer"
+            "word": "pizza"
           },
           {
-            "word": "soccer"
+            "word": "pizza"
           },
           {
-            "word": "soccer"
+            "word": "pizza"
           }
         ],
         "perRow": 1
@@ -108,11 +108,11 @@
         "목적": "모르는 낱말이 있어도 중심 내용을 찾을 수 있다는 것에 관심을 갖게 하고, 오늘 할 일을 알립니다.",
         "시간": "약 2분",
         "말하기": [
-          "“친구 둘이 영어로 이야기하는데 soccer라는 말이 세 번이나 들렸어. 무슨 이야기를 하고 있을까?”",
+          "“친구 둘이 영어로 이야기하는데 pizza라는 말이 세 번이나 들렸어. 무슨 이야기를 하고 있을까?”",
           "“모든 낱말을 다 몰라도 무엇에 관한 이야기인지 알 수 있어. 오늘은 영어 대화와 글에서 가장 중요한 내용, 중심 내용을 찾는 방법을 배울 거야.”"
         ],
         "예상답": [
-          "“축구 이야기요.”"
+          "“피자 이야기요.”"
         ],
         "주의": [
           "오늘 듣기 대본은 화면에 없고 이 노트와 부모용 안내에만 있습니다. 부모님이 대본을 천천히 또박또박 두 번 읽어 주세요. 대화는 목소리를 조금 바꾸어 두 사람을 나타내면 좋습니다.",
@@ -497,7 +497,7 @@
         "시간": "약 3분",
         "말하기": [
           "“이번에는 혼자 해 볼래? 보기를 먼저 읽고, 엄마(아빠)가 두 번 읽어 주면 골라 봐.”",
-          "들려줄 대화 3(화면에 없음): Tom: Mom, it's sunny today. / Mom: Yes, it's a nice day. / Tom: Let's go to the park. / Mom: Okay. Let's ride our bikes to the park. / Tom: Great!",
+          "들려줄 대화 3(화면에 없음): Tom: Mom, it's sunny today. / Mom: Yes, it's a nice day. / Tom: Let's go to the park. / Mom: OK. Let's ride our bikes to the park. / Tom: Great!",
           "“무엇에 관한 대화야? 어떻게 알았어?”"
         ],
         "정답": [

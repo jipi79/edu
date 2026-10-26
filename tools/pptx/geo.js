@@ -162,7 +162,7 @@ function geoPrims(fig, em) {
       out.push({ k: "text", at: add(at(fig, name), mul(nameDir(fig, name), 0.8 * em)), text: name, size: "label" });
     }
   }
-  for (const t of fig.texts || []) out.push({ k: "text", at: at(fig, t.at), text: t.text, size: t.size || "label", color: t.color, bold: t.bold });
+  for (const t of fig.texts || []) out.push({ k: "text", at: at(fig, t.at), text: t.text, size: t.size || "label", color: t.color, bold: t.bold, bg: !!t.bg });
   return out;
 }
 
@@ -254,7 +254,7 @@ function toSvg(fig, opts = {}) {
   const ptMm = (opts.pt || 11) * 0.3528;
   const pad = K.pad(fig) ? ptMm * 1.6 : ptMm * 0.3;
   const unitMm = fig.type === "ruler" ? 10 : fig.type === "protractor" ? (fig.ws_radius || 45) : fig.ws_unit || 10;
-  const maxW = opts.maxW || 170, maxH = opts.maxH || 80;
+  const maxW = opts.maxW || 170, maxH = fig.ws_max_h || opts.maxH || 80;
   const s = Math.min(unitMm, (maxW - 2 * pad) / Math.max(e[2] - e[0], 1e-6), (maxH - 2 * pad) / Math.max(e[3] - e[1], 1e-6));
   const W = (e[2] - e[0]) * s + 2 * pad, H = (e[3] - e[1]) * s + 2 * pad;
   const X = (p) => (pad + (p[0] - e[0]) * s).toFixed(2), Y = (p) => (pad + (e[3] - p[1]) * s).toFixed(2);

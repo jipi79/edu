@@ -221,7 +221,7 @@ function engLinesHtml(e) {
     const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
     const lines = ys.map((y, i) => `<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
     // 소문자 몸통(x-height)이 가운데 칸(둘째~셋째 줄)에 맞도록 글자 크기를 정한다. 낱말 사이는 넉넉히 띄운다.
-    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.6 * h).toFixed(2)}" fill="#C9CED6" style="white-space:pre" word-spacing="${(0.25 * h).toFixed(2)}">${esc(t)}</text>` : "";
+    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.53 * h).toFixed(2)}" fill="#C9CED6" style="white-space:pre" word-spacing="${(0.1 * h).toFixed(2)}">${esc(t)}</text>` : "";
     return `<svg lang="en" width="${w}mm" height="${h}mm" viewBox="0 0 ${w} ${h}" style="display:block; margin:0 0 5mm 9.5mm">${lines}${text}</svg>`;
   };
   return `<div style="margin-top:2mm">${rows.map(row).join("")}</div>`;
