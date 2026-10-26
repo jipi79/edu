@@ -27,7 +27,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "기본 움직임을 조합하고 놀이의 규칙과 차례를 지킨다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "걷기·달리기·균형 놀이",
+      "lesson": "KR22-G01-PHE-MOVE-L01",
+      "grade_item": "KR22-G01-PHE-I01"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

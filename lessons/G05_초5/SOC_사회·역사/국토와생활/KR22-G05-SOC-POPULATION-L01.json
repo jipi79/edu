@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G05-SOC-POPULATION-L01",
+  "concept_id": "SOC-POPULATION",
+  "title": "인구와 도시",
+  "grade": "G05",
+  "grade_label": "초5",
+  "band": "E56",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "국토와생활",
+  "sequence": 3,
+  "file_stem": "초5_사회·역사_국토와생활_03_인구와도시",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G05-SOC-I01"
+    ],
+    "units": [
+      "4.2.2",
+      "4.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "인구 분포와 도시 발달이 생활에 미친 영향을 자료로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "국토의 자연환경",
+      "lesson": "KR22-G05-SOC-NATURE-L01",
+      "grade_item": "KR22-G05-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "인구와 도시 활동지",
+    "items": [],
+    "record": []
+  }
+}

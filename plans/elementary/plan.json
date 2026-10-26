@@ -2578,7 +2578,9 @@
   "objective": "대상을 자세히 보고 재료를 골라 표현하고 생각을 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ART-COLORLINE-L01"
+  ],
   "file_stem": "초2_음악·미술_관찰과표현_01_자세히보고그리기",
   "source": "lessons/G02_초2/ART_음악·미술/관찰과표현/KR22-G02-ART-DRAW-L01.json",
   "status": "제작 완료"
@@ -2601,7 +2603,9 @@
   "objective": "기본 움직임을 조합하고 놀이의 규칙과 차례를 지킨다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-PHE-MOVE-L01"
+  ],
   "file_stem": "초2_체육·보건·안전_놀이와협력_01_규칙있는놀이",
   "source": "lessons/G02_초2/PHE_체육·보건·안전/놀이와협력/KR22-G02-PHE-PLAY-L01.json",
   "status": "계획"
@@ -2625,7 +2629,9 @@
   "objective": "식사·수면·위생 습관을 점검하고 속상한 마음을 알맞게 표현한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-PHE-HANDWASH-L01"
+  ],
   "file_stem": "초2_체육·보건·안전_건강과감정_01_식사·수면·위생습관",
   "source": "lessons/G02_초2/PHE_체육·보건·안전/건강과감정/KR22-G02-PHE-HABITS-L01.json",
   "status": "계획"
@@ -2649,7 +2655,9 @@
   "objective": "싫은 접촉을 거절하고 교통·물놀이·재난 상황의 안전 행동을 연습한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-PHE-SAFEWAY-L01"
+  ],
   "file_stem": "초2_체육·보건·안전_경계와안전_01_싫어요말하기와안전",
   "source": "lessons/G02_초2/PHE_체육·보건·안전/경계와안전/KR22-G02-PHE-SAYNO-L01.json",
   "status": "계획"
@@ -2672,7 +2680,9 @@
   "objective": "같은 문제에 대한 서로 다른 이유를 비교한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-HUM-WHY-L01"
+  ],
   "file_stem": "초2_철학·논리·심리·교육·종교_이유와다른생각_01_서로다른이유",
   "source": "lessons/G02_초2/HUM_철학·논리·심리·교육·종교/이유와다른생각/KR22-G02-HUM-REASONS-L01.json",
   "status": "계획"
@@ -2695,7 +2705,9 @@
   "objective": "계획·실행·돌아보기 순서로 자신의 배움을 점검한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-HUM-SMALLSTEP-L01"
+  ],
   "file_stem": "초2_철학·논리·심리·교육·종교_학습습관_01_계획·실행·돌아보기",
   "source": "lessons/G02_초2/HUM_철학·논리·심리·교육·종교/학습습관/KR22-G02-HUM-PLANDO-L01.json",
   "status": "계획"
@@ -2718,7 +2730,9 @@
   "objective": "잘하는 일과 도움이 필요한 일을 구체적인 경험으로 말한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-CAR-GOAL-L01"
+  ],
   "file_stem": "초2_진로·직업_강점발견_01_잘하는일찾기",
   "source": "lessons/G02_초2/CAR_진로·직업/강점발견/KR22-G02-CAR-STRENGTH-L01.json",
   "status": "계획"
@@ -2741,7 +2755,9 @@
   "objective": "주변 직업이 하는 일과 협력이 필요한 까닭을 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-CAR-HELPERS-L01"
+  ],
   "file_stem": "초2_진로·직업_일과협력_01_직업과협력",
   "source": "lessons/G02_초2/CAR_진로·직업/일과협력/KR22-G02-CAR-TEAMWORK-L01.json",
   "status": "계획"
@@ -4051,7 +4067,9 @@
   "objective": "자신의 장점을 알고 정직하게 생활해야 하는 이유를 말한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ETH-HONEST-L01"
+  ],
   "file_stem": "초3_도덕·윤리_자기존중과책임_01_나의장점과정직",
   "source": "lessons/G03_초3/ETH_도덕·윤리/자기존중과책임/KR22-G03-ETH-MYSTRENGTH-L01.json",
   "status": "계획"
@@ -4075,7 +4093,9 @@
   "objective": "친구의 입장을 고려해 함께 지킬 공정한 규칙을 정한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ETH-FAIRUSE-L01"
+  ],
   "file_stem": "초3_도덕·윤리_배려와공정_01_함께지킬규칙",
   "source": "lessons/G03_초3/ETH_도덕·윤리/배려와공정/KR22-G03-ETH-FAIRRULE-L01.json",
   "status": "계획"
@@ -4098,7 +4118,9 @@
   "objective": "작은 생명을 돌보는 행동을 계획하고 실천한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ETH-CARE-L01"
+  ],
   "file_stem": "초3_도덕·윤리_생명존중_01_작은생명돌보기",
   "source": "lessons/G03_초3/ETH_도덕·윤리/생명존중/KR22-G03-ETH-LIFECARE-L01.json",
   "status": "계획"
@@ -4351,7 +4373,9 @@
   "objective": "식사·옷·생활공간의 역할을 관찰하고 물건과 시간을 관리한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-TEC-CHORES-L01"
+  ],
   "file_stem": "초3_기술·가정_생활과자원_01_식사·옷·공간의역할",
   "source": "lessons/G03_초3/TEC_기술·가정/생활과자원/KR22-G03-TEC-HOMEROLE-L01.json",
   "status": "계획"
@@ -4375,7 +4399,9 @@
   "objective": "생활의 불편을 찾고 안전한 재료로 해결 아이디어를 표현한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-TEC-TOOLS-L01"
+  ],
   "file_stem": "초3_기술·가정_문제와제작_01_불편찾고해결하기",
   "source": "lessons/G03_초3/TEC_기술·가정/문제와제작/KR22-G03-TEC-FIXIDEA-L01.json",
   "status": "계획"
@@ -4399,7 +4425,9 @@
   "objective": "파일을 열고 저장하며 글·그림으로 자료를 정리한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-INF-ORDER-L01"
+  ],
   "file_stem": "초3_정보·AI_디지털기초_01_파일열고저장하기",
   "source": "lessons/G03_초3/INF_정보·AI/디지털기초/KR22-G03-INF-FILES-L01.json",
   "status": "계획"
@@ -4423,7 +4451,9 @@
   "objective": "일의 순서를 빠짐없이 설명하고 개인정보 보호와 출처 표시를 연습한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-INF-NETIQUETTE-L01"
+  ],
   "file_stem": "초3_정보·AI_절차와정보윤리_01_순서정확히설명하기",
   "source": "lessons/G03_초3/INF_정보·AI/절차와정보윤리/KR22-G03-INF-STEPS-L01.json",
   "status": "계획"
@@ -4470,7 +4500,9 @@
   "objective": "선·색·형을 활용해 주제를 표현하고 서로의 작품 특징을 말한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ART-DRAW-L01"
+  ],
   "file_stem": "초3_음악·미술_미술표현_01_선·색·형표현",
   "source": "lessons/G03_초3/ART_음악·미술/미술표현/KR22-G03-ART-ELEMENTS-L01.json",
   "status": "계획"
@@ -4493,7 +4525,9 @@
   "objective": "일상에서 만나는 음악과 시각 이미지의 쓰임을 찾는다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ART-RHYTHM-L01"
+  ],
   "file_stem": "초3_음악·미술_생활속예술_01_생활속음악과이미지",
   "source": "lessons/G03_초3/ART_음악·미술/생활속예술/KR22-G03-ART-EVERYDAY-L01.json",
   "status": "계획"
@@ -4517,7 +4551,9 @@
   "objective": "이동·비이동·도구 조작 움직임을 익히고 규칙 있는 놀이에 참여한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-PHE-PLAY-L01"
+  ],
   "file_stem": "초3_체육·보건·안전_운동과놀이_01_이동·비이동·조작움직임",
   "source": "lessons/G03_초3/PHE_체육·보건·안전/운동과놀이/KR22-G03-PHE-SKILLS-L01.json",
   "status": "계획"
@@ -4541,7 +4577,9 @@
   "objective": "체력·영양·수면 습관을 살피고 감정을 말로 표현한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-PHE-HABITS-L01"
+  ],
   "file_stem": "초3_체육·보건·안전_건강습관_01_체력·영양·수면",
   "source": "lessons/G03_초3/PHE_체육·보건·안전/건강습관/KR22-G03-PHE-HEALTHY-L01.json",
   "status": "계획"
@@ -4565,7 +4603,9 @@
   "objective": "운동·교통·재난의 위험을 찾고 도움 요청과 신체 존중을 실천한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-PHE-SAYNO-L01"
+  ],
   "file_stem": "초3_체육·보건·안전_안전과경계_01_위험찾기와도움요청",
   "source": "lessons/G03_초3/PHE_체육·보건·안전/안전과경계/KR22-G03-PHE-DANGER-L01.json",
   "status": "계획"
@@ -4589,7 +4629,9 @@
   "objective": "이야기나 생활 문제에 질문을 만들고 이유를 들어 답한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-HUM-REASONS-L01"
+  ],
   "file_stem": "초3_철학·논리·심리·교육·종교_질문과근거_01_질문만들고이유들어답하기",
   "source": "lessons/G03_초3/HUM_철학·논리·심리·교육·종교/질문과근거/KR22-G03-HUM-QUESTION-L01.json",
   "status": "계획"
@@ -4613,7 +4655,9 @@
   "objective": "감정과 행동을 구별하고 자신에게 맞는 학습 방법을 시도한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-HUM-PLANDO-L01"
+  ],
   "file_stem": "초3_철학·논리·심리·교육·종교_마음과배움_01_감정과행동,나에게맞는공부",
   "source": "lessons/G03_초3/HUM_철학·논리·심리·교육·종교/마음과배움/KR22-G03-HUM-MYWAY-L01.json",
   "status": "계획"
@@ -4659,7 +4703,9 @@
   "objective": "좋아하는 교과·활동과 자신의 역할을 연결해 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-CAR-STRENGTH-L01"
+  ],
   "file_stem": "초3_진로·직업_흥미와역할_01_흥미와나의역할",
   "source": "lessons/G03_초3/CAR_진로·직업/흥미와역할/KR22-G03-CAR-ROLES-L01.json",
   "status": "계획"
@@ -4682,7 +4728,9 @@
   "objective": "마을의 직업을 조사하고 일의 가치와 필요성을 말한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-CAR-TEAMWORK-L01"
+  ],
   "file_stem": "초3_진로·직업_직업탐색_01_마을의직업조사",
   "source": "lessons/G03_초3/CAR_진로·직업/직업탐색/KR22-G03-CAR-TOWNJOBS-L01.json",
   "status": "계획"
@@ -4705,7 +4753,9 @@
   "objective": "학교 주변 생물을 조사하고 살아가는 장소와 연결한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ENV-AROUND-L01"
+  ],
   "file_stem": "초3_환경·생태_생태관찰_01_생물과사는곳",
   "source": "lessons/G03_초3/ENV_환경·생태/생태관찰/KR22-G03-ENV-HABITAT-L01.json",
   "status": "계획"
@@ -4728,7 +4778,9 @@
   "objective": "생활 쓰레기가 생기는 과정을 살펴보고 줄이는 방법을 정한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ENV-RECYCLE-L01"
+  ],
   "file_stem": "초3_환경·생태_오염과소비_01_쓰레기가생기는과정",
   "source": "lessons/G03_초3/ENV_환경·생태/오염과소비/KR22-G03-ENV-WASTE-L01.json",
   "status": "계획"

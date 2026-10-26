@@ -27,7 +27,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "잘하는 일과 도움이 필요한 일을 구체적인 경험으로 말한다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "하루 목표",
+      "lesson": "KR22-G01-CAR-GOAL-L01",
+      "grade_item": "KR22-G01-CAR-I02"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

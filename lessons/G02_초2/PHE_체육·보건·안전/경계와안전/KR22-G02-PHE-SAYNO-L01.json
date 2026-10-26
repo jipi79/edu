@@ -28,7 +28,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "싫은 접촉을 거절하고 교통·물놀이·재난 상황의 안전 행동을 연습한다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "등하굣길과 놀이 안전",
+      "lesson": "KR22-G01-PHE-SAFEWAY-L01",
+      "grade_item": "KR22-G01-PHE-I03"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

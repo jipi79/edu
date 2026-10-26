@@ -27,7 +27,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "같은 문제에 대한 서로 다른 이유를 비교한다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "질문하고 이유 말하기",
+      "lesson": "KR22-G01-HUM-WHY-L01",
+      "grade_item": "KR22-G01-HUM-I01"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

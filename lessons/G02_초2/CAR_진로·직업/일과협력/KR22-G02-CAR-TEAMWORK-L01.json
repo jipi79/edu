@@ -27,7 +27,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "주변 직업이 하는 일과 협력이 필요한 까닭을 설명한다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "좋아하는 활동과 우리를 돕는 일",
+      "lesson": "KR22-G01-CAR-HELPERS-L01",
+      "grade_item": "KR22-G01-CAR-I01"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

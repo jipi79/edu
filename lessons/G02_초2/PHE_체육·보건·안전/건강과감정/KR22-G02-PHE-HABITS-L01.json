@@ -28,7 +28,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "식사·수면·위생 습관을 점검하고 속상한 마음을 알맞게 표현한다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "손 씻기와 몸의 경계",
+      "lesson": "KR22-G01-PHE-HANDWASH-L01",
+      "grade_item": "KR22-G01-PHE-I02"
+    }
+  ],
   "objectives": [
     {
       "id": "A",
