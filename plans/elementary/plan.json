@@ -896,7 +896,7 @@
   ],
   "file_stem": "초1_사회·역사_나와학교_02_함께지킬약속",
   "source": "lessons/G01_초1/SOC_사회·역사/나와학교/KR22-G01-SOC-PROMISE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-SOC-FAMILY-L01",
@@ -920,7 +920,7 @@
   "pre": [],
   "file_stem": "초1_사회·역사_가족과생활_01_가족의생활",
   "source": "lessons/G01_초1/SOC_사회·역사/가족과생활/KR22-G01-SOC-FAMILY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-SOC-MYDAY-L01",
@@ -946,7 +946,7 @@
   ],
   "file_stem": "초1_사회·역사_가족과생활_02_나의하루",
   "source": "lessons/G01_초1/SOC_사회·역사/가족과생활/KR22-G01-SOC-MYDAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-ETH-PRECIOUS-L01",
@@ -2233,7 +2233,7 @@
   "pre": [],
   "file_stem": "초2_사회·역사_마을과공동체_01_마을의시설",
   "source": "lessons/G02_초2/SOC_사회·역사/마을과공동체/KR22-G02-SOC-TOWN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SOC-JOBS-L01",
@@ -2259,7 +2259,7 @@
   ],
   "file_stem": "초2_사회·역사_마을과공동체_02_서로돕는마을사람들",
   "source": "lessons/G02_초2/SOC_사회·역사/마을과공동체/KR22-G02-SOC-JOBS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-SOC-PAST-L01",
@@ -2329,7 +2329,9 @@
   "objective": "잘못을 인정하고 약속을 지키는 방법을 실천한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ETH-PRECIOUS-L01"
+  ],
   "file_stem": "초2_도덕·윤리_정직과약속_01_정직과약속",
   "source": "lessons/G02_초2/ETH_도덕·윤리/정직과약속/KR22-G02-ETH-HONEST-L01.json",
   "status": "제작 완료"
@@ -2353,7 +2355,9 @@
   "objective": "친구의 입장을 듣고 함께 쓰는 물건과 공간을 공정하게 쓴다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ETH-CARE-L01"
+  ],
   "file_stem": "초2_도덕·윤리_공감과협력_01_공감과공정한사용",
   "source": "lessons/G02_초2/ETH_도덕·윤리/공감과협력/KR22-G02-ETH-FAIRUSE-L01.json",
   "status": "제작 완료"
@@ -2447,7 +2451,9 @@
   "objective": "생활 시간과 물건을 관리하고 가족의 일을 나눈다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-TEC-TIDY-L01"
+  ],
   "file_stem": "초2_기술·가정_자립과나눔_01_시간관리와집안일나누기",
   "source": "lessons/G02_초2/TEC_기술·가정/자립과나눔/KR22-G02-TEC-CHORES-L01.json",
   "status": "제작 완료"
@@ -2470,7 +2476,9 @@
   "objective": "재료의 특징을 비교하고 가위·풀 등 도구를 안전하게 쓴다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-TEC-MAKE-L01"
+  ],
   "file_stem": "초2_기술·가정_재료와제작_01_재료비교와도구안전",
   "source": "lessons/G02_초2/TEC_기술·가정/재료와제작/KR22-G02-TEC-TOOLS-L01.json",
   "status": "제작 완료"
@@ -2493,10 +2501,12 @@
   "objective": "활동의 순서를 바꾸면 결과가 어떻게 달라지는지 비교한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-INF-DEVICE-L01"
+  ],
   "file_stem": "초2_정보·AI_정보와표현_01_순서를바꾸면",
   "source": "lessons/G02_초2/INF_정보·AI/정보와표현/KR22-G02-INF-ORDER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-INF-NETIQUETTE-L01",
@@ -2516,10 +2526,12 @@
   "objective": "온라인에서도 예절을 지키고 불편한 정보는 어른과 상의한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-INF-PRIVACY-L01"
+  ],
   "file_stem": "초2_정보·AI_디지털생활_01_온라인예절",
   "source": "lessons/G02_초2/INF_정보·AI/디지털생활/KR22-G02-INF-NETIQUETTE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-ART-RHYTHM-L01",
@@ -2540,10 +2552,12 @@
   "objective": "노래·간단한 악기·움직임으로 리듬과 가락을 표현한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ART-BEAT-L01"
+  ],
   "file_stem": "초2_음악·미술_리듬과가락_01_리듬과가락표현",
   "source": "lessons/G02_초2/ART_음악·미술/리듬과가락/KR22-G02-ART-RHYTHM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-ART-DRAW-L01",
@@ -2567,7 +2581,7 @@
   "pre": [],
   "file_stem": "초2_음악·미술_관찰과표현_01_자세히보고그리기",
   "source": "lessons/G02_초2/ART_음악·미술/관찰과표현/KR22-G02-ART-DRAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-PHE-PLAY-L01",
@@ -2750,7 +2764,9 @@
   "objective": "학교와 마을의 환경을 관찰하고 생활과의 관계를 말한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ENV-NATURE-L01"
+  ],
   "file_stem": "초2_환경·생태_생활과환경_01_학교와마을의환경",
   "source": "lessons/G02_초2/ENV_환경·생태/생활과환경/KR22-G02-ENV-AROUND-L01.json",
   "status": "계획"
@@ -2773,7 +2789,9 @@
   "objective": "쓰레기를 줄이고 올바르게 분리배출한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G01-ENV-SAVE-L01"
+  ],
   "file_stem": "초2_환경·생태_자원과실천_01_쓰레기줄이기와분리배출",
   "source": "lessons/G02_초2/ENV_환경·생태/자원과실천/KR22-G02-ENV-RECYCLE-L01.json",
   "status": "계획"
@@ -5979,7 +5997,7 @@
   "pre": [],
   "file_stem": "초4_과학_땅과밤하늘_01_흐르는물과땅",
   "source": "lessons/G04_초4/SCI_과학/땅과밤하늘/KR22-G04-SCI-RIVER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-MOON-L01",
@@ -7730,7 +7748,7 @@
   ],
   "file_stem": "초5_사회·역사_역사와생활_02_삼국과남북국",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-KINGDOMS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-GORYEO-L01",
@@ -7757,7 +7775,7 @@
   ],
   "file_stem": "초5_사회·역사_역사와생활_03_고려",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-GORYEO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-JOSEON-L01",
@@ -7784,7 +7802,7 @@
   ],
   "file_stem": "초5_사회·역사_역사와생활_04_조선",
   "source": "lessons/G05_초5/SOC_사회·역사/역사와생활/KR22-G05-SOC-JOSEON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-COLONIAL-L01",
