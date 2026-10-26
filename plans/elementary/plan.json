@@ -3902,7 +3902,7 @@
   "pre": [],
   "file_stem": "초3_사회·역사_지역과공간_01_우리고장의장소",
   "source": "lessons/G03_초3/SOC_사회·역사/지역과공간/KR22-G03-SOC-PLACES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SOC-SYMBOLS-L01",
@@ -4095,7 +4095,7 @@
   "pre": [],
   "file_stem": "초3_과학_힘과소리_01_밀기·당기기와수평잡기",
   "source": "lessons/G03_초3/SCI_과학/힘과소리/KR22-G03-SCI-PUSHPULL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SCI-SOUND-L01",
@@ -5658,7 +5658,7 @@
   "pre": [],
   "file_stem": "초4_사회·역사_지도와지역_01_지도읽기",
   "source": "lessons/G04_초4/SOC_사회·역사/지도와지역/KR22-G04-SOC-MAP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-REGION-L01",
@@ -7547,7 +7547,7 @@
   ],
   "file_stem": "초5_영어_상호작용과문화_02_물건사기",
   "source": "lessons/G05_초5/ENG_영어/상호작용과문화/KR22-G05-ENG-SHOPPING-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-HOLIDAYS-L01",
@@ -7573,7 +7573,7 @@
   ],
   "file_stem": "초5_영어_상호작용과문화_03_명절과문화",
   "source": "lessons/G05_초5/ENG_영어/상호작용과문화/KR22-G05-ENG-HOLIDAYS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SOC-TERRITORY-L01",
@@ -9158,7 +9158,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_09_소수의나눗셈3",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-DECDIV3-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-PRISM-L01",
@@ -9260,7 +9260,7 @@
   ],
   "file_stem": "초6_수학_입체와측정_04_직육면체의겉넓이",
   "source": "lessons/G06_초6/MAT_수학/입체와측정/KR22-G06-MAT-SURFACE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-VOLUME-L01",
@@ -9285,7 +9285,7 @@
   ],
   "file_stem": "초6_수학_입체와측정_05_직육면체의부피",
   "source": "lessons/G06_초6/MAT_수학/입체와측정/KR22-G06-MAT-VOLUME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-CIRCUM-L01",
@@ -9307,12 +9307,13 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
+   "KR22-G06-MAT-DECDIV2-L01",
    "KR22-G03-MAT-CIRCLE-L01",
    "KR22-G05-MAT-DECMUL-L01"
   ],
   "file_stem": "초6_수학_원과자료_01_원주와원주율",
   "source": "lessons/G06_초6/MAT_수학/원과자료/KR22-G06-MAT-CIRCUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-CIRCLEAREA-L01",
@@ -9338,7 +9339,7 @@
   ],
   "file_stem": "초6_수학_원과자료_02_원의넓이",
   "source": "lessons/G06_초6/MAT_수학/원과자료/KR22-G06-MAT-CIRCLEAREA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-BANDPIE-L01",
@@ -9365,7 +9366,7 @@
   ],
   "file_stem": "초6_수학_원과자료_03_띠그래프와원그래프",
   "source": "lessons/G06_초6/MAT_수학/원과자료/KR22-G06-MAT-BANDPIE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-GRAPHS-L01",
@@ -9416,7 +9417,7 @@
   ],
   "file_stem": "초6_영어_듣기와읽기_01_핵심정보파악",
   "source": "lessons/G06_초6/ENG_영어/듣기와읽기/KR22-G06-ENG-KEYINFO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-SEQUENCE-L01",
@@ -9519,7 +9520,7 @@
   ],
   "file_stem": "초6_영어_말하기와쓰기_03_의견말하기",
   "source": "lessons/G06_초6/ENG_영어/말하기와쓰기/KR22-G06-ENG-OPINION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-CLARIFY-L01",
@@ -9543,7 +9544,7 @@
   "pre": [],
   "file_stem": "초6_영어_의사소통_01_뜻확인하기",
   "source": "lessons/G06_초6/ENG_영어/의사소통/KR22-G06-ENG-CLARIFY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-SUGGEST-L01",
@@ -9569,7 +9570,7 @@
   ],
   "file_stem": "초6_영어_의사소통_02_제안하고답하기",
   "source": "lessons/G06_초6/ENG_영어/의사소통/KR22-G06-ENG-SUGGEST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-WORLD-L01",
@@ -9595,7 +9596,7 @@
   ],
   "file_stem": "초6_영어_의사소통_03_세계문화존중",
   "source": "lessons/G06_초6/ENG_영어/의사소통/KR22-G06-ENG-WORLD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SOC-DEMOCRACY-L01",

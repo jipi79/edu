@@ -35,10 +35,12 @@ function segEnds(fig, s) {
 }
 
 function geoExtent(fig, forGrid = false) {
+  if (forGrid && fig.grid_range) return fig.grid_range.slice();
   const pts = Object.values(fig.points || {});
   for (const pg of fig.polygons || []) pts.push(...pg.pts.map((p) => at(fig, p)));
   for (const s of fig.segments || []) pts.push(...segEnds(fig, s));
   for (const c of fig.circles || []) { const o = at(fig, c.center); pts.push([o[0] - c.r, o[1] - c.r], [o[0] + c.r, o[1] + c.r]); }
+  for (const el of fig.ellipses || []) { const o = at(fig, el.center); pts.push([o[0] - el.rx, o[1] - el.ry], [o[0] + el.rx, o[1] + el.ry]); }
   if (fig.grid_range) pts.push(fig.grid_range.slice(0, 2), fig.grid_range.slice(2));
   if (!pts.length) throw new Error("geo: 그릴 점이 없습니다(빈 모눈은 grid_range를 준다)");
   const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
@@ -104,11 +106,20 @@ function geoPrims(fig, em) {
       for (let y = y0; y <= y1 + 1e-9; y++) out.push({ k: "line", a: [x0, y], b: [x1, y], w: 0.75, color: "grid" });
     }
   }
+  // 원은 기본으로 다각형 위에 그린다. order: "below"이면 다각형 아래(바탕)에 그린다.
+  const circ = (c) => ({ k: "circle", c: at(fig, c.center), r: c.r, fill: fillOf(c.fill ?? "none"), dash: !!c.dash, w: c.width ?? 2.25, color: c.color || "ink", main: true });
+  const below = (c) => c.order === "below";
+  for (const c of fig.circles || []) if (below(c)) out.push(circ(c));
   for (const pg of fig.polygons || []) {
     out.push({ k: "poly", pts: pg.pts.map((p) => at(fig, p)), closed: pg.open !== true, fill: pg.open || fig.grid ? null : fillOf(pg.fill ?? "tint"), dash: !!pg.dash, w: pg.width ?? 2.25, color: pg.color || "ink", main: true });
   }
-  for (const c of fig.circles || []) {
-    out.push({ k: "circle", c: at(fig, c.center), r: c.r, fill: fillOf(c.fill ?? "none"), dash: !!c.dash, w: c.width || 2.25, color: c.color || "ink", main: true });
+  for (const c of fig.circles || []) if (!below(c)) out.push(circ(c));
+  // 타원(원기둥·원뿔의 밑면): from·to(도)를 주면 그 부분 호만(열린 선) 그린다(뒤쪽 숨은 호는 dash).
+  for (const el of fig.ellipses || []) {
+    const o = at(fig, el.center), a1 = el.from ?? 0, a2 = el.to ?? 360, arc = el.from !== undefined || el.to !== undefined;
+    const pts = [];
+    for (let i = 0; i <= 72; i++) { const t = ((a1 + ((a2 - a1) * i) / 72) * Math.PI) / 180; pts.push([o[0] + el.rx * Math.cos(t), o[1] + el.ry * Math.sin(t)]); }
+    out.push({ k: "poly", pts: arc ? pts : pts.slice(0, -1), closed: !arc, fill: arc ? null : fillOf(el.fill ?? "none"), dash: !!el.dash, w: el.width ?? 2.25, color: el.color || "ink", main: true });
   }
   for (const a of [...(fig.angles || []), ...(fig.rights || []).map((r) => ({ from: r[0], at: r[1], to: r[2], right: true }))]) {
     const v = at(fig, a.at), p = at(fig, a.from), q = at(fig, a.to);

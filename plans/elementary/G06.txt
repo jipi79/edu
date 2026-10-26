@@ -28,7 +28,7 @@
 - SURFACE | 직육면체의 겉넓이 | 직육면체의 겉넓이를 전개도로 구한다. | pre G05-MAT-AREA
 - VOLUME | 직육면체의 부피 | cm³·m³를 알고 직육면체의 부피를 구한다.
 @ MAT-I03 | 원과자료 | 2.4.2 2.5.1
-- CIRCUM | 원주와 원주율 | 원주와 지름의 관계로 원주율을 알고 원주를 구한다. | pre G03-MAT-CIRCLE, G05-MAT-DECMUL
+- CIRCUM | 원주와 원주율 | 원주와 지름의 관계로 원주율을 알고 원주를 구한다. | pre G06-MAT-DECDIV2, G03-MAT-CIRCLE, G05-MAT-DECMUL
 - CIRCLEAREA | 원의 넓이 | 원을 잘라 붙여 원의 넓이 구하는 방법을 설명하고 적용한다.
 - BANDPIE | 띠그래프와 원그래프 | 비율 그래프를 해석하고 그린다. | pre G06-MAT-PERCENT
 - GRAPHS | 알맞은 그래프 고르기 | 자료의 특징에 맞는 그래프를 골라 나타내고 해석한다.
