@@ -76,11 +76,11 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | type | 필드 | 쓰임 |
 |---|---|---|
 | `bars` | `bars`[ {parts, shaded(개수 또는 칸 번호 배열), label?: [분자,분모] 또는 글자, widths?} ], `guide`? | 분수 막대. `guide: true` 이면 첫 막대의 색칠 끝에 점선(같은 양 비교) |
-| `grid` | `rows`, `cols`, `shaded`(개수 또는 [[행,열]…]), `axis`?: v/h | 넓이·배열·대칭 |
+| `grid` | `rows`, `cols`, `shaded`(개수 또는 [[행,열]…]), `light`?([[행,열]…] 옅은 색), `axis`?: v/h | 넓이·배열·대칭. (분수)×(분수)는 첫 분수 부분을 `light`, 겹친 부분을 `shaded`로(검산 count는 shaded만 센다) |
 | `pie` | `parts`, `shaded` | 원 분수 |
 | `eq` | `items` (분수는 [분자,분모], 대분수는 [자연수,분자,분모], 빈칸은 null 또는 "□", 기호는 문자열) 또는 `lines`[…] | 식. 분수가 없으면 한 줄 글자 |
 | `eqx` | `from`, `to`, `op`("×2"), `join`?("="·"→") | 분수 변환 화살표 |
-| `numberline` | `min`, `max`, `step`?, `labels`?("all"·"ends"·[값]), `marks`?[{at,label}], `jumps`?[{from,to,label}] | 수직선, 뛰어 세기 |
+| `numberline` | `min`, `max`, `step`?, `labels`?("all"·"ends"·[값]), `marks`?[{at,label,open?}](open: 속이 빈 ○), `jumps`?[{from,to,label}] | 수직선, 뛰어 세기 |
 | `array` | `rows`, `cols`, `count`?, `group`?("row"·"col"), `crossed`?(뒤에서부터 × 표시할 개수), `cell`?(점 칸 크기, in) | 세기·곱셈·나눗셈 묶음, 덜어 내기(crossed). 양을 나란히 비교할 때는 모든 배열에 같은 `cell` 을 준다 |
 | `tenframe` | `count`, `frames`? | 10의 보수, 가르기·모으기 |
 | `blocks10` | `hundreds`?, `tens`, `ones`, `unit`?(한 칸 크기, in) | 자릿값(수 모형). 여러 개를 나란히 둘 때는 같은 `unit` |

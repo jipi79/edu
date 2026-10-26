@@ -134,9 +134,11 @@ function gridSvg(gr, cell = 10) {
   let shaded = gr.shaded || [];
   if (typeof shaded === "number") shaded = Array.from({ length: shaded }, (_, k) => [Math.floor(k / gr.cols), k % gr.cols]);
   const set = new Set(shaded.map(([r, c]) => `${r},${c}`));
+  const light = new Set((gr.light || []).map(([r, c]) => `${r},${c}`));
   let g = "";
   for (let r = 0; r < gr.rows; r++) for (let c = 0; c < gr.cols; c++) {
-    g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="${set.has(`${r},${c}`) ? "#E9762B" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
+    const k = `${r},${c}`;
+    g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="${set.has(k) ? "#E9762B" : light.has(k) ? "#FBE3D2" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
   }
   return `<svg width="${gr.cols * cell}mm" height="${gr.rows * cell}mm" viewBox="-0.4 -0.4 ${gr.cols * cell + 0.8} ${gr.rows * cell + 0.8}">${g}</svg>`;
 }

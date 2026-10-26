@@ -254,9 +254,10 @@ class Deck {
     }));
   }
 
+  // shaded: true(진한 색) · "light"(옅은 색, 두 겹 색칠의 첫째 겹) · false
   cell(slide, sid, x, y, w, h, shaded, kind) {
     slide.addShape(this.pres.shapes.RECTANGLE, {
-      x, y, w, h, fill: { color: shaded ? P.accent1 : P.lt1 }, line: { color: P.dk1, width: 1.5 },
+      x, y, w, h, fill: { color: shaded === "light" ? TINT.accent : shaded ? P.accent1 : P.lt1 }, line: { color: P.dk1, width: 1.5 },
       objectName: this.name(sid, kind),
     });
   }
@@ -284,11 +285,13 @@ class Deck {
 
   grid(slide, sid, b) {
     const shaded = new Set((b.shaded || []).map(([r, c]) => `${r},${c}`));
+    const light = new Set((b.light || []).map(([r, c]) => `${r},${c}`));
     const cw = b.w / b.cols;
     const ch = b.h / b.rows;
     for (let r = 0; r < b.rows; r++) {
       for (let c = 0; c < b.cols; c++) {
-        this.cell(slide, sid, b.x + c * cw, b.y + r * ch, cw, ch, shaded.has(`${r},${c}`), "cell");
+        const k = `${r},${c}`;
+        this.cell(slide, sid, b.x + c * cw, b.y + r * ch, cw, ch, shaded.has(k) ? true : light.has(k) ? "light" : false, "cell");
       }
     }
     this.outline(slide, sid, b, b.alt);

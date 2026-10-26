@@ -78,8 +78,8 @@ function grid(deck, slide, sid, fig, box) {
   let shaded = fig.shaded || [];
   if (typeof shaded === "number") shaded = Array.from({ length: shaded }, (_, k) => [Math.floor(k / fig.cols), k % fig.cols]);
   const total = shaded.length;
-  deck.grid(slide, sid, { x, y, w, h, rows: fig.rows, cols: fig.cols, shaded,
-    alt: fig.alt || `${fig.rows * fig.cols}칸 격자, ${total}칸 색칠` });
+  deck.grid(slide, sid, { x, y, w, h, rows: fig.rows, cols: fig.cols, shaded, light: fig.light,
+    alt: fig.alt || `${fig.rows * fig.cols}칸 격자, ${total}칸 색칠${fig.light ? `(옅은 색 ${fig.light.length}칸)` : ""}` });
   if (fig.axis === "v") deck.vline(slide, sid, { x: x + w / 2, y1: y - 0.25, y2: y + h + 0.25 });
   if (fig.axis === "h") segment(deck, slide, sid, x - 0.25, y + h / 2, x + w + 0.25, y + h / 2, { color: P.accent4, width: 2, dashType: "dash" });
 }
@@ -201,7 +201,9 @@ function numberline(deck, slide, sid, fig, box) {
   }
   for (const m of fig.marks || []) {
     const d = 0.2;
-    slide.addShape(deck.pres.shapes.OVAL, { x: pos(m.at) - d / 2, y: yLine - d / 2, w: d, h: d, fill: { color: P.accent1 }, line: { color: P.accent1, width: 0 }, objectName: deck.name(sid, "mark") });
+    // open: true 이면 속이 빈 점(○, 그 수를 넣지 않음), 아니면 꽉 찬 점(●)
+    const dd = m.open ? 0.24 : d;
+    slide.addShape(deck.pres.shapes.OVAL, { x: pos(m.at) - dd / 2, y: yLine - dd / 2, w: dd, h: dd, fill: { color: m.open ? P.lt1 : P.accent1 }, line: { color: P.accent1, width: m.open ? 2.5 : 0 }, objectName: deck.name(sid, "mark") });
     if (m.label) label(deck, slide, sid, m.label, pos(m.at) - 0.6, yLine - 0.25 - lh, 1.2, lh, pt, { color: P.accent1 });
   }
   jumps.forEach((j, k) => {
@@ -691,7 +693,8 @@ function drawFigures(deck, slide, sid, figs, box) {
 const WIDE = new Set(["ruler", "bar", "bars", "numberline", "timeline", "flow", "table", "chart", "letters", "words", "eq", "eqx", "blocks10", "tenframe"]);
 function isWide(figs) {
   const list = Array.isArray(figs) ? figs : [figs];
-  return list.length > 1 || list.some((f) => WIDE.has(f.type) || (f.type === "shapes" && f.items.length > 2) || (f.type === "grid" && f.cols >= f.rows * 2.5));
+  const geoWide = (f) => { if (f.type !== "geo") return false; const e = GEO.KINDS.geo.extent(f); return e[2] - e[0] >= 2.4 * Math.max(e[3] - e[1], 1e-6); };
+  return list.length > 1 || list.some((f) => WIDE.has(f.type) || geoWide(f) || (f.type === "shapes" && f.items.length > 2) || (f.type === "grid" && f.cols >= f.rows * 2.5));
 }
 
 module.exports = { drawFigures, isWide, FIGURES, segment };
