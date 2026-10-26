@@ -970,7 +970,7 @@
   "pre": [],
   "file_stem": "초1_도덕·윤리_자신과타인_01_나는소중해요",
   "source": "lessons/G01_초1/ETH_도덕·윤리/자신과타인/KR22-G01-ETH-PRECIOUS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-ETH-CARE-L01",
@@ -1183,7 +1183,7 @@
   "pre": [],
   "file_stem": "초1_음악·미술_음악놀이_01_박에맞춰노래하기",
   "source": "lessons/G01_초1/ART_음악·미술/음악놀이/KR22-G01-ART-BEAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-ART-COLORLINE-L01",
@@ -1302,7 +1302,7 @@
   "pre": [],
   "file_stem": "초1_철학·논리·심리·교육·종교_질문과이유_01_질문하고이유말하기",
   "source": "lessons/G01_초1/HUM_철학·논리·심리·교육·종교/질문과이유/KR22-G01-HUM-WHY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-HUM-SMALLSTEP-L01",
@@ -1326,7 +1326,7 @@
   "pre": [],
   "file_stem": "초1_철학·논리·심리·교육·종교_배움과감정_01_할일나누기와느낌",
   "source": "lessons/G01_초1/HUM_철학·논리·심리·교육·종교/배움과감정/KR22-G01-HUM-SMALLSTEP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-CAR-HELPERS-L01",
@@ -3951,7 +3951,7 @@
   "pre": [],
   "file_stem": "초3_사회·역사_과거와현재_01_생활도구의변화",
   "source": "lessons/G03_초3/SOC_사회·역사/과거와현재/KR22-G03-SOC-TOOLS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SOC-FAMILIES-L01",
@@ -3975,7 +3975,7 @@
   "pre": [],
   "file_stem": "초3_사회·역사_공동체와교류_01_다양한가족",
   "source": "lessons/G03_초3/SOC_사회·역사/공동체와교류/KR22-G03-SOC-FAMILIES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SOC-EXCHANGE-L01",
@@ -4001,7 +4001,7 @@
   ],
   "file_stem": "초3_사회·역사_공동체와교류_02_사람과물자의교류",
   "source": "lessons/G03_초3/SOC_사회·역사/공동체와교류/KR22-G03-SOC-EXCHANGE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ETH-MYSTRENGTH-L01",
@@ -4143,7 +4143,7 @@
   "pre": [],
   "file_stem": "초3_과학_생물_01_동물의생김새와생활",
   "source": "lessons/G03_초3/SCI_과학/생물/KR22-G03-SCI-ANIMAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SCI-ANIMLIFE-L01",
@@ -4168,7 +4168,7 @@
   ],
   "file_stem": "초3_과학_생물_02_동물의한살이",
   "source": "lessons/G03_초3/SCI_과학/생물/KR22-G03-SCI-ANIMLIFE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SCI-PLANTLIFE-L01",
@@ -4193,7 +4193,7 @@
   ],
   "file_stem": "초3_과학_생물_03_식물의한살이",
   "source": "lessons/G03_초3/SCI_과학/생물/KR22-G03-SCI-PLANTLIFE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SCI-MATERIAL-L01",
@@ -4267,7 +4267,7 @@
   "pre": [],
   "file_stem": "초3_과학_건강과탐구_01_관찰기록하기",
   "source": "lessons/G03_초3/SCI_과학/건강과탐구/KR22-G03-SCI-RECORD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SCI-GERMS-L01",
@@ -4293,7 +4293,7 @@
   ],
   "file_stem": "초3_과학_건강과탐구_02_감염병예방",
   "source": "lessons/G03_초3/SCI_과학/건강과탐구/KR22-G03-SCI-GERMS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-TEC-HOMEROLE-L01",
@@ -5684,7 +5684,7 @@
   ],
   "file_stem": "초4_사회·역사_지도와지역_02_촌락과도시",
   "source": "lessons/G04_초4/SOC_사회·역사/지도와지역/KR22-G04-SOC-REGION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-HERITAGE-L01",
@@ -5707,7 +5707,7 @@
   "pre": [],
   "file_stem": "초4_사회·역사_지역사와유산_01_지역의문화유산",
   "source": "lessons/G04_초4/SOC_사회·역사/지역사와유산/KR22-G04-SOC-HERITAGE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-LOCALHIST-L01",
@@ -5732,7 +5732,7 @@
   ],
   "file_stem": "초4_사회·역사_지역사와유산_02_지역의역사",
   "source": "lessons/G04_초4/SOC_사회·역사/지역사와유산/KR22-G04-SOC-LOCALHIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-SCARCITY-L01",
@@ -8923,7 +8923,7 @@
   ],
   "file_stem": "초6_국어_문학과매체_03_복합매체자료만들기",
   "source": "lessons/G06_초6/KOR_국어/문학과매체/KR22-G06-KOR-MULTIMEDIA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-FRACDIV-L01",
@@ -9394,7 +9394,7 @@
   ],
   "file_stem": "초6_수학_원과자료_04_알맞은그래프고르기",
   "source": "lessons/G06_초6/MAT_수학/원과자료/KR22-G06-MAT-GRAPHS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-KEYINFO-L01",
