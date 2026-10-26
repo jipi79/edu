@@ -449,7 +449,10 @@ function chart(deck, slide, sid, fig, box) {
   if (fig.chart === "bar" || !fig.chart) { opts.barDir = "col"; opts.dataLabelPosition = "outEnd"; opts.barGapWidthPct = 60; }
   if (fig.chart === "line") { opts.lineDataSymbol = "circle"; opts.lineDataSymbolSize = 9; opts.lineSize = 3; opts.dataLabelPosition = "t"; }
   if (fig.chart === "pie") { opts.dataLabelPosition = "bestFit"; opts.showPercent = !!fig.percent; opts.showValue = !fig.percent; }
+  // 눈금: max·min·step(한 칸의 크기)을 주면 그대로 쓴다(글의 '눈금 한 칸 = ○'과 맞추기 위함).
   if (fig.max !== undefined) opts.valAxisMaxVal = fig.max;
+  if (fig.min !== undefined) opts.valAxisMinVal = fig.min;
+  if (fig.step !== undefined) opts.valAxisMajorUnit = fig.step;
   if (fig.valueTitle) { opts.showValAxisTitle = true; opts.valAxisTitle = fig.valueTitle; opts.valAxisTitleFontFace = "+mn-lt"; opts.valAxisTitleFontSize = pt; }
   slide.addChart(type, data, opts);
 }

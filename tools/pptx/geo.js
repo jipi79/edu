@@ -34,18 +34,23 @@ function segEnds(fig, s) {
   return [a, b];
 }
 
-function geoExtent(fig) {
+function geoExtent(fig, forGrid = false) {
   const pts = Object.values(fig.points || {});
   for (const pg of fig.polygons || []) pts.push(...pg.pts.map((p) => at(fig, p)));
   for (const s of fig.segments || []) pts.push(...segEnds(fig, s));
   for (const c of fig.circles || []) { const o = at(fig, c.center); pts.push([o[0] - c.r, o[1] - c.r], [o[0] + c.r, o[1] + c.r]); }
-  for (const t of fig.texts || []) pts.push(at(fig, t.at));
   if (fig.grid_range) pts.push(fig.grid_range.slice(0, 2), fig.grid_range.slice(2));
   if (!pts.length) throw new Error("geo: 그릴 점이 없습니다(빈 모눈은 grid_range를 준다)");
   const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
   let e = [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)];
-  const m = fig.grid_margin ?? 1;
+  const m = Math.round(fig.grid_margin ?? 1);
   if (fig.grid && !fig.grid_range) e = [Math.floor(e[0]) - m, Math.floor(e[1]) - m, Math.ceil(e[2]) + m, Math.ceil(e[3]) + m];
+  if (forGrid) return e;
+  // 글(texts)은 모눈 범위에는 넣지 않고 그림 전체 범위에만 넣는다(모눈 밖에 쓸 수 있게).
+  for (const t of fig.texts || []) {
+    const p = at(fig, t.at);
+    e = [Math.min(e[0], p[0]), Math.min(e[1], p[1]), Math.max(e[2], p[0]), Math.max(e[3], p[1])];
+  }
   return e;
 }
 
@@ -91,7 +96,7 @@ function geoPrims(fig, em) {
   // 모눈 위 도형: 색은 모눈 아래, 테두리는 모눈 위에 그려 칸을 셀 수 있게 한다.
   if (fig.grid) for (const pg of fig.polygons || []) if (!pg.open && fillOf(pg.fill ?? "tint")) out.push({ k: "poly", pts: pg.pts.map((p) => at(fig, p)), closed: true, fill: fillOf(pg.fill ?? "tint"), w: 0 });
   if (fig.grid) {
-    const [x0, y0, x1, y1] = geoExtent(fig);
+    const [x0, y0, x1, y1] = geoExtent(fig, true);
     if (fig.grid === "dot") {
       for (let x = x0; x <= x1 + 1e-9; x++) for (let y = y0; y <= y1 + 1e-9; y++) out.push({ k: "dot", c: [x, y], size: 0.35, color: "grid" });
     } else {
@@ -116,7 +121,7 @@ function geoPrims(fig, em) {
       const u = mul(unit(sub(p, v)), m), w = mul(unit(sub(q, v)), m);
       out.push({ k: "poly", pts: [add(v, u), add(add(v, u), w), add(v, w)], closed: false, fill: null, w: 1.75, color: "ink" });
     } else {
-      const r = a.r ?? Math.min(1.3 * em, room);
+      const r = a.r ?? Math.min(1.3 * em, (room * 0.25) / 0.35);
       out.push({ k: "sector", c: v, r, a1, a2: a1 + sweep, fill: a.fill || "yellow" });
       // 좁은 각은 이름표가 두 변에 닿지 않을 만큼 꼭짓점에서 멀리 둔다.
       const half = Math.sin((Math.min(sweep, 179) * Math.PI) / 360);

@@ -5338,7 +5338,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G04-MAT-POLYGON-L01"
+   "KR22-G04-MAT-POLYGON-L01",
+   "KR22-G04-MAT-ANGLE-L01"
   ],
   "file_stem": "초4_수학_도형_07_평면도형의이동",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-MOVE-L01.json",
@@ -6617,7 +6618,7 @@
   ],
   "file_stem": "초5_국어_토의와논리적표현_01_주장과근거",
   "source": "lessons/G05_초5/KOR_국어/토의와논리적표현/KR22-G05-KOR-CLAIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-DEBATE-L01",
@@ -6929,7 +6930,7 @@
   ],
   "file_stem": "초5_수학_분수의덧셈과뺄셈_01_분모가다른분수의덧셈",
   "source": "lessons/G05_초5/MAT_수학/분수의덧셈과뺄셈/KR22-G05-MAT-FRAC-ADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FRAC-SUB-L01",

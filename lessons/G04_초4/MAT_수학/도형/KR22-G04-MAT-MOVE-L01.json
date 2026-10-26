@@ -32,6 +32,11 @@
       "text": "다각형과 대각선",
       "lesson": "KR22-G04-MAT-POLYGON-L01",
       "grade_item": "KR22-G04-MAT-I02"
+    },
+    {
+      "text": "각도 재기",
+      "lesson": "KR22-G04-MAT-ANGLE-L01",
+      "grade_item": "KR22-G04-MAT-I02"
     }
   ],
   "objectives": [
@@ -117,18 +122,6 @@
       ],
       "rel": "<",
       "where": "S13 나는 반 바퀴라 처음으로 돌아오지 않음"
-    },
-    {
-      "type": "blank",
-      "expr": "3 × 30 = □",
-      "answer": 90,
-      "where": "S15 3시: 한 칸 30°씩 3칸"
-    },
-    {
-      "type": "blank",
-      "expr": "6 × 30 = □",
-      "answer": 180,
-      "where": "S15 6시"
     }
   ],
   "slides": [
