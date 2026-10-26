@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G05-MAT-FRAC-SUB-L01",
+  "concept_id": "MAT-FRAC-SUB",
+  "title": "분모가 다른 분수의 뺄셈",
+  "grade": "G05",
+  "grade_label": "초5",
+  "band": "E56",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "분수의덧셈과뺄셈",
+  "sequence": 2,
+  "file_stem": "초5_수학_분수의덧셈과뺄셈_02_분모가다른분수의뺄셈",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G05-MAT-I01"
+    ],
+    "units": [
+      "2.1.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "통분하여 분모가 다른 분수의 뺄셈을 계산한다.",
+  "prerequisites": [
+    {
+      "text": "분모가 다른 분수의 덧셈",
+      "lesson": "KR22-G05-MAT-FRAC-ADD-L01",
+      "grade_item": "KR22-G05-MAT-I01"
+    },
+    {
+      "text": "분모가 같은 분수의 뺄셈",
+      "lesson": "KR22-G04-MAT-FRACSUB-L01",
+      "grade_item": "KR22-G04-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "분모가 다른 분수의 뺄셈 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,856 @@
+{
+  "id": "KR22-G03-ENG-THANKS-L01",
+  "concept_id": "ENG-THANKS",
+  "title": "감사·사과·부탁",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "듣기와말하기",
+  "sequence": 3,
+  "file_stem": "초3_영어_듣기와말하기_03_감사·사과·부탁",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "제작 완료",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G03-ENG-I02"
+    ],
+    "units": [
+      "3.4.1",
+      "3.1.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "이름 묻고 답하기",
+      "lesson": "KR22-G03-ENG-NAME-L01",
+      "grade_item": "KR22-G03-ENG-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "도움을 받거나 물건을 받았을 때 Thank you.라고 말하고, 상대가 Thank you.라고 하면 You're welcome.으로 대답한다.",
+      "evidence": "표현 익히기(S03), 역할극(S06, S07), 상황 고르기(S08 ①), 빈칸 대화(S10 ①), 혼자 해 보기(S11 ①④), 마무리 확인(S13), 활동지 1·2·4·6",
+      "success": "고마운 상황에서 Thank you.를 스스로 말하고, 부모가 Thank you.라고 하면 You're welcome.으로 바로 대답한다."
+    },
+    {
+      "id": "B",
+      "text": "잘못했을 때 I'm sorry.라고 사과하고, 상대가 사과하면 That's OK.로 대답한다.",
+      "evidence": "표현 익히기(S04), 역할극(S07), 상황 고르기(S08 ②), 대답 비교(S09), 빈칸 대화(S10 ②), 혼자 해 보기(S11 ②), 마무리 확인(S13), 활동지 1·3·4·6",
+      "success": "미안한 상황에서 I'm sorry.를 스스로 말하고, 부모가 I'm sorry.라고 하면 That's OK.로 대답하며, You're welcome.과 바꾸어 말하지 않는다."
+    },
+    {
+      "id": "C",
+      "text": "무엇을 달라고 부탁할 때 Water, please.처럼 please를 붙여 말하고, 권하는 말에 Yes, please.로 대답한다.",
+      "evidence": "표현 익히기(S05), 역할극(S06), 상황 고르기(S08 ③), 빈칸 대화(S10 ③), 혼자 해 보기(S11 ③), 활동지 1·4·5·6",
+      "success": "water, milk, juice 가운데 갖고 싶은 것 뒤에 please를 붙여 말하고, 부모가 Milk?라고 권하면 Yes, please.로 대답한다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "교과서 디지털 자료나 사전 앱(표현 소리 듣기)",
+    "역할극에 쓸 집에 있는 물건(컵, 연필, 책)",
+    "(있으면) 인형 두 개 — 역할극의 친구 역할"
+  ],
+  "boundary": "Thank you for ~.처럼 이유를 붙여 말하기, Excuse me.나 Can I ~?처럼 부탁하는 다른 표현은 다루지 않는다. Here you are.는 부모가 말하는 줄로만 듣고, 아이가 꼭 말하지 않아도 된다. 듣고 따라 말하기가 중심이고, 쓰기는 보고 따라 쓰기만 한다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "You're welcome.과 That's OK.를 바꾸어 대답한다(I'm sorry.에 You're welcome.이라고 대답).",
+      "response": "상대가 고맙다고 했는지 미안하다고 했는지 먼저 우리말로 말하게 한 뒤 대답하게 한다. 두 대답을 나란히 비교한다(S09)."
+    },
+    {
+      "id": "M2",
+      "text": "Thank you.를 들으면 Thank you.로 되받거나, 고맙다는 말을 듣고도 대답하지 않는다.",
+      "response": "말과 대답을 한 쌍으로 익히게 하고, 부모가 먼저 Thank you.라고 말하는 장면을 자주 만든다(S03, S06)."
+    },
+    {
+      "id": "M3",
+      "text": "부탁할 때 Water.처럼 낱말만 말한다.",
+      "response": "please를 붙이면 우리말의 ‘주세요’처럼 공손한 부탁이 된다고 비교해 알려 주고, 부탁할 때마다 please를 붙이게 한다(S05, S10)."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B",
+        "C"
+      ],
+      "title": "감사·사과·부탁",
+      "question": "친구가 도와주면\n영어로 뭐라고 말할까요?",
+      "goals": [
+        "① 고마울 때, 미안할 때 하는 말과 대답을 해요.",
+        "② 부탁할 때 please를 붙여 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Thank you."
+          },
+          {
+            "word": "I'm sorry."
+          }
+        ],
+        "perRow": 1
+      },
+      "notes": {
+        "목적": "고마울 때, 미안할 때, 부탁할 때 하는 말이 영어에도 있다는 것을 떠올리고 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구가 떨어뜨린 연필을 주워 주면 우리말로 뭐라고 해? 친구 발을 실수로 밟으면?”",
+          "“오늘은 고마울 때, 미안할 때, 그리고 무엇을 달라고 부탁할 때 영어로 어떻게 말하는지 배울 거야.”",
+          "“오른쪽 말 중에 들어 본 말이 있어?”"
+        ],
+        "예상답": [
+          "“고마워요.” “미안해.” “Thank you는 알아요.”"
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(Thank you. You're welcome. I'm sorry. That's OK. Water, please. Yes, please. Here you are.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "소리 자료 없이 진행하면 바른 소리를 확인하기 어렵습니다. 이때는 헷갈리는 표현을 기록해 두었다가 소리 자료로 나중에 확인합니다.",
+          "아이가 영어 문장을 읽지 못해도 괜찮습니다. 부모가 읽어 주고 아이는 듣고 따라 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(이름 묻고 답하기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 시간 표현 떠올리기",
+      "text": "엄마(아빠)와 영어로 말해 보세요.",
+      "problems": [
+        {
+          "text": "친구가 What's your name?이라고 물어요."
+        },
+        {
+          "text": "친구가 Nice to meet you.라고 해요."
+        }
+      ],
+      "notes": {
+        "목적": "지난 차시(이름 묻고 답하기)의 표현을 기억하는지 확인합니다. 오늘도 상대의 말을 듣고 알맞게 대답하는 연습이 이어지므로 꼭 필요합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 처음 만난 친구야. ①, What's your name?”",
+          "“②, Nice to meet you.”"
+        ],
+        "정답": [
+          "① I'm (아이 이름). 또는 My name is (아이 이름).",
+          "② Nice to meet you, too."
+        ],
+        "막히면": [
+          "부모가 대답을 먼저 작게 말해 주고 따라 하게 합니다.",
+          "둘 중 하나라도 스스로 말하지 못하면 S15(보충)를 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "고맙다고 말하고 대답하기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "고마울 때",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Thank you.",
+            "sub": "고마워."
+          },
+          {
+            "word": "You're welcome.",
+            "sub": "천만에."
+          }
+        ]
+      },
+      "key": "고마울 때 말하고, 그 말에 대답해요.",
+      "notes": {
+        "목적": "고마울 때 하는 Thank you.와 그 대답 You're welcome.을 듣고 따라 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“누가 도와주거나 무엇을 주면 Thank you.라고 해. ‘고마워.’라는 뜻이야. 소리를 같이 듣고 따라 해 보자. Thank you.”",
+          "“친구가 Thank you.라고 하면 ‘천만에.’라고 대답해. You're welcome. 따라 해 봐. You're welcome.”",
+          "“엄마(아빠)가 연필을 줄게. 뭐라고 말할까?” (아이가 Thank you.라고 하면 부모가 You're welcome.이라고 대답합니다. 다음에는 역할을 바꿉니다.)"
+        ],
+        "예상답": [
+          "“Thank you.” “You're welcome.”"
+        ],
+        "막히면": [
+          "You're welcome.이 길면 뒤에서부터 붙여 말합니다. welcome … You're welcome.",
+          "소리 자료를 여러 번 듣고 따라 말합니다."
+        ],
+        "주의": [
+          "You're는 You are를 줄인 말입니다. 아이에게 따로 설명하지 않아도 됩니다.",
+          "Thank you.에 대한 대답은 여러 가지가 있지만 오늘은 You're welcome.으로 익힙니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "사과하고 대답하기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "미안할 때",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "I'm sorry.",
+            "sub": "미안해."
+          },
+          {
+            "word": "That's OK.",
+            "sub": "괜찮아."
+          }
+        ]
+      },
+      "key": "잘못했을 때 말하고, 그 말에 대답해요.",
+      "notes": {
+        "목적": "잘못했을 때 하는 I'm sorry.와 그 대답 That's OK.를 듣고 따라 말합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“실수로 친구 물건을 떨어뜨리면 I'm sorry.라고 해. ‘미안해.’라는 뜻이야. 따라 해 봐. I'm sorry.”",
+          "“친구가 I'm sorry.라고 하면 ‘괜찮아.’라고 대답해. That's OK. 따라 해 봐. That's OK.”",
+          "“엄마(아빠)가 네 책을 떨어뜨렸어. I'm sorry.” (아이가 That's OK.로 대답하게 합니다. 다음에는 역할을 바꿉니다.)"
+        ],
+        "예상답": [
+          "“I'm sorry.” “That's OK.”"
+        ],
+        "막히면": [
+          "미안한 표정, 괜찮다는 손짓을 함께 하며 말하게 합니다."
+        ],
+        "주의": [
+          "That's는 That is를 줄인 말입니다. OK는 대문자 두 글자로 씁니다.",
+          "You're welcome.과 That's OK.는 둘 다 대답이라 헷갈리기 쉽습니다. S09에서 비교합니다(M1)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "please를 붙여 부탁하기",
+      "role": "teach",
+      "objectives": [
+        "C"
+      ],
+      "title": "부탁할 때",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Water, please.",
+            "sub": "물 주세요."
+          },
+          {
+            "word": "Yes, please.",
+            "sub": "네, 주세요."
+          }
+        ]
+      },
+      "key": "부탁할 때 please를 붙이면 공손해요.",
+      "notes": {
+        "목적": "갖고 싶은 것 뒤에 please를 붙여 부탁하고, 권하는 말에 Yes, please.로 대답합니다(M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“물을 달라고 할 때 Water.라고만 하면 ‘물!’ 하고 말하는 것 같아. 뒤에 please를 붙이면 ‘물 주세요.’처럼 공손해져. 따라 해 봐. Water, please.”",
+          "“우유는 milk, 주스는 juice야. 우유를 달라고 해 볼까?”",
+          "“엄마(아빠)가 컵을 들고 물어볼게. Milk? 먹고 싶으면 Yes, please.라고 대답해.”"
+        ],
+        "예상답": [
+          "“Water, please.” “Milk, please.” “Yes, please.”"
+        ],
+        "막히면": [
+          "please만 따로 몇 번 말한 뒤 낱말 뒤에 붙여 말합니다. Water … please.",
+          "milk, juice가 어려우면 오늘은 Water, please.만 확실히 익힙니다."
+        ],
+        "주의": [
+          "Water와 please 사이에는 쉼표(,)가 있습니다.",
+          "부모님이 물건을 건넬 때는 Here you are.(여기 있어.)라고 말해 주세요. 아이는 듣기만 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "역할극(집에서: 부탁하고 고맙다고 말하기)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "C"
+      ],
+      "title": "집에서",
+      "text": "엄마(아빠)와 역할을 나누어 말해요.",
+      "passage": {
+        "paragraphs": [
+          "Mom: Milk?",
+          "Mina: Yes, please.",
+          "Mom: Here you are.",
+          "Mina: Thank you.",
+          "Mom: You're welcome."
+        ]
+      },
+      "notes": {
+        "목적": "권하는 말에 Yes, please.로 대답하고, 물건을 받으면 Thank you., 그 말에는 You're welcome.으로 대답하는 흐름을 역할극으로 해 봅니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 먼저 두 사람 말을 다 해 볼게. 잘 들어 봐.”",
+          "“이번에는 엄마(아빠)가 Mom, 네가 Mina야. Milk?” (컵을 건네며 진행합니다.)",
+          "“역할을 바꿔 보자. 이번엔 네가 Mom이야.”",
+          "“milk 대신 juice나 water로 바꿔서 해 볼까?”"
+        ],
+        "예상답": [
+          "아이가 Mina일 때: “Yes, please.” → “Thank you.”",
+          "아이가 Mom일 때: “Milk?” → “Here you are.” → “You're welcome.”"
+        ],
+        "막히면": [
+          "아이가 말할 줄을 부모가 먼저 작게 말해 주고 따라 하게 합니다.",
+          "Here you are.가 어려우면 아이가 Mom일 때 그 줄은 부모가 함께 말해 줍니다."
+        ],
+        "주의": [
+          "실제 컵이나 물건을 주고받으며 하면 뜻을 쉽게 이해합니다.",
+          "Mom은 ‘엄마’라는 뜻입니다. 아빠가 진행하면 Dad로 바꾸어 말해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "역할극(학교에서: 사과하고 대답하기)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "학교에서",
+      "text": "Tom이 Mina의 연필을 떨어뜨렸어요.",
+      "passage": {
+        "paragraphs": [
+          "Tom: I'm sorry.",
+          "Mina: That's OK.",
+          "Tom: Here you are.",
+          "Mina: Thank you.",
+          "Tom: You're welcome."
+        ]
+      },
+      "notes": {
+        "목적": "실수했을 때 사과하고, 사과에 대답하고, 이어서 고맙다고 말하는 흐름을 역할극으로 해 봅니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“Tom이 Mina의 연필을 떨어뜨렸대. Tom은 뭐라고 할까?”",
+          "“엄마(아빠)가 Tom, 네가 Mina야. 엄마(아빠)가 연필을 떨어뜨릴게. I'm sorry.” (연필을 주워 건네며 진행합니다.)",
+          "“역할을 바꿔 보자. 이번엔 네가 Tom이야.”"
+        ],
+        "예상답": [
+          "아이가 Mina일 때: “That's OK.” → “Thank you.”",
+          "아이가 Tom일 때: “I'm sorry.” → “Here you are.” → “You're welcome.”"
+        ],
+        "막히면": [
+          "“Tom이 미안하다고 했어. 그럼 Mina는 뭐라고 할까? 괜찮아!”처럼 우리말 뜻을 먼저 말해 줍니다."
+        ],
+        "주의": [
+          "인형이 있으면 인형에게 역할을 맡기면 덜 쑥스러워합니다.",
+          "여기까지가 배우고 역할극을 하는 부분입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "상황에 알맞은 말 고르기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B",
+        "C"
+      ],
+      "title": "어떤 말을 할까요?",
+      "text": "이럴 때 하는 말을 보기에서 골라 말해요.",
+      "problems": [
+        {
+          "text": "친구가 지우개를 빌려주었어요."
+        },
+        {
+          "text": "실수로 동생의 발을 밟았어요."
+        },
+        {
+          "text": "목이 말라서 물을 마시고 싶어요."
+        }
+      ],
+      "hint": "보기: Thank you.　·　I'm sorry.　·　Water, please.",
+      "notes": {
+        "목적": "상황을 듣고 고마울 때, 미안할 때, 부탁할 때 가운데 어느 때인지 판단해 알맞은 말을 고릅니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 읽어 줄게. ①, 친구가 지우개를 빌려주었어. 고마운 때야, 미안한 때야? 뭐라고 말할까?”",
+          "“②, 실수로 동생의 발을 밟았어.”",
+          "“③, 목이 말라서 물을 마시고 싶어.”"
+        ],
+        "정답": [
+          "① Thank you. ② I'm sorry. ③ Water, please."
+        ],
+        "막히면": [
+          "“이럴 때 우리말로는 뭐라고 해?”라고 먼저 묻고, 우리말과 같은 뜻의 영어 표현을 고르게 합니다."
+        ],
+        "주의": [
+          "보기를 읽지 못해도 괜찮습니다. 부모가 보기를 읽어 주고 아이는 듣고 고릅니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(사과에 대한 대답)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "어떤 대답이 알맞을까요?",
+      "claim": "Tom이 Mina에게 I'm sorry.라고 했어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "You're welcome."
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "items": [
+            {
+              "word": "That's OK."
+            }
+          ],
+          "perRow": 1
+        }
+      },
+      "question": "Mina의 알맞은 대답은 어느 쪽일까요? 왜 그렇게 생각해요?",
+      "notes": {
+        "목적": "사과에는 That's OK., 고맙다는 말에는 You're welcome.으로 대답한다는 것을 비교합니다(M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Tom이 I'm sorry.라고 했어. 무슨 뜻이었지?”",
+          "“가와 나 가운데 알맞은 대답은 무엇일까? 왜 그렇게 생각해?”",
+          "“그러면 가의 You're welcome.은 언제 하는 대답이었지?”"
+        ],
+        "정답": [
+          "답은 나(That's OK.)입니다. 미안하다는 말에는 ‘괜찮아.’라고 대답합니다.",
+          "가(You're welcome.)는 Thank you.에 하는 대답입니다."
+        ],
+        "막히면": [
+          "S03과 S04를 다시 보여 주고 “고맙다는 말의 대답, 미안하다는 말의 대답”을 짝 지어 말하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "빈칸 대화",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B",
+        "C"
+      ],
+      "title": "빈칸에 들어갈 말",
+      "text": "빈칸에 들어갈 말을 보기에서 골라 말해요.",
+      "problems": [
+        {
+          "text": "A: Thank you.\nB: You're ______."
+        },
+        {
+          "text": "A: I'm ______.\nB: That's OK."
+        },
+        {
+          "text": "A: Water, ______.\nB: Here you are."
+        }
+      ],
+      "hint": "보기: welcome　·　sorry　·　please",
+      "notes": {
+        "목적": "대화의 빈칸에 알맞은 말을 넣어 감사·사과·부탁의 말과 대답을 완성합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 읽어 줄게. 빈칸에서는 ‘음~’ 하고 멈출 거야. 보기의 welcome, sorry, please 가운데 무엇이 들어갈까?”",
+          "“①, A: Thank you. B: You're 음~.”",
+          "“②, A: I'm 음~. B: That's OK.”",
+          "“③, A: Water, 음~. B: Here you are.”",
+          "“이제 빈칸을 채워서 엄마(아빠)와 한 줄씩 나누어 말해 보자.”"
+        ],
+        "정답": [
+          "① welcome (You're welcome.)",
+          "② sorry (I'm sorry.)",
+          "③ please (Water, please.)"
+        ],
+        "막히면": [
+          "보기의 세 낱말을 빈칸에 하나씩 넣어 읽어 주고, 어느 것이 자연스러운지 고르게 합니다."
+        ],
+        "주의": [
+          "같은 형식의 빈칸 대화를 활동지 1에서 한 번 더 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 상황에 맞게 말하기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B",
+        "C"
+      ],
+      "title": "혼자 해 보기",
+      "text": "엄마(아빠)와 이야기하듯 영어로 말해 보세요.",
+      "problems": [
+        {
+          "text": "엄마(아빠)가 떨어진\n책을 주워 주셨어요."
+        },
+        {
+          "text": "엄마(아빠)가\nI'm sorry.라고 해요."
+        },
+        {
+          "text": "주스를 마시고 싶어요."
+        },
+        {
+          "text": "엄마(아빠)가\nThank you.라고 해요."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 상황에 맞게 감사·사과·부탁의 말을 하고, 상대의 말에 알맞게 대답하는지 확인합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①, 엄마(아빠)가 떨어진 책을 주워 줄게.” (실제로 책을 주워 건넵니다.)",
+          "“②, I'm sorry.”",
+          "“③, 주스를 마시고 싶으면 뭐라고 할까?”",
+          "“④, Thank you.”"
+        ],
+        "정답": [
+          "① Thank you. ② That's OK. ③ Juice, please. ④ You're welcome.",
+          "기준: 네 가지 모두 스스로 알맞은 표현을 고르면 통과입니다. 소리가 조금 서툴러도 알맞은 표현을 말했으면 맞은 것으로 봅니다. ③에서 Water, please.나 Milk, please.라고 해도 please를 붙였으면 맞습니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “고마운 때야, 미안한 때야, 부탁하는 때야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "teacher_only": true,
+      "section": "확인",
+      "purpose": "대답 예와 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B",
+        "C"
+      ],
+      "title": "대답 예 확인",
+      "good": [
+        {
+          "text": "① Thank you."
+        },
+        {
+          "text": "② That's OK."
+        },
+        {
+          "text": "③ Juice, please."
+        },
+        {
+          "text": "④ You're welcome."
+        }
+      ],
+      "bad": [
+        {
+          "text": "I'm sorry.에\nYou're welcome."
+        },
+        {
+          "text": "부탁할 때\nplease 빼기"
+        }
+      ],
+      "explain": "무슨 말에 대답하는지 먼저 생각해요. 부탁할 때는 please!",
+      "notes": {
+        "목적": "아이의 대답을 예와 비교하고 흔한 실수를 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네가 한 말과 왼쪽 예를 비교해 보자.”",
+          "“오른쪽처럼 말하면 왜 어색할까?”"
+        ],
+        "예상답": [
+          "“미안하다고 했으니까 That's OK.라고 해야 해요.” “please를 붙여야 공손해요.”"
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "알맞은 대답을 골라요",
+      "options": [
+        {
+          "text": "That's OK."
+        },
+        {
+          "text": "You're welcome."
+        },
+        {
+          "text": "I'm sorry."
+        },
+        {
+          "text": "Nice to meet you."
+        }
+      ],
+      "question": "Thank you.에 알맞은 대답은? 어떻게 알았나요?",
+      "notes": {
+        "목적": "처음 보는 형식에서 감사와 사과의 말에 알맞은 대답을 고르는지 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 가, 나, 다, 라를 읽어 줄게. That's OK. You're welcome. I'm sorry. Nice to meet you.”",
+          "“Thank you.에 알맞은 대답은 어느 것일까? 어떻게 알았어?”",
+          "“이번에는 엄마(아빠)가 I'm sorry.라고 할게. 어떤 대답이 알맞을까?”"
+        ],
+        "정답": [
+          "Thank you. → 나(You're welcome.)",
+          "I'm sorry. → 가(That's OK.)",
+          "다(I'm sorry.)는 사과하는 말, 라(Nice to meet you.)는 처음 만났을 때 하는 말입니다."
+        ],
+        "막히면": [
+          "S09를 다시 보여 주고 “고맙다고 했는지, 미안하다고 했는지” 먼저 말하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B",
+        "C"
+      ],
+      "title": "오늘 배운 것",
+      "key": "고마울 때 Thank you., 미안할 때 I'm sorry.\n부탁할 때는 please를 붙여요.",
+      "do": "말과 대답을 짝으로",
+      "dont": "I'm sorry.에 You're welcome.",
+      "review": [
+        {
+          "text": "Thank you.에 대답하기"
+        },
+        {
+          "text": "I'm sorry.에 대답하기"
+        },
+        {
+          "text": "물을 달라고 부탁하기"
+        }
+      ],
+      "next": "그림 보고 낱말 읽기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오늘 배운 것을 말해 볼래? 고마울 때는? 미안할 때는?”",
+          "“부탁할 때는 무엇을 붙여?”"
+        ],
+        "예상답": [
+          "“Thank you.” “I'm sorry.” “please요.”"
+        ],
+        "정답": [
+          "① You're welcome. ② That's OK. ③ Water, please."
+        ],
+        "주의": [
+          "오늘부터 집에서 물건을 주고받을 때 Thank you., You're welcome., please를 자주 써 보세요. 활동지 5에 써 본 말을 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "layout": "support",
+      "section": "보충",
+      "purpose": "선수 학습 보충(이름 묻고 답하기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 이름 묻고 답하기",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "What's your name?",
+            "sub": "이름이 뭐야?"
+          },
+          {
+            "word": "I'm Mina.",
+            "sub": "나는 Mina야."
+          },
+          {
+            "word": "Nice to meet you.",
+            "sub": "만나서 반가워."
+          },
+          {
+            "word": "Nice to meet you, too.",
+            "sub": "나도 만나서 반가워."
+          }
+        ],
+        "perRow": 2
+      },
+      "key": "인사 → 이름 묻고 답하기 → 반갑다고 말하기",
+      "notes": {
+        "목적": "S02에서 이름 묻고 답하기가 흔들리면, 오늘 내용을 배우기 전에 지난 차시 표현을 다시 익힙니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“지난 시간에 배운 말을 다시 들어 보자. 소리를 듣고 따라 말해 봐.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 처음 만난 친구야. Hello. What's your name?” → “Nice to meet you.”"
+        ],
+        "정답": [
+          "I'm (아이 이름). 또는 My name is (아이 이름). / Nice to meet you, too."
+        ],
+        "막히면": [
+          "부모가 먼저 말하고 아이가 따라 말하는 것부터 다시 합니다."
+        ],
+        "주의": [
+          "보충 뒤에도 이름을 묻고 답하지 못하면, 앞 차시 ‘이름 묻고 답하기’(KR22-G03-ENG-NAME-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "감사·사과·부탁 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "보기에서 알맞은 말을 골라 빈칸에 쓰세요.　(보기: welcome · sorry · please)",
+        "table": {
+          "headers": [
+            "A",
+            "B"
+          ],
+          "rows": [
+            [
+              "Thank you.",
+              "You're __________."
+            ],
+            [
+              "I'm __________.",
+              "That's OK."
+            ],
+            [
+              "Water, __________.",
+              "Here you are."
+            ]
+          ],
+          "size": 14
+        },
+        "answer": "① welcome ② sorry ③ please (보기를 보고 옮겨 쓰면 됩니다. 철자를 정확히 옮겨 썼는지 봅니다.)"
+      },
+      {
+        "no": 2,
+        "prompt": "친구가 떨어진 내 필통을 주워 주었어요. 알맞은 말에 ✔ 하세요.",
+        "choices": [
+          "I'm sorry.",
+          "Thank you.",
+          "That's OK."
+        ],
+        "answer": "Thank you. (도움을 받았을 때 하는 말입니다.)"
+      },
+      {
+        "no": 3,
+        "prompt": "내가 실수로 친구의 우유를 쏟았어요. 알맞은 말에 ✔ 하세요.",
+        "choices": [
+          "Thank you.",
+          "You're welcome.",
+          "I'm sorry."
+        ],
+        "answer": "I'm sorry. (잘못했을 때 하는 말입니다.)"
+      },
+      {
+        "no": 4,
+        "prompt": "소리 내어 말하며 따라 쓰세요.",
+        "eng": {
+          "trace": [
+            "Thank you.",
+            "You're welcome.",
+            "I'm sorry.",
+            "That's OK."
+          ]
+        },
+        "answer": "보고 따라 썼으면 맞습니다. 문장의 첫 글자(T, Y, I)는 대문자로 쓰고, You're·I'm·That's의 아포스트로피(')와 끝의 마침표(.)를 빠뜨리지 않았는지, OK를 대문자로 썼는지 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "오늘부터 일주일 동안 집에서 써 본 말에 ✔ 하세요.",
+        "choices": [
+          "Thank you.",
+          "You're welcome.",
+          "I'm sorry.",
+          "That's OK.",
+          "Water, please."
+        ],
+        "answer": "아이가 스스로 표시합니다. 부모가 들은 것과 비교해 보고, 다섯 가지 가운데 세 가지 이상을 써 보면 목표 달성으로 봅니다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 부모님이 Thank you.라고 하면 대답해 보세요.\n② 부모님이 I'm sorry.라고 하면 대답해 보세요.\n③ 물을 달라고 영어로 부탁해 보세요.",
+        "answer": "① You're welcome. ② That's OK. ③ Water, please. (세 가지 모두 도움 없이 말하면 통과)"
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 네 가지 모두 □  세 가지 □  두 가지 이하 □ (도움을 받음 □)",
+      "S13 마무리 확인: 두 물음 모두 □  하나만 □  아직 □",
+      "집에서 스스로 Thank you.나 please를 말하기: 자주 □  가끔 □  아직 □"
+    ]
+  },
+  "break_after": "S07"
+}
