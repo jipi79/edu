@@ -28,7 +28,13 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "plan_objective": "날씨에 따른 생활 변화를 기록하고 환경 실천 결과를 나눈다.",
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "계절과 날씨 기록",
+      "lesson": "KR22-G01-SCI-SEASON-L01",
+      "grade_item": "KR22-G01-SCI-I02"
+    }
+  ],
   "objectives": [
     {
       "id": "A",
