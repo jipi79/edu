@@ -324,6 +324,7 @@ function table(deck, slide, sid, fig, box) {
   while (pt > 16 && rows * rowH() > box.h) pt -= 2;
   if (rows * rowH() > box.h + 0.02) deck.problems.push(`${sid}: 표(${rows}줄)가 자리에 들어가지 않는다(필요 ${(rows * rowH()).toFixed(2)}in > ${box.h.toFixed(2)}in). 줄이나 옆의 글을 줄인다`);
   const w = Math.min(box.w, fig.width || Math.max(cols * 1.8, 4));
+  if (fig.widths && Math.abs(fig.widths.reduce((s, f) => s + f, 0) - 1) > 0.02) deck.problems.push(`${sid}: 표 widths는 합이 1인 비율로 쓴다(지금 합 ${fig.widths.reduce((s, f) => s + f, 0)})`);
   const colW = fig.widths ? fig.widths.map((f) => w * f) : Array.from({ length: cols }, () => w / cols);
   // 낱자(ㄱ, ㅏ 같은 호환용 자모)는 글꼴에서 작게 그려지므로 크게 쓴다
   const JAMO = /^[\u3131-\u318E]+$/;

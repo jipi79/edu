@@ -3273,7 +3273,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_10_0이있는수의뺄셈",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-SUB3D0-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-DIVZERO-L01",
@@ -3299,7 +3299,7 @@
   ],
   "file_stem": "초3_수학_자연수계산_11_몫에0이있는나눗셈",
   "source": "lessons/G03_초3/MAT_수학/자연수계산/KR22-G03-MAT-DIVZERO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-FRAC-L01",
@@ -3627,7 +3627,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_08_길이의덧셈과뺄셈",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-LENADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-PICTO-L01",
@@ -3725,6 +3725,31 @@
   ],
   "file_stem": "초3_영어_소리와문자_03_소문자와첫소리",
   "source": "lessons/G03_초3/ENG_영어/소리와문자/KR22-G03-ENG-LOWER-L01.json",
+  "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G03-ENG-CONSOUND-L01",
+  "concept_id": "ENG-CONSOUND",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "grade_item": "KR22-G03-ENG-I01",
+  "folder": "소리와문자",
+  "sequence": 4,
+  "units": [
+   "3.1.1"
+  ],
+  "title": "자음 글자의 소리",
+  "objective": "b·c·d·f… 자음 글자의 대표 소리를 듣고 낱말의 첫소리와 끝소리 글자를 찾는다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G03-ENG-LOWER-L01"
+  ],
+  "file_stem": "초3_영어_소리와문자_04_자음글자의소리",
+  "source": "lessons/G03_초3/ENG_영어/소리와문자/KR22-G03-ENG-CONSOUND-L01.json",
   "status": "계획"
  },
  {
@@ -3801,7 +3826,7 @@
   ],
   "file_stem": "초3_영어_듣기와말하기_03_감사·사과·부탁",
   "source": "lessons/G03_초3/ENG_영어/듣기와말하기/KR22-G03-ENG-THANKS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-PICWORDS-L01",
@@ -3822,10 +3847,12 @@
   "objective": "동물·색깔·숫자 낱말을 그림과 연결해 읽는다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G03-ENG-LOWER-L01"
+  ],
   "file_stem": "초3_영어_읽기와문화_01_그림보고낱말읽기",
   "source": "lessons/G03_초3/ENG_영어/읽기와문화/KR22-G03-ENG-PICWORDS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-GREETCULT-L01",
@@ -3847,11 +3874,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G03-ENG-PICWORDS-L01"
+   "KR22-G03-ENG-PICWORDS-L01",
+   "KR22-G03-ENG-HELLO-L01"
   ],
   "file_stem": "초3_영어_읽기와문화_02_나라별인사문화",
   "source": "lessons/G03_초3/ENG_영어/읽기와문화/KR22-G03-ENG-GREETCULT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SOC-PLACES-L01",
@@ -4815,7 +4843,7 @@
   ],
   "file_stem": "초4_국어_토의와쓰기_02_토의하기",
   "source": "lessons/G04_초4/KOR_국어/토의와쓰기/KR22-G04-KOR-DISCUSS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-PROPOSE-L01",
@@ -4841,7 +4869,7 @@
   ],
   "file_stem": "초4_국어_토의와쓰기_03_제안하는글",
   "source": "lessons/G04_초4/KOR_국어/토의와쓰기/KR22-G04-KOR-PROPOSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-SENTFORM-L01",
@@ -4866,7 +4894,7 @@
   "pre": [],
   "file_stem": "초4_국어_언어문학매체_01_문장의기본짜임",
   "source": "lessons/G04_초4/KOR_국어/언어문학매체/KR22-G04-KOR-SENTFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-EXPRESS-L01",
@@ -4893,7 +4921,7 @@
   ],
   "file_stem": "초4_국어_언어문학매체_02_표현의효과",
   "source": "lessons/G04_초4/KOR_국어/언어문학매체/KR22-G04-KOR-EXPRESS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-MEDIACOMP-L01",
@@ -4920,7 +4948,7 @@
   ],
   "file_stem": "초4_국어_언어문학매체_03_매체자료비교",
   "source": "lessons/G04_초4/KOR_국어/언어문학매체/KR22-G04-KOR-MEDIACOMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-MAN-L01",
@@ -5158,7 +5186,7 @@
   ],
   "file_stem": "초4_수학_도형_01_각도재기",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-ANGLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-ANGLESUM-L01",
@@ -5184,7 +5212,7 @@
   ],
   "file_stem": "초4_수학_도형_02_각도의합과차",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-ANGLESUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-TRIANGLE-L01",
@@ -5210,7 +5238,7 @@
   ],
   "file_stem": "초4_수학_도형_03_삼각형분류",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-TRIANGLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-PERPPAR-L01",
@@ -5236,7 +5264,7 @@
   ],
   "file_stem": "초4_수학_도형_04_수직과평행",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-PERPPAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-QUAD-L01",
@@ -5262,7 +5290,7 @@
   ],
   "file_stem": "초4_수학_도형_05_여러가지사각형",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-QUAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-POLYGON-L01",
@@ -5288,7 +5316,7 @@
   ],
   "file_stem": "초4_수학_도형_06_다각형과대각선",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-POLYGON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-MOVE-L01",
@@ -5314,7 +5342,7 @@
   ],
   "file_stem": "초4_수학_도형_07_평면도형의이동",
   "source": "lessons/G04_초4/MAT_수학/도형/KR22-G04-MAT-MOVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-BARGRAPH-L01",
@@ -5340,7 +5368,7 @@
   ],
   "file_stem": "초4_수학_자료와규칙_01_막대그래프",
   "source": "lessons/G04_초4/MAT_수학/자료와규칙/KR22-G04-MAT-BARGRAPH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-LINEGRAPH-L01",
@@ -5366,7 +5394,7 @@
   ],
   "file_stem": "초4_수학_자료와규칙_02_꺾은선그래프",
   "source": "lessons/G04_초4/MAT_수학/자료와규칙/KR22-G04-MAT-LINEGRAPH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-RULE-L01",
@@ -5393,7 +5421,7 @@
   ],
   "file_stem": "초4_수학_자료와규칙_03_계산식의규칙",
   "source": "lessons/G04_초4/MAT_수학/자료와규칙/KR22-G04-MAT-RULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-SHORTVOW-L01",
@@ -5415,11 +5443,11 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G03-ENG-LOWER-L01"
+   "KR22-G03-ENG-CONSOUND-L01"
   ],
   "file_stem": "초4_영어_소리낱말문장_01_단모음소리",
   "source": "lessons/G04_초4/ENG_영어/소리낱말문장/KR22-G04-ENG-SHORTVOW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-CVC-L01",
@@ -5445,7 +5473,7 @@
   ],
   "file_stem": "초4_영어_소리낱말문장_02_세글자낱말읽고쓰기",
   "source": "lessons/G04_초4/ENG_영어/소리낱말문장/KR22-G04-ENG-CVC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-ILIKE-L01",
@@ -6511,7 +6539,7 @@
   ],
   "file_stem": "초5_국어_독서와추론_01_단서로추론하기",
   "source": "lessons/G05_초5/KOR_국어/독서와추론/KR22-G05-KOR-INFER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-STRUCTURE-L01",
@@ -6537,7 +6565,7 @@
   ],
   "file_stem": "초5_국어_독서와추론_02_글의구조",
   "source": "lessons/G05_초5/KOR_국어/독서와추론/KR22-G05-KOR-STRUCTURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-SUMMARY-L01",
@@ -6563,7 +6591,7 @@
   ],
   "file_stem": "초5_국어_독서와추론_03_구조에따라요약하기",
   "source": "lessons/G05_초5/KOR_국어/독서와추론/KR22-G05-KOR-SUMMARY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-CLAIM-L01",
@@ -6746,7 +6774,7 @@
   ],
   "file_stem": "초5_수학_자연수의계산_01_자연수의혼합계산",
   "source": "lessons/G05_초5/MAT_수학/자연수의계산/KR22-G05-MAT-MIXCALC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FACTOR-L01",
@@ -6773,7 +6801,7 @@
   ],
   "file_stem": "초5_수학_자연수의계산_02_약수와배수",
   "source": "lessons/G05_초5/MAT_수학/자연수의계산/KR22-G05-MAT-FACTOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-GCDLCM-L01",
@@ -6799,7 +6827,7 @@
   ],
   "file_stem": "초5_수학_자연수의계산_03_최대공약수와최소공배수",
   "source": "lessons/G05_초5/MAT_수학/자연수의계산/KR22-G05-MAT-GCDLCM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FRAC-EQUIV-L01",
@@ -6850,7 +6878,7 @@
   ],
   "file_stem": "초5_수학_분수의성질_02_약분과기약분수",
   "source": "lessons/G05_초5/MAT_수학/분수의성질/KR22-G05-MAT-FRAC-REDUCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FRAC-COMMON-L01",
@@ -6875,7 +6903,7 @@
   ],
   "file_stem": "초5_수학_분수의성질_03_통분과크기비교",
   "source": "lessons/G05_초5/MAT_수학/분수의성질/KR22-G05-MAT-FRAC-COMMON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FRAC-ADD-L01",
@@ -6952,7 +6980,7 @@
   "pre": [],
   "file_stem": "초5_수학_곱셈과어림_01_수의범위",
   "source": "lessons/G05_초5/MAT_수학/곱셈과어림/KR22-G05-MAT-RANGE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-ROUND-L01",
@@ -6979,7 +7007,7 @@
   ],
   "file_stem": "초5_수학_곱셈과어림_02_어림하기",
   "source": "lessons/G05_초5/MAT_수학/곱셈과어림/KR22-G05-MAT-ROUND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FRACMUL-L01",
@@ -7007,7 +7035,7 @@
   ],
   "file_stem": "초5_수학_곱셈과어림_03_분수와자연수의곱셈",
   "source": "lessons/G05_초5/MAT_수학/곱셈과어림/KR22-G05-MAT-FRACMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-FRACMUL2-L01",
@@ -7034,7 +7062,7 @@
   ],
   "file_stem": "초5_수학_곱셈과어림_04_분수끼리의곱셈",
   "source": "lessons/G05_초5/MAT_수학/곱셈과어림/KR22-G05-MAT-FRACMUL2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-DECMUL-L01",

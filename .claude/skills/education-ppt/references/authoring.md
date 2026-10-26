@@ -86,7 +86,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `blocks10` | `hundreds`?, `tens`, `ones`, `unit`?(한 칸 크기, in) | 자릿값(수 모형). 여러 개를 나란히 둘 때는 같은 `unit` |
 | `bond` | `whole`, `parts`[2] (빈칸은 null), `merge`? | 가르기(전체 위)·모으기(merge: 부분 위) |
 | `placevalue` | `headers`, `rows` | 자릿값 표 |
-| `table` | `headers`, `rows`, `widths`?, `firstColHead`? | 표 |
+| `table` | `headers`, `rows`, `widths`?(열 너비 비율, 합 1), `width`?(표 전체 너비 in), `size`?(pt), `firstColHead`? | 표 |
 | `clock` | `h`, `m`(시곗바늘 없이 그리려면 h 생략) | 시각 |
 | `shapes` | `items`[ {shape, label?, shaded?} ] — circle·triangle·rtriangle·square·rect·pentagon·hexagon·parallelogram·trapezoid·rhombus·cube·cuboid·cylinder·sphere·cone | 평면·입체 도형 |
 | `angle` | `deg`, `label`? | 각도 |
@@ -148,7 +148,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `bars` | 분수 막대 [ {parts, shaded, label?} ] |
 | `clock`, `numberline`, `grid`, `array`, `pie`, `table`(`size`? pt), `tenframe`, `bond`, `geo`, `ruler`, `protractor` | 그림(시계는 h 없이 주면 아이가 바늘을 그린다, bond의 null은 빈 동그라미, geo·ruler·protractor는 슬라이드와 같은 필드이며 `type`은 쓰지 않는다. 그리기 문제는 `geo`에 `grid`와 `grid_range`[x0,y0,x1,y1]만 주어 빈 모눈·점판을 준다) |
 | `read` | 읽을 글(상자) |
-| `choices` | 고르기 보기(☐) |
+| `choices`, `choices_size`?(pt, 기본 12) | 고르기 보기(☐). 영어 낱말 읽기는 16 이상 |
 | `big`, `big_size`?, `big_spacing`?(mm) | 큰 글자(따라 쓰기 낱말 등, 기본 26pt). 한글은 글자 사이를 4 mm 띄우고 영어는 붙여 쓴다. 한글 낱말 사이는 전각 공백(　)으로 띄운다 |
 | `eng` | {`trace`[영어 문장…](흐린 글씨로 따라 쓰기), `blank`(빈 네 줄 수), `height`?(mm, 기본 15)} | 영어 네 줄 공책(셋째 줄이 기준선) |
 | `lines` / `line_label` | 쓰기 줄 수 / 줄 앞 안내 |

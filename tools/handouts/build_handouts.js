@@ -172,7 +172,9 @@ function tableHtml(t) {
   const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${jamo(esc(h))}</th>`).join("")}</tr>` : "";
   const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${jamo(esc(c))}</th>` : `<td style="height:9mm; min-width:18mm; text-align:center">${jamo(esc(c))}</td>`);
   const rows = t.rows.map((r) => `<tr>${r.map(cell).join("")}</tr>`).join("");
-  return `<table style="width:auto; min-width:90mm; font-size:${t.size || 11.5}pt">${head}${rows}</table>`;
+  // widths(합이 1인 비율)가 있으면 열 너비를 그 비율로 나눈다.
+  const cols = t.widths ? `<colgroup>${t.widths.map((f) => `<col style="width:${(f * 100).toFixed(1)}%">`).join("")}</colgroup>` : "";
+  return `<table style="width:${t.widths ? "160mm" : "auto"}; min-width:90mm; font-size:${t.size || 11.5}pt">${cols}${head}${rows}</table>`;
 }
 
 
@@ -214,7 +216,8 @@ function engLinesHtml(e) {
   const row = (t) => {
     const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
     const lines = ys.map((y, i) => `<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
-    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.82 * h).toFixed(2)}" fill="#C9CED6">${esc(t)}</text>` : "";
+    // 소문자 몸통(x-height)이 가운데 칸(둘째~셋째 줄)에 맞도록 글자 크기를 정한다. 낱말 사이는 넉넉히 띄운다.
+    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.66 * h).toFixed(2)}" fill="#C9CED6" style="white-space:pre" word-spacing="${(0.25 * h).toFixed(2)}">${esc(t)}</text>` : "";
     return `<svg lang="en" width="${w}mm" height="${h}mm" viewBox="0 0 ${w} ${h}" style="display:block; margin:0 0 5mm 9.5mm">${lines}${text}</svg>`;
   };
   return `<div style="margin-top:2mm">${rows.map(row).join("")}</div>`;
@@ -244,7 +247,7 @@ function worksheetHtml(L) {
     }
     if (it.read) h += `<div class="box" style="margin-left:9.5mm; font-size:13pt">${esc(it.read).replace(/\n/g, "<br>")}</div>`;
     h += figureHtml(it);
-    if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:12pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
+    if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:${it.choices_size || 12}pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
     if (it.big) {
       // 한글 낱자는 넓게 띄우고, 영어 낱말은 글자를 붙여 쓴다.
       const spacing = it.big_spacing ?? (/[가-힯ㄱ-ㆎ]/.test(it.big) ? 4 : 0.5);

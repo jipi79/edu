@@ -32,6 +32,11 @@
       "text": "그림 보고 낱말 읽기",
       "lesson": "KR22-G03-ENG-PICWORDS-L01",
       "grade_item": "KR22-G03-ENG-I03"
+    },
+    {
+      "text": "인사하기",
+      "lesson": "KR22-G03-ENG-HELLO-L01",
+      "grade_item": "KR22-G03-ENG-I02"
     }
   ],
   "objectives": [

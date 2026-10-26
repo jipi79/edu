@@ -29,8 +29,8 @@
   },
   "prerequisites": [
     {
-      "text": "소문자와 첫소리",
-      "lesson": "KR22-G03-ENG-LOWER-L01",
+      "text": "자음 글자의 소리",
+      "lesson": "KR22-G03-ENG-CONSOUND-L01",
       "grade_item": "KR22-G03-ENG-I01"
     }
   ],
