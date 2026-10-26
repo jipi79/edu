@@ -27,7 +27,13 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "prerequisites": [],
+  "prerequisites": [
+    {
+      "text": "일이 일어난 차례",
+      "lesson": "KR22-G02-KOR-SEQUENCE-L01",
+      "grade_item": "KR22-G02-KOR-I02"
+    }
+  ],
   "objectives": [
     {
       "id": "A",

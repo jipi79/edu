@@ -235,7 +235,11 @@ const KINDS = {
       drawFigures(deck, slide, spec.id, figureOf(spec), right);
     }
     const p = spec.passage;
-    const paras = (p.paragraphs || [p.text]).map((t, i) => (p.numbered ? `${LABELS[i]} ${t}` : t));
+    const paras = (p.paragraphs || [p.text]).map((t, i) => {
+      const text = typeof t === "string" ? t : t.text;
+      const shown = p.numbered ? `${LABELS[i]} ${text}` : text;
+      return typeof t === "string" ? shown : { text: shown, align: t.align };
+    });
     deck.passageBox(slide, spec.id, box, p.title, paras);
   },
 

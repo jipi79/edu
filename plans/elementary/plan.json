@@ -1710,7 +1710,7 @@
   ],
   "file_stem": "초2_수학_수와계산_01_세자리수",
   "source": "lessons/G02_초2/MAT_수학/수와계산/KR22-G02-MAT-NUM1000-L01.json",
-  "status": "계획"
+  "status": "원고 완료"
  },
  {
   "id": "KR22-G02-MAT-NUM4D-L01",
@@ -2023,7 +2023,7 @@
   ],
   "file_stem": "초2_수학_도형과측정_02_쌓기나무",
   "source": "lessons/G02_초2/MAT_수학/도형과측정/KR22-G02-MAT-BLOCKS-L01.json",
-  "status": "계획"
+  "status": "원고 완료"
  },
  {
   "id": "KR22-G02-MAT-CM-L01",
@@ -2843,7 +2843,9 @@
   "objective": "조사한 내용을 처음·가운데·끝의 순서로 발표한다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G02-KOR-SEQUENCE-L01"
+  ],
   "file_stem": "초3_국어_발표와쓰기_01_조사한내용발표하기",
   "source": "lessons/G03_초3/KOR_국어/발표와쓰기/KR22-G03-KOR-PRESENT-L01.json",
   "status": "제작 완료"
@@ -2925,7 +2927,7 @@
   ],
   "file_stem": "초3_국어_문학과매체_01_인물의마음과까닭",
   "source": "lessons/G03_초3/KOR_국어/문학과매체/KR22-G03-KOR-CHARACTER-L01.json",
-  "status": "원고 완료"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-KOR-SENSORY-L01",

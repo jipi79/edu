@@ -152,7 +152,7 @@ function pieSvg(pc, d = 36) {
 
 function tableHtml(t) {
   const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${esc(h)}</th>`).join("")}</tr>` : "";
-  const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td style="height:9mm; text-align:center">${esc(c)}</td>`).join("")}</tr>`).join("");
+  const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td style="height:9mm; min-width:18mm; text-align:center">${esc(c)}</td>`).join("")}</tr>`).join("");
   return `<table style="width:auto; min-width:90mm; font-size:11.5pt">${head}${rows}</table>`;
 }
 

@@ -199,14 +199,14 @@ class Deck {
     const innerW = box.w - 0.6;
     const innerH = box.h - 0.4;
     const sizes = [s.body, s.body - 2, s.small, Math.max(16, s.small - 2), Math.max(16, s.small - 4)];
-    const build = (pt) => [...(title ? [{ text: title, pt: pt + 2 }] : []), ...paras.map((t) => ({ text: t, pt }))];
+    const build = (pt) => [...(title ? [{ text: title, pt: pt + 2 }] : []), ...paras.map((t) => (typeof t === "string" ? { text: t, pt } : { text: t.text, pt, align: t.align }))];
     let pt = sizes.find((p) => heightOf(build(p), innerW, 8) <= innerH + 0.02);
     if (!pt) {
       pt = sizes[sizes.length - 1];
       this.problems.push(`${sid}: 지문이 넘친다. 지문을 줄이거나 두 장으로 나눈다`);
     }
     const list = build(pt);
-    slide.addText(list.map((p, i) => ({ text: p.text, options: { fontSize: p.pt, bold: !!title && i === 0, breakLine: i < list.length - 1 } })), textOpts({
+    slide.addText(list.map((p, i) => ({ text: p.text, options: { fontSize: p.pt, bold: !!title && i === 0, align: p.align || "left", breakLine: i < list.length - 1 } })), textOpts({
       x: box.x + 0.3, y: box.y + 0.2, w: innerW, h: innerH, color: P.dk1, valign: "top", margin: 0, paraSpaceAfter: 8, lineSpacingMultiple: 1.05,
       objectName: this.name(sid, "passage"),
     }));
@@ -504,6 +504,8 @@ async function finalize(file, alt) {
   zip.file(themePart, theme);
   for (const part of Object.keys(zip.files).filter((f) => /^ppt\/slides\/slide\d+\.xml$/.test(f))) {
     let xml = await zip.file(part).async("string");
+    // 한글 낱말이 중간에서 끊기지 않게(어절 단위 줄바꿈) 한다. 글 맞춤 계산도 어절 단위다.
+    xml = xml.replace(/<a:pPr(?![^>]*eaLnBrk)/g, '<a:pPr eaLnBrk="0"').replace(/<a:p>(?!<a:pPr)/g, '<a:p><a:pPr eaLnBrk="0"/>');
     for (const [name, text] of alt) {
       xml = xml.replace(`name="${name}">`, `name="${name}" descr="${escapeXml(text)}">`);
     }

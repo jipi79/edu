@@ -60,7 +60,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `practice` / `check` | `text`?, `problems`[1~6] (`{text}`·`{eq}`·`{figure}`), `figure`?(도움 그림), `aidTitle`?, `hint`? | 3개 이하는 한 줄씩, 4~6개는 두 열. 도움 그림이 있으면 오른쪽 |
 | `choice` | `text`?, `options`[2~4] (`{figure}` 또는 `{text}`), `question`? | 가·나·다·라 이름표 자동 |
 | `compare` | `claim`?, `left`/`right` (`{title, figure|eq|text, text?, mark?: "o"|"x"}`), `question`? | 두 칸 비교. mark를 쓰면 ○/× 표시(정답을 보여 주는 설명 장에서만) |
-| `passage` | `text`?, `passage` (`{title?, paragraphs[], numbered?}`), `question`?, `figure`? | 읽기 지문 상자. 넘치면 지문을 줄이거나 두 장으로 |
+| `passage` | `text`?, `passage` (`{title?, paragraphs[], numbered?}`; 문단은 문자열 또는 `{text, align: "right"}`), `question`?, `figure`? | 읽기 지문 상자. 넘치면 지문을 줄이거나 두 장으로. 편지의 날짜·서명은 오른쪽 정렬 |
 | `cards` | `text`?, `cards`[2~6], `key`? | 카드 격자 |
 | `table` | `text`?, `table` (`{headers, rows, widths?}`), `key`? | 표 |
 | `chart` | `text`?, `chart` (`{chart: bar|line|pie, labels, values, valueTitle?, max?}`), `question`? | PowerPoint 차트 |

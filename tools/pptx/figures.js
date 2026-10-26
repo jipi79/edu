@@ -307,6 +307,9 @@ function table(deck, slide, sid, fig, box) {
   const cell = (t, head) => ({
     text: String(t), options: { bold: !!head, fill: { color: head ? P.lt2 : P.lt1 }, color: INK, align: fig.align || "center", valign: "middle", fontFace: deck.font, fontSize: pt },
   });
+  // 칸마다 글이 들어가는지 본다(칸 높이에 두 줄까지)
+  const allRows = [...(fig.headers ? [fig.headers] : []), ...fig.rows];
+  allRows.forEach((r) => r.forEach((t, i) => deck.checkFit(sid, String(t), colW[i] - 0.1, Math.max(rowH(), (pt * 2.5) / 72), [pt])));
   const data = [];
   if (fig.headers) data.push(fig.headers.map((t) => cell(t, true)));
   fig.rows.forEach((r) => data.push(r.map((t, i) => cell(t, fig.firstColHead && i === 0))));
@@ -439,9 +442,10 @@ function flow(deck, slide, sid, fig, box) {
   const y = box.y + (box.h - bh - (fig.cycle ? 0.5 : 0)) / 2;
   fig.items.forEach((t, i) => {
     const x = x0 + i * (bw + arrowW);
+    const fpt = deck.checkFit(sid, String(t), bw - 0.25, bh - 0.15, [pt, pt - 2, pt - 4].filter((p) => p >= 16));
     slide.addText(String(t), textOpts({
       shape: deck.pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.12, x, y, w: bw, h: bh, fill: { color: i === fig.highlight ? TINT.accent : P.lt2 },
-      line: { color: P.dk2, width: 1.5 }, fontSize: pt, bold: true, color: INK, align: "center", valign: "middle", margin: [6, 6, 4, 4],
+      line: { color: P.dk2, width: 1.5 }, fontSize: fpt, bold: true, color: INK, align: "center", valign: "middle", margin: [6, 6, 4, 4],
       objectName: deck.name(sid, "step"),
     }));
     if (i < n - 1) segment(deck, slide, sid, x + bw + 0.06, y + bh / 2, x + bw + arrowW - 0.06, y + bh / 2, { color: P.accent4, width: 2.5, endArrowType: "triangle" });
@@ -520,7 +524,9 @@ function words(deck, slide, sid, fig, box) {
     const c = i % perRow;
     const x = box.x + c * (cw + gap);
     const y = box.y + (box.h - (rows * ch + (rows - 1) * gap)) / 2 + r * (ch + gap);
-    const runs = [{ text: it.word, options: { fontSize: pt + 4, bold: true, breakLine: !!it.sub } }];
+    const wpt = deck.checkFit(sid, it.word, cw - 0.3, ch * (it.sub ? 0.55 : 0.9), [pt + 4, pt, pt - 4].filter((p) => p >= 16));
+    if (it.sub) deck.checkFit(sid, it.sub, cw - 0.3, ch * 0.45, [deck.style.small - 2, 16]);
+    const runs = [{ text: it.word, options: { fontSize: wpt, bold: true, breakLine: !!it.sub } }];
     if (it.sub) runs.push({ text: it.sub, options: { fontSize: deck.style.small - 2, color: P.accent6 } });
     slide.addText(runs, textOpts({
       shape: deck.pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.14, x, y, w: cw, h: ch, fill: { color: it.highlight ? TINT.accent : P.lt2 },
