@@ -28,9 +28,14 @@
   },
   "prerequisites": [
     {
-      "text": "소수의 뜻",
-      "lesson": "KR22-G03-MAT-DECIMAL-L01",
+      "text": "단위분수와 크기 비교",
+      "lesson": "KR22-G03-MAT-UNITFRAC-L01",
       "grade_item": "KR22-G03-MAT-I02"
+    },
+    {
+      "text": "곱셈구구로 몫 구하기",
+      "lesson": "KR22-G03-MAT-DIVFACT-L01",
+      "grade_item": "KR22-G03-MAT-I01"
     }
   ],
   "objectives": [

@@ -28,6 +28,12 @@ ANSWER_LEAK = re.compile(r"정답\s*[:：]")
 
 
 def frac(text):
+    """'3/5', 대분수 '2 3/5', 자연수 '4' 를 분수로 읽는다."""
+    m = re.fullmatch(r"\s*(\d+)\s+(\d+)/(\d+)\s*", str(text))
+    if m:
+        return int(m.group(1)) + Fraction(int(m.group(2)), int(m.group(3)))
+    if "/" not in str(text):
+        return Fraction(int(str(text).strip()))
     n, d = str(text).split("/")
     return Fraction(int(n), int(d))
 
@@ -55,7 +61,7 @@ def shaded_end(b):
 
 def exact(expr):
     """숫자·소수·분수와 + - × ÷ ( ) 로 된 식을 분수로 정확히 계산한다."""
-    py = re.sub(r"\d+(?:\.\d+)?", lambda m: f"F('{m.group()}')", expr.replace("×", "*").replace("÷", "/"))
+    py = re.sub(r"\d+(?:\.\d+)?", lambda m: f"F('{m.group()}')", expr.replace("×", "*").replace("÷", "/").replace("−", "-"))
     return eval(py, {"__builtins__": {}}, {"F": Fraction})
 
 

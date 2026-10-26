@@ -138,9 +138,12 @@ function geoPrims(fig, em) {
       out.push({ k: "line", a: add(c, mul(n, 0.3 * em)), b: sub(c, mul(n, 0.3 * em)), w: 1.75, color: "ink" });
     }
     if (sd.label) {
-      const lines = String(sd.label).split("\n").length;
-      const along = Math.abs(n[0]) > 0.7 ? 0.25 * em * String(sd.label).length : 0;
-      out.push({ k: "text", at: add(mid, mul(n, (0.85 + 0.3 * (lines - 1)) * em + along)), text: sd.label, size: "label" });
+      // 이름표 상자(폭 tw, 높이 th)가 변과 겹치지 않을 만큼 법선 방향으로 띄운다.
+      const rows = String(sd.label).split("\n");
+      const tw = Math.max(...rows.map((r) => [...r].reduce((s, ch) => s + (/[가-힯ㄱ-ㆎ]/.test(ch) ? 0.98 : ch === " " ? 0.3 : 0.62), 0))) * em;
+      const th = 1.2 * rows.length * em;
+      const d = 0.3 * em + Math.abs(n[0]) * tw / 2 + Math.abs(n[1]) * th / 2;
+      out.push({ k: "text", at: add(mid, mul(n, d)), text: sd.label, size: "label" });
     }
   }
   const dots = fig.dots === true ? Object.keys(fig.points || {}).filter((n) => !n.startsWith("_")) : fig.dots || [];
@@ -222,7 +225,8 @@ const KINDS = {
 function layout(fig, box, labelSize, maxUnit) {
   const K = KINDS[fig.type];
   const e = K.extent(fig);
-  const pad = K.pad(fig) ? labelSize * 1.6 : labelSize * 0.3;
+  // 이름표 자리: 글자 1.2줄만큼, 단 작은 상자에서는 상자의 20%까지만.
+  const pad = K.pad(fig) ? Math.min(labelSize * 1.2, 0.2 * box.w, 0.2 * box.h) : labelSize * 0.3;
   const spanX = Math.max(e[2] - e[0], 1e-6), spanY = Math.max(e[3] - e[1], 1e-6);
   const s = Math.min((box.w - 2 * pad) / spanX, (box.h - 2 * pad) / spanY, maxUnit ?? K.maxUnit);
   if (s <= 0) throw new Error(`${fig.type}: 그림 상자가 너무 작습니다`);
@@ -264,7 +268,7 @@ function toSvg(fig, opts = {}) {
     } else if (q.k === "dot") {
       g += `<circle cx="${X(q.c)}" cy="${Y(q.c)}" r="${(0.7 * q.size).toFixed(2)}" fill="${col(q.color)}"/>`;
     } else if (q.k === "text") {
-      const size = q.size === "tiny" ? Math.min(8, Math.max(5.5, s * 0.16)) : opts.pt || 11;
+      const size = q.size === "tiny" ? Math.min(8, Math.max(5.5, s * 0.16)) : /^[\u3131-\u318E]+$/.test(String(q.text)) ? (opts.pt || 11) * 1.35 : opts.pt || 11;
       String(q.text).split("\n").forEach((line, i, all) => {
         const dy = (i - (all.length - 1) / 2) * size * 0.3528 * 1.2;
         g += `<text x="${X(q.at)}" y="${(Number(Y(q.at)) + dy).toFixed(2)}" font-size="${(size * 0.3528).toFixed(2)}" text-anchor="middle" dominant-baseline="central" fill="${col(q.color)}" font-weight="${q.bold === false ? 400 : 700}">${String(line).replace(/&/g, "&amp;").replace(/</g, "&lt;")}</text>`;

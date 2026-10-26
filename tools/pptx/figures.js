@@ -115,7 +115,7 @@ function scaledPt(deck, fig, box, measure) {
 }
 
 function eqWidth(deck, items, pt) {
-  return items.reduce((s, it) => s + (Array.isArray(it) ? deck.fracMetrics(pt, ...it).w : deck.opWidth(it, pt)) + 0.12, -0.12);
+  return items.reduce((s, it) => s + deck.eqItemWidth(it, pt) + 0.12, -0.12);
 }
 
 function eq(deck, slide, sid, fig, box) {
@@ -178,12 +178,26 @@ function numberline(deck, slide, sid, fig, box) {
   const yLine = hasAbove ? box.y + Math.min(box.h - lh - 0.4, box.h * 0.62) : box.y + box.h / 2 - lh / 2;
   segment(deck, slide, sid, x0 - 0.3, yLine, x1 + 0.3, yLine, { color: INK, width: 2.25, beginArrowType: fig.arrows === false ? undefined : "triangle", endArrowType: fig.arrows === false ? undefined : "triangle" });
   const labels = fig.labels || "all";
+  // 눈금 숫자가 넓으면(10000 등) 숫자 사이 간격에 맞춰 글자를 줄인다.
+  const shown = [];
+  for (let i = 0; i <= n; i++) {
+    const v = +(fig.min + i * step).toFixed(6);
+    const major = fig.major ? Math.abs(v / fig.major - Math.round(v / fig.major)) < 1e-6 : true;
+    if (labels === "all" ? major : labels === "ends" ? i === 0 || i === n : Array.isArray(labels) && labels.includes(v)) shown.push(v);
+  }
+  const gapIn = shown.length > 1 ? Math.min(...shown.slice(1).map((v, k) => pos(v) - pos(shown[k]))) : x1 - x0;
+  const widest = Math.max(...shown.map((v) => widthIn(String(fig.format ? fig.format(v) : v), 1)), 0.01);
+  const lpt = Math.max(14, Math.min(pt, Math.floor((gapIn * 0.92) / widest)));
   for (let i = 0; i <= n; i++) {
     const v = +(fig.min + i * step).toFixed(6);
     const major = fig.major ? Math.abs(v / fig.major - Math.round(v / fig.major)) < 1e-6 : true;
     segment(deck, slide, sid, pos(v), yLine - (major ? 0.16 : 0.09), pos(v), yLine + (major ? 0.16 : 0.09), { color: INK, width: 1.75 });
     const show = labels === "all" ? major : labels === "ends" ? i === 0 || i === n : Array.isArray(labels) && labels.includes(v);
-    if (show) label(deck, slide, sid, fig.format ? fig.format(v) : v, pos(v) - 0.5, yLine + 0.2, 1.0, lh, pt, { bold: false });
+    if (show) {
+      const t = String(fig.format ? fig.format(v) : v);
+      const lw = Math.max(1.0, widthIn(t, lpt) + 0.2);
+      label(deck, slide, sid, t, pos(v) - lw / 2, yLine + 0.2, lw, lh, lpt, { bold: false });
+    }
   }
   for (const m of fig.marks || []) {
     const d = 0.2;
@@ -228,10 +242,11 @@ function array(deck, slide, sid, fig, box) {
       }
     }
   }
+  // 묶음 테두리는 꽉 찬 줄(또는 열)에만 그린다.
   if (fig.group === "row") {
-    for (let r = 0; r < fig.rows; r++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + 0.03, y: y + r * cell + 0.04, w: w - 0.06, h: cell - 0.08, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
+    for (let r = 0; r < fig.rows && (r + 1) * fig.cols <= count; r++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + 0.03, y: y + r * cell + 0.04, w: w - 0.06, h: cell - 0.08, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
   } else if (fig.group === "col") {
-    for (let c = 0; c < fig.cols; c++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + c * cell + 0.04, y: y + 0.03, w: cell - 0.08, h: h - 0.06, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
+    for (let c = 0; c < fig.cols && count >= fig.rows * fig.cols; c++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + c * cell + 0.04, y: y + 0.03, w: cell - 0.08, h: h - 0.06, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
   }
   const name = deck.name(sid, "figure");
   slide.addShape(deck.pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: P.lt1, transparency: 100 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: name });
@@ -627,7 +642,8 @@ function coords(deck, slide, sid, fig, box) {
       const [cx, cy] = map(q.c), d = 0.13 * q.size;
       slide.addShape(deck.pres.shapes.OVAL, { x: cx - d / 2, y: cy - d / 2, w: d, h: d, fill: { color: GEO_LINE[q.color] || INK }, line: { color: GEO_LINE[q.color] || INK, width: 0 }, objectName: name });
     } else if (q.k === "text") {
-      const size = q.size === "tiny" ? tiny : pt;
+      // 낱자(ㄱ, ㄴ)로 된 점 이름은 글꼴에서 작게 그려지므로 크게 쓴다.
+      const size = q.size === "tiny" ? tiny : /^[\u3131-\u318E]+$/.test(String(q.text)) ? Math.round(pt * 1.35) : pt;
       const lines = String(q.text).split("\n");
       const w = Math.max(...lines.map((l) => widthIn(l, size))) + 0.12;
       const h = (size * 1.25 * lines.length) / 72;

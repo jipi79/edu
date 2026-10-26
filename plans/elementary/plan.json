@@ -3395,7 +3395,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G03-MAT-DECIMAL-L01"
+   "KR22-G03-MAT-UNITFRAC-L01",
+   "KR22-G03-MAT-DIVFACT-L01"
   ],
   "file_stem": "초3_수학_분수와소수_04_묶음을분수로",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-FRACSET-L01.json",
@@ -3525,7 +3526,7 @@
   ],
   "file_stem": "초3_수학_도형과측정_04_mm와km",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-MMKM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-SECOND-L01",
@@ -3604,6 +3605,31 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G03-MAT-LENADD-L01",
+  "concept_id": "MAT-LENADD",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G03-MAT-I03",
+  "folder": "도형과측정",
+  "sequence": 8,
+  "units": [
+   "2.4.1"
+  ],
+  "title": "길이의 덧셈과 뺄셈",
+  "objective": "cm와 mm, km와 m로 나타낸 길이를 받아올림·받아내림하여 더하고 뺀다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G03-MAT-MMKM-L01"
+  ],
+  "file_stem": "초3_수학_도형과측정_08_길이의덧셈과뺄셈",
+  "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-LENADD-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G03-MAT-PICTO-L01",
   "concept_id": "MAT-PICTO",
   "grade": "G03",
@@ -3626,7 +3652,7 @@
   ],
   "file_stem": "초3_수학_자료_01_그림그래프",
   "source": "lessons/G03_초3/MAT_수학/자료/KR22-G03-MAT-PICTO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-ABC1-L01",
@@ -4763,7 +4789,7 @@
   "pre": [],
   "file_stem": "초4_국어_토의와쓰기_01_의견과이유",
   "source": "lessons/G04_초4/KOR_국어/토의와쓰기/KR22-G04-KOR-OPINION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-DISCUSS-L01",
@@ -5053,7 +5079,7 @@
   ],
   "file_stem": "초4_수학_수와연산_06_분모가같은분수의뺄셈",
   "source": "lessons/G04_초4/MAT_수학/수와연산/KR22-G04-MAT-FRACSUB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-MAT-DEC2-L01",

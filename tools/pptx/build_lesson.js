@@ -301,6 +301,17 @@ class Deck {
     return { w, h: lh * 2 + 0.08, lh };
   }
 
+  // 식의 한 항목 폭: [n, d] 분수, [w, n, d] 대분수, 글자
+  eqItemWidth(it, pt) {
+    if (!Array.isArray(it)) return this.opWidth(it, pt);
+    if (it.length === 3) return this.wholeWidth(it[0], pt) + this.fracMetrics(pt, it[1], it[2]).w;
+    return this.fracMetrics(pt, ...it).w;
+  }
+
+  wholeWidth(w, pt) {
+    return w === null || w === undefined ? (pt * 1.18 * 0.74) / 72 + 0.08 : widthIn(String(w), pt) + 0.06;
+  }
+
   // 분수가 들어 있으면 두 줄 높이, 아니면 한 줄 높이
   eqHeight(items, pt) {
     return items.some((it) => Array.isArray(it)) ? this.fracMetrics(pt, 1, 1).h : (pt * 1.3) / 72;
@@ -361,7 +372,17 @@ class Deck {
     const h = this.eqHeight(b.items, pt);
     let x = b.x;
     for (const item of b.items) {
-      if (Array.isArray(item)) {
+      if (Array.isArray(item) && item.length === 3) {
+        // 대분수: 자연수 부분을 분수 바로 왼쪽에 붙여 쓴다(빈칸이면 네모).
+        const ww = this.wholeWidth(item[0], pt);
+        if (item[0] === null || item[0] === undefined) {
+          const box = (pt * 1.18 * 0.74) / 72;
+          slide.addShape(this.pres.shapes.RECTANGLE, { x, y: b.y + (h - box) / 2, w: box, h: box, fill: { color: P.lt1 }, line: { color, width: 1.75 }, objectName: this.name(sid, "blank") });
+        } else {
+          slide.addText(String(item[0]), textOpts({ x, y: b.y, w: ww, h, fontSize: pt, bold: true, color, align: "right", valign: "middle", margin: 0, objectName: this.name(sid, "num") }));
+        }
+        x += ww + this.frac(slide, sid, { x: x + ww, y: b.y, n: item[1], d: item[2], size: pt, color: b.color }).w + 0.12;
+      } else if (Array.isArray(item)) {
         x += this.frac(slide, sid, { x, y: b.y, n: item[0], d: item[1], size: pt, color: b.color }).w + 0.12;
       } else {
         x += this.op(slide, sid, item, x, b.y, pt, h, color) + 0.12;

@@ -78,7 +78,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `bars` | `bars`[ {parts, shaded(개수 또는 칸 번호 배열), label?: [분자,분모] 또는 글자, widths?} ], `guide`? | 분수 막대. `guide: true` 이면 첫 막대의 색칠 끝에 점선(같은 양 비교) |
 | `grid` | `rows`, `cols`, `shaded`(개수 또는 [[행,열]…]), `axis`?: v/h | 넓이·배열·대칭 |
 | `pie` | `parts`, `shaded` | 원 분수 |
-| `eq` | `items` (분수는 [분자,분모], 빈칸은 null 또는 "□", 기호는 문자열) 또는 `lines`[…] | 식. 분수가 없으면 한 줄 글자 |
+| `eq` | `items` (분수는 [분자,분모], 대분수는 [자연수,분자,분모], 빈칸은 null 또는 "□", 기호는 문자열) 또는 `lines`[…] | 식. 분수가 없으면 한 줄 글자 |
 | `eqx` | `from`, `to`, `op`("×2"), `join`?("="·"→") | 분수 변환 화살표 |
 | `numberline` | `min`, `max`, `step`?, `labels`?("all"·"ends"·[값]), `marks`?[{at,label}], `jumps`?[{from,to,label}] | 수직선, 뛰어 세기 |
 | `array` | `rows`, `cols`, `count`?, `group`?("row"·"col"), `crossed`?(뒤에서부터 × 표시할 개수), `cell`?(점 칸 크기, in) | 세기·곱셈·나눗셈 묶음, 덜어 내기(crossed). 양을 나란히 비교할 때는 모든 배열에 같은 `cell` 을 준다 |
@@ -126,7 +126,8 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 ```json
 { "type": "blank", "expr": "15 ÷ 5 = □", "answer": 3, "where": "S05 ①" }
 { "type": "blank", "expr": "2/3 = □/6", "answer": 4, "where": "S09 ①" }
-{ "type": "equiv", "values": ["1/2", "2/4"], "where": "S06" }
+{ "type": "equiv", "values": ["1/2", "2/4"], "where": "S06" }       // 대분수는 "2 3/5", 자연수는 "4"
+{ "type": "compare", "values": ["3 + 1/5 − (1 + 3/5)", "1 + 3/5"], "rel": "=", "where": "S08" }   // 식 비교(− × ÷ 사용 가능)
 { "type": "not_equiv", "values": ["1/2", "2/3"], "where": "S10" }
 { "type": "bar", "slide": "S02", "parts": 4, "shaded": 1, "value": "1/4", "where": "S02 가" }
 { "type": "count", "slide": "S08", "value": 8, "where": "S08 ① 점 8개" }   // 점 배열·십 칸·격자·수 모형이 그 수를 나타내는지

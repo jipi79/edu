@@ -66,7 +66,15 @@ function fracHtml(item) {
 }
 
 function eqHtml(items) {
-  return `<div class="eq">${items.map((it) => (Array.isArray(it) ? fracHtml(it) : `<span class="op">${esc(it)}</span>`)).join("")}</div>`;
+  const part = (it) => {
+    if (!Array.isArray(it)) return `<span class="op">${esc(it)}</span>`;
+    if (it.length === 3) {
+      const whole = it[0] === null || it[0] === undefined ? '<i class="blank"></i>' : esc(it[0]);
+      return `<span class="op" style="margin-right:0.5mm">${whole}</span>${fracHtml(it.slice(1))}`;
+    }
+    return fracHtml(it);
+  };
+  return `<div class="eq">${items.map(part).join("")}</div>`;
 }
 
 function barSvg(bar, widthMm = 120, heightMm = 12) {
