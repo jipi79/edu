@@ -304,6 +304,7 @@ function guideHtml(L, thumbs) {
       <div>${esc(n.목적 || "")}</div>
       ${listHtml("이렇게 말해 보세요", n.말하기)}${listHtml("예상 답", n.예상답)}${listHtml("정답", n.정답)}
       ${listHtml("막히면", n.막히면)}${listHtml("주의", n.주의)}
+      ${s.safety ? `<div style="margin-top:1mm; color:#C8434E; font-weight:700">안전: ${esc(s.safety)}</div>` : ""}
     </div></div>`;
   });
   const rows = L.slides.map((s) => `<tr><td>${esc(s.id)}</td><td>${esc(s.purpose)}</td><td>${esc(s.notes.시간 || "")}</td><td>${esc(s.objectives.join(", ") || "—")}</td></tr>`).join("");
