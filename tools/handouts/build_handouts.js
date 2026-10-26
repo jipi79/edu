@@ -317,6 +317,7 @@ function guideHtml(L, thumbs) {
     <div class="box warn"><b>시작 전에</b><ul style="margin:1mm 0 0">
       <li>아이에게는 PPT를 <b>슬라이드 쇼</b>로 보여 주세요. 일반 보기 화면 아래쪽 노트에는 정답이 있습니다. 진행은 이 안내서를 보며 합니다.</li>
       <li>준비물: ${esc(L.materials.join(", "))}</li>
+      ${(L.safety || []).map((t) => `<li style="color:#C8434E"><b>안전:</b> ${esc(t)}</li>`).join("")}
       <li>정답을 바로 알려 주기보다 “어떻게 알았어?”라고 묻고 아이가 설명하게 하세요. 막히면 각 장의 ‘막히면’을 따르세요.</li>
       ${L.break_after ? `<li>아이가 지치면 ${esc(L.break_after)} 뒤에서 나누어 이틀에 해도 됩니다.</li>` : ""}
       ${L.format === "act" ? "<li>활동 중심 차시입니다. 화면은 짧은 안내이고, 실제 활동과 관찰 기록이 중심입니다.</li>" : ""}

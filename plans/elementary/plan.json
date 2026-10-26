@@ -1420,7 +1420,7 @@
   "pre": [],
   "file_stem": "초1_환경·생태_생활습관_01_물·종이·전기아끼기",
   "source": "lessons/G01_초1/ENV_환경·생태/생활습관/KR22-G01-ENV-SAVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-LINKSOUND-L01",
@@ -4225,7 +4225,9 @@
   "objective": "물체를 만든 물질의 성질을 비교하고 쓰임과 연결한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G01-SCI-SENSES-L01"
+  ],
   "file_stem": "초3_과학_물질과지구_01_물체와물질",
   "source": "lessons/G03_초3/SCI_과학/물질과지구/KR22-G03-SCI-MATERIAL-L01.json",
   "status": "제작 완료"
@@ -4275,7 +4277,9 @@
   "objective": "관찰한 결과를 날짜·조건과 함께 표와 그림으로 기록한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G02-SCI-PREDICT-L01"
+  ],
   "file_stem": "초3_과학_건강과탐구_01_관찰기록하기",
   "source": "lessons/G03_초3/SCI_과학/건강과탐구/KR22-G03-SCI-RECORD-L01.json",
   "status": "제작 완료"
@@ -5916,7 +5920,9 @@
   "objective": "자석이 끌어당기는 물체와 극의 성질을 관찰하고 설명한다.",
   "format": "ppt",
   "priority": 2,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-MATERIAL-L01"
+  ],
   "file_stem": "초4_과학_자석과상태변화_01_자석의성질",
   "source": "lessons/G04_초4/SCI_과학/자석과상태변화/KR22-G04-SCI-MAGNET-L01.json",
   "status": "제작 완료"

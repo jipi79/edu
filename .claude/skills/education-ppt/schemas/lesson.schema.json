@@ -344,6 +344,13 @@
     },
     "plan_objective": {
       "type": "string"
+    },
+    "safety": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "차시 전체의 안전 수칙(부모용 안내 ‘시작 전에’에 인쇄)"
     }
   }
 }
