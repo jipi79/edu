@@ -37,10 +37,10 @@
 - SEQUENCE | 사건 순서 파악 | first·then·finally 등 단서로 사건의 순서를 파악한다.
 @ ENG-I02 | 말하기와쓰기 | 3.3.2 3.3.1
 - FUTURE | 계획 말하기 | I'm going to ~. 로 계획을 말하고 쓴다. | pre G05-ENG-PAST
-- COMPARE | 비교하기 | taller·bigger than 으로 두 대상을 비교한다.
-- OPINION | 의견 말하기 | I think ~ because ~. 로 의견과 이유를 말하고 쓴다.
+- COMPARE | 비교하기 | taller·bigger than 으로 두 대상을 비교한다. | pre G04-ENG-DESCRIBE
+- OPINION | 의견 말하기 | I think ~ because ~. 로 의견과 이유를 말하고 쓴다. | pre G05-ENG-BECAUSE
 @ ENG-I03 | 의사소통 | 3.4.1 3.5.1
-- CLARIFY | 뜻 확인하기 | Pardon? What does ~ mean? 으로 뜻을 확인하며 대화를 이어 간다.
+- CLARIFY | 뜻 확인하기 | Pardon? What does ~ mean? 으로 뜻을 확인하며 대화를 이어 간다. | pre G03-ENG-ABC2
 - SUGGEST | 제안하고 답하기 | Let's ~. / Why don't we ~? 로 제안하고 답한다.
 - WORLD | 세계 문화 존중 | 세계 여러 나라의 문화를 조사해 소개하고 차이를 존중한다.
 @ SOC-I01 | 현대사회와평화 | 4.1.7 4.1.6

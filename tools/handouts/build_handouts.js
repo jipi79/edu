@@ -217,6 +217,11 @@ function bondSvg(b, d = 13) {
 function engLinesHtml(e) {
   const h = e.height || 15, w = 165;
   const rows = [...[].concat(e.trace || []), ...Array.from({ length: e.blank || 0 }, () => "")];
+  // 따라 쓸 문장이 줄(165 mm)을 넘으면 빌드를 멈춘다(Liberation Sans 평균 글자 폭 약 0.55em).
+  for (const t of [].concat(e.trace || [])) {
+    const est = String(t).length * 0.55 * 0.53 * h + String(t).split(/\s+/).length * 0.1 * h;
+    if (est > w - 6) throw new Error(`영어 공책 따라 쓰기 문장이 한 줄에 들어가지 않습니다(약 ${Math.round(est)} mm > ${w - 6} mm): "${t}" — 문장을 나누어 두 줄로 주세요`);
+  }
   const row = (t) => {
     const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
     const lines = ys.map((y, i) => `<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");

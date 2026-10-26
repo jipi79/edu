@@ -4217,7 +4217,7 @@
   "pre": [],
   "file_stem": "초3_과학_물질과지구_01_물체와물질",
   "source": "lessons/G03_초3/SCI_과학/물질과지구/KR22-G03-SCI-MATERIAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-SCI-EARTHSEA-L01",
@@ -9442,7 +9442,7 @@
   ],
   "file_stem": "초6_영어_듣기와읽기_02_사건순서파악",
   "source": "lessons/G06_초6/ENG_영어/듣기와읽기/KR22-G06-ENG-SEQUENCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-ENG-FUTURE-L01",
@@ -9490,7 +9490,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G06-ENG-FUTURE-L01"
+   "KR22-G06-ENG-FUTURE-L01",
+   "KR22-G04-ENG-DESCRIBE-L01"
   ],
   "file_stem": "초6_영어_말하기와쓰기_02_비교하기",
   "source": "lessons/G06_초6/ENG_영어/말하기와쓰기/KR22-G06-ENG-COMPARE-L01.json",
@@ -9516,7 +9517,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G06-ENG-COMPARE-L01"
+   "KR22-G06-ENG-COMPARE-L01",
+   "KR22-G05-ENG-BECAUSE-L01"
   ],
   "file_stem": "초6_영어_말하기와쓰기_03_의견말하기",
   "source": "lessons/G06_초6/ENG_영어/말하기와쓰기/KR22-G06-ENG-OPINION-L01.json",
@@ -9541,7 +9543,9 @@
   "objective": "Pardon? What does ~ mean? 으로 뜻을 확인하며 대화를 이어 간다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G03-ENG-ABC2-L01"
+  ],
   "file_stem": "초6_영어_의사소통_01_뜻확인하기",
   "source": "lessons/G06_초6/ENG_영어/의사소통/KR22-G06-ENG-CLARIFY-L01.json",
   "status": "제작 완료"
