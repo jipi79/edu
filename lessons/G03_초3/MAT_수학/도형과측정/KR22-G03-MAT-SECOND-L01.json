@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G03-MAT-SECOND-L01",
+  "concept_id": "MAT-SECOND",
+  "title": "초와 시간의 계산",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "도형과측정",
+  "sequence": 5,
+  "file_stem": "초3_수학_도형과측정_05_초와시간의계산",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G03-MAT-I03"
+    ],
+    "units": [
+      "2.4.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "1분=60초를 알고 시간의 덧셈·뺄셈을 한다.",
+  "prerequisites": [
+    {
+      "text": "mm와 km",
+      "lesson": "KR22-G03-MAT-MMKM-L01",
+      "grade_item": "KR22-G03-MAT-I03"
+    },
+    {
+      "text": "시각과 시간",
+      "lesson": "KR22-G02-MAT-TIME-L01",
+      "grade_item": "KR22-G02-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "초와 시간의 계산 활동지",
+    "items": [],
+    "record": []
+  }
+}
