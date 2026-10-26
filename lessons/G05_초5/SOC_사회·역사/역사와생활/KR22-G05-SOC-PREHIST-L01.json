@@ -1,0 +1,51 @@
+{
+  "id": "KR22-G05-SOC-PREHIST-L01",
+  "concept_id": "SOC-PREHIST",
+  "title": "선사 시대와 고조선",
+  "grade": "G05",
+  "grade_label": "초5",
+  "band": "E56",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "역사와생활",
+  "sequence": 1,
+  "file_stem": "초5_사회·역사_역사와생활_01_선사시대와고조선",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G05-SOC-I02"
+    ],
+    "units": [
+      "4.1.3",
+      "4.1.4",
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "유물로 선사 시대 생활을 추론하고 고조선의 성립을 설명한다.",
+  "prerequisites": [],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "선사 시대와 고조선 활동지",
+    "items": [],
+    "record": []
+  }
+}
