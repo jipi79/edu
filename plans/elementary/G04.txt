@@ -37,11 +37,11 @@
 - CVC | 세 글자 낱말 읽고 쓰기 | 자음-모음-자음 낱말을 소리 내어 읽고 쓴다.
 - ILIKE | 짧은 문장 읽고 쓰기 | I like ~. / I have ~. 문장을 읽고 따라 쓴다.
 @ ENG-I02 | 이해와상호작용 | 3.4.1 3.2.1
-- FAMILY | 가족 소개하기 | This is my ~. He/She is ~. 로 가족을 소개한다.
+- FAMILY | 가족 소개하기 | This is my ~. He/She is ~. 로 가족을 소개한다. | pre G04-ENG-ILIKE
 - WHERE | 물건 위치 묻고 답하기 | Where is ~? It's on/in/under ~. 로 묻고 답한다.
 - WHATTIME | 시각 묻고 답하기 | What time is it? It's ~ o'clock. 으로 묻고 답한다.
 @ ENG-I03 | 표현과문화 | 3.3.1 3.5.1
-- DESCRIBE | 사물 묘사하기 | 크기·색깔·모양으로 친숙한 사물을 묘사한다.
+- DESCRIBE | 사물 묘사하기 | 크기·색깔·모양으로 친숙한 사물을 묘사한다. | pre G03-ENG-PICWORDS
 - MANNERS | 생활 예절 비교 | 나라마다 다른 식사·생활 예절을 비교한다.
 @ SOC-I01 | 지도와지역 | 4.2.1 4.2.2
 - MAP | 지도 읽기 | 지도의 기호·방위·축척·등고선을 이해하고 지도를 읽는다.

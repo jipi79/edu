@@ -3750,7 +3750,7 @@
   ],
   "file_stem": "초3_영어_소리와문자_04_자음글자의소리",
   "source": "lessons/G03_초3/ENG_영어/소리와문자/KR22-G03-ENG-CONSOUND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENG-HELLO-L01",
@@ -5500,7 +5500,7 @@
   ],
   "file_stem": "초4_영어_소리낱말문장_03_짧은문장읽고쓰기",
   "source": "lessons/G04_초4/ENG_영어/소리낱말문장/KR22-G04-ENG-ILIKE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-FAMILY-L01",
@@ -5521,10 +5521,12 @@
   "objective": "This is my ~. He/She is ~. 로 가족을 소개한다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ENG-ILIKE-L01"
+  ],
   "file_stem": "초4_영어_이해와상호작용_01_가족소개하기",
   "source": "lessons/G04_초4/ENG_영어/이해와상호작용/KR22-G04-ENG-FAMILY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-WHERE-L01",
@@ -5550,7 +5552,7 @@
   ],
   "file_stem": "초4_영어_이해와상호작용_02_물건위치묻고답하기",
   "source": "lessons/G04_초4/ENG_영어/이해와상호작용/KR22-G04-ENG-WHERE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-WHATTIME-L01",
@@ -5576,7 +5578,7 @@
   ],
   "file_stem": "초4_영어_이해와상호작용_03_시각묻고답하기",
   "source": "lessons/G04_초4/ENG_영어/이해와상호작용/KR22-G04-ENG-WHATTIME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-DESCRIBE-L01",
@@ -5597,10 +5599,12 @@
   "objective": "크기·색깔·모양으로 친숙한 사물을 묘사한다.",
   "format": "ppt",
   "priority": 1,
-  "pre": [],
+  "pre": [
+   "KR22-G03-ENG-PICWORDS-L01"
+  ],
   "file_stem": "초4_영어_표현과문화_01_사물묘사하기",
   "source": "lessons/G04_초4/ENG_영어/표현과문화/KR22-G04-ENG-DESCRIBE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENG-MANNERS-L01",
@@ -5626,7 +5630,7 @@
   ],
   "file_stem": "초4_영어_표현과문화_02_생활예절비교",
   "source": "lessons/G04_초4/ENG_영어/표현과문화/KR22-G04-ENG-MANNERS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SOC-MAP-L01",
@@ -6644,7 +6648,7 @@
   ],
   "file_stem": "초5_국어_토의와논리적표현_02_토의결과정리",
   "source": "lessons/G05_초5/KOR_국어/토의와논리적표현/KR22-G05-KOR-DEBATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-ESSAY-L01",
@@ -6670,7 +6674,7 @@
   ],
   "file_stem": "초5_국어_토의와논리적표현_03_주장하는글쓰기",
   "source": "lessons/G05_초5/KOR_국어/토의와논리적표현/KR22-G05-KOR-ESSAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-STORYELEM-L01",
@@ -6695,7 +6699,7 @@
   "pre": [],
   "file_stem": "초5_국어_문학문법매체_01_인물·사건·배경",
   "source": "lessons/G05_초5/KOR_국어/문학문법매체/KR22-G05-KOR-STORYELEM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-SOURCE-L01",
@@ -6722,7 +6726,7 @@
   ],
   "file_stem": "초5_국어_문학문법매체_02_자료출처확인",
   "source": "lessons/G05_초5/KOR_국어/문학문법매체/KR22-G05-KOR-SOURCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-KOR-AGREEMENT-L01",
@@ -6749,7 +6753,7 @@
   ],
   "file_stem": "초5_국어_문학문법매체_03_문장표현점검",
   "source": "lessons/G05_초5/KOR_국어/문학문법매체/KR22-G05-KOR-AGREEMENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-MIXCALC-L01",
@@ -6956,7 +6960,7 @@
   ],
   "file_stem": "초5_수학_분수의덧셈과뺄셈_02_분모가다른분수의뺄셈",
   "source": "lessons/G05_초5/MAT_수학/분수의덧셈과뺄셈/KR22-G05-MAT-FRAC-SUB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-RANGE-L01",
@@ -7091,7 +7095,7 @@
   ],
   "file_stem": "초5_수학_곱셈과어림_05_소수의곱셈",
   "source": "lessons/G05_초5/MAT_수학/곱셈과어림/KR22-G05-MAT-DECMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-CORRESP-L01",
@@ -7117,7 +7121,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_01_규칙과대응",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-CORRESP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-CONGRUENT-L01",
@@ -7143,7 +7147,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_02_합동인도형",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-CONGRUENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-SYMMETRY-L01",
@@ -7169,7 +7173,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_03_선대칭과점대칭",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-SYMMETRY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-CUBOID-L01",
@@ -7195,7 +7199,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_04_직육면체와정육면체",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-CUBOID-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-PERIMETER-L01",
@@ -7221,7 +7225,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_05_다각형의둘레",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-PERIMETER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-AREA-L01",
@@ -7300,7 +7304,7 @@
   ],
   "file_stem": "초5_수학_도형과측정_08_사다리꼴과마름모의넓이",
   "source": "lessons/G05_초5/MAT_수학/도형과측정/KR22-G05-MAT-AREA3-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-MEAN-L01",
@@ -7325,7 +7329,7 @@
   ],
   "file_stem": "초5_수학_자료_01_평균",
   "source": "lessons/G05_초5/MAT_수학/자료/KR22-G05-MAT-MEAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-MAT-CHANCE-L01",
@@ -7350,7 +7354,7 @@
   ],
   "file_stem": "초5_수학_자료_02_일이일어날가능성",
   "source": "lessons/G05_초5/MAT_수학/자료/KR22-G05-MAT-CHANCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-GIST-L01",
@@ -7375,7 +7379,7 @@
   ],
   "file_stem": "초5_영어_이해와읽기_01_중심내용찾기",
   "source": "lessons/G05_초5/ENG_영어/이해와읽기/KR22-G05-ENG-GIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-DETAILS-L01",
@@ -7400,7 +7404,7 @@
   ],
   "file_stem": "초5_영어_이해와읽기_02_세부정보찾기",
   "source": "lessons/G05_초5/ENG_영어/이해와읽기/KR22-G05-ENG-DETAILS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-ROUTINE-L01",
@@ -7424,7 +7428,7 @@
   "pre": [],
   "file_stem": "초5_영어_말하기와쓰기_01_하루일과말하기",
   "source": "lessons/G05_초5/ENG_영어/말하기와쓰기/KR22-G05-ENG-ROUTINE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ENG-PAST-L01",
@@ -8686,7 +8690,7 @@
   ],
   "file_stem": "초6_국어_읽기와비판_01_사실과의견",
   "source": "lessons/G06_초6/KOR_국어/읽기와비판/KR22-G06-KOR-FACTOPIN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-VIEWPOINT-L01",
@@ -8712,7 +8716,7 @@
   ],
   "file_stem": "초6_국어_읽기와비판_02_관점비교하며읽기",
   "source": "lessons/G06_초6/KOR_국어/읽기와비판/KR22-G06-KOR-VIEWPOINT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-VALIDITY-L01",
@@ -8738,7 +8742,7 @@
   ],
   "file_stem": "초6_국어_읽기와비판_03_근거의타당성",
   "source": "lessons/G06_초6/KOR_국어/읽기와비판/KR22-G06-KOR-VALIDITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-DEBATE-L01",
@@ -8765,7 +8769,7 @@
   ],
   "file_stem": "초6_국어_토론과글쓰기_01_토론하기",
   "source": "lessons/G06_초6/KOR_국어/토론과글쓰기/KR22-G06-KOR-DEBATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-PERSUADE-L01",
@@ -8793,7 +8797,7 @@
   ],
   "file_stem": "초6_국어_토론과글쓰기_02_논설문쓰기",
   "source": "lessons/G06_초6/KOR_국어/토론과글쓰기/KR22-G06-KOR-PERSUADE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-KOR-REVISE-L01",
@@ -9003,7 +9007,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_04_소수의나눗셈2",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-DECDIV2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-RATIO-L01",
@@ -9030,7 +9034,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_05_비와비율",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-RATIO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-PERCENT-L01",
@@ -9056,7 +9060,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_06_백분율",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-PERCENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-PROPORTION-L01",
@@ -9082,7 +9086,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_07_비례식",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-PROPORTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-SHARE-L01",
@@ -9108,7 +9112,7 @@
   ],
   "file_stem": "초6_수학_연산과비례_08_비례배분",
   "source": "lessons/G06_초6/MAT_수학/연산과비례/KR22-G06-MAT-SHARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-PRISM-L01",
@@ -9158,7 +9162,7 @@
   ],
   "file_stem": "초6_수학_입체와측정_02_원기둥·원뿔·구",
   "source": "lessons/G06_초6/MAT_수학/입체와측정/KR22-G06-MAT-ROUNDSOLID-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-MAT-VIEWS-L01",

@@ -92,6 +92,7 @@ function barSvg(bar, widthMm = 120, heightMm = 12) {
 }
 
 
+// 슬라이드 시계와 같은 비율: 숫자 0.76r, 긴바늘 0.6r(숫자에 닿지 않음), 짧은바늘 0.42r
 function clockSvg(c, d = 46) {
   const r = d / 2;
   let g = `<circle cx="${r}" cy="${r}" r="${r - 0.6}" fill="#fff" stroke="#1F2937" stroke-width="0.9"/>`;
@@ -102,14 +103,14 @@ function clockSvg(c, d = 46) {
   }
   for (let k = 1; k <= 12; k++) {
     const a = (k * 30 * Math.PI) / 180;
-    g += `<text x="${r + Math.sin(a) * r * 0.72}" y="${r - Math.cos(a) * r * 0.72 + 1.6}" font-size="4.6" text-anchor="middle" font-weight="700">${k}</text>`;
+    g += `<text x="${r + Math.sin(a) * r * 0.76}" y="${r - Math.cos(a) * r * 0.76 + 1.6}" font-size="4.6" text-anchor="middle" font-weight="700">${k}</text>`;
   }
   if (c.h !== undefined) {
     const m = c.m || 0;
     const ha = (((c.h % 12) + m / 60) * 30 * Math.PI) / 180;
     const ma = (m * 6 * Math.PI) / 180;
-    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ha) * r * 0.5}" y2="${r - Math.cos(ha) * r * 0.5}" stroke="#C8434E" stroke-width="1.8" stroke-linecap="round"/>`;
-    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ma) * r * 0.78}" y2="${r - Math.cos(ma) * r * 0.78}" stroke="#1F2937" stroke-width="1.1" stroke-linecap="round"/>`;
+    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ha) * r * 0.42}" y2="${r - Math.cos(ha) * r * 0.42}" stroke="#C8434E" stroke-width="1.8" stroke-linecap="round"/>`;
+    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ma) * r * 0.6}" y2="${r - Math.cos(ma) * r * 0.6}" stroke="#1F2937" stroke-width="1.1" stroke-linecap="round"/>`;
   }
   g += `<circle cx="${r}" cy="${r}" r="1" fill="#1F2937"/>`;
   return `<svg width="${d}mm" height="${d}mm" viewBox="0 0 ${d} ${d}">${g}</svg>`;
@@ -219,7 +220,7 @@ function engLinesHtml(e) {
     const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
     const lines = ys.map((y, i) => `<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
     // 소문자 몸통(x-height)이 가운데 칸(둘째~셋째 줄)에 맞도록 글자 크기를 정한다. 낱말 사이는 넉넉히 띄운다.
-    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.66 * h).toFixed(2)}" fill="#C9CED6" style="white-space:pre" word-spacing="${(0.25 * h).toFixed(2)}">${esc(t)}</text>` : "";
+    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.6 * h).toFixed(2)}" fill="#C9CED6" style="white-space:pre" word-spacing="${(0.25 * h).toFixed(2)}">${esc(t)}</text>` : "";
     return `<svg lang="en" width="${w}mm" height="${h}mm" viewBox="0 0 ${w} ${h}" style="display:block; margin:0 0 5mm 9.5mm">${lines}${text}</svg>`;
   };
   return `<div style="margin-top:2mm">${rows.map(row).join("")}</div>`;
