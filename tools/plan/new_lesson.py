@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def main(argv):
     lid = argv[0]
-    plan = {L["id"]: L for L in json.loads((ROOT / "plans" / "elementary" / "plan.json").read_text(encoding="utf-8"))}
+    plan = {L["id"]: L for f in sorted((ROOT / "plans").glob("*/plan.json")) for L in json.loads(f.read_text(encoding="utf-8"))}
     if lid not in plan:
         sys.exit(f"계획에 없는 ID: {lid}")
     L = plan[lid]

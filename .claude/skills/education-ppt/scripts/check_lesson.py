@@ -4,7 +4,7 @@
 
 검사 항목
 - 스키마(필수 필드, ID 형식), 남은 TODO
-- 계획(plans/elementary/plan.json)과의 일치: 제목·폴더·순서·파일 이름·교육과정 연결·선수 차시
+- 계획(plans/<학교급>/plan.json)과의 일치: 제목·폴더·순서·파일 이름·교육과정 연결·선수 차시
 - 슬라이드 ID 중복, 모든 장의 제목과 발표자 노트(말하기), 연습·확인 장의 정답 또는 예상 답
 - 목표마다 설명(teach)·연습(practice)·확인(check) 장이 있는지, 학생용에도 확인 장이 남는지
 - 정답이 학생에게 보이는 장에 새지 않는지(정답 장은 teacher_only)
@@ -106,8 +106,8 @@ def check(path):
         return errors, notes
 
     # 계획과의 일치
-    plan_file = ROOT / "plans" / "elementary" / "plan.json"
-    plan = {L["id"]: L for L in json.loads(plan_file.read_text(encoding="utf-8"))} if plan_file.exists() else {}
+    plan = {L["id"]: L for f in sorted((ROOT / "plans").glob("*/plan.json"))
+            for L in json.loads(f.read_text(encoding="utf-8"))}
     if lesson["id"] in plan:
         P = plan[lesson["id"]]
         pairs = [("title", "title"), ("grade", "grade"), ("strand", "strand"), ("unit_folder", "folder"),
@@ -122,7 +122,7 @@ def check(path):
             errors.append(f"계획과 다름: 선수 차시 {pre} (계획 {P['pre']})")
         if Path(path).resolve() != (ROOT / P["source"]).resolve():
             errors.append(f"원본 위치가 계획과 다르다: {P['source']}")
-    elif lesson["grade"] <= "G06":
+    elif lesson["grade"] <= "G09":
         notes.append("계획에 없는 차시다")
 
     slides = lesson["slides"]

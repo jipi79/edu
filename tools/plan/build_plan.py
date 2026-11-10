@@ -1,9 +1,10 @@
-"""학년별 차시 계획 원본(plans/elementary/G0N.txt)을 데이터와 목차로 바꾼다.
+"""학년별 차시 계획 원본(plans/<학교급>/G0N.txt)을 데이터와 목차로 바꾼다.
 
-  python3 -I tools/plan/build_plan.py
+  python3 -I tools/plan/build_plan.py [--dry-run]
 
-- plans/elementary/plan.json : 차시마다 ID·학년·계통·학년 항목·단원 폴더·순서·연결 단원·제목·목표·형식·우선순위·선수 차시·파일 이름·원본 경로·상태
-- plans/초등_차시계획.md      : 사람이 읽는 전체 계획과 제작 현황
+학교급(초등 plans/elementary, 중등 plans/middle)을 함께 읽으므로 다른 학교급의 차시도 선수 차시로 쓸 수 있다.
+- plans/<학교급>/plan.json : 차시마다 ID·학년·계통·학년 항목·단원 폴더·순서·연결 단원·제목·목표·형식·우선순위·선수 차시·파일 이름·원본 경로·상태
+- plans/<초등|중등>_차시계획.md : 사람이 읽는 전체 계획과 제작 현황
 
 검사: 학년 항목·단원 ID가 curriculum/에 있는지, 단원의 연결 학년에 그 학년이 있는지,
 선수 차시가 계획 안에 있는지, 선수 관계에 순환이 없는지.
@@ -15,7 +16,9 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-PLAN_DIR = ROOT / "plans" / "elementary"
+# (폴더, 이름, 학년 코드)
+LEVELS = [("elementary", "초등", ("G01", "G02", "G03", "G04", "G05", "G06")),
+          ("middle", "중등", ("G07", "G08", "G09"))]
 PRIORITY = {"KOR": 1, "MAT": 1, "ENG": 1, "SCI": 2, "SOC": 2}
 ACT_STRANDS = {"ART", "PHE", "TEC", "CAR", "ENV"}
 BAD_FILENAME = re.compile(r'[\\/:*?"<>|\s]')
@@ -34,8 +37,13 @@ def main():
 
     errors, lessons = [], []
     code_count = Counter()
-    for f in sorted(PLAN_DIR.glob("G0*.txt")):
-        grade = f.stem
+    # 학년 파일(G07.txt)과, 나누어 쓰는 중인 조각(parts/<묶음>-G07.txt)을 함께 읽는다.
+    files = []
+    for d, _, gs in LEVELS:
+        for g in gs:
+            files += [(g, f) for f in [ROOT / "plans" / d / f"{g}.txt"] if f.exists()]
+            files += [(g, f) for f in sorted((ROOT / "plans" / d / "parts").glob(f"*-{g}.txt"))]
+    for grade, f in files:
         header = None
         folder_seq = Counter()
         prev_in_item = None
@@ -140,24 +148,31 @@ def main():
     if errors:
         print("\n".join(f"✗ {e}" for e in errors))
         sys.exit(1)
+    if "--dry-run" in sys.argv:
+        print(f"검사 통과: 차시 {len(lessons)}개 (파일은 쓰지 않음)")
+        return
 
-    (PLAN_DIR / "plan.json").write_text(json.dumps(lessons, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    write_markdown(lessons, meta, items)
-    done = sum(1 for L in lessons if L["status"] != "계획")
-    print(f"차시 {len(lessons)}개 (제작 {done}) · 학년 항목 {len({L['grade_item'] for L in lessons})}개 연결")
+    for d, name, gs in LEVELS:
+        mine = [L for L in lessons if L["grade"] in gs]
+        if not mine:
+            continue
+        (ROOT / "plans" / d / "plan.json").write_text(json.dumps(mine, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        write_markdown(mine, meta, by_id, d, name, gs)
+        done = sum(1 for L in mine if L["status"] != "계획")
+        print(f"{name}: 차시 {len(mine)}개 (제작 {done}) · 학년 항목 {len({L['grade_item'] for L in mine})}개 연결")
 
 
-def write_markdown(lessons, meta, items):
+def write_markdown(lessons, meta, by_id, level_dir, level_name, grade_codes):
     strands = [s["code"] for s in meta["strands"]]
     label = {s["code"]: s["label"] for s in meta["strands"]}
-    grades = [g for g in meta["grades"] if g["code"] <= "G06"]
+    grades = [g for g in meta["grades"] if g["code"] in grade_codes]
     count = defaultdict(int)
     done = defaultdict(int)
     for L in lessons:
         count[(L["grade"], L["strand"])] += 1
         done[(L["grade"], L["strand"])] += L["status"] != "계획"
-    out = ["# 초등 전체 차시 계획", "",
-           "`plans/elementary/G0N.txt` 에서 `tools/plan/build_plan.py` 가 만드는 파일입니다. 직접 고치지 마세요.", "",
+    out = [f"# {level_name} 전체 차시 계획", "",
+           f"`plans/{level_dir}/G0N.txt` 에서 `tools/plan/build_plan.py` 가 만드는 파일입니다. 직접 고치지 마세요.", "",
            "한 차시는 집에서 부모가 아이와 1:1로 하는 약 40분 수업입니다. 학교 수업 시수를 그대로 옮긴 것이 아니라 "
            "학년 항목마다 꼭 다뤄야 할 핵심 개념을 차시로 나눈 것입니다. 학년 배치는 2022 개정 교육과정 계열의 권장안입니다.", "",
            f"- 전체 {len(lessons)}차시, 제작 {sum(done.values())}차시",
@@ -172,7 +187,6 @@ def write_markdown(lessons, meta, items):
         tdone = sum(done[(g["code"], s)] for g in grades)
         out.append(f"| {label[s]} | " + " | ".join(row) + f" | {tdone}/{tot} |")
     out.append("")
-    by_id = {L["id"]: L for L in lessons}
     for g in grades:
         out += [f"## {g['name']}", "", f"학년 목표: {g['goal']}", ""]
         for s in strands:
@@ -184,7 +198,7 @@ def write_markdown(lessons, meta, items):
                 pre = ", ".join(f"{by_id[p]['grade_label']} {by_id[p]['title']}" for p in L["pre"]) or "—"
                 out.append(f"| {L['folder']} {L['sequence']} | {L['title']} | {L['objective']} | {pre} | {L['format']} | {L['status']} |")
             out.append("")
-    (ROOT / "plans" / "초등_차시계획.md").write_text("\n".join(out), encoding="utf-8")
+    (ROOT / "plans" / f"{level_name}_차시계획.md").write_text("\n".join(out), encoding="utf-8")
 
 
 if __name__ == "__main__":
