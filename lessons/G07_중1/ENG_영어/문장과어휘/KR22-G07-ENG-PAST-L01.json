@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "was·were와 규칙·불규칙 과거형을 써서 지난 일을 문장으로 쓴다.",
   "prerequisites": [
     {
       "text": "일반동사 현재 문장",
@@ -42,19 +41,1142 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "주어에 맞게 be동사의 과거형 was(I, he, she, it)·were(you, we, they)를 골라, yesterday, last night, ~ ago 같은 때를 나타내는 말과 함께 지난 상태를 말하고 쓴다.",
+      "evidence": "was와 were 표(S03), 알맞은 was·were(S04), 혼자 해 보기(S11 ①), 지난 주말 이야기(S13 ①), 활동지 1·5·6",
+      "success": "활동지 1의 문장 6개 가운데 5개 이상에서 was·were를 바르게 고르고, 여러 낱말로 된 주어(my friends, Mina and I)에도 were를 쓴다(I were ×, My friends was ×)."
+    },
+    {
+      "id": "B",
+      "text": "규칙 동사에 철자 규칙(-ed, e로 끝나면 -d, 자음 + y는 y를 i로 바꾸고 -ed, 모음 하나 + 자음 하나로 끝나는 짧은 동사는 자음을 하나 더 쓰고 -ed)에 맞게 -ed를 붙이고, 자주 쓰는 불규칙 동사 16개(go, come, eat, drink, have, do, see, say, buy, make, get, take, read, write, meet, sleep)의 과거형을 써서 지난 일을 문장으로 말하고 쓴다.",
+      "evidence": "-ed 표(S05), -ed 과거형 만들기(S06), 모양이 바뀌는 동사 표(S07), goed·went 비교(S08), 지난 일로 바꾸기(S09), 동사 카드 놀이(S10), 혼자 해 보기(S11 ②③④), 지난 주말 이야기(S13 ②③), 활동지 2·3·4·5·6",
+      "success": "활동지 2의 규칙 동사 10개 가운데 9개 이상, 활동지 3의 불규칙 동사 12개 가운데 10개 이상을 바르게 쓰고, 지난 주말 이야기를 과거형 세 문장으로 말한다. goed, She boughts처럼 쓰지 않는다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 여덟 장과 펜(동사 카드)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "과거 시제의 긍정문만 다룬다. be동사의 과거형 was, were와, 일반동사의 과거형(규칙 동사의 -ed 철자 네 가지, 불규칙 동사 16개: go, come, eat, drink, have, do, see, say, buy, make, get, take, read, write, meet, sleep)을 쓴다. 때를 나타내는 말은 yesterday, last night, last week, last Sunday, ~ ago, this morning 정도로 쓴다. 부정문·의문문(didn't, Did ~?, wasn't, Was ~?)은 다음 차시 ‘과거 부정문·의문문’에서 다룬다. -ed의 세 가지 소리 구별, 그 밖의 불규칙 동사, 과거진행형(was ~ing), 두 음절 동사의 겹치기(prefer → preferred)는 다루지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "주어와 was·were의 짝을 틀린다(I were, They was, My friends was). 특히 여러 낱말로 된 주어에서 자주 틀린다.",
+      "response": "S03에서 지금의 am·is → was, are → were로 연결해 보여 주고, 주어를 he·she·it·we·they로 바꿔 보게 한다. S04·S11 ①과 활동지 1에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "불규칙 동사에도 -ed를 붙인다(goed, eated, buyed) 또는 과거형에 다시 -ed를 붙인다(wented).",
+      "response": "S07의 표로 모양이 바뀌는 동사 16개를 익히고, S08에서 I goed와 I went를 나란히 비교한다. S10 카드 놀이로 소리 내어 여러 번 말한다."
+    },
+    {
+      "id": "M3",
+      "text": "-ed 철자를 틀린다(studyed, stoped, likeed, plaied).",
+      "response": "S05의 표로 네 가지 방법을 정리하고, 모음 + y(play → played)와 자음 + y(study → studied)를 구별한다. S06과 활동지 2에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "과거형에 3인칭 단수 -s를 붙이거나(She boughts, He wents), yesterday가 있는데 현재형을 그대로 쓴다(I go to the park yesterday.).",
+      "response": "S09의 도움말로 ‘과거형은 주어와 상관없이 모양이 하나’라고 짚고, 때를 나타내는 말을 먼저 찾게 한다. S12 정답 장에서 다시 다룬다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "과거 시제 문장",
+      "question": "I am tired. → I was tired.\n어제 한 일은 어떻게 말할까?",
+      "goals": [
+        "① 주어에 맞게 was, were를 골라 지난 일을 말해요.",
+        "② -ed를 붙이거나 모양이 바뀌는 동사로 지난 일을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I was tired yesterday."
+          },
+          {
+            "word": "I played soccer."
+          },
+          {
+            "word": "I went to the park."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난 일을 말할 때 동사의 모양이 바뀐다는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘나는 어제 피곤했어요. 나는 축구를 했어요. 나는 공원에 갔어요.’라는 뜻이야. 지금 일을 말할 때와 동사가 어떻게 달라졌어?”",
+          "“오늘은 지난 일을 말하는 동사 모양, 과거형을 배울 거야.”"
+        ],
+        "예상답": [
+          "“am이 was로 바뀌었어요.” “play에 ed가 붙었어요.” “go가 went로 바뀌었어요.”"
+        ],
+        "막히면": [
+          "부모가 I am tired.와 I was tired.를 나란히 말하고 “지금 피곤한 거야, 어제 피곤했던 거야?”라고 묻습니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I was tired yesterday. We were at home. I played soccer. I went to the park.)과 불규칙 동사 16개의 과거형(went, came, ate, drank, had, did, saw, said, bought, made, got, took, read, wrote, met, slept)을 미리 들어 두세요.",
+          "5학년 ‘지난 일 말하기’에서 played, went, ate 같은 과거형을 처음 배웠습니다. 오늘은 was·were와 철자 규칙, 더 많은 불규칙 동사로 넓힙니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(일반동사 현재 문장, 지난 일 말하기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "매일 하는 일, 지난 일 떠올리기",
+      "text": "괄호 안의 말을 알맞게 바꾸거나 골라 읽어요.",
+      "problems": [
+        {
+          "text": "She (watch) TV every day."
+        },
+        {
+          "text": "I (play) soccer yesterday."
+        },
+        {
+          "text": "Yesterday I (go / went) to the park."
+        }
+      ],
+      "notes": {
+        "목적": "‘일반동사 현재 문장’(KR22-G07-ENG-DOVERB-L01)의 3인칭 단수 -es와, 5학년 ‘지난 일 말하기’(KR22-G05-ENG-PAST-L01)의 played, went를 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 매일 하는 일이야. 괄호 안의 동사를 알맞게 바꿔서 읽어 줘.”",
+          "“②는 yesterday가 있지? 어제 한 일이야. 어떻게 바꿀까?”",
+          "“③은 둘 가운데 하나를 골라 읽어 줘.”"
+        ],
+        "정답": [
+          "① watches (She watches TV every day.)",
+          "② played (I played soccer yesterday.)",
+          "③ went (Yesterday I went to the park.)"
+        ],
+        "막히면": [
+          "①은 “She는 3인칭 단수야. watch는 ch로 끝나지?”, ②는 “지난 일에는 동사 끝에 무엇을 붙였지?”라고 묻습니다.",
+          "②③이 어렵거나 played, went를 처음 보는 것 같으면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "①과 ②를 비교하게 합니다. 매일 하는 일은 현재형(watches), 어제 한 일은 과거형(played)입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "be동사의 과거형 was·were",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "be동사의 과거: was, were",
+      "text": "과거 시제는 지난 일을 나타내는 동사 모양이에요.",
+      "table": {
+        "headers": [
+          "주어",
+          "지금 (현재)",
+          "지난 일 (과거)",
+          "예"
+        ],
+        "rows": [
+          [
+            "I",
+            "am",
+            "was",
+            "I was sick."
+          ],
+          [
+            "He, She, It",
+            "is",
+            "was",
+            "It was cold."
+          ],
+          [
+            "You, We, They",
+            "are",
+            "were",
+            "We were at home."
+          ]
+        ],
+        "widths": [
+          0.26,
+          0.18,
+          0.2,
+          0.36
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "때를 나타내는 말: yesterday, last night, two days ago",
+      "notes": {
+        "목적": "be동사의 과거형 was, were를 주어에 맞게 고르는 방법과 때를 나타내는 말을 익힙니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“과거 시제는 지난 일을 말하는 동사 모양이야. am과 is는 was, are는 were로 바뀌어.”",
+          "“한 줄씩 읽어 보자. I am, I was. It is, it was. We are, we were.” (소리 자료를 듣고 따라 합니다.)",
+          "“yesterday(어제), last night(어젯밤), two days ago(이틀 전) 같은 말이 있으면 지난 일이야.”",
+          "“My friends는 무엇으로 바꿀 수 있지? 그럼 was야, were야?”"
+        ],
+        "예상답": [
+          "“they니까 were예요.”"
+        ],
+        "막히면": [
+          "지금의 be동사 표를 떠올리게 합니다. “지금 am, is를 쓰는 주어는 was, are를 쓰는 주어는 were야.”",
+          "부모가 주어를 말하면 아이가 was나 were로 답하는 놀이를 몇 번 합니다(I! she! they! you!)."
+        ],
+        "주의": [
+          "you는 한 명이어도 were입니다(You were late.).",
+          "ago는 ‘~ 전에’라는 뜻이고 시간 뒤에 씁니다(two days ago, a week ago)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "주어에 맞는 was·were 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "was일까, were일까?",
+      "text": "빈칸에 was나 were를 넣어 문장 전체를 읽어요.",
+      "problems": [
+        {
+          "text": "I ______ tired last night."
+        },
+        {
+          "text": "My friends ______ kind."
+        },
+        {
+          "text": "The movie ______ fun."
+        },
+        {
+          "text": "You ______ busy last week."
+        },
+        {
+          "text": "Mina and I ______ hungry."
+        },
+        {
+          "text": "It ______ cold yesterday."
+        }
+      ],
+      "hint": "I와 he, she, it은 was, you와 we, they는 were",
+      "notes": {
+        "목적": "주어에 맞게 was, were를 고르고, 여러 낱말로 된 주어는 he·she·it·we·they로 바꿔 생각합니다(목표 A, 오해 M1). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“빈칸에 was나 were를 넣어 문장 전체를 읽어 줘. 왜 그걸 골랐는지도 말해 볼래?”",
+          "“⑤의 Mina and I는 무엇으로 바꿀 수 있어?”"
+        ],
+        "정답": [
+          "① was (I was tired last night.)",
+          "② were (My friends → they)",
+          "③ was (The movie → it)",
+          "④ were (You were busy last week.)",
+          "⑤ were (Mina and I → we)",
+          "⑥ was (It was cold yesterday.)"
+        ],
+        "막히면": [
+          "S03의 표를 다시 띄우고 주어를 표의 어느 줄로 바꿀 수 있는지 먼저 찾게 합니다."
+        ],
+        "주의": [
+          "⑤ Mina and I was는 아주 흔한 실수입니다. 두 사람이니까 we, 그래서 were라고 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "규칙 동사의 -ed 철자",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "-ed 붙이는 방법",
+      "text": "-ed를 붙이는 동사(규칙 동사)는 끝 글자를 봐요.",
+      "table": {
+        "headers": [
+          "동사의 끝",
+          "붙이는 방법",
+          "예"
+        ],
+        "rows": [
+          [
+            "대부분",
+            "-ed",
+            "play → played, watch → watched"
+          ],
+          [
+            "e",
+            "-d",
+            "like → liked, dance → danced"
+          ],
+          [
+            "자음 + y",
+            "y를 i로, -ed",
+            "study → studied, cry → cried"
+          ],
+          [
+            "모음 하나+자음 하나",
+            "자음 하나 더, -ed",
+            "stop → stopped, plan → planned"
+          ]
+        ],
+        "widths": [
+          0.28,
+          0.24,
+          0.48
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "모음 + y는 -ed만 붙여요.  play → played",
+      "notes": {
+        "목적": "규칙 동사에 -ed를 붙이는 철자 규칙 네 가지를 표로 익힙니다(목표 B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“지난 일을 말할 때 동사 끝에 ed를 붙이는 동사가 많아. 이런 동사를 규칙 동사라고 해. 대부분은 ed만 붙여. played, watched.”",
+          "“like처럼 e로 끝나면 d만 붙여. liked. dance는?”",
+          "“study는 자음 d 다음에 y가 있지? y를 i로 바꾸고 ed. studied. 지난번 studies와 같은 방법이야.”",
+          "“stop처럼 모음 하나 + 자음 하나로 끝나는 짧은 동사는 자음을 하나 더 쓰고 ed. stopped. 현재진행형의 running과 같은 방법이지?”"
+        ],
+        "예상답": [
+          "“danced예요.” “cry는 cried예요.”"
+        ],
+        "막히면": [
+          "모음 다섯 글자 a, e, i, o, u를 종이에 크게 써 두고, 동사의 끝 두 글자를 손가락으로 짚어 보게 합니다.",
+          "지난 시간들의 규칙과 연결합니다: studies(-ies), running(자음 겹치기)."
+        ],
+        "주의": [
+          "play는 y 앞에 모음 a가 있으므로 played입니다(plaied ×). stay → stayed, enjoy → enjoyed도 같습니다.",
+          "-ed의 소리는 동사에 따라 조금씩 다릅니다(played, watched, visited). 소리는 소리 자료로 확인하고, 오늘은 철자에 집중합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "규칙 동사의 과거형 만들기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "-ed 과거형을 만들어요",
+      "text": "괄호 안의 동사를 과거형으로 바꿔 읽어요.",
+      "problems": [
+        {
+          "text": "I (visit) my grandma."
+        },
+        {
+          "text": "She (study) English."
+        },
+        {
+          "text": "We (dance) at the party."
+        },
+        {
+          "text": "The bus (stop) here."
+        },
+        {
+          "text": "They (play) soccer."
+        },
+        {
+          "text": "He (watch) a movie."
+        }
+      ],
+      "hint": "동사의 끝 글자를 보고, S05 표에서 방법을 골라요.",
+      "notes": {
+        "목적": "-ed 철자 규칙 네 가지를 문장 안에서 적용합니다(목표 B, 오해 M3). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“괄호 안의 동사를 과거형으로 바꿔서 문장 전체를 읽어 줘. 철자도 말해 볼래?”",
+          "“②의 study와 ⑤의 play는 둘 다 y로 끝나는데, 바꾸는 방법이 같아?”"
+        ],
+        "정답": [
+          "① visited (I visited my grandma.)",
+          "② studied (She studied English. 자음 d + y)",
+          "③ danced (We danced at the party. e로 끝나서 -d)",
+          "④ stopped (The bus stopped here. p를 하나 더)",
+          "⑤ played (They played soccer. 모음 a + y)",
+          "⑥ watched (He watched a movie.)"
+        ],
+        "막히면": [
+          "철자를 말로 하기 어려우면 종이에 써 보게 하고 S05의 표와 비교합니다."
+        ],
+        "주의": [
+          "②⑥에서 She studies, He watches처럼 현재형으로 말하면 “어제 일이라고 생각해 봐. 지난 일이야.”라고 말해 줍니다. 과거형에는 -s를 붙이지 않습니다.",
+          "visit은 두 음절이고 앞을 세게 읽는 동사라서 t를 겹치지 않습니다(visited). 겹치는 규칙은 stop, plan처럼 짧은 동사에만 씁니다.",
+          "여기까지가 was·were와 규칙 동사입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "자주 쓰는 불규칙 동사 16개",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "모양이 바뀌는 동사",
+      "text": "-ed를 붙이지 않고 모양이 바뀌어요(불규칙 동사).",
+      "table": {
+        "headers": [
+          "동사 → 과거형",
+          "뜻",
+          "동사 → 과거형",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "go → went",
+            "가다",
+            "buy → bought",
+            "사다"
+          ],
+          [
+            "come → came",
+            "오다",
+            "make → made",
+            "만들다"
+          ],
+          [
+            "eat → ate",
+            "먹다",
+            "get → got",
+            "받다, 얻다"
+          ],
+          [
+            "drink → drank",
+            "마시다",
+            "take → took",
+            "가져가다"
+          ],
+          [
+            "have → had",
+            "가지다, 먹다",
+            "read → read",
+            "읽다"
+          ],
+          [
+            "do → did",
+            "하다",
+            "write → wrote",
+            "쓰다"
+          ],
+          [
+            "see → saw",
+            "보다",
+            "meet → met",
+            "만나다"
+          ],
+          [
+            "say → said",
+            "말하다",
+            "sleep → slept",
+            "자다"
+          ]
+        ],
+        "widths": [
+          0.29,
+          0.21,
+          0.29,
+          0.21
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "notes": {
+        "목적": "자주 쓰는 불규칙 동사 16개의 과거형을 소리 내어 익힙니다(목표 B, 오해 M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“이 동사들은 ed를 붙이지 않고 모양이 바뀌어. 이런 동사를 불규칙 동사라고 해. 소리를 듣고 따라 말해 보자. go, went. come, came.” (소리 자료로 16개를 듣고 따라 말합니다.)",
+          "“5학년 때 배운 것도 있지? went, ate, saw, had.”",
+          "“이제 엄마(아빠)가 동사를 말하면 과거형을 말해 봐. eat!” (아이: “ate!”) “buy!” (아이: “bought!”)"
+        ],
+        "예상답": [
+          "“ate!” “bought!” “wrote!”"
+        ],
+        "막히면": [
+          "한 번에 16개를 외우게 하지 않습니다. 오늘은 왼쪽 8개를 먼저 익히고, 오른쪽은 표를 보며 말해도 됩니다.",
+          "come → came, make → made처럼 모음 하나만 바뀌는 것끼리 묶어 보게 합니다."
+        ],
+        "주의": [
+          "read의 과거형은 철자가 같고 소리만 다릅니다. 소리 자료로 현재형과 과거형을 비교해 들어 보세요.",
+          "eat → ate, have → had처럼 have는 ‘먹다’(have lunch)의 뜻으로도 씁니다. take는 ‘(버스를) 타다, (사진을) 찍다’의 뜻으로도 씁니다.",
+          "남은 동사는 활동지 3과 다음 수업 첫 5분 복습에서 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(불규칙 동사에 -ed 붙이기)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "‘공원에 갔어요’를 영어로",
+      "claim": "‘나는 공원에 갔어요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I goed to the park."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I went to the park."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? go는 어떤 동사인가요?",
+      "notes": {
+        "목적": "불규칙 동사에 -ed를 붙이는 실수를 비교로 바로잡습니다(목표 B, 오해 M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“go는 ed를 붙이는 동사야, 모양이 바뀌는 동사야? S07 표에서 찾아볼래?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(I went to the park.)입니다. go는 모양이 바뀌는 불규칙 동사라서 과거형이 went입니다. goed라는 낱말은 없습니다."
+        ],
+        "막히면": [
+          "S07의 표에서 go 줄을 손가락으로 찾게 합니다."
+        ],
+        "주의": [
+          "같은 실수 예: I eated pizza. → I ate pizza. / She buyed a bag. → She bought a bag. 아이가 직접 고쳐 말해 보게 합니다.",
+          "규칙을 잘 알아서 생기는 실수이기도 합니다. “규칙을 잘 기억했네. 그런데 go는 예외야.”라고 먼저 인정해 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "현재 문장을 지난 일로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "지난 일로 바꿔요",
+      "text": "때를 나타내는 말을 넣어 지난 일로 바꿔 말해요.",
+      "problems": [
+        {
+          "text": "I eat breakfast.\n→ yesterday"
+        },
+        {
+          "text": "She buys a bag.\n→ last week"
+        },
+        {
+          "text": "We see a movie.\n→ last Sunday"
+        },
+        {
+          "text": "He writes a letter.\n→ two days ago"
+        }
+      ],
+      "hint": "과거형은 주어가 3인칭 단수여도 -s를 붙이지 않아요.",
+      "notes": {
+        "목적": "현재 문장을 과거 문장으로 바꾸며 불규칙 동사의 과거형과 때를 나타내는 말을 함께 씁니다(목표 B, 오해 M2·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“①을 ‘어제’ 한 일로 바꾸면? 문장 끝에 yesterday를 붙이고 동사도 바꿔.”",
+          "“②의 buys는 과거형으로 바꾸면 s는 어떻게 될까?”"
+        ],
+        "정답": [
+          "① I ate breakfast yesterday.",
+          "② She bought a bag last week.",
+          "③ We saw a movie last Sunday.",
+          "④ He wrote a letter two days ago."
+        ],
+        "막히면": [
+          "S07의 표를 다시 보여 주고 동사를 먼저 찾게 합니다.",
+          "②에서 She boughts라고 하면 “과거형은 주어가 누구든 모양이 하나야. bought.”라고 말해 줍니다(오해 M4)."
+        ],
+        "주의": [
+          "때를 나타내는 말은 보통 문장 끝에 씁니다. Yesterday, I ate breakfast.처럼 맨 앞에 써도 맞습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "동사 카드로 어제 이야기 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 동사 카드로 어제 이야기",
+      "steps": [
+        "종이 여덟 장에 동사를 하나씩 써요.",
+        "한 장을 뒤집어 과거형을 말해요:\ngo → went",
+        "그 동사로 어제 한 일을 말해요: I went to school.",
+        "부모도 똑같이 하고, 서로 확인해요.",
+        "마지막에 어제 기분을 말해요: I was happy."
+      ],
+      "criteria": [
+        "과거형을 바르게 말했어요",
+        "때를 나타내는 말을 넣었어요",
+        "was, were를 주어에 맞게 썼어요"
+      ],
+      "notes": {
+        "목적": "카드를 뒤집어 과거형을 말하고, 그 동사로 실제 어제 한 일을 문장으로 말합니다(목표 A·B, 오해 M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“종이 여덟 장에 go, eat, see, buy, make, play, watch, study를 하나씩 쓰자. 뒤집어 놓고 한 장씩 골라.”",
+          "(아이가 eat을 뒤집으면) “eat의 과거형은?” → (아이) “ate!” → “그걸로 어제 한 일을 말해 줘.” → (아이) “I ate pizza yesterday.”",
+          "“이번엔 엄마(아빠) 차례야.” (부모) “Buy, bought. I bought apples yesterday.” “맞게 말했는지 확인해 줘.”",
+          "“마지막으로 어제 기분은? I was ~.” “우리 가족은? We were ~.”"
+        ],
+        "예상답": [
+          "“I watched TV yesterday.” “I studied English yesterday.” “I saw my friend yesterday.” “I was tired.” “We were busy.”",
+          "기준: 과거형이 맞고(ate, saw, studied), yesterday 같은 때를 나타내는 말이 있고, was·were가 주어에 맞으면 잘한 것입니다. 실제로 한 일이 아니어도 문장이 맞으면 됩니다."
+        ],
+        "막히면": [
+          "문장을 만들기 어려우면 부모가 뒷부분을 제안합니다. “make는? I made… 라면? I made ramen yesterday.”",
+          "과거형이 생각나지 않으면 S05, S07의 표를 보게 합니다."
+        ],
+        "주의": [
+          "부모가 일부러 한 번 틀리게 말하고(I goed to the market.) 아이가 고쳐 주게 하면 재미있게 확인할 수 있습니다.",
+          "부모가 What did you do yesterday?라고 물어도 좋습니다. did로 묻는 방법은 다음 차시에서 배우므로 오늘은 듣고 대답만 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(was·were, 규칙·불규칙 과거형)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "My parents ______ busy.\n→ was, were 가운데"
+        },
+        {
+          "text": "I (study) math.\n→ 과거형으로"
+        },
+        {
+          "text": "She (go) to the library.\n→ 과거형으로"
+        },
+        {
+          "text": "He has lunch.\n→ yesterday를 넣어"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 was·were를 고르고 규칙·불규칙 동사의 과거형으로 문장을 만드는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① were (My parents were busy. my parents → they)",
+          "② I studied math.",
+          "③ She went to the library.",
+          "④ He had lunch yesterday. (Yesterday he had lunch.도 맞음)",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 철자(studied), 문장 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “주어를 he, she, it, we, they로 바꾸면?” “ed를 붙이는 동사야, 모양이 바뀌는 동사야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "teacher_only": true,
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "good": [
+        {
+          "text": "① My parents were busy."
+        },
+        {
+          "text": "② I studied math."
+        },
+        {
+          "text": "③ She went to the library."
+        },
+        {
+          "text": "④ He had lunch yesterday."
+        }
+      ],
+      "bad": [
+        {
+          "text": "My parents was",
+          "note": "둘 이상 → were"
+        },
+        {
+          "text": "studyed",
+          "note": "자음 + y → -ied"
+        },
+        {
+          "text": "She goed",
+          "note": "go → went"
+        }
+      ],
+      "explain": "주어 → was, were / -ed 철자 / 모양이 바뀌는 동사인지 다시 봐요.",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“부모님은 두 사람이라 were예요.” “study는 y를 i로 바꿔요.” “go는 went예요.”"
+        ],
+        "정답": [
+          "① were ② I studied math. ③ She went to the library. ④ He had lunch yesterday."
+        ],
+        "막히면": [
+          "틀린 문제는 S03(was·were), S05(-ed 철자), S07(모양이 바뀌는 동사) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다.",
+          "④를 He haded lunch나 He has lunch yesterday로 말했다면 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(지난 주말 이야기 말하기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "지난 주말 이야기",
+      "text": "지난 주말에 한 일을 세 문장으로 말해요.",
+      "problems": [
+        {
+          "text": "was나 were를 쓴 문장 (기분, 날씨)"
+        },
+        {
+          "text": "-ed를 붙이는 동사를 쓴 문장"
+        },
+        {
+          "text": "모양이 바뀌는 동사를 쓴 문장"
+        }
+      ],
+      "notes": {
+        "목적": "처음 말하는 내용으로 was·were, 규칙 동사, 불규칙 동사의 과거형을 모두 써서 지난 일을 말하는지 확인합니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“지난 주말에 무엇을 했는지 세 문장으로 말해 줘. 하나는 was나 were로 기분이나 날씨를, 하나는 ed가 붙는 동사로, 하나는 모양이 바뀌는 동사로 말해 보자.”",
+          "“시작은 Last weekend, ~로 해도 돼.”"
+        ],
+        "정답": [
+          "예: ① It was sunny. / I was happy. ② I watched a movie. / I played games. ③ I went to my grandma's house. / I ate chicken.",
+          "기준: 세 문장 모두 과거형이 맞고(was·were의 짝, -ed 철자, 불규칙 과거형), 주어와 동사가 있는 문장이면 통과입니다. 내용은 실제로 한 일이 아니어도 됩니다. 세 문장 모두 맞으면 목표 A·B 달성으로 봅니다."
+        ],
+        "막히면": [
+          "부모가 먼저 세 문장으로 시범을 보입니다. “Last weekend, it was cold. I cleaned the house. I made kimchi stew.”",
+          "낱말이 떠오르지 않으면 S07의 표를 보고 동사를 고르게 합니다."
+        ],
+        "주의": [
+          "I go, I eat처럼 현재형으로 말하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "be동사의 과거: was(I, he, she, it), were(you, we, they)\n일반동사의 과거: -ed를 붙이거나 모양이 바뀌어요",
+      "do": "때를 나타내는 말을 먼저 보기",
+      "dont": "I goed. / She boughts.",
+      "review": [
+        {
+          "text": "알맞은 말은?\nThey ___ tired yesterday."
+        },
+        {
+          "text": "과거형은?\nstudy, stop"
+        },
+        {
+          "text": "과거형은?\neat, buy"
+        }
+      ],
+      "next": "과거 부정문·의문문",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“am, is의 과거형은? are의 과거형은?”",
+          "“-ed를 붙이는 방법 네 가지를 말해 볼래? 모양이 바뀌는 동사도 세 개만 말해 볼까?”"
+        ],
+        "예상답": [
+          "“was, were예요.” “그냥 ed, e로 끝나면 d, y를 i로 바꾸고 ed, 자음 하나 더 쓰고 ed요.” “went, ate, saw.”"
+        ],
+        "정답": [
+          "① were (They were tired yesterday.)",
+          "② studied, stopped",
+          "③ ate, bought"
+        ],
+        "주의": [
+          "자기 전에 “Today I ~.”로 오늘 한 일을 과거형으로 한두 문장 말하게 하면 좋은 복습이 됩니다. 다음 차시 ‘과거 부정문·의문문’에서는 didn't, Did you ~?와 wasn't, Were you ~?를 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "layout": "support",
+      "section": "보충",
+      "purpose": "보충(5학년 지난 일 말하기 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 지난 일 말하기",
+      "text": "소리를 듣고 따라 읽고, 과거형을 말해요.",
+      "key": {
+        "title": "지난 일 문장",
+        "text": "I visited my grandma last Sunday."
+      },
+      "notes": {
+        "목적": "S02에서 played, went 같은 과거형이 흔들리면, 5학년 ‘지난 일 말하기’에서 배운 일곱 동사의 과거형을 먼저 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“왼쪽 세 개는 ed를 붙였고, 오른쪽 네 개는 모양이 바뀌었지?”",
+          "“엄마(아빠)가 동사를 말하면 과거형을 말해 봐. play!” (아이: “played!”) “go!” (아이: “went!”)",
+          "“아래 문장처럼 어제 한 일을 하나 말해 볼까? I ~ yesterday.”"
+        ],
+        "정답": [
+          "played, watched, visited / went, ate, saw, had. 문장 예: I played games yesterday. I ate pizza yesterday."
+        ],
+        "막히면": [
+          "카드를 반으로 접어 앞에는 동사, 뒤에는 과거형을 쓰고 뒤집으며 말하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 5학년 ‘지난 일 말하기’(KR22-G05-ENG-PAST-L01)를, 현재형(-s, -es)이 흔들리면 ‘일반동사 현재 문장’(KR22-G07-ENG-DOVERB-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      },
+      "table": {
+        "headers": [
+          "-ed를 붙여요",
+          "뜻",
+          "모양이 바뀌어요",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "play → played",
+            "놀다, 하다",
+            "go → went",
+            "가다"
+          ],
+          [
+            "watch → watched",
+            "보다",
+            "eat → ate",
+            "먹다"
+          ],
+          [
+            "visit → visited",
+            "방문하다",
+            "see → saw",
+            "보다"
+          ],
+          [
+            "",
+            "",
+            "have → had",
+            "가지다, 먹다"
+          ]
+        ],
+        "widths": [
+          0.29,
+          0.21,
+          0.29,
+          0.21
+        ],
+        "width": 12.13,
+        "size": 24
+      }
+    }
+  ],
   "worksheet": {
     "title": "과거 시제 문장 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "빈칸에 was나 were를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I ______ at home last night.",
+              "④ The test ______ easy."
+            ],
+            [
+              "② We ______ busy yesterday.",
+              "⑤ My shoes ______ dirty."
+            ],
+            [
+              "③ Jun ______ sick last week.",
+              "⑥ You and Jisu ______ late."
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14
+        },
+        "answer": "① was ② were ③ was ④ was ⑤ were(shoes 여러 개 → they) ⑥ were(You and Jisu → you, 둘). 여섯 개 가운데 다섯 개 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "-ed를 붙여 과거형으로 바꿔 쓰세요.",
+        "table": {
+          "headers": [
+            "동사",
+            "과거형",
+            "동사",
+            "과거형"
+          ],
+          "rows": [
+            [
+              "play",
+              "",
+              "like",
+              ""
+            ],
+            [
+              "watch",
+              "",
+              "dance",
+              ""
+            ],
+            [
+              "visit",
+              "",
+              "study",
+              ""
+            ],
+            [
+              "clean",
+              "",
+              "cry",
+              ""
+            ],
+            [
+              "walk",
+              "",
+              "stop",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "size": 14
+        },
+        "answer": "played, watched, visited, cleaned, walked / liked, danced, studied, cried, stopped. 열 개 가운데 아홉 개 이상이면 통과. likeed, studyed, stoped, plaied처럼 쓰면 S05의 표로 다시 봅니다."
+      },
+      {
+        "no": 3,
+        "prompt": "모양이 바뀌는 동사의 과거형을 쓰세요.",
+        "table": {
+          "headers": [
+            "동사",
+            "과거형",
+            "동사",
+            "과거형"
+          ],
+          "rows": [
+            [
+              "go",
+              "",
+              "buy",
+              ""
+            ],
+            [
+              "eat",
+              "",
+              "make",
+              ""
+            ],
+            [
+              "see",
+              "",
+              "write",
+              ""
+            ],
+            [
+              "have",
+              "",
+              "meet",
+              ""
+            ],
+            [
+              "come",
+              "",
+              "sleep",
+              ""
+            ],
+            [
+              "do",
+              "",
+              "take",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "size": 14
+        },
+        "answer": "went, ate, saw, had, came, did / bought, made, wrote, met, slept, took. 열두 개 가운데 열 개 이상이면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "괄호 안의 때를 나타내는 말을 넣어 지난 일로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I clean my room.\n(yesterday)",
+              ""
+            ],
+            [
+              "② My sister makes a cake.\n(last Sunday)",
+              ""
+            ],
+            [
+              "③ We drink milk.\n(this morning)",
+              ""
+            ],
+            [
+              "④ Tom gets a present.\n(two days ago)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① I cleaned my room yesterday. ② My sister made a cake last Sunday. ③ We drank milk this morning. ④ Tom got a present two days ago. 과거형(cleaned, made, drank, got)과 때를 나타내는 말이 있으면 맞음. 때를 나타내는 말은 문장 맨 앞에 써도 맞습니다. makes → maked, gets → gots처럼 쓰면 고쳐 줍니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① My parents ______ busy.\n(was, were 가운데)",
+              ""
+            ],
+            [
+              "② I (study) math.\n(과거형으로)",
+              ""
+            ],
+            [
+              "③ She (go) to the library.\n(과거형으로)",
+              ""
+            ],
+            [
+              "④ He has lunch.\n(yesterday를 넣어)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① My parents were busy. ② I studied math. ③ She went to the library. ④ He had lunch yesterday. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 지난 주말 이야기를 세 문장으로 쓰세요(was나 were 하나, -ed 동사 하나, 모양이 바뀌는 동사 하나).",
+        "eng": {
+          "trace": [
+            "I was tired yesterday.",
+            "We went to the park last Sunday."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 지난 주말 이야기 세 문장(예: It was sunny. / I watched a movie. / I ate chicken with my family.). was·were의 짝, -ed 철자, 불규칙 과거형, 문장 첫 글자 대문자와 끝의 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① They ______ tired yesterday. 빈칸에 was나 were를 쓰세요.\n② study, stop의 과거형을 쓰세요.\n③ eat, buy의 과거형을 쓰세요.",
+        "lines": 3,
+        "answer": "① were ② studied, stopped ③ ate, bought. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S13 지난 주말 이야기: 세 문장 모두 □  두 문장 □  한 문장 이하 □",
+      "goed처럼 -ed를 붙이거나 She boughts처럼 -s를 붙임: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S06"
 }

@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "will과 be going to로 앞으로 할 일을 말하고 부정문·의문문으로 묻고 답한다.",
   "prerequisites": [
     {
       "text": "be동사 문장",
@@ -42,19 +41,1025 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "will + 동사원형과 be going to + 동사원형(be동사는 주어에 맞게 am, are, is)으로 앞으로 할 일을 말하고 쓴다. I'll, she's going to 같은 줄인 말도 쓴다.",
+      "evidence": "will + 동사원형(S03), be going to 표(S04), 알맞은 말 고르기(S05), will plays 비교(S06), 혼자 해 보기(S11 ①), 활동지 1·2·5·6",
+      "success": "활동지 1·2의 문장 8개 가운데 7개 이상에서 will·going to 뒤에 동사원형을 쓰고(will plays ×, going to played ×), be going to의 be동사를 주어에 맞게 고른다(She are going to ×)."
+    },
+    {
+      "id": "B",
+      "text": "부정문(won't + 동사원형, am not·isn't·aren't going to + 동사원형)과 의문문(Will you ~? / Are you going to ~?)을 만들고, Yes, I will. / No, I won't. / Yes, I am. / No, I'm not.처럼 질문에 맞게 대답한다.",
+      "evidence": "부정문(S07), 의문문과 대답(S08), 바꾸어 말하기(S09), 주말 계획 인터뷰(S10), 혼자 해 보기(S11 ②③④), 묻는 말에 대답하기(S13), 활동지 3·4·5·6",
+      "success": "긍정문을 부정문·의문문으로 바르게 바꾸고(willn't ×, I'm not will ×), 부모의 질문 3개 가운데 3개에 질문에 맞게 대답한다(Will you ~? → will·won't, Are you going to ~? → am·I'm not)."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 여섯 장과 펜(계획 카드)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "will + 동사원형과 be going to + 동사원형의 긍정문·부정문(won't, am not·isn't·aren't going to)·Yes/No 의문문과 짧은 대답만 다룬다. 때를 나타내는 말은 tomorrow, tonight, soon, next week, this weekend 정도로 쓴다. What are you going to do ~?는 6학년 ‘계획 말하기’에서 배운 표현으로 듣고 대답만 하고, What will you ~?, Where are you going to ~? 같은 의문사 질문은 만들지 않는다. will과 be going to의 자세한 쓰임 차이(그 자리에서 정한 일, 근거가 있는 예측 등), shall, 현재진행형으로 나타내는 미래(I'm leaving tomorrow.), 미래진행형은 다루지 않는다. 두 표현의 차이는 ‘미리 정한 계획에는 be going to를 자주 쓴다’ 정도로만 알려 준다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "will·going to 뒤에 동사원형이 아닌 모양을 쓴다(He will plays. I'm going to played. I will going to the park.).",
+      "response": "S03에서 ‘주어가 누구든 will 뒤는 동사원형’을 보여 주고, S06에서 He will plays와 He will play를 나란히 비교한다. S05·S11 ①과 활동지 1·2에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "be going to에서 be동사를 빠뜨리거나(I going to study.), 주어와 be동사의 짝을 틀린다(She are going to swim.).",
+      "response": "S04의 표에서 be동사를 주어에 맞게 고르는 것을 be동사 문장과 연결하고, S05에서 빈칸에 be동사를 넣게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "부정문을 잘못 만든다(I willn't go. I don't will go. I'm not will go. I not going to go.).",
+      "response": "S07에서 will 문장은 will 뒤에, be going to 문장은 be동사 뒤에 not을 넣는다고 두 단계로 보여 주고, will not은 won't로만 줄인다고 짚는다."
+    },
+    {
+      "id": "M4",
+      "text": "질문과 다른 말로 대답한다(Will you ~? → Yes, I am. / Are you going to ~? → Yes, I will.).",
+      "response": "S08의 표로 ‘물은 말로 대답한다’를 보여 주고, S10 역할극과 S13에서 Will 질문과 Are 질문을 섞어 묻는다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "미래 표현",
+      "question": "어제는 I played. 오늘은 I play.\n내일 할 일은 어떻게 말할까?",
+      "goals": [
+        "① will, be going to로 앞으로 할 일을 말하고 써요.",
+        "② won't, Will you ~? 같은 부정문·의문문으로 묻고 답해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I will call you."
+          },
+          {
+            "word": "I'm going to visit Busan."
+          },
+          {
+            "word": "Will it rain tomorrow?"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 앞으로 할 일을 말하는 두 가지 방법(will, be going to)에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘내가 전화할게. 나는 부산에 갈 거야. 내일 비가 올까?’라는 뜻이야. 지난 일은 played, 늘 하는 일은 play라고 했지? 오늘은 앞으로 할 일을 말하는 방법을 배울 거야.”",
+          "“6학년 때 I'm going to ~.를 배웠던 것 기억나?”"
+        ],
+        "예상답": [
+          "“will이 있어요.” “I'm going to play soccer.처럼 말했어요.”"
+        ],
+        "막히면": [
+          "기억나지 않아도 괜찮습니다. S04에서 다시 배웁니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I will call you. I'll help you. I'm going to visit Busan. I won't be late. She isn't going to cook. Will you come? Yes, I will. No, I won't. Are you going to swim? Yes, I am. No, I'm not.)을 미리 들어 두세요.",
+          "won't와 want는 소리가 비슷해서 헷갈리기 쉽습니다. 소리 자료로 두 낱말을 비교해 들어 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(be동사 문장, 계획 말하기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "be동사와 계획 떠올리기",
+      "text": "①②는 빈칸에 알맞은 be동사를 넣고, ③은 괄호에서 골라요.",
+      "problems": [
+        {
+          "text": "She ______ my sister."
+        },
+        {
+          "text": "We ______ busy today."
+        },
+        {
+          "text": "I'm going to (play / played) soccer tomorrow."
+        }
+      ],
+      "notes": {
+        "목적": "‘be동사 문장’(KR22-G07-ENG-BEVERB-L01)의 주어에 맞는 be동사와, 6학년 ‘계획 말하기’(KR22-G06-ENG-FUTURE-L01)의 I'm going to + 동사의 기본 모양을 기억하는지 확인합니다. be going to에는 be동사가 들어갑니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②, 빈칸에 am, are, is 가운데 무엇이 들어갈까?”",
+          "“③, tomorrow는 내일이지? 둘 가운데 무엇을 골라야 할까?”"
+        ],
+        "정답": [
+          "① is (She is my sister.)",
+          "② are (We are busy today.)",
+          "③ play (I'm going to play soccer tomorrow. going to 뒤에는 기본 모양)"
+        ],
+        "막히면": [
+          "①②는 “she에는 am, are, is 가운데 무엇이었지? we는?”이라고 묻습니다.",
+          "③에서 played를 고르면 “played는 지난 일이야. 내일 할 일에는 기본 모양을 썼지.”라고 말해 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "③의 ‘기본 모양’이 오늘 말하는 ‘동사원형’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "will + 동사원형",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "will + 동사원형",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "I",
+            "sub": "주어: 나는"
+          },
+          {
+            "word": "will",
+            "sub": "~할 거예요",
+            "highlight": true
+          },
+          {
+            "word": "help",
+            "sub": "동사원형",
+            "highlight": true
+          },
+          {
+            "word": "you.",
+            "sub": "너를"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "will",
+          "text": "앞으로 할 일, 약속을 말해요.\n‘~할 거예요, ~할게요’"
+        },
+        {
+          "title": "모양",
+          "text": "주어가 누구든 will은 그대로.\nShe will help you."
+        }
+      ],
+      "key": "줄여 쓰기: I will → I'll,  she will → she'll",
+      "notes": {
+        "목적": "will 뒤에 동사원형을 써서 앞으로 할 일이나 약속을 말한다는 것을 알려 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“I will help you.는 ‘내가 너를 도와줄게’라는 뜻이야. will은 앞으로 할 일이나 약속을 말할 때 써.”",
+          "“will 뒤에는 동사의 원래 모양, 동사원형이 와. 주어가 She여도 will은 그대로, 뒤의 동사도 그대로야. She will help you.”",
+          "“I will은 I'll로 줄여 말할 수 있어. 소리를 들어 보자.” (소리 자료를 듣고 따라 합니다.)",
+          "“‘내일 비가 올 거야’를 will로 말하면? 비가 오다는 rain이야.”"
+        ],
+        "예상답": [
+          "“It will rain tomorrow.”"
+        ],
+        "막히면": [
+          "부모가 “I will clean my room.”처럼 약속을 하나 말해 주고, 아이도 “I will ~.”로 약속 하나를 말해 보게 합니다."
+        ],
+        "주의": [
+          "She wills, She will helps처럼 -s를 붙이는 실수가 흔합니다(오해 M1). will 뒤에는 늘 동사원형입니다.",
+          "tomorrow(내일), tonight(오늘 밤), soon(곧), next week(다음 주) 같은 말과 함께 자주 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "be going to + 동사원형",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "be going to + 동사원형",
+      "text": "be going to도 앞으로 할 일을 말해요. 미리 정한 계획에 자주 써요.",
+      "table": {
+        "headers": [
+          "주어",
+          "be going to",
+          "예"
+        ],
+        "rows": [
+          [
+            "I",
+            "am going to",
+            "I'm going to study."
+          ],
+          [
+            "He, She, It",
+            "is going to",
+            "She's going to cook."
+          ],
+          [
+            "You, We, They",
+            "are going to",
+            "We're going to swim."
+          ]
+        ],
+        "widths": [
+          0.27,
+          0.27,
+          0.46
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "함께 쓰는 말: tomorrow, tonight, next week, this weekend",
+      "notes": {
+        "목적": "be going to + 동사원형의 모양을 익히고, be동사를 주어에 맞게 고르게 합니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“6학년 때 I'm going to ~.를 배웠지? 그 I'm이 I am이야. 그래서 주어가 바뀌면 be동사도 바뀌어. She is going to, We are going to.” (소리 자료를 듣고 따라 합니다.)",
+          "“be going to도 will처럼 앞으로 할 일을 말해. 특히 미리 정해 둔 계획을 말할 때 많이 써.”",
+          "“너는 이번 주말에 무엇을 할 거야? I'm going to ~.로 말해 볼래?”"
+        ],
+        "예상답": [
+          "“I'm going to play games.” “I'm going to visit my grandma.”"
+        ],
+        "막히면": [
+          "be동사를 빠뜨리면(I going to ~) 지난 be동사 표를 떠올리게 합니다. “I에는 am, 그래서 I am going to, 줄이면 I'm going to.”"
+        ],
+        "주의": [
+          "여기서 going은 ‘가다’라는 뜻이 아니라 be going to 전체가 ‘~할 것이다’라는 뜻입니다.",
+          "will과 be going to는 많은 경우 바꿔 써도 뜻이 통합니다. 오늘은 둘 다 ‘앞으로 할 일’로 익히고, 자세한 차이는 다루지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "will·be going to 문장 완성하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "알맞은 말은?",
+      "text": "빈칸에 be동사를 넣거나, 괄호에서 골라 읽어요.",
+      "problems": [
+        {
+          "text": "It will (rain / rains)."
+        },
+        {
+          "text": "She ______ going to swim."
+        },
+        {
+          "text": "We ______ going to cook."
+        },
+        {
+          "text": "He will (be / is) late."
+        },
+        {
+          "text": "I ______ going to read."
+        },
+        {
+          "text": "They will (come / came)."
+        }
+      ],
+      "hint": "be going to의 be는 주어에 맞게, will 뒤는 동사원형으로!",
+      "notes": {
+        "목적": "will 뒤의 동사원형과 be going to의 be동사를 바르게 고릅니다(목표 A, 오해 M1·M2). 활동지 1·2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“빈칸에 알맞은 말을 넣거나 괄호에서 골라서 문장 전체를 읽어 줘. 왜 그걸 골랐어?”",
+          "“④는 be와 is 가운데 무엇일까? will 뒤에는 어떤 모양이 왔지?”"
+        ],
+        "정답": [
+          "① rain (It will rain.)",
+          "② is (She is going to swim.)",
+          "③ are (We are going to cook.)",
+          "④ be (He will be late. is의 원래 모양은 be)",
+          "⑤ am (I am going to read.)",
+          "⑥ come (They will come.)"
+        ],
+        "막히면": [
+          "S03, S04를 다시 보여 줍니다.",
+          "④에서 is를 고르면 “am, are, is의 원래 모양은 be야. will 뒤에는 be를 써.”라고 알려 줍니다."
+        ],
+        "주의": [
+          "④ will be는 아이들이 가장 어려워하는 모양입니다. I will be thirteen next year.(나는 내년에 열세 살이 될 거예요.) 같은 예를 하나 더 들어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(will 뒤에 -s 붙이기)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘축구를 할 거예요’를 영어로",
+      "claim": "‘그는 내일 축구를 할 거예요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "He will plays soccer."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "He will play soccer."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? will 뒤에는 어떤 모양이 오나요?",
+      "notes": {
+        "목적": "주어가 3인칭 단수여도 will 뒤에는 동사원형을 쓴다는 것을 비교로 확인합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“He가 3인칭 단수라서 s를 붙이고 싶지? 그런데 will이 있으면 어떻게 했지?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(He will play soccer.)입니다. will 뒤에는 주어와 상관없이 동사원형을 씁니다. 지난 시간의 doesn't, didn't 뒤와 같습니다."
+        ],
+        "막히면": [
+          "S03의 ‘주어가 누구든 will은 그대로’ 카드를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "같은 실수 예: She will goes. → She will go. / I'm going to played. → I'm going to play. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 긍정문입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "부정문(won't, not going to)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "부정문: won't, not going to",
+      "text": "‘~하지 않을 거예요’는 이렇게 말해요.",
+      "steps": [
+        "will 뒤에 not을 넣어요.\nwill not → won't",
+        "be동사 뒤에 not을 넣어요.\nI'm not going to ~",
+        "뒤의 동사는 원래 모양 그대로!"
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I won't be late.",
+            "sub": "나는 늦지 않을 거예요."
+          },
+          {
+            "word": "She isn't going to cook.",
+            "sub": "그녀는 요리하지 않을 거예요.",
+            "highlight": true
+          },
+          {
+            "word": "We aren't going to swim.",
+            "sub": "우리는 수영하지 않을 거예요."
+          }
+        ]
+      },
+      "key": "won't는 will not을 줄인 말이에요. (willn't ×)",
+      "notes": {
+        "목적": "will 문장은 will 뒤에, be going to 문장은 be동사 뒤에 not을 넣어 부정문을 만듭니다(목표 B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“will 문장을 부정할 때는 will 뒤에 not. will not은 줄여서 won't라고 해. I won't be late. ‘나는 늦지 않을 거야.’” (소리 자료로 won't를 듣고 따라 합니다.)",
+          "“be going to 문장은 be동사가 있지? 그래서 be동사 뒤에 not. She isn't going to cook.”",
+          "“I'm going to watch TV.를 부정문으로 바꾸면?”"
+        ],
+        "예상답": [
+          "“I'm not going to watch TV.”"
+        ],
+        "막히면": [
+          "will이나 be동사에 손가락을 대게 하고 “여기 바로 오른쪽에 not!” 하고 말하며 끼워 넣게 합니다."
+        ],
+        "주의": [
+          "willn't라는 말은 없습니다. will not은 won't로 줄입니다(오해 M3).",
+          "I don't will, I'm not will처럼 쓰면 “will 문장은 will 뒤에 not만 넣어.”라고 말해 줍니다.",
+          "won't와 want(원하다)는 다른 말입니다. 소리 자료로 비교해 들어 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "의문문과 짧은 대답",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "의문문과 대답",
+      "text": "Will이나 be동사를 주어 앞으로 옮겨요.",
+      "table": {
+        "headers": [
+          "의문문",
+          "Yes 대답",
+          "No 대답"
+        ],
+        "rows": [
+          [
+            "Will you come?",
+            "Yes, I will.",
+            "No, I won't."
+          ],
+          [
+            "Will it rain?",
+            "Yes, it will.",
+            "No, it won't."
+          ],
+          [
+            "Are you going to swim?",
+            "Yes, I am.",
+            "No, I'm not."
+          ],
+          [
+            "Is he going to cook?",
+            "Yes, he is.",
+            "No, he isn't."
+          ]
+        ],
+        "widths": [
+          0.42,
+          0.29,
+          0.29
+        ],
+        "width": 12,
+        "size": 24
+      },
+      "key": "Will로 물으면 will로, Are·Is로 물으면 be동사로 대답해요.",
+      "notes": {
+        "목적": "Will + 주어 + 동사원형 ~?과 be동사 + 주어 + going to ~?로 묻고, 물은 말로 짧게 대답하는 방법을 익힙니다(목표 B, 오해 M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "“You will come.을 묻는 문장으로 바꾸면? Will을 맨 앞으로. Will you come? 대답은 Yes, I will. 또는 No, I won't.” (소리 자료를 듣고 따라 합니다.)",
+          "“You are going to swim.은? are를 맨 앞으로. Are you going to swim? 대답은 be동사로 해. Yes, I am. No, I'm not.”",
+          "“Is he going to cook?에 Yes로 대답하면?”"
+        ],
+        "예상답": [
+          "“Yes, he is.”"
+        ],
+        "막히면": [
+          "대답이 막히면 질문의 첫 두 낱말을 거꾸로 짚어 줍니다. “Will you → I will, Are you → I am.”"
+        ],
+        "주의": [
+          "Will you ~?에 Yes, I am.으로, Are you going to ~?에 Yes, I will.로 대답하는 실수가 흔합니다(오해 M4).",
+          "Yes, I'll.처럼 Yes 대답을 줄이지 않습니다. No, I won't.는 맞습니다.",
+          "Will you ~?는 ‘~해 줄래?’라는 부탁으로도 씁니다(Will you help me?)."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "부정문·의문문으로 바꾸고 대답하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "바꾸어 말해요",
+      "text": "지시대로 바꾸어 말해요.",
+      "problems": [
+        {
+          "text": "I will eat pizza.\n→ 부정문으로"
+        },
+        {
+          "text": "She is going to study.\n→ 의문문으로"
+        },
+        {
+          "text": "Will you call me?\n→ Yes로 대답"
+        },
+        {
+          "text": "Are they going to swim?\n→ No로 대답"
+        }
+      ],
+      "hint": "will 문장은 will로, be going to 문장은 be동사로 바꿔요.",
+      "notes": {
+        "목적": "will·be going to 문장을 부정문·의문문으로 바꾸고, 물은 말로 대답합니다(목표 B, 오해 M3·M4). 활동지 3·4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①부터 지시대로 바꾸어 말해 줘. will이 있는지, be동사가 있는지 먼저 볼까?”"
+        ],
+        "정답": [
+          "① I won't eat pizza. (I will not eat pizza.)",
+          "② Is she going to study?",
+          "③ Yes, I will.",
+          "④ No, they aren't."
+        ],
+        "막히면": [
+          "S07의 단계와 S08의 표를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "④에서 No, they won't.라고 하면 “Are로 물었으니 be동사로 대답해.”라고 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "주말 계획 인터뷰 역할극",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "묻고 답하기: 주말 계획 맞히기",
+      "steps": [
+        "각자 종이 세 장에 이번 주말 계획을 몰래 써요.",
+        "부모가 물어요: Are you going to swim?",
+        "아이가 답해요: Yes, I am. / No, I'm not.",
+        "부탁도 해요: Will you help me?",
+        "역할을 바꿔서 해요."
+      ],
+      "criteria": [
+        "going to, will 뒤에 동사원형을 말했어요",
+        "질문에 맞는 말로 대답했어요",
+        "부정 대답을 바르게 했어요"
+      ],
+      "notes": {
+        "목적": "상대의 주말 계획을 Are you going to ~?로 맞히고, Will you ~?로 부탁하며 질문에 맞게 대답하는 것을 소리 내어 여러 번 말합니다(목표 B, 오해 M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "“각자 종이 세 장에 이번 주말에 할 일을 영어로 몰래 쓰자. 예를 들면 play games, read a book, clean my room, visit my grandma, watch a movie 같은 거야.”",
+          "(부모) “Are you going to play games?” → (아이) “Yes, I am.” → (부모) “Are you going to clean your room?” → (아이) “No, I'm not.”",
+          "“이번엔 부탁을 해 볼게. Will you help me cook?” → (아이) “Yes, I will.” 또는 “No, I won't.”",
+          "“이제 네가 엄마(아빠)의 계획을 맞혀 봐.”"
+        ],
+        "예상답": [
+          "아이가 물을 때: “Are you going to watch a movie?” “Are you going to cook?” “Will you buy ice cream?”",
+          "아이가 대답할 때: “Yes, I am.” “No, I'm not.” “Yes, I will.” “No, I won't.”",
+          "기준: going to·will 뒤에 동사원형을 쓰고, Are 질문에는 am·I'm not, Will 질문에는 will·won't로 대답하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "계획을 영어로 쓰기 어려우면 부모가 예시 표현 몇 개를 종이에 써 주고 고르게 합니다.",
+          "질문이 막히면 “Are you going to 다음에 종이에 쓴 동사!”라고 틀을 알려 줍니다."
+        ],
+        "주의": [
+          "역할을 바꾸어 세 번 이상 주고받습니다. 틀려도 바로 고치기보다 다음 차례에 부모가 바른 문장으로 다시 말해 줍니다.",
+          "Will you ~?로 부탁할 때는 실제로 할 수 있는 일(Will you set the table?)을 물으면 생활 속 복습이 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(be going to·won't·의문문·대답)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "They ______ going to win.\n→ 빈칸에 알맞은 말"
+        },
+        {
+          "text": "I will not be late.\n→ 줄여 써요"
+        },
+        {
+          "text": "You are going to cook.\n→ 의문문으로"
+        },
+        {
+          "text": "Will it be sunny?\n→ No로 대답"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 be going to의 be동사, won't, 의문문, 짧은 대답을 만드는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① are (They are going to win.)",
+          "② I won't be late.",
+          "③ Are you going to cook?",
+          "④ No, it won't.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 won't의 아포스트로피('), 물음표, 문장 첫 글자 대문자도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “will 문장이야, be going to 문장이야?” “무엇으로 물었어?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "teacher_only": true,
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "good": [
+        {
+          "text": "① They are going to win."
+        },
+        {
+          "text": "② I won't be late."
+        },
+        {
+          "text": "③ Are you going to cook?"
+        },
+        {
+          "text": "④ No, it won't."
+        }
+      ],
+      "bad": [
+        {
+          "text": "They is going to",
+          "note": "둘 이상 → are"
+        },
+        {
+          "text": "I willn't",
+          "note": "will not → won't"
+        },
+        {
+          "text": "No, it isn't.",
+          "note": "Will 질문엔\nNo, it won't."
+        }
+      ],
+      "explain": "will 문장? be going to 문장? → not 자리, 질문, 대답 확인",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“They는 are예요.” “will not은 won't예요.” “Will로 물었으니까 won't로 대답해요.”"
+        ],
+        "정답": [
+          "① are ② I won't be late. ③ Are you going to cook? ④ No, it won't."
+        ],
+        "막히면": [
+          "틀린 문제는 S04(be going to), S07(부정문), S08(의문문과 대답) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(듣고 대답하기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "묻는 말에 대답해요",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "problems": [
+        {
+          "text": "What are you going to do this weekend?"
+        },
+        {
+          "text": "Will you get up early tomorrow?"
+        },
+        {
+          "text": "Are you going to watch TV tonight?"
+        }
+      ],
+      "notes": {
+        "목적": "처음 듣는 질문에 be going to 문장과 짧은 대답으로 답하는지 확인합니다(목표 A·B, 오해 M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 물어볼게. 너에게 맞게 대답해 줘. What are you going to do this weekend?”",
+          "“Will you get up early tomorrow?” “Are you going to watch TV tonight?”"
+        ],
+        "정답": [
+          "① I'm going to ~. (예: I'm going to play soccer. / I'm going to visit my grandma. 동사원형이 오면 맞음)",
+          "② Yes, I will. 또는 No, I won't.",
+          "③ Yes, I am. 또는 No, I'm not.",
+          "기준: ①은 I'm going to + 동사원형으로, ②는 will·won't로, ③은 am·I'm not으로 대답하면 통과입니다. 내용은 실제 계획대로 말하면 됩니다. 세 개 모두 맞으면 목표 달성으로 봅니다."
+        ],
+        "막히면": [
+          "질문을 한 번 더 천천히 말하고, “Will로 물었어, Are로 물었어?”라고 묻습니다.",
+          "①이 막히면 “I'm going to 다음에 할 일을 말해 봐.”라고 시작을 알려 줍니다."
+        ],
+        "주의": [
+          "②에 Yes, I am.이나 ③에 Yes, I will.로 대답하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "will + 동사원형,  am·are·is going to + 동사원형\n부정문 won't, not going to / 의문문 Will ~? Are ~ going to?",
+      "do": "will, going to 뒤에는 동사원형",
+      "dont": "He will plays. / I willn't.",
+      "review": [
+        {
+          "text": "알맞은 말은?\nWe ___ going to swim."
+        },
+        {
+          "text": "부정문으로 바꾸면?\nI will eat it."
+        },
+        {
+          "text": "No로 대답하면?\nAre you going to cook?"
+        }
+      ],
+      "next": "수량 표현",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“앞으로 할 일을 말하는 두 가지 방법은? 뒤에 오는 동사는 어떤 모양이었지?”",
+          "“will not을 줄이면?”"
+        ],
+        "예상답": [
+          "“will이랑 be going to요. 동사원형이에요.” “won't요.”"
+        ],
+        "정답": [
+          "① are (We are going to swim.)",
+          "② I won't eat it. (I will not eat it.)",
+          "③ No, I'm not."
+        ],
+        "주의": [
+          "잠자기 전에 “Tomorrow I'm going to ~.”로 내일 계획을 한 문장 말하게 하면 좋은 복습이 됩니다. 다음 차시 ‘수량 표현’에서는 many, much, some, any를 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "layout": "support",
+      "section": "보충",
+      "purpose": "보충(6학년 계획 말하기 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 계획 말하기",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I'm going to play soccer.",
+            "sub": "나는 축구를 할 거예요."
+          },
+          {
+            "word": "I'm going to visit my grandma.",
+            "sub": "나는 할머니 댁에 갈 거예요."
+          },
+          {
+            "word": "What are you going to do?",
+            "sub": "너는 무엇을 할 거니?"
+          }
+        ]
+      },
+      "key": {
+        "title": "때를 나타내는 말",
+        "text": "tomorrow, this weekend"
+      },
+      "notes": {
+        "목적": "S02에서 be동사나 I'm going to ~.가 흔들리면, 6학년 ‘계획 말하기’의 문장을 먼저 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 물어볼게. What are you going to do tomorrow?” → (아이) “I'm going to ~.”",
+          "“I'm은 I am을 줄인 말이야. 그래서 He는 He is going to, They는 They are going to가 돼.”"
+        ],
+        "정답": [
+          "뜻: 나는 축구를 할 거예요 / 나는 할머니 댁에 갈 거예요 / 너는 무엇을 할 거니? 대답 예: I'm going to read a book tomorrow."
+        ],
+        "막히면": [
+          "부모가 먼저 대답 예를 말하고 아이가 낱말 하나만 바꿔 말하게 합니다(play soccer → play games).",
+          "보충으로도 어렵다면 계획의 선수 차시 6학년 ‘계획 말하기’(KR22-G06-ENG-FUTURE-L01)를, am·are·is가 흔들리면 ‘be동사 문장’(KR22-G07-ENG-BEVERB-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "미래 표현 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "괄호 안의 동사를 써서 will 문장을 완성하세요.",
+        "table": {
+          "rows": [
+            [
+              "① I ________ (help) you.",
+              "③ She ________ (call) you."
+            ],
+            [
+              "② It ________ (be) cold.",
+              "④ We ________ (finish) soon."
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13
+        },
+        "answer": "① will help ② will be ③ will call ④ will finish. will 뒤에 동사원형이면 맞음(will calls, will is ×). I'll help, She'll call처럼 줄여 써도 맞습니다."
+      },
+      {
+        "no": 2,
+        "prompt": "빈칸에 am, are, is 가운데 알맞은 말을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I ______ going to read a book.",
+              "③ You ______ going to love it."
+            ],
+            [
+              "② My dad ______ going to swim.",
+              "④ Jisu and I ______ going to play."
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13
+        },
+        "answer": "① am ② is(my dad → he) ③ are ④ are(Jisu and I → we). 네 개 모두 맞으면 통과. 1번과 합쳐 여덟 개 가운데 일곱 개 이상이면 목표 A 통과로 봅니다."
+      },
+      {
+        "no": 3,
+        "prompt": "부정문으로 바꾸어 쓰세요. 줄여 써도 좋아요.",
+        "table": {
+          "rows": [
+            [
+              "① I will be late.",
+              ""
+            ],
+            [
+              "② He is going to come.",
+              ""
+            ],
+            [
+              "③ We are going to watch a movie.",
+              ""
+            ],
+            [
+              "④ It will snow tomorrow.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① I won't be late. (I will not be late.) ② He isn't going to come. (He is not going to come.) ③ We aren't going to watch a movie. (We are not going to watch a movie.) ④ It won't snow tomorrow. not의 자리가 맞으면 통과. willn't, I don't will처럼 쓰면 고쳐 줍니다."
+      },
+      {
+        "no": 4,
+        "prompt": "의문문으로 바꾸어 쓰고, 짧은 대답을 완성하세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "의문문",
+            "대답"
+          ],
+          "rows": [
+            [
+              "① You will join us.",
+              "",
+              "Yes, _________."
+            ],
+            [
+              "② She is going to dance.",
+              "",
+              "No, _________."
+            ],
+            [
+              "③ They will win.",
+              "",
+              "No, _________."
+            ],
+            [
+              "④ You are going to sleep early.",
+              "",
+              "Yes, _________."
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.37,
+            0.23
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① Will you join us? — Yes, I will. ② Is she going to dance? — No, she isn't. ③ Will they win? — No, they won't. ④ Are you going to sleep early? — Yes, I am. Will 질문에는 will·won't, be동사 질문에는 be동사로 대답했는지 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① They ______ going to win.\n(빈칸에 알맞은 말)",
+              ""
+            ],
+            [
+              "② I will not be late.\n(줄여 쓰기)",
+              ""
+            ],
+            [
+              "③ You are going to cook.\n(의문문으로)",
+              ""
+            ],
+            [
+              "④ Will it be sunny?\n(No로 대답)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① They are going to win. ② I won't be late. ③ Are you going to cook? ④ No, it won't. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 이번 주말 계획을 세 문장으로 쓰세요(be going to 문장 하나, will 문장 하나, 하지 않을 일 하나).",
+        "eng": {
+          "trace": [
+            "I won't be late.",
+            "Are you going to swim? Yes, I am."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 주말 계획 세 문장(예: I'm going to visit my grandma. / I will help my mom. / I'm not going to play games.). will·going to 뒤 동사원형, be동사와 주어의 짝, not의 자리, 문장 첫 글자 대문자와 끝의 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① We ______ going to swim. 빈칸에 알맞은 말을 쓰세요.\n② I will eat it. 부정문으로 바꾸어 쓰세요.\n③ Are you going to cook? No로 대답을 쓰세요.",
+        "lines": 3,
+        "answer": "① are ② I won't eat it. (I will not eat it.) ③ No, I'm not. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S13 묻는 말에 대답하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "will plays처럼 동사원형을 쓰지 않거나 Will 질문에 Yes, I am.으로 대답함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S06"
 }

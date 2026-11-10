@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "과거 시제와 first·then·after that으로 지난 경험을 말하고 다섯 문장 안팎의 글로 쓴다.",
   "prerequisites": [
     {
       "text": "과거 부정문·의문문",
@@ -43,19 +42,1047 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "지난 경험을 묻는 말(What did you do last weekend? How was it?)에 과거형 동사와 순서를 나타내는 말(First, Then, After that, Finally)을 써서 일어난 차례대로 말하고, 본보기 글에서 경험 글의 짜임(처음: 언제·어디서·누구와 / 가운데: 한 일 / 끝: 느낌)을 찾아 개요(쓰기 전에 적는 짧은 메모)로 정리한다.",
+      "evidence": "과거형 표(S03), 순서 말(S04), 본보기 글(S05), 짜임과 개요(S06), 개요를 문장으로(S07), go와 went 비교(S08), 주말 이야기 인터뷰(S09), 틀린 곳 고치기(S13), 활동지 1·2·3",
+      "success": "부모의 질문에 과거형과 순서 말 세 개를 넣어 세 가지 이상의 일을 차례대로 말하고 느낌을 한 문장으로 말한다. 과거형 10개 가운데 9개 이상을 바르게 쓴다."
+    },
+    {
+      "id": "B",
+      "text": "개요를 바탕으로 과거 시제와 순서 말을 넣어 다섯 문장 안팎의 경험 글을 쓰고, 점검표(과거형·쉼표·처음 문장·느낌 문장·대문자와 마침표)로 스스로 고쳐 쓴다.",
+      "evidence": "짜임과 개요(S06), 개요를 문장으로(S07), 개요를 글로(S10), 혼자 쓰기(S11), 틀린 곳 고치기(S13), 활동지 3·4·5",
+      "success": "다섯 문장 이상의 글에서 점검표 다섯 항목 가운데 네 개 이상을 지키고, S13의 틀린 곳 다섯 군데 가운데 네 군데 이상을 찾아 고친다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필과 지우개",
+    "지난 경험을 떠올릴 사진이나 달력(선택)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기, 모르는 낱말 찾기)"
+  ],
+  "boundary": "과거 시제 긍정문과 순서를 나타내는 말 First, Then, After that, Finally(6학년의 Next 포함)로 하루나 짧은 나들이 경험을 말하고 다섯 문장 안팎으로 쓴다. 경험 글의 짜임은 처음(언제·어디서·누구와)–가운데(한 일 세 가지 안팎)–끝(느낌) 하나만 쓴다. 과거형은 앞 차시(과거 시제 문장, 과거 부정문·의문문)에서 배운 규칙·불규칙 동사를 다시 쓰고 새로 가르치지 않으며, 본보기 글의 swam, built, ride의 과거형 rode는 뜻과 모양만 알려 준다. 현재완료로 경험 말하기는 중2 ‘현재완료(경험)’, 여러 연결어로 문단 쓰기는 중2 ‘경험 문단 쓰기’에서 다룬다. because·when 같은 접속사와 과거진행형은 쓰지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "첫 문장만 과거형으로 쓰고 이어지는 문장은 현재형으로 쓴다(Last Sunday, I went to the park. First, I ride my bike.).",
+      "response": "S03 카드에서 ‘첫 문장부터 끝 문장까지 과거형’을 강조하고, S08에서 두 글을 나란히 비교한다. S13에서 틀린 곳을 찾아 고친다."
+    },
+    {
+      "id": "M2",
+      "text": "모양이 바뀌는 동사에 -ed를 붙인다(goed, eated, seed).",
+      "response": "S03 표의 오른쪽 열을 카드 놀이로 되풀이하고, 활동지 1과 S13 ②③에서 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "순서 말 뒤의 쉼표를 빼거나, 문장 첫머리의 then을 소문자로 쓴다(First we ~ / then, we ~).",
+      "response": "S04에서 쉼표와 대문자를 짚고, S10 점검 단계와 활동지 5 점검표로 스스로 확인하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "개요 없이 바로 써서 일의 순서가 뒤섞이거나 느낌 문장을 빠뜨린다. 개요에 문장 전체를 길게 쓴다.",
+      "response": "S06에서 개요는 낱말만 짧게 적는 메모임을 보여 주고, S09에서 말한 내용을 활동지 3 개요표에 먼저 적은 뒤 S11에서 쓰게 한다."
+    },
+    {
+      "id": "M5",
+      "text": "느낌을 현재형으로 쓴다(It is fun. I am tired.).",
+      "response": "S05 ⑥과 S10 끝 문장에서 It was ~. I was ~.를 보여 주고, S12와 S13 ⑤에서 다시 고친다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "경험 말하고 쓰기",
+      "question": "지난 주말에 한 일,\n순서대로 영어로 말하고 쓸 수 있을까?",
+      "goals": [
+        "① 지난 일을 과거형과 First, Then으로 순서대로 말해요.",
+        "② 개요를 보고 다섯 문장 경험 글을 쓰고 고쳐요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "First,",
+            "sub": "먼저"
+          },
+          {
+            "word": "Then,",
+            "sub": "그다음에"
+          },
+          {
+            "word": "After that,",
+            "sub": "그 후에"
+          },
+          {
+            "word": "Finally,",
+            "sub": "마지막으로"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난 일을 순서대로 말하고 쓰는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지난 주말에 뭐 했어? 우리말로 먼저 순서대로 말해 볼래?”",
+          "“오른쪽 네 말은 일이 일어난 순서를 알려 주는 말이야. 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)",
+          "“오늘은 지난 일을 과거형과 이 말들로 순서대로 말하고, 다섯 문장 글로 써 볼 거야.”"
+        ],
+        "예상답": [
+          "“토요일에 할머니 댁에 갔어요. 먼저 밥을 먹고, 그다음에 산책했어요.”"
+        ],
+        "막히면": [
+          "기억이 잘 나지 않으면 어제 학교에서 돌아와 한 일로 바꾸어 말하게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(First, Then, After that, Finally, What did you do last weekend? How was it?)과 S05 본보기 글을 미리 들어 두세요.",
+          "오늘 쓸 글감이 될 지난 경험(주말 나들이, 가족 행사, 학교 행사)을 아이와 함께 미리 떠올려 두면 좋습니다. 사진이 있으면 S09에서 보며 이야기해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(과거 시제 문장·과거 의문문, 사건 순서 파악)",
+      "role": "prior",
+      "objectives": [],
+      "title": "과거형과 순서 말 떠올리기",
+      "text": "①은 과거형으로 바꾸고, ②③은 대답해요.",
+      "problems": [
+        {
+          "text": "go · eat · play · see → 과거형으로"
+        },
+        {
+          "text": "Did you watch TV yesterday? → No로 대답"
+        },
+        {
+          "text": "First, Then, Finally의 뜻은?"
+        }
+      ],
+      "notes": {
+        "목적": "중1 ‘과거 부정문·의문문’(KR22-G07-ENG-PASTQ-L01)과 그 앞의 ‘과거 시제 문장’에서 익힌 과거형과 did 질문, 6학년 ‘사건 순서 파악’(KR22-G06-ENG-SEQUENCE-L01)의 순서 말을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 네 동사를 과거형으로 바꿔 말해 줘.”",
+          "“②, 엄마(아빠)가 물어볼게. Did you watch TV yesterday? No로 대답해 줘.”",
+          "“③, First, Then, Finally는 무슨 뜻이었지?”"
+        ],
+        "정답": [
+          "① went, ate, played, saw",
+          "② No, I didn't. (No, I didn't watch TV.도 맞습니다.)",
+          "③ First 먼저, Then 그다음에, Finally 마지막으로"
+        ],
+        "막히면": [
+          "①에서 goed, eated라고 하면 “go와 eat은 모양이 바뀌는 동사였지?”라고 떠올리게 합니다.",
+          "①②가 모두 어렵거나 ③의 뜻을 모르면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "②에서 No, I don't.라고 하면 지난 일을 물을 때는 did로 대답한다고 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "경험 글에 자주 쓰는 과거형 다시 보기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "경험 글에 쓰는 과거형",
+      "text": "과거형은 이미 지난 일을 나타내는 동사 모양이에요.",
+      "table": {
+        "headers": [
+          "지금",
+          "과거(-ed)",
+          "지금",
+          "과거(모양이 바뀜)"
+        ],
+        "rows": [
+          [
+            "visit",
+            "visited",
+            "go",
+            "went"
+          ],
+          [
+            "play",
+            "played",
+            "eat",
+            "ate"
+          ],
+          [
+            "watch",
+            "watched",
+            "see",
+            "saw"
+          ],
+          [
+            "clean",
+            "cleaned",
+            "have",
+            "had"
+          ],
+          [
+            "study",
+            "studied",
+            "make",
+            "made"
+          ]
+        ],
+        "widths": [
+          0.2,
+          0.27,
+          0.2,
+          0.33
+        ],
+        "width": 11,
+        "size": 24
+      },
+      "key": "지난 일을 쓸 때는 첫 문장부터 끝 문장까지 과거형을 써요.",
+      "notes": {
+        "목적": "경험 글에 자주 쓰는 규칙 과거형(-ed)과 모양이 바뀌는 과거형을 다시 보고, 지난 일은 글 전체를 과거형으로 쓴다는 것을 알려 줍니다(목표 A, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“과거형은 이미 지난 일을 나타내는 동사 모양이야. 왼쪽은 -ed만 붙이고, 오른쪽은 모양이 바뀌어.” (소리 자료를 듣고 따라 합니다.)",
+          "“엄마(아빠)가 지금 모양을 말하면 과거형으로 바꿔 말해 볼래? go! eat! see!”",
+          "“study는 왜 studyed가 아니라 studied일까?”"
+        ],
+        "예상답": [
+          "“went, ate, saw!” “자음 + y로 끝나서 y를 i로 바꾸고 ed를 붙였어요.”"
+        ],
+        "막히면": [
+          "모양이 바뀌는 다섯 개(went, ate, saw, had, made)를 종이 카드로 만들어 뒤집으며 말하게 합니다."
+        ],
+        "주의": [
+          "과거형은 앞 차시 ‘과거 시제 문장’에서 배운 것을 다시 쓰는 것입니다. 오늘 새로 외울 것은 없습니다. 많이 틀리면 그 차시를 다시 보는 것이 좋습니다.",
+          "study → studied는 비교급의 happy → happier와 같은 규칙(자음 + y → i)입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "순서 말 First·Then·After that·Finally와 쉼표",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "순서를 나타내는 말",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "First,",
+            "sub": "먼저"
+          },
+          {
+            "word": "Then,",
+            "sub": "그다음에"
+          },
+          {
+            "word": "After that,",
+            "sub": "그 후에"
+          },
+          {
+            "word": "Finally,",
+            "sub": "마지막으로"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "쉼표",
+          "text": "순서 말 뒤에는 쉼표(,)를 찍어요.\nFirst, we swam."
+        },
+        {
+          "title": "Finally",
+          "text": "맨 마지막에 한 일에만 써요."
+        }
+      ],
+      "key": "순서 말은 문장 맨 앞에, 첫 글자는 대문자로 써요.",
+      "notes": {
+        "목적": "일이 일어난 차례를 알려 주는 말 네 가지와, 그 뒤에 쉼표를 찍는다는 것을 알려 줍니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“6학년 때 First, Then, Next, Finally를 배웠지? 오늘은 After that도 써 볼 거야. ‘그 후에’라는 뜻이야.”",
+          "“이 말들은 문장 맨 앞에 쓰고, 바로 뒤에 쉼표를 찍어. First, we swam.”",
+          "“Finally는 언제 써?”"
+        ],
+        "예상답": [
+          "“맨 마지막에 한 일에 써요.”"
+        ],
+        "막히면": [
+          "손가락을 하나씩 펴며 “First 하나, Then 둘, After that 셋, Finally 마지막!”이라고 함께 말합니다."
+        ],
+        "주의": [
+          "Then과 Next, After that은 모두 ‘그다음에’로 쓸 수 있어 바꾸어 써도 됩니다. 같은 말을 되풀이하지 않도록 섞어 쓰면 글이 자연스럽습니다.",
+          "글 가운데 문장이 then으로 시작할 때도 첫 글자는 대문자(Then)입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 경험 글에서 짜임과 과거형 찾기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "본보기 글 읽기",
+      "text": "sandcastle 모래성 · sunset 해 질 녘 · umbrella 파라솔",
+      "passage": {
+        "title": "A Fun Saturday",
+        "paragraphs": [
+          "Last Saturday, I went to the beach with my family.",
+          "First, we swam in the sea.",
+          "Then, we built a big sandcastle.",
+          "After that, we ate fried chicken under an umbrella.",
+          "Finally, we watched the sunset.",
+          "I was tired, but it was a great day!"
+        ],
+        "numbered": true
+      },
+      "question": "언제, 어디서, 누구와? 과거형 동사를 모두 찾아요.",
+      "notes": {
+        "목적": "본보기 경험 글을 함께 읽으며 처음(언제·어디서·누구와)–가운데(순서 말과 한 일)–끝(느낌)의 짜임과 과거형 동사를 찾습니다(목표 A).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“①은 언제, 어디서, 누구와 한 일인지 알려 주지? 각각 무엇이야?”",
+          "“②~⑤에서 순서 말을 찾아볼까? ⑥은 무엇을 말하고 있어?”",
+          "“과거형 동사를 모두 찾아 손가락으로 짚어 줘.”"
+        ],
+        "예상답": [
+          "“지난 토요일, 바닷가, 가족과요.” “⑥은 느낌이에요. 피곤했지만 좋은 날이었대요.”",
+          "과거형: went, swam, built, ate, watched, was, was"
+        ],
+        "막히면": [
+          "문장마다 뜻을 부모가 먼저 짧게 말해 줍니다: ① 지난 토요일에 가족과 바닷가에 갔어요. ② 먼저 바다에서 수영했어요. ③ 그다음에 큰 모래성을 쌓았어요. ④ 그 후에 파라솔 아래에서 치킨을 먹었어요. ⑤ 마지막으로 해 지는 것을 보았어요. ⑥ 피곤했지만 멋진 날이었어요!"
+        ],
+        "주의": [
+          "swam(swim의 과거형), built(build의 과거형)는 모양이 바뀌는 과거형입니다. 뜻만 알려 주고 외우게 하지 않아도 됩니다.",
+          "was는 be동사 am·is의 과거형입니다. 느낌을 말할 때 It was fun. I was tired.처럼 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "짜임에 따라 개요(메모) 만들기",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "경험 글의 짜임과 개요",
+      "text": "개요는 글을 쓰기 전에 쓸 내용을 짧게 적은 메모예요.",
+      "table": {
+        "headers": [
+          "짜임",
+          "개요(메모)"
+        ],
+        "rows": [
+          [
+            "처음: 언제·어디서·누구와",
+            "last Saturday, the beach, my family"
+          ],
+          [
+            "가운데: 한 일(순서대로)",
+            "swim → build a sandcastle → eat chicken → watch the sunset"
+          ],
+          [
+            "끝: 느낌",
+            "tired, a great day"
+          ]
+        ],
+        "widths": [
+          0.33,
+          0.67
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "개요에는 낱말만 짧게! 문장은 쓸 때 만들어요.",
+      "notes": {
+        "목적": "본보기 글을 짜임에 따라 개요로 줄여 보며, 개요는 낱말만 짧게 적는 메모라는 것을 보여 줍니다(목표 A·B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“개요는 글을 쓰기 전에 쓸 내용을 짧게 적은 메모야. S05 글을 개요로 줄이면 이렇게 돼.”",
+          "“처음 칸에는 언제·어디서·누구와, 가운데 칸에는 한 일을 순서대로, 끝 칸에는 느낌을 적어.”",
+          "“개요에는 swim, eat처럼 지금 모양으로 짧게 적어도 돼. 문장으로 쓸 때 과거형으로 바꾸면 돼.”"
+        ],
+        "예상답": [
+          "“개요에는 낱말만 쓰고, 글을 쓸 때 문장으로 만들어요.”"
+        ],
+        "막히면": [
+          "S05 글과 이 표를 번갈아 보여 주며 “①번 문장이 표의 어디로 갔어?”라고 찾게 합니다."
+        ],
+        "주의": [
+          "개요를 먼저 쓰면 순서가 뒤섞이지 않고 느낌 문장을 빠뜨리지 않습니다(오해 M4). 이 표와 같은 빈 개요표가 활동지 3에 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "개요 메모를 과거형 문장으로 바꾸어 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "개요를 문장으로 말해요",
+      "text": "개요를 보고 과거형과 순서 말을 넣어 한 문장씩 말해요.",
+      "problems": [
+        {
+          "text": "last Sunday · the park\n· my dad → 첫 문장"
+        },
+        {
+          "text": "First · ride bikes"
+        },
+        {
+          "text": "Then · eat sandwiches"
+        },
+        {
+          "text": "Finally · play badminton"
+        }
+      ],
+      "notes": {
+        "목적": "개요의 낱말을 과거형과 순서 말이 들어간 문장으로 바꾸어 말합니다. 글쓰기(S11) 전에 개요를 문장으로 바꾸는 연습입니다(목표 A·B, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“지난 일요일에 아빠와 공원에 간 이야기의 개요야. 한 칸씩 문장으로 바꿔 말해 줘.”",
+          "“①은 첫 문장이니까 언제, 어디서, 누구와를 모두 넣어.”",
+          "“②의 ride는 과거형이 무엇일까? rode야. 따라 해 볼래?”"
+        ],
+        "정답": [
+          "① Last Sunday, I went to the park with my dad.",
+          "② First, we rode bikes.",
+          "③ Then, we ate sandwiches.",
+          "④ Finally, we played badminton."
+        ],
+        "막히면": [
+          "S05 본보기 글의 같은 자리 문장을 보여 주고 낱말만 바꾸게 합니다(Last Saturday, I went to the beach with my family. → Last Sunday, I went to the park with my dad.)."
+        ],
+        "주의": [
+          "ride → rode는 처음 보는 과거형일 수 있습니다. 알려 주고 따라 말하게 합니다. 주어는 I 대신 we(아빠와 나)로 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(이어지는 문장을 현재형으로 씀)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "go일까요, went일까요?",
+      "claim": "두 친구가 지난 일요일 이야기를 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "Last Sunday, I go to the park."
+            },
+            {
+              "word": "First, I ride my bike."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "Last Sunday, I went to the park."
+            },
+            {
+              "word": "First, I rode my bike."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 하나요?",
+      "notes": {
+        "목적": "첫 문장 뒤의 문장을 현재형으로 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 지난 일요일 이야기를 썼어. 무엇이 달라?”",
+          "“Last Sunday는 지난 일이지? 그럼 동사는 어떤 모양이어야 해?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나입니다. 가는 지난 일(Last Sunday)인데 go, ride처럼 현재형을 썼습니다. went, rode로 고쳐야 합니다."
+        ],
+        "막히면": [
+          "가의 동사에 손가락을 대게 하고 “이건 지금 모양이야, 과거형이야?”라고 하나씩 묻습니다."
+        ],
+        "주의": [
+          "같은 실수 예: First, I eat → First, I ate / It is fun. → It was fun. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 말하기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "묻고 답하며 내 경험을 순서대로 말하고 개요 쓰기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "주말 이야기 인터뷰",
+      "steps": [
+        "부모가 물어요: What did you do last weekend?",
+        "아이가 답해요: I went to ~ with ~.",
+        "부모가 이어 물어요: What did you do first? Then?",
+        "아이가 First, Then, Finally로 답해요.",
+        "부모가 물어요: How was it? 아이는 느낌으로 답하고, 활동지 3에 개요를 적어요."
+      ],
+      "criteria": [
+        "과거형으로 말했어요",
+        "순서 말을 넣어 차례대로 말했어요",
+        "끝에 느낌을 말했어요"
+      ],
+      "notes": {
+        "목적": "부모의 질문에 답하며 자기 경험을 과거형과 순서 말로 차례대로 말하고, 그 내용을 활동지 3의 개요표에 적습니다(목표 A).",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번엔 네 이야기야. 엄마(아빠)가 물어볼게. What did you do last weekend? 지난 주말에 뭐 했어?”",
+          "(아이) “I went to the library with my friend.” → (부모) “What did you do first?” → (아이) “First, we read books.” → (부모) “Then?” → (아이) “Then, we ate tteokbokki.”",
+          "“How was it? 어땠어?” → (아이) “It was fun.”",
+          "“지금 말한 것을 활동지 3의 개요표에 낱말로 짧게 적어 볼까?” 그다음 역할을 바꿔 아이가 부모에게 묻습니다."
+        ],
+        "예상답": [
+          "“Last weekend, I went to my grandma's house. First, I had lunch with her. Then, we watched TV. Finally, I came home. It was fun.”",
+          "기준: 과거형으로 말하고, 순서 말 세 개를 넣어 차례대로 말하고, 끝에 느낌(It was fun. I was happy.)을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "영어 낱말이 떠오르지 않는 활동은 부모가 영어로 알려 주고 따라 말하게 합니다. 개요에는 우리말을 섞어 적어도 됩니다.",
+          "말할 거리가 없다고 하면 어제 학교에서 돌아와 한 일로 바꿉니다."
+        ],
+        "주의": [
+          "What did you do last weekend?는 ‘지난 주말에 뭐 했어?’, How was it?은 ‘어땠어?’라는 뜻입니다. 앞 차시 ‘과거 부정문·의문문’에서 배운 did 질문입니다.",
+          "개요표(활동지 3)는 S11에서 글을 쓸 때 그대로 씁니다. 꼭 채우고 넘어갑니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "개요를 다섯 문장 글로 바꾸는 순서와 점검",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "개요를 글로 써요",
+      "steps": [
+        "첫 문장: 언제 + 어디서 + 누구와\nLast Sunday, I went to ~ with ~.",
+        "가운데: First, / Then, / Finally, + 과거형",
+        "끝 문장: 느낌  It was fun. / I was tired.",
+        "점검: 과거형, 쉼표, 대문자, 마침표"
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "ride bikes",
+            "sub": "개요(메모)"
+          },
+          {
+            "word": "First, we rode bikes.",
+            "sub": "문장",
+            "highlight": true
+          }
+        ]
+      },
+      "notes": {
+        "목적": "개요를 보고 처음–가운데–끝 순서로 다섯 문장 글을 쓰는 방법과 다 쓴 뒤 점검할 것을 알려 줍니다(목표 B, 오해 M3·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“개요를 글로 바꿀 거야. 첫 문장에는 언제, 어디서, 누구와를 모두 넣어.”",
+          "“가운데는 First, Then, Finally 뒤에 쉼표를 찍고 과거형으로.”",
+          "“끝 문장은 느낌. It was fun. I was tired.처럼.”",
+          "“다 쓰면 과거형, 쉼표, 대문자, 마침표를 하나씩 확인하는 거야.”"
+        ],
+        "예상답": [
+          "“메모 ride bikes가 First, we rode bikes.가 됐어요.”"
+        ],
+        "막히면": [
+          "오른쪽 예처럼 개요 한 칸과 문장 한 줄을 짝지어 보여 줍니다."
+        ],
+        "주의": [
+          "다섯 문장은 첫 문장 1 + 가운데 3 + 끝 문장 1입니다. 더 쓰고 싶어 하면 가운데에 After that 문장을 더해도 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 쓰기(개요를 보고 다섯 문장 경험 글 쓰기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "혼자 써요: 다섯 문장",
+      "text": "활동지 3의 개요를 보고 활동지 4에 다섯 문장으로 써요.",
+      "problems": [
+        {
+          "text": "첫 문장: 언제·어디서·누구와"
+        },
+        {
+          "text": "First, ~."
+        },
+        {
+          "text": "Then, ~."
+        },
+        {
+          "text": "Finally, ~."
+        },
+        {
+          "text": "끝 문장: 느낌"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 자기 개요를 보고 다섯 문장 이상의 경험 글을 쓰는지 확인합니다(목표 B). 활동지 4에 쓰고, 활동지 5 점검표로 스스로 고칩니다.",
+        "시간": "약 6분",
+        "말하기": [
+          "“활동지 3의 개요를 보고 활동지 4에 다섯 문장으로 써 볼래? 화면의 다섯 칸 순서대로.”",
+          "“다 쓰면 활동지 5의 점검표로 하나씩 확인하고, 고칠 곳은 고쳐 써.”"
+        ],
+        "정답": [
+          "예시 글: Last weekend, I went to the library with my friend. First, we read comic books. Then, we ate tteokbokki. Finally, we played badminton in the park. It was a fun day!",
+          "기준(점검표 다섯 항목): ① 동사가 모두 과거형 ② 순서 말 뒤에 쉼표 ③ 첫 문장에 언제·어디서 ④ 끝 문장에 느낌 ⑤ 문장 첫 글자 대문자, 끝에 마침표. 다섯 문장 이상이고 다섯 항목 가운데 네 개 이상 지키면 통과입니다. 내용은 아이의 실제 경험이면 무엇이든 됩니다."
+        ],
+        "막히면": [
+          "바로 고쳐 주지 말고 “이 동사는 과거형이야?”, “순서 말 뒤에 무엇을 찍지?”처럼 점검표 항목으로만 묻습니다.",
+          "모르는 낱말은 우리말로 쓰지 말고 부모에게 묻게 하거나 사전에서 찾게 합니다. 도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘 쓴 예와 피드백",
+      "role": "feedback",
+      "objectives": [
+        "B"
+      ],
+      "title": "잘 쓴 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘 쓴 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "Last Sunday, I went to the park."
+        },
+        {
+          "text": "First, we rode bikes."
+        },
+        {
+          "text": "Then, we ate sandwiches."
+        },
+        {
+          "text": "It was a fun day!"
+        }
+      ],
+      "bad": [
+        {
+          "text": "I go, goed",
+          "note": "I went"
+        },
+        {
+          "text": "First we",
+          "note": "First, we"
+        },
+        {
+          "text": "It is fun.",
+          "note": "It was fun."
+        }
+      ],
+      "explain": "과거형 → 순서 말과 쉼표 → 처음·끝 문장 → 대문자·마침표 순서로 점검해요.",
+      "notes": {
+        "목적": "아이의 글을 잘 쓴 예와 견주어 보고, 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네 글과 왼쪽 글을 비교해 보자. 오른쪽 같은 곳이 있었어?”"
+        ],
+        "예상답": [
+          "“First 뒤에 쉼표를 안 찍었어요.” “It is를 It was로 고쳐야 해요.”"
+        ],
+        "정답": [
+          "잘 쓴 예(S07 개요로 쓴 글): Last Sunday, I went to the park with my dad. First, we rode bikes. Then, we ate sandwiches. Finally, we played badminton. It was a fun day!"
+        ],
+        "막히면": [
+          "과거형이 많이 틀렸으면 S03, 쉼표·대문자가 틀렸으면 S04, 순서·느낌이 빠졌으면 S06을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 아이의 글에서 잘한 점을 먼저 두 가지 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "마무리 확인(경험 글의 틀린 곳 찾아 고치기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "틀린 곳을 고쳐요",
+      "passage": {
+        "paragraphs": [
+          "Last Sunday, I go to the zoo with my aunt.",
+          "First, we see the lions.",
+          "then, we eated ice cream.",
+          "Finally, we took pictures.",
+          "It is a fun day."
+        ],
+        "numbered": true
+      },
+      "question": "틀린 곳 다섯 군데를 찾아 고쳐 읽어요.",
+      "notes": {
+        "목적": "처음 보는 경험 글에서 과거형·대문자·느낌 문장의 틀린 곳을 찾아 고쳐 읽는지 확인합니다(목표 A·B, 오해 M1·M2·M3·M5).",
+        "시간": "약 3분",
+        "말하기": [
+          "“이 글에는 틀린 곳이 다섯 군데 있어. 찾아서 고쳐 읽어 줄래?”"
+        ],
+        "정답": [
+          "① go → went (Last Sunday, I went to the zoo with my aunt.)",
+          "② see → saw (First, we saw the lions.)",
+          "③ then → Then, eated → ate (Then, we ate ice cream.)",
+          "④ 맞음 (took는 take의 과거형)",
+          "⑤ is → was (It was a fun day.)",
+          "기준: 다섯 군데 가운데 네 군데 이상 찾아 고치면 통과입니다. ④를 고치려 하면 took가 이미 과거형이라고 알려 줍니다."
+        ],
+        "막히면": [
+          "“문장마다 동사에 동그라미를 쳐 봐. 지난 일인데 지금 모양인 것은?”이라고 묻습니다."
+        ],
+        "주의": [
+          "틀린 곳을 다 찾지 못하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "처음(언제·어디서·누구와) → First, Then, After that, Finally → 끝(느낌)\n지난 일은 처음부터 끝까지 과거형으로!",
+      "do": "개요를 먼저 짧게 쓰기",
+      "dont": "I go / goed / First we",
+      "review": [
+        {
+          "text": "go, see, eat의\n과거형은?"
+        },
+        {
+          "text": "After that의\n뜻은?"
+        },
+        {
+          "text": "어제 한 일 두 가지를\nFirst, Then으로 말하기"
+        }
+      ],
+      "next": "계획 말하고 쓰기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“경험 글은 어떤 순서로 썼지?”",
+          "“지난 일을 쓸 때 동사는?”"
+        ],
+        "예상답": [
+          "“처음에 언제·어디서·누구와, 가운데는 First, Then, Finally, 끝은 느낌이요.” “과거형이요.”"
+        ],
+        "정답": [
+          "① went, saw, ate",
+          "② 그 후에",
+          "③ 예: Yesterday, I did my homework. First, I had dinner. Then, I watched TV. (과거형과 First, Then이 있으면 통과)"
+        ],
+        "주의": [
+          "저녁 식탁에서 “What did you do today? What did you do first?”처럼 하루에 한 번 영어로 묻고 대답하면 좋은 복습이 됩니다. 다음 차시 ‘계획 말하고 쓰기’에서는 오늘과 같은 짜임으로 앞으로의 계획을 will과 be going to로 말하고 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(과거형과 순서 말 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 과거형과 순서 말",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "played",
+            "sub": "play → 놀았다"
+          },
+          {
+            "word": "watched",
+            "sub": "watch → 보았다"
+          },
+          {
+            "word": "went",
+            "sub": "go → 갔다"
+          },
+          {
+            "word": "ate",
+            "sub": "eat → 먹었다"
+          }
+        ]
+      },
+      "key": "First → Then → Next → Finally: 일이 일어난 순서를 알려 줘요.",
+      "notes": {
+        "목적": "S02에서 과거형이나 순서 말이 흔들리면, 경험 글을 쓰기 전에 자주 쓰는 과거형 네 개와 순서 말을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“played는 play의 과거형이야. 어제 놀았다. went는 go의 과거형, 갔다.”",
+          "“아침에 한 일을 First, Then, Finally로 말해 볼까? 우리말로 먼저 해도 돼.”"
+        ],
+        "정답": [
+          "played 놀았다·했다, watched 보았다, went 갔다, ate 먹었다 / 예: First, I washed my face. Then, I ate breakfast. Finally, I went to school."
+        ],
+        "막히면": [
+          "부모가 먼저 자기 아침 이야기를 First, Then, Finally로 말하고 아이가 낱말만 바꾸어 따라 하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중1 ‘과거 부정문·의문문’(KR22-G07-ENG-PASTQ-L01)과 6학년 ‘사건 순서 파악’(KR22-G06-ENG-SEQUENCE-L01)을 먼저 다시 하고 이 차시를 시작합니다. 과거형 자체가 흔들리면 중1 ‘과거 시제 문장’부터 봅니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "경험 말하고 쓰기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "동사를 과거형으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① visit → ____________",
+              "⑥ eat → ____________"
+            ],
+            [
+              "② clean → ____________",
+              "⑦ see → ____________"
+            ],
+            [
+              "③ study → ____________",
+              "⑧ have → ____________"
+            ],
+            [
+              "④ watch → ____________",
+              "⑨ make → ____________"
+            ],
+            [
+              "⑤ go → ____________",
+              "⑩ buy → ____________"
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14
+        },
+        "answer": "① visited ② cleaned ③ studied ④ watched ⑤ went ⑥ ate ⑦ saw ⑧ had ⑨ made ⑩ bought. 열 개 가운데 아홉 개 이상이면 통과. studyed, goed, eated는 고쳐 줍니다."
+      },
+      {
+        "no": 2,
+        "prompt": "글을 읽고 개요표를 채우세요. 낱말로 짧게 쓰고, 우리말로 써도 돼요.",
+        "read": "My Trip to Grandma's House\nLast summer, I visited my grandma in the countryside with my brother. We took a bus for three hours. First, we picked corn in her field. It was hot, but the corn was sweet. Then, we swam in a small river near her house. The water was very cold! After that, Grandma made kimchi pancakes for us. They were delicious. Finally, we looked at the stars at night. I saw so many stars. I was tired, but it was a wonderful trip.",
+        "table": {
+          "headers": [
+            "짜임",
+            "개요(메모)"
+          ],
+          "rows": [
+            [
+              "처음: 언제·어디서·누구와",
+              ""
+            ],
+            [
+              "First",
+              ""
+            ],
+            [
+              "Then",
+              ""
+            ],
+            [
+              "After that",
+              ""
+            ],
+            [
+              "Finally",
+              ""
+            ],
+            [
+              "끝: 느낌",
+              ""
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.68
+          ],
+          "size": 13
+        },
+        "answer": "처음: last summer, grandma's house(시골, the countryside), my brother / First: pick corn(옥수수 따기) / Then: swim in a river(강에서 수영) / After that: Grandma made kimchi pancakes(할머니가 김치전을 만들어 주심) / Finally: look at the stars(밤에 별 보기) / 끝: tired, a wonderful trip(피곤했지만 멋진 여행). 여섯 칸 가운데 다섯 칸 이상이면 통과. 낱말 뜻: countryside 시골, pick 따다, corn 옥수수, field 밭, river 강, delicious 맛있는, wonderful 멋진."
+      },
+      {
+        "no": 3,
+        "prompt": "나의 지난 경험을 떠올려 개요표를 채우세요(S09에서 말한 내용). 낱말로 짧게 쓰세요.",
+        "table": {
+          "headers": [
+            "짜임",
+            "나의 개요(메모)"
+          ],
+          "rows": [
+            [
+              "언제",
+              ""
+            ],
+            [
+              "어디서·누구와",
+              ""
+            ],
+            [
+              "한 일 ① (First)",
+              ""
+            ],
+            [
+              "한 일 ② (Then)",
+              ""
+            ],
+            [
+              "한 일 ③ (Finally)",
+              ""
+            ],
+            [
+              "느낌",
+              ""
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.68
+          ],
+          "size": 14
+        },
+        "answer": "아이의 실제 경험이면 됩니다. 예: last weekend / the library, my friend / read comic books / eat tteokbokki / play badminton / fun. 여섯 칸이 모두 채워지고 한 일이 일어난 순서대로 적혀 있으면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "3의 개요를 보고 다섯 문장 이상의 경험 글을 쓰세요. 첫 문장(언제·어디서·누구와) → First, → Then, → Finally, → 느낌 문장 순서로 쓰세요.",
+        "eng": {
+          "trace": [],
+          "blank": 6
+        },
+        "answer": "예: Last weekend, I went to the library with my friend. First, we read comic books. Then, we ate tteokbokki. Finally, we played badminton in the park. It was a fun day! 활동지 5 점검표의 다섯 항목 가운데 네 개 이상 지키면 통과."
+      },
+      {
+        "no": 5,
+        "prompt": "4에 쓴 글을 점검표로 확인하세요. 나와 부모님이 각각 ✔ 하고, 고칠 문장은 아래 줄에 고쳐 쓰세요.",
+        "table": {
+          "headers": [
+            "점검할 것",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① 동사가 모두 과거형인가요?",
+              "",
+              ""
+            ],
+            [
+              "② 순서 말(First, Then, Finally) 뒤에 쉼표를 찍었나요?",
+              "",
+              ""
+            ],
+            [
+              "③ 첫 문장에 언제·어디서가 있나요?",
+              "",
+              ""
+            ],
+            [
+              "④ 끝 문장에 느낌이 있나요? (It was ~.)",
+              "",
+              ""
+            ],
+            [
+              "⑤ 첫 글자는 대문자, 끝에는 마침표를 썼나요?",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13
+        },
+        "lines": 2,
+        "answer": "다섯 항목 가운데 네 개 이상 ✔이면 통과. 아이와 부모의 판단이 다른 항목은 함께 글을 다시 보며 이야기합니다. 고친 문장 예: First we read books. → First, we read books. / It is fun. → It was fun."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① go, see, eat의 과거형을 쓰세요.\n② After that의 뜻을 쓰세요.\n③ 어제 한 일 두 가지를 First, Then을 넣어 영어로 쓰세요.",
+        "lines": 3,
+        "answer": "① went, saw, ate ② 그 후에 ③ 예: First, I did my homework. Then, I watched TV. (과거형과 First, Then, 쉼표가 있으면 통과) 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 쓰기(점검표): 다섯 항목 □  네 항목 □  세 항목 이하 □ (도움을 받음 □)",
+      "S13 틀린 곳 고치기: 다섯 군데 □  네 군데 □  세 군데 이하 □",
+      "과거형 실수(I go, goed, It is fun.): 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08"
 }

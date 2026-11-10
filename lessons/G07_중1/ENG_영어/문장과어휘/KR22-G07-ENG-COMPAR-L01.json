@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "-er·more ~ than으로 두 대상을 비교하는 문장을 쓰고 good–better 같은 불규칙 비교급을 구별한다.",
   "prerequisites": [
     {
       "text": "be동사 문장",
@@ -42,19 +41,1247 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "형용사(사람·물건이 어떤지 나타내는 말)의 끝 글자를 보고 -er(taller), -r(larger), -ier(happier), 자음을 한 번 더 쓰고 -er(bigger)을 붙여 비교급을 만들고, beautiful 같은 긴 낱말은 앞에 more를 쓰며, good → better, bad → worse, many → more 같은 모양이 바뀌는 비교급을 구별해 쓴다.",
+      "evidence": "-er 규칙 표(S04), 비교급 만들기(S05), 긴 낱말은 more(S06), 모양이 바뀌는 비교급(S07), more heavier 비교(S08), 문장 완성(S10), 혼자 해 보기(S12 ①②④), 가방 비교(S14), 활동지 1·2·3·5",
+      "success": "낱말 10개 가운데 9개 이상을 바른 철자의 비교급으로 바꾸고(hotter, easier), more와 -er을 함께 쓰지 않으며(more heavier ×), good·bad·many의 비교급을 better·worse·more로 쓴다."
+    },
+    {
+      "id": "B",
+      "text": "표나 실제 물건을 보고 두 대상을 ‘A is 비교급 than B.’로 비교하는 문장을 말하고 쓴다. 더 그러한 쪽을 주어로 두고, 비교하는 대상은 than(~보다) 뒤에 쓰며, be동사를 빠뜨리지 않는다.",
+      "evidence": "비교급과 than(S03), 표를 보고 비교(S09), 문장 완성(S10), 우리 집 물건 비교(S11), 혼자 해 보기(S12 ③④), 가방 두 개 비교(S14), 활동지 2·4·6",
+      "success": "표의 정보에 맞는 비교 문장 3개 가운데 3개를 ‘주어 + be동사 + 비교급 + than + 비교 대상’ 순서로 말하고, 쓸 때는 첫 글자 대문자와 마침표, than의 철자(then ×)를 지킨다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
-  "checks": [],
-  "slides": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "집에 있는 물건 두세 개(책, 컵, 연필, 숟가락 등)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "형용사의 비교급(-er, more + 형용사)과 모양이 바뀌는 비교급 good–better, bad–worse, many–more만 다룬다. 문장은 ‘A is 비교급 than B.’와 ‘A has more ~ than B.’로 하고, 두 대상(사람·동물·물건)만 비교한다. 철자 규칙은 대부분 -er, e로 끝나면 -r, 자음 + y는 -ier, 모음 하나 + 자음 하나로 끝나는 짧은 낱말은 자음을 한 번 더 쓰는 네 가지다. 최상급(the -est, the most)은 다음 차시 ‘최상급’에서, as ~ as와 비교급을 꾸미는 much·even은 중2 ‘비교 표현 확장’에서 다룬다. 부사의 비교급(run faster, more slowly), less, than me·than I 같은 대명사 비교, Which is ~er, A or B? 묻기는 다루지 않는다(Which is heavier?는 활동에서 듣고 답하는 데만 쓴다). much → more는 노트에서 한 번 알려 주기만 한다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "more와 -er을 함께 쓰거나(more heavier, more bigger), 긴 낱말에 -er을 붙인다(beautifuler, difficulter).",
+      "response": "S06에서 긴 낱말은 more만, 짧은 낱말은 -er만 쓴다고 보여 주고, S08에서 more heavier와 heavier를 나란히 비교한다. S12 ④와 활동지 3에서 고쳐 쓴다."
+    },
+    {
+      "id": "M2",
+      "text": "철자 규칙을 지키지 않는다(biger, hoter, happyer, easyer, largeer).",
+      "response": "S04 표에서 낱말의 끝 글자(모음·자음, e, y)를 먼저 보게 하고, S05와 활동지 1에서 철자를 말하고 쓰게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "모양이 바뀌는 비교급을 규칙대로 만든다(gooder, more good, badder, manyer).",
+      "response": "S07에서 good·bad·many를 통째로 익히고 카드 놀이로 되풀이한다. S10, S12 ①, S14 ③에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "더 그러한 쪽과 비교 대상의 자리를 바꿔 뜻이 반대가 되거나(Coco is bigger than Max.), than 대신 then을 쓰거나, be동사를 빠뜨린다(Minho taller than Jisu.).",
+      "response": "S03에서 ‘더 그러한 쪽이 주어, than 뒤가 비교 대상’을 보여 주고, S09·S14에서 표의 수를 먼저 견주어 주어를 고르게 한다. 활동지 3 ④에서 then을 고친다."
+    }
+  ],
+  "checks": [
+    {
+      "type": "compare",
+      "values": [
+        "5",
+        "2"
+      ],
+      "rel": ">",
+      "where": "S09 ① Max 5살 > Coco 2살 → older"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "35",
+        "60"
+      ],
+      "rel": "<",
+      "where": "S09 ② Coco 35 cm < Max 60 cm → smaller"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "8",
+        "3"
+      ],
+      "rel": ">",
+      "where": "S09 ③ Max 8 kg > Coco 3 kg → heavier"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "9",
+        "4"
+      ],
+      "rel": ">",
+      "where": "S12 ③ dog 9 kg > cat 4 kg → The dog is heavier"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "2",
+        "1"
+      ],
+      "rel": ">",
+      "where": "S14 ① Bag B 2 kg > Bag A 1 kg"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "50000",
+        "30000"
+      ],
+      "rel": ">",
+      "where": "S14 ② Bag B 50,000원 > Bag A 30,000원"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "4",
+        "2"
+      ],
+      "rel": ">",
+      "where": "S14 ③ Bag A 별 4개 > Bag B 별 2개 → better"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "14",
+        "10"
+      ],
+      "rel": ">",
+      "where": "활동지 4 ① Bike B 14 kg > Bike A 10 kg"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "200000",
+        "150000"
+      ],
+      "rel": ">",
+      "where": "활동지 4 ② Bike A 200,000원 > Bike B 150,000원"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "5",
+        "3"
+      ],
+      "rel": ">",
+      "where": "활동지 4 ③ Bike B 별 5개 > Bike A 별 3개"
+    }
+  ],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "비교급",
+      "question": "My bag is heavier than your bag.\n두 가지를 영어로 어떻게 비교할까?",
+      "goals": [
+        "① 규칙에 맞게 비교급(-er, more, better)을 만들어요.",
+        "② A is ~er than B.로 두 가지를 비교해 말하고 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "tall → taller"
+          },
+          {
+            "word": "happy → happier"
+          },
+          {
+            "word": "good → better"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 두 가지를 비교할 때 낱말의 모양이 바뀐다는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 줄을 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)",
+          "“tall은 ‘키가 큰’이고 taller는 ‘키가 더 큰’이야. 세 낱말의 끝이 어떻게 바뀌었어? 셋 다 똑같이 바뀌었어?”",
+          "“오늘은 ‘더 ~한’을 나타내는 말을 만드는 규칙과, 그 말로 두 가지를 비교하는 문장을 배울 거야.”"
+        ],
+        "예상답": [
+          "“tall은 er만 붙었고, happy는 y가 i로 바뀌었어요. good은 완전히 다른 말이 됐어요.”"
+        ],
+        "막히면": [
+          "뜻을 모르면 부모가 “키가 큰 → 키가 더 큰, 행복한 → 더 행복한, 좋은 → 더 좋은”이라고 뜻만 알려 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(taller, bigger, happier, larger, more beautiful, better, worse, My bag is heavier than your bag. This book is more interesting than that book.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "6학년 ‘비교하기’에서는 tall, big 같은 여섯 낱말에 -er을 붙였습니다. 오늘은 철자 규칙, more, 모양이 바뀌는 말까지 넓힙니다. 설명은 우리말로, 예문은 영어로 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(비교하기, be동사 문장)",
+      "role": "prior",
+      "objectives": [],
+      "title": "비교하기 떠올리기",
+      "text": "①②는 빈칸을 채워 읽고, ③은 알맞은 be동사를 넣어요.",
+      "problems": [
+        {
+          "text": "big → ______  (철자를 말해요)"
+        },
+        {
+          "text": "The tree is ______ than the house. (tall)"
+        },
+        {
+          "text": "My shoes ______ new."
+        }
+      ],
+      "notes": {
+        "목적": "6학년 ‘비교하기’(KR22-G06-ENG-COMPARE-L01)에서 익힌 -er, than과 중1 ‘be동사 문장’(KR22-G07-ENG-BEVERB-L01)의 주어에 맞는 be동사를 기억하는지 확인합니다. 오늘 배울 비교 문장의 바탕입니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, big에 -er을 붙이면? 철자를 하나씩 말해 줘.”",
+          "“②, 나무가 집보다 키가 커. 빈칸에 tall을 바꿔 넣어서 문장 전체를 읽어 줘.”",
+          "“③에는 am, are, is 가운데 무엇이 들어갈까? 왜 그렇게 생각해?”"
+        ],
+        "정답": [
+          "① bigger (b-i-g-g-e-r, g를 한 번 더 씁니다.)",
+          "② taller (The tree is taller than the house. 나무가 집보다 키가 더 커요.)",
+          "③ are (My shoes are new. shoes는 여러 개라서 they → are)"
+        ],
+        "막히면": [
+          "①에서 biger라고 하면 “6학년 때 big은 끝 글자를 한 번 더 썼지?”라고 떠올리게 합니다.",
+          "①②가 모두 어렵거나 taller, than의 뜻을 모르면 S16(보충)을 먼저 합니다. ③을 틀리면 “shoes는 몇 개야? he·she·it·we·they 가운데 무엇으로 바꿀 수 있어?”라고 묻습니다."
+        ],
+        "주의": [
+          "③은 be동사 확인입니다. 비교 문장에도 is, are가 꼭 들어갑니다(The tree is taller ~)."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "형용사·비교급의 뜻과 비교 문장의 순서",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "비교급과 than",
+      "figure": {
+        "type": "words",
+        "perRow": 5,
+        "items": [
+          {
+            "word": "Minho",
+            "sub": "주어"
+          },
+          {
+            "word": "is",
+            "sub": "be동사"
+          },
+          {
+            "word": "taller",
+            "sub": "키가 더 큰",
+            "highlight": true
+          },
+          {
+            "word": "than",
+            "sub": "~보다"
+          },
+          {
+            "word": "Jisu.",
+            "sub": "비교하는 대상"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "형용사",
+          "text": "사람·물건이 어떤지 나타내는 말이에요.\ntall, big, happy"
+        },
+        {
+          "title": "비교급",
+          "text": "형용사의 ‘더 ~한’ 모양이에요.\ntall → taller"
+        }
+      ],
+      "key": "더 그러한 쪽을 주어로 쓰고, 비교하는 대상은 than 뒤에 써요.",
+      "notes": {
+        "목적": "형용사와 비교급의 뜻을 알려 주고, 더 그러한 쪽이 주어, 비교하는 대상이 than 뒤에 온다는 것을 보여 줍니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Minho is taller than Jisu. 민호가 지수보다 키가 더 커. 둘 가운데 누가 더 커?”",
+          "“tall처럼 사람이나 물건이 어떤지 나타내는 말을 형용사라고 해. tall에 -er을 붙인 taller는 ‘키가 더 큰’. 이렇게 ‘더 ~한’을 나타내는 말을 비교급이라고 해.”",
+          "“than은 ‘~보다’야. 더 큰 민호가 문장 앞에, 비교하는 지수는 than 뒤에 와.”",
+          "“그럼 지수를 앞에 두고 말하면? Jisu is … than Minho.”"
+        ],
+        "예상답": [
+          "“Jisu is shorter than Minho.”"
+        ],
+        "막히면": [
+          "손바닥으로 두 사람의 키를 높이가 다르게 보여 주며 “누가 더 커? 그 사람이 먼저!”라고 말합니다.",
+          "shorter가 떠오르지 않으면 6학년 때 배운 tall–short 짝을 알려 줍니다."
+        ],
+        "주의": [
+          "Minho taller than Jisu.처럼 is를 빠뜨리지 않게 합니다(be동사 문장 차시). 비교 문장도 주어 + be동사 + 비교급 + than + 비교 대상 순서입니다.",
+          "than(~보다)과 then(그때, 그다음에)은 철자가 비슷해 쓰기에서 자주 바뀝니다. 쓸 때 a인지 e인지 확인하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "비교급 철자 규칙 네 가지",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "-er을 붙이는 규칙",
+      "text": "낱말 끝 글자를 보고 붙이는 방법을 골라요.",
+      "table": {
+        "headers": [
+          "낱말의 끝",
+          "만드는 법",
+          "예"
+        ],
+        "rows": [
+          [
+            "대부분",
+            "+ -er",
+            "tall → taller, cold → colder"
+          ],
+          [
+            "e로 끝나요",
+            "+ -r",
+            "large → larger, nice → nicer"
+          ],
+          [
+            "자음 + y",
+            "y를 i로 바꾸고 + -er",
+            "happy → happier, easy → easier"
+          ],
+          [
+            "짧은 낱말, 모음 하나 + 자음 하나",
+            "자음을 한 번 더 + -er",
+            "big → bigger, hot → hotter"
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.26,
+          0.44
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "모음은 a, e, i, o, u예요. 나머지 글자는 자음이에요.",
+      "notes": {
+        "목적": "형용사의 끝 글자에 따라 -er을 붙이는 네 가지 방법을 표로 익힙니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“한 줄씩 읽어 보자. tall은 끝에 er만 붙여서 taller. cold도 colder.” (소리 자료를 듣고 따라 합니다.)",
+          "“large는 이미 e로 끝나지? 그래서 r만 붙여. largeer가 아니라 larger.”",
+          "“happy는 자음 p 다음에 y로 끝나. 이럴 때는 y를 i로 바꾸고 er. happier.”",
+          "“big은 모음 i 하나, 자음 g 하나로 끝나. 6학년 때처럼 g를 한 번 더 써서 bigger. hot도 hotter.”",
+          "“그럼 cold는 왜 coldder가 아닐까?”"
+        ],
+        "예상답": [
+          "“cold는 끝에 자음이 l, d 두 개라서 그냥 er만 붙여요.”"
+        ],
+        "막히면": [
+          "낱말의 끝 두 글자를 손가락으로 짚으며 “이건 모음이야, 자음이야?”라고 하나씩 묻습니다.",
+          "모음과 자음이 헷갈리면 아래 카드를 함께 읽고, a, e, i, o, u만 모음이라고 짚어 줍니다."
+        ],
+        "주의": [
+          "넷째 규칙은 짧은 낱말에만 씁니다. 모음이 두 개(cool → cooler)이거나 자음이 두 개(long → longer)로 끝나면 그대로 -er입니다. w로 끝나면 겹쳐 쓰지 않습니다(new → newer, slow → slower).",
+          "y 앞이 모음이면 y를 바꾸지 않습니다(gray → grayer). 오늘은 자음 + y 낱말(happy, easy, busy, heavy, early)만 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "철자 규칙에 맞게 비교급 만들기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "비교급 만들기",
+      "text": "비교급을 말하고, 철자도 말해요.",
+      "problems": [
+        {
+          "text": "long → ______"
+        },
+        {
+          "text": "nice → ______"
+        },
+        {
+          "text": "easy → ______"
+        },
+        {
+          "text": "hot → ______"
+        },
+        {
+          "text": "heavy → ______"
+        },
+        {
+          "text": "thin → ______"
+        }
+      ],
+      "hint": "낱말의 끝 글자를 먼저 봐요.",
+      "notes": {
+        "목적": "끝 글자를 보고 규칙을 골라 비교급을 만들고 철자로 말합니다(목표 A, 오해 M2). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“비교급을 말하고, 철자도 한 글자씩 말해 줘. 어느 규칙을 썼는지도 말해 볼래?”",
+          "“③ easy와 ⑤ heavy는 끝이 어떻게 생겼어?”"
+        ],
+        "정답": [
+          "① longer (끝이 자음 두 개 n, g → 그대로 -er)",
+          "② nicer (e로 끝남 → -r)",
+          "③ easier (자음 s + y → y를 i로 바꾸고 -er)",
+          "④ hotter (모음 o 하나 + 자음 t 하나 → t를 한 번 더)",
+          "⑤ heavier (자음 v + y → ier)",
+          "⑥ thinner (모음 i 하나 + 자음 n 하나 → n을 한 번 더)"
+        ],
+        "막히면": [
+          "S04 표를 다시 띄우고, 낱말이 표의 몇째 줄에 해당하는지 먼저 고르게 합니다."
+        ],
+        "주의": [
+          "철자를 말로만 하면 틀린 곳을 놓치기 쉽습니다. 헷갈리는 낱말(easier, thinner)은 종이에 써 보게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "긴 형용사의 비교급 more",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "긴 낱말은 more",
+      "text": "긴 낱말은 -er을 붙이지 않고 앞에 more를 써요.",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "beautiful → more beautiful",
+            "sub": "더 아름다운"
+          },
+          {
+            "word": "expensive → more expensive",
+            "sub": "더 비싼"
+          },
+          {
+            "word": "interesting → more interesting",
+            "sub": "더 재미있는"
+          }
+        ]
+      },
+      "key": "more와 -er은 함께 쓰지 않아요.  (more bigger ×)",
+      "notes": {
+        "목적": "긴 형용사는 -er을 붙이지 않고 앞에 more를 쓴다는 것과 more와 -er을 함께 쓰지 않는다는 것을 알려 줍니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“beautiful에 -er을 붙이면 beautifuler? 너무 길고 어색하지? 이렇게 긴 낱말은 앞에 more를 써.” (소리 자료를 듣고 따라 합니다.)",
+          "“This book is more interesting than that book. 이 책이 저 책보다 더 재미있어.”",
+          "“그럼 big도 more big이라고 할까?”"
+        ],
+        "예상답": [
+          "“아니요. big은 짧으니까 bigger예요.”"
+        ],
+        "막히면": [
+          "손뼉을 치며 소리 마디를 세어 봅니다. beau-ti-ful 세 번, big 한 번. 세 번 이상이면 more라고 알려 줍니다."
+        ],
+        "주의": [
+          "more를 쓰는 낱말: 소리 마디(음절)가 셋 이상인 낱말(beautiful, interesting, expensive, difficult, popular)과 -ful, -ous로 끝나는 두 마디 낱말(useful, famous)입니다. 자음 + y로 끝나는 두 마디 낱말(happy, easy, busy)은 -ier입니다. 헷갈리는 낱말은 사전에서 함께 확인합니다.",
+          "more와 -er은 함께 쓰지 않습니다(more bigger ×, more happier ×)."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "불규칙 비교급 good·bad·many",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "모양이 바뀌는 비교급",
+      "text": "몇몇 낱말은 규칙을 따르지 않아요. 통째로 외워요.",
+      "table": {
+        "headers": [
+          "낱말(뜻)",
+          "비교급",
+          "예"
+        ],
+        "rows": [
+          [
+            "good(좋은)",
+            "better",
+            "This movie is better than that movie."
+          ],
+          [
+            "bad(나쁜)",
+            "worse",
+            "This pen is worse than that pen."
+          ],
+          [
+            "many(많은)",
+            "more",
+            "I have more books than my brother."
+          ]
+        ],
+        "widths": [
+          0.22,
+          0.15,
+          0.63
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "gooder, more good, badder로 쓰지 않아요.",
+      "notes": {
+        "목적": "규칙을 따르지 않는 비교급 good → better, bad → worse, many → more를 익힙니다(목표 A, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“good에 -er을 붙이면 gooder? 이건 영어에 없는 말이야. good은 better로 모양이 완전히 바뀌어.” (소리 자료를 듣고 따라 합니다.)",
+          "“bad는 worse, many는 more야. 세 개는 통째로 외우자.”",
+          "“엄마(아빠)가 good 하면 너는 better! bad! many!”"
+        ],
+        "예상답": [
+          "“better!” “worse!” “more!”"
+        ],
+        "막히면": [
+          "낱말 카드 세 장(good, bad, many)을 만들어 뒤집으며 비교급을 말하는 놀이를 몇 번 합니다."
+        ],
+        "주의": [
+          "much(셀 수 없는 것이 많은)도 비교급이 more입니다. ‘수량 표현’ 차시의 much와 연결해 한 번만 말해 줍니다.",
+          "many의 비교급 more와 긴 낱말 앞의 more는 철자가 같지만 쓰임이 다릅니다. I have more books.의 more는 ‘더 많은’이라는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(more와 -er을 함께 씀)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "more heavier일까요?",
+      "claim": "‘내 가방이 네 가방보다 더 무거워.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "My bag is more heavier than your bag."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "My bag is heavier than your bag."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐나요?",
+      "notes": {
+        "목적": "more와 -er을 함께 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“heavy는 짧은 낱말일까, 긴 낱말일까? -er을 붙일까, more를 쓸까?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(My bag is heavier than your bag.)입니다. 가는 more와 -er을 함께 썼습니다. heavy는 자음 + y로 끝나므로 heavier만 씁니다."
+        ],
+        "막히면": [
+          "S06 아래 카드(more와 -er은 함께 쓰지 않아요)를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "같은 실수 예: more bigger → bigger, more better → better, more happier → happier. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 비교급 만들기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "표의 정보로 비교 문장 말하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "표를 보고 비교해요",
+      "text": "표를 보고 괄호 속 낱말을 비교급으로 바꿔 말해요.",
+      "problems": [
+        {
+          "text": "Max is ______ than Coco. (old)"
+        },
+        {
+          "text": "Coco is ______ than Max. (small)"
+        },
+        {
+          "text": "Max is ______ than Coco. (heavy)"
+        }
+      ],
+      "figure": {
+        "type": "table",
+        "headers": [
+          "",
+          "Max",
+          "Coco"
+        ],
+        "rows": [
+          [
+            "나이",
+            "5살",
+            "2살"
+          ],
+          [
+            "몸길이",
+            "60 cm",
+            "35 cm"
+          ],
+          [
+            "몸무게",
+            "8 kg",
+            "3 kg"
+          ]
+        ],
+        "widths": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "size": 22,
+        "alt": "강아지 두 마리 표: Max 5살·60 cm·8 kg, Coco 2살·35 cm·3 kg"
+      },
+      "aidTitle": "강아지 두 마리",
+      "notes": {
+        "목적": "표의 정보를 읽고 더 그러한 쪽을 주어로 두어 비교 문장을 말합니다(목표 B, 오해 M4). 활동지 4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“오른쪽 표를 먼저 읽어 보자. Max는 몇 살이야? Coco는?”",
+          "“①, 나이가 더 많은 쪽이 앞에 있지? old를 바꿔 넣어서 문장 전체를 읽어 줘.”",
+          "“②는 Coco가 앞에 있어. Coco가 Max보다 어때?”"
+        ],
+        "정답": [
+          "① older (Max is older than Coco. 5살 > 2살)",
+          "② smaller (Coco is smaller than Max. 몸길이 35 cm < 60 cm)",
+          "③ heavier (Max is heavier than Coco. 8 kg > 3 kg)"
+        ],
+        "막히면": [
+          "표의 두 수를 손가락으로 짚으며 “어느 쪽이 더 커(많아)?”를 먼저 묻고, 그 쪽이 문장 앞에 있는지 확인합니다.",
+          "③에서 heavyer라고 하면 S04의 셋째 줄(자음 + y)을 다시 봅니다."
+        ],
+        "주의": [
+          "②에서 bigger라고 하면 “Coco가 더 커? 문장 앞에 있는 Coco가 더 작으니까 smaller”라고 짚어 줍니다(오해 M4)."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "긴 낱말·불규칙 비교급으로 문장 완성",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "more일까요, 모양이 바뀔까요?",
+      "text": "괄호 속 낱말을 비교급으로 바꿔 문장을 읽어요.",
+      "problems": [
+        {
+          "text": "This movie is ______ than that movie. (good)"
+        },
+        {
+          "text": "Math is ______ than art for me. (difficult)"
+        },
+        {
+          "text": "Jisu has ______ books than Minho. (many)"
+        }
+      ],
+      "hint": "긴 낱말은 more, good·bad·many는 모양이 바뀌어요.",
+      "notes": {
+        "목적": "긴 낱말의 more와 불규칙 비교급을 문장 속에서 골라 씁니다(목표 A·B, 오해 M1·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“괄호 속 낱말을 비교급으로 바꿔서 문장 전체를 읽어 줘.”",
+          "“①의 good은 규칙대로 바뀔까?”",
+          "“②의 difficult는 짧은 낱말이야, 긴 낱말이야?”"
+        ],
+        "정답": [
+          "① better (This movie is better than that movie.)",
+          "② more difficult (Math is more difficult than art for me. 나에게는 수학이 미술보다 더 어려워요.)",
+          "③ more (Jisu has more books than Minho. 지수는 민호보다 책이 더 많아요.)"
+        ],
+        "막히면": [
+          "S06(more)과 S07(모양이 바뀌는 말)을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "②에서 difficulter, ①에서 gooder나 more good이라고 하면 바로 고치기보다 “S07 표에 있었던 말이지?”라고 다시 찾게 합니다.",
+          "③의 has는 일반동사 문장 차시에서 배운 have의 -s 모양입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "물건을 견주며 비교 문장 주고받기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "우리 집 물건 비교하기",
+      "steps": [
+        "집에서 물건 두 개를 골라 나란히 놓아요.",
+        "들어 보고, 길이와 크기도 견주어 봐요.",
+        "부모가 물어요: Which is heavier?",
+        "아이가 답해요: The book is heavier than the cup.",
+        "역할을 바꿔 long, big, old로도 해요."
+      ],
+      "criteria": [
+        "더 그러한 쪽을 주어로 말했어요",
+        "비교급을 규칙에 맞게 말했어요",
+        "than 뒤에 비교하는 물건을 말했어요"
+      ],
+      "notes": {
+        "목적": "실제 물건을 들고 견주어 보며 비교 문장을 소리 내어 여러 번 말합니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“집에 있는 물건 두 개를 골라 볼까? 책이랑 컵을 나란히 놓자.”",
+          "“들어 봐. 어느 쪽이 더 무거워? 엄마(아빠)가 영어로 물어볼게. Which is heavier? 어느 것이 더 무거워?”",
+          "(아이) “The book is heavier than the cup.” → (부모) “Which is bigger?” → (아이) “The book is bigger than the cup.”",
+          "“이번엔 네가 물어봐. 엄마(아빠)가 대답할게.” 연필과 숟가락으로 long, old로도 해 봅니다."
+        ],
+        "예상답": [
+          "“The book is heavier than the cup.” “The pencil is longer than the spoon.” “My bag is older than my shoes.”",
+          "기준: 더 그러한 쪽을 주어로 말하고, 비교급을 규칙에 맞게 만들고, than 뒤에 다른 물건을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "물건 이름을 영어로 모르면 This is heavier than that.처럼 this, that으로 말해도 됩니다.",
+          "문장이 막히면 부모가 먼저 말하고 아이가 따라 한 뒤, 물건만 바꿔 다시 말하게 합니다."
+        ],
+        "주의": [
+          "역할을 바꾸어 세 번 이상 주고받습니다. 틀려도 바로 고치기보다 다음 차례에 부모가 바른 문장으로 다시 말해 줍니다.",
+          "Which is heavier?는 ‘어느 것이 더 무거워?’라는 뜻입니다. 오늘은 아이가 듣고 대답하는 데 쓰고, 따로 외우게 하지는 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(비교급 만들기·비교 문장·고쳐 쓰기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "hot · easy · bad\n→ 비교급으로"
+        },
+        {
+          "text": "popular\n→ 비교급으로"
+        },
+        {
+          "text": "cat 4 kg · dog 9 kg\n→ heavy로 비교해요"
+        },
+        {
+          "text": "Ann is more tall than Tom.\n→ 바르게 고쳐요"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 비교급을 만들고, 비교 문장을 만들고, 틀린 문장을 고치는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① hotter, easier, worse",
+          "② more popular",
+          "③ The dog is heavier than the cat. (The cat is lighter than the dog.도 맞습니다.)",
+          "④ Ann is taller than Tom. (more를 지웁니다.)",
+          "기준: 네 개 가운데 세 개 이상이면 통과. ①은 세 낱말이 모두 맞아야 합니다. 쓸 때는 철자, 첫 글자 대문자, 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “낱말 끝이 어떻게 생겼어?” “어느 쪽이 더 무거워?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① hotter, easier, worse"
+        },
+        {
+          "text": "② more popular"
+        },
+        {
+          "text": "③ The dog is heavier than the cat."
+        },
+        {
+          "text": "④ Ann is taller than Tom."
+        }
+      ],
+      "bad": [
+        {
+          "text": "hoter, easyer",
+          "note": "끝 글자 규칙을\n다시 봐요"
+        },
+        {
+          "text": "more heavier",
+          "note": "more와 -er은\n함께 쓰지 않아요"
+        },
+        {
+          "text": "badder",
+          "note": "bad → worse"
+        }
+      ],
+      "explain": "끝 글자 보기 → -er·more·모양이 바뀌는 말 고르기 → than 뒤 비교 대상 순서로 다시 봐요.",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 쓰면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“hot은 t를 한 번 더 써야 해요.” “more랑 er을 같이 쓰면 안 돼요.” “bad는 worse예요.”"
+        ],
+        "정답": [
+          "① hotter, easier, worse ② more popular ③ The dog is heavier than the cat. ④ Ann is taller than Tom."
+        ],
+        "막히면": [
+          "틀린 문제는 S04(철자 규칙), S06(more), S07(모양이 바뀌는 말), S03(문장 순서) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(표를 보고 세 가지 비교급으로 말하기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "가방 두 개 비교하기",
+      "text": "표를 보고 괄호 속 낱말로 비교하는 문장을 말해요.",
+      "problems": [
+        {
+          "text": "무게 (heavy)"
+        },
+        {
+          "text": "값 (expensive)"
+        },
+        {
+          "text": "별점 (good)"
+        }
+      ],
+      "figure": {
+        "type": "table",
+        "headers": [
+          "",
+          "Bag A",
+          "Bag B"
+        ],
+        "rows": [
+          [
+            "무게",
+            "1 kg",
+            "2 kg"
+          ],
+          [
+            "값",
+            "30,000원",
+            "50,000원"
+          ],
+          [
+            "별점",
+            "별 4개",
+            "별 2개"
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.35,
+          0.35
+        ],
+        "size": 22,
+        "alt": "가방 두 개 표: Bag A 1 kg·30,000원·별 4개, Bag B 2 kg·50,000원·별 2개"
+      },
+      "aidTitle": "가방 두 개",
+      "notes": {
+        "목적": "처음 보는 표에서 -ier, more, 모양이 바뀌는 비교급을 골라 비교 문장 세 개를 말하는지 확인합니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“표를 보고 가방 두 개를 비교해 줘. ①은 무게, ②는 값, ③은 별점이야. 괄호 속 낱말을 써서 문장으로 말해 줘.”"
+        ],
+        "정답": [
+          "① Bag B is heavier than Bag A. (2 kg > 1 kg)",
+          "② Bag B is more expensive than Bag A. (50,000원 > 30,000원)",
+          "③ Bag A is better than Bag B. (별 4개 > 별 2개)",
+          "Bag A is lighter than Bag B. / Bag A is cheaper than Bag B.처럼 반대쪽을 주어로 해도 뜻이 맞으면 통과입니다. 세 문장 모두 맞으면 목표 달성으로 봅니다."
+        ],
+        "막히면": [
+          "“어느 가방이 더 무거워? 그 가방을 먼저 말해.”처럼 주어를 고르는 것만 도와줍니다."
+        ],
+        "주의": [
+          "more heavier, more good처럼 말하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "tall → taller,  happy → happier,  big → bigger\n긴 낱말은 more,  good → better,  bad → worse",
+      "do": "더 그러한 쪽을 주어로",
+      "dont": "more bigger / gooder",
+      "review": [
+        {
+          "text": "big, happy, good의\n비교급은?"
+        },
+        {
+          "text": "beautiful의\n비교급은?"
+        },
+        {
+          "text": "‘이 상자가 저 상자보다\n더 무거워요.’를 영어로"
+        }
+      ],
+      "next": "최상급",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“happy의 비교급은? beautiful은? good은?”",
+          "“두 가지를 비교하는 문장은 어떤 순서로 말했지?”"
+        ],
+        "예상답": [
+          "“happier, more beautiful, better예요.” “더 그런 쪽을 앞에 쓰고, than 뒤에 비교하는 걸 써요.”"
+        ],
+        "정답": [
+          "① bigger, happier, better",
+          "② more beautiful",
+          "③ This box is heavier than that box."
+        ],
+        "주의": [
+          "장을 보거나 물건을 정리할 때 “Which is bigger?”처럼 하루에 한두 번 물어보면 좋은 복습이 됩니다. 다음 차시 ‘최상급’에서는 셋 이상 가운데 ‘가장 ~한’을 나타내는 the tallest, the most를 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(6학년 비교하기 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: -er 비교 다시 보기",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 3,
+        "items": [
+          {
+            "word": "tall → taller",
+            "sub": "키가 더 큰"
+          },
+          {
+            "word": "short → shorter",
+            "sub": "키가 더 작은"
+          },
+          {
+            "word": "big → bigger",
+            "sub": "더 큰"
+          },
+          {
+            "word": "small → smaller",
+            "sub": "더 작은"
+          },
+          {
+            "word": "fast → faster",
+            "sub": "더 빠른"
+          },
+          {
+            "word": "old → older",
+            "sub": "나이가 더 많은"
+          }
+        ]
+      },
+      "key": "The tree is taller than the house.처럼 than 앞뒤로 비교했지요?",
+      "notes": {
+        "목적": "S02에서 -er과 than이 흔들리면, 오늘 내용을 배우기 전에 6학년에서 익힌 여섯 낱말의 비교 모양과 뜻을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“손으로 키를 보여 줄게. 엄마(아빠)는 tall, 너는? 엄마(아빠)가 너보다 taller!”",
+          "“The tree is taller than the house. 무슨 뜻일까?”"
+        ],
+        "정답": [
+          "tall → taller 키가 더 큰, short → shorter 키가 더 작은, big → bigger 더 큰, small → smaller 더 작은, fast → faster 더 빠른, old → older 나이가 더 많은 / 나무가 집보다 키가 더 커요."
+        ],
+        "막히면": [
+          "집에 있는 물건 두 개(큰 컵, 작은 컵)를 들고 “This cup is bigger than that cup.”을 부모가 먼저 말하고 아이가 따라 하게 합니다.",
+          "보충으로도 -er과 than이 어렵다면 계획의 선수 차시 6학년 ‘비교하기’(KR22-G06-ENG-COMPARE-L01)를 먼저 다시 하고, be동사가 흔들리면 ‘be동사 문장’(KR22-G07-ENG-BEVERB-L01)을 다시 본 뒤 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "비교급 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "낱말을 비교급으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① cold → ____________",
+              "⑥ good → ____________"
+            ],
+            [
+              "② large → ____________",
+              "⑦ bad → ____________"
+            ],
+            [
+              "③ busy → ____________",
+              "⑧ many → ____________"
+            ],
+            [
+              "④ hot → ____________",
+              "⑨ early → ____________"
+            ],
+            [
+              "⑤ famous → ____________",
+              "⑩ difficult → ____________"
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14
+        },
+        "answer": "① colder ② larger ③ busier ④ hotter ⑤ more famous ⑥ better ⑦ worse ⑧ more ⑨ earlier ⑩ more difficult. 열 개 가운데 아홉 개 이상이면 통과. busier, hotter, earlier의 철자를 꼭 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "괄호 속 낱말을 비교급으로 바꾸어 빈칸에 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This test is ____________ than the last test. (easy)"
+            ],
+            [
+              "② Your idea is ____________ than my idea. (good)"
+            ],
+            [
+              "③ The red shoes are ____________ than the blue shoes. (expensive)"
+            ],
+            [
+              "④ Today is ____________ than yesterday. (hot)"
+            ],
+            [
+              "⑤ I have ____________ friends than last year. (many)"
+            ],
+            [
+              "⑥ This rope is ____________ than that rope. (thin)"
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14
+        },
+        "answer": "① easier ② better ③ more expensive ④ hotter ⑤ more ⑥ thinner. 여섯 개 가운데 다섯 개 이상이면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "틀린 곳을 찾아 바르게 고친 문장 전체를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This box is more bigger than that box.",
+              ""
+            ],
+            [
+              "② Minho is tall than Jisu.",
+              ""
+            ],
+            [
+              "③ This pizza is gooder than that pizza.",
+              ""
+            ],
+            [
+              "④ The river is longer then the road.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.55,
+            0.45
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① This box is bigger than that box. (more를 지움) ② Minho is taller than Jisu. ③ This pizza is better than that pizza. ④ The river is longer than the road. (then → than) 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "표를 보고 괄호 속 낱말로 두 자전거를 비교하는 문장을 쓰세요.",
+        "table": {
+          "headers": [
+            "",
+            "Bike A",
+            "Bike B"
+          ],
+          "rows": [
+            [
+              "무게",
+              "10 kg",
+              "14 kg"
+            ],
+            [
+              "값",
+              "200,000원",
+              "150,000원"
+            ],
+            [
+              "별점",
+              "별 3개",
+              "별 5개"
+            ]
+          ],
+          "widths": [
+            0.3,
+            0.35,
+            0.35
+          ],
+          "size": 14
+        },
+        "line_label": "① (heavy)  ② (expensive)  ③ (good)",
+        "lines": 3,
+        "answer": "① Bike B is heavier than Bike A. ② Bike A is more expensive than Bike B. ③ Bike B is better than Bike A. (Bike A is lighter than Bike B. / Bike B is cheaper than Bike A.처럼 반대쪽을 주어로 써도 표와 맞으면 통과) 세 문장 모두 맞으면 통과."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① hot · easy · bad\n(비교급으로)",
+              ""
+            ],
+            [
+              "② popular\n(비교급으로)",
+              ""
+            ],
+            [
+              "③ cat 4 kg · dog 9 kg\n(heavy로 비교해요)",
+              ""
+            ],
+            [
+              "④ Ann is more tall than Tom.\n(바르게 고쳐요)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① hotter, easier, worse ② more popular ③ The dog is heavier than the cat. ④ Ann is taller than Tom. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 물건 두 개를 비교하는 문장을 두 개 쓰세요(하나는 -er, 하나는 more나 better).",
+        "eng": {
+          "trace": [
+            "Jisu is taller than Minho.",
+            "Math is more difficult than art."
+          ],
+          "blank": 2
+        },
+        "answer": "따라 쓰기 두 줄과, 집 물건을 비교한 문장 두 개(예: My bag is heavier than my pencil case. / This chair is more comfortable than that chair. / My new pen is better than my old pen.). 비교급의 철자, more와 -er을 함께 쓰지 않았는지, than의 철자, 첫 글자 대문자와 마침표를 봅니다. 두 문장 모두 맞으면 통과."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① big, happy, good의 비교급을 쓰세요.\n② beautiful의 비교급을 쓰세요.\n③ ‘이 상자가 저 상자보다 더 무거워요.’를 영어로 쓰세요.",
+        "lines": 3,
+        "answer": "① bigger, happier, better ② more beautiful ③ This box is heavier than that box. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S14 가방 비교하기: 세 문장 모두 □  두 문장 □  한 문장 이하 □",
+      "more bigger·gooder처럼 쓴 실수: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08"
 }
