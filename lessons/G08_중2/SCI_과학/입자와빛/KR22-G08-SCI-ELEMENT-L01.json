@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-SCI-ELEMENT-L01",
+  "concept_id": "SCI-ELEMENT",
+  "title": "원소와 원소 기호",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "입자와빛",
+  "sequence": 1,
+  "file_stem": "중2_과학_입자와빛_01_원소와원소기호",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I02"
+    ],
+    "units": [
+      "6.3.3",
+      "6.2.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "물질을 이루는 기본 성분인 원소의 뜻을 알고 주요 원소를 원소 기호로 나타낸다.",
+  "prerequisites": [
+    {
+      "text": "입자 운동과 물질의 상태",
+      "lesson": "KR22-G07-SCI-STATE-L01",
+      "grade_item": "KR22-G07-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "원소와 원소 기호 활동지",
+    "items": [],
+    "record": []
+  }
+}

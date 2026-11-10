@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-SCI-MIXSEP-L01",
+  "concept_id": "SCI-MIXSEP",
+  "title": "혼합물의 분리",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "물질과지권",
+  "sequence": 4,
+  "file_stem": "중2_과학_물질과지권_04_혼합물의분리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I01"
+    ],
+    "units": [
+      "6.3.3",
+      "6.5.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "끓는점·밀도·용해도 차이를 이용한 증류·거름·재결정·크로마토그래피 중 알맞은 분리 방법을 고른다.",
+  "prerequisites": [
+    {
+      "text": "용해도",
+      "lesson": "KR22-G08-SCI-SOLUBLE-L01",
+      "grade_item": "KR22-G08-SCI-I01"
+    },
+    {
+      "text": "혼합물의 분리",
+      "lesson": "KR22-G05-SCI-SEPARATE-L01",
+      "grade_item": "KR22-G05-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "혼합물의 분리 활동지",
+    "items": [],
+    "record": []
+  }
+}

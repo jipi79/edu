@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-SCI-PURE-L01",
+  "concept_id": "SCI-PURE",
+  "title": "순물질과 끓는점",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "물질과지권",
+  "sequence": 1,
+  "file_stem": "중2_과학_물질과지권_01_순물질과끓는점",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I01"
+    ],
+    "units": [
+      "6.3.3",
+      "6.5.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "순물질과 혼합물을 구별하고 순물질은 끓는점·녹는점이 일정함을 가열 그래프로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "상태 변화와 열에너지",
+      "lesson": "KR22-G07-SCI-PHASECHG-L01",
+      "grade_item": "KR22-G07-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "순물질과 끓는점 활동지",
+    "items": [],
+    "record": []
+  }
+}
