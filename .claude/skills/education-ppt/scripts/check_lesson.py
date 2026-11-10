@@ -14,6 +14,7 @@
 - 좌표 블록(blocks)이 슬라이드 안전 영역 안에 있는지
 """
 import json
+import math
 import re
 import sys
 from fractions import Fraction
@@ -66,6 +67,30 @@ def exact(expr):
     expr = re.sub(r"(\d+(?:\.\d+)?)/(\d+(?:\.\d+)?)", r"(\1/\2)", expr)
     py = re.sub(r"\d+(?:\.\d+)?", lambda m: f"F('{m.group()}')", expr.replace("×", "*").replace("÷", "/").replace("−", "-"))
     return eval(py, {"__builtins__": {}}, {"F": Fraction})
+
+
+RADICAL = re.compile(r"[√²³]")
+
+
+def value(expr):
+    """식의 값. 근호(√)·제곱(², ³)이 없으면 분수로 정확히, 있으면 실수로 계산한다.
+    √12, 2√3, √(2/3), (√3)² 처럼 쓴다(계수는 근호 앞, 괄호 안 식은 √(…))."""
+    expr = str(expr).replace("−", "-")
+    if not RADICAL.search(expr):
+        return exact(expr)
+    py = expr.replace("×", "*").replace("÷", "/").replace("²", "**2").replace("³", "**3")
+    py = re.sub(r"√(\d+(?:\.\d+)?)", r"S(\1)", py).replace("√(", "S(")
+    py = re.sub(r"(\d|\))\s*S\(", r"\1*S(", py)
+    py = re.sub(r"\)\s*\(", ")*(", py)
+    if not re.fullmatch(r"[\d\s+\-*/().S]+", py):
+        raise ValueError(expr)
+    return eval(py, {"__builtins__": {}}, {"S": math.sqrt})
+
+
+def same(a, b):
+    if isinstance(a, Fraction) and isinstance(b, Fraction):
+        return a == b
+    return abs(float(a) - float(b)) <= 1e-9 * max(1.0, abs(float(a)), abs(float(b)))
 
 
 def figure_count(f):
@@ -186,7 +211,8 @@ def check(path):
         where = c.get("where", "")
         try:
             if c["type"] == "equiv":
-                if len({frac(v) for v in c["values"]}) != 1:
+                vals = [value(v) if RADICAL.search(str(v)) else frac(v) for v in c["values"]]
+                if not all(same(vals[0], v) for v in vals[1:]):
                     errors.append(f"정답 검산({where}): {' = '.join(c['values'])} 가 성립하지 않는다")
             elif c["type"] == "not_equiv":
                 a, b = (frac(v) for v in c["values"])
@@ -195,13 +221,15 @@ def check(path):
             elif c["type"] == "blank":
                 expr = c["expr"].replace("□", str(c["answer"])).replace("−", "-")
                 left, right = (side.strip() for side in expr.split("="))
-                if not re.fullmatch(r"[\d\s+\-×÷*/().]+", left + right):
+                if not re.fullmatch(r"[\d\s+\-×÷*/().√²³]+", left + right):
                     errors.append(f"정답 검산({where}): 계산할 수 없는 식 {c['expr']}")
-                elif exact(left) != exact(right):
+                elif not same(value(left), value(right)):
                     errors.append(f"정답 검산({where}): {c['expr']} 에 {c['answer']}를 넣으면 성립하지 않는다")
             elif c["type"] == "compare":
-                a, b = (exact(v) for v in c["values"])
-                ok = {"<": a < b, ">": a > b, "=": a == b}[c["rel"]]
+                a, b = (value(v) for v in c["values"])
+                eq = same(a, b)
+                ok = {"<": a < b and not eq, ">": a > b and not eq, "=": eq, "≠": not eq,
+                      "<=": a < b or eq, "≤": a < b or eq, ">=": a > b or eq, "≥": a > b or eq}[c["rel"]]
                 if not ok:
                     errors.append(f"정답 검산({where}): {c['values'][0]} {c['rel']} {c['values'][1]} 가 성립하지 않는다")
             elif c["type"] == "bond":
