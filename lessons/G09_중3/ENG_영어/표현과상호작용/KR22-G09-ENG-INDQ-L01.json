@@ -874,30 +874,30 @@
           ],
           "rows": [
             [
-              "① Where is the hospital?",
+              "① Where is\nthe hospital?",
               "",
               ""
             ],
             [
-              "② What time is it?",
+              "② What time\nis it?",
               "",
               ""
             ],
             [
-              "③ Where does your uncle live?",
+              "③ Where does\nyour uncle live?",
               "",
               ""
             ],
             [
-              "④ What time does the train leave?",
+              "④ What time does\nthe train leave?",
               "",
               ""
             ]
           ],
           "widths": [
-            0.34,
             0.28,
-            0.38
+            0.3,
+            0.42
           ],
           "size": 13,
           "firstColHead": true
