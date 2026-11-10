@@ -4671,7 +4671,7 @@
   ],
   "file_stem": "초3_철학·논리·심리·교육·종교_마음과배움_01_감정과행동,나에게맞는공부",
   "source": "lessons/G03_초3/HUM_철학·논리·심리·교육·종교/마음과배움/KR22-G03-HUM-MYWAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-HUM-BELIEFS-L01",
@@ -4696,7 +4696,7 @@
   ],
   "file_stem": "초3_철학·논리·심리·교육·종교_문화의이해_01_문화유산속생각과믿음",
   "source": "lessons/G03_초3/HUM_철학·논리·심리·교육·종교/문화의이해/KR22-G03-HUM-BELIEFS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-CAR-ROLES-L01",
@@ -4721,7 +4721,7 @@
   ],
   "file_stem": "초3_진로·직업_흥미와역할_01_흥미와나의역할",
   "source": "lessons/G03_초3/CAR_진로·직업/흥미와역할/KR22-G03-CAR-ROLES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-CAR-TOWNJOBS-L01",
@@ -4746,7 +4746,7 @@
   ],
   "file_stem": "초3_진로·직업_직업탐색_01_마을의직업조사",
   "source": "lessons/G03_초3/CAR_진로·직업/직업탐색/KR22-G03-CAR-TOWNJOBS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENV-HABITAT-L01",
@@ -5968,7 +5968,7 @@
   ],
   "file_stem": "초4_도덕·윤리_협력과다양성_01_대화로갈등해결",
   "source": "lessons/G04_초4/ETH_도덕·윤리/협력과다양성/KR22-G04-ETH-CONFLICT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ETH-TOGETHER-L01",
@@ -5995,7 +5995,7 @@
   ],
   "file_stem": "초4_도덕·윤리_공동체와자연_01_공정한규칙과생명돌봄",
   "source": "lessons/G04_초4/ETH_도덕·윤리/공동체와자연/KR22-G04-ETH-TOGETHER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-SCI-MAGNET-L01",
@@ -6227,7 +6227,7 @@
   ],
   "file_stem": "초4_기술·가정_생활관리_01_물건관리와재사용",
   "source": "lessons/G04_초4/TEC_기술·가정/생활관리/KR22-G04-TEC-REUSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-TEC-INVENT-L01",
@@ -6253,7 +6253,7 @@
   ],
   "file_stem": "초4_기술·가정_설계와발명_01_발명아이디어",
   "source": "lessons/G04_초4/TEC_기술·가정/설계와발명/KR22-G04-TEC-INVENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-INF-TABLE-L01",
@@ -6278,7 +6278,7 @@
   ],
   "file_stem": "초4_정보·AI_자료와표현_01_자료분류와디지털표",
   "source": "lessons/G04_초4/INF_정보·AI/자료와표현/KR22-G04-INF-TABLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-INF-LOOP-L01",
@@ -6303,7 +6303,7 @@
   ],
   "file_stem": "초4_정보·AI_알고리즘_01_반복으로문제해결",
   "source": "lessons/G04_초4/INF_정보·AI/알고리즘/KR22-G04-INF-LOOP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-INF-DEBUG-L01",
@@ -6328,7 +6328,7 @@
   ],
   "file_stem": "초4_정보·AI_알고리즘_02_잘못된절차고치기",
   "source": "lessons/G04_초4/INF_정보·AI/알고리즘/KR22-G04-INF-DEBUG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-INF-SOURCE-L01",
@@ -6353,7 +6353,7 @@
   ],
   "file_stem": "초4_정보·AI_디지털판단_01_정보출처확인",
   "source": "lessons/G04_초4/INF_정보·AI/디지털판단/KR22-G04-INF-SOURCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ART-INSTRUMENT-L01",
@@ -6378,7 +6378,7 @@
   ],
   "file_stem": "초4_음악·미술_연주와감상_01_악기와음악요소",
   "source": "lessons/G04_초4/ART_음악·미술/연주와감상/KR22-G04-ART-INSTRUMENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ART-MATERIALS-L01",
@@ -6403,7 +6403,7 @@
   ],
   "file_stem": "초4_음악·미술_조형과감상_01_재료와조형요소",
   "source": "lessons/G04_초4/ART_음악·미술/조형과감상/KR22-G04-ART-MATERIALS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ART-POSTER-L01",
@@ -6428,7 +6428,7 @@
   ],
   "file_stem": "초4_음악·미술_시각문화_01_광고와표지이미지",
   "source": "lessons/G04_초4/ART_음악·미술/시각문화/KR22-G04-ART-POSTER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-PHE-SPORTSKILL-L01",
@@ -6454,7 +6454,7 @@
   ],
   "file_stem": "초4_체육·보건·안전_체력과기능_01_기초체력과스포츠기능",
   "source": "lessons/G04_초4/PHE_체육·보건·안전/체력과기능/KR22-G04-PHE-SPORTSKILL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-PHE-DANCE-L01",
@@ -6480,7 +6480,7 @@
   ],
   "file_stem": "초4_체육·보건·안전_표현과협력_01_리듬에맞춘움직임",
   "source": "lessons/G04_초4/PHE_체육·보건·안전/표현과협력/KR22-G04-PHE-DANCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-PHE-INFECTION-L01",
@@ -6508,7 +6508,7 @@
   ],
   "file_stem": "초4_체육·보건·안전_보건과안전_01_감염예방과위험대응",
   "source": "lessons/G04_초4/PHE_체육·보건·안전/보건과안전/KR22-G04-PHE-INFECTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-HUM-COUNTER-L01",
@@ -6533,7 +6533,7 @@
   ],
   "file_stem": "초4_철학·논리·심리·교육·종교_주장과반례_01_주장과반례",
   "source": "lessons/G04_초4/HUM_철학·논리·심리·교육·종교/주장과반례/KR22-G04-HUM-COUNTER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-HUM-CHECKVIEW-L01",
@@ -6584,7 +6584,7 @@
   ],
   "file_stem": "초4_진로·직업_강점과협력_01_강점과협력역할",
   "source": "lessons/G04_초4/CAR_진로·직업/강점과협력/KR22-G04-CAR-TEAMROLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-CAR-JOBSKILL-L01",
@@ -6609,7 +6609,7 @@
   ],
   "file_stem": "초4_진로·직업_직업조사_01_직업에필요한능력",
   "source": "lessons/G04_초4/CAR_진로·직업/직업조사/KR22-G04-CAR-JOBSKILL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENV-LOCALENV-L01",
@@ -6634,7 +6634,7 @@
   ],
   "file_stem": "초4_환경·생태_환경과장소_01_지역환경의변화",
   "source": "lessons/G04_초4/ENV_환경·생태/환경과장소/KR22-G04-ENV-LOCALENV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ENV-CONSUME-L01",
@@ -8108,7 +8108,7 @@
   ],
   "file_stem": "초5_도덕·윤리_공정과존중_01_공정한해결",
   "source": "lessons/G05_초5/ETH_도덕·윤리/공정과존중/KR22-G05-ETH-FAIRSOLVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ETH-DIVERSITY-L01",
@@ -8134,7 +8134,7 @@
   ],
   "file_stem": "초5_도덕·윤리_공동체와생명_01_다양성과공동체책임",
   "source": "lessons/G05_초5/ETH_도덕·윤리/공동체와생명/KR22-G05-ETH-DIVERSITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SCI-STRATA-L01",
@@ -8391,7 +8391,7 @@
   ],
   "file_stem": "초5_기술·가정_성장과생활_01_균형잡힌식사",
   "source": "lessons/G05_초5/TEC_기술·가정/성장과생활/KR22-G05-TEC-NUTRITION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-TEC-COOK-L01",
@@ -8417,7 +8417,7 @@
   ],
   "file_stem": "초5_기술·가정_성장과생활_02_간단한음식만들기",
   "source": "lessons/G05_초5/TEC_기술·가정/성장과생활/KR22-G05-TEC-COOK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-TEC-POCKETMONEY-L01",
@@ -8495,7 +8495,7 @@
   ],
   "file_stem": "초5_정보·AI_자료와기기_01_자료수집과표현",
   "source": "lessons/G05_초5/INF_정보·AI/자료와기기/KR22-G05-INF-COLLECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-INF-BLOCKCODE-L01",
@@ -8520,7 +8520,7 @@
   ],
   "file_stem": "초5_정보·AI_프로그래밍_01_순서와반복프로그램",
   "source": "lessons/G05_초5/INF_정보·AI/프로그래밍/KR22-G05-INF-BLOCKCODE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-INF-AILIFE-L01",
@@ -8572,7 +8572,7 @@
   ],
   "file_stem": "초5_음악·미술_음악표현과이해_01_악곡의특징살려연주",
   "source": "lessons/G05_초5/ART_음악·미술/음악표현과이해/KR22-G05-ART-PERFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-ART-INTENT-L01",
