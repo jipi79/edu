@@ -315,7 +315,7 @@
           "text": "All Koreans are good at taekwondo."
         },
         {
-          "text": "My friend Ana from Brazil plays soccer well."
+          "text": "Ana from Brazil plays soccer well."
         },
         {
           "text": "Everyone in Brazil plays soccer every day."
@@ -327,7 +327,7 @@
         "시간": "약 3분",
         "말하기": [
           "“네 문장 가운데 고정관념이 담긴 문장 두 개는? 신호 말을 찾아봐.”",
-          "“다는 Ana가 축구를 잘한다고 했어. 이건 고정관념일까?”"
+          "“다는 브라질에서 온 Ana가 축구를 잘한다고 했어. 이건 고정관념일까?”"
         ],
         "정답": [
           "나(All, 모든 한국 사람이 태권도를 잘하는 것은 아님), 라(Everyone, every day)",
@@ -362,15 +362,15 @@
         "perRow": 1,
         "items": [
           {
-            "word": "All Koreans like spicy food.",
+            "word": "All Koreans like spicy food.",
             "sub": "고정관념"
           },
           {
-            "word": "Many Koreans like spicy food.",
+            "word": "Many Koreans like spicy food.",
             "sub": "많은 한국 사람은"
           },
           {
-            "word": "Not all Koreans like spicy food.",
+            "word": "Not all Koreans like spicy food.",
             "sub": "모두 그런 것은 아니에요",
             "highlight": true
           }
@@ -515,8 +515,7 @@
           "Ana: No. Many people in Brazil love soccer, but not everyone plays it.",
           "Minji: I see. It's the same in Korea. I don't like K-pop much.",
           "Ana: Really? So not all Koreans love K-pop?",
-          "Minji: Right. I like classical music.",
-          "Ana: Ha! We both learned something today."
+          "Minji: Right. I like classical music."
         ]
       },
       "question": "고정관념이 담긴 말은? 두 사람은 어떻게 고쳐 말했나요?",
@@ -533,7 +532,7 @@
           "고쳐 말한 말: Many people in Brazil love soccer, but not everyone plays it. / So not all Koreans love K-pop? / Right."
         ],
         "막히면": [
-          "대화의 뜻: 민지: 아나, 너 브라질에서 왔으니까 축구 잘하지? / 아나: 하하, 아니. 나는 축구를 못해. 그림 그리기를 좋아해. / 민지: 아, 미안! 그러니까 모든 브라질 사람이 축구를 하는 건 아니구나? / 아나: 응. 브라질의 많은 사람이 축구를 무척 좋아하지만 모두가 하는 건 아니야. / 민지: 그렇구나. 한국도 마찬가지야. 나는 케이팝을 별로 안 좋아해. / 아나: 정말? 그러니까 모든 한국 사람이 케이팝을 좋아하는 건 아니네? / 민지: 맞아. 나는 클래식 음악을 좋아해. / 아나: 하! 우리 둘 다 오늘 뭔가 배웠네."
+          "대화의 뜻: 민지: 아나, 너 브라질에서 왔으니까 축구 잘하지? / 아나: 하하, 아니. 나는 축구를 못해. 그림 그리기를 좋아해. / 민지: 아, 미안! 그러니까 모든 브라질 사람이 축구를 하는 건 아니구나? / 아나: 응. 브라질의 많은 사람이 축구를 무척 좋아하지만 모두가 하는 건 아니야. / 민지: 그렇구나. 한국도 마찬가지야. 나는 케이팝을 별로 안 좋아해. / 아나: 정말? 그러니까 모든 한국 사람이 케이팝을 좋아하는 건 아니네? / 민지: 맞아. 나는 클래식 음악을 좋아해."
         ],
         "주의": [
           "Minji는 Oh, sorry!라고 사과하고, Ana는 화내지 않고 자기 이야기를 들려줍니다. 고정관념을 바로잡을 때의 좋은 태도로 짚어 줍니다."
