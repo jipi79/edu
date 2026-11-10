@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G07-SCI-VARIABLE-L01",
+  "concept_id": "SCI-VARIABLE",
+  "title": "탐구와 변인 통제",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "탐구와생물",
+  "sequence": 1,
+  "file_stem": "중1_과학_탐구와생물_01_탐구와변인통제",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G07-SCI-I01"
+    ],
+    "units": [
+      "6.1.2",
+      "6.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "탐구 질문을 세우고 조작·통제·종속 변인을 구별해 공정한 실험을 계획한다.",
+  "prerequisites": [
+    {
+      "text": "탐구 보고서",
+      "lesson": "KR22-G06-SCI-REPORT-L01",
+      "grade_item": "KR22-G06-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "탐구와 변인 통제 활동지",
+    "items": [],
+    "record": []
+  }
+}

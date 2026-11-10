@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -28,7 +28,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "관심 주제에 대한 의견을 이유 두세 가지와 예시로 뒷받침하는 문단을 쓴다.",
   "prerequisites": [
     {
       "text": "의견 문단 쓰기",
@@ -39,19 +38,1012 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "의견·이유 문단의 짜임(주제문 In my opinion, ~. / 이유 두세 개 First, Second, Third / 이유마다 예시 For example, ~. / 마무리 For these reasons, ~.)을 본보기 문단에서 찾고, 이유 후보 가운데 주제와 관계있고 서로 다른 이유를 고르며, 주제문을 되풀이한 이유·앞 이유와 겹치는 이유·이유와 맞지 않는 예시를 찾아 고친다.",
+      "evidence": "문단의 짜임(S03), 본보기 문단(S04), 좋은 이유와 예시(S05), 이유 고르기(S06), 겹치는 이유 비교(S07), 구체적인 예시(S08), 마무리 확인(S13), 활동지 1·2·3",
+      "success": "다섯 문장 가운데 이유로 쓸 수 있는 세 문장을 고르고 나머지 두 문장이 안 되는 까닭을 말하며, 처음 보는 문단에서 앞 이유를 되풀이한 문장과 이유와 맞지 않는 예시를 찾아 고쳐 말한다."
+    },
+    {
+      "id": "B",
+      "text": "세 주제(운동·요리·독서) 가운데 하나를 골라 개요를 쓰고, 주제문 1문장 + 서로 다른 이유 두세 개와 이유마다 때·곳·사람이 보이는 예시 + 마무리 1문장으로 된 6~8문장의 한 문단을 쓰며, 점검표로 스스로 고친다. 이 문단은 다음 두 차시(의견 발표하기, 질문에 답하기)의 원고가 된다.",
+      "evidence": "쓰는 순서(S09), 주제 카드 인터뷰(S10), 혼자 쓰기(S11), 잘 쓴 예와 고칠 곳(S12), 활동지 4·5·6",
+      "success": "6~8문장의 문단에서 점검표 여섯 항목 가운데 다섯 개 이상을 지킨다. 의견의 내용(찬성인지 반대인지, 무엇이 좋다고 생각하는지)은 평가하지 않는다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지(5번에 쓴 문단은 다음 두 차시에도 쓰니 잘 보관합니다)",
+    "연필과 지우개",
+    "종이 세 장과 펜(주제 카드)",
+    "교과서 디지털 자료나 사전 앱(문장 소리 듣기, 모르는 낱말 찾기)"
+  ],
+  "boundary": "중2 ‘의견 문단 쓰기’의 짜임(I think ~. / First, Second / For example / So, I think ~.)을 넓혀, 주제문을 여는 In my opinion, ~.(= I think ~.), 셋째 이유의 Third, ~., 마무리의 For these reasons, ~.(이런 이유로)를 새로 쓴다. 이유는 두 개나 세 개, 이유마다 예시 하나이며, 좋은 이유의 조건은 ‘주제와 관계있다, 서로 다르다, 주제문을 되풀이하지 않는다’, 좋은 예시의 조건은 ‘이유를 보여 준다, 때·곳·사람이 보인다’ 다섯 가지만 다룬다. 주제는 생활 속 가벼운 주제(운동·요리·독서, 본보기는 걸어서 학교 가기)만 쓰고 사회적으로 찬반이 크게 갈리는 주제는 쓰지 않는다. 반대 의견에 답하기(On the other hand, Some people say ~), should·must, 여러 문단의 글, 출처가 있는 통계 인용은 다루지 않는다(질문에 답하기는 ‘질문에 답하기’ 차시에서 한다). 문장 속 문법은 중1·중2에서 배운 것(일반동사, 과거형, can, because·so, 동명사 주어 Playing sports is ~, to부정사)만 쓰고, 과거형은 ‘과거 시제 문장’에서 배운 동사만 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "이유를 셋으로 늘리려고 같은 이유를 다른 말로 되풀이한다(First, it is good exercise. Third, it makes my body strong.).",
+      "response": "S05에서 ‘이유는 서로 다르게’를 보여 주고, S07에서 겹치는 이유와 서로 다른 이유를 비교하며, S13과 활동지 3에서 겹치는 이유를 찾아 고친다. 이유가 두 개뿐이면 두 개로 써도 된다고 알려 준다."
+    },
+    {
+      "id": "M2",
+      "text": "이유 자리에 주제문을 다시 쓴다(I think breakfast is important. First, breakfast is really important.).",
+      "response": "S05·S06에서 ‘이유는 왜?에 답하는 말’이라고 짚고, 주제문을 되풀이한 문장은 이유가 될 수 없음을 고르기 연습으로 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "예시를 막연하게 쓰거나(For example, walking is good.) 이유와 관계없는 예를 쓴다.",
+      "response": "S05에서 ‘예시에는 때·곳·사람이 보인다’를 보여 주고, S08에서 막연한 예시를 구체적으로 바꾸어 말하며, 점검표 ④로 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "In my opinion과 I think를 한 문장에 함께 쓴다(In my opinion, I think reading is fun.).",
+      "response": "S03 카드에서 ‘In my opinion = I think, 한 문장에 하나만’을 짚고, S12 흔한 실수와 점검표 ①로 확인한다."
+    },
+    {
+      "id": "M5",
+      "text": "의견에 맞고 틀림이 있다고 생각해 부모가 좋아할 만한 의견만 고르거나, 부모가 의견 내용을 고치려 한다.",
+      "response": "S01·S10 노트에서 ‘반대 의견도 이유와 예시가 맞으면 좋은 문단’이라고 말하고, S12 노트에서 부모는 짜임과 근거만 본다고 안내한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "의견·이유 문단",
+      "question": "내 의견을 서로 다른 이유와\n구체적인 예시로 탄탄하게 쓸 수 있을까?",
+      "goals": [
+        "① 서로 다른 이유와 맞는 예시를 골라요.",
+        "② 이유 두세 개로 의견·이유 문단을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "In my opinion, ~.",
+            "sub": "주제문: 내 의견"
+          },
+          {
+            "word": "First, Second, Third",
+            "sub": "서로 다른 이유 + 예시"
+          },
+          {
+            "word": "For these reasons, ~.",
+            "sub": "마무리"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난해 배운 의견 문단을 이유 두세 개와 구체적인 예시로 더 탄탄하게 쓰는 데 관심을 갖게 합니다. 오늘 쓰는 문단은 다음 두 차시(의견 발표하기, 질문에 답하기)에서 발표 원고가 됩니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“학교에 걸어가는 게 좋을까, 차나 버스로 가는 게 좋을까? 왜? 이유가 또 있어?”",
+          "“이유가 많으면 좋지만, 같은 말을 되풀이하면 이유가 늘어난 게 아니야. 오늘은 서로 다른 이유 두세 개와 그 이유를 보여 주는 예시로 의견 문단을 써 볼 거야.”",
+          "“오늘 쓴 문단으로 다음 시간에는 발표를 하고, 그다음 시간에는 질문에 답해 볼 거야. 세 번 이어지는 수업이야.”",
+          "“오른쪽 세 줄을 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)"
+        ],
+        "예상답": [
+          "“걸어가는 게 좋아요. 운동이 되니까요. 그리고 친구랑 이야기할 수 있어요.”"
+        ],
+        "막히면": [
+          "아이가 이유를 하나만 말하면 “또 좋은 점은? 아니면 안 좋은 점은?”처럼 생각할 거리를 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(In my opinion, Third, For these reasons)과 S04 본보기 문단을 미리 들어 두세요.",
+          "의견에는 맞고 틀림이 없습니다. 아이가 ‘걸어가는 건 힘들다’처럼 반대로 생각해도 이유와 예시가 맞으면 좋은 문단입니다. 부모님은 짜임과 근거만 봐 주세요(오해 M5)."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(중2 의견 문단의 짜임과 이유·예시)",
+      "role": "prior",
+      "objectives": [],
+      "title": "의견 문단 떠올리기",
+      "text": "①은 답하고, ②는 문제를 찾고, ③은 빈칸을 채워요.",
+      "problems": [
+        {
+          "text": "의견 문단의 네 부분은?"
+        },
+        {
+          "text": "First, dogs are friendly.\nFor example, cats sleep a lot.\n→ 무엇이 문제일까요?"
+        },
+        {
+          "text": "I like winter ______ I can ski."
+        }
+      ],
+      "notes": {
+        "목적": "중2 ‘의견 문단 쓰기’(KR22-G08-ENG-OPINPARA-L01)의 네 부분, 이유와 맞는 예시, because를 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 지난해 배운 의견 문단은 어떤 네 부분으로 썼지?”",
+          "“②, 이유와 예시를 읽어 봐. 무엇이 이상해?”",
+          "“③, 빈칸에 알맞은 말을 넣어 문장 전체를 읽어 줘.”"
+        ],
+        "정답": [
+          "① 주제문, 이유, 예시, 마무리 문장",
+          "② 이유는 ‘개는 다정하다’인데, 예시는 고양이가 잠을 많이 잔다는 이야기라 이유를 보여 주지 못합니다. 고친 예: For example, my dog always runs to me.",
+          "③ because (I like winter because I can ski.)"
+        ],
+        "막히면": [
+          "②가 어려우면 “For example 바로 앞의 이유를 다시 읽어 봐. 예시가 그 이유를 보여 줘?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "의견·이유 문단의 짜임",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "의견·이유 문단의 짜임",
+      "text": "중2 의견 문단에 이유 하나와 새 연결어를 더해요.",
+      "cards": [
+        {
+          "title": "주제문",
+          "text": "내 의견을 한 문장으로.\nIn my opinion, ~."
+        },
+        {
+          "title": "이유 2~3개",
+          "text": "서로 다른 까닭.\nFirst, / Second, / Third,"
+        },
+        {
+          "title": "예시",
+          "text": "이유마다 실제 일 하나.\nFor example, ~."
+        },
+        {
+          "title": "마무리",
+          "text": "의견을 다시 말해요.\nFor these reasons, ~."
+        }
+      ],
+      "key": "In my opinion = I think.  한 문장에 하나만 써요.",
+      "notes": {
+        "목적": "의견·이유 문단의 네 부분과 새 연결어 In my opinion(내 생각에는), Third(셋째로), For these reasons(이런 이유로)를 알려 줍니다(목표 A, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“지난해에는 I think ~.로 시작했지? In my opinion, ~.도 ‘내 생각에는’이라는 같은 뜻이야. 둘 중 하나만 써. In my opinion, I think ~.처럼 둘을 같이 쓰면 같은 말을 두 번 하는 거야.”",
+          "“이유는 두 개나 세 개. 세 번째 이유는 Third로 시작해. 이유마다 For example로 예시를 하나씩 붙여.”",
+          "“마무리는 For these reasons, ~. ‘이런 이유로’라는 뜻이야. 이유를 여러 개 말한 뒤에 잘 어울려.”"
+        ],
+        "예상답": [
+          "“주제문, 이유, 예시, 마무리는 똑같고, In my opinion이랑 Third, For these reasons가 새로 생겼어요.”"
+        ],
+        "막히면": [
+          "S02 ①의 답(네 부분)을 다시 말하게 하고, 카드 네 장을 차례로 가리키며 짝지어 줍니다."
+        ],
+        "주의": [
+          "중2의 So, I think ~.로 마무리해도 맞습니다. For these reasons는 이유가 여럿일 때 쓰는 새 표현으로 소개합니다.",
+          "이유가 두 개뿐이면 Third 없이 두 개로 써도 됩니다. 억지로 세 개를 만들면 같은 이유를 되풀이하기 쉽습니다(오해 M1)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 문단에서 짜임 찾기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "본보기 문단 읽기",
+      "passage": {
+        "title": "Walking to School",
+        "paragraphs": [
+          "In my opinion, walking to school is good for students.",
+          "First, walking is good exercise.",
+          "For example, I walk for twenty minutes every morning, so my legs are strong.",
+          "Second, you can talk with your friends on the way.",
+          "For example, I meet my friend Jisu at the corner, and we talk about our day.",
+          "Third, you can enjoy the seasons.",
+          "For example, last spring I saw beautiful cherry blossoms on my way to school.",
+          "For these reasons, I think walking is the best way to go to school."
+        ],
+        "numbered": true
+      },
+      "question": "주제문, 이유 세 개, 예시 세 개, 마무리는 몇 번인가요?",
+      "notes": {
+        "목적": "본보기 문단을 함께 읽으며 주제문(①)–이유(②④⑥)–예시(③⑤⑦)–마무리(⑧)를 찾고, 세 이유가 서로 다르다는 것과 예시에 때·곳·사람이 들어 있다는 것을 확인합니다(목표 A). 이 문단은 다음 두 차시에서 발표와 질문의 본보기로 다시 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘. exercise는 운동, season은 계절, cherry blossom은 벚꽃이야.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“주제문은 몇 번? 이유 세 개는 어떤 낱말로 시작해?”",
+          "“세 이유는 서로 같은 말이야, 다른 말이야? ③⑤⑦ 예시에는 언제, 어디서, 누구와가 보여?”"
+        ],
+        "예상답": [
+          "“주제문은 ①, 이유는 ②④⑥, 예시는 ③⑤⑦, 마무리는 ⑧이에요.” “이유는 운동, 친구, 계절로 다 달라요.” “③에는 twenty minutes, every morning, ⑤에는 Jisu와 the corner, ⑦에는 last spring이 있어요.”"
+        ],
+        "막히면": [
+          "문장마다 뜻을 부모가 먼저 짧게 말해 줍니다: ① 내 생각에는 걸어서 학교에 가는 것이 학생들에게 좋아요. ② 첫째로, 걷기는 좋은 운동이에요. ③ 예를 들어, 나는 아침마다 20분 동안 걸어서 다리가 튼튼해요. ④ 둘째로, 가는 길에 친구와 이야기할 수 있어요. ⑤ 예를 들어, 나는 모퉁이에서 친구 지수를 만나 그날 이야기를 해요. ⑥ 셋째로, 계절을 즐길 수 있어요. ⑦ 예를 들어, 지난봄에 나는 학교 가는 길에 아름다운 벚꽃을 보았어요. ⑧ 이런 이유로, 나는 걷기가 학교에 가는 가장 좋은 방법이라고 생각해요."
+        ],
+        "주의": [
+          "⑧은 For these reasons 뒤에 I think를 썼습니다. 주제문(①)에 In my opinion을 썼고 ⑧은 다른 문장이므로 괜찮습니다. 한 문장 안에 둘을 같이 쓰지 않으면 됩니다.",
+          "Walking to school is ~.처럼 -ing로 시작하는 주어(동명사, 중2)는 하나로 보아 is를 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "좋은 이유와 좋은 예시의 조건",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "좋은 이유, 좋은 예시",
+      "text": "주제문: Walking to school is good for students.",
+      "table": {
+        "headers": [
+          "이렇게 써요",
+          "○ 좋은 예",
+          "× 고칠 예"
+        ],
+        "rows": [
+          [
+            "이유는 ‘왜?’에 답해요",
+            "Walking is\ngood exercise.",
+            "Walking to school\nis good."
+          ],
+          [
+            "이유는 서로 달라요",
+            "Second, you can\ntalk with friends.",
+            "Second, walking\nmakes you strong."
+          ],
+          [
+            "예시는 때·곳·사람이\n보여요",
+            "For example, I meet\nJisu at the corner.",
+            "For example,\nwalking is fun."
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.35,
+          0.35
+        ],
+        "width": 12.2,
+        "size": 22
+      },
+      "key": "이유는 서로 다르게, 예시는 구체적으로(때·곳·사람)!",
+      "notes": {
+        "목적": "좋은 이유(왜?에 답한다, 서로 다르다)와 좋은 예시(때·곳·사람이 보인다)의 조건을 ○·× 예로 보여 줍니다(목표 A, 오해 M1·M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째 줄. ‘걷기는 좋다’는 주제문을 다시 말한 거야. ‘왜 좋은데?’에 답하지 못하지. ‘좋은 운동이다’는 왜?에 답해.”",
+          "“둘째 줄. 첫째 이유가 운동이었는데, 둘째 이유가 ‘몸을 튼튼하게 한다’면? 운동이랑 거의 같은 말이지? 이유는 서로 달라야 해.”",
+          "“셋째 줄. ‘걷기는 재미있다’는 예시가 아니라 또 다른 생각이야. 언제, 어디서, 누구와가 보이는 실제 일이 예시야.”"
+        ],
+        "예상답": [
+          "“이유가 운동이랑 튼튼해지는 거면 같은 이유예요.” “예시에 지수랑 모퉁이처럼 사람과 장소가 들어가요.”"
+        ],
+        "막히면": [
+          "이유가 같은지 헷갈리면 두 이유를 우리말로 바꾸어 “이 둘, 같은 말이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "‘서로 다르다’는 주제(학교 가기)는 같고 까닭이 다르다는 뜻입니다. 운동·친구·계절처럼 서로 다른 쪽에서 본 까닭이면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "이유로 쓸 수 있는 문장 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "이유로 쓸 수 있을까요?",
+      "text": "주제문: I think breakfast is important.\n이유가 될 수 있는 문장 세 개를 골라요.",
+      "problems": [
+        {
+          "text": "It gives us energy\nfor the morning."
+        },
+        {
+          "text": "Breakfast is really\nimportant."
+        },
+        {
+          "text": "We can talk with\nour family."
+        },
+        {
+          "text": "I like pizza\nfor dinner."
+        },
+        {
+          "text": "Breakfast food like\neggs is healthy."
+        }
+      ],
+      "hint": "‘왜?’에 답하나요? 주제와 관계있나요? 서로 다른가요?",
+      "notes": {
+        "목적": "이유 후보 다섯 개 가운데 주제와 관계있고 서로 다른 이유 세 개를 고르고, 나머지가 안 되는 까닭을 말합니다(목표 A, 오해 M1·M2). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“주제문은 ‘아침밥은 중요하다’야. 문장마다 ‘왜 중요해?’에 대한 답이 되는지 봐.”",
+          "“고르지 않은 두 문장은 왜 이유가 될 수 없어?”"
+        ],
+        "정답": [
+          "이유가 될 수 있는 문장: ① 아침에 쓸 힘을 줘요. ③ 가족과 이야기할 수 있어요. ⑤ 달걀 같은 아침 음식은 건강에 좋아요.",
+          "② ‘아침밥은 정말 중요하다’는 주제문을 되풀이한 말이라 ‘왜?’에 답하지 못합니다. ④ ‘저녁으로 피자를 좋아한다’는 아침밥과 관계없습니다."
+        ],
+        "막히면": [
+          "문장 앞에 Because를 붙여 읽어 보게 합니다. “Breakfast is important because it gives us energy.”처럼 자연스러우면 이유입니다."
+        ],
+        "주의": [
+          "⑤ 문장의 like는 ‘좋아하다’가 아니라 ‘~ 같은’이라는 뜻입니다. 아이가 헷갈리면 알려 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(같은 이유를 되풀이한 문단)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "이유가 정말 세 개일까요?",
+      "claim": "‘I think the school festival is fun.’에 두 친구가 이유를 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "First, we can play games.\nSecond, we can enjoy games.\nThird, games are fun."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "First, we can play games.\nSecond, we can eat snacks.\nThird, we can see shows."
+            }
+          ]
+        }
+      },
+      "question": "이유가 정말 세 개인 쪽은? 다른 쪽은 무엇이 문제인가요?",
+      "notes": {
+        "목적": "이유를 늘리려고 같은 이유를 다른 말로 되풀이하는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구 모두 First, Second, Third를 썼어. 그런데 정말 이유가 세 개인 쪽은 어디야?”",
+          "“가의 세 이유를 우리말로 바꿔 봐. 무엇이 같아?”"
+        ],
+        "정답": [
+          "이유가 정말 세 개인 쪽은 나입니다(게임, 간식, 공연). 가는 세 문장 모두 ‘게임을 한다·즐긴다·재미있다’로 같은 이유(게임)를 되풀이해서 실제로는 이유가 하나입니다."
+        ],
+        "막히면": [
+          "“가에서 games라는 낱말이 몇 번 나와? 세 문장이 모두 무엇에 대한 이야기야?”라고 묻습니다."
+        ],
+        "주의": [
+          "가를 고치려면 서로 다른 이유 두 개만 써도 됩니다. 이유의 개수보다 서로 다른 것이 중요합니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "막연한 예시를 구체적으로 바꾸어 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "예시를 구체적으로",
+      "text": "막연한 예시를 때·곳·사람이 보이게 바꾸어 말해요.",
+      "problems": [
+        {
+          "text": "이유: Music helps us relax.\nFor example, music is nice. → ?"
+        },
+        {
+          "text": "이유: Our town has a nice park.\nFor example, parks are good. → ?"
+        }
+      ],
+      "hint": "언제? 어디서? 누구와? 무엇을 했나요?",
+      "notes": {
+        "목적": "‘좋다·재미있다’로 끝나는 막연한 예시를 때·곳·사람이 보이는 실제 일로 바꾸어 영어로 말합니다(목표 A·B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“‘음악은 좋다’는 예시가 아니라 또 하나의 생각이야. 네가 언제, 어디서 음악을 듣고 편안해졌는지 실제 일을 말해 봐.”",
+          "“우리말로 먼저 말하고 영어로 바꿔 보자.”"
+        ],
+        "예상답": [
+          "① For example, I listen to music after dinner, and I feel calm. / For example, my dad plays the guitar on Sundays, and we relax.",
+          "② For example, I play badminton there with my sister every Saturday.",
+          "기준: For example 뒤에 때(after dinner, every Saturday)·곳(there, in my room)·사람(my sister, my dad) 가운데 하나 이상이 들어가고 이유를 보여 주면 맞습니다. 정답은 하나가 아닙니다."
+        ],
+        "막히면": [
+          "부모가 “음악을 언제 들어? 어디서? 누구랑?”이라고 하나씩 묻고, 아이의 우리말 답을 부모가 영어로 바꿔 말해 주면 따라 하게 합니다."
+        ],
+        "주의": [
+          "relax는 ‘편히 쉬다’, calm은 ‘차분한’이라는 뜻입니다.",
+          "여기까지가 좋은 이유와 예시 익히기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "의견·이유 문단을 쓰는 순서와 개요",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "쓰는 순서와 개요",
+      "steps": [
+        "주제 카드를 골라 의견을 정해요.\n(찬성도 반대도 좋아요)",
+        "이유를 두세 개 적고\n서로 다른지 확인해요.",
+        "이유마다 예시를 적어요.\n(때·곳·사람)",
+        "개요를 보고 문단을 써요.",
+        "점검표로 확인하고 고쳐요."
+      ],
+      "figure": {
+        "type": "table",
+        "headers": [
+          "개요",
+          "메모"
+        ],
+        "rows": [
+          [
+            "의견",
+            "walking is good"
+          ],
+          [
+            "이유 ①",
+            "good exercise"
+          ],
+          [
+            "예시 ①",
+            "20 min, every morning"
+          ],
+          [
+            "이유 ②",
+            "talk with friends"
+          ],
+          [
+            "예시 ②",
+            "Jisu, the corner"
+          ],
+          [
+            "이유 ③",
+            "enjoy the seasons"
+          ],
+          [
+            "예시 ③",
+            "cherry blossoms"
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.7
+        ],
+        "size": 18,
+        "alt": "본보기 문단의 개요: 의견 walking is good, 이유 ① good exercise, 예시 ① 20 min, every morning, 이유 ② talk with friends, 예시 ② Jisu, the corner, 이유 ③ enjoy the seasons, 예시 ③ cherry blossoms"
+      },
+      "notes": {
+        "목적": "주제 고르기 → 이유 두세 개 → 예시 → 개요를 보고 쓰기 → 점검의 순서를 보여 주고, 오른쪽에 본보기 문단의 개요(쓰기 전에 낱말로 적는 짧은 메모)를 보여 줍니다(목표 B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽은 S04 본보기 문단을 쓰기 전에 적은 개요야. 문장 말고 낱말만 짧게 적었지?”",
+          "“이유를 적고 나면 꼭 확인해. 서로 다른 이유야?”",
+          "“다음 장에서 주제 카드를 골라 엄마(아빠)랑 인터뷰하면서 네 개요를 만들어 보자.”"
+        ],
+        "예상답": [
+          "“의견을 정하고, 서로 다른 이유 두세 개와 예시를 먼저 메모해요.”"
+        ],
+        "막히면": [
+          "개요가 무엇인지 헷갈리면 “글을 쓰기 전에 하는 장보기 목록 같은 거야. 낱말만 적어.”라고 비유해 줍니다."
+        ],
+        "주의": [
+          "개요에는 우리말을 섞어 적어도 됩니다. 영어 문장은 문단을 쓸 때 만듭니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "주제 카드 인터뷰로 의견·이유·예시를 말하고 개요 쓰기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "주제 카드 인터뷰",
+      "steps": [
+        "주제 카드 하나를 골라요:\n운동 / 요리 / 독서",
+        "부모: What do you think\nabout playing sports?",
+        "아이: In my opinion, ~.",
+        "부모: Why? Any other reasons?\n아이: First, ~. Second, ~.",
+        "부모: For example?\n→ 활동지 4 개요표에 적어요."
+      ],
+      "criteria": [
+        "In my opinion, ~.로 의견을 말했어요",
+        "서로 다른 이유를 두세 개 말했어요",
+        "이유마다 때·곳·사람이 보이는 예시를 말했어요"
+      ],
+      "notes": {
+        "목적": "아이가 세 주제 가운데 하나를 고르고, 부모가 ‘왜? 또? 예를 들면?’을 물으며 의견·이유·예시를 말하게 한 뒤 활동지 4 개요표에 적습니다(목표 A·B). 이때 고른 주제로 다음 두 차시의 발표와 질문 답하기를 합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "준비: 종이 세 장에 주제를 씁니다. 가 Playing sports is good for students.(운동) 나 Learning to cook is useful.(요리) 다 Reading books is a great hobby.(독서). “셋 가운데 가장 할 말이 많은 주제를 골라 봐. 찬성해도 되고 반대해도 돼.”",
+          "(부모) “What do you think about playing sports?” → (아이) “In my opinion, playing sports is good for students.” → (부모) “Why?” → (아이) “First, it makes us healthy.” → (부모) “Any other reasons?” → (아이) “Second, we can make friends. Third, ~.” → (부모) “For example?” → (아이) “For example, I play badminton with my dad every Saturday.”",
+          "“지금 말한 것을 활동지 4의 개요표에 낱말로 짧게 적어 볼까? 이유가 서로 다른지도 확인하자.”"
+        ],
+        "예상답": [
+          "가 운동: makes us healthy(예: badminton every Saturday) / make friends(예: met my best friend on the soccer team) / relax(예: play basketball after a math test)",
+          "나 요리: make healthy food(예: made fried rice with vegetables last weekend) / help my family(예: cook eggs for my little brother on Saturdays) / fun and creative(예: made a new sandwich with apple and cheese)",
+          "다 독서: learn new things(예: read a book about space, learned about Mars) / read anywhere(예: read on the bus every morning) / my writing gets better(예: my diary got better after reading many stories)",
+          "기준: 의견 하나, 서로 다른 이유 두세 개, 이유마다 때·곳·사람이 보이는 예시를 말하면 잘한 것입니다. 어떤 의견을 고르든 상관없습니다."
+        ],
+        "막히면": [
+          "이유가 떠오르지 않으면 “몸에는? 마음에는? 친구나 가족에게는?”처럼 서로 다른 쪽에서 생각해 보게 합니다.",
+          "영어 낱말이 떠오르지 않으면 부모가 알려 주고 따라 말하게 합니다. 개요에는 우리말을 섞어 적어도 됩니다."
+        ],
+        "주의": [
+          "반대 의견도 됩니다. 예: In my opinion, reading books is not my favorite hobby. First, ~. 이 경우 마무리도 같은 의견으로 씁니다.",
+          "Any other reasons?(다른 이유는?), For example?(예를 들면?)은 부모가 묻는 말입니다. 활동지 4 개요표는 S11에서 그대로 쓰니 꼭 채우고 넘어갑니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 쓰기(개요를 보고 의견·이유 문단 쓰기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "혼자 써요: 의견·이유 문단",
+      "text": "활동지 4의 개요를 보고 활동지 5에 한 문단으로 써요.",
+      "problems": [
+        {
+          "text": "주제문:\nIn my opinion, ~."
+        },
+        {
+          "text": "이유 ① + 예시:\nFirst, ~. For example, ~."
+        },
+        {
+          "text": "이유 ② + 예시:\nSecond, ~. For example, ~."
+        },
+        {
+          "text": "(이유 ③ + 예시)\nThird, ~. For example, ~."
+        },
+        {
+          "text": "마무리:\nFor these reasons, ~."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 자기 개요를 보고 주제문–서로 다른 이유와 예시 두세 쌍–마무리를 갖춘 6~8문장의 문단을 쓰는지 확인합니다(목표 B). 활동지 5에 쓰고, 활동지 6 점검표로 스스로 고칩니다.",
+        "시간": "약 7분",
+        "말하기": [
+          "“활동지 4의 개요를 보고 활동지 5에 한 문단으로 써 볼래? 화면의 순서대로 쓰면 돼. 이유 ③은 있으면 쓰고, 없으면 두 개로 끝내도 돼.”",
+          "“다 쓰면 소리 내어 한 번 읽고, 활동지 6의 점검표로 하나씩 확인해 줘.”"
+        ],
+        "정답": [
+          "예시 문단(운동): In my opinion, playing sports is good for students. First, it makes us healthy. For example, I play badminton with my dad every Saturday, and I don't get sick often. Second, we can make friends. For example, I met my best friend on the soccer team. Third, we can relax. For example, after a math test, I play basketball with my friends and feel happy again. For these reasons, I think every student can enjoy sports.",
+          "점검표 여섯 항목: ① 첫 문장이 In my opinion, ~. 또는 I think ~.로 시작하는 주제문(둘을 함께 쓰지 않음) ② 이유가 두세 개이고 First, Second, (Third)로 시작 ③ 이유가 서로 다르고 주제문을 되풀이하지 않음 ④ 이유마다 For example로 맞는 예시를 쓰고, 예시에 때·곳·사람이 보임 ⑤ 마무리 문장이 주제문과 같은 의견 ⑥ 첫 글자 대문자, 끝에 마침표, 연결어 뒤 쉼표. 6~8문장이고 여섯 항목 가운데 다섯 개 이상 지키면 통과입니다. 의견의 내용은 무엇이든 됩니다."
+        ],
+        "막히면": [
+          "바로 고쳐 주지 말고 “이 두 이유는 서로 달라?”, “이 예시에 언제나 누구가 보여?”처럼 점검표 항목으로만 묻습니다.",
+          "모르는 낱말은 부모에게 묻거나 사전에서 찾게 합니다. 도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "예시 문단은 부모님이 참고하는 것입니다. 아이에게 먼저 보여 주지 말고, 다 쓴 뒤 S12에서 견주어 봅니다.",
+          "다 쓴 활동지 5는 버리지 말고 보관합니다. 다음 차시 ‘의견 발표하기’에서 이 문단으로 발표 원고를 만듭니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘 쓴 예와 피드백 방법",
+      "role": "feedback",
+      "objectives": [
+        "B"
+      ],
+      "title": "잘 쓴 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘 쓴 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "In my opinion, playing sports is ~."
+        },
+        {
+          "text": "First, it makes us healthy."
+        },
+        {
+          "text": "Second, we can make friends."
+        },
+        {
+          "text": "For example, I met my best friend ~."
+        }
+      ],
+      "bad": [
+        {
+          "text": "In my opinion, I think ~.",
+          "note": "하나만\n써요"
+        },
+        {
+          "text": "Third, it makes us strong.",
+          "note": "첫째 이유와\n같아요"
+        },
+        {
+          "text": "For example, it is fun.",
+          "note": "때·곳·사람을\n넣어요"
+        }
+      ],
+      "explain": "주제문 → 이유가 서로 다른지 → 예시가 구체적인지 → 마무리가 같은 의견인지 점검해요.",
+      "notes": {
+        "목적": "아이의 문단을 잘 쓴 예와 견주어 보고, 우리말 피드백 순서에 따라 고칠 곳 하나를 아이가 직접 고치게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네 문단을 소리 내어 읽어 줄래?”",
+          "“잘한 점부터 말해 볼게. 이유가 서로 달라서 네 생각이 탄탄하게 들려. 그리고 예시에 언제 있었던 일인지가 보여.”",
+          "“한 군데만 같이 볼까? 이 두 이유는 서로 다른 이유야? 다른 쪽에서 본 이유로 바꿔 볼래?”"
+        ],
+        "예상답": [
+          "“Third를 ‘운동하면 기분이 좋아진다’로 바꿀게요.” “For example 뒤에 언제 했는지 넣을게요.”"
+        ],
+        "정답": [
+          "잘 쓴 예(S11 예시 문단): In my opinion, playing sports is good for students. First, it makes us healthy. For example, I play badminton with my dad every Saturday, and I don't get sick often. Second, we can make friends. For example, I met my best friend on the soccer team. Third, we can relax. For example, after a math test, I play basketball with my friends and feel happy again. For these reasons, I think every student can enjoy sports."
+        ],
+        "막히면": [
+          "이유가 겹치면 S07, 예시가 막연하면 S08, 짜임이 빠졌으면 S03·S05를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다.",
+          "우리말 피드백 순서: ① 아이가 소리 내어 읽기 ② 잘한 점 두 가지를 구체적으로 말하기 ③ 점검표에서 빠진 항목 하나만 골라 질문으로 알려 주기 ④ 아이가 직접 고쳐 쓰기. 틀린 곳을 모두 고쳐 주지 않습니다.",
+          "의견의 내용은 고치지 않습니다. 부모님 생각과 달라도 이유와 예시가 맞으면 잘 쓴 문단입니다(오해 M5)."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "마무리 확인(겹치는 이유와 맞지 않는 예시 찾아 고치기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "혼자 찾아요: 여름",
+      "passage": {
+        "paragraphs": [
+          "In my opinion, summer is the best season.",
+          "First, we can play in the sea.",
+          "For example, my family went to Busan and played in the sea every day.",
+          "Second, summer has delicious fruit.",
+          "For example, I like snowmen in winter.",
+          "Third, we can go to the beach in summer.",
+          "For these reasons, I think summer is the best season."
+        ],
+        "numbered": true
+      },
+      "question": "① 이유와 맞지 않는 예시는?　② 앞의 이유와 겹치는 이유는? 어떻게 고칠까요?",
+      "notes": {
+        "목적": "처음 보는 문단에서 이유와 맞지 않는 예시와 앞 이유를 되풀이한 이유를 찾아 고쳐 말하는지 확인합니다(목표 A, 오해 M1·M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“혼자 읽고 답해 줘. delicious는 맛있는, beach는 바닷가야.”"
+        ],
+        "정답": [
+          "① ⑤ For example, I like snowmen in winter. 겨울 눈사람 이야기라 ‘여름에는 맛있는 과일이 있다’는 이유를 보여 주지 못합니다. 고친 예: For example, I ate a big watermelon with my family last August.",
+          "② ⑥ Third, we can go to the beach in summer. ②(바다에서 놀 수 있다)와 같은 이유입니다. 고친 예: Third, we have a long vacation. (그리고 예시를 붙이면 더 좋습니다: For example, I visited my grandparents for two weeks.)",
+          "기준: 두 문장을 바르게 찾고, 하나 이상을 알맞게 고쳐 말하면 통과. 고친 문장은 우리말로 말해도 됩니다.",
+          "글의 뜻: ① 내 생각에는 여름이 가장 좋은 계절이에요. ② 첫째로, 바다에서 놀 수 있어요. ③ 예를 들어, 우리 가족은 부산에 가서 날마다 바다에서 놀았어요. ④ 둘째로, 여름에는 맛있는 과일이 있어요. ⑤ 예를 들어, 나는 겨울에 눈사람을 좋아해요. ⑥ 셋째로, 여름에는 바닷가에 갈 수 있어요. ⑦ 이런 이유로, 나는 여름이 가장 좋은 계절이라고 생각해요."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “For example 바로 앞의 이유를 읽어 봐.”, “세 이유를 우리말로 바꿔 봐. 같은 게 있어?”라고만 묻습니다."
+        ],
+        "주의": [
+          "⑥을 찾지 못하면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "주제문 → 서로 다른 이유 2~3개 + 예시 → For these reasons, ~.\n예시는 때·곳·사람이 보이게 써요.",
+      "do": "이유가 서로 다른지 확인하기",
+      "dont": "In my opinion, I think ~.",
+      "review": [
+        {
+          "text": "이유 세 개를 여는\n연결어 세 개는?"
+        },
+        {
+          "text": "좋은 예시에\n보이는 세 가지는?"
+        },
+        {
+          "text": "For these reasons의\n뜻은?"
+        }
+      ],
+      "next": "의견 발표하기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“좋은 이유는 어떤 이유라고 했지?”",
+          "“좋은 예시에는 무엇이 보여야 했지?”"
+        ],
+        "예상답": [
+          "“왜?에 답하고 서로 다른 이유요.” “언제, 어디서, 누구와가 보여야 해요.”"
+        ],
+        "정답": [
+          "① First, Second, Third",
+          "② 때(언제), 곳(어디서), 사람(누구와)",
+          "③ 이런 이유로"
+        ],
+        "주의": [
+          "다음 차시 ‘의견 발표하기’에서 오늘 쓴 문단(활동지 5)으로 2분 발표를 합니다. 활동지 5를 꼭 챙겨 두세요. 아이가 원하면 그 전에 문단을 한두 번 소리 내어 읽어 보게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(중2 의견 문단 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 의견 문단 다시 보기",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "I think winter is great.",
+            "sub": "주제문: 겨울은 멋져요."
+          },
+          {
+            "word": "First, we can ski.",
+            "sub": "이유: 스키를 탈 수 있어요."
+          },
+          {
+            "word": "For example, I skied with\nmy dad last January.",
+            "sub": "예시: 지난 1월에 아빠와 스키를 탔어요."
+          },
+          {
+            "word": "So, I think winter is\nmy favorite season.",
+            "sub": "마무리"
+          }
+        ]
+      },
+      "key": "이유는 ‘왜?’에, 예시는 ‘예를 들면?’에 답해요.",
+      "notes": {
+        "목적": "S02에서 의견 문단의 짜임이나 이유·예시가 흔들리면, 오늘 문단을 쓰기 전에 중2 의견 문단의 네 부분을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“주제문, 이유, 예시, 마무리가 하나씩 있어. 이유는 왜?에, 예시는 예를 들면?에 답해.”",
+          "“좋아하는 계절로 이유 하나와 예시 하나를 말해 볼래?”"
+        ],
+        "정답": [
+          "겨울은 멋져요 / 스키를 탈 수 있어요 / 지난 1월에 아빠와 스키를 탔어요 / 겨울은 내가 가장 좋아하는 계절이에요. 예: I think summer is great. First, we can swim. For example, I swam in the sea last August. (과거형 swam은 아이가 말하면 맞다고 인정합니다.)"
+        ],
+        "막히면": [
+          "부모가 먼저 자기 생각을 네 문장으로 말하고, 아이가 계절과 낱말만 바꾸어 따라 하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중2 ‘의견 문단 쓰기’(KR22-G08-ENG-OPINPARA-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "skied는 ski(스키를 타다)의 과거형입니다(규칙 동사 -ed).",
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "의견·이유 문단 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "본보기 문단을 읽고 각 부분의 문장 번호를 쓰세요.",
+        "read": "① In my opinion, walking to school is good for students. ② First, walking is good exercise. ③ For example, I walk for twenty minutes every morning, so my legs are strong. ④ Second, you can talk with your friends on the way. ⑤ For example, I meet my friend Jisu at the corner, and we talk about our day. ⑥ Third, you can enjoy the seasons. ⑦ For example, last spring I saw beautiful cherry blossoms on my way to school. ⑧ For these reasons, I think walking is the best way to go to school.",
+        "table": {
+          "headers": [
+            "주제문",
+            "이유 (세 개)",
+            "예시 (세 개)",
+            "마무리 문장"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "size": 14
+        },
+        "answer": "주제문 ① / 이유 ②, ④, ⑥ / 예시 ③, ⑤, ⑦ / 마무리 ⑧. 네 칸 모두 맞으면 통과. 낱말 뜻: exercise 운동, on the way 가는 길에, corner 모퉁이, season 계절, cherry blossom 벚꽃."
+      },
+      {
+        "no": 2,
+        "prompt": "주제문 ‘I think learning English is useful.’의 이유로 쓸 수 있는 문장 세 개에 ✔ 하세요.",
+        "choices": [
+          "① We can talk with people from other countries.",
+          "② English is really useful.",
+          "③ We can read English books and websites.",
+          "④ My cat has white fur.",
+          "⑤ We can understand English songs."
+        ],
+        "choices_size": 14,
+        "answer": "✔: ①, ③, ⑤. 세 개를 모두 고르고 ②④를 고르지 않으면 통과. ②는 주제문을 되풀이한 말이라 이유가 아니고, ④는 영어 공부와 관계없습니다. 낱말 뜻: useful 쓸모 있는, other countries 다른 나라들, website 누리집, fur 털."
+      },
+      {
+        "no": 3,
+        "prompt": "문단을 읽고 ① 앞의 이유를 되풀이한 문장에 밑줄을 그으세요. ② 이유를 보여 주지 못하는 예시에 물결선을 그으세요. ③ 두 문장을 고쳐 쓰세요.",
+        "read": "In my opinion, riding a bike is a great hobby. First, it is good exercise. For example, I ride my bike to the park every Saturday. Second, you can go to many places. For example, my dad and I go to the river by bike on Sundays. Third, it is good exercise for your body. For example, a bike has two wheels. For these reasons, I think riding a bike is a great hobby.",
+        "line_label": "③",
+        "lines": 2,
+        "answer": "① Third, it is good exercise for your body. (First의 ‘좋은 운동’과 같은 이유) ② For example, a bike has two wheels. (바퀴가 두 개라는 것은 어떤 이유도 보여 주지 못함) ③ 예: Third, it is fun with friends. For example, my friends and I ride bikes together after school. / Third, it doesn't cost money. For example, I don't pay for the bus. 새 이유가 앞의 두 이유와 다르고, 예시가 그 이유를 보여 주면 통과. 낱말 뜻: hobby 취미, ride a bike 자전거를 타다, river 강, wheel 바퀴."
+      },
+      {
+        "no": 4,
+        "prompt": "주제 카드에서 하나를 고르고(운동 Playing sports is good for students. / 요리 Learning to cook is useful. / 독서 Reading books is a great hobby.) 개요표를 채우세요(S10에서 말한 내용). 반대 의견도 좋아요. 낱말로 짧게 쓰세요.",
+        "table": {
+          "headers": [
+            "부분",
+            "나의 개요(메모)"
+          ],
+          "rows": [
+            [
+              "고른 주제와 의견",
+              ""
+            ],
+            [
+              "이유 ① (First)",
+              ""
+            ],
+            [
+              "예시 ① (때·곳·사람)",
+              ""
+            ],
+            [
+              "이유 ② (Second)",
+              ""
+            ],
+            [
+              "예시 ②",
+              ""
+            ],
+            [
+              "이유 ③ (Third, 있으면)",
+              ""
+            ],
+            [
+              "예시 ③",
+              ""
+            ],
+            [
+              "마무리 (For these reasons)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.34,
+            0.66
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "아이의 생각이면 무엇이든 됩니다. 예(요리): Learning to cook is useful / make healthy food / made fried rice with vegetables last weekend / help my family / cook eggs for my brother on Saturdays / fun and creative / made a new sandwich / cooking is useful. 의견과 이유 두 개 이상, 이유마다 예시가 채워지고, 이유가 서로 다르면 통과."
+      },
+      {
+        "no": 5,
+        "prompt": "4의 개요를 보고 6~8문장의 의견·이유 문단을 쓰세요. 주제문(In my opinion, ~.) → 이유와 예시 두세 쌍(First / Second / Third + For example) → 마무리(For these reasons, ~.) 순서로 이어 쓰세요. 이 문단은 다음 두 수업에서 발표 원고로 쓰니 잘 보관하세요.",
+        "eng": {
+          "trace": [],
+          "blank": 9
+        },
+        "answer": "예(독서): In my opinion, reading books is a great hobby. First, we can learn new things. For example, I read a book about space last month, and I learned about Mars. Second, we can read anywhere. For example, I read on the bus every morning. Third, reading helps our writing. For example, my diary got better after I read many stories. For these reasons, I think reading is the best hobby for students. 정답은 하나가 아닙니다. 활동지 6 점검표의 여섯 항목 가운데 다섯 개 이상 지키면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "5에 쓴 문단을 점검표로 확인하세요. 나와 부모님이 각각 ✔ 하고, 고칠 문장은 아래 줄에 고쳐 쓰세요.",
+        "table": {
+          "headers": [
+            "점검할 것",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① 첫 문장이 주제문(In my opinion, ~. 또는 I think ~.)인가요? 둘을 함께 쓰지 않았나요?",
+              "",
+              ""
+            ],
+            [
+              "② 이유가 두세 개 있고 First, Second, (Third)로 시작하나요?",
+              "",
+              ""
+            ],
+            [
+              "③ 이유가 서로 다르고, 주제문을 되풀이하지 않았나요?",
+              "",
+              ""
+            ],
+            [
+              "④ 이유마다 맞는 예시가 있고, 예시에 때·곳·사람이 보이나요?",
+              "",
+              ""
+            ],
+            [
+              "⑤ 마무리 문장(For these reasons, ~.)이 주제문과 같은 의견인가요?",
+              "",
+              ""
+            ],
+            [
+              "⑥ 대문자, 마침표, 연결어 뒤 쉼표를 지켰나요?",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "lines": 2,
+        "answer": "여섯 항목 가운데 다섯 개 이상 ✔이면 통과. 아이와 부모의 판단이 다른 항목은 함께 문단을 다시 읽으며 이야기합니다. 부모님은 잘한 점 두 가지를 먼저 말하고, 빠진 항목 하나만 질문으로 알려 준 뒤 아이가 고쳐 쓰게 합니다. 의견의 내용은 고치지 않습니다. 고친 문장 예: In my opinion, I think cooking is fun. → In my opinion, cooking is fun. / For example, it is fun. → For example, I made pancakes with my mom last Sunday."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 이유 세 개를 쓸 때 문장 앞에 쓰는 연결어 세 개를 쓰세요.\n② In my opinion, I think reading is fun.을 바르게 고쳐 쓰세요.\n③ 좋은 예시에 보여야 하는 세 가지를 우리말로 쓰세요.",
+        "lines": 3,
+        "answer": "① First, Second, Third ② In my opinion, reading is fun. (또는 I think reading is fun.) ③ 때(언제), 곳(어디서), 사람(누구와). 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 쓰기(점검표): 여섯 항목 □  다섯 항목 □  네 항목 이하 □ (도움을 받음 □)",
+      "S13 겹치는 이유와 맞지 않는 예시: 둘 다 찾고 고쳐 말함 □  찾기만 함 □  못 찾음 □",
+      "고른 주제(다음 두 차시에 이어 씀): 운동 □  요리 □  독서 □   / 활동지 5 보관 □"
+    ]
+  },
+  "break_after": "S08"
 }
