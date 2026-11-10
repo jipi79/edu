@@ -453,6 +453,11 @@ function chart(deck, slide, sid, fig, box) {
   };
   if (fig.chart === "bar" || !fig.chart) { opts.barDir = "col"; opts.dataLabelPosition = "outEnd"; opts.barGapWidthPct = 60; }
   if (fig.chart === "line") { opts.lineDataSymbol = "circle"; opts.lineDataSymbolSize = 9; opts.lineSize = 3; opts.dataLabelPosition = "t"; }
+  // 값 이름표의 소수 자리: 자료에서 가장 긴 소수 자리를 따른다(기본 형식은 정수로 반올림해 1.6이 2로 보임).
+  const decimals = (vs) => Math.max(0, ...vs.map((v) => (String(v).split(".")[1] || "").length));
+  const fmt = (d) => (d ? `#,##0.${"0".repeat(d)}` : "#,##0");
+  if (fig.chart !== "pie") opts.dataLabelFormatCode = fmt(decimals(fig.values));
+  if (fig.step !== undefined || fig.min !== undefined) opts.valAxisLabelFormatCode = fmt(decimals([fig.step ?? 0, fig.min ?? 0]));
   if (fig.chart === "pie") { opts.dataLabelPosition = "bestFit"; opts.showPercent = !!fig.percent; opts.showValue = !fig.percent; }
   // 눈금: max·min·step(한 칸의 크기)을 주면 그대로 쓴다(글의 '눈금 한 칸 = ○'과 맞추기 위함).
   if (fig.max !== undefined) opts.valAxisMaxVal = fig.max;
