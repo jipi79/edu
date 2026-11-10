@@ -1,0 +1,67 @@
+{
+  "id": "KR22-G08-MAT-POLYMUL-L01",
+  "concept_id": "MAT-POLYMUL",
+  "title": "단항식과 다항식의 곱셈·나눗셈",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "수와식",
+  "sequence": 6,
+  "file_stem": "중2_수학_수와식_06_단항식과다항식의곱셈·나눗셈",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-MAT-I01"
+    ],
+    "units": [
+      "2.1.3",
+      "2.2.2",
+      "2.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "분배법칙을 이용해 (단항식)×(다항식)과 (다항식)÷(단항식)을 계산한다.",
+  "prerequisites": [
+    {
+      "text": "다항식의 덧셈과 뺄셈",
+      "lesson": "KR22-G08-MAT-POLYADD-L01",
+      "grade_item": "KR22-G08-MAT-I01"
+    },
+    {
+      "text": "단항식의 곱셈과 나눗셈",
+      "lesson": "KR22-G08-MAT-MONOMUL-L01",
+      "grade_item": "KR22-G08-MAT-I01"
+    },
+    {
+      "text": "일차식과 수의 곱셈·나눗셈",
+      "lesson": "KR22-G07-MAT-LINMUL-L01",
+      "grade_item": "KR22-G07-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "단항식과 다항식의 곱셈·나눗셈 활동지",
+    "items": [],
+    "record": []
+  }
+}
