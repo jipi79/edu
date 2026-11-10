@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-ENG-CULTVIEW-L01",
+  "concept_id": "ENG-CULTVIEW",
+  "title": "문화적 관점 차이",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "의사소통과문화",
+  "sequence": 2,
+  "file_stem": "중2_영어_의사소통과문화_02_문화적관점차이",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-ENG-I03"
+    ],
+    "units": [
+      "3.4.2",
+      "3.5.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "같은 행동을 다르게 보는 문화적 관점을 비교하고 근거를 들어 자신의 생각을 말한다.",
+  "prerequisites": [
+    {
+      "text": "문화적 고정관념 살피기",
+      "lesson": "KR22-G07-ENG-STEREO-L01",
+      "grade_item": "KR22-G07-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "문화적 관점 차이 활동지",
+    "items": [],
+    "record": []
+  }
+}

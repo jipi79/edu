@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-ENG-PARAPHR-L01",
+  "concept_id": "ENG-PARAPHR",
+  "title": "바꾸어 말하기",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "의사소통과문화",
+  "sequence": 1,
+  "file_stem": "중2_영어_의사소통과문화_01_바꾸어말하기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-ENG-I03"
+    ],
+    "units": [
+      "3.4.2",
+      "3.5.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "In other words, ~. / It means ~. 로 낱말과 문장의 뜻을 쉬운 말로 바꾸어 설명한다.",
+  "prerequisites": [
+    {
+      "text": "뜻 확인하며 대화 잇기",
+      "lesson": "KR22-G07-ENG-CHECKMEAN-L01",
+      "grade_item": "KR22-G07-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "바꾸어 말하기 활동지",
+    "items": [],
+    "record": []
+  }
+}
