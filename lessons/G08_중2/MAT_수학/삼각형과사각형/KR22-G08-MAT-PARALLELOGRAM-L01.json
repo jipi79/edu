@@ -1,0 +1,66 @@
+{
+  "id": "KR22-G08-MAT-PARALLELOGRAM-L01",
+  "concept_id": "MAT-PARALLELOGRAM",
+  "title": "평행사변형의 성질",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "삼각형과사각형",
+  "sequence": 3,
+  "file_stem": "중2_수학_삼각형과사각형_03_평행사변형의성질",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-MAT-I03"
+    ],
+    "units": [
+      "2.4.3",
+      "2.7.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "평행사변형의 대변·대각·대각선의 성질을 설명하고 주어진 사각형이 평행사변형인지 판별한다.",
+  "prerequisites": [
+    {
+      "text": "위치 관계와 평행선",
+      "lesson": "KR22-G07-MAT-PARALLEL-L01",
+      "grade_item": "KR22-G07-MAT-I03"
+    },
+    {
+      "text": "삼각형의 합동 조건",
+      "lesson": "KR22-G07-MAT-CONGRU-L01",
+      "grade_item": "KR22-G07-MAT-I03"
+    },
+    {
+      "text": "여러 가지 사각형",
+      "lesson": "KR22-G04-MAT-QUAD-L01",
+      "grade_item": "KR22-G04-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "평행사변형의 성질 활동지",
+    "items": [],
+    "record": []
+  }
+}

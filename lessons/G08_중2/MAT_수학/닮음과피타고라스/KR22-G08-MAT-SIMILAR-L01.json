@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-MAT-SIMILAR-L01",
+  "concept_id": "MAT-SIMILAR",
+  "title": "닮음과 닮음 조건",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "닮음과피타고라스",
+  "sequence": 1,
+  "file_stem": "중2_수학_닮음과피타고라스_01_닮음과닮음조건",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-MAT-I03"
+    ],
+    "units": [
+      "2.4.3",
+      "2.7.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "닮은 도형의 닮음비를 구하고 삼각형의 닮음 조건(SSS·SAS·AA)으로 두 삼각형이 닮음인지 판별한다.",
+  "prerequisites": [
+    {
+      "text": "비례식",
+      "lesson": "KR22-G06-MAT-PROPORTION-L01",
+      "grade_item": "KR22-G06-MAT-I01"
+    },
+    {
+      "text": "삼각형의 합동 조건",
+      "lesson": "KR22-G07-MAT-CONGRU-L01",
+      "grade_item": "KR22-G07-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "닮음과 닮음 조건 활동지",
+    "items": [],
+    "record": []
+  }
+}

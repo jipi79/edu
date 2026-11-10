@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "will·be going to와 때를 나타내는 말로 방학 계획을 말하고 다섯 문장 안팎의 글로 쓴다.",
   "prerequisites": [
     {
       "text": "경험 말하고 쓰기",
@@ -43,19 +42,1035 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "방학·주말 계획을 묻는 말(What are you going to do this vacation?, Will you ~?)에 will·be going to + 동사원형(-s, -ed가 붙지 않은 동사의 원래 모양)과 때를 나타내는 말(this weekend, next week, next month, this summer vacation, in August)을 써서 대답하고, 때를 나타내는 말과 동사 모양으로 지난 일과 앞으로의 계획을 구별한다.",
+      "evidence": "will과 be going to(S03), 때를 나타내는 말(S04), 계획 묻고 답하기(S05), will goes 비교(S06), 지난 일일까 계획일까(S07), 방학 계획 인터뷰(S10), 묻는 말에 대답하기(S14), 활동지 1·2",
+      "success": "부모의 질문 3개 가운데 3개에 동사원형을 바르게 쓴 문장으로 대답하고, 때 표현을 넣는다(in next month ×). 지난 일·계획 바꾸기 3문제 가운데 3문제를 바르게 바꾼다."
+    },
+    {
+      "id": "B",
+      "text": "개요(언제·계획 세 가지·생각이나 바람)를 바탕으로 will·be going to와 순서 말(First, Then, Finally)을 써서 다섯 문장 안팎의 방학 계획 글을 쓰고, 점검표로 고쳐 쓴다.",
+      "evidence": "본보기 글(S08), 짜임과 개요(S09), 방학 계획 인터뷰(S10), 개요를 글로(S11), 혼자 쓰기(S12), 활동지 3·4·5",
+      "success": "다섯 문장 이상의 계획 글에서 점검표 여섯 항목 가운데 다섯 개 이상을 지킨다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필과 지우개",
+    "달력(종이 달력이나 휴대 전화 달력)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기, 모르는 낱말 찾기)"
+  ],
+  "boundary": "will + 동사원형과 be going to + 동사원형의 긍정문으로 계획을 말하고 쓴다. 묻고 답하기에는 앞 차시 ‘미래 표현’의 Will you ~?·Are you going to ~?와 짧은 대답, 6학년에서 배운 What are you going to do ~?를 쓰고, What will you do ~?는 듣고 대답만 한다. 때를 나타내는 말은 tomorrow, this weekend, next week, next month, this summer(winter) vacation, in + 달 이름(in August)으로 하고, 비교용으로 yesterday, last ~를 쓴다. 과거형은 ‘과거 시제 문장’에서 배운 동사만 쓴다. 계획 글의 짜임은 경험 글과 같은 처음(언제·계획 몇 가지)–가운데(계획 세 가지, First·Then·Finally)–끝(생각·바람) 하나다. will과 be going to의 차이는 ‘미리 정한 계획에는 be going to를 자주 쓴다’ 정도로만 말한다. 현재진행형으로 나타내는 미래, if·when·because 같은 접속사, want to·plan to 같은 to부정사 문장 만들기는 다루지 않는다(learn to swim은 덩어리 표현, I think it will be ~.는 끝 문장 틀로만 쓴다).",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "will·going to 뒤에 -s를 붙이거나 과거형을 쓴다(He will goes, I'm going to went).",
+      "response": "S03 카드에서 동사원형을 짚고, S06에서 will goes를 비교하며, S07 ③에서 고쳐 말한다. 점검표 ①에 넣는다."
+    },
+    {
+      "id": "M2",
+      "text": "be going to에서 be동사를 빠뜨리거나 주어와 맞지 않게 쓴다(I going to, She are going to).",
+      "response": "S03 카드에서 be동사를 주어에 맞춘다는 것을 짚고, S13 흔한 실수와 점검표 ②로 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "next·this·last 앞에 in·on을 붙인다(in next month, on this weekend).",
+      "response": "S04 표와 카드로 짚고, S06에서 비교한다. 달 이름에만 in을 쓴다(in August)는 것을 노트로 알려 준다."
+    },
+    {
+      "id": "M4",
+      "text": "계획 글에 과거형이 섞이거나(Then, I visited ~), 지난 일 문장에 미래 표현을 쓴다(Last summer, I will ~).",
+      "response": "S07에서 때 표현을 바꾸며 동사 모양을 함께 바꾸게 하고, S11 점검 단계에서 확인한다."
+    },
+    {
+      "id": "M5",
+      "text": "계획만 늘어놓고 처음 문장(언제·몇 가지)이나 끝 문장(생각·바람)을 빠뜨린다.",
+      "response": "S09에서 개요의 세 부분을 보여 주고, S10에서 개요표를 먼저 채운 뒤 S12에서 쓰게 한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "계획 말하고 쓰기",
+      "question": "이번 방학에 무엇을 할 거야?\n계획을 영어로 말하고 써 볼까?",
+      "goals": [
+        "① 때를 나타내는 말과 will·be going to로 계획을 말해요.",
+        "② 개요를 보고 다섯 문장 방학 계획 글을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "this summer vacation",
+            "sub": "이번 여름 방학"
+          },
+          {
+            "word": "I'm going to ~.",
+            "sub": "~할 거예요(정한 계획)"
+          },
+          {
+            "word": "I will ~.",
+            "sub": "~할 거예요"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 앞으로의 계획을 때를 나타내는 말과 함께 말하고 글로 쓰는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“이번 방학(또는 다음 방학)에 하고 싶은 일이 있어? 우리말로 먼저 세 가지만 말해 볼래?”",
+          "“오른쪽 말들을 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)",
+          "“지난 시간에는 지난 일을 글로 썼지? 오늘은 같은 짜임으로 앞으로의 계획을 말하고 써 볼 거야.”"
+        ],
+        "예상답": [
+          "“할머니 댁에 가고, 수영을 배우고, 책을 읽고 싶어요.”"
+        ],
+        "막히면": [
+          "방학이 멀면 ‘이번 주말’이나 ‘다음 달’ 계획으로 바꾸어 말하게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(this summer vacation, next month, I'm going to visit my grandparents. I will take swimming lessons. What are you going to do this vacation?)과 S08 본보기 글을 미리 들어 두세요.",
+          "달력(종이나 휴대 전화)을 준비하면 S04, S10에서 때를 나타내는 말을 짚기 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(미래 표현, 경험 말하고 쓰기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "미래 표현과 경험 글 떠올리기",
+      "text": "①②는 괄호에서 골라 읽고, ③은 대답해요.",
+      "problems": [
+        {
+          "text": "I'm going to (visit / visited) my uncle tomorrow."
+        },
+        {
+          "text": "Last Sunday, I (go / went) to the park."
+        },
+        {
+          "text": "경험 글의 세 부분(짜임)은?"
+        }
+      ],
+      "notes": {
+        "목적": "중1 ‘미래 표현’(KR22-G07-ENG-FUTURE-L01)의 going to + 동사원형과 지난 차시 ‘경험 말하고 쓰기’(KR22-G07-ENG-EXPWRITE-L01)의 과거형·글의 짜임을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 괄호에서 알맞은 말을 골라 문장 전체를 읽어 줘.”",
+          "“②는? 무엇을 보고 골랐어?”",
+          "“③, 지난 시간에 쓴 경험 글은 어떤 세 부분으로 되어 있었지?”"
+        ],
+        "정답": [
+          "① visit (I'm going to visit my uncle tomorrow. going to 뒤에는 동사원형)",
+          "② went (Last Sunday, I went to the park. Last Sunday는 지난 일)",
+          "③ 처음(언제·어디서·누구와) – 가운데(한 일, First·Then·Finally) – 끝(느낌)"
+        ],
+        "막히면": [
+          "①을 틀리면 “going to 뒤에는 동사의 어떤 모양이 왔지?”라고 묻습니다.",
+          "①②가 모두 어렵거나 ③을 떠올리지 못하면 S16(보충)을 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "will·be going to + 동사원형 다시 보기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "will과 be going to",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I will visit my grandma.",
+            "sub": "할머니 댁에 갈 거예요."
+          },
+          {
+            "word": "I'm going to visit my grandma.",
+            "sub": "할머니 댁에 갈 거예요.(정한 계획)"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "동사원형",
+          "text": "-s, -ed가 붙지 않은 원래 모양이에요.\nvisit, go, read"
+        },
+        {
+          "title": "be going to",
+          "text": "be동사는 주어에 맞게\nI'm, She's, We're"
+        }
+      ],
+      "key": "will·going to 뒤에는 동사원형!  (will goes ×, going to went ×)",
+      "notes": {
+        "목적": "will과 be going to 뒤에 동사원형이 온다는 것과 be going to의 be동사를 주어에 맞춘다는 것을 다시 확인합니다(목표 A, 오해 M1·M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장 모두 ‘할머니 댁에 갈 거예요’라는 뜻이야. be going to는 미리 정해 둔 계획에 자주 써.” (소리 자료를 듣고 따라 합니다.)",
+          "“will과 going to 뒤에는 동사의 원래 모양, 동사원형이 와. visit에 -s나 -ed가 붙지 않지?”",
+          "“be going to의 be는 주어에 맞춰. I는 I'm, 우리 엄마는?”"
+        ],
+        "예상답": [
+          "“My mom is going to ~. 줄이면 She's going to ~.”"
+        ],
+        "막히면": [
+          "“I am, She is, We are”를 먼저 말하게 하고 뒤에 going to를 붙이게 합니다."
+        ],
+        "주의": [
+          "will과 be going to의 자세한 차이는 다루지 않습니다. 오늘 글에서는 두 표현을 섞어 써도 됩니다(앞 차시 ‘미래 표현’과 같은 수준)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "지난 일과 앞으로의 일을 나타내는 때 표현",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "때를 나타내는 말",
+      "text": "때를 나타내는 말을 보면 지난 일인지 앞으로의 일인지 알 수 있어요.",
+      "table": {
+        "headers": [
+          "지난 일",
+          "뜻",
+          "앞으로",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "yesterday",
+            "어제",
+            "tomorrow",
+            "내일"
+          ],
+          [
+            "last weekend",
+            "지난 주말",
+            "this weekend",
+            "이번 주말"
+          ],
+          [
+            "last week",
+            "지난주",
+            "next week",
+            "다음 주"
+          ],
+          [
+            "last month",
+            "지난달",
+            "next month",
+            "다음 달"
+          ],
+          [
+            "last summer",
+            "지난여름",
+            "this summer vacation",
+            "이번 여름 방학"
+          ]
+        ],
+        "widths": [
+          0.22,
+          0.17,
+          0.37,
+          0.24
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "next, this, last 앞에는 in, on을 쓰지 않아요.  (in next month ×)",
+      "notes": {
+        "목적": "지난 일과 앞으로의 일을 나타내는 때 표현을 짝지어 익히고, next·this·last 앞에는 in·on을 쓰지 않는다는 것을 알려 줍니다(목표 A, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“왼쪽은 지난 일, 오른쪽은 앞으로의 일이야. 한 줄씩 읽어 보자.” (소리 자료를 듣고 따라 합니다.)",
+          "“달력을 보자. 오늘이 이번 주라면 다음 주는? 다음 달은 몇 월이야?”",
+          "“‘다음 달에’를 영어로 하면? in next month일까?”"
+        ],
+        "예상답": [
+          "“next month예요. next 앞에는 in을 안 써요.”"
+        ],
+        "막히면": [
+          "달력에서 지난주·이번 주·다음 주를 손가락으로 짚으며 last week, this week, next week를 함께 말합니다."
+        ],
+        "주의": [
+          "달 이름 앞에는 in을 씁니다(in August 8월에). 그러나 next, this, last가 붙으면 in, on을 쓰지 않습니다(next month, this weekend).",
+          "this summer vacation은 ‘이번 여름 방학’입니다. 겨울 방학이면 this winter vacation이라고 바꿉니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "계획을 묻는 말에 때 표현을 넣어 대답하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "계획을 물으면 답해요",
+      "text": "엄마(아빠)의 질문에 괄호 속 단서로 대답해요.",
+      "problems": [
+        {
+          "text": "What are you going to do this weekend?\n(clean my room)"
+        },
+        {
+          "text": "What are you going to do next month?\n(learn taekwondo)"
+        },
+        {
+          "text": "Will you read a book this weekend?\n(Yes)"
+        }
+      ],
+      "notes": {
+        "목적": "계획을 묻는 질문에 단서를 보고 동사원형과 때를 나타내는 말을 넣어 대답합니다(목표 A, 오해 M1·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 물어볼게. 괄호 속 단서로 대답해 줘. ①, What are you going to do this weekend?”",
+          "“②, What are you going to do next month?”",
+          "“③, Will you read a book this weekend?”"
+        ],
+        "정답": [
+          "① I'm going to clean my room (this weekend).",
+          "② I'm going to learn taekwondo (next month).",
+          "③ Yes, I will.",
+          "①②는 I will clean my room.처럼 will로 대답해도 맞습니다. ③은 Will로 물었으므로 will로 대답합니다."
+        ],
+        "막히면": [
+          "질문의 going to를 그대로 받아 “I'm going to + 단서”로 말하면 된다고 알려 줍니다."
+        ],
+        "주의": [
+          "What are you going to do ~?는 6학년 ‘계획 말하기’와 앞 차시에서 들은 질문입니다. 아이가 질문을 만들 필요는 없고, 대답만 바르게 하면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(will 뒤 -s, in next month)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "will goes일까요?",
+      "claim": "‘다음 달에 캠프에 갈 거예요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I will goes to camp in next month."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I will go to camp next month."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽에서 틀린 곳 두 군데는?",
+      "notes": {
+        "목적": "will 뒤에 -s를 붙이는 실수와 next 앞에 in을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1·M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 어디가 달라? 두 군데를 찾아볼래?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(I will go to camp next month.)입니다. 가는 will 뒤에 goes를 썼고(→ go), next month 앞에 in을 썼습니다(→ 지움)."
+        ],
+        "막히면": [
+          "S03 아래 카드와 S04 아래 카드를 차례로 보여 주며 하나씩 찾게 합니다."
+        ],
+        "주의": [
+          "주어가 I가 아니라 he여도 will 뒤는 동사원형입니다(He will go). 일반동사 현재 문장의 -s와 헷갈리지 않게 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "때 표현에 맞게 동사 모양 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "지난 일일까요, 계획일까요?",
+      "text": "지시대로 바꾸어 말해요.",
+      "problems": [
+        {
+          "text": "Last summer, I visited my uncle.\n→ next summer로 바꿔요"
+        },
+        {
+          "text": "I'm going to read a book next week.\n→ last week로 바꿔요"
+        },
+        {
+          "text": "I'm going to went shopping.\n→ 바르게 고쳐요"
+        }
+      ],
+      "notes": {
+        "목적": "때를 나타내는 말을 바꾸면 동사 모양도 바뀐다는 것을 연습합니다(목표 A, 오해 M1·M4). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 지난 일이야. next summer로 바꾸면 계획이 되지? 동사는 어떻게 바뀔까?”",
+          "“②는 반대야. 계획을 지난 일로 바꿔 줘.”",
+          "“③은 어디가 틀렸을까?”"
+        ],
+        "정답": [
+          "① Next summer, I'm going to visit my uncle. (Next summer, I will visit my uncle.도 맞음)",
+          "② I read a book last week. (read의 과거형은 철자가 같은 read)",
+          "③ I'm going to go shopping. (going to 뒤에는 동사원형)"
+        ],
+        "막히면": [
+          "“때를 나타내는 말이 바뀌었지? 지난 일이면 과거형, 앞으로면 will이나 going to + 동사원형.”이라고 짚어 줍니다."
+        ],
+        "주의": [
+          "read의 과거형은 철자가 같지만 소리가 다릅니다. 소리 자료로 확인합니다.",
+          "여기까지가 말하기 연습입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 계획 글에서 짜임과 때 표현 찾기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "본보기 글 읽기",
+      "passage": {
+        "title": "My Summer Vacation Plan",
+        "paragraphs": [
+          "This summer vacation, I'm going to do three things.",
+          "First, I'm going to visit my grandparents in Jeju.",
+          "Then, I will take swimming lessons at the town pool.",
+          "Finally, I'm going to read five books.",
+          "I think it will be a busy but fun vacation!"
+        ],
+        "numbered": true
+      },
+      "question": "언제의 계획인가요? 계획 세 가지와 순서 말을 찾아요.",
+      "notes": {
+        "목적": "본보기 계획 글을 함께 읽으며 처음(언제·계획 몇 가지)–가운데(순서 말과 계획)–끝(생각·바람)의 짜임을 찾습니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 낱말 뜻부터. grandparents는 조부모님, lesson은 수업·강습, pool은 수영장이야. 엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“①은 무엇을 알려 줘? 언제의 계획이고, 몇 가지야?”",
+          "“계획 세 가지는? 순서 말은?”",
+          "“⑤는 무엇을 말해? 지난 시간 경험 글의 끝 문장과 무엇이 달라?”"
+        ],
+        "예상답": [
+          "“이번 여름 방학 계획이고 세 가지예요.” “조부모님 댁 방문, 수영 강습, 책 다섯 권 읽기예요.”",
+          "“⑤는 생각이에요. 경험 글은 느낌(It was fun.)이었고 여기는 앞으로니까 it will be예요.”"
+        ],
+        "막히면": [
+          "문장마다 뜻을 부모가 먼저 말해 줍니다: ① 이번 여름 방학에 나는 세 가지를 할 거예요. ② 먼저, 제주에 계신 조부모님 댁에 갈 거예요. ③ 그다음에, 동네 수영장에서 수영 강습을 받을 거예요. ④ 마지막으로, 책 다섯 권을 읽을 거예요. ⑤ 바쁘지만 재미있는 방학이 될 것 같아요!"
+        ],
+        "주의": [
+          "I think it will be ~.(~할 것 같아요)는 끝 문장 틀로 그대로 쓰게 합니다. busy but fun처럼 but으로 두 말을 이어도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "계획 글의 개요(메모) 만들기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "계획 글의 짜임과 개요",
+      "text": "경험 글과 짜임은 같아요. 동사만 앞으로의 모양으로 써요.",
+      "table": {
+        "headers": [
+          "짜임",
+          "개요(메모)"
+        ],
+        "rows": [
+          [
+            "처음: 언제·계획 몇 가지",
+            "this summer vacation, three things"
+          ],
+          [
+            "가운데: 계획(순서대로)",
+            "visit grandparents (Jeju) → swimming lessons → read five books"
+          ],
+          [
+            "끝: 생각·바람",
+            "busy but fun"
+          ]
+        ],
+        "widths": [
+          0.32,
+          0.68
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "개요에는 낱말만 짧게! 문장은 쓸 때 will·going to로 만들어요.",
+      "notes": {
+        "목적": "본보기 글을 짜임에 따라 개요로 줄여 보며, 경험 글과 짜임은 같고 동사만 앞으로의 모양이 된다는 것을 보여 줍니다(목표 B, 오해 M5).",
+        "시간": "약 2분",
+        "말하기": [
+          "“S08 글을 개요로 줄이면 이렇게 돼. 지난 시간 경험 글 개요와 비교해 볼까?”",
+          "“처음에는 언제와 계획이 몇 가지인지, 가운데는 계획을 순서대로, 끝에는 생각이나 바람을 적어.”"
+        ],
+        "예상답": [
+          "“짜임은 똑같고, 동사만 will이나 going to를 써요.”"
+        ],
+        "막히면": [
+          "S08 글의 문장과 표의 칸을 번갈아 짚으며 “②번 문장이 표의 어디로 갔어?”라고 묻습니다."
+        ],
+        "주의": [
+          "이 표와 같은 빈 개요표가 활동지 3에 있습니다. S10 인터뷰에서 채웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "묻고 답하며 내 계획을 말하고 개요 쓰기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "방학 계획 인터뷰",
+      "steps": [
+        "달력에서 방학(또는 다음 달)을 함께 봐요.",
+        "부모가 물어요: What are you going to do this vacation?",
+        "아이가 답해요: I'm going to ~. / I will ~.",
+        "부모가 When?으로 물으면 때를 나타내는 말로 답해요.",
+        "역할을 바꾸고, 활동지 3에 개요를 적어요."
+      ],
+      "criteria": [
+        "will·going to 뒤에 동사원형을 말했어요",
+        "때를 나타내는 말을 넣었어요",
+        "계획을 세 가지 말했어요"
+      ],
+      "notes": {
+        "목적": "부모의 질문에 답하며 자기 방학 계획을 때 표현과 will·be going to로 말하고, 그 내용을 활동지 3의 개요표에 적습니다(목표 A·B).",
+        "시간": "약 4분",
+        "말하기": [
+          "“달력을 보자. 방학은 언제부터야? 엄마(아빠)가 물어볼게. What are you going to do this vacation?”",
+          "(아이) “I'm going to visit my aunt.” → (부모) “When?” → (아이) “In August.” → (부모) “What else?” → (아이) “I will learn to swim.”",
+          "“How will it be? 어떤 방학이 될 것 같아?” → (아이) “I think it will be fun.”",
+          "“지금 말한 것을 활동지 3 개요표에 낱말로 적어 볼까?” 그다음 역할을 바꿔 아이가 부모에게 What are you going to do this vacation?이라고 묻습니다."
+        ],
+        "예상답": [
+          "“I'm going to visit my aunt in Busan. I will learn to swim. I'm going to read three books. I think it will be fun.”",
+          "기준: will·going to 뒤에 동사원형을 말하고, 때를 나타내는 말(in August, next month, this vacation)을 넣고, 계획을 세 가지 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "영어 낱말이 떠오르지 않는 계획은 부모가 영어로 알려 주고 따라 말하게 합니다. 개요에는 우리말을 섞어 적어도 됩니다.",
+          "계획이 없다고 하면 “하고 싶은 일”로 바꾸어 묻습니다(가고 싶은 곳, 배우고 싶은 것, 읽고 싶은 책)."
+        ],
+        "주의": [
+          "When?(언제?), What else?(또 뭐?), How will it be?(어떨 것 같아?)는 부모가 묻는 말이며 아이가 외울 필요는 없습니다.",
+          "learn to swim의 to swim은 ‘수영하는 것’이라는 뜻입니다. 문법으로 설명하지 않고 덩어리 표현으로 씁니다.",
+          "개요표(활동지 3)는 S12에서 글을 쓸 때 그대로 씁니다. 꼭 채우고 넘어갑니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "개요를 다섯 문장 계획 글로 바꾸는 순서와 점검",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "개요를 계획 글로 써요",
+      "steps": [
+        "첫 문장: 언제 + 계획 몇 가지\nThis vacation, I'm going to do three things.",
+        "가운데: First, / Then, / Finally, + will·going to",
+        "끝 문장: 생각·바람  I think it will be fun.",
+        "점검: 동사원형, 때를 나타내는 말, 쉼표, 마침표"
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "read five books",
+            "sub": "개요(메모)"
+          },
+          {
+            "word": "Finally, I'm going to read five books.",
+            "sub": "문장",
+            "highlight": true
+          }
+        ]
+      },
+      "notes": {
+        "목적": "개요를 보고 처음–가운데–끝 순서로 다섯 문장 계획 글을 쓰는 방법과 다 쓴 뒤 점검할 것을 알려 줍니다(목표 B, 오해 M4·M5).",
+        "시간": "약 2분",
+        "말하기": [
+          "“첫 문장에는 언제의 계획인지와 몇 가지인지 써.”",
+          "“가운데는 First, Then, Finally 뒤에 쉼표, 그리고 will이나 going to + 동사원형.”",
+          "“끝 문장은 생각이나 바람. I think it will be fun.처럼.”",
+          "“다 쓰면 동사원형, 때를 나타내는 말, 쉼표, 마침표를 확인해.”"
+        ],
+        "예상답": [
+          "“메모 read five books가 Finally, I'm going to read five books.가 됐어요.”"
+        ],
+        "막히면": [
+          "오른쪽 예처럼 개요 한 칸과 문장 한 줄을 짝지어 보여 줍니다."
+        ],
+        "주의": [
+          "경험 글을 쓴 경험이 있으므로 짜임은 짧게 확인하고, 동사 모양(will·going to + 동사원형)에 집중합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 쓰기(개요를 보고 다섯 문장 계획 글 쓰기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "혼자 써요: 다섯 문장",
+      "text": "활동지 3의 개요를 보고 활동지 4에 다섯 문장으로 써요.",
+      "problems": [
+        {
+          "text": "첫 문장: 언제·계획 몇 가지"
+        },
+        {
+          "text": "First, ~."
+        },
+        {
+          "text": "Then, ~."
+        },
+        {
+          "text": "Finally, ~."
+        },
+        {
+          "text": "끝 문장: 생각·바람"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 자기 개요를 보고 다섯 문장 이상의 계획 글을 쓰는지 확인합니다(목표 B). 활동지 4에 쓰고, 활동지 5 점검표로 스스로 고칩니다.",
+        "시간": "약 6분",
+        "말하기": [
+          "“활동지 3의 개요를 보고 활동지 4에 다섯 문장으로 써 볼래? 화면의 다섯 칸 순서대로.”",
+          "“다 쓰면 활동지 5의 점검표로 하나씩 확인하고, 고칠 곳은 고쳐 써.”"
+        ],
+        "정답": [
+          "예시 글: This winter vacation, I'm going to do three things. First, I'm going to visit my aunt in Busan. Then, I will practice the piano every day. Finally, I'm going to read three books. I think it will be a great vacation!",
+          "기준(점검표 여섯 항목): ① will·going to 뒤에 동사원형 ② be going to의 be동사(I'm 등) ③ 순서 말 뒤에 쉼표 ④ 첫 문장에 때를 나타내는 말 ⑤ 끝 문장에 생각·바람 ⑥ 첫 글자 대문자, 끝에 마침표. 다섯 문장 이상이고 여섯 항목 가운데 다섯 개 이상 지키면 통과입니다. 내용은 아이의 실제 계획이나 바람이면 무엇이든 됩니다."
+        ],
+        "막히면": [
+          "바로 고쳐 주지 말고 “will 뒤에는 어떤 모양?”, “going to 앞에 무엇이 빠졌지?”처럼 점검표 항목으로만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘 쓴 예와 피드백",
+      "role": "feedback",
+      "objectives": [
+        "B"
+      ],
+      "title": "잘 쓴 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘 쓴 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "First, I'm going to visit my aunt."
+        },
+        {
+          "text": "Then, I will practice the piano."
+        },
+        {
+          "text": "I think it will be a great vacation!"
+        }
+      ],
+      "bad": [
+        {
+          "text": "will visits",
+          "note": "will visit"
+        },
+        {
+          "text": "I going to",
+          "note": "I'm going to"
+        },
+        {
+          "text": "in next month",
+          "note": "next month"
+        }
+      ],
+      "explain": "동사원형 → be동사 → 때를 나타내는 말 → 쉼표·마침표 순서로 점검해요.",
+      "notes": {
+        "목적": "아이의 글을 잘 쓴 예와 견주어 보고, 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네 글과 왼쪽 글을 비교해 보자. 오른쪽 같은 곳이 있었어?”"
+        ],
+        "예상답": [
+          "“will 뒤에 visits라고 썼어요.” “I going to에 am이 빠졌어요.”"
+        ],
+        "정답": [
+          "잘 쓴 예: This winter vacation, I'm going to do three things. First, I'm going to visit my aunt. Then, I will practice the piano. Finally, I'm going to read three books. I think it will be a great vacation!"
+        ],
+        "막히면": [
+          "동사 모양이 틀렸으면 S03, 때 표현이 틀렸으면 S04, 짜임이 빠졌으면 S09를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 아이의 글에서 잘한 점을 먼저 두 가지 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(계획을 묻는 말에 대답하기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "묻는 말에 대답해요",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "problems": [
+        {
+          "text": "What are you going to do this vacation?"
+        },
+        {
+          "text": "Will you visit your grandparents next month?"
+        },
+        {
+          "text": "What will you do this weekend?"
+        }
+      ],
+      "notes": {
+        "목적": "처음 듣는 질문에 will·be going to + 동사원형과 때 표현으로 자기 계획을 대답하는지 확인합니다(목표 A).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 물어볼게. 너에게 맞게 대답해 줘. What are you going to do this vacation?”",
+          "“Will you visit your grandparents next month?” “What will you do this weekend?”"
+        ],
+        "정답": [
+          "① I'm going to + 동사원형 ~. (예: I'm going to learn to swim this vacation.)",
+          "② Yes, I will. / No, I won't.",
+          "③ I will + 동사원형 ~. (예: I will clean my room this weekend.)",
+          "기준: 내용은 아이에게 맞으면 됩니다. 세 대답 모두 동사원형을 바르게 쓰고, ①③ 가운데 하나 이상에 때를 나타내는 말이 들어가면 목표 A 달성으로 봅니다."
+        ],
+        "막히면": [
+          "질문을 한 번 더 천천히 말하고, “going to로 물었으니 I'm going to로 시작해.”라고 첫마디만 도와줍니다."
+        ],
+        "주의": [
+          "What will you do ~?는 ‘~에 무엇을 할 거니?’라는 뜻으로, 오늘 처음 듣는 질문일 수 있습니다. 뜻을 알려 준 뒤 대답하게 해도 됩니다.",
+          "I'm going to went처럼 말하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "계획: will / be going to + 동사원형 + 때(next month, this summer)\n짜임: 처음(언제·몇 가지) → First, Then, Finally → 끝(생각·바람)",
+      "do": "next month 앞에는 in 없이",
+      "dont": "will goes / going to went",
+      "review": [
+        {
+          "text": "‘다음 달에’를\n영어로?"
+        },
+        {
+          "text": "I will goes to camp.를\n바르게 고치면?"
+        },
+        {
+          "text": "이번 주말 계획을\n두 문장으로 말하기"
+        }
+      ],
+      "next": "뜻 확인하며 대화 잇기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“계획을 말할 때 will과 going to 뒤에는?”",
+          "“계획 글은 어떤 순서로 썼지?”"
+        ],
+        "예상답": [
+          "“동사원형이요.” “처음에 언제와 몇 가지, 가운데는 First, Then, Finally, 끝에는 생각이요.”"
+        ],
+        "정답": [
+          "① next month",
+          "② I will go to camp. (goes → go)",
+          "③ 예: I'm going to visit my grandma this weekend. I will read a book. (동사원형과 때 표현이 있으면 통과)"
+        ],
+        "주의": [
+          "주말을 앞둔 금요일마다 “What are you going to do this weekend?”라고 묻고 영어로 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘뜻 확인하며 대화 잇기’에서는 잘 못 들었거나 헷갈릴 때 다시 묻고 뜻을 확인하는 표현을 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(미래 표현 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: will과 be going to",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I will help you.",
+            "sub": "도와줄게요."
+          },
+          {
+            "word": "I'm going to swim.",
+            "sub": "수영할 거예요."
+          },
+          {
+            "word": "She's going to cook.",
+            "sub": "그녀는 요리할 거예요."
+          }
+        ]
+      },
+      "key": "will, going to 뒤에는 동사원형 · tomorrow, this weekend, next week",
+      "notes": {
+        "목적": "S02에서 will·going to 뒤의 동사 모양이 흔들리면, 계획 글을 쓰기 전에 미래 표현을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“will 뒤에는 help, going to 뒤에는 swim, cook. 모두 원래 모양이지?”",
+          "“내일 할 일을 하나 말해 볼까? I'm going to ~. 또는 I will ~.”"
+        ],
+        "정답": [
+          "I will help you. 도와줄게요. / I'm going to swim. 수영할 거예요. / She's going to cook. 그녀는 요리할 거예요. / 예: I'm going to do my homework tomorrow."
+        ],
+        "막히면": [
+          "부모가 먼저 자기 내일 계획을 말하고 아이가 동사만 바꾸어 따라 하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중1 ‘미래 표현’(KR22-G07-ENG-FUTURE-L01)을 먼저 다시 하고, 글의 짜임이 흔들리면 ‘경험 말하고 쓰기’(KR22-G07-ENG-EXPWRITE-L01)를 다시 본 뒤 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "계획 말하고 쓰기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "때를 나타내는 말을 지난 일과 앞으로의 일로 나누어 쓰세요.",
+        "read": "yesterday　　next month　　last week　　this weekend\ntomorrow　　last summer　　next Friday　　two days ago",
+        "table": {
+          "headers": [
+            "지난 일을 나타내는 말",
+            "앞으로의 일을 나타내는 말"
+          ],
+          "rows": [
+            [
+              "\n\n\n",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13
+        },
+        "answer": "지난 일: yesterday, last week, last summer, two days ago / 앞으로: next month, this weekend, tomorrow, next Friday. 여덟 개 가운데 일곱 개 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "괄호에서 알맞은 말을 골라 빈칸에 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I'm going to ____________ Jeju next month. (visit / visits)"
+            ],
+            [
+              "② She will ____________ to camp this summer. (go / goes)"
+            ],
+            [
+              "③ Mina ____________ going to learn the guitar. (is / are)"
+            ],
+            [
+              "④ I ____________ to the zoo last Sunday. (went / will go)"
+            ],
+            [
+              "⑤ We will meet them ____________. (in next month / next month)"
+            ],
+            [
+              "⑥ They ____________ going to swim tomorrow. (is / are)"
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14
+        },
+        "answer": "① visit ② go ③ is ④ went ⑤ next month ⑥ are. 여섯 개 가운데 다섯 개 이상이면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "나의 방학 계획을 떠올려 개요표를 채우세요(S10에서 말한 내용). 낱말로 짧게 쓰세요.",
+        "table": {
+          "headers": [
+            "짜임",
+            "나의 개요(메모)"
+          ],
+          "rows": [
+            [
+              "언제",
+              ""
+            ],
+            [
+              "계획 몇 가지",
+              ""
+            ],
+            [
+              "계획 ① (First)",
+              ""
+            ],
+            [
+              "계획 ② (Then)",
+              ""
+            ],
+            [
+              "계획 ③ (Finally)",
+              ""
+            ],
+            [
+              "생각·바람",
+              ""
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.68
+          ],
+          "size": 14
+        },
+        "answer": "아이의 실제 계획이나 바람이면 됩니다. 예: this winter vacation / three things / visit my aunt (Busan) / practice the piano / read three books / a great vacation. 여섯 칸이 모두 채워지면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "3의 개요를 보고 다섯 문장 이상의 방학 계획 글을 쓰세요. 첫 문장(언제·계획 몇 가지) → First, → Then, → Finally, → 생각·바람 순서로 쓰세요.",
+        "eng": {
+          "trace": [],
+          "blank": 6
+        },
+        "answer": "예: This winter vacation, I'm going to do three things. First, I'm going to visit my aunt in Busan. Then, I will practice the piano every day. Finally, I'm going to read three books. I think it will be a great vacation! 활동지 5 점검표의 여섯 항목 가운데 다섯 개 이상 지키면 통과."
+      },
+      {
+        "no": 5,
+        "prompt": "4에 쓴 글을 점검표로 확인하세요. 나와 부모님이 각각 ✔ 하고, 고칠 문장은 아래 줄에 고쳐 쓰세요.",
+        "table": {
+          "headers": [
+            "점검할 것",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① will·going to 뒤에 동사원형을 썼나요?",
+              "",
+              ""
+            ],
+            [
+              "② going to 앞에 be동사(am, is, are)가 있나요?",
+              "",
+              ""
+            ],
+            [
+              "③ 순서 말(First, Then, Finally) 뒤에 쉼표를 찍었나요?",
+              "",
+              ""
+            ],
+            [
+              "④ 첫 문장에 때를 나타내는 말이 있나요?",
+              "",
+              ""
+            ],
+            [
+              "⑤ 끝 문장에 생각이나 바람이 있나요?",
+              "",
+              ""
+            ],
+            [
+              "⑥ 첫 글자는 대문자, 끝에는 마침표를 썼나요?",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13
+        },
+        "lines": 2,
+        "answer": "여섯 항목 가운데 다섯 개 이상 ✔이면 통과. 아이와 부모의 판단이 다른 항목은 함께 글을 다시 보며 이야기합니다. 고친 문장 예: I will visits my aunt. → I will visit my aunt. / I going to read books. → I'm going to read books."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① ‘다음 달에’를 영어로 쓰세요.\n② I will goes to camp.를 바르게 고쳐 쓰세요.\n③ 이번 주말 계획을 두 문장으로 쓰세요(will 하나, be going to 하나).",
+        "lines": 3,
+        "answer": "① next month ② I will go to camp. ③ 예: I'm going to visit my grandma this weekend. I will read a book. (동사원형과 be동사가 맞으면 통과) 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 쓰기(점검표): 여섯 항목 □  다섯 항목 □  네 항목 이하 □ (도움을 받음 □)",
+      "S14 묻는 말에 대답하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "will goes·going to went·in next month 같은 실수: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07"
 }

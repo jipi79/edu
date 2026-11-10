@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-MAT-CENTERS-L01",
+  "concept_id": "MAT-CENTERS",
+  "title": "삼각형의 외심과 내심",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "삼각형과사각형",
+  "sequence": 2,
+  "file_stem": "중2_수학_삼각형과사각형_02_삼각형의외심과내심",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-MAT-I03"
+    ],
+    "units": [
+      "2.4.3",
+      "2.7.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "변의 수직이등분선과 각의 이등분선으로 외심·내심을 찾고 그 성질을 이용해 길이와 각의 크기를 구한다.",
+  "prerequisites": [
+    {
+      "text": "이등변삼각형의 성질",
+      "lesson": "KR22-G08-MAT-ISOSCELES-L01",
+      "grade_item": "KR22-G08-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "삼각형의 외심과 내심 활동지",
+    "items": [],
+    "record": []
+  }
+}

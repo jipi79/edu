@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "Could you say that again? Do you mean ~? 로 이해한 뜻을 확인하며 대화를 이어 간다.",
   "prerequisites": [
     {
       "text": "뜻 확인하기",
@@ -38,19 +37,819 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "상대의 말을 잘 못 들었을 때 Sorry?(끝을 올려), Could you say that again?, Could you speak more slowly?로 다시 말해 달라고 하고, 모르는 낱말이 나오면 What does \"~\" mean?으로 뜻을 물어 대화를 이어 간다.",
+      "evidence": "다시 말해 달라고 할 때(S03), 상황별 표현 표(S04), 이럴 때 뭐라고 할까(S06 ①②), 빈칸 대화(S09 ①②), 혼자 대화 이어 가기(S10 ①②), 활동지 1·2",
+      "success": "부모가 빠르게 말하거나 모르는 낱말을 쓰는 상황 두 가지에서 알맞은 표현을 바른 모양(say that again, What does ~ mean?)으로 말한다."
+    },
+    {
+      "id": "B",
+      "text": "자신이 이해한 뜻이 맞는지 Do you mean ~?으로 확인하고, 상대가 잘못 이해했을 때는 No, I mean ~.으로 바로잡고 맞을 때는 Yes, that's right.로 답하며, 일부러 만든 오해가 있는 역할극에서 대화를 끝까지 이어 간다.",
+      "evidence": "상황별 표현 표(S04), Do you mean 대화(S05), 이럴 때 뭐라고 할까(S06 ③), 그냥 넘어가도 될까(S07), 일부러 헷갈리기 역할극(S08), 빈칸 대화(S09 ③), 혼자 대화 이어 가기(S10 ③④), 알맞은 대답(S12), 활동지 2·3·4",
+      "success": "역할극과 혼자 하기에서 Do you mean ~?으로 확인하고, 잘못 알아들은 말을 No, I mean ~.으로 바로잡는다(네 상황 가운데 세 개 이상, ④는 반드시)."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 네 장과 펜(역할극 카드)",
+    "교과서 디지털 자료나 사전 앱(표현 소리 듣기, thirteen–thirty 같은 숫자 소리 비교)"
+  ],
+  "boundary": "다시 말해 달라는 표현 Sorry?, Could you say that again?, Could you speak more slowly?, 뜻을 묻는 What does \"~\" mean?과 대답 It means ~., 이해한 뜻을 확인하는 Do you mean ~?과 대답 Yes, that's right. / No, I mean ~.만 다룬다. 6학년의 Pardon?, Can you say that again?, How do you spell ~?은 떠올리기와 보충에만 쓴다. 오해 상황은 숫자(13–30, 15–50), 요일(Tuesday–Thursday), 소리가 같은 낱말(flour–flower)로 만든다. 낱말 뜻을 영어로 풀어 말하기는 부모가 짧게 들려주는 정도로 하고, 다른 말로 바꾸어 설명하기는 중2 ‘바꾸어 말하기’에서 다룬다. Excuse me?, What did you say?, You mean ~?, I'm sorry, I don't understand. 같은 다른 표현과 Could you ~?의 문법(조동사)은 다루지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "못 알아들었는데 묻는 것을 부끄럽게 여겨 Yes나 Okay로 넘어간다.",
+      "response": "S04 카드에서 묻는 것이 대화를 잘하는 방법이라고 말하고, S07에서 넘어간 대화와 확인한 대화를 비교한다."
+    },
+    {
+      "id": "M2",
+      "text": "표현의 모양을 틀린다(Could you say again?, What means \"~\"?, What is \"~\" mean?).",
+      "response": "S03에서 say that again을 덩어리로 익히고, S09 빈칸과 S11 흔한 실수로 바른 모양을 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "Do you mean ~?에 No.로만 대답하고 바로잡지 않거나, Yes, I mean ~.처럼 맞다는 말과 바로잡는 말을 섞는다.",
+      "response": "S05·S08에서 No, I mean ~.까지 말하게 하고, S12에서 대답을 고르며 맞을 때와 틀릴 때를 구별한다."
+    },
+    {
+      "id": "M4",
+      "text": "-teen(13~19)과 -ty(30, 40, 50…)를 헷갈려 듣고 말한다.",
+      "response": "S05 노트에서 강세 차이를 알려 주고, 숫자를 한 자리씩 말해 주는 방법(One, five.)을 S05·S08에서 연습한다."
+    },
+    {
+      "id": "M5",
+      "text": "Sorry를 사과로만 알아서 묻는 말로 쓰지 못한다.",
+      "response": "S03에서 끝을 올린 Sorry?는 ‘뭐라고요?’라는 뜻이라고 소리로 들려준다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "뜻 확인하며 대화 잇기",
+      "question": "잘 못 들었거나 헷갈릴 때,\n대화를 멈추지 않고 이어 가려면?",
+      "goals": [
+        "① 다시 말해 달라고 하거나 낱말 뜻을 물어요.",
+        "② Do you mean ~?으로 뜻을 확인하고 오해를 바로잡아요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Sorry?"
+          },
+          {
+            "word": "Could you say that again?"
+          },
+          {
+            "word": "Do you mean ~?"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 대화 중에 못 알아듣거나 헷갈릴 때 묻는 것이 대화를 잘하는 방법이라는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구 말을 잘 못 알아들었는데 그냥 ‘응’ 하고 넘어간 적 있어? 그러면 어떤 일이 생길까?”",
+          "“오른쪽 세 표현을 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)",
+          "“오늘은 다시 말해 달라고 하고, 뜻을 묻고, 내가 이해한 게 맞는지 확인하는 표현을 배울 거야.”"
+        ],
+        "예상답": [
+          "“약속 시간을 잘못 알아서 늦을 수 있어요.”"
+        ],
+        "막히면": [
+          "“엄마(아빠)가 ‘세 시 반에 만나자’고 했는데 네가 ‘세 시’로 들었다면?”처럼 예를 들어 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(Sorry? Could you say that again? Could you speak more slowly? What does ~ mean? Do you mean ~? No, I mean ~.)과 thirteen–thirty, fifteen–fifty의 소리 차이를 미리 들어 두세요.",
+          "오늘은 역할극이 많습니다. 부모님이 일부러 빠르게 말하거나 잘못 알아듣는 역할을 맡습니다. 노트의 대사를 미리 읽어 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(뜻 확인하기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "뜻 확인하기 떠올리기",
+      "text": "상황에 맞게 영어로 말해요.",
+      "problems": [
+        {
+          "text": "엄마(아빠)의 말을 잘 못 들었어요."
+        },
+        {
+          "text": "친구가 huge라고 했는데 뜻을 몰라요."
+        },
+        {
+          "text": "huge의 철자를 묻고 싶어요."
+        }
+      ],
+      "notes": {
+        "목적": "6학년 ‘뜻 확인하기’(KR22-G06-ENG-CLARIFY-L01)에서 익힌 Pardon?, Can you say that again?, What does ~ mean?, How do you spell ~?을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①부터 상황에 맞게 영어로 말해 볼래?”",
+          "“②, 친구가 My dog is huge.라고 했는데 huge를 몰라. 뭐라고 물어?”",
+          "“③, huge를 쓰고 싶은데 철자를 몰라. 뭐라고 물어?”"
+        ],
+        "정답": [
+          "① Pardon? 또는 Can you say that again?",
+          "② What does \"huge\" mean?",
+          "③ How do you spell \"huge\"?"
+        ],
+        "막히면": [
+          "②에서 What is huge mean?이라고 하면 “6학년 때 does와 mean 사이에 낱말을 넣었지?”라고 떠올리게 합니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S14(보충)를 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "다시 말해 달라는 표현 Sorry?·Could you ~?",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "다시 말해 달라고 할 때",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Sorry?",
+            "sub": "뭐라고요? (끝을 올려요)"
+          },
+          {
+            "word": "Could you say that again?",
+            "sub": "다시 말해 주시겠어요?"
+          },
+          {
+            "word": "Could you speak more slowly?",
+            "sub": "더 천천히 말해 주시겠어요?"
+          }
+        ]
+      },
+      "key": "Could you ~?는 Can you ~?보다 공손한(예의 바른) 부탁이에요.",
+      "notes": {
+        "목적": "잘 못 들었을 때 쓰는 Sorry?(끝을 올려), Could you say that again?, Could you speak more slowly?를 익힙니다(목표 A, 오해 M5).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Sorry는 ‘미안해’라는 뜻이지? 그런데 끝을 올려서 Sorry?라고 하면 ‘뭐라고요?’라는 뜻이 돼.” (소리 자료를 듣고 따라 합니다.)",
+          "“6학년 때 Can you say that again?을 배웠지? Could you로 바꾸면 더 공손한, 그러니까 예의 바른 부탁이 돼.”",
+          "“상대가 너무 빨리 말하면? Could you speak more slowly?”",
+          "“엄마(아빠)가 아주 빨리 말해 볼게. 알맞은 표현으로 말해 줘. Let'sgotothelibraryafterlunch!”"
+        ],
+        "예상답": [
+          "“Could you speak more slowly?” 또는 “Could you say that again?”"
+        ],
+        "막히면": [
+          "표현이 길면 Could you / say that / again?처럼 끊어서 따라 하게 합니다."
+        ],
+        "주의": [
+          "Sorry?는 끝을 올려 말해야 묻는 말이 됩니다. 끝을 내리면 사과로 들립니다(오해 M5).",
+          "Could you say again?처럼 that을 빠뜨리는 실수가 많습니다. say that again을 한 덩어리로 익히게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "세 가지 상황별 확인 표현과 대답",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "상황에 맞게 확인해요",
+      "text": "상황에 맞는 표현으로 묻고, 대답도 알아 둬요.",
+      "table": {
+        "headers": [
+          "이럴 때",
+          "이렇게 물어요",
+          "이렇게 답해요"
+        ],
+        "rows": [
+          [
+            "잘 못 들었어요",
+            "Sorry? /\nCould you say that again?",
+            "같은 말을 다시 해요"
+          ],
+          [
+            "낱말 뜻을 몰라요",
+            "What does \"~\" mean?",
+            "It means ~."
+          ],
+          [
+            "이해한 게 맞는지",
+            "Do you mean ~?",
+            "Yes, that's right. /\nNo, I mean ~."
+          ]
+        ],
+        "widths": [
+          0.22,
+          0.4,
+          0.38
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "모르면 넘어가지 말고 물어봐요. 묻는 것도 대화를 잘하는 방법이에요.",
+      "notes": {
+        "목적": "못 들었을 때, 낱말 뜻을 모를 때, 내가 이해한 것이 맞는지 확인할 때 쓰는 표현과 그 대답을 한눈에 정리합니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“한 줄씩 읽어 보자.” (소리 자료를 듣고 따라 합니다.)",
+          "“셋째 줄이 오늘 새로 배우는 거야. Do you mean ~?은 ‘~라는 말이야?’라고 내가 이해한 게 맞는지 확인하는 말이야.”",
+          "“맞으면 Yes, that's right. 틀리면 No, I mean ~.으로 바로잡아 줘.”",
+          "“엄마(아빠)가 ‘Let's meet at three.’라고 했는데 세 시가 맞는지 확인하려면?”"
+        ],
+        "예상답": [
+          "“Do you mean three o'clock?”"
+        ],
+        "막히면": [
+          "“Do you mean” 뒤에 내가 들은 말을 그대로 넣으면 된다고 알려 줍니다."
+        ],
+        "주의": [
+          "Do you mean ~? 뒤에는 낱말, 수, 짧은 말이 올 수 있습니다(Do you mean Tuesday? Do you mean a rose?).",
+          "모르는 것을 묻는 것은 부끄러운 일이 아니라 대화를 잘 이어 가는 방법이라고 말해 줍니다(오해 M1)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "오해가 생긴 대화에서 확인하고 바로잡기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "Do you mean ~?으로 확인해요",
+      "passage": {
+        "paragraphs": [
+          "Jun: Let's meet at the bus stop at two fifteen.",
+          "Mia: Do you mean two fifty?",
+          "Jun: No, I mean two fifteen. One, five.",
+          "Mia: Oh, two fifteen. Got it.",
+          "Jun: And please bring some flour.",
+          "Mia: Flower? Do you mean a rose?",
+          "Jun: No, I mean flour for pancakes. It's white powder."
+        ]
+      },
+      "question": "Mia가 헷갈린 것 두 가지는? Jun은 어떻게 바로잡았나요?",
+      "notes": {
+        "목적": "숫자와 소리가 같은 낱말 때문에 생긴 오해를 Do you mean ~?과 No, I mean ~.으로 바로잡는 대화를 역할을 나누어 읽습니다(목표 B, 오해 M3·M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "“먼저 낱말 뜻부터. flour는 밀가루, flower는 꽃, powder는 가루, Got it.은 ‘알겠어’야. 엄마(아빠)는 Jun, 너는 Mia야. 역할을 나누어 읽어 보자.” (소리 자료가 있으면 숫자 소리를 먼저 들어 봅니다.)",
+          "“Mia는 무엇을 헷갈렸어? 두 가지를 찾아봐.”",
+          "“Jun은 어떻게 바로잡았어? 어떤 말을 썼지?”"
+        ],
+        "예상답": [
+          "“fifteen을 fifty로 들었고, flour(밀가루)를 flower(꽃)로 알아들었어요.”",
+          "“No, I mean ~.으로 바로잡았어요. 숫자는 One, five.처럼 한 자리씩 말해 줬어요.”"
+        ],
+        "막히면": [
+          "대화의 뜻: 준: 2시 15분에 버스 정류장에서 만나자. / 미아: 2시 50분 말이야? / 준: 아니, 2시 15분. 1, 5. / 미아: 아, 2시 15분. 알았어. / 준: 그리고 밀가루 좀 가져와 줘. / 미아: 꽃? 장미 말이야? / 준: 아니, 팬케이크 만들 밀가루. 하얀 가루 말이야."
+        ],
+        "주의": [
+          "fifteen(15)은 뒤의 -teen을 세게, fifty(50)는 앞의 fif-를 세게 말합니다. 13~19(-teen)와 30, 40, 50(-ty)은 자주 헷갈리므로 한 자리씩 말해 주는 방법(One, five.)이 도움이 됩니다(오해 M4).",
+          "flour(밀가루)와 flower(꽃)는 소리가 같아서 뜻으로만 구별됩니다. powder는 ‘가루’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "상황에 맞는 확인 표현 고르기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "이럴 때 뭐라고 할까요?",
+      "text": "상황에 알맞은 영어 표현을 말해요.",
+      "problems": [
+        {
+          "text": "엄마(아빠)가 너무 빨리 말했어요."
+        },
+        {
+          "text": "친구가 I'm starving.이라고 했는데\nstarving의 뜻을 몰라요."
+        },
+        {
+          "text": "친구가 Meet me at noon.이라고 했어요.\n12시가 맞는지 확인해요."
+        }
+      ],
+      "notes": {
+        "목적": "세 가지 상황에 알맞은 확인 표현을 골라 말합니다(목표 A·B). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“상황을 읽고 알맞은 영어 표현을 말해 줘.”",
+          "“③은 내가 이해한 게 맞는지 확인하는 거야. noon이 12시라고 생각했어. 뭐라고 물어볼까?”"
+        ],
+        "정답": [
+          "① Could you speak more slowly? (Could you say that again?, Sorry?도 맞음)",
+          "② What does \"starving\" mean? (starving: 아주 배고픈)",
+          "③ Do you mean twelve o'clock? (noon: 낮 12시, 정오)"
+        ],
+        "막히면": [
+          "S04 표를 다시 띄우고, 상황이 표의 몇째 줄에 해당하는지 먼저 고르게 합니다."
+        ],
+        "주의": [
+          "②의 대답 예: It means very hungry. 부모님이 영어로 짧게 말해 주고 아이가 따라 하게 해도 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(못 알아듣고 Okay로 넘어감)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "그냥 넘어가도 될까요?",
+      "claim": "시험 날짜를 듣고 B가 화요일인지 목요일인지 헷갈렸어요.",
+      "left": {
+        "title": "가",
+        "text": "A: The test is on Thursday.\nB: Okay."
+      },
+      "right": {
+        "title": "나",
+        "text": "A: The test is on Thursday.\nB: Do you mean Tuesday?\nA: No, I mean Thursday."
+      },
+      "question": "어느 쪽이 대화를 더 잘 이었나요? 왜 그렇게 생각해요?",
+      "notes": {
+        "목적": "헷갈렸는데 그냥 넘어간 대화와 확인한 대화를 비교하며, 확인하면 오해를 막을 수 있다는 것을 봅니다(목표 B, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“B는 화요일인지 목요일인지 헷갈렸어. 가와 나는 무엇이 달라?”",
+          "“가처럼 넘어가면 B는 무슨 요일에 시험을 준비할까?”"
+        ],
+        "정답": [
+          "대화를 더 잘 이은 쪽은 나입니다. 가에서 B는 헷갈렸는데 Okay.로 넘어가서 시험 날짜를 잘못 알 수 있습니다. 나에서는 Do you mean Tuesday?로 확인하고 A가 No, I mean Thursday.로 바로잡아 오해가 풀렸습니다."
+        ],
+        "막히면": [
+          "“시험이 목요일인데 화요일로 알고 있으면 어떻게 될까?”라고 구체적으로 묻습니다."
+        ],
+        "주의": [
+          "Tuesday(화요일)와 Thursday(목요일)는 소리가 비슷해 자주 헷갈립니다.",
+          "여기까지가 표현 익히기입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "헷갈리는 짝 카드로 확인하고 바로잡기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "일부러 헷갈리기 역할극",
+      "steps": [
+        "종이 네 장에 짝을 써요: 13 / 30, 15 / 50, Tuesday / Thursday, flour / flower",
+        "부모가 카드로 말해요: My brother is thirteen.",
+        "아이가 확인해요: Do you mean thirty?",
+        "부모가 바로잡아요: No, I mean thirteen.",
+        "역할을 바꿔요. 이번엔 부모가 일부러 잘못 알아들어요."
+      ],
+      "criteria": [
+        "Do you mean ~?으로 확인했어요",
+        "No, I mean ~.으로 바로잡았어요",
+        "맞으면 Yes, that's right.로 답했어요"
+      ],
+      "notes": {
+        "목적": "헷갈리기 쉬운 짝 카드로 역할극을 하며 Do you mean ~?으로 확인하고 No, I mean ~.으로 바로잡는 말을 여러 번 주고받습니다(목표 B, 오해 M3·M4).",
+        "시간": "약 6분",
+        "말하기": [
+          "“종이 네 장에 헷갈리는 짝을 쓰자. 13 / 30, 15 / 50, Tuesday / Thursday, flour / flower.”",
+          "(부모) “My brother is thirteen.” → (아이) “Do you mean thirty?” → (부모) “No, I mean thirteen. One, three.” → (아이) “Oh, thirteen. Got it.”",
+          "(부모) “The party is on Tuesday.” → (아이) “Do you mean Tuesday?” → (부모) “Yes, that's right.”",
+          "“이번엔 네가 카드로 말해. 엄마(아빠)가 일부러 잘못 알아들을게. 바로잡아 줘.” (아이) “I need some flour.” → (부모) “Do you mean a flower?” → (아이) “No, I mean flour for bread.”"
+        ],
+        "예상답": [
+          "확인할 때: “Do you mean fifty?” “Do you mean Thursday?”",
+          "바로잡을 때: “No, I mean fifteen. One, five.” “No, I mean Tuesday.” 맞을 때: “Yes, that's right.”",
+          "기준: Do you mean ~?으로 확인하고, 틀렸을 때 No.로 끝내지 않고 No, I mean ~.까지 말하며, 맞을 때 Yes, that's right.로 답하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "부모가 먼저 두 역할을 다 해 보이고, 아이가 한 역할씩 따라 하게 합니다.",
+          "숫자 소리가 헷갈리면 소리 자료로 thirteen, thirty를 번갈아 들어 봅니다."
+        ],
+        "주의": [
+          "역할을 바꾸어 카드마다 한 번 이상 주고받습니다. 부모가 일부러 잘못 알아듣는 역할을 할 때는 과장해도 좋습니다. 아이가 바로잡는 경험이 중요합니다.",
+          "My brother는 실제 가족이 아니어도 됩니다. 놀이용 문장입니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "대화 빈칸에 확인 표현 넣기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "빈칸을 채워 대화를 이어요",
+      "text": "빈칸에 들어갈 말을 넣어 대화를 읽어요.",
+      "problems": [
+        {
+          "text": "A: The museum opens at ten.\nB: ______? (잘 못 들었어요)"
+        },
+        {
+          "text": "A: This soup is bland.\nB: What ______ \"bland\" ______?"
+        },
+        {
+          "text": "A: Let's go on Thursday. B: Do you mean Tuesday?\nA: No, ______ Thursday."
+        }
+      ],
+      "notes": {
+        "목적": "대화 속 빈칸에 알맞은 확인 표현을 넣어 말합니다. 표현의 모양(say that again, What does ~ mean, I mean)을 정확히 익힙니다(목표 A·B, 오해 M2). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 A를 읽을게. 너는 빈칸을 채워 B를 말해 줘.”",
+          "“②의 bland는 ‘싱거운’이야. 대답은 It means not salty.(짜지 않다는 뜻이야.)”"
+        ],
+        "정답": [
+          "① Sorry? 또는 Could you say that again?",
+          "② What does \"bland\" mean? (does, mean)",
+          "③ No, I mean Thursday. (I mean)"
+        ],
+        "막히면": [
+          "S04 표를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "Could you say again?(that이 빠짐), What means \"bland\"?, No, I said Thursday.처럼 말하면 바른 모양으로 한 번 더 말해 줍니다. No, I said Thursday.도 뜻은 통하지만 오늘은 No, I mean ~.을 익힙니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(네 상황에서 확인하며 대화 잇기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 대화 이어 가기",
+      "text": "엄마(아빠)의 말을 듣고 상황에 맞게 영어로 말해요.",
+      "problems": [
+        {
+          "text": "잘 못 들었어요."
+        },
+        {
+          "text": "모르는 낱말이 나왔어요."
+        },
+        {
+          "text": "들은 시각이 맞는지 확인해요."
+        },
+        {
+          "text": "엄마(아빠)가 잘못 알아들었어요.\n→ 바로잡아요"
+        }
+      ],
+      "notes": {
+        "목적": "부모가 노트의 대사를 말하면, 아이가 네 상황에서 알맞은 확인 표현으로 대화를 이어 가는지 확인합니다(목표 A·B).",
+        "시간": "약 6분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 엄마(아빠)가 말하면 화면의 상황에 맞게 영어로 대답해.”",
+          "① (부모가 빠르고 작게) “Your piano lesson is at four today.” → 아이가 다시 말해 달라고 하면 천천히 다시 말합니다.",
+          "② (부모) “Let's eat something light for dinner.” → 아이가 뜻을 물으면 “It means not too much food.”",
+          "③ (부모) “Grandma will arrive at five fifteen.” → 아이가 확인하면 맞을 때 “Yes, that's right.”, 틀리게 확인하면 “No, I mean five fifteen.”",
+          "④ 아이에게 “My friend is thirteen.”이라고 말하게 한 뒤, 부모가 일부러 “Do you mean thirty?”라고 묻습니다."
+        ],
+        "정답": [
+          "① Sorry? / Could you say that again? / Could you speak more slowly?",
+          "② What does \"light\" mean?",
+          "③ Do you mean five fifteen? (또는 Do you mean five fifty?처럼 들은 대로 확인해도 됨)",
+          "④ No, I mean thirteen. (One, three.)",
+          "기준: 네 개 가운데 세 개 이상을 알맞은 표현으로 말하면 통과. ④는 No로 끝내지 않고 I mean thirteen까지 말해야 합니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “지금은 못 들은 거야, 뜻을 모르는 거야, 확인하고 싶은 거야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "대사는 부모님만 봅니다. ①은 일부러 빠르고 작게 말해야 아이가 묻는 연습이 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① Could you say that again?"
+        },
+        {
+          "text": "② What does \"light\" mean?"
+        },
+        {
+          "text": "③ Do you mean five fifteen?"
+        },
+        {
+          "text": "④ No, I mean thirteen."
+        }
+      ],
+      "bad": [
+        {
+          "text": "Could you say again?",
+          "note": "say that again"
+        },
+        {
+          "text": "What means \"light\"?",
+          "note": "What does ~ mean?"
+        },
+        {
+          "text": "No. (끝)",
+          "note": "No, I mean ~.까지"
+        }
+      ],
+      "explain": "못 들음 → 다시 말해 달라기, 뜻 모름 → What does ~ mean?, 헷갈림 → Do you mean ~?",
+      "notes": {
+        "목적": "아이의 대답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 무엇이 빠졌을까?”"
+        ],
+        "예상답": [
+          "“say 다음에 that이 빠졌어요.” “What does ~ mean?으로 물어야 해요.” “No 다음에 I mean ~까지 말해야 해요.”"
+        ],
+        "정답": [
+          "① Sorry? / Could you say that again? ② What does \"light\" mean? ③ Do you mean five fifteen? ④ No, I mean thirteen."
+        ],
+        "막히면": [
+          "틀린 상황은 S03(다시 말해 달라고 할 때), S04(상황별 표현), S05(Do you mean ~?) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(확인 질문에 바로잡는 대답 고르기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "알맞은 대답은?",
+      "text": "A: Let's meet on Thursday.　B: Do you mean Tuesday?",
+      "options": [
+        {
+          "text": "No, I mean Thursday."
+        },
+        {
+          "text": "Yes, that's right."
+        },
+        {
+          "text": "What does Tuesday mean?"
+        },
+        {
+          "text": "Could you speak more slowly?"
+        }
+      ],
+      "question": "A의 대답으로 알맞은 것은? 나머지는 왜 알맞지 않나요?",
+      "notes": {
+        "목적": "확인 질문(Do you mean ~?)에 상대가 잘못 알아들었을 때 바로잡는 대답을 고르고, 나머지가 왜 알맞지 않은지 말하는지 확인합니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“A는 목요일이라고 했어. 그런데 B가 Do you mean Tuesday?라고 물었어. A는 뭐라고 대답해야 할까?”",
+          "“나머지는 왜 알맞지 않아?”",
+          "“만약 A가 화요일이라고 말했던 거라면 무엇을 고를까?”"
+        ],
+        "정답": [
+          "가 No, I mean Thursday. (A는 목요일이라고 했으므로 바로잡아야 합니다.)",
+          "나는 B의 잘못된 이해를 맞다고 해 버립니다. 다는 화요일의 뜻을 묻는 말이라 상황에 맞지 않고, 라는 천천히 말해 달라는 부탁입니다.",
+          "A가 화요일이라고 말했다면 나 Yes, that's right.가 알맞습니다.",
+          "기준: 가를 고르고 까닭을 말하며, 마지막 질문에 나를 고르면 목표 B 달성으로 봅니다."
+        ],
+        "막히면": [
+          "“A가 처음에 말한 요일은? B가 들은 요일은? 같아, 달라?”라고 차례로 묻습니다."
+        ],
+        "주의": [
+          "Yes, I mean Tuesday.처럼 Yes와 I mean을 섞어 말하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "못 들으면 Sorry? / Could you say that again?\n뜻을 모르면 What does ~ mean?  확인할 땐 Do you mean ~?",
+      "do": "오해는 No, I mean ~.으로 바로잡기",
+      "dont": "못 알아듣고 Okay.로 넘어가기",
+      "review": [
+        {
+          "text": "천천히 말해 달라는\n부탁을 영어로"
+        },
+        {
+          "text": "fifteen이 맞는지\n확인하는 말은?"
+        },
+        {
+          "text": "Do you mean thirty?에\nthirteen으로 바로잡기"
+        }
+      ],
+      "next": "문화적 고정관념 살피기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“잘 못 들었을 때는? 뜻을 모를 때는? 이해한 게 맞는지 확인할 때는?”"
+        ],
+        "예상답": [
+          "“Could you say that again? What does ~ mean? Do you mean ~?이요.”"
+        ],
+        "정답": [
+          "① Could you speak more slowly?",
+          "② Do you mean fifteen?",
+          "③ No, I mean thirteen."
+        ],
+        "주의": [
+          "집에서 대화할 때 아이가 못 알아들은 듯하면 “Sorry?라고 물어봐.”라고 영어 표현을 떠올리게 하면 좋은 복습이 됩니다. 다음 차시 ‘문화적 고정관념 살피기’에서는 여러 나라 사람에 대한 말에서 ‘모두 그렇다’고 단정하는 표현을 찾아 고쳐 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(6학년 뜻 확인하기 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 다시 묻기 표현",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "Pardon?",
+            "sub": "뭐라고요?"
+          },
+          {
+            "word": "Can you say that again?",
+            "sub": "다시 말해 줄래요?"
+          },
+          {
+            "word": "What does \"tiny\" mean?",
+            "sub": "tiny가 무슨 뜻이에요?"
+          },
+          {
+            "word": "It means very small.",
+            "sub": "아주 작다는 뜻이에요."
+          }
+        ]
+      },
+      "key": "못 들으면 Pardon?, 뜻을 모르면 What does ~ mean?",
+      "notes": {
+        "목적": "S02에서 다시 묻는 표현이 흔들리면, 오늘 표현을 배우기 전에 6학년에서 익힌 기본 표현을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 작게 말할게. 못 들으면 Pardon?이라고 해 줘. (아주 작게) I like apples.”",
+          "“My cat is tiny. tiny가 무슨 뜻인지 물어볼래?”"
+        ],
+        "정답": [
+          "Pardon? 뭐라고요? / Can you say that again? 다시 말해 줄래요? / What does \"tiny\" mean? tiny가 무슨 뜻이에요? / It means very small. 아주 작다는 뜻이에요."
+        ],
+        "막히면": [
+          "부모가 두 역할을 먼저 해 보이고 아이가 따라 하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 6학년 ‘뜻 확인하기’(KR22-G06-ENG-CLARIFY-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "뜻 확인하며 대화 잇기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "상황에 알맞은 말을 보기에서 골라 기호를 쓰세요.",
+        "read": "가 Sorry?　　나 Could you speak more slowly?　　다 What does \"~\" mean?\n라 Do you mean ~?　　마 No, I mean ~.",
+        "table": {
+          "rows": [
+            [
+              "① 친구가 너무 빨리 말해요.",
+              ""
+            ],
+            [
+              "② 친구의 말이 잘 안 들렸어요.",
+              ""
+            ],
+            [
+              "③ 처음 듣는 낱말의 뜻을 몰라요.",
+              ""
+            ],
+            [
+              "④ 들은 숫자가 맞는지 확인하고 싶어요.",
+              ""
+            ],
+            [
+              "⑤ 친구가 내 말을 잘못 알아들었어요.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.8,
+            0.2
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① 나 ② 가 ③ 다 ④ 라 ⑤ 마. 다섯 개 가운데 네 개 이상이면 통과. ①에 가(Sorry?)를 써도 틀린 것은 아니지만, 빠르게 말할 때는 나가 더 알맞다고 이야기해 줍니다."
+      },
+      {
+        "no": 2,
+        "prompt": "대화를 읽고 빈칸 ①~④에 알맞은 말을 쓰세요.",
+        "read": "A: Let's go to the new library on Saturday.\nB: ①__________________________? I didn't hear you.\nA: Let's go to the new library on Saturday.\nB: Okay. What time?\nA: At two thirty.\nB: ②____________________ two thirteen?\nA: No, ③______________ two thirty. Three, zero.\nB: Got it. Can I bring my cousin? She's shy.\nA: ④______________ \"shy\" mean?\nB: It means she is quiet with new people.\nA: Oh, I see. Sure!",
+        "lines": 4,
+        "line_label": "①  ②  ③  ④",
+        "answer": "① Sorry 또는 Could you say that again ② Do you mean ③ I mean ④ What does. 네 개 가운데 세 개 이상이면 통과. 낱말 뜻: cousin 사촌, shy 수줍음을 많이 타는, quiet 조용한."
+      },
+      {
+        "no": 3,
+        "prompt": "부모님이 읽어 주는 대화를 두 번 듣고, 미나가 가게에서 사야 할 것에 모두 ✔ 하세요. 미나가 헷갈린 말 두 가지도 우리말로 쓰세요.",
+        "choices": [
+          "장미",
+          "밀가루 한 봉지",
+          "달걀 15개",
+          "달걀 50개",
+          "빵 한 봉지"
+        ],
+        "choices_size": 14,
+        "lines": 2,
+        "answer": "부모가 대화를 두 번 읽어 줍니다. 부모가 읽을 대본: Dad: Mina, can you buy some flour at the store? / Mina: Flower? Do you mean roses? / Dad: No, I mean flour for bread. It's white powder. / Mina: Oh, I see. How much? / Dad: One bag. And we need eggs, too. Fifteen eggs. / Mina: Do you mean fifty? / Dad: No, I mean fifteen. One, five. / Mina: Okay. One bag of flour and fifteen eggs. → ✔: 밀가루 한 봉지, 달걀 15개. 헷갈린 말: flour(밀가루)를 flower(꽃)로, fifteen(15)을 fifty(50)로 알아들었습니다. 두 가지 모두 맞으면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 S08 카드(13 / 30, 15 / 50, Tuesday / Thursday, flour / flower) 가운데 하나로 확인하고 바로잡는 대화를 두 줄 쓰세요.",
+        "eng": {
+          "trace": [
+            "Do you mean thirty?",
+            "No, I mean thirteen."
+          ],
+          "blank": 2
+        },
+        "answer": "따라 쓰기 두 줄과, 확인·바로잡기 대화 두 줄(예: Do you mean Tuesday? / No, I mean Thursday. 또는 Do you mean fifty? / No, I mean fifteen.). Do you mean ~?의 물음표, No 뒤의 쉼표, I mean ~.의 마침표를 봅니다. 두 줄 모두 맞으면 통과."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① ‘더 천천히 말해 주시겠어요?’를 영어로 쓰세요.\n② fifteen이 맞는지 확인하는 말을 영어로 쓰세요.\n③ 친구가 Do you mean thirty?라고 물었어요. thirteen이라고 바로잡는 말을 영어로 쓰세요.",
+        "lines": 3,
+        "answer": "① Could you speak more slowly? ② Do you mean fifteen? ③ No, I mean thirteen. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S10 혼자 대화 이어 가기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S12 알맞은 대답 고르기: 까닭까지 맞음 □  고르기만 맞음 □  틀림 □",
+      "Could you say again?·What means ~?·No.로만 대답한 실수: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07"
 }

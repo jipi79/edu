@@ -63,7 +63,7 @@
   "misconceptions": [
     {
       "id": "M1",
-      "text": "첫 문장만 과거형으로 쓰고 이어지는 문장은 현재형으로 쓴다(Last Sunday, I went to the park. First, I meet my friend.).",
+      "text": "첫 문장만 과거형으로 쓰고 이어지는 문장은 현재형으로 쓴다(Last Sunday, I went out. First, I meet Jisu.).",
       "response": "S03 카드에서 ‘첫 문장부터 끝 문장까지 과거형’을 강조하고, S08에서 두 글을 나란히 비교한다. S13에서 틀린 곳을 찾아 고친다."
     },
     {
@@ -342,7 +342,6 @@
         "A"
       ],
       "title": "본보기 글 읽기",
-      "text": "sandcastle 모래성 · sunset 해 질 녘 · umbrella 파라솔",
       "passage": {
         "title": "A Fun Saturday",
         "paragraphs": [
@@ -360,7 +359,7 @@
         "목적": "본보기 경험 글을 함께 읽으며 처음(언제·어디서·누구와)–가운데(순서 말과 한 일)–끝(느낌)의 짜임과 과거형 동사를 찾습니다(목표 A).",
         "시간": "약 3분",
         "말하기": [
-          "“엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“먼저 낱말 뜻부터. sandcastle은 모래성, umbrella는 파라솔, sunset은 해 질 녘이야. 엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘.” (소리 자료가 있으면 함께 듣습니다.)",
           "“①은 언제, 어디서, 누구와 한 일인지 알려 주지? 각각 무엇이야?”",
           "“②~⑤에서 순서 말을 찾아볼까? ⑥은 무엇을 말하고 있어?”",
           "“과거형 동사를 모두 찾아 손가락으로 짚어 줘.”"
@@ -502,7 +501,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Last Sunday, I go to the park.\nFirst, I meet my friend."
+              "word": "Last Sunday, I go out.\nFirst, I meet Jisu."
             }
           ]
         }
@@ -514,7 +513,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Last Sunday, I went to the park.\nFirst, I met my friend."
+              "word": "Last Sunday, I went out.\nFirst, I met Jisu."
             }
           ]
         }
@@ -524,7 +523,7 @@
         "목적": "첫 문장 뒤의 문장을 현재형으로 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
         "말하기": [
-          "“두 친구가 지난 일요일 이야기를 썼어. 무엇이 달라?”",
+          "“두 친구가 지난 일요일 이야기를 썼어. go out은 ‘외출하다, 나가다’야. 두 글은 무엇이 달라?”",
           "“Last Sunday는 지난 일이지? 그럼 동사는 어떤 모양이어야 해?”"
         ],
         "정답": [
