@@ -29,7 +29,7 @@ PPTX를 직접 고치지 않는다. 원본을 고치고 다시 생성한다.
 
 ## 절차
 
-1. **범위**: 요청과 `plans/초등_차시계획.md`(초등 전체 414차시 계획과 제작 현황), `lessons/INDEX.md`를 읽는다. 공식 기준과 권장 배치의 구분은 `references/curriculum.md`.
+1. **범위**: 요청과 `plans/초등_차시계획.md`·`plans/중등_차시계획.md`(학교급별 전체 차시 계획과 제작 현황), `lessons/INDEX.md`를 읽는다. 공식 기준과 권장 배치의 구분은 `references/curriculum.md`.
 2. **분할·계획**: 초등은 `plans/elementary/G0N.txt` 에 차시가 이미 나뉘어 있다. 차시를 더하거나 고칠 때는 이 파일을 고치고 `python3 -I tools/plan/build_plan.py` 로 검사한다(ID·단원·선수 차시·순환). 중·고는 같은 형식으로 새 계획 파일을 만든다.
 3. **뼈대**: `python3 -I tools/plan/new_lesson.py <수업 ID>` 가 계획에서 원본 뼈대를 만든다(메타데이터·교육과정 연결·선수 차시).
 4. **목표**: 목표마다 확인 방법(학습 증거)과 성공 기준을 먼저 쓴다. `references/lesson-design.md`.
