@@ -8,6 +8,10 @@ function charEm(ch) {
   // 줄바꿈하지 않는 공백(U+00A0)은 공백 폭이지만 어절을 나누지 않는다(영어 표현을 한 줄에 묶을 때).
   if (ch === " " || ch === "\u00a0") return 0.3;
   if (ch === "%") return 1.1;
+  // 빼기(U+2212)는 한글 글꼴에서 전각 폭으로 그려진다. 근호도 넓다.
+  if (ch === "\u2212") return 0.96;
+  if (ch === "\u221a") return 0.82;
+  if (/[+=<>±]/.test(ch)) return 0.66;
   if (/[MW]/.test(ch)) return 0.92;
   if (/[mw]/.test(ch)) return 0.82;
   if (/[A-Z0-9]/.test(ch)) return 0.66;
