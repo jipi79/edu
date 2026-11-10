@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G08-SOC-CIVILIZE-L01",
+  "concept_id": "SOC-CIVILIZE",
+  "title": "고대 문명의 발생",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "세계사",
+  "sequence": 1,
+  "file_stem": "중2_사회·역사_세계사_01_고대문명의발생",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SOC-I01"
+    ],
+    "units": [
+      "4.1.5"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "큰 강 유역에서 고대 문명이 생긴 까닭과 문자·도시·계급 등 문명의 공통 특징을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "선사 시대와 고조선",
+      "lesson": "KR22-G05-SOC-PREHIST-L01",
+      "grade_item": "KR22-G05-SOC-I02"
+    },
+    {
+      "text": "지형과 생활",
+      "lesson": "KR22-G07-SOC-LANDFORM-L01",
+      "grade_item": "KR22-G07-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "고대 문명의 발생 활동지",
+    "items": [],
+    "record": []
+  }
+}
