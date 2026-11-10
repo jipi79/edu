@@ -198,7 +198,7 @@
           "text": "신호어로 ‘지금 어디인지’\n알려 줘요."
         }
       ],
-      "key": "신호어: 발표의 순서를 듣는 사람에게 알려 주는 말 (Today, First, In conclusion)",
+      "key": "신호어: 발표의 순서를 알려 주는 말 (Today, First, In conclusion)",
       "notes": {
         "목적": "글과 발표의 차이를 짚고, 듣는 사람이 길을 잃지 않게 발표의 순서를 알려 주는 말인 신호어의 뜻을 알려 줍니다(목표 A, 오해 M1·M2).",
         "시간": "약 2분",
@@ -734,7 +734,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "Today I'd like to talk about ~. → First, Second, Third → In conclusion, ~.\n눈 맞춤·천천히·크고 또렷하게, 2분 안팎",
+      "key": "Today I'd like to ~ → First, Second, Third → In conclusion, ~\n눈 맞춤 · 천천히 · 크고 또렷하게, 2분 안팎",
       "do": "낱말 메모 보고 말하기",
       "dont": "종이를 그대로 빨리 읽기",
       "review": [
@@ -985,8 +985,8 @@
         "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 내 발표의 첫 문장(Today I'd like to talk about ~.)과 마무리 문장(In conclusion, ~.)을 쓰세요.",
         "eng": {
           "trace": [
-            "Today I'd like to talk about my town.",
-            "In conclusion, my town is a great place."
+            "Today I'd like to talk about art.",
+            "In conclusion, art is great fun."
           ],
           "blank": 2
         },
