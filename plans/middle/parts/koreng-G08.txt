@@ -1,0 +1,34 @@
+# 중학교 2학년 · koreng
+@ KOR-I01 | 추론과비판 | 1.3.2
+- VIEWCOMP | 관점과 근거 비교 | 같은 화제를 다룬 두 글에서 글쓴이의 관점과 근거를 찾아 표로 비교하고 차이를 설명한다. | pre G06-KOR-VIEWPOINT, G07-KOR-SUMREAD
+- DEFEX | 정의와 예시 | 정의와 예시로 설명한 부분을 찾아 대상의 뜻과 특징을 이해하는 데 어떤 도움을 주는지 설명한다. | pre! G07-KOR-TEXTSTRUCT
+- COMPCON | 비교와 대조 | 비교와 대조로 설명한 부분을 찾아 공통점과 차이점을 표로 정리하고 그 효과를 설명한다.
+- CLASSANAL | 분류와 분석 | 분류와 분석을 구별하고 각 방법으로 설명한 부분을 찾아 그 효과를 설명한다.
+- CAUSAL | 인과와 설명 방법 고르기 | 인과로 설명한 부분을 분석하고 설명 대상에 알맞은 설명 방법을 골라 그 효과를 평가한다.
+@ KOR-I02 | 면담토의쓰기 | 1.2.3 1.4.2
+- INTERVIEW | 면담하기 | 면담 목적에 맞는 질문 목록을 만들어 면담을 진행하고 알게 된 내용을 정리한다. | pre G02-KOR-ASK, G07-KOR-KEYPRES
+- COOPDISC | 협력적 토의 | 공동의 문제를 해결하려고 서로의 의견을 비교·조정해 모두가 받아들일 수 있는 해결안을 만든다. | pre! G05-KOR-DEBATE, G04-KOR-DISCUSS
+- DATAREV | 자료 활용해 고쳐 쓰기 | 초고에 알맞은 통계·사례·사진 자료를 골라 출처와 함께 넣고 자료의 정확성과 관련성을 점검해 고쳐 쓴다. | pre! G07-KOR-REWRITE, G05-KOR-SOURCE
+@ KOR-I03 | 문법문학매체 | 1.5.2 1.6.2 1.7.2 1.7.3
+- PHONCONS | 음운과 자음 체계 | 음운의 뜻을 알고 자음을 소리 나는 위치와 방법에 따라 분류표에 정리한다. | pre G01-KOR-DOUBLE
+- PHONVOW | 모음 체계 | 단모음을 혀의 앞뒤·높낮이와 입술 모양에 따라 분류하고 이중 모음과 구별한다.
+- WORDFORM | 단어의 짜임 | 어근과 접사를 찾아 단어를 단일어와 복합어(합성어·파생어)로 분류한다. | pre! G07-KOR-POS
+- POEMEXP | 반어와 역설의 효과 | 시에서 반어와 역설 표현을 찾아 겉으로 한 말과 속뜻을 비교하고 그 효과를 설명한다. | pre! G07-KOR-SYMBOL
+- NOVELEXP | 소설의 서술자와 시점 | 소설에서 서술자의 위치를 찾아 시점을 구별하고 시점에 따라 달라지는 표현 효과를 설명한다. | pre! G07-KOR-GENRE, G05-KOR-STORYELEM
+- NEWSSRC | 뉴스의 출처와 신뢰성 | 뉴스의 출처·취재원·작성 날짜를 확인하고 사실 보도와 의견을 구별해 신뢰성을 판단한다. | pre! G06-KOR-FACTOPIN, G07-KOR-ADINTENT
+@ ENG-I01 | 어휘와문장 | 3.1.3
+- PERFEXP | 현재완료(경험) | have·has+과거분사와 ever·never로 해 본 일을 묻고 답한다. | pre G07-ENG-PASTQ
+- PERFCONT | 현재완료(계속) | for·since와 How long have you ~? 로 지금까지 이어진 일을 묻고 답한다.
+- TOINF | to부정사(명사적 용법) | want·plan·hope to ~와 It is ~ to ~ 로 하고 싶은 일과 생각을 말하고 쓴다. | pre! G07-ENG-DOVERB
+- TOINF2 | to부정사(형용사·부사적) | 명사를 꾸미는 to부정사와 목적을 나타내는 to부정사를 구별해 문장을 해석하고 쓴다.
+- GERUND | 동명사 | 동명사를 주어·목적어로 쓰고 enjoy·finish 뒤와 want·decide 뒤에 오는 말을 구별한다. | pre! G08-ENG-TOINF
+- BECAUSE | 접속사 because | because로 이유를 나타내는 절을 이어 쓰고 so로 결과를 잇는 문장과 바꾸어 쓴다. | pre! G05-ENG-BECAUSE, G06-ENG-OPINION
+- IFWHEN | 접속사 if·when | if·when 절에서는 앞으로의 일도 현재 시제로 쓴다는 것을 알고 조건과 때를 나타내는 문장을 쓴다. | pre G07-ENG-FUTURE
+- ASAS | 비교 표현 확장 | as ~ as·not as ~ as와 much를 쓴 비교급 강조로 두 대상을 비교한다. | pre! G07-ENG-COMPAR
+@ ENG-I02 | 독해와표현 | 3.2.2 3.3.2
+- LINKERS | 연결어로 글의 흐름 파악 | first·however·for example·as a result 같은 연결어를 단서로 글의 전개를 파악하고 흐름에 맞지 않는 문장을 찾는다. | pre G07-ENG-GISTDET, G06-ENG-SEQUENCE
+- EXPPARA | 경험 문단 쓰기 | 현재완료와 연결어를 써서 경험과 느낌을 주제문이 있는 한 문단으로 쓴다. | pre G08-ENG-PERFEXP, G07-ENG-EXPWRITE
+- OPINPARA | 의견 문단 쓰기 | 주제문·이유·예시·마무리 문장을 연결어로 이어 의견을 나타내는 문단을 쓴다. | pre G08-ENG-BECAUSE, G06-ENG-OPINION
+@ ENG-I03 | 의사소통과문화 | 3.4.2 3.5.2
+- PARAPHR | 바꾸어 말하기 | In other words, ~. / It means ~. 로 낱말과 문장의 뜻을 쉬운 말로 바꾸어 설명한다. | pre G07-ENG-CHECKMEAN
+- CULTVIEW | 문화적 관점 차이 | 같은 행동을 다르게 보는 문화적 관점을 비교하고 근거를 들어 자신의 생각을 말한다. | pre! G07-ENG-STEREO
