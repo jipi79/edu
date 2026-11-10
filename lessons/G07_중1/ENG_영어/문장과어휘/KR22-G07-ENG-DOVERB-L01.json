@@ -94,7 +94,7 @@
         "B"
       ],
       "title": "일반동사 현재 문장",
-      "question": "I like cats. She likes cats.\n왜 She 다음에는 likes일까?",
+      "question": "I like cats. She likes cats.\n왜 She 다음에는 like에 s가 붙을까?",
       "goals": [
         "① 주어에 맞게 동사에 -s, -es를 붙여 말하고 써요.",
         "② don't·doesn't, Do·Does로 부정문·의문문을 만들어요."
@@ -439,7 +439,7 @@
       "objectives": [
         "A"
       ],
-      "title": "play일까, plays일까?",
+      "title": "동사에 -s가 필요할까?",
       "claim": "‘내 남동생은 게임을 해요.’를 두 친구가 이렇게 썼어요.",
       "left": {
         "title": "가",
@@ -680,7 +680,7 @@
       "criteria": [
         "Do·Does를 주어 앞에 말했어요",
         "do·does로 짧게 대답했어요",
-        "he, she 문장에서 동사에 -s를 붙였어요"
+        "he, she 뒤의 동사도 바르게 썼어요"
       ],
       "notes": {
         "목적": "카드를 보며 Do·Does로 묻고 do·does로 대답하는 것을 소리 내어 여러 번 말합니다(목표 B, 오해 M4).",
@@ -783,11 +783,11 @@
           "note": "o로 끝나면 -es"
         },
         {
-          "text": "She doesn't studies",
+          "text": "doesn't studies",
           "note": "doesn't 뒤는\n원래 모양"
         },
         {
-          "text": "Does your sister has",
+          "text": "Does ~ has",
           "note": "Does 뒤는 have"
         }
       ],
@@ -1035,20 +1035,20 @@
         "table": {
           "rows": [
             [
-              "① My brother ________ (get) up at seven.",
-              "⑤ We ________ (walk) to school."
+              "① Jun ______ (get) up early.",
+              "⑤ We ______ (walk) to school."
             ],
             [
-              "② You ________ (like) music.",
-              "⑥ The baby ________ (cry) at night."
+              "② You ______ (like) music.",
+              "⑥ The baby ______ (cry) at night."
             ],
             [
-              "③ Mina ________ (wash) the dishes.",
-              "⑦ My grandma ________ (have) a dog."
+              "③ Mina ______ (wash) the dishes.",
+              "⑦ Grandma ______ (have) a dog."
             ],
             [
-              "④ It ________ (rain) a lot in July.",
-              "⑧ Tom and Jake ________ (play) tennis."
+              "④ It ______ (rain) a lot in July.",
+              "⑧ Tom and I ______ (play) tennis."
             ]
           ],
           "widths": [
@@ -1057,7 +1057,7 @@
           ],
           "size": 13
         },
-        "answer": "① gets ② like ③ washes ④ rains ⑤ walk ⑥ cries ⑦ has ⑧ play(Tom and Jake → they). 여덟 개 가운데 일곱 개 이상이면 통과."
+        "answer": "① gets ② like ③ washes ④ rains ⑤ walk ⑥ cries ⑦ has ⑧ play(Tom and I → we). 여덟 개 가운데 일곱 개 이상이면 통과."
       },
       {
         "no": 3,
@@ -1082,8 +1082,8 @@
             ]
           ],
           "widths": [
-            0.4,
-            0.6
+            0.45,
+            0.55
           ],
           "size": 14,
           "firstColHead": true
@@ -1122,9 +1122,9 @@
             ]
           ],
           "widths": [
-            0.3,
-            0.42,
-            0.28
+            0.33,
+            0.41,
+            0.26
           ],
           "size": 14,
           "firstColHead": true

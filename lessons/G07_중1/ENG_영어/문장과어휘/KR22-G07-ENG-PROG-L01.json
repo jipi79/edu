@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "be동사+동사-ing로 지금 하고 있는 일을 묻고 답하며 현재 시제 문장과 구별한다.",
   "prerequisites": [
     {
       "text": "일반동사 현재 문장",
@@ -37,19 +36,1121 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "주어에 맞는 be동사(am, are, is)와 동사-ing로 지금 하고 있는 일을 말하고 쓴다. -ing의 철자 규칙(대부분 -ing, e로 끝나면 e를 빼고 -ing, 모음 하나 + 자음 하나로 끝나는 짧은 동사는 자음을 하나 더 쓰고 -ing)을 지키고, be동사 뒤에 not을 넣어 부정문을 만든다.",
+      "evidence": "현재진행형의 모양(S03), -ing 표(S04), -ing 모양 만들기(S05), I reading 비교(S06), 부정문과 의문문(S07), 바꾸어 말하기(S08 ①), 혼자 해 보기(S12 ①②), 활동지 1·2·3·5·6",
+      "success": "활동지 1의 동사 10개 가운데 9개 이상을 -ing 철자에 맞게 쓰고, 문장을 쓸 때 be동사를 빠뜨리지 않는다(I reading. ×, I am read. ×). 부정문은 be동사 뒤에 not을 넣는다(I don't reading. ×)."
+    },
+    {
+      "id": "B",
+      "text": "Are you ~ing? / What are you doing?으로 지금 하는 일을 묻고 Yes, I am. / I'm ~ing.로 대답하며, 늘 하는 일(현재 시제: every day, usually)과 지금 하는 일(현재진행형: now, Look!)을 구별해 알맞은 모양을 고른다.",
+      "evidence": "부정문과 의문문(S07), 바꾸어 말하기(S08 ②③④), 몸짓 맞히기 역할극(S09), 늘 하는 일과 지금 하는 일 표(S10), 어느 모양일까(S11), 혼자 해 보기(S12 ③④), 묻는 말에 대답하기(S14), 활동지 4·5·6",
+      "success": "활동지 4의 문장 6개 가운데 5개 이상에서 때를 나타내는 말을 보고 알맞은 모양을 고르고, 부모의 질문 3개 가운데 3개에 질문에 맞게 대답한다(What are you doing? → I'm ~ing. / Do you ~? → Yes, I do. / Are you ~ing? → Yes, I am.)."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 여섯 장과 펜(몸짓 카드)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "현재진행형(am, are, is + 동사-ing)의 긍정문·부정문·Yes/No 의문문과 짧은 대답, What are you doing?과 그 대답(I'm ~ing.)만 다룬다. -ing 철자는 대부분 -ing, e로 끝나면 e를 빼고 -ing(make → making), 모음 하나 + 자음 하나로 끝나는 짧은 동사는 끝 자음을 겹친다(run → running) 세 가지이다. lie → lying처럼 ie로 끝나는 동사, begin → beginning처럼 두 음절 동사의 겹치기, 진행형으로 나타내는 가까운 미래(I'm leaving tomorrow.), 과거진행형(was ~ing)은 다루지 않는다. like, know, want처럼 진행형으로 잘 쓰지 않는 동사와 끝이 w, x, y인 동사는 겹치지 않는다(snow → snowing, play → playing)는 것은 부모용 노트에만 적는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "be동사를 빠뜨리거나(I reading a book.), -ing를 붙이지 않고 동사원형을 그대로 쓴다(I am read a book.). 우리말 ‘읽고 있어요’에서 be동사에 해당하는 말이 따로 보이지 않기 때문이다.",
+      "response": "S03에서 문장을 주어·be동사·동사-ing 세 덩어리로 보여 주고, S06에서 I reading과 I am reading을 나란히 비교한다. S13 정답 장에서 다시 다룬다."
+    },
+    {
+      "id": "M2",
+      "text": "-ing 철자를 틀린다(makeing, writeing, runing, swiming). 거꾸로 eat → eatting, read → readding처럼 겹치지 않을 자음을 겹치기도 한다.",
+      "response": "S04의 표로 세 가지 방법을 정리하고, ‘모음 하나 + 자음 하나’일 때만 겹친다고 짚는다(eat은 모음이 둘). S05와 활동지 1에서 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "부정문·의문문에 일반동사처럼 do를 쓴다(I don't reading. Do you reading?).",
+      "response": "S07에서 현재진행형은 be동사 문장이므로 be동사로 부정문·의문문을 만든다고 보여 주고, S08의 도움말과 S13 정답 장에서 다시 짚는다."
+    },
+    {
+      "id": "M4",
+      "text": "늘 하는 일과 지금 하는 일을 구별하지 못해 every day 문장에 진행형을 쓰거나(I am playing soccer every day.), Look! 문장에 현재 시제를 쓴다(Look! The baby sleeps.).",
+      "response": "S10의 표로 두 모양과 함께 쓰는 말(every day, usually / now, Look!)을 비교하고, S11·S12 ④·활동지 4에서 때를 나타내는 말을 먼저 찾게 한다. S14에서 Do you ~?와 Are you ~ing?를 섞어 묻는다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "현재진행형",
+      "question": "I play soccer. I'm playing soccer.\n두 문장은 무엇이 다를까?",
+      "goals": [
+        "① be동사 + 동사-ing로 지금 하는 일을 말하고 써요.",
+        "② 지금 하는 일을 묻고 답하며, 늘 하는 일과 구별해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I play soccer every day."
+          },
+          {
+            "word": "I'm playing soccer now."
+          },
+          {
+            "word": "What are you doing?"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 늘 하는 일과 지금 하는 일을 다른 모양으로 말한다는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“첫째 문장은 ‘나는 매일 축구를 해요’, 둘째 문장은 ‘나는 지금 축구를 하고 있어요’야. 무엇이 다르지?”",
+          "“오늘은 지금 하고 있는 일을 말하는 방법, 그리고 ‘너 지금 뭐 하고 있어?’라고 묻는 방법을 배울 거야.”"
+        ],
+        "예상답": [
+          "“둘째 문장에는 I'm이 있고 play 뒤에 ing가 붙었어요.” “every day랑 now가 달라요.”"
+        ],
+        "막히면": [
+          "다른 곳을 못 찾으면 부모가 I'm과 -ing를 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I play soccer every day. I'm playing soccer now. What are you doing? I'm reading a book. Are you swimming? Yes, I am. No, I'm not. He isn't sleeping. Is he sleeping?)과 낱말(making, writing, running, swimming, sitting)을 미리 들어 두세요.",
+          "지난 차시(일반동사 현재 문장)의 likes, doesn't를 아이가 기억하면 오늘 비교가 쉬워집니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(be동사, 일반동사 현재 문장)",
+      "role": "prior",
+      "objectives": [],
+      "title": "be동사와 일반동사 떠올리기",
+      "text": "①②는 빈칸에 알맞은 말을 넣고, ③은 No로 대답해요.",
+      "problems": [
+        {
+          "text": "They ______ at home."
+        },
+        {
+          "text": "He ______ (watch) TV every day."
+        },
+        {
+          "text": "Do you like milk?"
+        }
+      ],
+      "notes": {
+        "목적": "‘be동사 문장’(KR22-G07-ENG-BEVERB-L01)의 주어에 맞는 be동사와, 지난 차시 ‘일반동사 현재 문장’(KR22-G07-ENG-DOVERB-L01)의 3인칭 단수 -es와 do 대답을 기억하는지 확인합니다. 현재진행형은 be동사를 쓰고, 오늘 마지막에 일반동사 현재 문장과 비교합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, 빈칸에 am, are, is 가운데 무엇이 들어갈까?”",
+          "“②는 괄호 안의 동사를 알맞게 바꿔서 읽어 줘.”",
+          "“③, 엄마(아빠)가 물어볼게. Do you like milk? No로 대답해 줘.”"
+        ],
+        "정답": [
+          "① are (They are at home.)",
+          "② watches (He watches TV every day.)",
+          "③ No, I don't."
+        ],
+        "막히면": [
+          "①은 “they에는 am, are, is 가운데 무엇이었지?”, ②는 “He는 3인칭 단수야. watch는 ch로 끝나지?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "③에서 No, I'm not.이라고 하면 “Do로 물었으니 do로 대답했지?”라고 짚어 줍니다. 오늘 배우는 진행형 질문(Are you ~ing?)에는 be동사로 대답하므로, 두 가지를 구별하는 것이 오늘의 중요한 목표입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "현재진행형의 뜻과 모양",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "현재진행형의 모양",
+      "figure": {
+        "type": "words",
+        "perRow": 3,
+        "items": [
+          {
+            "word": "I",
+            "sub": "주어: 나는"
+          },
+          {
+            "word": "am",
+            "sub": "be동사",
+            "highlight": true
+          },
+          {
+            "word": "reading.",
+            "sub": "동사-ing: 읽고 있는",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "현재진행형",
+          "text": "지금 하고 있는 일을 나타내요.\n‘~하고 있다’라는 뜻이에요."
+        },
+        {
+          "title": "모양",
+          "text": "am, are, is + 동사-ing\nShe is reading."
+        }
+      ],
+      "key": "be동사를 빠뜨리지 않아요.  I reading. (×)",
+      "notes": {
+        "목적": "현재진행형의 뜻(지금 하고 있는 일)과 모양(be동사 + 동사-ing)을 알려 줍니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“I am reading.을 세 덩어리로 나눠 봤어. 주어 I, be동사 am, 그리고 read 끝에 ing가 붙은 reading.”",
+          "“이렇게 be동사와 동사-ing를 함께 쓰면 ‘지금 ~하고 있다’라는 뜻이 돼. 이 모양을 현재진행형이라고 해. 지금(현재) 하고 있는(진행) 일이라는 뜻이야.”",
+          "“be동사는 주어에 맞게 골라. She는? They는?”"
+        ],
+        "예상답": [
+          "“She is reading. They are reading.”"
+        ],
+        "막히면": [
+          "부모가 컵으로 물을 마시는 시늉을 하며 “I am drinking.”이라고 말하고, “지금 엄마(아빠)가 무엇을 하고 있어?”라고 물어 뜻을 먼저 연결합니다."
+        ],
+        "주의": [
+          "I reading.처럼 be동사를 빠뜨리거나 I am read.처럼 -ing를 빠뜨리는 실수가 흔합니다(오해 M1). 두 가지가 꼭 함께 있어야 한다고 짚어 줍니다.",
+          "I am reading.은 I'm reading.으로 줄여 말해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "-ing 철자 규칙",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "-ing 붙이는 방법",
+      "text": "동사의 끝 글자를 보고 붙이는 방법을 골라요.",
+      "table": {
+        "headers": [
+          "동사의 끝",
+          "붙이는 방법",
+          "예"
+        ],
+        "rows": [
+          [
+            "대부분",
+            "-ing",
+            "read → reading, play → playing"
+          ],
+          [
+            "e",
+            "e를 빼고 -ing",
+            "make → making, write → writing"
+          ],
+          [
+            "모음 하나+자음 하나",
+            "자음 하나 더, -ing",
+            "run → running, swim → swimming"
+          ]
+        ],
+        "widths": [
+          0.28,
+          0.24,
+          0.48
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "모음: a, e, i, o, u   자음: 그 밖의 글자\nsit → sitting, get → getting",
+      "notes": {
+        "목적": "동사에 -ing를 붙이는 철자 규칙 세 가지를 표로 익힙니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“대부분은 끝에 ing만 붙이면 돼. read, reading. play, playing.”",
+          "“make처럼 e로 끝나면 e를 빼고 ing를 붙여. making. write는?”",
+          "“run은 끝이 u, n이지? 모음 하나에 자음 하나로 끝나는 짧은 동사는 끝 자음을 하나 더 쓰고 ing를 붙여. running. swim은?”"
+        ],
+        "예상답": [
+          "“writing이에요.” “swimming, m이 두 개예요.”"
+        ],
+        "막히면": [
+          "모음 다섯 글자 a, e, i, o, u를 종이에 크게 써 두고, 동사의 끝 두 글자가 ‘모음 하나 + 자음 하나’인지 손가락으로 짚어 보게 합니다.",
+          "eat, read처럼 모음이 둘(ea)이면 겹치지 않는다는 것을 run과 비교해 보여 줍니다."
+        ],
+        "주의": [
+          "셋째 줄 규칙은 run, swim, sit, get, stop처럼 짧은 동사에만 씁니다. 끝이 w, x, y인 동사는 겹치지 않습니다(snow → snowing, fix → fixing, play → playing). 아이가 물으면 알려 주고 따로 외우게 하지는 않습니다.",
+          "study → studying처럼 y로 끝나도 -ing를 그대로 붙입니다. 지난 시간의 studies와 헷갈리지 않게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "-ing 모양 만들기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "-ing 모양을 만들어요",
+      "text": "괄호 안의 동사를 -ing 모양으로 바꿔 읽어요.",
+      "problems": [
+        {
+          "text": "I am (eat) lunch."
+        },
+        {
+          "text": "She is (write) a letter."
+        },
+        {
+          "text": "They are (swim) now."
+        },
+        {
+          "text": "He is (play) a game."
+        },
+        {
+          "text": "We are (make) a cake."
+        },
+        {
+          "text": "The dog is (run) fast."
+        }
+      ],
+      "hint": "동사의 끝 글자를 보고, S04 표에서 방법을 골라요.",
+      "notes": {
+        "목적": "-ing 철자 규칙 세 가지를 문장 안에서 적용합니다(목표 A, 오해 M2). 활동지 1·2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“괄호 안의 동사를 -ing 모양으로 바꿔서 문장 전체를 읽어 줘. 철자도 말해 볼래?”",
+          "“③의 swim은 S04 표의 몇째 줄이야?”"
+        ],
+        "정답": [
+          "① eating (I am eating lunch. 모음이 둘이라 겹치지 않음)",
+          "② writing (She is writing a letter. e를 빼고)",
+          "③ swimming (They are swimming now. m을 하나 더)",
+          "④ playing (He is playing a game.)",
+          "⑤ making (We are making a cake.)",
+          "⑥ running (The dog is running fast. n을 하나 더)"
+        ],
+        "막히면": [
+          "철자를 말로 하기 어려우면 종이에 써 보게 하고, S04의 표와 비교합니다.",
+          "①에서 eatting이라고 쓰면 “eat의 끝 두 글자 a, t는 모음 하나 + 자음 하나지만, 그 앞에 e도 모음이야. 모음이 둘이면 겹치지 않아.”라고 알려 줍니다."
+        ],
+        "주의": [
+          "철자를 틀려도 문장의 뜻을 바르게 말했다면 먼저 칭찬하고, 철자는 하나씩 고칩니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(be동사 빠뜨리기)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘책을 읽고 있어요’를 영어로",
+      "claim": "‘나는 책을 읽고 있어요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I reading a book."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I am reading a book."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽에는 무엇이 빠졌나요?",
+      "notes": {
+        "목적": "현재진행형에는 be동사와 -ing가 함께 있어야 한다는 것을 비교로 확인합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“S03에서 현재진행형은 세 덩어리였지? 가에는 무엇이 비어 있어?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(I am reading a book.)입니다. 가에는 be동사 am이 빠졌습니다. I'm reading a book.으로 줄여 써도 맞습니다."
+        ],
+        "막히면": [
+          "S03의 세 덩어리(주어·be동사·동사-ing)를 다시 보여 주고, 가에서 비어 있는 칸을 찾게 합니다."
+        ],
+        "주의": [
+          "같은 실수 예: She cooking. → She is cooking. / I am read. → I am reading. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 현재진행형 긍정문입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "현재진행형의 부정문·의문문과 대답",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "부정문과 의문문",
+      "text": "be동사 문장과 같은 방법으로 바꿔요.",
+      "steps": [
+        "부정문: be동사 뒤에 not을 넣어요.",
+        "의문문: be동사를 주어 앞으로 옮겨요.",
+        "대답도 be동사로 해요.\nYes, he is. / No, he isn't."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "He is sleeping.",
+            "sub": "그는 자고 있어요."
+          },
+          {
+            "word": "He isn't sleeping.",
+            "sub": "그는 자고 있지 않아요."
+          },
+          {
+            "word": "Is he sleeping?",
+            "sub": "그는 자고 있나요?",
+            "highlight": true
+          }
+        ]
+      },
+      "key": "무엇을 하고 있는지 물을 때는?  What are you doing?",
+      "notes": {
+        "목적": "현재진행형은 be동사 문장이므로 be동사로 부정문·의문문을 만들고 대답한다는 것을 익히고, What are you doing?으로 묻는 방법을 알려 줍니다(목표 A·B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“현재진행형에는 be동사가 있지? 그래서 be동사 문장처럼 바꿔. not은 be동사 뒤에. He isn't sleeping.”",
+          "“묻는 문장은 be동사를 맨 앞으로. Is he sleeping? 대답은 Yes, he is. 또는 No, he isn't.”",
+          "“‘너 지금 뭐 하고 있어?’는 What are you doing?이라고 해. 대답은 I'm 다음에 하고 있는 일을 말해. 지금 너는 뭐 하고 있어?”"
+        ],
+        "예상답": [
+          "“I'm studying English.” 또는 “I'm learning English.”"
+        ],
+        "막히면": [
+          "부정문이 막히면 be동사에 손가락을 대고 “여기 바로 오른쪽에 not!” 하고 말하며 끼워 넣게 합니다.",
+          "What are you doing?의 대답이 막히면 부모가 “I'm studying English.”를 먼저 말하고 따라 하게 합니다."
+        ],
+        "주의": [
+          "I don't reading.이나 Do you reading?처럼 do를 쓰면 “-ing 문장에는 be동사가 있으니까 be동사로 바꿔.”라고 말해 줍니다(오해 M3).",
+          "What are you doing?의 doing은 do(하다)에 -ing가 붙은 말입니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "부정문·의문문으로 바꾸고 대답하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "바꾸어 말해요",
+      "text": "지시대로 바꾸어 말해요.",
+      "problems": [
+        {
+          "text": "I am watching TV.\n→ 부정문으로"
+        },
+        {
+          "text": "She is reading a book.\n→ 의문문으로"
+        },
+        {
+          "text": "Are you studying?\n→ Yes로 대답"
+        },
+        {
+          "text": "What are you doing?\n→ eat lunch로 대답"
+        }
+      ],
+      "hint": "be동사를 먼저 찾아요. don't, doesn't는 쓰지 않아요.",
+      "notes": {
+        "목적": "현재진행형 문장을 부정문·의문문으로 바꾸고, Yes/No 질문과 What are you doing?에 대답합니다(목표 A·B, 오해 M3). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①부터 지시대로 바꾸어 말해 줘. be동사가 어디 있는지 먼저 찾아볼까?”",
+          "“④는 ‘점심을 먹고 있어요’라고 대답해 봐.”"
+        ],
+        "정답": [
+          "① I'm not watching TV. (I am not watching TV.)",
+          "② Is she reading a book?",
+          "③ Yes, I am.",
+          "④ I'm eating lunch. (I am eating lunch.)"
+        ],
+        "막히면": [
+          "S07의 단계를 다시 보여 줍니다.",
+          "④에서 I eat lunch.라고 하면 “지금 하고 있는 일이니까 be동사와 -ing가 필요해.”라고 말해 줍니다."
+        ],
+        "주의": [
+          "③에서 Yes, I do.라고 하면 “Are로 물었으니 be동사로 대답해.”라고 짚어 줍니다. Yes, I'm.처럼 줄여 대답하지 않는 것도 지난 차시와 같습니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "몸짓 맞히기 역할극",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "묻고 답하기: 몸짓 맞히기",
+      "steps": [
+        "종이 여섯 장에 동작을 하나씩 써요.",
+        "한 사람이 한 장을 골라 몸짓을 해요.",
+        "다른 사람이 물어요: Are you swimming?",
+        "답해요: Yes, I am. / No, I'm not.",
+        "역할을 바꿔서 해요."
+      ],
+      "criteria": [
+        "be동사를 주어 앞에 두고 물었어요",
+        "동사에 -ing를 바르게 붙였어요",
+        "Yes, No 뒤에 주어와 be동사를 말했어요"
+      ],
+      "notes": {
+        "목적": "몸짓을 보며 지금 하는 일을 Are you ~ing?로 묻고 be동사로 대답하는 것을 소리 내어 여러 번 말합니다(목표 B, 오해 M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“종이 여섯 장에 cook, swim, dance, sleep, read, run을 하나씩 쓰자. 엄마(아빠)가 먼저 한 장 골라서 몸짓을 할게. 무엇을 하고 있는지 물어봐.”",
+          "(아이) “Are you dancing?” → (부모) “No, I'm not.” → (아이) “Are you swimming?” → (부모) “Yes, I am.”",
+          "“이번엔 네가 몸짓을 해. 엄마(아빠)가 물어볼게.” 마지막 한 번은 부모가 “What are you doing?”이라고 묻고 아이가 “I'm cooking.”처럼 대답합니다."
+        ],
+        "예상답": [
+          "아이가 물을 때: “Are you cooking?” “Are you sleeping?” “Are you running?”",
+          "아이가 대답할 때: “Yes, I am.” “No, I'm not.” “I'm reading.”",
+          "기준: be동사를 주어 앞에 두어 묻고, -ing 철자(dancing, swimming, running)가 맞고, Yes·No 뒤에 주어와 be동사를 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "카드의 낱말 뜻을 모르면 부모가 몸짓과 함께 낱말을 먼저 말해 줍니다.",
+          "질문이 막히면 “Are you 다음에 카드 낱말과 ing!”라고 틀을 알려 줍니다."
+        ],
+        "주의": [
+          "역할을 바꾸어 세 번 이상 주고받습니다. 틀려도 바로 고치기보다 다음 차례에 부모가 바른 문장으로 다시 말해 줍니다.",
+          "dancing, swimming, running은 철자 규칙이 다른 동사입니다. 아이가 원하면 카드 뒷면에 -ing 모양을 써 보게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "현재 시제와 현재진행형 구별",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "늘 하는 일, 지금 하는 일",
+      "text": "때를 나타내는 말을 보고 알맞은 모양을 골라요.",
+      "table": {
+        "headers": [
+          "",
+          "늘 하는 일",
+          "지금 하는 일"
+        ],
+        "rows": [
+          [
+            "이름",
+            "현재 시제",
+            "현재진행형"
+          ],
+          [
+            "모양",
+            "동사(-s, -es)",
+            "be동사 + 동사-ing"
+          ],
+          [
+            "함께 쓰는 말",
+            "every day, usually",
+            "now, right now, Look!"
+          ],
+          [
+            "예",
+            "She reads every day.",
+            "She is reading now."
+          ]
+        ],
+        "widths": [
+          0.22,
+          0.39,
+          0.39
+        ],
+        "width": 12,
+        "size": 24
+      },
+      "key": "every day → 늘 하는 일,  now → 지금 하는 일",
+      "notes": {
+        "목적": "늘 하는 일(현재 시제)과 지금 하는 일(현재진행형)의 모양과 함께 쓰는 말을 비교합니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“지난 시간에 배운 She reads.는 ‘그녀는 (늘) 읽어요’, 오늘 배운 She is reading.은 ‘그녀는 (지금) 읽고 있어요’야.”",
+          "“every day, usually(보통)가 있으면 늘 하는 일이니까 현재 시제. now, right now(바로 지금), Look!(봐!)이 있으면 지금 하는 일이니까 현재진행형.”",
+          "“너는 매일 무엇을 해? 지금은 무엇을 하고 있어?”"
+        ],
+        "예상답": [
+          "“I go to school every day. I'm studying English now.”"
+        ],
+        "막히면": [
+          "부모가 직접 예를 들어 줍니다. “엄마(아빠)는 매일 커피를 마셔. I drink coffee every day. 지금은 너랑 영어 공부를 하고 있어. I'm studying English now.”"
+        ],
+        "주의": [
+          "like, know, want처럼 마음이나 상태를 나타내는 동사는 보통 -ing로 쓰지 않습니다(I like pizza. ○ / I'm liking pizza. ×). 아이가 물으면 알려 주고, 오늘은 움직임을 나타내는 동사만 연습합니다.",
+          "Look!은 ‘지금 이것 좀 봐!’라는 뜻이라서 바로 그때 일어나는 일과 함께 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "현재 시제와 현재진행형 고르기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "어느 모양일까?",
+      "text": "때를 나타내는 말을 찾고, 알맞은 것을 골라 읽어요.",
+      "problems": [
+        {
+          "text": "I ______ every day.\n(swim / am swimming)"
+        },
+        {
+          "text": "Look! The baby ______.\n(sleeps / is sleeping)"
+        },
+        {
+          "text": "My dad ______ now.\n(cooks / is cooking)"
+        },
+        {
+          "text": "She usually ______.\n(walks / is walking)"
+        }
+      ],
+      "hint": "every day, usually는 늘 하는 일, now, Look!은 지금 하는 일",
+      "notes": {
+        "목적": "때를 나타내는 말을 단서로 현재 시제와 현재진행형을 고릅니다(목표 B, 오해 M4). 활동지 4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 문장에서 때를 나타내는 말을 찾아볼래? 그다음 괄호에서 하나를 골라 문장 전체를 읽어 줘.”",
+          "“왜 그걸 골랐어?”"
+        ],
+        "정답": [
+          "① swim (I swim every day. every day → 늘 하는 일)",
+          "② is sleeping (Look! The baby is sleeping. Look! → 지금 하는 일)",
+          "③ is cooking (My dad is cooking now.)",
+          "④ walks (She usually walks. usually → 늘 하는 일, 주어가 3인칭 단수라서 -s)"
+        ],
+        "막히면": [
+          "S10의 표에서 셋째 줄(함께 쓰는 말)을 다시 보게 합니다.",
+          "④의 usually를 모르면 “usually는 ‘보통, 대개’라는 뜻이야.”라고 알려 줍니다."
+        ],
+        "주의": [
+          "④에서 walk라고 하면 “She는 3인칭 단수였지?”라고 지난 시간의 -s를 떠올리게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(진행형 만들기·부정문·대답·시제 고르기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "He (swim) now.\n→ 알맞은 모양으로"
+        },
+        {
+          "text": "They are dancing.\n→ 부정문으로"
+        },
+        {
+          "text": "Is Mina writing?\n→ No로 대답"
+        },
+        {
+          "text": "I (watch) TV every day.\n→ 알맞은 모양으로"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 현재진행형 문장, 부정문, 짧은 대답을 만들고 늘 하는 일과 구별하는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘. 때를 나타내는 말도 잘 봐.”"
+        ],
+        "정답": [
+          "① He is swimming now. (He's swimming now.)",
+          "② They aren't dancing. (They are not dancing.)",
+          "③ No, she isn't.",
+          "④ I watch TV every day.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 swimming의 m 두 개, 아포스트로피('), 문장 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “now야, every day야?” “be동사는 어디 있어?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "teacher_only": true,
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "good": [
+        {
+          "text": "① He is swimming now."
+        },
+        {
+          "text": "② They aren't dancing."
+        },
+        {
+          "text": "③ No, she isn't."
+        },
+        {
+          "text": "④ I watch TV every day."
+        }
+      ],
+      "bad": [
+        {
+          "text": "He swimming.",
+          "note": "be동사가 빠졌어요"
+        },
+        {
+          "text": "He is swiming.",
+          "note": "m을 하나 더"
+        },
+        {
+          "text": "don't dancing",
+          "note": "be동사 뒤에 not"
+        }
+      ],
+      "explain": "be동사 확인 → -ing 철자 → every day인지 now인지 다시 봐요.",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“is가 빠졌어요.” “swim은 m을 하나 더 써요.” “don't가 아니라 aren't예요.”"
+        ],
+        "정답": [
+          "① He is swimming now. ② They aren't dancing. ③ No, she isn't. ④ I watch TV every day."
+        ],
+        "막히면": [
+          "틀린 문제는 S03(모양), S04(철자), S07(부정문·의문문), S10(늘 하는 일과 지금 하는 일) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다.",
+          "④를 I'm watching TV every day.라고 했다면 오해 M4입니다. 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(질문에 맞게 대답하기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "묻는 말에 대답해요",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "problems": [
+        {
+          "text": "What are you doing now?"
+        },
+        {
+          "text": "Do you play games every day?"
+        },
+        {
+          "text": "Are you sitting on a chair now?"
+        }
+      ],
+      "notes": {
+        "목적": "현재진행형 질문과 현재 시제 질문을 섞어 묻고, 질문에 맞는 모양으로 대답하는지 확인합니다(목표 B, 오해 M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 물어볼게. 너에게 맞게 대답해 줘. What are you doing now?”",
+          "“Do you play games every day?” “Are you sitting on a chair now?”"
+        ],
+        "정답": [
+          "① I'm studying English. (I'm learning English. / I'm talking with my mom.처럼 지금 하는 일을 I'm ~ing.로 말하면 맞음)",
+          "② Yes, I do. 또는 No, I don't.",
+          "③ Yes, I am. 또는 No, I'm not.",
+          "기준: ①은 be동사 + 동사-ing로, ②는 do로, ③은 be동사로 대답하면 통과입니다. Yes·No는 실제 상황대로 고르면 됩니다. 세 개 모두 맞으면 목표 B 달성으로 봅니다."
+        ],
+        "막히면": [
+          "질문을 한 번 더 천천히 말하고, “Do로 물었어, Are로 물었어?”라고 묻습니다."
+        ],
+        "주의": [
+          "②에 Yes, I am.이나 ③에 Yes, I do.로 대답하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "지금 하는 일: am·are·is + 동사-ing (now, Look!)\n늘 하는 일: 동사(-s) (every day, usually)",
+      "do": "now인지 every day인지 먼저 보기",
+      "dont": "I reading. / I'm swiming.",
+      "review": [
+        {
+          "text": "-ing 모양은?\nmake, run"
+        },
+        {
+          "text": "부정문으로 바꾸면?\nShe is sleeping."
+        },
+        {
+          "text": "알맞은 모양은?\nLook! It (snow)."
+        }
+      ],
+      "next": "과거 시제 문장",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지금 하고 있는 일은 어떻게 말하지? 늘 하는 일은?”",
+          "“-ing를 붙이는 방법 세 가지를 말해 볼래?”"
+        ],
+        "예상답": [
+          "“be동사랑 ing요. 늘 하는 일은 동사만 써요.” “그냥 ing, e 빼고 ing, 자음 하나 더 쓰고 ing요.”"
+        ],
+        "정답": [
+          "① making, running",
+          "② She isn't sleeping. (She is not sleeping.)",
+          "③ It is snowing. (It's snowing. snow는 끝이 w라서 겹치지 않음)"
+        ],
+        "주의": [
+          "집에서 가족이 무엇을 할 때 “What are you doing?”이라고 묻고 “I'm cooking.”처럼 대답하는 놀이를 하루에 한두 번 하면 좋은 복습이 됩니다. 다음 차시 ‘과거 시제 문장’에서는 was, were와 played, went 같은 과거형을 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "layout": "support",
+      "section": "보충",
+      "purpose": "보충(be동사와 일반동사 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: be동사와 일반동사",
+      "text": "주어에 맞는 모양을 소리 내어 읽어요.",
+      "table": {
+        "headers": [
+          "주어",
+          "be동사",
+          "일반동사 (like)"
+        ],
+        "rows": [
+          [
+            "I",
+            "am",
+            "like"
+          ],
+          [
+            "You, We, They",
+            "are",
+            "like"
+          ],
+          [
+            "He, She, It",
+            "is",
+            "likes"
+          ]
+        ],
+        "widths": [
+          0.4,
+          0.25,
+          0.35
+        ],
+        "width": 10,
+        "size": 24
+      },
+      "key": "현재진행형은 이 be동사 뒤에 동사-ing를 써요.  I am reading.",
+      "notes": {
+        "목적": "S02에서 be동사나 일반동사의 -s가 흔들리면, 현재진행형을 배우기 전에 주어에 맞는 모양을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“한 줄씩 읽어 보자. I am, I like. You are, you like. He is, he likes.”",
+          "“엄마(아빠)가 주어를 말하면 be동사를 말해 봐. she!” (아이: “is!”) “they!” (아이: “are!”)",
+          "“이번엔 like를 붙여 볼까? she!” (아이: “she likes!”)"
+        ],
+        "정답": [
+          "she → is, she likes / they → are, they like / I → am, I like / it → is, it likes"
+        ],
+        "막히면": [
+          "표의 주어 칸을 손으로 가리고 부모가 주어를 말하면 아이가 be동사와 like 모양을 함께 말하는 놀이를 몇 번 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘일반동사 현재 문장’(KR22-G07-ENG-DOVERB-L01)을, be동사가 흔들리면 ‘be동사 문장’(KR22-G07-ENG-BEVERB-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "현재진행형 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "동사를 -ing 모양으로 바꿔 쓰세요.",
+        "table": {
+          "headers": [
+            "동사",
+            "-ing 모양",
+            "동사",
+            "-ing 모양"
+          ],
+          "rows": [
+            [
+              "read",
+              "",
+              "make",
+              ""
+            ],
+            [
+              "play",
+              "",
+              "write",
+              ""
+            ],
+            [
+              "study",
+              "",
+              "run",
+              ""
+            ],
+            [
+              "eat",
+              "",
+              "swim",
+              ""
+            ],
+            [
+              "dance",
+              "",
+              "sit",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "size": 14
+        },
+        "answer": "reading, playing, studying, eating, dancing / making, writing, running, swimming, sitting. 열 개 가운데 아홉 개 이상이면 통과. makeing, runing, swiming, eatting처럼 쓰면 S04의 표로 다시 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "괄호 안의 동사를 써서 현재진행형 문장을 완성하세요. be동사도 함께 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I __________ (read) a book.",
+              "④ The cat __________ (sleep)."
+            ],
+            [
+              "② My mom __________ (cook).",
+              "⑤ They __________ (run) fast."
+            ],
+            [
+              "③ We __________ (watch) TV.",
+              "⑥ Jisu __________ (write) a card."
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13
+        },
+        "answer": "① am reading ② is cooking ③ are watching ④ is sleeping ⑤ are running ⑥ is writing. 여섯 개 가운데 다섯 개 이상이면 통과. be동사를 빠뜨리면(I reading) 고쳐 줍니다. I'm reading처럼 줄여 써도 맞습니다."
+      },
+      {
+        "no": 3,
+        "prompt": "부정문과 의문문으로 바꾸어 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "부정문",
+            "의문문"
+          ],
+          "rows": [
+            [
+              "① She is cooking.",
+              "",
+              ""
+            ],
+            [
+              "② They are swimming.",
+              "",
+              ""
+            ],
+            [
+              "③ You are reading.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.34,
+            0.34
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① She isn't cooking. / Is she cooking? ② They aren't swimming. / Are they swimming? ③ You aren't reading. / Are you reading? not이 be동사 뒤에 있고, 의문문은 be동사가 맨 앞이며 물음표가 있으면 맞음. She doesn't cooking, Does she cooking?처럼 쓰면 고쳐 줍니다. is not, are not으로 써도 맞습니다."
+      },
+      {
+        "no": 4,
+        "prompt": "때를 나타내는 말에 밑줄을 긋고, 괄호에서 알맞은 말을 골라 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "알맞은 말"
+          ],
+          "rows": [
+            [
+              "① I ________ my teeth every night.\n(brush / am brushing)",
+              ""
+            ],
+            [
+              "② Look! The baby ________.\n(smiles / is smiling)",
+              ""
+            ],
+            [
+              "③ My dad ________ coffee every morning.\n(drinks / is drinking)",
+              ""
+            ],
+            [
+              "④ Be quiet. Jiho ________ now.\n(studies / is studying)",
+              ""
+            ],
+            [
+              "⑤ We usually ________ dinner at seven.\n(eat / are eating)",
+              ""
+            ],
+            [
+              "⑥ It ________ right now.\n(rains / is raining)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.74,
+            0.26
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① brush(every night) ② is smiling(Look!) ③ drinks(every morning) ④ is studying(now) ⑤ eat(usually) ⑥ is raining(right now). 여섯 개 가운데 다섯 개 이상이면 통과. 밑줄은 괄호 안의 말에 그으면 됩니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① He (swim) now.\n(알맞은 모양으로)",
+              ""
+            ],
+            [
+              "② They are dancing.\n(부정문으로)",
+              ""
+            ],
+            [
+              "③ Is Mina writing?\n(No로 대답)",
+              ""
+            ],
+            [
+              "④ I (watch) TV every day.\n(알맞은 모양으로)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① He is swimming now. ② They aren't dancing. ③ No, she isn't. ④ I watch TV every day. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 세 문장을 쓰세요(지금 나나 가족이 하고 있는 일 두 문장, 내가 늘 하는 일 한 문장).",
+        "eng": {
+          "trace": [
+            "I'm reading a book now.",
+            "Is he sleeping? No, he isn't."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: I'm writing in English. / My mom is reading a book. / I walk to school every day.). 진행형 문장은 be동사 + 동사-ing와 철자를, 늘 하는 일 문장은 동사 모양(I walk, She walks)을 봅니다. 문장 첫 글자 대문자와 끝의 마침표도 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① make, run을 -ing 모양으로 바꿔 쓰세요.\n② She is sleeping. 부정문으로 바꾸어 쓰세요.\n③ Look! It (snow). 괄호 안의 동사를 알맞은 모양으로 바꿔 문장을 쓰세요.",
+        "lines": 3,
+        "answer": "① making, running ② She isn't sleeping. (She is not sleeping.) ③ Look! It is snowing. (It's snowing.) 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S14 묻는 말에 대답하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "every day 문장에 진행형을 쓰거나 Do you ~?에 Yes, I am.으로 대답함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S06"
 }
