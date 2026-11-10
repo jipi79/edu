@@ -553,9 +553,9 @@ async function finalize(file, alt) {
       /[\uac00-\ud7af]/.test(tx) ? `<a:rPr lang="ko-KR"${attrs.replace(/altLang="[^"]*"/, 'altLang="en-US"')}>${inner}</a:rPr><a:t>${tx}</a:t>` : m);
     // 위첨자 숫자(2³ 등)는 글꼴에 따라 너무 작게 보이므로 보통 숫자를 위첨자 서식으로 바꾼다.
     xml = xml.replace(/<a:r>(<a:rPr\b[^>]*?)(\/>|>[\s\S]*?<\/a:rPr>)<a:t>([^<]*)<\/a:t><\/a:r>/g, (m, open, rest, tx) => {
-      if (!/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿ]/.test(tx)) return m;
-      const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁺": "+", "⁻": "\u2212", "ⁿ": "n" };
-      return tx.split(/([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿ]+)/).filter((s) => s).map((s) => /^[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿ]+$/.test(s)
+      if (!/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿᵐˣ]/.test(tx)) return m;
+      const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁺": "+", "⁻": "\u2212", "ⁿ": "n", "ᵐ": "m", "ˣ": "x" };
+      return tx.split(/([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿᵐˣ]+)/).filter((s) => s).map((s) => /^[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿᵐˣ]+$/.test(s)
         ? `<a:r>${open.replace("<a:rPr", '<a:rPr baseline="30000"')}${rest}<a:t>${[...s].map((c) => SUP[c]).join("")}</a:t></a:r>`
         : `<a:r>${open}${rest}<a:t>${s}</a:t></a:r>`).join("");
     });
