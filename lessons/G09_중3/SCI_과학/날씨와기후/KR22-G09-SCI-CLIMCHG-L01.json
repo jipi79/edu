@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G09-SCI-CLIMCHG-L01",
+  "concept_id": "SCI-CLIMCHG",
+  "title": "기후변화와 해양",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "날씨와기후",
+  "sequence": 4,
+  "file_stem": "중3_과학_날씨와기후_04_기후변화와해양",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-SCI-I02"
+    ],
+    "units": [
+      "6.5.4",
+      "6.5.5"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "온실 효과가 커져 생기는 기후변화와 해수면 상승 등 대기·해양의 변화를 자료로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "열의 이동 방식",
+      "lesson": "KR22-G07-SCI-HEATFLOW-L01",
+      "grade_item": "KR22-G07-SCI-I02"
+    },
+    {
+      "text": "기후변화와 생활",
+      "lesson": "KR22-G04-SCI-CLIMATE-L01",
+      "grade_item": "KR22-G04-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "기후변화와 해양 활동지",
+    "items": [],
+    "record": []
+  }
+}
