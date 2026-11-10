@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "first·however·for example·as a result 같은 연결어를 단서로 글의 전개를 파악하고 흐름에 맞지 않는 문장을 찾는다.",
   "prerequisites": [
     {
       "text": "요지와 세부 정보",
@@ -43,19 +42,879 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "연결어(문장과 문장을 이어 글의 흐름을 알려 주는 말) First·Then(순서), However(앞과 반대), For example(앞 말의 예), As a result(앞 일 때문에 생긴 결과)의 뜻과 하는 일을 알고, 4~6문장 글에서 연결어를 단서로 뒤에 올 내용을 짐작하거나 빈칸에 알맞은 연결어를 고르고 까닭을 말한다.",
+      "evidence": "연결어 표(S03), 연결어 따라 읽기(S04), 연결어 고르기(S05), However와 As a result 비교(S06), 이어 말하기 놀이(S10), 혼자 해 보기(S11), 마무리 확인(S13 ②), 활동지 1·2·4·5",
+      "success": "처음 보는 문장 짝 세 개 가운데 세 개에 알맞은 연결어를 고르고, ‘앞과 반대라서 However’처럼 까닭을 말한다. 연결어 뒤에 앞 말과 맞는 내용을 이어 말한다."
+    },
+    {
+      "id": "B",
+      "text": "4~6문장 글에서 주제문(글의 중심 생각을 담은 문장)을 찾고, 한 문장씩 중심 생각과 관계있는지, 연결어가 앞뒤와 맞는지 따져 흐름에 맞지 않는 문장을 찾으며, 그 문장을 뺀 글이 왜 더 자연스러운지 말한다.",
+      "evidence": "흐름에 맞지 않는 문장 찾기 순서(S07), 시범 글(S08), 도서관 글(S09), 마무리 확인(S13 ①), 활동지 3",
+      "success": "처음 보는 글 두 편(S13, 활동지 3)에서 흐름에 맞지 않는 문장을 바르게 찾고, ‘같은 낱말이 나와도 중심 생각과 다르다’처럼 주제문과 연결해 까닭을 말한다. 우리말로 말해도 된다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 네 장과 펜(연결어 카드)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "연결어는 First·Then(6학년·중1에서 배운 순서 말), However, For example, As a result 다섯 가지만 다루고, 모두 문장 맨 앞에 쓰고 뒤에 쉼표를 찍는 쓰임만 본다. 글은 직접 쓴 4~6문장의 생활 글·설명 글이며, 흐름에 맞지 않는 문장은 중심 생각과 관계없는 문장 하나만 넣는다. also(또한)와 so는 글 속에서 뜻만 알려 준다. In addition, On the other hand, Therefore, 문장 순서 배열하기, 주어진 문장 넣기, 연결어 없이 앞뒤 관계 추론하기는 다루지 않는다. 글의 동사는 현재형과 ‘과거 시제 문장’에서 배운 과거형만 쓰고, 연결어를 써서 문단을 쓰는 것은 다음 차시 ‘경험 문단 쓰기’와 ‘의견 문단 쓰기’에서 한다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "However를 ‘그리고, 그래서’처럼 생각해 앞과 반대가 아닌 내용을 잇는다(It rained a lot. However, we stayed home.).",
+      "response": "S03 표에서 However 뒤에는 반대되는 말이 온다고 보여 주고, S06에서 However와 As a result를 나란히 비교한다. S11 ③에서 다시 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "As a result 뒤에 원인을 쓰거나, For example 뒤에 앞 말의 예가 아닌 새 이야기를 쓴다.",
+      "response": "S03 노트에서 ‘앞이 원인, 뒤가 결과’를 화살표로 설명하고, S05·S10에서 연결어에 맞게 이어 말하며, 활동지 5에서 쓴다."
+    },
+    {
+      "id": "M3",
+      "text": "같은 낱말(school, sea, food)이 나오면 흐름에 맞는 문장이라고 판단해 중심 생각과 관계없는 문장을 놓친다.",
+      "response": "S07 카드에서 ‘같은 낱말 ≠ 같은 생각’을 짚고, S08(음식), S09(학교), S13(바다)에서 낱말은 겹치지만 중심 생각과 다른 문장을 찾게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "흐름에 맞지 않는 문장으로 모르는 낱말이 있는 문장이나 연결어가 없는 문장을 고른다.",
+      "response": "S07의 넷째 단계(빼고 읽어 보기)로 확인하게 하고, S09 ④처럼 연결어가 없어도 흐름에 맞는 문장이 있다는 것을 노트에서 짚는다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "연결어로 글의 흐름 파악",
+      "question": "However, 뒤에는\n어떤 내용이 올까?",
+      "goals": [
+        "① 연결어의 뜻을 알고 뒤에 올 내용을 짐작해요.",
+        "② 흐름에 맞지 않는 문장을 찾아요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "First, / Then,",
+            "sub": "먼저 / 그다음에"
+          },
+          {
+            "word": "However,",
+            "sub": "그러나"
+          },
+          {
+            "word": "For example,",
+            "sub": "예를 들어"
+          },
+          {
+            "word": "As a result,",
+            "sub": "그 결과"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 연결어가 글의 길잡이라는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“‘나는 피자를 좋아해. 그러나 …’ 다음에는 어떤 말이 올 것 같아?”",
+          "“‘그러나’ 같은 말이 있으면 뒤에 올 내용을 미리 짐작할 수 있지? 영어에도 이런 말이 있어. 오른쪽 네 가지를 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)",
+          "“오늘은 이런 연결어로 글의 흐름을 따라 읽고, 흐름에 맞지 않는 문장도 찾아볼 거야.”"
+        ],
+        "예상답": [
+          "“그러나 오늘은 안 먹을 거야.” “그러나 엄마는 싫어해.”처럼 앞과 다른 말"
+        ],
+        "막히면": [
+          "“‘비가 왔어. 그래서 …’ 다음에는?”처럼 우리말 연결어로 먼저 짐작해 보게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 연결어(First, Then, However, For example, As a result)와 S04·S08 글을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "글의 뜻은 노트에 적어 두었습니다. 아이가 영어 문장을 다 해석하지 못해도 연결어와 흐름을 찾는 것이 오늘의 목표입니다. 대답은 우리말로 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "passage",
+      "section": "도입",
+      "purpose": "선수 학습 확인(요지와 세부 정보, 사건 순서 파악)",
+      "role": "prior",
+      "objectives": [],
+      "title": "짧은 글 읽기",
+      "text": "글을 읽고 질문에 답해요.",
+      "passage": {
+        "title": "Jun's Pancakes",
+        "paragraphs": [
+          "Last Saturday, Jun made pancakes for his family. First, he mixed flour, milk, and eggs. Then, he cooked them in a pan. Finally, they ate the pancakes together."
+        ]
+      },
+      "question": "① 무엇에 관한 글인가요?　② 준이 처음에 한 일과 마지막에 한 일은?",
+      "notes": {
+        "목적": "중1 ‘요지와 세부 정보’(KR22-G07-ENG-GISTDET-L01)의 요지 찾기와 6학년 ‘사건 순서 파악’(KR22-G06-ENG-SEQUENCE-L01)의 순서 말(First, Then, Finally)을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 소리 내어 끝까지 읽어 보자. flour는 밀가루, mix는 섞다야.”",
+          "“①, 이 글은 무엇에 관한 글이야? 한 문장으로 말해 줘.”",
+          "“②, 준이 처음에 한 일은? 마지막에 한 일은? 어떤 낱말을 보고 알았어?”"
+        ],
+        "정답": [
+          "① 준이 가족을 위해 팬케이크를 만든 이야기",
+          "② 처음: 밀가루, 우유, 달걀을 섞었어요(First). 마지막: 가족이 함께 팬케이크를 먹었어요(Finally).",
+          "글의 뜻: 지난 토요일, 준은 가족을 위해 팬케이크를 만들었어요. 먼저 밀가루, 우유, 달걀을 섞었어요. 그다음에 팬에 구웠어요. 마지막으로 가족이 함께 팬케이크를 먹었어요."
+        ],
+        "막히면": [
+          "①에서 ‘밀가루를 섞었다’처럼 세부 정보 하나를 말하면 “글 전체가 하는 이야기는?”이라고 다시 묻습니다.",
+          "두 질문 모두 어렵거나 First, Then, Finally의 뜻을 모르면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 순서 말(First, Then)에 However, For example, As a result를 더해 글의 흐름을 따라갑니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "연결어 다섯 가지의 뜻과 하는 일",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "글의 흐름을 알려 주는 말",
+      "text": "연결어는 앞 문장과 뒤 문장의 관계를 알려 줘요.",
+      "table": {
+        "headers": [
+          "연결어",
+          "뜻",
+          "뒤에 오는 내용"
+        ],
+        "rows": [
+          [
+            "First, / Then,",
+            "먼저 / 그다음에",
+            "일의 순서"
+          ],
+          [
+            "However,",
+            "그러나, 하지만",
+            "앞과 반대되는 말"
+          ],
+          [
+            "For example,",
+            "예를 들어",
+            "앞 말의 예"
+          ],
+          [
+            "As a result,",
+            "그 결과",
+            "앞 일 때문에 생긴 일"
+          ]
+        ],
+        "widths": [
+          0.32,
+          0.3,
+          0.38
+        ],
+        "width": 12.2,
+        "size": 24
+      },
+      "key": "연결어를 보면 뒤에 올 내용을 미리 짐작할 수 있어요.",
+      "notes": {
+        "목적": "연결어(문장과 문장을 이어 글의 흐름을 알려 주는 말)의 뜻과, 각 연결어 뒤에 어떤 내용이 오는지 알려 줍니다(목표 A, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“연결어는 문장과 문장을 이어서 글이 어떻게 흘러가는지 알려 주는 말이야. 한 줄씩 읽어 보자.” (소리 자료를 듣고 따라 합니다.)",
+          "“However 뒤에는 앞과 반대되는 말이 와. I like pizza. However, my sister doesn't like it.”",
+          "“For example 뒤에는 앞 말의 예가 와. I like fruit. For example, I eat an apple every day.”",
+          "“As a result 뒤에는 앞 일 때문에 생긴 일이 와. I didn't eat breakfast. As a result, I was hungry. 그럼 앞 문장은 원인일까, 결과일까?”"
+        ],
+        "예상답": [
+          "“앞 문장이 원인이에요. 아침을 안 먹어서 배가 고팠어요.”"
+        ],
+        "막히면": [
+          "종이에 ‘원인 → 결과’ 화살표를 그리고 As a result는 화살표 자리에 온다고 보여 줍니다.",
+          "However가 어려우면 6학년 때 배운 but(하지만)과 뜻이 같다고 알려 줍니다."
+        ],
+        "주의": [
+          "연결어는 문장 맨 앞에 쓰고 뒤에 쉼표를 찍습니다. 문장 중간의 but과 달리 However는 새 문장의 첫머리에 대문자로 씁니다.",
+          "As a result 뒤에 원인을 쓰는 실수가 많습니다(오해 M2). ‘앞이 원인, 뒤가 결과’를 꼭 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "연결어를 따라 글의 흐름 읽기(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "연결어를 따라 읽어요",
+      "passage": {
+        "title": "Minsu's Phone",
+        "paragraphs": [
+          "Minsu loved games on his phone.",
+          "For example, he played games for three hours every night.",
+          "As a result, he was always tired at school.",
+          "However, last month he made a new rule.",
+          "Now he plays games for only thirty minutes a day."
+        ],
+        "numbered": true
+      },
+      "question": "연결어를 찾고, 그 뒤에 어떤 내용이 왔는지 말해요.",
+      "notes": {
+        "목적": "연결어 세 가지가 들어간 글을 함께 읽으며, 연결어마다 앞 문장과 어떤 관계로 이어지는지 부모가 생각을 소리 내어 보여 줍니다(목표 A).",
+        "시간": "약 4분",
+        "말하기": [
+          "“먼저 낱말 뜻부터. rule은 규칙이야. 엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“②의 For example을 보자. 앞에서 민수가 게임을 아주 좋아했다고 했지? 그 예로 매일 밤 세 시간씩 게임을 했대.”",
+          "“③의 As a result. 무엇 때문에 학교에서 늘 피곤했을까?”",
+          "“④의 However는 앞과 반대되는 이야기가 온다는 신호야. 무엇이 바뀌었어?”"
+        ],
+        "예상답": [
+          "“밤마다 게임을 세 시간이나 해서 피곤했어요.” “지난달에 새 규칙을 만들어서 이제 하루에 30분만 해요.”"
+        ],
+        "막히면": [
+          "문장마다 뜻을 부모가 먼저 짧게 말해 줍니다: ① 민수는 휴대 전화 게임을 아주 좋아했어요. ② 예를 들어, 매일 밤 세 시간씩 게임을 했어요. ③ 그 결과, 학교에서 늘 피곤했어요. ④ 그러나 지난달에 새 규칙을 만들었어요. ⑤ 이제 하루에 30분만 게임을 해요."
+        ],
+        "주의": [
+          "①~③은 ‘좋아함 → 예 → 결과’, ④~⑤는 ‘반대로 바뀐 일’입니다. 연결어마다 앞 문장을 가리키며 “무엇의 예? 무엇의 결과? 무엇과 반대?”라고 물으면 흐름이 보입니다.",
+          "⑤의 Now(이제)는 연결어는 아니지만 때가 바뀌었다는 것을 알려 주는 말입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "문장 짝에 알맞은 연결어 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "알맞은 연결어는?",
+      "text": "상자에서 연결어를 골라 넣어 읽고, 까닭을 말해요.",
+      "problems": [
+        {
+          "text": "It rained all day.\n______, we stayed home."
+        },
+        {
+          "text": "I like sweet food.\n______, I love chocolate."
+        },
+        {
+          "text": "Jun is good at math.\n______, he is not good at art."
+        }
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "However,"
+          },
+          {
+            "word": "For example,"
+          },
+          {
+            "word": "As a result,"
+          }
+        ]
+      },
+      "aidTitle": "연결어 상자",
+      "notes": {
+        "목적": "두 문장의 관계(결과·예·반대)를 보고 알맞은 연결어를 고르며 까닭을 말합니다(목표 A, 오해 M1·M2). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“앞 문장과 뒤 문장을 먼저 읽고, 둘이 어떤 사이인지 생각해 봐. 반대야? 예야? 결과야?”",
+          "“①, 하루 종일 비가 왔어. 그래서 생긴 일이 뒤에 왔어?”",
+          "“고른 연결어를 넣어 두 문장을 이어 읽어 줘.”"
+        ],
+        "정답": [
+          "① As a result, (비가 와서 집에 있었다: 결과)",
+          "② For example, (단 음식을 좋아한다 → 초콜릿: 예)",
+          "③ However, (수학은 잘하는데 미술은 못한다: 반대)",
+          "뜻: ① 하루 종일 비가 왔어요. 그 결과, 우리는 집에 있었어요. ② 나는 단 음식을 좋아해요. 예를 들어, 초콜릿을 아주 좋아해요. ③ 준은 수학을 잘해요. 그러나 미술은 잘하지 못해요."
+        ],
+        "막히면": [
+          "S03 표의 셋째 열(뒤에 오는 내용)을 다시 보여 주고, 뒤 문장이 그중 무엇인지 고르게 합니다.",
+          "be good at은 ‘~을 잘하다’입니다."
+        ],
+        "주의": [
+          "연결어만 바꿔 넣어 보며 어색한지 소리 내어 읽어 보는 것도 좋은 방법입니다. 예: “It rained all day. For example, we stayed home.”은 왜 어색할까?"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(However를 결과에 씀)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "However일까요?",
+      "claim": "‘비가 많이 왔어요.’ 뒤에 두 친구가 이렇게 이었어요.",
+      "left": {
+        "title": "가",
+        "text": "It rained a lot.\nHowever, we stayed home."
+      },
+      "right": {
+        "title": "나",
+        "text": "It rained a lot.\nAs a result, we stayed home."
+      },
+      "question": "흐름에 맞게 이은 쪽은? 다른 쪽은 왜 어색한가요?",
+      "notes": {
+        "목적": "앞과 반대가 아닌 내용에 However를 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“비가 많이 와서 집에 있었어. 이건 반대야, 결과야?”",
+          "“그럼 가의 However 뒤에는 어떤 문장이 와야 자연스러울까?”"
+        ],
+        "정답": [
+          "흐름에 맞게 이은 쪽은 나(As a result)입니다. 비가 와서 집에 있었으니 결과입니다. 가의 However는 앞과 반대되는 말 앞에 씁니다.",
+          "However로 이으려면 예: It rained a lot. However, we played soccer outside. (비가 많이 왔지만 밖에서 축구를 했다)"
+        ],
+        "막히면": [
+          "우리말로 바꿔 읽어 봅니다. “비가 많이 왔어. 그러나 집에 있었어.” 어색하지?"
+        ],
+        "주의": [
+          "여기까지가 연결어 익히기입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "흐름에 맞지 않는 문장을 찾는 순서",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "흐름에 맞지 않는 문장 찾기",
+      "steps": [
+        "첫 문장(주제문)에서 중심 생각을 잡아요.",
+        "한 문장씩 ‘중심 생각과 관계있나?’ 물어요.",
+        "연결어가 앞뒤와 맞는지 봐요.",
+        "그 문장을 빼고 읽어 봐요.\n더 자연스러우면 그 문장이에요."
+      ],
+      "key": "주제문은 글의 중심 생각을 담은 문장이에요. 같은 낱말이 나와도 생각이 다르면 흐름에 맞지 않아요.",
+      "notes": {
+        "목적": "주제문(글의 중심 생각을 담은 문장)의 뜻을 알려 주고, 흐름에 맞지 않는 문장을 찾는 네 단계를 보여 줍니다(목표 B, 오해 M3·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“글에는 중심 생각이 하나 있어. 그 생각을 담은 문장을 주제문이라고 해. 보통 첫 문장이야.”",
+          "“나머지 문장은 모두 그 중심 생각을 돕는 문장이어야 해. 다른 이야기를 하는 문장이 끼어 있으면 흐름에 맞지 않는 문장이야.”",
+          "“조심할 게 있어. 같은 낱말이 나온다고 같은 이야기는 아니야. 예를 들어 ‘아침밥이 중요하다’는 글에 ‘동생은 저녁에 피자를 좋아한다’가 있으면?”"
+        ],
+        "예상답": [
+          "“음식 이야기지만 아침밥이 중요하다는 것과는 관계없어요.”"
+        ],
+        "막히면": [
+          "우리말 예를 들어 줍니다: “운동은 건강에 좋아. 예를 들어 달리기를 하면 심장이 튼튼해져. 내 운동화는 파란색이야. 그 결과 운동하는 사람은 덜 아파.” 어느 문장이 끼어든 문장일까?"
+        ],
+        "주의": [
+          "주제문이 첫 문장이 아닌 글도 있지만, 오늘 글은 모두 첫 문장이 주제문입니다.",
+          "모르는 낱말이 있는 문장이나 연결어가 없는 문장을 고르면 안 됩니다(오해 M4). 넷째 단계처럼 빼고 읽어 보면 확인할 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "흐름에 맞지 않는 문장 찾기(시범)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "함께 찾아요: 아침밥",
+      "passage": {
+        "title": "Breakfast Is Important",
+        "paragraphs": [
+          "Breakfast is important for students.",
+          "For example, it gives you energy for morning classes.",
+          "Without breakfast, many students get hungry in class.",
+          "My brother likes pizza for dinner.",
+          "As a result, they can't listen to the teacher well.",
+          "So let's eat breakfast every morning!"
+        ],
+        "numbered": true
+      },
+      "question": "흐름에 맞지 않는 문장은 몇 번인가요? 왜 그렇게 생각해요?",
+      "notes": {
+        "목적": "S07의 네 단계를 따라 흐름에 맞지 않는 문장을 함께 찾습니다. 부모가 단계를 소리 내어 말하며 시범을 보이고, 아이가 답을 고릅니다(목표 B, 오해 M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“먼저 끝까지 읽자. energy는 힘(에너지), without은 ‘~ 없이’야.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“첫째 단계, 주제문은 ①이야. 중심 생각은? 아침밥은 학생에게 중요하다.”",
+          "“둘째 단계, 한 문장씩 물어보자. ② 아침밥이 힘을 준다, 관계있어? ③은? ④는?”",
+          "“넷째 단계, ④를 빼고 ③ 다음에 바로 ⑤를 읽어 보자. 더 자연스러워?”"
+        ],
+        "예상답": [
+          "“④요. 동생이 저녁에 피자를 좋아한다는 건 아침밥이 중요하다는 것과 관계없어요.” “④를 빼니까 ‘배가 고파서 → 그 결과 수업을 잘 못 들어요’가 자연스럽게 이어져요.”"
+        ],
+        "막히면": [
+          "문장마다 뜻을 알려 줍니다: ① 아침밥은 학생에게 중요해요. ② 예를 들어, 아침밥은 오전 수업을 위한 힘을 줘요. ③ 아침밥을 먹지 않으면 많은 학생이 수업 시간에 배가 고파요. ④ 우리 형(오빠)은 저녁으로 피자를 좋아해요. ⑤ 그 결과, 그 학생들은 선생님 말씀을 잘 듣지 못해요. ⑥ 그러니 매일 아침밥을 먹어요!"
+        ],
+        "주의": [
+          "④에도 음식(pizza) 이야기가 나와서 관계있어 보입니다. 같은 낱말이나 비슷한 주제가 나와도 중심 생각(아침밥이 중요하다)과 다르면 흐름에 맞지 않습니다(오해 M3).",
+          "⑤의 they는 ③의 many students입니다. ④가 끼어 있으면 they가 누구인지 헷갈립니다. 이것도 ④가 흐름을 끊는다는 증거입니다.",
+          "⑥의 So(그러니, 그래서)는 6학년·중2 ‘접속사 because’에서 본 so와 같은 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "흐름에 맞지 않는 문장 찾기(도움 받아 연습)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "찾아봐요: 학교 도서관",
+      "text": "cafeteria 급식실 · serve 내주다 · comfortable 편안한",
+      "passage": {
+        "title": "Our School Library",
+        "paragraphs": [
+          "Our school library is a great place for students.",
+          "For example, it has many new books and comfortable chairs.",
+          "The school cafeteria serves delicious lunch.",
+          "Students can also do their homework there after school.",
+          "As a result, the library is always busy."
+        ],
+        "numbered": true
+      },
+      "question": "흐름에 맞지 않는 문장은? S07의 순서로 찾고 까닭을 말해요.",
+      "notes": {
+        "목적": "S07의 네 단계를 아이가 직접 말하며 흐름에 맞지 않는 문장을 찾습니다(목표 B, 오해 M3·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 네가 S07의 순서대로 말해 줄래? 주제문은? 중심 생각은?”",
+          "“한 문장씩 ‘도서관이 좋은 곳이다’와 관계있는지 물어봐.”",
+          "“고른 문장을 빼고 처음부터 다시 읽어 보자. 자연스러워?”"
+        ],
+        "정답": [
+          "③ The school cafeteria serves delicious lunch. 학교 이야기이지만 급식실 이야기라 ‘학교 도서관은 좋은 곳이다’라는 중심 생각과 관계없습니다.",
+          "글의 뜻: ① 우리 학교 도서관은 학생들에게 아주 좋은 곳이에요. ② 예를 들어, 새 책이 많고 의자가 편안해요. ③ 학교 급식실은 맛있는 점심을 내줘요. ④ 학생들은 방과 후에 그곳에서 숙제도 할 수 있어요. ⑤ 그 결과, 도서관은 늘 붐벼요."
+        ],
+        "막히면": [
+          "“주제문의 중심 낱말은 library야. 문장마다 library 이야기인지 손가락으로 짚어 봐.”라고 도와줍니다."
+        ],
+        "주의": [
+          "④에는 연결어가 없지만 also(또한)로 도서관의 좋은 점을 하나 더 말하므로 흐름에 맞습니다. 연결어가 없다고 고르면 안 됩니다(오해 M4).",
+          "⑤의 As a result는 ②와 ④(좋은 점들)의 결과로 도서관이 붐빈다는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "연결어 카드로 이어 말하고 틀린 연결 찾기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "연결어 이어 말하기 놀이",
+      "steps": [
+        "종이 네 장에 연결어를 써요:\nFirst, / However, / For example, / As a result,",
+        "부모가 첫 문장을 말해요:\nI was very hungry.",
+        "부모가 카드 한 장을 뒤집어요.",
+        "아이가 카드에 맞게 이어 말해요:\nAs a result, I ate a lot.",
+        "역할을 바꿔요. 일부러 틀리게 이으면 찾아내요."
+      ],
+      "criteria": [
+        "연결어의 뜻에 맞게 이었어요",
+        "앞 문장과 같은 이야기를 이어 갔어요",
+        "틀리게 이은 것을 찾아 까닭을 말했어요"
+      ],
+      "notes": {
+        "목적": "부모가 말한 문장에 연결어 카드를 뒤집어 아이가 알맞은 문장을 이어 말하고, 역할을 바꿔 부모가 틀리게 이은 것을 아이가 찾습니다(목표 A·B, 오해 M1·M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“종이 네 장에 연결어를 하나씩 써서 엎어 놓자. 엄마(아빠)가 첫 문장을 말하면, 카드를 뒤집어서 그 연결어로 이어 말해 줘.”",
+          "(부모) “I was very hungry.” + 카드 As a result → (아이) “As a result, I ate a lot.” / 카드 However → (아이) “However, I didn't eat anything.” / 카드 For example → (아이) “For example, I wanted pizza and chicken.” 어려우면 우리말 뜻을 먼저 말해도 됩니다.",
+          "다른 첫 문장: “It was very cold yesterday.” “I like animals.” “My friend was sick.”",
+          "역할을 바꿉니다. 아이가 첫 문장을 말하면 부모가 일부러 틀리게 잇습니다. 예: “I like animals. As a result, I ate pizza.” → 아이가 “틀렸어요! 동물을 좋아하는 것과 피자는 관계없어요.”라고 찾아냅니다."
+        ],
+        "예상답": [
+          "“As a result, I ate a lot.” “However, I didn't eat dinner.” “For example, I have a cat and a dog.” “As a result, she didn't come to school.”",
+          "기준: 연결어의 뜻(순서·반대·예·결과)에 맞게 잇고, 앞 문장과 같은 이야기를 하며, 부모가 틀리게 이은 것을 찾아 까닭을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "이어 말할 문장이 영어로 어려우면 우리말로 먼저 말하고, 부모가 영어로 바꿔 말해 준 뒤 따라 하게 합니다.",
+          "First 카드가 나오면 “배가 고파서 먼저 한 일은?”처럼 순서를 묻습니다(First, I washed my hands.)."
+        ],
+        "주의": [
+          "카드마다 한 번 이상 나오도록 여러 번 합니다. 오늘은 말하기로 연습하고, 쓰기는 활동지 5에서 합니다.",
+          "틀리게 잇는 역할에서는 과장해도 좋습니다. 아이가 바로잡는 경험이 흐름 찾기(목표 B)의 연습이 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(알맞은 연결어 고르고 까닭 말하기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "혼자 해 보기",
+      "text": "빈칸에 알맞은 연결어를 넣어 읽고, 까닭을 말해요.",
+      "problems": [
+        {
+          "text": "Jun studied hard for the test.\n______, he got a good score."
+        },
+        {
+          "text": "I like many sports.\n______, I play badminton and soccer."
+        },
+        {
+          "text": "Mina loves cats.\n______, she can't have a cat at home."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 두 문장의 관계를 보고 알맞은 연결어를 고르며 까닭을 말하는지 확인합니다(목표 A). 연결어 상자는 보여 주지 않습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 연결어를 넣어 두 문장을 이어 읽고, 왜 그 연결어를 골랐는지 말해 줘.”"
+        ],
+        "정답": [
+          "① As a result, (열심히 공부한 결과 좋은 점수를 받았다) score: 점수",
+          "② For example, (여러 운동을 좋아한다 → 배드민턴, 축구: 예)",
+          "③ However, (고양이를 아주 좋아하지만 집에서 기를 수 없다: 반대)",
+          "기준: 세 개 모두 맞고 까닭을 말하면 통과. 까닭은 ‘결과라서, 예라서, 반대라서’처럼 짧게 말해도 됩니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “뒤 문장은 앞 문장의 반대야, 예야, 결과야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "③에 As a result를 고르면 “고양이를 좋아해서 그 결과 못 기른다? 말이 될까?”라고 묻습니다(오해 M1)."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① As a result, (결과)"
+        },
+        {
+          "text": "② For example, (예)"
+        },
+        {
+          "text": "③ However, (반대)"
+        }
+      ],
+      "bad": [
+        {
+          "text": "③ As a result,",
+          "note": "좋아해서 못 기른다?\n결과가 아니에요"
+        },
+        {
+          "text": "② However,",
+          "note": "운동의 예가\n뒤에 와요"
+        }
+      ],
+      "explain": "뒤 문장이 앞과 반대면 However, 예면 For example, 결과면 As a result예요.",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 고른 것과 왼쪽을 비교해 보자. 오른쪽처럼 고르면 왜 어색할까?”"
+        ],
+        "예상답": [
+          "“고양이를 좋아하는데 못 기르니까 반대예요.” “배드민턴과 축구는 운동의 예예요.”"
+        ],
+        "정답": [
+          "① As a result, ② For example, ③ However,"
+        ],
+        "막히면": [
+          "틀린 문제는 S03(연결어 표)과 S06(However와 As a result 비교)을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "마무리 확인(흐름에 맞지 않는 문장과 연결어의 관계)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 찾아요: 비닐봉지",
+      "text": "plastic bag 비닐봉지 · get sick 아프다 · fishing boat 고깃배",
+      "passage": {
+        "title": "Plastic Bags and the Sea",
+        "paragraphs": [
+          "Plastic bags are bad for the sea.",
+          "For example, many sea animals eat them.",
+          "As a result, the animals get sick.",
+          "My uncle has a big fishing boat.",
+          "However, we can help.",
+          "Let's take our own bags to the store!"
+        ],
+        "numbered": true
+      },
+      "question": "① 흐름에 맞지 않는 문장은?　② ③은 무엇의 결과인가요?",
+      "notes": {
+        "목적": "처음 보는 글에서 혼자 흐름에 맞지 않는 문장을 찾고(목표 B), As a result가 앞의 어떤 일과 이어지는지 말하는지(목표 A) 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 혼자 읽고 답해 줘. 모르는 낱말은 위에 뜻이 있어.”"
+        ],
+        "정답": [
+          "① ④ My uncle has a big fishing boat. 바다 이야기이지만 ‘비닐봉지는 바다에 나쁘다’는 중심 생각과 관계없습니다.",
+          "② 많은 바다 동물이 비닐봉지를 먹은 일(②)의 결과로 동물들이 아파요.",
+          "글의 뜻: ① 비닐봉지는 바다에 나빠요. ② 예를 들어, 많은 바다 동물이 비닐봉지를 먹어요. ③ 그 결과, 동물들이 아파요. ④ 우리 삼촌은 큰 고깃배가 있어요. ⑤ 그러나 우리는 도울 수 있어요. ⑥ 가게에 갈 때 우리 가방을 가져가요!",
+          "기준: ①을 바르게 찾고 중심 생각과 관계없다는 까닭을 말하면 목표 B, ②를 바르게 말하면 목표 A 확인. 우리말로 답해도 됩니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “주제문은? 중심 생각과 관계없는 문장은?”이라고 S07의 순서만 말해 줍니다."
+        ],
+        "주의": [
+          "⑤의 However는 ‘문제가 있다’와 반대로 ‘우리가 도울 수 있다’는 희망을 말합니다. ⑤를 고르면 “앞은 나쁜 일, 뒤는 도울 수 있다. 반대가 맞지?”라고 확인합니다.",
+          "④를 찾지 못하면 기록표에 적어 두고 다음 수업 첫 5분에 S08 글로 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "First·Then 순서, However 반대, For example 예, As a result 결과\n주제문의 중심 생각과 관계없는 문장이 흐름에 맞지 않는 문장이에요.",
+      "do": "연결어 뒤의 내용을 미리 짐작하기",
+      "dont": "같은 낱말만 보고 관계있다고 판단하기",
+      "review": [
+        {
+          "text": "However의 뜻과\n뒤에 오는 내용은?"
+        },
+        {
+          "text": "It snowed a lot. ___,\nschool started late."
+        },
+        {
+          "text": "흐름에 맞지 않는 문장을\n찾는 방법은?"
+        }
+      ],
+      "next": "경험 문단 쓰기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“연결어 다섯 가지와 뒤에 오는 내용을 말해 볼래?”",
+          "“흐름에 맞지 않는 문장은 어떻게 찾았지?”"
+        ],
+        "예상답": [
+          "“However 뒤에는 반대, For example 뒤에는 예, As a result 뒤에는 결과가 와요.” “주제문을 찾고, 한 문장씩 관계있는지 묻고, 빼고 읽어 봐요.”"
+        ],
+        "정답": [
+          "① 그러나, 하지만 / 앞과 반대되는 말",
+          "② As a result, (눈이 많이 와서 학교가 늦게 시작했다)",
+          "③ 주제문에서 중심 생각 잡기 → 한 문장씩 관계있는지 묻기 → 연결어 확인 → 빼고 읽어 보기"
+        ],
+        "주의": [
+          "아이가 읽는 영어 교과서 본문에서 연결어에 동그라미를 치며 “뒤에 무엇이 왔어?”라고 물어보면 좋은 복습이 됩니다. 다음 차시 ‘경험 문단 쓰기’에서는 오늘 익힌 연결어와 현재완료로 자기 경험을 한 문단으로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(요지와 순서 말 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 순서 말과 요지",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "First,",
+            "sub": "먼저"
+          },
+          {
+            "word": "Then,",
+            "sub": "그다음에"
+          },
+          {
+            "word": "Finally,",
+            "sub": "마지막으로"
+          },
+          {
+            "word": "Main idea",
+            "sub": "요지: 가장 하고 싶은 말"
+          }
+        ]
+      },
+      "key": "순서 말은 일의 차례를, 요지는 글 전체의 중심 생각을 알려 줘요.",
+      "notes": {
+        "목적": "S02에서 요지 찾기나 순서 말이 흔들리면, 오늘 내용을 배우기 전에 순서 말의 뜻과 요지의 뜻을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“아침에 한 일을 First, Then, Finally로 말해 볼까? 우리말로 먼저 해도 돼.”",
+          "“요지는 글쓴이가 가장 하고 싶은 말이야. S02 글의 요지는?”"
+        ],
+        "정답": [
+          "First 먼저, Then 그다음에, Finally 마지막으로, Main idea 요지 / 예: First, I washed my face. Then, I ate breakfast. Finally, I went to school. / S02 글의 요지: 준이 가족을 위해 팬케이크를 만들었다."
+        ],
+        "막히면": [
+          "부모가 먼저 자기 아침 이야기를 First, Then, Finally로 말하고 아이가 낱말만 바꾸어 따라 하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중1 ‘요지와 세부 정보’(KR22-G07-ENG-GISTDET-L01)와 6학년 ‘사건 순서 파악’(KR22-G06-ENG-SEQUENCE-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "연결어로 글의 흐름 파악 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "연결어와 뜻·하는 일을 바르게 이어 기호를 쓰세요.",
+        "read": "가 예를 들어 — 앞 말의 예가 와요.　　나 그 결과 — 앞 일 때문에 생긴 일이 와요.\n다 그러나 — 앞과 반대되는 말이 와요.　　라 먼저 — 일의 순서를 알려요.",
+        "table": {
+          "rows": [
+            [
+              "① However,",
+              ""
+            ],
+            [
+              "② For example,",
+              ""
+            ],
+            [
+              "③ As a result,",
+              ""
+            ],
+            [
+              "④ First,",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.3
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① 다 ② 가 ③ 나 ④ 라. 네 개 모두 맞으면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰세요. (같은 연결어를 두 번 써도 돼요.)",
+        "read": "First,　　However,　　For example,　　As a result,",
+        "table": {
+          "rows": [
+            [
+              "① I love animals. _______________ I have two dogs and a cat."
+            ],
+            [
+              "② The bus was late. _______________ I was late for school."
+            ],
+            [
+              "③ The movie was long. _______________ it was very interesting."
+            ],
+            [
+              "④ _______________ put the bread in the toaster. Then, put butter on it."
+            ],
+            [
+              "⑤ Many students like sports. _______________ Mina plays soccer every day."
+            ],
+            [
+              "⑥ I didn't sleep well last night. _______________ I was tired all day."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① For example, ② As a result, ③ However, ④ First, ⑤ For example, ⑥ As a result. 여섯 개 가운데 다섯 개 이상이면 통과. ③에 As a result를 쓰면 ‘길었다 → 재미있었다’는 결과가 아니라 반대라고 이야기해 줍니다. 낱말 뜻: toaster 토스터, butter 버터."
+      },
+      {
+        "no": 3,
+        "prompt": "글을 읽고 물음에 답하세요. ① 주제문에 밑줄을 그으세요. ② 흐름에 맞지 않는 문장의 번호를 쓰고, 그 까닭을 우리말로 쓰세요.",
+        "read": "Dogs Are Great Pets\n① Dogs are great pets for families. ② For example, they play with children every day. ③ They also make people happy. ④ My cousin's cat is white. ⑤ As a result, many families have a dog at home.",
+        "line_label": "② 번호와 까닭",
+        "lines": 2,
+        "answer": "① 밑줄: Dogs are great pets for families. ② ④ My cousin's cat is white. 까닭: 사촌의 고양이 색깔 이야기라 ‘개는 가족에게 좋은 반려동물이다’라는 중심 생각과 관계없다. 반려동물(cat) 이야기라 관계있어 보여도 중심 생각과 다르다는 것을 말하면 통과. 낱말 뜻: pet 반려동물, cousin 사촌, also 또한."
+      },
+      {
+        "no": 4,
+        "prompt": "글의 빈칸 ①~④에 알맞은 연결어를 쓰세요.",
+        "read": "My First Fried Rice\nLast Sunday, I made fried rice for my family. ①________, I washed some vegetables. ②________, I cooked them with rice and eggs. It looked delicious. ③________, it was too salty! ④________, my dad drank three glasses of water.",
+        "line_label": "①　　　　　　②　　　　　　③　　　　　　④",
+        "lines": 1,
+        "answer": "① First ② Then ③ However ④ As a result. 네 개 가운데 세 개 이상이면 통과(③④는 꼭 맞아야 합니다). 낱말 뜻: fried rice 볶음밥, vegetable 채소, delicious 맛있는, salty 짠, a glass of water 물 한 잔."
+      },
+      {
+        "no": 5,
+        "prompt": "연결어 뒤에 알맞은 문장을 이어 쓰세요.",
+        "read": "① I was very hungry. However, ...\n② I was very hungry. As a result, ...\n③ I like winter. For example, ...",
+        "eng": {
+          "trace": [],
+          "blank": 3
+        },
+        "answer": "예: ① However, I didn't eat anything. / However, there was no food at home. ② As a result, I ate two bowls of rice. / As a result, I ate a lot. ③ For example, I love snow. / For example, I like making snowmen. 연결어의 뜻에 맞게 이었는지(① 반대, ② 결과, ③ 예), 앞 문장과 같은 이야기인지, 첫 글자 대문자와 마침표를 봅니다. 세 문장 가운데 두 문장 이상이 연결어의 뜻에 맞으면 통과."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① As a result의 뜻을 쓰세요.\n② Jun is tall. ________, he is not good at basketball. 빈칸에 알맞은 연결어를 쓰세요.\n③ 흐름에 맞지 않는 문장을 찾는 방법을 우리말로 쓰세요.",
+        "lines": 3,
+        "answer": "① 그 결과 ② However ③ 주제문에서 중심 생각을 잡고, 한 문장씩 중심 생각과 관계있는지 묻고, 빼고 읽어 본다. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 세 개 모두 □  두 개 □  하나 이하 □ (도움을 받음 □)",
+      "S13 흐름에 맞지 않는 문장: 찾고 까닭을 말함 □  찾기만 함 □  틀림 □",
+      "However를 결과에 쓰거나 같은 낱말만 보고 고른 실수: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S06"
 }
