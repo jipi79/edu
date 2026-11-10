@@ -3474,7 +3474,7 @@
   ],
   "file_stem": "중2_국어_면담토의쓰기_01_면담하기",
   "source": "lessons/G08_중2/KOR_국어/면담토의쓰기/KR22-G08-KOR-INTERVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-COOPDISC-L01",
@@ -3501,7 +3501,7 @@
   ],
   "file_stem": "중2_국어_면담토의쓰기_02_협력적토의",
   "source": "lessons/G08_중2/KOR_국어/면담토의쓰기/KR22-G08-KOR-COOPDISC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-DATAREV-L01",
@@ -3584,7 +3584,7 @@
   ],
   "file_stem": "중2_국어_문법문학매체_02_모음체계",
   "source": "lessons/G08_중2/KOR_국어/문법문학매체/KR22-G08-KOR-PHONVOW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-WORDFORM-L01",
@@ -3612,7 +3612,7 @@
   ],
   "file_stem": "중2_국어_문법문학매체_03_단어의짜임",
   "source": "lessons/G08_중2/KOR_국어/문법문학매체/KR22-G08-KOR-WORDFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-POEMEXP-L01",
@@ -4261,7 +4261,7 @@
   ],
   "file_stem": "중2_수학_삼각형과사각형_02_직각삼각형의합동",
   "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-RTCONG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-CENTERS-L01",
@@ -4398,8 +4398,8 @@
   "status": "제작 완료"
  },
  {
-  "id": "KR22-G08-MAT-PYTHAG-L01",
-  "concept_id": "MAT-PYTHAG",
+  "id": "KR22-G08-MAT-MIDPOINT-L01",
+  "concept_id": "MAT-MIDPOINT",
   "grade": "G08",
   "grade_label": "중2",
   "band": "M",
@@ -4412,6 +4412,32 @@
    "2.4.3",
    "2.7.3"
   ],
+  "title": "삼각형의 중점 연결 정리",
+  "objective": "삼각형의 두 변의 중점을 연결한 선분이 나머지 변과 평행하고 그 길이의 절반임을 설명하고 이를 이용해 선분의 길이를 구한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G08-MAT-PARALLELRATIO-L01"
+  ],
+  "file_stem": "중2_수학_닮음과피타고라스_03_삼각형의중점연결정리",
+  "source": "lessons/G08_중2/MAT_수학/닮음과피타고라스/KR22-G08-MAT-MIDPOINT-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G08-MAT-PYTHAG-L01",
+  "concept_id": "MAT-PYTHAG",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G08-MAT-I03",
+  "folder": "닮음과피타고라스",
+  "sequence": 4,
+  "units": [
+   "2.4.3",
+   "2.7.3"
+  ],
   "title": "피타고라스 정리",
   "objective": "정사각형의 넓이로 피타고라스 정리를 설명하고 직각삼각형의 모르는 변의 길이를 구한다.",
   "format": "ppt",
@@ -4420,7 +4446,7 @@
    "KR22-G05-MAT-AREA2-L01",
    "KR22-G07-MAT-PRIMEFACT-L01"
   ],
-  "file_stem": "중2_수학_닮음과피타고라스_03_피타고라스정리",
+  "file_stem": "중2_수학_닮음과피타고라스_04_피타고라스정리",
   "source": "lessons/G08_중2/MAT_수학/닮음과피타고라스/KR22-G08-MAT-PYTHAG-L01.json",
   "status": "제작 완료"
  },
@@ -4475,7 +4501,7 @@
   ],
   "file_stem": "중2_수학_확률_02_확률의뜻과성질",
   "source": "lessons/G08_중2/MAT_수학/확률/KR22-G08-MAT-PROB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-PROBCALC-L01",
@@ -4500,7 +4526,7 @@
   ],
   "file_stem": "중2_수학_확률_03_확률의계산",
   "source": "lessons/G08_중2/MAT_수학/확률/KR22-G08-MAT-PROBCALC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-PERFEXP-L01",
@@ -4625,7 +4651,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_05_동명사",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-GERUND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-BECAUSE-L01",
@@ -4651,7 +4677,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_06_접속사because",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-BECAUSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-IFWHEN-L01",
@@ -4677,7 +4703,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_07_접속사if·when",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-IFWHEN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-ASAS-L01",
@@ -7102,7 +7128,7 @@
   ],
   "file_stem": "중3_수학_실수와그계산_02_제곱근의성질과대소",
   "source": "lessons/G09_중3/MAT_수학/실수와그계산/KR22-G09-MAT-SQRTPROP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G09-MAT-IRRATIONAL-L01",
@@ -7129,7 +7155,7 @@
   ],
   "file_stem": "중3_수학_실수와그계산_03_무리수와실수",
   "source": "lessons/G09_중3/MAT_수학/실수와그계산/KR22-G09-MAT-IRRATIONAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G09-MAT-SQRTMUL-L01",
@@ -7155,7 +7181,7 @@
   ],
   "file_stem": "중3_수학_실수와그계산_04_근호의곱셈과나눗셈",
   "source": "lessons/G09_중3/MAT_수학/실수와그계산/KR22-G09-MAT-SQRTMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G09-MAT-SQRTADD-L01",
