@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "현재완료와 연결어를 써서 경험과 느낌을 주제문이 있는 한 문단으로 쓴다.",
   "prerequisites": [
     {
       "text": "연결어로 글의 흐름 파악",
@@ -48,19 +47,1021 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "경험 문단의 짜임(주제문–뒷받침 문장–마무리 문장)을 알고 본보기 문단에서 각 부분을 찾으며, 해 본 적이 있다는 것은 현재완료(have + 과거분사: been, seen, eaten, written과 visited·tried 같은 -ed 모양)로, 언제 했는지는 last ~·yesterday와 과거형으로 구별해 쓴다(I have been to Busan last year. ×).",
+      "evidence": "과거분사 다시 보기(S03), 문단의 세 부분(S04), 본보기 문단(S05), 문단 틀(S06), last year와 현재완료 비교(S07), 현재완료일까 과거형일까(S08), 틀린 곳 고치기(S13), 활동지 1·2·3",
+      "success": "현재완료와 과거형 고르기 여섯 개 가운데 다섯 개 이상을 맞히고, 본보기 문단에서 주제문과 마무리 문장을 찾으며, S13의 틀린 곳 다섯 군데 가운데 네 군데 이상을 찾아 고친다."
+    },
+    {
+      "id": "B",
+      "text": "개요를 바탕으로 주제문 1문장 + 뒷받침 문장 3~4문장(때·누구와, First·Then·However와 과거형) + 마무리 문장 1문장의 틀에 맞추어 자기 경험을 6문장 안팎의 한 문단으로 쓰고, 점검표(주제문·과거형·연결어·흐름·마무리·대문자와 마침표)로 스스로 고친다.",
+      "evidence": "문단 틀(S06), 쓰는 순서(S09), 경험 인터뷰(S10), 혼자 쓰기(S11), 잘 쓴 예와 고칠 곳(S12), 활동지 4·5·6",
+      "success": "6문장 안팎의 문단에서 점검표 여섯 항목 가운데 다섯 개 이상을 지킨다. 정답은 하나가 아니며 아이의 실제 경험이면 무엇이든 된다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필과 지우개",
+    "가 본 곳·먹어 본 음식이 떠오르는 사진이나 달력(선택)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기, 모르는 낱말 찾기)"
+  ],
+  "boundary": "현재완료(경험)는 주제문에만 쓰고, 과거분사는 ‘현재완료(경험)’에서 배운 been, seen, eaten, written과 -ed 모양(visited, tried, played, watched, cooked)만 쓴다. ‘가 본 적이 있다’는 have been to ~로만 쓰고 have gone to는 다루지 않는다. 뒷받침 문장은 ‘과거 시제 문장’에서 배운 과거형과 ‘연결어로 글의 흐름 파악’의 First, Then, However(중1의 After that 포함)로 쓰고, 마무리 문장은 I was ~, but ~. / I want to ~ again.(‘to부정사(명사적 용법)’의 want to) 틀로 쓴다. made, met, read 같은 다른 과거분사, 현재완료 의문문 만들기, for·since(계속), 여러 문단의 글, 제목 달기는 다루지 않는다. 쓰기는 6문장 안팎의 한 문단만 한다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "현재완료 문장에 last ~, yesterday 같은 정확한 지난 때를 함께 쓴다(I have been to Busan last year.).",
+      "response": "S07에서 두 쓰기를 나란히 비교하고 ‘해 본 적 있다 → 현재완료, 언제 했다 → 과거형’을 짚는다. S08·활동지 2에서 고르고, S13과 점검표 ②로 다시 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "과거분사 모양을 틀리거나 have를 빠뜨린다(have go, have eat, have saw, I been to ~).",
+      "response": "S03 표로 이 차시에서 쓰는 과거분사를 다시 보고, 활동지 1에서 쓴다. S13 ①에서 have try를 고친다."
+    },
+    {
+      "id": "M3",
+      "text": "주제문 없이 바로 Last ~로 시작하거나, 마무리 문장 없이 끝낸다.",
+      "response": "S04·S06에서 세 부분을 보여 주고, S09 쓰는 순서와 활동지 4 개요표, 점검표 ①⑤로 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "연결어를 뜻에 맞지 않게 쓰거나(그다음 일에 However), 다른 경험 이야기를 끼워 넣어 흐름이 끊긴다.",
+      "response": "S06 노트와 S12 흔한 실수에서 However는 앞과 반대될 때만 쓴다고 짚고, 점검표 ③④로 확인한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "경험 문단 쓰기",
+      "question": "해 본 일 하나를\n한 문단으로 쓸 수 있을까?",
+      "goals": [
+        "① 주제문·뒷받침·마무리로 문단의 짜임을 알아요.",
+        "② 현재완료와 연결어로 경험 문단을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I have been to ~.",
+            "sub": "주제문"
+          },
+          {
+            "word": "Last spring, I ~.",
+            "sub": "뒷받침 문장"
+          },
+          {
+            "word": "I want to ~ again!",
+            "sub": "마무리 문장"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 해 본 일 하나를 짜임이 있는 한 문단으로 쓰는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“가 본 곳 가운데 가장 기억에 남는 곳이 어디야? 우리말로 먼저 말해 볼래?”",
+          "“중1 때는 다섯 문장 경험 글을 썼지? 오늘은 ‘나는 ~에 가 본 적이 있다’로 시작하는 한 문단을 써 볼 거야.”",
+          "“오른쪽 세 줄을 같이 들어 보자. 첫 줄이 주제문, 가운데가 뒷받침 문장, 마지막이 마무리 문장이야.” (소리 자료로 듣고 따라 말합니다.)"
+        ],
+        "예상답": [
+          "“제주도요. 작년에 가족이랑 갔어요.” “할머니 댁 근처 바닷가요.”"
+        ],
+        "막히면": [
+          "기억나는 곳이 없으면 ‘먹어 본 음식’, ‘해 본 운동’으로 바꾸어 묻습니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 표현(I have been to ~. Have you ever ~? been, seen, eaten, written)과 S05 본보기 문단을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "오늘 쓸 글감(가 본 곳, 먹어 본 음식, 해 본 운동)을 아이와 미리 떠올려 두면 좋습니다. 사진이 있으면 S10 인터뷰에서 보며 이야기해도 됩니다.",
+          "오늘 쓰기는 정답이 하나가 아닙니다. 부모님은 내용이 아니라 짜임·시제·연결어를 점검표로 봐 주시면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(현재완료 경험, 연결어, 경험 글)",
+      "role": "prior",
+      "objectives": [],
+      "title": "현재완료와 연결어 떠올리기",
+      "text": "①은 현재완료로 바꾸고, ②는 대답하고, ③은 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "I ______ to Jeju Island. (be → 현재완료로)"
+        },
+        {
+          "text": "Have you ever seen a rainbow? → Yes로 대답"
+        },
+        {
+          "text": "First, Then, However의 뜻은?"
+        }
+      ],
+      "notes": {
+        "목적": "중2 ‘현재완료(경험)’(KR22-G08-ENG-PERFEXP-L01)의 have been to와 짧은 대답, ‘연결어로 글의 흐름 파악’(KR22-G08-ENG-LINKERS-L01)의 연결어, 중1 ‘경험 말하고 쓰기’(KR22-G07-ENG-EXPWRITE-L01)의 순서 말을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, ‘나는 제주도에 가 본 적이 있다’를 현재완료로 말해 줘.”",
+          "“②, 엄마(아빠)가 물어볼게. Have you ever seen a rainbow? Yes로 대답해 줘.”",
+          "“③, First, Then, However는 무슨 뜻이었지?”"
+        ],
+        "정답": [
+          "① have been (I have been to Jeju Island.)",
+          "② Yes, I have.",
+          "③ First 먼저, Then 그다음에, However 그러나(앞과 반대되는 말이 와요)"
+        ],
+        "막히면": [
+          "①에서 I have go to라고 하면 “가 본 적이 있다는 have been to로 썼지?”라고 떠올리게 합니다.",
+          "②에서 Yes, I did.라고 하면 “Have you로 물으면 have로 대답했지?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "현재완료는 have(has) + 과거분사로 ‘~해 본 적이 있다’를 나타냅니다. 오늘은 이 모양을 문단의 첫 문장(주제문)에 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "이 차시에서 쓰는 과거분사 다시 보기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "오늘 쓰는 과거분사",
+      "text": "have(has) + 과거분사는 ‘~해 본 적이 있다’예요.",
+      "table": {
+        "headers": [
+          "동사",
+          "과거분사",
+          "동사",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "be",
+            "been",
+            "visit",
+            "visited"
+          ],
+          [
+            "see",
+            "seen",
+            "try",
+            "tried"
+          ],
+          [
+            "eat",
+            "eaten",
+            "play",
+            "played"
+          ],
+          [
+            "write",
+            "written",
+            "watch",
+            "watched"
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "width": 12,
+        "size": 24
+      },
+      "key": "‘~에 가 본 적이 있다’는 have been to ~로 써요.",
+      "notes": {
+        "목적": "경험 문단의 주제문에 쓸 과거분사를 다시 보고, ‘가 본 적이 있다’는 have been to로 쓴다는 것을 확인합니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“과거분사는 have 뒤에 오는 동사 모양이야. 왼쪽은 모양이 바뀌고, 오른쪽은 -ed를 붙여.” (소리 자료를 듣고 따라 합니다.)",
+          "“엄마(아빠)가 동사를 말하면 과거분사로 바꿔 말해 줘. see! eat! write! try!”",
+          "“‘나는 경주에 가 본 적이 있어.’는 영어로?”"
+        ],
+        "예상답": [
+          "“seen, eaten, written, tried!” “I have been to Gyeongju.”"
+        ],
+        "막히면": [
+          "왼쪽 네 개(been, seen, eaten, written)를 종이 카드로 만들어 뒤집으며 말하게 합니다.",
+          "try → tried는 study → studied처럼 y를 i로 바꾸고 -ed를 붙입니다."
+        ],
+        "주의": [
+          "이 표는 ‘현재완료(경험)’에서 배운 과거분사 가운데 경험 문단에 자주 쓰는 것입니다. 오늘 새로 외울 것은 없습니다. 많이 틀리면 그 차시를 다시 보는 것이 좋습니다.",
+          "made, met, read처럼 표에 없는 과거분사는 오늘 쓰지 않습니다. 아이가 쓰고 싶어 하면 과거형 문장(I made ~. I met ~.)으로 뒷받침 문장에 쓰게 합니다.",
+          "주어가 he, she이면 has를 씁니다(My sister has been to Jeju.)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "문단과 그 세 부분의 뜻",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "문단의 세 부분",
+      "text": "문단은 중심 생각 하나를 담은 문장들의 묶음이에요.",
+      "cards": [
+        {
+          "title": "주제문",
+          "text": "무엇을 해 보았는지 말해요.\nI have been to ~."
+        },
+        {
+          "title": "뒷받침 문장",
+          "text": "언제·무엇을 했는지 자세히.\nLast ~, First, Then"
+        },
+        {
+          "title": "마무리 문장",
+          "text": "느낌이나 바람으로 끝내요.\nI want to ~ again."
+        }
+      ],
+      "key": "한 문단의 문장은 모두 같은 경험 이야기예요.",
+      "notes": {
+        "목적": "문단(중심 생각 하나를 담은 문장 묶음)의 뜻과 주제문·뒷받침 문장·마무리 문장이 하는 일을 알려 줍니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“문단은 중심 생각 하나를 담은 문장들의 묶음이야. 지난 시간에 주제문을 배웠지? 문단의 중심 생각을 담은 문장이었어.”",
+          "“경험 문단에서는 주제문에 무엇을 해 보았는지 말해. 그다음 뒷받침 문장들이 언제, 무엇을 했는지 자세히 말해 주고, 마무리 문장으로 느낌이나 바람을 말하며 끝내.”",
+          "“그럼 중간에 다른 날 다른 곳 이야기가 끼어들면?”"
+        ],
+        "예상답": [
+          "“흐름에 맞지 않는 문장이 돼요.”"
+        ],
+        "막히면": [
+          "햄버거에 비유합니다. 위 빵(주제문) – 속 재료(뒷받침 문장) – 아래 빵(마무리 문장)."
+        ],
+        "주의": [
+          "중1 경험 글(처음–가운데–끝)과 같은 짜임입니다. 달라진 점은 첫 문장이 현재완료 주제문이라는 것과, 한 덩어리 문단으로 이어 쓴다는 것입니다.",
+          "문단은 줄을 바꾸지 않고 문장을 이어 씁니다. 첫 줄은 조금 들여 쓰기도 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 문단에서 세 부분과 현재완료 찾기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "본보기 문단 읽기",
+      "passage": {
+        "title": "A Day at a Strawberry Farm",
+        "paragraphs": [
+          "I have been to a strawberry farm, and it was a really fun day.",
+          "Last spring, I went there with my class.",
+          "First, the farmer showed us the strawberry plants.",
+          "Then, we picked strawberries and ate some.",
+          "However, it was very hot in the greenhouse.",
+          "I was tired, but I want to go there again!"
+        ],
+        "numbered": true
+      },
+      "question": "주제문·뒷받침 문장·마무리 문장은 몇 번? have + 과거분사는?",
+      "notes": {
+        "목적": "본보기 문단을 함께 읽으며 주제문(①)–뒷받침 문장(②~⑤)–마무리 문장(⑥)의 짜임과, 현재완료와 과거형이 쓰인 자리를 찾습니다(목표 A).",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 낱말 뜻부터. farmer는 농부, pick은 따다, greenhouse는 비닐하우스(온실)야. 엄마(아빠)가 한 문장씩 읽으면 따라 읽어 줘.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“주제문은 몇 번이야? 어떻게 알았어?”",
+          "“have + 과거분사는 어디에 있어? 그럼 ②~⑤의 동사는 어떤 모양이야? 왜 그럴까?”",
+          "“⑥은 무엇을 말하고 있어?”"
+        ],
+        "예상답": [
+          "“주제문은 ①이에요. 딸기 농장에 가 본 적이 있다고 말해요.” “have been은 ①에만 있어요. ②부터는 went, showed, picked, ate, was처럼 과거형이에요. Last spring이라고 언제인지 말했으니까요.” “⑥은 마무리, 피곤했지만 또 가고 싶다는 느낌과 바람이에요.”"
+        ],
+        "막히면": [
+          "문장마다 뜻을 부모가 먼저 짧게 말해 줍니다: ① 나는 딸기 농장에 가 본 적이 있는데, 정말 즐거운 날이었어요. ② 지난봄에 우리 반과 그곳에 갔어요. ③ 먼저 농부가 딸기 모종을 보여 주었어요. ④ 그다음에 딸기를 따서 몇 개 먹었어요. ⑤ 그러나 비닐하우스 안은 무척 더웠어요. ⑥ 피곤했지만 다시 가고 싶어요!"
+        ],
+        "주의": [
+          "①은 현재완료(경험), ②~⑤는 때(Last spring)가 있는 과거형, ⑥의 want to는 지금의 바람이라 현재형입니다. 이 시제 차이가 오늘의 핵심입니다.",
+          "⑤의 However는 앞(즐겁게 딸기를 땄다)과 반대되는 힘든 점(더웠다)을 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "경험 문단의 틀(주제문·뒷받침·마무리)",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "경험 문단의 틀",
+      "table": {
+        "headers": [
+          "부분",
+          "문장 틀",
+          "예"
+        ],
+        "rows": [
+          [
+            "주제문",
+            "I have + 과거분사 ~,\nand it was ~.",
+            "I have been to a farm,\nand it was fun."
+          ],
+          [
+            "뒷받침 ①",
+            "Last ~, I went ~ with ~.",
+            "Last spring, I went\nthere with my class."
+          ],
+          [
+            "뒷받침 ②~④",
+            "First, / Then, / However,\n+ 과거형",
+            "First, we picked\nstrawberries."
+          ],
+          [
+            "마무리",
+            "I was ~, but ~.\nI want to ~ again.",
+            "I want to go\nthere again!"
+          ]
+        ],
+        "widths": [
+          0.2,
+          0.4,
+          0.4
+        ],
+        "width": 12.2,
+        "size": 22
+      },
+      "key": "‘해 본 적 있다’는 현재완료, ‘언제 했다’는 과거형이에요.",
+      "notes": {
+        "목적": "경험 문단을 쓸 때 쓰는 문장 틀을 부분별로 보여 줍니다. 아이는 S11과 활동지 5에서 이 틀을 보며 씁니다(목표 A·B, 오해 M1·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“경험 문단의 틀이야. 첫 줄 주제문은 have + 과거분사로 ‘해 본 적이 있다’고 말하고, 짧은 느낌을 붙여.”",
+          "“뒷받침 문장은 Last spring처럼 언제인지 말하고, 그다음부터는 과거형과 연결어로 한 일을 차례대로 써.”",
+          "“마지막은 느낌이나 바람. I was tired, but ~. I want to ~ again.”",
+          "“However는 언제 쓰지?”"
+        ],
+        "예상답": [
+          "“앞과 반대되는 일이 있을 때요. 힘들었던 일이나 뜻밖의 일이요.”"
+        ],
+        "막히면": [
+          "S05 본보기 문단을 다시 띄우고, 표의 줄과 문단의 번호를 짝지어 보게 합니다(주제문 = ①, 뒷받침 ① = ②, …)."
+        ],
+        "주의": [
+          "However는 앞과 반대되는 일이 있을 때만 씁니다. 그다음에 한 일을 이어 쓸 때는 Then이나 After that을 씁니다(오해 M4).",
+          "주제문의 and it was ~는 짧은 느낌(fun, great, amazing, interesting)을 붙이는 자리입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(현재완료 + 정확한 지난 때)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "last year와 함께 쓸까요?",
+      "claim": "‘작년에 부산에 가 봤어요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I have been to Busan\nlast year."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I have been to Busan.\nI went there last year."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 문제인가요?",
+      "notes": {
+        "목적": "현재완료 문장에 last year 같은 정확한 지난 때를 함께 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 쓴 것은 무엇이 달라?”",
+          "“현재완료는 ‘해 본 적이 있다’는 경험만 말해. 언제인지 정확히 말하고 싶으면 어떤 모양을 써야 할까?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나입니다. 가는 현재완료(have been) 문장에 last year라는 정확한 지난 때를 함께 썼습니다. 경험은 I have been to Busan.으로 말하고, 언제 갔는지는 과거형 I went there last year.로 따로 씁니다."
+        ],
+        "막히면": [
+          "S05 본보기 문단의 ①과 ②를 다시 보여 줍니다. ①에는 때가 없고, ②의 Last spring 문장은 went(과거형)입니다."
+        ],
+        "주의": [
+          "같은 실수 예: I have eaten tacos yesterday. → I ate tacos yesterday. / I have seen a whale last summer. → I saw a whale last summer. last ~, yesterday, ~ ago가 보이면 과거형이라고 정리해 줍니다.",
+          "ever, never, before는 현재완료와 함께 씁니다(I have never been to Jeju. I have seen it before.)."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "현재완료와 과거형 골라 쓰기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "현재완료일까, 과거형일까?",
+      "text": "괄호 속 동사를 알맞은 모양으로 바꿔 읽어요.",
+      "problems": [
+        {
+          "text": "I ______ pandas\nbefore. (see)"
+        },
+        {
+          "text": "We ______ them\nlast May. (see)"
+        },
+        {
+          "text": "I ______ sushi\nmany times. (eat)"
+        },
+        {
+          "text": "I ______ sushi\nyesterday. (eat)"
+        }
+      ],
+      "hint": "last ~, yesterday가 있으면 과거형이에요.",
+      "notes": {
+        "목적": "때를 나타내는 말을 보고 현재완료(경험)와 과거형을 골라 씁니다(목표 A, 오해 M1·M2). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“문장마다 때를 나타내는 말을 먼저 찾아봐. before, many times, last May, yesterday.”",
+          "“경험을 말하는 문장이야, 언제 했는지 말하는 문장이야? 그다음 동사를 바꿔 읽어 줘.”"
+        ],
+        "정답": [
+          "① have seen (I have seen pandas before.)",
+          "② saw (We saw them last May.)",
+          "③ have eaten (I have eaten sushi many times.)",
+          "④ ate (I ate sushi yesterday.)"
+        ],
+        "막히면": [
+          "S07의 나를 다시 보여 주고 “때가 정확하면?”이라고 묻습니다.",
+          "②④에서 have seen, have eaten이라고 하면 “last May, yesterday가 있지? 그럼?”이라고 짚어 줍니다."
+        ],
+        "주의": [
+          "many times(여러 번)는 경험의 횟수를 말하므로 현재완료와 함께 씁니다.",
+          "여기까지가 짜임과 시제 익히기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "경험 문단을 쓰는 순서",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "경험 문단 쓰는 순서",
+      "steps": [
+        "글감을 골라요: 가 본 곳, 먹어 본 음식, 해 본 운동",
+        "개요를 적어요: 언제·누구와, 한 일, 느낌",
+        "주제문을 써요: I have + 과거분사 ~.",
+        "뒷받침: Last ~와 과거형, First, Then, However",
+        "마무리: 느낌이나 바람으로 끝내요."
+      ],
+      "notes": {
+        "목적": "글감 고르기 → 개요 → 주제문 → 뒷받침 → 마무리의 쓰는 순서를 알려 줍니다. 개요(쓰기 전에 적는 짧은 메모)는 중1 ‘경험 말하고 쓰기’에서 써 보았습니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“문단을 쓰기 전에 무엇을 먼저 했었지? 맞아, 개요. 낱말로 짧게 적는 메모야.”",
+          "“글감을 하나만 골라. 두 곳을 섞어 쓰면 흐름이 끊겨.”",
+          "“주제문 → 뒷받침 → 마무리 순서로 쓰면 돼. 다음 장에서 엄마(아빠)가 인터뷰하면서 개요를 같이 만들어 볼게.”"
+        ],
+        "예상답": [
+          "“개요를 먼저 써요.” “한 가지 경험만 써요.”"
+        ],
+        "막히면": [
+          "글감을 고르지 못하면 “가 본 곳 가운데 제일 재미있었던 곳은?”, “처음 먹어 본 음식 가운데 기억나는 것은?”처럼 하나씩 묻습니다."
+        ],
+        "주의": [
+          "글감은 거창하지 않아도 됩니다(동네 도서관, 처음 먹어 본 마라탕, 처음 해 본 볼링). 아이가 실제로 해 본 일이어야 뒷받침 문장이 자연스럽게 나옵니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "묻고 답하며 경험을 말하고 개요 쓰기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "경험 인터뷰",
+      "steps": [
+        "부모: Have you ever been to ~?",
+        "아이: Yes, I have.\nI have been to ~.",
+        "부모: When did you go?\nWho did you go with?",
+        "부모: What did you do first?\nThen?",
+        "부모: How was it?\n→ 아이가 답하고 개요표에 적어요."
+      ],
+      "criteria": [
+        "현재완료로 경험을 말했어요",
+        "때를 넣어 과거형으로 말했어요",
+        "연결어로 차례대로 말하고 느낌을 말했어요"
+      ],
+      "notes": {
+        "목적": "부모의 질문에 답하며 자기 경험을 현재완료(주제문)와 과거형·연결어(뒷받침)로 말하고, 그 내용을 활동지 4 개요표에 적습니다(목표 A·B).",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번엔 네 이야기야. 엄마(아빠)가 물어볼게. Have you ever been to the sea in winter? (또는 아이가 고른 곳)”",
+          "(아이) “Yes, I have. I have been to Gangneung.” → (부모) “When did you go? Who did you go with?” → (아이) “Last winter, I went there with my family.”",
+          "(부모) “What did you do first?” → (아이) “First, we walked on the beach.” → (부모) “Then?” → (아이) “Then, we ate fish soup. However, it was very cold!”",
+          "(부모) “How was it?” → (아이) “I was cold, but I want to go there again.” 그다음 “지금 말한 것을 활동지 4의 개요표에 낱말로 짧게 적어 볼까?” 하고 역할을 바꿔 아이가 부모에게 묻습니다."
+        ],
+        "예상답": [
+          "“Yes, I have. I have eaten cheese tteokbokki. Last month, I ate it with my friend. First, we ordered it. Then, we shared it. However, it was very spicy. I want to try it again!”",
+          "기준: 현재완료로 경험을 말하고(Yes, I have. I have been to ~.), 때를 넣은 뒷받침은 과거형으로 말하며, 연결어로 차례대로 말하고 느낌을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "영어 낱말이 떠오르지 않으면 부모가 영어로 알려 주고 따라 말하게 합니다. 개요에는 우리말을 섞어 적어도 됩니다.",
+          "가 본 곳이 떠오르지 않으면 Have you ever eaten ~? Have you ever tried ~?로 바꾸어 묻습니다."
+        ],
+        "주의": [
+          "When did you go?(언제 갔어?), Who did you go with?(누구와 갔어?)는 부모가 묻는 말입니다. 아이는 듣고 대답하고, 역할을 바꿀 때는 화면의 질문을 보고 읽어도 됩니다.",
+          "개요표(활동지 4)는 S11에서 문단을 쓸 때 그대로 씁니다. 꼭 채우고 넘어갑니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 쓰기(개요를 보고 경험 문단 쓰기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "혼자 써요: 경험 문단",
+      "text": "활동지 4의 개요를 보고 활동지 5에 한 문단으로 써요.",
+      "problems": [
+        {
+          "text": "주제문:\nI have + 과거분사 ~."
+        },
+        {
+          "text": "뒷받침:\nLast ~, I ~ with ~."
+        },
+        {
+          "text": "First, ~.\nThen, ~."
+        },
+        {
+          "text": "However, ~."
+        },
+        {
+          "text": "마무리:\n느낌이나 바람"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 자기 개요를 보고 주제문–뒷받침–마무리를 갖춘 6문장 안팎의 경험 문단을 쓰는지 확인합니다(목표 B). 활동지 5에 쓰고, 활동지 6 점검표로 스스로 고칩니다.",
+        "시간": "약 7분",
+        "말하기": [
+          "“활동지 4의 개요를 보고 활동지 5에 한 문단으로 써 볼래? 화면의 순서대로 쓰면 돼.”",
+          "“다 쓰면 소리 내어 한 번 읽고, 활동지 6의 점검표로 하나씩 확인해 줘.”"
+        ],
+        "정답": [
+          "예시 문단: I have been to Gyeongju, and it was a great trip. Last fall, I went there with my family. First, we visited an old temple. Then, we walked near a big lake. However, it rained in the afternoon. I was wet, but I want to go there again!",
+          "점검표 여섯 항목: ① 첫 문장이 주제문(I have + 과거분사 ~) ② last ~·yesterday가 있는 문장은 과거형 ③ 연결어 두 개 이상, 뒤에 쉼표 ④ 모든 문장이 같은 경험(흐름) ⑤ 마지막에 느낌이나 바람 ⑥ 첫 글자 대문자, 끝에 마침표. 6문장 안팎이고 여섯 항목 가운데 다섯 개 이상 지키면 통과입니다. 내용은 아이의 실제 경험이면 무엇이든 됩니다."
+        ],
+        "막히면": [
+          "바로 고쳐 주지 말고 “이 문장에 때가 있어? 그럼 동사는?”, “주제문은 어디 있어?”처럼 점검표 항목으로만 묻습니다.",
+          "모르는 낱말은 우리말로 쓰지 말고 부모에게 묻거나 사전에서 찾게 합니다. 도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "예시 문단은 부모님이 참고하는 것입니다. 아이에게 먼저 보여 주지 말고, 다 쓴 뒤 S12에서 견주어 봅니다.",
+          "아이가 쓰는 동안 옆에서 고쳐 주지 않습니다. 다 쓴 뒤 S12에서 피드백합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘 쓴 예와 피드백 방법",
+      "role": "feedback",
+      "objectives": [
+        "B"
+      ],
+      "title": "잘 쓴 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘 쓴 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "I have been to Gyeongju, ~."
+        },
+        {
+          "text": "Last fall, I went there ~."
+        },
+        {
+          "text": "First, we visited a temple."
+        },
+        {
+          "text": "I want to go there again!"
+        }
+      ],
+      "bad": [
+        {
+          "text": "I have been to ~ last year.",
+          "note": "I went to ~\nlast year."
+        },
+        {
+          "text": "have go / have eat",
+          "note": "have been /\nhave eaten"
+        },
+        {
+          "text": "However, we ate lunch.",
+          "note": "앞과 반대일 때만\nHowever"
+        }
+      ],
+      "explain": "주제문 → 때가 있으면 과거형 → 연결어의 뜻 → 마무리 순서로 점검해요.",
+      "notes": {
+        "목적": "아이의 문단을 잘 쓴 예와 견주어 보고, 우리말로 피드백하는 순서에 따라 고칠 곳 하나를 아이가 직접 고치게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“네 문단을 소리 내어 읽어 줄래?”",
+          "“잘한 점부터 말해 볼게. 주제문을 have been to로 정확히 썼네. 그리고 First, Then으로 순서가 잘 보여.”",
+          "“한 군데만 같이 볼까? 이 문장에 last summer가 있네. 동사는 어떤 모양이어야 할까? 네가 고쳐 볼래?”"
+        ],
+        "예상답": [
+          "“I have visited를 I visited로 고쳐요.” “However 뒤가 반대가 아니라서 Then으로 바꿔요.”"
+        ],
+        "정답": [
+          "잘 쓴 예(S11 예시 문단): I have been to Gyeongju, and it was a great trip. Last fall, I went there with my family. First, we visited an old temple. Then, we walked near a big lake. However, it rained in the afternoon. I was wet, but I want to go there again!"
+        ],
+        "막히면": [
+          "현재완료와 과거형이 많이 틀렸으면 S07·S08, 연결어가 어색하면 S06의 노트, 주제문이나 마무리가 빠졌으면 S04를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다.",
+          "우리말 피드백 순서: ① 아이가 소리 내어 읽기 ② 잘한 점 두 가지를 구체적으로 말하기(“잘했어” 대신 “주제문에 have been to를 정확히 썼네”) ③ 점검표에서 빠진 항목 하나만 골라 질문으로 알려 주기 ④ 아이가 직접 고쳐 쓰기. 틀린 곳을 빨간 펜으로 모두 고쳐 주지 않습니다.",
+          "경험의 내용(어디에 갔는지, 무엇이 좋았는지)은 고치지 않습니다. 짜임·시제·연결어만 봅니다. 철자 실수가 많으면 이번에는 한두 개만 짚고 다음 시간에 이어 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "마무리 확인(경험 문단의 틀린 곳 찾아 고치기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "틀린 곳을 고쳐요",
+      "passage": {
+        "paragraphs": [
+          "I have try rock climbing, and it was exciting.",
+          "Last summer, I go to a climbing gym with my dad.",
+          "First, a teacher show us the rules.",
+          "Then, I climbed the wall slowly.",
+          "however, I was scared at the top.",
+          "I am tired, but I want to try it again!"
+        ],
+        "numbered": true
+      },
+      "question": "틀린 곳 다섯 군데를 찾아 고쳐 읽어요. 주제문은 몇 번인가요?",
+      "notes": {
+        "목적": "처음 보는 경험 문단에서 과거분사·과거형·대문자의 틀린 곳을 찾아 고치고 주제문을 찾는지 확인합니다(목표 A, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“이 문단에는 틀린 곳이 다섯 군데 있어. 찾아서 고쳐 읽어 줄래? 주제문은 몇 번이야?”",
+          "“모르는 낱말이 있으면 물어봐도 돼. rock climbing은 암벽 등반, climbing gym은 실내 암벽장, scared는 무서운이야.”"
+        ],
+        "정답": [
+          "① try → tried (I have tried rock climbing, and it was exciting.)",
+          "② go → went (Last summer, I went to a climbing gym with my dad.)",
+          "③ show → showed (First, a teacher showed us the rules.)",
+          "④ 맞음",
+          "⑤ however → However (However, I was scared at the top.)",
+          "⑥ am → was (I was tired, but I want to try it again!)",
+          "주제문은 ①입니다. 기준: 다섯 군데 가운데 네 군데 이상 찾아 고치면 통과입니다.",
+          "글의 뜻: ① 나는 암벽 등반을 해 본 적이 있는데, 아주 신났어요. ② 지난여름에 아빠와 실내 암벽장에 갔어요. ③ 먼저 선생님이 규칙을 알려 주셨어요. ④ 그다음에 나는 벽을 천천히 올랐어요. ⑤ 그러나 꼭대기에서 무서웠어요. ⑥ 피곤했지만 다시 해 보고 싶어요!"
+        ],
+        "막히면": [
+          "“문장마다 동사에 동그라미를 쳐 봐. have 뒤에는 어떤 모양? Last summer가 있는 문장은?”이라고 묻습니다."
+        ],
+        "주의": [
+          "⑥의 want to try는 지금의 바람이라 그대로 둡니다. want를 wanted로 고치려 하면 “지금도 하고 싶은 거지?”라고 확인합니다.",
+          "틀린 곳을 다 찾지 못하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "주제문(I have + 과거분사 ~) → 뒷받침(Last ~, First, Then, However) → 마무리(느낌·바람)\n정확한 지난 때(last ~, yesterday)가 있으면 과거형!",
+      "do": "개요 먼저, 주제문은 현재완료",
+      "dont": "I have been to ~ last year.",
+      "review": [
+        {
+          "text": "see, eat, write의\n과거분사는?"
+        },
+        {
+          "text": "I have been to Busan\nlast year.를 고치면?"
+        },
+        {
+          "text": "경험 문단의\n세 부분은?"
+        }
+      ],
+      "next": "의견 문단 쓰기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“경험 문단은 어떤 세 부분으로 썼지?”",
+          "“현재완료와 과거형은 언제 썼지?”"
+        ],
+        "예상답": [
+          "“주제문, 뒷받침 문장, 마무리 문장이요.” “해 본 적 있다는 현재완료, 언제 했는지는 과거형이요.”"
+        ],
+        "정답": [
+          "① seen, eaten, written",
+          "② I went to Busan last year. (또는 I have been to Busan. I went there last year.)",
+          "③ 주제문, 뒷받침 문장, 마무리 문장"
+        ],
+        "주의": [
+          "가족 나들이를 다녀온 날 “Have you ever been here before?”처럼 묻고 답해 보면 좋은 복습이 됩니다. 다음 차시 ‘의견 문단 쓰기’에서는 오늘의 문단 짜임으로 내 의견과 이유·예시를 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(현재완료 경험과 경험 글 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 현재완료와 경험 글",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "I have been to Busan.",
+            "sub": "부산에 가 본 적이 있어요."
+          },
+          {
+            "word": "Have you ever seen a rainbow?",
+            "sub": "무지개를 본 적이 있어요?"
+          },
+          {
+            "word": "Yes, I have. / No, I haven't.",
+            "sub": "네, 있어요. / 아니요, 없어요."
+          },
+          {
+            "word": "First, ~. Then, ~.",
+            "sub": "먼저 ~. 그다음에 ~."
+          }
+        ]
+      },
+      "key": "have(has) + 과거분사: ~해 본 적이 있다",
+      "notes": {
+        "목적": "S02에서 현재완료나 연결어가 흔들리면, 문단을 쓰기 전에 현재완료(경험)의 모양과 대답, 순서 말을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“엄마(아빠)가 물어볼게. Have you ever eaten tteokbokki?” → 아이가 Yes, I have. / No, I haven't.로 답합니다.",
+          "“어제 한 일 두 가지를 First, Then으로 말해 볼까?”"
+        ],
+        "정답": [
+          "부산에 가 본 적이 있어요 / 무지개를 본 적이 있어요? / 네, 있어요. 아니요, 없어요. / 먼저 ~. 그다음에 ~. 예: Yes, I have. First, I did my homework. Then, I watched TV."
+        ],
+        "막히면": [
+          "부모가 먼저 자기 경험을 I have been to ~.로 말하고 아이가 장소만 바꾸어 따라 하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중2 ‘현재완료(경험)’(KR22-G08-ENG-PERFEXP-L01), ‘연결어로 글의 흐름 파악’(KR22-G08-ENG-LINKERS-L01), 중1 ‘경험 말하고 쓰기’(KR22-G07-ENG-EXPWRITE-L01) 가운데 흔들리는 차시를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "경험 문단 쓰기 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "동사를 과거분사로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① be → ____________",
+              "⑤ visit → ____________"
+            ],
+            [
+              "② see → ____________",
+              "⑥ try → ____________"
+            ],
+            [
+              "③ eat → ____________",
+              "⑦ play → ____________"
+            ],
+            [
+              "④ write → ____________",
+              "⑧ watch → ____________"
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14
+        },
+        "answer": "① been ② seen ③ eaten ④ written ⑤ visited ⑥ tried ⑦ played ⑧ watched. 여덟 개 가운데 일곱 개 이상이면 통과. tryed, eated, writed는 고쳐 줍니다."
+      },
+      {
+        "no": 2,
+        "prompt": "괄호 안에서 알맞은 말에 동그라미 하세요.",
+        "table": {
+          "rows": [
+            [
+              "① I (have seen / saw) a rainbow before."
+            ],
+            [
+              "② We (have visited / visited) the museum last Sunday."
+            ],
+            [
+              "③ My sister (has been / went) to Jeju many times."
+            ],
+            [
+              "④ I (have eaten / ate) pizza for lunch yesterday."
+            ],
+            [
+              "⑤ Have you ever (written / wrote) a letter in English?"
+            ],
+            [
+              "⑥ Jun (has tried / tried) kimchi for the first time last week."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① have seen ② visited ③ has been ④ ate ⑤ written ⑥ tried. 여섯 개 가운데 다섯 개 이상이면 통과. ②④⑥은 last Sunday, yesterday, last week처럼 정확한 지난 때가 있어서 과거형입니다."
+      },
+      {
+        "no": 3,
+        "prompt": "문단을 읽고 ① 주제문에 밑줄, ② 마무리 문장에 물결선을 그리고, ③ 연결어에 모두 동그라미 하세요. ④ 글쓴이는 언제, 누구와 갔나요?",
+        "read": "I have seen fireflies, and it was an amazing experience. Last summer, my family went camping near a river. First, we cooked dinner and ate it outside. Then, we walked to the river at night. However, it was very dark, and I was a little scared. After that, we saw many tiny lights over the water. They were fireflies! I want to see them again next summer.",
+        "line_label": "④",
+        "lines": 1,
+        "answer": "① I have seen fireflies, and it was an amazing experience. ② I want to see them again next summer. ③ First, Then, However, After that ④ 지난여름, 가족과. 네 가지 모두 맞으면 통과. 낱말 뜻: firefly(fireflies) 반딧불이, amazing 놀라운, experience 경험, go camping 캠핑 가다, outside 밖에서, dark 어두운, scared 무서운, tiny 아주 작은."
+      },
+      {
+        "no": 4,
+        "prompt": "나의 경험을 떠올려 개요표를 채우세요(S10에서 말한 내용). 낱말로 짧게 쓰세요.",
+        "table": {
+          "headers": [
+            "부분",
+            "나의 개요(메모)"
+          ],
+          "rows": [
+            [
+              "주제(해 본 일)",
+              ""
+            ],
+            [
+              "언제·누구와",
+              ""
+            ],
+            [
+              "한 일 ① (First)",
+              ""
+            ],
+            [
+              "한 일 ② (Then)",
+              ""
+            ],
+            [
+              "힘들었던 일·뜻밖의 일 (However)",
+              ""
+            ],
+            [
+              "느낌·바람",
+              ""
+            ]
+          ],
+          "widths": [
+            0.36,
+            0.64
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "아이의 실제 경험이면 됩니다. 예: have been to Gangneung / last winter, my family / walk on the beach / eat fish soup / very cold / want to go again. 여섯 칸이 모두 채워지고 한 가지 경험에 대한 내용이면 통과."
+      },
+      {
+        "no": 5,
+        "prompt": "4의 개요를 보고 6문장 안팎의 경험 문단을 쓰세요. 주제문(I have + 과거분사 ~) → 뒷받침 문장(Last ~, First, Then, However) → 마무리 문장(느낌이나 바람) 순서로 이어 쓰세요.",
+        "eng": {
+          "trace": [],
+          "blank": 7
+        },
+        "answer": "예: I have been to Gangneung, and it was a great trip. Last winter, I went there with my family. First, we walked on the beach. Then, we ate fish soup at a small restaurant. However, it was very cold and windy. I was cold, but I want to go there again! 정답은 하나가 아닙니다. 활동지 6 점검표의 여섯 항목 가운데 다섯 개 이상 지키면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "5에 쓴 문단을 점검표로 확인하세요. 나와 부모님이 각각 ✔ 하고, 고칠 문장은 아래 줄에 고쳐 쓰세요.",
+        "table": {
+          "headers": [
+            "점검할 것",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① 첫 문장이 주제문(I have + 과거분사 ~)인가요?",
+              "",
+              ""
+            ],
+            [
+              "② last ~, yesterday가 있는 문장은 과거형인가요?",
+              "",
+              ""
+            ],
+            [
+              "③ 연결어를 두 개 이상 쓰고 뒤에 쉼표를 찍었나요?",
+              "",
+              ""
+            ],
+            [
+              "④ 모든 문장이 같은 경험 이야기인가요?",
+              "",
+              ""
+            ],
+            [
+              "⑤ 마지막 문장에 느낌이나 바람이 있나요?",
+              "",
+              ""
+            ],
+            [
+              "⑥ 첫 글자는 대문자, 끝에는 마침표를 썼나요?",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "lines": 2,
+        "answer": "여섯 항목 가운데 다섯 개 이상 ✔이면 통과. 아이와 부모의 판단이 다른 항목은 함께 문단을 다시 읽으며 이야기합니다. 부모님은 잘한 점 두 가지를 먼저 말하고, 빠진 항목 하나만 질문으로 알려 준 뒤 아이가 고쳐 쓰게 합니다. 고친 문장 예: I have visited Gangneung last winter. → Last winter, I went to Gangneung. / However, we ate lunch. → Then, we ate lunch."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① see, eat, write의 과거분사를 쓰세요.\n② I have been to Busan last year.를 바르게 고쳐 쓰세요.\n③ 경험 문단의 세 부분을 쓰세요.",
+        "lines": 3,
+        "answer": "① seen, eaten, written ② I went to Busan last year. (또는 I have been to Busan. I went there last year.) ③ 주제문, 뒷받침 문장, 마무리 문장. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 쓰기(점검표): 여섯 항목 □  다섯 항목 □  네 항목 이하 □ (도움을 받음 □)",
+      "S13 틀린 곳 고치기: 다섯 군데 □  네 군데 □  세 군데 이하 □",
+      "현재완료와 last ~를 함께 쓴 실수: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08"
 }

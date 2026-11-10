@@ -102,12 +102,8 @@
       ],
       "figure": {
         "type": "words",
-        "perRow": 2,
+        "perRow": 1,
         "items": [
-          {
-            "word": "First, / Then,",
-            "sub": "먼저 / 그다음에"
-          },
           {
             "word": "However,",
             "sub": "그러나"
@@ -127,7 +123,7 @@
         "시간": "약 2분",
         "말하기": [
           "“‘나는 피자를 좋아해. 그러나 …’ 다음에는 어떤 말이 올 것 같아?”",
-          "“‘그러나’ 같은 말이 있으면 뒤에 올 내용을 미리 짐작할 수 있지? 영어에도 이런 말이 있어. 오른쪽 네 가지를 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)",
+          "“‘그러나’ 같은 말이 있으면 뒤에 올 내용을 미리 짐작할 수 있지? 영어에도 이런 말이 있어. 오른쪽 세 가지를 같이 들어 보자. First, Then은 이미 알고 있지?” (소리 자료로 듣고 따라 말합니다.)",
           "“오늘은 이런 연결어로 글의 흐름을 따라 읽고, 흐름에 맞지 않는 문장도 찾아볼 거야.”"
         ],
         "예상답": [
@@ -487,7 +483,6 @@
       "title": "찾아봐요: 학교 도서관",
       "text": "cafeteria 급식실 · serve 내주다 · comfortable 편안한",
       "passage": {
-        "title": "Our School Library",
         "paragraphs": [
           "Our school library is a great place for students.",
           "For example, it has many new books and comfortable chairs.",
@@ -674,7 +669,6 @@
       "title": "혼자 찾아요: 비닐봉지",
       "text": "plastic bag 비닐봉지 · get sick 아프다 · fishing boat 고깃배",
       "passage": {
-        "title": "Plastic Bags and the Sea",
         "paragraphs": [
           "Plastic bags are bad for the sea.",
           "For example, many sea animals eat them.",
@@ -887,8 +881,8 @@
         "no": 4,
         "prompt": "글의 빈칸 ①~④에 알맞은 연결어를 쓰세요.",
         "read": "My First Fried Rice\nLast Sunday, I made fried rice for my family. ①________, I washed some vegetables. ②________, I cooked them with rice and eggs. It looked delicious. ③________, it was too salty! ④________, my dad drank three glasses of water.",
-        "line_label": "①　　　　　　②　　　　　　③　　　　　　④",
-        "lines": 1,
+        "line_label": "①~④에 들어갈 연결어",
+        "lines": 2,
         "answer": "① First ② Then ③ However ④ As a result. 네 개 가운데 세 개 이상이면 통과(③④는 꼭 맞아야 합니다). 낱말 뜻: fried rice 볶음밥, vegetable 채소, delicious 맛있는, salty 짠, a glass of water 물 한 잔."
       },
       {
