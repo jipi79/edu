@@ -723,5 +723,7 @@ notes_txt = json.dumps(C, ensure_ascii=False)
 assert "6분, 26 °C" in notes_txt and "8분, 28 °C" in notes_txt and "4분, 45 °C" in notes_txt
 for t, w, c in zip(T_MIN, WARM, COLD):
     assert f"{t}분 {w}/{c}" in notes_txt or t == 0 and "0분 50/14" in notes_txt
-OUT.write_text(json.dumps(C, ensure_ascii=False, indent=1), encoding="utf-8")
-print("wrote", OUT, "slides", len(S), "angles", POS_ANG)
+# import해서 그림 함수(입자 상자·그래프·장치)만 가져다 쓸 때는 파일을 쓰지 않는다.
+if __name__ == "__main__":
+    OUT.write_text(json.dumps(C, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("wrote", OUT, "slides", len(S), "angles", POS_ANG)
