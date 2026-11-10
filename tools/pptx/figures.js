@@ -119,7 +119,8 @@ function eqWidth(deck, items, pt) {
 }
 
 function eq(deck, slide, sid, fig, box) {
-  const lines = fig.lines || [fig.items];
+  // 식 하나를 글자 하나("x = 2")로 써도 된다
+  const lines = (fig.lines || [fig.items]).map((l) => [].concat(l));
   const gap = 0.35;
   // 분수가 없는 식은 한 줄 글자로 쓴다(□는 빈칸 글자)
   if (lines.every((l) => l.every((it) => !Array.isArray(it)))) {

@@ -323,7 +323,7 @@ class Deck {
 
   // 분수가 들어 있으면 두 줄 높이, 아니면 한 줄 높이
   eqHeight(items, pt) {
-    return items.some((it) => Array.isArray(it)) ? this.fracMetrics(pt, 1, 1).h : (pt * 1.3) / 72;
+    return [].concat(items).some((it) => Array.isArray(it)) ? this.fracMetrics(pt, 1, 1).h : (pt * 1.3) / 72;
   }
 
   opWidth(text, pt) {
