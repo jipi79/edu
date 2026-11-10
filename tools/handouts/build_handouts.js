@@ -22,10 +22,10 @@ function parseArgs(argv) {
   return args;
 }
 
-// 위첨자 숫자(2³ 등)는 글꼴에 따라 너무 작거나 없으므로 보통 숫자를 <sup>로 올려 쓴다.
-const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁺": "+", "⁻": "−", "ⁿ": "n", "ᵐ": "m", "ˣ": "x" };
+// 위첨자(2³)·아래 첨자(H₂O) 문자는 글꼴에 따라 너무 작거나 없으므로 보통 글자를 <sup>·<sub>로 쓴다.
+const { SCRIPT_RUNS, scriptKind, plainScript } = require("../pptx/scripts");
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-  .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿᵐˣ]+/g, (m) => `<sup>${[...m].map((c) => SUP[c]).join("")}</sup>`);
+  .replace(SCRIPT_RUNS, (m) => `<${scriptKind(m)}>${plainScript(m)}</${scriptKind(m)}>`);
 
 const CSS = `
   @page { size: A4; margin: 16mm 15mm 16mm 15mm; }

@@ -3,6 +3,8 @@
 // 슬라이드(figures.js)와 활동지(build_handouts.js)가 같은 목록을 각자 그린다.
 // 글자 크기에 맞춰야 하는 길이(이름표 간격, 직각 표시 크기)는 em(라벨 글자 높이를 단위 좌표로 바꾼 값)으로 정한다.
 
+const { SCRIPT_RUNS, scriptKind, plainScript } = require("./scripts");
+
 const sub = (a, b) => [a[0] - b[0], a[1] - b[1]];
 const add = (a, b) => [a[0] + b[0], a[1] + b[1]];
 const mul = (a, k) => [a[0] * k, a[1] * k];
@@ -275,6 +277,13 @@ function layout(fig, box, labelSize, maxUnit) {
 }
 
 // 활동지용 SVG. 1단위 = unitMm mm(자는 실제 cm 크기 그대로).
+// 활동지 그림의 위첨자·아래 첨자 문자를 tspan으로 올리고 내린다.
+function svgScripts(t) {
+  return t.replace(SCRIPT_RUNS, (m) => scriptKind(m) === "sup"
+    ? `<tspan baseline-shift="super" font-size="70%">${plainScript(m)}</tspan>`
+    : `<tspan baseline-shift="sub" font-size="70%">${plainScript(m)}</tspan>`);
+}
+
 function toSvg(fig, opts = {}) {
   const K = KINDS[fig.type];
   const e = K.extent(fig);
@@ -314,7 +323,7 @@ function toSvg(fig, opts = {}) {
           const tw = String(line).length * 0.6 * size * 0.3528 + 0.6, th = size * 0.3528 * 1.05;
           g += `<rect x="${(Number(X(q.at)) - tw / 2).toFixed(2)}" y="${(Number(Y(q.at)) + dy - th / 2).toFixed(2)}" width="${tw.toFixed(2)}" height="${th.toFixed(2)}" fill="#FFFFFF"/>`;
         }
-        g += `<text x="${X(q.at)}" y="${(Number(Y(q.at)) + dy).toFixed(2)}" font-size="${(size * 0.3528).toFixed(2)}" text-anchor="${q.anchor === "left" ? "start" : "middle"}" dominant-baseline="central" fill="${col(q.color)}" font-weight="${q.bold === false ? 400 : 700}">${String(line).replace(/&/g, "&amp;").replace(/</g, "&lt;")}</text>`;
+        g += `<text x="${X(q.at)}" y="${(Number(Y(q.at)) + dy).toFixed(2)}" font-size="${(size * 0.3528).toFixed(2)}" text-anchor="${q.anchor === "left" ? "start" : "middle"}" dominant-baseline="central" fill="${col(q.color)}" font-weight="${q.bold === false ? 400 : 700}">${svgScripts(String(line).replace(/&/g, "&amp;").replace(/</g, "&lt;"))}</text>`;
       });
     }
   }
