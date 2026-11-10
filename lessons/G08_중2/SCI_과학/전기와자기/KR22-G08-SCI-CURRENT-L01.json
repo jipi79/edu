@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-SCI-CURRENT-L01",
+  "concept_id": "SCI-CURRENT",
+  "title": "전류와 전압",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "전기와자기",
+  "sequence": 1,
+  "file_stem": "중2_과학_전기와자기_01_전류와전압",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I04"
+    ],
+    "units": [
+      "6.2.5",
+      "6.2.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "전류를 전자의 흐름으로, 전압을 물의 높이 차에 빗대어 설명하고 회로도에 전류의 방향을 나타낸다.",
+  "prerequisites": [
+    {
+      "text": "전기 회로",
+      "lesson": "KR22-G06-SCI-CIRCUIT-L01",
+      "grade_item": "KR22-G06-SCI-I02"
+    },
+    {
+      "text": "원자와 분자",
+      "lesson": "KR22-G08-SCI-ATOM-L01",
+      "grade_item": "KR22-G08-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "전류와 전압 활동지",
+    "items": [],
+    "record": []
+  }
+}

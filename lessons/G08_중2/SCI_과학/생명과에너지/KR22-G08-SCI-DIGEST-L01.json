@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-SCI-DIGEST-L01",
+  "concept_id": "SCI-DIGEST",
+  "title": "소화",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과에너지",
+  "sequence": 3,
+  "file_stem": "중2_과학_생명과에너지_03_소화",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I03"
+    ],
+    "units": [
+      "6.4.2",
+      "6.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "영양소가 소화 기관을 지나며 소화 효소에 의해 작은 물질로 분해되어 흡수되는 과정을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "우리 몸의 기관",
+      "lesson": "KR22-G05-SCI-ORGANS-L01",
+      "grade_item": "KR22-G05-SCI-I03"
+    },
+    {
+      "text": "생물의 구성 단계",
+      "lesson": "KR22-G07-SCI-LEVELS-L01",
+      "grade_item": "KR22-G07-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "소화 활동지",
+    "items": [],
+    "record": []
+  }
+}

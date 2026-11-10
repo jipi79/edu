@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-SCI-MAGNET-L01",
+  "concept_id": "SCI-MAGNET",
+  "title": "전류의 자기 작용",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "전기와자기",
+  "sequence": 3,
+  "file_stem": "중2_과학_전기와자기_03_전류의자기작용",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I04"
+    ],
+    "units": [
+      "6.2.5",
+      "6.2.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "나침반으로 전류가 흐르는 도선 주위의 자기장을 확인하고 전동기가 도는 원리를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "저항과 옴의 법칙",
+      "lesson": "KR22-G08-SCI-OHM-L01",
+      "grade_item": "KR22-G08-SCI-I04"
+    },
+    {
+      "text": "전자석",
+      "lesson": "KR22-G06-SCI-ELECTROMAG-L01",
+      "grade_item": "KR22-G06-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "전류의 자기 작용 활동지",
+    "items": [],
+    "record": []
+  }
+}

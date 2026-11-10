@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-SCI-OHM-L01",
+  "concept_id": "SCI-OHM",
+  "title": "저항과 옴의 법칙",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "전기와자기",
+  "sequence": 2,
+  "file_stem": "중2_과학_전기와자기_02_저항과옴의법칙",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I04"
+    ],
+    "units": [
+      "6.2.5",
+      "6.2.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "옴의 법칙으로 전압·전류·저항 중 하나를 구하고 저항의 직렬·병렬 연결 특징을 비교한다.",
+  "prerequisites": [
+    {
+      "text": "전류와 전압",
+      "lesson": "KR22-G08-SCI-CURRENT-L01",
+      "grade_item": "KR22-G08-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "저항과 옴의 법칙 활동지",
+    "items": [],
+    "record": []
+  }
+}
