@@ -31,6 +31,7 @@ const CSS = `
   .jamo { font-size: 1.45em; }
   h1 { font-size: 20pt; margin: 0 0 2mm; }
   h2 { font-size: 13.5pt; margin: 7mm 0 2.5mm; color: #264653; break-after: avoid; page-break-after: avoid; }
+  tr { break-inside: avoid; } tr:nth-child(2) { break-before: avoid; }
   .sub { color: #4B5563; font-size: 10pt; margin-bottom: 5mm; }
   .frac { display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; margin: 0 1.2mm; font-weight: 700; }
   .frac > span { display: block; min-width: 7mm; text-align: center; line-height: 1.15; }
