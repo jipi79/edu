@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G09-ENG-SRCVIEW-L01",
+  "concept_id": "ENG-SRCVIEW",
+  "title": "자료의 관점 비교",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "문화와매체",
+  "sequence": 1,
+  "file_stem": "중3_영어_문화와매체_01_자료의관점비교",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-ENG-I03"
+    ],
+    "units": [
+      "3.5.2",
+      "3.2.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "같은 주제를 다룬 두 영어 기사·게시물의 관점과 정보를 비교표로 정리하고 차이를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "요지와 세부 정보",
+      "lesson": "KR22-G09-ENG-MAINDET-L01",
+      "grade_item": "KR22-G09-ENG-I01"
+    },
+    {
+      "text": "문화적 관점 차이",
+      "lesson": "KR22-G08-ENG-CULTVIEW-L01",
+      "grade_item": "KR22-G08-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "자료의 관점 비교 활동지",
+    "items": [],
+    "record": []
+  }
+}
