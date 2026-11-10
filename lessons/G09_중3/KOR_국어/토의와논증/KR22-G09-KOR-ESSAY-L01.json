@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G09-KOR-ESSAY-L01",
+  "concept_id": "KOR-ESSAY",
+  "title": "논설문 쓰기",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "토의와논증",
+  "sequence": 4,
+  "file_stem": "중3_국어_토의와논증_04_논설문쓰기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-KOR-I02"
+    ],
+    "units": [
+      "1.2.3",
+      "1.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "개요에 따라 논리적 흐름이 드러나는 논설문을 쓰고 근거와 반박이 알맞은지 점검해 고쳐 쓴다.",
+  "prerequisites": [
+    {
+      "text": "논설문 개요 짜기",
+      "lesson": "KR22-G09-KOR-ESSAYPLAN-L01",
+      "grade_item": "KR22-G09-KOR-I02"
+    },
+    {
+      "text": "자료 활용해 고쳐 쓰기",
+      "lesson": "KR22-G08-KOR-DATAREV-L01",
+      "grade_item": "KR22-G08-KOR-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "논설문 쓰기 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G09-KOR-ARGUE-L01",
+  "concept_id": "KOR-ARGUE",
+  "title": "논증의 짜임",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "토의와논증",
+  "sequence": 1,
+  "file_stem": "중3_국어_토의와논증_01_논증의짜임",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-KOR-I02"
+    ],
+    "units": [
+      "1.2.3",
+      "1.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "주장·근거·이유를 찾아 논증의 짜임을 분석하고 근거가 적절한지 평가한다.",
+  "prerequisites": [
+    {
+      "text": "근거의 타당성",
+      "lesson": "KR22-G06-KOR-VALIDITY-L01",
+      "grade_item": "KR22-G06-KOR-I01"
+    },
+    {
+      "text": "관점과 근거 비교",
+      "lesson": "KR22-G08-KOR-VIEWCOMP-L01",
+      "grade_item": "KR22-G08-KOR-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "논증의 짜임 활동지",
+    "items": [],
+    "record": []
+  }
+}
