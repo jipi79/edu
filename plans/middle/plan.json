@@ -24,7 +24,7 @@
   ],
   "file_stem": "중1_국어_읽기와문학_01_글의구조파악",
   "source": "lessons/G07_중1/KOR_국어/읽기와문학/KR22-G07-KOR-TEXTSTRUCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-SUMREAD-L01",
@@ -51,7 +51,7 @@
   ],
   "file_stem": "중1_국어_읽기와문학_02_요약하며읽기",
   "source": "lessons/G07_중1/KOR_국어/읽기와문학/KR22-G07-KOR-SUMREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-GENRE-L01",
@@ -77,7 +77,7 @@
   ],
   "file_stem": "중1_국어_읽기와문학_03_문학의갈래",
   "source": "lessons/G07_중1/KOR_국어/읽기와문학/KR22-G07-KOR-GENRE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-RHYTHM-L01",
@@ -103,7 +103,7 @@
   ],
   "file_stem": "중1_국어_읽기와문학_04_시의운율",
   "source": "lessons/G07_중1/KOR_국어/읽기와문학/KR22-G07-KOR-RHYTHM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-FIGURE-L01",
@@ -130,7 +130,7 @@
   ],
   "file_stem": "중1_국어_읽기와문학_05_비유표현",
   "source": "lessons/G07_중1/KOR_국어/읽기와문학/KR22-G07-KOR-FIGURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-SYMBOL-L01",
@@ -157,7 +157,7 @@
   ],
   "file_stem": "중1_국어_읽기와문학_06_상징과작품해석",
   "source": "lessons/G07_중1/KOR_국어/읽기와문학/KR22-G07-KOR-SYMBOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-KEYPRES-L01",
@@ -184,7 +184,7 @@
   ],
   "file_stem": "중1_국어_말하기와쓰기_01_요약하여발표하기",
   "source": "lessons/G07_중1/KOR_국어/말하기와쓰기/KR22-G07-KOR-KEYPRES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-PLANWRITE-L01",
@@ -210,7 +210,7 @@
   ],
   "file_stem": "중1_국어_말하기와쓰기_02_계획하며쓰기",
   "source": "lessons/G07_중1/KOR_국어/말하기와쓰기/KR22-G07-KOR-PLANWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-REWRITE-L01",
@@ -237,7 +237,7 @@
   ],
   "file_stem": "중1_국어_말하기와쓰기_03_고쳐쓰기",
   "source": "lessons/G07_중1/KOR_국어/말하기와쓰기/KR22-G07-KOR-REWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-POS-L01",
@@ -263,7 +263,7 @@
   ],
   "file_stem": "중1_국어_언어와매체_01_품사분류와체언",
   "source": "lessons/G07_중1/KOR_국어/언어와매체/KR22-G07-KOR-POS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-VERBADJ-L01",
@@ -289,7 +289,7 @@
   ],
   "file_stem": "중1_국어_언어와매체_02_용언동사·형용사",
   "source": "lessons/G07_중1/KOR_국어/언어와매체/KR22-G07-KOR-VERBADJ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-MODIFIER-L01",
@@ -315,7 +315,7 @@
   ],
   "file_stem": "중1_국어_언어와매체_03_수식언·관계언·독립언",
   "source": "lessons/G07_중1/KOR_국어/언어와매체/KR22-G07-KOR-MODIFIER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-VOCAB-L01",
@@ -341,7 +341,7 @@
   ],
   "file_stem": "중1_국어_언어와매체_04_고유어·한자어·외래어",
   "source": "lessons/G07_중1/KOR_국어/언어와매체/KR22-G07-KOR-VOCAB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-KOR-ADINTENT-L01",
@@ -367,7 +367,7 @@
   ],
   "file_stem": "중1_국어_언어와매체_05_광고·매체의표현의도",
   "source": "lessons/G07_중1/KOR_국어/언어와매체/KR22-G07-KOR-ADINTENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-PRIME-L01",
@@ -392,7 +392,7 @@
   ],
   "file_stem": "중1_수학_소인수분해_01_소수와합성수",
   "source": "lessons/G07_중1/MAT_수학/소인수분해/KR22-G07-MAT-PRIME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-PRIMEFACT-L01",
@@ -417,7 +417,7 @@
   ],
   "file_stem": "중1_수학_소인수분해_02_소인수분해",
   "source": "lessons/G07_중1/MAT_수학/소인수분해/KR22-G07-MAT-PRIMEFACT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-GCDLCM-L01",
@@ -443,7 +443,7 @@
   ],
   "file_stem": "중1_수학_소인수분해_03_최대공약수와최소공배수",
   "source": "lessons/G07_중1/MAT_수학/소인수분해/KR22-G07-MAT-GCDLCM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INTEGER-L01",
@@ -469,7 +469,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_01_정수와유리수",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-INTEGER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-ABSVAL-L01",
@@ -495,7 +495,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_02_절댓값과수의대소",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-ABSVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INTADD-L01",
@@ -522,7 +522,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_03_정수와유리수의덧셈",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-INTADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INTSUB-L01",
@@ -548,7 +548,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_04_정수와유리수의뺄셈",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-INTSUB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INTMUL-L01",
@@ -574,7 +574,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_05_정수와유리수의곱셈",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-INTMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INTDIV-L01",
@@ -600,7 +600,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_06_정수와유리수의나눗셈",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-INTDIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INTMIX-L01",
@@ -628,7 +628,7 @@
   ],
   "file_stem": "중1_수학_정수와유리수_07_정수와유리수의혼합계산",
   "source": "lessons/G07_중1/MAT_수학/정수와유리수/KR22-G07-MAT-INTMIX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-LETTER-L01",
@@ -654,7 +654,7 @@
   ],
   "file_stem": "중1_수학_문자와식_01_문자의사용과식의값",
   "source": "lessons/G07_중1/MAT_수학/문자와식/KR22-G07-MAT-LETTER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-LINMUL-L01",
@@ -679,7 +679,7 @@
   ],
   "file_stem": "중1_수학_문자와식_02_일차식과수의곱셈·나눗셈",
   "source": "lessons/G07_중1/MAT_수학/문자와식/KR22-G07-MAT-LINMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-LINADD-L01",
@@ -704,7 +704,7 @@
   ],
   "file_stem": "중1_수학_문자와식_03_일차식의덧셈과뺄셈",
   "source": "lessons/G07_중1/MAT_수학/문자와식/KR22-G07-MAT-LINADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-EQPROP-L01",
@@ -730,7 +730,7 @@
   ],
   "file_stem": "중1_수학_문자와식_04_방정식과등식의성질",
   "source": "lessons/G07_중1/MAT_수학/문자와식/KR22-G07-MAT-EQPROP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-LINEQ-L01",
@@ -756,7 +756,7 @@
   ],
   "file_stem": "중1_수학_문자와식_05_일차방정식의풀이",
   "source": "lessons/G07_중1/MAT_수학/문자와식/KR22-G07-MAT-LINEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-EQAPP-L01",
@@ -781,7 +781,7 @@
   ],
   "file_stem": "중1_수학_문자와식_06_일차방정식의활용",
   "source": "lessons/G07_중1/MAT_수학/문자와식/KR22-G07-MAT-EQAPP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-COORD-L01",
@@ -807,7 +807,7 @@
   ],
   "file_stem": "중1_수학_좌표평면과그래프_01_순서쌍과좌표",
   "source": "lessons/G07_중1/MAT_수학/좌표평면과그래프/KR22-G07-MAT-COORD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-GRAPHREAD-L01",
@@ -832,7 +832,7 @@
   ],
   "file_stem": "중1_수학_좌표평면과그래프_02_그래프의해석",
   "source": "lessons/G07_중1/MAT_수학/좌표평면과그래프/KR22-G07-MAT-GRAPHREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-DIRECT-L01",
@@ -859,7 +859,7 @@
   ],
   "file_stem": "중1_수학_좌표평면과그래프_03_정비례와그그래프",
   "source": "lessons/G07_중1/MAT_수학/좌표평면과그래프/KR22-G07-MAT-DIRECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-INVERSE-L01",
@@ -884,7 +884,7 @@
   ],
   "file_stem": "중1_수학_좌표평면과그래프_04_반비례와그그래프",
   "source": "lessons/G07_중1/MAT_수학/좌표평면과그래프/KR22-G07-MAT-INVERSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-BASICFIG-L01",
@@ -910,7 +910,7 @@
   ],
   "file_stem": "중1_수학_기본도형_01_점·선·면과각",
   "source": "lessons/G07_중1/MAT_수학/기본도형/KR22-G07-MAT-BASICFIG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-PARALLEL-L01",
@@ -936,7 +936,7 @@
   ],
   "file_stem": "중1_수학_기본도형_02_위치관계와평행선",
   "source": "lessons/G07_중1/MAT_수학/기본도형/KR22-G07-MAT-PARALLEL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-CONSTRUCT-L01",
@@ -962,7 +962,7 @@
   ],
   "file_stem": "중1_수학_기본도형_03_기본작도와삼각형의작도",
   "source": "lessons/G07_중1/MAT_수학/기본도형/KR22-G07-MAT-CONSTRUCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-CONGRU-L01",
@@ -988,7 +988,7 @@
   ],
   "file_stem": "중1_수학_기본도형_04_삼각형의합동조건",
   "source": "lessons/G07_중1/MAT_수학/기본도형/KR22-G07-MAT-CONGRU-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-POLYGON-L01",
@@ -1014,7 +1014,7 @@
   ],
   "file_stem": "중1_수학_평면도형과입체도형_01_다각형의내각과외각",
   "source": "lessons/G07_중1/MAT_수학/평면도형과입체도형/KR22-G07-MAT-POLYGON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-SECTOR-L01",
@@ -1040,7 +1040,7 @@
   ],
   "file_stem": "중1_수학_평면도형과입체도형_02_원과부채꼴",
   "source": "lessons/G07_중1/MAT_수학/평면도형과입체도형/KR22-G07-MAT-SECTOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-SOLID-L01",
@@ -1066,7 +1066,7 @@
   ],
   "file_stem": "중1_수학_평면도형과입체도형_03_다면체와회전체",
   "source": "lessons/G07_중1/MAT_수학/평면도형과입체도형/KR22-G07-MAT-SOLID-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-VOLUME-L01",
@@ -1094,7 +1094,7 @@
   ],
   "file_stem": "중1_수학_평면도형과입체도형_04_기둥과뿔의겉넓이와부피",
   "source": "lessons/G07_중1/MAT_수학/평면도형과입체도형/KR22-G07-MAT-VOLUME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-SPHERE-L01",
@@ -1119,7 +1119,7 @@
   ],
   "file_stem": "중1_수학_평면도형과입체도형_05_구의겉넓이와부피",
   "source": "lessons/G07_중1/MAT_수학/평면도형과입체도형/KR22-G07-MAT-SPHERE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-REPVAL-L01",
@@ -1144,7 +1144,7 @@
   ],
   "file_stem": "중1_수학_자료의정리와해석_01_대푯값",
   "source": "lessons/G07_중1/MAT_수학/자료의정리와해석/KR22-G07-MAT-REPVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-FREQTABLE-L01",
@@ -1170,7 +1170,7 @@
   ],
   "file_stem": "중1_수학_자료의정리와해석_02_줄기와잎그림과도수분포표",
   "source": "lessons/G07_중1/MAT_수학/자료의정리와해석/KR22-G07-MAT-FREQTABLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-HISTOGRAM-L01",
@@ -1197,7 +1197,7 @@
   ],
   "file_stem": "중1_수학_자료의정리와해석_03_히스토그램과상대도수",
   "source": "lessons/G07_중1/MAT_수학/자료의정리와해석/KR22-G07-MAT-HISTOGRAM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-BEVERB-L01",
@@ -1222,7 +1222,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_01_be동사문장",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-BEVERB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-DOVERB-L01",
@@ -1248,7 +1248,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_02_일반동사현재문장",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-DOVERB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-PROG-L01",
@@ -1273,7 +1273,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_03_현재진행형",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-PROG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-PAST-L01",
@@ -1299,7 +1299,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_04_과거시제문장",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-PAST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-PASTQ-L01",
@@ -1324,7 +1324,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_05_과거부정문·의문문",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-PASTQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-FUTURE-L01",
@@ -1350,7 +1350,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_06_미래표현",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-FUTURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-QUANTITY-L01",
@@ -1376,7 +1376,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_07_수량표현",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-QUANTITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-COMPAR-L01",
@@ -1402,7 +1402,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_08_비교급",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-COMPAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-SUPERL-L01",
@@ -1427,7 +1427,7 @@
   ],
   "file_stem": "중1_영어_문장과어휘_09_최상급",
   "source": "lessons/G07_중1/ENG_영어/문장과어휘/KR22-G07-ENG-SUPERL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-GISTDET-L01",
@@ -1454,7 +1454,7 @@
   ],
   "file_stem": "중1_영어_이해와표현_01_요지와세부정보",
   "source": "lessons/G07_중1/ENG_영어/이해와표현/KR22-G07-ENG-GISTDET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-EXPWRITE-L01",
@@ -1481,7 +1481,7 @@
   ],
   "file_stem": "중1_영어_이해와표현_02_경험말하고쓰기",
   "source": "lessons/G07_중1/ENG_영어/이해와표현/KR22-G07-ENG-EXPWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-PLANS-L01",
@@ -1508,7 +1508,7 @@
   ],
   "file_stem": "중1_영어_이해와표현_03_계획말하고쓰기",
   "source": "lessons/G07_중1/ENG_영어/이해와표현/KR22-G07-ENG-PLANS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-CHECKMEAN-L01",
@@ -1534,7 +1534,7 @@
   ],
   "file_stem": "중1_영어_상호작용과문화_01_뜻확인하며대화잇기",
   "source": "lessons/G07_중1/ENG_영어/상호작용과문화/KR22-G07-ENG-CHECKMEAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-ENG-STEREO-L01",
@@ -1560,7 +1560,7 @@
   ],
   "file_stem": "중1_영어_상호작용과문화_02_문화적고정관념살피기",
   "source": "lessons/G07_중1/ENG_영어/상호작용과문화/KR22-G07-ENG-STEREO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-SOC-LATLONG-L01",
@@ -1587,7 +1587,7 @@
   ],
   "file_stem": "중1_사회·역사_지역과공간_01_위도와경도",
   "source": "lessons/G07_중1/SOC_사회·역사/지역과공간/KR22-G07-SOC-LATLONG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-SOC-CLIMZONE-L01",
@@ -2276,7 +2276,7 @@
   ],
   "file_stem": "중1_과학_열과상태변화_01_온도와열평형",
   "source": "lessons/G07_중1/SCI_과학/열과상태변화/KR22-G07-SCI-TEMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-SCI-HEATFLOW-L01",
@@ -3347,7 +3347,7 @@
   ],
   "file_stem": "중2_국어_추론과비판_01_관점과근거비교",
   "source": "lessons/G08_중2/KOR_국어/추론과비판/KR22-G08-KOR-VIEWCOMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-DEFEX-L01",
@@ -3372,7 +3372,7 @@
   ],
   "file_stem": "중2_국어_추론과비판_02_정의와예시",
   "source": "lessons/G08_중2/KOR_국어/추론과비판/KR22-G08-KOR-DEFEX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-COMPCON-L01",
@@ -3397,7 +3397,7 @@
   ],
   "file_stem": "중2_국어_추론과비판_03_비교와대조",
   "source": "lessons/G08_중2/KOR_국어/추론과비판/KR22-G08-KOR-COMPCON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-CLASSANAL-L01",
@@ -3422,7 +3422,7 @@
   ],
   "file_stem": "중2_국어_추론과비판_04_분류와분석",
   "source": "lessons/G08_중2/KOR_국어/추론과비판/KR22-G08-KOR-CLASSANAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-CAUSAL-L01",
@@ -3447,7 +3447,7 @@
   ],
   "file_stem": "중2_국어_추론과비판_05_인과와설명방법고르기",
   "source": "lessons/G08_중2/KOR_국어/추론과비판/KR22-G08-KOR-CAUSAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-INTERVIEW-L01",
@@ -3528,7 +3528,7 @@
   ],
   "file_stem": "중2_국어_면담토의쓰기_03_자료활용해고쳐쓰기",
   "source": "lessons/G08_중2/KOR_국어/면담토의쓰기/KR22-G08-KOR-DATAREV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-PHONCONS-L01",
@@ -3556,7 +3556,7 @@
   ],
   "file_stem": "중2_국어_문법문학매체_01_음운과자음체계",
   "source": "lessons/G08_중2/KOR_국어/문법문학매체/KR22-G08-KOR-PHONCONS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-KOR-PHONVOW-L01",
@@ -3727,7 +3727,7 @@
   ],
   "file_stem": "중2_수학_수와식_01_유리수와순환소수",
   "source": "lessons/G08_중2/MAT_수학/수와식/KR22-G08-MAT-REPDEC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-EXPLAW-L01",
@@ -3755,7 +3755,7 @@
   ],
   "file_stem": "중2_수학_수와식_02_지수법칙1",
   "source": "lessons/G08_중2/MAT_수학/수와식/KR22-G08-MAT-EXPLAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-EXPLAW2-L01",
@@ -3782,7 +3782,7 @@
   ],
   "file_stem": "중2_수학_수와식_03_지수법칙2",
   "source": "lessons/G08_중2/MAT_수학/수와식/KR22-G08-MAT-EXPLAW2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-MONOMUL-L01",
@@ -3811,7 +3811,7 @@
   ],
   "file_stem": "중2_수학_수와식_04_단항식의곱셈과나눗셈",
   "source": "lessons/G08_중2/MAT_수학/수와식/KR22-G08-MAT-MONOMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-POLYADD-L01",
@@ -3838,7 +3838,7 @@
   ],
   "file_stem": "중2_수학_수와식_05_다항식의덧셈과뺄셈",
   "source": "lessons/G08_중2/MAT_수학/수와식/KR22-G08-MAT-POLYADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-POLYMUL-L01",
@@ -3867,7 +3867,7 @@
   ],
   "file_stem": "중2_수학_수와식_06_단항식과다항식의곱셈·나눗셈",
   "source": "lessons/G08_중2/MAT_수학/수와식/KR22-G08-MAT-POLYMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-INEQ-L01",
@@ -3894,7 +3894,7 @@
   ],
   "file_stem": "중2_수학_일차부등식_01_부등식과그성질",
   "source": "lessons/G08_중2/MAT_수학/일차부등식/KR22-G08-MAT-INEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-INEQSOLVE-L01",
@@ -3920,7 +3920,7 @@
   ],
   "file_stem": "중2_수학_일차부등식_02_일차부등식의풀이",
   "source": "lessons/G08_중2/MAT_수학/일차부등식/KR22-G08-MAT-INEQSOLVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-INEQAPP-L01",
@@ -3946,7 +3946,7 @@
   ],
   "file_stem": "중2_수학_일차부등식_03_일차부등식의활용",
   "source": "lessons/G08_중2/MAT_수학/일차부등식/KR22-G08-MAT-INEQAPP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-SYSEQ-L01",
@@ -3972,7 +3972,7 @@
   ],
   "file_stem": "중2_수학_연립방정식_01_연립방정식과그해",
   "source": "lessons/G08_중2/MAT_수학/연립방정식/KR22-G08-MAT-SYSEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-ELIM-L01",
@@ -3998,7 +3998,7 @@
   ],
   "file_stem": "중2_수학_연립방정식_02_연립방정식풀이가감법",
   "source": "lessons/G08_중2/MAT_수학/연립방정식/KR22-G08-MAT-ELIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-SUBST-L01",
@@ -4023,7 +4023,7 @@
   ],
   "file_stem": "중2_수학_연립방정식_03_연립방정식풀이대입법",
   "source": "lessons/G08_중2/MAT_수학/연립방정식/KR22-G08-MAT-SUBST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-SYSAPP-L01",
@@ -4049,7 +4049,7 @@
   ],
   "file_stem": "중2_수학_연립방정식_04_연립방정식의활용",
   "source": "lessons/G08_중2/MAT_수학/연립방정식/KR22-G08-MAT-SYSAPP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-FUNC-L01",
@@ -4076,7 +4076,7 @@
   ],
   "file_stem": "중2_수학_일차함수_01_함수와함숫값",
   "source": "lessons/G08_중2/MAT_수학/일차함수/KR22-G08-MAT-FUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-LINFUNC-L01",
@@ -4103,7 +4103,7 @@
   ],
   "file_stem": "중2_수학_일차함수_02_일차함수와그래프",
   "source": "lessons/G08_중2/MAT_수학/일차함수/KR22-G08-MAT-LINFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-INTERCEPT-L01",
@@ -4129,7 +4129,7 @@
   ],
   "file_stem": "중2_수학_일차함수_03_일차함수의절편",
   "source": "lessons/G08_중2/MAT_수학/일차함수/KR22-G08-MAT-INTERCEPT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-SLOPE-L01",
@@ -4155,7 +4155,7 @@
   ],
   "file_stem": "중2_수학_일차함수_04_일차함수의기울기",
   "source": "lessons/G08_중2/MAT_수학/일차함수/KR22-G08-MAT-SLOPE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-LINFORM-L01",
@@ -4182,7 +4182,7 @@
   ],
   "file_stem": "중2_수학_일차함수_05_일차함수의식구하기",
   "source": "lessons/G08_중2/MAT_수학/일차함수/KR22-G08-MAT-LINFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-LINEQGRAPH-L01",
@@ -4209,7 +4209,7 @@
   ],
   "file_stem": "중2_수학_일차함수_06_일차함수와일차방정식",
   "source": "lessons/G08_중2/MAT_수학/일차함수/KR22-G08-MAT-LINEQGRAPH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-ISOSCELES-L01",
@@ -4235,11 +4235,11 @@
   ],
   "file_stem": "중2_수학_삼각형과사각형_01_이등변삼각형의성질",
   "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-ISOSCELES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
-  "id": "KR22-G08-MAT-CENTERS-L01",
-  "concept_id": "MAT-CENTERS",
+  "id": "KR22-G08-MAT-RTCONG-L01",
+  "concept_id": "MAT-RTCONG",
   "grade": "G08",
   "grade_label": "중2",
   "band": "M",
@@ -4252,6 +4252,32 @@
    "2.4.3",
    "2.7.3"
   ],
+  "title": "직각삼각형의 합동",
+  "objective": "직각삼각형의 합동 조건(RHA·RHS)을 설명하고 두 직각삼각형이 합동인지 판별해 길이와 각의 크기를 구한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G08-MAT-ISOSCELES-L01"
+  ],
+  "file_stem": "중2_수학_삼각형과사각형_02_직각삼각형의합동",
+  "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-RTCONG-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G08-MAT-CENTERS-L01",
+  "concept_id": "MAT-CENTERS",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G08-MAT-I03",
+  "folder": "삼각형과사각형",
+  "sequence": 3,
+  "units": [
+   "2.4.3",
+   "2.7.3"
+  ],
   "title": "삼각형의 외심과 내심",
   "objective": "변의 수직이등분선과 각의 이등분선으로 외심·내심을 찾고 그 성질을 이용해 길이와 각의 크기를 구한다.",
   "format": "ppt",
@@ -4259,9 +4285,9 @@
   "pre": [
    "KR22-G08-MAT-ISOSCELES-L01"
   ],
-  "file_stem": "중2_수학_삼각형과사각형_02_삼각형의외심과내심",
+  "file_stem": "중2_수학_삼각형과사각형_03_삼각형의외심과내심",
   "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-CENTERS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-PARALLELOGRAM-L01",
@@ -4273,7 +4299,7 @@
   "strand_label": "수학",
   "grade_item": "KR22-G08-MAT-I03",
   "folder": "삼각형과사각형",
-  "sequence": 3,
+  "sequence": 4,
   "units": [
    "2.4.3",
    "2.7.3"
@@ -4287,9 +4313,9 @@
    "KR22-G07-MAT-CONGRU-L01",
    "KR22-G04-MAT-QUAD-L01"
   ],
-  "file_stem": "중2_수학_삼각형과사각형_03_평행사변형의성질",
+  "file_stem": "중2_수학_삼각형과사각형_04_평행사변형의성질",
   "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-PARALLELOGRAM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-QUADS-L01",
@@ -4301,7 +4327,7 @@
   "strand_label": "수학",
   "grade_item": "KR22-G08-MAT-I03",
   "folder": "삼각형과사각형",
-  "sequence": 4,
+  "sequence": 5,
   "units": [
    "2.4.3",
    "2.7.3"
@@ -4313,9 +4339,9 @@
   "pre": [
    "KR22-G08-MAT-PARALLELOGRAM-L01"
   ],
-  "file_stem": "중2_수학_삼각형과사각형_04_여러가지사각형",
+  "file_stem": "중2_수학_삼각형과사각형_05_여러가지사각형",
   "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-QUADS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-SIMILAR-L01",
@@ -4342,7 +4368,7 @@
   ],
   "file_stem": "중2_수학_닮음과피타고라스_01_닮음과닮음조건",
   "source": "lessons/G08_중2/MAT_수학/닮음과피타고라스/KR22-G08-MAT-SIMILAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-PARALLELRATIO-L01",
@@ -4369,7 +4395,7 @@
   ],
   "file_stem": "중2_수학_닮음과피타고라스_02_평행선과선분의길이의비",
   "source": "lessons/G08_중2/MAT_수학/닮음과피타고라스/KR22-G08-MAT-PARALLELRATIO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-PYTHAG-L01",
@@ -4396,7 +4422,7 @@
   ],
   "file_stem": "중2_수학_닮음과피타고라스_03_피타고라스정리",
   "source": "lessons/G08_중2/MAT_수학/닮음과피타고라스/KR22-G08-MAT-PYTHAG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-COUNT-L01",
@@ -4422,7 +4448,7 @@
   ],
   "file_stem": "중2_수학_확률_01_경우의수",
   "source": "lessons/G08_중2/MAT_수학/확률/KR22-G08-MAT-COUNT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-MAT-PROB-L01",
@@ -4499,7 +4525,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_01_현재완료경험",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-PERFEXP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-PERFCONT-L01",
@@ -4524,7 +4550,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_02_현재완료계속",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-PERFCONT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-TOINF-L01",
@@ -4549,7 +4575,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_03_to부정사명사적용법",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-TOINF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-TOINF2-L01",
@@ -4574,7 +4600,7 @@
   ],
   "file_stem": "중2_영어_어휘와문장_04_to부정사형용사·부사적",
   "source": "lessons/G08_중2/ENG_영어/어휘와문장/KR22-G08-ENG-TOINF2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G08-ENG-GERUND-L01",
@@ -7050,7 +7076,7 @@
   ],
   "file_stem": "중3_수학_실수와그계산_01_제곱근의뜻",
   "source": "lessons/G09_중3/MAT_수학/실수와그계산/KR22-G09-MAT-SQRT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G09-MAT-SQRTPROP-L01",
