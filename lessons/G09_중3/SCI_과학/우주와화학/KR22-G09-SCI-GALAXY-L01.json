@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G09-SCI-GALAXY-L01",
+  "concept_id": "SCI-GALAXY",
+  "title": "우리은하와 우주",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "우주와화학",
+  "sequence": 2,
+  "file_stem": "중3_과학_우주와화학_02_우리은하와우주",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-SCI-I01"
+    ],
+    "units": [
+      "6.5.6",
+      "6.5.7",
+      "6.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "우리은하의 구조와 구성 천체를 알고 우주가 팽창한다는 생각을 풍선 모형으로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "별의 거리와 밝기",
+      "lesson": "KR22-G09-SCI-STAR-L01",
+      "grade_item": "KR22-G09-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "우리은하와 우주 활동지",
+    "items": [],
+    "record": []
+  }
+}
