@@ -76,6 +76,7 @@ def value(expr):
     """식의 값. 근호(√)·제곱(², ³)이 없으면 분수로 정확히, 있으면 실수로 계산한다.
     √12, 2√3, √(2/3), (√3)² 처럼 쓴다(계수는 근호 앞, 괄호 안 식은 √(…))."""
     expr = str(expr).replace("−", "-")
+    expr = re.sub(r"(\d|\))\s*\(", r"\1×(", expr)  # 붙여 쓴 곱: 2(3) → 2×(3), (1)(2) → (1)×(2)
     if not RADICAL.search(expr):
         return exact(expr)
     py = expr.replace("×", "*").replace("÷", "/").replace("²", "**2").replace("³", "**3")
@@ -211,7 +212,8 @@ def check(path):
         where = c.get("where", "")
         try:
             if c["type"] == "equiv":
-                vals = [value(v) if RADICAL.search(str(v)) else frac(v) for v in c["values"]]
+                # 식이면(연산 기호·괄호·근호) 계산하고, 아니면 분수·대분수로 읽는다
+                vals = [value(v) if re.search(r"[+×÷()√²³]|\d\s*[-−]\s*\d", str(v)) else frac(v) for v in c["values"]]
                 if not all(same(vals[0], v) for v in vals[1:]):
                     errors.append(f"정답 검산({where}): {' = '.join(c['values'])} 가 성립하지 않는다")
             elif c["type"] == "not_equiv":
@@ -249,7 +251,7 @@ def check(path):
                     errors.append(f"그림 검사({where}): {c['parts']}칸 중 {c['shaded']}칸 색칠한 막대가 없다")
                 elif Fraction(c["shaded"], c["parts"]) != frac(c["value"]):
                     errors.append(f"그림 검사({where}): 막대가 {c['value']}이 아니다")
-        except (ValueError, KeyError, SyntaxError, ZeroDivisionError) as e:
+        except (ValueError, KeyError, SyntaxError, ZeroDivisionError, TypeError) as e:
             errors.append(f"정답 검산({where}): 식을 읽을 수 없다 ({e})")
 
     # 그림과 표기의 일치
