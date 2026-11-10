@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G09-MAT-SCATTER-L01",
+  "concept_id": "MAT-SCATTER",
+  "title": "산점도와 상관관계",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "통계",
+  "sequence": 3,
+  "file_stem": "중3_수학_통계_03_산점도와상관관계",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-MAT-I04"
+    ],
+    "units": [
+      "2.5.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "두 변량을 산점도로 나타내 양·음의 상관관계를 판단하고 상관관계가 인과관계를 뜻하지 않음을 예로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "순서쌍과 좌표",
+      "lesson": "KR22-G07-MAT-COORD-L01",
+      "grade_item": "KR22-G07-MAT-I02"
+    },
+    {
+      "text": "그래프의 해석",
+      "lesson": "KR22-G07-MAT-GRAPHREAD-L01",
+      "grade_item": "KR22-G07-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "산점도와 상관관계 활동지",
+    "items": [],
+    "record": []
+  }
+}

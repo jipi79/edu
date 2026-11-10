@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -28,7 +28,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "Do you know where ~? / I wonder if ~. 처럼 의문문을 문장 속에 넣어 공손하게 묻고 답한다.",
   "prerequisites": [
     {
       "text": "일반동사 현재 문장",
@@ -44,19 +43,990 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "의문사(where, what, when, what time처럼 묻는 낱말)로 시작하는 질문(Where is the station? / What time does the bus leave?)을 Do you know ~? / Can you tell me ~? 안에 넣어, 의문사 + 주어 + 동사의 평서문 어순(where the station is, what time the bus leaves)으로 바꾸어 말하고 쓴다. do·does는 빼고 동사의 -s를 살리며, Do you know where is it?처럼 어순이 틀린 문장을 찾아 고친다.",
+      "evidence": "간접의문문이란(S03), 바꾸는 순서(S04), does가 있는 질문(S05), 바꾸어 말하기(S06), 어순 비교(S07), 혼자 해 보기 ①②(S11), 마무리 확인(S13), 활동지 1·2",
+      "success": "처음 보는 의문사 질문 두 개를 바른 어순으로 바꾸고(두 개 가운데 두 개), 네 문장 가운데 바른 문장 두 개를 골라 틀린 문장의 어순을 고쳐 말한다."
+    },
+    {
+      "id": "B",
+      "text": "예/아니요로 답하는 질문(Is the library open today? / Does this bus go to the museum?)을 if(~인지) + 주어 + 동사로 바꾸어 I wonder if ~.(마침표) / Can you tell me if ~?(물음표)로 공손하게 묻고, 안내 데스크 역할극에서 질문 카드를 간접의문문으로 바꾸어 정보를 묻고 Yes, ~. / Sorry, I don't know.로 답한다.",
+      "evidence": "if로 묻기(S08), if로 바꾸어 말하기(S09), 안내 데스크 역할극(S10), 혼자 해 보기 ③④(S11), 활동지 3·4",
+      "success": "처음 보는 예/아니요 질문 두 개를 I wonder if ~. / Can you tell me if ~?로 바르게 바꾸고(문장 끝의 마침표·물음표 포함), 역할극에서 질문 카드 네 장 가운데 세 장 이상을 간접의문문으로 묻는다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필과 지우개",
+    "종이 다섯 장과 펜(질문 카드 4장, 안내 카드 1장)",
+    "교과서 디지털 자료나 사전 앱(문장 소리 듣기)"
+  ],
+  "boundary": "간접의문문(질문을 다른 문장 속에 넣은 것)은 세 가지만 다룬다. ① 의문사 where, what, when, what time + be동사 현재형 질문 → Do you know / Can you tell me + 의문사 + 주어 + be동사 ~? ② 의문사 + do·does 현재형 질문 → do·does를 빼고 동사원형에 주어에 맞는 -s를 살린다(where she lives). ③ Is·Are·Do·Does로 시작하는 예/아니요 질문 → I wonder if + 주어 + 동사 ~. / Can you tell me if + 주어 + 동사 ~?. 여기서 if는 중2 ‘접속사 if·when’의 ‘만약 ~하면’이 아니라 ‘~인지’라는 뜻이라고 짚는다. did가 있는 과거 질문(When did he come? → when he came)과 I wonder + 의문사(I wonder where he is.)는 노트에서 한 번 소개만 하고, who·what이 주어인 질문(Who made this?), whether, Do you know if ~?, Do you think + 의문사 ~?(What do you think it is?), 간접의문문의 자세한 문법 용어(명사절)는 다루지 않는다. 대답은 Yes, it's ~. / Sorry, I don't know.와 안내 카드의 정보로 짧게 한다. 동사는 ‘일반동사 현재 문장’에서 배운 동사와 open, close, start, leave, sell 정도만 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "의문문의 어순을 그대로 둔다(Do you know where is the station?). 우리말에서는 ‘역이 어디에 있는지’처럼 어순이 바뀌지 않아 영어에서도 그대로 두는 것이다.",
+      "response": "S04 단계에서 ‘의문사 → 주어 → 동사’를 손가락으로 짚으며 바꾸고, S07에서 두 문장을 비교한다. S13과 활동지 2에서 틀린 어순을 찾아 고친다."
+    },
+    {
+      "id": "M2",
+      "text": "do·does를 그대로 남기거나(Do you know what time does the bus leave?), does를 빼고 동사의 -s를 빠뜨린다(what time the bus leave).",
+      "response": "S05에서 ‘does가 빠지면 -s는 동사로 돌아간다’를 보여 주고(does → leaves), S06·S11과 활동지 1·2에서 연습한다. ‘일반동사 현재 문장’의 3인칭 단수를 함께 떠올린다."
+    },
+    {
+      "id": "M3",
+      "text": "예/아니요 질문에서 if를 빼거나(I wonder the library is open.), if 뒤에 질문 어순을 쓰며(Can you tell me if is the library open?), I wonder ~. 문장 끝에 물음표를 찍는다.",
+      "response": "S08에서 ‘의문사가 없으면 if, if 뒤도 주어 + 동사’를 보여 주고, ‘I wonder ~.는 내 생각을 말하는 문장이라 마침표, Can you tell me ~?는 묻는 문장이라 물음표’를 짚는다. 활동지 2③에서 고친다."
+    },
+    {
+      "id": "M4",
+      "text": "여기서 쓰는 if를 중2에서 배운 ‘만약 ~하면’으로만 해석한다(I wonder if the museum is open. → ‘만약 박물관이 열면 궁금하다’).",
+      "response": "S08 카드에서 ‘이 if는 ~인지’라고 알려 주고, S09에서 문장마다 우리말 뜻을 말하게 한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "간접의문문",
+      "question": "Where is the station?\n처음 만난 사람에게 더 공손하게 물으려면?",
+      "goals": [
+        "① Do you know where ~?로 어순을 바꿔 물어요.",
+        "② I wonder if ~. / Can you tell me if ~?로 물어요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Where is it?",
+            "sub": "어디 있어요?"
+          },
+          {
+            "word": "Do you know where it is?",
+            "sub": "어디 있는지 아세요?"
+          },
+          {
+            "word": "I wonder if it's open.",
+            "sub": "문을 열었는지 궁금해요."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 같은 질문도 다른 문장 속에 넣으면 더 부드럽고 공손해진다는 것을 느끼게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“길에서 처음 보는 어른에게 역을 물을 때, 우리말로 ‘역 어디예요?’라고 해? 아니면 ‘혹시 역이 어디에 있는지 아세요?’라고 해?”",
+          "“영어도 그래. Where is the station?도 맞지만, Do you know where the station is?라고 하면 더 부드럽고 공손해. 오늘은 이렇게 질문을 다른 문장 속에 넣는 법을 배울 거야.”",
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)"
+        ],
+        "예상답": [
+          "“‘혹시 ~ 아세요?’라고 해요. 그게 더 예의 바르니까요.”"
+        ],
+        "막히면": [
+          "아이가 차이를 잘 모르면 부모가 두 말투로 직접 물어보고 “어느 쪽이 더 부드럽게 들려?”라고 묻습니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(Do you know where the station is? / I wonder if the library is open today. / Can you tell me if this bus goes to the museum?)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "S10 역할극에 쓸 종이 카드 다섯 장(질문 카드 4장, 안내 카드 1장)을 미리 만들어 두면 수업이 매끄럽습니다. 카드에 쓸 내용은 S10 노트에 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(일반동사 의문문, 공손하게 묻기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "질문과 평서문 떠올리기",
+      "text": "①은 묻지 않는 문장으로 바꾸고, ②③은 답해요.",
+      "problems": [
+        {
+          "text": "Does the bus stop here?\n→ 묻지 않는 보통 문장으로"
+        },
+        {
+          "text": "Where is the library?의 뜻은?"
+        },
+        {
+          "text": "‘다시 말해 주시겠어요?’를\n공손하게 영어로"
+        }
+      ],
+      "notes": {
+        "목적": "중1 ‘일반동사 현재 문장’(KR22-G07-ENG-DOVERB-L01)의 Does 의문문과 3인칭 단수 -s, 초등의 Where is ~?, 중1 ‘뜻 확인하며 대화 잇기’(KR22-G07-ENG-CHECKMEAN-L01)의 공손한 부탁 Could you ~?를 기억하는지 확인합니다. 오늘은 질문을 보통 문장(평서문)의 어순으로 바꾸는 일이 핵심이라 ①이 가장 중요합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①, Does the bus stop here?는 ‘버스가 여기 서요?’라는 질문이야. 묻지 않고 ‘버스가 여기 서요.’라고 말하는 문장으로 바꿔 볼래?”",
+          "“②의 뜻은?”",
+          "“③, 지난번에 배운 공손한 부탁이야. 영어로 말해 줘.”"
+        ],
+        "정답": [
+          "① The bus stops here. (does가 빠지고 stop에 -s가 붙습니다.)",
+          "② 도서관이 어디에 있어요?",
+          "③ Could you say that again?"
+        ],
+        "막히면": [
+          "①에서 The bus stop here.라고 하면 “주어가 the bus 하나야. 동사에 무엇을 붙였지?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "평서문은 ‘묻지 않고 말하는 보통 문장’입니다. 오늘 아이에게는 ‘보통 문장’이라는 말로 설명해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "간접의문문의 뜻과 어순",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "질문을 문장 속에 넣어요",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "Do you know",
+            "sub": "~을 아세요?"
+          },
+          {
+            "word": "where the station is?",
+            "sub": "역이 어디에 있는지",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "간접의문문",
+          "text": "질문을 다른 문장 속에 넣은 것.\n더 부드럽고 공손해요."
+        },
+        {
+          "title": "의문사",
+          "text": "묻는 낱말이에요.\nwhere, what, when, what time"
+        }
+      ],
+      "key": "문장 속 질문은 보통 문장 순서: 의문사 + 주어 + 동사",
+      "notes": {
+        "목적": "간접의문문(질문을 다른 문장 속에 넣은 것)과 의문사(묻는 낱말)의 뜻을 알려 주고, 문장 속에 들어간 질문은 보통 문장처럼 ‘주어 + 동사’ 순서가 된다는 것을 보여 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Do you know ~?는 ‘~을 아세요?’야. 그 뒤에 ‘역이 어디에 있는지’를 넣었어.”",
+          "“원래 질문은 Where is the station?이었지? 문장 속에 들어가면 where the station is가 돼. is가 어디로 갔어?”",
+          "“이렇게 질문을 다른 문장 속에 넣은 걸 간접의문문이라고 해. where, what, when처럼 묻는 낱말은 의문사라고 하고.”"
+        ],
+        "예상답": [
+          "“is가 the station 뒤로 갔어요.”"
+        ],
+        "막히면": [
+          "“the station이 주어, is가 동사야. 보통 문장 The station is here.처럼 주어 다음에 동사가 왔지?”라고 보통 문장과 견주어 줍니다."
+        ],
+        "주의": [
+          "끝의 물음표는 Do you know ~?가 묻는 문장이라서 찍습니다. 뒤에 들어간 where the station is는 질문이 아니라 문장의 한 부분입니다.",
+          "Can you tell me where the station is?(역이 어디에 있는지 알려 줄 수 있어요?)도 같은 방법으로 만듭니다. S05에서 함께 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "어순 바꾸기 단계(be동사 질문)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "바꾸는 순서: be동사 질문",
+      "steps": [
+        "원래 질문을 봐요.\nWhere is the station?",
+        "의문사를 맨 앞에 둬요: where",
+        "주어 + 동사 순서로:\nthe station is",
+        "앞에 Do you know를 붙이고\n끝에 물음표(?)"
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Where is the station?",
+            "sub": "원래 질문"
+          },
+          {
+            "word": "where + the station + is",
+            "sub": "의문사 + 주어 + 동사"
+          },
+          {
+            "word": "Do you know\nwhere the station is?",
+            "sub": "간접의문문",
+            "highlight": true
+          }
+        ]
+      },
+      "notes": {
+        "목적": "be동사 질문을 간접의문문으로 바꾸는 순서를 네 단계로 보여 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“하나씩 해 보자. 원래 질문은 Where is the station?”",
+          "“의문사 where는 맨 앞 그대로. 그다음 주어 the station, 마지막에 동사 is. where the station is.”",
+          "“앞에 Do you know를 붙이고 물음표! 같이 읽어 보자. Do you know where the station is?”",
+          "“이번엔 네가 해 봐. Where are my keys?를 바꾸면?”"
+        ],
+        "예상답": [
+          "“Do you know where my keys are?”"
+        ],
+        "막히면": [
+          "종이에 Where, are, my keys를 따로 써서 카드처럼 옮겨 보게 합니다. are 카드를 my keys 뒤로 옮기면 됩니다."
+        ],
+        "주의": [
+          "What time is it?도 같은 방법으로 Do you know what time it is?가 됩니다. 길에서 시각을 물을 때 자주 쓰는 말입니다.",
+          "주어가 여럿이면(my keys) are도 그대로 따라갑니다. 동사 모양은 바뀌지 않고 자리만 바뀝니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "do·does가 있는 질문 바꾸기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "does가 있는 질문은?",
+      "text": "does는 빼고, 동사에 -s를 돌려줘요.",
+      "table": {
+        "headers": [
+          "원래 질문",
+          "의문사 + 주어 + 동사",
+          "간접의문문"
+        ],
+        "rows": [
+          [
+            "What time does\nthe bus leave?",
+            "what time\nthe bus leaves",
+            "Do you know what time\nthe bus leaves?"
+          ],
+          [
+            "Where does\nshe live?",
+            "where\nshe lives",
+            "Do you know where\nshe lives?"
+          ],
+          [
+            "What do they sell?",
+            "what they sell",
+            "Can you tell me\nwhat they sell?"
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.28,
+          0.42
+        ],
+        "width": 12.2,
+        "size": 22
+      },
+      "key": "does가 빠지면 -s는 동사로 가요.\nwhat time the bus leave (×)",
+      "notes": {
+        "목적": "do·does가 있는 질문은 do·does를 빼고, 주어가 3인칭 단수면 동사에 -s를 붙여 보통 문장 모양으로 바꾼다는 것을 보여 줍니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“What time does the bus leave?는 ‘버스가 몇 시에 떠나요?’야. 보통 문장으로 하면 ‘버스는 떠나요’, The bus leaves.지?”",
+          "“그래서 문장 속에 넣으면 what time the bus leaves. does는 빠지고 does가 갖고 있던 -s가 leave로 돌아가.”",
+          "“셋째 줄은 they라서 -s가 없어. 그리고 Do you know 대신 Can you tell me(알려 줄 수 있어요?)를 썼어. 둘 다 써도 돼.”"
+        ],
+        "예상답": [
+          "“does를 빼고 leave를 leaves로 바꿔요.” “they면 -s를 안 붙여요.”"
+        ],
+        "막히면": [
+          "S02 ①(Does the bus stop here? → The bus stops here.)을 다시 보여 주고 같은 일이라고 알려 줍니다."
+        ],
+        "주의": [
+          "did가 있는 과거 질문도 같습니다. When did he come? → Do you know when he came?(did가 빠지고 동사가 과거형). 오늘은 소개만 하고 연습하지 않습니다.",
+          "Can you tell me ~?는 ‘알려 줄 수 있어요?’, Could you tell me ~?라고 하면 더 공손합니다(Could you ~?는 중1에서 배운 공손한 부탁)."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "의문사 질문을 간접의문문으로 바꾸어 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "바꾸어 말해요",
+      "text": "→ 뒤의 말로 시작해 바꾸어 말해요.",
+      "problems": [
+        {
+          "text": "What time is it?\n→ Do you know ~?"
+        },
+        {
+          "text": "Where is the bank?\n→ Do you know ~?"
+        },
+        {
+          "text": "Where does Jun live?\n→ Do you know ~?"
+        },
+        {
+          "text": "When does the store open?\n→ Can you tell me ~?"
+        }
+      ],
+      "hint": "의문사 + 주어 + 동사. does는 빼고 동사에 -s!",
+      "notes": {
+        "목적": "be동사 질문과 does 질문을 간접의문문으로 바꾸어 말합니다(목표 A, 오해 M1·M2). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 주어와 동사를 찾고, 의문사 + 주어 + 동사 순서로 말해 봐.”",
+          "“③④는 does가 있어. does를 빼면 동사는 어떻게 돼?”"
+        ],
+        "정답": [
+          "① Do you know what time it is?",
+          "② Do you know where the bank is?",
+          "③ Do you know where Jun lives?",
+          "④ Can you tell me when the store opens?"
+        ],
+        "막히면": [
+          "S04의 네 단계를 다시 보며 한 단계씩 말하게 합니다. 주어에 밑줄, 동사에 동그라미를 치듯 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "③에서 where Jun live, ④에서 when the store open처럼 -s를 빠뜨리기 쉽습니다(오해 M2). 주어 Jun, the store가 하나라는 것을 짚습니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(질문 어순을 그대로 둔 문장)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 문장이 바를까요?",
+      "claim": "‘우체국이 어디에 있는지 아세요?’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "Do you know where\nis the post office?"
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "Do you know where\nthe post office is?"
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 어디를 고쳐야 하나요?",
+      "notes": {
+        "목적": "질문의 어순을 그대로 두는 가장 흔한 실수(Do you know where is ~?)를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장의 낱말은 똑같아. 무엇이 달라?”",
+          "“where 뒤에 주어가 먼저 와야 해, 동사가 먼저 와야 해?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나입니다. 문장 속 질문은 의문사 + 주어(the post office) + 동사(is) 순서입니다. 가는 원래 질문의 어순(where is)을 그대로 두었으므로 is를 the post office 뒤로 옮겨야 합니다."
+        ],
+        "막히면": [
+          "“The post office is there.처럼 보통 문장에서 주어와 동사 가운데 무엇이 먼저야?”라고 묻습니다."
+        ],
+        "주의": [
+          "말할 때 원어민도 가끔 가처럼 말하지만, 시험과 글에서는 나처럼 씁니다. 오늘은 나처럼 말하고 쓰는 것을 목표로 합니다.",
+          "여기까지가 의문사 질문 바꾸기입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "예/아니요 질문을 if로 바꾸기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "의문사가 없으면 if",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Is the library open today?",
+            "sub": "원래 질문: 예/아니요로 답해요"
+          },
+          {
+            "word": "I wonder if the library is open today.",
+            "sub": "오늘 도서관이 문을 여는지 궁금해요.",
+            "highlight": true
+          },
+          {
+            "word": "Can you tell me if the library is open today?",
+            "sub": "오늘 문을 여는지 알려 줄 수 있어요?"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "이 if는 ‘~인지’",
+          "text": "‘만약 ~하면’이 아니에요.\nif 뒤도 주어 + 동사!"
+        },
+        {
+          "title": "끝 문장 부호",
+          "text": "I wonder ~. 마침표\nCan you tell me ~? 물음표"
+        }
+      ],
+      "notes": {
+        "목적": "의문사가 없는 예/아니요 질문은 if(~인지) + 주어 + 동사로 바꾸어 I wonder if ~.(~인지 궁금해요) / Can you tell me if ~?(~인지 알려 줄 수 있어요?)로 묻는다는 것을 보여 줍니다(목표 B, 오해 M3·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Is the library open today?처럼 Yes나 No로 답하는 질문에는 where 같은 의문사가 없지? 이럴 땐 if를 넣어.”",
+          "“여기 if는 중2 때 배운 ‘만약 ~하면’이 아니라 ‘~인지’라는 뜻이야. I wonder if the library is open today. 오늘 도서관이 문을 여는지 궁금해.”",
+          "“if 뒤도 주어 + 동사 순서야. the library is. 그리고 I wonder ~.는 내 생각을 말하는 문장이라 끝에 마침표, Can you tell me ~?는 묻는 문장이라 물음표야.”",
+          "“Does this bus go to the museum?을 Can you tell me if로 바꾸면?”"
+        ],
+        "예상답": [
+          "“Can you tell me if this bus goes to the museum?”"
+        ],
+        "막히면": [
+          "“does를 빼면 동사는? 주어 this bus가 하나니까?”라고 S05를 떠올리게 합니다."
+        ],
+        "주의": [
+          "I wonder(궁금하다)는 새 낱말입니다. I wonder where he is.(그가 어디 있는지 궁금해요.)처럼 의문사와도 쓸 수 있지만 오늘은 if와 함께만 씁니다.",
+          "I wonder ~.는 상대에게 직접 묻지 않아도 되어서, 혼잣말이나 부드럽게 물을 때 씁니다. 듣는 사람이 알면 대답해 주기도 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "예/아니요 질문을 if로 바꾸어 말하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "if로 바꾸어 말해요",
+      "text": "바꾸어 말하고, 우리말 뜻도 말해요.",
+      "problems": [
+        {
+          "text": "Is the museum open on Mondays?\n→ I wonder if ~."
+        },
+        {
+          "text": "Does this bus go to the station?\n→ Can you tell me if ~?"
+        },
+        {
+          "text": "Does the café sell sandwiches?\n→ I wonder if ~."
+        }
+      ],
+      "hint": "if + 주어 + 동사. I wonder는 마침표, Can you tell me는 물음표",
+      "notes": {
+        "목적": "예/아니요 질문을 if로 바꾸어 말하고, if를 ‘~인지’로 해석합니다(목표 B, 오해 M3·M4). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“먼저 바꾸어 말하고, 그다음 우리말 뜻을 말해 줘.”",
+          "“②③에는 does가 있어. 어떻게 하기로 했지?”"
+        ],
+        "정답": [
+          "① I wonder if the museum is open on Mondays. (박물관이 월요일에 문을 여는지 궁금해요.)",
+          "② Can you tell me if this bus goes to the station? (이 버스가 역에 가는지 알려 줄 수 있어요?)",
+          "③ I wonder if the café sells sandwiches. (그 카페가 샌드위치를 파는지 궁금해요.)"
+        ],
+        "막히면": [
+          "S08의 세 문장을 다시 보여 주고, 원래 질문의 Is·Does 자리에 if를 넣고 주어 + 동사로 이어 가게 합니다."
+        ],
+        "주의": [
+          "① ‘만약 박물관이 월요일에 열면’처럼 해석하면 “여기 if는 무슨 뜻이었지?”라고 묻습니다(오해 M4).",
+          "①③ 끝에 물음표를 찍으면 “I wonder로 시작했지? 묻는 문장일까, 내 생각을 말하는 문장일까?”라고 묻습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "안내 데스크 역할극으로 공손하게 묻고 답하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "안내 데스크 역할극",
+      "steps": [
+        "부모는 하나 도서관(지어낸 곳)의\n안내 직원, 안내 카드를 들어요.",
+        "아이는 질문 카드를 한 장씩 뒤집어\n간접의문문으로 바꾸어 물어요.",
+        "아이: Excuse me. Do you know\nwhere the café is?",
+        "부모: Yes, it's on the second floor.\n(모르면 Sorry, I don't know.)",
+        "Thank you.로 끝내고 역할을 바꿔요."
+      ],
+      "criteria": [
+        "의문사 + 주어 + 동사로 물었어요",
+        "예/아니요 질문은 if로 물었어요",
+        "대답을 듣고 Thank you.로 끝냈어요"
+      ],
+      "notes": {
+        "목적": "질문 카드의 직접 질문을 그 자리에서 간접의문문으로 바꾸어 공손하게 묻고, 부모는 안내 카드를 보고 답합니다(목표 A·B).",
+        "시간": "약 5분",
+        "말하기": [
+          "준비: 종이 네 장에 질문 카드를 씁니다. ① Where is the café? ② What time does the library close? ③ Is the library open on Mondays? ④ Does the library have English comic books? 다른 종이 한 장에 안내 카드를 씁니다(아이에게 보여 주지 않습니다): Hana Library (지어낸 곳) / Open 9:00–18:00 / Closed on Mondays / Café: second floor / English books: third floor.",
+          "“엄마(아빠)는 도서관 안내 직원이야. 질문 카드를 한 장씩 뒤집어서, 처음 보는 직원에게 묻듯이 공손하게 바꾸어 물어 줘.”",
+          "(아이) “Excuse me. Do you know where the café is?” → (부모) “Yes, it's on the second floor.” → (아이) “Thank you.”",
+          "(아이) “Can you tell me what time the library closes?” → (부모) “It closes at six.” / (아이) “I wonder if the library is open on Mondays.” → (부모) “Sorry, it's closed on Mondays.” / (아이) “Can you tell me if the library has English comic books?” → (부모) “Sorry, I don't know. But English books are on the third floor.”",
+          "역할을 바꿔 아이가 안내 직원이 되고, 부모가 일부러 Do you know where is the café?처럼 틀리게 물으면 아이가 바르게 고쳐 말해 줍니다."
+        ],
+        "예상답": [
+          "① Do you know where the café is? ② Can you tell me what time the library closes? (Do you know what time the library closes?도 맞음) ③ I wonder if the library is open on Mondays. / Can you tell me if the library is open on Mondays? ④ Can you tell me if the library has English comic books?",
+          "기준: 네 장 가운데 세 장 이상을 의문사 + 주어 + 동사, if + 주어 + 동사 어순으로 물으면 잘한 것입니다. ④의 has(does가 빠지고 have → has)까지 맞으면 아주 잘한 것입니다."
+        ],
+        "막히면": [
+          "질문 카드 뒤에 S04 단계를 작게 적어 두고 보며 말하게 합니다. 한 장씩 천천히, 먼저 주어를 찾게 합니다.",
+          "④처럼 어려운 카드는 부모가 먼저 바꾸어 말해 주고 따라 하게 한 뒤, 다른 카드로 다시 해 봅니다."
+        ],
+        "주의": [
+          "도서관과 안내 카드의 정보는 수업을 위해 지어낸 것입니다.",
+          "Excuse me.(실례합니다)로 말을 걸고 Thank you.로 끝내는 것도 공손하게 묻기의 일부입니다. 아이가 잊으면 웃으며 “처음 말을 걸 때는?”이라고 묻습니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(간접의문문으로 바꾸기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 바꾸어 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "Where is the bus stop?\n→ Do you know ~?"
+        },
+        {
+          "text": "When does the class start?\n→ Can you tell me ~?"
+        },
+        {
+          "text": "Is the pool open today?\n→ I wonder if ~."
+        },
+        {
+          "text": "Does this shop sell umbrellas?\n→ Can you tell me if ~?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 의문사 질문(①②)과 예/아니요 질문(③④)을 간접의문문으로 바꾸는지 확인합니다(목표 A·B).",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 말로 먼저 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① Do you know where the bus stop is?",
+          "② Can you tell me when the class starts?",
+          "③ I wonder if the pool is open today.",
+          "④ Can you tell me if this shop sells umbrellas?",
+          "기준: 네 개 가운데 세 개 이상 맞으면 통과. 어순, does를 뺀 뒤의 -s(starts, sells), 끝의 마침표·물음표를 모두 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “주어가 뭐야?”, “의문사가 있어, 없어?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 흔한 실수",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① Do you know where the bus stop is?"
+        },
+        {
+          "text": "② ~ when the class starts?"
+        },
+        {
+          "text": "③ I wonder if the pool is open today."
+        },
+        {
+          "text": "④ ~ if this shop sells umbrellas?"
+        }
+      ],
+      "bad": [
+        {
+          "text": "where is the bus stop",
+          "note": "주어 + 동사\n순서로"
+        },
+        {
+          "text": "when does the class start",
+          "note": "does를 빼고\nstarts"
+        },
+        {
+          "text": "I wonder if ~ today?",
+          "note": "I wonder는\n마침표"
+        }
+      ],
+      "explain": "의문사가 있나? → 있으면 의문사 + 주어 + 동사, 없으면 if + 주어 + 동사 → 끝 문장 부호",
+      "notes": {
+        "목적": "아이의 답을 정답과 견주어 보고, 흔한 실수 세 가지를 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네 답과 왼쪽을 비교해 보자. 오른쪽 실수 가운데 너도 한 것이 있어?”"
+        ],
+        "예상답": [
+          "“②에서 does를 그대로 썼어요. starts로 고칠게요.”"
+        ],
+        "정답": [
+          "① Do you know where the bus stop is? ② Can you tell me when the class starts? ③ I wonder if the pool is open today. ④ Can you tell me if this shop sells umbrellas?"
+        ],
+        "막히면": [
+          "어순이 틀렸으면 S04, does가 남았으면 S05, if를 빼먹었으면 S08을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(바른 어순 고르기와 고치기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "바른 문장은?",
+      "text": "Where is the post office?를 공손하게 바꾼 문장이에요.",
+      "options": [
+        {
+          "text": "Do you know where\nis the post office?"
+        },
+        {
+          "text": "Do you know where\nthe post office is?"
+        },
+        {
+          "text": "Can you tell me where\nthe post office is?"
+        },
+        {
+          "text": "Can you tell me if\nwhere the post office is?"
+        }
+      ],
+      "question": "바른 문장 두 개는? 나머지는 어떻게 고칠까요?",
+      "notes": {
+        "목적": "처음 보는 네 문장에서 바른 간접의문문을 고르고, 틀린 문장을 고쳐 말하는지 확인합니다(목표 A, 오해 M1·M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“네 문장 가운데 바른 문장 두 개는? 나머지 두 개는 어디가 틀렸고, 어떻게 고칠까?”"
+        ],
+        "정답": [
+          "바른 문장: 나(Do you know where the post office is?), 다(Can you tell me where the post office is?)",
+          "가 → is를 the post office 뒤로: Do you know where the post office is? / 라 → 의문사 where가 있으니 if를 빼요: Can you tell me where the post office is?",
+          "기준: 두 개를 바르게 고르고, 가의 어순을 고쳐 말하면 통과. 라까지 고치면 아주 잘한 것입니다."
+        ],
+        "막히면": [
+          "“주어와 동사를 찾아봐. 어느 쪽이 먼저야?”라고만 묻습니다."
+        ],
+        "주의": [
+          "가를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "Do you know + 의문사 + 주어 + 동사?\nI wonder if + 주어 + 동사.  Can you tell me if ~?",
+      "do": "주어 + 동사 순서로, does는 빼고 -s",
+      "dont": "Do you know where is it?",
+      "review": [
+        {
+          "text": "Where is the park?를\nDo you know로"
+        },
+        {
+          "text": "What time does it start?를\nCan you tell me로"
+        },
+        {
+          "text": "Is the shop open now?을\nI wonder if로"
+        }
+      ],
+      "next": "의견·이유 문단",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“질문을 문장 속에 넣을 때는 순서가 어떻게 바뀌었지?”",
+          "“의문사가 없는 질문은 무엇을 넣었지?”"
+        ],
+        "예상답": [
+          "“의문사 다음에 주어, 그다음 동사요.” “if를 넣어요.”"
+        ],
+        "정답": [
+          "① Do you know where the park is?",
+          "② Can you tell me what time it starts?",
+          "③ I wonder if the shop is open now."
+        ],
+        "주의": [
+          "밖에서 길이나 시각을 물을 일이 생기면 “영어로 공손하게 물으면?” 하고 한 번씩 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘의견·이유 문단’에서는 주제 하나를 골라 의견을 쓰고, 그 주제로 ‘의견 발표하기’와 ‘질문에 답하기’까지 이어 갑니다. 오늘 배운 Can you tell me if ~? / I wonder if ~.는 ‘질문에 답하기’에서 부모님이 묻는 질문으로 다시 나옵니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "concept",
+      "section": "보충",
+      "purpose": "보충(질문과 보통 문장 바꾸기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 질문과 보통 문장",
+      "layout": "support",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "Is the bus here?",
+            "sub": "버스가 여기 있어요?"
+          },
+          {
+            "word": "The bus is here.",
+            "sub": "버스가 여기 있어요."
+          },
+          {
+            "word": "Does she like it?",
+            "sub": "그녀는 그걸 좋아해요?"
+          },
+          {
+            "word": "She likes it.",
+            "sub": "그녀는 그걸 좋아해요."
+          }
+        ]
+      },
+      "key": "질문: 동사·Does가 앞,  보통 문장: 주어 + 동사(-s)",
+      "notes": {
+        "목적": "S02에서 질문과 보통 문장(평서문)의 차이가 흔들리면, 간접의문문을 배우기 전에 질문 ↔ 보통 문장 바꾸기를 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
+          "“질문에서는 Is나 Does가 맨 앞에 와. 보통 문장에서는 주어가 먼저, 그다음 동사.”",
+          "“Does he play soccer?를 보통 문장으로 바꾸면?”"
+        ],
+        "정답": [
+          "버스가 여기 있어요? / 버스가 여기 있어요. / 그녀는 그걸 좋아해요? / 그녀는 그걸 좋아해요. — He plays soccer."
+        ],
+        "막히면": [
+          "부모가 보통 문장을 말하면 아이가 질문으로, 아이가 질문을 말하면 부모가 보통 문장으로 바꾸는 주고받기를 서너 번 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중1 ‘일반동사 현재 문장’(KR22-G07-ENG-DOVERB-L01)을 먼저 다시 하고, 공손하게 묻는 말이 낯설면 중1 ‘뜻 확인하며 대화 잇기’(KR22-G07-ENG-CHECKMEAN-L01)를 본 뒤 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "간접의문문 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "질문을 간접의문문으로 바꾸어 쓰세요. 가운데 칸에 ‘의문사 + 주어 + 동사’를 먼저 쓰고, 오른쪽 칸에 Do you know로 시작하는 문장을 쓰세요.",
+        "table": {
+          "headers": [
+            "원래 질문",
+            "의문사 + 주어 + 동사",
+            "Do you know ~?"
+          ],
+          "rows": [
+            [
+              "① Where is the hospital?",
+              "",
+              ""
+            ],
+            [
+              "② What time is it?",
+              "",
+              ""
+            ],
+            [
+              "③ Where does your uncle live?",
+              "",
+              ""
+            ],
+            [
+              "④ What time does the train leave?",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.34,
+            0.28,
+            0.38
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① where the hospital is / Do you know where the hospital is? ② what time it is / Do you know what time it is? ③ where your uncle lives / Do you know where your uncle lives? ④ what time the train leaves / Do you know what time the train leaves? 네 줄 가운데 세 줄 이상 맞으면 통과. ③④에서 lives, leaves의 -s를 빠뜨리거나 does를 남기면 S05로 다시 봅니다. 낱말 뜻: hospital 병원, uncle 삼촌, train 기차, leave 떠나다."
+      },
+      {
+        "no": 2,
+        "prompt": "바른 문장에는 ○ 하고, 틀린 문장은 바르게 고쳐 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Do you know where is the bank?",
+              ""
+            ],
+            [
+              "② Can you tell me what time does the show start?",
+              ""
+            ],
+            [
+              "③ I wonder if the museum is open on Sunday?",
+              ""
+            ],
+            [
+              "④ Do you know where she lives?",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① Do you know where the bank is? ② Can you tell me what time the show starts? ③ I wonder if the museum is open on Sunday. (물음표 → 마침표) ④ ○. 네 개 모두 맞으면 통과, 세 개면 틀린 것을 함께 다시 봅니다. 낱말 뜻: bank 은행, show 공연, museum 박물관."
+      },
+      {
+        "no": 3,
+        "prompt": "예/아니요 질문을 괄호 안의 말로 시작하는 문장으로 바꾸어 쓰세요. 문장 끝의 마침표와 물음표에 주의하세요.",
+        "table": {
+          "rows": [
+            [
+              "① Is the pool open today? (I wonder if)",
+              ""
+            ],
+            [
+              "② Does this train go to Busan? (Can you tell me if)",
+              ""
+            ],
+            [
+              "③ Is your brother at home? (I wonder if)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.48,
+            0.52
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① I wonder if the pool is open today. ② Can you tell me if this train goes to Busan? ③ I wonder if your brother is at home. 세 개 가운데 두 개 이상 맞으면 통과. if 뒤의 주어 + 동사 순서, ②의 goes, ①③의 마침표를 봅니다."
+      },
+      {
+        "no": 4,
+        "prompt": "도서관 안내 데스크에서 나눈 대화예요. 괄호 안의 낱말을 바른 순서로 써서 빈칸 ①~③을 채우세요.",
+        "read": "A: Excuse me. Do you know ①__________________________? (is / where / the café)\nB: Yes, it's on the second floor.\nA: Thank you. Can you tell me ②__________________________? (closes / what time / the library)\nB: It closes at six.\nA: I wonder ③__________________________. (the library / if / is / open on Mondays)\nB: Sorry, it's closed on Mondays.\nA: Oh, I see. Thank you!",
+        "line_label": "①  ②  ③",
+        "lines": 3,
+        "answer": "① where the café is ② what time the library closes ③ if the library is open on Mondays. 세 개 모두 맞으면 통과. ③은 I wonder로 시작했으므로 대화의 문장 끝이 마침표입니다. 낱말 뜻: second floor 2층, close 문을 닫다, closed 문을 닫은."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Where is the bus stop?\n(Do you know ~?)",
+              ""
+            ],
+            [
+              "② When does the class start?\n(Can you tell me ~?)",
+              ""
+            ],
+            [
+              "③ Is the pool open today?\n(I wonder if ~.)",
+              ""
+            ],
+            [
+              "④ Does this shop sell umbrellas?\n(Can you tell me if ~?)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.44,
+            0.56
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① Do you know where the bus stop is? ② Can you tell me when the class starts? ③ I wonder if the pool is open today. ④ Can you tell me if this shop sells umbrellas? 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 동네에서 길이나 정보를 공손하게 묻는 문장을 두 개 쓰세요(Do you know ~? 하나, Can you tell me if ~? 하나).",
+        "eng": {
+          "trace": [
+            "Do you know where the station is?",
+            "I wonder if it is open today."
+          ],
+          "blank": 2
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: Do you know where the post office is? / Can you tell me if the bakery sells cakes?). 의문사 + 주어 + 동사, if + 주어 + 동사의 순서, 3인칭 단수 동사의 -s, 첫 글자 대문자와 끝의 물음표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① Where is the park?를 Do you know로 시작하는 문장으로 바꾸어 쓰세요.\n② What time does the movie start?를 Can you tell me로 시작하는 문장으로 바꾸어 쓰세요.\n③ Is the shop open now?를 I wonder if로 시작하는 문장으로 바꾸어 쓰세요.",
+        "lines": 3,
+        "answer": "① Do you know where the park is? ② Can you tell me what time the movie starts? ③ I wonder if the shop is open now. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S13 바른 문장 고르기: 두 개 고르고 고쳐 말함 □  고르기만 맞음 □  틀림 □",
+      "Do you know where is ~?·does를 남긴 실수·I wonder ~? 물음표: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07"
 }

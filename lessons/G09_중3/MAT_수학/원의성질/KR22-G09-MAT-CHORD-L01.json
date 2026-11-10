@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G09-MAT-CHORD-L01",
+  "concept_id": "MAT-CHORD",
+  "title": "원의 중심과 현",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "원의성질",
+  "sequence": 1,
+  "file_stem": "중3_수학_원의성질_01_원의중심과현",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-MAT-I03"
+    ],
+    "units": [
+      "2.4.3",
+      "2.7.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "원의 중심에서 현에 내린 수선이 현을 이등분함을 이용해 현의 길이를 구한다.",
+  "prerequisites": [
+    {
+      "text": "이등변삼각형의 성질",
+      "lesson": "KR22-G08-MAT-ISOSCELES-L01",
+      "grade_item": "KR22-G08-MAT-I03"
+    },
+    {
+      "text": "피타고라스 정리",
+      "lesson": "KR22-G08-MAT-PYTHAG-L01",
+      "grade_item": "KR22-G08-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "원의 중심과 현 활동지",
+    "items": [],
+    "record": []
+  }
+}
