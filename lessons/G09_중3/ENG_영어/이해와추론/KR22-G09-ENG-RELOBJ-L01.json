@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "목적격 관계대명사 which·that·who(m)와 그 생략을 알고 명사를 꾸미는 절을 해석하고 쓴다.",
   "prerequisites": [
     {
       "text": "주격 관계대명사",
@@ -38,19 +37,1099 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "목적격 관계대명사 which·who(m)·that이 이끄는 절(관계대명사 + 주어 + 동사)이 앞 명사를 꾸민다는 것을 알고 ‘(주어)가 ~한 (명사)’로 해석한다. 둘째 문장의 목적어(him·her·it·them)를 which·who(m)로 바꾸어 절 맨 앞으로 옮기는 방법으로 두 문장을 하나로 잇고, 절 안에 목적어를 다시 쓰지 않는다.",
+      "evidence": "목적격 관계대명사(S03), 두 문장 잇기 3단계(S04), 두 문장 이어 말하기(S05), made it 비교(S06), 우리 집 물건 소개(S11), 혼자 해 보기(S12 ①②), 세 문장의 뜻(S14 ②), 활동지 1·2·5·6",
+      "success": "활동지 2의 두 문장 잇기 4개 가운데 3개 이상을 바르게 쓰고(which my mom made it ×), 활동지 1의 표현 4개 가운데 3개 이상을 ‘~가 …한 (명사)’로 해석한다."
+    },
+    {
+      "id": "B",
+      "text": "관계대명사 바로 뒤에 주어(I, my mom)가 오면 목적격이고 빼고 쓸 수 있으며(생략), 바로 뒤에 동사가 오면 주격이고 뺄 수 없다는 것을 구별한다. 관계대명사가 빠진 문장(the book I read)에서 명사 바로 뒤에 주어 + 동사가 오는 곳을 찾아 해석한다.",
+      "evidence": "주격과 목적격 비교 표(S07), 빼고 쓰는 관계대명사(S08), 빠진 곳 찾기(S09), 뺄 수 있을까(S10), 우리 집 물건 소개(S11), 혼자 해 보기(S12 ③④), 세 문장의 뜻(S14), 활동지 3·4·5",
+      "success": "활동지 3의 ○× 6개 가운데 5개 이상을 맞히고, S14의 세 문장(the girl who likes Tom / the girl who Tom likes / the dog I saw)을 모두 뜻이 다르게 바르게 해석한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "집에 있는 물건 세 개(컵, 책, 사진, 인형 등)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "목적격 관계대명사 who(m), which, that과 그 생략만 다룬다. 두 문장 잇기와 쓰기는 꾸밈을 받는 명사가 문장 끝(목적어·보어 자리)에 있는 문장으로 하고, 주어를 꾸미는 문장(The cake which my mom made was sweet.)은 해석에서만 쓴다. 절 안의 동사는 현재 시제와 중1에서 배운 과거형(made, bought, wrote, read, met, saw, took 등)이다. whom은 ‘who의 목적격 모양’으로 소개만 하고, 말할 때는 who·that을 쓰거나 빼고 쓰는 일이 많다는 것을 노트에서 짚는다. 전치사가 붙는 경우(the girl I talked to, the house in which ~), 소유격 whose, 쉼표를 찍는 계속적 용법, what, 관계부사, that만 쓰는 경우는 다루지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "절 안에 목적어를 다시 쓴다(This is the cake which my mom made it.). 둘째 문장을 그대로 붙이기 때문이다.",
+      "response": "S04에서 it이 which로 바뀌어 절 맨 앞으로 옮겨 간다는 것을 단계로 보여 주고, S06에서 made it과 made를 비교한다. S05·S12와 활동지 2에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "관계대명사가 빠진 문장을 끊어 읽지 못한다(The cake my mom made was sweet. → 케이크는 엄마가 만들었다 / 달았다?).",
+      "response": "S08에서 ‘명사 바로 뒤에 주어가 오면 관계대명사가 빠진 곳’이라는 단서를 주고, S09에서 빠진 곳을 짚어 해석하게 한다. S14 ③과 활동지 4에서 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "주격 관계대명사도 뺀다(a boy who sings well → a boy sings well).",
+      "response": "S07 표에서 바로 뒤가 동사인지 주어인지로 주격과 목적격을 구별하게 하고, S08의 카드와 S10의 ○× 연습, S12 ④에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "주격과 목적격의 뜻을 뒤바꾸어 해석한다(the girl who Tom likes → 톰을 좋아하는 소녀).",
+      "response": "S07 표의 a girl who likes me / a girl who I like를 나란히 해석하고, S14에서 같은 낱말로 된 두 문장의 뜻을 비교하게 한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "목적격 관계대명사",
+      "question": "This is the cake which my mom made.\n‘엄마가 만든 케이크’는 영어로 어떻게 말할까?",
+      "goals": [
+        "① which·who 뒤에 주어 + 동사가 오는 절을 해석하고 써요.",
+        "② which·who를 빼고 쓴 문장을 알아보고 해석해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "This is the cake\nwhich my mom made."
+          },
+          {
+            "word": "She is the girl\nwho I met yesterday."
+          },
+          {
+            "word": "This is the book\nI read."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난 시간과 달리 which·who 뒤에 주어가 오는 문장에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘이것은 엄마가 만든 케이크예요. 그녀는 내가 어제 만난 소녀예요. 이것은 내가 읽은 책이에요.’라는 뜻이야. 지난 시간에는 who 바로 뒤에 동사가 왔지? 오늘은 which, who 뒤에 my mom, I 같은 주어가 와. 그리고 세 번째 문장에는 which가 아예 없어. 오늘은 이런 문장을 배울 거야.”"
+        ],
+        "예상답": [
+          "“which 다음에 my mom이 와요.” “세 번째에는 which가 없어요.”"
+        ],
+        "막히면": [
+          "문장의 뜻을 모르면 부모가 뜻만 알려 주고, which·who 바로 뒤의 낱말(my mom, I)을 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(This is the cake which my mom made. She is the girl who I met yesterday. This is the book I read. The girl who Tom likes is Mina.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "지난 차시 ‘주격 관계대명사’의 두 문장 잇기(같은 것 찾기 → 대명사를 who·which로 → 명사 뒤에)를 알아야 쉬워집니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(주격 관계대명사)",
+      "role": "prior",
+      "objectives": [],
+      "title": "주격 관계대명사 떠올리기",
+      "text": "①은 골라 읽고, ②는 한 문장으로 잇고, ③은 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "a boy (who / which) plays soccer"
+        },
+        {
+          "text": "I have a dog.  +  It has long ears."
+        },
+        {
+          "text": "The girl who lives next door is kind.  → 뜻은?"
+        }
+      ],
+      "notes": {
+        "목적": "지난 차시 ‘주격 관계대명사’(KR22-G09-ENG-RELSUBJ-L01)의 who·which 고르기, 두 문장 잇기, 주어를 꾸미는 절 해석을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 알맞은 것을 골라 읽어 줘.”",
+          "“②는 두 문장을 which로 이어서 한 문장으로 말해 줘.”",
+          "“③은 뜻을 말해 볼래? 진짜 동사가 어디 있는지 먼저 찾아.”"
+        ],
+        "정답": [
+          "① who (축구를 하는 소년)",
+          "② I have a dog which(that) has long ears.",
+          "③ 옆집에 사는 소녀는 친절해요."
+        ],
+        "막히면": [
+          "①은 “소년은 사람이야?”, ②는 “It은 무엇과 같아? It을 무엇으로 바꿨지?”, ③은 “who 절이 끝나는 곳은?”이라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "②에서 which it has처럼 대명사를 남기면 지난 시간의 흔한 실수입니다. 오늘도 같은 원리가 나오므로 여기서 한 번 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "목적격 관계대명사의 뜻과 모양",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "which 뒤에 주어가 오면",
+      "text": "which 뒤에 주어와 동사가 오면, which는 ‘~을’ 자리를 대신해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "the cake",
+            "sub": "꾸밈을 받는 명사"
+          },
+          {
+            "word": "which",
+            "sub": "관계대명사",
+            "highlight": true
+          },
+          {
+            "word": "my mom",
+            "sub": "주어: 엄마가",
+            "highlight": true
+          },
+          {
+            "word": "made",
+            "sub": "동사: 만든",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "목적격 관계대명사",
+          "text": "절 안에서 ‘~을, ~를’\n(목적어) 자리를 대신해요."
+        },
+        {
+          "title": "모양",
+          "text": "관계대명사 + 주어 + 동사\n‘(주어)가 ~한 (명사)’"
+        }
+      ],
+      "key": "사람: who(m), that   사물·동물: which, that",
+      "notes": {
+        "목적": "which·who 뒤에 주어 + 동사가 오는 절을 보여 주고, 이때 관계대명사가 절 안의 목적어(~을)를 대신한다는 것과 ‘(주어)가 ~한 (명사)’로 해석하는 방법을 알려 줍니다(목표 A).",
+        "시간": "약 3분",
+        "말하기": [
+          "“the cake which my mom made를 네 덩어리로 나눴어. 어떤 케이크? my mom made, ‘엄마가 만든’ 케이크야.”",
+          "“지난 시간 a girl who sings well에서는 who 바로 뒤에 동사가 왔지? 오늘은 which 바로 뒤에 주어 my mom이 와. 엄마가 무엇을 만들었어? 케이크를. 그 ‘케이크를’ 자리를 which가 대신해. 그래서 목적격 관계대명사라고 불러. 목적어는 ‘~을, ~를’에 해당하는 말이야.”",
+          "“사람이면 who를 써. whom이라고도 쓰는데, 말할 때는 who를 더 많이 써. the girl who I met은 무슨 뜻일까?”"
+        ],
+        "예상답": [
+          "“엄마가 만든 케이크요.” “내가 만난 소녀요.”"
+        ],
+        "막히면": [
+          "“엄마가 만들었어. 무엇을? → 케이크를. 그러니까 엄마가 만든 케이크.” 하고 우리말로 질문과 대답을 먼저 해 봅니다."
+        ],
+        "주의": [
+          "whom은 who의 목적격 모양입니다. 교과서와 시험에는 who(m)으로 나오지만, 일상 영어에서는 who나 that을 쓰거나 아예 빼는 일이 많습니다. 아이에게는 who로 말해도 된다고 알려 줍니다.",
+          "‘목적격’이라는 이름은 외우지 않아도 됩니다. ‘which 뒤에 주어가 오면 ~가 …한’으로 기억하면 충분합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "목적어를 관계대명사로 바꾸어 두 문장 잇기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "두 문장을 하나로 잇기",
+      "text": "목적어 it을 찾아 which로 바꿔요.",
+      "steps": [
+        "같은 것을 찾아요.\nthe cake = it",
+        "it을 which로 바꿔\n절 맨 앞으로 옮겨요.",
+        "앞 명사 바로 뒤에 붙여요."
+      ],
+      "figureRatio": 0.5,
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "This is the cake.",
+            "sub": "이것은 케이크예요."
+          },
+          {
+            "word": "My mom made it.",
+            "sub": "엄마가 그것을 만들었어요."
+          },
+          {
+            "word": "This is the cake\nwhich my mom made.",
+            "highlight": true
+          }
+        ]
+      },
+      "key": "it은 which로 바뀌어 앞으로 갔으니 made 뒤에 다시 쓰지 않아요.",
+      "notes": {
+        "목적": "두 문장을 잇는 세 단계를 목적어에 적용해, 목적어(it)가 which로 바뀌어 절 맨 앞으로 옮겨 간다는 것을 보여 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“두 문장이 있어. This is the cake. 그리고 My mom made it. 두 문장에서 같은 것은?”",
+          "“맞아, the cake와 it이야. 지난 시간과 다른 점은 it이 둘째 문장의 끝, 목적어 자리에 있다는 거야.”",
+          "“it을 which로 바꿔. 그런데 which는 언제나 절 맨 앞에 와야 해. 그래서 which를 맨 앞으로 옮기면 which my mom made가 돼.”",
+          "“이걸 the cake 바로 뒤에 붙여. This is the cake which my mom made. ‘이것은 엄마가 만든 케이크예요.’”"
+        ],
+        "예상답": [
+          "“the cake랑 it이 같아요.” “This is the cake which my mom made.”"
+        ],
+        "막히면": [
+          "종이에 My mom made it.을 쓰고 it에 동그라미를 친 뒤, 화살표로 맨 앞으로 끌어와 which라고 쓰게 합니다. 원래 it 자리는 지웁니다."
+        ],
+        "주의": [
+          "him·her(사람)는 who(m)로, it(사물·동물)은 which로, them은 앞 명사에 따라 who(m)나 which로 바꿉니다.",
+          "which my mom made it처럼 원래 자리에 it을 남기는 실수가 흔합니다(오해 M1). S06에서 비교합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "목적어를 관계대명사로 바꾸어 두 문장 잇기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "두 문장을 이어요",
+      "text": "who나 which로 이어 한 문장으로 말하고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "This is the bag.\n+ I bought it yesterday."
+        },
+        {
+          "text": "He is the teacher.\n+ I like him."
+        },
+        {
+          "text": "I read the book.\n+ Tom wrote it."
+        },
+        {
+          "text": "She is the girl.\n+ I met her in Jeju."
+        }
+      ],
+      "hint": "목적어(him, her, it) → who·which로 바꿔 절 맨 앞으로",
+      "notes": {
+        "목적": "둘째 문장의 목적어를 who·which로 바꾸어 두 문장을 잇고 해석합니다(목표 A, 오해 M1). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“S04의 세 단계를 따라 한 문장으로 말해 줘. 둘째 문장에서 it, him, her가 어디 있는지 먼저 찾아.”",
+          "“다 말하면 우리말 뜻도 말해 볼래?”"
+        ],
+        "정답": [
+          "① This is the bag which(that) I bought yesterday. (이것은 내가 어제 산 가방이에요.)",
+          "② He is the teacher who(m)(that) I like. (그는 내가 좋아하는 선생님이에요.)",
+          "③ I read the book which(that) Tom wrote. (나는 톰이 쓴 책을 읽었어요.)",
+          "④ She is the girl who(m)(that) I met in Jeju. (그녀는 내가 제주에서 만난 소녀예요.)"
+        ],
+        "막히면": [
+          "“둘째 문장에서 ‘~을, ~를’에 해당하는 말은?”이라고 묻고, 그 낱말을 손가락으로 가리게 합니다.",
+          "①에서 yesterday를 어디에 둘지 헷갈리면 “which I bought yesterday, 원래 문장의 순서 그대로 따라와.”라고 말해 줍니다."
+        ],
+        "주의": [
+          "②④에서 who 대신 whom이라고 해도 맞습니다. which I bought it처럼 목적어를 남기면 다음 장에서 바로 비교합니다.",
+          "①의 yesterday, ④의 in Jeju처럼 목적어 뒤에 있던 말은 그대로 절 끝에 남습니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(절 안에 목적어를 다시 씀)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘엄마가 만든 케이크’를 영어로",
+      "claim": "‘이것은 엄마가 만든 케이크예요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "This is the cake\nwhich my mom made it."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "This is the cake\nwhich my mom made."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽에는 무엇이 더 들어갔나요?",
+      "notes": {
+        "목적": "절 안에 목적어를 다시 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“S04에서 it은 무엇으로 바뀌어 어디로 갔지? 그럼 made 뒤에 it이 또 있어야 할까?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(This is the cake which my mom made.)입니다. 가는 which가 이미 it을 대신하고 있는데 made 뒤에 it을 한 번 더 썼습니다."
+        ],
+        "막히면": [
+          "S04의 단계를 다시 보여 주고 “it이 which가 되어 맨 앞으로 이사 갔어. 원래 자리는 비어야 해.”라고 말해 줍니다."
+        ],
+        "주의": [
+          "같은 실수 예: the bag which I bought it → the bag which I bought / the girl who I met her → the girl who I met. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 목적격 관계대명사로 두 문장 잇기입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "주격과 목적격 관계대명사 구별",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "주격과 목적격 비교",
+      "text": "who·which 바로 뒤를 보면 둘을 구별할 수 있어요.",
+      "table": {
+        "headers": [
+          "",
+          "주격",
+          "목적격"
+        ],
+        "rows": [
+          [
+            "바꾸는 대명사",
+            "he, she, it, they",
+            "him, her, it, them"
+          ],
+          [
+            "바로 뒤에 오는 말",
+            "동사",
+            "주어 + 동사"
+          ],
+          [
+            "사람",
+            "who, that",
+            "who(m), that"
+          ],
+          [
+            "사물·동물",
+            "which, that",
+            "which, that"
+          ],
+          [
+            "예",
+            "a girl who likes me",
+            "a girl who I like"
+          ]
+        ],
+        "widths": [
+          0.28,
+          0.36,
+          0.36
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "a girl who likes me  나를 좋아하는 소녀\na girl who I like  내가 좋아하는 소녀",
+      "notes": {
+        "목적": "관계대명사 바로 뒤에 동사가 오면 주격, 주어 + 동사가 오면 목적격이라는 것을 표로 구별하고, 두 쓰임의 뜻 차이를 보여 줍니다(목표 B, 오해 M3·M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“지난 시간 배운 주격과 오늘 배운 목적격을 나란히 놓았어. 가장 쉬운 구별법은 who·which 바로 뒤를 보는 거야. 동사가 오면 주격, 주어가 오면 목적격.”",
+          "“맨 아래 두 예를 비교해 보자. a girl who likes me는 who 뒤에 동사 likes가 와. ‘나를 좋아하는 소녀’. a girl who I like는 who 뒤에 주어 I가 와. ‘내가 좋아하는 소녀’.”",
+          "“누가 누구를 좋아하는지 완전히 다르지?”"
+        ],
+        "예상답": [
+          "“첫 번째는 소녀가 나를 좋아하고, 두 번째는 내가 소녀를 좋아해요.”"
+        ],
+        "막히면": [
+          "두 예의 who 바로 뒤 낱말(likes, I)에 각각 밑줄을 긋게 하고, “동사야, 주어야?”를 묻습니다."
+        ],
+        "주의": [
+          "주격 a girl who likes me를 ‘내가 좋아하는 소녀’로 바꿔 해석하는 실수가 흔합니다(오해 M4). S14에서 다시 확인합니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "목적격 관계대명사의 생략",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "빼고 쓰는 관계대명사",
+      "text": "목적격 관계대명사는 빼고 써도 뜻이 같아요(생략).",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "the book which I read",
+            "sub": "내가 읽은 책"
+          },
+          {
+            "word": "the book I read",
+            "sub": "which를 뺐어요. 뜻은 같아요.",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "명사 + 주어 + 동사",
+          "text": "명사 바로 뒤에 주어가 오면\n관계대명사가 빠진 곳이에요."
+        },
+        {
+          "title": "주격은 빼지 않아요",
+          "text": "a girl who sings well\n→ a girl sings well (×)"
+        }
+      ],
+      "notes": {
+        "목적": "목적격 관계대명사는 생략할 수 있다는 것과, 생략된 곳을 ‘명사 + 주어 + 동사’로 알아보는 방법, 주격은 생략하지 않는다는 것을 알려 줍니다(목표 B, 오해 M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“the book which I read에서 which를 빼 볼게. the book I read. 뜻이 바뀌었을까? 아니야, 똑같이 ‘내가 읽은 책’이야. 이렇게 빼는 것을 생략이라고 해.”",
+          "“영어로 말할 때는 오히려 빼는 경우가 더 많아. 그래서 명사 바로 뒤에 I, my mom 같은 주어가 갑자기 나오면 ‘여기에 which나 who가 빠졌구나’ 하고 알아봐야 해.”",
+          "“그런데 주격은 빼면 안 돼. a girl who sings well에서 who를 빼면 a girl sings well, ‘소녀가 노래를 잘한다’는 다른 문장이 돼 버려.”"
+        ],
+        "예상답": [
+          "“which를 빼도 뜻이 같아요.” “who 뒤에 동사가 오면 빼면 안 돼요.”"
+        ],
+        "막히면": [
+          "the book ∨ I read처럼 빠진 곳에 ∨ 표시를 하고, 그 자리에 which를 넣어 읽어 보게 합니다."
+        ],
+        "주의": [
+          "the cake my mom made처럼 관계대명사가 빠진 문장을 ‘케이크는 엄마가 만들었다’로 끊어 읽는 실수가 많습니다(오해 M2). 명사 + 주어 + 동사가 한 덩어리라는 것을 강조합니다.",
+          "생략할 수 있다는 것이지 꼭 빼야 하는 것은 아닙니다. 쓸 때는 which·who를 넣어도, 빼도 맞습니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "관계대명사가 빠진 곳 찾고 해석하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "빠진 곳을 찾아요",
+      "text": "관계대명사가 빠진 곳을 짚고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "This is the song I like."
+        },
+        {
+          "text": "The pizza we made\nwas great."
+        },
+        {
+          "text": "Here is the photo\nMina took."
+        },
+        {
+          "text": "The man I met\nwas very kind."
+        }
+      ],
+      "hint": "명사 바로 뒤에 주어(I, we, Mina)가 오는 곳을 찾아요.",
+      "notes": {
+        "목적": "관계대명사가 생략된 문장에서 ‘명사 + 주어 + 동사’를 찾아 빠진 곳을 짚고 해석합니다(목표 B, 오해 M2). 활동지 4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“명사 바로 뒤에 주어가 오는 곳을 손가락으로 짚어 줘. 거기에 which나 who를 넣어서 읽어 보고, 뜻을 말해 줘.”",
+          "“②④는 그 덩어리가 주어야. 진짜 동사는 어디 있지?”"
+        ],
+        "정답": [
+          "① the song ∨ I like (which·that이 빠짐) — 이것은 내가 좋아하는 노래예요.",
+          "② The pizza ∨ we made (which·that) — 우리가 만든 피자는 정말 맛있었어요(최고였어요).",
+          "③ the photo ∨ Mina took (which·that) — 여기 미나가 찍은 사진이 있어요.",
+          "④ The man ∨ I met (who(m)·that) — 내가 만난 남자는 아주 친절했어요."
+        ],
+        "막히면": [
+          "“I, we, Mina 같은 주어가 어디 있어? 그 바로 앞의 명사는?”이라고 묻습니다.",
+          "②④는 지난 시간처럼 덩어리에 괄호를 치게 합니다. The pizza (we made) was great."
+        ],
+        "주의": [
+          "③의 took은 take(찍다)의 과거형입니다. Here is ~는 ‘여기 ~이 있어요’라는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "주격·목적격 구별하여 생략 가능 여부 판단",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "뺄 수 있을까?",
+      "text": "who·which를 뺄 수 있으면 ○, 없으면 ×라고 말해요.",
+      "problems": [
+        {
+          "text": "the girl who I met"
+        },
+        {
+          "text": "the girl who lives here"
+        },
+        {
+          "text": "the bike which\nmy dad bought"
+        },
+        {
+          "text": "the bike which is blue"
+        },
+        {
+          "text": "the man who teaches us"
+        },
+        {
+          "text": "the cookies which we ate"
+        }
+      ],
+      "hint": "바로 뒤가 주어 → 뺄 수 있어요.  바로 뒤가 동사 → 뺄 수 없어요.",
+      "notes": {
+        "목적": "관계대명사 바로 뒤가 주어인지 동사인지 보고 생략할 수 있는지 판단합니다(목표 B, 오해 M3). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“who·which 바로 뒤의 낱말을 먼저 봐. 주어야, 동사야? 그다음 ○인지 ×인지 말해 줘.”"
+        ],
+        "정답": [
+          "① ○ (who 뒤에 주어 I: 내가 만난 소녀)",
+          "② × (who 뒤에 동사 lives: 여기 사는 소녀)",
+          "③ ○ (which 뒤에 주어 my dad: 아빠가 사 주신 자전거)",
+          "④ × (which 뒤에 동사 is: 파란 자전거)",
+          "⑤ × (who 뒤에 동사 teaches: 우리를 가르치시는 남자)",
+          "⑥ ○ (which 뒤에 주어 we: 우리가 먹은 쿠키)"
+        ],
+        "막히면": [
+          "관계대명사를 가리고 읽어 보게 합니다. the girl I met은 자연스럽지만 the girl lives here는 ‘소녀가 여기 산다’는 다른 문장이 된다는 것을 느끼게 합니다."
+        ],
+        "주의": [
+          "⑤의 us는 we의 목적어 모양(우리를)입니다. 주어가 아니므로 who 바로 뒤가 동사 teaches인 주격입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "집에 있는 물건을 목적격 관계대명사로 소개하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 우리 집 물건 소개",
+      "steps": [
+        "집에 있는 물건 세 개를 가져와요.\n(컵, 책, 사진, 인형)",
+        "부모가 물어요: What is this?",
+        "아이가 답해요:\nThis is the cup which I use every day.",
+        "which를 빼고 한 번 더 말해요:\nThis is the cup I use every day.",
+        "역할을 바꿔 부모가 소개해요."
+      ],
+      "criteria": [
+        "which·who + 주어 + 동사 순서로 말했어요",
+        "동사 뒤에 it을 다시 쓰지 않았어요",
+        "which를 빼고도 말했어요"
+      ],
+      "notes": {
+        "목적": "집에 있는 물건을 This is the ~ which I ~.로 소개하고, 관계대명사를 뺀 문장으로도 말합니다(목표 A·B, 오해 M1).",
+        "시간": "약 4분",
+        "말하기": [
+          "“집에서 물건 세 개를 가져와 볼래? 컵, 책, 사진, 인형, 무엇이든 좋아.”",
+          "“엄마(아빠)가 물을게. What is this?” → (아이) “This is the cup which I use every day.”",
+          "“좋아. 이번엔 which를 빼고 말해 볼래?” → (아이) “This is the cup I use every day.”",
+          "“이번엔 엄마(아빠)가 소개할게. This is the book which Grandma bought for me. 무슨 뜻일까?”"
+        ],
+        "예상답": [
+          "“This is the book which I read last week.” “This is the photo which Dad took in Jeju.” “This is the doll which I got from my aunt.” “This is the T-shirt my mom bought.”",
+          "기준: which·who 뒤에 주어 + 동사를 쓰고(which I use), 동사 뒤에 it을 남기지 않으며(which I use it ×), which를 뺀 문장으로도 한 번 이상 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "동사가 떠오르지 않으면 use(쓰다), like(좋아하다), bought(샀다), got(받았다), made(만들었다), took(찍었다) 가운데 고르게 합니다.",
+          "“누가 이걸 샀어? 언제 썼어?”처럼 우리말로 먼저 묻고, 대답을 which 뒤에 붙이게 합니다."
+        ],
+        "주의": [
+          "got from ~은 ‘~에게서 받았다’입니다. 처음 말할 때 뜻을 알려 줍니다.",
+          "틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다(“the cup which I use it” → “Oh, the cup which you use every day!”)."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(두 문장 잇기·생략된 문장 해석·생략 판단)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "This is the pen.\n+ I use it every day."
+        },
+        {
+          "text": "She is the singer.\n+ I like her a lot."
+        },
+        {
+          "text": "The cake I made\nwas sweet.  → 뜻은?"
+        },
+        {
+          "text": "a boy who sings well\n→ who를 뺄 수 있나요?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 목적격 관계대명사로 두 문장을 잇고, 생략된 문장을 해석하며, 생략할 수 있는지 판단하는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①②는 한 문장으로 이어 말하고, ③은 뜻을, ④는 뺄 수 있는지와 그 까닭을 말해 줘. 그다음 활동지 5에 써.”"
+        ],
+        "정답": [
+          "① This is the pen which(that) I use every day.",
+          "② She is the singer who(m)(that) I like a lot.",
+          "③ 내가 만든 케이크는 달았어요. (cake와 I 사이에 which가 빠졌습니다.)",
+          "④ 뺄 수 없어요. who 바로 뒤가 동사(sings)인 주격입니다.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 절 안에 it·her를 다시 쓰지 않았는지, 첫 글자 대문자와 마침표도 봅니다. ①②는 which·who를 빼고 쓴 문장(the pen I use every day)도 맞습니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “둘째 문장의 목적어는?” “명사 바로 뒤에 무엇이 와?” “who 바로 뒤는 주어야, 동사야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① … which I use every day."
+        },
+        {
+          "text": "② … who I like a lot."
+        },
+        {
+          "text": "③ 내가 만든 케이크는 달았어요."
+        },
+        {
+          "text": "④ × (who 뒤가 동사)"
+        }
+      ],
+      "bad": [
+        {
+          "text": "which I use it",
+          "note": "it은 which로\n바뀌었어요"
+        },
+        {
+          "text": "케이크는 내가 만들었다",
+          "note": "cake I made가\n주어 덩어리"
+        },
+        {
+          "text": "a boy sings well",
+          "note": "주격은\n빼지 않아요"
+        }
+      ],
+      "explain": "목적어 → who·which로 바꿔 맨 앞에,  바로 뒤가 주어면 뺄 수 있어요",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“it을 또 썼어요.” “The cake I made가 한 덩어리예요.” “who 뒤가 동사라서 빼면 안 돼요.”"
+        ],
+        "정답": [
+          "① This is the pen which(that) I use every day. ② She is the singer who(m)(that) I like a lot. ③ 내가 만든 케이크는 달았어요. ④ 뺄 수 없음(주격)."
+        ],
+        "막히면": [
+          "틀린 문제는 S04·S06(두 문장 잇기), S08·S09(생략), S07·S10(주격과 목적격 구별) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(주격·목적격·생략 문장의 뜻 구별)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "세 문장의 뜻은?",
+      "text": "who 바로 뒤를 보고 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "The girl who likes Tom is Mina."
+        },
+        {
+          "text": "The girl who Tom likes is Mina."
+        },
+        {
+          "text": "The dog I saw was very big."
+        }
+      ],
+      "notes": {
+        "목적": "같은 낱말로 된 주격·목적격 문장과 관계대명사가 빠진 문장을 해석하며, 누가 무엇을 하는지 바르게 읽는지 확인합니다(목표 A·B, 오해 M2·M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①과 ②는 낱말이 똑같은데 뜻이 달라. who 바로 뒤를 보고 하나씩 뜻을 말해 줘. ③은 빠진 곳도 짚어 줘.”"
+        ],
+        "정답": [
+          "① 톰을 좋아하는 소녀는 미나예요. (who 뒤에 동사: 소녀가 톰을 좋아함)",
+          "② 톰이 좋아하는 소녀는 미나예요. (who 뒤에 주어 Tom: 톰이 소녀를 좋아함)",
+          "③ 내가 본 개는 아주 컸어요. (dog와 I 사이에 which가 빠짐)",
+          "기준: 세 문장을 모두 누가 무엇을 하는지 맞게 해석하면 통과입니다. ①②를 같은 뜻으로 말하면 목표 B는 아직입니다."
+        ],
+        "막히면": [
+          "S07 표의 a girl who likes me / a girl who I like를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "①②를 바꿔 해석하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "명사 + who(m)·which·that + 주어 + 동사: (주어)가 ~한 (명사)\nthe cake (which) my mom made  엄마가 만든 케이크",
+      "do": "바로 뒤가 주어면 뺄 수 있어요",
+      "dont": "which my mom made it",
+      "review": [
+        {
+          "text": "한 문장으로 이으면?\nThis is the book.\n+ I read it."
+        },
+        {
+          "text": "뺄 수 있는 쪽은?\nthe man who I met /\nthe man who helped me"
+        },
+        {
+          "text": "뜻은?\nthe photo Dad took"
+        }
+      ],
+      "next": "분사의 명사 수식",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“which·who 뒤에 주어가 오면 어떻게 해석했지?”",
+          "“어떤 관계대명사를 뺄 수 있었지?”"
+        ],
+        "예상답": [
+          "“‘~가 …한’으로 해석해요.” “뒤에 주어가 오는 목적격이요.”"
+        ],
+        "정답": [
+          "① This is the book which(that) I read. (This is the book I read.도 맞음)",
+          "② the man who I met (who 뒤가 주어 I)",
+          "③ 아빠가 찍은 사진"
+        ],
+        "주의": [
+          "집에서 물건을 가리키며 “This is the ~ (which) I like.”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘분사의 명사 수식’에서는 a crying baby(우는 아기), a broken window(깨진 창문)처럼 동사의 -ing 모양과 과거분사로 명사를 꾸미는 방법을 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(목적어 대명사와 주격 관계대명사 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: ‘~을’ 자리의 대명사",
+      "layout": "support",
+      "text": "‘~을, ~를’ 자리에는 목적어 모양을 써요.  I like him.",
+      "table": {
+        "headers": [
+          "주어 (~은)",
+          "목적어 (~을)",
+          "주어 (~은)",
+          "목적어 (~을)"
+        ],
+        "rows": [
+          [
+            "I",
+            "me",
+            "it",
+            "it"
+          ],
+          [
+            "he",
+            "him",
+            "we",
+            "us"
+          ],
+          [
+            "she",
+            "her",
+            "they",
+            "them"
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "width": 12,
+        "size": 24
+      },
+      "key": {
+        "title": "지난 시간: 주격 관계대명사",
+        "text": "I have a friend. + She lives in Busan.  → I have a friend who lives in Busan."
+      },
+      "notes": {
+        "목적": "S02에서 주격 관계대명사가 흔들리거나 목적어 대명사(him, her, them)를 모르면, 오늘 내용을 배우기 전에 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 주어를 말하면 목적어 모양을 말해 봐. he!” (아이: “him!”) “she!” (아이: “her!”) “they!” (아이: “them!”)",
+          "“I like ___. 에 he를 넣으면?” (아이: “I like him.”)",
+          "“아래 카드를 읽어 보자. She가 who로 바뀌어서 a friend 뒤에 붙었지? 오늘은 him, her, it이 who, which로 바뀌어.”"
+        ],
+        "정답": [
+          "me, him, her, it, us, them / I like him. / I have a friend who lives in Busan."
+        ],
+        "막히면": [
+          "표의 목적어 칸을 손으로 가리고 하나씩 맞히게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘주격 관계대명사’(KR22-G09-ENG-RELSUBJ-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "목적격 관계대명사 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "‘~가 …한 (명사)’로 뜻을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① the movie which we saw",
+              ""
+            ],
+            [
+              "② the letter which she wrote",
+              ""
+            ],
+            [
+              "③ the friend who I met at camp",
+              ""
+            ],
+            [
+              "④ the food my grandma makes",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① 우리가 본 영화 ② 그녀가 쓴 편지 ③ 내가 캠프에서 만난 친구 ④ 할머니가 만드시는 음식. 네 개 가운데 세 개 이상이면 통과. ‘영화가 우리를 봤다’처럼 누가 하는지 바꾸면 S07을 다시 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "who나 which로 두 문장을 이어 한 문장으로 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This is the watch.\n+ My dad bought it.",
+              ""
+            ],
+            [
+              "② I like the song.\n+ You played it.",
+              ""
+            ],
+            [
+              "③ She is the girl.\n+ I saw her at the library.",
+              ""
+            ],
+            [
+              "④ Ms. Kim is the teacher.\n+ Everyone loves her.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① This is the watch which my dad bought. ② I like the song which you played. ③ She is the girl who(m) I saw at the library. ④ Ms. Kim is the teacher who(m) everyone loves. (that을 쓰거나 관계대명사를 빼고 써도 맞음) 네 개 가운데 세 개 이상이면 통과. which my dad bought it처럼 목적어를 남기면 S06을 다시 봅니다. (watch: 손목시계, everyone: 모든 사람)"
+      },
+      {
+        "no": 3,
+        "prompt": "who·which를 뺄 수 있으면 ○, 뺄 수 없으면 ×를 쓰세요.",
+        "table": {
+          "headers": [
+            "표현",
+            "○ / ×",
+            "표현",
+            "○ / ×"
+          ],
+          "rows": [
+            [
+              "① the bag which I bought",
+              "",
+              "② the bag which is on the table",
+              ""
+            ],
+            [
+              "③ the boy who I know",
+              "",
+              "④ the boy who knows me",
+              ""
+            ],
+            [
+              "⑤ the song which\nmy sister sings",
+              "",
+              "⑥ the bus which\ngoes to Seoul",
+              ""
+            ]
+          ],
+          "widths": [
+            0.38,
+            0.12,
+            0.38,
+            0.12
+          ],
+          "size": 13
+        },
+        "answer": "① ○ ② × ③ ○ ④ × ⑤ ○ ⑥ ×. 여섯 개 가운데 다섯 개 이상이면 통과. who·which 바로 뒤가 주어(I, my sister)이면 ○, 동사(is, knows, goes)이면 ×입니다."
+      },
+      {
+        "no": 4,
+        "prompt": "관계대명사가 빠진 곳에 ∨ 표시를 하고, 뜻을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This is the cake my mom made.",
+              ""
+            ],
+            [
+              "② I lost the pen Dad bought for me.",
+              ""
+            ],
+            [
+              "③ The book I read yesterday was fun.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.6,
+            0.4
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① cake ∨ my mom — 이것은 엄마가 만든 케이크예요. ② pen ∨ Dad — 나는 아빠가 사 주신 펜을 잃어버렸어요. ③ book ∨ I — 내가 어제 읽은 책은 재미있었어요. 세 개 가운데 두 개 이상이면 통과. (lost: lose(잃어버리다)의 과거형)"
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This is the pen. + I use it every day.\n(한 문장으로)",
+              ""
+            ],
+            [
+              "② She is the singer. + I like her a lot.\n(한 문장으로)",
+              ""
+            ],
+            [
+              "③ The cake I made was sweet.\n(뜻)",
+              ""
+            ],
+            [
+              "④ a boy who sings well\n(who를 뺄 수 있나요? 까닭은?)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.6,
+            0.4
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① This is the pen which(that) I use every day. ② She is the singer who(m)(that) I like a lot. ③ 내가 만든 케이크는 달았어요. ④ 뺄 수 없어요. who 바로 뒤가 동사(sings)이기 때문입니다. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 물건을 소개하는 세 문장을 쓰세요(which 문장 두 개, which를 뺀 문장 하나).",
+        "eng": {
+          "trace": [
+            "This is the cake my mom made.",
+            "He is the teacher who I like."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: This is the cup which I use every day. / This is the photo which Dad took. / This is the book I read last week.). which·who + 주어 + 동사의 순서, 동사 뒤에 it을 다시 쓰지 않았는지, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① This is the book. + I read it.을 한 문장으로 이어 쓰세요.\n② the man who I met / the man who helped me 가운데 who를 뺄 수 있는 쪽을 쓰세요.\n③ the photo Dad took의 뜻을 쓰세요.",
+        "lines": 3,
+        "answer": "① This is the book which(that) I read. (This is the book I read.도 맞음) ② the man who I met ③ 아빠가 찍은 사진. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S14 세 문장의 뜻: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "which my mom made it처럼 목적어를 다시 쓰거나 주격 관계대명사를 뺌: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S06"
 }

@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "be동사+과거분사와 by로 행위를 받는 대상을 주어로 한 문장을 해석하고 쓴다.",
   "prerequisites": [
     {
       "text": "분사의 명사 수식",
@@ -43,19 +42,1145 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "행위를 받는 쪽을 주어로 하는 수동태 문장(be동사 + 과거분사 + by ~)을 ‘(누구)에 의해 ~되다, ~받다’로 해석하고, 능동태 문장을 ①목적어를 주어로 → ②동사를 be동사 + 과거분사로 → ③원래 주어를 by + 목적어 모양으로의 세 단계로 수동태로 바꾼다.",
+      "evidence": "수동태의 모양(S03), 과거분사 표(S04), 수동태로 바꾸기 3단계(S05), 수동태로 바꾸어 말하기(S06), be동사 빠뜨리기 비교(S07), 누가 했을까(S11), 혼자 해 보기(S12 ①④), 능동? 수동?(S14), 활동지 1·3·5·6",
+      "success": "활동지 3의 능동태 문장 4개 가운데 3개 이상을 be동사 + 과거분사 + by ~로 바꾸어 쓰고(This cake made by Mom. ×, by he ×), S14에서 능동태와 수동태를 3개 가운데 3개 바르게 고른다."
+    },
+    {
+      "id": "B",
+      "text": "수동태의 시제와 수는 be동사(is·are / was·were)가 나타낸다는 것을 알고 새 주어와 시제에 맞게 고르며, 누가 했는지 모르거나 중요하지 않을 때 by ~를 빼고 쓰는 수동태(English is spoken in many countries.)를 해석하고 쓴다.",
+      "evidence": "be동사로 시제 나타내기(S08), by를 빼는 수동태(S09), be동사 고르고 해석하기(S10), 누가 했을까(S11), 혼자 해 보기(S12 ②③), 활동지 2·4·5·6",
+      "success": "활동지 2의 빈칸 6개 가운데 5개 이상에 주어와 시제에 맞는 be동사를 쓰고, 활동지 4의 by가 없는 수동태 문장 3개 가운데 2개 이상을 자연스럽게 해석한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "집 안 물건(‘Made in ~’ 표시가 있는 물건)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "현재와 과거 시제의 수동태 긍정문(am·is·are / was·were + 과거분사, + by ~)만 다룬다. 능동태 → 수동태 바꾸기는 목적어가 하나인 문장(주어 + 동사 + 목적어)으로 하고, by 뒤의 대명사는 목적어 모양(by him, by her, by me)으로 쓴다. 과거분사는 -ed 규칙 동사(cleaned, loved, painted, created, baked 등), 이미 배운 made·written·taken·broken·spoken, 새 모양 세 개(built, sold, found)만 쓴다. 수동태의 부정문·의문문과 조동사가 있는 수동태(can be used)는 다음 차시 ‘수동태 부정문·의문문’에서 다룬다. 진행형·완료형 수동태, 목적어가 둘인 문장의 수동태, by가 아닌 전치사를 쓰는 수동태(be interested in, be made of), get + 과거분사는 다루지 않는다. 의문사 질문(Who painted ~?, Where was it made?)은 S11에서 부모가 묻는 말로만 쓰고, 아이는 수동태 긍정문으로 답한다. ‘능동태·수동태’라는 이름은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "be동사를 빠뜨린다(This cake made by my mom.). 지난 차시의 a cake made by my mom(명사를 꾸미는 분사)과 문장을 구별하지 못하기 때문이다.",
+      "response": "S03에서 be동사 + 과거분사를 한 덩어리로 보여 주고, S07에서 be동사가 빠진 것과 있는 것을 비교한다. S13 정답 장에서 흔한 실수로 다시 다룬다."
+    },
+    {
+      "id": "M2",
+      "text": "과거분사 대신 과거형이나 동사원형을 쓴다(The window was broke. / The room is clean by Tom.).",
+      "response": "S04 표에서 과거분사(넷째 칸)를 확인하고 새 모양(★)을 익힌다. S10 ③~⑤와 활동지 1에서 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "by 뒤에 주어 모양을 쓰거나(by she), be동사를 원래 주어나 원래 시제가 아닌 것에 맞춘다(She wrote these letters. → These letters was written / are written).",
+      "response": "S05에서 by 뒤는 목적어 모양이라는 것을 짚고, S08 표에서 ‘시제는 원래 동사, 수는 새 주어’로 be동사를 고르게 한다. S06 ④와 활동지 2·3에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "수동태 문장을 주어가 한 일로 해석한다(The Mona Lisa was painted by Leonardo da Vinci. → 모나리자가 그렸다).",
+      "response": "S03에서 ‘당하는 쪽이 주어’라는 것을 보여 주고, S14에서 같은 낱말로 된 능동태와 수동태 가운데 알맞은 것을 고르며 누가 했는지 말하게 한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "수동태",
+      "question": "The window was broken by Tom.\n누가 했는지보다 ‘무엇이 되었는지’를 말하려면?",
+      "goals": [
+        "① be동사 + 과거분사로 수동태 문장을 해석하고 써요.",
+        "② be동사로 시제를 나타내고, by가 없는 수동태도 알아요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "The window was broken\nby Tom."
+          },
+          {
+            "word": "This cake was made\nby my mom."
+          },
+          {
+            "word": "English is spoken\nin many countries."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 행위를 받는 쪽을 주어로 하는 문장에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘창문이 톰에 의해 깨졌어요. 이 케이크는 엄마가 만들었어요(엄마에 의해 만들어졌어요). 영어는 많은 나라에서 쓰여요.’라는 뜻이야. 세 문장 모두 주어(창문, 케이크, 영어)가 무엇을 한 게 아니라 당한 쪽이지? 그리고 was, is 뒤에 지난 시간에 배운 과거분사가 와. 오늘은 이런 문장을 배울 거야.”"
+        ],
+        "예상답": [
+          "“was broken, was made, is spoken이 있어요.” “broken, made, spoken은 과거분사예요.”"
+        ],
+        "막히면": [
+          "문장의 뜻을 모르면 부모가 뜻만 알려 주고, be동사와 과거분사를 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(The window was broken by Tom. This cake was made by my mom. English is spoken in many countries. The Mona Lisa was painted by Leonardo da Vinci.)과 새 과거분사 built, sold, found를 미리 들어 두세요.",
+          "지난 차시 ‘분사의 명사 수식’의 과거분사(broken, made, taken)와 중1의 was·were를 알아야 쉬워집니다. S11 활동에 쓸 ‘Made in ~’ 표시가 있는 물건을 하나 준비해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(과거분사, 과거형, was·were)",
+      "role": "prior",
+      "objectives": [],
+      "title": "과거분사와 was·were 떠올리기",
+      "text": "①은 과거분사로, ②는 과거형으로 바꾸고, ③은 골라 읽어요.",
+      "problems": [
+        {
+          "text": "a book (write) in English"
+        },
+        {
+          "text": "My mom (make) this cake yesterday."
+        },
+        {
+          "text": "The cookies (was / were) sweet."
+        }
+      ],
+      "notes": {
+        "목적": "지난 차시 ‘분사의 명사 수식’(KR22-G09-ENG-PARTICIPLE-L01)의 과거분사와, 중1 ‘과거 시제 문장’(KR22-G07-ENG-PAST-L01)의 과거형·was·were를 기억하는지 확인합니다. 수동태는 was·were와 과거분사로 만듭니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 책이 쓰인 거지? 알맞은 모양으로 바꿔 읽어 줘.”",
+          "“②는 yesterday가 있으니까 지난 일이야. 바꿔 읽어 줘.”",
+          "“③은 알맞은 것을 골라 읽어 줘.”"
+        ],
+        "정답": [
+          "① written (영어로 쓰인 책)",
+          "② made (엄마가 어제 이 케이크를 만들었어요.)",
+          "③ were (cookies는 여럿이므로)"
+        ],
+        "막히면": [
+          "①은 “책이 쓰나요, 쓰였나요? write의 과거분사는?”, ②는 “make의 과거형은?”, ③은 “쿠키는 하나야, 여럿이야?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 과거형(made)과 과거분사(made)가 같은 동사와 다른 동사(wrote–written)를 구별하는 것이 중요합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "능동태와 수동태의 뜻, 수동태의 모양",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "수동태의 모양",
+      "text": "수동태는 행위를 받는(당하는) 쪽이 주어인 문장이에요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "The window",
+            "sub": "주어: 창문이"
+          },
+          {
+            "word": "was",
+            "sub": "be동사",
+            "highlight": true
+          },
+          {
+            "word": "broken",
+            "sub": "과거분사",
+            "highlight": true
+          },
+          {
+            "word": "by Tom.",
+            "sub": "톰에 의해"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "능동태",
+          "text": "하는 쪽이 주어\nTom broke the window."
+        },
+        {
+          "title": "수동태",
+          "text": "당하는 쪽이 주어\nbe동사 + 과거분사 (+ by ~)"
+        }
+      ],
+      "key": "뜻: ‘(by ~)에 의해 ~되다, ~받다’   창문이 톰에 의해 깨졌어요.",
+      "notes": {
+        "목적": "능동태와 수동태의 뜻을 알려 주고, 수동태가 be동사 + 과거분사(+ by ~)로 이루어진다는 것을 보여 줍니다(목표 A, 오해 M1·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Tom broke the window.는 ‘톰이 창문을 깼어요.’ 하는 쪽(톰)이 주어야. 이런 문장을 능동태라고 해.”",
+          "“The window was broken by Tom.은 ‘창문이 톰에 의해 깨졌어요.’ 당하는 쪽(창문)이 주어야. 이런 문장을 수동태라고 해.”",
+          "“수동태의 모양은 be동사 + 과거분사야. was broken. 누가 했는지는 by 뒤에 써. by는 ‘~에 의해’라는 뜻이야.”",
+          "“지난 시간의 a window broken by Tom은 ‘톰이 깬 창문’이라는 덩어리였지? 여기에 be동사 was가 들어가면 문장이 돼.”"
+        ],
+        "예상답": [
+          "“창문이 주어예요.” “was 다음에 broken이 와요.”"
+        ],
+        "막히면": [
+          "두 문장을 종이에 위아래로 쓰고, the window와 Tom이 어디로 옮겨 갔는지 화살표로 이어 보게 합니다."
+        ],
+        "주의": [
+          "우리말로는 ‘톰에 의해 깨졌어요’보다 ‘톰이 깼어요’가 자연스러울 때가 많습니다. 해석할 때는 누가 했는지와 무엇이 당했는지를 바르게 말하면 맞습니다.",
+          "‘능동태·수동태’는 교과서와 시험에 나오는 이름입니다. ‘하는 쪽이 주어 / 당하는 쪽이 주어’로 기억하면 충분합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "오늘 쓰는 과거분사(새 모양 표시)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "오늘 쓰는 과거분사",
+      "text": "★는 오늘 처음 배우는 과거분사예요. -ed 동사는 과거형과 같아요.",
+      "table": {
+        "headers": [
+          "동사",
+          "뜻",
+          "과거형",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "clean",
+            "청소하다",
+            "cleaned",
+            "cleaned"
+          ],
+          [
+            "make",
+            "만들다",
+            "made",
+            "made"
+          ],
+          [
+            "write",
+            "쓰다",
+            "wrote",
+            "written"
+          ],
+          [
+            "take",
+            "(사진을) 찍다",
+            "took",
+            "taken"
+          ],
+          [
+            "break",
+            "깨다",
+            "broke",
+            "broken"
+          ],
+          [
+            "build",
+            "짓다, 세우다",
+            "built",
+            "★ built"
+          ],
+          [
+            "sell",
+            "팔다",
+            "sold",
+            "★ sold"
+          ],
+          [
+            "find",
+            "찾다, 발견하다",
+            "found",
+            "★ found"
+          ]
+        ],
+        "widths": [
+          0.18,
+          0.32,
+          0.24,
+          0.26
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "notes": {
+        "목적": "오늘 쓰는 동사의 과거형과 과거분사를 확인하고 새 과거분사 built, sold, found를 익힙니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“한 줄씩 소리 내어 읽어 보자. clean, cleaned, cleaned.” (소리 자료를 듣고 따라 합니다.)",
+          "“위의 다섯 줄은 아는 모양이야. written, taken, broken은 지난 시간에 배웠지?”",
+          "“아래 세 줄의 별(★)이 새 과거분사야. build, built, built. sell, sold, sold. find, found, found. 이 셋은 과거형과 과거분사가 같아.”",
+          "“수동태에서 be동사 뒤에는 몇째 칸을 쓸까?”"
+        ],
+        "예상답": [
+          "“넷째 칸, 과거분사요.”"
+        ],
+        "막히면": [
+          "과거분사 칸을 손으로 가리고 부모가 “build, built!”라고 말하면 아이가 “built!”로 답하는 놀이를 몇 번 합니다."
+        ],
+        "주의": [
+          "built, sold, found는 과거형도 처음 보는 모양입니다. 과거형과 과거분사가 같으니 한 번에 익힙니다.",
+          "The window was broke.처럼 과거형을 쓰는 실수가 흔합니다(오해 M2). be동사 뒤에는 넷째 칸입니다. 이 밖에 spoken(speak), loved(love), painted(paint), created(create: 만들어 내다)도 오늘 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "능동태를 수동태로 바꾸는 세 단계",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "수동태로 바꾸기",
+      "text": "Tom cleans the room.을 수동태로 바꿔요.",
+      "steps": [
+        "목적어를 주어로:\nthe room → The room",
+        "동사를 be동사 + 과거분사로:\ncleans → is cleaned",
+        "원래 주어는 by 뒤로:\nTom → by Tom"
+      ],
+      "figureRatio": 0.45,
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Tom cleans the room.",
+            "sub": "톰이 방을 청소해요."
+          },
+          {
+            "word": "The room is cleaned\nby Tom.",
+            "highlight": true
+          }
+        ]
+      },
+      "key": "by 뒤의 대명사는 목적어 모양:  by she (×) → by her,  by I (×) → by me",
+      "notes": {
+        "목적": "능동태를 ‘목적어를 주어로 → be동사 + 과거분사 → by + 원래 주어’의 세 단계로 수동태로 바꾸는 방법을 보여 줍니다(목표 A, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Tom cleans the room. 톰이 방을 청소해. 당하는 쪽은? 방이야. 그래서 the room을 맨 앞으로 옮겨 주어로 만들어.”",
+          "“동사 cleans를 be동사 + 과거분사로 바꿔. 지금 일(현재)이고 방은 하나니까 is, 과거분사는 cleaned. is cleaned.”",
+          "“원래 주어 Tom은 by 뒤로 보내. by Tom. 다 합치면 The room is cleaned by Tom. ‘방은 톰에 의해 청소돼요.’”",
+          "“만약 원래 주어가 she였다면? by she일까, by her일까?”"
+        ],
+        "예상답": [
+          "“by her요.”"
+        ],
+        "막히면": [
+          "종이에 Tom / cleans / the room을 세 칸으로 쓰고, 맨 앞과 맨 뒤 칸을 바꿔 쓴 다음 가운데 칸을 is cleaned로, Tom 앞에 by를 써 넣게 합니다."
+        ],
+        "주의": [
+          "be동사는 원래 동사의 시제(cleans: 현재 → is, cleaned: 과거 → was)와 새 주어의 수(하나 → is·was, 여럿 → are·were)로 고릅니다. S08에서 자세히 다룹니다.",
+          "by 뒤의 대명사는 me, him, her, us, them처럼 목적어 모양입니다(오해 M3)."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "능동태를 수동태로 바꾸어 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "수동태로 바꿔 말해요",
+      "text": "수동태로 바꿔 말하고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "Mina cleans the kitchen."
+        },
+        {
+          "text": "My dad made this table."
+        },
+        {
+          "text": "Many people love\nthis song."
+        },
+        {
+          "text": "She wrote these letters."
+        }
+      ],
+      "hint": "목적어 → 주어,  be동사 + 과거분사,  by + 원래 주어",
+      "notes": {
+        "목적": "세 단계로 능동태를 수동태로 바꾸고 해석합니다(목표 A, 오해 M2·M3). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“S05의 세 단계를 따라 수동태로 바꿔 말해 줘. 먼저 당하는 쪽(목적어)을 찾아.”",
+          "“②④는 지난 일이야. be동사를 무엇으로 해야 할까?”"
+        ],
+        "정답": [
+          "① The kitchen is cleaned by Mina. (부엌은 미나가 청소해요.)",
+          "② This table was made by my dad. (이 탁자는 아빠가 만드셨어요.)",
+          "③ This song is loved by many people. (이 노래는 많은 사람에게 사랑받아요.)",
+          "④ These letters were written by her. (이 편지들은 그녀가 썼어요.)"
+        ],
+        "막히면": [
+          "“당하는 쪽은? 그걸 맨 앞에.” “원래 동사가 지금 일이야, 지난 일이야?” “새 주어는 하나야, 여럿이야?”를 차례로 묻습니다.",
+          "④에서 by she라고 하면 S05의 열쇠 문장을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "④의 These letters는 여럿이고 wrote는 과거이므로 were입니다. was written이라고 하면 S08에서 다시 짚습니다.",
+          "This cake made by ~처럼 be동사를 빠뜨리면 다음 장에서 바로 비교합니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(be동사 빠뜨리기)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘엄마가 만들었어요’를 수동태로",
+      "claim": "‘이 케이크는 엄마가 만들었어요.’를 수동태로 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "This cake made\nby my mom."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "This cake was made\nby my mom."
+            }
+          ]
+        }
+      },
+      "question": "문장으로 바르게 쓴 쪽은? 다른 쪽에는 무엇이 빠졌나요?",
+      "notes": {
+        "목적": "수동태에서 be동사를 빠뜨리는 실수를 비교로 바로잡고, 지난 차시의 분사 덩어리와 문장을 구별합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“가는 지난 시간에 배운 덩어리 ‘엄마가 만든 이 케이크’로 끝나 버렸어. 문장이 되려면 무엇이 필요할까?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(This cake was made by my mom.)입니다. 가는 be동사(was)가 빠져서 ‘엄마가 만든 이 케이크’라는 덩어리일 뿐 문장이 아닙니다."
+        ],
+        "막히면": [
+          "S03의 네 덩어리(The window / was / broken / by Tom)를 다시 보여 주고, 가에 없는 덩어리를 찾게 합니다."
+        ],
+        "주의": [
+          "같은 실수 예: The room cleaned by Tom. → The room is cleaned by Tom. / These photos taken by Dad. → These photos were taken by Dad. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 수동태 만들기입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "be동사로 수동태의 시제와 수 나타내기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "시제는 be동사로",
+      "text": "be동사가 시제와 수를 맡고, 과거분사는 그대로예요.",
+      "table": {
+        "headers": [
+          "주어",
+          "현재 (지금, 늘)",
+          "과거 (지난 일)"
+        ],
+        "rows": [
+          [
+            "하나",
+            "The room is cleaned.",
+            "The room was cleaned."
+          ],
+          [
+            "여럿",
+            "The rooms are cleaned.",
+            "The rooms were cleaned."
+          ]
+        ],
+        "widths": [
+          0.16,
+          0.42,
+          0.42
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "원래 동사의 시제를 be동사로 옮겨요.  made(과거) → was made\nThe house was built in 1990.  그 집은 1990년에 지어졌어요.",
+      "notes": {
+        "목적": "수동태의 시제는 be동사(is·are / was·were)가 나타내고, be동사는 새 주어의 수에 맞춘다는 것을 표로 익힙니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“표를 봐. cleaned는 네 칸 모두 똑같지? 바뀌는 건 be동사뿐이야.”",
+          "“지금 일이나 늘 하는 일이면 is·are, 지난 일이면 was·were. 주어가 하나면 is·was, 여럿이면 are·were.”",
+          "“My dad made this table.은 made가 과거니까 was made가 됐지. 그럼 Mom bakes cookies.를 수동태로 바꾸면?”"
+        ],
+        "예상답": [
+          "“Cookies are baked by Mom.”"
+        ],
+        "막히면": [
+          "“원래 동사가 지금 일이야, 지난 일이야?” → “새 주어는 하나야, 여럿이야?” 두 질문으로 표의 칸을 찾게 합니다."
+        ],
+        "주의": [
+          "be동사를 원래 주어에 맞추는 실수가 있습니다(She wrote these letters. → These letters was written ×). be동사는 언제나 새 주어를 봅니다(오해 M3).",
+          "bake(굽다)의 과거분사는 baked입니다. 주어가 I이면 am(현재), was(과거)를 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "수동태를 쓰는 때와 by를 빼는 수동태",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "by가 없는 수동태",
+      "text": "누가 했는지 모르거나 중요하지 않으면 by ~를 빼요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "English is spoken\nin many countries.",
+            "sub": "많은 나라에서 영어가 쓰여요."
+          },
+          {
+            "word": "My bag was found\nin the park.",
+            "sub": "내 가방이 공원에서 발견됐어요.",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "언제 수동태를 쓸까요?",
+          "text": "하는 쪽보다 당하는 쪽이\n궁금하고 중요할 때"
+        },
+        {
+          "title": "by를 빼요",
+          "text": "누가 했는지 모르거나\n누구나 아는 사람들일 때"
+        }
+      ],
+      "notes": {
+        "목적": "수동태는 당하는 쪽이 중요할 때 쓰고, 누가 했는지 모르거나 중요하지 않으면 by ~를 뺀다는 것을 알려 줍니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“English is spoken in many countries. 누가 영어를 말해? 그 나라 사람들이지. 다 아는 사람들이니까 by people을 쓰지 않아.”",
+          "“My bag was found in the park. 누가 찾았는지 몰라. 내가 궁금한 건 가방이야. 그래서 가방을 주어로 하고 by는 빼.”",
+          "“This school was built in 1990.은? 누가 지었는지보다 학교가 언제 지어졌는지가 중요해.”"
+        ],
+        "예상답": [
+          "“이 학교는 1990년에 지어졌어요.”"
+        ],
+        "막히면": [
+          "“이 문장에서 궁금한 게 누가 했는지야, 무엇이 되었는지야?”라고 묻습니다."
+        ],
+        "주의": [
+          "수동태 문장의 대부분은 by ~가 없습니다. by가 없어도 be동사 + 과거분사가 있으면 수동태입니다.",
+          "spoken(speak의 과거분사)은 지난 시간에 배웠습니다. ‘영어가 말해진다’보다 ‘영어가 쓰인다(사용된다)’로 옮기면 자연스럽습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "주어와 시제에 맞는 be동사·과거분사 쓰기, 해석",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "be동사와 과거분사",
+      "text": "알맞은 것을 고르거나 바꿔 읽고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "Spanish ____ spoken\nin Mexico. (is / are)"
+        },
+        {
+          "text": "These photos ____ taken\nlast year. (was / were)"
+        },
+        {
+          "text": "The museum was (build)\nin 1900."
+        },
+        {
+          "text": "Tickets are (sell)\nonline."
+        },
+        {
+          "text": "My phone was (find)\non the bus."
+        },
+        {
+          "text": "The room is cleaned\nevery day.  → 뜻은?"
+        }
+      ],
+      "hint": "주어가 하나 → is·was,  여럿 → are·were,  be동사 뒤는 과거분사",
+      "notes": {
+        "목적": "주어와 시제에 맞는 be동사를 고르고, 과거분사를 쓰며, by가 없는 수동태를 해석합니다(목표 B, 오해 M2·M3). 활동지 2·4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 주어가 하나인지 여럿인지 보고 골라. ③④⑤는 괄호 안의 동사를 과거분사로 바꿔. 다 읽은 다음 뜻도 말해 줘.”",
+          "“③~⑥에는 by가 없지? 누가 했는지가 중요하지 않은 문장이야.”"
+        ],
+        "정답": [
+          "① is (멕시코에서는 스페인어가 쓰여요.)",
+          "② were (이 사진들은 작년에 찍혔어요.)",
+          "③ built (그 박물관은 1900년에 지어졌어요.)",
+          "④ sold (표는 온라인으로 팔려요.)",
+          "⑤ found (내 휴대 전화가 버스에서 발견됐어요.)",
+          "⑥ 그 방은 매일 청소돼요."
+        ],
+        "막히면": [
+          "③~⑤가 막히면 S04 표의 ★ 줄을 다시 보여 줍니다. ②에서 was를 고르면 “photos는 하나야, 여럿이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "museum은 ‘박물관’, online은 ‘온라인으로, 인터넷으로’입니다. 처음 말할 때 뜻을 알려 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "퀴즈와 집안일 질문에 수동태로 답하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 누가 했을까?",
+      "steps": [
+        "부모가 물어요:\nWho painted the Mona Lisa?",
+        "아이가 수동태로 답해요: It was\npainted by Leonardo da Vinci.",
+        "집안일도 물어요: Who cleaned\nthe bathroom?",
+        "물건 표시를 보고 답해요:\nIt was made in China.",
+        "역할을 바꿔 아이가 물어요."
+      ],
+      "criteria": [
+        "be동사 + 과거분사로 답했어요",
+        "was·were를 주어에 맞게 골랐어요",
+        "by 뒤에 me·him·her를 썼어요"
+      ],
+      "notes": {
+        "목적": "부모의 질문(Who ~? Where ~?)에 It was ~ by ~.처럼 수동태로 답하며, be동사와 by 뒤의 모양을 바르게 씁니다(목표 A·B, 오해 M1·M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“퀴즈야. Who painted the Mona Lisa? It was painted by ~로 답해 줘.” → (아이) “It was painted by Leonardo da Vinci.”",
+          "“Who created Hangeul?” → “It was created by King Sejong.”",
+          "“이번엔 우리 집이야. Who cleaned the bathroom? Who washed the dishes? Who made dinner?” → “It was cleaned by Dad.” “They were washed by me.” “It was made by Mom.”",
+          "“이 물건 아래 표시를 봐. Where was it made?” → “It was made in Vietnam.”",
+          "“이번엔 네가 엄마(아빠)에게 물어봐.”"
+        ],
+        "예상답": [
+          "“It was painted by Leonardo da Vinci.” “It was created by King Sejong.” “They were washed by Mom.” “It was made by me.” “It was made in Korea.”",
+          "기준: be동사 + 과거분사로 답하고, the dishes처럼 여럿이면 They were ~, 하나면 It was ~로 고르며, by 뒤에 me·him·her나 사람 이름을 쓰면 잘한 것입니다."
+        ],
+        "막히면": [
+          "퀴즈의 답을 모르면 부모가 우리말로 “레오나르도 다빈치가 그렸어.”라고 알려 주고, 아이는 영어 문장 만들기에 집중하게 합니다.",
+          "답이 막히면 “It was + 과거분사 + by + 사람” 틀을 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "Who painted ~?, Where was it made?는 부모가 묻는 말로만 씁니다. 아이는 수동태 긍정문으로 답하면 됩니다(의문문은 다음 차시).",
+          "wash(씻다)의 과거분사는 washed, create(만들어 내다)의 과거분사는 created입니다. 모나리자는 레오나르도 다빈치가 그린 그림이고, 한글은 세종대왕이 만들었습니다.",
+          "틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다(“It painted by ~” → “Oh, it was painted by Leonardo da Vinci!”)."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(수동태로 바꾸기·be동사 고르기·해석)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "My sister made this cake.\n→ 수동태로"
+        },
+        {
+          "text": "The windows (was / were)\ncleaned yesterday."
+        },
+        {
+          "text": "English is spoken in\nAustralia.  → 뜻은?"
+        },
+        {
+          "text": "Dad took these photos.\n→ 수동태로"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 능동태를 수동태로 바꾸고, be동사를 고르며, by가 없는 수동태를 해석하는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① This cake was made by my sister.",
+          "② were (창문들은 여럿, yesterday는 지난 일)",
+          "③ 호주에서는 영어가 쓰여요.",
+          "④ These photos were taken by Dad.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 be동사(was, were), 과거분사의 철자(made, taken), by와 첫 글자 대문자, 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “당하는 쪽은?” “원래 동사가 지난 일이야?” “새 주어는 하나야, 여럿이야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① … was made by my sister."
+        },
+        {
+          "text": "② were"
+        },
+        {
+          "text": "③ 호주에서는 영어가 쓰여요."
+        },
+        {
+          "text": "④ … were taken by Dad."
+        }
+      ],
+      "bad": [
+        {
+          "text": "This cake made",
+          "note": "be동사가\n빠졌어요"
+        },
+        {
+          "text": "were took",
+          "note": "과거분사\ntaken"
+        },
+        {
+          "text": "photos was",
+          "note": "photos는 여럿\n→ were"
+        }
+      ],
+      "explain": "당하는 쪽 → 주어,  be동사(시제·수) + 과거분사,  by + 원래 주어",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“was가 빠졌어요.” “took은 과거형이라 taken이에요.” “photos는 여럿이라 were예요.”"
+        ],
+        "정답": [
+          "① This cake was made by my sister. ② were ③ 호주에서는 영어가 쓰여요. ④ These photos were taken by Dad."
+        ],
+        "막히면": [
+          "틀린 문제는 S05(바꾸기), S04(과거분사), S07(be동사 빠뜨리기), S08(be동사 고르기) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(능동태와 수동태 구별)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "능동일까, 수동일까?",
+      "text": "알맞은 것을 골라 읽고, 누가 했는지 말해요.",
+      "problems": [
+        {
+          "text": "The Mona Lisa (painted / was painted)\nby Leonardo da Vinci."
+        },
+        {
+          "text": "Leonardo da Vinci (painted / was painted)\nthe Mona Lisa."
+        },
+        {
+          "text": "Hangeul (created / was created)\nby King Sejong."
+        }
+      ],
+      "notes": {
+        "목적": "주어가 하는 쪽인지 당하는 쪽인지 따져 능동태와 수동태를 고르고 해석하는지 확인합니다(목표 A, 오해 M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“주어가 그 일을 했어, 당했어? 먼저 생각하고 골라 줘. 다 읽은 다음 누가 무엇을 했는지 말해 줘.”"
+        ],
+        "정답": [
+          "① was painted (모나리자는 레오나르도 다빈치가 그렸어요. 그림은 당하는 쪽)",
+          "② painted (레오나르도 다빈치가 모나리자를 그렸어요. 화가는 하는 쪽)",
+          "③ was created (한글은 세종대왕이 만들었어요.)",
+          "기준: 세 개 모두 맞고 누가 했는지 바르게 말하면 목표 A 달성으로 봅니다. 뒤에 by가 있으면 수동태라는 단서도 좋은 근거입니다."
+        ],
+        "막히면": [
+          "“모나리자가 붓을 들고 그림을 그렸어?”처럼 주어가 그 일을 할 수 있는지 묻습니다."
+        ],
+        "주의": [
+          "①과 ②를 같은 모양으로 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "be동사 + 과거분사 (+ by ~): ~되다, ~받다\nThe window was broken by Tom.  시제와 수는 be동사로",
+      "do": "be동사 + 과거분사",
+      "dont": "This cake made by Mom. / by she",
+      "review": [
+        {
+          "text": "수동태로 바꾸면?\nMom cleans the room."
+        },
+        {
+          "text": "알맞은 것은?\nThe cups (was / were)\nwashed."
+        },
+        {
+          "text": "뜻은?\nMy bike was found\nin the park."
+        }
+      ],
+      "next": "수동태 부정문·의문문",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“수동태는 어떤 모양이었지? 누가 했는지는 어디에 써?”",
+          "“was와 were는 무엇을 보고 골랐지?”"
+        ],
+        "예상답": [
+          "“be동사 + 과거분사요. by 뒤에 써요.” “지난 일인지, 주어가 하나인지 여럿인지 봐요.”"
+        ],
+        "정답": [
+          "① The room is cleaned by Mom.",
+          "② were",
+          "③ 내 자전거가 공원에서 발견됐어요."
+        ],
+        "주의": [
+          "집안일을 마친 뒤 “The dishes were washed by me!”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘수동태 부정문·의문문’에서는 It isn't made in China. / Was it made in Korea? 처럼 수동태로 아니라고 말하고 묻는 방법과, can be used처럼 조동사가 있는 수동태를 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(과거형·과거분사와 was·were 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 과거분사와 was·were",
+      "layout": "support",
+      "text": "소리 내어 읽고, 가린 칸을 맞혀요.",
+      "table": {
+        "headers": [
+          "동사",
+          "과거형",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "make",
+            "made",
+            "made"
+          ],
+          [
+            "write",
+            "wrote",
+            "written"
+          ],
+          [
+            "take",
+            "took",
+            "taken"
+          ],
+          [
+            "eat",
+            "ate",
+            "eaten"
+          ],
+          [
+            "see",
+            "saw",
+            "seen"
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.35,
+          0.35
+        ],
+        "width": 10,
+        "size": 24
+      },
+      "key": {
+        "title": "was와 were",
+        "text": "I, he, she, it, 하나 → was     you, we, they, 여럿 → were"
+      },
+      "notes": {
+        "목적": "S02에서 과거분사나 was·were가 흔들리면, 수동태를 배우기 전에 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“한 줄씩 소리 내어 읽어 보자. make, made, made.”",
+          "“과거분사 칸을 가릴게. write는?” (아이: “written!”) “take는?” (아이: “taken!”)",
+          "“엄마(아빠)가 주어를 말하면 was나 were로 답해 봐. the cookies!” (아이: “were!”) “my bag!” (아이: “was!”)"
+        ],
+        "정답": [
+          "made, written, taken, eaten, seen / the cookies → were, my bag → was"
+        ],
+        "막히면": [
+          "표의 한 칸을 손으로 가리고 하나씩 맞히게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘분사의 명사 수식’(KR22-G09-ENG-PARTICIPLE-L01)과 중1 ‘과거 시제 문장’(KR22-G07-ENG-PAST-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "수동태 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "동사의 과거분사를 쓰세요. ★는 새 모양이에요.",
+        "table": {
+          "headers": [
+            "동사",
+            "과거분사",
+            "동사",
+            "과거분사"
+          ],
+          "rows": [
+            [
+              "clean",
+              "",
+              "break",
+              ""
+            ],
+            [
+              "make",
+              "",
+              "★ build",
+              ""
+            ],
+            [
+              "write",
+              "",
+              "★ sell",
+              ""
+            ],
+            [
+              "take",
+              "",
+              "★ find",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "size": 14
+        },
+        "answer": "cleaned, made, written, taken / broken, built, sold, found. 여덟 개 가운데 일곱 개 이상이면 통과. wrote, took, broke처럼 과거형을 쓰면 S04 표로 다시 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "is, are, was, were 가운데 알맞은 것을 빈칸에 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This bread ________ baked every morning."
+            ],
+            [
+              "② These cars ________ made in Korea."
+            ],
+            [
+              "③ The bridge ________ built in 2005."
+            ],
+            [
+              "④ The letters ________ written by Grandma last year."
+            ],
+            [
+              "⑤ The lost dog ________ found by a police officer yesterday."
+            ],
+            [
+              "⑥ Many trees ________ planted last spring."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① is ② are ③ was ④ were ⑤ was ⑥ were. 여섯 개 가운데 다섯 개 이상이면 통과. ①②는 지금·늘 하는 일, ③~⑥은 지난 일(2005, last year, yesterday, last spring)입니다. (bake: 굽다, bridge: 다리, lost: 잃어버린, police officer: 경찰관, plant: 심다)"
+      },
+      {
+        "no": 3,
+        "prompt": "수동태 문장으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Jisu cleans the classroom.",
+              ""
+            ],
+            [
+              "② Mr. Lee built this house.",
+              ""
+            ],
+            [
+              "③ Many teens love the game.",
+              ""
+            ],
+            [
+              "④ He broke these cups.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① The classroom is cleaned by Jisu. ② This house was built by Mr. Lee. ③ The game is loved by many teens. ④ These cups were broken by him. 네 개 가운데 세 개 이상이면 통과. be동사를 빠뜨리거나 by he로 쓰면 S05·S07을 다시 봅니다. (teen: 10대)"
+      },
+      {
+        "no": 4,
+        "prompt": "by가 없는 수동태 문장이에요. 우리말 뜻을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① French is spoken in Canada.",
+              ""
+            ],
+            [
+              "② The library was built 50 years ago.",
+              ""
+            ],
+            [
+              "③ My lost cat was found near the school.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.6,
+            0.4
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① 캐나다에서는 프랑스어가 쓰여요. ② 그 도서관은 50년 전에 지어졌어요. ③ 잃어버린 우리 고양이가 학교 근처에서 발견됐어요. 세 개 가운데 두 개 이상이면 통과. ‘프랑스어가 캐나다를 말한다’처럼 주어가 한 일로 해석하면 S03을 다시 봅니다. 캐나다에서는 영어와 프랑스어를 함께 씁니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① My sister made this cake.\n(수동태로)",
+              ""
+            ],
+            [
+              "② The windows (was / were) cleaned yesterday.\n(알맞은 것)",
+              ""
+            ],
+            [
+              "③ English is spoken in Australia.\n(뜻)",
+              ""
+            ],
+            [
+              "④ Dad took these photos.\n(수동태로)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.62,
+            0.38
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① This cake was made by my sister. ② were ③ 호주에서는 영어가 쓰여요. ④ These photos were taken by Dad. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 이야기를 수동태로 세 문장 쓰세요(집안일 하나, Made in ~ 하나, by가 없는 문장 하나).",
+        "eng": {
+          "trace": [
+            "This cake was made by my mom.",
+            "French is spoken in Canada."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: The dishes were washed by me. / My bag was made in Vietnam. / Our house was built in 2010.). be동사 + 과거분사, 주어에 맞는 was·were, by 뒤의 모양(me, him, her), 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① Mom cleans the room.을 수동태로 바꾸어 쓰세요.\n② The cups (was / were) washed.에서 알맞은 것을 쓰세요.\n③ My bike was found in the park.의 뜻을 쓰세요.",
+        "lines": 3,
+        "answer": "① The room is cleaned by Mom. ② were ③ 내 자전거가 공원에서 발견됐어요. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S14 능동·수동 고르기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "This cake made by ~처럼 be동사를 빠뜨리거나 by she처럼 씀: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07"
 }

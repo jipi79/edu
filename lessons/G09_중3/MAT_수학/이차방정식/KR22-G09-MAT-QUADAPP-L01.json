@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G09-MAT-QUADAPP-L01",
+  "concept_id": "MAT-QUADAPP",
+  "title": "이차방정식의 활용",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "이차방정식",
+  "sequence": 4,
+  "file_stem": "중3_수학_이차방정식_04_이차방정식의활용",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-MAT-I01"
+    ],
+    "units": [
+      "2.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "문장으로 된 문제에서 이차방정식을 세워 풀고 문제의 조건에 맞는 해를 고른다.",
+  "prerequisites": [
+    {
+      "text": "근의 공식",
+      "lesson": "KR22-G09-MAT-QUADFORM-L01",
+      "grade_item": "KR22-G09-MAT-I01"
+    },
+    {
+      "text": "일차방정식의 활용",
+      "lesson": "KR22-G07-MAT-EQAPP-L01",
+      "grade_item": "KR22-G07-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "이차방정식의 활용 활동지",
+    "items": [],
+    "record": []
+  }
+}

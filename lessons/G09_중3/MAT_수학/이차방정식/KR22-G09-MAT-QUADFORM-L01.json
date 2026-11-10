@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G09-MAT-QUADFORM-L01",
+  "concept_id": "MAT-QUADFORM",
+  "title": "근의 공식",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "이차방정식",
+  "sequence": 3,
+  "file_stem": "중3_수학_이차방정식_03_근의공식",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-MAT-I01"
+    ],
+    "units": [
+      "2.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "근의 공식을 이용해 이차방정식을 풀고 근호를 포함한 해를 간단히 나타낸다.",
+  "prerequisites": [
+    {
+      "text": "이차방정식 풀이(제곱근)",
+      "lesson": "KR22-G09-MAT-QUADSQRT-L01",
+      "grade_item": "KR22-G09-MAT-I01"
+    },
+    {
+      "text": "근호의 덧셈과 뺄셈",
+      "lesson": "KR22-G09-MAT-SQRTADD-L01",
+      "grade_item": "KR22-G09-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "근의 공식 활동지",
+    "items": [],
+    "record": []
+  }
+}
