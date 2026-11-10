@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "말투·상황·앞뒤 단서를 근거로 글과 대화에 직접 드러나지 않은 뜻을 추론하고 그 근거를 설명한다.",
   "prerequisites": [
     {
       "text": "요지와 세부 정보",
@@ -38,19 +37,883 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "말투(감탄·망설임·짧은 대답·말과 뜻이 반대인 말), 상황(장소·사람 사이를 알려 주는 낱말), 앞뒤 단서(질문과 대답, 상대의 반응, 행동과 까닭)를 찾아 대화와 글에 직접 쓰이지 않은 뜻(진짜 하고 싶은 말, 기분, 장소·관계)을 추론한다.",
+      "evidence": "숨은 뜻의 단서 세 가지(S03), 대화로 추론하기(S04), 짧은 대화 세 개(S06), 말과 뜻이 반대일 때(S08), 일기의 기분(S09 ①), 말투 연기 맞히기(S10), 혼자 해 보기(S11), 듣고 추론하기(S13), 활동지 1·2·3",
+      "success": "처음 보는 대화 문제 6개(S11 3개, S13 3개) 가운데 5개 이상에서 숨은 뜻(장소, 기분, 진짜 바라는 것)을 바르게 추론한다. 우리말로 답해도 된다."
+    },
+    {
+      "id": "B",
+      "text": "추론한 답마다 근거가 되는 단서 문장을 따옴표로 그대로 옮기고 ‘“~”라고 했으니까 ~이다’로 이어 말하며, 단서 없이 지나치게 짐작한 답(톰은 게을러요)을 가려낸다.",
+      "evidence": "근거 말하기(S05), 근거 있는 추론과 지나친 짐작 비교(S07), 일기의 근거(S09 ②), 말투 연기 맞히기(S10), 혼자 해 보기(S11), 듣고 추론하기(S13), 활동지 1·2·3·4",
+      "success": "S11의 세 답 모두에 글의 단서 문장을 그대로 옮긴 근거를 대고, 활동지 4의 추론 3개에서 근거가 있는 것과 지나친 짐작을 모두 바르게 가려낸다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "형광펜이나 색연필(단서에 밑줄 긋기)",
+    "종이 다섯 장과 펜(상황 카드)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "직접 쓴 짧은 대화(2~4줄)와 일기에서 말하는 사람의 진짜 뜻(돌려 말한 거절·부탁), 기분, 장소·관계를 추론하고, 근거를 단서 문장으로 댄다. 말투는 감탄(Wow!, Oh, no.), 망설임(Um..., Hmm...), 짧은 대답, 말과 뜻이 반대인 말(Oh, great.) 정도만 다루며, 부모가 대본을 읽을 때 말투를 살려 읽는다. 기분을 나타내는 낱말은 happy, sad, angry, nervous(긴장한), worried(걱정하는), embarrassed(창피한), disappointed(실망한), excited(신난), proud(자랑스러운), bored(지루한) 정도로 쓰고 우리말로 답해도 된다. 시의 함축, 글쓴이의 의도·목적 고르기, 빈칸 추론, 영어 속담·관용어는 다루지 않는다. 글 속 문법은 지금까지 배운 것이며 새 낱말(left, hurts, go ahead 등)은 뜻만 알려 준다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "글에 쓰인 낱말의 뜻 그대로만 답한다(Oh, great.이니까 기분이 좋다 / Yes·No가 없으니 알 수 없다).",
+      "response": "S04에서 Yes·No가 없는 대답의 숨은 뜻을 시범으로 보여 주고, S08에서 말과 뜻이 반대인 말을 앞뒤 단서로 판단하게 한다. S10 말투 연기와 활동지 3에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "단서 없이 자기 경험이나 상상으로 지나치게 짐작한다(톰은 게을러서 청소를 안 했다).",
+      "response": "S03 열쇠 문장(추론에는 근거가 있어야 한다)과 S07 비교로 지나친 짐작을 가려내고, S12 정답 장과 활동지 4에서 다시 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "근거를 ‘그냥, 느낌으로’라고 하거나 단서를 대충 줄여 말하고 문장을 그대로 옮기지 않는다.",
+      "response": "S05에서 단서를 따옴표로 그대로 옮겨 ‘“~”라고 했으니까’로 잇는 틀을 주고, S06·S09·S11에서 매번 근거를 말하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "한 사람의 말만 보고 판단하고 상대의 반응(앞뒤)을 확인하지 않는다(It's hot in here. → 그냥 날씨 이야기).",
+      "response": "S03의 ‘앞뒤 단서’ 카드와 S04의 Maybe next time, S06 ③의 I'll open the window.처럼 상대의 반응이 추론을 확인해 준다는 것을 보여 준다. S13 ③에서 확인한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "함축된 의미 추론",
+      "question": "“I have a big math test tomorrow.”\n‘영화 보러 갈래?’의 대답이라면 진짜 뜻은?",
+      "goals": [
+        "① 말투·상황·앞뒤 단서로 숨은 뜻을 추론해요.",
+        "② 단서 문장을 그대로 들어 근거를 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Mina: Do you want to go\nto the movies tonight?"
+          },
+          {
+            "word": "Jun: Hmm... I have a big\nmath test tomorrow."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 말로 직접 하지 않은 뜻(숨은 뜻)을 단서로 알아내는 데 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 대화를 같이 읽어 보자.” (부모가 Mina, 아이가 Jun을 맡아 읽습니다.)",
+          "“미나가 ‘오늘 밤 영화 보러 갈래?’라고 물었어. 준은 ‘음... 내일 큰 수학 시험이 있어.’라고 했어. 준은 Yes나 No라고 했니? 안 했지? 그런데 준이 갈지 안 갈지 알 수 있을까?”",
+          "“이렇게 직접 말하지 않은 뜻을 ‘함축된 의미’라고 해. 오늘은 단서를 찾아 숨은 뜻을 알아내고(추론), 그렇게 생각한 근거를 말하는 연습을 할 거야.”"
+        ],
+        "예상답": [
+          "“안 갈 것 같아요. 시험 공부를 해야 하니까요.”"
+        ],
+        "막히면": [
+          "“우리말로 친구가 ‘내일 시험이야.’라고만 대답하면 어떤 뜻일까?”라고 생활 속 예로 묻습니다."
+        ],
+        "주의": [
+          "오늘은 부모님이 대화를 말투를 살려 읽어 주는 것이 중요합니다. 한숨(Hmm..., Um...), 놀람(Wow!), 힘없는 목소리를 조금 과장해도 좋습니다. S13의 대본은 노트와 안내서에만 있으니 미리 소리 내어 읽어 보세요. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱으로 확인해 두세요.",
+          "‘함축’, ‘추론’은 시험에 나오는 말입니다. 아이에게는 ‘숨은 뜻’, ‘단서로 알아내기’로 풀어 말해 줍니다. 답은 우리말로 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "passage",
+      "section": "도입",
+      "purpose": "선수 학습 확인(요지와 세부 정보)",
+      "role": "prior",
+      "objectives": [],
+      "title": "짧은 메시지 읽기",
+      "text": "메시지를 읽고 질문에 답해요.  scarf 목도리",
+      "passage": {
+        "paragraphs": [
+          "Hi, Sumi! Thank you for the scarf. I wear it every day because it is so warm. My mom says the color looks good on me, too. Let's meet this Saturday. I'll buy you lunch!",
+          {
+            "text": "Hana",
+            "align": "right"
+          }
+        ]
+      },
+      "question": "① 요지를 한 문장으로\n② Hana wears the scarf only on weekends.  (T / F)",
+      "notes": {
+        "목적": "지난 차시 ‘요지와 세부 정보’(KR22-G09-ENG-MAINDET-L01)의 요지 한 문장 쓰기와 T/F 판단을 기억하는지 확인합니다. 숨은 뜻을 추론하려면 먼저 쓰인 내용을 정확히 읽어야 합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“메시지를 끝까지 읽어 볼래?”",
+          "“①, 하나가 이 메시지를 보낸 까닭을 한 문장으로 말해 줘.”",
+          "“②는 T야, F야? 근거는?”"
+        ],
+        "정답": [
+          "① 하나가 수미에게 목도리를 선물해 준 것을 고마워하며 토요일에 만나 점심을 사겠다고 하는 메시지.",
+          "② F (I wear it every day. 매일 해요.)"
+        ],
+        "막히면": [
+          "①에서 ‘목도리가 따뜻해요’라고만 하면 “그건 세부 정보야. 하나가 수미에게 가장 하고 싶은 말은? 첫 문장을 봐.”라고 묻습니다.",
+          "두 문제 모두 어렵다면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "메시지의 뜻: 안녕, 수미야! 목도리 고마워. 정말 따뜻해서 매일 하고 다녀. 엄마도 색이 나한테 잘 어울린대. 이번 토요일에 만나자. 내가 점심 살게! 하나가."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "추론의 단서 세 가지와 근거의 필요성",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "숨은 뜻의 단서 세 가지",
+      "text": "추론: 글에 있는 단서 + 내가 아는 것 → 숨은 뜻",
+      "cards": [
+        {
+          "title": "말투",
+          "text": "감탄, 망설임, 짧은 대답\nWow! / Hmm... / Oh, no."
+        },
+        {
+          "title": "상황",
+          "text": "장소·사람 사이를 알려 주는 낱말\nticket, seat, menu, teeth"
+        },
+        {
+          "title": "앞뒤 단서",
+          "text": "질문과 대답이 맞는지,\n상대가 어떻게 반응하는지"
+        }
+      ],
+      "key": "추론에는 꼭 근거가 있어야 해요. 근거 = 글에 있는 단서 문장",
+      "notes": {
+        "목적": "추론(단서로 숨은 뜻 알아내기)의 뜻과 단서 세 가지(말투, 상황, 앞뒤)를 알려 주고, 추론에는 글 속 근거가 꼭 있어야 한다는 것을 짚습니다(목표 A, 오해 M2·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“추론은 글에 있는 단서와 네가 이미 아는 것을 합쳐서 숨은 뜻을 알아내는 거야. 탐정처럼!”",
+          "“단서는 세 가지야. 첫째, 말투. Wow!는 신난 거고, Hmm...은 망설이는 거지. 둘째, 상황. ticket, seat 같은 낱말이 나오면 어디인지 알 수 있어. 셋째, 앞뒤. 질문에 맞는 대답인지, 상대가 어떻게 반응했는지 봐.”",
+          "“그런데 단서 없이 ‘그냥 그럴 것 같아’는 추론이 아니라 짐작이야. 추론에는 꼭 글 속 근거가 있어야 해.”"
+        ],
+        "예상답": [
+          "“말투, 상황, 앞뒤요.” “근거가 있어야 해요.”"
+        ],
+        "막히면": [
+          "“엄마(아빠)가 문을 쾅 닫고 ‘괜찮아.’라고 하면 진짜 괜찮은 걸까? 무엇을 보고 알았어?”처럼 생활 속 예로 단서를 찾게 합니다."
+        ],
+        "주의": [
+          "teeth는 tooth(이)의 여럿입니다. ‘내가 아는 것’은 상식(비행기에서는 안전띠를 맨다 등)을 말하며, 글에 없는 사람의 성격이나 사정을 지어내는 것과는 다릅니다(오해 M2)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "대화에서 숨은 뜻 추론(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "숨은 뜻 찾기: 대화",
+      "passage": {
+        "paragraphs": [
+          "Mina: Do you want to go to the movies tonight?",
+          "Jun: Hmm... I have a big math test tomorrow.",
+          "Mina: Oh, I see. Maybe next time, then."
+        ]
+      },
+      "question": "준은 오늘 밤 영화를 보러 갈까요? 단서는 무엇인가요?",
+      "notes": {
+        "목적": "Yes·No가 없는 대답에서 말투·까닭·상대의 반응을 단서로 숨은 뜻(거절)을 추론하는 과정을 보여 줍니다(목표 A, 오해 M1·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)와 역할을 나누어 읽어 보자. 너는 Jun이야. Hmm...은 망설이듯이 읽어.”",
+          "“준은 갈까, 안 갈까? 단서 세 가지로 찾아보자. 말투는? Hmm...으로 망설였어. 까닭은? 내일 큰 수학 시험이 있대.”",
+          "“앞뒤도 보자. 미나가 마지막에 Maybe next time, then.(그럼 다음에 가자)이라고 했어. 미나도 준의 말을 어떻게 알아들었을까?”",
+          "“그러니까 준의 숨은 뜻은?”"
+        ],
+        "예상답": [
+          "“안 가요. 시험 공부를 해야 해서요.” “미나도 거절이라고 알아들어서 다음에 가자고 했어요.”"
+        ],
+        "막히면": [
+          "“준이 영화 보러 가고 싶었다면 뭐라고 했을까? Sure! 같은 말을 했겠지?”라고 반대 경우를 떠올리게 합니다."
+        ],
+        "주의": [
+          "모범 답: 준은 영화를 보러 가지 않아요(돌려서 거절했어요). 근거: “Hmm...”(망설임), “I have a big math test tomorrow.”(까닭), 미나의 “Maybe next time, then.”(상대도 거절로 알아들음).",
+          "대화의 뜻: 미나: 오늘 밤 영화 보러 갈래? / 준: 음... 내일 큰 수학 시험이 있어. / 미나: 아, 그렇구나. 그럼 다음에 가자."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "근거를 단서 문장으로 대는 방법",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "근거는 단서를 그대로",
+      "text": "추론한 다음에는 근거를 이렇게 말해요.",
+      "steps": [
+        "질문을 다시 읽어요.",
+        "단서가 되는 말에 밑줄을 그어요.",
+        "단서를 따옴표(“ ”)로 그대로 옮겨요.",
+        "“~”라고 했으니까 ~예요.\n로 이어 말해요."
+      ],
+      "figureRatio": 0.52,
+      "figure": {
+        "type": "table",
+        "headers": [
+          "추론",
+          "근거 (단서 그대로)"
+        ],
+        "rows": [
+          [
+            "준은 영화를 보러\n가지 않아요.",
+            "“I have a big math\ntest tomorrow.”"
+          ],
+          [
+            "미나도 거절로\n알아들었어요.",
+            "“Maybe next time,\nthen.”"
+          ]
+        ],
+        "widths": [
+          0.46,
+          0.54
+        ],
+        "width": 6,
+        "size": 20,
+        "alt": "왼쪽 칸에 추론, 오른쪽 칸에 그 근거가 되는 대화 문장을 그대로 옮긴 표"
+      },
+      "key": "“I have a big math test tomorrow.”라고 했으니까 못 가요.",
+      "notes": {
+        "목적": "추론의 근거를 단서 문장 그대로 옮겨 ‘“~”라고 했으니까 ~예요’로 말하는 방법을 보여 줍니다(목표 B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“근거를 말할 때 ‘그냥 느낌으로요’는 안 돼. 글에 있는 단서 문장을 따옴표로 그대로 옮겨.”",
+          "“표를 봐. 추론 ‘준은 영화를 보러 가지 않아요’의 근거는 “I have a big math test tomorrow.”야. 이걸 이어서 말하면 아래 카드처럼 돼.”",
+          "“둘째 줄은 네가 말해 볼래? ‘미나도 거절로 알아들었어요’의 근거를 이어서.”"
+        ],
+        "예상답": [
+          "“‘Maybe next time, then.’이라고 했으니까 미나도 준이 안 간다고 알아들었어요.”"
+        ],
+        "막히면": [
+          "“~라고 했으니까” 틀을 부모가 먼저 말하고, 아이는 따옴표 안의 영어 문장만 읽게 합니다."
+        ],
+        "주의": [
+          "근거는 영어 문장을 그대로 읽고, 이어지는 설명은 우리말로 해도 됩니다. 단서가 여러 개면 가장 분명한 것 하나부터 말하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "짧은 대화에서 장소·관계·바라는 것 추론하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "짧은 대화 세 개",
+      "text": "물음에 답하고, 근거가 되는 말을 짚어요.",
+      "problems": [
+        {
+          "text": "A: Please fasten your seatbelt. We will take off soon.\n→ 두 사람이 있는 곳은?"
+        },
+        {
+          "text": "A: Open your mouth, please. Your teeth look fine.\n→ A의 직업은?"
+        },
+        {
+          "text": "A: It's hot in here.  B: Oh, sorry! I'll open the window.\n→ A가 진짜 바라는 것은?"
+        }
+      ],
+      "hint": "fasten 매다 · take off (비행기가) 뜨다 · teeth 이",
+      "notes": {
+        "목적": "상황 낱말과 앞뒤 단서로 장소·직업·숨은 부탁을 추론하고, 단서 문장을 근거로 댑니다(목표 A·B, 오해 M3·M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "“하나씩 읽고 물음에 답해 줘. 그리고 ‘“~”라고 했으니까’로 근거도 말해 줘.”",
+          "“③은 A의 말만 보면 그냥 날씨 이야기 같지? B가 어떻게 반응했는지 봐.”"
+        ],
+        "정답": [
+          "① 비행기 안. 근거: “Please fasten your seatbelt.”, “We will take off soon.” (안전띠를 매고, 곧 이륙한다고 했으니까)",
+          "② 치과 의사. 근거: “Open your mouth, please.”, “Your teeth look fine.” (입을 벌리게 하고 이를 살폈으니까)",
+          "③ 창문을 열어 시원하게 해 주기를 바라요. 근거: A의 “It's hot in here.”와 B의 “I'll open the window.” (B가 사과하며 창문을 열겠다고 했으니까 A의 말은 부탁이었어요)"
+        ],
+        "막히면": [
+          "①은 “seatbelt를 매고 take off 하는 건 무엇이지?”, ②는 “입을 벌리라고 하고 이를 보는 사람은?”이라고 묻습니다.",
+          "③에서 ‘덥다는 뜻이에요’라고만 하면 “B가 왜 sorry라고 했을까?”라고 묻습니다."
+        ],
+        "주의": [
+          "①은 기차나 버스라고 하면 “take off는 땅에서 하늘로 뜨는 거야.”라고 알려 줍니다. ②는 ‘의사’라고 해도 이(teeth)라는 단서를 말하면 맞게 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(근거 있는 추론과 지나친 짐작)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "추론일까, 짐작일까?",
+      "claim": "Mom: Did you clean your room?  Tom: Um... I was really busy today.\n톰은 방을 청소했을까요? 두 친구가 이렇게 답했어요.",
+      "left": {
+        "title": "가",
+        "text": "청소하지 않았어요.\n“Um... I was really busy\ntoday.”라며 망설였으니까요."
+      },
+      "right": {
+        "title": "나",
+        "text": "청소하지 않았어요.\n톰은 게을러서 늘 청소를\n싫어하니까요."
+      },
+      "question": "근거가 있는 쪽은? 다른 쪽은 무엇이 문제인가요?",
+      "notes": {
+        "목적": "글 속 단서를 근거로 한 추론과, 단서 없이 지어낸 짐작을 비교해 가려냅니다(목표 B, 오해 M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구의 답은 똑같이 ‘청소하지 않았어요’야. 그런데 근거가 달라. 어느 쪽이 대화 속 단서를 근거로 들었어?”",
+          "“톰이 게으르다는 말이 대화에 있어? ‘늘 청소를 싫어한다’는?”"
+        ],
+        "정답": [
+          "근거가 있는 쪽은 가입니다. 가는 대화의 단서(“Um...”, “I was really busy today.”, Yes라고 하지 않음)를 근거로 들었습니다. 나는 ‘게으르다, 늘 싫어한다’처럼 대화에 없는 내용을 지어낸 지나친 짐작입니다."
+        ],
+        "막히면": [
+          "나의 근거 낱말(게을러서, 늘)에 밑줄을 긋고, 대화에서 같은 말을 찾아보게 합니다. 찾을 수 없으면 근거가 아닙니다."
+        ],
+        "주의": [
+          "답이 맞아도 근거가 글에 없으면 좋은 추론이 아닙니다. 시험에서도 보기의 근거가 글에 있는지 확인해야 합니다.",
+          "여기까지가 대화에서 숨은 뜻과 근거 찾기입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "말과 뜻이 반대인 말(반어)과 말투 단서",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "말과 뜻이 반대일 때",
+      "text": "말투와 앞뒤를 보면 말과 반대인 진짜 뜻이 보여요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "Oh, great. It's raining again.",
+            "sub": "정말 좋다? → 사실은 짜증이 나요"
+          },
+          {
+            "word": "And I left my umbrella at home.",
+            "sub": "단서: again, 우산을 두고 왔어요",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "말투",
+          "text": "힘없이, 한숨 쉬며 말하면\n말과 뜻이 반대일 수 있어요."
+        },
+        {
+          "title": "앞뒤 단서",
+          "text": "또(again) 비가 오고\n우산도 없어요 → 기분이 나빠요."
+        }
+      ],
+      "key": "great가 늘 ‘좋다’는 아니에요. 말투와 앞뒤를 보고 판단해요.",
+      "notes": {
+        "목적": "말의 뜻과 진짜 뜻이 반대인 경우(반어)를 말투와 앞뒤 단서로 알아차리는 방법을 알려 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 두 번 읽어 볼게. 한 번은 신나게, 한 번은 한숨 쉬며. Oh, great!” (신나게) “Oh... great.” (한숨 쉬며)",
+          "“같은 great인데 느낌이 다르지? 아래 문장을 보자. 비가 again(또) 오고, 우산을 집에 두고 왔대. 이 사람은 정말 기쁠까?”",
+          "“그럼 이 사람의 진짜 기분은? 근거는?”"
+        ],
+        "예상답": [
+          "“짜증 나요(속상해요). “again”이라고 했고 “I left my umbrella at home.”이라고 했으니까요.”"
+        ],
+        "막히면": [
+          "“우리말로 친구가 비 오는 날 우산도 없이 ‘아, 좋다~ 좋아.’라고 하면 진짜 좋은 거야?”라고 묻습니다."
+        ],
+        "주의": [
+          "left는 leave(두고 오다, 떠나다)의 과거형입니다. 뜻만 알려 줍니다.",
+          "말과 뜻이 반대인 말은 우리말 시간에 배운 ‘반어’와 같습니다. 영어 대화에서는 말투와 앞뒤 단서가 함께 있을 때만 이렇게 판단합니다. 단서 없이 모든 great를 반대로 읽지 않게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "일기에서 글쓴이의 기분 추론과 근거",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "일기 읽고 기분 추론하기",
+      "text": "play 연극 · lines 대사 · stage 무대 · turn red 빨개지다",
+      "passage": {
+        "paragraphs": [
+          "Today was the day of our school play. I practiced my lines for three weeks. But on the stage, I didn't remember a word. Everyone was looking at me, and my face turned red. After the play, I didn't talk to anyone. I just went home and stayed in my room."
+        ]
+      },
+      "question": "① 글쓴이의 기분은? (proud / embarrassed / excited)　② 근거 두 개는?",
+      "notes": {
+        "목적": "일기에 직접 쓰이지 않은 글쓴이의 기분을 행동과 상황 단서로 추론하고, 단서 문장 두 개를 근거로 댑니다(목표 A·B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“위의 낱말 뜻을 보고 일기를 끝까지 읽어 볼래? proud는 ‘자랑스러운’, embarrassed는 ‘창피한’, excited는 ‘신난’이야.”",
+          "“일기에 ‘나는 창피했다’라는 말이 있어? 없지? 그런데 기분을 알 수 있을까? 글쓴이가 한 행동과 몸의 변화에 밑줄을 그어 봐.”",
+          "“①의 기분과, ‘“~”라고 했으니까’로 근거 두 개를 말해 줘.”"
+        ],
+        "정답": [
+          "① embarrassed(창피한). 속상하다, 실망했다(disappointed)도 맞습니다.",
+          "② 근거(두 개 이상): “I didn't remember a word.”(대사를 하나도 기억하지 못함), “Everyone was looking at me, and my face turned red.”(모두 보고 있었고 얼굴이 빨개짐), “I didn't talk to anyone.”, “I just went home and stayed in my room.”(아무와도 말하지 않고 방에만 있었음)"
+        ],
+        "막히면": [
+          "“얼굴이 빨개지는 건 언제야?” “신났다면 연극이 끝나고 무엇을 했을까?”라고 묻습니다.",
+          "proud나 excited를 고르면 “그렇게 생각한 문장을 짚어 볼래?”라고 근거를 찾게 하고, 찾지 못하면 다시 읽게 합니다."
+        ],
+        "주의": [
+          "“I practiced my lines for three weeks.”(3주 동안 연습했다)를 근거로 ‘열심히 했는데 실수해서 더 속상했다’고 말하면 아주 잘한 것입니다.",
+          "일기의 뜻: 오늘은 우리 학교 연극 날이었다. 나는 3주 동안 대사를 연습했다. 그런데 무대에서 한 마디도 기억나지 않았다. 모두가 나를 보고 있었고, 얼굴이 빨개졌다. 연극이 끝난 뒤 나는 아무와도 이야기하지 않았다. 그냥 집에 가서 방에만 있었다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "말투 연기를 보고 진짜 기분 추론하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 말투 연기 맞히기",
+      "steps": [
+        "종이 다섯 장에 상황을 써요.\n(예: 시험을 못 봤어요)",
+        "부모가 한 장을 골라 그 기분으로\n말해요: I'm fine.",
+        "아이가 추론해요:\nI think you're sad.",
+        "근거를 말해요: You said it\nin a small voice.",
+        "역할을 바꿔 아이가 연기해요."
+      ],
+      "criteria": [
+        "진짜 기분이나 뜻을 말했어요",
+        "말투나 말을 근거로 들었어요",
+        "I think you're ~.로 말했어요"
+      ],
+      "notes": {
+        "목적": "부모가 상황 카드의 기분으로 짧은 말을 연기하면, 아이가 말투와 말을 단서로 진짜 기분을 추론하고 근거를 댑니다(목표 A·B, 오해 M1·M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“종이 다섯 장에 상황을 하나씩 써 보자. 엄마(아빠)는 카드를 보지 않고 섞을게.”",
+          "상황 카드와 부모가 할 말(예): ① 시험을 못 봤다 → “I'm fine.”(힘없이) ② 새 운동화를 선물 받았다 → “Wow! Thank you!”(크게) ③ 숙제를 집에 두고 왔다 → “Oh, no...”(놀라서) ④ 친구가 30분 늦게 왔다 → “Oh, you're here. Finally.”(퉁명스럽게) ⑤ 저녁에 또 브로콜리가 나왔다 → “Broccoli again? Great.”(한숨 쉬며)",
+          "“엄마(아빠)의 기분은 어떨까? I think you're ~.로 말하고, 근거도 말해 줘. 근거는 우리말로 해도 돼.”",
+          "“이번엔 네가 카드를 골라 연기해 봐. 엄마(아빠)가 맞혀 볼게.”"
+        ],
+        "예상답": [
+          "① “I think you're sad. You said ‘I'm fine’ in a small voice.” ② “I think you're excited. You said ‘Wow!’” ③ “I think you're worried. You said ‘Oh, no...’” ④ “I think you're angry. You said ‘Finally.’” ⑤ “I think you don't like broccoli. You said ‘again’.”",
+          "기준: 말과 반대인 진짜 기분(①⑤)을 알아채고, 말투(작은 목소리, 한숨)나 말(Finally, again)을 근거로 들면 잘한 것입니다. 기분 낱말은 sad, excited, worried, angry, happy 가운데 고르거나 우리말로 말해도 됩니다."
+        ],
+        "막히면": [
+          "기분 낱말이 떠오르지 않으면 부모가 “sad? happy? angry?” 하고 보기를 세 개 줍니다.",
+          "근거가 막히면 “엄마(아빠) 목소리가 컸어, 작았어? 무슨 말을 했지?”라고 묻습니다."
+        ],
+        "주의": [
+          "small voice는 ‘작은 목소리’, finally는 ‘드디어, 마침내’입니다. 연기는 조금 과장해도 좋습니다.",
+          "아이가 연기할 때 부모도 일부러 틀리게 추론해 보고(“I think you're happy.”), 아이가 “No. I said it in a small voice.”처럼 근거를 들어 고쳐 주게 해도 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 해 보기(장소·기분·바라는 것 추론과 근거)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 추론해요",
+      "text": "order 주문하다 · hair 머리카락 · right away 바로",
+      "passage": {
+        "paragraphs": [
+          "Customer: Excuse me. I ordered this soup thirty minutes ago.",
+          "Waiter: Oh, I'm so sorry. Is there a problem?",
+          "Customer: Well, it's cold. And there's a hair in it.",
+          "Waiter: I'm really sorry. I'll bring you a new one right away."
+        ]
+      },
+      "question": "① 장소는?　② 손님의 기분은?　③ 바라는 것은?　(근거도)",
+      "notes": {
+        "목적": "도움 없이 처음 보는 대화에서 장소·기분·바라는 것을 추론하고, 답마다 단서 문장을 근거로 대는지 확인합니다(목표 A·B). 활동지에는 비슷한 대화가 있습니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 위의 낱말 뜻을 보고 대화를 읽은 다음, 세 질문에 답하고 근거도 말해 줘.”"
+        ],
+        "정답": [
+          "① 식당. 근거: “I ordered this soup ~”, Waiter(종업원)",
+          "② 화가 났어요, 불만이에요(angry, upset). 근거: “I ordered this soup thirty minutes ago.”(30분이나 기다림), “it's cold”, “there's a hair in it”",
+          "③ 새 수프(문제를 해결해 주는 것). 근거: 종업원의 “I'll bring you a new one right away.”(상대의 반응)",
+          "기준: 세 답 모두 맞고 각각 단서 문장을 그대로 근거로 대면 통과. 답은 맞지만 근거를 ‘그냥요’라고 하면 목표 B는 아직입니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “어떤 낱말이 장소를 알려 줘?” “30분이나 기다렸고 수프가 차가우면 기분이 어떨까?” “종업원은 어떻게 하겠다고 했지?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "대화의 뜻: 손님: 저기요. 이 수프를 30분 전에 주문했는데요. / 종업원: 아, 정말 죄송합니다. 무슨 문제가 있나요? / 손님: 음, 차가워요. 그리고 머리카락이 들어 있어요. / 종업원: 정말 죄송합니다. 바로 새것으로 가져다드릴게요."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 답",
+      "good": [
+        {
+          "text": "① 식당 — “I ordered this soup”"
+        },
+        {
+          "text": "② 화가 났어요 — “it's cold”,\n“there's a hair in it”"
+        },
+        {
+          "text": "③ 새 수프 — “I'll bring you\na new one right away.”"
+        }
+      ],
+      "bad": [
+        {
+          "text": "① 집 부엌",
+          "note": "ordered,\nWaiter를 놓침"
+        },
+        {
+          "text": "② 배가 고파요",
+          "note": "글에 단서가\n없어요"
+        },
+        {
+          "text": "근거: 그냥요",
+          "note": "단서 문장을\n그대로 옮겨요"
+        }
+      ],
+      "explain": "추론 + 근거(단서를 그대로) → “~”라고 했으니까 ~예요",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 답하면 무엇이 부족할까?”"
+        ],
+        "예상답": [
+          "“ordered랑 Waiter가 있으니까 식당이에요.” “배고프다는 단서는 없어요.” “근거는 문장을 그대로 말해야 해요.”"
+        ],
+        "정답": [
+          "① 식당 ② 화남·불만 ③ 새 수프(문제 해결) — 각각 단서 문장 근거"
+        ],
+        "막히면": [
+          "추론이 틀렸으면 S03(단서 세 가지)·S06(짧은 대화), 근거가 부족했으면 S05(근거 말하기)·S07(추론과 짐작)을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(말투를 살린 대화 듣고 추론하기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "듣고 추론해요",
+      "text": "엄마(아빠)가 읽어 주는 대화를 듣고 답해요. 근거도 말해요.",
+      "problems": [
+        {
+          "text": "유리는 시험을 잘 봤을까요?"
+        },
+        {
+          "text": "진이 방을 청소한 까닭은?"
+        },
+        {
+          "text": "A가 바라는 것은?"
+        }
+      ],
+      "notes": {
+        "목적": "말투를 살려 읽어 주는 처음 듣는 대화에서 숨은 뜻을 추론하고 근거가 되는 말을 대는지 확인합니다(목표 A·B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“대화를 하나씩 두 번 읽어 줄게. 들은 다음 답하고, 어떤 말을 듣고 알았는지 말해 줘.”",
+          "부모가 읽을 대본 ①: Dad: How was your test today? / Yuri: (한숨 쉬며) Don't ask. I don't want to talk about it.",
+          "부모가 읽을 대본 ②: Mom: Wow, your room is so clean! / Jin: Thanks, Mom. So... can I play games now?",
+          "부모가 읽을 대본 ③: A: Are you going to eat that last piece of pizza? / B: No, go ahead."
+        ],
+        "정답": [
+          "① 잘 못 봤어요(속상해요). 근거: “Don't ask.”, “I don't want to talk about it.”, 한숨",
+          "② 게임을 하려고(게임 허락을 받으려고). 근거: “So... can I play games now?”",
+          "③ 마지막 피자 한 조각을 먹고 싶어요. 근거: “Are you going to eat that last piece of pizza?”와 B의 “No, go ahead.”(먹어도 돼)",
+          "기준: 세 개 모두 숨은 뜻을 맞히고 근거가 되는 말을 대면 목표 달성입니다. 우리말로 답해도 됩니다."
+        ],
+        "막히면": [
+          "한 번 더 읽어 주되 단서가 되는 말을 조금 강조해 읽습니다(모두 세 번까지).",
+          "③이 어려우면 “go ahead는 ‘그렇게 해, 먹어’라는 뜻이야. B가 왜 먹으라고 했을까?”라고 묻습니다."
+        ],
+        "주의": [
+          "대본은 부모님만 봅니다. 이 장의 대본은 화면에 나오지 않습니다. ①은 한숨을 쉬며 힘없이, ②는 기대하는 목소리로 읽어 주세요.",
+          "대화의 뜻: ① 아빠: 오늘 시험 어땠니? / 유리: 묻지 마세요. 그 얘기 하고 싶지 않아요. ② 엄마: 와, 방이 정말 깨끗하네! / 진: 고마워요, 엄마. 그래서... 이제 게임 해도 돼요? ③ A: 그 마지막 피자 한 조각 먹을 거야? / B: 아니, 먹어."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "숨은 뜻 = 단서(말투·상황·앞뒤) + 내가 아는 것\n근거: “~”라고 했으니까 ~예요.",
+      "do": "단서 문장을 그대로 옮기기",
+      "dont": "단서 없이 짐작하기",
+      "review": [
+        {
+          "text": "추론의 단서\n세 가지는?"
+        },
+        {
+          "text": "진짜 기분은?\nOh, great. It's\nraining again."
+        },
+        {
+          "text": "숨은 뜻과 근거는?\nA: Let's play soccer!\nB: My leg hurts."
+        }
+      ],
+      "next": "간접의문문",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“숨은 뜻을 알아낼 때 무엇을 단서로 썼지?”",
+          "“추론한 다음 근거는 어떻게 말했지?”"
+        ],
+        "예상답": [
+          "“말투, 상황, 앞뒤요.” “단서 문장을 그대로 옮겨서 ‘~라고 했으니까’로 말해요.”"
+        ],
+        "정답": [
+          "① 말투, 상황(장소·사람 사이를 알려 주는 낱말), 앞뒤 단서(질문과 대답, 상대의 반응)",
+          "② 짜증 나요(속상해요). 근거: again(또) 비가 온다.",
+          "③ B는 축구를 하지 않겠다(못 한다). 근거: “My leg hurts.”(다리가 아프다)"
+        ],
+        "주의": [
+          "드라마나 만화를 함께 볼 때 “지금 저 사람의 진짜 기분은? 무엇을 보고 알았어?”라고 물어보면 좋은 복습이 됩니다. 다음 차시 ‘간접의문문’에서는 Do you know where ~? / I wonder if ~.처럼 질문을 문장 속에 넣어 공손하게 묻는 방법을 배웁니다. (hurt: 아프다)"
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "passage",
+      "section": "보충",
+      "purpose": "보충(세부 정보 낱말에서 상황 알아내기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 낱말로 장소 알아내기",
+      "layout": "support",
+      "text": "대화를 읽고, 장소를 알려 주는 낱말에 밑줄을 그어요.",
+      "passage": {
+        "paragraphs": [
+          "Clerk: Hello. What would you like?",
+          "Boy: A cheeseburger and a cola, please.",
+          "Clerk: For here or to go?",
+          "Boy: To go, please."
+        ]
+      },
+      "question": "① 여기는 어디일까요?　② 어떤 낱말을 보고 알았나요?",
+      "notes": {
+        "목적": "S02에서 요지·세부 정보 찾기가 흔들리면, 대화 속 낱말(세부 정보)을 정확히 찾아 장소를 알아내는 쉬운 추론부터 다시 연습합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)와 역할을 나누어 읽어 보자. 너는 Boy야.”",
+          "“음식 이름이 나오는 낱말에 밑줄을 그어 볼래? For here or to go?는 ‘여기서 드실 건가요, 가져가실 건가요?’라는 뜻이야.”",
+          "“그럼 여기는 어디일까? 무엇을 보고 알았어?”"
+        ],
+        "정답": [
+          "① 햄버거 가게(패스트푸드점)",
+          "② cheeseburger, cola, “For here or to go?”"
+        ],
+        "막히면": [
+          "문장마다 뜻을 부모가 먼저 말해 주고, “치즈버거와 콜라를 파는 곳은?”이라고 묻습니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘요지와 세부 정보’(KR22-G09-ENG-MAINDET-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다.",
+          "clerk은 ‘점원’입니다. 쓰인 낱말을 정확히 찾는 것이 추론의 첫걸음이라는 것을 말해 줍니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "함축된 의미 추론 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "대화를 읽고 물음에 답한 뒤, 근거가 되는 말을 그대로 옮겨 쓰세요.",
+        "table": {
+          "headers": [
+            "대화",
+            "물음과 답",
+            "근거 (단서를 그대로)"
+          ],
+          "rows": [
+            [
+              "① A: How much is this T-shirt?\nB: It's 20 dollars. It's on sale today.",
+              "어디일까요?\n\n",
+              ""
+            ],
+            [
+              "② A: Please open your books to page 35.\nB: Ms. Lee, I left my book at home.",
+              "A와 B는\n어떤 사이일까요?\n",
+              ""
+            ],
+            [
+              "③ A: Wow, that cake looks delicious.\nB: Do you want a piece?",
+              "A가 바라는 것은?\n\n",
+              ""
+            ]
+          ],
+          "widths": [
+            0.44,
+            0.22,
+            0.34
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① 옷 가게. 근거: “How much is this T-shirt?”, “It's on sale today.” ② 선생님과 학생. 근거: “Please open your books to page 35.”, “Ms. Lee” ③ 케이크를 먹고 싶다. 근거: “that cake looks delicious”, B의 “Do you want a piece?” 세 개 모두 맞고 근거를 대화에서 그대로 옮기면 통과. (on sale: 할인 중, left: leave(두고 오다)의 과거형, piece: 한 조각)"
+      },
+      {
+        "no": 2,
+        "prompt": "글을 읽고 글쓴이의 기분에 ✔ 하세요. 그렇게 생각한 근거 문장 두 개를 그대로 옮겨 쓰세요.",
+        "read": "Tomorrow is my first piano contest. I have practiced the song every day for a month. But tonight, my hands are cold and my heart is beating fast. I checked my music three times. I can't stop thinking about the contest. I hope I don't make a mistake.",
+        "choices": [
+          "bored (지루한)",
+          "nervous (긴장한)",
+          "angry (화난)",
+          "proud (자랑스러운)"
+        ],
+        "choices_size": 13,
+        "line_label": "근거:",
+        "lines": 2,
+        "answer": "nervous(긴장한). 근거(두 개 이상): “my hands are cold and my heart is beating fast”, “I checked my music three times.”, “I can't stop thinking about the contest.”, “I hope I don't make a mistake.” 기분과 근거 두 개가 맞으면 통과. worried(걱정하는)라고 써도 맞게 봅니다. (contest: 대회, beat: (심장이) 뛰다, music: 악보, mistake: 실수)"
+      },
+      {
+        "no": 3,
+        "prompt": "B의 진짜 기분을 쓰고, 근거가 되는 말을 쓰세요.",
+        "table": {
+          "headers": [
+            "대화",
+            "B의 진짜 기분",
+            "근거"
+          ],
+          "rows": [
+            [
+              "① A: I'm sorry. I broke your new phone.\nB: Oh, great. Just great.",
+              "",
+              ""
+            ],
+            [
+              "② A: You got 100 on the test!\nB: Really? Wow! I can't believe it!",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.48,
+            0.22,
+            0.3
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① 화가 났다·속상하다(angry, upset). 근거: A가 “I broke your new phone.”이라고 했고, B의 “Oh, great. Just great.”는 말과 뜻이 반대인 말입니다. ② 놀랍고 기쁘다(surprised, happy, excited). 근거: “Really? Wow! I can't believe it!” 두 개 모두 맞으면 통과. ①을 ‘기쁘다’라고 쓰면 S08을 다시 봅니다."
+      },
+      {
+        "no": 4,
+        "prompt": "대화를 읽고, 근거가 있는 추론이면 ○, 지나친 짐작이면 ×를 쓰세요. ○이면 근거 문장을 쓰세요.",
+        "read": "Sora: Do you want to come to my birthday party on Saturday?\nBen: Oh, Saturday? I'm going to visit my grandpa in Busan this weekend.\nSora: That's okay. Maybe next time.",
+        "table": {
+          "headers": [
+            "추론",
+            "○ / ×",
+            "근거 (○이면)"
+          ],
+          "rows": [
+            [
+              "① 벤은 토요일 파티에 가지 못해요.",
+              "",
+              ""
+            ],
+            [
+              "② 벤은 소라를 싫어해요.",
+              "",
+              ""
+            ],
+            [
+              "③ 소라는 벤의 대답을 거절로 알아들었어요.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.13,
+            0.42
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① ○ 근거: “I'm going to visit my grandpa in Busan this weekend.” ② × (대화에 벤이 소라를 싫어한다는 단서가 없음) ③ ○ 근거: “That's okay. Maybe next time.” 세 개 모두 맞으면 통과. ②에 ○를 쓰면 S07을 다시 봅니다."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 숨은 뜻을 추론할 때 쓰는 단서 세 가지를 쓰세요.\n② Oh, great. It's raining again.을 말한 사람의 진짜 기분을 쓰세요.\n③ A: Let's play soccer! B: My leg hurts. — B의 숨은 뜻과 근거를 쓰세요.",
+        "lines": 3,
+        "answer": "① 말투, 상황(장소·사람 사이를 알려 주는 낱말), 앞뒤 단서(질문과 대답, 상대의 반응) ② 짜증 나다·속상하다(again이 단서) ③ 축구를 하지 않겠다(못 한다). 근거: “My leg hurts.” 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 추론하기: 세 개 모두 □  두 개 □  한 개 이하 □ / 근거를 단서 문장으로 댐 □ (도움을 받음 □)",
+      "S13 듣고 추론하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "단서 없이 짐작하거나 근거를 ‘그냥요’라고 함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07"
 }

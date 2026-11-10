@@ -1015,7 +1015,8 @@
             0.5,
             0.5
           ],
-          "size": 14
+          "size": 14,
+          "firstColHead": true
         },
         "answer": "① barking(개가 짖어요) ② used(차가 쓰였어요: 중고차) ③ shouting(남자가 소리쳐요) ④ fried(닭이 튀겨졌어요: 프라이드치킨) ⑤ smiling(얼굴이 웃어요) ⑥ locked(문이 잠겼어요). 여섯 개 가운데 다섯 개 이상이면 통과. (bark: 짖다, used car: 중고차, shout: 소리치다, fry: 튀기다, lock: 잠그다)"
       },

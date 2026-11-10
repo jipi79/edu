@@ -81,11 +81,11 @@
     {
       "type": "compare",
       "values": [
-        "10",
-        "7"
+        "7",
+        "8"
       ],
-      "rel": ">",
-      "where": "S07 ② 학생들이 자는 시간(6~7시간)은 8시간보다 적다: 필요한 시간 8~10시간과 다름"
+      "rel": "<",
+      "where": "S07 ② 학생들이 실제로 자는 시간(6~7시간)은 8시간보다 적다 → ‘more than eight hours’는 F"
     },
     {
       "type": "compare",
@@ -267,7 +267,7 @@
       "question": "글쓴이가 가장 하고 싶은 말을 한 문장으로? 어느 문장에서 알 수 있나요?",
       "notes": {
         "목적": "부모와 함께 설명문을 끝까지 읽고, 되풀이되는 말과 So 뒤의 문장에서 요지를 찾아 한 문장으로 말하는 과정을 보여 줍니다(목표 A, 오해 M1·M2).",
-        "시간": "약 4분",
+        "시간": "약 3분",
         "말하기": [
           "“위의 낱말 뜻을 먼저 보고, 글을 끝까지 같이 읽자. 모르는 낱말이 있어도 멈추지 마.”",
           "“여러 번 나오는 낱말은? sleep이 몇 번 나와? 그럼 주제는?”",
@@ -983,7 +983,8 @@
             0.12,
             0.38
           ],
-          "size": 12
+          "size": 12,
+          "firstColHead": true
         },
         "answer": "① T ② F → 수백 년 동안 바다에 남을 수 있다(It can stay in the water for hundreds of years.) ③ F → 비닐봉지가 해파리처럼 보여서 먹는다(because the bags look like jellyfish) ④ T (We can also recycle the plastic that we use.) ⑤ F → 해마다 수백만 톤이 바다로 들어간다(millions of tons). 다섯 개 가운데 네 개 이상 맞고 F를 근거에 맞게 고치면 통과. (taste: 맛)"
       },
@@ -1014,7 +1015,8 @@
             0.8,
             0.2
           ],
-          "size": 13
+          "size": 13,
+          "firstColHead": true
         },
         "line_label": "요지:",
         "lines": 1,
@@ -1046,7 +1048,8 @@
             0.8,
             0.2
           ],
-          "size": 13
+          "size": 13,
+          "firstColHead": true
         },
         "line_label": "요지:",
         "lines": 1,
