@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -26,7 +26,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "for·since와 How long have you ~? 로 지금까지 이어진 일을 묻고 답한다.",
   "prerequisites": [
     {
       "text": "현재완료(경험)",
@@ -37,19 +36,1094 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "과거에 시작해 지금까지 이어지는 일을 have·has + 과거분사로 말하고 쓰며, 얼마 동안(기간)은 for, 언제부터(시작한 때)는 since로 나타낸다. 지금은 끝난 일이나 yesterday·last year·~ ago가 있는 문장은 과거 시제로 쓴다는 것을 구별한다.",
+      "evidence": "시간 띠(S03), for와 since(S04), 계속에 쓰는 과거분사(S05), for·since 고르기(S06), 과거와 현재완료 비교(S07), 시제 고르기(S08), How long 인터뷰(S11), 혼자 해 보기(S12 ①②③), 활동지 1·2·3·5·6",
+      "success": "활동지 1의 for·since 8개 가운데 7개 이상을 바르게 고르고, 활동지 3의 시제 고르기 5개 가운데 4개 이상에서 since가 있으면 현재완료, 지난 때를 짚는 말이 있으면 과거 시제를 고르며 그 이유를 말한다."
+    },
+    {
+      "id": "B",
+      "text": "How long + have·has + 주어 + 과거분사 ~?로 얼마 동안 해 왔는지 묻고, For ~. / Since ~.로 짧게 대답하거나 have·has + 과거분사 + for·since 문장으로 대답한다.",
+      "evidence": "How long 질문 표(S09), 묻고 대답하기(S10), How long 인터뷰(S11), 혼자 해 보기(S12 ④), 묻는 말에 대답하기(S14), 활동지 4·5·6",
+      "success": "부모의 How long 질문 3개 가운데 3개에 for·since를 바르게 넣어 대답하고 그 가운데 하나 이상을 I have + 과거분사 문장으로 말하며, How long 질문을 have·has를 주어 앞에 두어 바르게 쓴다(How long you have ~? ×)."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
+  "materials": [
+    "활동지",
+    "연필",
+    "달력(몇 년 동안인지 셀 때, 선택)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "현재완료(have·has + 과거분사)의 ‘계속’ 쓰임만 다룬다. for + 기간(for two years, for a long time), since + 시작한 때(since 2020, since Monday, since last year), How long + have·has + 주어 + 과거분사 ~?와 For ~. / Since ~. 대답이다. since 뒤에는 때를 나타내는 낱말만 쓰고, since I was eight처럼 문장이 오는 형태는 가르치지 않는다(아이가 말하면 맞다고 인정한다). 동사는 live, work, study, play, have, be와 새 동사 know(knew, known) 정도로 쓴다. 과거 시제와의 비교는 ‘지금도 이어지는가’와 yesterday, last year, ~ ago처럼 지난 때를 짚는 말로 고르는 데까지만 한다. 현재완료진행형(have been ~ing), 완료·결과 쓰임(just, already, yet), It has been ~ since ~, How long ago ~?는 다루지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "우리말 ‘~에 살고 있다’에 이끌려 현재 시제를 쓴다(I live here for five years. I know her since 2020.).",
+      "response": "S03의 시간 띠로 ‘과거에 시작해 지금까지’를 보여 주고, S08 ①에서 live와 have lived를 고르게 한다. S14 대답과 기록표에서 다시 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "for와 since를 바꿔 쓴다(for 2020, since three days).",
+      "response": "S04 표에서 ‘얼마 동안(길이)은 for, 언제부터(달력의 한 점)는 since’로 구별하고, S06과 활동지 1에서 여러 번 고른다. S13 정답 장에서 since three days를 흔한 실수로 다룬다."
+    },
+    {
+      "id": "M3",
+      "text": "지난 때를 짚는 말과 현재완료를 함께 쓰거나(I have lived in Daegu two years ago.), 지금은 끝난 일에 현재완료를 쓴다.",
+      "response": "S07에서 I lived in Busan for two years.와 I have lived in Seoul for two years.를 비교해 지금도 이어지는지 묻고, S08과 활동지 3에서 때를 나타내는 말로 시제를 고르게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "How long 질문에서 have·has를 주어 뒤에 두거나 빠뜨린다(How long you have lived here? How long you lived here?).",
+      "response": "S09 표와 열쇠 문장으로 ‘How long + have + 주어 + 과거분사’ 순서를 보여 주고, S10·S11에서 소리 내어 여러 번 묻게 한다."
+    }
+  ],
   "checks": [],
-  "slides": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "현재완료(계속)",
+      "question": "I have lived here for ten years.\n지금까지 이어진 일은 어떻게 말할까?",
+      "goals": [
+        "① for·since를 넣어 지금까지 이어진 일을 말하고 써요.",
+        "② How long have you ~?로 묻고 대답해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I live in Seoul."
+          },
+          {
+            "word": "I have lived in Seoul\nfor ten years."
+          },
+          {
+            "word": "How long have you\nlived here?"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난날 시작해 지금까지 이어진 일을 영어로 말하는 방법에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“첫째는 ‘나는 서울에 살아요.’, 둘째는 ‘나는 10년 동안 서울에 살아 왔어요.’, 셋째는 ‘너는 여기에 얼마 동안 살아 왔니?’야. 지난 시간에 배운 have와 과거분사가 또 나오지? 오늘은 이 모양으로 ‘지금까지 계속’된 일을 말하고 물어볼 거야.”"
+        ],
+        "예상답": [
+          "“have lived가 있어요.” “for ten years는 10년 동안이에요.”"
+        ],
+        "막히면": [
+          "문장의 뜻을 모르면 부모가 뜻만 알려 주고, have lived와 for를 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I have lived in Seoul for ten years. She has been sick since Monday. How long have you lived here? For five years. Since 2022.)과 knew, known을 미리 들어 두세요.",
+          "지난 차시 ‘현재완료(경험)’의 have·has + 과거분사를 알아야 쉬워집니다. 설명은 우리말로, 예문은 영어로 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(현재완료 경험)",
+      "role": "prior",
+      "objectives": [],
+      "title": "현재완료(경험) 떠올리기",
+      "text": "①은 과거분사로 바꾸고, ②는 골라 읽고, ③은 No로 대답해요.",
+      "problems": [
+        {
+          "text": "I have (see) a koala."
+        },
+        {
+          "text": "She (have / has) visited Japan twice."
+        },
+        {
+          "text": "Have you ever been to Jeju?"
+        }
+      ],
+      "notes": {
+        "목적": "지난 차시 ‘현재완료(경험)’(KR22-G08-ENG-PERFEXP-L01)의 have·has + 과거분사와 짧은 대답을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 괄호 안의 동사를 과거분사로 바꿔서 문장 전체를 읽어 줘.”",
+          "“②는 have와 has 가운데 골라 읽어 줘.”",
+          "“③은 엄마(아빠)가 물어볼게. Have you ever been to Jeju? No로 대답해 줘.”"
+        ],
+        "정답": [
+          "① seen (I have seen a koala.)",
+          "② has (She has visited Japan twice.)",
+          "③ No, I haven't."
+        ],
+        "막히면": [
+          "①은 “see, saw, 그다음은?”, ②는 “she는 have야, has야?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "③에서 No, I didn't.라고 하면 “Have로 물었으니 have로 대답해.”라고 다시 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "현재완료 ‘계속’의 뜻",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "지금까지 계속된 일",
+      "figure": {
+        "type": "timeline",
+        "events": [
+          {
+            "label": "4년 전",
+            "sub": "서울로 이사"
+          },
+          {
+            "label": "3년 전"
+          },
+          {
+            "label": "2년 전"
+          },
+          {
+            "label": "1년 전"
+          },
+          {
+            "label": "지금",
+            "sub": "아직 서울에 살아요"
+          }
+        ],
+        "alt": "시간 띠: 4년 전 서울로 이사, 3년 전, 2년 전, 1년 전, 지금 아직 서울에 살아요"
+      },
+      "text": "I have lived in Seoul for four years.",
+      "key": "4년 전에 시작해서 지금도 서울에 살아요.\n지금까지 이어지는 일 → have·has + 과거분사 (계속)",
+      "notes": {
+        "목적": "과거에 시작한 일이 지금까지 이어질 때 현재완료를 쓴다는 것을 시간 띠로 보여 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“시간 띠를 봐. 4년 전에 서울로 이사 왔어. 3년 전, 2년 전, 1년 전에도 살았고, 지금도 살아.”",
+          "“이렇게 지난날 시작한 일이 지금까지 이어질 때도 have와 과거분사를 써. I have lived in Seoul for four years. ‘나는 4년 동안 서울에 살아 왔어요.’ 지금도 서울에 산다는 뜻이야.”",
+          "“지난 시간에는 ‘해 본 적이 있다(경험)’였지? 오늘은 ‘계속 ~해 왔다(계속)’야. 모양은 똑같아.”"
+        ],
+        "예상답": [
+          "“4년 전부터 지금까지 서울에 살아요.”"
+        ],
+        "막히면": [
+          "“4년 전에 살기 시작했어. 지금은? 아직 살아? 그럼 4년 동안 계속 산 거지?” 하고 시간 띠를 손가락으로 따라가게 합니다."
+        ],
+        "주의": [
+          "우리말 ‘살고 있어요’에 이끌려 I live in Seoul for four years.처럼 현재 시제를 쓰는 실수가 흔합니다(오해 M1). ‘얼마 동안, 언제부터’가 붙으면 have lived라고 짚어 줍니다.",
+          "‘계속’은 교과서에서 쓰는 이름입니다. 아이에게는 ‘지금까지 계속 ~해 왔다’로 설명하면 충분합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "for(기간)와 since(시작한 때) 구별",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "for와 since",
+      "text": "얼마 동안이면 for, 언제부터면 since를 써요.",
+      "table": {
+        "headers": [
+          "말",
+          "뒤에 오는 말",
+          "예"
+        ],
+        "rows": [
+          [
+            "for",
+            "기간 (얼마 동안)",
+            "for two years, for a week,\nfor a long time"
+          ],
+          [
+            "since",
+            "시작한 때 (언제부터)",
+            "since 2020, since Monday,\nsince last year"
+          ]
+        ],
+        "widths": [
+          0.14,
+          0.32,
+          0.54
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "for 2020 (×)     since two years (×)",
+      "notes": {
+        "목적": "얼마 동안인지(기간)는 for, 언제부터인지(시작한 때)는 since로 나타낸다는 것을 익힙니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“얼마 동안 했는지 말할 때는 for를 써. for two years는 ‘2년 동안’이야.”",
+          "“언제부터 했는지 말할 때는 since를 써. since 2020은 ‘2020년부터’야.”",
+          "“그럼 ‘월요일부터’는? ‘일주일 동안’은?”"
+        ],
+        "예상답": [
+          "“since Monday요. for a week요.”"
+        ],
+        "막히면": [
+          "“뒤에 오는 말에 ‘몇’이 있어? 두 해, 세 달처럼 길이를 세면 for, 2020년이나 월요일처럼 달력에서 한 점을 찍으면 since야.”라고 말해 줍니다."
+        ],
+        "주의": [
+          "for 2020, since two years처럼 바꿔 쓰는 실수가 흔합니다(오해 M2).",
+          "for a long time(오랫동안)은 ‘몇’이 없어도 길이를 말하므로 for입니다. since last year(작년부터)는 시작한 때이므로 since입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "계속에 쓰는 과거분사(새 모양 표시)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "계속에 자주 쓰는 동사",
+      "text": "★는 새 모양이에요. know(알다)는 오늘 처음 배워요.",
+      "table": {
+        "headers": [
+          "동사",
+          "뜻",
+          "과거형",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "live",
+            "살다",
+            "lived",
+            "lived"
+          ],
+          [
+            "work",
+            "일하다",
+            "worked",
+            "worked"
+          ],
+          [
+            "study",
+            "공부하다",
+            "studied",
+            "studied"
+          ],
+          [
+            "have",
+            "가지다, 기르다",
+            "had",
+            "had"
+          ],
+          [
+            "be",
+            "~이다, ~에 있다",
+            "was, were",
+            "★ been"
+          ],
+          [
+            "know",
+            "알다",
+            "★ knew",
+            "★ known"
+          ]
+        ],
+        "widths": [
+          0.18,
+          0.32,
+          0.25,
+          0.25
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "notes": {
+        "목적": "계속을 말할 때 자주 쓰는 동사의 과거분사를 익히고, 새 동사 know의 과거형 knew와 과거분사 known을 알려 줍니다(목표 A).",
+        "시간": "약 2분",
+        "말하기": [
+          "“한 줄씩 소리 내어 읽어 보자. live, lived, lived.” (소리 자료를 듣고 따라 합니다.)",
+          "“be의 과거분사 been은 지난 시간에 배웠지? She has been sick since Monday. ‘그녀는 월요일부터 아파 왔어요.’”",
+          "“know는 처음 보지? ‘알다’라는 뜻이야. 과거형은 knew, 과거분사는 known이야. k는 소리가 나지 않아.”"
+        ],
+        "예상답": [
+          "“know, knew, known이에요.”"
+        ],
+        "막히면": [
+          "과거분사 칸을 손으로 가리고 부모가 동사를 말하면 아이가 과거분사로 답하게 합니다."
+        ],
+        "주의": [
+          "have는 ‘가지다’ 외에 ‘(동물을) 기르다’로도 씁니다. We have had a dog for three years. ‘우리는 3년 동안 개를 길러 왔어요.’",
+          "know의 과거형 knew와 과거분사 known은 오늘 처음 나옵니다(★)."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "for와 since 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "for일까, since일까?",
+      "text": "빈칸에 for나 since를 넣어 문장 전체를 읽어요.",
+      "problems": [
+        {
+          "text": "I have lived here ____ 2019."
+        },
+        {
+          "text": "She has been sick\n____ three days."
+        },
+        {
+          "text": "We have known Mina\n____ a long time."
+        },
+        {
+          "text": "He has played the piano\n____ last year."
+        },
+        {
+          "text": "They have had a dog\n____ two years."
+        },
+        {
+          "text": "I have studied English\n____ Monday."
+        }
+      ],
+      "hint": "얼마 동안(기간) → for,  언제부터(시작한 때) → since",
+      "notes": {
+        "목적": "뒤에 오는 말이 기간인지 시작한 때인지 보고 for와 since를 고릅니다(목표 A, 오해 M2). 활동지 1·2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“빈칸 뒤의 말을 먼저 봐. 얼마 동안이야, 언제부터야? 골라서 문장 전체를 읽어 줘.”",
+          "“③의 a long time은 기간이야, 시작한 때야?”"
+        ],
+        "정답": [
+          "① since (I have lived here since 2019.)",
+          "② for (She has been sick for three days.)",
+          "③ for (We have known Mina for a long time.)",
+          "④ since (He has played the piano since last year.)",
+          "⑤ for (They have had a dog for two years.)",
+          "⑥ since (I have studied English since Monday.)"
+        ],
+        "막히면": [
+          "S04의 표를 다시 보여 주고, 빈칸 뒤의 말이 ‘몇 ~’(길이)인지 ‘달력의 한 점’인지 묻습니다."
+        ],
+        "주의": [
+          "④ last year는 ‘작년’이라는 때입니다. since last year는 ‘작년부터’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "개념",
+      "purpose": "과거 시제와 현재완료 비교",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "지금도 살까, 이제는 안 살까?",
+      "claim": "두 사람이 사는 곳을 이렇게 말했어요.",
+      "left": {
+        "title": "과거 시제",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I lived in Busan\nfor two years.",
+              "sub": "지금은 부산에 살지 않아요"
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "현재완료",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I have lived in Seoul\nfor two years.",
+              "sub": "지금도 서울에 살아요",
+              "highlight": true
+            }
+          ]
+        }
+      },
+      "question": "지금도 이어지는 일은 어느 쪽인가요?",
+      "notes": {
+        "목적": "지금은 끝난 일은 과거 시제, 지금까지 이어지는 일은 현재완료로 쓴다는 것을 두 문장으로 비교합니다(목표 A, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“두 문장 모두 ‘2년 동안 살았다’는 말이 있어. 그런데 왼쪽은 lived, 오른쪽은 have lived야.”",
+          "“왼쪽 사람은 지금도 부산에 살까? 오른쪽 사람은 지금도 서울에 살까?”",
+          "“과거 시제는 지난 일로 끝났다는 뜻이야. 현재완료는 지금까지 이어진다는 뜻이고.”",
+          "“그래서 yesterday, last year, two years ago처럼 지난 때를 딱 짚는 말은 과거 시제하고만 써.”"
+        ],
+        "예상답": [
+          "“왼쪽은 지금은 부산에 안 살아요. 오른쪽은 지금도 서울에 살아요.”"
+        ],
+        "정답": [
+          "지금도 이어지는 쪽은 오른쪽(I have lived in Seoul for two years.)입니다. 왼쪽은 2년 동안 부산에 살았지만 지금은 살지 않는다는 뜻입니다."
+        ],
+        "막히면": [
+          "두 문장을 우리말로 바꿔 줍니다. “부산에 2년 동안 살았어요(그리고 이사했어요). / 서울에 2년째 살고 있어요.”"
+        ],
+        "주의": [
+          "I have lived in Daegu two years ago.처럼 ~ ago와 현재완료를 함께 쓰는 실수가 흔합니다(오해 M3). 다음 장에서 연습합니다.",
+          "for는 과거 시제에도 쓸 수 있지만 since는 거의 현재완료와 씁니다. 오늘은 ‘since가 있으면 현재완료’로 익혀도 충분합니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "때를 나타내는 말로 시제 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "과거일까, 현재완료일까?",
+      "text": "알맞은 것을 골라 문장 전체를 읽어요.",
+      "problems": [
+        {
+          "text": "I (live / have lived)\nhere since 2020."
+        },
+        {
+          "text": "I (visited / have visited)\nJeju last year."
+        },
+        {
+          "text": "She (was / has been)\nsick yesterday."
+        },
+        {
+          "text": "We (knew / have known)\nJun since 2021."
+        }
+      ],
+      "hint": "since → 현재완료,  yesterday·last year·ago → 과거 시제",
+      "notes": {
+        "목적": "since·for와 지금까지 이어짐이 있으면 현재완료, yesterday·last year·~ ago가 있으면 과거 시제를 고릅니다(목표 A, 오해 M1·M3). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“때를 나타내는 말을 먼저 찾아. 그다음에 알맞은 것을 골라 문장 전체를 읽어 줘.”",
+          "“①은 왜 live가 아닐까?”"
+        ],
+        "정답": [
+          "① have lived (since 2020 → 지금까지 이어짐)",
+          "② visited (last year → 지난 때)",
+          "③ was (yesterday → 지난 때)",
+          "④ have known (since 2021 → 지금까지 이어짐)"
+        ],
+        "막히면": [
+          "S07의 두 문장을 다시 보여 주고 “지난 때를 딱 짚는 말이 있어, since가 있어?”라고 묻습니다."
+        ],
+        "주의": [
+          "①에서 live를 고르면 “2020년부터 지금까지 계속이니까 have lived야.”라고 말해 줍니다(오해 M1).",
+          "여기까지가 for·since 문장입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "How long 질문과 대답",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "How long have you ~?",
+      "text": "How long 뒤에 have·has를 주어 앞에 써요.",
+      "table": {
+        "headers": [
+          "질문",
+          "짧은 대답",
+          "문장으로 대답"
+        ],
+        "rows": [
+          [
+            "How long have you\nlived here?",
+            "For five years.",
+            "I have lived here\nfor five years."
+          ],
+          [
+            "How long has she\nbeen sick?",
+            "Since Monday.",
+            "She has been sick\nsince Monday."
+          ]
+        ],
+        "widths": [
+          0.36,
+          0.26,
+          0.38
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "How long you have lived here? (×)  →  have를 주어 앞에!",
+      "notes": {
+        "목적": "How long + have·has + 주어 + 과거분사 ~?로 얼마 동안 해 왔는지 묻고, For ~. / Since ~.나 문장으로 대답하는 방법을 익힙니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“얼마 동안 해 왔는지 물을 때는 How long으로 시작해. 그 뒤는 지난 시간의 의문문처럼 have를 주어 앞에 놓아. How long have you lived here? ‘여기에 얼마 동안 살아 왔니?’” (소리 자료를 듣고 따라 합니다.)",
+          "“짧게 대답할 때는 For five years. 또는 Since 2022.처럼 for나 since부터 말해.”",
+          "“문장으로 대답하면 I have lived here for five years.야.”",
+          "“How long has she been sick?에 ‘월요일부터’라고 대답하면?”"
+        ],
+        "예상답": [
+          "“Since Monday. / She has been sick since Monday.”"
+        ],
+        "막히면": [
+          "How long 다음 순서가 헷갈리면 “How long + Have you ever 질문에서 ever만 뺀 모양”이라고 말해 줍니다."
+        ],
+        "주의": [
+          "How long you have lived here?처럼 have를 주어 뒤에 두는 실수가 흔합니다(오해 M4).",
+          "짧은 대답에서 Five years.라고만 해도 말로는 통하지만, 오늘은 For five years.처럼 for·since를 넣어 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "How long 질문 만들고 대답하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "얼마 동안이야?",
+      "text": "지시대로 묻거나 대답해요.",
+      "problems": [
+        {
+          "text": "you · live in this house  → How long 질문으로"
+        },
+        {
+          "text": "How long has he been a teacher?  → 2019년부터"
+        },
+        {
+          "text": "How long have you known Mina?  → 3년 동안, 문장으로"
+        }
+      ],
+      "notes": {
+        "목적": "주어진 말로 How long 질문을 만들고, 기간이나 시작한 때를 듣고 for·since로 대답합니다(목표 B, 오해 M2·M4). 활동지 4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 How long 질문을 만들어 줘. live는 어떤 모양으로 바꿔야 할까?”",
+          "“②는 2019년부터 선생님이었대. 짧게 대답하고, 문장으로도 말해 줘.”",
+          "“③은 3년 동안 알아 왔대. 문장으로 대답해 줘.”"
+        ],
+        "정답": [
+          "① How long have you lived in this house?",
+          "② Since 2019. / He has been a teacher since 2019.",
+          "③ I have known Mina for three years. (짧게: For three years.)"
+        ],
+        "막히면": [
+          "S09 표에서 같은 모양의 줄을 찾게 합니다.",
+          "③에서 since three years라고 하면 “3년은 얼마 동안이야, 언제부터야?”라고 묻습니다."
+        ],
+        "주의": [
+          "②의 대답 주어는 질문의 he를 그대로 씁니다. ③은 엄마(아빠)가 너에게 물었으니 I로 대답합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "우리 가족 How long 인터뷰",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 얼마 동안이야?",
+      "steps": [
+        "부모가 물어요:\nHow long have you lived here?",
+        "아이가 답해요: For ~. / Since ~.",
+        "문장으로 한 번 더 말해요.",
+        "know, have, study로도 물어요.",
+        "역할을 바꿔 아이가 물어요."
+      ],
+      "criteria": [
+        "How long have you + 과거분사로 물었어요",
+        "기간은 for, 시작한 때는 since",
+        "have·has + 과거분사로 문장을 말했어요"
+      ],
+      "notes": {
+        "목적": "가족끼리 How long 질문을 주고받으며 for·since와 현재완료 문장을 소리 내어 여러 번 말합니다(목표 A·B, 오해 M1·M2·M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 먼저 물어볼게. How long have you lived in this house?” → (아이) “For six years.” “문장으로도 말해 볼래?” → (아이) “I have lived in this house for six years.”",
+          "“How long have you known your best friend?” “How long have you had your bag?” “How long have you studied English?”",
+          "“이번엔 네가 엄마(아빠)에게 물어봐. How long have you known me?” (부모) “Since you were born!”처럼 재미있게 대답해도 좋습니다."
+        ],
+        "예상답": [
+          "아이가 물을 때: “How long have you lived here?” “How long have you worked at your company?” “How long have you had your phone?”",
+          "아이가 대답할 때: “Since 2021.” “For three years. I have known Jisu for three years.” “I have studied English since I was eight.”처럼 대답해도 됩니다.",
+          "기준: How long have(has) + 주어 + 과거분사로 묻고, 기간은 for, 시작한 때는 since로 대답한 뒤 have·has + 과거분사 문장으로 한 번 더 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "몇 년 동안인지 모르면 부모가 함께 손가락으로 세어 줍니다. “이 집에 언제 왔지? 그때부터 지금까지 몇 년이야?”",
+          "질문이 막히면 “How long have you 다음에 과거분사!”라고 틀을 알려 줍니다."
+        ],
+        "주의": [
+          "since I was eight처럼 since 뒤에 문장이 오는 형태는 오늘 따로 가르치지 않지만, 아이가 말하면 맞는 표현이라고 칭찬합니다.",
+          "역할을 바꾸어 질문을 네 번 이상 주고받습니다. 틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(for·since·시제 구별·How long)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "I have lived here ____ 2021.\n→ for, since 가운데"
+        },
+        {
+          "text": "she · be sick · three days\n→ 현재완료 문장으로"
+        },
+        {
+          "text": "I (lived / have lived) in\nDaegu two years ago."
+        },
+        {
+          "text": "you · know Jisu\n→ How long 질문으로"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 for·since를 고르고, 현재완료 계속 문장과 How long 질문을 만들며, 과거 시제와 구별하는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① since (I have lived here since 2021.)",
+          "② She has been sick for three days.",
+          "③ lived (I lived in Daegu two years ago.)",
+          "④ How long have you known Jisu?",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 has와 과거분사(been, known), for·since, 물음표와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “얼마 동안이야, 언제부터야?” “지난 때를 짚는 말이 있어?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① since"
+        },
+        {
+          "text": "② She has been sick\nfor three days."
+        },
+        {
+          "text": "③ lived"
+        },
+        {
+          "text": "④ How long have you\nknown Jisu?"
+        }
+      ],
+      "bad": [
+        {
+          "text": "since three days",
+          "note": "기간 → for"
+        },
+        {
+          "text": "have lived ~ ago",
+          "note": "ago는\n과거 시제와"
+        },
+        {
+          "text": "How long\nyou have ~?",
+          "note": "have를\n주어 앞에"
+        }
+      ],
+      "explain": "지금도 이어지면 현재완료 + for(얼마 동안)·since(언제부터)",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“three days는 얼마 동안이라서 for예요.” “two years ago가 있으니까 lived예요.” “have를 you 앞에 써야 해요.”"
+        ],
+        "정답": [
+          "① since ② She has been sick for three days. ③ lived ④ How long have you known Jisu?"
+        ],
+        "막히면": [
+          "틀린 문제는 S04(for와 since), S07·S08(과거와 비교), S09(How long 질문) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(How long 질문에 대답하기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "묻는 말에 대답해요",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "problems": [
+        {
+          "text": "How long have you lived in your house?"
+        },
+        {
+          "text": "How long have you known your best friend?"
+        },
+        {
+          "text": "How long have you studied English?"
+        }
+      ],
+      "notes": {
+        "목적": "처음 듣는 How long 질문에 for·since로 대답하고 현재완료 문장으로 말하는지 확인합니다(목표 B, 오해 M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 물어볼게. 너에게 맞게 대답해 줘. 짧게 대답하고, 문장으로도 말해 줘. How long have you lived in your house?”",
+          "“How long have you known your best friend?” “How long have you studied English?”"
+        ],
+        "정답": [
+          "① For ~ years. / Since 20~. (I have lived in my house for ~ years.)",
+          "② For ~ years. / Since ~. (I have known ~ for ~ years.)",
+          "③ For ~ years. / Since ~. (I have studied English since ~.)",
+          "기준: 숫자는 실제 상황대로 말하면 됩니다. 기간에는 for, 시작한 때에는 since를 쓰고, 문장으로 말할 때 I have + 과거분사(lived, known, studied)를 쓰면 통과입니다. 세 개 모두 맞으면 목표 B 달성으로 봅니다."
+        ],
+        "막히면": [
+          "질문을 한 번 더 천천히 말하고, “언제부터야? 몇 년 동안이야?”라고 우리말로 먼저 생각하게 합니다."
+        ],
+        "주의": [
+          "I live here for five years.처럼 현재 시제로 대답하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "have·has + 과거분사 + for(얼마 동안) / since(언제부터)\nHow long have you ~? → For two years. / Since 2020.",
+      "do": "지금도 이어지면 have·has + 과거분사",
+      "dont": "since two years / I live here for ~",
+      "review": [
+        {
+          "text": "for일까, since일까?\n___ Monday, ___ two weeks"
+        },
+        {
+          "text": "How long 질문으로\nyou · live here"
+        },
+        {
+          "text": "know의 과거형과\n과거분사는?"
+        }
+      ],
+      "next": "to부정사(명사적 용법)",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지금까지 계속된 일은 어떻게 말했지? for와 since는 어떻게 달랐어?”",
+          "“얼마 동안 해 왔는지 물을 때는?”"
+        ],
+        "예상답": [
+          "“have·has 뒤에 과거분사요. 얼마 동안은 for, 언제부터는 since예요.” “How long have you ~?로 물어요.”"
+        ],
+        "정답": [
+          "① since Monday, for two weeks",
+          "② How long have you lived here?",
+          "③ knew, known"
+        ],
+        "주의": [
+          "저녁에 “How long have you had this cup?”처럼 집에 있는 물건으로 하루에 한두 번 묻고 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘to부정사(명사적 용법)’에서는 want to, plan to처럼 to + 동사원형으로 하고 싶은 일을 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(현재완료 경험 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: have·has + 과거분사",
+      "layout": "support",
+      "text": "동사를 보고 과거분사를 말해요.",
+      "table": {
+        "headers": [
+          "동사",
+          "과거분사",
+          "동사",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "see",
+            "seen",
+            "visit",
+            "visited"
+          ],
+          [
+            "be",
+            "been",
+            "play",
+            "played"
+          ],
+          [
+            "eat",
+            "eaten",
+            "meet",
+            "met"
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "width": 12,
+        "size": 24
+      },
+      "key": {
+        "title": "have·has + 과거분사",
+        "text": "I have seen a whale.  She has seen a whale."
+      },
+      "notes": {
+        "목적": "S02에서 have·has나 과거분사가 흔들리면, 계속을 배우기 전에 지난 차시의 모양을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 동사를 말하면 과거분사를 말해 봐. see!” (아이: “seen!”) “be!” (아이: “been!”) “eat!” (아이: “eaten!”) “visit!” (아이: “visited!”)",
+          "“주어가 I이면 have, she이면? I have seen a whale. She ___ seen a whale.”",
+          "“Have you ever been to Jeju?에 No로 대답하면?”"
+        ],
+        "정답": [
+          "seen, been, eaten, visited / She has seen a whale. / No, I haven't."
+        ],
+        "막히면": [
+          "표의 과거분사 칸을 가리고 하나씩 맞히게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘현재완료(경험)’(KR22-G08-ENG-PERFEXP-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "현재완료(계속) 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "빈칸에 for나 since를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① ________ two hours",
+              "⑤ ________ last year"
+            ],
+            [
+              "② ________ 2019",
+              "⑥ ________ three days"
+            ],
+            [
+              "③ ________ Monday",
+              "⑦ ________ March"
+            ],
+            [
+              "④ ________ a long time",
+              "⑧ ________ ten minutes"
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 14
+        },
+        "answer": "① for ② since ③ since ④ for ⑤ since ⑥ for ⑦ since(3월부터) ⑧ for. 여덟 개 가운데 일곱 개 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "괄호 안의 동사를 have나 has + 과거분사로 바꾸고, for나 since를 넣어 빈칸을 채우세요.",
+        "table": {
+          "rows": [
+            [
+              "① I ______________ (live) in this town ________ 2018."
+            ],
+            [
+              "② My dad ______________ (work) at the bank ________ ten years."
+            ],
+            [
+              "③ We ______________ (know) Mina ________ a long time."
+            ],
+            [
+              "④ She ______________ (be) sick ________ Sunday."
+            ],
+            [
+              "⑤ They ______________ (have) their dog ________ three years."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① have lived, since ② has worked, for ③ have known, for ④ has been, since ⑤ have had, for. 다섯 개 가운데 네 개 이상이면 통과. knowed, knew처럼 쓰면 known으로 고쳐 줍니다."
+      },
+      {
+        "no": 3,
+        "prompt": "알맞은 것에 ○ 하세요.",
+        "table": {
+          "rows": [
+            [
+              "① I (lived / have lived) in Busan two years ago."
+            ],
+            [
+              "② We (knew / have known) Jun since 2021."
+            ],
+            [
+              "③ She (was / has been) sick yesterday."
+            ],
+            [
+              "④ He (studies / has studied) English since 2020."
+            ],
+            [
+              "⑤ My mom (worked / has worked) here last year."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① lived(two years ago) ② have known(since) ③ was(yesterday) ④ has studied(since) ⑤ worked(last year). 다섯 개 가운데 네 개 이상이면 통과. 지난 때를 짚는 말이 있으면 과거, since가 있으면 현재완료인지 이유를 말하게 합니다."
+      },
+      {
+        "no": 4,
+        "prompt": "보기를 보고 How long 질문(Q)과 문장으로 된 대답(A)을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① you · live in Seoul · 2015년부터",
+              "Q:\n\nA:\n"
+            ],
+            [
+              "② your sister · play the piano · 5년 동안",
+              "Q:\n\nA:\n"
+            ],
+            [
+              "③ they · have the car · 작년부터",
+              "Q:\n\nA:\n"
+            ]
+          ],
+          "widths": [
+            0.36,
+            0.64
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① Q: How long have you lived in Seoul? A: I have lived in Seoul since 2015. ② Q: How long has your sister played the piano? A: She has played the piano for five years. ③ Q: How long have they had the car? A: They have had the car since last year. 질문의 have·has 위치, 대답의 주어(I, she, they)와 for·since를 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I have lived here ____ 2021.\n(for, since 가운데)",
+              ""
+            ],
+            [
+              "② she · be sick · three days\n(현재완료 문장으로)",
+              ""
+            ],
+            [
+              "③ I (lived / have lived)\nin Daegu two years ago.",
+              ""
+            ],
+            [
+              "④ you · know Jisu\n(How long 질문으로)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.44,
+            0.56
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① since ② She has been sick for three days. ③ lived (I lived in Daegu two years ago.) ④ How long have you known Jisu? 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나에 대한 세 문장을 쓰세요(for 문장 하나, since 문장 하나, 부모님께 묻는 How long 질문 하나).",
+        "eng": {
+          "trace": [
+            "I have lived here for five years.",
+            "How long have you known Mina?"
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 실제 상황에 맞는 세 문장(예: I have studied English for six years. / I have known Jisu since 2023. / How long have you worked at your company?). have·has + 과거분사, for·since의 구별, How long 질문의 순서, 첫 글자 대문자와 끝의 마침표·물음표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 빈칸에 for나 since를 쓰세요: ______ Monday, ______ two weeks\n② you · live here를 How long 질문으로 쓰세요.\n③ know의 과거형과 과거분사를 쓰세요.",
+        "lines": 3,
+        "answer": "① since Monday, for two weeks ② How long have you lived here? ③ knew, known. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S14 How long 질문에 대답하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "for·since를 바꿔 쓰거나 I live here for ~처럼 현재 시제를 씀: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08"
 }
