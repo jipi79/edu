@@ -3085,8 +3085,8 @@
             12,
             6
           ],
-          "ws_unit": 9,
-          "ws_max_h": 75,
+          "ws_unit": 11,
+          "ws_max_h": 85,
           "points": {
             "_left": [
               -1.7,
