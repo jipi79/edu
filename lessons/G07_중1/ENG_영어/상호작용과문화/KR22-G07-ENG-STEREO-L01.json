@@ -848,32 +848,9 @@
       {
         "no": 2,
         "prompt": "고정관념이 담긴 문장을 ‘모두’라는 뜻이 없게 고쳐 쓰세요. Some, Many, Not all, often 가운데 알맞은 말을 쓰세요.",
-        "table": {
-          "rows": [
-            [
-              "① All Koreans like spicy food.",
-              ""
-            ],
-            [
-              "② Everyone in Canada likes ice hockey.",
-              ""
-            ],
-            [
-              "③ Japanese students never eat bread for lunch.",
-              ""
-            ],
-            [
-              "④ All Brazilians are good at soccer.",
-              ""
-            ]
-          ],
-          "widths": [
-            0.5,
-            0.5
-          ],
-          "size": 13,
-          "firstColHead": true
-        },
+        "read": "① All Koreans like spicy food.\n② Everyone in Canada likes ice hockey.\n③ Japanese students never eat bread for lunch.\n④ All Brazilians are good at soccer.",
+        "line_label": "①~④를 한 줄에 하나씩 고쳐 쓰세요.",
+        "lines": 4,
         "answer": "예: ① Many Koreans like spicy food. / Not all Koreans like spicy food. ② Many people in Canada like ice hockey. / Not everyone in Canada likes ice hockey. ③ Some Japanese students eat bread for lunch. ④ Some Brazilians are good at soccer. / Not all Brazilians are good at soccer. ‘모두’의 뜻이 없어지고 문법이 맞으면 통과(네 개 가운데 세 개 이상)."
       },
       {

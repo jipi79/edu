@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G08-KOR-DEFEX-L01",
+  "concept_id": "KOR-DEFEX",
+  "title": "정의와 예시",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "추론과비판",
+  "sequence": 2,
+  "file_stem": "중2_국어_추론과비판_02_정의와예시",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-KOR-I01"
+    ],
+    "units": [
+      "1.3.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "정의와 예시로 설명한 부분을 찾아 대상의 뜻과 특징을 이해하는 데 어떤 도움을 주는지 설명한다.",
+  "prerequisites": [
+    {
+      "text": "글의 구조 파악",
+      "lesson": "KR22-G07-KOR-TEXTSTRUCT-L01",
+      "grade_item": "KR22-G07-KOR-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정의와 예시 활동지",
+    "items": [],
+    "record": []
+  }
+}
