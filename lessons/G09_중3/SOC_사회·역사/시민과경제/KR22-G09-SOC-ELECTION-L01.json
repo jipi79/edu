@@ -1,0 +1,63 @@
+{
+  "id": "KR22-G09-SOC-ELECTION-L01",
+  "concept_id": "SOC-ELECTION",
+  "title": "선거와 민주적 참여",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "시민과경제",
+  "sequence": 1,
+  "file_stem": "중3_사회·역사_시민과경제_01_선거와민주적참여",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-SOC-I02"
+    ],
+    "units": [
+      "4.3.3",
+      "4.4.2",
+      "4.5.4",
+      "4.5.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "헌법이 보장하는 참정권을 바탕으로 민주 선거의 원칙과 선거 제도, 지방 자치에 참여하는 방법을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "헌법과 기본권",
+      "lesson": "KR22-G08-SOC-BASICRIGHT-L01",
+      "grade_item": "KR22-G08-SOC-I03"
+    },
+    {
+      "text": "정치 과정과 시민 참여",
+      "lesson": "KR22-G07-SOC-POLITICS-L01",
+      "grade_item": "KR22-G07-SOC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "선거와 민주적 참여 활동지",
+    "items": [],
+    "record": []
+  }
+}
