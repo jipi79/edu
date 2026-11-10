@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-SCI-PLANTRESP-L01",
+  "concept_id": "SCI-PLANTRESP",
+  "title": "식물의 호흡",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과에너지",
+  "sequence": 2,
+  "file_stem": "중2_과학_생명과에너지_02_식물의호흡",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I03"
+    ],
+    "units": [
+      "6.4.2",
+      "6.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "식물의 호흡과 광합성을 비교하고 낮과 밤에 잎에서 드나드는 기체를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "광합성",
+      "lesson": "KR22-G08-SCI-PHOTOSYN-L01",
+      "grade_item": "KR22-G08-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "식물의 호흡 활동지",
+    "items": [],
+    "record": []
+  }
+}

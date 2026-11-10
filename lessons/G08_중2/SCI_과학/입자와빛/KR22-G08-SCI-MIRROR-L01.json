@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-SCI-MIRROR-L01",
+  "concept_id": "SCI-MIRROR",
+  "title": "거울과 렌즈",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "입자와빛",
+  "sequence": 4,
+  "file_stem": "중2_과학_입자와빛_04_거울과렌즈",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I02"
+    ],
+    "units": [
+      "6.3.3",
+      "6.2.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "평면·볼록·오목 거울과 볼록·오목 렌즈에서 빛이 나아가는 길을 그리고 생기는 상을 비교한다.",
+  "prerequisites": [
+    {
+      "text": "빛의 반사와 굴절",
+      "lesson": "KR22-G05-SCI-LIGHT-L01",
+      "grade_item": "KR22-G05-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "거울과 렌즈 활동지",
+    "items": [],
+    "record": []
+  }
+}

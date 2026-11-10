@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-SCI-WAVE-L01",
+  "concept_id": "SCI-WAVE",
+  "title": "파동과 소리",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "입자와빛",
+  "sequence": 6,
+  "file_stem": "중2_과학_입자와빛_06_파동과소리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I02"
+    ],
+    "units": [
+      "6.3.3",
+      "6.2.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "진폭·파장·진동수를 구별하고 소리의 크기·높낮이·음색과 연결해 설명한다.",
+  "prerequisites": [
+    {
+      "text": "빛의 합성과 색",
+      "lesson": "KR22-G08-SCI-COLOR-L01",
+      "grade_item": "KR22-G08-SCI-I02"
+    },
+    {
+      "text": "소리의 성질",
+      "lesson": "KR22-G03-SCI-SOUND-L01",
+      "grade_item": "KR22-G03-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "파동과 소리 활동지",
+    "items": [],
+    "record": []
+  }
+}

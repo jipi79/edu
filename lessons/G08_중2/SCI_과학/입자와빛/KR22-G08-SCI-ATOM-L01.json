@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-SCI-ATOM-L01",
+  "concept_id": "SCI-ATOM",
+  "title": "원자와 분자",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "입자와빛",
+  "sequence": 2,
+  "file_stem": "중2_과학_입자와빛_02_원자와분자",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-SCI-I02"
+    ],
+    "units": [
+      "6.3.3",
+      "6.2.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "원자가 원자핵과 전자로 이루어짐을 모형으로 나타내고 분자를 화학식으로 표현한다.",
+  "prerequisites": [
+    {
+      "text": "원소와 원소 기호",
+      "lesson": "KR22-G08-SCI-ELEMENT-L01",
+      "grade_item": "KR22-G08-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "원자와 분자 활동지",
+    "items": [],
+    "record": []
+  }
+}
