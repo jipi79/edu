@@ -28,7 +28,8 @@ ANSWER_LEAK = re.compile(r"정답\s*[:：]")
 
 
 def frac(text):
-    """'3/5', 대분수 '2 3/5', 자연수 '4' 를 분수로 읽는다."""
+    """'3/5', 대분수 '2 3/5', 자연수 '4' 를 분수로 읽는다. 음수의 빼기 기호(−)도 읽는다."""
+    text = str(text).replace("−", "-")
     m = re.fullmatch(r"\s*(\d+)\s+(\d+)/(\d+)\s*", str(text))
     if m:
         return int(m.group(1)) + Fraction(int(m.group(2)), int(m.group(3)))

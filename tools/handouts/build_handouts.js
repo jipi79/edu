@@ -22,7 +22,10 @@ function parseArgs(argv) {
   return args;
 }
 
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+// 위첨자 숫자(2³ 등)는 글꼴에 따라 너무 작거나 없으므로 보통 숫자를 <sup>로 올려 쓴다.
+const SUP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁺": "+", "⁻": "−", "ⁿ": "n" };
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻ⁿ]+/g, (m) => `<sup>${[...m].map((c) => SUP[c]).join("")}</sup>`);
 
 const CSS = `
   @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
@@ -127,7 +130,7 @@ function numberlineSvg(n, w = 160) {
     const x = x0 + ((x1 - x0) * i) / count;
     g += `<line x1="${x}" y1="${y - 2}" x2="${x}" y2="${y + 2}" stroke="#1F2937" stroke-width="0.5"/>`;
     const show = !n.labels || n.labels === "all" || (n.labels === "ends" && (i === 0 || i === count)) || (Array.isArray(n.labels) && n.labels.includes(v));
-    if (show) g += `<text x="${x}" y="${y + 7}" font-size="4" text-anchor="middle">${v}</text>`;
+    if (show) g += `<text x="${x}" y="${y + 7}" font-size="4" text-anchor="middle">${v < 0 ? `−${-v}` : v}</text>`;
   }
   return `<svg width="${w}mm" height="16mm" viewBox="0 0 ${w} 16">${g}</svg>`;
 }

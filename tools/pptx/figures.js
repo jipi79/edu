@@ -178,6 +178,8 @@ function numberline(deck, slide, sid, fig, box) {
   const yLine = hasAbove ? box.y + Math.min(box.h - lh - 0.4, box.h * 0.62) : box.y + box.h / 2 - lh / 2;
   segment(deck, slide, sid, x0 - 0.3, yLine, x1 + 0.3, yLine, { color: INK, width: 2.25, beginArrowType: fig.arrows === false ? undefined : "triangle", endArrowType: fig.arrows === false ? undefined : "triangle" });
   const labels = fig.labels || "all";
+  // 음수는 진짜 빼기 기호(−)로 쓴다.
+  const fmt = (v) => String(fig.format ? fig.format(v) : v < 0 ? `\u2212${-v}` : v);
   // 눈금 숫자가 넓으면(10000 등) 숫자 사이 간격에 맞춰 글자를 줄인다.
   const shown = [];
   for (let i = 0; i <= n; i++) {
@@ -186,7 +188,7 @@ function numberline(deck, slide, sid, fig, box) {
     if (labels === "all" ? major : labels === "ends" ? i === 0 || i === n : Array.isArray(labels) && labels.includes(v)) shown.push(v);
   }
   const gapIn = shown.length > 1 ? Math.min(...shown.slice(1).map((v, k) => pos(v) - pos(shown[k]))) : x1 - x0;
-  const widest = Math.max(...shown.map((v) => widthIn(String(fig.format ? fig.format(v) : v), 1)), 0.01);
+  const widest = Math.max(...shown.map((v) => widthIn(fmt(v), 1)), 0.01);
   const lpt = Math.max(14, Math.min(pt, Math.floor((gapIn * 0.92) / widest)));
   for (let i = 0; i <= n; i++) {
     const v = +(fig.min + i * step).toFixed(6);
@@ -194,7 +196,7 @@ function numberline(deck, slide, sid, fig, box) {
     segment(deck, slide, sid, pos(v), yLine - (major ? 0.16 : 0.09), pos(v), yLine + (major ? 0.16 : 0.09), { color: INK, width: 1.75 });
     const show = labels === "all" ? major : labels === "ends" ? i === 0 || i === n : Array.isArray(labels) && labels.includes(v);
     if (show) {
-      const t = String(fig.format ? fig.format(v) : v);
+      const t = fmt(v);
       const lw = Math.max(1.0, widthIn(t, lpt) + 0.2);
       label(deck, slide, sid, t, pos(v) - lw / 2, yLine + 0.2, lw, lh, lpt, { bold: false });
     }
@@ -208,9 +210,11 @@ function numberline(deck, slide, sid, fig, box) {
   }
   jumps.forEach((j, k) => {
     const yj = yLine - 0.42 - (fig.stackJumps ? k * 0.35 : 0);
-    segment(deck, slide, sid, pos(j.from), yLine - 0.05, pos(j.from), yj, { color: P.accent4, width: 1.5 });
-    segment(deck, slide, sid, pos(j.from), yj, pos(j.to), yj, { color: P.accent4, width: 2, endArrowType: "triangle" });
-    if (j.label) label(deck, slide, sid, j.label, Math.min(pos(j.from), pos(j.to)), yj - lh - 0.02, Math.abs(pos(j.to) - pos(j.from)), lh, pt, { color: P.accent4 });
+    // color: info(기본)·accent·good·bad — 더하기와 빼기 이동을 다른 색으로 구별할 때 쓴다.
+    const jc = colorOf(j.color || "info");
+    segment(deck, slide, sid, pos(j.from), yLine - 0.05, pos(j.from), yj, { color: jc, width: 1.5 });
+    segment(deck, slide, sid, pos(j.from), yj, pos(j.to), yj, { color: jc, width: 2, endArrowType: "triangle" });
+    if (j.label) label(deck, slide, sid, j.label, Math.min(pos(j.from), pos(j.to)), yj - lh - 0.02, Math.abs(pos(j.to) - pos(j.from)), lh, pt, { color: j.color || "info" });
   });
   const name = deck.name(sid, "figure");
   slide.addShape(deck.pres.shapes.RECTANGLE, { x: x0 - 0.3, y: yLine - 0.2, w: x1 - x0 + 0.6, h: 0.4, fill: { color: P.lt1, transparency: 100 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: name });
