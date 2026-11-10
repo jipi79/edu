@@ -998,7 +998,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "x + y = 5",
+                "text": "x + y = 5   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -1007,13 +1007,13 @@
                   0.65,
                   -1.775
                 ],
-                "text": "x − y = −1",
+                "text": "x − y = −1   ",
                 "bold": true,
                 "anchor": "left"
               },
               {
                 "at": [
-                  5.525,
+                  5.275,
                   -1.15
                 ],
                 "text": "(2, 3)",
@@ -1247,7 +1247,7 @@
               0.65,
               -0.525
             ],
-            "text": "x + y = 7",
+            "text": "x + y = 7   ",
             "bold": true,
             "anchor": "left"
           },
@@ -1256,13 +1256,13 @@
               0.65,
               -1.775
             ],
-            "text": "x − y = 3",
+            "text": "x − y = 3   ",
             "bold": true,
             "anchor": "left"
           },
           {
             "at": [
-              4.8,
+              4.55,
               -0.525
             ],
             "text": "㉠",
@@ -1272,7 +1272,7 @@
           },
           {
             "at": [
-              4.8,
+              4.55,
               -1.775
             ],
             "text": "㉡",
@@ -1671,7 +1671,7 @@
               0.65,
               -0.525
             ],
-            "text": "2x + y = 9",
+            "text": "2x + y = 9   ",
             "bold": true,
             "anchor": "left"
           },
@@ -1680,13 +1680,13 @@
               0.65,
               -1.775
             ],
-            "text": "x + y = 5",
+            "text": "x + y = 5   ",
             "bold": true,
             "anchor": "left"
           },
           {
             "at": [
-              5.2,
+              4.95,
               -0.525
             ],
             "text": "㉠",
@@ -1696,7 +1696,7 @@
           },
           {
             "at": [
-              5.2,
+              4.95,
               -1.775
             ],
             "text": "㉡",
@@ -2045,7 +2045,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "x + y = 6",
+                "text": "x + y = 6   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -2054,7 +2054,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "x − y = 2",
+                "text": "x − y = 2   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -2233,7 +2233,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "3x + y = 11",
+                "text": "3x + y = 11   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -2242,7 +2242,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "x + y = 5",
+                "text": "x + y = 5   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -2421,7 +2421,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "2x + 3y = 13",
+                "text": "2x + 3y = 13   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -2430,7 +2430,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "2x − y = 1",
+                "text": "2x − y = 1   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -2609,7 +2609,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "x + 2y = 1",
+                "text": "x + 2y = 1   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -2618,7 +2618,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "−x + 3y = 9",
+                "text": "−x + 3y = 9   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -2910,7 +2910,7 @@
               0.65,
               -0.525
             ],
-            "text": "x + 2y = 8",
+            "text": "x + 2y = 8   ",
             "bold": true,
             "anchor": "left"
           },
@@ -2919,13 +2919,13 @@
               0.65,
               -1.775
             ],
-            "text": "3x − y = 3",
+            "text": "3x − y = 3   ",
             "bold": true,
             "anchor": "left"
           },
           {
             "at": [
-              5.2,
+              4.95,
               -0.525
             ],
             "text": "㉠",
@@ -2935,7 +2935,7 @@
           },
           {
             "at": [
-              5.2,
+              4.95,
               -1.775
             ],
             "text": "㉡",
@@ -3322,7 +3322,7 @@
               0.65,
               -0.525
             ],
-            "text": "2x + 3y = 7",
+            "text": "2x + 3y = 7   ",
             "bold": true,
             "anchor": "left"
           },
@@ -3331,13 +3331,13 @@
               0.65,
               -1.775
             ],
-            "text": "3x + 4y = 10",
+            "text": "3x + 4y = 10   ",
             "bold": true,
             "anchor": "left"
           },
           {
             "at": [
-              6.0,
+              5.75,
               -0.525
             ],
             "text": "㉠",
@@ -3347,7 +3347,7 @@
           },
           {
             "at": [
-              6.0,
+              5.75,
               -1.775
             ],
             "text": "㉡",
@@ -3694,7 +3694,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "x + 3y = 7",
+                "text": "x + 3y = 7   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -3703,7 +3703,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "2x + y = 4",
+                "text": "2x + y = 4   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -3882,7 +3882,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "3x − 2y = 4",
+                "text": "3x − 2y = 4   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -3891,7 +3891,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "x + y = 3",
+                "text": "x + y = 3   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -4070,7 +4070,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "2x + 5y = 1",
+                "text": "2x + 5y = 1   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -4079,7 +4079,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "3x + 2y = 7",
+                "text": "3x + 2y = 7   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -4258,7 +4258,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "4x + 3y = 2",
+                "text": "4x + 3y = 2   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -4267,7 +4267,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "3x + 2y = 1",
+                "text": "3x + 2y = 1   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -4352,6 +4352,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
+      "text": "가감법으로 풀고, 구한 해를 두 식에 넣어 확인해요.",
       "problems": [
         {
           "figure": {
@@ -4524,7 +4525,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "x + y = 9",
+                "text": "x + y = 9   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -4533,7 +4534,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "x − y = 1",
+                "text": "x − y = 1   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -4712,7 +4713,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "2x + y = 4",
+                "text": "2x + y = 4   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -4721,7 +4722,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "2x − 3y = 12",
+                "text": "2x − 3y = 12   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -4900,7 +4901,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "x + 4y = 9",
+                "text": "x + 4y = 9   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -4909,7 +4910,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "3x + 2y = 7",
+                "text": "3x + 2y = 7   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -5088,7 +5089,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "3x + 2y = 8",
+                "text": "3x + 2y = 8   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -5097,7 +5098,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "2x − 3y = 1",
+                "text": "2x − 3y = 1   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -5374,7 +5375,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "5x + 2y = 1",
+                "text": "5x + 2y = 1   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -5383,7 +5384,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "3x + 2y = −1",
+                "text": "3x + 2y = −1   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -5562,7 +5563,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "2x + 3y = 5",
+                "text": "2x + 3y = 5   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -5571,7 +5572,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "5x + 2y = 7",
+                "text": "5x + 2y = 7   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -5750,7 +5751,7 @@
                   0.65,
                   -0.525
                 ],
-                "text": "3x + y = 5",
+                "text": "3x + y = 5   ",
                 "bold": true,
                 "anchor": "left"
               },
@@ -5759,7 +5760,7 @@
                   0.65,
                   -1.775
                 ],
-                "text": "4x − 2y = 0",
+                "text": "4x − 2y = 0   ",
                 "bold": true,
                 "anchor": "left"
               }
@@ -6069,7 +6070,7 @@
                 0.65,
                 -0.525
               ],
-              "text": "x + y = 10",
+              "text": "x + y = 10   ",
               "bold": true,
               "anchor": "left"
             },
@@ -6078,7 +6079,7 @@
                 0.65,
                 -1.775
               ],
-              "text": "x − y = 4",
+              "text": "x − y = 4   ",
               "bold": true,
               "anchor": "left"
             }
@@ -6260,7 +6261,7 @@
                 0.65,
                 -0.525
               ],
-              "text": "3x + 2y = 13",
+              "text": "3x + 2y = 13   ",
               "bold": true,
               "anchor": "left"
             },
@@ -6269,7 +6270,7 @@
                 0.65,
                 -1.775
               ],
-              "text": "x + 2y = 7",
+              "text": "x + 2y = 7   ",
               "bold": true,
               "anchor": "left"
             }
@@ -6451,7 +6452,7 @@
                 0.65,
                 -0.525
               ],
-              "text": "2x − y = 1",
+              "text": "2x − y = 1   ",
               "bold": true,
               "anchor": "left"
             },
@@ -6460,7 +6461,7 @@
                 0.65,
                 -1.775
               ],
-              "text": "3x + y = 9",
+              "text": "3x + y = 9   ",
               "bold": true,
               "anchor": "left"
             }
@@ -6642,7 +6643,7 @@
                 0.65,
                 -0.525
               ],
-              "text": "2x + y = 5",
+              "text": "2x + y = 5   ",
               "bold": true,
               "anchor": "left"
             },
@@ -6651,7 +6652,7 @@
                 0.65,
                 -1.775
               ],
-              "text": "x + 3y = 10",
+              "text": "x + 3y = 10   ",
               "bold": true,
               "anchor": "left"
             }
@@ -6833,7 +6834,7 @@
                 0.65,
                 -0.525
               ],
-              "text": "3x + 2y = 12",
+              "text": "3x + 2y = 12   ",
               "bold": true,
               "anchor": "left"
             },
@@ -6842,7 +6843,7 @@
                 0.65,
                 -1.775
               ],
-              "text": "2x + 3y = 13",
+              "text": "2x + 3y = 13   ",
               "bold": true,
               "anchor": "left"
             }
@@ -7024,7 +7025,7 @@
                 0.65,
                 -0.525
               ],
-              "text": "x + 2y = 7",
+              "text": "x + 2y = 7   ",
               "bold": true,
               "anchor": "left"
             },
@@ -7033,7 +7034,7 @@
                 0.65,
                 -1.775
               ],
-              "text": "2x − y = 4",
+              "text": "2x − y = 4   ",
               "bold": true,
               "anchor": "left"
             }
