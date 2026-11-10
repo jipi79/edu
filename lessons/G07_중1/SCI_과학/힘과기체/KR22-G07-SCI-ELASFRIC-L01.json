@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G07-SCI-ELASFRIC-L01",
+  "concept_id": "SCI-ELASFRIC",
+  "title": "탄성력과 마찰력",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "힘과기체",
+  "sequence": 2,
+  "file_stem": "중1_과학_힘과기체_02_탄성력과마찰력",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G07-SCI-I03"
+    ],
+    "units": [
+      "6.2.3",
+      "6.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "고무줄을 당기고 물체를 끌어 보며 탄성력과 마찰력의 방향과 크기에 영향을 주는 요인을 비교한다.",
+  "prerequisites": [
+    {
+      "text": "힘과 중력",
+      "lesson": "KR22-G07-SCI-FORCE-L01",
+      "grade_item": "KR22-G07-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "탄성력과 마찰력 활동지",
+    "items": [],
+    "record": []
+  }
+}

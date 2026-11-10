@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G07-SOC-CLIMLIFE-L01",
+  "concept_id": "SOC-CLIMLIFE",
+  "title": "기후와 생활 모습",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "지역과공간",
+  "sequence": 3,
+  "file_stem": "중1_사회·역사_지역과공간_03_기후와생활모습",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G07-SOC-I01"
+    ],
+    "units": [
+      "4.2.2",
+      "4.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "기후 지역에 따라 의식주와 생활 모습이 달라지는 까닭을 사례로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "세계의 기후 지역",
+      "lesson": "KR22-G07-SOC-CLIMZONE-L01",
+      "grade_item": "KR22-G07-SOC-I01"
+    },
+    {
+      "text": "세계의 다양한 문화",
+      "lesson": "KR22-G06-SOC-CULTURES-L01",
+      "grade_item": "KR22-G06-SOC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "기후와 생활 모습 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G07-SCI-FORCE-L01",
+  "concept_id": "SCI-FORCE",
+  "title": "힘과 중력",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "힘과기체",
+  "sequence": 1,
+  "file_stem": "중1_과학_힘과기체_01_힘과중력",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G07-SCI-I03"
+    ],
+    "units": [
+      "6.2.3",
+      "6.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "힘을 화살표로 나타내고 중력의 방향과 무게·질량의 차이를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "밀기·당기기와 수평 잡기",
+      "lesson": "KR22-G03-SCI-PUSHPULL-L01",
+      "grade_item": "KR22-G03-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "힘과 중력 활동지",
+    "items": [],
+    "record": []
+  }
+}
