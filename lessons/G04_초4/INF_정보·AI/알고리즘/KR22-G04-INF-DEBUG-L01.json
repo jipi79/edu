@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G04-INF-DEBUG-L01",
+  "concept_id": "INF-DEBUG",
+  "title": "잘못된 절차 고치기",
+  "grade": "G04",
+  "grade_label": "초4",
+  "band": "E34",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "알고리즘",
+  "sequence": 2,
+  "file_stem": "초4_정보·AI_알고리즘_02_잘못된절차고치기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G04-INF-I02"
+    ],
+    "units": [
+      "8.3.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "절차를 따라가며 잘못된 부분을 찾아 고친다.",
+  "prerequisites": [
+    {
+      "text": "반복으로 문제 해결",
+      "lesson": "KR22-G04-INF-LOOP-L01",
+      "grade_item": "KR22-G04-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "잘못된 절차 고치기 활동지",
+    "items": [],
+    "record": []
+  }
+}

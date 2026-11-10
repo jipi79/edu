@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G04-INF-SOURCE-L01",
+  "concept_id": "INF-SOURCE",
+  "title": "정보 출처 확인",
+  "grade": "G04",
+  "grade_label": "초4",
+  "band": "E34",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "디지털판단",
+  "sequence": 1,
+  "file_stem": "초4_정보·AI_디지털판단_01_정보출처확인",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G04-INF-I03"
+    ],
+    "units": [
+      "8.5.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "정보의 출처를 확인하고 온라인에서 존중하는 말과 행동을 한다.",
+  "prerequisites": [
+    {
+      "text": "순서 정확히 설명하기",
+      "lesson": "KR22-G03-INF-STEPS-L01",
+      "grade_item": "KR22-G03-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정보 출처 확인 활동지",
+    "items": [],
+    "record": []
+  }
+}

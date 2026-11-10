@@ -4415,7 +4415,7 @@
   ],
   "file_stem": "초3_기술·가정_문제와제작_01_불편찾고해결하기",
   "source": "lessons/G03_초3/TEC_기술·가정/문제와제작/KR22-G03-TEC-FIXIDEA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-INF-FILES-L01",
@@ -4467,7 +4467,7 @@
   ],
   "file_stem": "초3_정보·AI_절차와정보윤리_01_순서정확히설명하기",
   "source": "lessons/G03_초3/INF_정보·AI/절차와정보윤리/KR22-G03-INF-STEPS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ART-BEATRHYTHM-L01",
@@ -4516,7 +4516,7 @@
   ],
   "file_stem": "초3_음악·미술_미술표현_01_선·색·형표현",
   "source": "lessons/G03_초3/ART_음악·미술/미술표현/KR22-G03-ART-ELEMENTS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ART-EVERYDAY-L01",
@@ -4541,7 +4541,7 @@
   ],
   "file_stem": "초3_음악·미술_생활속예술_01_생활속음악과이미지",
   "source": "lessons/G03_초3/ART_음악·미술/생활속예술/KR22-G03-ART-EVERYDAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-PHE-SKILLS-L01",
@@ -4567,7 +4567,7 @@
   ],
   "file_stem": "초3_체육·보건·안전_운동과놀이_01_이동·비이동·조작움직임",
   "source": "lessons/G03_초3/PHE_체육·보건·안전/운동과놀이/KR22-G03-PHE-SKILLS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-PHE-HEALTHY-L01",
@@ -4593,7 +4593,7 @@
   ],
   "file_stem": "초3_체육·보건·안전_건강습관_01_체력·영양·수면",
   "source": "lessons/G03_초3/PHE_체육·보건·안전/건강습관/KR22-G03-PHE-HEALTHY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-PHE-DANGER-L01",
@@ -4619,7 +4619,7 @@
   ],
   "file_stem": "초3_체육·보건·안전_안전과경계_01_위험찾기와도움요청",
   "source": "lessons/G03_초3/PHE_체육·보건·안전/안전과경계/KR22-G03-PHE-DANGER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-HUM-QUESTION-L01",
@@ -4645,7 +4645,7 @@
   ],
   "file_stem": "초3_철학·논리·심리·교육·종교_질문과근거_01_질문만들고이유들어답하기",
   "source": "lessons/G03_초3/HUM_철학·논리·심리·교육·종교/질문과근거/KR22-G03-HUM-QUESTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-HUM-MYWAY-L01",
@@ -4771,7 +4771,7 @@
   ],
   "file_stem": "초3_환경·생태_생태관찰_01_생물과사는곳",
   "source": "lessons/G03_초3/ENV_환경·생태/생태관찰/KR22-G03-ENV-HABITAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENV-WASTE-L01",
@@ -4796,7 +4796,7 @@
   ],
   "file_stem": "초3_환경·생태_오염과소비_01_쓰레기가생기는과정",
   "source": "lessons/G03_초3/ENV_환경·생태/오염과소비/KR22-G03-ENV-WASTE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-ENV-WEATHERLOG-L01",
@@ -4822,7 +4822,7 @@
   ],
   "file_stem": "초3_환경·생태_날씨와실천_01_날씨와생활기록",
   "source": "lessons/G03_초3/ENV_환경·생태/날씨와실천/KR22-G03-ENV-WEATHERLOG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-KOR-PARAREL-L01",
@@ -5943,7 +5943,7 @@
   ],
   "file_stem": "초4_도덕·윤리_정직과절제_01_충동조절과선택",
   "source": "lessons/G04_초4/ETH_도덕·윤리/정직과절제/KR22-G04-ETH-SELFCTRL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ETH-CONFLICT-L01",
@@ -8077,7 +8077,9 @@
   "objective": "선택의 결과를 예상하고 책임 있는 행동 계획을 세운다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ETH-SELFCTRL-L01"
+  ],
   "file_stem": "초5_도덕·윤리_자기조절과책임_01_선택의결과예상",
   "source": "lessons/G05_초5/ETH_도덕·윤리/자기조절과책임/KR22-G05-ETH-CONSEQ-L01.json",
   "status": "계획"
@@ -8101,7 +8103,9 @@
   "objective": "갈등 사례에서 여러 입장을 비교하고 공정한 해결안을 제안한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ETH-CONFLICT-L01"
+  ],
   "file_stem": "초5_도덕·윤리_공정과존중_01_공정한해결",
   "source": "lessons/G05_초5/ETH_도덕·윤리/공정과존중/KR22-G05-ETH-FAIRSOLVE-L01.json",
   "status": "계획"
@@ -8125,7 +8129,9 @@
   "objective": "다양성을 존중하며 공동체와 자연에 대한 책임을 실천한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ETH-TOGETHER-L01"
+  ],
   "file_stem": "초5_도덕·윤리_공동체와생명_01_다양성과공동체책임",
   "source": "lessons/G05_초5/ETH_도덕·윤리/공동체와생명/KR22-G05-ETH-DIVERSITY-L01.json",
   "status": "계획"
@@ -8281,7 +8287,7 @@
   ],
   "file_stem": "초5_과학_몸과건강_02_기관의협력",
   "source": "lessons/G05_초5/SCI_과학/몸과건강/KR22-G05-SCI-TOGETHER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G05-SCI-WEATHER-L01",
@@ -8380,7 +8386,9 @@
   "objective": "균형 잡힌 식생활을 점검하고 식단을 짠다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G03-PHE-HEALTHY-L01"
+  ],
   "file_stem": "초5_기술·가정_성장과생활_01_균형잡힌식사",
   "source": "lessons/G05_초5/TEC_기술·가정/성장과생활/KR22-G05-TEC-NUTRITION-L01.json",
   "status": "계획"
@@ -8430,7 +8438,9 @@
   "objective": "옷·시간·용돈을 관리하고 합리적인 소비 계획을 세운다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-SOC-SCARCITY-L01"
+  ],
   "file_stem": "초5_기술·가정_자원과자립_01_용돈관리와소비계획",
   "source": "lessons/G05_초5/TEC_기술·가정/자원과자립/KR22-G05-TEC-POCKETMONEY-L01.json",
   "status": "계획"
@@ -8454,7 +8464,9 @@
   "objective": "식물을 기르며 재배 계획·관리·기록을 한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G03-SCI-PLANTLIFE-L01"
+  ],
   "file_stem": "초5_기술·가정_기술과생산_01_식물기르기",
   "source": "lessons/G05_초5/TEC_기술·가정/기술과생산/KR22-G05-TEC-GARDEN-L01.json",
   "status": "계획"
@@ -8478,7 +8490,9 @@
   "objective": "목적에 맞게 자료를 모으고 표·그래프로 나타낸다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-INF-TABLE-L01"
+  ],
   "file_stem": "초5_정보·AI_자료와기기_01_자료수집과표현",
   "source": "lessons/G05_초5/INF_정보·AI/자료와기기/KR22-G05-INF-COLLECT-L01.json",
   "status": "계획"
@@ -8527,7 +8541,9 @@
   "objective": "생활 속 AI 사례와 한계를 찾고 개인정보·저작권을 지킨다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-INF-SOURCE-L01"
+  ],
   "file_stem": "초5_정보·AI_AI와윤리_01_생활속AI와한계",
   "source": "lessons/G05_초5/INF_정보·AI/AI와윤리/KR22-G05-INF-AILIFE-L01.json",
   "status": "계획"
@@ -8551,7 +8567,9 @@
   "objective": "셈여림·빠르기·리듬을 살려 노래하고 악기를 연주한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ART-INSTRUMENT-L01"
+  ],
   "file_stem": "초5_음악·미술_음악표현과이해_01_악곡의특징살려연주",
   "source": "lessons/G05_초5/ART_음악·미술/음악표현과이해/KR22-G05-ART-PERFORM-L01.json",
   "status": "계획"
@@ -8574,7 +8592,9 @@
   "objective": "주제에 맞는 재료·방법을 고르고 작품의 의도를 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ART-POSTER-L01"
+  ],
   "file_stem": "초5_음악·미술_미술표현과감상_01_작품의의도",
   "source": "lessons/G05_초5/ART_음악·미술/미술표현과감상/KR22-G05-ART-INTENT-L01.json",
   "status": "계획"
@@ -8598,7 +8618,9 @@
   "objective": "우리 음악·미술과 다른 문화의 작품을 비교한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ART-MATERIALS-L01"
+  ],
   "file_stem": "초5_음악·미술_예술과문화_01_우리예술과세계예술",
   "source": "lessons/G05_초5/ART_음악·미술/예술과문화/KR22-G05-ART-TRADITION-L01.json",
   "status": "계획"
@@ -8622,7 +8644,9 @@
   "objective": "체력 요소를 점검하고 기본 전략을 팀 활동에 적용한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-PHE-SPORTSKILL-L01"
+  ],
   "file_stem": "초5_체육·보건·안전_운동과스포츠_01_체력점검과팀전략",
   "source": "lessons/G05_초5/PHE_체육·보건·안전/운동과스포츠/KR22-G05-PHE-TEAMPLAY-L01.json",
   "status": "계획"
@@ -8646,7 +8670,9 @@
   "objective": "사춘기 변화를 이해하고 감정·스트레스를 조절한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-PHE-INFECTION-L01"
+  ],
   "file_stem": "초5_체육·보건·안전_성장과마음_01_사춘기와마음관리",
   "source": "lessons/G05_초5/PHE_체육·보건·안전/성장과마음/KR22-G05-PHE-PUBERTY-L01.json",
   "status": "계획"
@@ -8670,7 +8696,9 @@
   "objective": "신체 경계와 활동 안전을 지키고 응급상황에서 도움을 요청한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G03-PHE-DANGER-L01"
+  ],
   "file_stem": "초5_체육·보건·안전_건강과안전_01_응급상황도움요청",
   "source": "lessons/G05_초5/PHE_체육·보건·안전/건강과안전/KR22-G05-PHE-HELPCALL-L01.json",
   "status": "계획"
@@ -8693,7 +8721,9 @@
   "objective": "의견과 사실을 구별하고 반대 사례로 생각을 고친다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-HUM-COUNTER-L01"
+  ],
   "file_stem": "초5_철학·논리·심리·교육·종교_이유와검토_01_사실과의견,반대사례",
   "source": "lessons/G05_초5/HUM_철학·논리·심리·교육·종교/이유와검토/KR22-G05-HUM-FACTOP-L01.json",
   "status": "계획"
@@ -8717,7 +8747,9 @@
   "objective": "감정·동기·학습 습관을 관찰하고 나에게 맞는 공부 방법을 시험한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-HUM-CHECKVIEW-L01"
+  ],
   "file_stem": "초5_철학·논리·심리·교육·종교_마음과공부_01_공부방법실험",
   "source": "lessons/G05_초5/HUM_철학·논리·심리·교육·종교/마음과공부/KR22-G05-HUM-STUDYTEST-L01.json",
   "status": "계획"
@@ -8740,7 +8772,9 @@
   "objective": "역사·문화 자료에 나타난 다양한 믿음과 가치관을 비교한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G03-HUM-BELIEFS-L01"
+  ],
   "file_stem": "초5_철학·논리·심리·교육·종교_문화와세계관_01_다양한믿음과가치관",
   "source": "lessons/G05_초5/HUM_철학·논리·심리·교육·종교/문화와세계관/KR22-G05-HUM-VALUES-L01.json",
   "status": "계획"
@@ -8764,7 +8798,9 @@
   "objective": "흥미와 강점을 활동 기록과 연결하고 더 탐색할 영역을 정한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-CAR-TEAMROLE-L01"
+  ],
   "file_stem": "초5_진로·직업_흥미와강점_01_흥미·강점기록",
   "source": "lessons/G05_초5/CAR_진로·직업/흥미와강점/KR22-G05-CAR-MYRECORD-L01.json",
   "status": "계획"
@@ -8788,7 +8824,9 @@
   "objective": "직업의 역할·능력을 조사하고 실행 가능한 학습 목표를 세운다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-CAR-JOBSKILL-L01"
+  ],
   "file_stem": "초5_진로·직업_직업과목표_01_직업조사와학습목표",
   "source": "lessons/G05_초5/CAR_진로·직업/직업과목표/KR22-G05-CAR-STUDYGOAL-L01.json",
   "status": "계획"
@@ -8812,7 +8850,9 @@
   "objective": "생활에 필요한 물·에너지의 흐름을 조사하고 낭비 원인을 찾는다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ENV-LOCALENV-L01"
+  ],
   "file_stem": "초5_환경·생태_물과에너지_01_물·에너지의흐름",
   "source": "lessons/G05_초5/ENV_환경·생태/물과에너지/KR22-G05-ENV-FLOW-L01.json",
   "status": "계획"
@@ -8835,7 +8875,9 @@
   "objective": "기후·생물다양성 변화가 생활에 미치는 영향을 사례로 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ENV-CONSUME-L01"
+  ],
   "file_stem": "초5_환경·생태_기후와생태_01_기후와생물다양성",
   "source": "lessons/G05_초5/ENV_환경·생태/기후와생태/KR22-G05-ENV-BIODIV-L01.json",
   "status": "계획"
@@ -8859,7 +8901,9 @@
   "objective": "소비와 쓰레기를 기록하고 줄이는 목표를 세워 결과를 평가한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-ENV-ACTION-L01"
+  ],
   "file_stem": "초5_환경·생태_생활프로젝트_01_소비·폐기물기록",
   "source": "lessons/G05_초5/ENV_환경·생태/생활프로젝트/KR22-G05-ENV-WASTELOG-L01.json",
   "status": "계획"
@@ -10038,7 +10082,9 @@
   "objective": "존중·정직·책임을 기준으로 자신의 선택을 돌아보고 행동을 고친다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ETH-CONSEQ-L01"
+  ],
   "file_stem": "초6_도덕·윤리_성찰과관계_01_자기성찰",
   "source": "lessons/G06_초6/ETH_도덕·윤리/성찰과관계/KR22-G06-ETH-REFLECT-L01.json",
   "status": "계획"
@@ -10062,7 +10108,9 @@
   "objective": "인권·공정·통일과 평화의 문제에 근거를 들어 의견을 말한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ETH-FAIRSOLVE-L01"
+  ],
   "file_stem": "초6_도덕·윤리_정의와평화_01_인권·공정·평화",
   "source": "lessons/G06_초6/ETH_도덕·윤리/정의와평화/KR22-G06-ETH-JUSTICE-L01.json",
   "status": "계획"
@@ -10086,7 +10134,9 @@
   "objective": "생명 존중과 온라인 책임을 구체적인 실천으로 연결한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ETH-DIVERSITY-L01"
+  ],
   "file_stem": "초6_도덕·윤리_자연과디지털생활_01_생명존중과온라인책임",
   "source": "lessons/G06_초6/ETH_도덕·윤리/자연과디지털생활/KR22-G06-ETH-ONLINE-L01.json",
   "status": "계획"
@@ -10115,7 +10165,7 @@
   ],
   "file_stem": "초6_과학_물질과운동_01_산과염기",
   "source": "lessons/G06_초6/SCI_과학/물질과운동/KR22-G06-SCI-ACIDBASE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SCI-BURN-L01",
@@ -10141,7 +10191,7 @@
   ],
   "file_stem": "초6_과학_물질과운동_02_연소와소화",
   "source": "lessons/G06_초6/SCI_과학/물질과운동/KR22-G06-SCI-BURN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SCI-SPEED-L01",
@@ -10167,7 +10217,7 @@
   ],
   "file_stem": "초6_과학_물질과운동_03_물체의빠르기",
   "source": "lessons/G06_초6/SCI_과학/물질과운동/KR22-G06-SCI-SPEED-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SCI-PLANTPART-L01",
@@ -10246,7 +10296,7 @@
   ],
   "file_stem": "초6_과학_식물과전기_03_전자석",
   "source": "lessons/G06_초6/SCI_과학/식물과전기/KR22-G06-SCI-ELECTROMAG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SCI-ROTATION-L01",
@@ -10271,7 +10321,7 @@
   ],
   "file_stem": "초6_과학_지구와계절_01_자전과낮과밤",
   "source": "lessons/G06_초6/SCI_과학/지구와계절/KR22-G06-SCI-ROTATION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SCI-SEASONS-L01",
@@ -10296,7 +10346,7 @@
   ],
   "file_stem": "초6_과학_지구와계절_02_공전과계절",
   "source": "lessons/G06_초6/SCI_과학/지구와계절/KR22-G06-SCI-SEASONS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-SCI-REPORT-L01",
@@ -10321,7 +10371,7 @@
   ],
   "file_stem": "초6_과학_탐구와진로_01_탐구보고서",
   "source": "lessons/G06_초6/SCI_과학/탐구와진로/KR22-G06-SCI-REPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G06-TEC-CARELIFE-L01",
@@ -10342,7 +10392,9 @@
   "objective": "옷 관리와 생활공간 정리에 참여하고 가족의 돌봄을 살핀다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-TEC-REUSE-L01"
+  ],
   "file_stem": "초6_기술·가정_식의주와돌봄_01_옷과생활공간관리",
   "source": "lessons/G06_초6/TEC_기술·가정/식의주와돌봄/KR22-G06-TEC-CARELIFE-L01.json",
   "status": "계획"
@@ -10365,7 +10417,9 @@
   "objective": "생활자원을 계획적으로 쓰고 구매 선택의 이유를 설명한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-TEC-POCKETMONEY-L01"
+  ],
   "file_stem": "초6_기술·가정_소비와자립_01_구매선택의기준",
   "source": "lessons/G06_초6/TEC_기술·가정/소비와자립/KR22-G06-TEC-BUYWISE-L01.json",
   "status": "계획"
@@ -10389,7 +10443,9 @@
   "objective": "문제를 찾아 아이디어를 만들고 시험한 뒤 고친다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-TEC-INVENT-L01"
+  ],
   "file_stem": "초6_기술·가정_발명과기술_01_만들고시험하고고치기",
   "source": "lessons/G06_초6/TEC_기술·가정/발명과기술/KR22-G06-TEC-PROTOTYPE-L01.json",
   "status": "계획"
@@ -10438,7 +10494,9 @@
   "objective": "학습 데이터에 따라 AI 결과가 달라짐을 경험하고 설명한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-INF-AILIFE-L01"
+  ],
   "file_stem": "초6_정보·AI_데이터와AI_01_학습데이터와AI",
   "source": "lessons/G06_초6/INF_정보·AI/데이터와AI/KR22-G06-INF-TRAINDATA-L01.json",
   "status": "계획"
@@ -10462,7 +10520,9 @@
   "objective": "정보의 신뢰성을 확인하고 개인정보·저작권·사용 습관을 점검한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G04-INF-SOURCE-L01"
+  ],
   "file_stem": "초6_정보·AI_디지털시민성_01_정보신뢰성과디지털습관",
   "source": "lessons/G06_초6/INF_정보·AI/디지털시민성/KR22-G06-INF-TRUST-L01.json",
   "status": "계획"
@@ -10486,7 +10546,9 @@
   "objective": "악곡의 특징을 살려 연주하고 리듬·가락을 바꾸어 만든다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ART-PERFORM-L01"
+  ],
   "file_stem": "초6_음악·미술_연주와창작_01_리듬·가락바꾸기",
   "source": "lessons/G06_초6/ART_음악·미술/연주와창작/KR22-G06-ART-VARIATION-L01.json",
   "status": "계획"
@@ -10509,7 +10571,9 @@
   "objective": "균형·강조·반복 등 조형 원리를 활용하고 작품의 의미를 근거로 말한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ART-INTENT-L01"
+  ],
   "file_stem": "초6_음악·미술_표현과감상_01_조형원리",
   "source": "lessons/G06_초6/ART_음악·미술/표현과감상/KR22-G06-ART-PRINCIPLE-L01.json",
   "status": "계획"
@@ -10532,7 +10596,9 @@
   "objective": "생활 문제를 예술로 표현하고 디지털 자료를 책임 있게 쓴다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ART-TRADITION-L01"
+  ],
   "file_stem": "초6_음악·미술_예술과매체_01_디지털표현과책임",
   "source": "lessons/G06_초6/ART_음악·미술/예술과매체/KR22-G06-ART-DIGITALART-L01.json",
   "status": "계획"
@@ -10556,7 +10622,9 @@
   "objective": "자신의 운동 계획을 세우고 스포츠 전략과 협동을 실천한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-PHE-TEAMPLAY-L01"
+  ],
   "file_stem": "초6_체육·보건·안전_체력과전략_01_나의운동계획",
   "source": "lessons/G06_초6/PHE_체육·보건·안전/체력과전략/KR22-G06-PHE-MYPLAN-L01.json",
   "status": "계획"
@@ -10581,7 +10649,9 @@
   "objective": "사춘기·동의·감염 예방을 이해하고 스트레스 대처 방법을 쓴다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-PHE-PUBERTY-L01"
+  ],
   "file_stem": "초6_체육·보건·안전_성장과건강_01_사춘기·동의·감염예방",
   "source": "lessons/G06_초6/PHE_체육·보건·안전/성장과건강/KR22-G06-PHE-CONSENT-L01.json",
   "status": "계획"
@@ -10605,7 +10675,9 @@
   "objective": "위험 상황을 판단하고 신고·도움 요청과 기본 안전 절차를 연습한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-PHE-HELPCALL-L01"
+  ],
   "file_stem": "초6_체육·보건·안전_안전과도움_01_신고와안전절차",
   "source": "lessons/G06_초6/PHE_체육·보건·안전/안전과도움/KR22-G06-PHE-REPORT119-L01.json",
   "status": "계획"
@@ -10629,7 +10701,9 @@
   "objective": "근거의 적절성을 살피고 생활 속 철학적 질문을 토의한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-HUM-FACTOP-L01"
+  ],
   "file_stem": "초6_철학·논리·심리·교육·종교_논증과질문_01_근거와철학적질문",
   "source": "lessons/G06_초6/HUM_철학·논리·심리·교육·종교/논증과질문/KR22-G06-HUM-PHILOQ-L01.json",
   "status": "계획"
@@ -10652,7 +10726,9 @@
   "objective": "목표·방법·결과를 비교해 학습 계획을 고친다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-HUM-STUDYTEST-L01"
+  ],
   "file_stem": "초6_철학·논리·심리·교육·종교_자기주도학습_01_학습계획고치기",
   "source": "lessons/G06_초6/HUM_철학·논리·심리·교육·종교/자기주도학습/KR22-G06-HUM-REPLAN-L01.json",
   "status": "계획"
@@ -10675,7 +10751,9 @@
   "objective": "문화유산과 종교적 표현의 맥락을 살피고 다른 관점을 존중한다.",
   "format": "ppt",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-HUM-VALUES-L01"
+  ],
   "file_stem": "초6_철학·논리·심리·교육·종교_문화와존중_01_문화유산과종교적표현",
   "source": "lessons/G06_초6/HUM_철학·논리·심리·교육·종교/문화와존중/KR22-G06-HUM-RELIGION-L01.json",
   "status": "계획"
@@ -10698,7 +10776,9 @@
   "objective": "흥미·강점·가치를 정리하고 바뀔 수 있음을 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-CAR-MYRECORD-L01"
+  ],
   "file_stem": "초6_진로·직업_자기이해_01_흥미·강점·가치",
   "source": "lessons/G06_초6/CAR_진로·직업/자기이해/KR22-G06-CAR-MYSELF-L01.json",
   "status": "계획"
@@ -10721,7 +10801,9 @@
   "objective": "중학교 생활과 교과를 조사하고 시간 관리·학습 계획을 세운다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-CAR-STUDYGOAL-L01"
+  ],
   "file_stem": "초6_진로·직업_중학교준비_01_중학교준비",
   "source": "lessons/G06_초6/CAR_진로·직업/중학교준비/KR22-G06-CAR-MIDDLE-L01.json",
   "status": "계획"
@@ -10744,7 +10826,9 @@
   "objective": "물·에너지·생물·사람의 관계를 연결해 설명한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ENV-FLOW-L01"
+  ],
   "file_stem": "초6_환경·생태_환경체계_01_물·에너지·생물·사람의연결",
   "source": "lessons/G06_초6/ENV_환경·생태/환경체계/KR22-G06-ENV-SYSTEM-L01.json",
   "status": "계획"
@@ -10768,7 +10852,9 @@
   "objective": "기후 대응과 자원 순환의 실천 방법을 비교한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ENV-BIODIV-L01"
+  ],
   "file_stem": "초6_환경·생태_기후와소비_01_기후대응과자원순환",
   "source": "lessons/G06_초6/ENV_환경·생태/기후와소비/KR22-G06-ENV-CLIMATEACT-L01.json",
   "status": "계획"
@@ -10791,7 +10877,9 @@
   "objective": "학교나 지역의 문제를 조사해 개선안을 실행하고 효과를 평가한다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G05-ENV-WASTELOG-L01"
+  ],
   "file_stem": "초6_환경·생태_시민참여_01_지역문제개선",
   "source": "lessons/G06_초6/ENV_환경·생태/시민참여/KR22-G06-ENV-CIVIC-L01.json",
   "status": "계획"
