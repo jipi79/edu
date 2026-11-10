@@ -100,16 +100,13 @@
       "where": "S05 ② 큰 단추 6개 + 작은 단추 6개"
     },
     {
-      "type": "count",
-      "slide": "S07",
-      "value": 4,
-      "where": "S07 구멍 2개 ○ 4개"
-    },
-    {
-      "type": "count",
-      "slide": "S07",
-      "value": 8,
-      "where": "S07 구멍 4개 ○ 8개"
+      "type": "compare",
+      "values": [
+        "8",
+        "4"
+      ],
+      "rel": ">",
+      "where": "S07 ○ 그림: 구멍 4개(8)가 구멍 2개(4)보다 많음(○ 수는 생성기에서 대조)"
     },
     {
       "type": "blank",
@@ -419,8 +416,7 @@
             "r": 0.9,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -470,8 +466,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -521,8 +516,7 @@
             "r": 0.9,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -552,8 +546,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -603,8 +596,7 @@
             "r": 0.9,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -654,8 +646,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -685,8 +676,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1143,8 +1133,7 @@
             "r": 0.9,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1214,8 +1203,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1265,8 +1253,7 @@
             "r": 0.9,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1336,8 +1323,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1427,8 +1413,7 @@
             "r": 0.9,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1478,8 +1463,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -1549,8 +1533,7 @@
             "r": 0.55,
             "fill": "FBE3D2",
             "color": "1F2937",
-            "width": 2,
-            "order": "below"
+            "width": 2
           },
           {
             "center": [
@@ -2163,26 +2146,161 @@
           "text": "합계는?"
         }
       ],
-      "figures": [
-        {
-          "type": "array",
-          "rows": 1,
-          "cols": 8,
-          "count": 4,
-          "cell": 0.55,
-          "caption": "구멍 2개",
-          "alt": "구멍 2개인 단추를 ○ 4개로 나타낸 그림"
+      "figure": {
+        "type": "geo",
+        "points": {
+          "_a": [
+            0,
+            0
+          ],
+          "_b": [
+            10.549999999999999,
+            2.6
+          ]
         },
-        {
-          "type": "array",
-          "rows": 1,
-          "cols": 8,
-          "count": 8,
-          "cell": 0.55,
-          "caption": "구멍 4개",
-          "alt": "구멍 4개인 단추를 ○ 8개로 나타낸 그림"
-        }
-      ],
+        "names": false,
+        "circles": [
+          {
+            "center": [
+              3.4,
+              1.9
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              4.35,
+              1.9
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              5.3,
+              1.9
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              6.25,
+              1.9
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              3.4,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              4.35,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              5.3,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              6.25,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              7.199999999999999,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              8.15,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              9.1,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          },
+          {
+            "center": [
+              10.049999999999999,
+              0.6
+            ],
+            "r": 0.36,
+            "fill": "accent",
+            "color": "1F2937",
+            "width": 1.25
+          }
+        ],
+        "texts": [
+          {
+            "at": [
+              0,
+              1.9
+            ],
+            "text": "구멍 2개",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0,
+              0.6
+            ],
+            "text": "구멍 4개",
+            "anchor": "left"
+          }
+        ],
+        "alt": "구멍 수로 나눈 단추를 ○ 그림으로 나타냈다. 구멍 2개 줄에 ○ 4개, 구멍 4개 줄에 ○ 8개."
+      },
       "hint": "○ 하나가 단추 하나예요.",
       "notes": {
         "목적": "구멍 수로 나눈 단추를 ○ 그림으로 나타낸 것을 보고, 제목 칸과 합계가 있는 표로 옮겨 봅니다. 그림과 표가 같은 자료를 나타낸다는 것도 알게 합니다. 활동지 1의 표에 씁니다.",
@@ -3011,8 +3129,7 @@
               "r": 0.9,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
@@ -3082,8 +3199,7 @@
               "r": 0.55,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
@@ -3133,8 +3249,7 @@
               "r": 0.9,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
@@ -3204,8 +3319,7 @@
               "r": 0.55,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
@@ -3295,8 +3409,7 @@
               "r": 0.9,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
@@ -3346,8 +3459,7 @@
               "r": 0.55,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
@@ -3417,8 +3529,7 @@
               "r": 0.55,
               "fill": "FBE3D2",
               "color": "1F2937",
-              "width": 2,
-              "order": "below"
+              "width": 2
             },
             {
               "center": [
