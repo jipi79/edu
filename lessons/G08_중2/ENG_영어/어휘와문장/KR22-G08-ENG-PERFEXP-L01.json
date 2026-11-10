@@ -1,0 +1,1213 @@
+{
+  "id": "KR22-G08-ENG-PERFEXP-L01",
+  "concept_id": "ENG-PERFEXP",
+  "title": "현재완료(경험)",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "어휘와문장",
+  "sequence": 1,
+  "file_stem": "중2_영어_어휘와문장_01_현재완료경험",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "제작 완료",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-ENG-I01"
+    ],
+    "units": [
+      "3.1.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "과거 부정문·의문문",
+      "lesson": "KR22-G07-ENG-PASTQ-L01",
+      "grade_item": "KR22-G07-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "have·has + 과거분사(have·has 뒤에 쓰는 동사 모양)로 ‘~해 본 적이 있다’는 경험을 말하고 쓴다. 주어가 he·she·it이면 has를 쓰고, -ed 동사의 과거분사(visited)와 새 모양 과거분사 been·seen·eaten·written을 구별해 쓰며, once·twice·before를 문장 끝에, never를 have와 과거분사 사이에 넣어 말한다.",
+      "evidence": "현재완료의 모양(S03), 과거분사 표(S04), have·has(S05), 횟수와 never(S06), 알맞은 모양(S07), have saw 비교(S08), 경험 카드 인터뷰(S11), 혼자 해 보기(S12 ①②), 활동지 1·2·3·5·6",
+      "success": "활동지 1의 과거분사 10개 가운데 9개 이상을 바르게 쓰고, 활동지 2의 빈칸 6개 가운데 5개 이상에 주어에 맞는 have·has와 과거분사를 쓴다. I have saw처럼 과거형을 쓰지 않고, never를 not과 함께 쓰지 않는다."
+    },
+    {
+      "id": "B",
+      "text": "Have·Has + 주어 + ever + 과거분사 ~?로 해 본 일을 묻고, Yes, I have. / No, she hasn't.처럼 주어와 have·has로 짧게 대답한다.",
+      "evidence": "Have you ever ~? 표(S09), 묻고 대답하기(S10), 경험 카드 인터뷰(S11), 혼자 해 보기(S12 ③④), 묻는 말에 대답하기(S14), 활동지 4·5·6",
+      "success": "부모의 경험 질문 3개 가운데 3개에 질문에 맞는 have·has로 짧게 대답하고(Yes, I did. ×, Yes, I've. ×), ever 의문문 3개 가운데 3개를 Have·Has를 맨 앞에 두어 바르게 쓴다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 여섯 장과 펜(경험 카드)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "현재완료(have·has + 과거분사)의 ‘경험’ 쓰임만 다룬다. 긍정문(once, twice, three times, before를 문장 끝에), never 문장, Have·Has + 주어 + ever + 과거분사 ~? 의문문과 Yes, I have. / No, I haven't. 대답이다. 과거분사는 -ed를 붙이는 규칙 동사(과거형과 같음), 중1에서 배운 불규칙 동사 가운데 과거형과 같은 것(had, met, bought, made, read, slept 등), 새 모양 네 개(been, seen, eaten, written)만 쓴다. 가 본 경험은 have been to ~로 말하고, have gone to(가 버렸다)는 다루지 않는다. 계속(for, since, How long ~?)은 다음 차시 ‘현재완료(계속)’에서, 완료(just, already, yet)와 결과는 뒤에서 다룬다. yesterday, last year, ~ ago처럼 지난 때를 밝히는 말과 현재완료를 함께 쓰지 않는다는 것은 노트에서만 짚고, 과거 시제와의 비교는 다음 차시에서 한다. She's been처럼 has를 줄인 말, How many times ~? 같은 의문사 질문은 다루지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "have·has 뒤에 과거형이나 동사원형을 쓴다(I have saw a whale. She has eat tacos.). 과거분사가 과거형과 같은 동사가 많아서 모든 동사가 그렇다고 생각하기 때문이다.",
+      "response": "S04 표에서 과거형과 같은 과거분사와 새 모양(★)을 나누어 보여 주고, S08에서 have saw와 have seen을 나란히 비교한다. S07과 활동지 1·2에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "주어가 he·she·it이나 my mom, Tom인데 have를 쓴다(She have been to Jeju.).",
+      "response": "S05에서 일반동사 have → has와 같은 규칙이라고 연결하고, 주어를 he·she로 바꿔 생각하게 한다. S07 ②와 활동지 2에서 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "Have you ever ~?에 Yes, I did. / No, I didn't.로 대답하거나, Yes, I've.처럼 줄여 대답한다.",
+      "response": "S09 표에서 ‘물은 말로 대답한다’는 것을 Did 질문과 비교해 보여 주고, S11 인터뷰와 S14에서 여러 번 소리 내어 주고받는다. S13 정답 장에서 Yes, he did.를 흔한 실수로 다시 다룬다."
+    },
+    {
+      "id": "M4",
+      "text": "ever를 긍정문에 쓰거나(I have ever been to Japan.), never와 not을 함께 쓴다(I haven't never seen it.).",
+      "response": "S06에서 never의 자리와 ‘not과 함께 쓰지 않는다’는 것을, S07 ⑥에서 never와 ever를 구별하게 하고, ever는 묻는 문장에 쓴다고 S09에서 짚는다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "현재완료(경험)",
+      "question": "I have been to Busan.\n‘해 본 적이 있다’는 영어로 어떻게 말할까?",
+      "goals": [
+        "① have·has + 과거분사로 해 본 일을 말하고 써요.",
+        "② Have you ever ~?로 묻고 have로 대답해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I have been to Busan."
+          },
+          {
+            "word": "She has seen a whale."
+          },
+          {
+            "word": "Have you ever eaten tacos?"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, ‘해 본 적이 있다’를 영어로 말하는 방법에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘나는 부산에 가 본 적이 있어요. 그녀는 고래를 본 적이 있어요. 너는 타코를 먹어 본 적이 있니?’라는 뜻이야. 세 문장에 모두 have나 has가 있지? 오늘은 이렇게 지금까지 해 본 일을 말하고 묻는 방법을 배울 거야.”"
+        ],
+        "예상답": [
+          "“have, has가 있어요.” “seen, eaten은 처음 봐요.”"
+        ],
+        "막히면": [
+          "문장의 뜻을 모르면 부모가 뜻만 알려 주고, have와 has를 손가락으로 짚어 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I have been to Busan. She has seen a whale. Have you ever eaten tacos? Yes, I have. No, I haven't. I have never been to Japan.)과 과거분사 been, seen, eaten, written을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "중2 영어 첫 차시입니다. 중1의 과거형(went, saw, ate)과 Did 질문을 알아야 쉬워집니다. 설명은 우리말로, 예문은 영어로 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(과거 부정문·의문문)",
+      "role": "prior",
+      "objectives": [],
+      "title": "과거형과 Did 질문 떠올리기",
+      "text": "①②는 괄호 안의 동사를 과거형으로, ③은 No로 대답해요.",
+      "problems": [
+        {
+          "text": "I (see) a bird yesterday."
+        },
+        {
+          "text": "She (eat) pizza last night."
+        },
+        {
+          "text": "Did you meet Tom yesterday?"
+        }
+      ],
+      "notes": {
+        "목적": "중1 ‘과거 부정문·의문문’(KR22-G07-ENG-PASTQ-L01)과 그 앞의 과거형을 기억하는지 확인합니다. 오늘 배울 과거분사는 과거형과 같은 것이 많아서 과거형을 알아야 합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②, 괄호 안의 동사를 과거형으로 바꿔서 문장 전체를 읽어 줘.”",
+          "“③은 엄마(아빠)가 물어볼게. Did you meet Tom yesterday? No로 대답해 줘.”"
+        ],
+        "정답": [
+          "① saw (I saw a bird yesterday.)",
+          "② ate (She ate pizza last night.)",
+          "③ No, I didn't."
+        ],
+        "막히면": [
+          "①②는 “see, eat은 -ed를 붙이는 동사였어, 모양이 바뀌는 동사였어?”라고 묻습니다.",
+          "③에서 No, I don't.라고 하면 “어제 일이니까 did로 대답해.”라고 말해 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "과거형이 흔들리면 오늘의 과거분사도 어렵습니다. 보충 장에서 과거형부터 다시 다집니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "현재완료와 과거분사의 뜻",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "현재완료의 모양",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "I",
+            "sub": "주어: 나는"
+          },
+          {
+            "word": "have",
+            "sub": "have·has",
+            "highlight": true
+          },
+          {
+            "word": "visited",
+            "sub": "과거분사",
+            "highlight": true
+          },
+          {
+            "word": "Busan.",
+            "sub": "부산을"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "현재완료",
+          "text": "have·has + 과거분사\n지난 일이 지금과 이어져요."
+        },
+        {
+          "title": "경험",
+          "text": "‘~해 본 적이 있다’라는 뜻이에요."
+        }
+      ],
+      "key": "-ed를 붙이는 동사는 과거분사가 과거형과 같아요.  visit → visited",
+      "notes": {
+        "목적": "현재완료(have·has + 과거분사)의 모양과 ‘경험’의 뜻, 과거분사라는 말을 알려 줍니다(목표 A).",
+        "시간": "약 3분",
+        "말하기": [
+          "“I have visited Busan.을 네 덩어리로 나눠 봤어. 주어 I 다음에 have, 그다음에 visited가 와.”",
+          "“have 뒤에 오는 visited 같은 동사 모양을 과거분사라고 해. have나 has에 과거분사를 붙인 모양을 현재완료라고 불러.”",
+          "“현재완료는 지난 일이 지금과 이어져 있다는 걸 나타내. 오늘은 그 가운데 ‘지금까지 ~해 본 적이 있다’는 경험을 배울 거야. I have visited Busan.은 ‘나는 부산에 가 본 적이 있어요.’야.”",
+          "“visit의 과거형은 visited였지? -ed를 붙이는 동사는 과거분사도 과거형과 똑같아.”"
+        ],
+        "예상답": [
+          "“have 다음에 visited가 와요.” “부산에 가 본 적이 있다는 뜻이에요.”"
+        ],
+        "막히면": [
+          "“I visited Busan.은 ‘부산에 갔어요’, I have visited Busan.은 ‘부산에 가 본 적이 있어요’야. 무엇이 더 생겼어?” 하고 두 문장을 비교하게 합니다."
+        ],
+        "주의": [
+          "I visited Busan last year.(작년에 갔다)처럼 언제인지 정확히 말할 때는 과거 시제를 씁니다. 현재완료는 yesterday, last year, ~ ago와 함께 쓰지 않습니다. 오늘은 짚어 주기만 하고 다음 차시에서 과거 시제와 비교합니다.",
+          "‘현재완료’, ‘과거분사’는 교과서와 시험에 나오는 이름입니다. 이름보다 ‘have·has 뒤에 오는 모양’이라는 것을 알면 충분합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "오늘 쓰는 과거분사(새 모양 표시)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "과거분사 익히기",
+      "text": "★는 과거형과 모양이 다른 새 과거분사예요.",
+      "table": {
+        "headers": [
+          "동사",
+          "뜻",
+          "과거형",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "visit",
+            "방문하다",
+            "visited",
+            "visited"
+          ],
+          [
+            "play",
+            "(놀이를) 하다",
+            "played",
+            "played"
+          ],
+          [
+            "have",
+            "가지다, 먹다",
+            "had",
+            "had"
+          ],
+          [
+            "meet",
+            "만나다",
+            "met",
+            "met"
+          ],
+          [
+            "be",
+            "~이다, ~에 있다",
+            "was, were",
+            "★ been"
+          ],
+          [
+            "see",
+            "보다",
+            "saw",
+            "★ seen"
+          ],
+          [
+            "eat",
+            "먹다",
+            "ate",
+            "★ eaten"
+          ],
+          [
+            "write",
+            "쓰다",
+            "wrote",
+            "★ written"
+          ]
+        ],
+        "widths": [
+          0.18,
+          0.32,
+          0.25,
+          0.25
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "notes": {
+        "목적": "오늘 쓰는 동사의 과거형과 과거분사를 표로 익힙니다. 과거형과 같은 것과 새 모양(★)을 구별합니다(목표 A, 오해 M1).",
+        "시간": "약 4분",
+        "말하기": [
+          "“한 줄씩 소리 내어 읽어 보자. visit, visited, visited.” (소리 자료를 듣고 따라 합니다.)",
+          "“위의 네 줄은 과거형과 과거분사가 똑같지? 중1에서 배운 과거형을 그대로 쓰면 돼.”",
+          "“아래 네 줄은 별(★)이 있어. 과거분사가 과거형과 다르게 생긴 새 모양이야. been, seen, eaten, written. 이 넷은 오늘 꼭 외우자.”",
+          "“be의 과거분사 been은 have been to로 쓰면 ‘~에 가 본 적이 있다’는 뜻이 돼.”"
+        ],
+        "예상답": [
+          "“see는 saw, seen이에요.” “eat은 ate, eaten이에요.”"
+        ],
+        "막히면": [
+          "과거분사 칸을 손으로 가리고 부모가 “see, saw!”라고 말하면 아이가 “seen!”으로 답하는 놀이를 몇 번 합니다.",
+          "★ 네 개가 어려우면 오늘은 been과 seen 두 개부터 확실히 익히고, 나머지는 표를 보면서 해도 됩니다."
+        ],
+        "주의": [
+          "be의 과거형은 주어에 따라 was 또는 were이고, 과거분사는 been 하나입니다.",
+          "I have gone to Busan.은 ‘부산에 가 버렸다(그래서 지금 여기 없다)’는 다른 뜻이 됩니다. 가 본 경험은 have been to로 말합니다. 아이가 gone을 쓰면 이렇게만 알려 주고 넘어갑니다.",
+          "try(먹어 보다, 해 보다)는 -ed 규칙(자음 + y → -ied)으로 tried, tried가 됩니다. 연습에서 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "주어에 맞는 have·has와 줄여 쓴 말",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "have일까, has일까?",
+      "text": "주어가 he·she·it이면 have가 아니라 has를 써요.",
+      "table": {
+        "headers": [
+          "주어",
+          "have·has",
+          "예"
+        ],
+        "rows": [
+          [
+            "I, You, We, They",
+            "have",
+            "We have visited Gyeongju."
+          ],
+          [
+            "He, She, It\nmy mom, Tom",
+            "has",
+            "My mom has seen a whale."
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.2,
+          0.5
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "줄여 쓰기:  I have → I've,  have not → haven't,  has not → hasn't",
+      "notes": {
+        "목적": "주어에 맞게 have와 has를 고르고, 줄여 쓴 말 I've, haven't, hasn't를 알려 줍니다(목표 A, 오해 M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“일반동사에서 he, she, it이면 have가 has로 바뀌었지? 현재완료에서도 똑같아.”",
+          "“My mom은 she로 바꿀 수 있으니까 has. My mom has seen a whale.”",
+          "“줄여 쓰는 말도 있어. I have는 I've, have not은 haven't, has not은 hasn't야.”"
+        ],
+        "예상답": [
+          "“I랑 they는 have, she랑 my mom은 has예요.”"
+        ],
+        "막히면": [
+          "부모가 “he!”라고 말하면 아이가 “has!”, “we!”라고 말하면 “have!”로 답하는 놀이를 몇 번 합니다."
+        ],
+        "주의": [
+          "She's been to Jeju.처럼 has를 줄이는 형태도 있지만 she is와 헷갈리므로 오늘은 쓰지 않습니다.",
+          "I've는 써도 되지만, Yes 대답은 줄이지 않습니다(Yes, I've. ×). S09에서 다룹니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "횟수·before와 never의 자리",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "몇 번? 한 번도 없다면?",
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I have been to Busan twice.",
+            "sub": "부산에 두 번 가 본 적이 있어요."
+          },
+          {
+            "word": "She has seen the movie before.",
+            "sub": "전에 그 영화를 본 적이 있어요."
+          },
+          {
+            "word": "I have never been to Japan.",
+            "sub": "일본에 한 번도 가 본 적이 없어요.",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "문장 끝에",
+          "text": "once 한 번, twice 두 번\nthree times 세 번\nbefore 전에"
+        },
+        {
+          "title": "have 뒤에 never",
+          "text": "‘한 번도 ~ 않았다’\nnot과 함께 쓰지 않아요."
+        }
+      ],
+      "notes": {
+        "목적": "경험 문장에 횟수(once, twice, three times)와 before를 붙이고, ‘한 번도 ~해 본 적이 없다’를 never로 말하는 방법을 익힙니다(목표 A, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“몇 번 해 봤는지는 문장 끝에 붙여. once는 한 번, twice는 두 번, 세 번부터는 three times, four times처럼 times를 붙여.”",
+          "“before는 ‘전에’야. She has seen the movie before. ‘그녀는 전에 그 영화를 본 적이 있어요.’”",
+          "“한 번도 해 본 적이 없으면 never를 써. 자리는 have와 과거분사 사이야. I have never been to Japan.”",
+          "“그럼 ‘나는 고래를 한 번도 본 적이 없어요.’는?”"
+        ],
+        "예상답": [
+          "“I have never seen a whale.”"
+        ],
+        "막히면": [
+          "never를 어디에 넣을지 모르면 “have 바로 뒤에 never, 그다음에 과거분사!”라고 말하며 손가락으로 자리를 짚어 줍니다."
+        ],
+        "주의": [
+          "never에는 이미 ‘아니다’라는 뜻이 들어 있어서 not과 함께 쓰지 않습니다(I haven't never ~ ×).",
+          "ever(한 번이라도)는 묻는 문장에 씁니다. I have ever been to Japan.처럼 긍정문에 쓰지 않습니다(오해 M4). S09에서 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "have·has와 과거분사 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "알맞은 모양은?",
+      "text": "괄호 안의 동사를 바꾸거나 알맞은 말을 골라 읽어요.",
+      "problems": [
+        {
+          "text": "I have (see) a panda."
+        },
+        {
+          "text": "She ______ been to Busan.\n(have / has)"
+        },
+        {
+          "text": "We have (eat) tacos."
+        },
+        {
+          "text": "He has (try) kimchi."
+        },
+        {
+          "text": "They have (be) to Seoul."
+        },
+        {
+          "text": "I have (never / ever)\nseen a ghost."
+        }
+      ],
+      "hint": "★ 과거분사는 S04 표를 봐요. -ed 동사는 과거형과 같아요.",
+      "notes": {
+        "목적": "주어에 맞는 have·has와 동사의 과거분사를 고르고, never와 ever를 구별합니다(목표 A, 오해 M1·M2·M4). 활동지 1·2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“괄호 안의 동사를 과거분사로 바꾸거나, 알맞은 말을 골라서 문장 전체를 읽어 줘.”",
+          "“④의 try는 S04 표에 없지? -ed 규칙으로 바꿔 볼까?”"
+        ],
+        "정답": [
+          "① seen (I have seen a panda.)",
+          "② has (She has been to Busan.)",
+          "③ eaten (We have eaten tacos.)",
+          "④ tried (He has tried kimchi. 김치를 먹어 본 적이 있어요.)",
+          "⑤ been (They have been to Seoul.)",
+          "⑥ never (I have never seen a ghost. 유령을 한 번도 본 적이 없어요.)"
+        ],
+        "막히면": [
+          "S04 표를 다시 띄우고 과거분사 칸에서 찾게 합니다.",
+          "②에서 have라고 하면 “she는 have야, has야?”라고 묻습니다."
+        ],
+        "주의": [
+          "①에서 I have saw a panda.라고 하면 다음 장에서 바로 비교합니다(오해 M1).",
+          "⑥의 ever는 묻는 문장에서만 씁니다. 긍정문에는 never(한 번도 ~ 않다)가 맞습니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(have 뒤 과거형)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘고래를 본 적이 있어요’를 영어로",
+      "claim": "‘나는 고래를 본 적이 있어요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I have saw a whale."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I have seen a whale."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐나요?",
+      "notes": {
+        "목적": "have 뒤에 과거형을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“have 뒤에는 과거형일까, 과거분사일까? see의 과거형과 과거분사를 S04 표에서 찾아볼까?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(I have seen a whale.)입니다. 가는 have 뒤에 과거형 saw를 썼습니다. have·has 뒤에는 과거분사 seen을 씁니다."
+        ],
+        "막히면": [
+          "S04 표의 see 줄을 손가락으로 짚고 “have 뒤에 오는 건 셋째 칸, 넷째 칸?”이라고 묻습니다."
+        ],
+        "주의": [
+          "같은 실수 예: I have ate kimchi. → I have eaten kimchi. / She has went to Jeju. → She has been to Jeju. 아이가 직접 고쳐 말해 보게 합니다.",
+          "여기까지가 현재완료 문장 만들기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "경험을 묻는 의문문과 짧은 대답",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "Have you ever ~?",
+      "text": "Have·Has를 주어 앞으로 옮기고, ever(한 번이라도)를 넣어요.",
+      "table": {
+        "headers": [
+          "질문",
+          "Yes 대답",
+          "No 대답"
+        ],
+        "rows": [
+          [
+            "Have you ever been to Jeju?",
+            "Yes, I have.",
+            "No, I haven't."
+          ],
+          [
+            "Has she ever seen a whale?",
+            "Yes, she has.",
+            "No, she hasn't."
+          ],
+          [
+            "Have they ever eaten tacos?",
+            "Yes, they have.",
+            "No, they haven't."
+          ]
+        ],
+        "widths": [
+          0.44,
+          0.26,
+          0.3
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "Have로 물으면 have로 대답해요.  Yes, I did. (×)\nYes 대답은 줄이지 않아요.  Yes, I've. (×)",
+      "notes": {
+        "목적": "Have·Has를 주어 앞으로 옮기고 ever를 넣어 경험을 묻고, have·has로 짧게 대답하는 방법을 익힙니다(목표 B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“묻는 문장은 have나 has를 주어 앞으로 옮겨. 그리고 주어 뒤에 ever를 넣어. ever는 ‘한 번이라도’라는 뜻이야. Have you ever been to Jeju? ‘제주에 가 본 적이 있니?’ 끝은 올려 읽어.” (소리 자료를 듣고 따라 합니다.)",
+          "“대답은 have로 해. Yes, I have. 또는 No, I haven't.”",
+          "“Has she ever seen a whale?에는? 주어가 she니까 has로 대답해.”",
+          "“Have they ever eaten tacos?에 No로 대답하면?”"
+        ],
+        "예상답": [
+          "“Yes, she has. / No, she hasn't.” “No, they haven't.”"
+        ],
+        "막히면": [
+          "대답이 막히면 질문의 첫 두 낱말을 거꾸로 짚어 줍니다. “Has she → she has, 그래서 Yes, she has.”",
+          "Did 질문과 비교합니다. “Did you ~?는 did로 대답했지? Have you ~?는 have로 대답해.”"
+        ],
+        "주의": [
+          "Have you ever ~?에 Yes, I did.로 대답하는 실수가 흔합니다(오해 M3). 물은 말(have)로 대답하게 합니다.",
+          "Yes, I've.는 틀립니다. 문장 끝의 have는 줄이지 않습니다. No, I haven't.는 맞습니다.",
+          "No 대답 뒤에 I have never been there.처럼 never 문장을 하나 더 붙이면 아주 잘한 것입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "ever 의문문 만들고 대답하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "묻고 대답해요",
+      "text": "지시대로 바꾸어 말해요.",
+      "problems": [
+        {
+          "text": "You have seen a rainbow.\n→ ever 의문문으로"
+        },
+        {
+          "text": "Have you ever eaten tacos?\n→ Yes로 대답"
+        },
+        {
+          "text": "Has he ever played golf?\n→ No로 대답"
+        },
+        {
+          "text": "Have they ever met Tom?\n→ No로 대답 + never 문장"
+        }
+      ],
+      "hint": "Have로 물으면 have로, Has로 물으면 has로 대답해요.",
+      "notes": {
+        "목적": "현재완료 문장을 ever 의문문으로 바꾸고, 주어에 맞게 have·has로 짧게 대답합니다(목표 B, 오해 M3). 활동지 4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①부터 지시대로 바꾸어 말해 줘.”",
+          "“③의 he는 대답할 때 have야, has야?”",
+          "“④는 No로 대답하고 never로 한 문장 더 말해 볼래?”"
+        ],
+        "정답": [
+          "① Have you ever seen a rainbow?",
+          "② Yes, I have.",
+          "③ No, he hasn't.",
+          "④ No, they haven't. They have never met Tom."
+        ],
+        "막히면": [
+          "S09 표에서 같은 모양의 줄을 찾게 합니다.",
+          "①에서 ever를 빠뜨리면 “한 번이라도 본 적이 있는지 묻는 거니까 ever를 넣어 볼까?”라고 말해 줍니다. Have you seen a rainbow?도 틀린 문장은 아니지만 오늘은 ever를 넣어 연습합니다."
+        ],
+        "주의": [
+          "④의 never 문장에서 They haven't never met Tom.처럼 not과 never를 함께 쓰면 고쳐 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "경험 카드 인터뷰",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 해 본 적 있어?",
+      "steps": [
+        "종이 여섯 장에 해 본 일을 써요.",
+        "부모가 한 장을 뽑아 물어요:\nHave you ever eaten tacos?",
+        "아이가 답해요: Yes, I have. /\nNo, I haven't.",
+        "twice나 never를 넣어\n한 문장 더 말해요.",
+        "역할을 바꿔 아이가 물어요."
+      ],
+      "criteria": [
+        "Have you ever + 과거분사로 물었어요",
+        "have·haven't로 짧게 대답했어요",
+        "twice·never로 한 문장 더 말했어요"
+      ],
+      "notes": {
+        "목적": "경험 카드를 뽑아 Have you ever ~?로 묻고, 짧은 대답 뒤에 twice나 never를 넣은 문장을 하나 더 말합니다(목표 A·B, 오해 M1·M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“종이 여섯 장에 하나씩 써 보자. be to Busan, see a rainbow, eat tacos, visit a museum, meet a famous person, play baduk.”",
+          "“엄마(아빠)가 한 장을 뽑을게. see a rainbow! Have you ever seen a rainbow?” → (아이) “Yes, I have. I have seen a rainbow twice.”",
+          "“이번엔 네가 뽑아서 엄마(아빠)에게 물어봐. 카드의 동사를 과거분사로 바꿔야 해.”",
+          "“다른 가족에 대해서도 물어볼까? Has Grandma ever been to Busan?”"
+        ],
+        "예상답": [
+          "아이가 물을 때: “Have you ever been to Busan?” “Have you ever eaten tacos?” “Have you ever met a famous person?”",
+          "아이가 대답할 때: “Yes, I have. I have visited a museum three times.” “No, I haven't. I have never played baduk.”",
+          "기준: Have(Has) + 주어 + ever + 과거분사로 묻고, have·haven't로 대답한 뒤 once·twice·before나 never를 넣은 문장을 하나 더 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "과거분사가 떠오르지 않으면 S04 표를 보게 합니다.",
+          "질문이 막히면 “Have you ever 다음에 카드의 동사를 과거분사로!”라고 틀을 알려 줍니다."
+        ],
+        "주의": [
+          "역할을 바꾸어 여섯 장을 모두 씁니다. 틀려도 바로 고치기보다 부모가 대답할 때 바른 문장으로 다시 말해 줍니다(“Have you ever saw ~?” → “Have I ever seen a rainbow? Yes, I have.”).",
+          "실제 경험대로 대답하게 합니다. Yes든 No든 문장이 맞으면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(현재완료 문장·never·의문문·대답)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "He (see) the movie.\n→ has + 과거분사로"
+        },
+        {
+          "text": "I have eaten sushi.\n→ never를 넣어"
+        },
+        {
+          "text": "you · be to Jeju\n→ ever 의문문으로"
+        },
+        {
+          "text": "Has your dad ever cooked?\n→ Yes로 대답"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 have·has + 과거분사 문장, never 문장, ever 의문문과 대답을 만드는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
+        ],
+        "정답": [
+          "① He has seen the movie.",
+          "② I have never eaten sushi.",
+          "③ Have you ever been to Jeju?",
+          "④ Yes, he has.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 has와 과거분사의 철자(seen, eaten, been), never의 자리, 물음표와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “주어가 he야, I야?” “have 뒤에는 어떤 모양이었지?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① He has seen the movie."
+        },
+        {
+          "text": "② I have never eaten sushi."
+        },
+        {
+          "text": "③ Have you ever been to Jeju?"
+        },
+        {
+          "text": "④ Yes, he has."
+        }
+      ],
+      "bad": [
+        {
+          "text": "He have seen",
+          "note": "he → has"
+        },
+        {
+          "text": "I have never ate",
+          "note": "have 뒤는\n과거분사 eaten"
+        },
+        {
+          "text": "Yes, he did.",
+          "note": "Has로 물으면\nhas로 대답"
+        }
+      ],
+      "explain": "주어 → have·has → 과거분사(★) → 대답은 물은 말로",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“he는 has예요.” “have 뒤에는 eaten이에요.” “Has로 물었으니까 has로 대답해요.”"
+        ],
+        "정답": [
+          "① He has seen the movie. ② I have never eaten sushi. ③ Have you ever been to Jeju? ④ Yes, he has."
+        ],
+        "막히면": [
+          "틀린 문제는 S04(과거분사), S05(have·has), S06(never), S09(의문문과 대답) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(듣고 짧게 대답하기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "묻는 말에 대답해요",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "problems": [
+        {
+          "text": "Have you ever been to Busan?"
+        },
+        {
+          "text": "Have you ever eaten Indian curry?"
+        },
+        {
+          "text": "Has your mom ever visited Jeju?"
+        }
+      ],
+      "notes": {
+        "목적": "처음 듣는 경험 질문에 주어에 맞는 have·has로 짧게 대답하는지 확인합니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 물어볼게. 너에게 맞게 Yes나 No로 대답해 줘. Have you ever been to Busan?”",
+          "“Have you ever eaten Indian curry?” “Has your mom ever visited Jeju?”",
+          "“대답한 다음에 한 문장 더 말해 볼래? 몇 번 해 봤는지, 아니면 never로.”"
+        ],
+        "정답": [
+          "① Yes, I have. 또는 No, I haven't.",
+          "② Yes, I have. 또는 No, I haven't.",
+          "③ Yes, she has. 또는 No, she hasn't.",
+          "기준: Yes·No는 실제 상황대로 고르면 됩니다. Have 질문에는 have·haven't, Has 질문에는 has·hasn't로 대답하면 통과입니다. 세 개 모두 맞으면 목표 B 달성으로 봅니다. 덧붙인 문장(I have been there twice. / I have never eaten it.)은 잘한 점으로 기록합니다."
+        ],
+        "막히면": [
+          "질문을 한 번 더 천천히 말하고, “Have로 물었어, Has로 물었어?” “your mom은 he야, she야?”라고 묻습니다."
+        ],
+        "주의": [
+          "Yes, I did.나 Yes, I've.로 대답하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "have·has + 과거분사: ~해 본 적이 있어요\nHave you ever ~? → Yes, I have. / No, I haven't.",
+      "do": "he·she·it은 has, ★ 과거분사 외우기",
+      "dont": "I have saw / Yes, I did.",
+      "review": [
+        {
+          "text": "과거분사는?\nsee, eat, be"
+        },
+        {
+          "text": "never 문장으로 바꾸면?\nI have eaten tacos."
+        },
+        {
+          "text": "No로 대답하면?\nHave you ever seen it?"
+        }
+      ],
+      "next": "현재완료(계속)",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“해 본 적이 있다고 말할 때 무엇을 썼지? 주어가 she이면?”",
+          "“한 번도 해 본 적이 없으면? 해 본 적이 있는지 물을 때는?”"
+        ],
+        "예상답": [
+          "“have 뒤에 과거분사요. she이면 has예요.” “never를 써요. Have you ever ~?로 물어요.”"
+        ],
+        "정답": [
+          "① seen, eaten, been",
+          "② I have never eaten tacos.",
+          "③ No, I haven't."
+        ],
+        "주의": [
+          "저녁에 “Have you ever eaten this?” “Have you ever been to ~?”처럼 하루에 한두 번 영어로 묻고 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘현재완료(계속)’에서는 for, since로 지금까지 이어진 일을 말하고, How long have you ~?로 묻습니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(과거형과 Did 대답 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 과거형과 Did 질문",
+      "layout": "support",
+      "text": "왼쪽을 보고 과거형을 말해요. 그다음 거꾸로 해요.",
+      "table": {
+        "headers": [
+          "지금 (현재)",
+          "지난 일 (과거)",
+          "지금 (현재)",
+          "지난 일 (과거)"
+        ],
+        "rows": [
+          [
+            "go",
+            "went",
+            "see",
+            "saw"
+          ],
+          [
+            "eat",
+            "ate",
+            "meet",
+            "met"
+          ],
+          [
+            "visit",
+            "visited",
+            "have",
+            "had"
+          ],
+          [
+            "am, is / are",
+            "was / were",
+            "write",
+            "wrote"
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "width": 12,
+        "size": 24
+      },
+      "key": {
+        "title": "Did 질문의 대답",
+        "text": "Did you see it?  Yes, I did. / No, I didn't."
+      },
+      "notes": {
+        "목적": "S02에서 과거형이나 Did 대답이 흔들리면, 현재완료를 배우기 전에 과거형과 짧은 대답을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 왼쪽 칸을 말하면 과거형을 말해 봐. go!” (아이: “went!”) “see!” (아이: “saw!”)",
+          "“이번엔 거꾸로. 과거형을 말하면 원래 모양을 말해 봐. ate!” (아이: “eat!”) “met!” (아이: “meet!”)",
+          "“Did you see it?에 Yes로 대답하면? No로 대답하면?”"
+        ],
+        "정답": [
+          "went, ate, visited, was·were / saw, met, had, wrote / 거꾸로: ate → eat, met → meet / Yes, I did. No, I didn't."
+        ],
+        "막히면": [
+          "표의 한쪽 칸을 손으로 가리고 하나씩 맞히게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중1 ‘과거 부정문·의문문’(KR22-G07-ENG-PASTQ-L01)과 그 앞의 ‘과거 시제 문장’을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "현재완료(경험) 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "동사의 과거분사를 쓰세요. ★는 새 모양이에요.",
+        "table": {
+          "headers": [
+            "동사",
+            "과거분사",
+            "동사",
+            "과거분사"
+          ],
+          "rows": [
+            [
+              "visit",
+              "",
+              "★ see",
+              ""
+            ],
+            [
+              "play",
+              "",
+              "★ eat",
+              ""
+            ],
+            [
+              "try",
+              "",
+              "★ be",
+              ""
+            ],
+            [
+              "have",
+              "",
+              "★ write",
+              ""
+            ],
+            [
+              "meet",
+              "",
+              "buy",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "size": 14
+        },
+        "answer": "visited, played, tried, had, met / seen, eaten, been, written, bought. 열 개 가운데 아홉 개 이상이면 통과. saw, ate처럼 과거형을 쓰거나 eated, writed처럼 쓰면 S04 표로 다시 봅니다. buy는 과거형과 과거분사가 모두 bought입니다."
+      },
+      {
+        "no": 2,
+        "prompt": "괄호 안의 동사를 써서 have나 has + 과거분사로 빈칸을 채우세요.",
+        "table": {
+          "rows": [
+            [
+              "① I ________________ (eat) Thai food."
+            ],
+            [
+              "② My sister ________________ (see) a koala."
+            ],
+            [
+              "③ We ________________ (be) to Busan twice."
+            ],
+            [
+              "④ He ________________ (meet) a famous singer."
+            ],
+            [
+              "⑤ They ________________ (play) baduk before."
+            ],
+            [
+              "⑥ Mr. Kim ________________ (write) two books."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① have eaten ② has seen(My sister → she) ③ have been ④ has met ⑤ have played ⑥ has written(Mr. Kim → he). 여섯 개 가운데 다섯 개 이상이면 통과. have와 과거분사를 둘 다 써야 맞습니다."
+      },
+      {
+        "no": 3,
+        "prompt": "never를 넣어 ‘한 번도 ~해 본 적이 없다’는 문장으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I have been to Japan.",
+              ""
+            ],
+            [
+              "② She has eaten snails.",
+              ""
+            ],
+            [
+              "③ We have seen a ghost.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① I have never been to Japan. ② She has never eaten snails. ③ We have never seen a ghost. never가 have·has와 과거분사 사이에 있으면 맞음. I haven't never ~처럼 not과 함께 쓰면 고쳐 줍니다. (snails: 달팽이, ghost: 유령)"
+      },
+      {
+        "no": 4,
+        "prompt": "ever를 넣어 의문문으로 바꾸어 쓰고, 짧은 대답을 완성하세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "ever 의문문",
+            "대답"
+          ],
+          "rows": [
+            [
+              "① You have visited Jeju.",
+              "",
+              "Yes, _________."
+            ],
+            [
+              "② Your dad has eaten tacos.",
+              "",
+              "No, _________."
+            ],
+            [
+              "③ They have seen a whale.",
+              "",
+              "Yes, _________."
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.44,
+            0.24
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① Have you ever visited Jeju? — Yes, I have. ② Has your dad ever eaten tacos? — No, he hasn't. ③ Have they ever seen a whale? — Yes, they have. Have·Has가 맨 앞, ever가 주어 뒤, 물음표, 대답의 주어(I, he, they)를 봅니다. Yes, I did.나 Yes, I've.이면 고쳐 줍니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① He (see) the movie.\n(has + 과거분사로)",
+              ""
+            ],
+            [
+              "② I have eaten sushi.\n(never를 넣어)",
+              ""
+            ],
+            [
+              "③ you · be to Jeju\n(ever 의문문으로)",
+              ""
+            ],
+            [
+              "④ Has your dad ever cooked?\n(Yes로 대답)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.42,
+            0.58
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① He has seen the movie. ② I have never eaten sushi. ③ Have you ever been to Jeju? ④ Yes, he has. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 세 문장을 쓰세요(내가 해 본 일 하나, never로 해 본 적 없는 일 하나, 부모님께 묻는 Have you ever ~? 질문 하나).",
+        "eng": {
+          "trace": [
+            "I have been to Busan twice.",
+            "Have you ever seen a whale?"
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 실제 경험에 맞는 세 문장(예: I have eaten tacos once. / I have never been to Japan. / Have you ever visited Gyeongju?). have·has와 과거분사, never의 자리, ever 의문문의 순서, 첫 글자 대문자와 끝의 마침표·물음표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① see, eat, be의 과거분사를 쓰세요.\n② I have eaten tacos.를 never를 넣은 문장으로 바꾸어 쓰세요.\n③ Have you ever seen it?에 No로 대답을 쓰세요.",
+        "lines": 3,
+        "answer": "① seen, eaten, been ② I have never eaten tacos. ③ No, I haven't. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S14 묻는 말에 대답하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "I have saw처럼 과거형을 쓰거나 Yes, I did.로 대답함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08"
+}
