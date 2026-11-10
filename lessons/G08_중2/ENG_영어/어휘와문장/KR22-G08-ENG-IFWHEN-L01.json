@@ -616,7 +616,7 @@
           "text": "I'll help you if I'm free.\n→ If로 시작해요"
         },
         {
-          "text": "내가 이기면, 엄마가 웃을 거예요.\n(win, Mom, smile)"
+          "text": "이기면 엄마가 웃을 거예요.\n(I, win, Mom, smile)"
         }
       ],
       "notes": {
@@ -916,8 +916,8 @@
             ]
           ],
           "widths": [
-            0.46,
-            0.54
+            0.52,
+            0.48
           ],
           "size": 13,
           "firstColHead": true
@@ -953,7 +953,7 @@
         "table": {
           "rows": [
             [
-              "① If it (is / will be) cold tomorrow,\nI will stay home.",
+              "① If it (is / will be) cold\ntomorrow, I will stay home.",
               ""
             ],
             [
@@ -965,7 +965,7 @@
               ""
             ],
             [
-              "④ 내가 이기면, 엄마가 웃을 거예요.\n(win, Mom, smile)",
+              "④ 이기면 엄마가 웃을 거예요.\n(I, win, Mom, smile)",
               ""
             ]
           ],
