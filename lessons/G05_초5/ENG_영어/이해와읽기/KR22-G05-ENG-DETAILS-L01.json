@@ -54,7 +54,7 @@
     "교과서 디지털 자료나 사전 앱(낱말 소리 확인)",
     "부모용 진행 안내(들려줄 대화가 적혀 있습니다. 아이에게 보이지 않게 둡니다)"
   ],
-  "boundary": "Who, What, When, Where 네 물음만 다룬다. Why, How로 묻는 정보와 사건의 순서는 다루지 않는다. 대화와 글은 직접 쓴 짧은 것이며, 듣기는 부모가 노트의 대본을 읽어 주는 방식으로 한다. 듣기 답은 우리말로 해도 되고, 읽기 답은 글에 있는 영어를 그대로 옮긴다. 영어 물음을 스스로 만들어 묻기는 하지 않는다.",
+  "boundary": "Who, What, When, Where 네 물음만 다룬다. Why, How로 묻는 정보와 사건의 순서는 다루지 않는다. 대화와 글은 4학년까지 배운 낱말과 문장으로 짧게 썼고, 새 낱말(park, school, Sunday, Saturday, go, play, with)은 낱말 상자에 뜻과 함께 실었다. 듣기는 부모가 노트의 대본을 읽어 주는 방식으로 한다. 듣기 답은 우리말로 해도 되고, 읽기 답은 글에 있는 영어를 그대로 옮긴다. 영어 물음을 스스로 만들어 묻기는 하지 않는다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -120,7 +120,7 @@
         ],
         "주의": [
           "오늘 듣기 대본은 화면에 없고 이 노트와 부모용 안내에만 있습니다. 부모님이 대본을 천천히 두 번 읽어 주세요. 이때 말하는 사람의 이름(Tom:, Mina:)도 함께 읽어 줍니다.",
-          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 Who, What, When, Where와 낯선 낱말(badminton, library, zoo)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다."
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 Who, What, When, Where와 새 낱말(park, school, Sunday, Saturday, badminton)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다."
         ]
       }
     },
@@ -141,7 +141,7 @@
           "text": "학교 숙제"
         },
         {
-          "text": "Mina의 새 자전거"
+          "text": "Mina의 로봇"
         }
       ],
       "question": "무엇에 관한 대화인가요? 어떻게 알았나요?",
@@ -150,11 +150,11 @@
         "시간": "약 3분",
         "말하기": [
           "“보기를 먼저 읽고, 엄마(아빠)가 두 번 읽어 주면 골라 봐.”",
-          "들려줄 대화(화면에 없음): Mina: I have a new bike. / Tom: Wow! It's cool. / Mina: I ride my bike every day. / Tom: Can I ride it, too? / Mina: Sure!",
+          "들려줄 대화(화면에 없음): Mina: This is my robot. / Tom: Hi, robot! It's small. / Mina: Yes. My robot is funny, too. / Tom: I like your robot. / Mina: Thank you!",
           "“무엇에 관한 대화야? 어떻게 알았어?”"
         ],
         "정답": [
-          "다(Mina의 새 자전거). bike가 두 번 나오고, 처음부터 끝까지 Mina의 새 자전거 이야기입니다."
+          "다(Mina의 로봇). robot이 네 번 나오고, 처음부터 끝까지 Mina의 로봇 이야기입니다."
         ],
         "막히면": [
           "“여러 번 들린 낱말이 뭐야?”라고 묻고 대화를 한 번 더 읽어 줍니다.",
@@ -173,6 +173,7 @@
         "B"
       ],
       "title": "물음 낱말을 보면 찾을 것이 보여요",
+      "text": "새 낱말:　park 공원　·　school 학교　·　Sunday 일요일　·　Saturday 토요일",
       "table": {
         "headers": [
           "물음",
@@ -188,17 +189,17 @@
           [
             "What? 무엇을",
             "물건, 하는 일",
-            "a cake, soccer"
+            "a ball, badminton"
           ],
           [
             "When? 언제",
             "때",
-            "on Saturday, at two"
+            "on Sunday, at two"
           ],
           [
             "Where? 어디서",
             "곳",
-            "at the park, in the library"
+            "at the park, in the box"
           ]
         ],
         "widths": [
@@ -216,6 +217,7 @@
         "말하기": [
           "“Who는 ‘누가’라는 뜻이야. Who로 물으면 사람을 찾으면 돼. 이름이나 my dad 같은 말이야.”",
           "“What은 ‘무엇’, When은 ‘언제’, Where는 ‘어디’야. 한 줄씩 같이 읽어 보자.” (소리 자료로 네 낱말을 듣고 따라 말합니다.)",
+          "“새 낱말은 엄마(아빠)가 먼저 읽어 줄게. park 공원, school 학교, Sunday 일요일, Saturday 토요일. on Sunday는 ‘일요일에’, at two는 ‘2시에’라는 뜻이야.”",
           "“at two와 at the park는 둘 다 at으로 시작하지? 그런데 하나는 때, 하나는 곳이야. at 뒤를 봐야 해.”"
         ],
         "예상답": [
@@ -225,7 +227,8 @@
           "부모가 물음 낱말을 말하면 아이가 ‘사람!’, ‘때!’, ‘곳!’처럼 찾을 것을 외치는 놀이를 몇 번 합니다."
         ],
         "주의": [
-          "What은 물건(a cake)뿐 아니라 하는 일(soccer, 배드민턴 치기)을 물을 때도 씁니다."
+          "What은 물건(a ball)뿐 아니라 하는 일(badminton, 배드민턴 치기)을 물을 때도 씁니다.",
+          "새 낱말은 오늘 대화와 글에 여러 번 나옵니다. 듣거나 읽기 전에 그 장의 낱말 상자를 부모가 먼저 읽어 주고 뜻을 함께 봅니다."
         ]
       }
     },
@@ -249,25 +252,26 @@
         "듣거나 읽으며 그 말을 찾아요.",
         "찾은 말로 답해요."
       ],
+      "key": "낱말 상자:　Let's go. 가자.　·　park 공원　·　Sunday 일요일",
       "notes": {
         "목적": "물음을 먼저 읽고 찾을 것을 정한 뒤 듣는 순서를, 짧은 대본으로 부모가 직접 보여 줍니다(M2).",
         "시간": "약 3분",
         "말하기": [
           "“엄마(아빠)가 먼저 해 볼게. 1번, 물음을 먼저 읽어. Where? 어디에 가나요? 2번, Where니까 곳을 찾으면 돼.”",
-          "“3번, 이제 들으면서 곳을 찾을 거야.” 들려줄 대본(화면에 없음): Dad: Let's go to the zoo on Sunday. / Mina: Great! I want to see the pandas.",
-          "“4번, 곳은 the zoo, 동물원이야. 그럼 이번엔 네 차례야. When? 언제 가나요?” (대본을 한 번 더 읽어 줍니다.)"
+          "“3번, 이제 들으면서 곳을 찾을 거야.” (낱말 상자를 먼저 읽어 줍니다.) 들려줄 대본(화면에 없음): Dad: Mina, let's go to the park on Sunday. / Mina: The park? Great! I have a ball.",
+          "“4번, 곳은 the park, 공원이야. 그럼 이번엔 네 차례야. When? 언제 가나요?” (대본을 한 번 더 읽어 줍니다.)"
         ],
         "예상답": [
           "“on Sunday, 일요일이요.”"
         ],
         "정답": [
-          "Where? → the zoo(동물원) / When? → on Sunday(일요일)"
+          "Where? → the park(공원) / When? → on Sunday(일요일)"
         ],
         "막히면": [
           "“When은 무엇을 찾는 거였지? 사람이야, 때야?”라고 묻고 대본을 다시 읽어 줍니다."
         ],
         "주의": [
-          "the pandas는 Mina가 보고 싶은 것입니다. What 물음의 답이 될 수 있습니다."
+          "a ball은 Mina가 가지고 있는 것입니다. What 물음의 답이 될 수 있습니다."
         ]
       }
     },
@@ -296,26 +300,27 @@
           "text": "Where?\n어디에서 만나나요?"
         }
       ],
+      "hint": "낱말 상자:　Let's play ~. ~ 하자.　·　park 공원　·　school 학교",
       "notes": {
         "목적": "부모와 함께 대화를 듣고 네 물음의 세부 정보를 찾습니다. 말하는 사람과 부르는 이름을 구별합니다(M3).",
         "시간": "약 4분",
         "말하기": [
           "“네 물음을 먼저 읽어 보자. 각각 무엇을 찾아야 해? 사람, 하는 일, 때, 곳이지?”",
-          "들려줄 대화 1(화면에 없음, 두 번 읽기): Tom: Mina, let's play badminton. / Mina: Sounds good! When? / Tom: On Saturday, at two. / Mina: Where? / Tom: At the park near my house. / Mina: OK. See you then!",
+          "(낱말 상자를 먼저 읽어 줍니다.) 들려줄 대화 1(화면에 없음, 두 번 읽기): Tom: Mina, let's play badminton. / Mina: OK! When? / Tom: On Saturday, at two. / Mina: Where? / Tom: At school. / Mina: Great! Bye, Tom.",
           "“①부터 답해 볼래? 우리말로 답해도 되고 들은 영어로 답해도 돼.”"
         ],
         "정답": [
           "① Tom (Tom이 Mina에게 놀자고 했습니다.)",
           "② 배드민턴(badminton)",
           "③ 토요일 2시(on Saturday, at two)",
-          "④ Tom의 집 근처 공원(at the park)"
+          "④ 학교(at school)"
         ],
         "막히면": [
           "①에서 Mina라고 하면 “첫 줄은 누가 말했지? Tom이 Mina를 부르면서 말했어.”라고 짚어 줍니다(M3).",
           "한 물음씩 대본을 다시 읽어 주며 찾을 것이 나오면 손을 들게 합니다."
         ],
         "주의": [
-          "③은 토요일과 2시 가운데 하나만 말해도 맞은 것으로 보되, 둘 다 들었는지 물어봅니다. near my house는 ‘우리 집 근처’라는 뜻입니다."
+          "③은 토요일과 2시 가운데 하나만 말해도 맞은 것으로 보되, 둘 다 들었는지 물어봅니다. badminton은 우리말 ‘배드민턴’과 소리가 비슷해 들으면 알 수 있습니다."
         ]
       }
     },
@@ -330,7 +335,7 @@
         "B"
       ],
       "title": "When에 알맞은 답은?",
-      "claim": "When do they meet?(언제 만나나요?)에 두 친구가 답했어요.",
+      "claim": "When?(언제 만나나요?)에 두 친구가 답했어요.",
       "left": {
         "title": "가",
         "figure": {
@@ -349,7 +354,7 @@
           "type": "words",
           "items": [
             {
-              "word": "At the park."
+              "word": "At school."
             }
           ],
           "perRow": 1
@@ -362,11 +367,11 @@
         "말하기": [
           "“When은 무엇을 묻는 말이었지?”",
           "“가와 나 가운데 알맞은 답은? 왜 그렇게 생각해?”",
-          "“그럼 나의 At the park.는 어떤 물음의 답일까?”"
+          "“그럼 나의 At school.은 어떤 물음의 답일까?”"
         ],
         "정답": [
           "가(On Saturday, at two.). When은 때를 묻습니다.",
-          "나(At the park.)는 곳이므로 Where?의 답입니다. at two의 at과 at the park의 at은 같은 낱말이지만, 뒤에 시각이 오면 때, 장소가 오면 곳입니다."
+          "나(At school.)는 곳이므로 Where?의 답입니다. at two의 at과 at school의 at은 같은 낱말이지만, 뒤에 시각이 오면 때, 장소가 오면 곳입니다."
         ],
         "막히면": [
           "S03의 표를 다시 보여 주고 When 줄과 Where 줄을 손으로 짚게 합니다."
@@ -386,14 +391,15 @@
         "B"
       ],
       "title": "답이 있는 곳에 밑줄을 그어요",
+      "text": "낱말 상자:　go 가다　·　with ~와 함께　·　Saturday 토요일",
       "passage": {
-        "title": "Jina's Saturday",
+        "title": "My Saturday",
         "numbered": true,
         "paragraphs": [
           "My name is Jina.",
-          "On Saturday, I go to the library with Yuri.",
-          "We read books there.",
-          "After that, we eat sandwiches in the park."
+          "On Saturday, I go to the zoo with Yuri.",
+          "I like the zebras.",
+          "The zoo is great!"
         ]
       },
       "figure": {
@@ -403,13 +409,13 @@
             "word": "Who?\n누구와 가나요?"
           },
           {
-            "word": "What?\n무엇을 읽나요?"
+            "word": "What?\n무엇을 좋아하나요?"
           },
           {
             "word": "When?\n언제 가나요?"
           },
           {
-            "word": "Where?\n어디에서 먹나요?"
+            "word": "Where?\n어디에 가나요?"
           }
         ],
         "perRow": 1
@@ -418,16 +424,16 @@
         "목적": "부모가 생각을 소리 내어 말하며, 물음 낱말로 찾을 것을 정하고 글에서 답이 있는 부분을 찾아 영어 그대로 답하는 방법을 보여 줍니다.",
         "시간": "약 4분",
         "말하기": [
-          "“먼저 한 문장씩 같이 읽어 보자.” (library는 ‘도서관’, sandwiches는 ‘샌드위치’라고 알려 줍니다.)",
-          "“엄마(아빠)가 Who를 해 볼게. Who니까 사람을 찾아. 도서관에 가는 문장은 ②번이야. with 다음에 Yuri가 있어. 그래서 답은 Yuri야. 이 부분에 밑줄을 긋는 거야.”",
-          "“Where도 해 볼게. 곳을 찾아. 샌드위치를 먹는 문장은 ④번, in the park야.”",
+          "“낱말 상자를 먼저 읽고, 한 문장씩 같이 읽어 보자.” (zoo는 ‘동물원’, zebras는 ‘얼룩말들’이라고 알려 줍니다.)",
+          "“엄마(아빠)가 Who를 해 볼게. Who니까 사람을 찾아. 동물원에 가는 문장은 ②번이야. with 다음에 Yuri가 있어. 그래서 답은 Yuri야. 이 부분에 밑줄을 긋는 거야.”",
+          "“Where도 해 볼게. 곳을 찾아. ②번의 to 다음에 the zoo가 있어.”",
           "“What과 When은 네가 찾아볼래? 몇 번 문장에 있어?”"
         ],
         "예상답": [
-          "“What은 ③번 books요.” “When은 ②번 On Saturday요.”"
+          "“What은 ③번 the zebras요.” “When은 ②번 On Saturday요.”"
         ],
         "정답": [
-          "Who? → Yuri(②) / What? → books(③) / When? → on Saturday(②) / Where? → in the park(④)"
+          "Who? → Yuri(②) / What? → the zebras(③) / When? → on Saturday(②) / Where? → the zoo(②)"
         ],
         "막히면": [
           "물음마다 S03의 표에서 찾을 것을 먼저 말하게 한 뒤 문장을 하나씩 짚으며 찾습니다."
@@ -441,36 +447,37 @@
       "id": "S08",
       "kind": "passage",
       "section": "연습",
-      "purpose": "읽기 연습(Sam의 생일)",
+      "purpose": "읽기 연습(Sam의 일요일)",
       "role": "practice",
       "objectives": [
         "B"
       ],
       "title": "읽고 답을 찾아요",
+      "text": "낱말 상자:　play 놀다　·　school 학교　·　Sunday 일요일",
       "passage": {
-        "title": "Sam's Birthday",
+        "title": "My Sunday",
         "numbered": true,
         "paragraphs": [
-          "Today is Sam's birthday.",
-          "His party is at four o'clock.",
-          "His friends come to his house.",
-          "They eat a big chocolate cake."
+          "My name is Sam.",
+          "On Sunday, I play at school.",
+          "I play at four o'clock.",
+          "I have a red ball."
         ]
       },
       "figure": {
         "type": "words",
         "items": [
           {
-            "word": "When?\n파티는 언제인가요?"
+            "word": "When?\n언제 노나요?"
           },
           {
-            "word": "Where?\n친구들은 어디에 오나요?"
+            "word": "Where?\n어디에서 노나요?"
           },
           {
-            "word": "Who?\n누가 오나요?"
+            "word": "Who?\n누가 노나요?"
           },
           {
-            "word": "What?\n무엇을 먹나요?"
+            "word": "What?\n무엇을 가지고 있나요?"
           }
         ],
         "perRow": 1
@@ -479,21 +486,21 @@
         "목적": "부모와 함께 글을 읽고 네 물음의 답을 찾아 글에 있는 영어로 답합니다.",
         "시간": "약 3분",
         "말하기": [
-          "“한 문장씩 같이 읽어 볼까? party는 ‘파티’, o'clock은 ‘~시’야.”",
+          "“낱말 상자를 먼저 읽고, 한 문장씩 같이 읽어 볼까? o'clock은 ‘~시’야.”",
           "“When은 무엇을 찾아? 몇 번 문장에 있어? 영어로 그대로 말해 볼래?”",
           "“Where, Who, What도 차례로 찾아보자.”"
         ],
         "정답": [
-          "When? → at four o'clock(②)",
-          "Where? → his house, Sam's house(③)",
-          "Who? → his friends, Sam's friends(③)",
-          "What? → a big chocolate cake(④)"
+          "When? → on Sunday(②), at four o'clock(③)",
+          "Where? → at school(②)",
+          "Who? → Sam(①)",
+          "What? → a red ball(④)"
         ],
         "막히면": [
-          "“Where는 곳이야. 친구들이 come to 다음에 어디라고 했어?”처럼 물음 낱말과 문장의 단서를 이어 줍니다."
+          "“Where는 곳이야. at 다음에 곳을 나타내는 말이 있는 문장은 몇 번이야?”처럼 물음 낱말과 문장의 단서를 이어 줍니다."
         ],
         "주의": [
-          "his는 ‘그의’라는 뜻으로 Sam을 가리킵니다. his house를 ‘Sam의 집’이라고 답해도 맞습니다."
+          "②의 at school은 곳, ③의 at four o'clock은 때입니다. When에 at school이라고 답하면 S06을 다시 봅니다. When은 요일(on Sunday)과 시각(at four o'clock) 가운데 하나만 찾아도 맞습니다."
         ]
       }
     },
@@ -510,32 +517,33 @@
       "text": "물음을 먼저 읽고, 혼자 들으며 답을 찾아요.",
       "problems": [
         {
-          "text": "Where?\nTom은 어디에 가나요?"
+          "text": "Where?\n어디에서 노나요?"
         },
         {
-          "text": "Who?\nTom은 누구와 가나요?"
+          "text": "Who?\n누가 놀자고 했나요?"
         },
         {
-          "text": "What?\n무엇을 하러 가나요?"
+          "text": "What?\nSam은 무엇을 가지고 있나요?"
         },
         {
-          "text": "When?\n몇 시에 집에 와야 하나요?"
+          "text": "When?\n언제 만나나요?"
         }
       ],
+      "hint": "낱말 상자:　Let's play. 놀자.　·　park 공원　·　school 학교",
       "notes": {
         "목적": "도움 없이 처음 듣는 대화에서 네 물음의 세부 정보를 찾는지 확인합니다.",
         "시간": "약 4분",
         "말하기": [
           "“이번에는 혼자 해 볼래? 물음을 먼저 읽고 무엇을 찾을지 정해. 엄마(아빠)가 두 번 읽어 줄게.”",
-          "들려줄 대화 2(화면에 없음): Mom: Tom, where are you going? / Tom: I'm going to the library, Mom. / Mom: Who are you going with? / Tom: With Jisu. We have homework. / Mom: OK. Come home at five. / Tom: OK. Bye, Mom!",
+          "(낱말 상자를 먼저 읽어 줍니다.) 들려줄 대화 2(화면에 없음): Jisu: Sam, let's play at the park. / Sam: OK! When? / Jisu: On Saturday, at ten. / Sam: Great. I have a robot. / Jisu: A robot? Good! Bye, Sam.",
           "“①부터 답해 볼래?”"
         ],
         "정답": [
-          "① 도서관(the library)",
-          "② 지수(Jisu)",
-          "③ 숙제(homework)",
-          "④ 5시(at five)",
-          "기준: 네 물음 가운데 세 개 이상 맞히면 통과입니다. 우리말로 답해도 맞습니다. ④에 도서관처럼 곳을 답하면 S06을 다시 봅니다."
+          "① 공원(at the park)",
+          "② 지수(Jisu). 첫 줄은 지수가 Sam을 부르며 한 말입니다.",
+          "③ 로봇(a robot)",
+          "④ 토요일 10시(on Saturday, at ten)",
+          "기준: 네 물음 가운데 세 개 이상 맞히면 통과입니다. 우리말로 답해도 맞습니다. ④에 공원처럼 곳을 답하면 S06을 다시 봅니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “이 물음은 무엇을 찾는 거였지?”라고만 묻고 대화를 한 번 더 읽어 줍니다.",
@@ -553,14 +561,15 @@
         "B"
       ],
       "title": "혼자 읽고 답을 찾아요",
+      "text": "낱말 상자:　go 가다　·　with ~와 함께　·　Sunday 일요일",
       "passage": {
-        "title": "Zoo Day",
+        "title": "The Zoo",
         "numbered": true,
         "paragraphs": [
-          "Our class goes to the zoo on Friday.",
-          "We go there by bus.",
-          "Mr. Park, our teacher, goes with us.",
-          "I want to see the lions."
+          "On Sunday, I go to the zoo.",
+          "I go with my grandma.",
+          "The zoo is big.",
+          "I like the lions!"
         ]
       },
       "figure": {
@@ -573,10 +582,10 @@
             "word": "Where?\n어디에 가나요?"
           },
           {
-            "word": "Who?\n누가 함께 가나요?"
+            "word": "Who?\n누구와 가나요?"
           },
           {
-            "word": "What?\n무엇을 보고 싶나요?"
+            "word": "What?\n무엇을 좋아하나요?"
           }
         ],
         "perRow": 1
@@ -585,14 +594,14 @@
         "목적": "도움 없이 처음 보는 글에서 네 물음의 답이 있는 부분을 찾아 영어 그대로 답하는지 확인합니다.",
         "시간": "약 3분",
         "말하기": [
-          "“이번에는 혼자 읽고 답을 찾아볼래? 답은 글에 있는 영어 그대로 말하고, 몇 번 문장인지도 말해 줘.”"
+          "“이번에는 혼자 읽고 답을 찾아볼래? 낱말 상자는 엄마(아빠)가 먼저 읽어 줄게. 답은 글에 있는 영어 그대로 말하고, 몇 번 문장인지도 말해 줘.”"
         ],
         "정답": [
-          "When? → on Friday(①)",
+          "When? → on Sunday(①)",
           "Where? → the zoo(①)",
-          "Who? → Mr. Park, our teacher(③)",
+          "Who? → my grandma(②)",
           "What? → the lions(④)",
-          "기준: 네 물음 가운데 세 개 이상을 글의 영어로 찾으면 통과입니다. by bus(②)는 ‘어떻게’ 가는지에 대한 정보라 네 물음의 답이 아닙니다."
+          "기준: 네 물음 가운데 세 개 이상을 글의 영어로 찾으면 통과입니다. The zoo is big.(③)은 동물원이 어떤 곳인지 알려 주는 문장이라 네 물음의 답이 아닙니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “이 물음은 사람, 물건, 때, 곳 가운데 무엇을 찾아?”라고만 묻습니다.",
@@ -614,16 +623,16 @@
       "title": "정답 확인",
       "good": [
         {
-          "text": "S09 ① the library ② Jisu"
+          "text": "S09 ① the park ② Jisu"
         },
         {
-          "text": "S09 ③ homework ④ at five"
+          "text": "S09 ③ a robot ④ at ten"
         },
         {
-          "text": "S10 on Friday, the zoo"
+          "text": "S10 on Sunday, the zoo"
         },
         {
-          "text": "S10 Mr. Park, the lions"
+          "text": "S10 my grandma, the lions"
         }
       ],
       "bad": [
@@ -661,13 +670,13 @@
         "B"
       ],
       "title": "물음에 맞는 답을 골라요",
-      "text": "Tom plays soccer with Mina at the park on Sunday.",
+      "text": "I play badminton with Mina at the park on Saturday.",
       "options": [
         {
-          "text": "on Sunday"
+          "text": "on Saturday"
         },
         {
-          "text": "soccer"
+          "text": "badminton"
         },
         {
           "text": "with Mina"
@@ -686,8 +695,8 @@
           "“그럼 Where?는? Who?는? What?은?”"
         ],
         "정답": [
-          "When? → 가(on Sunday)",
-          "Where? → 라(at the park), Who?(누구와) → 다(with Mina), What? → 나(soccer)"
+          "When? → 가(on Saturday)",
+          "Where? → 라(at the park), Who?(누구와) → 다(with Mina), What? → 나(badminton)"
         ],
         "막히면": [
           "S03의 표를 다시 보여 주고 “When은 때였지? 때를 나타내는 말은?”이라고 묻습니다."
@@ -731,7 +740,7 @@
           "“사람, 물건, 때, 곳이요.” “물음을 먼저 읽어요.”"
         ],
         "정답": [
-          "① When은 때, Where는 곳 ② Where? the library, When? at three(대본은 활동지 5의 부모용 답에 있습니다) ③ an apple"
+          "① When은 때, Where는 곳 ② Where? the park, When? at three(대본은 활동지 5의 부모용 답에 있습니다) ③ an apple"
         ],
         "주의": [
           "다음 차시 ‘하루 일과 말하기’에서는 at seven처럼 때를 넣어 내 하루를 말합니다. 오늘 배운 When의 답(at two, on Saturday)과 이어집니다."
@@ -758,14 +767,14 @@
         "시간": "약 5분",
         "말하기": [
           "“세 가지 방법을 같이 읽어 보자.”",
-          "“엄마(아빠)가 짧은 대화를 읽어 줄게. 여러 번 나오는 낱말이 들리면 손을 들어.” 들려줄 대본(화면에 없음): A: Do you like pizza? / B: Yes, I do. I eat pizza every Sunday. / A: Me, too. I love pizza!",
+          "“엄마(아빠)가 짧은 대화를 읽어 줄게. 여러 번 나오는 낱말이 들리면 손을 들어.” 들려줄 대본(화면에 없음): A: I have jam. / B: Jam? I like jam! / A: Here you are. / B: Thank you.",
           "“무엇에 관한 대화야?”"
         ],
         "정답": [
-          "피자(pizza가 세 번 나오고, 두 사람이 피자를 좋아한다고 말합니다)."
+          "잼(jam이 세 번 나오고, 잼을 좋아한다고 말하며 주고받습니다)."
         ],
         "막히면": [
-          "대본을 한 번 더 읽어 주며 pizza가 나올 때마다 손가락을 하나씩 펴게 합니다."
+          "대본을 한 번 더 읽어 주며 jam가 나올 때마다 손가락을 하나씩 펴게 합니다."
         ],
         "주의": [
           "보충 뒤에도 중심 내용을 찾지 못하면 앞 차시 ‘중심 내용 찾기’를 먼저 다시 하고 이 차시를 시작합니다."
@@ -786,19 +795,19 @@
           ],
           "rows": [
             [
-              "Who? 누가 영화를 보자고 했나요?",
+              "Who? 누가 동물원에 가자고 했나요?",
               ""
             ],
             [
-              "What? 무엇을 하기로 했나요?",
+              "What? Tom은 무엇을 좋아하나요?",
               ""
             ],
             [
-              "When? 언제 하나요?",
+              "When? 언제 가나요?",
               ""
             ],
             [
-              "Where? 어디에서 하나요?",
+              "Where? 어디에 가나요?",
               ""
             ]
           ],
@@ -808,32 +817,32 @@
           ],
           "size": 13
         },
-        "answer": "들려줄 대화(두 번 읽어 줍니다): Jisu: Sam, do you like movies? / Sam: Yes, I do. / Jisu: Let's watch a movie on Sunday. / Sam: OK. Where? / Jisu: At my house. My mom makes great popcorn! — 답: Who? 지수(Jisu) / What? 영화 보기(watch a movie) / When? 일요일(on Sunday) / Where? 지수의 집(at Jisu's house) (네 개 가운데 세 개 이상이면 통과. Who에 Sam이라고 쓰면 첫 줄은 지수가 Sam을 부르며 한 말이라는 것을 짚어 줍니다.)"
+        "answer": "들려줄 대화(두 번 읽어 줍니다): Mina: Tom, let's go to the zoo. / Tom: The zoo? Great! When? / Mina: On Saturday, at three. / Tom: OK. I like lions! — 답: Who? 미나(Mina) / What? 사자(lions) / When? 토요일 3시(on Saturday, at three) / Where? 동물원(the zoo) (네 개 가운데 세 개 이상이면 통과. Who에 Tom이라고 쓰면 첫 줄은 미나가 Tom을 부르며 한 말이라는 것을 짚어 줍니다.)"
       },
       {
         "no": 2,
-        "prompt": "글을 읽고 물음의 답이 있는 부분에 밑줄을 그은 뒤, 글에 있는 영어 그대로 답을 쓰세요.",
-        "read": "Yuna has a cat. Its name is Nabi. Yuna plays with Nabi after school. Nabi sleeps in a small box.",
+        "prompt": "글을 읽고 물음의 답이 있는 부분에 밑줄을 그은 뒤, 글에 있는 영어 그대로 답을 쓰세요. (낱말: play 놀다, with ~와 함께)",
+        "read": "I'm Yuna. I have a cat, Nabi. I play with Nabi on Sunday. Nabi is in a small box.",
         "table": {
           "headers": [
-            "Question",
-            "Answer"
+            "물음",
+            "답"
           ],
           "rows": [
             [
-              "Who has a cat?",
+              "Who? 누가 고양이를 기르나요?",
               ""
             ],
             [
-              "What is the cat's name?",
+              "What? 고양이 이름은 무엇인가요?",
               ""
             ],
             [
-              "When does Yuna play with Nabi?",
+              "When? 언제 고양이와 노나요?",
               ""
             ],
             [
-              "Where does Nabi sleep?",
+              "Where? 고양이는 어디에 있나요?",
               ""
             ]
           ],
@@ -843,7 +852,7 @@
           ],
           "size": 14
         },
-        "answer": "Who? Yuna / What? Nabi / When? after school / Where? in a small box (철자와 대문자 Y, N을 글과 똑같이 옮겨 썼는지 봅니다. 네 개 가운데 세 개 이상이면 통과) 물음 문장이 어려우면 맨 앞의 물음 낱말만 보고 찾을 것을 정하게 하고, 뜻은 부모가 풀어 줍니다(누가 고양이를 기르나요? / 고양이 이름은? / 언제 나비와 노나요? / 나비는 어디에서 자나요?)."
+        "answer": "Who? Yuna / What? Nabi / When? on Sunday / Where? in a small box (철자와 대문자 Y, N, S를 글과 똑같이 옮겨 썼는지 봅니다. 네 개 가운데 세 개 이상이면 통과)"
       },
       {
         "no": 3,
@@ -851,33 +860,33 @@
         "choices": [
           "my sister",
           "at three",
-          "on Monday",
-          "in the kitchen",
-          "after school"
+          "on Sunday",
+          "in the box",
+          "on Saturday"
         ],
         "choices_size": 16,
-        "answer": "at three, on Monday, after school (3개). in the kitchen은 Where?(곳), my sister는 Who?(사람)의 답입니다."
+        "answer": "at three, on Sunday, on Saturday (3개). in the box는 Where?(곳), my sister는 Who?(사람)의 답입니다."
       },
       {
         "no": 4,
         "prompt": "Where?(어디서)에 알맞은 답에 모두 ✔ 하세요.",
         "choices": [
           "at the park",
-          "in my room",
-          "on Friday",
+          "on the desk",
+          "on Sunday",
           "at school",
           "Tom"
         ],
         "choices_size": 16,
-        "answer": "at the park, in my room, at school (3개). on Friday는 When?(때), Tom은 Who?(사람)의 답입니다."
+        "answer": "at the park, on the desk, at school (3개). on Sunday는 When?(때), Tom은 Who?(사람)의 답입니다. on도 at처럼 때(on Sunday)와 곳(on the desk)에 모두 쓰이니 뒤의 말을 봅니다."
       },
       {
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① When과 Where에는 각각 무엇을 답하는지 말해 보세요.\n② 부모님이 읽어 주는 대화를 듣고 Where?와 When?에 답해 보세요.\n③ 아래 문장을 읽고 What?(무엇을 먹나요?)에 답해 보세요.",
-        "read": "Max eats an apple in the kitchen.",
-        "answer": "① When은 때, Where는 곳 ② 들려줄 대화: Mina: Let's meet at the library. / Tom: OK. What time? / Mina: At three. — 답: Where? the library(도서관) / When? at three(3시) ③ an apple (세 가지 모두 도움 없이 하면 통과)"
+        "prompt": "① When과 Where에는 각각 무엇을 답하는지 말해 보세요.\n② 부모님이 읽어 주는 대화를 듣고 Where?와 When?에 답해 보세요.\n③ 아래 문장을 읽고 What?(무엇이 있나요?)에 답해 보세요.",
+        "read": "I have an apple in my bag.",
+        "answer": "① When은 때, Where는 곳 ② 들려줄 대화: Mina: Let's play at the park. / Tom: OK. When? / Mina: At three. — 답: Where? the park(공원) / When? at three(3시) ③ an apple (세 가지 모두 도움 없이 하면 통과)"
       }
     ],
     "record": [
