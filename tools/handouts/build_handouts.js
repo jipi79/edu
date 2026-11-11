@@ -25,7 +25,7 @@ function parseArgs(argv) {
 // 위첨자(2³)·아래 첨자(H₂O) 문자는 글꼴에 따라 너무 작거나 없으므로 보통 글자를 <sup>·<sub>로 쓴다.
 const { SCRIPT_RUNS, scriptKind, plainScript } = require("../pptx/scripts");
 // 수와 단위(4 g, 10 cm, 25 °C), 비(1 : 8) 사이에서는 줄을 바꾸지 않는다.
-const UNIT = /(\d) (?=(?:kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal|m\/s|g\/cm³|g\/mL)(?![A-Za-z]))/g;
+const UNIT = /(\d) (?=(?:개|명|원|도|분|초|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal|m\/s|g\/cm³|g\/mL)(?![A-Za-z]))/g;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
   .replace(UNIT, "$1\u00a0").replace(/(\d) : (?=\d)/g, "$1\u00a0:\u00a0")
   .replace(SCRIPT_RUNS, (m) => `<${scriptKind(m)}>${plainScript(m)}</${scriptKind(m)}>`)

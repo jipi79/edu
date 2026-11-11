@@ -531,6 +531,8 @@ function escapeXml(s) {
 }
 
 // pptxgenjs가 쓰지 못하는 두 가지를 저장 후에 넣는다: 테마 색, 도형의 대체 설명.
+const KEEP_UNIT = /(\d) (?=(?:개|명|원|도|분|초|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal)(?![A-Za-z]))/g;
+
 async function finalize(file, alt) {
   const zip = await JSZip.loadAsync(fs.readFileSync(file));
   const themePart = "ppt/theme/theme1.xml";
@@ -552,6 +554,8 @@ async function finalize(file, alt) {
     // 표 칸은 언어가 en-US로 들어가므로 한글이 든 글은 한국어로 고친다.
     xml = xml.replace(/<a:rPr lang="en-US"([^>]*)>((?:(?!<\/a:rPr>)[\s\S])*)<\/a:rPr><a:t>([^<]*)<\/a:t>/g, (m, attrs, inner, tx) =>
       /[\uac00-\ud7af]/.test(tx) ? `<a:rPr lang="ko-KR"${attrs.replace(/altLang="[^"]*"/, 'altLang="en-US"')}>${inner}</a:rPr><a:t>${tx}</a:t>` : m);
+    // 수와 단위·세는 말(52 도, 3 명, 10 cm) 사이에서는 줄을 바꾸지 않는다.
+    xml = xml.replace(/<a:t>([^<]*)<\/a:t>/g, (m, t) => `<a:t>${t.replace(KEEP_UNIT, "$1\u00a0")}</a:t>`);
     // ⟦ ⟧ 로 감싼 부분은 밑줄을 긋는다(영어 '밑줄 친 표현', 국어 지문의 밑줄). 괄호 자체는 지운다.
     xml = xml.replace(/<a:r>(<a:rPr\b[^>]*?)(\/>|>[\s\S]*?<\/a:rPr>)<a:t>([^<]*)<\/a:t><\/a:r>/g, (m, open, rest, tx) => {
       if (!/[\u27e6\u27e7]/.test(tx)) return m;
