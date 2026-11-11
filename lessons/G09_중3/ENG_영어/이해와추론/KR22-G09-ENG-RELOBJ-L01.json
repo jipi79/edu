@@ -792,7 +792,7 @@
         "B"
       ],
       "title": "세 문장의 뜻은?",
-      "text": "who 바로 뒤를 보고 뜻을 말해요.",
+      "text": "①②는 who 바로 뒤를, ③은 빠진 곳을 보고 뜻을 말해요.",
       "problems": [
         {
           "text": "The girl who likes Tom is Mina."
@@ -843,7 +843,7 @@
           "text": "한 문장으로 이으면?\nThis is the book.\n+ I read it."
         },
         {
-          "text": "뺄 수 있는 쪽은?\nthe man who I met /\nthe man who helped me"
+          "text": "뺄 수 있는 쪽은?\nthe man who helped me /\nthe man who I met"
         },
         {
           "text": "뜻은?\nthe photo Dad took"
@@ -1024,9 +1024,9 @@
               ""
             ],
             [
-              "③ the boy who I know",
+              "③ the boy who knows me",
               "",
-              "④ the boy who knows me",
+              "④ the boy who I know",
               ""
             ],
             [
@@ -1044,7 +1044,7 @@
           ],
           "size": 13
         },
-        "answer": "① ○ ② × ③ ○ ④ × ⑤ ○ ⑥ ×. 여섯 개 가운데 다섯 개 이상이면 통과. who·which 바로 뒤가 주어(I, my sister)이면 ○, 동사(is, knows, goes)이면 ×입니다."
+        "answer": "① ○ ② × ③ × ④ ○ ⑤ ○ ⑥ ×. 여섯 개 가운데 다섯 개 이상이면 통과. who·which 바로 뒤가 주어(I, my sister)이면 ○, 동사(is, knows, goes)이면 ×입니다."
       },
       {
         "no": 4,
@@ -1120,7 +1120,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① This is the book. + I read it.을 한 문장으로 이어 쓰세요.\n② the man who I met / the man who helped me 가운데 who를 뺄 수 있는 쪽을 쓰세요.\n③ the photo Dad took의 뜻을 쓰세요.",
+        "prompt": "① This is the book. + I read it.을 한 문장으로 이어 쓰세요.\n② the man who helped me / the man who I met 가운데 who를 뺄 수 있는 쪽을 쓰세요.\n③ the photo Dad took의 뜻을 쓰세요.",
         "lines": 3,
         "answer": "① This is the book which(that) I read. (This is the book I read.도 맞음) ② the man who I met ③ 아빠가 찍은 사진. 세 가지 모두 도움 없이 하면 통과."
       }

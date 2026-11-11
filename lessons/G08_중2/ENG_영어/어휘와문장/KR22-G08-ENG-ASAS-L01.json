@@ -147,7 +147,7 @@
         "150"
       ],
       "rel": "=",
-      "where": "S14 가 Mina 150 cm = Jun 150 cm"
+      "where": "S14 나 Mina 150 cm = Jun 150 cm"
     },
     {
       "type": "compare",
@@ -156,7 +156,7 @@
         "180"
       ],
       "rel": "<",
-      "where": "S14 다 Mina 150 cm < Dad 180 cm → not as tall as"
+      "where": "S14 라 Mina 150 cm < Dad 180 cm → not as tall as"
     },
     {
       "type": "compare",
@@ -506,7 +506,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "This box is as bigger\nas that box."
+              "word": "This box is as big\nas that box."
             }
           ]
         }
@@ -518,7 +518,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "This box is as big\nas that box."
+              "word": "This box is as bigger\nas that box."
             }
           ]
         }
@@ -533,7 +533,7 @@
           "“그럼 ‘이 피자는 저 피자만큼 맛있어.’를 good으로 말하면?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(This box is as big as that box.)입니다. 가는 as 사이에 비교급 bigger를 썼습니다. 두 상자가 같은 크기이므로 원래 모양 big을 씁니다.",
+          "바르게 쓴 쪽은 가(This box is as big as that box.)입니다. 나는 as 사이에 비교급 bigger를 썼습니다. 두 상자가 같은 크기이므로 원래 모양 big을 씁니다.",
           "good으로 말하면 This pizza is as good as that pizza. (as better as ×)"
         ],
         "막히면": [
@@ -911,16 +911,16 @@
       "text": "Mina 150 cm · Jun 150 cm · Dad 180 cm",
       "options": [
         {
-          "text": "Mina is as tall as Jun."
-        },
-        {
           "text": "Jun is taller than Mina."
         },
         {
-          "text": "Mina is not as tall as Dad."
+          "text": "Mina is as tall as Jun."
         },
         {
           "text": "Dad is very taller than Jun."
+        },
+        {
+          "text": "Mina is not as tall as Dad."
         }
       ],
       "question": "키와 맞고 바르게 쓴 문장 두 개는? 나머지는 어떻게 고칠까요?",
@@ -931,16 +931,16 @@
           "“세 사람의 키를 먼저 읽어 보자. 키와 맞고 바르게 쓴 문장 두 개는? 나머지 두 문장은 어떻게 고칠까?”"
         ],
         "정답": [
-          "바른 문장: 가(Mina is as tall as Jun. 150 cm = 150 cm), 다(Mina is not as tall as Dad. 150 cm < 180 cm)",
-          "나 → Jun is as tall as Mina. (두 사람의 키가 같습니다.)",
-          "라 → Dad is much taller than Jun. (very → much)",
-          "기준: 두 개를 바르게 고르면 목표 A, 라를 much로 고치면 목표 B도 확인된 것으로 봅니다."
+          "바른 문장: 나(Mina is as tall as Jun. 150 cm = 150 cm), 라(Mina is not as tall as Dad. 150 cm < 180 cm)",
+          "가 → Jun is as tall as Mina. (두 사람의 키가 같습니다.)",
+          "다 → Dad is much taller than Jun. (very → much)",
+          "기준: 두 개를 바르게 고르면 목표 A, 다를 much로 고치면 목표 B도 확인된 것으로 봅니다."
         ],
         "막히면": [
           "“문장마다 두 사람의 키를 찾아서 같은지, 누가 더 큰지 먼저 말해 봐.”라고 묻습니다."
         ],
         "주의": [
-          "나를 바른 문장으로 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S04 표를 다시 봅니다."
+          "가를 바른 문장으로 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S04 표를 다시 봅니다."
         ]
       }
     },
@@ -1199,7 +1199,7 @@
         },
         "line_label": "① (heavy, 같음)  ② (expensive, much를 넣어)  ③ (old, not as ~ as로)",
         "lines": 3,
-        "answer": "① Bike A is as heavy as Bike B. ② Bike B is much more expensive than Bike A. ③ Bike A is not as old as Bike B. (Bike B is as heavy as Bike A. / Bike B is older than Bike A.처럼 써도 표와 맞으면 ①③은 통과, ②는 much가 있어야 통과) 세 문장 모두 맞으면 통과."
+        "answer": "① Bike A is as heavy as Bike B. ② Bike B is much more expensive than Bike A. ③ Bike A is not as old as Bike B. (①은 Bike B is as heavy as Bike A.도 통과, ②는 much가 있어야 통과, ③은 not as ~ as로 써야 통과. ③을 Bike B is older than Bike A.로 썼으면 뜻은 맞으니 not as ~ as로 한 번 더 쓰게 합니다.) 세 문장 모두 맞으면 통과."
       },
       {
         "no": 5,

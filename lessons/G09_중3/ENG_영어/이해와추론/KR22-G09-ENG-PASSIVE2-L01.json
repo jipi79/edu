@@ -115,7 +115,7 @@
         "시간": "약 2분",
         "말하기": [
           "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
-          "“‘이 장난감은 중국에서 만들어지지 않았어요. 이 집은 1990년에 지어졌나요? 수업 시간에는 휴대 전화를 쓸 수 없어요.’라는 뜻이야. 지난 시간의 수동태에 not을 넣거나, 순서를 바꾸거나, can't를 넣었어. 오늘은 이런 문장을 배울 거야.”"
+          "“‘이 장난감은 중국에서 만든 것이 아니에요. 이 집은 1990년에 지어졌나요? 수업 시간에는 휴대 전화를 쓸 수 없어요.’라는 뜻이야. 지난 시간의 수동태에 not을 넣거나, 순서를 바꾸거나, can't를 넣었어. 오늘은 이런 문장을 배울 거야.”"
         ],
         "예상답": [
           "“isn't made, Was ~ built가 있어요.” “can't 다음에 be used가 와요.”"
@@ -143,7 +143,7 @@
           "text": "My mom made this cake.  → 수동태로"
         },
         {
-          "text": "The photos (was / were) taken by Dad."
+          "text": "This photo (was / were) taken by Dad."
         },
         {
           "text": "English is spoken in Canada.  → 뜻은?"
@@ -159,11 +159,11 @@
         ],
         "정답": [
           "① This cake was made by my mom.",
-          "② were (photos는 여럿)",
+          "② was (photo는 하나)",
           "③ 캐나다에서는 영어가 쓰여요."
         ],
         "막히면": [
-          "①은 “당하는 쪽은? 지난 일이니까 be동사는?”, ②는 “photos는 하나야, 여럿이야?”라고 묻습니다.",
+          "①은 “당하는 쪽은? 지난 일이니까 be동사는?”, ②는 “photo는 하나야, 여럿이야?”라고 묻습니다.",
           "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
         ],
         "주의": [
@@ -377,7 +377,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Did this bag made\nin Italy?"
+              "word": "Was this bag made\nin Italy?"
             }
           ]
         }
@@ -389,7 +389,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Was this bag made\nin Italy?"
+              "word": "Did this bag made\nin Italy?"
             }
           ]
         }
@@ -403,7 +403,7 @@
           "“수동태에는 처음부터 무엇이 있었지? 그 be동사를 앞으로 옮기면 될까, did를 새로 데려와야 할까?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(Was this bag made in Italy?)입니다. 수동태는 be동사 문장이므로 be동사(was)를 주어 앞으로 옮깁니다. 가는 did를 쓰고 be동사를 빠뜨렸습니다."
+          "바르게 쓴 쪽은 가(Was this bag made in Italy?)입니다. 수동태는 be동사 문장이므로 be동사(was)를 주어 앞으로 옮깁니다. 나는 did를 쓰고 be동사를 빠뜨렸습니다."
         ],
         "막히면": [
           "먼저 긍정문 This bag was made in Italy.를 말하게 한 뒤, was를 손가락으로 집어 맨 앞으로 옮기게 합니다."
@@ -864,7 +864,7 @@
           "text": "의문문으로 바꾸면?\nRice is grown in Korea."
         },
         {
-          "text": "알맞은 것은?\nIt will (be sold / sold)\nonline."
+          "text": "알맞은 것은?\nIt will (sold / be sold)\nonline."
         }
       ],
       "next": "요지와 세부 정보",
@@ -1146,7 +1146,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① It was built in 2000.을 부정문으로 바꾸어 쓰세요.\n② Rice is grown in Korea.를 의문문으로 바꾸어 쓰세요.\n③ It will (be sold / sold) online.에서 알맞은 것을 쓰세요.",
+        "prompt": "① It was built in 2000.을 부정문으로 바꾸어 쓰세요.\n② Rice is grown in Korea.를 의문문으로 바꾸어 쓰세요.\n③ It will (sold / be sold) online.에서 알맞은 것을 쓰세요.",
         "lines": 3,
         "answer": "① It wasn't(was not) built in 2000. ② Is rice grown in Korea? ③ be sold. 세 가지 모두 도움 없이 하면 통과."
       }

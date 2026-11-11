@@ -411,16 +411,16 @@
           "text": "a (smiling / smiled) girl"
         },
         {
-          "text": "a (broken / breaking) cup"
+          "text": "a (breaking / broken) cup"
         },
         {
           "text": "two (boiled / boiling) eggs"
         },
         {
-          "text": "a (barking / barked) dog"
+          "text": "a (barked / barking) dog"
         },
         {
-          "text": "a (painted / painting) wall"
+          "text": "a (painting / painted) wall"
         },
         {
           "text": "a (sleeping / slept) baby"
@@ -575,7 +575,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I read a book\nwriting in English."
+              "word": "I read a book\nwritten in English."
             }
           ]
         }
@@ -587,7 +587,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I read a book\nwritten in English."
+              "word": "I read a book\nwriting in English."
             }
           ]
         }
@@ -601,7 +601,7 @@
           "“책이 스스로 글을 써? 아니면 누가 책을 썼어? 책은 하는 쪽이야, 당하는 쪽이야?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(I read a book written in English.)입니다. 책은 쓰는 것이 아니라 쓰인(당한) 것이므로 과거분사 written을 씁니다. 가처럼 쓰면 ‘영어로 글을 쓰고 있는 책’이라는 이상한 뜻이 됩니다."
+          "바르게 쓴 쪽은 가(I read a book written in English.)입니다. 책은 쓰는 것이 아니라 쓰인(당한) 것이므로 과거분사 written을 씁니다. 나처럼 쓰면 ‘영어로 글을 쓰고 있는 책’이라는 이상한 뜻이 됩니다."
         ],
         "막히면": [
           "S05의 boiling water / boiled eggs를 다시 보여 주고 “책은 물 쪽이야, 달걀 쪽이야?”라고 묻습니다."
@@ -628,7 +628,7 @@
         "아이가 찾아 와서 말해요:\nThis is a cup made in Korea.",
         "다른 것도 찾아요: a book\nwritten in English, a photo\ntaken last year",
         "역할을 바꿔 아이가 찾을 것을 말해요.",
-        "-ing도 써요: Find a toy\nmaking a sound."
+        "-ing도 써요: Find a doll\nwearing a hat."
       ],
       "criteria": [
         "하면 -ing, 당하면 과거분사",
@@ -642,16 +642,16 @@
           "“엄마(아빠)가 찾을 것을 말하면 집 안에서 찾아 와서 This is ~.로 말해 줘. Find something made in Korea!” → (아이) “This is a cup made in Korea.”",
           "“물건 아래나 상자에 Made in ~이라고 쓰인 걸 찾아봐. ‘~에서 만들어진’이라는 뜻이야.”",
           "“Find a book written in English! Find a photo taken last year! Find something broken!”",
-          "“이번엔 네가 엄마(아빠)에게 찾을 것을 말해 줘. -ing도 써 볼래? Find a toy making a sound!(소리를 내는 장난감)”"
+          "“이번엔 네가 엄마(아빠)에게 찾을 것을 말해 줘. -ing도 써 볼래? Find a doll wearing a hat!(모자를 쓰고 있는 인형)”"
         ],
         "예상답": [
           "“This is a T-shirt made in Vietnam.” “This is a book written in English.” “This is a photo taken last year.” “This is a broken pencil.”",
-          "아이가 낼 문제 예: “Find something made in China.” “Find a picture painted by me.” “Find a toy making a sound.”",
-          "기준: 물건이 만들어진·쓰인·찍힌 것이면 과거분사, 스스로 소리를 내거나 움직이면 -ing를 쓰고, 덩어리 분사를 명사 뒤에 두어 This is ~.로 말하면 잘한 것입니다."
+          "아이가 낼 문제 예: “Find something made in China.” “Find a picture painted by me.” “Find a doll wearing a hat.”",
+          "기준: 물건이 만들어진·쓰인·찍힌 것이면 과거분사, 인형이 모자를 쓰고 있는 것처럼 지금 하고 있는 일이면 -ing를 쓰고, 덩어리 분사를 명사 뒤에 두어 This is ~.로 말하면 잘한 것입니다."
         ],
         "막히면": [
           "물건을 찾았는데 말이 막히면 “This is a ___ made in ___.” 틀을 손가락으로 짚어 줍니다.",
-          "Made in 표시가 있는 물건이 없으면 영어 글씨가 있는 상자나 가족사진으로 바꿉니다."
+          "Made in 표시가 있는 물건이 없으면 영어 글씨가 있는 상자나 가족사진으로 바꿉니다. 모자를 쓴 인형이 없으면 사진이나 책 속 그림에서 찾아도 됩니다(a boy wearing glasses: 안경을 쓴 소년)."
         ],
         "주의": [
           "made in ~ 뒤에는 나라 이름이 옵니다(Korea, China, Vietnam 등). 실제 표시대로 말하게 합니다.",
@@ -991,11 +991,11 @@
               ""
             ],
             [
-              "② a (used / using) car",
+              "② a (using / used) car",
               ""
             ],
             [
-              "③ a (shouting / shouted) man",
+              "③ a (shouted / shouting) man",
               ""
             ],
             [
@@ -1003,7 +1003,7 @@
               ""
             ],
             [
-              "⑤ a (smiling / smiled) face",
+              "⑤ a (smiled / smiling) face",
               ""
             ],
             [
@@ -1120,7 +1120,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 집에서 찾은 물건을 소개하는 세 문장을 쓰세요(Made in ~ 하나, -ing 하나, 과거분사 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 집에서 찾은 물건을 소개하는 세 문장을 쓰세요(made in ~ 하나, 다른 과거분사 하나, -ing 하나).",
         "eng": {
           "trace": [
             "I ate two boiled eggs.",
@@ -1128,7 +1128,7 @@
           ],
           "blank": 3
         },
-        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: This is a bag made in Vietnam. / This is a toy making a sound. / This is a photo taken last summer.). 명사가 하면 -ing, 당하면 과거분사를 썼는지, 덩어리 분사를 명사 뒤에 두었는지, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: This is a bag made in Vietnam. / This is a photo taken last summer. / This is a doll wearing a hat.). 명사가 하면 -ing, 당하면 과거분사를 썼는지, 덩어리 분사를 명사 뒤에 두었는지, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 7,

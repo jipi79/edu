@@ -328,7 +328,7 @@
       "text": "물음에 답하고, 근거가 되는 말을 짚어요.",
       "problems": [
         {
-          "text": "A: Please fasten your seatbelt. We will take off soon.\n→ 두 사람이 있는 곳은?"
+          "text": "A: Please fasten your seatbelt. We will take off soon.\n→ 여기는 어디일까요?"
         },
         {
           "text": "A: Open your mouth, please. Your teeth look fine.\n→ A의 직업은?"
@@ -472,12 +472,12 @@
           "Today was the day of our school play. I practiced my lines for three weeks. But on the stage, I didn't remember a word. Everyone was looking at me, and my face turned red. After the play, I didn't talk to anyone. I just went home and stayed in my room."
         ]
       },
-      "question": "① 글쓴이의 기분은? (proud / embarrassed / excited)　② 근거 두 개는?",
+      "question": "① 글쓴이의 기분은? (proud / excited / embarrassed)　② 근거 두 개는?",
       "notes": {
         "목적": "일기에 직접 쓰이지 않은 글쓴이의 기분을 행동과 상황 단서로 추론하고, 단서 문장 두 개를 근거로 댑니다(목표 A·B, 오해 M3).",
         "시간": "약 3분",
         "말하기": [
-          "“위의 낱말 뜻을 보고 일기를 끝까지 읽어 볼래? proud는 ‘자랑스러운’, embarrassed는 ‘창피한’, excited는 ‘신난’이야.”",
+          "“위의 낱말 뜻을 보고 일기를 끝까지 읽어 볼래? proud는 ‘자랑스러운’, excited는 ‘신난’, embarrassed는 ‘창피한’이야.”",
           "“일기에 ‘나는 창피했다’라는 말이 있어? 없지? 그런데 기분을 알 수 있을까? 글쓴이가 한 행동과 몸의 변화에 밑줄을 그어 봐.”",
           "“①의 기분과, ‘“~”라고 했으니까’로 근거 두 개를 말해 줘.”"
         ],
@@ -823,8 +823,8 @@
         "read": "Tomorrow is my first piano contest. I have practiced the song every day for a month. But tonight, my hands are cold and my heart is beating fast. I checked my music three times. I can't stop thinking about the contest. I hope I don't make a mistake.",
         "choices": [
           "bored (지루한)",
-          "nervous (긴장한)",
           "angry (화난)",
+          "nervous (긴장한)",
           "proud (자랑스러운)"
         ],
         "choices_size": 13,

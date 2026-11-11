@@ -732,7 +732,7 @@
           "text": "My sister made this cake.\n→ 수동태로"
         },
         {
-          "text": "The windows (was / were)\ncleaned yesterday."
+          "text": "The window (was / were)\ncleaned yesterday."
         },
         {
           "text": "English is spoken in\nAustralia.  → 뜻은?"
@@ -749,7 +749,7 @@
         ],
         "정답": [
           "① This cake was made by my sister.",
-          "② were (창문들은 여럿, yesterday는 지난 일)",
+          "② was (창문은 하나, yesterday는 지난 일)",
           "③ 호주에서는 영어가 쓰여요.",
           "④ These photos were taken by Dad.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 be동사(was, were), 과거분사의 철자(made, taken), by와 첫 글자 대문자, 마침표도 봅니다."
@@ -777,7 +777,7 @@
           "text": "① … was made by my sister."
         },
         {
-          "text": "② were"
+          "text": "② was"
         },
         {
           "text": "③ 호주에서는 영어가 쓰여요."
@@ -811,7 +811,7 @@
           "“was가 빠졌어요.” “took은 과거형이라 taken이에요.” “photos는 여럿이라 were예요.”"
         ],
         "정답": [
-          "① This cake was made by my sister. ② were ③ 호주에서는 영어가 쓰여요. ④ These photos were taken by Dad."
+          "① This cake was made by my sister. ② was ③ 호주에서는 영어가 쓰여요. ④ These photos were taken by Dad."
         ],
         "막히면": [
           "틀린 문제는 S05(바꾸기), S04(과거분사), S07(be동사 빠뜨리기), S08(be동사 고르기) 가운데 해당 장을 다시 봅니다."
@@ -1134,7 +1134,7 @@
               ""
             ],
             [
-              "② The windows (was / were) cleaned yesterday.\n(알맞은 것)",
+              "② The window (was / were) cleaned yesterday.\n(알맞은 것)",
               ""
             ],
             [
@@ -1153,7 +1153,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① This cake was made by my sister. ② were ③ 호주에서는 영어가 쓰여요. ④ These photos were taken by Dad. 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① This cake was made by my sister. ② was ③ 호주에서는 영어가 쓰여요. ④ These photos were taken by Dad. 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,

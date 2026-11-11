@@ -164,11 +164,11 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 글 읽기",
-      "text": "글을 읽고 질문에 답해요.  air pollution 공기 오염",
+      "text": "글을 읽고 질문에 답해요.  cause air pollution 공기 오염을 일으키다",
       "passage": {
         "title": "Ride a Bike to School",
         "paragraphs": [
-          "Riding a bike to school is a great idea. First, it is good for your health. For example, you can exercise for twenty minutes every morning. Also, bikes don't make air pollution. However, you should always wear a helmet."
+          "Riding a bike to school is a great idea. First, it is good for your health. For example, you can exercise for twenty minutes every morning. Also, bikes don't cause air pollution. However, you should always wear a helmet."
         ]
       },
       "question": "① 글쓴이가 가장 하고 싶은 말은?　② However 뒤에서 무엇을 말하나요?",
@@ -258,7 +258,7 @@
         "title": "Are You Sleeping Enough?",
         "paragraphs": [
           "Many teenagers go to bed late. Experts say that teenagers need eight to ten hours of sleep. However, a lot of students sleep only six or seven hours.",
-          "Sleep is important. Your brain works while you sleep. It stores what you learned.",
+          "Sleep is important. Your brain works while you sleep. It stores the things you learned.",
           "Without enough sleep, it is hard to focus in class.",
           "So, if you want to do well at school, get enough sleep. Go to bed at the same time every night."
         ],
@@ -305,10 +305,10 @@
           "text": "잠은 중요해요."
         },
         {
-          "text": "학교생활을 잘하려면 충분히 자야 해요."
+          "text": "자기 전에 휴대 전화를 보면 안 돼요."
         },
         {
-          "text": "자기 전에 휴대 전화를 보면 안 돼요."
+          "text": "학교생활을 잘하려면 충분히 자야 해요."
         }
       ],
       "question": "요지는? 나머지는 왜 요지가 아닌가요?",
@@ -321,10 +321,10 @@
           "“나도 틀린 말은 아니야. 그런데 무엇이 빠졌을까? 글쓴이가 우리에게 무엇을 하라고 했지?”"
         ],
         "정답": [
-          "다 (학교생활을 잘하려면 충분히 자야 해요.)",
+          "라 (학교생활을 잘하려면 충분히 자야 해요.)",
           "가: ① 문단의 세부 정보 하나입니다(너무 좁음).",
           "나: 주제(잠)는 있지만 ‘그래서 무엇을 하라는지’가 빠졌습니다(너무 넓음).",
-          "라: 글에 없는 내용입니다(휴대 전화 이야기는 나오지 않음)."
+          "다: 글에 없는 내용입니다(휴대 전화 이야기는 나오지 않음)."
         ],
         "막히면": [
           "보기마다 “이 말이 ①~④ 모두에 들어맞아, 한 문단에만 들어맞아?”, “So 뒤의 말이 들어 있어?”라고 묻습니다."
@@ -407,7 +407,7 @@
       "passage": {
         "paragraphs": [
           "Many teenagers go to bed late. Experts say that teenagers need eight to ten hours of sleep. However, a lot of students sleep only six or seven hours.",
-          "Sleep is important. Your brain works while you sleep. It stores what you learned.",
+          "Sleep is important. Your brain works while you sleep. It stores the things you learned.",
           "Without enough sleep, it is hard to focus in class.",
           "So, if you want to do well at school, get enough sleep. Go to bed at the same time every night."
         ],
@@ -521,7 +521,7 @@
       "passage": {
         "paragraphs": [
           "Dear Ms. Park,",
-          "I'm Jiho from Class 3-2. I really want to join the science camp, but the deadline for the form is this Friday. My family is visiting my grandma in Busan from Wednesday to Sunday. Could I give you the form next Monday? I filled it out yesterday.",
+          "I'm Jiho from Class 3-2. I really want to join the science camp, but the deadline for the form is this Friday. My family is visiting my grandma in Busan from Wednesday to Sunday. Could I give you the form next Monday? I filled it out on the train yesterday.",
           {
             "text": "Best wishes, Jiho",
             "align": "right"
@@ -571,14 +571,14 @@
         ],
         "정답": [
           "① 요지: 지호가 박 선생님께 과학 캠프 신청서를 다음 주 월요일에 내도 되는지 부탁하는 이메일. 근거: I really want to join the science camp, but ~ / Could I give you the form next Monday?",
-          "② ① F (I really want to join the science camp.) ② T ③ T (수요일부터 일요일까지 부산에 있으므로 금요일에도 부산) ④ F (I filled it out yesterday. 어제 작성했어요.)"
+          "② ① F (I really want to join the science camp.) ② T ③ T (수요일부터 일요일까지 부산에 있으므로 금요일에도 부산) ④ F (I filled it out on the train yesterday. 어제 기차에서 작성했어요.)"
         ],
         "막히면": [
           "①에서 ‘지호는 부산에 가요’라고 하면 “그건 까닭이야. 지호가 선생님께 바라는 것은?”이라고 묻습니다.",
           "③이 어려우면 종이에 수·목·금·토·일을 쓰고 부산에 있는 날에 동그라미를 치게 합니다."
         ],
         "주의": [
-          "글의 뜻: 박 선생님께, 저는 3학년 2반 지호예요. 과학 캠프에 정말 참가하고 싶은데, 신청서 마감이 이번 금요일이에요. 저희 가족이 수요일부터 일요일까지 부산에 계신 할머니 댁에 가요. 신청서를 다음 주 월요일에 드려도 될까요? 신청서는 어제 다 썼어요. 지호 올림."
+          "글의 뜻: 박 선생님께, 저는 3학년 2반 지호예요. 과학 캠프에 정말 참가하고 싶은데, 신청서 마감이 이번 금요일이에요. 저희 가족이 수요일부터 일요일까지 부산에 계신 할머니 댁에 가요. 신청서를 다음 주 월요일에 드려도 될까요? 신청서는 어제 기차에서 다 썼어요. 지호 올림."
         ]
       }
     },
