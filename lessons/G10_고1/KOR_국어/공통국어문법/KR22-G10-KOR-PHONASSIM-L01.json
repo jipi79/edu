@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G10-KOR-PHONASSIM-L01",
+  "concept_id": "KOR-PHONASSIM",
+  "title": "비음화·유음화·구개음화",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "공통국어문법",
+  "sequence": 2,
+  "file_stem": "고1_국어_공통국어문법_02_비음화·유음화·구개음화",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-KOR-I02"
+    ],
+    "units": [
+      "1.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "비음화·유음화·구개음화가 일어나는 낱말을 찾아 앞뒤 소리가 닮아 바뀌는(교체) 과정을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "음절 끝소리와 된소리되기",
+      "lesson": "KR22-G10-KOR-PHONEND-L01",
+      "grade_item": "KR22-G10-KOR-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "비음화·유음화·구개음화 활동지",
+    "items": [],
+    "record": []
+  }
+}
