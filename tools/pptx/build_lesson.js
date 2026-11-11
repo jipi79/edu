@@ -538,7 +538,7 @@ function escapeXml(s) {
 }
 
 // pptxgenjs가 쓰지 못하는 두 가지를 저장 후에 넣는다: 테마 색, 도형의 대체 설명.
-const KEEP_UNIT = /(\d) (?=(?:개국|개월|개|명|원|도|분|초|번째|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|종|곳|가구|군데|그루|송이|켤레|벌|채|잔|병|주|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal)(?![A-Za-z]))/g;
+const KEEP_UNIT = /(\d) (?=(?:개국|개월|개|명|원|도|분|초|번째|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|종|곳|가구|군데|그루|송이|켤레|자루|벌|채|잔|병|주|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal)(?![A-Za-z]))/g;
 
 async function finalize(file, alt) {
   const zip = await JSZip.loadAsync(fs.readFileSync(file));
