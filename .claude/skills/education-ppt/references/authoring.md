@@ -59,8 +59,8 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `concept` | `text`?, `figure`/`figures`, `points`[1~3]?, `key`? | 넓은 그림(막대·수직선·표·흐름 등)이면 그림 위 + 카드 행 아래, 그 밖엔 그림 왼쪽 + 카드 오른쪽 |
 | `steps` | `text`?, `problem`?(`{text}` 또는 `{eq}`), `steps`[2~5](문자열 또는 `{text, eq}`), `figure`?, `key`? | 번호 단계 왼쪽, 그림 오른쪽 |
 | `practice` / `check` | `text`?, `problems`[1~6] (`{text}`·`{eq}`·`{figure}`), `figure`?(도움 그림), `aidTitle`?, `hint`? | 3개 이하는 한 줄씩, 4~6개는 두 열. 도움 그림이 있으면 오른쪽 |
-| `choice` | `text`?, `options`[2~4] (`{figure}` 또는 `{text}`), `question`? | 가·나·다·라 이름표 자동 |
-| `compare` | `claim`?, `left`/`right` (`{title, figure|eq|text, text?, mark?: "o"|"x"}`), `question`? | 두 칸 비교. mark를 쓰면 ○/× 표시(정답을 보여 주는 설명 장에서만) |
+| `choice` | `text`?, `options`[2~4] (`{figure}` 또는 `{text}`), `question`? | 가·나·다·라 이름표 자동. 한 차시 안에서 같은 기호가 다른 것을 가리키게 되면 보기에 `label`(예: "아")을 주어 이름표를 바꾼다. 정답 자리는 차시마다 고르게 섞는다 |
+| `compare` | `claim`?, `left`/`right` (`{title, figure|eq|text, text?, mark?: "o"|"x"}`), `question`? | 두 칸 비교. mark를 쓰면 ○/× 표시(정답을 보여 주는 설명 장에서만). 맞는 쪽이 늘 오른쪽(나·곰)이 되지 않게 차시마다 왼쪽·오른쪽을 섞는다 |
 | `passage` | `text`?, `passage` (`{title?, paragraphs[], numbered?}`; 문단은 문자열 또는 `{text, align: "right"}`), `question`?, `figure`? | 읽기 지문 상자. 넘치면 지문을 줄이거나 두 장으로. 편지의 날짜·서명은 오른쪽 정렬 |
 | `cards` | `text`?, `cards`[2~6], `key`? | 카드 격자 |
 | `table` | `text`?, `table` (`{headers, rows, widths?}`), `key`? | 표 |
