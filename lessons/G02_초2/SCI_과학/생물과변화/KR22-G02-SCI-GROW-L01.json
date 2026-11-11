@@ -31,6 +31,11 @@
       "text": "계절과 날씨 기록",
       "lesson": "KR22-G01-SCI-SEASON-L01",
       "grade_item": "KR22-G01-SCI-I02"
+    },
+    {
+      "text": "자로 길이 재기(cm 눈금 읽기)",
+      "lesson": "KR22-G02-MAT-CM-L01",
+      "grade_item": "KR22-G02-MAT-I02"
     }
   ],
   "objectives": [

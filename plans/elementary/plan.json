@@ -2467,7 +2467,8 @@
   "format": "ppt",
   "priority": 2,
   "pre": [
-   "KR22-G01-SCI-SEASON-L01"
+   "KR22-G01-SCI-SEASON-L01",
+   "KR22-G02-MAT-CM-L01"
   ],
   "file_stem": "초2_과학_생물과변화_01_식물이자라는모습",
   "source": "lessons/G02_초2/SCI_과학/생물과변화/KR22-G02-SCI-GROW-L01.json",
