@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G11-SCI-MOLARITY-L01",
+  "concept_id": "SCI-MOLARITY",
+  "title": "몰 농도",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "화학몰과양적관계",
+  "sequence": 3,
+  "file_stem": "고2_과학_화학몰과양적관계_03_몰농도",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I02"
+    ],
+    "units": [
+      "6.3.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "용질의 몰수와 용액의 부피로 몰 농도를 구하고 정해진 몰 농도의 용액을 만드는 과정을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "몰과 화학식량",
+      "lesson": "KR22-G11-SCI-MOLE-L01",
+      "grade_item": "KR22-G11-SCI-I02"
+    },
+    {
+      "text": "용해도",
+      "lesson": "KR22-G08-SCI-SOLUBLE-L01",
+      "grade_item": "KR22-G08-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "몰 농도 활동지",
+    "items": [],
+    "record": []
+  }
+}

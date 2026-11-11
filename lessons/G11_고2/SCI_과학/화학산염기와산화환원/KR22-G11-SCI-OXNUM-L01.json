@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-SCI-OXNUM-L01",
+  "concept_id": "SCI-OXNUM",
+  "title": "산화수와 산화·환원",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "화학산염기와산화환원",
+  "sequence": 3,
+  "file_stem": "고2_과학_화학산염기와산화환원_03_산화수와산화·환원",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I02"
+    ],
+    "units": [
+      "6.3.7",
+      "6.3.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "산화수 변화로 산화제와 환원제를 찾고 산화·환원 반응식의 계수를 맞춘다.",
+  "prerequisites": [
+    {
+      "text": "산화와 환원",
+      "lesson": "KR22-G10-SCI-REDOX-L01",
+      "grade_item": "KR22-G10-SCI-I02"
+    },
+    {
+      "text": "화학 반응의 양적 관계",
+      "lesson": "KR22-G11-SCI-RXNSTOICH-L01",
+      "grade_item": "KR22-G11-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "산화수와 산화·환원 활동지",
+    "items": [],
+    "record": []
+  }
+}

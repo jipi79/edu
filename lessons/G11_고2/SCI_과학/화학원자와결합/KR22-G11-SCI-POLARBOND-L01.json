@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-SCI-POLARBOND-L01",
+  "concept_id": "SCI-POLARBOND",
+  "title": "결합의 극성과 루이스 구조",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "화학원자와결합",
+  "sequence": 3,
+  "file_stem": "고2_과학_화학원자와결합_03_결합의극성과루이스구조",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I02"
+    ],
+    "units": [
+      "6.3.4",
+      "6.3.5"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "전기 음성도 차이로 결합의 극성을 판단하고 루이스 구조식으로 분자와 이온을 나타낸다.",
+  "prerequisites": [
+    {
+      "text": "원소의 주기적 성질",
+      "lesson": "KR22-G11-SCI-PERTREND-L01",
+      "grade_item": "KR22-G11-SCI-I02"
+    },
+    {
+      "text": "공유 결합",
+      "lesson": "KR22-G10-SCI-COVALENT-L01",
+      "grade_item": "KR22-G10-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "결합의 극성과 루이스 구조 활동지",
+    "items": [],
+    "record": []
+  }
+}

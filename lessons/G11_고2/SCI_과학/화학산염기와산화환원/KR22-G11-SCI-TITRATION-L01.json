@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-SCI-TITRATION-L01",
+  "concept_id": "SCI-TITRATION",
+  "title": "중화 반응의 양적 관계",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "화학산염기와산화환원",
+  "sequence": 2,
+  "file_stem": "고2_과학_화학산염기와산화환원_02_중화반응의양적관계",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I02"
+    ],
+    "units": [
+      "6.3.7",
+      "6.3.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "산의 H⁺ 몰수와 염기의 OH⁻ 몰수가 같아지는 중화점을 이용해 중화 적정으로 용액의 농도를 구한다.",
+  "prerequisites": [
+    {
+      "text": "물의 이온화와 pH",
+      "lesson": "KR22-G11-SCI-PHSCALE-L01",
+      "grade_item": "KR22-G11-SCI-I02"
+    },
+    {
+      "text": "중화 반응과 열",
+      "lesson": "KR22-G10-SCI-NEUTRAL-L01",
+      "grade_item": "KR22-G10-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "중화 반응의 양적 관계 활동지",
+    "items": [],
+    "record": []
+  }
+}
