@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G11-MAT-ESTIMATE-L01",
+  "concept_id": "MAT-ESTIMATE",
+  "title": "모평균의 추정",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "확률통계추정",
+  "sequence": 2,
+  "file_stem": "고2_수학_확률통계추정_02_모평균의추정",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I03"
+    ],
+    "units": [
+      "2.5.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "표본평균과 표준정규분포를 이용해 모평균의 신뢰구간을 구하고 신뢰도의 뜻을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "모집단과 표본",
+      "lesson": "KR22-G11-MAT-SAMPLE-L01",
+      "grade_item": "KR22-G11-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "모평균의 추정 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G11-MAT-NORMAL-L01",
+  "concept_id": "MAT-NORMAL",
+  "title": "정규분포",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "확률통계확률분포",
+  "sequence": 4,
+  "file_stem": "고2_수학_확률통계확률분포_04_정규분포",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I03"
+    ],
+    "units": [
+      "2.5.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "정규분포 곡선의 성질을 알고 확률변수를 표준화해 표준정규분포표로 확률을 구한다.",
+  "prerequisites": [
+    {
+      "text": "이항분포",
+      "lesson": "KR22-G11-MAT-BINOMDIST-L01",
+      "grade_item": "KR22-G11-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정규분포 활동지",
+    "items": [],
+    "record": []
+  }
+}
