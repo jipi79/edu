@@ -173,7 +173,7 @@
         "B"
       ],
       "title": "물음 낱말을 보면 찾을 것이 보여요",
-      "text": "새 낱말:　park 공원　·　school 학교　·　Sunday 일요일　·　Saturday 토요일",
+      "text": "새 낱말:　park 공원　·　school 학교\nSunday 일요일　·　Saturday 토요일",
       "table": {
         "headers": [
           "물음",
@@ -252,13 +252,30 @@
         "듣거나 읽으며 그 말을 찾아요.",
         "찾은 말로 답해요."
       ],
-      "key": "낱말 상자:　Let's go. 가자.　·　park 공원　·　Sunday 일요일",
+      "figure": {
+        "type": "words",
+        "items": [
+          {
+            "word": "Let's go.",
+            "sub": "가자."
+          },
+          {
+            "word": "park",
+            "sub": "공원"
+          },
+          {
+            "word": "Sunday",
+            "sub": "일요일"
+          }
+        ],
+        "perRow": 1
+      },
       "notes": {
         "목적": "물음을 먼저 읽고 찾을 것을 정한 뒤 듣는 순서를, 짧은 대본으로 부모가 직접 보여 줍니다(M2).",
         "시간": "약 3분",
         "말하기": [
           "“엄마(아빠)가 먼저 해 볼게. 1번, 물음을 먼저 읽어. Where? 어디에 가나요? 2번, Where니까 곳을 찾으면 돼.”",
-          "“3번, 이제 들으면서 곳을 찾을 거야.” (낱말 상자를 먼저 읽어 줍니다.) 들려줄 대본(화면에 없음): Dad: Mina, let's go to the park on Sunday. / Mina: The park? Great! I have a ball.",
+          "“3번, 이제 들으면서 곳을 찾을 거야.” (오른쪽 낱말 상자를 먼저 읽어 줍니다.) 들려줄 대본(화면에 없음): Dad: Mina, let's go to the park on Sunday. / Mina: The park? Great! I have a ball.",
           "“4번, 곳은 the park, 공원이야. 그럼 이번엔 네 차례야. When? 언제 가나요?” (대본을 한 번 더 읽어 줍니다.)"
         ],
         "예상답": [
@@ -300,7 +317,7 @@
           "text": "Where?\n어디에서 만나나요?"
         }
       ],
-      "hint": "낱말 상자:　Let's play ~. ~ 하자.　·　park 공원　·　school 학교",
+      "hint": "낱말 상자:　Let's ~. ~하자.　·　park 공원　·　school 학교",
       "notes": {
         "목적": "부모와 함께 대화를 듣고 네 물음의 세부 정보를 찾습니다. 말하는 사람과 부르는 이름을 구별합니다(M3).",
         "시간": "약 4분",
@@ -821,7 +838,7 @@
       },
       {
         "no": 2,
-        "prompt": "글을 읽고 물음의 답이 있는 부분에 밑줄을 그은 뒤, 글에 있는 영어 그대로 답을 쓰세요. (낱말: play 놀다, with ~와 함께)",
+        "prompt": "글을 읽고 물음의 답이 있는 부분에 밑줄을 그은 뒤, 글에 있는 영어 그대로 답을 쓰세요.\n(낱말: play 놀다, with ~와 함께)",
         "read": "I'm Yuna. I have a cat, Nabi. I play with Nabi on Sunday. Nabi is in a small box.",
         "table": {
           "headers": [
