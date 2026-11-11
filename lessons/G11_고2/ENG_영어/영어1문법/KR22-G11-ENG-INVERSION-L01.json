@@ -451,12 +451,12 @@
         "perRow": 3,
         "items": [
           {
-            "word": "On the hill stands a castle.",
+            "word": "On the hill\nstands a castle.",
             "sub": "진짜 주어: a castle",
             "highlight": true
           },
           {
-            "word": "Here comes the bus.",
+            "word": "Here comes\nthe bus.",
             "sub": "진짜 주어: the bus",
             "highlight": true
           },
@@ -785,7 +785,7 @@
           "note": "be동사(am)에\n맞춰요"
         }
       ],
-      "explain": "부정어 + 조동사·do + 주어,   장소 + 동사 + 주어,   So·Neither + 동사 + 주어",
+      "explain": "부정어 + 조동사·do + 주어,   장소 + 동사 + 주어\nSo·Neither + 동사 + 주어",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -860,7 +860,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "부정어(Never, Rarely, Little)·Only ~ + 조동사·do + 주어 + 동사\n장소·방향 + 동사 + 주어(명사),   So·Neither + 동사 + 주어 (나도 그래·안 그래)",
+      "key": "부정어·Only ~ + 조동사·do + 주어 + 동사\n장소·방향 + 동사 + 주어,   So·Neither + 동사 + 주어",
       "do": "Never have I seen ~",
       "dont": "Never I have seen ~",
       "review": [
@@ -891,7 +891,7 @@
           "③ So do I. / Neither can I."
         ],
         "주의": [
-          "영어 노래 가사나 교과서에서 So do I., Here comes ~를 찾아보면 좋은 복습이 됩니다. 다음 차시 ‘요약문 완성’에서는 글의 요지를 한 문장 요약문으로 정리하고 빈칸 (A)(B)를 채웁니다."
+          "영어 대화문이나 지문에서 So do I., Here comes ~를 찾아보면 좋은 복습이 됩니다. 다음 차시 ‘요약문 완성’에서는 글의 요지를 한 문장 요약문으로 정리하고 빈칸 (A)(B)를 채웁니다."
         ]
       }
     },
