@@ -263,7 +263,7 @@
           [
             "비슷한 쉬운 말",
             "It means very ~.\nIt means not ~.",
-            "Huge means very big.\nEmpty means not full."
+            "Huge means very big.\nCheap means not expensive."
           ],
           [
             "비슷한 것과 비교",
@@ -298,7 +298,7 @@
         ],
         "주의": [
           "사람을 설명할 때 a person who ~는 중3에서 배우는 문장입니다. 오늘은 It's a doctor for your teeth.(치과 의사)처럼 쓰거나, It's a person. She teaches students.처럼 두 문장으로 나누어 말합니다.",
-          "empty(비어 있는)는 not full(가득 차지 않은)처럼 반대말에 not을 붙여 설명할 수 있습니다."
+          "cheap(값이 싼)은 not expensive(비싸지 않은)처럼 반대말에 not을 붙여 설명할 수 있습니다."
         ]
       }
     },
@@ -324,7 +324,7 @@
           "text": "freezing\n→ It means very ____."
         },
         {
-          "text": "a puppy\n→ It's like a dog,\nbut much ____."
+          "text": "a hill\n→ It's like a mountain,\nbut much ____."
         }
       ],
       "hint": "쉬운 낱말 상자: cold · fruit · smaller · lunch",
@@ -339,13 +339,13 @@
           "① fruit (A mango? It's a kind of fruit.)",
           "② lunch (A lunchbox? It's a box for lunch. food도 맞습니다.)",
           "③ cold (Freezing means very cold.)",
-          "④ smaller (A puppy is like a dog, but much smaller. younger도 맞습니다.)"
+          "④ smaller (A hill is like a mountain, but much smaller. lower도 맞습니다.)"
         ],
         "막히면": [
-          "낱말의 뜻을 모르면 우리말 뜻(망고, 도시락, 꽁꽁 얼 듯이 추운, 강아지)을 알려 주고 틀만 생각하게 합니다."
+          "낱말의 뜻을 모르면 우리말 뜻(망고, 도시락, 꽁꽁 얼 듯이 추운, 언덕)을 알려 주고 틀만 생각하게 합니다."
         ],
         "주의": [
-          "④의 puppy는 It's a baby dog.(아기 개)처럼 설명해도 좋습니다. 다른 설명을 하면 “뜻이 맞아?”만 확인합니다."
+          "④의 hill은 It's a small mountain.(작은 산)처럼 설명해도 좋습니다. 다른 설명을 하면 “뜻이 맞아?”만 확인합니다."
         ]
       }
     },
@@ -367,7 +367,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "It means\na huge thing."
+              "word": "It means very big.\nLike an elephant!"
             }
           ]
         }
@@ -379,7 +379,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "It means very big.\nLike an elephant!"
+              "word": "It means\na huge thing."
             }
           ]
         }
@@ -389,16 +389,16 @@
         "목적": "설명 속에 그 낱말을 다시 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1·M2).",
         "시간": "약 2분",
         "말하기": [
-          "“huge를 모르는 친구가 가의 설명을 들으면 뜻을 알 수 있을까?”",
-          "“나는 어떤 방법을 썼어? 예를 붙인 것도 도움이 될까?”",
+          "“huge를 모르는 친구가 나의 설명을 들으면 뜻을 알 수 있을까?”",
+          "“가는 어떤 방법을 썼어? 예를 붙인 것도 도움이 될까?”",
           "“만약 ‘It means 거대한.’이라고 하면?”"
         ],
         "정답": [
-          "더 잘 설명한 쪽은 나입니다. 가는 설명 속에 huge를 다시 써서 모르는 사람은 여전히 뜻을 알 수 없습니다. 나는 쉬운 낱말 very big으로 바꾸고, 코끼리라는 예까지 붙여 이해를 돕습니다.",
+          "더 잘 설명한 쪽은 가입니다. 나는 설명 속에 huge를 다시 써서 모르는 사람은 여전히 뜻을 알 수 없습니다. 가는 쉬운 낱말 very big으로 바꾸고, 코끼리라는 예까지 붙여 이해를 돕습니다.",
           "‘It means 거대한.’처럼 우리말로 답하면 한국어를 모르는 친구는 알아듣지 못합니다(오해 M2)."
         ],
         "막히면": [
-          "“네가 huge를 모른다고 생각하고 가를 들어 봐. 알겠어?”라고 묻습니다."
+          "“네가 huge를 모른다고 생각하고 나를 들어 봐. 알겠어?”라고 묻습니다."
         ],
         "주의": [
           "Like an elephant!처럼 예를 하나 붙이면 더 쉬워집니다. 오늘의 틀에 예를 덧붙여도 좋다고 칭찬해 줍니다.",
@@ -519,7 +519,7 @@
       ],
       "title": "낱말 설명 놀이",
       "steps": [
-        "종이 여섯 장에 낱말을 써요:\numbrella, kitten, winter,\nteacher, fridge, library",
+        "종이 여섯 장에 낱말을 써요:\numbrella, tiger, winter,\nteacher, fridge, library",
         "한 사람이 카드 한 장을 몰래 봐요.",
         "그 낱말을 말하지 않고 영어로 설명해요.",
         "다른 사람이 맞혀요:\nIs it an umbrella?",
@@ -535,12 +535,12 @@
         "시간": "약 5분",
         "말하기": [
           "“종이 여섯 장에 낱말을 하나씩 써서 엎어 놓자. 한 사람이 몰래 보고, 그 낱말은 말하지 않고 영어로 설명하는 거야. 엄마(아빠)가 먼저 할게.”",
-          "부모의 설명 예: umbrella → “It's a thing for rain. You open it on rainy days.” / kitten → “It's a baby cat. It's like a cat, but much smaller.” / winter → “It's a kind of season. It's the coldest season.”",
+          "부모의 설명 예: umbrella → “It's a thing for rain. You open it on rainy days.” / tiger → “It's a kind of animal. It's like a cat, but much bigger.” / winter → “It's a kind of season. It's the coldest season.”",
           "teacher → “It's a person. She teaches students at school.” / fridge → “It's a big box for food. It's very cold inside.” / library → “It's a place for books. You can borrow books there.”",
-          "맞히는 사람은 “Is it a kitten?”처럼 묻고, 못 알아들으면 “Could you say that again?”, “Do you mean ~?”으로 물어도 됩니다."
+          "맞히는 사람은 “Is it a tiger?”처럼 묻고, 못 알아들으면 “Could you say that again?”, “Do you mean ~?”으로 물어도 됩니다."
         ],
         "예상답": [
-          "아이의 설명 예: “It's a kind of animal. It's like a cat, but much smaller.” “It's a place for books.”",
+          "아이의 설명 예: “It's a kind of animal. It's like a cat, but much bigger.” “It's a place for books.”",
           "기준: 그 낱말을 쓰지 않고, 틀(a kind of, a ~ for ~, like ~ but ~, very ~)을 골라 쉬운 낱말로 두 문장 이상 설명하면 잘한 것입니다."
         ],
         "막히면": [
@@ -631,9 +631,9 @@
           "“④는 엄마(아빠)가 말할게. The quiz was a piece of cake. 네가 이해한 뜻이 맞는지 Do you mean ~?으로 확인해 줘.”"
         ],
         "정답": [
-          "① It's a baby cat. / It's like a cat, but much smaller.",
+          "① It's a baby cat. / It's a very young cat.",
           "② It's a doctor for your teeth.",
-          "③ In other words, my room is very dirty. / In other words, my room is not clean.",
+          "③ In other words, my room is not clean. / In other words, my things are everywhere.",
           "④ Do you mean it was very easy? (Do you mean the quiz was easy?도 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 그 낱말을 다시 쓰거나 우리말로 설명하면 맞지 않습니다. 설명과 바꾼 문장은 뜻이 맞고 쉬운 영어이면 여러 가지가 됩니다."
         ],
@@ -642,7 +642,8 @@
           "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
         ],
         "주의": [
-          "②에서 It's a teeth doctor.처럼 말해도 뜻이 통하면 맞게 보고, a doctor for your teeth를 한 번 더 들려줍니다."
+          "②에서 It's a teeth doctor.처럼 말해도 뜻이 통하면 맞게 보고, a doctor for your teeth를 한 번 더 들려줍니다.",
+          "①에서 It's like a cat, but much smaller.라고 하면 뜻이 통하므로 맞게 보고, 새끼 고양이도 고양이이므로 It's a baby cat.이 더 정확하다고 알려 줍니다."
         ]
       }
     },
@@ -668,7 +669,7 @@
           "text": "② a doctor for your teeth"
         },
         {
-          "text": "③ My room is very dirty."
+          "text": "③ My room is not clean."
         },
         {
           "text": "④ Do you mean it was easy?"
@@ -699,7 +700,7 @@
           "“kitten을 설명하는데 kitten을 다시 쓰면 안 돼요.” “외국 친구는 우리말을 몰라요.” “mess는 지저분하다는 뜻이라 clean은 반대예요.”"
         ],
         "정답": [
-          "① It's a baby cat. ② It's a doctor for your teeth. ③ In other words, my room is very dirty. ④ Do you mean it was very easy?"
+          "① It's a baby cat. ② It's a doctor for your teeth. ③ In other words, my room is not clean. ④ Do you mean it was very easy?"
         ],
         "막히면": [
           "낱말 설명이 어려웠으면 S04, 문장 바꾸기가 어려웠으면 S07·S08을 다시 봅니다."
@@ -723,13 +724,13 @@
       "text": "Jun played soccer for three hours.\nJun: I'm exhausted. In other words, ______",
       "options": [
         {
-          "text": "I'm very tired."
-        },
-        {
           "text": "I'm very happy."
         },
         {
           "text": "I'm exhausted."
+        },
+        {
+          "text": "I'm very tired."
         },
         {
           "text": "I'm not tired at all."
@@ -743,15 +744,15 @@
           "“준이 축구를 세 시간 했대. 그리고 I'm exhausted.라고 했어. exhausted는 무슨 뜻일까? 빈칸에 알맞은 것을 고르고, 나머지는 왜 아닌지 말해 줘.”"
         ],
         "정답": [
-          "가 I'm very tired. (exhausted: 몹시 지친)",
-          "나는 다른 뜻(행복하다), 다는 같은 말을 되풀이함(바꾸어 말하지 않음), 라는 반대 뜻(전혀 피곤하지 않다)입니다.",
-          "기준: 가를 고르고 나머지 셋 가운데 둘 이상의 까닭을 말하면 통과."
+          "다 I'm very tired. (exhausted: 몹시 지친)",
+          "가는 다른 뜻(행복하다), 나는 같은 말을 되풀이함(바꾸어 말하지 않음), 라는 반대 뜻(전혀 피곤하지 않다)입니다.",
+          "기준: 다를 고르고 나머지 셋 가운데 둘 이상의 까닭을 말하면 통과."
         ],
         "막히면": [
           "“축구를 세 시간 하면 어떤 느낌일까?”라고 상황부터 묻습니다."
         ],
         "주의": [
-          "다를 고르면 “In other words는 다른 말로 다시 하는 거였지?”라고 짚어 줍니다. 틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S07을 다시 봅니다."
+          "나를 고르면 “In other words는 다른 말로 다시 하는 거였지?”라고 짚어 줍니다. 틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S07을 다시 봅니다."
         ]
       }
     },
@@ -861,7 +862,7 @@
       {
         "no": 1,
         "prompt": "낱말과 알맞은 설명을 이어 기호를 쓰세요.",
-        "read": "가 It means very cold.\n나 It's a small bag for money.\n다 It's a doctor for your teeth.\n라 It's a baby cat.\n마 It means not full.\n바 It's like a lake, but much smaller.",
+        "read": "가 It means very cold.\n나 It's a small bag for money.\n다 It's a doctor for your teeth.\n라 It's a baby cat.\n마 It means not expensive.\n바 It's like a lake, but much smaller.",
         "table": {
           "rows": [
             [
@@ -879,7 +880,7 @@
             [
               "③ freezing",
               "",
-              "⑥ empty",
+              "⑥ cheap",
               ""
             ]
           ],
@@ -957,7 +958,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "예: ① I'm very hungry. ② my room is very dirty. / my room is not clean. ③ it was very easy. ④ he gets up early. 네 개 가운데 세 개 이상이 앞 문장과 같은 뜻이면 통과. 반대 뜻이나 새 내용을 쓰면 다시 생각하게 합니다."
+        "answer": "예: ① I'm very hungry. ② my room is not clean. / my things are everywhere. ③ it was very easy. ④ he gets up early. 네 개 가운데 세 개 이상이 앞 문장과 같은 뜻이면 통과. 반대 뜻이나 새 내용을 쓰면 다시 생각하게 합니다."
       },
       {
         "no": 4,
@@ -969,7 +970,7 @@
       },
       {
         "no": 5,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 umbrella, winter, kitten 가운데 하나를 골라 그 낱말을 쓰지 않고 영어 두 문장으로 설명하세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 umbrella, winter, tiger 가운데 하나를 골라 그 낱말을 쓰지 않고 영어 두 문장으로 설명하세요.",
         "eng": {
           "trace": [
             "What does \"huge\" mean?",
@@ -977,7 +978,7 @@
           ],
           "blank": 2
         },
-        "answer": "따라 쓰기 두 줄과, 설명 두 문장(예: umbrella → It's a thing for rain. You open it on rainy days. / winter → It's a kind of season. It's the coldest season. / kitten → It's a baby cat. It's like a cat, but much smaller.). 그 낱말을 쓰지 않았는지, It means의 -s, 첫 글자 대문자와 마침표를 봅니다. 뜻이 맞으면 통과."
+        "answer": "따라 쓰기 두 줄과, 설명 두 문장(예: umbrella → It's a thing for rain. You open it on rainy days. / winter → It's a kind of season. It's the coldest season. / tiger → It's a kind of animal. It's like a cat, but much bigger.). 그 낱말을 쓰지 않았는지, It means의 -s, 첫 글자 대문자와 마침표를 봅니다. 뜻이 맞으면 통과."
       },
       {
         "no": 6,
