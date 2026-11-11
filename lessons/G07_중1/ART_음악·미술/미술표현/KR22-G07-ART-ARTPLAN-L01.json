@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G07-ART-ARTPLAN-L01",
+  "concept_id": "ART-ARTPLAN",
+  "title": "주제와 표현 계획",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "미술표현",
+  "sequence": 1,
+  "file_stem": "중1_음악·미술_미술표현_01_주제와표현계획",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G07-ART-I02"
+    ],
+    "units": [
+      "9.2.2",
+      "9.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "주제에 맞는 조형 요소와 재료를 골라 표현 계획을 세우고 만든 작품을 근거를 들어 감상한다.",
+  "prerequisites": [
+    {
+      "text": "조형 원리",
+      "lesson": "KR22-G06-ART-PRINCIPLE-L01",
+      "grade_item": "KR22-G06-ART-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "주제와 표현 계획 활동지",
+    "items": [],
+    "record": []
+  }
+}
