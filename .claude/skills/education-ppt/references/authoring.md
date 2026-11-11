@@ -174,3 +174,5 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 - 수학 설명형(kind): `lessons/G01_초1/MAT_수학/수와연산/KR22-G01-MAT-NUM9-L01.json`
 - 국어 읽기(passage): `lessons/G03_초3/KOR_국어/읽기와어휘/KR22-G03-KOR-MAINIDEA-L01.json`
 - 활동형(act): `lessons/G03_초3/ART_음악·미술/음악표현/KR22-G03-ART-BEATRHYTHM-L01.json`
+
+`boundary`(다루는 범위)는 부모용 안내의 ‘오늘 다루지 않는 것’에 그대로 인쇄된다. 부모가 읽을 말만 쓰고, 생성 스크립트·assert·`checks`·검산 같은 제작 과정 이야기는 쓰지 않는다(‘수업을 위해 지어낸 예시이다’처럼 자료의 성격만 밝힌다).
