@@ -42,6 +42,11 @@
       "text": "소수의 곱셈",
       "lesson": "KR22-G05-MAT-DECMUL-L01",
       "grade_item": "KR22-G05-MAT-I02"
+    },
+    {
+      "text": "자릿수가 다른 소수의 나눗셈과 (자연수) ÷ (소수)",
+      "lesson": "KR22-G06-MAT-DECDIV3-L01",
+      "grade_item": "KR22-G06-MAT-I01"
     }
   ],
   "objectives": [

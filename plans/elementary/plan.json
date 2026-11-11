@@ -204,7 +204,7 @@
   ],
   "file_stem": "초1_국어_한글_08_여러가지모음2",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-VOWEL2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-SENTENCE-L01",
@@ -566,7 +566,7 @@
   ],
   "file_stem": "초1_수학_수의순서_01_100까지수의순서",
   "source": "lessons/G01_초1/MAT_수학/수의순서/KR22-G01-MAT-NUMSEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-MAT-ADD3-L01",
@@ -9642,7 +9642,8 @@
   "pre": [
    "KR22-G06-MAT-DECDIV2-L01",
    "KR22-G03-MAT-CIRCLE-L01",
-   "KR22-G05-MAT-DECMUL-L01"
+   "KR22-G05-MAT-DECMUL-L01",
+   "KR22-G06-MAT-DECDIV3-L01"
   ],
   "file_stem": "초6_수학_원과자료_01_원주와원주율",
   "source": "lessons/G06_초6/MAT_수학/원과자료/KR22-G06-MAT-CIRCUM-L01.json",
