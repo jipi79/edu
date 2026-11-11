@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G10-ETH-JUSTICE-L01",
+  "concept_id": "ETH-JUSTICE",
+  "title": "정의로운 분배의 기준",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ETH",
+  "strand_label": "도덕·윤리",
+  "unit_folder": "통합사회윤리",
+  "sequence": 1,
+  "file_stem": "고1_도덕·윤리_통합사회윤리_01_정의로운분배의기준",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ETH-I01"
+    ],
+    "units": [
+      "5.3.2",
+      "5.3.3",
+      "5.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "업적·능력·필요에 따른 분배와 롤스의 정의 원칙(공정한 기회, 최소 수혜자 배려)을 장학금·복지 사례에 적용해 각 기준의 장단점을 비교한다.",
+  "prerequisites": [
+    {
+      "text": "행복·책임·정의의 관점",
+      "lesson": "KR22-G09-ETH-THREEVIEW-L01",
+      "grade_item": "KR22-G09-ETH-I01"
+    },
+    {
+      "text": "공정과 사회적 책임",
+      "lesson": "KR22-G08-ETH-FAIRNESS-L01",
+      "grade_item": "KR22-G08-ETH-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정의로운 분배의 기준 활동지",
+    "items": [],
+    "record": []
+  }
+}

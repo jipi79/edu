@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G12-SOC-MEMORY-L01",
+  "concept_id": "SOC-MEMORY",
+  "title": "공공의 기억과 기념",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "역사해석과기억",
+  "sequence": 2,
+  "file_stem": "고3_사회·역사_역사해석과기억_02_공공의기억과기념",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SOC-I01"
+    ],
+    "units": [
+      "4.1.8",
+      "4.1.5"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "기념일·기념관·추모 공간이 과거를 기억하는 방식을 조사하고 같은 사건을 집단마다 다르게 기억하는 사례를 비교해 공존을 위한 기억 방식을 토의한다.",
+  "prerequisites": [
+    {
+      "text": "역사 해석의 다양성",
+      "lesson": "KR22-G12-SOC-INTERPRET-L01",
+      "grade_item": "KR22-G12-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "공공의 기억과 기념 활동지",
+    "items": [],
+    "record": []
+  }
+}
