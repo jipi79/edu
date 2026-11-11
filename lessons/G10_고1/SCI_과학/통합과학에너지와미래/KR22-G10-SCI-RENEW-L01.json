@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G10-SCI-RENEW-L01",
+  "concept_id": "SCI-RENEW",
+  "title": "신재생 에너지",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "통합과학에너지와미래",
+  "sequence": 2,
+  "file_stem": "고1_과학_통합과학에너지와미래_02_신재생에너지",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SCI-I03"
+    ],
+    "units": [
+      "6.2.3",
+      "6.6.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "태양광·풍력·연료 전지 등 신재생 에너지의 발전 원리와 장단점을 비교하고 우리 지역에 알맞은 에너지원을 근거를 들어 제안한다.",
+  "prerequisites": [
+    {
+      "text": "에너지 전환과 발전",
+      "lesson": "KR22-G10-SCI-GENERATOR-L01",
+      "grade_item": "KR22-G10-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "신재생 에너지 활동지",
+    "items": [],
+    "record": []
+  }
+}

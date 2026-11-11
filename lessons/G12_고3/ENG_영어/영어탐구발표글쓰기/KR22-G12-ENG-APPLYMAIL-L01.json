@@ -186,27 +186,27 @@
       "cards": [
         {
           "title": "① 제목 · 인사",
-          "text": "Application for ~\nDear Dr. Lim,"
+          "text": "Application for ~"
         },
         {
           "title": "② 목적 · 나",
-          "text": "I am writing to apply for ~.\nI am a ~ student at ~."
+          "text": "I am writing to apply for ~."
         },
         {
           "title": "③ 경험 + 예",
-          "text": "For the past ~, I have ~.\nFor example, ~."
+          "text": "For example, ~."
         },
         {
           "title": "④ 지원 동기",
-          "text": "I am interested in ~ because ~.\nIt would help me ~."
+          "text": "because ~ / It would help me ~."
         },
         {
           "title": "⑤ 첨부 · 가능한 때",
-          "text": "I have attached ~.\nI am available ~."
+          "text": "I am available ~."
         },
         {
           "title": "⑥ 맺음",
-          "text": "Thank you for considering\nmy application."
+          "text": "Thank you for considering ~."
         }
       ],
       "key": "경험은 구체적으로, 동기는 꿈과 이어서",
@@ -315,12 +315,11 @@
         "paragraphs": [
           "Subject: Application for the Youth Science Mentor Program",
           "Dear Dr. Lim,",
-          "I am writing to apply for the Youth Science Mentor Program at the Example Science Museum. My name is Jiwoo Han, and I am a third-year student at Hana High School.",
-          "For the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members and taught them how to record their results safely. I have also tutored two middle school students in math every Saturday.",
-          "I am interested in this program because I want to become a science teacher. Working with young visitors would help me learn how to explain difficult ideas in simple ways.",
-          "I have attached my resume and a recommendation letter from my science teacher. I am available every weekend in July and August.",
-          "Thank you for considering my application. I look forward to hearing from you.",
-          "Best regards,\nJiwoo Han"
+          "I am writing to apply for the Youth Science Mentor Program.",
+          "For the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members.",
+          "I am interested in this program because I want to be a science teacher. It would help me learn to explain ideas simply.",
+          "I am available on weekends in July and August. Thank you for considering my application.",
+          "Best regards, Jiwoo Han (Hana High School, third-year student)"
         ]
       },
       "question": "① 일곱 부분에 번호를!  ② 경험의 숫자와 예, 동기와 꿈은?",
@@ -333,13 +332,14 @@
           "“지우는 왜 이 프로그램에 지원했어? 그 동기는 꿈과 어떻게 이어져?”"
         ],
         "예상답": [
-          "“15명, 매주, 토요일마다가 들어 있어요.” “과학 선생님이 되고 싶어서요.”"
+          "“2년, 15명, 매주가 들어 있어요.” “과학 선생님이 되고 싶어서요.”"
         ],
         "막히면": [
           "S03 카드를 옆에 두고 같은 표현을 찾게 합니다."
         ],
         "주의": [
-          "뜻: 제목: 청소년 과학 멘토 프로그램 지원 / 임 박사님께, 예시 과학관의 청소년 과학 멘토 프로그램에 지원하려고 메일을 씁니다. 저는 하나고등학교 3학년 한지우입니다. 지난 2년 동안 학교 과학 동아리를 이끌었습니다. 예를 들어 부원 15명을 위해 매주 실험을 계획하고, 결과를 안전하게 기록하는 법을 가르쳤습니다. 또 토요일마다 중학생 두 명에게 수학을 가르쳤습니다. 저는 과학 교사가 되고 싶어서 이 프로그램에 관심이 있습니다. 어린 관람객과 함께하면 어려운 생각을 쉽게 설명하는 법을 배울 수 있을 것입니다. 이력서와 과학 선생님의 추천서를 첨부했습니다. 7월과 8월 주말마다 시간이 됩니다. 제 지원을 검토해 주셔서 감사합니다. 답장을 기다리겠습니다. 한지우 드림 (mentor: 멘토, tutor: 가르치다, resume: 이력서)"
+          "뜻: 제목: 청소년 과학 멘토 프로그램 지원 / 임 박사님께, 청소년 과학 멘토 프로그램(예시)에 지원하려고 메일을 씁니다. 지난 2년 동안 학교 과학 동아리를 이끌었습니다. 예를 들어 부원 15명을 위해 매주 실험을 계획했습니다. 저는 과학 교사가 되고 싶어서 이 프로그램에 관심이 있습니다. 이 프로그램은 생각을 쉽게 설명하는 법을 배우는 데 도움이 될 것입니다. 7월과 8월 주말에 시간이 됩니다. 제 지원을 검토해 주셔서 감사합니다. 한지우(하나고등학교 3학년) 드림. 자기소개(학교·학년)는 목적 문장 바로 뒤에 써도 됩니다.",
+          "실제 메일에서는 맺음 앞에 I look forward to hearing from you.(답장을 기다리겠습니다), 첨부 서류가 있으면 I have attached my resume.를 덧붙입니다. (mentor: 멘토, available: 시간이 되는)"
         ]
       }
     },
@@ -542,7 +542,7 @@
         "목적": "부모가 프로그램 담당자가 되어 질문하고, 아이가 실제 경험과 동기로 답하며 메모해 이메일 재료를 만듭니다(목표 A·B).",
         "시간": "약 3분",
         "말하기": [
-          "“네가 고른 프로그램 카드의 담당자가 엄마(아빠)야. 질문에 영어로 답해 줘. 답한 내용을 활동지 3 메모 칸에 낱말로 적자.”",
+          "“네가 고른 프로그램 카드의 담당자가 엄마(아빠)야. 질문에 영어로 답해 줘. 답한 내용을 종이에 낱말로 메모하자.”",
           "(부모의 질문: Which program are you applying for? / What experience do you have? Can you give an example? / Why are you interested in this program? / When are you available?)",
           "“이번엔 엄마(아빠)가 지원자가 될게. 네가 담당자가 되어 같은 질문을 해 줘.”"
         ],
@@ -719,7 +719,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "Application for ~ → I am writing to apply for ~ → For the past ~, I have ~ / For example, ~\n→ I am interested in ~ because ~ → Thank you for considering my application.",
+      "key": "목적 → 경험 + 예 → 지원 동기 → 첨부·때 → 맺음\nI am writing to apply for ~ / For example, ~ / because ~",
       "do": "실제 경험을 숫자·예로 보여 주기",
       "dont": "자랑·과장, 막연한 경험",
       "review": [
@@ -824,7 +824,7 @@
       {
         "no": 1,
         "prompt": "본보기 이메일(S05)에서 일곱 부분에 번호를 붙이고, 아래 섞인 문장(S09)을 순서대로 번호를 쓰세요.",
-        "read": "Subject: Application for the Youth Science Mentor Program\nDear Dr. Lim,\nI am writing to apply for the Youth Science Mentor Program at the Example Science Museum. My name is Jiwoo Han, and I am a third-year student at Hana High School.\nFor the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members and taught them how to record their results safely. I have also tutored two middle school students in math every Saturday.\nI am interested in this program because I want to become a science teacher. Working with young visitors would help me learn how to explain difficult ideas in simple ways.\nI have attached my resume and a recommendation letter from my science teacher. I am available every weekend in July and August.\nThank you for considering my application. I look forward to hearing from you.\nBest regards,\nJiwoo Han",
+        "read": "Subject: Application for the Youth Science Mentor Program\nDear Dr. Lim,\nI am writing to apply for the Youth Science Mentor Program.\nFor the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members.\nI am interested in this program because I want to be a science teacher. It would help me learn to explain ideas simply.\nI am available on weekends in July and August. Thank you for considering my application.\nBest regards, Jiwoo Han (Hana High School, third-year student)",
         "table": {
           "headers": [
             "문장",
@@ -902,8 +902,6 @@
       {
         "no": 3,
         "prompt": "프로그램 카드 하나에 ○ 하고, 메모(S10)를 보고 지원 이메일(8~10문장)을 쓰세요. 첫 줄에 Subject: 를 쓰세요.\nA Children's Hospital Volunteer Program (예시): 주말에 입원한 어린이에게 책 읽어 주기·놀이 돕기 / 담당: Ms. Yoon\nB City Library Summer Book Club Leader (예시): 초등학생 독서 모임 이끌기 / 담당: Mr. Choi\nC Youth Coding Camp Assistant (예시): 중학생 코딩 캠프 보조 강사 / 담당: Dr. Kang",
-        "line_label": "메모(경험·예·동기·가능한 때):",
-        "lines": 2,
         "eng": {
           "trace": [],
           "blank": 10
