@@ -132,7 +132,7 @@
   ],
   "file_stem": "고1_국어_공통국어문법_01_음절끝소리와된소리되기",
   "source": "lessons/G10_고1/KOR_국어/공통국어문법/KR22-G10-KOR-PHONEND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-PHONASSIM-L01",
@@ -157,7 +157,7 @@
   ],
   "file_stem": "고1_국어_공통국어문법_02_비음화·유음화·구개음화",
   "source": "lessons/G10_고1/KOR_국어/공통국어문법/KR22-G10-KOR-PHONASSIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-PHONDEL-L01",
@@ -182,7 +182,7 @@
   ],
   "file_stem": "고1_국어_공통국어문법_03_음운의탈락과첨가",
   "source": "lessons/G10_고1/KOR_국어/공통국어문법/KR22-G10-KOR-PHONDEL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-PHONCONT-L01",
@@ -207,7 +207,7 @@
   ],
   "file_stem": "고1_국어_공통국어문법_04_축약과음운변동정리",
   "source": "lessons/G10_고1/KOR_국어/공통국어문법/KR22-G10-KOR-PHONCONT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-SENTREV-L01",
@@ -233,7 +233,7 @@
   ],
   "file_stem": "고1_국어_공통국어문법_05_문장의짜임과호응",
   "source": "lessons/G10_고1/KOR_국어/공통국어문법/KR22-G10-KOR-SENTREV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-NORMDISC-L01",
@@ -259,7 +259,7 @@
   ],
   "file_stem": "고1_국어_공통국어문법_06_담화와국어규범",
   "source": "lessons/G10_고1/KOR_국어/공통국어문법/KR22-G10-KOR-NORMDISC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-MODPOEM-L01",
@@ -285,7 +285,7 @@
   ],
   "file_stem": "고1_국어_공통국어문학_01_현대시해석하기",
   "source": "lessons/G10_고1/KOR_국어/공통국어문학/KR22-G10-KOR-MODPOEM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-MODNOVEL-L01",
@@ -311,7 +311,7 @@
   ],
   "file_stem": "고1_국어_공통국어문학_02_현대소설해석하기",
   "source": "lessons/G10_고1/KOR_국어/공통국어문학/KR22-G10-KOR-MODNOVEL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-CLASSPOEM-L01",
@@ -337,7 +337,7 @@
   ],
   "file_stem": "고1_국어_공통국어문학_03_고전시가입문",
   "source": "lessons/G10_고1/KOR_국어/공통국어문학/KR22-G10-KOR-CLASSPOEM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-CLASSPROSE-L01",
@@ -363,7 +363,7 @@
   ],
   "file_stem": "고1_국어_공통국어문학_04_고전산문입문",
   "source": "lessons/G10_고1/KOR_국어/공통국어문학/KR22-G10-KOR-CLASSPROSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-DEBATE-L01",
@@ -391,7 +391,7 @@
   ],
   "file_stem": "고1_국어_공통국어토론매체_01_쟁점별토론하기",
   "source": "lessons/G10_고1/KOR_국어/공통국어토론매체/KR22-G10-KOR-DEBATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-NEGOT-L01",
@@ -418,7 +418,7 @@
   ],
   "file_stem": "고1_국어_공통국어토론매체_02_협상의절차",
   "source": "lessons/G10_고1/KOR_국어/공통국어토론매체/KR22-G10-KOR-NEGOT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-MEDIACRIT-L01",
@@ -446,7 +446,7 @@
   ],
   "file_stem": "고1_국어_공통국어토론매체_03_매체비평하기",
   "source": "lessons/G10_고1/KOR_국어/공통국어토론매체/KR22-G10-KOR-MEDIACRIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-MEDIAMAKE-L01",
@@ -473,7 +473,7 @@
   ],
   "file_stem": "고1_국어_공통국어토론매체_04_복합매체자료만들기",
   "source": "lessons/G10_고1/KOR_국어/공통국어토론매체/KR22-G10-KOR-MEDIAMAKE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-POLYADD-L01",
@@ -836,7 +836,7 @@
   ],
   "file_stem": "고1_수학_공통수학1방정식부등식_01_삼차방정식과사차방정식",
   "source": "lessons/G10_고1/MAT_수학/공통수학1방정식부등식/KR22-G10-MAT-HIGHEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-SYSQUAD-L01",
@@ -989,7 +989,7 @@
   ],
   "file_stem": "고1_수학_공통수학1경우의수_02_순열",
   "source": "lessons/G10_고1/MAT_수학/공통수학1경우의수/KR22-G10-MAT-PERM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-COMB-L01",
@@ -1014,7 +1014,7 @@
   ],
   "file_stem": "고1_수학_공통수학1경우의수_03_조합",
   "source": "lessons/G10_고1/MAT_수학/공통수학1경우의수/KR22-G10-MAT-COMB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-MATRIX-L01",
@@ -1193,7 +1193,7 @@
   ],
   "file_stem": "고1_수학_공통수학2원_01_원의방정식",
   "source": "lessons/G10_고1/MAT_수학/공통수학2원/KR22-G10-MAT-CIRCLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-CIRCLELINE-L01",
@@ -1220,7 +1220,7 @@
   ],
   "file_stem": "고1_수학_공통수학2원_02_원과직선의위치관계",
   "source": "lessons/G10_고1/MAT_수학/공통수학2원/KR22-G10-MAT-CIRCLELINE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-TRANSLATE-L01",
@@ -1246,7 +1246,7 @@
   ],
   "file_stem": "고1_수학_공통수학2도형이동_01_평행이동",
   "source": "lessons/G10_고1/MAT_수학/공통수학2도형이동/KR22-G10-MAT-TRANSLATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-REFLECT-L01",
@@ -1271,7 +1271,7 @@
   ],
   "file_stem": "고1_수학_공통수학2도형이동_02_대칭이동",
   "source": "lessons/G10_고1/MAT_수학/공통수학2도형이동/KR22-G10-MAT-REFLECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-SET-L01",
@@ -1296,7 +1296,7 @@
   ],
   "file_stem": "고1_수학_공통수학2집합_01_집합과부분집합",
   "source": "lessons/G10_고1/MAT_수학/공통수학2집합/KR22-G10-MAT-SET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-SETOP-L01",
@@ -1321,7 +1321,7 @@
   ],
   "file_stem": "고1_수학_공통수학2집합_02_집합의연산",
   "source": "lessons/G10_고1/MAT_수학/공통수학2집합/KR22-G10-MAT-SETOP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-PROPCOND-L01",
@@ -1346,7 +1346,7 @@
   ],
   "file_stem": "고1_수학_공통수학2명제_01_명제와조건",
   "source": "lessons/G10_고1/MAT_수학/공통수학2명제/KR22-G10-MAT-PROPCOND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-CONVERSE-L01",
@@ -1372,7 +1372,7 @@
   ],
   "file_stem": "고1_수학_공통수학2논증_01_명제의역과대우",
   "source": "lessons/G10_고1/MAT_수학/공통수학2논증/KR22-G10-MAT-CONVERSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-NECSUFF-L01",
@@ -1398,7 +1398,7 @@
   ],
   "file_stem": "고1_수학_공통수학2논증_02_필요조건과충분조건",
   "source": "lessons/G10_고1/MAT_수학/공통수학2논증/KR22-G10-MAT-NECSUFF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-PROOF-L01",
@@ -1425,7 +1425,7 @@
   ],
   "file_stem": "고1_수학_공통수학2논증_03_대우와귀류법증명",
   "source": "lessons/G10_고1/MAT_수학/공통수학2논증/KR22-G10-MAT-PROOF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-FUNCTION-L01",
@@ -1451,7 +1451,7 @@
   ],
   "file_stem": "고1_수학_공통수학2함수_01_함수와일대일대응",
   "source": "lessons/G10_고1/MAT_수학/공통수학2함수/KR22-G10-MAT-FUNCTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-COMPOSE-L01",
@@ -1476,7 +1476,7 @@
   ],
   "file_stem": "고1_수학_공통수학2함수_02_합성함수",
   "source": "lessons/G10_고1/MAT_수학/공통수학2함수/KR22-G10-MAT-COMPOSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-INVFUNC-L01",
@@ -1502,7 +1502,7 @@
   ],
   "file_stem": "고1_수학_공통수학2함수_03_역함수",
   "source": "lessons/G10_고1/MAT_수학/공통수학2함수/KR22-G10-MAT-INVFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-RATEXPR-L01",
@@ -1527,7 +1527,7 @@
   ],
   "file_stem": "고1_수학_공통수학2유리무리함수_01_유리식의계산",
   "source": "lessons/G10_고1/MAT_수학/공통수학2유리무리함수/KR22-G10-MAT-RATEXPR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-RATFUNC-L01",
@@ -1555,7 +1555,7 @@
   ],
   "file_stem": "고1_수학_공통수학2유리무리함수_02_유리함수의그래프",
   "source": "lessons/G10_고1/MAT_수학/공통수학2유리무리함수/KR22-G10-MAT-RATFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-IRRFUNC-L01",
@@ -1582,7 +1582,7 @@
   ],
   "file_stem": "고1_수학_공통수학2유리무리함수_03_무리함수의그래프",
   "source": "lessons/G10_고1/MAT_수학/공통수학2유리무리함수/KR22-G10-MAT-IRRFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-SENTFORM-L01",
@@ -1608,7 +1608,7 @@
   ],
   "file_stem": "고1_영어_공통영어문장_01_문장의다섯형식",
   "source": "lessons/G10_고1/ENG_영어/공통영어문장/KR22-G10-ENG-SENTFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-PERFDONE-L01",
@@ -1635,7 +1635,7 @@
   ],
   "file_stem": "고1_영어_공통영어문장_02_현재완료완료·결과",
   "source": "lessons/G10_고1/ENG_영어/공통영어문장/KR22-G10-ENG-PERFDONE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-RELADV-L01",
@@ -1846,7 +1846,7 @@
   ],
   "file_stem": "고1_영어_공통영어독해_01_요지·주제·제목찾기",
   "source": "lessons/G10_고1/ENG_영어/공통영어독해/KR22-G10-ENG-MAINIDEA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-BLANK-L01",
@@ -1872,7 +1872,7 @@
   ],
   "file_stem": "고1_영어_공통영어독해_02_빈칸추론",
   "source": "lessons/G10_고1/ENG_영어/공통영어독해/KR22-G10-ENG-BLANK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-ORDER-L01",
@@ -1898,7 +1898,7 @@
   ],
   "file_stem": "고1_영어_공통영어독해_03_글의순서정하기",
   "source": "lessons/G10_고1/ENG_영어/공통영어독해/KR22-G10-ENG-ORDER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-INSERT-L01",
@@ -1923,7 +1923,7 @@
   ],
   "file_stem": "고1_영어_공통영어독해_04_문장삽입위치찾기",
   "source": "lessons/G10_고1/ENG_영어/공통영어독해/KR22-G10-ENG-INSERT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-OPINESSAY-L01",
@@ -1949,7 +1949,7 @@
   ],
   "file_stem": "고1_영어_공통영어표현_01_의견에세이쓰기",
   "source": "lessons/G10_고1/ENG_영어/공통영어표현/KR22-G10-ENG-OPINESSAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-PRESENT-L01",
@@ -1977,7 +1977,7 @@
   ],
   "file_stem": "고1_영어_공통영어표현_02_근거들어발표하기",
   "source": "lessons/G10_고1/ENG_영어/공통영어표현/KR22-G10-ENG-PRESENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-DISCUSS-L01",
@@ -2004,7 +2004,7 @@
   ],
   "file_stem": "고1_영어_공통영어표현_03_협력적토의",
   "source": "lessons/G10_고1/ENG_영어/공통영어표현/KR22-G10-ENG-DISCUSS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-VOCABCTX-L01",
@@ -2030,7 +2030,7 @@
   ],
   "file_stem": "고1_영어_공통영어문화_01_문맥으로어휘추론",
   "source": "lessons/G10_고1/ENG_영어/공통영어문화/KR22-G10-ENG-VOCABCTX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-CULTREFL-L01",
@@ -2057,7 +2057,7 @@
   ],
   "file_stem": "고1_영어_공통영어문화_02_문화차이성찰하기",
   "source": "lessons/G10_고1/ENG_영어/공통영어문화/KR22-G10-ENG-CULTREFL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-HISTSRC-L01",
@@ -2083,7 +2083,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_01_사료와역사해석",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-HISTSRC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-ANCRULE-L01",
@@ -2109,7 +2109,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_02_고대국가의지배체제",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-ANCRULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-NSEXCH-L01",
@@ -2135,7 +2135,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_03_남북국과동아시아교류",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-NSEXCH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-GORYEOPOL-L01",
@@ -2161,7 +2161,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_04_고려지배세력의변화",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-GORYEOPOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-JOSEONRULE-L01",
@@ -2187,7 +2187,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_05_조선의유교적통치",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-JOSEONRULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-JOSEONCHG-L01",
@@ -2213,7 +2213,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_06_조선후기사회변동",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-JOSEONCHG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-MODREFORM-L01",
@@ -2239,7 +2239,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사1_07_근대국민국가수립운동",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사1/KR22-G10-SOC-MODREFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-COLONRULE-L01",
@@ -2266,7 +2266,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_01_일제의식민지배정책",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-COLONRULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-NATMOVE-L01",
@@ -2293,7 +2293,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_02_민족운동의여러갈래",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-NATMOVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-REPFOUND-L01",
@@ -2320,7 +2320,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_03_광복과정부수립",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-REPFOUND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-KORWAR-L01",
@@ -2347,7 +2347,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_04_냉전과6·25전쟁",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-KORWAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-DEMOCRACY-L01",
@@ -2374,7 +2374,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_05_민주주의의시련과발전",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-DEMOCRACY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-ECONGROW-L01",
@@ -2400,7 +2400,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_06_경제성장과사회변화",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-ECONGROW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-PEACEKR-L01",
@@ -2426,7 +2426,7 @@
   ],
   "file_stem": "고1_사회·역사_한국사2_07_남북관계와동아시아평화",
   "source": "lessons/G10_고1/SOC_사회·역사/한국사2/KR22-G10-SOC-PEACEKR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-INTEGVIEW-L01",
@@ -2452,7 +2452,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_01_통합적관점으로보기",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-INTEGVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-HAPPY-L01",
@@ -2478,7 +2478,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_02_행복의의미와조건",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-HAPPY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-NATENV-L01",
@@ -2504,7 +2504,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_03_자연환경과인간생활",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-NATENV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-NATVIEW-L01",
@@ -2530,7 +2530,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_04_자연관과환경문제",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-NATVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-CULTDIV-L01",
@@ -2556,7 +2556,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_05_문화권과문화변동",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-CULTDIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-CULTRELAT-L01",
@@ -2582,7 +2582,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_06_문화상대주의와다문화",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-CULTRELAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-LIVSPACE-L01",
@@ -2608,7 +2608,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회1_07_생활공간과사회변화",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회1/KR22-G10-SOC-LIVSPACE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-RIGHTCONST-L01",
@@ -2638,7 +2638,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_01_인권보장과헌법",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-RIGHTCONST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-RIGHTISSUE-L01",
@@ -2668,7 +2668,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_02_인권문제와시민참여",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-RIGHTISSUE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-JUSTICE-L01",
@@ -2698,7 +2698,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_03_정의와사회불평등",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-JUSTICE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-MARKETECO-L01",
@@ -2728,7 +2728,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_04_시장경제와경제주체",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-MARKETECO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-INTLTRADE-L01",
@@ -2758,7 +2758,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_05_국제분업과무역",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-INTLTRADE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-GLOBPEACE-L01",
@@ -2788,7 +2788,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_06_세계화와평화",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-GLOBPEACE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-FUTURE-L01",
@@ -2818,7 +2818,7 @@
   ],
   "file_stem": "고1_사회·역사_통합사회2_07_미래와지속가능한삶",
   "source": "lessons/G10_고1/SOC_사회·역사/통합사회2/KR22-G10-SOC-FUTURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-POLICYEVAL-L01",
@@ -2846,7 +2846,7 @@
   ],
   "file_stem": "고1_사회·역사_사회적의사결정_01_정책대안평가하기",
   "source": "lessons/G10_고1/SOC_사회·역사/사회적의사결정/KR22-G10-SOC-POLICYEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-ISSUEDATA-L01",
@@ -2874,7 +2874,7 @@
   ],
   "file_stem": "고1_사회·역사_사회적의사결정_02_자료로쟁점판단하기",
   "source": "lessons/G10_고1/SOC_사회·역사/사회적의사결정/KR22-G10-SOC-ISSUEDATA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SOC-CIVICDEC-L01",
@@ -2902,7 +2902,7 @@
   ],
   "file_stem": "고1_사회·역사_사회적의사결정_03_시민참여와정책제안",
   "source": "lessons/G10_고1/SOC_사회·역사/사회적의사결정/KR22-G10-SOC-CIVICDEC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ETH-JUSTICE-L01",
@@ -2930,7 +2930,7 @@
   ],
   "file_stem": "고1_도덕·윤리_통합사회윤리_01_정의로운분배의기준",
   "source": "lessons/G10_고1/ETH_도덕·윤리/통합사회윤리/KR22-G10-ETH-JUSTICE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ETH-LIBCOMM-L01",
@@ -2958,7 +2958,7 @@
   ],
   "file_stem": "고1_도덕·윤리_통합사회윤리_02_자유주의와공동체주의",
   "source": "lessons/G10_고1/ETH_도덕·윤리/통합사회윤리/KR22-G10-ETH-LIBCOMM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ETH-ECORESP-L01",
@@ -2986,7 +2986,7 @@
   ],
   "file_stem": "고1_도덕·윤리_통합사회윤리_03_자연관과생태책임",
   "source": "lessons/G10_고1/ETH_도덕·윤리/통합사회윤리/KR22-G10-ETH-ECORESP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ETH-DISCUSS-L01",
@@ -3013,7 +3013,7 @@
   ],
   "file_stem": "고1_도덕·윤리_윤리적토의_01_사실·가치판단과토의",
   "source": "lessons/G10_고1/ETH_도덕·윤리/윤리적토의/KR22-G10-ETH-DISCUSS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ETH-ETHMAP-L01",
@@ -3040,7 +3040,7 @@
   ],
   "file_stem": "고1_도덕·윤리_윤리선택준비_01_윤리사상과현대쟁점",
   "source": "lessons/G10_고1/ETH_도덕·윤리/윤리선택준비/KR22-G10-ETH-ETHMAP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-SCALE-L01",
@@ -3067,7 +3067,7 @@
   ],
   "file_stem": "고1_과학_통합과학기초_01_자연의시간과공간규모",
   "source": "lessons/G10_고1/SCI_과학/통합과학기초/KR22-G10-SCI-SCALE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-UNITS-L01",
@@ -3094,7 +3094,7 @@
   ],
   "file_stem": "고1_과학_통합과학기초_02_기본량·단위와측정",
   "source": "lessons/G10_고1/SCI_과학/통합과학기초/KR22-G10-SCI-UNITS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-ELEMORIGIN-L01",
@@ -3122,7 +3122,7 @@
   ],
   "file_stem": "고1_과학_통합과학물질규칙성_01_빅뱅과원소의생성",
   "source": "lessons/G10_고1/SCI_과학/통합과학물질규칙성/KR22-G10-SCI-ELEMORIGIN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-PERIODIC-L01",
@@ -3149,7 +3149,7 @@
   ],
   "file_stem": "고1_과학_통합과학물질규칙성_02_주기율표와원소의성질",
   "source": "lessons/G10_고1/SCI_과학/통합과학물질규칙성/KR22-G10-SCI-PERIODIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-VALENCE-L01",
@@ -3177,7 +3177,7 @@
   ],
   "file_stem": "고1_과학_통합과학물질규칙성_03_전자배치와원자가전자",
   "source": "lessons/G10_고1/SCI_과학/통합과학물질규칙성/KR22-G10-SCI-VALENCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-IONBOND-L01",
@@ -3205,7 +3205,7 @@
   ],
   "file_stem": "고1_과학_통합과학물질규칙성_04_이온결합",
   "source": "lessons/G10_고1/SCI_과학/통합과학물질규칙성/KR22-G10-SCI-IONBOND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-COVALENT-L01",
@@ -3232,7 +3232,7 @@
   ],
   "file_stem": "고1_과학_통합과학물질규칙성_05_공유결합",
   "source": "lessons/G10_고1/SCI_과학/통합과학물질규칙성/KR22-G10-SCI-COVALENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-MATERIAL-L01",
@@ -3260,7 +3260,7 @@
   ],
   "file_stem": "고1_과학_통합과학물질규칙성_06_물질의구조와전기적성질",
   "source": "lessons/G10_고1/SCI_과학/통합과학물질규칙성/KR22-G10-SCI-MATERIAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-EARTHSYS-L01",
@@ -3287,7 +3287,7 @@
   ],
   "file_stem": "고1_과학_통합과학지구시스템_01_지구시스템과순환",
   "source": "lessons/G10_고1/SCI_과학/통합과학지구시스템/KR22-G10-SCI-EARTHSYS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-PLATETEC-L01",
@@ -3314,7 +3314,7 @@
   ],
   "file_stem": "고1_과학_통합과학지구시스템_02_판구조와지각변동",
   "source": "lessons/G10_고1/SCI_과학/통합과학지구시스템/KR22-G10-SCI-PLATETEC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-FREEFALL-L01",
@@ -3341,7 +3341,7 @@
   ],
   "file_stem": "고1_과학_통합과학역학시스템_01_중력과자유낙하",
   "source": "lessons/G10_고1/SCI_과학/통합과학역학시스템/KR22-G10-SCI-FREEFALL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-MOMENTUM-L01",
@@ -3367,7 +3367,7 @@
   ],
   "file_stem": "고1_과학_통합과학역학시스템_02_운동량과충격량",
   "source": "lessons/G10_고1/SCI_과학/통합과학역학시스템/KR22-G10-SCI-MOMENTUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-CELLMEMB-L01",
@@ -3392,7 +3392,7 @@
   ],
   "file_stem": "고1_과학_통합과학생명시스템_01_세포와세포막",
   "source": "lessons/G10_고1/SCI_과학/통합과학생명시스템/KR22-G10-SCI-CELLMEMB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-ENZYME-L01",
@@ -3418,7 +3418,7 @@
   ],
   "file_stem": "고1_과학_통합과학생명시스템_02_물질대사와효소",
   "source": "lessons/G10_고1/SCI_과학/통합과학생명시스템/KR22-G10-SCI-ENZYME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-DNAPROT-L01",
@@ -3445,7 +3445,7 @@
   ],
   "file_stem": "고1_과학_통합과학생명시스템_03_유전정보와단백질합성",
   "source": "lessons/G10_고1/SCI_과학/통합과학생명시스템/KR22-G10-SCI-DNAPROT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-FOSSIL-L01",
@@ -3471,7 +3471,7 @@
   ],
   "file_stem": "고1_과학_통합과학지질과진화_01_지질시대와대멸종",
   "source": "lessons/G10_고1/SCI_과학/통합과학지질과진화/KR22-G10-SCI-FOSSIL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-EVOLVE-L01",
@@ -3498,7 +3498,7 @@
   ],
   "file_stem": "고1_과학_통합과학지질과진화_02_변이와자연선택",
   "source": "lessons/G10_고1/SCI_과학/통합과학지질과진화/KR22-G10-SCI-EVOLVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-REDOX-L01",
@@ -3524,7 +3524,7 @@
   ],
   "file_stem": "고1_과학_통합과학화학변화_01_산화와환원",
   "source": "lessons/G10_고1/SCI_과학/통합과학화학변화/KR22-G10-SCI-REDOX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-ACIDBASE-L01",
@@ -3550,7 +3550,7 @@
   ],
   "file_stem": "고1_과학_통합과학화학변화_02_산과염기",
   "source": "lessons/G10_고1/SCI_과학/통합과학화학변화/KR22-G10-SCI-ACIDBASE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-NEUTRAL-L01",
@@ -3575,7 +3575,7 @@
   ],
   "file_stem": "고1_과학_통합과학화학변화_03_중화반응과열",
   "source": "lessons/G10_고1/SCI_과학/통합과학화학변화/KR22-G10-SCI-NEUTRAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-ECOSYS-L01",
@@ -3602,7 +3602,7 @@
   ],
   "file_stem": "고1_과학_통합과학생태와환경_01_생태계와평형",
   "source": "lessons/G10_고1/SCI_과학/통합과학생태와환경/KR22-G10-SCI-ECOSYS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-CLIMATE-L01",
@@ -3629,7 +3629,7 @@
   ],
   "file_stem": "고1_과학_통합과학생태와환경_02_지구온난화와환경변화",
   "source": "lessons/G10_고1/SCI_과학/통합과학생태와환경/KR22-G10-SCI-CLIMATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-GENERATOR-L01",
@@ -3656,7 +3656,7 @@
   ],
   "file_stem": "고1_과학_통합과학에너지와미래_01_에너지전환과발전",
   "source": "lessons/G10_고1/SCI_과학/통합과학에너지와미래/KR22-G10-SCI-GENERATOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-RENEW-L01",
@@ -3682,7 +3682,7 @@
   ],
   "file_stem": "고1_과학_통합과학에너지와미래_02_신재생에너지",
   "source": "lessons/G10_고1/SCI_과학/통합과학에너지와미래/KR22-G10-SCI-RENEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-FUTURESCI-L01",
@@ -3708,7 +3708,7 @@
   ],
   "file_stem": "고1_과학_통합과학에너지와미래_03_과학기술과미래사회",
   "source": "lessons/G10_고1/SCI_과학/통합과학에너지와미래/KR22-G10-SCI-FUTURESCI-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-INQDESIGN-L01",
@@ -3734,7 +3734,7 @@
   ],
   "file_stem": "고1_과학_과학탐구실험_01_탐구설계와안전",
   "source": "lessons/G10_고1/SCI_과학/과학탐구실험/KR22-G10-SCI-INQDESIGN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-INQRUN-L01",
@@ -3760,7 +3760,7 @@
   ],
   "file_stem": "고1_과학_과학탐구실험_02_실험수행과자료기록",
   "source": "lessons/G10_고1/SCI_과학/과학탐구실험/KR22-G10-SCI-INQRUN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-SCI-INQREPORT-L01",
@@ -3787,7 +3787,7 @@
   ],
   "file_stem": "고1_과학_과학탐구실험_03_결과해석과발표",
   "source": "lessons/G10_고1/SCI_과학/과학탐구실험/KR22-G10-SCI-INQREPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-TEC-LIFEPLAN-L01",
@@ -3813,7 +3813,7 @@
   ],
   "file_stem": "고1_기술·가정_기술가정생활설계_01_생애설계와가족",
   "source": "lessons/G10_고1/TEC_기술·가정/기술가정생활설계/KR22-G10-TEC-LIFEPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-TEC-MONEYPLAN-L01",
@@ -3841,7 +3841,7 @@
   ],
   "file_stem": "고1_기술·가정_기술가정생활설계_02_예산짜기와신용관리",
   "source": "lessons/G10_고1/TEC_기술·가정/기술가정생활설계/KR22-G10-TEC-MONEYPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-TEC-GREENTECH-L01",
@@ -3868,7 +3868,7 @@
   ],
   "file_stem": "고1_기술·가정_기술가정지속가능기술_01_에너지·수송기술혁신",
   "source": "lessons/G10_고1/TEC_기술·가정/기술가정지속가능기술/KR22-G10-TEC-GREENTECH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-TEC-BIOTECH-L01",
@@ -3894,7 +3894,7 @@
   ],
   "file_stem": "고1_기술·가정_기술가정지속가능기술_02_생명기술의이용과영향",
   "source": "lessons/G10_고1/TEC_기술·가정/기술가정지속가능기술/KR22-G10-TEC-BIOTECH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-TEC-SENSORPROTO-L01",
@@ -3921,7 +3921,7 @@
   ],
   "file_stem": "고1_기술·가정_기술가정공학탐색_01_센서제어시제품",
   "source": "lessons/G10_고1/TEC_기술·가정/기술가정공학탐색/KR22-G10-TEC-SENSORPROTO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-INF-INTERNET-L01",
@@ -3947,7 +3947,7 @@
   ],
   "file_stem": "고1_정보·AI_정보네트워크와데이터_01_인터넷과데이터전송",
   "source": "lessons/G10_고1/INF_정보·AI/정보네트워크와데이터/KR22-G10-INF-INTERNET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-INF-DATACLEAN-L01",
@@ -3974,7 +3974,7 @@
   ],
   "file_stem": "고1_정보·AI_정보네트워크와데이터_02_데이터정제와시각화",
   "source": "lessons/G10_고1/INF_정보·AI/정보네트워크와데이터/KR22-G10-INF-DATACLEAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-INF-PYBASIC-L01",
@@ -4000,7 +4000,7 @@
   ],
   "file_stem": "고1_정보·AI_파이썬프로그래밍_01_파이썬조건과반복",
   "source": "lessons/G10_고1/INF_정보·AI/파이썬프로그래밍/KR22-G10-INF-PYBASIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-INF-PYFUNC-L01",
@@ -4027,7 +4027,7 @@
   ],
   "file_stem": "고1_정보·AI_파이썬프로그래밍_02_함수로나누고테스트",
   "source": "lessons/G10_고1/INF_정보·AI/파이썬프로그래밍/KR22-G10-INF-PYFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-INF-AISOCIETY-L01",
@@ -4053,7 +4053,7 @@
   ],
   "file_stem": "고1_정보·AI_AI와사회_01_AI활용의득과실",
   "source": "lessons/G10_고1/INF_정보·AI/AI와사회/KR22-G10-INF-AISOCIETY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ART-FORMLISTEN-L01",
@@ -4079,7 +4079,7 @@
   ],
   "file_stem": "고1_음악·미술_음악구조와맥락_01_음악의형식과맥락",
   "source": "lessons/G10_고1/ART_음악·미술/음악구조와맥락/KR22-G10-ART-FORMLISTEN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ART-ARRANGEPLAY-L01",
@@ -4106,7 +4106,7 @@
   ],
   "file_stem": "고1_음악·미술_음악구조와맥락_02_구조를살린연주와변형",
   "source": "lessons/G10_고1/ART_음악·미술/음악구조와맥락/KR22-G10-ART-ARRANGEPLAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ART-THEMEMEDIUM-L01",
@@ -4131,7 +4131,7 @@
   ],
   "file_stem": "고1_음악·미술_미술주제와표현_01_주제와표현방법",
   "source": "lessons/G10_고1/ART_음악·미술/미술주제와표현/KR22-G10-ART-THEMEMEDIUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ART-INTENTWORK-L01",
@@ -4157,7 +4157,7 @@
   ],
   "file_stem": "고1_음악·미술_미술주제와표현_02_의도를담은작품제작",
   "source": "lessons/G10_고1/ART_음악·미술/미술주제와표현/KR22-G10-ART-INTENTWORK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ART-ARTROLE-L01",
@@ -4183,7 +4183,7 @@
   ],
   "file_stem": "고1_음악·미술_예술의사회적역할_01_예술의사회적역할",
   "source": "lessons/G10_고1/ART_음악·미술/예술의사회적역할/KR22-G10-ART-ARTROLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-PHE-FITPRINCIPLE-L01",
@@ -4209,7 +4209,7 @@
   ],
   "file_stem": "고1_체육·보건·안전_체육운동계획_01_체력원리와운동계획",
   "source": "lessons/G10_고1/PHE_체육·보건·안전/체육운동계획/KR22-G10-PHE-FITPRINCIPLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-PHE-TEAMSPORT-L01",
@@ -4235,7 +4235,7 @@
   ],
   "file_stem": "고1_체육·보건·안전_체육운동계획_02_종목원리와협력전략",
   "source": "lessons/G10_고1/PHE_체육·보건·안전/체육운동계획/KR22-G10-PHE-TEAMSPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-PHE-MENTALHEALTH-L01",
@@ -4262,7 +4262,7 @@
   ],
   "file_stem": "고1_체육·보건·안전_보건마음과관계_01_정신건강과도움요청",
   "source": "lessons/G10_고1/PHE_체육·보건·안전/보건마음과관계/KR22-G10-PHE-MENTALHEALTH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-PHE-CONSENT-L01",
@@ -4290,7 +4290,7 @@
   ],
   "file_stem": "고1_체육·보건·안전_보건마음과관계_02_동의와관계폭력대응",
   "source": "lessons/G10_고1/PHE_체육·보건·안전/보건마음과관계/KR22-G10-PHE-CONSENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-PHE-FIRSTAID-L01",
@@ -4316,7 +4316,7 @@
   ],
   "file_stem": "고1_체육·보건·안전_보건응급처치_01_상황별응급처치",
   "source": "lessons/G10_고1/PHE_체육·보건·안전/보건응급처치/KR22-G10-PHE-FIRSTAID-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-HUM-ARGRECON-L01",
@@ -4342,7 +4342,7 @@
   ],
   "file_stem": "고1_철학·논리·심리·교육·종교_철학논증탐색_01_논증재구성하기",
   "source": "lessons/G10_고1/HUM_철학·논리·심리·교육·종교/철학논증탐색/KR22-G10-HUM-ARGRECON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-HUM-COUNTEREX-L01",
@@ -4369,7 +4369,7 @@
   ],
   "file_stem": "고1_철학·논리·심리·교육·종교_철학논증탐색_02_반례와오류검토",
   "source": "lessons/G10_고1/HUM_철학·논리·심리·교육·종교/철학논증탐색/KR22-G10-HUM-COUNTEREX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-HUM-PSYSCI-L01",
@@ -4396,7 +4396,7 @@
   ],
   "file_stem": "고1_철학·논리·심리·교육·종교_심리교육탐색_01_마음의과학적설명",
   "source": "lessons/G10_고1/HUM_철학·논리·심리·교육·종교/심리교육탐색/KR22-G10-HUM-PSYSCI-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-HUM-EDUMEAN-L01",
@@ -4422,7 +4422,7 @@
   ],
   "file_stem": "고1_철학·논리·심리·교육·종교_심리교육탐색_02_교육의의미와목적",
   "source": "lessons/G10_고1/HUM_철학·논리·심리·교육·종교/심리교육탐색/KR22-G10-HUM-EDUMEAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-HUM-VIEWCOEX-L01",
@@ -4447,7 +4447,7 @@
   ],
   "file_stem": "고1_철학·논리·심리·교육·종교_세계관과공존_01_세계관의다양성과공존",
   "source": "lessons/G10_고1/HUM_철학·논리·심리·교육·종교/세계관과공존/KR22-G10-HUM-VIEWCOEX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-CAR-MAJORPATH-L01",
@@ -4472,7 +4472,7 @@
   ],
   "file_stem": "고1_진로·직업_진로과목선택_01_학과와권장과목",
   "source": "lessons/G10_고1/CAR_진로·직업/진로과목선택/KR22-G10-CAR-MAJORPATH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-CAR-SCHOOLCOURSE-L01",
@@ -4498,7 +4498,7 @@
   ],
   "file_stem": "고1_진로·직업_진로과목선택_02_학교개설과목확인",
   "source": "lessons/G10_고1/CAR_진로·직업/진로과목선택/KR22-G10-CAR-SCHOOLCOURSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-CAR-CHOICEWHY-L01",
@@ -4523,7 +4523,7 @@
   ],
   "file_stem": "고1_진로·직업_진로학업계획_01_과목선택의이유와대안",
   "source": "lessons/G10_고1/CAR_진로·직업/진로학업계획/KR22-G10-CAR-CHOICEWHY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-CAR-ACTPLAN-L01",
@@ -4548,7 +4548,7 @@
   ],
   "file_stem": "고1_진로·직업_진로학업계획_02_학기별활동계획",
   "source": "lessons/G10_고1/CAR_진로·직업/진로학업계획/KR22-G10-CAR-ACTPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-CAR-SELFREVIEW-L01",
@@ -4574,7 +4574,7 @@
   ],
   "file_stem": "고1_진로·직업_진로자기이해_01_흥미·강점다시보기",
   "source": "lessons/G10_고1/CAR_진로·직업/진로자기이해/KR22-G10-CAR-SELFREVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENV-CAUSEIMPACT-L01",
@@ -4601,7 +4601,7 @@
   ],
   "file_stem": "고1_환경·생태_환경문제통합이해_01_환경문제의원인과영향",
   "source": "lessons/G10_고1/ENV_환경·생태/환경문제통합이해/KR22-G10-ENV-CAUSEIMPACT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENV-BIODIVLOSS-L01",
@@ -4629,7 +4629,7 @@
   ],
   "file_stem": "고1_환경·생태_환경문제통합이해_02_생물다양성감소조사",
   "source": "lessons/G10_고1/ENV_환경·생태/환경문제통합이해/KR22-G10-ENV-BIODIVLOSS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENV-CLIMSCI-L01",
@@ -4655,7 +4655,7 @@
   ],
   "file_stem": "고1_환경·생태_기후위기대응_01_기후위기의증거",
   "source": "lessons/G10_고1/ENV_환경·생태/기후위기대응/KR22-G10-ENV-CLIMSCI-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENV-CARBONACT-L01",
@@ -4681,7 +4681,7 @@
   ],
   "file_stem": "고1_환경·생태_기후위기대응_02_탄소감축과적응",
   "source": "lessons/G10_고1/ENV_환경·생태/기후위기대응/KR22-G10-ENV-CARBONACT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENV-LOCALQ-L01",
@@ -4706,7 +4706,7 @@
   ],
   "file_stem": "고1_환경·생태_지역환경탐구_01_지역조사와탐구질문",
   "source": "lessons/G10_고1/ENV_환경·생태/지역환경탐구/KR22-G10-ENV-LOCALQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-PHONMULTI-L01",
@@ -4731,7 +4731,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_01_겹쳐일어나는음운변동",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-PHONMULTI-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-WORDFORM-L01",
@@ -4756,7 +4756,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_02_단어의형성",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-WORDFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-HONOR-L01",
@@ -4782,7 +4782,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_03_높임표현",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-HONOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-TENSE-L01",
@@ -4807,7 +4807,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_04_시간표현",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-TENSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-VOICE-L01",
@@ -4832,7 +4832,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_05_피동과사동표현",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-VOICE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-DISCCOH-L01",
@@ -4858,7 +4858,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_06_담화의응집성",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-DISCCOH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-SPELL-L01",
@@ -4884,7 +4884,7 @@
   ],
   "file_stem": "고2_국어_화법과언어문법_07_한글맞춤법의원리",
   "source": "lessons/G11_고2/KOR_국어/화법과언어문법/KR22-G11-KOR-SPELL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-DEBATESTR-L01",
@@ -4909,7 +4909,7 @@
   ],
   "file_stem": "고2_국어_화법과언어토론협상_01_토론의반박전략",
   "source": "lessons/G11_고2/KOR_국어/화법과언어토론협상/KR22-G11-KOR-DEBATESTR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-NEGOSTRAT-L01",
@@ -4934,7 +4934,7 @@
   ],
   "file_stem": "고2_국어_화법과언어토론협상_02_협상의전략",
   "source": "lessons/G11_고2/KOR_국어/화법과언어토론협상/KR22-G11-KOR-NEGOSTRAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-READSTRAT-L01",
@@ -4960,7 +4960,7 @@
   ],
   "file_stem": "고2_국어_독서와작문_01_목적에맞는독서방법",
   "source": "lessons/G11_고2/KOR_국어/독서와작문/KR22-G11-KOR-READSTRAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-TOPICREAD-L01",
@@ -4987,7 +4987,7 @@
   ],
   "file_stem": "고2_국어_독서와작문_02_주제통합적읽기",
   "source": "lessons/G11_고2/KOR_국어/독서와작문/KR22-G11-KOR-TOPICREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-INQWRITE-L01",
@@ -5013,7 +5013,7 @@
   ],
   "file_stem": "고2_국어_독서와작문_03_탐구보고서쓰기",
   "source": "lessons/G11_고2/KOR_국어/독서와작문/KR22-G11-KOR-INQWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-ARGESSAY-L01",
@@ -5040,7 +5040,7 @@
   ],
   "file_stem": "고2_국어_독서와작문_04_자료활용논증문쓰기",
   "source": "lessons/G11_고2/KOR_국어/독서와작문/KR22-G11-KOR-ARGESSAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-GENRECMP-L01",
@@ -5066,7 +5066,7 @@
   ],
   "file_stem": "고2_국어_문학맥락비교_01_갈래별형상화비교",
   "source": "lessons/G11_고2/KOR_국어/문학맥락비교/KR22-G11-KOR-GENRECMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-LITFLOW-L01",
@@ -5092,7 +5092,7 @@
   ],
   "file_stem": "고2_국어_문학맥락비교_02_한국문학의흐름",
   "source": "lessons/G11_고2/KOR_국어/문학맥락비교/KR22-G11-KOR-LITFLOW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-ERACTX-L01",
@@ -5117,7 +5117,7 @@
   ],
   "file_stem": "고2_국어_문학맥락비교_03_시대맥락비교해석",
   "source": "lessons/G11_고2/KOR_국어/문학맥락비교/KR22-G11-KOR-ERACTX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-KOR-INTERPCRIT-L01",
@@ -5142,7 +5142,7 @@
   ],
   "file_stem": "고2_국어_문학맥락비교_04_해석근거세워비평하기",
   "source": "lessons/G11_고2/KOR_국어/문학맥락비교/KR22-G11-KOR-INTERPCRIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-ROOTN-L01",
@@ -5168,7 +5168,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그_01_거듭제곱근",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그/KR22-G11-MAT-ROOTN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-EXPEXT-L01",
@@ -5193,7 +5193,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그_02_지수의확장",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그/KR22-G11-MAT-EXPEXT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-LOG-L01",
@@ -5218,7 +5218,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그_03_로그의뜻",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그/KR22-G11-MAT-LOG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-LOGPROP-L01",
@@ -5243,7 +5243,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그_04_로그의성질",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그/KR22-G11-MAT-LOGPROP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-EXPFUNC-L01",
@@ -5269,7 +5269,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그함수_01_지수함수와그래프",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그함수/KR22-G11-MAT-EXPFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-LOGFUNC-L01",
@@ -5296,7 +5296,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그함수_02_로그함수와그래프",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그함수/KR22-G11-MAT-LOGFUNC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-EXPLOGEQ-L01",
@@ -5322,7 +5322,7 @@
   ],
   "file_stem": "고2_수학_대수지수로그함수_03_지수·로그방정식과부등식",
   "source": "lessons/G11_고2/MAT_수학/대수지수로그함수/KR22-G11-MAT-EXPLOGEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-RADIAN-L01",
@@ -5348,7 +5348,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_01_일반각과호도법",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-RADIAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-TRIGDEF-L01",
@@ -5375,7 +5375,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_02_삼각함수의뜻",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGDEF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-TRIGGRAPH-L01",
@@ -5401,7 +5401,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_03_삼각함수의그래프",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGGRAPH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SINELAW-L01",
@@ -5428,7 +5428,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_04_사인법칙",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-SINELAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-COSLAW-L01",
@@ -5454,7 +5454,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_05_코사인법칙과넓이",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-COSLAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-ARITH-L01",
@@ -5480,7 +5480,7 @@
   ],
   "file_stem": "고2_수학_대수수열_01_등차수열",
   "source": "lessons/G11_고2/MAT_수학/대수수열/KR22-G11-MAT-ARITH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-ARITHSUM-L01",
@@ -5505,7 +5505,7 @@
   ],
   "file_stem": "고2_수학_대수수열_02_등차수열의합",
   "source": "lessons/G11_고2/MAT_수학/대수수열/KR22-G11-MAT-ARITHSUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-GEOM-L01",
@@ -5531,7 +5531,7 @@
   ],
   "file_stem": "고2_수학_대수수열_03_등비수열",
   "source": "lessons/G11_고2/MAT_수학/대수수열/KR22-G11-MAT-GEOM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-GEOMSUM-L01",
@@ -5556,7 +5556,7 @@
   ],
   "file_stem": "고2_수학_대수수열_04_등비수열의합",
   "source": "lessons/G11_고2/MAT_수학/대수수열/KR22-G11-MAT-GEOMSUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SIGMA-L01",
@@ -5582,7 +5582,7 @@
   ],
   "file_stem": "고2_수학_대수수열_05_합의기호Σ",
   "source": "lessons/G11_고2/MAT_수학/대수수열/KR22-G11-MAT-SIGMA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-INDUCT-L01",
@@ -5608,7 +5608,7 @@
   ],
   "file_stem": "고2_수학_대수수열_06_귀납적정의와귀납법",
   "source": "lessons/G11_고2/MAT_수학/대수수열/KR22-G11-MAT-INDUCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-LIMIT-L01",
@@ -5634,7 +5634,7 @@
   ],
   "file_stem": "고2_수학_미적분1극한연속_01_함수의극한",
   "source": "lessons/G11_고2/MAT_수학/미적분1극한연속/KR22-G11-MAT-LIMIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-LIMCALC-L01",
@@ -5661,7 +5661,7 @@
   ],
   "file_stem": "고2_수학_미적분1극한연속_02_극한값의계산",
   "source": "lessons/G11_고2/MAT_수학/미적분1극한연속/KR22-G11-MAT-LIMCALC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-CONTIN-L01",
@@ -5686,7 +5686,7 @@
   ],
   "file_stem": "고2_수학_미적분1극한연속_03_함수의연속",
   "source": "lessons/G11_고2/MAT_수학/미적분1극한연속/KR22-G11-MAT-CONTIN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-DIFFCOEF-L01",
@@ -5712,7 +5712,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분_01_평균변화율과미분계수",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분/KR22-G11-MAT-DIFFCOEF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-DERIV-L01",
@@ -5738,7 +5738,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분_02_도함수와미분법",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분/KR22-G11-MAT-DERIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-TANLINE-L01",
@@ -5764,7 +5764,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분_03_접선의방정식",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분/KR22-G11-MAT-TANLINE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-INCDEC-L01",
@@ -5790,7 +5790,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분활용_01_증가·감소와극값",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분활용/KR22-G11-MAT-INCDEC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-GRAPHMAX-L01",
@@ -5816,7 +5816,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분활용_02_그래프와최대·최소",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분활용/KR22-G11-MAT-GRAPHMAX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-DIFFAPP-L01",
@@ -5841,7 +5841,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분활용_03_방정식·부등식에의활용",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분활용/KR22-G11-MAT-DIFFAPP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-VELOCITY-L01",
@@ -5866,7 +5866,7 @@
   ],
   "file_stem": "고2_수학_미적분1미분활용_04_속도와가속도",
   "source": "lessons/G11_고2/MAT_수학/미적분1미분활용/KR22-G11-MAT-VELOCITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-ANTIDERIV-L01",
@@ -5891,7 +5891,7 @@
   ],
   "file_stem": "고2_수학_미적분1적분_01_부정적분",
   "source": "lessons/G11_고2/MAT_수학/미적분1적분/KR22-G11-MAT-ANTIDERIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-DEFINT-L01",
@@ -5916,7 +5916,7 @@
   ],
   "file_stem": "고2_수학_미적분1적분_02_정적분",
   "source": "lessons/G11_고2/MAT_수학/미적분1적분/KR22-G11-MAT-DEFINT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-AREA-L01",
@@ -5941,7 +5941,7 @@
   ],
   "file_stem": "고2_수학_미적분1적분_03_정적분과넓이",
   "source": "lessons/G11_고2/MAT_수학/미적분1적분/KR22-G11-MAT-AREA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-MOTION-L01",
@@ -5967,7 +5967,7 @@
   ],
   "file_stem": "고2_수학_미적분1적분_04_속도와거리",
   "source": "lessons/G11_고2/MAT_수학/미적분1적분/KR22-G11-MAT-MOTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-REPPERM-L01",
@@ -5992,7 +5992,7 @@
   ],
   "file_stem": "고2_수학_확률통계순열조합_01_여러가지순열",
   "source": "lessons/G11_고2/MAT_수학/확률통계순열조합/KR22-G11-MAT-REPPERM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-REPCOMB-L01",
@@ -6018,7 +6018,7 @@
   ],
   "file_stem": "고2_수학_확률통계순열조합_02_중복조합",
   "source": "lessons/G11_고2/MAT_수학/확률통계순열조합/KR22-G11-MAT-REPCOMB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-BINOM-L01",
@@ -6044,7 +6044,7 @@
   ],
   "file_stem": "고2_수학_확률통계순열조합_03_이항정리",
   "source": "lessons/G11_고2/MAT_수학/확률통계순열조합/KR22-G11-MAT-BINOM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-PROBADD-L01",
@@ -6071,7 +6071,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률_01_확률의덧셈정리",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률/KR22-G11-MAT-PROBADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-CONDPROB-L01",
@@ -6096,7 +6096,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률_02_조건부확률",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률/KR22-G11-MAT-CONDPROB-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-INDEP-L01",
@@ -6122,7 +6122,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률_03_사건의독립과독립시행",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률/KR22-G11-MAT-INDEP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-RANDVAR-L01",
@@ -6147,7 +6147,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률분포_01_확률변수와확률분포",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률분포/KR22-G11-MAT-RANDVAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-EXPECT-L01",
@@ -6173,7 +6173,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률분포_02_기댓값과분산",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률분포/KR22-G11-MAT-EXPECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-BINOMDIST-L01",
@@ -6199,7 +6199,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률분포_03_이항분포",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률분포/KR22-G11-MAT-BINOMDIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-NORMAL-L01",
@@ -6224,7 +6224,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률분포_04_정규분포",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률분포/KR22-G11-MAT-NORMAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SAMPLE-L01",
@@ -6249,7 +6249,7 @@
   ],
   "file_stem": "고2_수학_확률통계추정_01_모집단과표본",
   "source": "lessons/G11_고2/MAT_수학/확률통계추정/KR22-G11-MAT-SAMPLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-ESTIMATE-L01",
@@ -6274,7 +6274,7 @@
   ],
   "file_stem": "고2_수학_확률통계추정_02_모평균의추정",
   "source": "lessons/G11_고2/MAT_수학/확률통계추정/KR22-G11-MAT-ESTIMATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-PARABOLA-L01",
@@ -6300,7 +6300,7 @@
   ],
   "file_stem": "고2_수학_기하이차곡선_01_포물선",
   "source": "lessons/G11_고2/MAT_수학/기하이차곡선/KR22-G11-MAT-PARABOLA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-ELLIPSE-L01",
@@ -6326,7 +6326,7 @@
   ],
   "file_stem": "고2_수학_기하이차곡선_02_타원",
   "source": "lessons/G11_고2/MAT_수학/기하이차곡선/KR22-G11-MAT-ELLIPSE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-HYPERBOLA-L01",
@@ -6351,7 +6351,7 @@
   ],
   "file_stem": "고2_수학_기하이차곡선_03_쌍곡선",
   "source": "lessons/G11_고2/MAT_수학/기하이차곡선/KR22-G11-MAT-HYPERBOLA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SPACEPOS-L01",
@@ -6377,7 +6377,7 @@
   ],
   "file_stem": "고2_수학_기하공간도형_01_공간에서의위치관계",
   "source": "lessons/G11_고2/MAT_수학/기하공간도형/KR22-G11-MAT-SPACEPOS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SPACECOORD-L01",
@@ -6403,7 +6403,7 @@
   ],
   "file_stem": "고2_수학_기하공간도형_02_공간좌표",
   "source": "lessons/G11_고2/MAT_수학/기하공간도형/KR22-G11-MAT-SPACECOORD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-VECTOR-L01",
@@ -6429,7 +6429,7 @@
   ],
   "file_stem": "고2_수학_기하벡터_01_벡터와연산",
   "source": "lessons/G11_고2/MAT_수학/기하벡터/KR22-G11-MAT-VECTOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-SUBJPP-L01",
@@ -6455,7 +6455,7 @@
   ],
   "file_stem": "고2_영어_영어1문법_01_가정법과거완료",
   "source": "lessons/G11_고2/ENG_영어/영어1문법/KR22-G11-ENG-SUBJPP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-WISHASIF-L01",
@@ -6481,7 +6481,7 @@
   ],
   "file_stem": "고2_영어_영어1문법_02_Iwish·asif가정법",
   "source": "lessons/G11_고2/ENG_영어/영어1문법/KR22-G11-ENG-WISHASIF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-PARTCONST2-L01",
@@ -6508,7 +6508,7 @@
   ],
   "file_stem": "고2_영어_영어1문법_03_분사구문심화",
   "source": "lessons/G11_고2/ENG_영어/영어1문법/KR22-G11-ENG-PARTCONST2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-EMPHASIS-L01",
@@ -6534,7 +6534,7 @@
   ],
   "file_stem": "고2_영어_영어1문법_04_강조구문",
   "source": "lessons/G11_고2/ENG_영어/영어1문법/KR22-G11-ENG-EMPHASIS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-INVERSION-L01",
@@ -6560,7 +6560,7 @@
   ],
   "file_stem": "고2_영어_영어1문법_05_도치구문입문",
   "source": "lessons/G11_고2/ENG_영어/영어1문법/KR22-G11-ENG-INVERSION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-SUMCOMP-L01",
@@ -6586,7 +6586,7 @@
   ],
   "file_stem": "고2_영어_영어1독해_01_요약문완성",
   "source": "lessons/G11_고2/ENG_영어/영어1독해/KR22-G11-ENG-SUMCOMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-IMPLY-L01",
@@ -6612,7 +6612,7 @@
   ],
   "file_stem": "고2_영어_영어1독해_02_밑줄친표현의함축",
   "source": "lessons/G11_고2/ENG_영어/영어1독해/KR22-G11-ENG-IMPLY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-VIEWSYN-L01",
@@ -6638,7 +6638,7 @@
   ],
   "file_stem": "고2_영어_영어1독해_03_여러자료관점종합",
   "source": "lessons/G11_고2/ENG_영어/영어1독해/KR22-G11-ENG-VIEWSYN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-SUMWRITE-L01",
@@ -6664,7 +6664,7 @@
   ],
   "file_stem": "고2_영어_영어독해와작문_01_요약문쓰기",
   "source": "lessons/G11_고2/ENG_영어/영어독해와작문/KR22-G11-ENG-SUMWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-ESSAYCTR-L01",
@@ -6689,7 +6689,7 @@
   ],
   "file_stem": "고2_영어_영어독해와작문_02_반론을넣은에세이",
   "source": "lessons/G11_고2/ENG_영어/영어독해와작문/KR22-G11-ENG-ESSAYCTR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-FORMALMAIL-L01",
@@ -6714,7 +6714,7 @@
   ],
   "file_stem": "고2_영어_영어독해와작문_03_목적에맞는이메일",
   "source": "lessons/G11_고2/ENG_영어/영어독해와작문/KR22-G11-ENG-FORMALMAIL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-DEBATE-L01",
@@ -6741,7 +6741,7 @@
   ],
   "file_stem": "고2_영어_영어발표와토론_01_찬반토론하기",
   "source": "lessons/G11_고2/ENG_영어/영어발표와토론/KR22-G11-ENG-DEBATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-LITSTORY-L01",
@@ -6767,7 +6767,7 @@
   ],
   "file_stem": "고2_영어_문학과직무영어_01_영미단편소설읽기",
   "source": "lessons/G11_고2/ENG_영어/문학과직무영어/KR22-G11-ENG-LITSTORY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-WORLDCULT-L01",
@@ -6793,7 +6793,7 @@
   ],
   "file_stem": "고2_영어_문학과직무영어_02_세계문화비교",
   "source": "lessons/G11_고2/ENG_영어/문학과직무영어/KR22-G11-ENG-WORLDCULT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENG-JOBENG-L01",
@@ -6820,7 +6820,7 @@
   ],
   "file_stem": "고2_영어_문학과직무영어_03_직무상황영어",
   "source": "lessons/G11_고2/ENG_영어/문학과직무영어/KR22-G11-ENG-JOBENG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-EMPIRE-L01",
@@ -6846,7 +6846,7 @@
   ],
   "file_stem": "고2_사회·역사_세계사교류와변화_01_고대제국과보편사상",
   "source": "lessons/G11_고2/SOC_사회·역사/세계사교류와변화/KR22-G11-SOC-EMPIRE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-MONGOL-L01",
@@ -6872,7 +6872,7 @@
   ],
   "file_stem": "고2_사회·역사_세계사교류와변화_02_몽골제국과교류망",
   "source": "lessons/G11_고2/SOC_사회·역사/세계사교류와변화/KR22-G11-SOC-MONGOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-ATLANTIC-L01",
@@ -6898,7 +6898,7 @@
   ],
   "file_stem": "고2_사회·역사_세계사교류와변화_03_대항해와세계의연결",
   "source": "lessons/G11_고2/SOC_사회·역사/세계사교류와변화/KR22-G11-SOC-ATLANTIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-NATIONIMP-L01",
@@ -6925,7 +6925,7 @@
   ],
   "file_stem": "고2_사회·역사_세계사교류와변화_04_국민국가와제국주의",
   "source": "lessons/G11_고2/SOC_사회·역사/세계사교류와변화/KR22-G11-SOC-NATIONIMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-KRREGION-L01",
@@ -6952,7 +6952,7 @@
   ],
   "file_stem": "고2_사회·역사_지리지역탐구_01_한국의지역격차",
   "source": "lessons/G11_고2/SOC_사회·역사/지리지역탐구/KR22-G11-SOC-KRREGION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-WORLDREG-L01",
@@ -6979,7 +6979,7 @@
   ],
   "file_stem": "고2_사회·역사_지리지역탐구_02_세계의지역문제",
   "source": "lessons/G11_고2/SOC_사회·역사/지리지역탐구/KR22-G11-SOC-WORLDREG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-GIS-L01",
@@ -7006,7 +7006,7 @@
   ],
   "file_stem": "고2_사회·역사_지리지역탐구_03_공간정보와입지분석",
   "source": "lessons/G11_고2/SOC_사회·역사/지리지역탐구/KR22-G11-SOC-GIS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-GOVFORM-L01",
@@ -7033,7 +7033,7 @@
   ],
   "file_stem": "고2_사회·역사_정치제도와참여_01_정부형태와권력구조",
   "source": "lessons/G11_고2/SOC_사회·역사/정치제도와참여/KR22-G11-SOC-GOVFORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-ELECTSYS-L01",
@@ -7060,7 +7060,7 @@
   ],
   "file_stem": "고2_사회·역사_정치제도와참여_02_선거제도와대표",
   "source": "lessons/G11_고2/SOC_사회·역사/정치제도와참여/KR22-G11-SOC-ELECTSYS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-MEDIAPOL-L01",
@@ -7087,7 +7087,7 @@
   ],
   "file_stem": "고2_사회·역사_정치제도와참여_03_여론과미디어",
   "source": "lessons/G11_고2/SOC_사회·역사/정치제도와참여/KR22-G11-SOC-MEDIAPOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-INTLREL-L01",
@@ -7114,7 +7114,7 @@
   ],
   "file_stem": "고2_사회·역사_정치제도와참여_04_국제관계와외교",
   "source": "lessons/G11_고2/SOC_사회·역사/정치제도와참여/KR22-G11-SOC-INTLREL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-CIVILLAW-L01",
@@ -7141,7 +7141,7 @@
   ],
   "file_stem": "고2_사회·역사_생활법과사법절차_01_계약과손해배상",
   "source": "lessons/G11_고2/SOC_사회·역사/생활법과사법절차/KR22-G11-SOC-CIVILLAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-LABORLAW-L01",
@@ -7168,7 +7168,7 @@
   ],
   "file_stem": "고2_사회·역사_생활법과사법절차_02_노동법과권리구제",
   "source": "lessons/G11_고2/SOC_사회·역사/생활법과사법절차/KR22-G11-SOC-LABORLAW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-CRIMINAL-L01",
@@ -7195,7 +7195,7 @@
   ],
   "file_stem": "고2_사회·역사_생활법과사법절차_03_형사절차와인권",
   "source": "lessons/G11_고2/SOC_사회·역사/생활법과사법절차/KR22-G11-SOC-CRIMINAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-MACROIND-L01",
@@ -7222,7 +7222,7 @@
   ],
   "file_stem": "고2_사회·역사_경제국민경제와무역_01_국민경제지표",
   "source": "lessons/G11_고2/SOC_사회·역사/경제국민경제와무역/KR22-G11-SOC-MACROIND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-STABPOL-L01",
@@ -7248,7 +7248,7 @@
   ],
   "file_stem": "고2_사회·역사_경제국민경제와무역_02_경기변동과안정화정책",
   "source": "lessons/G11_고2/SOC_사회·역사/경제국민경제와무역/KR22-G11-SOC-STABPOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-EXCHANGE-L01",
@@ -7276,7 +7276,7 @@
   ],
   "file_stem": "고2_사회·역사_경제국민경제와무역_03_환율과국제수지",
   "source": "lessons/G11_고2/SOC_사회·역사/경제국민경제와무역/KR22-G11-SOC-EXCHANGE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-CREDDEBT-L01",
@@ -7301,7 +7301,7 @@
   ],
   "file_stem": "고2_사회·역사_금융과경제생활_01_이자와부채관리",
   "source": "lessons/G11_고2/SOC_사회·역사/금융과경제생활/KR22-G11-SOC-CREDDEBT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-FININV-L01",
@@ -7327,7 +7327,7 @@
   ],
   "file_stem": "고2_사회·역사_금융과경제생활_02_금융상품의수익과위험",
   "source": "lessons/G11_고2/SOC_사회·역사/금융과경제생활/KR22-G11-SOC-FININV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-INSURE-L01",
@@ -7352,7 +7352,7 @@
   ],
   "file_stem": "고2_사회·역사_금융과경제생활_03_보험·연금과생애설계",
   "source": "lessons/G11_고2/SOC_사회·역사/금융과경제생활/KR22-G11-SOC-INSURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-PROTECT-L01",
@@ -7377,7 +7377,7 @@
   ],
   "file_stem": "고2_사회·역사_금융과경제생활_04_금융소비자보호",
   "source": "lessons/G11_고2/SOC_사회·역사/금융과경제생활/KR22-G11-SOC-PROTECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-SOCVIEW-L01",
@@ -7403,7 +7403,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화탐구방법_01_사회현상을보는관점",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화탐구방법/KR22-G11-SOC-SOCVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-RESMETHOD-L01",
@@ -7428,7 +7428,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화탐구방법_02_양적연구와질적연구",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화탐구방법/KR22-G11-SOC-RESMETHOD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-DATACOLL-L01",
@@ -7453,7 +7453,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화탐구방법_03_자료수집과연구윤리",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화탐구방법/KR22-G11-SOC-DATACOLL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-STRATIFY-L01",
@@ -7479,7 +7479,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화불평등변동_01_사회계층과이동",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화불평등변동/KR22-G11-SOC-STRATIFY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-INEQTYPE-L01",
@@ -7504,7 +7504,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화불평등변동_02_다양한사회불평등",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화불평등변동/KR22-G11-SOC-INEQTYPE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-WELFARE-L01",
@@ -7529,7 +7529,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화불평등변동_03_사회복지제도",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화불평등변동/KR22-G11-SOC-WELFARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SOC-SOCCHANGE-L01",
@@ -7555,7 +7555,7 @@
   ],
   "file_stem": "고2_사회·역사_사회문화불평등변동_04_현대의사회변동",
   "source": "lessons/G11_고2/SOC_사회·역사/사회문화불평등변동/KR22-G11-SOC-SOCCHANGE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ETH-EASTETH-L01",
@@ -7581,7 +7581,7 @@
   ],
   "file_stem": "고2_도덕·윤리_윤리와사상_01_동양·한국윤리사상",
   "source": "lessons/G11_고2/ETH_도덕·윤리/윤리와사상/KR22-G11-ETH-EASTETH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ETH-WESTETH-L01",
@@ -7608,7 +7608,7 @@
   ],
   "file_stem": "고2_도덕·윤리_윤리와사상_02_서양윤리사상",
   "source": "lessons/G11_고2/ETH_도덕·윤리/윤리와사상/KR22-G11-ETH-WESTETH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ETH-BIOETH-L01",
@@ -7634,7 +7634,7 @@
   ],
   "file_stem": "고2_도덕·윤리_현대윤리생명기술_01_생명·의료윤리",
   "source": "lessons/G11_고2/ETH_도덕·윤리/현대윤리생명기술/KR22-G11-ETH-BIOETH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ETH-TECHETH-L01",
@@ -7661,7 +7661,7 @@
   ],
   "file_stem": "고2_도덕·윤리_현대윤리생명기술_02_과학기술·정보윤리",
   "source": "lessons/G11_고2/ETH_도덕·윤리/현대윤리생명기술/KR22-G11-ETH-TECHETH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ETH-PEACEAID-L01",
@@ -7688,7 +7688,7 @@
   ],
   "file_stem": "고2_도덕·윤리_평화와공존_01_평화와해외원조",
   "source": "lessons/G11_고2/ETH_도덕·윤리/평화와공존/KR22-G11-ETH-PEACEAID-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-ACCEL-L01",
@@ -7715,7 +7715,7 @@
   ],
   "file_stem": "고2_과학_물리힘과에너지_01_속도와가속도",
   "source": "lessons/G11_고2/SCI_과학/물리힘과에너지/KR22-G11-SCI-ACCEL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-UNIACC-L01",
@@ -7741,7 +7741,7 @@
   ],
   "file_stem": "고2_과학_물리힘과에너지_02_등가속도운동",
   "source": "lessons/G11_고2/SCI_과학/물리힘과에너지/KR22-G11-SCI-UNIACC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-NEWTON-L01",
@@ -7768,7 +7768,7 @@
   ],
   "file_stem": "고2_과학_물리힘과에너지_03_뉴턴운동법칙",
   "source": "lessons/G11_고2/SCI_과학/물리힘과에너지/KR22-G11-SCI-NEWTON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-MOMCONS-L01",
@@ -7795,7 +7795,7 @@
   ],
   "file_stem": "고2_과학_물리힘과에너지_04_운동량보존",
   "source": "lessons/G11_고2/SCI_과학/물리힘과에너지/KR22-G11-SCI-MOMCONS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-MECHENERGY-L01",
@@ -7822,7 +7822,7 @@
   ],
   "file_stem": "고2_과학_물리힘과에너지_05_역학적에너지보존",
   "source": "lessons/G11_고2/SCI_과학/물리힘과에너지/KR22-G11-SCI-MECHENERGY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-THERMO-L01",
@@ -7849,7 +7849,7 @@
   ],
   "file_stem": "고2_과학_물리힘과에너지_06_열역학법칙과열효율",
   "source": "lessons/G11_고2/SCI_과학/물리힘과에너지/KR22-G11-SCI-THERMO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-EFIELD-L01",
@@ -7875,7 +7875,7 @@
   ],
   "file_stem": "고2_과학_물리전기와자기_01_전하와전기장",
   "source": "lessons/G11_고2/SCI_과학/물리전기와자기/KR22-G11-SCI-EFIELD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-MAGFIELD-L01",
@@ -7901,7 +7901,7 @@
   ],
   "file_stem": "고2_과학_물리전기와자기_02_전류의자기장",
   "source": "lessons/G11_고2/SCI_과학/물리전기와자기/KR22-G11-SCI-MAGFIELD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-EMINDUCT-L01",
@@ -7928,7 +7928,7 @@
   ],
   "file_stem": "고2_과학_물리전기와자기_03_전자기유도",
   "source": "lessons/G11_고2/SCI_과학/물리전기와자기/KR22-G11-SCI-EMINDUCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-WAVE-L01",
@@ -7954,7 +7954,7 @@
   ],
   "file_stem": "고2_과학_물리파동과빛_01_파동의굴절과전반사",
   "source": "lessons/G11_고2/SCI_과학/물리파동과빛/KR22-G11-SCI-WAVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-INTERF-L01",
@@ -7979,7 +7979,7 @@
   ],
   "file_stem": "고2_과학_물리파동과빛_02_파동의간섭",
   "source": "lessons/G11_고2/SCI_과학/물리파동과빛/KR22-G11-SCI-INTERF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-MOLE-L01",
@@ -8005,7 +8005,7 @@
   ],
   "file_stem": "고2_과학_화학몰과양적관계_01_몰과화학식량",
   "source": "lessons/G11_고2/SCI_과학/화학몰과양적관계/KR22-G11-SCI-MOLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-RXNSTOICH-L01",
@@ -8032,7 +8032,7 @@
   ],
   "file_stem": "고2_과학_화학몰과양적관계_02_화학반응의양적관계",
   "source": "lessons/G11_고2/SCI_과학/화학몰과양적관계/KR22-G11-SCI-RXNSTOICH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-MOLARITY-L01",
@@ -8058,7 +8058,7 @@
   ],
   "file_stem": "고2_과학_화학몰과양적관계_03_몰농도",
   "source": "lessons/G11_고2/SCI_과학/화학몰과양적관계/KR22-G11-SCI-MOLARITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-ORBITAL-L01",
@@ -8084,7 +8084,7 @@
   ],
   "file_stem": "고2_과학_화학원자와결합_01_오비탈과전자배치",
   "source": "lessons/G11_고2/SCI_과학/화학원자와결합/KR22-G11-SCI-ORBITAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-PERTREND-L01",
@@ -8110,7 +8110,7 @@
   ],
   "file_stem": "고2_과학_화학원자와결합_02_원소의주기적성질",
   "source": "lessons/G11_고2/SCI_과학/화학원자와결합/KR22-G11-SCI-PERTREND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-POLARBOND-L01",
@@ -8137,7 +8137,7 @@
   ],
   "file_stem": "고2_과학_화학원자와결합_03_결합의극성과루이스구조",
   "source": "lessons/G11_고2/SCI_과학/화학원자와결합/KR22-G11-SCI-POLARBOND-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-SHAPE-L01",
@@ -8163,7 +8163,7 @@
   ],
   "file_stem": "고2_과학_화학원자와결합_04_분자구조와극성",
   "source": "lessons/G11_고2/SCI_과학/화학원자와결합/KR22-G11-SCI-SHAPE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-PHSCALE-L01",
@@ -8190,7 +8190,7 @@
   ],
   "file_stem": "고2_과학_화학산염기와산화환원_01_물의이온화와pH",
   "source": "lessons/G11_고2/SCI_과학/화학산염기와산화환원/KR22-G11-SCI-PHSCALE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-TITRATION-L01",
@@ -8217,7 +8217,7 @@
   ],
   "file_stem": "고2_과학_화학산염기와산화환원_02_중화반응의양적관계",
   "source": "lessons/G11_고2/SCI_과학/화학산염기와산화환원/KR22-G11-SCI-TITRATION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-OXNUM-L01",
@@ -8244,7 +8244,7 @@
   ],
   "file_stem": "고2_과학_화학산염기와산화환원_03_산화수와산화·환원",
   "source": "lessons/G11_고2/SCI_과학/화학산염기와산화환원/KR22-G11-SCI-OXNUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-CELLRESP-L01",
@@ -8272,7 +8272,7 @@
   ],
   "file_stem": "고2_과학_생명과학대사와항상성_01_세포호흡과ATP",
   "source": "lessons/G11_고2/SCI_과학/생명과학대사와항상성/KR22-G11-SCI-CELLRESP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-NEURON-L01",
@@ -8298,7 +8298,7 @@
   ],
   "file_stem": "고2_과학_생명과학대사와항상성_02_뉴런과흥분전도",
   "source": "lessons/G11_고2/SCI_과학/생명과학대사와항상성/KR22-G11-SCI-NEURON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-NERVESYS-L01",
@@ -8324,7 +8324,7 @@
   ],
   "file_stem": "고2_과학_생명과학대사와항상성_03_중추신경계와자율신경계",
   "source": "lessons/G11_고2/SCI_과학/생명과학대사와항상성/KR22-G11-SCI-NERVESYS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-HOMEOSTA-L01",
@@ -8351,7 +8351,7 @@
   ],
   "file_stem": "고2_과학_생명과학대사와항상성_04_호르몬과항상성",
   "source": "lessons/G11_고2/SCI_과학/생명과학대사와항상성/KR22-G11-SCI-HOMEOSTA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-IMMUNE-L01",
@@ -8378,7 +8378,7 @@
   ],
   "file_stem": "고2_과학_생명과학대사와항상성_05_질병과방어작용",
   "source": "lessons/G11_고2/SCI_과학/생명과학대사와항상성/KR22-G11-SCI-IMMUNE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-CHROMO-L01",
@@ -8403,7 +8403,7 @@
   ],
   "file_stem": "고2_과학_생명과학유전_01_염색체와세포분열",
   "source": "lessons/G11_고2/SCI_과학/생명과학유전/KR22-G11-SCI-CHROMO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-HUMANGEN-L01",
@@ -8429,7 +8429,7 @@
   ],
   "file_stem": "고2_과학_생명과학유전_02_사람의유전과가계도",
   "source": "lessons/G11_고2/SCI_과학/생명과학유전/KR22-G11-SCI-HUMANGEN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-GENDISORD-L01",
@@ -8454,7 +8454,7 @@
   ],
   "file_stem": "고2_과학_생명과학유전_03_유전자이상과염색체이상",
   "source": "lessons/G11_고2/SCI_과학/생명과학유전/KR22-G11-SCI-GENDISORD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-POPCOMM-L01",
@@ -8479,7 +8479,7 @@
   ],
   "file_stem": "고2_과학_생명과학생태계_01_개체군과군집",
   "source": "lessons/G11_고2/SCI_과학/생명과학생태계/KR22-G11-SCI-POPCOMM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-ENERGYFLOW-L01",
@@ -8504,7 +8504,7 @@
   ],
   "file_stem": "고2_과학_생명과학생태계_02_물질순환과에너지흐름",
   "source": "lessons/G11_고2/SCI_과학/생명과학생태계/KR22-G11-SCI-ENERGYFLOW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-PLATEHIST-L01",
@@ -8529,7 +8529,7 @@
   ],
   "file_stem": "고2_과학_지구과학지권변동_01_판구조론의정립",
   "source": "lessons/G11_고2/SCI_과학/지구과학지권변동/KR22-G11-SCI-PLATEHIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-MAGMA-L01",
@@ -8555,7 +8555,7 @@
   ],
   "file_stem": "고2_과학_지구과학지권변동_02_마그마와화성암",
   "source": "lessons/G11_고2/SCI_과학/지구과학지권변동/KR22-G11-SCI-MAGMA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-GEOTIME-L01",
@@ -8581,7 +8581,7 @@
   ],
   "file_stem": "고2_과학_지구과학지권변동_03_지층과지질연대",
   "source": "lessons/G11_고2/SCI_과학/지구과학지권변동/KR22-G11-SCI-GEOTIME-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-CYCLONE-L01",
@@ -8607,7 +8607,7 @@
   ],
   "file_stem": "고2_과학_지구과학대기와해양_01_온대저기압과태풍",
   "source": "lessons/G11_고2/SCI_과학/지구과학대기와해양/KR22-G11-SCI-CYCLONE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-SEAWATER-L01",
@@ -8634,7 +8634,7 @@
   ],
   "file_stem": "고2_과학_지구과학대기와해양_02_해수의성질",
   "source": "lessons/G11_고2/SCI_과학/지구과학대기와해양/KR22-G11-SCI-SEAWATER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-OCEANCIRC-L01",
@@ -8661,7 +8661,7 @@
   ],
   "file_stem": "고2_과학_지구과학대기와해양_03_대기대순환과해수순환",
   "source": "lessons/G11_고2/SCI_과학/지구과학대기와해양/KR22-G11-SCI-OCEANCIRC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-ENSO-L01",
@@ -8688,7 +8688,7 @@
   ],
   "file_stem": "고2_과학_지구과학대기와해양_04_엘니뇨와라니냐",
   "source": "lessons/G11_고2/SCI_과학/지구과학대기와해양/KR22-G11-SCI-ENSO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-STARPROP-L01",
@@ -8713,7 +8713,7 @@
   ],
   "file_stem": "고2_과학_지구과학별_01_별의물리량과H-R도",
   "source": "lessons/G11_고2/SCI_과학/지구과학별/KR22-G11-SCI-STARPROP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-STAREVOL-L01",
@@ -8739,7 +8739,7 @@
   ],
   "file_stem": "고2_과학_지구과학별_02_별의진화와에너지원",
   "source": "lessons/G11_고2/SCI_과학/지구과학별/KR22-G11-SCI-STAREVOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-INQPLAN-L01",
@@ -8764,7 +8764,7 @@
   ],
   "file_stem": "고2_과학_과학탐구방법_01_탐구주제와변인설계",
   "source": "lessons/G11_고2/SCI_과학/과학탐구방법/KR22-G11-SCI-INQPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-SCI-INQREVIEW-L01",
@@ -8790,7 +8790,7 @@
   ],
   "file_stem": "고2_과학_과학탐구방법_02_자료분석과결과검토",
   "source": "lessons/G11_고2/SCI_과학/과학탐구방법/KR22-G11-SCI-INQREVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-TEC-CHILDDEV-L01",
@@ -8817,7 +8817,7 @@
   ],
   "file_stem": "고2_기술·가정_아동발달과부모_01_아동발달과돌봄",
   "source": "lessons/G11_고2/TEC_기술·가정/아동발달과부모/KR22-G11-TEC-CHILDDEV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-TEC-PARENTROLE-L01",
@@ -8843,7 +8843,7 @@
   ],
   "file_stem": "고2_기술·가정_아동발달과부모_02_부모역할과돌봄자원",
   "source": "lessons/G11_고2/TEC_기술·가정/아동발달과부모/KR22-G11-TEC-PARENTROLE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-TEC-SUSTFOOD-L01",
@@ -8870,7 +8870,7 @@
   ],
   "file_stem": "고2_기술·가정_생활과학탐구_01_지속가능한식생활",
   "source": "lessons/G11_고2/TEC_기술·가정/생활과학탐구/KR22-G11-TEC-SUSTFOOD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-TEC-HOUSING-L01",
@@ -8897,7 +8897,7 @@
   ],
   "file_stem": "고2_기술·가정_생활과학탐구_02_주거선택과자립",
   "source": "lessons/G11_고2/TEC_기술·가정/생활과학탐구/KR22-G11-TEC-HOUSING-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-TEC-ROBOTPROTO-L01",
@@ -8924,7 +8924,7 @@
   ],
   "file_stem": "고2_기술·가정_로봇과공학세계_01_제약조건과로봇시제품",
   "source": "lessons/G11_고2/TEC_기술·가정/로봇과공학세계/KR22-G11-TEC-ROBOTPROTO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-INF-LISTDICT-L01",
@@ -8951,7 +8951,7 @@
   ],
   "file_stem": "고2_정보·AI_자료구조와효율_01_리스트와딕셔너리",
   "source": "lessons/G11_고2/INF_정보·AI/자료구조와효율/KR22-G11-INF-LISTDICT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-INF-SEARCHSORT-L01",
@@ -8978,7 +8978,7 @@
   ],
   "file_stem": "고2_정보·AI_자료구조와효율_02_탐색·정렬과효율",
   "source": "lessons/G11_고2/INF_정보·AI/자료구조와효율/KR22-G11-INF-SEARCHSORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-INF-MLTYPES-L01",
@@ -9005,7 +9005,7 @@
   ],
   "file_stem": "고2_정보·AI_인공지능기계학습_01_기계학습의종류",
   "source": "lessons/G11_고2/INF_정보·AI/인공지능기계학습/KR22-G11-INF-MLTYPES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-INF-MODELEVAL-L01",
@@ -9032,7 +9032,7 @@
   ],
   "file_stem": "고2_정보·AI_인공지능기계학습_02_모델성능과편향",
   "source": "lessons/G11_고2/INF_정보·AI/인공지능기계학습/KR22-G11-INF-MODELEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-INF-USERPROJ-L01",
@@ -9060,7 +9060,7 @@
   ],
   "file_stem": "고2_정보·AI_정보프로젝트_01_사용자요구반영구현",
   "source": "lessons/G11_고2/INF_정보·AI/정보프로젝트/KR22-G11-INF-USERPROJ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ART-INTERPRET-L01",
@@ -9086,7 +9086,7 @@
   ],
   "file_stem": "고2_음악·미술_음악연주와비평_01_연주해석비교",
   "source": "lessons/G11_고2/ART_음악·미술/음악연주와비평/KR22-G11-ART-INTERPRET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ART-MUSICREVIEW-L01",
@@ -9113,7 +9113,7 @@
   ],
   "file_stem": "고2_음악·미술_음악연주와비평_02_음악비평문과발표",
   "source": "lessons/G11_고2/ART_음악·미술/음악연주와비평/KR22-G11-ART-MUSICREVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ART-ARTPROJECT-L01",
@@ -9139,7 +9139,7 @@
   ],
   "file_stem": "고2_음악·미술_미술창작과성찰_01_주제탐구작품계획",
   "source": "lessons/G11_고2/ART_음악·미술/미술창작과성찰/KR22-G11-ART-ARTPROJECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ART-REVISECRIT-L01",
@@ -9165,7 +9165,7 @@
   ],
   "file_stem": "고2_음악·미술_미술창작과성찰_02_수정과정과판단기준",
   "source": "lessons/G11_고2/ART_음악·미술/미술창작과성찰/KR22-G11-ART-REVISECRIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ART-CULTUREVIEW-L01",
@@ -9192,7 +9192,7 @@
   ],
   "file_stem": "고2_음악·미술_예술문화와매체_01_예술관점과매체책임",
   "source": "lessons/G11_고2/ART_음악·미술/예술문화와매체/KR22-G11-ART-CULTUREVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-PHE-SPORTSCI-L01",
@@ -9219,7 +9219,7 @@
   ],
   "file_stem": "고2_체육·보건·안전_스포츠과학과문화_01_운동의과학적원리",
   "source": "lessons/G11_고2/PHE_체육·보건·안전/스포츠과학과문화/KR22-G11-PHE-SPORTSCI-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-PHE-SPORTCULTURE-L01",
@@ -9246,7 +9246,7 @@
   ],
   "file_stem": "고2_체육·보건·안전_스포츠과학과문화_02_경기분석과스포츠문화",
   "source": "lessons/G11_고2/PHE_체육·보건·안전/스포츠과학과문화/KR22-G11-PHE-SPORTCULTURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-PHE-MEDICINE-L01",
@@ -9272,7 +9272,7 @@
   ],
   "file_stem": "고2_체육·보건·안전_보건의료와성건강_01_의료이용과약물사용",
   "source": "lessons/G11_고2/PHE_체육·보건·안전/보건의료와성건강/KR22-G11-PHE-MEDICINE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-PHE-SEXHEALTH-L01",
@@ -9299,7 +9299,7 @@
   ],
   "file_stem": "고2_체육·보건·안전_보건의료와성건강_02_성건강과정보판단",
   "source": "lessons/G11_고2/PHE_체육·보건·안전/보건의료와성건강/KR22-G11-PHE-SEXHEALTH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-PHE-INFECTION-L01",
@@ -9327,7 +9327,7 @@
   ],
   "file_stem": "고2_체육·보건·안전_보건감염병대응_01_감염병과공동체대응",
   "source": "lessons/G11_고2/PHE_체육·보건·안전/보건감염병대응/KR22-G11-PHE-INFECTION-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-HUM-DEDUCT-L01",
@@ -9353,7 +9353,7 @@
   ],
   "file_stem": "고2_철학·논리·심리·교육·종교_논리학연역귀납_01_연역논증의타당성",
   "source": "lessons/G11_고2/HUM_철학·논리·심리·교육·종교/논리학연역귀납/KR22-G11-HUM-DEDUCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-HUM-INDUCT-L01",
@@ -9379,7 +9379,7 @@
   ],
   "file_stem": "고2_철학·논리·심리·교육·종교_논리학연역귀납_02_귀납논증의강도",
   "source": "lessons/G11_고2/HUM_철학·논리·심리·교육·종교/논리학연역귀납/KR22-G11-HUM-INDUCT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-HUM-MEMORY-L01",
@@ -9406,7 +9406,7 @@
   ],
   "file_stem": "고2_철학·논리·심리·교육·종교_심리학교육학_01_기억과학습원리",
   "source": "lessons/G11_고2/HUM_철학·논리·심리·교육·종교/심리학교육학/KR22-G11-HUM-MEMORY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-HUM-MOTIVEQ-L01",
@@ -9434,7 +9434,7 @@
   ],
   "file_stem": "고2_철학·논리·심리·교육·종교_심리학교육학_02_동기와교육기회",
   "source": "lessons/G11_고2/HUM_철학·논리·심리·교육·종교/심리학교육학/KR22-G11-HUM-MOTIVEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-HUM-RELIGIONS-L01",
@@ -9461,7 +9461,7 @@
   ],
   "file_stem": "고2_철학·논리·심리·교육·종교_종교학세계종교_01_세계종교의세계관",
   "source": "lessons/G11_고2/HUM_철학·논리·심리·교육·종교/종교학세계종교/KR22-G11-HUM-RELIGIONS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-CAR-HYPOTHESIS-L01",
@@ -9488,7 +9488,7 @@
   ],
   "file_stem": "고2_진로·직업_진로가설과체험_01_진로가설과체험계획",
   "source": "lessons/G11_고2/CAR_진로·직업/진로가설과체험/KR22-G11-CAR-HYPOTHESIS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-CAR-COURSEADJUST-L01",
@@ -9516,7 +9516,7 @@
   ],
   "file_stem": "고2_진로·직업_진로가설과체험_02_체험성찰과과목조정",
   "source": "lessons/G11_고2/CAR_진로·직업/진로가설과체험/KR22-G11-CAR-COURSEADJUST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-CAR-LABORRIGHT-L01",
@@ -9542,7 +9542,7 @@
   ],
   "file_stem": "고2_진로·직업_진로일과권리_01_노동권리와근로계약",
   "source": "lessons/G11_고2/CAR_진로·직업/진로일과권리/KR22-G11-CAR-LABORRIGHT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-CAR-TEAMWORK-L01",
@@ -9568,7 +9568,7 @@
   ],
   "file_stem": "고2_진로·직업_진로일과권리_02_일의책임과협력",
   "source": "lessons/G11_고2/CAR_진로·직업/진로일과권리/KR22-G11-CAR-TEAMWORK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-CAR-PATHCOMPARE-L01",
@@ -9594,7 +9594,7 @@
   ],
   "file_stem": "고2_진로·직업_진로경로비교_01_진학·취업경로비교",
   "source": "lessons/G11_고2/CAR_진로·직업/진로경로비교/KR22-G11-CAR-PATHCOMPARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENV-SYSMODEL-L01",
@@ -9620,7 +9620,7 @@
   ],
   "file_stem": "고2_환경·생태_생태와환경체계_01_생태·사회체계모형",
   "source": "lessons/G11_고2/ENV_환경·생태/생태와환경체계/KR22-G11-ENV-SYSMODEL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENV-FEEDBACK-L01",
@@ -9646,7 +9646,7 @@
   ],
   "file_stem": "고2_환경·생태_생태와환경체계_02_되먹임고리찾기",
   "source": "lessons/G11_고2/ENV_환경·생태/생태와환경체계/KR22-G11-ENV-FEEDBACK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENV-ENVJUSTICE-L01",
@@ -9673,7 +9673,7 @@
   ],
   "file_stem": "고2_환경·생태_환경정의와정책_01_환경정의분석",
   "source": "lessons/G11_고2/ENV_환경·생태/환경정의와정책/KR22-G11-ENV-ENVJUSTICE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENV-JUSTTRANS-L01",
@@ -9699,7 +9699,7 @@
   ],
   "file_stem": "고2_환경·생태_환경정의와정책_02_기후정책과공정한전환",
   "source": "lessons/G11_고2/ENV_환경·생태/환경정의와정책/KR22-G11-ENV-JUSTTRANS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-ENV-STAKEHOLDER-L01",
@@ -9725,7 +9725,7 @@
   ],
   "file_stem": "고2_환경·생태_환경조사와설계_01_이해관계자와실천설계",
   "source": "lessons/G11_고2/ENV_환경·생태/환경조사와설계/KR22-G11-ENV-STAKEHOLDER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-INQQ-L01",
@@ -9751,7 +9751,7 @@
   ],
   "file_stem": "고3_국어_탐구독서논술_01_탐구질문세우기",
   "source": "lessons/G12_고3/KOR_국어/탐구독서논술/KR22-G12-KOR-INQQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-SUMEVAL-L01",
@@ -9778,7 +9778,7 @@
   ],
   "file_stem": "고3_국어_탐구독서논술_02_자료요약과평가",
   "source": "lessons/G12_고3/KOR_국어/탐구독서논술/KR22-G12-KOR-SUMEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-SRCMATRIX-L01",
@@ -9805,7 +9805,7 @@
   ],
   "file_stem": "고3_국어_탐구독서논술_03_자료종합표만들기",
   "source": "lessons/G12_고3/KOR_국어/탐구독서논술/KR22-G12-KOR-SRCMATRIX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-SYNESSAY-L01",
@@ -9832,7 +9832,7 @@
   ],
   "file_stem": "고3_국어_탐구독서논술_04_통합논술문쓰기",
   "source": "lessons/G12_고3/KOR_국어/탐구독서논술/KR22-G12-KOR-SYNESSAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-LIMITREV-L01",
@@ -9858,7 +9858,7 @@
   ],
   "file_stem": "고3_국어_탐구독서논술_05_반론과한계검토",
   "source": "lessons/G12_고3/KOR_국어/탐구독서논술/KR22-G12-KOR-LIMITREV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-LITCMP-L01",
@@ -9885,7 +9885,7 @@
   ],
   "file_stem": "고3_국어_문학과언어_01_비교기준세워작품읽기",
   "source": "lessons/G12_고3/KOR_국어/문학과언어/KR22-G12-KOR-LITCMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-LITREWRITE-L01",
@@ -9911,7 +9911,7 @@
   ],
   "file_stem": "고3_국어_문학과언어_02_작품재구성하기",
   "source": "lessons/G12_고3/KOR_국어/문학과언어/KR22-G12-KOR-LITREWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-LANGCHANGE-L01",
@@ -9938,7 +9938,7 @@
   ],
   "file_stem": "고3_국어_문학과언어_03_국어의변화탐구",
   "source": "lessons/G12_고3/KOR_국어/문학과언어/KR22-G12-KOR-LANGCHANGE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-NORMINQ-L01",
@@ -9965,7 +9965,7 @@
   ],
   "file_stem": "고3_국어_문학과언어_04_언어규범탐구",
   "source": "lessons/G12_고3/KOR_국어/문학과언어/KR22-G12-KOR-NORMINQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-MEDIAPROD-L01",
@@ -9991,7 +9991,7 @@
   ],
   "file_stem": "고3_국어_매체와소통_01_복합매체결과물만들기",
   "source": "lessons/G12_고3/KOR_국어/매체와소통/KR22-G12-KOR-MEDIAPROD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-MEDIAEVAL-L01",
@@ -10018,7 +10018,7 @@
   ],
   "file_stem": "고3_국어_매체와소통_02_매체결과물비평",
   "source": "lessons/G12_고3/KOR_국어/매체와소통/KR22-G12-KOR-MEDIAEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-KOR-PUBETHIC-L01",
@@ -10044,7 +10044,7 @@
   ],
   "file_stem": "고3_국어_매체와소통_03_공적소통의책임",
   "source": "lessons/G12_고3/KOR_국어/매체와소통/KR22-G12-KOR-PUBETHIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-SEQLIM-L01",
@@ -10070,7 +10070,7 @@
   ],
   "file_stem": "고3_수학_미적분2수열극한_01_수열의극한",
   "source": "lessons/G12_고3/MAT_수학/미적분2수열극한/KR22-G12-MAT-SEQLIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-GEOMLIM-L01",
@@ -10096,7 +10096,7 @@
   ],
   "file_stem": "고3_수학_미적분2수열극한_02_등비수열의극한",
   "source": "lessons/G12_고3/MAT_수학/미적분2수열극한/KR22-G12-MAT-GEOMLIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-SERIES-L01",
@@ -10122,7 +10122,7 @@
   ],
   "file_stem": "고3_수학_미적분2수열극한_03_급수",
   "source": "lessons/G12_고3/MAT_수학/미적분2수열극한/KR22-G12-MAT-SERIES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-GEOMSER-L01",
@@ -10150,7 +10150,7 @@
   ],
   "file_stem": "고3_수학_미적분2수열극한_04_등비급수",
   "source": "lessons/G12_고3/MAT_수학/미적분2수열극한/KR22-G12-MAT-GEOMSER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-EXPLOGLIM-L01",
@@ -10176,7 +10176,7 @@
   ],
   "file_stem": "고3_수학_미적분2여러함수미분_01_지수·로그함수의극한",
   "source": "lessons/G12_고3/MAT_수학/미적분2여러함수미분/KR22-G12-MAT-EXPLOGLIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-EXPLOGDIFF-L01",
@@ -10202,7 +10202,7 @@
   ],
   "file_stem": "고3_수학_미적분2여러함수미분_02_지수·로그함수의미분",
   "source": "lessons/G12_고3/MAT_수학/미적분2여러함수미분/KR22-G12-MAT-EXPLOGDIFF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-TRIGADD-L01",
@@ -10227,7 +10227,7 @@
   ],
   "file_stem": "고3_수학_미적분2여러함수미분_03_삼각함수의덧셈정리",
   "source": "lessons/G12_고3/MAT_수학/미적분2여러함수미분/KR22-G12-MAT-TRIGADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-TRIGDIFF-L01",
@@ -10254,7 +10254,7 @@
   ],
   "file_stem": "고3_수학_미적분2여러함수미분_04_삼각함수의극한과미분",
   "source": "lessons/G12_고3/MAT_수학/미적분2여러함수미분/KR22-G12-MAT-TRIGDIFF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-QUOTRULE-L01",
@@ -10280,7 +10280,7 @@
   ],
   "file_stem": "고3_수학_미적분2미분법_01_몫의미분법",
   "source": "lessons/G12_고3/MAT_수학/미적분2미분법/KR22-G12-MAT-QUOTRULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-CHAINRULE-L01",
@@ -10307,7 +10307,7 @@
   ],
   "file_stem": "고3_수학_미적분2미분법_02_합성함수의미분법",
   "source": "lessons/G12_고3/MAT_수학/미적분2미분법/KR22-G12-MAT-CHAINRULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-PARAMDIFF-L01",
@@ -10332,7 +10332,7 @@
   ],
   "file_stem": "고3_수학_미적분2미분법_03_매개변수·음함수의미분",
   "source": "lessons/G12_고3/MAT_수학/미적분2미분법/KR22-G12-MAT-PARAMDIFF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-CONCAVE-L01",
@@ -10358,7 +10358,7 @@
   ],
   "file_stem": "고3_수학_미적분2도함수활용_01_오목·볼록과변곡점",
   "source": "lessons/G12_고3/MAT_수학/미적분2도함수활용/KR22-G12-MAT-CONCAVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-INTFUNCS-L01",
@@ -10386,7 +10386,7 @@
   ],
   "file_stem": "고3_수학_미적분2적분법_01_여러함수의적분",
   "source": "lessons/G12_고3/MAT_수학/미적분2적분법/KR22-G12-MAT-INTFUNCS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-SUBST-L01",
@@ -10413,7 +10413,7 @@
   ],
   "file_stem": "고3_수학_미적분2적분법_02_치환적분법",
   "source": "lessons/G12_고3/MAT_수학/미적분2적분법/KR22-G12-MAT-SUBST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-BYPARTS-L01",
@@ -10440,7 +10440,7 @@
   ],
   "file_stem": "고3_수학_미적분2적분법_03_부분적분법",
   "source": "lessons/G12_고3/MAT_수학/미적분2적분법/KR22-G12-MAT-BYPARTS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-RIEMANN-L01",
@@ -10467,7 +10467,7 @@
   ],
   "file_stem": "고3_수학_미적분2적분법_04_정적분과급수",
   "source": "lessons/G12_고3/MAT_수학/미적분2적분법/KR22-G12-MAT-RIEMANN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-AREAVOL-L01",
@@ -10495,7 +10495,7 @@
   ],
   "file_stem": "고3_수학_미적분2적분법_05_넓이와부피",
   "source": "lessons/G12_고3/MAT_수학/미적분2적분법/KR22-G12-MAT-AREAVOL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-CONICTAN-L01",
@@ -10523,7 +10523,7 @@
   ],
   "file_stem": "고3_수학_기하심화_01_이차곡선의접선",
   "source": "lessons/G12_고3/MAT_수학/기하심화/KR22-G12-MAT-CONICTAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-PROJECT-L01",
@@ -10552,7 +10552,7 @@
   ],
   "file_stem": "고3_수학_기하심화_02_정사영과공간문제",
   "source": "lessons/G12_고3/MAT_수학/기하심화/KR22-G12-MAT-PROJECT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-VECDOT-L01",
@@ -10580,7 +10580,7 @@
   ],
   "file_stem": "고3_수학_기하심화_03_벡터의내적활용",
   "source": "lessons/G12_고3/MAT_수학/기하심화/KR22-G12-MAT-VECDOT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-SURVEY-L01",
@@ -10606,7 +10606,7 @@
   ],
   "file_stem": "고3_수학_통계와모델링_01_표본조사와편향",
   "source": "lessons/G12_고3/MAT_수학/통계와모델링/KR22-G12-MAT-SURVEY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-ESTREAD-L01",
@@ -10633,7 +10633,7 @@
   ],
   "file_stem": "고3_수학_통계와모델링_02_추정결과해석",
   "source": "lessons/G12_고3/MAT_수학/통계와모델링/KR22-G12-MAT-ESTREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-MODELFIT-L01",
@@ -10661,7 +10661,7 @@
   ],
   "file_stem": "고3_수학_통계와모델링_03_함수모델세우기",
   "source": "lessons/G12_고3/MAT_수학/통계와모델링/KR22-G12-MAT-MODELFIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-INQPLAN-L01",
@@ -10687,7 +10687,7 @@
   ],
   "file_stem": "고3_수학_수학탐구_01_탐구주제와계획",
   "source": "lessons/G12_고3/MAT_수학/수학탐구/KR22-G12-MAT-INQPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-INQRUN-L01",
@@ -10713,7 +10713,7 @@
   ],
   "file_stem": "고3_수학_수학탐구_02_탐구실행과검토",
   "source": "lessons/G12_고3/MAT_수학/수학탐구/KR22-G12-MAT-INQRUN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-MAT-INQREPORT-L01",
@@ -10739,7 +10739,7 @@
   ],
   "file_stem": "고3_수학_수학탐구_03_탐구보고서발표",
   "source": "lessons/G12_고3/MAT_수학/수학탐구/KR22-G12-MAT-INQREPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-COMPLEXSENT-L01",
@@ -10767,7 +10767,7 @@
   ],
   "file_stem": "고3_영어_영어2자료종합_01_긴문장구조분석",
   "source": "lessons/G12_고3/ENG_영어/영어2자료종합/KR22-G12-ENG-COMPLEXSENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-ACADREAD-L01",
@@ -10794,7 +10794,7 @@
   ],
   "file_stem": "고3_영어_영어2자료종합_02_진로관련설명문읽기",
   "source": "lessons/G12_고3/ENG_영어/영어2자료종합/KR22-G12-ENG-ACADREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-DATAREAD-L01",
@@ -10821,7 +10821,7 @@
   ],
   "file_stem": "고3_영어_영어2자료종합_03_도표자료해석",
   "source": "lessons/G12_고3/ENG_영어/영어2자료종합/KR22-G12-ENG-DATAREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-SRCCRED-L01",
@@ -10847,7 +10847,7 @@
   ],
   "file_stem": "고3_영어_영어2자료종합_04_자료의신뢰성비교",
   "source": "lessons/G12_고3/ENG_영어/영어2자료종합/KR22-G12-ENG-SRCCRED-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-MULTISYN-L01",
@@ -10874,7 +10874,7 @@
   ],
   "file_stem": "고3_영어_영어2자료종합_05_여러자료종합정리",
   "source": "lessons/G12_고3/ENG_영어/영어2자료종합/KR22-G12-ENG-MULTISYN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-REPORT-L01",
@@ -10900,7 +10900,7 @@
   ],
   "file_stem": "고3_영어_영어탐구발표글쓰기_01_탐구보고서쓰기",
   "source": "lessons/G12_고3/ENG_영어/영어탐구발표글쓰기/KR22-G12-ENG-REPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-CITEESSAY-L01",
@@ -10927,7 +10927,7 @@
   ],
   "file_stem": "고3_영어_영어탐구발표글쓰기_02_자료를인용한논증글",
   "source": "lessons/G12_고3/ENG_영어/영어탐구발표글쓰기/KR22-G12-ENG-CITEESSAY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-APPLYMAIL-L01",
@@ -10953,7 +10953,7 @@
   ],
   "file_stem": "고3_영어_영어탐구발표글쓰기_03_지원이메일쓰기",
   "source": "lessons/G12_고3/ENG_영어/영어탐구발표글쓰기/KR22-G12-ENG-APPLYMAIL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-QNA-L01",
@@ -10981,7 +10981,7 @@
   ],
   "file_stem": "고3_영어_영어탐구발표글쓰기_04_발표와질의응답",
   "source": "lessons/G12_고3/ENG_영어/영어탐구발표글쓰기/KR22-G12-ENG-QNA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-LITCTX-L01",
@@ -11007,7 +11007,7 @@
   ],
   "file_stem": "고3_영어_세계문화와소통_01_문학작품의문화맥락",
   "source": "lessons/G12_고3/ENG_영어/세계문화와소통/KR22-G12-ENG-LITCTX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-CULTMISS-L01",
@@ -11034,7 +11034,7 @@
   ],
   "file_stem": "고3_영어_세계문화와소통_02_문화간오해분석",
   "source": "lessons/G12_고3/ENG_영어/세계문화와소통/KR22-G12-ENG-CULTMISS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENG-COMMSTRAT-L01",
@@ -11061,7 +11061,7 @@
   ],
   "file_stem": "고3_영어_세계문화와소통_03_상황별소통전략",
   "source": "lessons/G12_고3/ENG_영어/세계문화와소통/KR22-G12-ENG-COMMSTRAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-INTERPRET-L01",
@@ -11087,7 +11087,7 @@
   ],
   "file_stem": "고3_사회·역사_역사해석과기억_01_역사해석의다양성",
   "source": "lessons/G12_고3/SOC_사회·역사/역사해석과기억/KR22-G12-SOC-INTERPRET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-MEMORY-L01",
@@ -11113,7 +11113,7 @@
   ],
   "file_stem": "고3_사회·역사_역사해석과기억_02_공공의기억과기념",
   "source": "lessons/G12_고3/SOC_사회·역사/역사해석과기억/KR22-G12-SOC-MEMORY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-LOCALHIST-L01",
@@ -11139,7 +11139,7 @@
   ],
   "file_stem": "고3_사회·역사_역사해석과기억_03_지역사탐구",
   "source": "lessons/G12_고3/SOC_사회·역사/역사해석과기억/KR22-G12-SOC-LOCALHIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-GISDATA-L01",
@@ -11165,7 +11165,7 @@
   ],
   "file_stem": "고3_사회·역사_공간정보탐구_01_공간데이터지도화",
   "source": "lessons/G12_고3/SOC_사회·역사/공간정보탐구/KR22-G12-SOC-GISDATA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-SUSTREG-L01",
@@ -11191,7 +11191,7 @@
   ],
   "file_stem": "고3_사회·역사_공간정보탐구_02_지속가능한지역제안",
   "source": "lessons/G12_고3/SOC_사회·역사/공간정보탐구/KR22-G12-SOC-SUSTREG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-POLISSUE-L01",
@@ -11220,7 +11220,7 @@
   ],
   "file_stem": "고3_사회·역사_제도와경제쟁점_01_정치제도쟁점",
   "source": "lessons/G12_고3/SOC_사회·역사/제도와경제쟁점/KR22-G12-SOC-POLISSUE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-RIGHTCASE-L01",
@@ -11250,7 +11250,7 @@
   ],
   "file_stem": "고3_사회·역사_제도와경제쟁점_02_기본권충돌과판례",
   "source": "lessons/G12_고3/SOC_사회·역사/제도와경제쟁점/KR22-G12-SOC-RIGHTCASE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-TRADEISSUE-L01",
@@ -11279,7 +11279,7 @@
   ],
   "file_stem": "고3_사회·역사_제도와경제쟁점_03_국제경제쟁점",
   "source": "lessons/G12_고3/SOC_사회·역사/제도와경제쟁점/KR22-G12-SOC-TRADEISSUE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-FINRISK-L01",
@@ -11309,7 +11309,7 @@
   ],
   "file_stem": "고3_사회·역사_제도와경제쟁점_04_금융상품위험평가",
   "source": "lessons/G12_고3/SOC_사회·역사/제도와경제쟁점/KR22-G12-SOC-FINRISK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-FAIRECON-L01",
@@ -11339,7 +11339,7 @@
   ],
   "file_stem": "고3_사회·역사_제도와경제쟁점_05_경제변화와공정성",
   "source": "lessons/G12_고3/SOC_사회·역사/제도와경제쟁점/KR22-G12-SOC-FAIRECON-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-RESQ-L01",
@@ -11365,7 +11365,7 @@
   ],
   "file_stem": "고3_사회·역사_사회조사프로젝트_01_연구질문과가설",
   "source": "lessons/G12_고3/SOC_사회·역사/사회조사프로젝트/KR22-G12-SOC-RESQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-SURVEY-L01",
@@ -11392,7 +11392,7 @@
   ],
   "file_stem": "고3_사회·역사_사회조사프로젝트_02_질문지와표본설계",
   "source": "lessons/G12_고3/SOC_사회·역사/사회조사프로젝트/KR22-G12-SOC-SURVEY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-QUALDATA-L01",
@@ -11419,7 +11419,7 @@
   ],
   "file_stem": "고3_사회·역사_사회조사프로젝트_03_면접자료해석",
   "source": "lessons/G12_고3/SOC_사회·역사/사회조사프로젝트/KR22-G12-SOC-QUALDATA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-ANALYZE-L01",
@@ -11446,7 +11446,7 @@
   ],
   "file_stem": "고3_사회·역사_사회조사프로젝트_04_자료분석과시각화",
   "source": "lessons/G12_고3/SOC_사회·역사/사회조사프로젝트/KR22-G12-SOC-ANALYZE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SOC-REPORT-L01",
@@ -11473,7 +11473,7 @@
   ],
   "file_stem": "고3_사회·역사_사회조사프로젝트_05_조사보고서와한계",
   "source": "lessons/G12_고3/SOC_사회·역사/사회조사프로젝트/KR22-G12-SOC-REPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ETH-DILEMMA-L01",
@@ -11501,7 +11501,7 @@
   ],
   "file_stem": "고3_도덕·윤리_윤리사상과딜레마_01_딜레마의사상별분석",
   "source": "lessons/G12_고3/ETH_도덕·윤리/윤리사상과딜레마/KR22-G12-ETH-DILEMMA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ETH-REVISE-L01",
@@ -11528,7 +11528,7 @@
   ],
   "file_stem": "고3_도덕·윤리_윤리사상과딜레마_02_판단수정과반성적평형",
   "source": "lessons/G12_고3/ETH_도덕·윤리/윤리사상과딜레마/KR22-G12-ETH-REVISE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ETH-WORKETH-L01",
@@ -11556,7 +11556,7 @@
   ],
   "file_stem": "고3_도덕·윤리_노동문화의윤리_01_노동과소비의책임",
   "source": "lessons/G12_고3/ETH_도덕·윤리/노동문화의윤리/KR22-G12-ETH-WORKETH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ETH-CULTURE-L01",
@@ -11584,7 +11584,7 @@
   ],
   "file_stem": "고3_도덕·윤리_노동문화의윤리_02_다문화사회의윤리",
   "source": "lessons/G12_고3/ETH_도덕·윤리/노동문화의윤리/KR22-G12-ETH-CULTURE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ETH-FUTUREDUTY-L01",
@@ -11610,7 +11610,7 @@
   ],
   "file_stem": "고3_도덕·윤리_생태와세대책임_01_세대간책임과성찰",
   "source": "lessons/G12_고3/ETH_도덕·윤리/생태와세대책임/KR22-G12-ETH-FUTUREDUTY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-PROJECTILE-L01",
@@ -11637,7 +11637,7 @@
   ],
   "file_stem": "고3_과학_물리심화_01_포물선운동분석",
   "source": "lessons/G12_고3/SCI_과학/물리심화/KR22-G12-SCI-PROJECTILE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-CIRCULAR-L01",
@@ -11665,7 +11665,7 @@
   ],
   "file_stem": "고3_과학_물리심화_02_원운동과행성운동",
   "source": "lessons/G12_고3/SCI_과학/물리심화/KR22-G12-SCI-CIRCULAR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-PENDULUM-L01",
@@ -11693,7 +11693,7 @@
   ],
   "file_stem": "고3_과학_물리심화_03_단진자실험과오차",
   "source": "lessons/G12_고3/SCI_과학/물리심화/KR22-G12-SCI-PENDULUM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-CAPACITOR-L01",
@@ -11720,7 +11720,7 @@
   ],
   "file_stem": "고3_과학_물리심화_04_축전기의충전과방전",
   "source": "lessons/G12_고3/SCI_과학/물리심화/KR22-G12-SCI-CAPACITOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-PHOTOELEC-L01",
@@ -11747,7 +11747,7 @@
   ],
   "file_stem": "고3_과학_물리심화_05_광전효과와이중성",
   "source": "lessons/G12_고3/SCI_과학/물리심화/KR22-G12-SCI-PHOTOELEC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-ENTHALPY-L01",
@@ -11775,7 +11775,7 @@
   ],
   "file_stem": "고3_과학_화학심화_01_반응엔탈피와헤스법칙",
   "source": "lessons/G12_고3/SCI_과학/화학심화/KR22-G12-SCI-ENTHALPY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-EQUILK-L01",
@@ -11802,7 +11802,7 @@
   ],
   "file_stem": "고3_과학_화학심화_02_평형상수와평형이동",
   "source": "lessons/G12_고3/SCI_과학/화학심화/KR22-G12-SCI-EQUILK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-RATE-L01",
@@ -11830,7 +11830,7 @@
   ],
   "file_stem": "고3_과학_화학심화_03_반응속도와촉매",
   "source": "lessons/G12_고3/SCI_과학/화학심화/KR22-G12-SCI-RATE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-TITRCURVE-L01",
@@ -11858,7 +11858,7 @@
   ],
   "file_stem": "고3_과학_화학심화_04_중화적정곡선과완충용액",
   "source": "lessons/G12_고3/SCI_과학/화학심화/KR22-G12-SCI-TITRCURVE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-ECHEM-L01",
@@ -11885,7 +11885,7 @@
   ],
   "file_stem": "고3_과학_화학심화_05_화학전지와전기분해",
   "source": "lessons/G12_고3/SCI_과학/화학심화/KR22-G12-SCI-ECHEM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-DNAREP-L01",
@@ -11913,7 +11913,7 @@
   ],
   "file_stem": "고3_과학_생명과학심화_01_DNA구조와복제",
   "source": "lessons/G12_고3/SCI_과학/생명과학심화/KR22-G12-SCI-DNAREP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-GENEEXP-L01",
@@ -11940,7 +11940,7 @@
   ],
   "file_stem": "고3_과학_생명과학심화_02_유전자발현과조절",
   "source": "lessons/G12_고3/SCI_과학/생명과학심화/KR22-G12-SCI-GENEEXP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-EVOEVID-L01",
@@ -11968,7 +11968,7 @@
   ],
   "file_stem": "고3_과학_생명과학심화_03_진화의증거와기작",
   "source": "lessons/G12_고3/SCI_과학/생명과학심화/KR22-G12-SCI-EVOEVID-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-BIOTECH-L01",
@@ -11995,7 +11995,7 @@
   ],
   "file_stem": "고3_과학_생명과학심화_04_생명공학기술의원리",
   "source": "lessons/G12_고3/SCI_과학/생명과학심화/KR22-G12-SCI-BIOTECH-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-BIOETHIC-L01",
@@ -12022,7 +12022,7 @@
   ],
   "file_stem": "고3_과학_생명과학심화_05_생명공학의쟁점",
   "source": "lessons/G12_고3/SCI_과학/생명과학심화/KR22-G12-SCI-BIOETHIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-PALEOCLIM-L01",
@@ -12051,7 +12051,7 @@
   ],
   "file_stem": "고3_과학_지구우주심화_01_고기후기록분석",
   "source": "lessons/G12_고3/SCI_과학/지구우주심화/KR22-G12-SCI-PALEOCLIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-CLIMFORCE-L01",
@@ -12079,7 +12079,7 @@
   ],
   "file_stem": "고3_과학_지구우주심화_02_기후변화의요인",
   "source": "lessons/G12_고3/SCI_과학/지구우주심화/KR22-G12-SCI-CLIMFORCE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-EXOPLANET-L01",
@@ -12107,7 +12107,7 @@
   ],
   "file_stem": "고3_과학_지구우주심화_03_외계행성계탐사",
   "source": "lessons/G12_고3/SCI_과학/지구우주심화/KR22-G12-SCI-EXOPLANET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-GALAXY-L01",
@@ -12136,7 +12136,7 @@
   ],
   "file_stem": "고3_과학_지구우주심화_04_은하의분류와암흑물질",
   "source": "lessons/G12_고3/SCI_과학/지구우주심화/KR22-G12-SCI-GALAXY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-COSMOS-L01",
@@ -12165,7 +12165,7 @@
   ],
   "file_stem": "고3_과학_지구우주심화_05_빅뱅우주론의증거",
   "source": "lessons/G12_고3/SCI_과학/지구우주심화/KR22-G12-SCI-COSMOS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-RESQUEST-L01",
@@ -12191,7 +12191,7 @@
   ],
   "file_stem": "고3_과학_과학연구와의사결정_01_연구질문과선행연구",
   "source": "lessons/G12_고3/SCI_과학/과학연구와의사결정/KR22-G12-SCI-RESQUEST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-RESDATA-L01",
@@ -12218,7 +12218,7 @@
   ],
   "file_stem": "고3_과학_과학연구와의사결정_02_연구수행과자료분석",
   "source": "lessons/G12_고3/SCI_과학/과학연구와의사결정/KR22-G12-SCI-RESDATA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-RESREPORT-L01",
@@ -12244,7 +12244,7 @@
   ],
   "file_stem": "고3_과학_과학연구와의사결정_03_연구보고서와발표",
   "source": "lessons/G12_고3/SCI_과학/과학연구와의사결정/KR22-G12-SCI-RESREPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-UNCERTAIN-L01",
@@ -12270,7 +12270,7 @@
   ],
   "file_stem": "고3_과학_과학연구와의사결정_04_과학정보의불확실성",
   "source": "lessons/G12_고3/SCI_과학/과학연구와의사결정/KR22-G12-SCI-UNCERTAIN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-SCI-SCIDECIDE-L01",
@@ -12297,7 +12297,7 @@
   ],
   "file_stem": "고3_과학_과학연구와의사결정_05_과학기술쟁점의사결정",
   "source": "lessons/G12_고3/SCI_과학/과학연구와의사결정/KR22-G12-SCI-SCIDECIDE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-TEC-SELFBUDGET-L01",
@@ -12325,7 +12325,7 @@
   ],
   "file_stem": "고3_기술·가정_생애설계와자립_01_자립가계계획",
   "source": "lessons/G12_고3/TEC_기술·가정/생애설계와자립/KR22-G12-TEC-SELFBUDGET-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-TEC-SELFLIFE-L01",
@@ -12352,7 +12352,7 @@
   ],
   "file_stem": "고3_기술·가정_생애설계와자립_02_자립생활과돌봄계획",
   "source": "lessons/G12_고3/TEC_기술·가정/생애설계와자립/KR22-G12-TEC-SELFLIFE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-TEC-FUSIONPROTO-L01",
@@ -12379,7 +12379,7 @@
   ],
   "file_stem": "고3_기술·가정_창의공학설계_01_융합시제품개선",
   "source": "lessons/G12_고3/TEC_기술·가정/창의공학설계/KR22-G12-TEC-FUSIONPROTO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-TEC-IPRIGHT-L01",
@@ -12405,7 +12405,7 @@
   ],
   "file_stem": "고3_기술·가정_지식재산과기술책임_01_지식재산권의종류",
   "source": "lessons/G12_고3/TEC_기술·가정/지식재산과기술책임/KR22-G12-TEC-IPRIGHT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-TEC-TECHETHIC-L01",
@@ -12432,7 +12432,7 @@
   ],
   "file_stem": "고3_기술·가정_지식재산과기술책임_02_기술의사회적책임",
   "source": "lessons/G12_고3/TEC_기술·가정/지식재산과기술책임/KR22-G12-TEC-TECHETHIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-INF-OVERFIT-L01",
@@ -12458,7 +12458,7 @@
   ],
   "file_stem": "고3_정보·AI_AI평가와생성형AI_01_과대적합과일반화",
   "source": "lessons/G12_고3/INF_정보·AI/AI평가와생성형AI/KR22-G12-INF-OVERFIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-INF-GENAICHK-L01",
@@ -12485,7 +12485,7 @@
   ],
   "file_stem": "고3_정보·AI_AI평가와생성형AI_02_생성형AI결과검증",
   "source": "lessons/G12_고3/INF_정보·AI/AI평가와생성형AI/KR22-G12-INF-GENAICHK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-INF-SENSORDATA-L01",
@@ -12513,7 +12513,7 @@
   ],
   "file_stem": "고3_정보·AI_피지컬컴퓨팅구현_01_센서데이터수집",
   "source": "lessons/G12_고3/INF_정보·AI/피지컬컴퓨팅구현/KR22-G12-INF-SENSORDATA-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-INF-SYSTEST-L01",
@@ -12541,7 +12541,7 @@
   ],
   "file_stem": "고3_정보·AI_피지컬컴퓨팅구현_02_시스템테스트와개선",
   "source": "lessons/G12_고3/INF_정보·AI/피지컬컴퓨팅구현/KR22-G12-INF-SYSTEST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-INF-REPRODOC-L01",
@@ -12566,7 +12566,7 @@
   ],
   "file_stem": "고3_정보·AI_재현가능한공유_01_재현가능한공유",
   "source": "lessons/G12_고3/INF_정보·AI/재현가능한공유/KR22-G12-INF-REPRODOC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ART-PORTFOLIO-L01",
@@ -12594,7 +12594,7 @@
   ],
   "file_stem": "고3_음악·미술_예술포트폴리오_01_예술포트폴리오구성",
   "source": "lessons/G12_고3/ART_음악·미술/예술포트폴리오/KR22-G12-ART-PORTFOLIO-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ART-GROWTHTALK-L01",
@@ -12621,7 +12621,7 @@
   ],
   "file_stem": "고3_음악·미술_예술포트폴리오_02_성장발표와진로연계",
   "source": "lessons/G12_고3/ART_음악·미술/예술포트폴리오/KR22-G12-ART-GROWTHTALK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ART-CONTEXTCRIT-L01",
@@ -12649,7 +12649,7 @@
   ],
   "file_stem": "고3_음악·미술_예술비평과사회_01_맥락비교비평",
   "source": "lessons/G12_고3/ART_음악·미술/예술비평과사회/KR22-G12-ART-CONTEXTCRIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ART-COPYRIGHT-L01",
@@ -12675,7 +12675,7 @@
   ],
   "file_stem": "고3_음악·미술_예술매체공유_01_저작권·초상권점검",
   "source": "lessons/G12_고3/ART_음악·미술/예술매체공유/KR22-G12-ART-COPYRIGHT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ART-SHAREWORK-L01",
@@ -12702,7 +12702,7 @@
   ],
   "file_stem": "고3_음악·미술_예술매체공유_02_책임있는온라인공유",
   "source": "lessons/G12_고3/ART_음악·미술/예술매체공유/KR22-G12-ART-SHAREWORK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-PHE-LIFESPORT-L01",
@@ -12729,7 +12729,7 @@
   ],
   "file_stem": "고3_체육·보건·안전_체육평생운동_01_평생운동고르기",
   "source": "lessons/G12_고3/PHE_체육·보건·안전/체육평생운동/KR22-G12-PHE-LIFESPORT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-PHE-PLANEVAL-L01",
@@ -12755,7 +12755,7 @@
   ],
   "file_stem": "고3_체육·보건·안전_체육평생운동_02_운동실천평가와조정",
   "source": "lessons/G12_고3/PHE_체육·보건·안전/체육평생운동/KR22-G12-PHE-PLANEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-PHE-HEALTHSELF-L01",
@@ -12783,7 +12783,7 @@
   ],
   "file_stem": "고3_체육·보건·안전_보건건강자립_01_스스로하는의료이용",
   "source": "lessons/G12_고3/PHE_체육·보건·안전/보건건강자립/KR22-G12-PHE-HEALTHSELF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-PHE-MINDCARE-L01",
@@ -12810,7 +12810,7 @@
   ],
   "file_stem": "고3_체육·보건·안전_보건건강자립_02_정신건강자기관리",
   "source": "lessons/G12_고3/PHE_체육·보건·안전/보건건강자립/KR22-G12-PHE-MINDCARE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-PHE-ACCESSCHECK-L01",
@@ -12838,7 +12838,7 @@
   ],
   "file_stem": "고3_체육·보건·안전_보건공동체건강_01_응급대응과건강접근성",
   "source": "lessons/G12_고3/PHE_체육·보건·안전/보건공동체건강/KR22-G12-PHE-ACCESSCHECK-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-HUM-SYMLOGIC-L01",
@@ -12866,7 +12866,7 @@
   ],
   "file_stem": "고3_철학·논리·심리·교육·종교_기호논리와철학_01_명제와기호논리",
   "source": "lessons/G12_고3/HUM_철학·논리·심리·교육·종교/기호논리와철학/KR22-G12-HUM-SYMLOGIC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-HUM-CRITREVIEW-L01",
@@ -12895,7 +12895,7 @@
   ],
   "file_stem": "고3_철학·논리·심리·교육·종교_기호논리와철학_02_철학적쟁점비판적검토",
   "source": "lessons/G12_고3/HUM_철학·논리·심리·교육·종교/기호논리와철학/KR22-G12-HUM-CRITREVIEW-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-HUM-SOCIALPSY-L01",
@@ -12924,7 +12924,7 @@
   ],
   "file_stem": "고3_철학·논리·심리·교육·종교_심리적응평생학습_01_사회적행동과적응",
   "source": "lessons/G12_고3/HUM_철학·논리·심리·교육·종교/심리적응평생학습/KR22-G12-HUM-SOCIALPSY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-HUM-LIFELEARN-L01",
@@ -12952,7 +12952,7 @@
   ],
   "file_stem": "고3_철학·논리·심리·교육·종교_심리적응평생학습_02_교육제도와평생학습",
   "source": "lessons/G12_고3/HUM_철학·논리·심리·교육·종교/심리적응평생학습/KR22-G12-HUM-LIFELEARN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-HUM-COEXIST-L01",
@@ -12978,7 +12978,7 @@
   ],
   "file_stem": "고3_철학·논리·심리·교육·종교_종교와공존_01_종교쟁점과공존방안",
   "source": "lessons/G12_고3/HUM_철학·논리·심리·교육·종교/종교와공존/KR22-G12-HUM-COEXIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-CAR-REQUIREMENT-L01",
@@ -13004,7 +13004,7 @@
   ],
   "file_stem": "고3_진로·직업_진로전환준비_01_진학·취업요구조건",
   "source": "lessons/G12_고3/CAR_진로·직업/진로전환준비/KR22-G12-CAR-REQUIREMENT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-CAR-APPLYDOC-L01",
@@ -13030,7 +13030,7 @@
   ],
   "file_stem": "고3_진로·직업_진로전환준비_02_자기소개서와면접준비",
   "source": "lessons/G12_고3/CAR_진로·직업/진로전환준비/KR22-G12-CAR-APPLYDOC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-CAR-PLANREVISE-L01",
@@ -13056,7 +13056,7 @@
   ],
   "file_stem": "고3_진로·직업_진로계획수정_01_진로계획과대안수정",
   "source": "lessons/G12_고3/CAR_진로·직업/진로계획수정/KR22-G12-CAR-PLANREVISE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-CAR-LIFELONG-L01",
@@ -13082,7 +13082,7 @@
   ],
   "file_stem": "고3_진로·직업_진로평생설계_01_직업변화와평생학습",
   "source": "lessons/G12_고3/CAR_진로·직업/진로평생설계/KR22-G12-CAR-LIFELONG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-CAR-SHORTPLAN-L01",
@@ -13109,7 +13109,7 @@
   ],
   "file_stem": "고3_진로·직업_진로평생설계_02_졸업후단기실행계획",
   "source": "lessons/G12_고3/CAR_진로·직업/진로평생설계/KR22-G12-CAR-SHORTPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENV-LANDUSEDEC-L01",
@@ -13138,7 +13138,7 @@
   ],
   "file_stem": "고3_환경·생태_환경쟁점판단_01_토지이용쟁점평가",
   "source": "lessons/G12_고3/ENV_환경·생태/환경쟁점판단/KR22-G12-ENV-LANDUSEDEC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENV-VALUECRIT-L01",
@@ -13167,7 +13167,7 @@
   ],
   "file_stem": "고3_환경·생태_환경쟁점판단_02_가치기준으로정책평가",
   "source": "lessons/G12_고3/ENV_환경·생태/환경쟁점판단/KR22-G12-ENV-VALUECRIT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENV-PROJRUN-L01",
@@ -13193,7 +13193,7 @@
   ],
   "file_stem": "고3_환경·생태_환경프로젝트실행_01_참여활동실행",
   "source": "lessons/G12_고3/ENV_환경·생태/환경프로젝트실행/KR22-G12-ENV-PROJRUN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENV-IMPACTEVAL-L01",
@@ -13219,7 +13219,7 @@
   ],
   "file_stem": "고3_환경·생태_환경프로젝트실행_02_효과와한계측정",
   "source": "lessons/G12_고3/ENV_환경·생태/환경프로젝트실행/KR22-G12-ENV-IMPACTEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G12-ENV-LONGPLAN-L01",
@@ -13246,6 +13246,6 @@
   ],
   "file_stem": "고3_환경·생태_지속가능한삶_01_장기지속가능실천설계",
   "source": "lessons/G12_고3/ENV_환경·생태/지속가능한삶/KR22-G12-ENV-LONGPLAN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  }
 ]
