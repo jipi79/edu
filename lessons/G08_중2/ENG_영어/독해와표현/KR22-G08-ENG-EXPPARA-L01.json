@@ -750,7 +750,7 @@
         "시간": "약 3분",
         "말하기": [
           "“이 문단에는 틀린 곳이 다섯 군데 있어. 찾아서 고쳐 읽어 줄래? 주제문은 몇 번이야?”",
-          "“모르는 낱말이 있으면 물어봐도 돼. rock climbing은 암벽 등반, climbing gym은 실내 암벽장, scared는 무서운이야.”"
+          "“모르는 낱말이 있으면 물어봐도 돼. rock climbing은 암벽 등반, climbing gym은 실내 암벽장, scared는 겁먹은이야.”"
         ],
         "정답": [
           "① try → tried (I have tried rock climbing, and it was exciting.)",
@@ -942,7 +942,7 @@
         "read": "I have seen fireflies, and it was an amazing experience. Last summer, my family went camping near a river. First, we cooked dinner and ate it outside. Then, we walked to the river at night. However, it was very dark, and I was a little scared. After that, we saw many tiny lights over the water. They were fireflies! I want to see them again next summer.",
         "line_label": "④",
         "lines": 1,
-        "answer": "① I have seen fireflies, and it was an amazing experience. ② I want to see them again next summer. ③ First, Then, However, After that ④ 지난여름, 가족과. 네 가지 모두 맞으면 통과. 낱말 뜻: firefly(fireflies) 반딧불이, amazing 놀라운, experience 경험, go camping 캠핑 가다, outside 밖에서, dark 어두운, scared 무서운, tiny 아주 작은."
+        "answer": "① I have seen fireflies, and it was an amazing experience. ② I want to see them again next summer. ③ First, Then, However, After that ④ 지난여름, 가족과. 네 가지 모두 맞으면 통과. 낱말 뜻: firefly(fireflies) 반딧불이, amazing 놀라운, experience 경험, go camping 캠핑 가다, outside 밖에서, dark 어두운, scared 겁먹은, tiny 아주 작은."
       },
       {
         "no": 4,
