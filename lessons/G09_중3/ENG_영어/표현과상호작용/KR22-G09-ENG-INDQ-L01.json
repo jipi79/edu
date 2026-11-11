@@ -421,7 +421,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Do you know where\nis the post office?"
+              "word": "Do you know where\nthe post office is?"
             }
           ]
         }
@@ -433,7 +433,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Do you know where\nthe post office is?"
+              "word": "Do you know where\nis the post office?"
             }
           ]
         }
@@ -447,13 +447,13 @@
           "“where 뒤에 주어가 먼저 와야 해, 동사가 먼저 와야 해?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나입니다. 문장 속 질문은 의문사 + 주어(the post office) + 동사(is) 순서입니다. 가는 원래 질문의 어순(where is)을 그대로 두었으므로 is를 the post office 뒤로 옮겨야 합니다."
+          "바르게 쓴 쪽은 가입니다. 문장 속 질문은 의문사 + 주어(the post office) + 동사(is) 순서입니다. 나는 원래 질문의 어순(where is)을 그대로 두었으므로 is를 the post office 뒤로 옮겨야 합니다."
         ],
         "막히면": [
           "“The post office is there.처럼 보통 문장에서 주어와 동사 가운데 무엇이 먼저야?”라고 묻습니다."
         ],
         "주의": [
-          "말할 때 원어민도 가끔 가처럼 말하지만, 시험과 글에서는 나처럼 씁니다. 오늘은 나처럼 말하고 쓰는 것을 목표로 합니다.",
+          "말할 때 원어민도 가끔 나처럼 말하지만, 시험과 글에서는 가처럼 씁니다. 오늘은 가처럼 말하고 쓰는 것을 목표로 합니다.",
           "여기까지가 의문사 질문 바꾸기입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
         ]
       }
@@ -728,16 +728,16 @@
       "text": "Where is the post office?를 공손하게 바꾼 문장이에요.",
       "options": [
         {
-          "text": "Do you know where\nis the post office?"
-        },
-        {
-          "text": "Do you know where\nthe post office is?"
+          "text": "Can you tell me if\nwhere the post office is?"
         },
         {
           "text": "Can you tell me where\nthe post office is?"
         },
         {
-          "text": "Can you tell me if\nwhere the post office is?"
+          "text": "Do you know where\nis the post office?"
+        },
+        {
+          "text": "Do you know where\nthe post office is?"
         }
       ],
       "question": "바른 문장 두 개는? 나머지는 어떻게 고칠까요?",
@@ -748,15 +748,15 @@
           "“네 문장 가운데 바른 문장 두 개는? 나머지 두 개는 어디가 틀렸고, 어떻게 고칠까?”"
         ],
         "정답": [
-          "바른 문장: 나(Do you know where the post office is?), 다(Can you tell me where the post office is?)",
-          "가 → is를 the post office 뒤로: Do you know where the post office is? / 라 → 의문사 where가 있으니 if를 빼요: Can you tell me where the post office is?",
-          "기준: 두 개를 바르게 고르고, 가의 어순을 고쳐 말하면 통과. 라까지 고치면 아주 잘한 것입니다."
+          "바른 문장: 나(Can you tell me where the post office is?), 라(Do you know where the post office is?)",
+          "가 → 의문사 where가 있으니 if를 빼요: Can you tell me where the post office is? / 다 → is를 the post office 뒤로: Do you know where the post office is?",
+          "기준: 두 개를 바르게 고르고, 다의 어순을 고쳐 말하면 통과. 가까지 고치면 아주 잘한 것입니다."
         ],
         "막히면": [
           "“주어와 동사를 찾아봐. 어느 쪽이 먼저야?”라고만 묻습니다."
         ],
         "주의": [
-          "가를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 봅니다."
+          "다를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 봅니다."
         ]
       }
     },
