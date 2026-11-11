@@ -33,7 +33,7 @@
 - LINES | 선분·반직선·직선과 각 | 선분·반직선·직선을 구별하고 각을 찾는다. | pre G02-MAT-PLANE
 - RIGHT | 직각과 직사각형·정사각형 | 직각을 알고 직각삼각형·직사각형·정사각형을 구별한다.
 - CIRCLE | 원의 중심·반지름·지름 | 원의 중심·반지름·지름의 관계를 알고 원을 그린다.
-- MMKM | mm와 km | 1 cm=10 mm, 1 km=1000 m를 알고 길이를 어림하고 잰다. | pre G02-MAT-METER
+- MMKM | mm와 km | 1 cm=10 mm, 1 km=1000 m를 알고 길이를 어림하고 잰다. | pre G02-MAT-METER, G03-MAT-DECIMAL
 - SECOND | 초와 시간의 계산 | 1분=60초를 알고 시간의 덧셈·뺄셈을 한다. | pre G02-MAT-TIME
 - LITER | 들이 | L와 mL를 알고 들이를 어림하고 재며 더하고 뺀다.
 - WEIGHT | 무게 | kg·g·t를 알고 무게를 어림하고 재며 더하고 뺀다.

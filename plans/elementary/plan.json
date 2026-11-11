@@ -178,7 +178,7 @@
   ],
   "file_stem": "초1_국어_한글_07_여러가지받침",
   "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-BATCHIM2-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G01-KOR-VOWEL2-L01",
@@ -3651,7 +3651,8 @@
   "priority": 1,
   "pre": [
    "KR22-G03-MAT-CIRCLE-L01",
-   "KR22-G02-MAT-METER-L01"
+   "KR22-G02-MAT-METER-L01",
+   "KR22-G03-MAT-DECIMAL-L01"
   ],
   "file_stem": "초3_수학_도형과측정_04_mm와km",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-MMKM-L01.json",

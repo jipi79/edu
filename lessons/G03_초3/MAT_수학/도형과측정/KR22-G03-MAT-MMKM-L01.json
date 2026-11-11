@@ -36,6 +36,11 @@
       "text": "m와 cm",
       "lesson": "KR22-G02-MAT-METER-L01",
       "grade_item": "KR22-G02-MAT-I02"
+    },
+    {
+      "text": "소수 한 자리 수(0.1이 몇 개인지)",
+      "lesson": "KR22-G03-MAT-DECIMAL-L01",
+      "grade_item": "KR22-G03-MAT-I02"
     }
   ],
   "objectives": [
