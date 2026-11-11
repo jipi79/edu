@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-SOC-JOSEONCHG-L01",
+  "concept_id": "SOC-JOSEONCHG",
+  "title": "조선 후기 사회 변동",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사1",
+  "sequence": 6,
+  "file_stem": "고1_사회·역사_한국사1_06_조선후기사회변동",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "양 난 이후 대동법·균역법 등 수취 체제의 개편과 상품 화폐 경제의 발달, 신분제의 동요를 원인과 결과로 연결해 설명한다.",
+  "prerequisites": [
+    {
+      "text": "조선의 유교적 통치",
+      "lesson": "KR22-G10-SOC-JOSEONRULE-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    },
+    {
+      "text": "조선 후기의 변화",
+      "lesson": "KR22-G09-SOC-LATEJOSEON-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "조선 후기 사회 변동 활동지",
+    "items": [],
+    "record": []
+  }
+}

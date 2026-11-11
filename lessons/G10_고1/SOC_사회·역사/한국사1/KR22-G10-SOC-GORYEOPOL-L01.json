@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-SOC-GORYEOPOL-L01",
+  "concept_id": "SOC-GORYEOPOL",
+  "title": "고려 지배 세력의 변화",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사1",
+  "sequence": 4,
+  "file_stem": "고1_사회·역사_한국사1_04_고려지배세력의변화",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "호족·문벌 귀족·무신·권문세족·신진 사대부로 지배 세력이 바뀐 흐름을 정리하고 거란·몽골과의 관계가 그 변화에 준 영향을 사료로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "남북국과 동아시아 교류",
+      "lesson": "KR22-G10-SOC-NSEXCH-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    },
+    {
+      "text": "고려의 사회와 대외 관계",
+      "lesson": "KR22-G09-SOC-GORYEO-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "고려 지배 세력의 변화 활동지",
+    "items": [],
+    "record": []
+  }
+}

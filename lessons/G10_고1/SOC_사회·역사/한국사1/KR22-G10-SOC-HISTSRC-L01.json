@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-SOC-HISTSRC-L01",
+  "concept_id": "SOC-HISTSRC",
+  "title": "사료와 역사 해석",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사1",
+  "sequence": 1,
+  "file_stem": "고1_사회·역사_한국사1_01_사료와역사해석",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "사료를 1차·2차 사료로 나누고 작성자·시기·목적을 따져 같은 사건을 다룬 두 사료의 신뢰성과 관점 차이를 비교한다.",
+  "prerequisites": [
+    {
+      "text": "선사 시대와 고조선",
+      "lesson": "KR22-G09-SOC-PREHIST-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    },
+    {
+      "text": "자료의 신뢰성 평가",
+      "lesson": "KR22-G09-KOR-CREDIBLE-L01",
+      "grade_item": "KR22-G09-KOR-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "사료와 역사 해석 활동지",
+    "items": [],
+    "record": []
+  }
+}

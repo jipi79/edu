@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-SOC-MODREFORM-L01",
+  "concept_id": "SOC-MODREFORM",
+  "title": "근대 국민 국가 수립 운동",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사1",
+  "sequence": 7,
+  "file_stem": "고1_사회·역사_한국사1_07_근대국민국가수립운동",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "갑신정변·동학 농민 운동·갑오개혁·독립 협회·대한 제국의 개혁을 주체·목표·한계로 비교표에 정리하고 근대 국민 국가를 세우려던 노력의 흐름을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "조선 후기 사회 변동",
+      "lesson": "KR22-G10-SOC-JOSEONCHG-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    },
+    {
+      "text": "개항과 근대 개혁",
+      "lesson": "KR22-G09-SOC-OPENPORT-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "근대 국민 국가 수립 운동 활동지",
+    "items": [],
+    "record": []
+  }
+}

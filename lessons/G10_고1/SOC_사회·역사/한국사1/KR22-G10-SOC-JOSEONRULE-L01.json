@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-SOC-JOSEONRULE-L01",
+  "concept_id": "SOC-JOSEONRULE",
+  "title": "조선의 유교적 통치",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사1",
+  "sequence": 5,
+  "file_stem": "고1_사회·역사_한국사1_05_조선의유교적통치",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "의정부·6조·3사와 과거제·지방 행정이 권력을 나누고 견제하도록 짜인 구조를 설명하고 향약·족보 같은 사료로 유교 질서가 사회에 퍼진 과정을 해석한다.",
+  "prerequisites": [
+    {
+      "text": "고려 지배 세력의 변화",
+      "lesson": "KR22-G10-SOC-GORYEOPOL-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    },
+    {
+      "text": "조선의 건국과 통치",
+      "lesson": "KR22-G09-SOC-JOSEON-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "조선의 유교적 통치 활동지",
+    "items": [],
+    "record": []
+  }
+}
