@@ -1,0 +1,957 @@
+{
+  "id": "KR22-G11-ENG-VIEWSYN-L01",
+  "concept_id": "ENG-VIEWSYN",
+  "title": "여러 자료 관점 종합",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "영어1독해",
+  "sequence": 3,
+  "file_stem": "고2_영어_영어1독해_03_여러자료관점종합",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ENG-I01"
+    ],
+    "units": [
+      "3.2.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "자료의 관점 비교",
+      "lesson": "KR22-G09-ENG-SRCVIEW-L01",
+      "grade_item": "KR22-G09-ENG-I03"
+    },
+    {
+      "text": "요지·주제·제목 찾기",
+      "lesson": "KR22-G10-ENG-MAINIDEA-L01",
+      "grade_item": "KR22-G10-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "같은 쟁점을 다룬 짧은 자료 2~3개(설명문·논설문·기사·설문 같은 예시 자료)를 읽고, 공통 쟁점을 한 문장 질문으로 정리한 뒤 자료마다 관점(찬성·반대·중립·조건부)과 근거, 근거의 종류(사실·자료, 경험, 의견)를 비교표로 정리한다.",
+      "evidence": "종합의 네 열쇠(S03), 다섯 단계(S04), 점심시간 자료(S05), 비교표(S06), 청소 자료(S08), 혼자 해 보기(S11), 마무리 확인(S13 ①②), 활동지 1·2·3·4",
+      "success": "S11과 활동지 3의 비교표에서 자료 세 개의 관점을 모두 바르게 쓰고 근거를 자료마다 하나 이상 옮기며, 활동지 1의 근거 종류 5개 가운데 4개 이상을 바르게 나눈다. 숫자는 자료와 같게 쓴다."
+    },
+    {
+      "id": "B",
+      "text": "비교표를 바탕으로 공통점과 차이를 짚고, 한쪽 편만 들지 않고 여러 관점의 근거를 함께 담은 종합 결론을 영어 틀(Both ~ show that ~. / However, ~. / So, ~.)로 고르거나 쓴다.",
+      "evidence": "한쪽만 담은 결론 비교(S07), 종합 결론 고르기(S09), 가족 의견 종합 말하기(S10), 혼자 해 보기(S11), 마무리 확인(S13 ③), 활동지 2·3·4",
+      "success": "S09에서 종합 결론을 골라 다른 결론이 왜 아닌지 말하고, S11과 활동지 3·4의 종합 결론에 두 관점의 근거와 ‘So, ~’ 해결 문장을 모두 넣는다(기준표 세 항목 가운데 세 개)."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "형광펜이나 색연필 세 가지(자료 A·B·C의 근거를 다른 색으로 밑줄)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "같은 쟁점(학교생활)을 다룬 짧은 자료 세 개(합쳐서 100~150 낱말, 한 자료 15~60 낱말)를 비교해 종합하는 것을 다룬다. 자료의 종류는 설명문(학교 안내), 논설문(학생·학부모의 글), 기사, 설문 결과로 하고, 학교 이름·설문·숫자는 모두 지어낸 것이라 ‘예시 자료’로 표시한다. 설문의 백분율은 합이 100이 되게 한다. 비교표는 자료·글의 종류와 쓴 사람·관점·근거(종류) 네 칸으로 하고, 근거의 종류는 사실·자료, 경험, 의견 세 가지로 나눈다. 종합 결론은 영어 틀 세 문장(Both ~ show that ~. / However, ~. / So, ~.)으로 쓰고 우리말로 먼저 말해도 된다. 출처의 신뢰도를 깊이 따지기, 표본·오차 같은 통계 해석, 긴 논설문 쓰기는 다루지 않는다. ‘쟁점·관점·근거·종합’이라는 이름은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "자료 하나의 관점만 담거나 자기 생각만으로 결론을 쓴다(종합이 아니라 편들기).",
+      "response": "S03 종합 결론 카드와 S07 비교에서 한쪽만 담은 결론과 종합 결론을 나란히 보여 주고, S09 가·나 보기와 S11·활동지 3·4의 기준표로 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "설명문의 중립 정보를 찬성·반대 의견으로 분류하거나, 관점과 근거를 섞어 쓴다.",
+      "response": "S05·S06에서 자료 A(학교 안내)는 정보만 주는 중립이라는 것을 보여 주고, 비교표의 ‘관점’ 칸에는 한 낱말(찬성·반대·중립·조건부)만 쓰게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "설문 숫자를 과장해 읽는다(41% → 대부분, 58% → 모두 좋아한다).",
+      "response": "S09 다 보기와 S13 ①에서 숫자를 자료와 같게 읽게 하고, 결론에 숫자를 쓸 때는 자료에 있는 그대로 옮기게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "근거의 종류를 구분하지 않아 개인의 느낌(의견)과 설문 자료를 같은 무게로 본다.",
+      "response": "S03 근거 종류 카드와 S13 ②, 활동지 1에서 사실·자료, 경험, 의견을 나누어 보게 한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "여러 자료 관점 종합",
+      "question": "생각이 다른 세 자료,\n어떻게 하나의 결론으로 묶을까?",
+      "goals": [
+        "① 자료마다 관점과 근거를 비교표로 정리해요.",
+        "② 여러 관점을 함께 담은 종합 결론을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "자료 A·B·C"
+          },
+          {
+            "word": "비교표"
+          },
+          {
+            "word": "종합 결론"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 같은 쟁점을 두고 생각이 다른 여러 자료를 하나의 결론으로 정리하는 일에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“점심시간을 늘려야 할까? 학생, 선생님, 학교 신문의 생각이 서로 다를 수 있겠지?”",
+          "“오늘은 같은 문제를 다룬 여러 자료를 읽고, 생각과 근거를 표로 정리한 뒤 하나의 결론으로 묶는 연습을 할 거야. 이것을 종합이라고 해.”",
+          "“종합은 한쪽 편을 드는 게 아니라, 여러 생각의 좋은 근거를 함께 담는 거야.”"
+        ],
+        "예상답": [
+          "“학생은 늘리자고 하고, 선생님은 걱정할 것 같아요.”"
+        ],
+        "막히면": [
+          "“너는 점심시간이 길면 좋겠어? 그럼 누가 걱정할까?”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 자료의 학교 이름, 설문, 숫자는 모두 수업을 위해 지어낸 예시 자료입니다. 자료는 부모님이 한 번 소리 내어 읽어 주세요. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요.",
+          "중3 ‘자료의 관점 비교’에서 쓴 비교표(누가 썼나, 관점, 근거)를 오늘은 세 자료로 넓히고, 마지막에 종합 결론을 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(관점 비교, 요지)",
+      "role": "prior",
+      "objectives": [],
+      "title": "두 생각 비교하기",
+      "text": "두 사람의 말을 읽고 답해요.",
+      "problems": [
+        {
+          "text": "A: Homework helps us remember what we learned.\nB: Too much homework leaves no time to rest.\n→ 두 사람이 함께 말하는 주제는?"
+        },
+        {
+          "text": "①에서 A와 B의 관점은\n어떻게 다른가요?"
+        },
+        {
+          "text": "In a survey, 7 out of 10 students said they\nsleep less because of homework.\n→ 사실·자료? 의견?"
+        }
+      ],
+      "notes": {
+        "목적": "중3 ‘자료의 관점 비교’(KR22-G09-ENG-SRCVIEW-L01)에서 두 글의 관점과 근거를 비교한 것과, 고1 ‘요지·주제·제목 찾기’(KR22-G10-ENG-MAINIDEA-L01)에서 글의 요지를 한 문장으로 정리한 것을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“두 사람의 말을 읽어 볼래? ①, 두 사람이 함께 이야기하는 주제는?”",
+          "“②, 두 사람의 관점은 어떻게 달라? ③은 사실·자료일까, 의견일까?”"
+        ],
+        "정답": [
+          "① 숙제(homework)",
+          "② A는 숙제가 복습에 도움이 된다고 보고(좋게 봄), B는 숙제가 많으면 쉴 시간이 없다고 걱정함(나쁘게 봄)",
+          "③ 사실·자료(설문 결과). 숫자가 있고 확인할 수 있습니다."
+        ],
+        "막히면": [
+          "②는 “A는 숙제를 좋게 봐, 나쁘게 봐? B는?”이라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "7 out of 10은 ‘10명 가운데 7명’입니다. ③처럼 숫자가 든 근거가 오늘 배울 ‘자료’ 근거입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "종합의 네 열쇠(쟁점·관점·근거·종합 결론)",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "종합의 네 열쇠",
+      "text": "종합: 여러 자료의 관점과 근거를 묶어 하나의 결론을 내는 것",
+      "cards": [
+        {
+          "title": "쟁점",
+          "text": "자료들이 함께 다루는 질문\n점심시간을 늘려야 할까?"
+        },
+        {
+          "title": "관점",
+          "text": "찬성 · 반대 · 중립(정보만)\n· 조건부(~하면 찬성)"
+        },
+        {
+          "title": "근거의 종류",
+          "text": "사실·자료(숫자) · 경험 · 의견"
+        },
+        {
+          "title": "종합 결론",
+          "text": "여러 관점의 근거를 함께 담아\n해결책을 말해요."
+        }
+      ],
+      "key": "종합 = 한쪽 편들기 ×,  여러 관점의 근거를 함께 담기 ○",
+      "notes": {
+        "목적": "여러 자료를 종합하려면 공통 쟁점, 자료마다의 관점, 근거와 그 종류, 여러 관점을 담은 종합 결론이 필요하다는 것을 보여 줍니다(목표 A·B, 오해 M1·M2·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“쟁점은 자료들이 함께 다루는 질문이야. ‘점심시간을 늘려야 할까?’처럼 질문으로 만들면 좋아.”",
+          "“관점은 그 질문에 대한 입장이야. 찬성, 반대, 정보만 주는 중립, 그리고 ‘~하면 찬성’ 같은 조건부가 있어.”",
+          "“근거에도 종류가 있어. 숫자로 확인할 수 있는 사실·자료, 직접 겪은 경험, 그리고 ‘~라고 생각한다’는 의견.”",
+          "“종합 결론은 한쪽 편을 드는 게 아니라, 여러 자료의 근거를 함께 담아 해결책을 말하는 거야.”"
+        ],
+        "예상답": [
+          "“설명문은 중립이에요.” “숫자가 있으면 자료 근거예요.”"
+        ],
+        "막히면": [
+          "카드마다 “점심시간 이야기로 예를 들면?”이라고 물어 아이 말로 바꾸게 합니다."
+        ],
+        "주의": [
+          "근거의 종류에 따라 무게가 다릅니다. 한 사람의 느낌(의견)보다 여러 사람에게 물은 설문(자료)이 더 넓은 근거가 됩니다. 다만 자료도 숫자를 과장하지 않고 그대로 읽어야 합니다(오해 M3·M4)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "자료를 종합하는 다섯 단계",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "자료를 종합하는 다섯 단계",
+      "text": "종합 결론 틀: Both ~ show that ~. / However, ~. / So, ~.",
+      "steps": [
+        "쟁점을 질문 하나로",
+        "자료마다 관점을 한 낱말로",
+        "근거와 그 종류를 표에 옮기기",
+        "공통점과 차이 찾기",
+        "틀에 맞추어 종합 결론 쓰기"
+      ],
+      "notes": {
+        "목적": "쟁점을 질문으로 → 자료마다 관점 한 낱말 → 근거와 종류를 표에 → 공통점과 차이 → 종합 결론의 다섯 단계를 알려 줍니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째, 세 자료가 함께 다루는 쟁점을 질문 하나로 만들어.”",
+          "“둘째, 자료마다 관점을 한 낱말로 써. 찬성, 반대, 중립, 조건부.”",
+          "“셋째, 근거에 색을 달리해 밑줄을 긋고 표에 옮겨. 사실·자료인지, 경험인지, 의견인지도 적어.”",
+          "“넷째, 자료들이 함께 말하는 것(공통점)과 서로 다른 것(차이)을 찾아. 다섯째, 틀에 맞추어 종합 결론을 써.”"
+        ],
+        "예상답": [
+          "“쟁점을 질문으로 만들어요.” “관점은 한 낱말로 써요.”"
+        ],
+        "막히면": [
+          "단계마다 손가락을 하나씩 접으며 함께 말해 봅니다(질문 → 관점 → 근거 → 같은 점·다른 점 → 결론)."
+        ],
+        "주의": [
+          "종합 결론 틀: Both ~ show that ~. (공통점) / However, ~. (다른 관점) / So, ~. (둘 다 담은 해결책). 우리말로 먼저 말한 뒤 영어로 옮겨도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "점심시간 자료 세 개 읽기(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "함께 읽어요: 점심시간",
+      "passage": {
+        "paragraphs": [
+          "A 학교 안내(설명문): At Hana High School, lunch break is 50 minutes long. During this time, students eat in the cafeteria, talk with friends, play sports, or visit the library.",
+          "B 학생 지호의 글(논설문): Our lunch break should be longer. Many of us wait in line for about 20 minutes, so we have to eat in a hurry. We also need time to rest and move our bodies. A longer break would help us focus in afternoon classes.",
+          "C 학교 신문 기사(예시 자료): Last year, Hana High School made lunch break 20 minutes longer for one month. In a survey after the trial, 64% of students said they felt less tired in afternoon classes. However, some teachers pointed out that school ended later, so students got home later."
+        ]
+      },
+      "question": "① 세 자료가 함께 다루는 질문(쟁점)은?\n② A·B·C의 관점은? 근거에 밑줄을 그어요.",
+      "notes": {
+        "목적": "부모가 세 자료를 읽어 주고, 다섯 단계 가운데 앞의 세 단계(쟁점 → 관점 → 근거와 종류)를 함께 해 봅니다(목표 A, 오해 M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 세 자료를 한 번 읽어 줍니다.)",
+          "“세 자료가 함께 다루는 질문은? ‘점심시간을 늘려야 할까?’”",
+          "“A는 학교 안내문이야. 늘리자거나 줄이자는 말이 있어? 없지. 그래서 정보만 주는 중립이야.”",
+          "“B와 C의 관점은? 근거에 색을 달리해 밑줄을 그어 볼래? C에는 좋은 점과 걱정이 함께 있어.”"
+        ],
+        "예상답": [
+          "“B는 찬성이에요. 줄 서느라 20분을 기다려서 급하게 먹는대요.” “C는 64%가 덜 피곤했대요. 그런데 집에 늦게 간대요.”"
+        ],
+        "막히면": [
+          "“C에서 However 앞은 좋은 점이야, 걱정이야? 뒤는?”이라고 묻습니다."
+        ],
+        "주의": [
+          "관점: A 중립(정보), B 찬성, C 좋은 점과 걱정을 함께 보도(조건부에 가까움). 근거 종류: A 사실, B 경험·의견, C 자료(64%)와 교사의 걱정.",
+          "자료의 뜻: A 하나고등학교의 점심시간은 50분이에요. 이 시간에 학생들은 급식실에서 밥을 먹고, 친구와 이야기하고, 운동을 하거나 도서관에 가요. B 우리 점심시간은 더 길어야 해요. 우리 가운데 많은 학생이 20분쯤 줄을 서서 급하게 먹어야 해요. 쉬고 몸을 움직일 시간도 필요해요. 점심시간이 길어지면 오후 수업에 더 집중할 수 있을 거예요. C 작년에 하나고등학교는 한 달 동안 점심시간을 20분 늘렸어요. 시험 운영 뒤 설문에서 학생의 64%가 오후 수업에 덜 피곤했다고 답했어요. 하지만 몇몇 선생님은 학교가 늦게 끝나서 학생들이 집에 늦게 갔다고 지적했어요. (cafeteria: 급식실, in a hurry: 급하게, focus: 집중하다, trial: 시험 운영, point out: 지적하다)",
+          "학교 이름과 설문 숫자는 모두 지어낸 예시 자료입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "점심시간 자료 비교표와 종합 결론(시범)",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "비교표로 정리하고 종합해요",
+      "text": "쟁점: 점심시간을 늘려야 할까?",
+      "table": {
+        "headers": [
+          "자료(종류)",
+          "관점",
+          "근거(종류)"
+        ],
+        "rows": [
+          [
+            "A 학교 안내(설명문)",
+            "중립",
+            "점심시간 50분, 급식·운동·도서관(사실)"
+          ],
+          [
+            "B 학생 지호(논설문)",
+            "찬성",
+            "20분 줄 서서 급하게 먹음(경험)"
+          ],
+          [
+            "C 학교 신문(예시 자료)",
+            "조건부",
+            "64% 덜 피곤(자료), 집에 늦게 감(교사 의견)"
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.13,
+          0.57
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "Both B and C show that a longer break helps students rest.\nHowever, C shows that school may end later.\nSo, the school could make it longer if school can still end on time.",
+      "notes": {
+        "목적": "S05의 세 자료를 비교표로 정리하고, 공통점과 차이를 짚어 종합 결론 틀에 맞추어 쓰는 시범을 보입니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 관점 칸에는 한 낱말만, 근거 칸에는 자료에 있는 말을 그대로 옮겼어.”",
+          "“B와 C가 함께 보여 주는 것은? 점심시간이 길면 덜 피곤하고 집중에 도움이 된다는 거야. 그런데 C의 걱정은? 집에 늦게 간다는 거지.”",
+          "“그래서 종합 결론은 아래처럼 세 문장이야. 두 관점을 모두 담고, 마지막에 해결책을 말했어.”"
+        ],
+        "예상답": [
+          "“So 문장은 둘 다 생각한 해결책이에요.”"
+        ],
+        "막히면": [
+          "표의 줄을 하나씩 손가락으로 짚으며 S05 자료에서 같은 말을 찾게 합니다."
+        ],
+        "주의": [
+          "종합 결론의 뜻: B와 C 모두 점심시간이 길면 학생들이 쉬는 데 도움이 된다는 것을 보여 준다. 하지만 C는 학교가 늦게 끝날 수 있다는 것도 보여 준다. 그러니 학교가 여전히 제시간에 끝날 수 있다면 점심시간을 늘릴 수 있다.",
+          "So 문장의 해결책(제시간에 끝나게 하기, 예를 들어 다른 쉬는 시간을 조금 줄이기)은 자료에 없는 새 생각이어도 됩니다. 다만 두 관점의 근거를 모두 담아야 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(한쪽만 담은 결론)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "종합 결론은 어느 쪽?",
+      "claim": "점심시간 자료 세 개로 두 친구가 결론을 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "text": "Lunch break should be\nlonger because students\nwait in line for 20 minutes."
+      },
+      "right": {
+        "title": "나",
+        "text": "A longer break helps students\nrest, but school may end later.\nSo, the school should plan\nthe time carefully."
+      },
+      "question": "어느 쪽이 종합 결론인가요? 다른 쪽은 무엇을 빠뜨렸나요?",
+      "notes": {
+        "목적": "한 자료의 관점만 담은 결론과, 두 관점의 근거를 함께 담은 결론을 비교합니다(목표 B, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 점심시간 자료로 결론을 이렇게 썼어. 어느 쪽이 ‘종합’ 결론일까?”",
+          "“가는 어떤 자료의 생각만 담았지? C의 걱정은 어디 갔을까?”"
+        ],
+        "정답": [
+          "나가 종합 결론입니다. B·C의 좋은 점(덜 피곤함)과 C의 걱정(늦게 끝남)을 함께 담고, 둘을 모두 생각한 해결책을 말했습니다. 가는 B의 생각만 담아 C의 걱정을 빼 버렸습니다(편들기)."
+        ],
+        "막히면": [
+          "S06 표를 다시 보여 주고 “가의 결론에 C의 걱정이 들어 있어?”라고 묻습니다."
+        ],
+        "주의": [
+          "내 생각이 한쪽이어도 종합 결론에는 다른 관점의 근거를 넣어야 합니다. 그래야 읽는 사람이 믿을 수 있습니다.",
+          "여기까지가 종합하는 방법과 시범입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "교실 청소 자료 세 개로 비교표 만들기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "정리해요: 교실 청소",
+      "passage": {
+        "paragraphs": [
+          "A 학생 민호의 글(논설문): I think students should clean their own classrooms. When we clean together, we learn to take care of our space and to work as a team. In my class, we finish in 15 minutes when everyone helps.",
+          "B 학부모의 편지(논설문): I don't think students should do all the cleaning. Many students are busy after school, and cleaning takes away their study time. Also, some cleaning products can be dangerous, so adults should use them.",
+          "C 설문 결과(예시 자료): An example school asked 200 students, “Should students clean their classrooms?” 58% said yes, 30% said no, and 12% were not sure. Many students who said yes added, “But only for a short time.”"
+        ]
+      },
+      "question": "① 쟁점을 질문 하나로 만들어요.\n② A·B·C의 관점과 근거(종류)를 활동지 2 표에 정리해요.",
+      "notes": {
+        "목적": "부모가 한 번 읽어 준 뒤, 아이가 쟁점을 질문으로 만들고 자료마다 관점과 근거(종류)를 활동지 2 비교표에 정리합니다(목표 A, 오해 M2·M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 세 자료를 한 번 읽어 줍니다.)",
+          "“세 자료가 함께 다루는 질문은? 그다음 활동지 2 표에 관점과 근거를 정리해 줘. 근거마다 사실·자료, 경험, 의견 가운데 무엇인지도 써.”"
+        ],
+        "정답": [
+          "쟁점: 학생이 자기 교실을 청소해야 할까?",
+          "A 학생 민호(논설문) — 찬성 — 공간을 아끼고 팀으로 일하는 법을 배움(의견), 모두 도우면 15분에 끝남(경험)",
+          "B 학부모(논설문) — 반대 — 공부 시간을 빼앗음(의견), 어떤 청소 용품은 위험함(사실에 가까운 의견)",
+          "C 설문(예시 자료) — 찬성이 많지만 조건부 — 58% 찬성, 30% 반대, 12% 모름(자료), 찬성한 학생도 ‘짧은 시간만’(자료)"
+        ],
+        "막히면": [
+          "“A는 청소를 좋게 봐, 나쁘게 봐? B는? C에서 58%는 무엇에 대한 숫자야?”라고 묻습니다."
+        ],
+        "주의": [
+          "C의 Many students who said yes added, “But only for a short time.”는 찬성한 학생들도 조건(짧은 시간)을 붙였다는 뜻입니다. 종합 결론의 실마리가 됩니다.",
+          "자료의 뜻: A 나는 학생이 자기 교실을 청소해야 한다고 생각해요. 함께 청소하면 우리 공간을 아끼는 법과 팀으로 일하는 법을 배워요. 우리 반은 모두 도우면 15분 만에 끝나요. B 나는 학생이 청소를 모두 해야 한다고 생각하지 않아요. 많은 학생이 방과 후에 바쁘고, 청소는 공부 시간을 빼앗아요. 또 어떤 청소 용품은 위험할 수 있으니 어른이 써야 해요. C 한 예시 학교가 학생 200명에게 ‘학생이 교실을 청소해야 할까요?’라고 물었어요. 58%는 그렇다, 30%는 아니다, 12%는 잘 모르겠다고 답했어요. 그렇다고 답한 많은 학생이 ‘하지만 짧은 시간만요.’라고 덧붙였어요. (take care of: 아끼다·돌보다, product: 용품, dangerous: 위험한, add: 덧붙이다)"
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "choice",
+      "section": "연습",
+      "purpose": "청소 자료의 종합 결론 고르기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "S08 자료의 종합 결론은?",
+      "text": "세 자료의 근거를 함께 담은 결론을 골라요.",
+      "options": [
+        {
+          "text": "Students should clean their classrooms because it teaches teamwork."
+        },
+        {
+          "text": "Students should never clean because cleaning is dangerous."
+        },
+        {
+          "text": "Most students love cleaning, so they should clean for hours."
+        },
+        {
+          "text": "Students clean for a short time; adults use the dangerous products."
+        }
+      ],
+      "question": "종합 결론은? 나머지 세 개는 왜 아닌가요?",
+      "notes": {
+        "목적": "네 결론 가운데 세 자료의 근거를 함께 담은 종합 결론을 고르고, 나머지가 왜 아닌지 말합니다(목표 B, 오해 M1·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“네 결론 가운데 세 자료를 모두 생각한 종합 결론은 무엇일까? 나머지는 왜 아닌지도 말해 줘.”"
+        ],
+        "정답": [
+          "라 Students clean for a short time; adults use the dangerous products. — A·C(찬성, 짧은 시간)와 B(시간·위험 걱정)를 함께 담았습니다.",
+          "가: A의 생각만 담음(편들기) / 나: B의 생각만 담고 never로 과장함 / 다: 58%를 ‘대부분이 아주 좋아한다’로 과장하고, ‘몇 시간씩’은 ‘짧은 시간만’이라는 자료와 반대"
+        ],
+        "막히면": [
+          "보기마다 “이 결론에 A의 생각이 있어? B는? C의 숫자는 맞게 썼어?”라고 묻습니다."
+        ],
+        "주의": [
+          "58%는 절반을 조금 넘는 수입니다. ‘Most students love ~’처럼 쓰면 자료를 과장한 것입니다(오해 M3)."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "가족 의견 종합해 말하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 우리 집 의견 종합",
+      "steps": [
+        "부모가 관점과 근거를 말해요.",
+        "아이가 자기 관점과 근거를 말해요.",
+        "아이가 Both ~ / However ~ / So ~\n틀로 종합해요.",
+        "역할을 바꿔 아이가 쟁점을 정해요.",
+        "부모가 종합해 말해요."
+      ],
+      "criteria": [
+        "두 사람의 근거를 모두 담았어요",
+        "So 문장에 해결책을 말했어요",
+        "틀에 맞추어 말했어요"
+      ],
+      "notes": {
+        "목적": "부모와 아이가 한 쟁점에 대해 서로 다른 관점과 근거를 말한 뒤, 아이가 두 관점을 함께 담은 종합 결론을 영어 틀로 말합니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“쟁점은 ‘주말에 늦잠을 자도 될까?(Should we sleep late on weekends?)’야. 엄마(아빠)가 먼저 말할게.”",
+          "(부모의 말: I think we should get up at the same time every day. It keeps our body clock steady.)",
+          "“이번엔 네 관점과 근거를 말해 줘. 그다음 우리 두 사람의 생각을 Both ~ / However ~ / So ~ 틀로 종합해 볼래?”",
+          "“역할을 바꿔서, 이번엔 네가 쟁점을 하나 정해 볼까? (예: 저녁 식사 때 휴대 전화를 치울까?)”"
+        ],
+        "예상답": [
+          "아이의 말 예: I want to sleep late because I am tired after a busy week.",
+          "종합 예: Both of us want to feel rested. However, Mom thinks a regular time is good for our body. So, I can sleep a little longer, about one hour, on weekends.",
+          "기준: 두 사람의 근거를 모두 담고, So 문장에서 두 관점을 함께 생각한 해결책을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "우리말로 먼저 종합하게 한 뒤 틀의 빈칸에 영어 낱말을 넣도록 돕습니다.",
+          "Both 문장이 어려우면 “우리 둘 다 원하는 것은 뭘까? 둘 다 피곤하지 않기를 바라지?”라고 묻습니다."
+        ],
+        "주의": [
+          "body clock은 ‘몸속 시계(생체 시계)’, steady는 ‘일정한’, rested는 ‘푹 쉰’입니다. 아이의 관점이 부모와 달라도 괜찮습니다. 종합은 누가 이기는 것이 아니라 둘 다 담는 것입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 해 보기(비교표와 종합 결론)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 봐요: 토요일 도서관",
+      "passage": {
+        "paragraphs": [
+          "A 소라의 글: Our school library should open on Saturdays. Many students don't have a quiet place to study at home, especially when they have little brothers or sisters. The library has desks, books, and free Wi-Fi, so it is a great place to study on weekends.",
+          "B 기사(예시): Last spring, an example school opened its library on four Saturdays. About 25 students came each day, mostly to study for exams. However, the school had to pay a librarian for the extra days, and some parents asked who would be responsible for safety.",
+          "C 설문(예시): When 300 students were asked, “Would you use the library on Saturdays?”, 22% answered “every week,” 41% answered “sometimes,” and 37% answered “never.”"
+        ]
+      },
+      "question": "활동지 3에 비교표를 채우고, 종합 결론을 세 문장(Both / However / So)으로 써요.",
+      "notes": {
+        "목적": "도움 없이 세 자료의 쟁점·관점·근거(종류)를 비교표로 정리하고, 종합 결론을 영어 틀로 쓰는지 확인합니다(목표 A·B). 활동지 3에 씁니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 자료를 소리 내어 읽고 활동지 3의 표를 채운 뒤, 종합 결론을 세 문장으로 써 줘.”"
+        ],
+        "정답": [
+          "쟁점: 학교 도서관을 토요일에 열어야 할까?",
+          "A 학생 소라(논설문) — 찬성 — 집에 조용히 공부할 곳이 없는 학생이 많음(의견), 책상·책·무료 와이파이가 있음(사실)",
+          "B 기사(예시 자료) — 걱정(조건부) — 토요일마다 25명쯤 옴(자료), 사서에게 돈을 줘야 함·안전 책임 문제(사실·학부모 의견)",
+          "C 설문(예시 자료) — 찬성이 많음 — 매주 22%, 가끔 41%(합 63%), 안 씀 37%(자료)",
+          "종합 결론 예: Both A and C show that many students want to use the library on Saturdays. However, B shows that it costs money and someone must take care of safety. So, the school could open the library on some Saturdays with a librarian.",
+          "기준: 표의 관점 세 개가 맞고 근거를 자료마다 하나 이상 옮기며, 종합 결론에 두 관점의 근거와 So 해결 문장이 모두 있으면 통과입니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “B는 도서관을 열면 무엇이 걱정이래? C에서 매주와 가끔을 더하면?”이라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "C의 숫자는 그대로 옮기게 합니다. 63%(22% + 41%)는 ‘절반이 넘는 학생’이지만 ‘모든 학생’은 아닙니다.",
+          "자료의 뜻: A 우리 학교 도서관은 토요일에 문을 열어야 해요. 많은 학생이, 특히 어린 동생이 있으면 집에 조용히 공부할 곳이 없어요. 도서관에는 책상, 책, 무료 와이파이가 있어서 주말에 공부하기 좋은 곳이에요. B 지난봄 한 예시 학교가 토요일 네 번 도서관을 열었어요. 날마다 25명쯤 왔는데, 대부분 시험공부를 하러 왔어요. 하지만 학교는 늘어난 날만큼 사서에게 돈을 줘야 했고, 몇몇 학부모는 안전은 누가 책임지느냐고 물었어요. C 학생 300명에게 ‘토요일에 도서관을 이용하겠어요?’라고 물었더니 22%는 ‘매주’, 41%는 ‘가끔’, 37%는 ‘안 함’이라고 답했어요. (quiet: 조용한, librarian: 사서, responsible: 책임 있는, safety: 안전)"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 답",
+      "good": [
+        {
+          "text": "A 찬성, B 걱정, C 찬성이 많음(63%)"
+        },
+        {
+          "text": "Both A and C show that ~"
+        },
+        {
+          "text": "However, B shows ~  So, ~"
+        }
+      ],
+      "bad": [
+        {
+          "text": "Open it every day!",
+          "note": "A만 담음\n(편들기)"
+        },
+        {
+          "text": "Almost all want it.",
+          "note": "63%를\n과장"
+        },
+        {
+          "text": "B: 찬성",
+          "note": "B는 비용·안전\n걱정"
+        }
+      ],
+      "explain": "쟁점 → 관점 → 근거(종류) → 같은 점·다른 점 → Both / However / So",
+      "notes": {
+        "목적": "아이의 비교표와 종합 결론을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 쓴 것과 왼쪽을 비교해 보자. 오른쪽처럼 쓰면 무엇을 놓친 걸까?”"
+        ],
+        "예상답": [
+          "“저는 A 생각만 썼어요.” “63%를 거의 모두라고 썼어요.”"
+        ],
+        "정답": [
+          "관점: A 찬성, B 걱정(조건부), C 찬성이 많음(63%). 종합 결론에 A·C의 근거와 B의 걱정, So 해결책이 모두 있으면 통과."
+        ],
+        "막히면": [
+          "관점을 틀렸으면 S03 관점 카드와 S06 비교표를, 결론이 한쪽이면 S07을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(숫자 읽기·근거 종류·종합 틀)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "읽고, 나누고, 종합해요",
+      "text": "①②는 답하고, ③은 종합 결론을 말해요.",
+      "problems": [
+        {
+          "text": "In a survey of 100 students, 41% said yes.\n→ ‘Most students said yes.’라고 써도 될까요?"
+        },
+        {
+          "text": "I think cleaning is boring.\n→ 사실·자료, 경험, 의견 가운데 무엇?"
+        },
+        {
+          "text": "A: Video games help us think fast and make friends.\nB: Playing games late at night makes students tired.\n→ Video games can ___, but ___. So, ___."
+        }
+      ],
+      "notes": {
+        "목적": "설문 숫자를 과장 없이 읽고, 근거의 종류를 나누며, 두 관점을 종합 결론 틀로 묶는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①②는 답과 까닭을 말하고, ③은 빈칸을 채워 종합 결론을 말해 줘.”"
+        ],
+        "정답": [
+          "① 아니요. 41%는 절반이 안 되므로 ‘대부분’이 아닙니다(41% of the students처럼 숫자를 그대로 씀).",
+          "② 의견 (I think ~, 개인의 느낌)",
+          "③ 예: Video games can help us think fast and make friends, but playing late at night makes us tired. So, students should play only for a short time before dinner.",
+          "기준: ①② 모두 맞고 ③에 두 관점과 해결책이 모두 있으면 통과입니다."
+        ],
+        "막히면": [
+          "①은 “100명 가운데 41명이면 절반보다 많아, 적어?”, ③은 “게임의 좋은 점은? 나쁜 점은? 둘 다 생각하면 어떻게 하면 좋을까?”라고만 묻습니다."
+        ],
+        "주의": [
+          "틀린 문제는 기록표에 적고 다음 수업 첫 5분에 S03 카드를 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "쟁점 질문 → 관점 → 근거(사실·자료, 경험, 의견) → 같은 점·다른 점\nBoth ~ show that ~.  /  However, ~.  /  So, ~.",
+      "do": "여러 관점의 근거를 함께 담기",
+      "dont": "한쪽 편만 들기, 숫자 과장",
+      "review": [
+        {
+          "text": "자료를 종합하는\n다섯 단계는?"
+        },
+        {
+          "text": "종합 결론의\n세 문장 틀은?"
+        },
+        {
+          "text": "설문 숫자를 결론에\n쓸 때 주의할 점은?"
+        }
+      ],
+      "next": "요약문 쓰기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“자료를 종합하는 다섯 단계를 말해 볼래?”",
+          "“종합 결론의 세 문장 틀은?”"
+        ],
+        "예상답": [
+          "“쟁점 질문, 관점, 근거, 같은 점·다른 점, 결론이요.” “Both, However, So요.”"
+        ],
+        "정답": [
+          "① 쟁점을 질문 하나로 → 자료마다 관점 한 낱말 → 근거와 종류를 표에 → 공통점과 차이 → 종합 결론",
+          "② Both ~ show that ~. / However, ~. / So, ~.",
+          "③ 숫자를 그대로 옮긴다(41%를 ‘대부분’이라고 하지 않음). 의견과 자료를 구분한다."
+        ],
+        "주의": [
+          "신문이나 학교 가정통신문에서 같은 주제에 대한 두 가지 생각을 찾아 “둘 다 담은 결론은?”을 물어보면 좋은 복습이 됩니다. 다음 차시 ‘요약문 쓰기’에서는 글의 요지와 주요 근거를 골라 원문의 표현을 바꾸어 세 문장 안팎의 요약문을 직접 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(관점과 근거 종류 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 관점과 근거",
+      "layout": "support",
+      "text": "관점은 한 낱말, 근거는 종류까지!",
+      "table": {
+        "headers": [
+          "문장",
+          "관점",
+          "근거 종류"
+        ],
+        "rows": [
+          [
+            "Lunch break is 50 minutes long.",
+            "중립(정보)",
+            "사실"
+          ],
+          [
+            "Lunch break should be longer.",
+            "찬성",
+            "의견"
+          ],
+          [
+            "I waited in line for 20 minutes.",
+            "찬성 쪽",
+            "경험"
+          ],
+          [
+            "64% felt less tired.",
+            "찬성 쪽",
+            "자료"
+          ]
+        ],
+        "widths": [
+          0.5,
+          0.25,
+          0.25
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": {
+        "title": "숫자는 그대로",
+        "text": "41%는 ‘대부분’이 아니에요. 자료에 있는 숫자를 그대로 옮겨요."
+      },
+      "notes": {
+        "목적": "S02에서 관점 비교나 근거 구분이 흔들리면, 종합하기 전에 짧은 문장으로 관점과 근거의 종류를 다시 나누어 봅니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 이 문장은 찬성이야, 반대야, 정보만 주는 거야? 근거는 숫자야, 겪은 일이야, 생각이야?”",
+          "“엄마(아빠)가 말하는 문장도 나눠 볼래? Our class has 25 students. / I think our class is too noisy. / Yesterday, I couldn't hear the teacher.”"
+        ],
+        "정답": [
+          "Our class has 25 students. → 사실 / I think our class is too noisy. → 의견 / Yesterday, I couldn't hear the teacher. → 경험"
+        ],
+        "막히면": [
+          "‘I think, should’가 있으면 의견, 숫자나 누구나 확인할 수 있는 것은 사실·자료, ‘내가 겪은 일’은 경험이라고 알려 줍니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중3 ‘자료의 관점 비교’(KR22-G09-ENG-SRCVIEW-L01)와 고1 ‘요지·주제·제목 찾기’(KR22-G10-ENG-MAINIDEA-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "여러 자료 관점 종합 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "근거의 종류에 ○ 하세요.",
+        "table": {
+          "headers": [
+            "근거",
+            "사실·자료",
+            "경험",
+            "의견"
+          ],
+          "rows": [
+            [
+              "① 58% of the students said yes.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "② I think uniforms look nice.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "③ In my class, we finish cleaning in 15 minutes.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "④ The library is open from 9 a.m. to 5 p.m.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "⑤ A longer break would help us focus.",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.58,
+            0.14,
+            0.14,
+            0.14
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① 사실·자료 ② 의견 ③ 경험 ④ 사실 ⑤ 의견(앞으로의 일을 짐작한 생각). 다섯 개 가운데 네 개 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "화면의 ‘정리해요: 교실 청소’(S08) 자료로 비교표를 채우고, S09에서 고른 종합 결론과 그 까닭을 쓰세요.\n쟁점(질문): ________________________________________",
+        "table": {
+          "headers": [
+            "자료(종류·쓴 사람)",
+            "관점(한 낱말)",
+            "근거(종류)"
+          ],
+          "rows": [
+            [
+              "A",
+              "",
+              " \n \n "
+            ],
+            [
+              "B",
+              "",
+              " \n \n "
+            ],
+            [
+              "C",
+              "",
+              " \n \n "
+            ]
+          ],
+          "widths": [
+            0.26,
+            0.18,
+            0.56
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "고른 결론 · 까닭:",
+        "lines": 2,
+        "answer": "쟁점: 학생이 자기 교실을 청소해야 할까? A 학생 민호(논설문) 찬성 — 공간을 아끼고 팀으로 일하는 법(의견), 15분이면 끝남(경험). B 학부모(논설문) 반대 — 공부 시간을 빼앗음(의견), 위험한 청소 용품(사실에 가까운 의견). C 설문(예시 자료) 찬성이 많음·조건부 — 58% 찬성, 30% 반대, 12% 모름, ‘짧은 시간만’(자료). 고른 결론: 라 Students clean for a short time; adults use the dangerous products. 까닭: A·C의 찬성과 짧은 시간, B의 걱정을 함께 담았다. 관점 세 개와 근거 자료마다 하나, 결론과 까닭이 맞으면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "화면의 ‘혼자 해 봐요: 토요일 도서관’(S11) 자료로 비교표를 채우고 종합 결론을 세 문장으로 쓰세요.\n쟁점(질문): ________________________________________",
+        "table": {
+          "headers": [
+            "자료(종류·쓴 사람)",
+            "관점(한 낱말)",
+            "근거(종류)"
+          ],
+          "rows": [
+            [
+              "A",
+              "",
+              " \n \n "
+            ],
+            [
+              "B",
+              "",
+              " \n \n "
+            ],
+            [
+              "C",
+              "",
+              " \n \n "
+            ]
+          ],
+          "widths": [
+            0.26,
+            0.18,
+            0.56
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "종합 결론 (Both ~ / However, ~ / So, ~):",
+        "lines": 3,
+        "answer": "쟁점: 학교 도서관을 토요일에 열어야 할까? A 학생 소라(논설문) 찬성 — 집에 조용한 공부 장소가 없는 학생이 많음(의견), 책상·책·무료 와이파이(사실). B 기사(예시 자료) 걱정·조건부 — 토요일마다 25명쯤(자료), 사서 비용·안전 책임(사실·학부모 의견). C 설문(예시 자료) 찬성이 많음 — 매주 22% + 가끔 41% = 63%, 안 씀 37%(자료). 종합 결론 예: Both A and C show that many students want to use the library on Saturdays. However, B shows that it costs money and someone must take care of safety. So, the school could open the library on some Saturdays with a librarian. 기준표: ① 두 관점의 근거가 모두 있음 ② So 문장에 해결책이 있음 ③ 숫자를 과장하지 않음. 세 항목 모두면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "교복에 관한 세 자료를 읽고, 종합 결론을 Both ~ / However, ~ / So, ~ 세 문장으로 쓰세요. (학교와 설문은 지어낸 예시 자료입니다.)",
+        "read": "A 학생 지수의 글(논설문): I like our school uniform. I don't have to think about what to wear every morning, so I save time. Also, when everyone wears the same clothes, nobody feels bad about not having expensive clothes. The uniform also makes me feel proud of my school.\nB 학생 대니얼의 글(논설문): School uniforms are not comfortable, especially in summer. The jacket is hot, and it is hard to move freely during breaks. I also want to show my personality through my clothes.\nC 설문 결과(예시 자료): An example school asked 250 students about uniforms. 48% wanted to keep them, 36% wanted to change them to more comfortable ones such as T-shirts, and 16% wanted no uniforms at all.",
+        "line_label": "종합 결론:",
+        "lines": 3,
+        "answer": "쟁점: 학교는 교복을 계속 입게 해야 할까? A 학생 지수 찬성 — 아침 시간 절약, 모두 같은 옷이라 비싼 옷이 없어도 속상하지 않음, 학교에 대한 자부심. B 학생 대니얼 반대 — 여름에 불편, 쉬는 시간에 움직이기 어려움, 개성을 보이고 싶음. C 설문 — 유지 48%, 티셔츠처럼 편한 교복으로 바꾸기 36%, 교복 없애기 16%(합 100%). 종합 결론 예: Both A and C show that many students want to keep school uniforms because they save time. However, B and 36% of the students say that uniforms are uncomfortable. So, the school could keep uniforms but change them to more comfortable ones, such as T-shirts. 기준표: ① 찬성 근거와 불편하다는 근거가 모두 있음 ② So 문장에 해결책이 있음 ③ 숫자를 과장하지 않음(48%를 ‘대부분’이라고 쓰지 않음). 세 항목 모두면 통과. 낱말 뜻: uniform 교복, comfortable 편한, especially 특히, freely 자유롭게, personality 개성. 자료의 뜻: A 나는 우리 교복이 좋아요. 아침마다 무엇을 입을지 생각하지 않아도 되니 시간이 절약돼요. 또 모두 같은 옷을 입으면 비싼 옷이 없다고 속상한 사람이 없어요. 교복을 입으면 우리 학교가 자랑스럽기도 해요. B 교복은 특히 여름에 편하지 않아요. 재킷은 덥고, 쉬는 시간에 자유롭게 움직이기 어려워요. 나는 옷으로 내 개성도 보여 주고 싶어요. C 한 예시 학교가 학생 250명에게 교복에 대해 물었어요. 48%는 교복을 그대로 두기를, 36%는 티셔츠처럼 더 편한 교복으로 바꾸기를, 16%는 교복을 아예 없애기를 원했어요."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 자료를 종합하는 다섯 단계를 쓰세요.\n② 종합 결론의 세 문장 틀을 쓰세요.\n③ 설문 숫자를 결론에 쓸 때 주의할 점을 쓰세요.",
+        "lines": 3,
+        "answer": "① 쟁점을 질문 하나로 → 자료마다 관점 한 낱말 → 근거와 종류를 표에 → 공통점과 차이 → 종합 결론 ② Both ~ show that ~. / However, ~. / So, ~. ③ 숫자를 자료 그대로 옮기고 과장하지 않는다(41%를 ‘대부분’이라고 하지 않음). 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 관점 세 개 □  근거 자료마다 하나 □  종합 결론 기준 세 항목 □ (도움을 받음 □)",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "한쪽 편만 든 결론을 쓰거나 숫자를 과장함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}

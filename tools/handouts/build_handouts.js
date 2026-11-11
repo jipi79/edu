@@ -28,7 +28,8 @@ const { SCRIPT_RUNS, scriptKind, plainScript } = require("../pptx/scripts");
 const UNIT = /(\d) (?=(?:kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal|m\/s|g\/cm³|g\/mL)(?![A-Za-z]))/g;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
   .replace(UNIT, "$1\u00a0").replace(/(\d) : (?=\d)/g, "$1\u00a0:\u00a0")
-  .replace(SCRIPT_RUNS, (m) => `<${scriptKind(m)}>${plainScript(m)}</${scriptKind(m)}>`);
+  .replace(SCRIPT_RUNS, (m) => `<${scriptKind(m)}>${plainScript(m)}</${scriptKind(m)}>`)
+  .replace(/\u27e6([^\u27e7]*)\u27e7/g, "<u>$1</u>").replace(/[\u27e6\u27e7]/g, "");
 
 const CSS = `
   @page { size: A4; margin: 16mm 15mm 16mm 15mm; }

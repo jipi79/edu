@@ -552,6 +552,13 @@ async function finalize(file, alt) {
     // 표 칸은 언어가 en-US로 들어가므로 한글이 든 글은 한국어로 고친다.
     xml = xml.replace(/<a:rPr lang="en-US"([^>]*)>((?:(?!<\/a:rPr>)[\s\S])*)<\/a:rPr><a:t>([^<]*)<\/a:t>/g, (m, attrs, inner, tx) =>
       /[\uac00-\ud7af]/.test(tx) ? `<a:rPr lang="ko-KR"${attrs.replace(/altLang="[^"]*"/, 'altLang="en-US"')}>${inner}</a:rPr><a:t>${tx}</a:t>` : m);
+    // ⟦ ⟧ 로 감싼 부분은 밑줄을 긋는다(영어 '밑줄 친 표현', 국어 지문의 밑줄). 괄호 자체는 지운다.
+    xml = xml.replace(/<a:r>(<a:rPr\b[^>]*?)(\/>|>[\s\S]*?<\/a:rPr>)<a:t>([^<]*)<\/a:t><\/a:r>/g, (m, open, rest, tx) => {
+      if (!/[\u27e6\u27e7]/.test(tx)) return m;
+      return tx.split(/(\u27e6[^\u27e7]*\u27e7)/).filter((s) => s).map((s) => /^\u27e6/.test(s)
+        ? `<a:r>${open.replace("<a:rPr", '<a:rPr u="sng"')}${rest}<a:t>${s.slice(1, -1)}</a:t></a:r>`
+        : `<a:r>${open}${rest}<a:t>${s.replace(/[\u27e6\u27e7]/g, "")}</a:t></a:r>`).join("");
+    });
     // 위첨자(2³, Na⁺)·아래 첨자(H₂O) 문자는 글꼴에 따라 너무 작거나 떠 보이므로 보통 글자를 첨자 서식으로 바꾼다.
     xml = xml.replace(/<a:r>(<a:rPr\b[^>]*?)(\/>|>[\s\S]*?<\/a:rPr>)<a:t>([^<]*)<\/a:t><\/a:r>/g, (m, open, rest, tx) => {
       if (!SCRIPT_ANY.test(tx)) return m;
@@ -566,6 +573,10 @@ async function finalize(file, alt) {
       xml = xml.replace(`name="${name}">`, `name="${name}" descr="${escapeXml(text)}">`);
     }
     zip.file(part, xml);
+  }
+  for (const part of Object.keys(zip.files).filter((f) => /^ppt\/notesSlides\/notesSlide\d+\.xml$/.test(f))) {
+    const xml = await zip.file(part).async("string");
+    if (/[\u27e6\u27e7]/.test(xml)) zip.file(part, xml.replace(/[\u27e6\u27e7]/g, ""));
   }
   fs.writeFileSync(file, await zip.generateAsync({ type: "nodebuffer", compression: "DEFLATE" }));
 }

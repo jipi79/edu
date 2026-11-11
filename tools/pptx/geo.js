@@ -279,7 +279,7 @@ function layout(fig, box, labelSize, maxUnit) {
 // 활동지용 SVG. 1단위 = unitMm mm(자는 실제 cm 크기 그대로).
 // 활동지 그림의 위첨자·아래 첨자 문자를 tspan으로 올리고 내린다.
 function svgScripts(t) {
-  return t.replace(SCRIPT_RUNS, (m) => scriptKind(m) === "sup"
+  return t.replace(/\u27e6([^\u27e7]*)\u27e7/g, '<tspan text-decoration="underline">$1</tspan>').replace(/[\u27e6\u27e7]/g, "").replace(SCRIPT_RUNS, (m) => scriptKind(m) === "sup"
     ? `<tspan baseline-shift="super" font-size="70%">${plainScript(m)}</tspan>`
     : `<tspan baseline-shift="sub" font-size="70%">${plainScript(m)}</tspan>`);
 }
