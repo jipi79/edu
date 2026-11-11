@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G10-KOR-PHONDEL-L01",
+  "concept_id": "KOR-PHONDEL",
+  "title": "음운의 탈락과 첨가",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "공통국어문법",
+  "sequence": 3,
+  "file_stem": "고1_국어_공통국어문법_03_음운의탈락과첨가",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-KOR-I02"
+    ],
+    "units": [
+      "1.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "자음군 단순화·ㅎ 탈락·ㅡ 탈락과 ㄴ 첨가가 일어나는 낱말을 찾아 소리가 줄거나 더해지는 과정을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "비음화·유음화·구개음화",
+      "lesson": "KR22-G10-KOR-PHONASSIM-L01",
+      "grade_item": "KR22-G10-KOR-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "음운의 탈락과 첨가 활동지",
+    "items": [],
+    "record": []
+  }
+}

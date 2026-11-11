@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G10-KOR-PHONCONT-L01",
+  "concept_id": "KOR-PHONCONT",
+  "title": "축약과 음운 변동 정리",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "공통국어문법",
+  "sequence": 4,
+  "file_stem": "고1_국어_공통국어문법_04_축약과음운변동정리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-KOR-I02"
+    ],
+    "units": [
+      "1.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "거센소리되기와 모음 축약을 설명하고 낱말의 발음 변화를 교체·탈락·첨가·축약으로 분류한다.",
+  "prerequisites": [
+    {
+      "text": "음운의 탈락과 첨가",
+      "lesson": "KR22-G10-KOR-PHONDEL-L01",
+      "grade_item": "KR22-G10-KOR-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "축약과 음운 변동 정리 활동지",
+    "items": [],
+    "record": []
+  }
+}

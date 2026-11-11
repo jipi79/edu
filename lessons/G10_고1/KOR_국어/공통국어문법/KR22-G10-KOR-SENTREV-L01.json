@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-KOR-SENTREV-L01",
+  "concept_id": "KOR-SENTREV",
+  "title": "문장의 짜임과 호응",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "공통국어문법",
+  "sequence": 5,
+  "file_stem": "고1_국어_공통국어문법_05_문장의짜임과호응",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-KOR-I02"
+    ],
+    "units": [
+      "1.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "겹문장의 짜임을 분석하고 주어·서술어·부사어의 호응이 어긋난 문장을 찾아 바르게 고쳐 쓴다.",
+  "prerequisites": [
+    {
+      "text": "안은 문장",
+      "lesson": "KR22-G09-KOR-EMBED-L01",
+      "grade_item": "KR22-G09-KOR-I03"
+    },
+    {
+      "text": "홑문장과 이어진 문장",
+      "lesson": "KR22-G09-KOR-CONJSENT-L01",
+      "grade_item": "KR22-G09-KOR-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "문장의 짜임과 호응 활동지",
+    "items": [],
+    "record": []
+  }
+}
