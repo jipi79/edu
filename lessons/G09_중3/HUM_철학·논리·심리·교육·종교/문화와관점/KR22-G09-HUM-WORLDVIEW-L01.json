@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-HUM-WORLDVIEW-L01",
+  "concept_id": "HUM-WORLDVIEW",
+  "title": "세계관 비교와 공존",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "HUM",
+  "strand_label": "철학·논리·심리·교육·종교",
+  "unit_folder": "문화와관점",
+  "sequence": 1,
+  "file_stem": "중3_철학·논리·심리·교육·종교_문화와관점_01_세계관비교와공존",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-HUM-I03"
+    ],
+    "units": [
+      "11.5.1",
+      "11.1.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "역사·종교·문화 속 서로 다른 세계관을 비교하고 공존의 조건을 토의한다.",
+  "prerequisites": [
+    {
+      "text": "가치와 종교적 표현 비교",
+      "lesson": "KR22-G08-HUM-EXPRESSION-L01",
+      "grade_item": "KR22-G08-HUM-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "세계관 비교와 공존 활동지",
+    "items": [],
+    "record": []
+  }
+}
