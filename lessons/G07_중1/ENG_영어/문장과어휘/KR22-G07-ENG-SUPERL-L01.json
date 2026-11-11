@@ -631,10 +631,10 @@
       "text": "빈칸에 in과 of 가운데 알맞은 말을 넣어 읽어요.",
       "problems": [
         {
-          "text": "the tallest ___ my family"
+          "text": "the biggest ___ the four boxes"
         },
         {
-          "text": "the biggest ___ the four boxes"
+          "text": "the tallest ___ my family"
         },
         {
           "text": "the oldest tree ___ the park"
@@ -651,8 +651,8 @@
           "“빈칸에 in과 of 가운데 알맞은 말을 넣어 읽어 줘. 왜 그렇게 골랐는지도 말해 볼래?”"
         ],
         "정답": [
-          "① in (my family: 한 모임)",
-          "② of (the four boxes: 상자 넷, 여럿)",
+          "① of (the four boxes: 상자 넷, 여럿)",
+          "② in (my family: 한 모임)",
           "③ in (the park: 장소)",
           "④ of (all: 모두, 여럿)"
         ],
@@ -660,7 +660,7 @@
           "빈칸 뒤의 낱말이 하나의 장소·모임인지, 여럿인지 먼저 묻습니다."
         ],
         "주의": [
-          "②에서 in이라고 하면 “상자가 몇 개야? 넷 ‘가운데’지?”라고 짚어 줍니다."
+          "①에서 in이라고 하면 “상자가 몇 개야? 넷 ‘가운데’지?”라고 짚어 줍니다."
         ]
       }
     },
@@ -1040,7 +1040,7 @@
           "text": "hot, good의\n최상급은?"
         },
         {
-          "text": "the tallest ___ my family\nin? of?"
+          "text": "the tallest ___ the four\nin? of?"
         },
         {
           "text": "‘이 책이 셋 가운데 가장\n재미있어요.’를 영어로"
@@ -1059,7 +1059,7 @@
         ],
         "정답": [
           "① the hottest, the best",
-          "② in (in my family)",
+          "② of (of the four: 넷 가운데, 여럿)",
           "③ This book is the most interesting of the three."
         ],
         "주의": [
@@ -1200,10 +1200,10 @@
               "① Minsu is the fastest runner ______ our school."
             ],
             [
-              "② This is the cheapest ______ the four bags."
+              "② My grandma is the oldest ______ my family."
             ],
             [
-              "③ My grandma is the oldest ______ my family."
+              "③ This is the cheapest ______ the four bags."
             ],
             [
               "④ He is the tallest ______ all the boys."
@@ -1220,7 +1220,7 @@
           ],
           "size": 14
         },
-        "answer": "① in (our school: 장소·모임) ② of (the four bags: 여럿) ③ in (my family) ④ of (all the boys) ⑤ in (our town) ⑥ of (the five players). 여섯 개 가운데 다섯 개 이상이면 통과."
+        "answer": "① in (our school: 장소·모임) ② in (my family) ③ of (the four bags: 여럿) ④ of (all the boys) ⑤ in (our town) ⑥ of (the five players). 여섯 개 가운데 다섯 개 이상이면 통과."
       },
       {
         "no": 3,
@@ -1330,9 +1330,9 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① hot, good의 최상급을 쓰세요.\n② the tallest ___ my family의 빈칸에 in과 of 가운데 알맞은 말을 쓰세요.\n③ ‘이 책이 셋 가운데 가장 재미있어요.’를 영어로 쓰세요.",
+        "prompt": "① hot, good의 최상급을 쓰세요.\n② the tallest ___ the four의 빈칸에 in과 of 가운데 알맞은 말을 쓰세요.\n③ ‘이 책이 셋 가운데 가장 재미있어요.’를 영어로 쓰세요.",
         "lines": 3,
-        "answer": "① the hottest, the best ② in ③ This book is the most interesting of the three. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① the hottest, the best ② of ③ This book is the most interesting of the three. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

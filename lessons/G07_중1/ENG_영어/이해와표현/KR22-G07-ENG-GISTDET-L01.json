@@ -298,13 +298,13 @@
           "text": "공원에 요즘 쓰레기가 많아요."
         },
         {
-          "text": "토요일 공원 청소에 함께 참여해요."
-        },
-        {
           "text": "청소가 끝나면 간식을 줘요."
         },
         {
           "text": "우리 동네 공원은 아주 넓어요."
+        },
+        {
+          "text": "토요일 공원 청소에 함께 참여해요."
         }
       ],
       "question": "요지는? 나머지는 왜 요지가 아닌가요?",
@@ -314,13 +314,13 @@
         "말하기": [
           "“S04 안내문의 요지로 알맞은 것은? 고른 까닭도 말해 줘.”",
           "“가는 글에 있는 말이야. 그런데 왜 요지가 아닐까?”",
-          "“다는? 라는?”"
+          "“나와 다는 왜 요지가 아닐까?”"
         ],
         "정답": [
-          "나 (토요일 공원 청소에 함께 참여해요.)",
+          "라 (토요일 공원 청소에 함께 참여해요.)",
           "가: 글의 첫 문장이지만 청소하자는 까닭일 뿐, 글 전체가 하고 싶은 말이 아닙니다.",
-          "다: 글에 있는 세부 정보 하나입니다(너무 좁음).",
-          "라: 글에 없는 내용입니다."
+          "나: 글에 있는 세부 정보 하나입니다(너무 좁음).",
+          "다: 글에 없는 내용입니다."
         ],
         "막히면": [
           "보기마다 “이 말이 ①~④ 모두에 해당해, 한 부분에만 해당해?”라고 묻습니다. 모든 부분을 아우르는 것이 요지입니다."
@@ -501,11 +501,11 @@
       "claim": "두 친구가 S08 대화의 요지를 이렇게 말했어요.",
       "left": {
         "title": "가",
-        "text": "준은 10시에 피아노 수업이 있어요."
+        "text": "미나가 준을 과학 축제에 초대했어요."
       },
       "right": {
         "title": "나",
-        "text": "미나가 준을 과학 축제에 초대했어요."
+        "text": "준은 10시에 피아노 수업이 있어요."
       },
       "question": "어느 쪽이 요지인가요? 다른 쪽은 무엇인가요?",
       "notes": {
@@ -513,10 +513,10 @@
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 대화의 요지를 이렇게 말했어. 둘 다 대화에 나온 말이지? 그런데 어느 쪽이 요지일까?”",
-          "“가는 대화 전체가 하고 싶은 말이야, 한 부분이야?”"
+          "“나 쪽은 대화 전체가 하고 싶은 말이야, 한 부분이야?”"
         ],
         "정답": [
-          "요지는 나(미나가 준을 과학 축제에 초대했어요.)입니다. 가는 대화에 나온 세부 정보 하나로, 시각을 바꾼 까닭일 뿐입니다."
+          "요지는 가(미나가 준을 과학 축제에 초대했어요.)입니다. 나는 대화에 나온 세부 정보 하나로, 시각을 바꾼 까닭일 뿐입니다."
         ],
         "막히면": [
           "“이 대화를 다른 사람에게 한 문장으로 전한다면? ‘준은 피아노 수업이 있대’라고 하면 무슨 대화였는지 알 수 있을까?”라고 묻습니다."
@@ -768,13 +768,13 @@
         "prompt": "안내문을 끝까지 읽고, 요지로 알맞은 것에 ✔ 하세요. 요지가 드러난 문장에 밑줄을 그으세요.",
         "read": "School Sports Day\nHello, students! Our school's Sports Day is coming soon. It is a day for everyone to have fun and cheer for each other. Sports Day is on Friday, October 11. It starts at 9:30 a.m. on the school field. If it rains, we will move to the gym. There will be relay races, tug-of-war, and a dance show by the first graders. Please wear your class T-shirt and comfortable shoes. Bring a water bottle and a hat. Lunch will be served at school, so you don't need to bring lunch. Parents are welcome to come and watch. Let's enjoy the day together and do our best!",
         "choices": [
-          "체육대회에 모두 함께 즐겁게 참여해요.",
           "비가 오면 체육관으로 옮겨요.",
-          "1학년이 춤 공연을 해요.",
-          "운동을 매일 하면 건강해져요."
+          "운동을 매일 하면 건강해져요.",
+          "체육대회에 모두 함께 즐겁게 참여해요.",
+          "1학년이 춤 공연을 해요."
         ],
         "choices_size": 13,
-        "answer": "체육대회에 모두 함께 즐겁게 참여해요. 근거: It is a day for everyone to have fun and cheer for each other. / Let's enjoy the day together and do our best! (둘째 보기와 셋째 보기는 세부 정보 하나, 넷째 보기는 글에 없는 내용) 낱말 뜻: cheer 응원하다, field 운동장, relay race 이어달리기, tug-of-war 줄다리기, comfortable 편한, serve 내주다."
+        "answer": "체육대회에 모두 함께 즐겁게 참여해요. 근거: It is a day for everyone to have fun and cheer for each other. / Let's enjoy the day together and do our best! (첫째 보기와 넷째 보기는 세부 정보 하나, 둘째 보기는 글에 없는 내용) 낱말 뜻: cheer 응원하다, field 운동장, relay race 이어달리기, tug-of-war 줄다리기, comfortable 편한, serve 내주다."
       },
       {
         "no": 2,
@@ -811,8 +811,8 @@
         "no": 3,
         "prompt": "부모님이 읽어 주는 대화를 두 번 듣고, 표를 채운 뒤 대화의 요지에 ✔ 하세요. 듣기 전에 표와 보기를 먼저 읽으세요.",
         "choices": [
-          "소라가 벤에게 벼룩시장 일을 도와 달라고 부탁해요.",
           "벤은 일요일마다 할머니와 아침을 먹어요.",
+          "소라가 벤에게 벼룩시장 일을 도와 달라고 부탁해요.",
           "벤에게는 큰 탁자가 없어요."
         ],
         "choices_size": 13,

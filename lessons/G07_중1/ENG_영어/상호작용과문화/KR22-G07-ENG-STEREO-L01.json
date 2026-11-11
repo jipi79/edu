@@ -309,10 +309,10 @@
       "text": "고정관념이 담긴 문장 두 개를 골라요.",
       "options": [
         {
-          "text": "Many people in Korea like K-pop."
+          "text": "All Koreans eat kimchi every day."
         },
         {
-          "text": "All Koreans are good at taekwondo."
+          "text": "Many people in Korea like K-pop."
         },
         {
           "text": "Ana from Brazil plays soccer well."
@@ -330,8 +330,8 @@
           "“다는 브라질에서 온 Ana가 축구를 잘한다고 했어. 이건 고정관념일까?”"
         ],
         "정답": [
-          "나(All, 모든 한국 사람이 태권도를 잘하는 것은 아님), 라(Everyone, every day)",
-          "가는 Many(많은)로 흔한 모습을 말한 것이고, 다는 한 사람(Ana)에 대한 사실이라 고정관념이 아닙니다."
+          "가(All, 모든 한국 사람이 날마다 김치를 먹는 것은 아님), 라(Everyone, every day)",
+          "나는 Many(많은)로 흔한 모습을 말한 것이고, 다는 한 사람(Ana)에 대한 사실이라 고정관념이 아닙니다."
         ],
         "막히면": [
           "S04 표의 신호 말을 다시 보여 주고, 문장마다 신호 말이 있는지 먼저 찾게 합니다."
@@ -512,7 +512,7 @@
           "Minji: Ana, you're from Brazil, so you're good at soccer, right?",
           "Ana: Haha, not really. I'm not good at soccer. I like drawing.",
           "Minji: Oh, sorry! So not all Brazilians play soccer?",
-          "Ana: No. Many people in Brazil love soccer, but not everyone plays it.",
+          "Ana: Right. Many people in Brazil love soccer, but not everyone plays it.",
           "Minji: I see. It's the same in Korea. I don't like K-pop much.",
           "Ana: Really? So not all Koreans love K-pop?",
           "Minji: Right. I like classical music."
@@ -528,11 +528,11 @@
           "“두 사람은 어떻게 고쳐 말했어? 어떤 말을 썼지?”"
         ],
         "정답": [
-          "고정관념이 담긴 말: Minji의 you're from Brazil, so you're good at soccer, right?(브라질 사람이니까 축구를 잘한다), Ana의 Really? So not all Koreans love K-pop?에 담긴 생각(한국 사람은 모두 케이팝을 좋아한다)",
-          "고쳐 말한 말: Many people in Brazil love soccer, but not everyone plays it. / So not all Koreans love K-pop? / Right."
+          "고정관념이 담긴 말: Minji의 you're from Brazil, so you're good at soccer, right?(브라질 사람이니까 축구를 잘한다). Ana가 Really?라고 놀란 데서 Ana도 ‘한국 사람은 모두 케이팝을 좋아한다’고 생각했음을 알 수 있습니다.",
+          "고쳐 말한 말: Minji의 So not all Brazilians play soccer? / Ana의 Many people in Brazil love soccer, but not everyone plays it. / Ana의 So not all Koreans love K-pop?"
         ],
         "막히면": [
-          "대화의 뜻: 민지: 아나, 너 브라질에서 왔으니까 축구 잘하지? / 아나: 하하, 아니. 나는 축구를 못해. 그림 그리기를 좋아해. / 민지: 아, 미안! 그러니까 모든 브라질 사람이 축구를 하는 건 아니구나? / 아나: 응. 브라질의 많은 사람이 축구를 무척 좋아하지만 모두가 하는 건 아니야. / 민지: 그렇구나. 한국도 마찬가지야. 나는 케이팝을 별로 안 좋아해. / 아나: 정말? 그러니까 모든 한국 사람이 케이팝을 좋아하는 건 아니네? / 민지: 맞아. 나는 클래식 음악을 좋아해."
+          "대화의 뜻: 민지: 아나, 너 브라질에서 왔으니까 축구 잘하지? / 아나: 하하, 아니. 나는 축구를 못해. 그림 그리기를 좋아해. / 민지: 아, 미안! 그러니까 모든 브라질 사람이 축구를 하는 건 아니구나? / 아나: 맞아. 브라질의 많은 사람이 축구를 무척 좋아하지만 모두가 하는 건 아니야. / 민지: 그렇구나. 한국도 마찬가지야. 나는 케이팝을 별로 안 좋아해. / 아나: 정말? 그러니까 모든 한국 사람이 케이팝을 좋아하는 건 아니네? / 민지: 맞아. 나는 클래식 음악을 좋아해."
         ],
         "주의": [
           "Minji는 Oh, sorry!라고 사과하고, Ana는 화내지 않고 자기 이야기를 들려줍니다. 고정관념을 바로잡을 때의 좋은 태도로 짚어 줍니다."
@@ -695,10 +695,10 @@
       "text": "네 문장을 읽고 골라요.",
       "options": [
         {
-          "text": "Some people in Japan don't like sushi."
+          "text": "All Japanese people eat sushi every day."
         },
         {
-          "text": "All Japanese people eat sushi every day."
+          "text": "Some people in Japan don't like sushi."
         },
         {
           "text": "Pizza is a famous food in Italy."
@@ -715,8 +715,8 @@
           "“고정관념이 담기지 않은 문장 두 개는? 나머지 두 문장은 어떻게 고칠까?”"
         ],
         "정답": [
-          "고정관념이 없는 문장: 가(Some people in Japan don't like sushi.), 다(Pizza is a famous food in Italy.)",
-          "나 → Sushi is a famous food in Japan. / Not all Japanese people eat sushi every day.",
+          "고정관념이 없는 문장: 나(Some people in Japan don't like sushi.), 다(Pizza is a famous food in Italy.)",
+          "가 → Sushi is a famous food in Japan. / Not all Japanese people eat sushi every day.",
           "라 → Some Italians eat rice, too. (never를 빼고 Some으로 고칩니다.)",
           "기준: 두 개를 바르게 고르고 까닭(신호 말 all, never)을 말하면 목표 A 달성, 나머지 하나 이상을 고쳐 말하면 목표 B도 확인된 것으로 봅니다."
         ],
@@ -835,12 +835,12 @@
         "no": 1,
         "prompt": "고정관념이 담긴 문장에 모두 ✔ 하고, 그 문장의 신호 말에 동그라미 하세요.",
         "choices": [
-          "All Koreans like spicy food.",
           "My uncle in Canada likes ice hockey.",
+          "All Koreans like spicy food.",
           "Everyone in Canada likes ice hockey.",
           "Kimchi is a famous food in Korea.",
-          "Japanese students never eat bread for lunch.",
-          "Some people in Italy don't like pizza."
+          "Some people in Italy don't like pizza.",
+          "Japanese students never eat bread for lunch."
         ],
         "choices_size": 14,
         "answer": "✔: All Koreans like spicy food.(All) / Everyone in Canada likes ice hockey.(Everyone) / Japanese students never eat bread for lunch.(never). 세 개를 모두 고르고 신호 말에 동그라미 하면 통과. 삼촌 한 사람의 이야기, 널리 알려진 음식, Some으로 쓴 문장은 고정관념이 아닙니다."
