@@ -180,7 +180,8 @@ function jamo(html) {
 }
 
 function tableHtml(t) {
-  const br = (s) => jamo(esc(s)).replace(/\n/g, "<br>");
+  // 빈칸용 줄바꿈(" \n ")도 한 줄 높이를 차지하게, 줄바꿈 뒤가 비면 줄바꿈 없는 공백을 넣는다.
+  const br = (s) => jamo(esc(s)).replace(/\n(?=\s*(?:\n|$))/g, "<br>\u00a0").replace(/\n/g, "<br>");
   const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${br(h)}</th>`).join("")}</tr>` : "";
   const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${br(c)}</th>` : `<td style="height:9mm; min-width:18mm; text-align:center">${br(c)}</td>`);
   const rows = t.rows.map((r) => `<tr>${r.map(cell).join("")}</tr>`).join("");
