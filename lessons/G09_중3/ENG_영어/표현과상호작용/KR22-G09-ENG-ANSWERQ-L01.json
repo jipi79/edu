@@ -60,7 +60,7 @@
     "부모님이 미리 고른 질문 세 개(S10 노트의 질문 목록에서 아이의 주제에 맞는 것)",
     "교과서 디지털 자료나 사전 앱(문장 소리 듣기)"
   ],
-  "boundary": "발표 뒤 질문에 답하는 말은 질문 확인 Could you say that again? / Do you mean ~?(중1 ‘뜻 확인하며 대화 잇기’), 생각할 시간을 버는 That's a good question., 근거를 든 대답 I think ~ because ~.(중2 ‘접속사 because’)와 For example, ~., 모를 때의 I'm not sure, but I think ~.만 쓴다. 부모가 묻는 질문은 What about ~?(막연한 질문)과 중3 ‘간접의문문’의 Can you tell me why ~? / I wonder if ~. / Do you know how many ~?로 하며, 아이는 이 질문을 알아듣고 답하는 데 쓴다. 반대 의견에 반박하기, I agree / I disagree, 토론 규칙, 여러 사람의 질문을 차례로 받는 진행, 사실을 찾아 확인하는 조사(인터넷 검색)는 다루지 않는다. 질문의 주제는 지난 두 차시에 아이가 고른 주제(운동·요리·독서)와 본보기 주제(걸어서 학교 가기)로 한다. 과거형은 ‘과거 시제 문장’에서 배운 동사만 쓴다.",
+  "boundary": "발표 뒤 질문에 답하는 말은 질문 확인 Could you say that again? / Do you mean ~?(중1 ‘뜻 확인하며 대화 잇기’), 생각할 시간을 버는 That's a good question., 근거를 든 대답 I think ~ because ~.(중2 ‘접속사 because’)와 For example, ~., 모를 때의 I'm not sure, but I think ~.만 쓴다. 부모가 묻는 질문은 What about ~?(막연한 질문)과 중3 ‘간접의문문’에서 배운 틀(Can you tell me + 의문사 ~? / I wonder if ~. / Do you know + 의문사 ~?)로 하며, 그 차시에 나오지 않은 의문사 why·how many·how old는 노트에서 뜻을 알려 준다. 아이는 이 질문을 알아듣고 답하는 데 쓴다. 반대 의견에 반박하기, I agree / I disagree, 토론 규칙, 여러 사람의 질문을 차례로 받는 진행, 사실을 찾아 확인하는 조사(인터넷 검색)는 다루지 않는다. 질문의 주제는 지난 두 차시에 아이가 고른 주제(운동·요리·독서)와 본보기 주제(걸어서 학교 가기)로 한다. 과거형은 ‘과거 시제 문장’에서 배운 동사만 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -123,7 +123,7 @@
         "목적": "오늘 배울 것을 알리고, 지난 차시의 발표를 한 번 더 한 뒤 질문에 답하는 데 관심을 갖게 합니다. 의견·이유 문단 → 의견 발표하기 → 질문에 답하기로 이어지는 세 차시의 마지막입니다.",
         "시간": "약 2분",
         "말하기": [
-          "“지난 시간에 2분 발표를 했지? 진짜 발표에서는 끝나고 나면 듣는 사람이 질문을 해. 오늘은 그 질문에 답하는 법을 배울 거야.”",
+          "“지난 시간에 영어로 발표를 했지? 진짜 발표에서는 끝나고 나면 듣는 사람이 질문을 해. 오늘은 그 질문에 답하는 법을 배울 거야.”",
           "“질문을 받으면 어떤 기분이 들 것 같아? 모르는 걸 물으면 어떻게 하지?”",
           "“오른쪽 세 문장이 오늘 쓸 말이야. 같이 들어 보자.” (소리 자료로 듣고 따라 말합니다.)"
         ],
@@ -165,7 +165,8 @@
         "말하기": [
           "“①, 이 질문은 무엇을 묻는 거야?”",
           "“②, 질문이 잘 안 들렸을 때 공손하게 뭐라고 하지?”",
-          "“③, 엄마(아빠)가 물어볼게. Why do you like summer?”"
+          "“③, 엄마(아빠)가 물어볼게. Why do you like summer?”",
+          "“같은 질문을 이렇게도 물어볼게. Can you tell me why you like summer? ‘왜 여름을 좋아하는지 알려 줄래?’라는 뜻이야. 답은 똑같이 because로 하면 돼.”"
         ],
         "정답": [
           "① 도서관이 문을 열었는지 알려 줄 수 있어요?",
@@ -326,6 +327,7 @@
         "시간": "약 3분",
         "말하기": [
           "“엄마(아빠)가 Mom, 네가 지호야. 역할을 나누어 읽어 보자.” (소리 자료가 있으면 함께 듣습니다.)",
+          "“how many students는 ‘학생 몇 명’이야. how many도 where, what처럼 묻는 낱말(의문사)이야.”",
           "“지호가 질문을 확인한 말은? because로 근거를 든 말은 몇 번 나와?”",
           "“세 번째 질문에 지호는 왜 I'm not sure라고 했을까? 숫자를 지어내지 않은 게 왜 좋을까?”"
         ],
@@ -336,7 +338,7 @@
           "대화의 뜻: 엄마: 비 오는 날은? / 지호: 비 오는 날 걷는 것 말이에요? / 엄마: 응. / 지호: 우산을 쓰면 되니까 그래도 괜찮다고 생각해요. / 엄마: 걷는 게 안전한지 궁금해. / 지호: 좋은 질문이에요. 친구들과 함께 걸어서 안전하다고 생각해요. / 엄마: 너희 학교에 걸어서 오는 학생이 몇 명인지 알아? / 지호: 잘 모르지만, 많은 학생이 걸어온다고 생각해요."
         ],
         "주의": [
-          "엄마의 둘째·셋째 질문은 지난 ‘간접의문문’ 차시에서 배운 I wonder if ~.와 Do you know + 의문사 ~?(여기서는 how many)입니다. how many students처럼 의문사와 주어가 함께 있으면 순서가 바뀌지 않습니다(소개만 합니다)."
+          "엄마의 둘째·셋째 질문은 지난 ‘간접의문문’ 차시에서 배운 I wonder if ~.와 Do you know + 의문사 ~?입니다. how many(몇 명, 몇 개)는 그 차시에 나오지 않은 의문사이니 읽기 전에 뜻을 알려 줍니다. how many students처럼 의문사와 주어가 함께 있으면 순서가 바뀌지 않습니다(소개만 합니다)."
         ]
       }
     },
@@ -373,8 +375,8 @@
         "정답": [
           "① Do you mean the park at night? (Do you mean, is the park safe at night?도 맞음)",
           "② Do you mean pets in small homes? (Do you mean, can we have pets in small homes?도 맞음)",
-          "③ Do you mean summer days? / Do you mean, is summer too hot?",
-          "기준: Do you mean 뒤에 질문을 그대로 되풀이하지 않고 내가 이해한 뜻을 말하면 맞습니다. 이어서 답한 예: ① I think it's safe because there are many lights. ② I think small pets like fish are okay. ③ I think it's okay because we can swim."
+          "③ Do you mean very hot days in summer? / Do you mean, is summer too hot?",
+          "기준: Do you mean 뒤에 질문을 그대로 되풀이하지 않고 내가 이해한 뜻을 말하면 맞습니다. 이어서 답한 예: ① I think it's safe because there are many lights. ② I think small pets like fish are okay because they don't need much space. ③ I think it's okay because we can swim."
         ],
         "막히면": [
           "“이 질문은 무엇에 대해 묻는 걸까? 우리말로 먼저 말해 봐.”라고 하고, 아이의 우리말을 영어로 함께 옮깁니다."
@@ -482,7 +484,8 @@
         ],
         "주의": [
           "화면의 213년은 ‘지어낸 숫자’의 예로 일부러 넣은 것입니다. 실제 도서관 이야기가 아닙니다.",
-          "I'm not sure, but I'll check.(잘 모르지만 찾아볼게요.)도 좋은 대답입니다. will은 중1에서 배운 말이라 아이가 써도 됩니다."
+          "I'm not sure, but I'll check.(잘 모르지만 찾아볼게요.)도 좋은 대답입니다. will은 중1에서 배운 말이라 아이가 써도 됩니다.",
+          "how old는 ‘몇 살인지, (건물이) 몇 년 되었는지’를 묻는 말입니다. where·what처럼 의문사라 뒤가 주어 + 동사 순서입니다(how old the library is)."
         ]
       },
       "key": "모르면 지어내지 말고, I'm not sure, but ~.로 아는 만큼만 말해요."
@@ -526,7 +529,7 @@
           "①에서 의견만 말하면 “왜?”라고 한 번 더 묻습니다. 근거가 우리말로 나오면 함께 영어로 옮깁니다."
         ],
         "주의": [
-          "review는 ‘복습하다’입니다. ③에서 아이가 실제 숫자를 알면 그대로 말해도 됩니다.",
+          "review는 ‘복습하다’입니다. ③의 how many books는 ‘책 몇 권’입니다. ③에서 아이가 실제 숫자를 알면 그대로 말해도 됩니다.",
           "여기까지가 답하는 방법 익히기입니다. 아이가 지치면 여기서 나누어 다음 날 S10부터 해도 됩니다."
         ]
       }
@@ -560,7 +563,7 @@
         "말하기": [
           "“지난 시간처럼 발표해 줘. 끝나면 엄마(아빠)가 질문을 세 개 할 거야.” (발표가 끝나면 박수를 칩니다.)",
           "운동(Playing sports is good for students.)을 골랐다면: ① “What about winter?” (기대: Do you mean playing sports in winter? → I think we can play badminton in the gym because it is warm.) ② “I wonder if sports take too much time.” (기대: I think they don't take much time because one hour is enough.) ③ “Do you know how many people play soccer in the world?” (기대: I'm not sure, but I think a lot of people play it.)",
-          "요리(Learning to cook is useful.)를 골랐다면: ① “What about the kitchen?” (기대: Do you mean, is the kitchen safe? → I think it's safe because I cook with my mom.) ② “I wonder if cooking is too difficult for students.” (기대: I think it isn't difficult because we can start with easy food like eggs.) ③ “Do you know when people first cooked food?” (기대: I'm not sure, but I think it was a long, long time ago.)",
+          "요리(Learning to cook is useful.)를 골랐다면: ① “What about the kitchen?” (기대: Do you mean, is the kitchen safe? → I think it's safe because I cook with my mom.) ② “I wonder if cooking is too difficult for students.” (기대: I think it isn't difficult because we can start with easy food like eggs.) ③ “Do you know what time the school kitchen opens?” (기대: I'm not sure, but I think it opens early in the morning.)",
           "독서(Reading books is a great hobby.)를 골랐다면: ① “What about comic books?” (기대: Do you mean, are comic books good, too? → I think they are good, too, because they are fun.) ② “I wonder if videos are better than books.” (기대: I think books are better because we can imagine the story.) ③ “Do you know how many books are in our town library?” (기대: I'm not sure, but I think there are thousands of books.)",
           "역할을 바꿔 부모가 S05 본보기(Walking to School)로 짧게 발표하고, 아이가 What about ~? / I wonder if ~. / Do you know ~?로 질문합니다."
         ],
@@ -573,8 +576,9 @@
           "질문이 너무 어렵게 들리면 천천히 한 번 더 말해 주거나(Could you say that again?을 아이가 먼저 말하게 기다립니다) 낱말을 쉽게 바꿉니다."
         ],
         "주의": [
-          "질문 ③의 답(세계의 축구 인구, 처음 요리한 때, 동네 도서관의 책 수)은 부모님도 정확히 몰라도 됩니다. 오늘은 사실을 맞히는 것이 아니라 ‘모를 때 지어내지 않고 답하기’를 봅니다.",
-          "질문을 미리 알려 주지 않습니다. 처음 듣는 질문에 답하는 연습이 목적입니다."
+          "질문 ③의 답(세계의 축구 인구, 학교 급식실이 문을 여는 시각, 동네 도서관의 책 수)은 부모님도 정확히 몰라도 됩니다. 오늘은 사실을 맞히는 것이 아니라 ‘모를 때 지어내지 않고 답하기’를 봅니다.",
+          "질문을 미리 알려 주지 않습니다. 처음 듣는 질문에 답하는 연습이 목적입니다.",
+          "질문의 뜻 — 운동: ① 겨울에는요? ② 운동이 시간을 너무 많이 쓰는지 궁금해요. ③ 세계에서 축구를 하는 사람이 몇 명인지 알아요? / 요리: ① 부엌은요? ② 요리가 학생에게 너무 어려운지 궁금해요. ③ 학교 급식실이 몇 시에 문을 여는지 알아요? / 독서: ① 만화책은요? ② 영상이 책보다 나은지 궁금해요. ③ 우리 동네 도서관에 책이 몇 권 있는지 알아요? how many(몇 명, 몇 권)는 ‘간접의문문’ 차시에 나오지 않은 의문사이니, 아이가 물으면 낱말 뜻만 알려 줍니다."
         ]
       }
     },
@@ -606,12 +610,12 @@
         "시간": "약 4분",
         "말하기": [
           "“이번에는 혼자 해 볼래? 엄마(아빠)가 처음 듣는 질문을 할게. 화면의 안내를 보고 답해 줘.”",
-          "부모가 질문을 하나씩 읽어 줍니다. ③의 do it은 아이의 주제(play sports, cook, read books)로 바꾸어 물어도 됩니다."
+          "부모가 질문을 하나씩 읽어 줍니다. ③의 do it은 아이의 주제(play sports, cook, read books)로 바꾸어 물어도 됩니다. 아이가 why(왜), how many(몇 명)의 뜻을 물으면 낱말 뜻만 알려 줍니다."
         ],
         "정답": [
           "① 예: Do you mean playing sports on weekends? → I think weekends are a good time for sports because we have more time.",
           "② 예: I think it's important because it makes me healthy. (Can you tell me why ~?는 ‘왜 ~인지 알려 줄래?’라는 뜻)",
-          "③ 예: I'm not sure, but I think many students read books.",
+          "③ 예: I'm not sure, but I think many students play sports.",
           "기준: ① Do you mean ~?으로 확인 ② because 뒤에 주어 + 동사가 있는 근거 ③ 숫자를 지어내지 않고 I'm not sure, but ~. 세 개 가운데 두 개 이상이면 통과, 세 개 모두면 아주 잘한 것입니다."
         ],
         "막히면": [
@@ -695,10 +699,10 @@
       "text": "발표 주제: Reading books is a great hobby.\nQ: I wonder if reading on a phone is okay.",
       "options": [
         {
-          "text": "Yes."
+          "text": "Do you mean reading\nbooks on a phone?"
         },
         {
-          "text": "Do you mean reading\nbooks on a phone?"
+          "text": "Yes."
         },
         {
           "text": "It's okay because\nI can read anywhere."
@@ -715,8 +719,8 @@
           "“질문은 ‘휴대 전화로 읽는 것도 괜찮은지 궁금해요’야. 좋은 대답 두 개는? 나머지 두 개는 어떻게 고칠까?”"
         ],
         "정답": [
-          "좋은 대답: 나(질문의 뜻을 확인함), 다(because로 근거를 듦)",
-          "가 → 근거를 붙여요: Yes, because we can read anywhere. / 라 → 대화를 끊지 말고 아는 만큼: I'm not sure, but I think paper books are better for my eyes.",
+          "좋은 대답: 가(질문의 뜻을 확인함), 다(because로 근거를 듦)",
+          "나 → 근거를 붙여요: Yes, because we can read anywhere. / 라 → 대화를 끊지 말고 아는 만큼: I'm not sure, but I think paper books are better for my eyes.",
           "기준: 두 개를 바르게 고르고 하나 이상을 고쳐 말하면 통과."
         ],
         "막히면": [
@@ -872,7 +876,7 @@
         "read": "Q: What about the weekend?\nA: ①______ ______ ______ walking on the weekend? (확인하기)\nQ: Yes.\nA: I ②______ it's great ③______ the park is quiet in the morning.\nQ: Do you know how many people walk in the park?\nA: I'm ④______ ______, but I think a lot of people walk there.",
         "line_label": "①  ②  ③  ④",
         "lines": 2,
-        "answer": "① Do you mean ② think ③ because ④ not sure. 네 개 가운데 세 개 이상이면 통과. 낱말 뜻: weekend 주말, quiet 조용한."
+        "answer": "① Do you mean ② think ③ because ④ not sure. 네 개 가운데 세 개 이상이면 통과. 낱말 뜻: weekend 주말, quiet 조용한, how many people 몇 사람."
       },
       {
         "no": 3,
@@ -899,7 +903,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "예: ① I think breakfast is important because it gives us energy. ② I think summer is better because we have a long vacation. (winter가 낫다고 써도 됨) ③ I'm not sure, but I think there are a lot of books. ①②는 because 뒤에 주어 + 동사가 있는 근거가 있으면, ③은 숫자를 지어내지 않고 I'm not sure, but ~.로 쓰면 맞습니다. 세 개 모두 맞으면 통과."
+        "answer": "예: ① I think breakfast is important because it gives us energy. ② I think summer is better because we have a long vacation. (winter가 낫다고 써도 됨) ③ I'm not sure, but I think there are a lot of books. ①②는 because 뒤에 주어 + 동사가 있는 근거가 있으면, ③은 숫자를 지어내지 않고 I'm not sure, but ~.로 쓰면 맞습니다. 세 개 모두 맞으면 통과. 낱말 뜻: how many books 책 몇 권."
       },
       {
         "no": 4,
@@ -940,7 +944,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "기록표입니다. 세 질문 가운데 두 개 이상에서 알맞게 답하면(막연한 질문은 확인, 의견 질문은 근거, 모르는 사실 질문은 I'm not sure) 통과. 부모님이 고를 질문(아이에게 미리 알려 주지 않음) — 운동: ① What about winter? ② I wonder if sports take too much time. ③ Do you know how many people play soccer in the world? / 요리: ① What about the kitchen? ② I wonder if cooking is too difficult for students. ③ Do you know when people first cooked food? / 독서: ① What about comic books? ② I wonder if videos are better than books. ③ Do you know how many books are in our town library?"
+        "answer": "기록표입니다. 세 질문 가운데 두 개 이상에서 알맞게 답하면(막연한 질문은 확인, 의견 질문은 근거, 모르는 사실 질문은 I'm not sure) 통과. 부모님이 고를 질문(아이에게 미리 알려 주지 않음) — 운동: ① What about winter? ② I wonder if sports take too much time. ③ Do you know how many people play soccer in the world? / 요리: ① What about the kitchen? ② I wonder if cooking is too difficult for students. ③ Do you know what time the school kitchen opens? / 독서: ① What about comic books? ② I wonder if videos are better than books. ③ Do you know how many books are in our town library?"
       },
       {
         "no": 5,

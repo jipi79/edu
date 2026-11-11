@@ -440,7 +440,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I have been to Busan\nlast year."
+              "word": "I have been to Busan.\nI went there last year."
             }
           ]
         }
@@ -452,7 +452,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I have been to Busan.\nI went there last year."
+              "word": "I have been to Busan\nlast year."
             }
           ]
         }
@@ -466,7 +466,7 @@
           "“현재완료는 ‘해 본 적이 있다’는 경험만 말해. 언제인지 정확히 말하고 싶으면 어떤 모양을 써야 할까?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나입니다. 가는 현재완료(have been) 문장에 last year라는 정확한 지난 때를 함께 썼습니다. 경험은 I have been to Busan.으로 말하고, 언제 갔는지는 과거형 I went there last year.로 따로 씁니다."
+          "바르게 쓴 쪽은 가입니다. 나는 현재완료(have been) 문장에 last year라는 정확한 지난 때를 함께 썼습니다. 경험은 I have been to Busan.으로 말하고, 언제 갔는지는 과거형 I went there last year.로 따로 씁니다."
         ],
         "막히면": [
           "S05 본보기 문단의 ①과 ②를 다시 보여 줍니다. ①에는 때가 없고, ②의 Last spring 문장은 went(과거형)입니다."
@@ -496,10 +496,10 @@
           "text": "We ______ them\nlast May. (see)"
         },
         {
-          "text": "I ______ sushi\nmany times. (eat)"
+          "text": "I ______ sushi\nyesterday. (eat)"
         },
         {
-          "text": "I ______ sushi\nyesterday. (eat)"
+          "text": "I ______ sushi\nmany times. (eat)"
         }
       ],
       "hint": "last ~, yesterday가 있으면 과거형이에요.",
@@ -507,21 +507,21 @@
         "목적": "때를 나타내는 말을 보고 현재완료(경험)와 과거형을 골라 씁니다(목표 A, 오해 M1·M2). 활동지 2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
         "말하기": [
-          "“문장마다 때를 나타내는 말을 먼저 찾아봐. before, many times, last May, yesterday.”",
+          "“문장마다 때를 나타내는 말을 먼저 찾아봐. before, last May, yesterday, many times.”",
           "“경험을 말하는 문장이야, 언제 했는지 말하는 문장이야? 그다음 동사를 바꿔 읽어 줘.”"
         ],
         "정답": [
           "① have seen (I have seen pandas before.)",
           "② saw (We saw them last May.)",
-          "③ have eaten (I have eaten sushi many times.)",
-          "④ ate (I ate sushi yesterday.)"
+          "③ ate (I ate sushi yesterday.)",
+          "④ have eaten (I have eaten sushi many times.)"
         ],
         "막히면": [
-          "S07의 나를 다시 보여 주고 “때가 정확하면?”이라고 묻습니다.",
-          "②④에서 have seen, have eaten이라고 하면 “last May, yesterday가 있지? 그럼?”이라고 짚어 줍니다."
+          "S07의 가를 다시 보여 주고 “때가 정확하면?”이라고 묻습니다.",
+          "②③에서 have seen, have eaten이라고 하면 “last May, yesterday가 있지? 그럼?”이라고 짚어 줍니다."
         ],
         "주의": [
-          "many times(여러 번)는 경험의 횟수를 말하므로 현재완료와 함께 씁니다.",
+          "many times(여러 번)처럼 언제인지 말하지 않고 횟수만 말하면 경험이므로 현재완료를 씁니다.",
           "여기까지가 짜임과 시제 익히기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
         ]
       }
@@ -913,19 +913,19 @@
               "① I (have seen / saw) a rainbow before."
             ],
             [
-              "② We (have visited / visited) the museum last Sunday."
+              "② We (visited / have visited) the museum last Sunday."
             ],
             [
-              "③ My sister (has been / went) to Jeju many times."
+              "③ My sister (went / has been) to Jeju many times."
             ],
             [
               "④ I (have eaten / ate) pizza for lunch yesterday."
             ],
             [
-              "⑤ Have you ever (written / wrote) a letter in English?"
+              "⑤ Have you ever (wrote / written) a letter in English?"
             ],
             [
-              "⑥ Jun (has tried / tried) kimchi for the first time last week."
+              "⑥ Jun (tried / has tried) kimchi for the first time last week."
             ]
           ],
           "widths": [

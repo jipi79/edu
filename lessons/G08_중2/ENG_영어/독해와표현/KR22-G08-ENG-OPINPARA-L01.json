@@ -361,10 +361,10 @@
       "text": "주제문: I think P.E. class is important.\n문장마다 이유인지 예시인지 말해요.",
       "problems": [
         {
-          "text": "It makes us strong."
+          "text": "We run and jump\nevery Monday."
         },
         {
-          "text": "We run and jump\nevery Monday."
+          "text": "It makes us strong."
         },
         {
           "text": "We can make friends."
@@ -382,13 +382,13 @@
           "“예시 문장은 어느 이유의 예시일까?”"
         ],
         "정답": [
-          "① 이유 (체육은 우리를 튼튼하게 해 줘요.)",
-          "② 예시 (월요일마다 달리고 뛰어요. → ①의 예시)",
+          "① 예시 (월요일마다 달리고 뛰어요. → ②의 예시)",
+          "② 이유 (체육은 우리를 튼튼하게 해 줘요.)",
           "③ 이유 (친구를 사귈 수 있어요.)",
           "④ 예시 (체육 시간에 가장 친한 친구를 만났어요. → ③의 예시)"
         ],
         "막히면": [
-          "문장 앞에 Because를 붙여 보게 합니다. “Because it makes us strong.”이 자연스러우면 이유, 실제 있었던 일이나 하는 일이면 예시입니다."
+          "두 가지를 물어봅니다. “누구에게나, 늘 맞는 말이야?” 그러면 이유입니다(It makes us strong.). “언제·누가 한 일인지 나와 있어?” 그러면 예시입니다(every Monday, I met ~)."
         ],
         "주의": [
           "예시에는 요일, 사람 이름, 지난 일처럼 구체적인 내용이 들어가는 경우가 많습니다. 예시는 이유보다 구체적이라고 짚어 줍니다."
@@ -595,7 +595,7 @@
         "시간": "약 4분",
         "말하기": [
           "“종이 세 장에 pets, P.E. class, winter를 써서 엎어 놓고 하나를 골라 봐.”",
-          "(부모) “Do you think pets are good for children?” → (아이) “Yes, I think pets are good for children.” 또는 “I think pets are hard work.”처럼 자기 생각대로 답합니다.",
+          "(부모) 고른 카드에 맞게 묻습니다. pets: “Do you think pets are good for children?” / P.E. class: “Do you think P.E. class is important?” / winter: “Do you think winter is a great season?” → (아이) “Yes, I think pets are good for children.” 또는 “I think pets are hard work.”처럼 자기 생각대로 답합니다.",
           "(부모) “Why?” → (아이) “First, pets make us happy. Second, we can learn about animals.” → (부모) “For example?” → (아이) “For example, my cat sleeps next to me every night.”",
           "“지금 말한 것을 활동지 4의 개요표에 낱말로 짧게 적어 볼까?” 그다음 역할을 바꿔 아이가 Why? For example?을 묻습니다."
         ],
@@ -608,7 +608,7 @@
           "이유가 하나밖에 떠오르지 않으면 부모가 “Is there another reason? 또 다른 이유는?”이라고 묻고 함께 찾습니다."
         ],
         "주의": [
-          "Do you think ~?(~라고 생각해?), Why?(왜?), For example?(예를 들면?)은 부모가 묻는 말입니다. 아이는 듣고 대답하고, 역할을 바꿀 때는 화면의 질문을 보고 읽어도 됩니다.",
+          "Do you think ~?(~라고 생각해?), Why?(왜?), For example?(예를 들면?)은 부모가 묻는 말입니다. 화면의 질문은 pets 카드일 때의 예이고, 다른 카드의 질문은 위에 있습니다. 아이는 듣고 대답하고, 역할을 바꿀 때는 화면의 질문을 보고 읽어도 됩니다.",
           "개요표(활동지 4)는 S11에서 문단을 쓸 때 그대로 씁니다. 꼭 채우고 넘어갑니다."
         ]
       }
@@ -916,17 +916,17 @@
               ""
             ],
             [
-              "② My cat sleeps on my bed every night.",
+              "② Children learn about animals.",
               "",
               ""
             ],
             [
-              "③ Children learn about animals.",
+              "③ I give my dog food and water every day.",
               "",
               ""
             ],
             [
-              "④ I give my dog food and water every day.",
+              "④ My cat sleeps on my bed every night.",
               "",
               ""
             ]
@@ -939,15 +939,15 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① 이유 ② 예시(①의 예시) ③ 이유 ④ 예시(③의 예시). 네 개 모두 맞으면 통과."
+        "answer": "① 이유 ② 이유 ③ 예시(②의 예시) ④ 예시(①의 예시). 네 개 모두 맞으면 통과."
       },
       {
         "no": 3,
         "prompt": "문단을 읽고 ① 이유와 맞지 않는 예시에 밑줄을 그으세요. ② 그 예시를 이유에 맞게 고쳐 쓰세요.",
-        "read": "I think bikes are good for students. First, bikes are good exercise. For example, I ride my bike to school, and my legs are strong now. Second, bikes are cheap. For example, my bike has a red bell. So, I think bikes are great for students.",
+        "read": "I think bikes are good for students. First, riding a bike is good exercise. For example, my bike has a red bell. Second, riding a bike is cheap. For example, I don't need money for the bus. So, I think bikes are great for students.",
         "line_label": "②",
         "lines": 2,
-        "answer": "① For example, my bike has a red bell. (빨간 종이 달려 있다는 것은 ‘자전거는 싸다’는 이유를 보여 주지 못합니다.) ② 예: For example, you don't need money for the bus. / For example, my bike was not expensive. 이유(돈이 적게 든다)와 맞는 예시를 쓰면 통과. 낱말 뜻: exercise 운동, cheap 값이 싼, bell 종."
+        "answer": "① For example, my bike has a red bell. (빨간 종이 달려 있다는 것은 ‘자전거 타기는 좋은 운동이다’라는 이유를 보여 주지 못합니다.) ② 예: For example, I ride my bike to school, and my legs are strong now. / For example, I ride my bike for thirty minutes every day. 이유(운동이 된다)와 맞는 예시를 쓰면 통과. 낱말 뜻: riding a bike 자전거 타기, exercise 운동, cheap 돈이 적게 드는, bell 종."
       },
       {
         "no": 4,
