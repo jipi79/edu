@@ -1,0 +1,64 @@
+{
+  "id": "KR22-G12-SOC-FINRISK-L01",
+  "concept_id": "SOC-FINRISK",
+  "title": "금융 상품 위험 평가",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "제도와경제쟁점",
+  "sequence": 4,
+  "file_stem": "고3_사회·역사_제도와경제쟁점_04_금융상품위험평가",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SOC-I02"
+    ],
+    "units": [
+      "4.3.3",
+      "4.4.4",
+      "4.5.3",
+      "4.5.5",
+      "4.5.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "투자 설명서와 대출 조건 자료를 읽고 수익·위험·비용을 계산해 상품을 비교한 뒤 자신에게 맞는 선택의 근거를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "금융 상품의 수익과 위험",
+      "lesson": "KR22-G11-SOC-FININV-L01",
+      "grade_item": "KR22-G11-SOC-I03"
+    },
+    {
+      "text": "금융 소비자 보호",
+      "lesson": "KR22-G11-SOC-PROTECT-L01",
+      "grade_item": "KR22-G11-SOC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "금융 상품 위험 평가 활동지",
+    "items": [],
+    "record": []
+  }
+}

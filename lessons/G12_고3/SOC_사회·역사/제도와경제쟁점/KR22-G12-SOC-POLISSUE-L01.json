@@ -1,0 +1,59 @@
+{
+  "id": "KR22-G12-SOC-POLISSUE-L01",
+  "concept_id": "SOC-POLISSUE",
+  "title": "정치 제도 쟁점",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "제도와경제쟁점",
+  "sequence": 1,
+  "file_stem": "고3_사회·역사_제도와경제쟁점_01_정치제도쟁점",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SOC-I02"
+    ],
+    "units": [
+      "4.3.3",
+      "4.4.4",
+      "4.5.3",
+      "4.5.5",
+      "4.5.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "선거 연령·선거구 획정 같은 정치 제도 쟁점에서 찬반 근거를 정리하고 대표성·공정성 기준으로 대안을 평가한다.",
+  "prerequisites": [
+    {
+      "text": "선거 제도와 대표",
+      "lesson": "KR22-G11-SOC-ELECTSYS-L01",
+      "grade_item": "KR22-G11-SOC-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정치 제도 쟁점 활동지",
+    "items": [],
+    "record": []
+  }
+}

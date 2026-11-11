@@ -1,0 +1,64 @@
+{
+  "id": "KR22-G12-SOC-RIGHTCASE-L01",
+  "concept_id": "SOC-RIGHTCASE",
+  "title": "기본권 충돌과 판례",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "제도와경제쟁점",
+  "sequence": 2,
+  "file_stem": "고3_사회·역사_제도와경제쟁점_02_기본권충돌과판례",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SOC-I02"
+    ],
+    "units": [
+      "4.3.3",
+      "4.4.4",
+      "4.5.3",
+      "4.5.5",
+      "4.5.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "표현의 자유와 명예·사생활 보호가 충돌한 판례 요지를 읽고 법원이 두 권리를 비교 형량한 근거를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "인권 보장과 헌법",
+      "lesson": "KR22-G10-SOC-RIGHTCONST-L01",
+      "grade_item": "KR22-G10-SOC-I02"
+    },
+    {
+      "text": "형사 절차와 인권",
+      "lesson": "KR22-G11-SOC-CRIMINAL-L01",
+      "grade_item": "KR22-G11-SOC-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "기본권 충돌과 판례 활동지",
+    "items": [],
+    "record": []
+  }
+}

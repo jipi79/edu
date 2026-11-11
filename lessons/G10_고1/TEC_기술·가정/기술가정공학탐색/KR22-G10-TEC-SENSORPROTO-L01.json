@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G10-TEC-SENSORPROTO-L01",
+  "concept_id": "TEC-SENSORPROTO",
+  "title": "센서 제어 시제품",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "기술가정공학탐색",
+  "sequence": 1,
+  "file_stem": "고1_기술·가정_기술가정공학탐색_01_센서제어시제품",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-TEC-I03"
+    ],
+    "units": [
+      "7.6.2",
+      "7.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "센서 키트나 온라인 시뮬레이터로 자동 장치 시제품을 만들어 조건을 바꿔 가며 시험하고 결과를 근거로 개선점과 더 탐구할 공학 분야를 정한다.",
+  "prerequisites": [
+    {
+      "text": "시제품 시험과 개선",
+      "lesson": "KR22-G09-TEC-PROTOTEST-L01",
+      "grade_item": "KR22-G09-TEC-I03"
+    },
+    {
+      "text": "센서와 제어 모형",
+      "lesson": "KR22-G08-TEC-SENSOR-L01",
+      "grade_item": "KR22-G08-TEC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "센서 제어 시제품 활동지",
+    "items": [],
+    "record": []
+  }
+}
