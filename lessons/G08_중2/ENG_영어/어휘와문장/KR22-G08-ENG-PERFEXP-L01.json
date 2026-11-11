@@ -529,7 +529,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I have saw a whale."
+              "word": "I have seen a whale."
             }
           ]
         }
@@ -541,7 +541,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I have seen a whale."
+              "word": "I have saw a whale."
             }
           ]
         }
@@ -555,7 +555,7 @@
           "“have 뒤에는 과거형일까, 과거분사일까? see의 과거형과 과거분사를 S04 표에서 찾아볼까?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(I have seen a whale.)입니다. 가는 have 뒤에 과거형 saw를 썼습니다. have·has 뒤에는 과거분사 seen을 씁니다."
+          "바르게 쓴 쪽은 가(I have seen a whale.)입니다. 나는 have 뒤에 과거형 saw를 썼습니다. have·has 뒤에는 과거분사 seen을 씁니다."
         ],
         "막히면": [
           "S04 표의 see 줄을 손가락으로 짚고 “have 뒤에 오는 건 셋째 칸, 넷째 칸?”이라고 묻습니다."
@@ -853,7 +853,7 @@
           "text": "Have you ever eaten Indian curry?"
         },
         {
-          "text": "Has your mom ever visited Jeju?"
+          "text": "Has your best friend ever visited Jeju?"
         }
       ],
       "notes": {
@@ -861,20 +861,21 @@
         "시간": "약 2분",
         "말하기": [
           "“엄마(아빠)가 물어볼게. 너에게 맞게 Yes나 No로 대답해 줘. Have you ever been to Busan?”",
-          "“Have you ever eaten Indian curry?” “Has your mom ever visited Jeju?”",
+          "“Have you ever eaten Indian curry?” “Has your best friend ever visited Jeju?”",
           "“대답한 다음에 한 문장 더 말해 볼래? 몇 번 해 봤는지, 아니면 never로.”"
         ],
         "정답": [
           "① Yes, I have. 또는 No, I haven't.",
           "② Yes, I have. 또는 No, I haven't.",
-          "③ Yes, she has. 또는 No, she hasn't.",
+          "③ Yes, she has. 또는 No, she hasn't. (친구가 남자이면 he)",
           "기준: Yes·No는 실제 상황대로 고르면 됩니다. Have 질문에는 have·haven't, Has 질문에는 has·hasn't로 대답하면 통과입니다. 세 개 모두 맞으면 목표 B 달성으로 봅니다. 덧붙인 문장(I have been there twice. / I have never eaten it.)은 잘한 점으로 기록합니다."
         ],
         "막히면": [
-          "질문을 한 번 더 천천히 말하고, “Have로 물었어, Has로 물었어?” “your mom은 he야, she야?”라고 묻습니다."
+          "질문을 한 번 더 천천히 말하고, “Have로 물었어, Has로 물었어?” “네 친구는 he야, she야?”라고 묻습니다."
         ],
         "주의": [
-          "Yes, I did.나 Yes, I've.로 대답하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다."
+          "Yes, I did.나 Yes, I've.로 대답하면 기록표에 적어 두고, 다음 수업 첫 5분에 다시 연습합니다.",
+          "③은 묻는 사람이 아닌 다른 사람에 대해 대답하는 문제입니다. 친구가 가 봤는지 아이가 모르면 Has your grandma ~?처럼 아이가 잘 아는 사람으로 바꿔 묻습니다."
         ]
       }
     },

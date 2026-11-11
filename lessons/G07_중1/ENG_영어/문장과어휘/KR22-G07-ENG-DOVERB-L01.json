@@ -196,7 +196,7 @@
           },
           {
             "word": "play",
-            "sub": "일반동사: (경기를) 하다",
+            "sub": "일반동사: (운동·놀이를) 하다,\n(악기를) 연주하다, 놀다",
             "highlight": true
           },
           {
@@ -448,7 +448,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "My brother play games."
+              "word": "My brother plays games."
             }
           ]
         }
@@ -460,7 +460,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "My brother plays games."
+              "word": "My brother play games."
             }
           ]
         }
@@ -474,7 +474,7 @@
           "“My brother를 he, she, it 가운데 하나로 바꾸면? 그럼 동사는?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(My brother plays games.)입니다. My brother는 he로 바꿀 수 있는 3인칭 단수라서 play에 -s를 붙여야 합니다."
+          "바르게 쓴 쪽은 가(My brother plays games.)입니다. My brother는 he로 바꿀 수 있는 3인칭 단수라서 play에 -s를 붙여야 합니다."
         ],
         "막히면": [
           "“He play games.와 He plays games. 가운데 무엇이 맞아?”라고 주어를 he로 바꿔 물은 뒤 원래 문장으로 돌아갑니다."
@@ -929,7 +929,7 @@
           },
           {
             "word": "play",
-            "sub": "(경기를) 하다"
+            "sub": "(운동·놀이를) 하다,\n연주하다, 놀다"
           },
           {
             "word": "like",
@@ -962,7 +962,7 @@
           "“아래 문장을 읽어 볼까? 너는 몇 시에 일어나? I get up at ~.”"
         ],
         "정답": [
-          "get up 일어나다, go 가다, eat 먹다, play (경기를) 하다, like 좋아하다, watch 보다, study 공부하다, have 가지고 있다(먹다) / 일과 문장 예: I get up at seven."
+          "get up 일어나다, go 가다, eat 먹다, play (운동·놀이를) 하다·(악기를) 연주하다·놀다, like 좋아하다, watch 보다, study 공부하다, have 가지고 있다(먹다) / 일과 문장 예: I get up at seven."
         ],
         "막히면": [
           "부모가 몸짓과 낱말을 함께 보여 주고 아이가 따라 말하게 합니다.",

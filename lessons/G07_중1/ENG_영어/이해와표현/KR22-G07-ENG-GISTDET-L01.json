@@ -427,7 +427,7 @@
         "시간": "약 4분",
         "말하기": [
           "“먼저 질문 세 개를 같이 읽자. ①은 대화 전체, ②③은 작은 정보야. 이제 엄마(아빠)가 대화를 두 번 읽어 줄게.”",
-          "부모가 읽을 대본: Mina: Jun, are you free on Saturday? Our school has a science fair. My team made a small robot. Can you come and see it? / Jun: Sure! What time does it start? / Mina: At ten. / Jun: I have a piano lesson at ten. Can I come at eleven? / Mina: That's fine. The fair ends at one. / Jun: Great. Where is it? / Mina: It's in the school gym. See you on Saturday!",
+          "부모가 읽을 대본: Mina: Jun, are you free on Saturday? There is a science fair at our school. My team made a small robot. Can you come and see it? / Jun: Sure! What time does it start? / Mina: At ten. / Jun: I have a piano lesson at ten. Can I come at eleven? / Mina: That's fine. The fair ends at one. / Jun: Great. Where is it? / Mina: It's in the school gym. See you on Saturday!",
           "“무엇에 관한 대화야? 준은 몇 시에 가? 어디에서 열려? 어떤 말을 듣고 알았어?”"
         ],
         "정답": [
@@ -458,7 +458,7 @@
       "title": "방금 들은 대화",
       "passage": {
         "paragraphs": [
-          "Mina: Jun, are you free on Saturday? Our school has a science fair. My team made a small robot. Can you come and see it?",
+          "Mina: Jun, are you free on Saturday? There is a science fair at our school. My team made a small robot. Can you come and see it?",
           "Jun: Sure! What time does it start?",
           "Mina: At ten.",
           "Jun: I have a piano lesson at ten. Can I come at eleven?",
@@ -477,7 +477,7 @@
           "“시각이 바뀌는 곳에 손가락을 대 볼래? 처음 말한 시각과 마지막에 정한 시각은?”"
         ],
         "정답": [
-          "초대하는 말: Our school has a science fair. ... Can you come and see it? (미나의 첫 말)",
+          "초대하는 말: There is a science fair at our school. ... Can you come and see it? (미나의 첫 말)",
           "시각: 처음 10시(At ten.) → 준이 11시에 가도 되냐고 묻고(Can I come at eleven?) 미나가 That's fine.이라고 해서 11시로 정해졌습니다."
         ],
         "막히면": [
@@ -537,7 +537,7 @@
         "B"
       ],
       "title": "혼자 읽고 답해요",
-      "text": "borrow 빌리다 · member 회원 · welcome 반가운",
+      "text": "borrow 빌리다 · member 회원 · welcome 환영받는",
       "passage": {
         "title": "Join Our Book Club!",
         "paragraphs": [

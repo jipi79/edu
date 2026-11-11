@@ -78,7 +78,7 @@
     {
       "id": "M4",
       "text": "과거형에 3인칭 단수 -s를 붙이거나(She boughts, He wents), yesterday가 있는데 현재형을 그대로 쓴다(I go to the park yesterday.).",
-      "response": "S09의 도움말로 ‘과거형은 주어와 상관없이 모양이 하나’라고 짚고, 때를 나타내는 말을 먼저 찾게 한다. S12 정답 장에서 다시 다룬다."
+      "response": "S09의 도움말로 ‘과거형은 주어와 상관없이 모양이 하나’라고 짚고, 때를 나타내는 말을 먼저 찾게 한다. S11 ④와 S12의 주의에서 다시 확인한다."
     }
   ],
   "checks": [],
@@ -335,7 +335,7 @@
             "study → studied, cry → cried"
           ],
           [
-            "모음 하나+자음 하나",
+            "짧은 동사:\n모음 하나+자음 하나",
             "자음 하나 더, -ed",
             "stop → stopped, plan → planned"
           ]
@@ -384,7 +384,7 @@
       "text": "괄호 안의 동사를 과거형으로 바꿔 읽어요.",
       "problems": [
         {
-          "text": "I (visit) my grandma."
+          "text": "I (help) my grandma."
         },
         {
           "text": "She (study) English."
@@ -411,7 +411,7 @@
           "“②의 study와 ⑤의 play는 둘 다 y로 끝나는데, 바꾸는 방법이 같아?”"
         ],
         "정답": [
-          "① visited (I visited my grandma.)",
+          "① helped (I helped my grandma. 그대로 -ed)",
           "② studied (She studied English. 자음 d + y)",
           "③ danced (We danced at the party. e로 끝나서 -d)",
           "④ stopped (The bus stopped here. p를 하나 더)",
@@ -423,7 +423,7 @@
         ],
         "주의": [
           "②⑥에서 She studies, He watches처럼 현재형으로 말하면 “어제 일이라고 생각해 봐. 지난 일이야.”라고 말해 줍니다. 과거형에는 -s를 붙이지 않습니다.",
-          "visit은 두 음절이고 앞을 세게 읽는 동사라서 t를 겹치지 않습니다(visited). 겹치는 규칙은 stop, plan처럼 짧은 동사에만 씁니다.",
+          "겹치는 규칙은 stop, plan처럼 한 번에 소리 나는 짧은 동사에만 씁니다. visit은 두 덩어리(vi-sit)로 소리 나고 앞을 세게 읽어서 t를 겹치지 않습니다(visited). 아이가 물을 때만 알려 줍니다.",
           "여기까지가 was·were와 규칙 동사입니다. 아이가 지치면 여기서 나누어 다음 날 S07부터 해도 됩니다."
         ]
       }
@@ -545,7 +545,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I goed to the park."
+              "word": "I went to the park."
             }
           ]
         }
@@ -557,7 +557,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I went to the park."
+              "word": "I goed to the park."
             }
           ]
         }
@@ -571,7 +571,7 @@
           "“go는 ed를 붙이는 동사야, 모양이 바뀌는 동사야? S07 표에서 찾아볼래?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(I went to the park.)입니다. go는 모양이 바뀌는 불규칙 동사라서 과거형이 went입니다. goed라는 낱말은 없습니다."
+          "바르게 쓴 쪽은 가(I went to the park.)입니다. go는 모양이 바뀌는 불규칙 동사라서 과거형이 went입니다. goed라는 낱말은 없습니다."
         ],
         "막히면": [
           "S07의 표에서 go 줄을 손가락으로 찾게 합니다."
@@ -1003,7 +1003,7 @@
               ""
             ],
             [
-              "visit",
+              "cook",
               "",
               "study",
               ""
@@ -1029,7 +1029,7 @@
           ],
           "size": 14
         },
-        "answer": "played, watched, visited, cleaned, walked / liked, danced, studied, cried, stopped. 열 개 가운데 아홉 개 이상이면 통과. likeed, studyed, stoped, plaied처럼 쓰면 S05의 표로 다시 봅니다."
+        "answer": "played, watched, cooked, cleaned, walked / liked, danced, studied, cried, stopped. 열 개 가운데 아홉 개 이상이면 통과. likeed, studyed, stoped, plaied처럼 쓰면 S05의 표로 다시 봅니다."
       },
       {
         "no": 3,

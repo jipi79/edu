@@ -57,7 +57,7 @@
   "misconceptions": [
     {
       "id": "M1",
-      "text": "최상급 앞의 the를 빠뜨린다(Jisu is tallest in my class.).",
+      "text": "최상급 앞의 the를 빠뜨린다(Minho is tallest in my class.).",
       "response": "S03·S04에서 최상급을 늘 the와 함께 보여 주고, S11 기준과 S15 ‘잘한 모습’에 the를 넣는다. 말할 때 빠뜨리면 부모가 the를 힘주어 다시 말해 준다."
     },
     {
@@ -251,7 +251,7 @@
           "뜻을 모르면 부모가 “키가 큰 → 키가 더 큰 → 키가 가장 큰”이라고 손 높이를 바꾸어 보여 줍니다."
         ],
         "주의": [
-          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(the tallest, the biggest, the happiest, the most beautiful, the best, the worst, Jisu is the tallest in my class. This box is the heaviest of the three.)을 미리 들어 두세요.",
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 낱말과 문장(the tallest, the biggest, the happiest, the most beautiful, the best, the worst, Minho is the tallest in my class. This box is the heaviest of the three.)을 미리 들어 두세요.",
           "지난 차시 ‘비교급’의 철자 규칙을 그대로 씁니다. 설명은 우리말로, 예문은 영어로 합니다."
         ]
       }
@@ -577,8 +577,8 @@
         "perRow": 1,
         "items": [
           {
-            "word": "Jisu is the tallest in my class.",
-            "sub": "지수는 우리 반에서 가장 키가 커요."
+            "word": "Minho is the tallest in my class.",
+            "sub": "민호는 우리 반에서 가장 키가 커요."
           },
           {
             "word": "This box is the heaviest of the three.",
@@ -601,7 +601,7 @@
         "목적": "‘어디에서, 무엇 가운데’ 가장인지를 in + 장소·모임, of + 여럿으로 나타내는 방법을 알려 줍니다(목표 B, 오해 M4).",
         "시간": "약 3분",
         "말하기": [
-          "“Jisu is the tallest in my class. 지수가 어디에서 가장 키가 커? 우리 반에서. 반이나 가족처럼 한 덩어리 모임이나 장소 앞에는 in을 써.”",
+          "“Minho is the tallest in my class. 민호가 어디에서 가장 키가 커? 우리 반에서. 반이나 가족처럼 한 덩어리 모임이나 장소 앞에는 in을 써.”",
           "“This box is the heaviest of the three. 셋 가운데 가장 무거워. the three, all처럼 여럿을 가리킬 때는 of를 써.”",
           "“그럼 ‘우리 가족 가운데 가장 나이가 많은’은? in일까 of일까?”"
         ],

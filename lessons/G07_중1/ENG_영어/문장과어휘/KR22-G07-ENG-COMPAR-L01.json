@@ -594,7 +594,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "My bag is more heavier than your bag."
+              "word": "My bag is heavier than your bag."
             }
           ]
         }
@@ -606,7 +606,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "My bag is heavier than your bag."
+              "word": "My bag is more heavier than your bag."
             }
           ]
         }
@@ -620,7 +620,7 @@
           "“heavy는 짧은 낱말일까, 긴 낱말일까? -er을 붙일까, more를 쓸까?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(My bag is heavier than your bag.)입니다. 가는 more와 -er을 함께 썼습니다. heavy는 자음 + y로 끝나므로 heavier만 씁니다."
+          "바르게 쓴 쪽은 가(My bag is heavier than your bag.)입니다. 나는 more와 -er을 함께 썼습니다. heavy는 자음 + y로 끝나므로 heavier만 씁니다."
         ],
         "막히면": [
           "S06 아래 카드(more와 -er은 함께 쓰지 않아요)를 다시 보여 줍니다."

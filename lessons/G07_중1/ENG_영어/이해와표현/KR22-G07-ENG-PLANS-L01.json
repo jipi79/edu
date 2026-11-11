@@ -378,7 +378,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I will goes to camp in next month."
+              "word": "I will go to camp next month."
             }
           ]
         }
@@ -390,7 +390,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I will go to camp next month."
+              "word": "I will goes to camp in next month."
             }
           ]
         }
@@ -403,7 +403,7 @@
           "“두 문장은 어디가 달라? 두 군데를 찾아볼래?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(I will go to camp next month.)입니다. 가는 will 뒤에 goes를 썼고(→ go), next month 앞에 in을 썼습니다(→ 지움)."
+          "바르게 쓴 쪽은 가(I will go to camp next month.)입니다. 나는 will 뒤에 goes를 썼고(→ go), next month 앞에 in을 썼습니다(→ 지움)."
         ],
         "막히면": [
           "S03 아래 카드와 S04 아래 카드를 차례로 보여 주며 하나씩 찾게 합니다."
@@ -585,7 +585,7 @@
         "말하기": [
           "“달력을 보자. 방학은 언제부터야? 엄마(아빠)가 물어볼게. What are you going to do this vacation?”",
           "(아이) “I'm going to visit my aunt.” → (부모) “When?” → (아이) “In August.” → (부모) “What else?” → (아이) “I will learn to swim.”",
-          "“How will it be? 어떤 방학이 될 것 같아?” → (아이) “I think it will be fun.”",
+          "“How do you think it will be? 어떤 방학이 될 것 같아?” → (아이) “I think it will be fun.”",
           "“지금 말한 것을 활동지 3 개요표에 낱말로 적어 볼까?” 그다음 역할을 바꿔 아이가 부모에게 What are you going to do this vacation?이라고 묻습니다."
         ],
         "예상답": [
@@ -597,7 +597,7 @@
           "계획이 없다고 하면 “하고 싶은 일”로 바꾸어 묻습니다(가고 싶은 곳, 배우고 싶은 것, 읽고 싶은 책)."
         ],
         "주의": [
-          "When?(언제?), What else?(또 뭐?), How will it be?(어떨 것 같아?)는 부모가 묻는 말이며 아이가 외울 필요는 없습니다.",
+          "When?(언제?), What else?(또 뭐?), How do you think it will be?(어떨 것 같아?)는 부모가 묻는 말이며 아이가 외울 필요는 없습니다.",
           "learn to swim의 to swim은 ‘수영하는 것’이라는 뜻입니다. 문법으로 설명하지 않고 덩어리 표현으로 씁니다.",
           "개요표(활동지 3)는 S12에서 글을 쓸 때 그대로 씁니다. 꼭 채우고 넘어갑니다."
         ]
@@ -933,13 +933,13 @@
               "① I'm going to ____________ Jeju next month. (visit / visits)"
             ],
             [
-              "② She will ____________ to camp this summer. (go / goes)"
+              "② She will ____________ to camp this summer. (goes / go)"
             ],
             [
               "③ Mina ____________ going to learn the guitar. (is / are)"
             ],
             [
-              "④ I ____________ to the zoo last Sunday. (went / will go)"
+              "④ I ____________ to the zoo last Sunday. (will go / went)"
             ],
             [
               "⑤ We will meet them ____________. (in next month / next month)"

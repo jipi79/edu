@@ -261,7 +261,7 @@
             "make → making, write → writing"
           ],
           [
-            "모음 하나+자음 하나",
+            "짧은 동사:\n모음 하나+자음 하나",
             "자음 하나 더, -ing",
             "run → running, swim → swimming"
           ]
@@ -848,7 +848,7 @@
           "text": "부정문으로 바꾸면?\nShe is sleeping."
         },
         {
-          "text": "알맞은 모양은?\nLook! It (snow)."
+          "text": "알맞은 모양은?\nLook! He (dance)."
         }
       ],
       "next": "과거 시제 문장",
@@ -865,7 +865,7 @@
         "정답": [
           "① making, running",
           "② She isn't sleeping. (She is not sleeping.)",
-          "③ It is snowing. (It's snowing. snow는 끝이 w라서 겹치지 않음)"
+          "③ He is dancing. (He's dancing. e를 빼고 -ing)"
         ],
         "주의": [
           "집에서 가족이 무엇을 할 때 “What are you doing?”이라고 묻고 “I'm cooking.”처럼 대답하는 놀이를 하루에 한두 번 하면 좋은 복습이 됩니다. 다음 차시 ‘과거 시제 문장’에서는 was, were와 played, went 같은 과거형을 배웁니다."
@@ -1066,11 +1066,11 @@
               ""
             ],
             [
-              "② Look! The baby ________.\n(smiles / is smiling)",
+              "② Look! The baby ________.\n(is smiling / smiles)",
               ""
             ],
             [
-              "③ My dad ________ coffee every morning.\n(drinks / is drinking)",
+              "③ My dad ________ coffee every morning.\n(is drinking / drinks)",
               ""
             ],
             [
@@ -1142,9 +1142,9 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① make, run을 -ing 모양으로 바꿔 쓰세요.\n② She is sleeping. 부정문으로 바꾸어 쓰세요.\n③ Look! It (snow). 괄호 안의 동사를 알맞은 모양으로 바꿔 문장을 쓰세요.",
+        "prompt": "① make, run을 -ing 모양으로 바꿔 쓰세요.\n② She is sleeping. 부정문으로 바꾸어 쓰세요.\n③ Look! He (dance). 괄호 안의 동사를 알맞은 모양으로 바꿔 문장을 쓰세요.",
         "lines": 3,
-        "answer": "① making, running ② She isn't sleeping. (She is not sleeping.) ③ Look! It is snowing. (It's snowing.) 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① making, running ② She isn't sleeping. (She is not sleeping.) ③ Look! He is dancing. (He's dancing.) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
