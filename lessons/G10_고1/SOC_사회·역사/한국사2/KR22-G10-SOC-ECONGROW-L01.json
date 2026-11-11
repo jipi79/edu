@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G10-SOC-ECONGROW-L01",
+  "concept_id": "SOC-ECONGROW",
+  "title": "경제 성장과 사회 변화",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사2",
+  "sequence": 6,
+  "file_stem": "고1_사회·역사_한국사2_06_경제성장과사회변화",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6",
+      "4.1.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "경제 개발 계획부터 외환 위기 이후까지의 경제 성장 과정을 그래프로 정리하고 산업화·도시화의 성과와 노동·농촌·환경 문제를 함께 평가한다.",
+  "prerequisites": [
+    {
+      "text": "민주주의의 시련과 발전",
+      "lesson": "KR22-G10-SOC-DEMOCRACY-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "경제 성장과 사회 변화 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G10-SOC-REPFOUND-L01",
+  "concept_id": "SOC-REPFOUND",
+  "title": "광복과 정부 수립",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사2",
+  "sequence": 3,
+  "file_stem": "고1_사회·역사_한국사2_03_광복과정부수립",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6",
+      "4.1.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "광복 직후 국제 회담과 신탁 통치 논쟁, 좌우 합작 운동·남북 협상, 5·10 총선거까지 여러 세력의 국가 수립 구상을 비교하며 대한민국 정부 수립 과정을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "민족 운동의 여러 갈래",
+      "lesson": "KR22-G10-SOC-NATMOVE-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    },
+    {
+      "text": "대한민국 수립과 6·25",
+      "lesson": "KR22-G09-SOC-REPUBLIC-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "광복과 정부 수립 활동지",
+    "items": [],
+    "record": []
+  }
+}

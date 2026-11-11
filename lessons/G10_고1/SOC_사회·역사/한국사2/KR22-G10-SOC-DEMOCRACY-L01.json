@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G10-SOC-DEMOCRACY-L01",
+  "concept_id": "SOC-DEMOCRACY",
+  "title": "민주주의의 시련과 발전",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "한국사2",
+  "sequence": 5,
+  "file_stem": "고1_사회·역사_한국사2_05_민주주의의시련과발전",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SOC-I01"
+    ],
+    "units": [
+      "4.1.6",
+      "4.1.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "4·19 혁명부터 6월 민주 항쟁까지 헌법 개정과 정부 형태의 변화를 연표로 정리하고 시민의 민주화 운동이 민주주의 발전에 끼친 영향을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "냉전과 6·25 전쟁",
+      "lesson": "KR22-G10-SOC-KORWAR-L01",
+      "grade_item": "KR22-G10-SOC-I01"
+    },
+    {
+      "text": "민주화와 경제 성장",
+      "lesson": "KR22-G09-SOC-DEVELOP-L01",
+      "grade_item": "KR22-G09-SOC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "민주주의의 시련과 발전 활동지",
+    "items": [],
+    "record": []
+  }
+}
