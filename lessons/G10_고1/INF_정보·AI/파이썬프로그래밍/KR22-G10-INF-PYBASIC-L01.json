@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -27,7 +27,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "파이썬의 변수·input·print·if·for를 써서 짧은 프로그램을 작성하고 중학교에서 그린 순서도와 한 줄씩 대응시켜 실행 결과를 확인한다.",
   "prerequisites": [
     {
       "text": "구현과 검증",
@@ -38,19 +37,2800 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "파이썬의 변수(대입)·input·print·형 변환과 조건문(if·elif·else)을 중학교 의사코드와 한 줄씩 대응시켜 짧은 프로그램을 쓰고, 경계값을 넣어 실행 결과를 확인한다.",
+      "evidence": "변수와 입출력(S03), 조건문(S04), 연습(S05), 구구단 활동(S09), 혼자 해 보기(S11 ①②), 마무리(S13 ①), 활동지 1·2·4",
+      "success": "점수 코드에 95·90·80·79를 넣은 출력(A·A·B·C)을 예상하고, 조건 순서를 바꾸면 95도 B가 되는 오류를 찾으며, input 값을 int로 바꾸는 까닭을 설명한다."
+    },
+    {
+      "id": "B",
+      "text": "for(range)와 while 반복의 실행을 트레이스 표로 따라가 변수 값과 출력을 구하고, 반복을 멈추는 조건과 무한 반복을 설명한다.",
+      "evidence": "for와 트레이스(S06), while 시범(S07), 연습(S08), 오개념 비교(S10), 구구단 활동(S09), 혼자 해 보기(S11 ③④), 마무리(S13 ②), 활동지 1·3·5",
+      "success": "1부터 4까지 더하는 for의 트레이스(1, 3, 6, 10)와 주마다 3000원씩 모으는 while의 출력 4 12000을 구하고, range(1, 5)가 1~4임을 설명한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
-  "checks": [],
-  "slides": [],
+  "materials": [
+    "연필",
+    "활동지",
+    "(선택) 어른과 함께 쓰는 컴퓨터(설치한 파이썬이나 무료 온라인 파이썬 실행 환경)"
+  ],
+  "boundary": "파이썬의 변수와 대입, input·print, int 형 변환, 비교 연산(>=, <, ==), if·elif·else와 들여쓰기, for와 range(시작, 끝, 간격), while과 무한 반복, 트레이스 표로 실행 따라가기, 의사코드와의 대응을 다룬다. 함수 정의(다음 차시), 리스트·딕셔너리, 문자열 메서드, 예외 처리(try), break·continue의 자세한 쓰임, 특정 개발 도구의 사용법은 다루지 않는다. 화면의 코드는 실제로 실행되는 파이썬이다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "조건의 경계값(>=와 >)을 혼동해 90점을 B로 판단한다.",
+      "response": "경계값 90·80·79를 테스트 사례로 넣어 출력을 확인한다(S04, S05, 활동지 4)."
+    },
+    {
+      "id": "M2",
+      "text": "range(1, 5)에 5가 들어간다고 생각한다.",
+      "response": "트레이스 표와 list(range(1, 5))의 결과로 끝 수가 빠짐을 확인한다(S06, S10)."
+    },
+    {
+      "id": "M3",
+      "text": "while에서 몸통을 다 실행한 뒤에야 조건을 본다고 생각하거나, 조건을 바꾸지 않아 끝나지 않는 코드를 쓴다.",
+      "response": "트레이스 표에 조건 칸을 두어 반복마다 확인하고, 조건 값을 바꾸는 줄을 지워 무한 반복을 비교한다(S07, S08 ④)."
+    }
+  ],
+  "checks": [
+    {
+      "type": "blank",
+      "expr": "3 × 4 = □",
+      "answer": 12,
+      "where": "S07 4주 뒤(× 1000원)"
+    },
+    {
+      "type": "blank",
+      "expr": "1 + 2 + 3 + 4 = □",
+      "answer": 10,
+      "where": "S06 합"
+    },
+    {
+      "type": "blank",
+      "expr": "15 × 7 = □",
+      "answer": 105,
+      "where": "S13 ②"
+    },
+    {
+      "type": "blank",
+      "expr": "3 × 3 × 3 = □",
+      "answer": 27,
+      "where": "S11 ④"
+    },
+    {
+      "type": "blank",
+      "expr": "20 ÷ 2 ÷ 2 = □",
+      "answer": 5,
+      "where": "S08 ③ 두 번 나눈 뒤"
+    }
+  ],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "파이썬 조건과 반복",
+      "question": "순서도와 의사코드를\n파이썬으로 옮겨 볼까요?",
+      "goals": [
+        "① 변수·입출력·조건문으로 짧은 프로그램을 써요.",
+        "② for·while 반복을 트레이스 표로 따라가요."
+      ],
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                12.679,
+                0.0
+              ],
+              [
+                12.679,
+                7.4
+              ],
+              [
+                0.0,
+                7.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "score = int(input(\"점수? \"))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "if score >= 90:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              4.7
+            ],
+            "text": "print(\"A\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              3.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              3.7
+            ],
+            "text": "elif score >= 80:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              2.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              2.7
+            ],
+            "text": "print(\"B\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              1.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              1.7
+            ],
+            "text": "else:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              0.7
+            ],
+            "text": "7",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              0.7
+            ],
+            "text": "print(\"C\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 7줄: 점수에 따라 A, B, C를 출력하는 if·elif·else",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "중학교에서 순서도와 의사코드(입력·만약/아니면·인 동안 반복)로 프로그램을 설계하고 검증했습니다. 오늘은 같은 생각을 파이썬으로 씁니다. 변수·input·print·if·elif·else·for·while을 의사코드와 한 줄씩 대응시키고, 트레이스 표로 실행 결과를 확인합니다. 화면의 코드는 모두 실제로 실행되는 파이썬입니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“중학교에서 쓴 ‘만약 ~ 이면’은 파이썬으로 어떻게 쓸까?”"
+        ],
+        "예상답": [
+          "“if요.”",
+          "“영어로 써요.”"
+        ],
+        "막히면": [
+          "지난 학년의 용돈 기록기 의사코드를 떠올리게 합니다."
+        ],
+        "주의": [
+          "준비물: 연필, 활동지. (선택) 어른과 함께 쓰는 컴퓨터(설치한 파이썬이나 무료 온라인 파이썬 실행 환경). 컴퓨터가 없으면 부모님이 ‘컴퓨터 역할’을 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(의사코드)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 학습 기억하기",
+      "problems": [
+        {
+          "text": "만약 남은돈 < 3000 이면 “아껴 써요”:\n남은돈 2999일 때 출력"
+        },
+        {
+          "text": "‘날 ≤ 3 인 동안 반복’(날은 1부터)의\n반복 횟수"
+        },
+        {
+          "text": "x ← 0에서 x ← x + 2를\n세 번 하면 x는?"
+        },
+        {
+          "text": "7 > 5는 참? 거짓?"
+        }
+      ],
+      "notes": {
+        "목적": "중3 ‘구현과 검증’의 의사코드와 조건·반복을 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 2999가 3000보다 작으니?”",
+          "“③은 x에 2를 세 번 더해.”"
+        ],
+        "정답": [
+          "① 아껴 써요",
+          "② 3번",
+          "③ 6",
+          "④ 참"
+        ],
+        "막히면": [
+          "①~③이 흔들리면 S15(보충)를 봅니다."
+        ],
+        "주의": [
+          "③의 ‘x ← x + 2’가 파이썬에서는 x = x + 2입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "변수와 입출력",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "변수, input, print",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                5.0
+              ],
+              [
+                18.022,
+                5.0
+              ],
+              [
+                18.022,
+                8.4
+              ],
+              [
+                0.0,
+                8.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                18.022,
+                0.0
+              ],
+              [
+                18.022,
+                4.0
+              ],
+              [
+                0.0,
+                4.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "name = input(\"이름? \")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "age = int(input(\"나이? \"))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "print(name, \"님은 내년에\", age + 1, \"살\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              4.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              3.25
+            ],
+            "text": "이름? 지우",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              2.25
+            ],
+            "text": "나이? 16",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "지우 님은 내년에 17 살",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 3줄: 이름과 나이를 입력받아 내년 나이를 출력한다. 지우, 16을 넣으면 ‘지우 님은 내년에 17 살’",
+        "max_unit": 0.42
+      },
+      "points": [
+        {
+          "title": "대입",
+          "text": "변수 = 값(의사코드 ←)"
+        },
+        {
+          "title": "input",
+          "text": "글자로 받음 → int()"
+        },
+        {
+          "title": "print",
+          "text": "쉼표로 이어 출력"
+        }
+      ],
+      "notes": {
+        "목적": "파이썬에서 =는 ‘같다’가 아니라 오른쪽 값을 왼쪽 변수에 넣는 대입입니다(의사코드의 ←). input은 키보드로 받은 값을 글자로 돌려주므로 계산하려면 int(…)로 정수로 바꿉니다. print는 쉼표로 이은 값을 한 칸씩 띄워 출력합니다. 지우, 16을 넣으면 ‘지우 님은 내년에 17 살’이 출력됩니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“2줄에서 int를 빼면 age + 1은 어떻게 될까?”",
+          "“=와 ==는 어떻게 다를까?”"
+        ],
+        "예상답": [
+          "“글자에 수를 더할 수 없어서 오류가 나요.”",
+          "“=는 넣기, ==는 같은지 비교예요.”"
+        ],
+        "막히면": [
+          "‘상자(변수)에 값을 넣는다’로 대입을 설명합니다."
+        ],
+        "주의": [
+          "실행 결과의 ‘이름? 지우’는 프로그램이 물은 말과 사용자가 친 값이 함께 보인 것입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "조건문 if·elif·else",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "조건문",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                4.0
+              ],
+              [
+                12.679,
+                4.0
+              ],
+              [
+                12.679,
+                11.4
+              ],
+              [
+                0.0,
+                11.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                12.679,
+                0.0
+              ],
+              [
+                12.679,
+                3.0
+              ],
+              [
+                0.0,
+                3.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              10.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              10.7
+            ],
+            "text": "score = int(input(\"점수? \"))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              9.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              9.7
+            ],
+            "text": "if score >= 90:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              8.7
+            ],
+            "text": "print(\"A\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "elif score >= 80:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              6.7
+            ],
+            "text": "print(\"B\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "else:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "7",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              4.7
+            ],
+            "text": "print(\"C\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              3.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              2.25
+            ],
+            "text": "점수? 85",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "B",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 7줄: 점수를 입력받아 90 이상이면 A, 80 이상이면 B, 아니면 C를 출력한다. 85를 넣으면 B",
+        "max_unit": 0.42
+      },
+      "points": [
+        {
+          "title": "if",
+          "text": "참이면 실행"
+        },
+        {
+          "title": "elif·else",
+          "text": "앞이 거짓일 때 차례로"
+        },
+        {
+          "title": "규칙",
+          "text": "콜론, 4칸 들여쓰기"
+        }
+      ],
+      "notes": {
+        "목적": "if 조건: 다음 줄은 4칸 들여 써서 조건이 참일 때만 실행합니다. elif(아니면 만약)는 앞 조건이 거짓일 때 다음 조건을, else(아니면)는 모두 거짓일 때를 맡습니다. 위에서부터 차례로 보고 처음 참인 곳 하나만 실행합니다. 85를 넣으면 90 이상은 거짓, 80 이상은 참이라 B가 나옵니다. 경계값 90은 A, 80은 B, 79는 C입니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“85는 어느 줄에서 멈추지?”",
+          "“90을 넣으면?”"
+        ],
+        "예상답": [
+          "“elif score >= 80에서요.”",
+          "“A요(>=이니까).”"
+        ],
+        "막히면": [
+          "오른쪽 표로 의사코드와 파이썬을 짝지어 봅니다."
+        ],
+        "주의": [
+          "콜론(:)과 4칸 들여쓰기가 빠지면 오류가 납니다. 같은 덩어리는 들여쓰기가 같아야 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "안내받는 연습(조건문)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "결과를 예상해요",
+      "problems": [
+        {
+          "text": "95를 넣을 때 출력"
+        },
+        {
+          "text": "80을 넣을 때 출력"
+        },
+        {
+          "text": "79를 넣을 때 출력"
+        },
+        {
+          "text": "80 조건을 90보다 먼저 쓰면\n95의 출력은?"
+        }
+      ],
+      "hint": "위에서부터, 처음 참인 곳 하나만",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                12.679,
+                0.0
+              ],
+              [
+                12.679,
+                7.4
+              ],
+              [
+                0.0,
+                7.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "score = int(input(\"점수? \"))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "if score >= 90:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              4.7
+            ],
+            "text": "print(\"A\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              3.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              3.7
+            ],
+            "text": "elif score >= 80:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              2.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              2.7
+            ],
+            "text": "print(\"B\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              1.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              1.7
+            ],
+            "text": "else:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              0.7
+            ],
+            "text": "7",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              0.7
+            ],
+            "text": "print(\"C\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 7줄: 점수에 따라 A, B, C를 출력하는 if·elif·else",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "도움을 받으며 S04 코드에 여러 점수를 넣었을 때의 출력을 예상하고, 조건의 순서를 바꾼 오류를 찾습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“③은 80보다 작아.”",
+          "“④는 위에서부터 처음 참인 곳.”"
+        ],
+        "정답": [
+          "① A",
+          "② B",
+          "③ C",
+          "④ B(95 >= 80이 먼저 참이 되어 A까지 가지 못함)"
+        ],
+        "막히면": [
+          "조건 줄마다 참·거짓을 표시하며 내려갑니다."
+        ],
+        "주의": [
+          "④는 테스트 사례(경계값과 큰 값)로 순서 오류를 찾는 연습입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "for 반복과 트레이스 표",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "for 반복",
+      "figures": [
+        {
+          "type": "geo",
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  7.0
+                ],
+                [
+                  9.627,
+                  7.0
+                ],
+                [
+                  9.627,
+                  12.4
+                ],
+                [
+                  0.0,
+                  12.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            },
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  9.627,
+                  0.0
+                ],
+                [
+                  9.627,
+                  6.0
+                ],
+                [
+                  0.0,
+                  6.0
+                ]
+              ],
+              "fill": "FFFFFF",
+              "color": "2A9D8F",
+              "width": 1.5
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                11.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                11.7
+              ],
+              "text": "total = 0",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                10.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                10.7
+              ],
+              "text": "for i in range(1, 5):",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                9.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                9.7
+              ],
+              "text": "total = total + i",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                8.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                8.7
+              ],
+              "text": "print(i, total)",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                7.7
+              ],
+              "text": "5",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                7.7
+              ],
+              "text": "print(\"합\", total)",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.3,
+                6.5
+              ],
+              "text": "실행 결과",
+              "size": "small",
+              "bold": true,
+              "color": "2A9D8F",
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                5.25
+              ],
+              "text": "1 1",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                4.25
+              ],
+              "text": "2 3",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                3.25
+              ],
+              "text": "3 6",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                2.25
+              ],
+              "text": "4 10",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                1.25
+              ],
+              "text": "합 10",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "파이썬 코드 5줄: total에 1부터 4까지 차례로 더하며 i와 total을 출력한다. 실행 결과 1 1, 2 3, 3 6, 4 10, 합 10",
+          "max_unit": 0.42
+        },
+        {
+          "type": "table",
+          "headers": [
+            "반복",
+            "i",
+            "total",
+            "출력"
+          ],
+          "rows": [
+            [
+              "1",
+              "1",
+              "1",
+              "1 1"
+            ],
+            [
+              "2",
+              "2",
+              "3",
+              "2 3"
+            ],
+            [
+              "3",
+              "3",
+              "6",
+              "3 6"
+            ],
+            [
+              "4",
+              "4",
+              "10",
+              "4 10"
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.2,
+            0.25,
+            0.35
+          ],
+          "size": 18,
+          "width": 6.5,
+          "firstColHead": true
+        }
+      ],
+      "notes": {
+        "목적": "for i in range(1, 5):는 i에 1, 2, 3, 4를 차례로 넣으며 들여 쓴 줄을 되풀이합니다(끝 수 5는 들어가지 않음). 트레이스 표는 반복할 때마다 변수 값을 적는 표입니다. total은 1, 3, 6, 10으로 늘어나고 마지막에 ‘합 10’이 출력됩니다. 실행 결과와 표의 출력 칸이 같은지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“range(1, 5)에 5가 들어갈까?”",
+          "“세 번째 반복 뒤 total은?”"
+        ],
+        "예상답": [
+          "“아니요. 1~4예요.”",
+          "“6이요.”"
+        ],
+        "막히면": [
+          "표의 한 줄을 채운 뒤 코드의 3~4줄을 손가락으로 짚습니다."
+        ],
+        "주의": [
+          "range(시작, 끝, 간격)에서 간격을 쓰면 range(0, 10, 3)은 0, 3, 6, 9입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "while 반복 따라가기(시범)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "while 반복",
+      "problem": {
+        "text": "주마다 3000원씩 모아 10000원 이상이 되면 멈춰요. 몇 주 걸릴까요?"
+      },
+      "steps": [
+        "money = 0, week = 0으로 시작",
+        "조건 참이면 week + 1, money + 3000",
+        "9000 → 12000에서 조건 거짓",
+        "출력: 4 12000"
+      ],
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                3.0
+              ],
+              [
+                10.623,
+                3.0
+              ],
+              [
+                10.623,
+                9.4
+              ],
+              [
+                0.0,
+                9.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                10.623,
+                0.0
+              ],
+              [
+                10.623,
+                2.0
+              ],
+              [
+                0.0,
+                2.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              8.7
+            ],
+            "text": "money = 0",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "week = 0",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "while money < 10000:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              5.7
+            ],
+            "text": "week = week + 1",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              4.7
+            ],
+            "text": "money = money + 3000",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              3.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              3.7
+            ],
+            "text": "print(week, money)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              2.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "4 12000",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 6줄: money가 10000보다 작은 동안 주마다 3000씩 더한다. 실행 결과 4 12000",
+        "max_unit": 0.42
+      },
+      "figureRatio": 0.45,
+      "notes": {
+        "목적": "while 조건:은 조건이 참인 동안 되풀이하고, 들어갈 때마다 조건을 다시 봅니다. 주마다 3000원씩 모아 10000원 이상이 되면 멈춥니다. 1주 3000, 2주 6000, 3주 9000(아직 작음), 4주 12000이 되어 조건이 거짓이 되므로 ‘4 12000’이 출력됩니다. 반복 몸통에서 조건의 값을 바꾸지 않으면 끝나지 않습니다(무한 반복).",
+        "시간": "약 3분",
+        "말하기": [
+          "“3주 뒤 9000은 10000보다 작지?”",
+          "“그다음은?”"
+        ],
+        "예상답": [
+          "“네, 한 번 더 돌아요.”",
+          "“12000이 되어 멈춰요.”"
+        ],
+        "막히면": [
+          "트레이스 표의 마지막 칸(조건)을 채우며 따라갑니다."
+        ],
+        "주의": [
+          "반복 횟수를 미리 알면 for, 조건으로 멈추면 while이 알맞습니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "안내받는 연습(반복 따라가기)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "반복을 따라가요",
+      "problems": [
+        {
+          "text": "for i in range(0, 10, 3):\n    print(i)의 출력"
+        },
+        {
+          "text": "for i in range(3):\n    print(i * 2)의 출력"
+        },
+        {
+          "text": "오른쪽 코드의 출력"
+        },
+        {
+          "text": "S07 코드에서 5줄을 지우면?"
+        }
+      ],
+      "hint": "반복마다 변수 값을 표에",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                9.478,
+                0.0
+              ],
+              [
+                9.478,
+                6.4
+              ],
+              [
+                0.0,
+                6.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "n = 20",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              4.7
+            ],
+            "text": "count = 0",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              3.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              3.7
+            ],
+            "text": "while n > 1:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              2.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              2.7
+            ],
+            "text": "n = n // 2",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              1.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              1.7
+            ],
+            "text": "count = count + 1",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              0.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              0.7
+            ],
+            "text": "print(n, count)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 6줄: n = 20을 1보다 큰 동안 2로 나눈 몫으로 바꾸며 횟수를 센다",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "도움을 받으며 반복 코드의 실행 결과를 트레이스로 구합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 0에서 3씩.”",
+          "“③은 20 → 10 → 5 → 2 → 1.”"
+        ],
+        "정답": [
+          "① 0, 3, 6, 9",
+          "② 0, 2, 4",
+          "③ 1 4",
+          "④ money가 바뀌지 않아 조건이 계속 참이 되어 끝나지 않는다(무한 반복)"
+        ],
+        "막히면": [
+          "반복마다 표에 한 줄씩 씁니다."
+        ],
+        "주의": [
+          "//는 나눈 몫입니다(5 // 2 = 2)."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "구구단 프로그램 쓰고 확인하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "내 프로그램을 확인해요",
+      "steps": [
+        "활동지의 코드를 읽어요.",
+        "3단 처음 네 줄을 표로 예상해요.",
+        "실행하거나 부모님이 컴퓨터 역할을 해요.",
+        "짝수 곱만 나오게 if를 넣어 고쳐요."
+      ],
+      "criteria": [
+        "예상을 먼저 썼어요",
+        "결과와 비교했어요",
+        "들여쓰기를 맞췄어요"
+      ],
+      "criteriaTitle": "할 때 확인해요",
+      "safety": "실행 환경은 어른과 함께 써요.",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                13.676,
+                0.0
+              ],
+              [
+                13.676,
+                3.4
+              ],
+              [
+                0.0,
+                3.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              2.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              2.7
+            ],
+            "text": "n = int(input(\"몇 단? \"))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              1.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              1.7
+            ],
+            "text": "for i in range(1, 10):",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              0.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              0.7
+            ],
+            "text": "print(n, \"x\", i, \"=\", n * i)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 3줄: 몇 단인지 입력받아 1부터 9까지 곱을 출력한다",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "활동지의 구구단 코드를 읽고, 3을 넣었을 때 처음 네 줄을 트레이스 표로 예상합니다. 컴퓨터가 있으면 어른과 함께 파이썬에 입력해 실행하고 예상과 같은지 확인합니다. 없으면 부모님이 ‘컴퓨터 역할’을 맡아 아이가 불러 주는 대로 한 줄씩 실행합니다. 그다음 ‘3단에서 짝수 곱만 출력’하도록 if를 넣어 고쳐 봅니다.",
+        "시간": "약 6분",
+        "말하기": [
+          "“i가 1일 때 출력은?”",
+          "“짝수 곱만 출력하려면 어디에 if를 넣지?”"
+        ],
+        "예상답": [
+          "“3 x 1 = 3이요.”",
+          "“print 앞에 if n * i % 2 == 0:을 넣어요.”"
+        ],
+        "막히면": [
+          "% 대신 ‘2로 나눈 나머지가 0’이라고 말로 쓰게 해도 됩니다."
+        ],
+        "주의": [
+          "파이썬 실행 환경은 어른과 함께 쓰고, 회원 가입이 필요하면 어른이 합니다. 따옴표·괄호·콜론은 영문 자판으로 칩니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(range(1, 5)는 1부터 5까지?)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "누구 말이 맞을까요?",
+      "claim": "for i in range(1, 5):로 반복하면 i는 몇까지 갈까요?",
+      "left": {
+        "title": "토끼: 5까지요",
+        "text": "1부터 5까지\n다섯 번 돌아요."
+      },
+      "right": {
+        "title": "곰: 4까지요",
+        "text": "끝 수는 빠져서\n1, 2, 3, 4예요."
+      },
+      "question": "1부터 5까지 반복하려면 어떻게 쓸까요?",
+      "notes": {
+        "목적": "range(1, 5)가 1부터 5까지라는 오개념(M2)을 비교합니다. range의 끝 수는 포함하지 않으므로 1, 2, 3, 4입니다. S06 트레이스 표에서 i는 4가 마지막이었습니다. 1부터 5까지 하려면 range(1, 6)으로 씁니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“S06 표에서 i의 마지막 값은?”",
+          "“1부터 5까지 하려면?”"
+        ],
+        "예상답": [
+          "“4요. 곰이 맞아요.”",
+          "“range(1, 6)이요.”"
+        ],
+        "정답": [
+          "곰이 맞습니다. range(1, 5)는 1, 2, 3, 4이고 끝 수 5는 빠집니다."
+        ],
+        "막히면": [
+          "print(list(range(1, 5)))를 실행한 결과 [1, 2, 3, 4]를 보여 줍니다."
+        ],
+        "주의": [
+          "지치면 S10 뒤에서 쉬고, 다음에 S11부터 이어도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해결",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "problems": [
+        {
+          "text": "S04 코드에 90을 넣을 때 출력"
+        },
+        {
+          "text": "input으로 받은 나이에 1을\n더하려면 어떻게 해야 할까?"
+        },
+        {
+          "text": "for i in range(2, 8, 2):\n    print(i)의 출력"
+        },
+        {
+          "text": "n = 1에서 n < 20인 동안\nn = n * 3을 반복하면\n마지막 n과 반복 횟수는?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 조건문·입출력(A)과 반복(B)을 하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 다 하면 ④를 트레이스 표로 설명해 줘.”"
+        ],
+        "정답": [
+          "① A",
+          "② int(input(\"나이? \"))처럼 int로 바꾼다(글자에는 수를 더할 수 없음)",
+          "③ 2, 4, 6",
+          "④ n은 27, 3번(n: 3 → 9 → 27)"
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “표에 한 줄씩 써 볼까?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "①②가 맞으면 목표 A, ③④가 맞으면 목표 B를 혼자 해결한 것입니다. 정답 확인은 다음 장(S12)에서 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘한 모습 돌아보기",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 모습",
+      "badTitle": "× 다시 볼 곳",
+      "good": [
+        {
+          "text": "① A(90 >= 90)"
+        },
+        {
+          "text": "② int()로 바꾸기"
+        },
+        {
+          "text": "③ 2, 4, 6   ④ 27, 3번"
+        }
+      ],
+      "bad": [
+        {
+          "text": "① B",
+          "note": ">=의 경계(M1)"
+        },
+        {
+          "text": "③ 2, 4, 6, 8",
+          "note": "끝 수 포함(M2)"
+        },
+        {
+          "text": "④ 81, 4번",
+          "note": "조건을 다시 확인 안 함(M3)"
+        }
+      ],
+      "explain": "조건은 경계값까지 확인하고, range의 끝은 빠지며, while은 매번 조건을 다시 봐요.",
+      "notes": {
+        "목적": "아이의 답을 함께 확인하고 경계값, 형 변환, range의 끝을 바로잡습니다. 수업용에만 있는 장입니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“③에서 8이 출력될까?”"
+        ],
+        "정답": [
+          "① A ② int로 바꾸기 ③ 2, 4, 6 ④ 27, 3번"
+        ],
+        "막히면": [
+          "①②가 틀리면 S03~S05로, ③④가 틀리면 S06~S08·S10으로 돌아갑니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에는 없습니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(처음 보는 문제)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "마무리 확인",
+      "problems": [
+        {
+          "text": "오른쪽 코드의 출력은?\nA만 나오게 하려면\n어떻게 고칠까?"
+        },
+        {
+          "text": "total = 0, count = 0에서\ntotal < 100인 동안 total에 15,\ncount에 1을 더하면\nprint(count, total)의 출력은?"
+        }
+      ],
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                7.337,
+                0.0
+              ],
+              [
+                7.337,
+                7.4
+              ],
+              [
+                0.0,
+                7.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "score = 95",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "if score >= 90:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              4.7
+            ],
+            "text": "print(\"A\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              3.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              3.7
+            ],
+            "text": "if score >= 80:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              2.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              2.7
+            ],
+            "text": "print(\"B\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              1.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              1.7
+            ],
+            "text": "else:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              0.7
+            ],
+            "text": "7",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              0.7
+            ],
+            "text": "print(\"C\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 7줄: score = 95일 때 if를 두 번 따로 쓴 코드",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "처음 보는 문제로 조건문의 구조(A)와 while 반복(B)을 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 if가 두 번 따로 있어.”",
+          "“②는 15씩 더하며 표로.”"
+        ],
+        "정답": [
+          "① A와 B가 모두 출력된다(두 if가 따로 검사되므로). 두 번째 if를 elif로 고친다",
+          "② 7 105"
+        ],
+        "막히면": [
+          "②: 15, 30, … 을 차례로 써 100 이상이 되는 곳을 찾습니다."
+        ],
+        "주의": [
+          "두 문제를 맞히면 목표 A·B 확인 완료입니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "정리와 다음 수업 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "=는 대입, input은 글자 → int(), if·elif·else는 위에서부터 처음 참인 곳 하나(콜론·4칸 들여쓰기)\nfor는 range(시작, 끝)의 끝 제외, while은 조건이 참인 동안, 트레이스 표로 확인",
+      "do": "경계값으로 시험하기",
+      "dont": "range(1, 5)에 5가 들어간다",
+      "review": [
+        {
+          "text": "S04 코드에\n85를 넣으면?"
+        },
+        {
+          "text": "range(1, 5)의\n값들"
+        },
+        {
+          "text": "S07 while 코드의\n출력"
+        }
+      ],
+      "next": "함수로 나누고 테스트",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습 문제를 알려 줍니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“if·elif·else는 어떻게 실행되지?”",
+          "“for와 while은 언제 쓰지?”",
+          "“다음 수업을 시작할 때 이 세 문제를 먼저 풀 거야.”"
+        ],
+        "예상답": [
+          "“위에서부터 처음 참인 곳 하나만요.”",
+          "“횟수를 알면 for, 조건으로 멈추면 while이요.”"
+        ],
+        "정답": [
+          "① B",
+          "② 1, 2, 3, 4",
+          "③ 4 12000"
+        ],
+        "막히면": [
+          "S04, S06, S07을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "다음 차시 ‘함수로 나누고 테스트’에서는 코드를 함수로 묶고 테스트합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "선수 학습 보충(의사코드와 파이썬)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 의사코드와 파이썬",
+      "layout": "support",
+      "table": {
+        "headers": [
+          "의사코드(중학교)",
+          "파이썬"
+        ],
+        "rows": [
+          [
+            "입력(점수)",
+            "score = int(input())"
+          ],
+          [
+            "만약 ~ 이면",
+            "if 조건:"
+          ],
+          [
+            "아니면 만약 ~ 이면",
+            "elif 조건:"
+          ],
+          [
+            "아니면",
+            "else:"
+          ],
+          [
+            "~ 인 동안 반복",
+            "while 조건:"
+          ]
+        ],
+        "widths": [
+          0.45,
+          0.55
+        ],
+        "size": 17,
+        "width": 8.5,
+        "firstColHead": true
+      },
+      "key": "파이썬은 콜론(:)과 4칸 들여쓰기로 덩어리를 나타내요",
+      "notes": {
+        "목적": "S02가 흔들리면 중학교 의사코드와 파이썬을 짝지어 다시 정리합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“‘아니면’은 파이썬으로?”",
+          "“‘인 동안 반복’은?”"
+        ],
+        "정답": [
+          "else:",
+          "while 조건:"
+        ],
+        "막히면": [
+          "카드 한쪽에 의사코드, 다른 쪽에 파이썬을 써서 짝 맞추기를 합니다."
+        ],
+        "주의": [
+          "보충으로도 어려우면 중3 ‘구현과 검증’을 먼저 다시 합니다.",
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "파이썬 조건과 반복 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "아래 구구단 코드에 3을 넣을 때 처음 네 번의 반복을 트레이스 표로 예상하고, 실행 결과(또는 부모님의 ‘컴퓨터 역할’)와 비교하세요.",
+        "geo": {
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  13.676,
+                  0.0
+                ],
+                [
+                  13.676,
+                  3.4
+                ],
+                [
+                  0.0,
+                  3.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                2.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                2.7
+              ],
+              "text": "n = int(input(\"몇 단? \"))",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                1.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                1.7
+              ],
+              "text": "for i in range(1, 10):",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                0.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                0.7
+              ],
+              "text": "print(n, \"x\", i, \"=\", n * i)",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "활동지 구구단 코드",
+          "max_unit": 0.42
+        },
+        "table": {
+          "headers": [
+            "반복",
+            "i",
+            "n * i",
+            "출력"
+          ],
+          "rows": [
+            [
+              "1",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.16,
+            0.16,
+            0.2,
+            0.48
+          ],
+          "firstColHead": true
+        },
+        "answer": "i: 1, 2, 3, 4 / 곱 3, 6, 9, 12 / 출력 3 x 1 = 3, 3 x 2 = 6, 3 x 3 = 9, 3 x 4 = 12 (마지막 줄은 3 x 9 = 27)"
+      },
+      {
+        "no": 2,
+        "prompt": "3단에서 짝수인 곱만 출력하도록 고친 코드를 쓰세요(2로 나눈 나머지는 % 2).",
+        "lines": 3,
+        "answer": "for i in range(1, 10): 다음 줄에 if n * i % 2 == 0: 을 넣고 print를 한 칸 더 들여 씀 → 3 x 2 = 6, 3 x 4 = 12, 3 x 6 = 18, 3 x 8 = 24"
+      },
+      {
+        "no": 3,
+        "prompt": "다음 코드의 트레이스 표를 완성하고 출력을 쓰세요.",
+        "geo": {
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  9.86,
+                  0.0
+                ],
+                [
+                  9.86,
+                  6.4
+                ],
+                [
+                  0.0,
+                  6.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                5.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                5.7
+              ],
+              "text": "total = 0",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                4.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                4.7
+              ],
+              "text": "count = 0",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                3.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                3.7
+              ],
+              "text": "while total < 100:",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                2.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                2.7
+              ],
+              "text": "total = total + 15",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                1.7
+              ],
+              "text": "5",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                1.7
+              ],
+              "text": "count = count + 1",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                0.7
+              ],
+              "text": "6",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                0.7
+              ],
+              "text": "print(count, total)",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "활동지 while 코드",
+          "max_unit": 0.42
+        },
+        "table": {
+          "headers": [
+            "반복",
+            "total",
+            "count",
+            "total < 100"
+          ],
+          "rows": [
+            [
+              "1",
+              "",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "",
+              "",
+              ""
+            ],
+            [
+              "5",
+              "",
+              "",
+              ""
+            ],
+            [
+              "6",
+              "",
+              "",
+              ""
+            ],
+            [
+              "7",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.26,
+            0.24,
+            0.3
+          ],
+          "firstColHead": true
+        },
+        "answer": "total 15, 30, 45, 60, 75, 90, 105 / count 1~7 / 조건은 7번째에 거짓 → 출력 7 105"
+      },
+      {
+        "no": 4,
+        "prompt": "점수 코드(S04)에 넣을 테스트 사례 네 개를 정하고 예상 출력을 쓰세요(경계값을 꼭 넣기).",
+        "table": {
+          "headers": [
+            "사례",
+            "입력 점수",
+            "예상 출력"
+          ],
+          "rows": [
+            [
+              "1",
+              "",
+              ""
+            ],
+            [
+              "2",
+              "",
+              ""
+            ],
+            [
+              "3",
+              "",
+              ""
+            ],
+            [
+              "4",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.4,
+            0.4
+          ],
+          "firstColHead": true
+        },
+        "answer": "예: 95 → A, 90 → A, 80 → B, 79 → C (경계값 90·80·79를 넣으면 맞음)"
+      },
+      {
+        "no": 5,
+        "prompt": "(도전) 1부터 n까지의 합이 처음으로 50을 넘는 n을 구하는 while 프로그램을 쓰고, 출력되는 n을 예상하세요.",
+        "lines": 6,
+        "answer": "total = 0, n = 0 / while total <= 50: n = n + 1, total = total + n / print(n) → 10(합 55)"
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "물음에 답하세요.",
+        "read": "① 점수 코드(S04)에 85를 넣으면 무엇이 출력되나요?\n② range(1, 5)에 들어 있는 값을 모두 쓰세요.\n③ 주마다 3000원씩 모아 10000원 이상이 되면 멈추는 while 코드의 출력은?",
+        "lines": 3,
+        "answer": "① B ② 1, 2, 3, 4 ③ 4 12000"
+      }
+    ],
+    "record": [
+      "S02 선수 확인: 모두 바르게 □  의사코드 흔들림(보충 S15) □  변수 대입 흔들림 □",
+      "S09 활동: 예상을 먼저 씀 □  실행(또는 컴퓨터 역할)으로 비교 □  if를 넣어 고침 □  도움을 받아 함 □",
+      "S11 혼자 해 보기: 네 문제 모두 □  조건·입출력(①②) □  반복(③④) □  도움을 받아 해결 □",
+      "S13 마무리 확인: 두 문제 모두 □  한 문제 □  아직 □",
+      "오해: >= 경계 혼동(M1) □  range 끝 포함(M2) □  while 조건 확인 순서(M3) □"
+    ]
+  },
+  "safety": [
+    "파이썬 실행 환경은 어른과 함께 쓰고, 회원 가입이 필요하면 어른이 합니다.",
+    "코드에 실제 이름·전화번호 같은 개인정보를 넣지 않습니다."
+  ],
+  "break_after": "S10"
 }

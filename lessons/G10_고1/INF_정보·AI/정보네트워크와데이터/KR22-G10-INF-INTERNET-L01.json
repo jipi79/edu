@@ -759,19 +759,19 @@
             "pts": [
               [
                 0.0,
-                2.5
+                3.0
               ],
               [
-                19.3,
-                2.5
+                16.188,
+                3.0
               ],
               [
-                19.3,
-                9.9
+                16.188,
+                10.4
               ],
               [
                 0.0,
-                9.9
+                10.4
               ]
             ],
             "fill": "F3F4F6",
@@ -785,11 +785,11 @@
                 0.0
               ],
               [
-                19.3,
+                16.188,
                 0.0
               ],
               [
-                19.3,
+                16.188,
                 2.0
               ],
               [
@@ -808,7 +808,7 @@
           {
             "at": [
               0.45,
-              9.2
+              9.7
             ],
             "text": "1",
             "size": "small",
@@ -818,7 +818,7 @@
           {
             "at": [
               1.05,
-              9.2
+              9.7
             ],
             "text": "msg = \"HELLO, WORLD!\"",
             "size": "label",
@@ -828,7 +828,7 @@
           {
             "at": [
               0.45,
-              8.2
+              8.7
             ],
             "text": "2",
             "size": "small",
@@ -838,7 +838,7 @@
           {
             "at": [
               1.05,
-              8.2
+              8.7
             ],
             "text": "n = 5",
             "size": "label",
@@ -848,7 +848,7 @@
           {
             "at": [
               0.45,
-              7.2
+              7.7
             ],
             "text": "3",
             "size": "small",
@@ -858,7 +858,7 @@
           {
             "at": [
               1.05,
-              7.2
+              7.7
             ],
             "text": "packets = []",
             "size": "label",
@@ -868,7 +868,7 @@
           {
             "at": [
               0.45,
-              6.2
+              6.7
             ],
             "text": "4",
             "size": "small",
@@ -878,7 +878,7 @@
           {
             "at": [
               1.05,
-              6.2
+              6.7
             ],
             "text": "for i in range(0, len(msg), n):",
             "size": "label",
@@ -888,7 +888,7 @@
           {
             "at": [
               0.45,
-              5.2
+              5.7
             ],
             "text": "5",
             "size": "small",
@@ -897,8 +897,8 @@
           },
           {
             "at": [
-              2.65,
-              5.2
+              2.35,
+              5.7
             ],
             "text": "part = msg[i:i + n]",
             "size": "label",
@@ -908,7 +908,7 @@
           {
             "at": [
               0.45,
-              4.2
+              4.7
             ],
             "text": "6",
             "size": "small",
@@ -917,8 +917,8 @@
           },
           {
             "at": [
-              2.65,
-              4.2
+              2.35,
+              4.7
             ],
             "text": "packets.append((i // n, part))",
             "size": "label",
@@ -928,7 +928,7 @@
           {
             "at": [
               0.45,
-              3.2
+              3.7
             ],
             "text": "7",
             "size": "small",
@@ -938,7 +938,7 @@
           {
             "at": [
               1.05,
-              3.2
+              3.7
             ],
             "text": "print(packets)",
             "size": "label",
@@ -948,7 +948,7 @@
           {
             "at": [
               0.3,
-              2.25
+              2.5
             ],
             "text": "실행 결과",
             "size": "small",
@@ -1531,206 +1531,7 @@
       "title": "마무리 확인",
       "problems": [
         {
-          "figure": {
-            "type": "geo",
-            "names": false,
-            "polygons": [
-              {
-                "pts": [
-                  [
-                    0.0,
-                    2.5
-                  ],
-                  [
-                    22.71,
-                    2.5
-                  ],
-                  [
-                    22.71,
-                    8.9
-                  ],
-                  [
-                    0.0,
-                    8.9
-                  ]
-                ],
-                "fill": "F3F4F6",
-                "color": "9AA5B1",
-                "width": 1.25
-              },
-              {
-                "pts": [
-                  [
-                    0.0,
-                    0.0
-                  ],
-                  [
-                    22.71,
-                    0.0
-                  ],
-                  [
-                    22.71,
-                    2.0
-                  ],
-                  [
-                    0.0,
-                    2.0
-                  ]
-                ],
-                "fill": "FFFFFF",
-                "color": "2A9D8F",
-                "width": 1.5
-              }
-            ],
-            "segments": [],
-            "circles": [],
-            "texts": [
-              {
-                "at": [
-                  0.45,
-                  8.2
-                ],
-                "text": "1",
-                "size": "small",
-                "bold": false,
-                "color": "4B5563"
-              },
-              {
-                "at": [
-                  1.05,
-                  8.2
-                ],
-                "text": "got = [(2, \"LD!\"), (0, \"HELLO\"), (1, \", WOR\")]",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.45,
-                  7.2
-                ],
-                "text": "2",
-                "size": "small",
-                "bold": false,
-                "color": "4B5563"
-              },
-              {
-                "at": [
-                  1.05,
-                  7.2
-                ],
-                "text": "got.sort()",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.45,
-                  6.2
-                ],
-                "text": "3",
-                "size": "small",
-                "bold": false,
-                "color": "4B5563"
-              },
-              {
-                "at": [
-                  1.05,
-                  6.2
-                ],
-                "text": "text = \"\"",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.45,
-                  5.2
-                ],
-                "text": "4",
-                "size": "small",
-                "bold": false,
-                "color": "4B5563"
-              },
-              {
-                "at": [
-                  1.05,
-                  5.2
-                ],
-                "text": "for num, part in got:",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.45,
-                  4.2
-                ],
-                "text": "5",
-                "size": "small",
-                "bold": false,
-                "color": "4B5563"
-              },
-              {
-                "at": [
-                  2.65,
-                  4.2
-                ],
-                "text": "text = text + part",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.45,
-                  3.2
-                ],
-                "text": "6",
-                "size": "small",
-                "bold": false,
-                "color": "4B5563"
-              },
-              {
-                "at": [
-                  1.05,
-                  3.2
-                ],
-                "text": "print(text)",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.3,
-                  2.25
-                ],
-                "text": "실행 결과",
-                "size": "small",
-                "bold": true,
-                "color": "2A9D8F",
-                "anchor": "left"
-              },
-              {
-                "at": [
-                  0.4,
-                  1.25
-                ],
-                "text": "HELLO, WORLD!",
-                "size": "label",
-                "bold": false,
-                "anchor": "left"
-              }
-            ],
-            "alt": "파이썬 코드 6줄: 뒤섞여 도착한 (번호, 조각)을 번호순으로 정렬한 뒤 차례로 이어 붙여 출력한다. 실행 결과는 HELLO, WORLD!",
-            "max_unit": 0.42
-          },
-          "wide": true
+          "text": "패킷이 (2, \"LD!\"), (0, \"HELLO\"), (1, \", WOR\") 순서로\n도착했어요. 번호순으로 이으면 어떤 글이 될까요?"
         },
         {
           "text": "‘www.examp1e.com’(l 대신 숫자 1) 링크의 로그인 창에 자물쇠가 있어요.\n로그인해도 될까요?"
@@ -1748,7 +1549,7 @@
           "② 누르지 않는다. 도메인 이름이 진짜와 다르고(철자 바꿔치기), 자물쇠는 연결 암호화만 뜻하므로 공식 앱이나 직접 입력한 주소로 확인한다"
         ],
         "막히면": [
-          "①: got.sort() 뒤의 목록을 먼저 써 봅니다."
+          "①: 번호순으로 먼저 늘어놓아 봅니다(S07 코드와 같음)."
         ],
         "주의": [
           "두 문제를 맞히면 목표 A·B 확인 완료입니다. ②의 주소는 지어낸 예입니다."
@@ -1915,11 +1716,11 @@
                   0.0
                 ],
                 [
-                  15.81,
+                  13.443,
                   0.0
                 ],
                 [
-                  15.81,
+                  13.443,
                   6.4
                 ],
                 [
@@ -2027,7 +1828,7 @@
             },
             {
               "at": [
-                2.65,
+                2.35,
                 1.7
               ],
               "text": "count = count + 1",
@@ -2064,18 +1865,178 @@
       },
       {
         "no": 4,
+        "prompt": "뒤섞여 도착한 패킷을 조립하는 다음 코드의 실행 결과를 쓰세요. 2줄 got.sort()가 하는 일도 쓰세요.",
+        "geo": {
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  19.167,
+                  0.0
+                ],
+                [
+                  19.167,
+                  6.4
+                ],
+                [
+                  0.0,
+                  6.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                5.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                5.7
+              ],
+              "text": "got = [(2, \"LD!\"), (0, \"HELLO\"), (1, \", WOR\")]",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                4.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                4.7
+              ],
+              "text": "got.sort()",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                3.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                3.7
+              ],
+              "text": "text = \"\"",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                2.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                2.7
+              ],
+              "text": "for num, part in got:",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                1.7
+              ],
+              "text": "5",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                1.7
+              ],
+              "text": "text = text + part",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                0.7
+              ],
+              "text": "6",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                0.7
+              ],
+              "text": "print(text)",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "활동지 조립 코드",
+          "max_unit": 0.42
+        },
+        "lines": 2,
+        "answer": "HELLO, WORLD! — 번호(첫 값) 순서로 정렬해 0, 1, 2번 순서로 만든다"
+      },
+      {
+        "no": 5,
         "prompt": "웹 페이지가 오는 과정의 빈칸을 채우세요: 주소 입력 → (   ) → HTTPS 연결 약속 → (   ) → 응답 패킷 받기 → (   )",
         "lines": 2,
         "answer": "DNS로 IP 찾기 / 요청 패킷 보내기 / 조립해 화면 표시"
       },
       {
-        "no": 5,
+        "no": 6,
         "prompt": "(도전) 자물쇠 표시가 있는 사이트에서도 개인정보를 넣기 전에 확인해야 할 것을 두 가지 쓰고, 그 까닭을 HTTPS가 보장하는 것과 보장하지 않는 것으로 설명하세요.",
         "lines": 3,
         "answer": "도메인 이름의 철자, 공식 앱·직접 입력으로 들어왔는지 등 — HTTPS는 연결의 암호화와 그 이름의 서버임을 보장하지만, 그 사이트 주인이 정직한지는 보장하지 않음"
       },
       {
-        "no": 6,
+        "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
         "prompt": "물음에 답하세요.",
