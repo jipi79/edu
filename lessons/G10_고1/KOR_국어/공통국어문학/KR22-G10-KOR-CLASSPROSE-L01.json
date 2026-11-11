@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-KOR-CLASSPROSE-L01",
+  "concept_id": "KOR-CLASSPROSE",
+  "title": "고전산문 입문",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "공통국어문학",
+  "sequence": 4,
+  "file_stem": "고1_국어_공통국어문학_04_고전산문입문",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-KOR-I02"
+    ],
+    "units": [
+      "1.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "고전소설의 전기성·우연성·행복한 결말 같은 특징을 찾고 당대의 가치관과 연결해 인물을 해석한다.",
+  "prerequisites": [
+    {
+      "text": "현대소설 해석하기",
+      "lesson": "KR22-G10-KOR-MODNOVEL-L01",
+      "grade_item": "KR22-G10-KOR-I02"
+    },
+    {
+      "text": "작품의 사회·문화적 맥락",
+      "lesson": "KR22-G09-KOR-WORKCTX-L01",
+      "grade_item": "KR22-G09-KOR-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "고전산문 입문 활동지",
+    "items": [],
+    "record": []
+  }
+}
