@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G11-MAT-AREA-L01",
+  "concept_id": "MAT-AREA",
+  "title": "정적분과 넓이",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "미적분1적분",
+  "sequence": 3,
+  "file_stem": "고2_수학_미적분1적분_03_정적분과넓이",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I02"
+    ],
+    "units": [
+      "2.6.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "정적분을 이용해 곡선과 x축 사이의 넓이와 두 곡선 사이의 넓이를 구한다.",
+  "prerequisites": [
+    {
+      "text": "정적분",
+      "lesson": "KR22-G11-MAT-DEFINT-L01",
+      "grade_item": "KR22-G11-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정적분과 넓이 활동지",
+    "items": [],
+    "record": []
+  }
+}

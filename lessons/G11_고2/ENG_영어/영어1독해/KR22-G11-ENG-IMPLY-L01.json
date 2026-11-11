@@ -57,7 +57,7 @@
     "형광펜이나 색연필 두 가지(밑줄 표현에 네모, 단서 문장에 밑줄)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "직접 쓴 한 문단 글(100~150 낱말)에서 비유적으로 쓰인 밑줄 친 표현(구나 절 하나)의 함축 의미를 글의 요지와 앞뒤 문장으로 추론하는 것을 다룬다. 화면과 활동지에서는 밑줄 대신 [ ]로 표시한다. 짧은 연습은 A is B 꼴의 은유(My room is a zoo.)와 굳어진 쉬운 표현(my heart sank)을 한두 문장 맥락과 함께 쓴다. 보기는 4개로 하고, 영어 보기는 쉬운 낱말로 쓰며 새 낱말은 뜻을 함께 준다. 설명은 우리말로 해도 된다. 은유·직유 같은 문학 용어의 구분, 시·소설의 비유, 속담·관용어 암기, 글쓴이의 어조·심경 문제는 다루지 않는다. ‘함축 의미·비유·글자 그대로의 뜻’이라는 이름은 화면에 뜻과 함께 쓴다.",
+  "boundary": "직접 쓴 한 문단 글(100~150 낱말)에서 비유적으로 쓰인 밑줄 친 표현(구나 절 하나)의 함축 의미를 글의 요지와 앞뒤 문장으로 추론하는 것을 다룬다. 밑줄 친 부분은 화면·활동지·안내서에 실제 밑줄로 표시한다. 짧은 연습은 A is B 꼴의 은유(My room is a zoo.)와 굳어진 쉬운 표현(my heart sank)을 한두 문장 맥락과 함께 쓴다. 보기는 4개로 하고, 영어 보기는 쉬운 낱말로 쓰며 새 낱말은 뜻을 함께 준다. 설명은 우리말로 해도 된다. 은유·직유 같은 문학 용어의 구분, 시·소설의 비유, 속담·관용어 암기, 글쓴이의 어조·심경 문제는 다루지 않는다. ‘함축 의미·비유·글자 그대로의 뜻’이라는 이름은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -129,7 +129,7 @@
         ],
         "주의": [
           "오늘 지문은 부모님이 한 번 소리 내어 읽어 주세요. 지문의 뜻은 노트와 안내서에 있습니다. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요.",
-          "화면과 활동지에서는 밑줄 친 표현을 [ ]로 표시했습니다. 중3 ‘함축된 의미 추론’에서 단서 문장을 그대로 들어 근거를 댄 방법을 오늘도 그대로 씁니다."
+          "화면과 활동지에서 밑줄 친 부분이 오늘 풀어야 할 비유입니다. 중3 ‘함축된 의미 추론’에서 단서 문장을 그대로 들어 근거를 댄 방법을 오늘도 그대로 씁니다."
         ]
       }
     },
@@ -240,19 +240,19 @@
         "A"
       ],
       "title": "진짜 뜻은?",
-      "text": "[ ]의 진짜 뜻을 쉬운 말로 말하고, 단서를 찾아요.",
+      "text": "밑줄 친 부분의 진짜 뜻을 쉬운 말로 말하고, 단서를 찾아요.",
       "problems": [
         {
-          "text": "My room is [a zoo].\nClothes and books are everywhere."
+          "text": "My room is ⟦a zoo⟧.\nClothes and books are everywhere."
         },
         {
-          "text": "The library was [a sea of books].\nI couldn't count them all."
+          "text": "The library was ⟦a sea of books⟧.\nI couldn't count them all."
         },
         {
-          "text": "I was sad. Minji's words were\n[sunshine on a rainy day].\nI smiled again."
+          "text": "I was sad. Minji's words were\n⟦sunshine on a rainy day⟧.\nI smiled again."
         },
         {
-          "text": "After I talked to my mom,\n[a heavy stone was lifted]\nfrom my heart."
+          "text": "After I talked to my mom,\n⟦a heavy stone was lifted⟧\nfrom my heart."
         }
       ],
       "notes": {
@@ -324,10 +324,10 @@
         "A"
       ],
       "title": "함께 풀어요: 완벽한 파도",
-      "text": "[ ] 밑줄 친 표현 · talent 재능 · surfer 서퍼 · imperfect 완벽하지 않은",
+      "text": "talent 재능 · surfer 서퍼 · imperfect 완벽하지 않은",
       "passage": {
         "paragraphs": [
-          "Have you ever wanted to start a new hobby but never did? Many people say they will learn to draw or play the guitar “someday.” They wait until they have more free time, better tools, or more talent. In this way, they are [waiting for a perfect wave] that never comes. A surfer who waits only for the perfect wave may sit on the beach all day. Surfers get better by riding small, imperfect waves again and again. Learning works the same way. You do not need the best guitar or a free weekend to begin. Just play for ten minutes today with the guitar you have. Small, imperfect starts are how real skills grow."
+          "Have you ever wanted to start a new hobby but never did? Many people say they will learn to draw or play the guitar “someday.” They wait until they have more free time, better tools, or more talent. In this way, they are ⟦waiting for a perfect wave⟧ that never comes. A surfer who waits only for the perfect wave may sit on the beach all day. Surfers get better by riding small, imperfect waves again and again. Learning works the same way. You do not need the best guitar or a free weekend to begin. Just play for ten minutes today with the guitar you have. Small, imperfect starts are how real skills grow."
         ]
       },
       "question": "① 글자 그대로의 뜻은?　② 요지는?\n③ 앞 문장에서 사람들은 무엇을 기다렸나요? 쉬운 말로 바꾸면?",
@@ -335,10 +335,10 @@
         "목적": "부모가 글을 읽어 주고, 다섯 단계 가운데 앞의 네 단계(글자 그대로 → 요지 → 앞뒤 상황 → 쉬운 말)를 함께 해 봅니다(목표 A).",
         "시간": "약 4분",
         "말하기": [
-          "“먼저 [ ] 표현을 글자 그대로 해석해 볼까? waiting for a perfect wave, 완벽한 파도를 기다리는 것. 이 글은 서핑 이야기일까?”",
+          "“먼저 밑줄 친 부분을 글자 그대로 해석해 볼까? waiting for a perfect wave, 완벽한 파도를 기다리는 것. 이 글은 서핑 이야기일까?”",
           "(부모가 글을 한 번 읽어 줍니다.)",
           "“글쓴이가 하고 싶은 말은 마지막 문장에 있어. 무엇이 진짜 실력을 키운다고 했지?”",
-          "“[ ] 바로 앞 문장에서 사람들은 무엇을 기다렸어? 그걸 쉬운 말로 바꾸면?”"
+          "“밑줄 친 부분 바로 앞 문장에서 사람들은 무엇을 기다렸어? 그걸 쉬운 말로 바꾸면?”"
         ],
         "예상답": [
           "“시간, 좋은 도구, 재능을 기다려요.” “모든 게 완벽해질 때까지 시작을 미루는 거예요.”"
@@ -349,7 +349,7 @@
         "주의": [
           "단서 문장: They wait until they have more free time, better tools, or more talent. / You do not need the best guitar or a free weekend to begin. / 요지: Small, imperfect starts are how real skills grow.",
           "함축 의미: 모든 조건이 완벽해질 때까지 시작을 미루는 것.",
-          "글의 뜻: 새 취미를 시작하고 싶었지만 끝내 하지 못한 적이 있나요? 많은 사람이 ‘언젠가’ 그림이나 기타를 배우겠다고 말해요. 그들은 시간이 더 생기거나, 더 좋은 도구나 더 많은 재능이 생길 때까지 기다려요. 이렇게 그들은 결코 오지 않는 [ 완벽한 파도를 기다리고 ] 있어요. 완벽한 파도만 기다리는 서퍼는 하루 종일 해변에 앉아 있을지도 몰라요. 서퍼는 작고 완벽하지 않은 파도를 몇 번이고 타면서 실력이 늘어요. 배움도 똑같아요. 시작하는 데 가장 좋은 기타나 한가한 주말이 필요하지 않아요. 오늘 가진 기타로 10분만 쳐 보세요. 작고 완벽하지 않은 시작이 진짜 실력이 자라는 방법이에요. (hobby: 취미, someday: 언젠가, talent: 재능, surfer: 서퍼(파도 타는 사람), imperfect: 완벽하지 않은)"
+          "글의 뜻: 새 취미를 시작하고 싶었지만 끝내 하지 못한 적이 있나요? 많은 사람이 ‘언젠가’ 그림이나 기타를 배우겠다고 말해요. 그들은 시간이 더 생기거나, 더 좋은 도구나 더 많은 재능이 생길 때까지 기다려요. 이렇게 그들은 결코 오지 않는 ‘완벽한 파도를 기다리고’(밑줄) 있어요. 완벽한 파도만 기다리는 서퍼는 하루 종일 해변에 앉아 있을지도 몰라요. 서퍼는 작고 완벽하지 않은 파도를 몇 번이고 타면서 실력이 늘어요. 배움도 똑같아요. 시작하는 데 가장 좋은 기타나 한가한 주말이 필요하지 않아요. 오늘 가진 기타로 10분만 쳐 보세요. 작고 완벽하지 않은 시작이 진짜 실력이 자라는 방법이에요. (hobby: 취미, someday: 언젠가, talent: 재능, surfer: 서퍼(파도 타는 사람), imperfect: 완벽하지 않은)"
         ]
       }
     },
@@ -363,7 +363,7 @@
         "A",
         "B"
       ],
-      "title": "[waiting for a perfect wave]의 뜻은?",
+      "title": "‘waiting for a perfect wave’의 뜻은?",
       "text": "쉬운 말로 바꾼 뜻과 같은 보기를 골라요.  put off 미루다 · ideal 이상적인",
       "options": [
         {
@@ -412,7 +412,7 @@
         "B"
       ],
       "title": "근거가 맞는 쪽은?",
-      "claim": "S06 [waiting for a perfect wave]의 뜻을 두 친구가 이렇게 말했어요.",
+      "claim": "S06 밑줄 친 부분(waiting for a perfect wave)의 뜻을 두 친구가 이렇게 말했어요.",
       "left": {
         "title": "가",
         "text": "서핑을 배우려고\n좋은 파도를 기다리는 것\n(surfer, beach가 나오니까요)"
@@ -451,19 +451,19 @@
         "A"
       ],
       "title": "풀어 봐요: 닫히지 않는 문",
-      "text": "[ ] 밑줄 친 표현 · alert 알림 · attention 주의 · wonder 궁금해하다",
+      "text": "alert 알림 · attention 주의 · wonder 궁금해하다",
       "passage": {
         "paragraphs": [
-          "When you are at home, you can close your door when you want to be alone or focus on your work. But for many of us, the phone has become [a door that never closes]. Messages, news, and game alerts come in at any time, even late at night. Each sound pulls our attention away from what we are doing. Even when we don't check the phone, we often wonder whether something new has arrived. As a result, it becomes hard to focus or to rest. Some people now turn off alerts for a few hours each day. They say that this small change gives them back their quiet time."
+          "When you are at home, you can close your door when you want to be alone or focus on your work. But for many of us, the phone has become ⟦a door that never closes⟧. Messages, news, and game alerts come in at any time, even late at night. Each sound pulls our attention away from what we are doing. Even when we don't check the phone, we often wonder whether something new has arrived. As a result, it becomes hard to focus or to rest. Some people now turn off alerts for a few hours each day. They say that this small change gives them back their quiet time."
         ]
       },
-      "question": "[a door that never closes]의 진짜 뜻을 쉬운 말로 말하고,\n근거 문장을 짚어요.",
+      "question": "밑줄 친 부분의 진짜 뜻을 쉬운 말로 말하고, 근거 문장을 짚어요.",
       "notes": {
         "목적": "부모가 한 번 읽어 준 뒤, 아이가 다섯 단계로 밑줄 표현의 진짜 뜻을 쉬운 말로 바꾸고 근거 문장을 짚습니다(목표 A, 오해 M1·M4).",
         "시간": "약 4분",
         "말하기": [
           "(부모가 글을 한 번 읽어 줍니다.)",
-          "“[ ] 표현을 글자 그대로 해석하면? 휴대 전화가 정말 문일까?”",
+          "“밑줄 친 부분을 글자 그대로 해석하면? 휴대 전화가 정말 문일까?”",
           "“집의 문은 혼자 있고 싶을 때 닫을 수 있지? 그런데 휴대 전화는 왜 ‘닫히지 않는 문’일까? 바로 뒤 문장들에서 근거를 찾아 쉬운 말로 말해 줘.”"
         ],
         "정답": [
@@ -476,7 +476,7 @@
         ],
         "주의": [
           "첫 문장(집의 문은 닫을 수 있다)과 밑줄 문장(휴대 전화는 닫히지 않는 문)이 대조를 이룹니다. 끝의 알림 끄기는 문을 닫는 방법입니다.",
-          "글의 뜻: 집에서는 혼자 있고 싶거나 일에 집중하고 싶을 때 방문을 닫을 수 있어요. 하지만 우리 가운데 많은 사람에게 휴대 전화는 [ 닫히지 않는 문 ]이 되었어요. 메시지, 뉴스, 게임 알림이 아무 때나, 밤늦게도 들어와요. 소리가 날 때마다 우리의 주의는 하던 일에서 멀어져요. 휴대 전화를 확인하지 않을 때도 새로운 것이 왔는지 궁금해하곤 하지요. 그 결과 집중하거나 쉬기가 어려워져요. 요즘 어떤 사람들은 하루에 몇 시간씩 알림을 꺼요. 이 작은 변화가 조용한 시간을 되돌려 준다고 말해요. (focus: 집중하다, alert: 알림, attention: 주의, wonder: 궁금해하다, turn off: 끄다)"
+          "글의 뜻: 집에서는 혼자 있고 싶거나 일에 집중하고 싶을 때 방문을 닫을 수 있어요. 하지만 우리 가운데 많은 사람에게 휴대 전화는 ‘닫히지 않는 문’(밑줄)이 되었어요. 메시지, 뉴스, 게임 알림이 아무 때나, 밤늦게도 들어와요. 소리가 날 때마다 우리의 주의는 하던 일에서 멀어져요. 휴대 전화를 확인하지 않을 때도 새로운 것이 왔는지 궁금해하곤 하지요. 그 결과 집중하거나 쉬기가 어려워져요. 요즘 어떤 사람들은 하루에 몇 시간씩 알림을 꺼요. 이 작은 변화가 조용한 시간을 되돌려 준다고 말해요. (focus: 집중하다, alert: 알림, attention: 주의, wonder: 궁금해하다, turn off: 끄다)"
         ]
       }
     },
@@ -536,18 +536,18 @@
         "A"
       ],
       "title": "혼자 풀어요: 떠나지 않는 여행",
-      "text": "[ ] 밑줄 친 표현 · material 자료 · workbook 문제집 · pack (짐을) 싸다",
+      "text": "material 자료 · workbook 문제집 · pack (짐을) 싸다",
       "passage": {
         "paragraphs": [
-          "Some students love to collect study materials. They download many video lessons, buy several workbooks, and save hundreds of notes on their phones. It feels like they are working hard, and their desks look busy. But if they never actually use these materials, they are only [packing for a trip they never take]. Real learning happens when you solve problems, make mistakes, and explain ideas in your own words. One workbook that you finish teaches you more than five workbooks that you only bought. So before you look for another new book or video, ask yourself an honest question: “Have I really used what I already have?”"
+          "Some students love to collect study materials. They download many video lessons, buy several workbooks, and save hundreds of notes on their phones. It feels like they are working hard, and their desks look busy. But if they never actually use these materials, they are only ⟦packing for a trip they never take⟧. Real learning happens when you solve problems, make mistakes, and explain ideas in your own words. One workbook that you finish teaches you more than five workbooks that you only bought. So before you look for another new book or video, ask yourself an honest question: “Have I really used what I already have?”"
         ]
       },
-      "question": "[packing for a trip they never take]의 진짜 뜻을 쉬운 말로 말하고,\n근거 문장 두 개를 짚어요.",
+      "question": "밑줄 친 부분의 진짜 뜻을 쉬운 말로 말하고, 근거 문장 두 개를 짚어요.",
       "notes": {
         "목적": "도움 없이 다섯 단계 가운데 네 단계로 밑줄 표현의 진짜 뜻을 쉬운 말로 바꾸고 근거 문장을 짚는지 확인합니다(목표 A). 활동지 3에 씁니다.",
         "시간": "약 3분",
         "말하기": [
-          "“이번에는 혼자 해 볼래? 글을 소리 내어 읽고, [ ]의 진짜 뜻을 쉬운 말로 말한 뒤 근거 문장 두 개를 짚어 줘.”"
+          "“이번에는 혼자 해 볼래? 글을 소리 내어 읽고, 밑줄 친 부분의 진짜 뜻을 쉬운 말로 말한 뒤 근거 문장 두 개를 짚어 줘.”"
         ],
         "정답": [
           "뜻: 공부할 준비(자료 모으기)만 하고 실제로는 공부하지 않는 것",
@@ -560,7 +560,7 @@
         ],
         "주의": [
           "pack은 ‘(짐을) 싸다’, trip은 ‘여행’입니다. 자료 모으기(짐 싸기)는 준비, 문제 풀기(여행 떠나기)는 진짜 배움에 빗댄 것입니다.",
-          "글의 뜻: 어떤 학생들은 공부 자료 모으기를 아주 좋아해요. 동영상 강의를 많이 내려받고, 문제집을 여러 권 사고, 휴대 전화에 메모를 수백 개 저장하지요. 열심히 공부하는 것 같은 기분이 들고 책상도 바빠 보여요. 하지만 이 자료를 실제로 쓰지 않는다면 그들은 [ 떠나지도 않을 여행의 짐을 싸고 ] 있을 뿐이에요. 진짜 배움은 문제를 풀고, 실수를 하고, 생각을 자기 말로 설명할 때 일어나요. 끝까지 푼 문제집 한 권이 사기만 한 문제집 다섯 권보다 더 많은 것을 가르쳐 줘요. 그러니 새 책이나 동영상을 또 찾기 전에 스스로에게 솔직하게 물어보세요. ‘나는 이미 가진 것을 정말 썼을까?’ (material: 자료, download: 내려받다, workbook: 문제집, actually: 실제로, honest: 솔직한)"
+          "글의 뜻: 어떤 학생들은 공부 자료 모으기를 아주 좋아해요. 동영상 강의를 많이 내려받고, 문제집을 여러 권 사고, 휴대 전화에 메모를 수백 개 저장하지요. 열심히 공부하는 것 같은 기분이 들고 책상도 바빠 보여요. 하지만 이 자료를 실제로 쓰지 않는다면 그들은 ‘떠나지도 않을 여행의 짐을 싸고’(밑줄) 있을 뿐이에요. 진짜 배움은 문제를 풀고, 실수를 하고, 생각을 자기 말로 설명할 때 일어나요. 끝까지 푼 문제집 한 권이 사기만 한 문제집 다섯 권보다 더 많은 것을 가르쳐 줘요. 그러니 새 책이나 동영상을 또 찾기 전에 스스로에게 솔직하게 물어보세요. ‘나는 이미 가진 것을 정말 썼을까?’ (material: 자료, download: 내려받다, workbook: 문제집, actually: 실제로, honest: 솔직한)"
         ]
       }
     },
@@ -573,7 +573,7 @@
       "objectives": [
         "B"
       ],
-      "title": "S11 [packing for a trip they never take]의 뜻은?",
+      "title": "S11 ‘packing for a trip they never take’의 뜻은?",
       "text": "S11에서 말한 뜻과 같은 보기를 골라요.  prepare 준비하다",
       "options": [
         {
@@ -682,23 +682,23 @@
         "A"
       ],
       "title": "진짜 뜻을 말해요",
-      "text": "[ ]의 진짜 뜻을 쉬운 말로 말하고, 단서를 짚어요.",
+      "text": "밑줄 친 부분의 진짜 뜻을 쉬운 말로 말하고, 단서를 짚어요.",
       "problems": [
         {
-          "text": "When I got the test back, [my heart sank].\nI had studied hard, but my score was low."
+          "text": "When I got the test back, ⟦my heart sank⟧.\nI had studied hard, but my score was low."
         },
         {
-          "text": "Our new classmate was [a closed book].\nHe never talked about himself."
+          "text": "Our new classmate was ⟦a closed book⟧.\nHe never talked about himself."
         },
         {
-          "text": "Jun is [the glue] of our team. When we argue,\nhe helps us understand each other."
+          "text": "Jun is ⟦the glue⟧ of our team. When we argue,\nhe helps us understand each other."
         }
       ],
       "notes": {
         "목적": "처음 보는 짧은 비유 세 개의 진짜 뜻을 쉬운 말로 바꾸고 단서를 말하는지 확인합니다(목표 A).",
         "시간": "약 2분",
         "말하기": [
-          "“[ ]의 진짜 뜻을 쉬운 말로 말하고, 단서가 된 말을 말해 줘.”"
+          "“밑줄 친 부분의 진짜 뜻을 쉬운 말로 말하고, 단서가 된 말을 말해 줘.”"
         ],
         "정답": [
           "① 크게 실망했다 — 단서: I had studied hard, but my score was low.",
@@ -733,7 +733,7 @@
           "text": "함축 의미를 찾는\n다섯 단계는?"
         },
         {
-          "text": "My room is [a zoo].\nClothes and books are\neverywhere. 진짜 뜻은?"
+          "text": "My room is ⟦a zoo⟧.\nClothes and books are\neverywhere. 진짜 뜻은?"
         },
         {
           "text": "고르면 안 되는\n함정 보기 세 가지는?"
@@ -835,7 +835,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "[ ]의 진짜 뜻을 쉬운 말로 쓰고, 단서가 된 말에 밑줄을 그으세요.",
+        "prompt": "밑줄 친 부분의 진짜 뜻을 쉬운 말로 쓰고, 단서가 된 말에 동그라미를 치세요.",
         "table": {
           "headers": [
             "문장",
@@ -843,19 +843,19 @@
           ],
           "rows": [
             [
-              "① After the long hike, my legs were [jelly]. I could hardly walk.",
+              "① After the long hike, my legs were ⟦jelly⟧. I could hardly walk.",
               ""
             ],
             [
-              "② The classroom was [an oven]. Everyone was sweating.",
+              "② The classroom was ⟦an oven⟧. Everyone was sweating.",
               ""
             ],
             [
-              "③ My grandma is [a walking dictionary]. She knows the meaning of every word.",
+              "③ My grandma is ⟦a walking dictionary⟧. She knows the meaning of every word.",
               ""
             ],
             [
-              "④ Before the speech, [butterflies were dancing in my stomach]. My hands were shaking.",
+              "④ Before the speech, ⟦butterflies were dancing in my stomach⟧. My hands were shaking.",
               ""
             ]
           ],
@@ -870,8 +870,8 @@
       },
       {
         "no": 2,
-        "prompt": "다섯 단계로 [ ]의 진짜 뜻을 찾으세요. 먼저 쉬운 말로 바꾸어 쓰고, 보기에서 고른 뒤 근거 문장을 옮겨 쓰세요.",
-        "read": "When we watch a pianist play a difficult piece of music beautifully, it looks easy. Her fingers move quickly and lightly, and she seems to enjoy every moment. But what we see on the stage is only [the top step of a long ladder]. Before that five-minute performance, she practiced the same piece for months. She played slowly, made many mistakes, and repeated the hard parts hundreds of times. Nobody clapped for her during those long hours alone. The same is true for athletes, writers, and scientists. So when you see someone do something amazingly well, remember the many steps that you cannot see.",
+        "prompt": "다섯 단계로 밑줄 친 부분의 진짜 뜻을 찾으세요. 먼저 쉬운 말로 바꾸어 쓰고, 보기에서 고른 뒤 근거 문장을 옮겨 쓰세요.",
+        "read": "When we watch a pianist play a difficult piece of music beautifully, it looks easy. Her fingers move quickly and lightly, and she seems to enjoy every moment. But what we see on the stage is only ⟦the top step of a long ladder⟧. Before that five-minute performance, she practiced the same piece for months. She played slowly, made many mistakes, and repeated the hard parts hundreds of times. Nobody clapped for her during those long hours alone. The same is true for athletes, writers, and scientists. So when you see someone do something amazingly well, remember the many steps that you cannot see.",
         "choices": [
           "the final result of many hours of hidden practice",
           "a ladder that is used on a stage",
@@ -881,7 +881,7 @@
         "choices_size": 13,
         "line_label": "쉬운 말 · 근거 문장:",
         "lines": 2,
-        "answer": "the final result of many hours of hidden practice (보이지 않는 오랜 연습의 마지막 결과). 쉬운 말 예: 무대에서 보이는 것은 오랜 연습 끝의 마지막 모습일 뿐이다. 근거: Before that five-minute performance, she practiced the same piece for months. / Nobody clapped for her during those long hours alone. / remember the many steps that you cannot see. 답과 근거 문장 하나 이상이면 통과. a ladder that is used on a stage는 글자 그대로의 뜻, a short and easy piece of music은 요지와 반대(어려운 곡을 쉬워 보이게 친 것), the moment when people clap은 글 낱말(clapped)을 쓴 세부 함정. 낱말 뜻: pianist 피아노 연주자, piece 곡, lightly 가볍게, stage 무대, ladder 사다리, performance 공연, repeat 되풀이하다, clap 손뼉 치다, athlete 운동선수, amazingly 놀랍도록. 글의 뜻: 피아노 연주자가 어려운 곡을 아름답게 연주하는 것을 보면 쉬워 보여요. 손가락은 빠르고 가볍게 움직이고, 연주자는 모든 순간을 즐기는 것 같지요. 하지만 우리가 무대에서 보는 것은 [ 긴 사다리의 맨 위 칸 ]일 뿐이에요. 5분짜리 공연 전에 그녀는 같은 곡을 몇 달 동안 연습했어요. 천천히 치고, 실수를 많이 하고, 어려운 부분을 수백 번 되풀이했지요. 혼자 보낸 그 긴 시간 동안 아무도 손뼉을 쳐 주지 않았어요. 운동선수, 작가, 과학자도 마찬가지예요. 그러니 누군가 무엇을 놀랍도록 잘하는 것을 보면, 보이지 않는 많은 계단을 기억하세요."
+        "answer": "the final result of many hours of hidden practice (보이지 않는 오랜 연습의 마지막 결과). 쉬운 말 예: 무대에서 보이는 것은 오랜 연습 끝의 마지막 모습일 뿐이다. 근거: Before that five-minute performance, she practiced the same piece for months. / Nobody clapped for her during those long hours alone. / remember the many steps that you cannot see. 답과 근거 문장 하나 이상이면 통과. a ladder that is used on a stage는 글자 그대로의 뜻, a short and easy piece of music은 요지와 반대(어려운 곡을 쉬워 보이게 친 것), the moment when people clap은 글 낱말(clapped)을 쓴 세부 함정. 낱말 뜻: pianist 피아노 연주자, piece 곡, lightly 가볍게, stage 무대, ladder 사다리, performance 공연, repeat 되풀이하다, clap 손뼉 치다, athlete 운동선수, amazingly 놀랍도록. 글의 뜻: 피아노 연주자가 어려운 곡을 아름답게 연주하는 것을 보면 쉬워 보여요. 손가락은 빠르고 가볍게 움직이고, 연주자는 모든 순간을 즐기는 것 같지요. 하지만 우리가 무대에서 보는 것은 ‘긴 사다리의 맨 위 칸’(밑줄)일 뿐이에요. 5분짜리 공연 전에 그녀는 같은 곡을 몇 달 동안 연습했어요. 천천히 치고, 실수를 많이 하고, 어려운 부분을 수백 번 되풀이했지요. 혼자 보낸 그 긴 시간 동안 아무도 손뼉을 쳐 주지 않았어요. 운동선수, 작가, 과학자도 마찬가지예요. 그러니 누군가 무엇을 놀랍도록 잘하는 것을 보면, 보이지 않는 많은 계단을 기억하세요."
       },
       {
         "no": 3,
@@ -918,7 +918,7 @@
         "no": 4,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 함축 의미를 찾는 다섯 단계를 쓰세요.\n② My room is [a zoo]. Clothes and books are everywhere. 진짜 뜻과 단서를 쓰세요.\n③ 함축 의미 문제에서 고르면 안 되는 함정 보기 세 가지를 쓰세요.",
+        "prompt": "① 함축 의미를 찾는 다섯 단계를 쓰세요.\n② My room is ⟦a zoo⟧. Clothes and books are everywhere. 진짜 뜻과 단서를 쓰세요.\n③ 함축 의미 문제에서 고르면 안 되는 함정 보기 세 가지를 쓰세요.",
         "lines": 3,
         "answer": "① 글자 그대로 해석 → 요지와 방향 → 앞뒤 문장에서 가리키는 상황 → 쉬운 말로 바꾸기 → 보기 고르기 ② 방이 아주 지저분하다 — 단서 Clothes and books are everywhere. ③ 글자 그대로의 뜻을 담은 보기, 예시 하나만 담은 세부 보기, 요지와 반대인 보기. 세 가지 모두 도움 없이 하면 통과."
       }
