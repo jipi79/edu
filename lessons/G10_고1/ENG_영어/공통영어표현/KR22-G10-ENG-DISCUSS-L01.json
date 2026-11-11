@@ -1,0 +1,1018 @@
+{
+  "id": "KR22-G10-ENG-DISCUSS-L01",
+  "concept_id": "ENG-DISCUSS",
+  "title": "협력적 토의",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "공통영어표현",
+  "sequence": 3,
+  "file_stem": "고1_영어_공통영어표현_03_협력적토의",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENG-I02"
+    ],
+    "units": [
+      "3.3.3",
+      "3.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "뜻 확인하며 대화 잇기",
+      "lesson": "KR22-G07-ENG-CHECKMEAN-L01",
+      "grade_item": "KR22-G07-ENG-I03"
+    },
+    {
+      "text": "질문에 답하기",
+      "lesson": "KR22-G09-ENG-ANSWERQ-L01",
+      "grade_item": "KR22-G09-ENG-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "토의(여러 사람이 생각을 나누어 함께 받아들일 결론을 찾는 대화)의 기능 표현 다섯 가지(동의: I agree. / That's a good point. / 정중한 반대: I see your point, but ~. / I'm not sure about that because ~. / 확인: Do you mean ~? / Could you explain that more? / 보충: I'd like to add that ~. / Also, ~. / 정리: So, we both think ~. / Let's ~.)를 상황에 맞게 고르고 쓰며, 무례한 반대(You're wrong. / That's a bad idea.)를 정중한 말로 바꾼다.",
+      "evidence": "토의와 기능(S03), 기능 표현 표(S04), 상황에 맞는 표현(S05), 무례한 반대 비교(S06), 대본의 기능 찾기(S08), 마무리 확인(S14), 활동지 1·2",
+      "success": "S05·S14와 활동지 1·2의 상황 문제 10개 가운데 8개 이상에 알맞은 기능 표현을 쓰고, 무례한 말을 정중한 반대(I see your point, but ~ / I'm not sure about that because ~)로 바꾼다."
+    },
+    {
+      "id": "B",
+      "text": "부모와 역할을 바꾸어 대본 토의를 한 뒤, 처음 보는 주제로 차례를 지키며(말이 끝나면 What do you think?로 넘기기, 차례마다 기능 표현 하나) 6~8번 말을 주고받고, 서로의 의견 차이를 확인·보충해 함께 받아들일 결론을 한 문장(So, we both think ~. / Let's ~.)으로 정리한다.",
+      "evidence": "본보기 토의 대본(S07), 역할 바꿔 읽기(S09), 차례 지키기와 결론 정하기(S10), 비 오는 토요일 토의(S11), 혼자 토의하기(S12), 활동지 3·4",
+      "success": "S12의 새 주제 토의에서 아이가 자기 차례 3~4번 동안 서로 다른 기능 표현을 세 가지 이상 쓰고, 상대의 말을 끊지 않으며, 마지막에 두 사람이 함께 받아들일 결론을 한 문장으로 말한다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "말하기 막대로 쓸 물건 하나(숟가락, 작은 공 등: 든 사람만 말해요)",
+    "종이 카드 다섯 장(동의·반대·확인·보충·정리 표현을 하나씩 써 둠)",
+    "교과서 디지털 자료나 사전 앱(문장 소리 듣기)"
+  ],
+  "boundary": "두 사람(부모와 아이)이 가족 생활 속 주제(할머니 생신, 비 오는 토요일, 플라스틱 줄이기)로 토의해 함께 받아들일 결론을 정하는 것만 다룬다. 기능 표현은 동의(I agree. / That's a good point.), 정중한 반대(I see your point, but ~. / I'm not sure about that because ~.), 확인(Do you mean ~? / Could you explain that more?), 보충(I'd like to add that ~. / Also, ~.), 정리(So, we both think ~. / Let's ~.) 다섯 가지 열 개만 쓰고, I'd like to는 중3에서 본 덩어리 표현으로 뜻만 쓴다. 차례 지키기는 말하기 막대(든 사람만 말함)와 What do you think?로 차례를 넘기는 것만 다룬다. 찬반을 나누어 이기고 지는 토론(debate), 사회자 진행, 여러 사람 토의, 투표, 반박 기술은 다루지 않는다(찬반 토론은 고2에서 한다). 의견의 내용은 정답이 없으며, 결론은 한쪽 의견을 고르거나 두 의견을 합친 것 모두 된다. ‘토의·기능 표현·차례’라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "반대할 때 You're wrong. / That's a bad idea. / No.처럼 상대를 낮추는 말을 쓴다.",
+      "response": "S06에서 무례한 반대와 정중한 반대를 비교하고, S04 표의 ‘상대 말 인정 + but + 까닭’ 틀(I see your point, but ~.)을 쓰게 한다. S14와 활동지 2에서 바꾸어 쓴다."
+    },
+    {
+      "id": "M2",
+      "text": "상대의 말을 잘 모르면서 확인하지 않고 바로 반대하거나 넘어간다.",
+      "response": "S07 대본의 Do you mean ~?을 짚고, S10 넷째 단계(다른 점을 확인해요)에서 확인 질문을 넣게 한다. S12 기준에 확인 질문을 넣는다."
+    },
+    {
+      "id": "M3",
+      "text": "토의를 이기고 지는 말싸움으로 생각해 자기 의견만 되풀이하고 결론을 내지 않는다.",
+      "response": "S03에서 토의는 함께 받아들일 결론을 찾는 대화라는 것을 짚고, S07 대본의 결론(두 의견을 합침)과 S10 다섯째 단계로 결론 문장을 꼭 말하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "차례를 지키지 않고 상대의 말을 끊거나, 한 사람이 혼자 길게 말한다.",
+      "response": "S10의 말하기 막대 규칙과 What do you think?로 넘기기를 연습하고, S11·S12에서 차례마다 한 기능 표현만 쓰게 한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "협력적 토의",
+      "question": "I see your point, but ~.\n생각이 다를 때 영어로 어떻게 함께 결론을 찾을까?",
+      "goals": [
+        "① 동의·정중한 반대·확인·보충·정리 표현을 골라 써요.",
+        "② 차례를 지키며 토의하고 함께 받아들일 결론을 정해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I agree."
+          },
+          {
+            "word": "I see your point."
+          },
+          {
+            "word": "Do you mean ~?"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 생각이 다를 때 정중하게 말하며 함께 결론을 찾는 대화(토의)에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“가족끼리 의견이 다를 때가 있지? 할머니 생신에 식당에 갈지, 집에서 요리할지처럼.”",
+          "“이럴 때 서로 기분 상하지 않게 생각을 나누고 함께 결론을 정하는 대화를 토의라고 해. 오늘은 영어로 토의하는 말을 배울 거야.”",
+          "“오른쪽 세 표현을 들어 볼래? 동의할 때, 정중하게 반대할 때, 뜻을 확인할 때 쓰는 말이야.”"
+        ],
+        "예상답": [
+          "“I agree는 동의한다는 말이에요.” “I see your point, but은 부드럽게 반대하는 말 같아요.”"
+        ],
+        "막히면": [
+          "I see your point를 모르면 “‘네 말이 무슨 뜻인지 알겠어’라는 뜻이야. 상대를 먼저 인정하는 말이야.”라고 알려 줍니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 기능 표현(That's a good point. I see your point, but ~. I'm not sure about that because ~. Could you explain that more? I'd like to add that ~.)을 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "오늘은 부모님도 토의에 참여합니다. 아이 의견이 부모님 생각과 달라도 표현을 맞게 쓰면 칭찬해 주세요. 토의의 결론에는 정답이 없습니다.",
+          "말하기 막대로 쓸 물건(숟가락, 작은 공)과 종이 카드 다섯 장을 준비하세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(뜻 확인과 근거 대기)",
+      "role": "prior",
+      "objectives": [],
+      "title": "확인하고 답하기 떠올리기",
+      "text": "중1·중3에서 배운 표현을 떠올려요.",
+      "problems": [
+        {
+          "text": "엄마(아빠)의 말을 잘 못 들었어요.\n→ 공손하게 다시 말해 달라고"
+        },
+        {
+          "text": "친구가 ‘two fifteen’이라고 했어요.\n2시 50분인지 확인해요."
+        },
+        {
+          "text": "Can you help me this evening?\n→ because를 넣어 대답해요"
+        }
+      ],
+      "notes": {
+        "목적": "중1 ‘뜻 확인하며 대화 잇기’(KR22-G07-ENG-CHECKMEAN-L01)의 다시 묻기·뜻 확인 표현과 중3 ‘질문에 답하기’(KR22-G09-ENG-ANSWERQ-L01)의 근거를 든 대답(I think ~ because ~.)을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 이럴 때 영어로 무엇이라고 했는지 말해 줘. ③은 because를 넣어 대답해 볼래?”"
+        ],
+        "정답": [
+          "① Could you say that again? (Sorry?)",
+          "② Do you mean two fifty? (이해한 뜻을 넣어 확인)",
+          "③ 예: I think I can because I don't have homework today. / I'm not sure, but I think I can.",
+          "기준: ③은 because 뒤에 까닭이 있으면 맞습니다."
+        ],
+        "막히면": [
+          "①은 “‘다시 말해 줄래요?’를 공손하게”, ②는 “‘~라는 뜻이야?’는 Do you ~?”라고 첫 낱말을 알려 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 Do you mean ~?을 토의에서 상대의 생각을 확인할 때 씁니다. 근거를 대는 because는 정중하게 반대할 때(I'm not sure about that because ~) 다시 나옵니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "토의의 뜻과 다섯 가지 기능",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "토의에서 하는 일",
+      "text": "토의: 생각을 나누어 함께 받아들일 결론을 찾는 대화예요.",
+      "cards": [
+        {
+          "title": "동의",
+          "text": "좋은 생각을\n인정해요."
+        },
+        {
+          "title": "정중한 반대",
+          "text": "다른 생각을\n까닭과 함께 부드럽게"
+        },
+        {
+          "title": "확인",
+          "text": "모르면 묻고\n뜻을 확인해요."
+        },
+        {
+          "title": "보충",
+          "text": "상대 생각에\n내 생각을 보태요."
+        },
+        {
+          "title": "정리",
+          "text": "함께 받아들일\n결론을 말해요."
+        }
+      ],
+      "key": "토의는 이기는 게 아니라 함께 결론을 찾는 거예요.",
+      "notes": {
+        "목적": "토의는 이기고 지는 말싸움이 아니라 함께 받아들일 결론을 찾는 대화라는 것과, 토의에서 쓰는 다섯 가지 기능(동의·정중한 반대·확인·보충·정리)을 알려 줍니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“토의는 누가 이기는지 겨루는 게 아니야. 서로 생각을 나누고 둘 다 받아들일 수 있는 결론을 찾는 거야.”",
+          "“그래서 다섯 가지 일을 해. 좋은 생각에 동의하고, 다른 생각은 정중하게 말하고, 모르면 확인하고, 생각을 보태고, 마지막에 정리해.”"
+        ],
+        "예상답": [
+          "“토의는 함께 결론을 찾는 거예요.” “동의, 반대, 확인, 보충, 정리요.”"
+        ],
+        "막히면": [
+          "“가족 여행지를 정할 때 서로 화내면서 정하면 어때? 서로 들어 주고 정하면?”이라고 묻습니다."
+        ],
+        "주의": [
+          "찬성과 반대로 나뉘어 이기고 지는 대화는 토론(debate)이라고 합니다. 토론은 고2에서 배웁니다. 오늘은 함께 결론을 찾는 토의만 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "토의 기능 표현",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "토의 기능 표현",
+      "text": "기능마다 쓰는 표현이에요.",
+      "table": {
+        "headers": [
+          "기능",
+          "표현"
+        ],
+        "rows": [
+          [
+            "동의",
+            "I agree.  /  That's a good point."
+          ],
+          [
+            "정중한 반대",
+            "I see your point, but ~.  /  I'm not sure about that because ~."
+          ],
+          [
+            "확인",
+            "Do you mean ~?  /  Could you explain that more?"
+          ],
+          [
+            "보충",
+            "I'd like to add that ~.  /  Also, ~."
+          ],
+          [
+            "정리",
+            "So, we both think ~.  /  Let's ~."
+          ]
+        ],
+        "widths": [
+          0.2,
+          0.8
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": "정중한 반대 = 상대 말 인정 + but + 까닭",
+      "notes": {
+        "목적": "다섯 가지 기능마다 쓰는 표현 두 개씩을 표로 정리하고 뜻을 익힙니다(목표 A, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“한 줄씩 따라 말해 보자. I agree. 나도 같은 생각이야. That's a good point. 좋은 지적이야.”",
+          "“정중한 반대는 먼저 상대를 인정하고(I see your point), but 다음에 까닭을 말해. I'm not sure about that because ~는 ‘그건 잘 모르겠어, 왜냐하면 ~’이야.”",
+          "“Could you explain that more?는 ‘좀 더 설명해 줄래?’, I'd like to add that ~은 ‘~을 덧붙이고 싶어’야.”",
+          "“정리는 So, we both think ~. ‘그러니까 우리 둘 다 ~라고 생각하는구나.’ 그리고 Let's ~.로 할 일을 정해.”"
+        ],
+        "예상답": [
+          "“I see your point, but ~.” “I'd like to add that ~.”"
+        ],
+        "막히면": [
+          "표의 뜻을 먼저 우리말로 말하게 하고, 영어 칸을 가리고 하나씩 떠올리게 합니다."
+        ],
+        "주의": [
+          "정중한 반대에는 꼭 까닭(because, but 뒤)을 붙입니다. 까닭 없이 No.만 말하면 무례하게 들립니다(오해 M1).",
+          "종이 카드 다섯 장에 기능 이름과 표현을 써 두면 S09·S11·S12에서 보며 말할 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "상황에 맞는 기능 표현 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "이럴 때 무엇이라고 할까?",
+      "text": "장면에 맞는 기능 표현을 넣어 말해요.",
+      "problems": [
+        {
+          "text": "엄마: Let's go to the park.\n→ 좋은 생각이에요."
+        },
+        {
+          "text": "엄마: Let's walk to the park.\n→ 공원이 멀어서 걷기는 싫어요."
+        },
+        {
+          "text": "엄마: Let's go another way.\n→ 무슨 뜻인지 확인해요."
+        },
+        {
+          "text": "엄마: We can play badminton.\n→ 도시락 이야기를 보태요."
+        }
+      ],
+      "notes": {
+        "목적": "토의의 네 장면에 알맞은 기능 표현을 골라 말합니다(목표 A, 오해 M1·M2). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 장면을 읽을게. 어떤 기능이 필요한지 먼저 말하고, 표현을 넣어 문장으로 말해 줘.”"
+        ],
+        "정답": [
+          "① 동의: That's a good point. / I agree.",
+          "② 정중한 반대: I see your point, but the park is far. / I'm not sure about that because the park is far.",
+          "③ 확인: Do you mean we should go by bus? / Could you explain that more?",
+          "④ 보충: I'd like to add that we can bring sandwiches. / Also, we can bring sandwiches.",
+          "기준: 기능에 맞는 표현을 쓰고, ②는 까닭(because, but 뒤)을 넣으면 맞습니다. 까닭의 내용은 무엇이든 됩니다."
+        ],
+        "막히면": [
+          "S04 표를 다시 보여 주고 “이건 동의야, 반대야, 확인이야, 보충이야?”를 먼저 묻습니다."
+        ],
+        "주의": [
+          "③에서 아이가 Do you mean ~? 뒤에 무엇을 넣을지 모르면 “엄마(아빠)가 ‘다른 방법으로 가자’고 했어. 무슨 방법일까?”라고 짐작하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(무례한 반대)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 반대가 좋을까?",
+      "claim": "‘할머니 생신에 식당에 가자’는 말에 두 친구가 이렇게 반대했어요.",
+      "left": {
+        "title": "가",
+        "text": "You're wrong.\nThat's a bad idea."
+      },
+      "right": {
+        "title": "나",
+        "text": "I see your point, but\nrestaurants are crowded\non Saturdays."
+      },
+      "question": "어느 반대가 좋을까요? 무엇이 다른가요?",
+      "notes": {
+        "목적": "상대를 낮추는 반대와 상대를 인정한 뒤 까닭을 말하는 반대를 비교합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“엄마(아빠)가 ‘식당에 가자’고 했을 때, 두 친구가 이렇게 반대했어. 듣는 사람 기분은 어떨까?”",
+          "“나의 말에는 무엇이 들어 있어? 상대를 인정하는 말과 까닭.”"
+        ],
+        "정답": [
+          "나가 좋습니다. 먼저 상대 생각을 인정하고(I see your point), but 뒤에 까닭(토요일에 식당이 붐빈다)을 말했습니다. 가는 You're wrong.으로 상대를 낮추고 까닭이 없어 대화가 막힙니다."
+        ],
+        "막히면": [
+          "부모가 가의 말을 실제로 들려주고 “이 말을 들으면 다음에 무슨 말을 하고 싶어?”라고 묻습니다."
+        ],
+        "주의": [
+          "영어에서 You're wrong.은 아주 강하게 들립니다. 친구나 어른과 토의할 때는 쓰지 않도록 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 토의 대본(할머니 생신)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "본보기 토의: 할머니 생신",
+      "text": "A는 부모, B는 아이예요. 번갈아 읽어요.  crowded 붐비는 · noisy 시끄러운",
+      "passage": {
+        "paragraphs": [
+          "A: Grandma's birthday is next Saturday. What should we do for her?",
+          "B: I think we should take her to a nice restaurant.",
+          "A: That's a good point. But I'm not sure about that because restaurants are crowded on Saturdays.",
+          "B: Do you mean it will be too noisy for her?",
+          "A: Yes, that's right. What about cooking dinner at home?"
+        ]
+      },
+      "question": "B의 생각은? A가 걱정한 까닭은?",
+      "notes": {
+        "목적": "부모(A)와 아이(B)가 역할을 나누어 본보기 토의를 읽고, 의견이 달라도 확인·보충을 거쳐 두 의견을 합친 결론에 이르는 흐름을 봅니다(목표 B, 오해 M2·M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 A, 네가 B야. 대본을 한 줄씩 번갈아 읽어 보자. 다음 장에 뒷부분이 이어져.” (화면에는 앞부분 다섯 줄, 부모용 안내에 전체 대본이 있습니다.)",
+          "“처음에 B는 무엇을 하자고 했어? A는 왜 걱정했지?”",
+          "(뒷부분까지 읽은 뒤) “마지막 결론은 누구 의견이야? 식당? 집? 둘을 합쳤지?”"
+        ],
+        "예상답": [
+          "“B는 식당에 가자고 했어요. A는 토요일에 식당이 붐빈다고 걱정했어요.” “결론은 집에서 같이 요리하고 케이크를 사는 거예요.”"
+        ],
+        "막히면": [
+          "한 줄 읽을 때마다 부모가 우리말 뜻을 짧게 말해 줍니다."
+        ],
+        "주의": [
+          "전체 대본(116낱말, A와 B가 다섯 번씩 번갈아 말함): A: Grandma's birthday is next Saturday. What should we do for her? / B: I think we should take her to a nice restaurant. / A: That's a good point. But I'm not sure about that because restaurants are crowded on Saturdays. / B: Do you mean it will be too noisy for her? / A: Yes, that's right. What about cooking dinner at home? / B: I see your point, but cooking takes a lot of time. / A: I'd like to add that we can cook together. It will be fun. / B: Good idea. Also, we can buy a cake from her favorite bakery. / A: So, we both think a quiet dinner is better. Let's cook together at home and buy a cake. / B: I agree. Grandma will love it.",
+          "대본의 뜻: A: 할머니 생신이 다음 주 토요일이야. 할머니께 무엇을 해 드릴까? / B: 좋은 식당에 모시고 가면 좋겠어요. / A: 좋은 생각이야. 그런데 토요일에는 식당이 붐벼서 잘 모르겠어. / B: 할머니께 너무 시끄러울 거라는 뜻이에요? / A: 응, 맞아. 집에서 저녁을 요리하는 건 어때? / B: 무슨 말인지 알겠어요. 그런데 요리는 시간이 많이 걸려요. / A: 우리가 함께 요리할 수 있다는 걸 덧붙이고 싶어. 재미있을 거야. / B: 좋아요. 그리고 할머니가 좋아하시는 빵집에서 케이크도 살 수 있어요. / A: 그러니까 우리 둘 다 조용한 저녁이 더 좋다고 생각하는구나. 집에서 함께 요리하고 케이크를 사자. / B: 좋아요. 할머니가 정말 좋아하실 거예요. (crowded: 붐비는, noisy: 시끄러운, bakery: 빵집)"
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "대본 뒷부분에서 기능 찾기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "본보기 토의: 결론까지",
+      "text": "bakery 빵집 · together 함께",
+      "passage": {
+        "paragraphs": [
+          "B: I see your point, but cooking takes a lot of time.",
+          "A: I'd like to add that we can cook together. It will be fun.",
+          "B: Good idea. Also, we can buy a cake from her favorite bakery.",
+          "A: So, we both think a quiet dinner is better. Let's cook together at home and buy a cake.",
+          "B: I agree. Grandma will love it."
+        ]
+      },
+      "question": "줄마다 어떤 기능인가요? 결론은 누구의 생각인가요?",
+      "notes": {
+        "목적": "대본 뒷부분을 이어 읽고, 문장마다 어떤 기능(정중한 반대·보충·동의·정리)인지 말하며 결론이 두 의견을 합친 것임을 확인합니다(목표 A·B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“이어서 읽자. 그다음 줄마다 어떤 기능인지 말해 줘.”"
+        ],
+        "정답": [
+          "B: I see your point, but ~ → 정중한 반대",
+          "A: I'd like to add that ~ → 보충",
+          "B: Good idea. Also, ~ → 동의 + 보충",
+          "A: So, we both think ~. Let's ~. → 정리(결론)",
+          "B: I agree. → 동의",
+          "결론: 집에서 함께 요리하고(A의 생각) 할머니가 좋아하시는 빵집 케이크를 산다(B가 보탬) — 두 의견을 합친 결론"
+        ],
+        "막히면": [
+          "S04 표를 옆에 두고 줄마다 표의 표현을 찾게 합니다."
+        ],
+        "주의": [
+          "결론에서 한 사람이 일방적으로 이긴 것이 아니라 두 사람의 생각이 합쳐졌다는 점을 짚어 줍니다(오해 M3).",
+          "여기까지가 표현과 본보기입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "역할을 바꾸어 대본 토의하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 역할 바꿔 토의",
+      "steps": [
+        "역할을 바꿔요:\n아이가 A, 부모가 B",
+        "대본을 보며 끝까지 말해요.",
+        "대본을 덮고 부모가 새 의견:\nLet's have a picnic.",
+        "아이가 기능 표현으로 답해요.",
+        "아이가 정리해요:\nSo, we both think ~. Let's ~."
+      ],
+      "criteria": [
+        "역할을 바꿔 끝까지 말했어요",
+        "새 의견에 기능 표현으로 답했어요",
+        "정리 문장을 말했어요"
+      ],
+      "notes": {
+        "목적": "역할을 바꾸어 아이가 A(먼저 제안하고 정리하는 쪽), 부모가 B가 되어 대본을 읽은 뒤, 대본의 한 곳을 바꾸어 말해 봅니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번엔 네가 A, 엄마(아빠)가 B야. 대본을 보며 말해 볼래?”",
+          "“이제 대본을 덮고, B가 다른 의견을 말해 볼게. ‘I think we should have a picnic in the park.’ 너는 A로서 어떻게 답할래?”",
+          "“마지막 정리 문장은 네가 말해 줘. So, we both think ~. Let's ~.”"
+        ],
+        "예상답": [
+          "아이(A)의 대답 예: “That's a good point. But I'm not sure about that because it may rain.” / “Do you mean a picnic for lunch?” / “I'd like to add that we can bring Grandma's favorite food.” / “So, we both think Grandma likes quiet places. Let's have a picnic if it's sunny.”",
+          "기준: 역할을 바꾸어 대본을 끝까지 말하고, 바꾼 의견에 기능 표현으로 답하며, 정리 문장을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "대본을 다시 펴 보게 하고, 표현 카드 다섯 장을 책상에 펼쳐 둡니다."
+        ],
+        "주의": [
+          "picnic은 ‘소풍’, rain은 ‘비가 오다’입니다. 아이가 정리할 때 한쪽 의견만 고르는 결론도 맞습니다(Let's go to the restaurant.). 두 사람이 받아들이면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "차례 지키기와 결론 정하기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "차례를 지키며 결론까지",
+      "text": "말하기 막대를 든 사람만 말해요.",
+      "steps": [
+        "주제를 질문으로: What should we ~?",
+        "말이 끝나면 넘겨요: What do you think?",
+        "차례마다 기능 표현 하나",
+        "다르면 확인해요: Do you mean ~?",
+        "결론: So, we both think ~. Let's ~."
+      ],
+      "notes": {
+        "목적": "토의를 차례대로 진행하는 다섯 단계(주제 질문 → 차례 넘기기 → 차례마다 기능 표현 하나 → 다른 점 확인 → 함께 받아들일 결론)와 말하기 막대 규칙을 알려 줍니다(목표 B, 오해 M2·M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“말하기 막대를 든 사람만 말해. 말이 끝나면 What do you think?라고 하며 막대를 넘겨.”",
+          "“차례마다 기능 표현을 하나씩 써 봐. 동의, 반대, 확인, 보충 가운데 하나.”",
+          "“생각이 다르면 먼저 Do you mean ~?으로 확인하고, 마지막에는 꼭 결론을 말해. So, we both think ~. Let's ~.”"
+        ],
+        "예상답": [
+          "“막대를 든 사람만 말해요.” “마지막에 결론을 말해요.”"
+        ],
+        "막히면": [
+          "부모가 일부러 아이 말을 끊는 모습을 보여 주고 “어땠어? 그래서 막대가 필요해.”라고 말합니다."
+        ],
+        "주의": [
+          "결론은 한 사람의 의견을 고르거나, 두 의견을 합치거나, 다음에 다시 정하기로 하는 것(Let's think about it again tomorrow.)도 됩니다. 두 사람이 모두 받아들이면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "새 주제로 차례 지키며 토의하기(비 오는 토요일)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 비 오는 토요일",
+      "steps": [
+        "주제: What should we do\non a rainy Saturday?",
+        "부모가 먼저 의견을 말하고\n막대를 넘겨요.",
+        "아이가 기능 표현으로 답하고\nWhat do you think?",
+        "8번 안팎 주고받아요.",
+        "결론: So, we both think ~.\nLet's ~."
+      ],
+      "criteria": [
+        "막대를 든 사람만 말했어요",
+        "기능 표현을 세 가지 이상 썼어요",
+        "결론을 한 문장으로 말했어요"
+      ],
+      "notes": {
+        "목적": "처음 보는 주제(비 오는 토요일에 무엇을 할까?)로 말하기 막대를 주고받으며 8번 안팎 토의하고, 함께 받아들일 결론을 정합니다(목표 A·B, 오해 M4). 활동지 3에 결론을 적습니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“주제는 What should we do on a rainy Saturday? 엄마(아빠)가 먼저 막대를 들고 말할게.”",
+          "(부모) “I think we should watch a movie at home. What do you think?” → (아이가 막대를 받아) 기능 표현으로 답합니다.",
+          "(부모는 일부러 한 번 다른 의견을 내고, 한 번 애매하게 말합니다. 예: “Let's do something creative.” → 아이가 Do you mean ~?으로 확인하게)",
+          "“이제 결론을 정해 볼까? 네가 정리해 줘.”"
+        ],
+        "예상답": [
+          "아이 말 예: “That's a good point. Also, we can make popcorn.” / “I see your point, but we watched a movie last week.” / “Do you mean drawing pictures?” / “So, we both think we want to stay home. Let's bake cookies and watch a short movie.”",
+          "기준: 아이가 차례 네 번 안팎에서 서로 다른 기능 표현을 세 가지 이상 쓰고, 막대를 받아서만 말하며, 마지막에 결론 문장을 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "표현 카드 다섯 장을 펼쳐 두고 차례마다 한 장을 집어 그 표현으로 말하게 합니다.",
+          "영어 낱말이 떠오르지 않으면 우리말로 말하게 하고 부모가 영어로 바꿔 줍니다(기능 표현은 영어로)."
+        ],
+        "주의": [
+          "creative는 ‘창의적인’, popcorn은 ‘팝콘’, bake는 ‘굽다’입니다. 결론은 무엇이든 두 사람이 받아들이면 맞습니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 토의하기(플라스틱 줄이기)",
+      "role": "check",
+      "objectives": [
+        "B"
+      ],
+      "title": "혼자 토의해요",
+      "text": "카드 없이 토의하고, 결론을 정해요.  주제: How can our family use less plastic?",
+      "problems": [
+        {
+          "text": "시작: I think we should ~.\nWhat do you think?"
+        },
+        {
+          "text": "차례마다: 동의 · 정중한 반대 · 확인 · 보충"
+        },
+        {
+          "text": "결론: So, we both think ~. Let's ~."
+        }
+      ],
+      "notes": {
+        "목적": "대본과 카드 없이 새 주제(우리 가족이 플라스틱을 덜 쓰는 방법)로 6~8번 주고받으며 토의하고, 결론을 정하는지 확인합니다(목표 B). 부모는 활동지 4에 기록합니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“이번엔 카드 없이 해 볼래? 주제는 How can our family use less plastic? 네가 먼저 막대를 들고 시작해.”",
+          "(부모는 아이 의견에 한 번은 정중하게 반대하고, 한 번은 보충하며, 한 번은 애매하게 말해 확인 질문을 끌어냅니다.)"
+        ],
+        "예상답": [
+          "아이 말 예: “I think we should bring our own bags to the store. What do you think?” / “Do you mean plastic bottles?” / “I see your point, but cloth bags are easy to carry.” / “I'd like to add that we can use our own cups.” / “So, we both think we use too many bags. Let's keep two cloth bags by the door.”",
+          "기준: ① 막대를 받아서만 말함(끊지 않음) ② 아이 차례 3~4번 동안 서로 다른 기능 표현 세 가지 이상 ③ 반대할 때 까닭을 붙임 ④ 애매한 말에 확인 질문 ⑤ 두 사람이 받아들인 결론 한 문장. 다섯 가운데 네 개 이상이면 통과입니다."
+        ],
+        "막히면": [
+          "5초 넘게 멈추면 표현 카드 가운데 하나만 보여 줍니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "cloth bag은 ‘천 가방’, carry는 ‘들고 다니다’입니다. 결론의 내용은 무엇이든 됩니다. 정한 결론을 실제로 해 보면 영어 공부가 생활과 이어집니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘한 모습과 다시 연습할 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘한 모습과 다시 연습할 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 모습",
+      "badTitle": "× 다시 연습할 곳",
+      "good": [
+        {
+          "text": "I see your point, but cloth bags are easy to carry."
+        },
+        {
+          "text": "Do you mean plastic bottles?"
+        },
+        {
+          "text": "So, we both think ~. Let's ~."
+        }
+      ],
+      "bad": [
+        {
+          "text": "No. That's a bad idea.",
+          "note": "인정 + but\n+ 까닭"
+        },
+        {
+          "text": "말 끊기",
+          "note": "막대를 받고\n말해요"
+        },
+        {
+          "text": "결론 없이 끝",
+          "note": "So, we both\nthink ~."
+        }
+      ],
+      "explain": "동의 · 정중한 반대 · 확인 · 보충 · 정리,  차례 지키기",
+      "notes": {
+        "목적": "아이의 토의를 기준과 견주어 보고 다시 연습할 곳 하나를 정합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“오른쪽처럼 하는 친구가 많아. 너는 어땠는지 같이 볼까?”"
+        ],
+        "예상답": [
+          "“반대할 때 까닭을 말했어요.” “다음에는 Do you mean ~?을 더 써 볼래요.”"
+        ],
+        "정답": [
+          "잘한 모습: 막대를 받아서만 말함, 기능 표현 세 가지 이상, 정중한 반대 + 까닭, 확인 질문, 결론 한 문장"
+        ],
+        "막히면": [
+          "무례한 반대가 있었으면 S06, 결론이 없었으면 S10을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(정중한 말로 바꾸기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "정중하게 말해요",
+      "text": "①은 정중하게 바꾸고, ②③은 알맞은 표현을 말해요.",
+      "problems": [
+        {
+          "text": "You're wrong! We should take the bus.\n→ 정중하게"
+        },
+        {
+          "text": "엄마의 말이 길고 어려워 이해가 안 돼요.\n→ 더 설명해 달라고"
+        },
+        {
+          "text": "둘 다 집에서 쉬고 싶어 해요.\n→ 결론을 정리해요"
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 장면에서 알맞은 기능 표현을 쓰고, 무례한 반대를 정중한 말로 바꾸는지 확인합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 정중한 말로 바꾸고, ②③은 장면에 맞는 표현으로 말해 줘.”"
+        ],
+        "정답": [
+          "① I see your point, but ~. / I'm not sure about that because ~. (까닭을 붙임)",
+          "② Could you explain that more? / Do you mean ~?",
+          "③ So, we both think ~. Let's ~.",
+          "기준: 세 개 모두 맞는 기능 표현이면 통과입니다. ①에 까닭이 없으면 반만 맞은 것으로 봅니다."
+        ],
+        "막히면": [
+          "S04 표를 보여 주고 “이건 어느 기능이야?”만 묻습니다."
+        ],
+        "주의": [
+          "틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S04 표를 다시 소리 내어 읽습니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "동의 I agree.  정중한 반대 I see your point, but ~.  확인 Do you mean ~?\n보충 I'd like to add that ~.  정리 So, we both think ~. Let's ~.",
+      "do": "인정 + but + 까닭",
+      "dont": "You're wrong. / 말 끊기",
+      "review": [
+        {
+          "text": "토의에서 하는\n다섯 가지 일은?"
+        },
+        {
+          "text": "You're wrong!을\n정중하게 바꾸면?"
+        },
+        {
+          "text": "결론을 정리하는\n표현은?"
+        }
+      ],
+      "next": "문맥으로 어휘 추론",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“토의에서 하는 다섯 가지 일은?”",
+          "“정중하게 반대할 때 꼭 넣는 것은?”"
+        ],
+        "예상답": [
+          "“동의, 정중한 반대, 확인, 보충, 정리요.” “상대 말을 인정하고 까닭을 말해요.”"
+        ],
+        "정답": [
+          "① 동의, 정중한 반대, 확인, 보충, 정리",
+          "② I see your point, but ~. (상대 말 인정 + but + 까닭)",
+          "③ So, we both think ~. / Let's ~."
+        ],
+        "주의": [
+          "저녁 메뉴나 주말 계획을 정할 때 오늘 표현으로 짧게 토의해 보면 좋은 복습이 됩니다. 다음 차시 ‘문맥으로 어휘 추론’에서는 모르는 낱말의 뜻을 접사와 앞뒤 문장으로 짐작합니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(다시 묻기·뜻 확인·근거 대기 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 확인하고 답하기",
+      "layout": "support",
+      "text": "중1·중3에서 배운 표현이에요.",
+      "table": {
+        "headers": [
+          "이럴 때",
+          "이렇게 말해요"
+        ],
+        "rows": [
+          [
+            "잘 못 들었어요",
+            "Could you say that again?"
+          ],
+          [
+            "너무 빨라요",
+            "Could you speak more slowly?"
+          ],
+          [
+            "이해한 뜻을 확인해요",
+            "Do you mean ~?"
+          ],
+          [
+            "근거를 들어 답해요",
+            "I think ~ because ~."
+          ]
+        ],
+        "widths": [
+          0.4,
+          0.6
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "오늘은 여기에 더해",
+        "text": "동의 · 정중한 반대 · 보충 · 정리 표현을 배워요."
+      },
+      "notes": {
+        "목적": "S02에서 다시 묻기·뜻 확인·근거 대기 표현이 흔들리면, 중1·중3에서 배운 표현을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 이럴 때 이렇게 말해.”",
+          "“엄마(아빠)가 상황을 말하면 영어로 답해 줘. 엄마 말이 너무 빨라!”"
+        ],
+        "정답": [
+          "Could you speak more slowly? (또는 Could you say that again?)"
+        ],
+        "막히면": [
+          "표의 영어 칸을 가리고 상황만 보며 말하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중1 ‘뜻 확인하며 대화 잇기’(KR22-G07-ENG-CHECKMEAN-L01)와 중3 ‘질문에 답하기’(KR22-G09-ENG-ANSWERQ-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "협력적 토의 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "장면에 알맞은 기능(동의·정중한 반대·확인·보충·정리)을 쓰고, 표현을 넣어 문장을 쓰세요.",
+        "table": {
+          "headers": [
+            "장면",
+            "기능",
+            "문장"
+          ],
+          "rows": [
+            [
+              "① 친구: Let's clean the classroom after lunch. (좋은 생각)",
+              "",
+              ""
+            ],
+            [
+              "② 친구: Let's meet at 7 a.m. (너무 일러서 다르게 생각함)",
+              "",
+              ""
+            ],
+            [
+              "③ 친구: Let's do it the other way. (무슨 뜻인지 모름)",
+              "",
+              ""
+            ],
+            [
+              "④ 친구: We can bring snacks. (음료 이야기를 보태고 싶음)",
+              "",
+              ""
+            ],
+            [
+              "⑤ 둘 다 토요일 오후가 좋다고 함 (마무리)",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.48,
+            0.14,
+            0.38
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① 동의 – That's a good point. / I agree. ② 정중한 반대 – I see your point, but 7 a.m. is too early. / I'm not sure about that because it's too early. ③ 확인 – Do you mean ~? / Could you explain that more? ④ 보충 – I'd like to add that we can bring drinks. / Also, we can bring drinks. ⑤ 정리 – So, we both think Saturday afternoon is good. Let's meet then. 다섯 개 가운데 네 개 이상이면 통과. ②는 까닭이 있어야 맞습니다."
+      },
+      {
+        "no": 2,
+        "prompt": "무례한 말을 정중한 반대로 바꾸어 쓰세요. 까닭을 꼭 넣으세요.",
+        "table": {
+          "rows": [
+            [
+              "① You're wrong. Pizza is a bad idea.",
+              ""
+            ],
+            [
+              "② No way. I don't want to go.",
+              ""
+            ],
+            [
+              "③ That's a bad idea. It's too far.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.42,
+            0.58
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "예: ① I see your point, but we had pizza yesterday. ② I'm not sure about that because I have a lot of homework. ③ I see your point, but I think it's too far to walk. 기준: 상대 말 인정(I see your point) 또는 I'm not sure about that으로 시작하고 까닭(but, because 뒤)이 있으면 통과. 세 개 가운데 두 개 이상이면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "S11 토의(비 오는 토요일)에서 내가 쓴 기능 표현과 우리의 결론을 쓰세요.",
+        "table": {
+          "headers": [
+            "기능",
+            "내가 한 말"
+          ],
+          "rows": [
+            [
+              "동의",
+              ""
+            ],
+            [
+              "정중한 반대",
+              ""
+            ],
+            [
+              "확인",
+              ""
+            ],
+            [
+              "보충",
+              ""
+            ],
+            [
+              "결론(정리)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.25,
+            0.75
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "아이가 실제로 한 말을 적습니다. 예: 동의 That's a good point. / 정중한 반대 I see your point, but we watched a movie last week. / 확인 Do you mean drawing pictures? / 보충 Also, we can make popcorn. / 결론 So, we both think ~. Let's bake cookies. 세 가지 이상의 기능과 결론이 있으면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "부모님 기록: S12 혼자 토의하기(플라스틱 줄이기)에서 지킨 항목에 ✔ 하세요.",
+        "table": {
+          "headers": [
+            "항목",
+            "✔"
+          ],
+          "rows": [
+            [
+              "① 막대를 받아서만 말했다(끊지 않음)",
+              "□"
+            ],
+            [
+              "② 서로 다른 기능 표현을 세 가지 이상 썼다",
+              "□"
+            ],
+            [
+              "③ 반대할 때 까닭을 붙였다",
+              "□"
+            ],
+            [
+              "④ 애매한 말에 확인 질문을 했다",
+              "□"
+            ],
+            [
+              "⑤ 결론을 한 문장으로 말했다",
+              "□"
+            ]
+          ],
+          "widths": [
+            0.85,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "다섯 가운데 네 개 이상에 ✔면 통과. 결론 예: So, we both think we use too many bags. Let's keep two cloth bags by the door."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 토의에서 하는 다섯 가지 일을 쓰세요.\n② You're wrong!을 정중한 반대로 바꾸어 쓰세요.\n③ 결론을 정리하는 표현 두 가지를 쓰세요.",
+        "lines": 3,
+        "answer": "① 동의, 정중한 반대, 확인, 보충, 정리 ② I see your point, but ~. / I'm not sure about that because ~.(까닭 포함) ③ So, we both think ~. / Let's ~. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S12 혼자 토의하기: 다섯 기준 가운데 ___개 (도움을 받음 □)",
+      "S14 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "까닭 없이 반대하거나 말을 끊음: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08",
+  "status": "제작 완료"
+}

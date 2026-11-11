@@ -1,0 +1,1163 @@
+{
+  "id": "KR22-G10-ENG-PRESENT-L01",
+  "concept_id": "ENG-PRESENT",
+  "title": "근거 들어 발표하기",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "공통영어표현",
+  "sequence": 2,
+  "file_stem": "고1_영어_공통영어표현_02_근거들어발표하기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENG-I02"
+    ],
+    "units": [
+      "3.3.3",
+      "3.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "의견 에세이 쓰기",
+      "lesson": "KR22-G10-ENG-OPINESSAY-L01",
+      "grade_item": "KR22-G10-ENG-I02"
+    },
+    {
+      "text": "의견 발표하기",
+      "lesson": "KR22-G09-ENG-PRESENT-L01",
+      "grade_item": "KR22-G09-ENG-I02"
+    },
+    {
+      "text": "질문에 답하기",
+      "lesson": "KR22-G09-ENG-ANSWERQ-L01",
+      "grade_item": "KR22-G09-ENG-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "지난 차시의 의견 에세이를 2~3분 발표로 바꾸어, 발표 신호어(Today I'm going to talk about ~. / I have two reasons. First, ~. Second, ~. / Let me show you ~. Look at this ~. / Some people may think ~. However, ~. / To sum up, ~. / Thank you for listening. Do you have any questions?)를 알맞은 자리에 넣은 메모 카드와, 한 장에 한 생각을 담은 시각 자료 계획(3~4장, 장마다 그림 하나와 핵심어 6낱말 이내)을 만든다.",
+      "evidence": "글과 발표의 차이(S03), 발표 신호어 표(S04), 본보기 발표(S05·S06), 신호어 넣기(S07), 시각 자료 계획(S08), 글이 가득한 자료 비교(S09), 메모 카드(S10), 마무리 확인(S16), 활동지 1·2·3",
+      "success": "활동지 2의 자료 계획이 3~4장이고 장마다 그림 하나와 핵심어 6낱말 이내이며, 활동지 3의 메모 카드에 시작·자료·마무리 신호어가 모두 들어 있다. S16과 활동지 1의 신호어 고르기·넣기 7개 가운데 6개 이상을 맞힌다."
+    },
+    {
+      "id": "B",
+      "text": "메모 카드와 시각 자료를 보며 2~3분 동안 발표하고(문장 끝마다 듣는 사람 보기, 신호어 뒤 쉬기, 크고 또렷한 목소리, 자료를 가리키며 Let me show you ~), 발표 뒤 부모의 질문 하나에 Do you mean ~?으로 확인하고 I think ~ because ~.로 근거를 들어 답한다(모르면 I'm not sure, but I think ~.).",
+      "evidence": "전달 점검표(S11), 질문에 답하는 순서(S12), 세 번 연습과 질문 받기(S13), 마지막 발표(S14), 활동지 4·5",
+      "success": "마지막 발표가 2분 이상 3분 이하이고 전달 점검표 다섯 항목 가운데 네 개 이상을 지키며, 부모의 질문 하나에 근거(because)를 들어 답한다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "지난 차시에 쓴 의견 에세이(활동지 4·6)",
+    "A4 종이 네 장과 색연필(시각 자료)",
+    "카드 크기 종이 한두 장(메모 카드)",
+    "휴대 전화의 초시계",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "지난 차시에 쓴 네 문단 의견 에세이를 2~3분 영어 발표로 바꾸는 것만 다룬다. 신호어는 시작(Hello, everyone. Today I'm going to talk about ~. I have two reasons.), 순서(First, Second), 자료(Let me show you ~. / Look at this ~. / As you can see, ~), 반론(Some people may think ~. However, ~.), 마무리(To sum up, ~. Thank you for listening.), 질문 받기(Do you have any questions?)만 쓰고, I'm going to·To sum up·As you can see는 뜻을 함께 소개한다. 시각 자료는 컴퓨터 슬라이드가 아니어도 되며, A4 종이에 그린 3~4장(제목·이유 1·이유 2·정리)으로 한다. 장마다 그림 하나와 핵심어 6낱말 이내라는 수업용 기준을 쓴다. 전달은 눈 맞춤·속도·목소리·자료 가리키기·시간(2~3분) 다섯 가지만 다루고, 발음·억양을 고치는 연습, 몸짓 기법, 발표 프로그램 사용법은 다루지 않는다. 질문 받기는 부모의 질문 하나에 확인(Do you mean ~?)과 근거(I think ~ because ~. / For example, ~.)로 답하는 데까지 하고, 모를 때는 I'm not sure, but I think ~.로 답하며 숫자나 사실을 지어내지 않는다. 여러 사람 앞의 발표, 토론, 반대 질문에 반박하기는 다루지 않는다. 발표 내용은 에세이를 그대로 쓰고 새 문법은 더하지 않는다. ‘신호어·시각 자료·메모 카드’라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "에세이 문장을 시각 자료에 그대로 옮겨 적고 발표 때 자료를 읽는다.",
+      "response": "S08에서 ‘한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내’ 기준을 주고, S09에서 글이 가득한 자료와 핵심어 자료를 비교한다. 활동지 2의 계획표로 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "메모 카드에 대본을 문장으로 다 써서 고개를 숙이고 읽는다.",
+      "response": "S10에서 문장을 낱말 메모로 바꾸고, S11 눈 맞춤 기준(문장 끝마다 듣는 사람 보기)과 S13 세 번 연습에서 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "신호어 없이 에세이를 읽기만 해서 듣는 사람이 지금 어디쯤인지 모른다.",
+      "response": "S03에서 글과 발표의 차이(귀로 한 번 듣는다)를 짚고, S04 표·S07·S16에서 신호어를 알맞은 자리에 넣게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "질문을 받으면 당황해 아무 말이나 하거나, 모르는 숫자·사실을 지어내 답한다.",
+      "response": "S12에서 ‘확인 → 답 + 근거 → 모르면 솔직하게’ 순서를 주고, S13·S14에서 부모의 질문 하나에 이 순서로 답하게 한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "근거 들어 발표하기",
+      "question": "Let me show you this picture.\n에세이를 2~3분 영어 발표로 어떻게 바꿀까?",
+      "goals": [
+        "① 신호어를 넣은 메모 카드와 시각 자료를 계획해요.",
+        "② 2~3분 발표하고, 질문 하나에 근거를 들어 답해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Today I'm going to\ntalk about ~."
+          },
+          {
+            "word": "Let me show you ~."
+          },
+          {
+            "word": "To sum up, ~."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난 차시의 에세이를 시각 자료와 함께 2~3분 영어 발표로 바꾸는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지난 시간에 쓴 에세이를 오늘은 발표로 바꿀 거야. 2~3분 동안, 직접 그린 자료 3~4장을 보여 주면서.”",
+          "“오른쪽 세 문장이 발표의 길잡이 말, 곧 신호어야. 처음, 자료를 보여 줄 때, 마무리할 때 써.”",
+          "“발표가 끝나면 엄마(아빠)가 질문을 하나 할 거야. 근거를 들어 답해 보자.”"
+        ],
+        "예상답": [
+          "“Let me show you는 ‘보여 줄게요’예요.” “To sum up은 마무리할 때 쓰는 말 같아요.”"
+        ],
+        "막히면": [
+          "To sum up을 모르면 “‘요약하면, 정리하면’이라는 뜻이야.”라고 알려 줍니다."
+        ],
+        "주의": [
+          "수업 전에 지난 차시의 에세이(활동지 4·6), A4 종이 네 장, 색연필, 초시계를 준비하세요. 시각 자료 그리기는 S08~S10에서 계획만 하고, 그리는 것은 수업 뒤에 해도 됩니다.",
+          "교과서 디지털 자료나 사전 앱의 발음 듣기로 신호어(I'm going to, Let me show you, To sum up)와 발표에 쓸 낱말을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "이 차시는 연습이 많습니다. S09까지가 준비, S10부터가 연습과 발표입니다. 이틀에 나누어 첫날은 준비, 둘째 날은 연습과 발표를 해도 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(발표 신호어, 질문 확인)",
+      "role": "prior",
+      "objectives": [],
+      "title": "발표와 질문 떠올리기",
+      "text": "중3 발표와 질문 답하기를 떠올려요.",
+      "problems": [
+        {
+          "text": "Today I'd like to talk about ~.\n→ 뜻은?"
+        },
+        {
+          "text": "이유가 두 개라고 미리 알리는 말은?"
+        },
+        {
+          "text": "질문의 뜻이 헷갈릴 때\n확인하는 말은?"
+        }
+      ],
+      "notes": {
+        "목적": "중3 ‘의견 발표하기’(KR22-G09-ENG-PRESENT-L01)의 신호어와 중3 ‘질문에 답하기’(KR22-G09-ENG-ANSWERQ-L01)의 확인 질문, 그리고 지난 차시 ‘의견 에세이 쓰기’(KR22-G10-ENG-OPINESSAY-L01)의 짜임을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 뜻을 말해 줘.”",
+          "“②는 발표에서 이유가 두 개라고 미리 알려 주는 말을 영어로 말해 볼래?”",
+          "“③은 질문의 뜻이 헷갈릴 때 무엇이라고 확인했지?”"
+        ],
+        "정답": [
+          "① 오늘은 ~에 대해 이야기하고 싶어요.",
+          "② I have two reasons.",
+          "③ Do you mean ~? (이해한 뜻을 넣어 확인)"
+        ],
+        "막히면": [
+          "①은 “I'd like to는 ‘~하고 싶어요’야.”, ②는 “two reasons를 넣어 봐.”, ③은 “‘~라는 뜻이에요?’를 영어로.”라고 알려 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S18(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "오늘 쓰는 Today I'm going to talk about ~.도 같은 뜻입니다(I'm going to: ~할 거예요). 둘 가운데 편한 것을 쓰면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "글과 발표의 차이",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "글과 발표는 무엇이 다를까?",
+      "text": "발표는 귀로 한 번 들어요.",
+      "cards": [
+        {
+          "title": "글",
+          "text": "눈으로 읽어요.\n모르면 다시 읽어요."
+        },
+        {
+          "title": "발표",
+          "text": "귀로 들어요.\n한 번 지나가면 끝이에요."
+        },
+        {
+          "title": "그래서 발표에는",
+          "text": "신호어 + 시각 자료\n+ 마무리에서 핵심 한 번 더"
+        }
+      ],
+      "key": "신호어: 발표의 순서를 알려 주는 말,  시각 자료: 눈으로 보여 주는 그림·낱말",
+      "notes": {
+        "목적": "글은 눈으로 다시 읽을 수 있지만 발표는 귀로 한 번 듣는다는 차이에서, 신호어·시각 자료·되풀이가 필요한 까닭을 끌어냅니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“에세이는 눈으로 읽지? 모르면 다시 읽을 수 있어. 발표는 귀로 들어. 한 번 지나가면 끝이야.”",
+          "“그래서 발표에서는 세 가지를 더해. 지금 어디인지 알려 주는 신호어, 눈으로 보여 주는 자료, 그리고 마무리에서 핵심을 한 번 더.”"
+        ],
+        "예상답": [
+          "“발표는 다시 들을 수 없어요.” “그래서 신호어를 넣어요.”"
+        ],
+        "막히면": [
+          "“라디오에서 길 안내를 듣는다고 생각해 봐. ‘첫째 골목, 둘째 골목’이라고 말해 주면 편하지?”라고 비유합니다."
+        ],
+        "주의": [
+          "에세이 문장을 그대로 읽으면 듣는 사람이 따라오기 어렵습니다(오해 M3). 신호어와 자료가 ‘귀로 듣는 글’을 돕는다는 것이 오늘의 핵심입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "발표 신호어(시작·자료·마무리·질문 받기)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "발표 신호어",
+      "text": "발표의 부분마다 신호어가 있어요.",
+      "table": {
+        "headers": [
+          "부분",
+          "신호어",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "시작",
+            "Today I'm going to talk about ~.",
+            "오늘은 ~에 대해 말할게요."
+          ],
+          [
+            "순서",
+            "I have two reasons. First, ~.",
+            "이유가 두 가지예요. 첫째, ~."
+          ],
+          [
+            "자료",
+            "Let me show you ~. / Look at this ~.",
+            "~을 보여 드릴게요. / 이 ~을 보세요."
+          ],
+          [
+            "마무리",
+            "To sum up, ~. Thank you for listening.",
+            "요약하면 ~. 들어 주셔서 고마워요."
+          ],
+          [
+            "질문 받기",
+            "Do you have any questions?",
+            "질문 있으세요?"
+          ]
+        ],
+        "widths": [
+          0.14,
+          0.46,
+          0.4
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "notes": {
+        "목적": "발표의 부분마다 쓰는 신호어를 표로 정리하고 뜻을 익힙니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“한 줄씩 읽어 보자. Today I'm going to talk about ~. ‘오늘은 ~에 대해 말할 거예요.’”",
+          "“자료를 보여 줄 때는 Let me show you ~(~을 보여 드릴게요), Look at this ~(이 ~을 보세요).”",
+          "“마무리는 To sum up(요약하면), 그리고 Thank you for listening. 끝에 Do you have any questions?로 질문을 받아.”"
+        ],
+        "예상답": [
+          "“Let me show you this picture.” “To sum up, ~.”"
+        ],
+        "막히면": [
+          "표의 뜻 칸을 먼저 우리말로 읽고, 영어 칸을 따라 말하게 합니다."
+        ],
+        "주의": [
+          "As you can see, ~(보시다시피)도 자료를 가리키며 쓸 수 있습니다. 반론 신호어 Some people may think ~. However, ~.는 에세이에서 쓴 것과 같습니다(may: ~일지도 모른다)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 발표 대본 ①(시작과 첫째 이유)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "본보기 발표 ①",
+      "text": "신호어에 동그라미를 치고, 자료를 보여 주는 곳을 찾아요.",
+      "passage": {
+        "paragraphs": [
+          "Hello, everyone. Today I'm going to talk about why every student should learn to cook. I have two reasons.",
+          "First, cooking is an important life skill. Let me show you this picture. When my parents work late, I make fried rice for my little sister and me. I put eggs and vegetables in it, so it is easy and healthy."
+        ]
+      },
+      "question": "에세이와 무엇이 달라졌나요?",
+      "notes": {
+        "목적": "지난 차시의 요리 에세이를 발표로 바꾼 대본의 앞부분을 부모가 발표하듯 읽어 주고, 신호어와 자료를 보여 주는 자리를 찾습니다(목표 A).",
+        "시간": "약 2분",
+        "말하기": [
+          "(부모가 발표하듯 대본을 읽어 줍니다. Let me show you this picture.에서는 그림을 가리키는 시늉을 합니다.)",
+          "“신호어에 동그라미를 쳐 볼래? 에세이와 무엇이 달라졌어?”"
+        ],
+        "예상답": [
+          "“Today I'm going to talk about, I have two reasons, First, Let me show you가 있어요.” “에세이에는 그림 이야기가 없었어요.”"
+        ],
+        "막히면": [
+          "S04 표를 옆에 두고 표에 있는 말을 대본에서 찾게 합니다."
+        ],
+        "주의": [
+          "에세이의 서론(Many students eat food that someone else cooks)은 발표에서 Today I'm going to talk about ~.과 I have two reasons.로 바뀌었습니다. 듣는 사람이 길을 잃지 않게 이유가 몇 개인지 미리 알려 줍니다.",
+          "글의 뜻: 안녕하세요, 여러분. 오늘은 왜 모든 학생이 요리를 배워야 하는지 말할게요. 이유가 두 가지 있어요. / 첫째, 요리는 중요한 생활 기술이에요. 이 그림을 보여 드릴게요. 부모님이 늦게까지 일하시면 나는 여동생과 나를 위해 볶음밥을 만들어요. 달걀과 채소를 넣어서 쉽고 건강에 좋아요."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 발표 대본 ②(둘째 이유·반론·마무리)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "본보기 발표 ②",
+      "text": "measuring cup 계량컵 · heat 열 · dish 요리",
+      "passage": {
+        "paragraphs": [
+          "Second, cooking helps us learn other subjects. Look at this measuring cup. We use math when we measure rice and water. We also learn science when we see how heat changes food. For example, when I boil an egg for ten minutes, it gets hard.",
+          "Some people may think that students are too busy to cook. However, an easy dish like fried rice doesn't take long. It takes about fifteen minutes.",
+          "To sum up, cooking is a life skill, and it helps us learn. Why don't you try an easy dish this weekend? Thank you for listening. Do you have any questions?"
+        ]
+      },
+      "question": "둘째 이유·반론·마무리의 신호어는?",
+      "notes": {
+        "목적": "대본의 뒷부분에서 둘째 이유·반론·마무리의 신호어와 질문 받는 말을 찾고, 전체 길이가 약 2분이라는 것을 확인합니다(목표 A).",
+        "시간": "약 2분",
+        "말하기": [
+          "(부모가 계속 발표하듯 읽어 줍니다. Look at this measuring cup.에서 컵을 가리키는 시늉을 합니다.)",
+          "“여기서는 어떤 신호어가 나왔어? 마지막에 듣는 사람에게 무엇을 물었지?”"
+        ],
+        "예상답": [
+          "“Second, Look at this, Some people may think, However, To sum up, Thank you for listening, Do you have any questions?”"
+        ],
+        "막히면": [
+          "문단마다 첫 낱말에 손가락을 대고 S04 표의 어느 줄인지 묻습니다."
+        ],
+        "주의": [
+          "본보기 대본은 모두 162낱말입니다. 천천히(1분에 70~90낱말쯤) 말하면 약 2분, 자료를 가리키며 잠깐씩 쉬면 2분 남짓 걸립니다. 아이의 발표도 이 길이면 됩니다.",
+          "글의 뜻: 둘째, 요리는 다른 과목을 배우는 데 도움이 돼요. 이 계량컵을 보세요. 쌀과 물을 잴 때 수학을 써요. 또 열이 음식을 어떻게 바꾸는지 보면서 과학을 배워요. 예를 들어 달걀을 10분 동안 삶으면 단단해져요. / 어떤 사람들은 학생들이 너무 바빠서 요리할 수 없다고 생각할지도 몰라요. 하지만 볶음밥 같은 쉬운 요리는 오래 걸리지 않아요. 15분쯤 걸려요. / 요약하면, 요리는 생활 기술이고 배움에 도움이 돼요. 이번 주말에 쉬운 요리를 해 보는 건 어때요? 들어 주셔서 고마워요. 질문 있으세요? (measuring cup: 계량컵, boil: 삶다)"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "신호어 넣어 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "신호어를 넣어 말해요",
+      "text": "빈칸에 알맞은 신호어를 넣어 말해요.",
+      "problems": [
+        {
+          "text": "Today I'm ______ ______\ntalk about swimming."
+        },
+        {
+          "text": "______ ______ you\nthis picture."
+        },
+        {
+          "text": "______ ______,\nswimming keeps us safe."
+        },
+        {
+          "text": "발표를 끝내고 질문을 받는\n두 문장은?"
+        }
+      ],
+      "notes": {
+        "목적": "수영 발표 대본의 빈칸에 알맞은 신호어를 넣어 말합니다(목표 A, 오해 M3). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“빈칸에 들어갈 신호어를 넣어 소리 내어 말해 줘. ④는 발표를 끝내는 두 문장을 말해 볼래?”"
+        ],
+        "정답": [
+          "① going to (Today I'm going to talk about swimming.)",
+          "② Let me show (Let me show you this picture.)",
+          "③ To sum up (To sum up, swimming keeps us safe.)",
+          "④ Thank you for listening. Do you have any questions?"
+        ],
+        "막히면": [
+          "S04 표를 다시 보여 주고 “이건 시작이야, 자료야, 마무리야?”를 먼저 묻습니다."
+        ],
+        "주의": [
+          "③의 To sum up 대신 In conclusion(결론적으로)도 맞습니다. 발표에서는 To sum up이 조금 더 부드럽게 들립니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "시각 자료 계획(한 장에 한 생각)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "시각 자료를 계획해요",
+      "text": "시각 자료: 발표 때 보여 주는 그림·낱말 자료예요.",
+      "table": {
+        "headers": [
+          "장",
+          "담을 것",
+          "요리 발표의 예"
+        ],
+        "rows": [
+          [
+            "1",
+            "제목 + 내 이름",
+            "Every Student Should Learn to Cook"
+          ],
+          [
+            "2",
+            "볶음밥 그림 + 핵심어",
+            "Life skill"
+          ],
+          [
+            "3",
+            "계량컵 그림 + 핵심어",
+            "Math + Science"
+          ],
+          [
+            "4",
+            "핵심 두 가지 + 한마디",
+            "Life skill + Learning → Try it!"
+          ]
+        ],
+        "widths": [
+          0.1,
+          0.36,
+          0.54
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "한 장에 한 생각,  그림 하나,  핵심어 6낱말 이내",
+      "notes": {
+        "목적": "시각 자료(발표 때 보여 주는 그림·낱말 자료) 3~4장을 제목·이유 1·이유 2·정리로 나누어 계획하고, 장마다 그림 하나와 핵심어 6낱말 이내라는 기준을 알려 줍니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“시각 자료는 컴퓨터 슬라이드가 아니어도 돼. A4 종이에 그려도 충분해. 네 장이면 돼.”",
+          "“한 장에 한 생각만. 큰 그림 하나와 핵심어 몇 개. 글을 많이 쓰면 듣는 사람이 읽느라 네 말을 안 들어.”",
+          "“표를 보고 요리 발표의 네 장을 읽어 보자. 장마다 몇 낱말이야?”"
+        ],
+        "예상답": [
+          "“제목, 이유 1, 이유 2, 정리예요.” “다 6낱말보다 적어요.”"
+        ],
+        "막히면": [
+          "“이 장을 1초만 보고 무슨 내용인지 알 수 있어?”라고 물어 글이 많은지 판단하게 합니다."
+        ],
+        "주의": [
+          "‘6낱말 이내’는 오늘 수업에서 쓰는 기준입니다. 그림은 잘 그리지 않아도 됩니다. 간단한 그림이나 집에 있는 물건(컵, 숟가락)을 직접 들어 보여도 좋습니다.",
+          "자료의 숫자·그림은 발표에서 Let me show you ~. / Look at this ~.로 가리키며 설명합니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(글이 가득한 자료)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 자료가 발표를 도울까?",
+      "claim": "‘첫째 이유’ 시각 자료를 두 친구가 이렇게 만들었어요.",
+      "left": {
+        "title": "가",
+        "text": "First, cooking is an important\nlife skill. For example, when\nmy parents work late, I make\nfried rice for my sister and me."
+      },
+      "right": {
+        "title": "나",
+        "text": "Life skill\n\n(볶음밥 그림 하나)"
+      },
+      "question": "어느 자료가 발표를 도울까요? 왜 그런가요?",
+      "notes": {
+        "목적": "대본 문장을 그대로 옮긴 자료와 핵심어·그림 자료를 비교해, 자료는 읽는 것이 아니라 보여 주는 것이라는 점을 확인합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 ‘첫째 이유’ 자료를 이렇게 만들었어. 듣는 사람에게 어느 쪽이 더 좋을까?”",
+          "“가를 보여 주면 듣는 사람은 네 말을 들을까, 자료를 읽을까?”"
+        ],
+        "정답": [
+          "나가 좋습니다. 핵심어(Life skill)와 그림 하나라 한눈에 보이고, 듣는 사람이 발표자의 말을 듣게 됩니다. 가는 대본 문장을 그대로 옮겨서 듣는 사람이 글을 읽느라 말을 놓치고, 발표자도 자료를 읽게 됩니다."
+        ],
+        "막히면": [
+          "두 자료를 3초씩만 보여 주고 “무엇이 기억나?”라고 묻습니다."
+        ],
+        "주의": [
+          "여기까지가 발표 준비입니다. 아이가 지치면 여기서 나누어, 시각 자료는 수업 뒤에 그리고 다음 날 S10부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "문장을 낱말 메모 카드로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "메모 카드를 만들어요",
+      "text": "신호어는 그대로, 나머지는 낱말 두세 개로 줄여요.",
+      "problems": [
+        {
+          "text": "First, cooking is an important life skill.\nLet me show you this picture."
+        },
+        {
+          "text": "Second, cooking helps us learn\nother subjects."
+        },
+        {
+          "text": "Some people may think students are too busy.\nHowever, an easy dish doesn't take long."
+        }
+      ],
+      "notes": {
+        "목적": "대본 문장을 낱말 메모로 줄이고, 신호어는 그대로 적어 메모 카드를 만듭니다(목표 A, 오해 M2). 활동지 3에 자기 메모 카드를 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“메모 카드에는 문장을 다 쓰지 않아. 신호어는 그대로, 나머지는 낱말 두세 개로. 화면의 세 문장을 메모로 바꿔 볼래?”"
+        ],
+        "예상답": [
+          "① First – life skill – [그림] fried rice, sister",
+          "② Second – other subjects – [컵] math, science",
+          "③ Some people may think – busy / However – easy dish",
+          "기준: 신호어는 그대로 쓰고, 나머지는 문장이 아닌 낱말 두세 개로 줄이며, 자료를 보여 줄 자리를 [그림]처럼 표시하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "“이 문장에서 꼭 기억해야 할 낱말 두 개만 골라 볼래?”라고 묻습니다."
+        ],
+        "주의": [
+          "메모 카드에 문장을 다 쓰면 고개를 숙이고 읽게 됩니다(오해 M2). 처음에는 낱말 메모만 보고 말하기가 어렵지만, S13의 세 번 연습에서 익숙해집니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "전달 점검표(눈 맞춤·속도·목소리·자료·시간)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "전달 점검표",
+      "text": "발표는 내용만큼 전달이 중요해요.",
+      "cards": [
+        {
+          "title": "① 눈 맞춤",
+          "text": "메모는 흘끗,\n문장 끝에는 듣는 사람"
+        },
+        {
+          "title": "② 속도",
+          "text": "천천히,\n신호어 뒤 한 박자 쉬기"
+        },
+        {
+          "title": "③ 목소리",
+          "text": "크고 또렷하게,\n핵심어에 힘을"
+        },
+        {
+          "title": "④ 자료",
+          "text": "Let me show you ~\n하며 자료를 가리켜요"
+        },
+        {
+          "title": "⑤ 시간",
+          "text": "2분 이상 3분 이하"
+        }
+      ],
+      "key": "연습할 때마다 고칠 점은 하나만!",
+      "notes": {
+        "목적": "발표를 잘 전달하는 다섯 가지 기준을 알려 주고, 연습과 마지막 발표에서 이 점검표로 확인한다는 것을 안내합니다(목표 B, 오해 M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“발표는 내용만큼 전달이 중요해. 다섯 가지를 볼 거야.”",
+          "“눈 맞춤: 메모는 흘끗, 문장이 끝나면 듣는 사람을 봐. 속도: 천천히, 신호어 뒤에서 한 박자 쉬어.”",
+          "“목소리: 크고 또렷하게, 핵심어에 힘을. 자료: Let me show you ~ 하면서 자료를 가리켜. 시간: 2분에서 3분 사이.”"
+        ],
+        "예상답": [
+          "“신호어 뒤에서 쉬어요.” “자료를 가리키면서 말해요.”"
+        ],
+        "막히면": [
+          "부모가 일부러 고개를 숙이고 빠르게 읽는 모습과 천천히 눈을 맞추며 말하는 모습을 보여 주고 차이를 묻습니다."
+        ],
+        "주의": [
+          "처음부터 다섯 가지를 다 지키기는 어렵습니다. 연습할 때마다 고칠 점 하나만 정해 연습합니다(S13)."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "질문에 답하는 순서",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "질문에 답하는 순서",
+      "text": "질문을 받으면 이 순서로 답해요.",
+      "table": {
+        "headers": [
+          "순서",
+          "이렇게 말해요"
+        ],
+        "rows": [
+          [
+            "① 확인해요",
+            "Do you mean ~?"
+          ],
+          [
+            "② 답과 근거",
+            "I think ~ because ~."
+          ],
+          [
+            "③ 예를 들어요",
+            "For example, ~."
+          ],
+          [
+            "④ 모르면 솔직하게",
+            "I'm not sure, but I think ~."
+          ]
+        ],
+        "widths": [
+          0.34,
+          0.66
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "숫자나 사실을 지어내지 않아요.",
+      "notes": {
+        "목적": "발표 뒤 질문에 답하는 순서(끝까지 듣기 → 확인 → 답과 근거 → 모르면 솔직하게)를 중3에서 배운 표현으로 다시 정리합니다(목표 B, 오해 M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“질문을 받으면 먼저 끝까지 들어. 헷갈리면 Do you mean ~?으로 확인해.”",
+          "“답할 때는 I think ~ because ~. 근거를 꼭 붙이고, 할 수 있으면 For example, ~.”",
+          "“모르면 지어내지 말고 I'm not sure, but I think ~.라고 해. 그것도 좋은 대답이야.”"
+        ],
+        "예상답": [
+          "“Do you mean ~?으로 확인해요.” “because로 근거를 말해요.”"
+        ],
+        "막히면": [
+          "중3 ‘질문에 답하기’의 본보기(What about rainy days? → Do you mean walking on rainy days?)를 떠올리게 합니다."
+        ],
+        "주의": [
+          "질문을 받으면 That's a good question.(좋은 질문이에요)으로 생각할 시간을 벌어도 됩니다. 숫자나 사실을 모르면 지어내지 않는 것이 중요합니다(오해 M4)."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "시간 재며 세 번 연습하고 질문 받기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 세 번 연습",
+      "steps": [
+        "1회: 메모 카드로 끝까지,\n부모는 시간을 재요.",
+        "부모: 잘한 점 하나,\n고칠 점 하나 (점검표 번호)",
+        "2회: 고칠 점 하나만\n신경 써요.",
+        "3회: 2~3분에 맞춰요.\n(2분에 부모가 손을 들어요)",
+        "부모가 질문 하나:\n확인 → 답 + 근거"
+      ],
+      "criteria": [
+        "2~3분 안에 끝냈어요",
+        "고칠 점이 나아졌어요",
+        "질문에 근거를 들어 답했어요"
+      ],
+      "notes": {
+        "목적": "메모 카드와 시각 자료로 시간을 재며 세 번 연습하고, 연습 사이에 부모가 잘한 점 하나와 고칠 점 하나를 말해 줍니다. 마지막 연습 뒤 부모가 질문 하나를 합니다(목표 B).",
+        "시간": "약 6분",
+        "말하기": [
+          "“1회: 메모 카드를 보고 끝까지 발표해 봐. 엄마(아빠)는 시간을 잴게.” (걸린 시간을 활동지 4에 적습니다.)",
+          "“잘한 점은 ~이야. 고칠 점은 하나, 점검표 ~번이야.” (예: 신호어 뒤에서 쉬기)",
+          "“2회: 고칠 점 하나만 신경 써서 다시 해 볼래? 3회: 2분이 되면 엄마(아빠)가 손을 들게. 3분 전에 마무리해.”",
+          "(3회가 끝나면) “Do you have any questions?”라는 말에 부모가 질문 하나를 합니다. 예(요리 발표): “Can you tell me why cooking is better than buying food?” / “Is cooking safe for students?”"
+        ],
+        "예상답": [
+          "질문에 대한 대답 예: “Do you mean buying food at a store? I think cooking is better because we can choose healthy food. For example, I put a lot of vegetables in my fried rice.” / “I'm not sure, but I think it's safe if we are careful with knives and fire.”",
+          "기준: 세 번 가운데 한 번 이상 2~3분 안에 끝내고, 2회·3회에서 정한 고칠 점이 나아지며, 질문에 확인 또는 근거(because)를 들어 답하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "메모를 보고도 막히면 대본(지난 차시 에세이)을 한 번 보고 다시 메모만 보게 합니다.",
+          "2분보다 짧으면 이유마다 예시를 한 문장 더 말하게 하고, 3분보다 길면 반론 부분을 한 문장으로 줄이게 합니다."
+        ],
+        "주의": [
+          "피드백은 점검표 번호로 하나만 줍니다. 아이 발표를 휴대 전화로 녹음해 함께 들어 보면 스스로 고칠 점을 찾기 쉽습니다(녹음은 아이가 원할 때만).",
+          "수영·일기·걷기 주제의 질문 예: “What about people who are afraid of water?” / “Can you tell me what you write in your diary?” / “What about rainy days?”"
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마지막 발표와 질문 하나",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "마지막 발표",
+      "text": "메모 카드와 시각 자료로 발표하고, 질문 하나에 답해요.",
+      "problems": [
+        {
+          "text": "시작: Today I'm going to talk about ~.\nI have two reasons."
+        },
+        {
+          "text": "이유와 자료: First, ~. Let me show you ~.\nSecond, ~. Look at this ~."
+        },
+        {
+          "text": "마무리: To sum up, ~. Thank you for listening.\nDo you have any questions?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 메모 카드와 시각 자료로 2~3분 발표하고, 부모의 새 질문 하나에 근거를 들어 답하는지 확인합니다(목표 A·B). 부모는 활동지 4·5에 기록합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이제 마지막 발표야. 엄마(아빠)가 듣는 사람이 될게. 시작해 볼까?”",
+          "(발표가 끝나면) 연습 때와 다른 질문 하나를 합니다. 예: “I wonder if cooking takes a lot of money.” / “What about students who don't like cooking?”"
+        ],
+        "예상답": [
+          "기준: ① 시작·자료·마무리 신호어를 모두 썼다 ② 시각 자료를 가리키며 Let me show you ~ / Look at this ~를 썼다 ③ 2분 이상 3분 이하 ④ 전달 점검표 다섯 항목 가운데 네 개 이상 ⑤ 질문에 확인 또는 근거(because)를 들어 답했다(모르면 I'm not sure, but ~).",
+          "대답 예: “Do you mean the cost of food? I'm not sure, but I think it doesn't cost a lot because rice and eggs are cheap.”",
+          "다섯 기준 가운데 네 개 이상이면 통과입니다."
+        ],
+        "막히면": [
+          "발표 중에는 끊지 않습니다. 막혀서 5초 넘게 멈추면 메모 카드의 다음 신호어만 손으로 짚어 줍니다.",
+          "도움을 받았다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "cost는 ‘비용, 비용이 들다’, cheap은 ‘값싼’입니다. 발표를 마치면 박수를 치고 잘한 점부터 말해 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘한 모습과 다시 연습할 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘한 모습과 다시 연습할 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 모습",
+      "badTitle": "× 다시 연습할 곳",
+      "good": [
+        {
+          "text": "I have two reasons.로 미리 알려요"
+        },
+        {
+          "text": "Let me show you ~ 하며 자료를 가리켜요"
+        },
+        {
+          "text": "질문: Do you mean ~? → I think ~ because ~."
+        }
+      ],
+      "bad": [
+        {
+          "text": "메모 카드를 읽기만",
+          "note": "문장 끝에\n눈 맞춤"
+        },
+        {
+          "text": "자료에 문장 가득",
+          "note": "핵심어\n6낱말 이내"
+        },
+        {
+          "text": "모르는 숫자를 지어냄",
+          "note": "I'm not sure,\nbut ~"
+        }
+      ],
+      "explain": "신호어 · 자료 가리키기 · 눈 맞춤 · 2~3분 · 근거 있는 대답",
+      "notes": {
+        "목적": "아이의 발표를 점검표 기준과 견주어 보고, 다음에 다시 연습할 곳 하나를 정합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“오른쪽처럼 하는 친구가 많아. 너는 어땠는지 같이 볼까? 다음에 하나만 더 연습한다면 무엇을 할래?”"
+        ],
+        "예상답": [
+          "“자료를 가리키는 건 잘했어요. 다음에는 신호어 뒤에서 쉬어 볼래요.”"
+        ],
+        "정답": [
+          "잘한 모습: 이유가 몇 개인지 미리 알림, 자료를 가리키며 Let me show you ~, 문장 끝마다 눈 맞춤, To sum up으로 핵심 한 번 더, 질문에 Do you mean ~?으로 확인하고 because로 답함"
+        ],
+        "막히면": [
+          "신호어가 빠졌으면 S04·S07, 자료를 읽었으면 S08·S09, 질문 대답이 막혔으면 S12를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(상황에 맞는 신호어)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "이럴 때 무엇이라고 할까?",
+      "text": "둘째 이유를 말하며 그림을 들어 보여 주려고 해요.",
+      "options": [
+        {
+          "text": "To sum up, ~."
+        },
+        {
+          "text": "Thank you for listening."
+        },
+        {
+          "text": "Let me show you this picture."
+        },
+        {
+          "text": "Today I'm going to talk about ~."
+        }
+      ],
+      "question": "알맞은 말은? 나머지는 언제 쓰나요?",
+      "notes": {
+        "목적": "발표의 한 장면에 알맞은 신호어를 고르고, 나머지 신호어가 쓰이는 자리를 말하는지 확인합니다(목표 A).",
+        "시간": "약 2분",
+        "말하기": [
+          "“그림을 들어 보여 주려고 해. 무엇이라고 말할까? 나머지는 언제 쓰는 말인지도 말해 줘.”"
+        ],
+        "정답": [
+          "다 Let me show you this picture.",
+          "가 To sum up, ~: 마무리할 때 / 나 Thank you for listening.: 발표를 끝낼 때 / 라 Today I'm going to talk about ~.: 시작할 때",
+          "기준: 다를 고르고 나머지 셋의 자리를 둘 이상 말하면 통과입니다."
+        ],
+        "막히면": [
+          "S04 표를 보여 주고 “그림을 보여 주는 건 어느 줄이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S04 표를 다시 소리 내어 읽습니다."
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "시작 Today I'm going to talk about ~.    자료 Let me show you ~.\n마무리 To sum up, ~.    질문 Do you mean ~? → I think ~ because ~.",
+      "do": "자료를 가리키며 말하기",
+      "dont": "자료와 메모를 읽기만 하기",
+      "review": [
+        {
+          "text": "시작·자료·마무리\n신호어는?"
+        },
+        {
+          "text": "좋은 시각 자료의\n기준 세 가지는?"
+        },
+        {
+          "text": "질문에 답하는\n순서는?"
+        }
+      ],
+      "next": "협력적 토의",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“발표의 시작·자료·마무리 신호어를 말해 볼래?”",
+          "“좋은 시각 자료의 기준 세 가지는?”"
+        ],
+        "예상답": [
+          "“Today I'm going to talk about ~, Let me show you ~, To sum up ~.” “한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내요.”"
+        ],
+        "정답": [
+          "① Today I'm going to talk about ~. / Let me show you ~. (Look at this ~.) / To sum up, ~. Thank you for listening.",
+          "② 한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내",
+          "③ 확인(Do you mean ~?) → 답과 근거(I think ~ because ~.) → 모르면 I'm not sure, but I think ~."
+        ],
+        "주의": [
+          "가족 모임이나 저녁 시간에 같은 발표를 한 번 더 해 보면 좋은 복습이 됩니다. 다음 차시 ‘협력적 토의’에서는 동의·반대·확인·보충·정리 표현으로 부모와 함께 토의해 결론을 정합니다."
+        ]
+      }
+    },
+    {
+      "id": "S18",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(중3 발표 신호어 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 발표 신호어 다시 보기",
+      "layout": "support",
+      "text": "중3에서 배운 발표 신호어예요.",
+      "table": {
+        "headers": [
+          "부분",
+          "신호어",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "도입",
+            "Hello, everyone.\nToday I'd like to talk about ~.",
+            "안녕하세요, 여러분.\n오늘은 ~에 대해 이야기할게요."
+          ],
+          [
+            "이유",
+            "I have two reasons.\nFirst, ~. Second, ~.",
+            "이유가 두 가지예요.\n첫째, ~. 둘째, ~."
+          ],
+          [
+            "마무리",
+            "In conclusion, ~.\nThank you for listening.",
+            "결론적으로 ~.\n들어 주셔서 고마워요."
+          ]
+        ],
+        "widths": [
+          0.14,
+          0.46,
+          0.4
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": {
+        "title": "질문이 헷갈릴 때",
+        "text": "Could you say that again?  /  Do you mean ~?"
+      },
+      "notes": {
+        "목적": "S02에서 발표 신호어나 질문 확인 표현이 흔들리면, 중3에서 배운 기본 신호어를 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표의 신호어를 한 줄씩 따라 말해 보자.”",
+          "“엄마(아빠)가 뜻을 말하면 영어로 말해 줘. ‘이유가 두 가지 있어요.’”"
+        ],
+        "정답": [
+          "I have two reasons. / Hello, everyone. / In conclusion, ~. / Thank you for listening."
+        ],
+        "막히면": [
+          "표의 영어 칸을 가리고 뜻만 보며 말하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중3 ‘의견 발표하기’(KR22-G09-ENG-PRESENT-L01)와 ‘질문에 답하기’(KR22-G09-ENG-ANSWERQ-L01)를 먼저 다시 하고, 에세이가 준비되지 않았으면 ‘의견 에세이 쓰기’(KR22-G10-ENG-OPINESSAY-L01)를 먼저 마칩니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "근거 들어 발표하기 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "수영 발표 대본이에요. 상자에서 알맞은 신호어를 골라 빈칸에 쓰세요.  [ Let me show you · To sum up · I have two reasons · Today I'm going to talk about · Do you have any questions? ]",
+        "read": "Hello, everyone. ① __________ why everyone should learn to swim. ② __________.\nFirst, swimming keeps us safe near water. ③ __________ this picture of a river.\nSecond, swimming is good exercise.\n④ __________, swimming keeps us safe and healthy. Thank you for listening. ⑤ __________",
+        "answer": "① Today I'm going to talk about ② I have two reasons ③ Let me show you ④ To sum up ⑤ Do you have any questions? 다섯 개 가운데 네 개 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "내 발표의 시각 자료 계획표를 채우세요. 장마다 그림 하나와 핵심어 6낱말 이내로 써요.",
+        "table": {
+          "headers": [
+            "장",
+            "그림(무엇을 그릴까)",
+            "핵심어(6낱말 이내)",
+            "보여 줄 때 할 말"
+          ],
+          "rows": [
+            [
+              "1 제목",
+              " \n \n ",
+              "",
+              "Today I'm going to talk about ~."
+            ],
+            [
+              "2 이유 1",
+              " \n \n ",
+              "",
+              "Let me show you ~."
+            ],
+            [
+              "3 이유 2",
+              " \n \n ",
+              "",
+              "Look at this ~."
+            ],
+            [
+              "4 정리",
+              " \n \n ",
+              "",
+              "To sum up, ~."
+            ]
+          ],
+          "widths": [
+            0.16,
+            0.3,
+            0.27,
+            0.27
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "예(일기): 1 공책 그림 + Keep a Diary / 2 생일 케이크 그림 + Remember special days / 3 긴 문장 그림 + Better writing / 4 공책과 연필 + Remember + Write better → Try it! 기준: 3~4장, 장마다 그림 하나, 핵심어 6낱말 이내면 통과. 문장을 그대로 옮겨 쓰면 S09를 다시 봅니다."
+      },
+      {
+        "no": 3,
+        "prompt": "메모 카드를 쓰세요. 신호어는 그대로, 나머지는 낱말 두세 개로 써요. 자료를 보여 줄 곳에 [그림]을 표시하세요.",
+        "table": {
+          "headers": [
+            "부분",
+            "신호어",
+            "메모(낱말 두세 개, [그림])"
+          ],
+          "rows": [
+            [
+              "시작",
+              "Today I'm going to talk about ~.\nI have two reasons.",
+              " \n \n "
+            ],
+            [
+              "이유 1",
+              "First, ~.\nLet me show you ~.",
+              " \n \n "
+            ],
+            [
+              "이유 2",
+              "Second, ~.\nLook at this ~.",
+              " \n \n "
+            ],
+            [
+              "반론",
+              "Some people may think ~.\nHowever, ~.",
+              " \n \n "
+            ],
+            [
+              "마무리",
+              "To sum up, ~.\nThank you for listening.",
+              " \n \n "
+            ]
+          ],
+          "widths": [
+            0.14,
+            0.4,
+            0.46
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "예(일기): 시작 – keep a diary, two reasons / 이유 1 – remember special days [그림] birthday / 이유 2 – better writing [그림] longer sentences / 반론 – takes time / However – 3 sentences, 5 minutes / 마무리 – remember + write better, try tonight. 기준: 신호어가 모두 있고 나머지가 낱말 메모이며 자료 표시가 있으면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "세 번 연습한 기록이에요(부모님이 함께 쓰세요).",
+        "table": {
+          "headers": [
+            "회",
+            "걸린 시간",
+            "잘한 점",
+            "고칠 점 하나(점검표 번호)"
+          ],
+          "rows": [
+            [
+              "1회",
+              "  분   초",
+              "",
+              ""
+            ],
+            [
+              "2회",
+              "  분   초",
+              "",
+              ""
+            ],
+            [
+              "3회",
+              "  분   초",
+              "",
+              ""
+            ],
+            [
+              "마지막 발표",
+              "  분   초",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.16,
+            0.2,
+            0.32,
+            0.32
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "마지막 발표가 2분 이상 3분 이하이고, 2회·3회에서 정한 고칠 점이 나아졌으면 통과. 전달 점검표: ① 눈 맞춤 ② 속도(신호어 뒤 쉬기) ③ 목소리 ④ 자료 가리키기 ⑤ 시간 2~3분."
+      },
+      {
+        "no": 5,
+        "prompt": "부모님의 질문과 나의 대답을 쓰세요. 대답에는 because를 넣으세요.",
+        "line_label": "질문 · 대답:",
+        "lines": 3,
+        "answer": "예: Q. Can you tell me why a diary is better than photos? A. Do you mean photos on my phone? I think a diary is better because I can write my feelings. For example, I wrote about how nervous I was before my piano contest. 기준: 질문을 확인하거나 바로 답하되, because로 근거를 넣으면 통과. 모르는 것은 I'm not sure, but I think ~.로 답하면 됩니다(지어내지 않음)."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 발표의 시작·자료·마무리 신호어를 하나씩 쓰세요.\n② 좋은 시각 자료의 기준 세 가지를 쓰세요.\n③ 질문에 답하는 순서를 쓰세요.",
+        "lines": 3,
+        "answer": "① Today I'm going to talk about ~. / Let me show you ~.(Look at this ~.) / To sum up, ~. ② 한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내 ③ 확인(Do you mean ~?) → 답과 근거(I think ~ because ~.) → 모르면 I'm not sure, but I think ~. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S14 마지막 발표: 걸린 시간 ___분 ___초 / 다섯 기준 가운데 ___개 (도움을 받음 □)",
+      "S14 질문 대답: 확인 □  근거(because) □  모르면 솔직하게 □",
+      "자료나 메모를 읽기만 하거나 질문에 지어내 답함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S09",
+  "status": "제작 완료"
+}

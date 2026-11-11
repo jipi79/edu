@@ -1,0 +1,65 @@
+{
+  "id": "KR22-G11-MAT-SINELAW-L01",
+  "concept_id": "MAT-SINELAW",
+  "title": "사인법칙",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "대수삼각함수",
+  "sequence": 4,
+  "file_stem": "고2_수학_대수삼각함수_04_사인법칙",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I01"
+    ],
+    "units": [
+      "2.3.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "사인법칙을 이용해 삼각형의 변의 길이와 각의 크기, 외접원의 반지름을 구한다.",
+  "prerequisites": [
+    {
+      "text": "삼각함수의 뜻",
+      "lesson": "KR22-G11-MAT-TRIGDEF-L01",
+      "grade_item": "KR22-G11-MAT-I01"
+    },
+    {
+      "text": "삼각비의 활용",
+      "lesson": "KR22-G09-MAT-TRIGAPP-L01",
+      "grade_item": "KR22-G09-MAT-I03"
+    },
+    {
+      "text": "원주각",
+      "lesson": "KR22-G09-MAT-INSCRIBED-L01",
+      "grade_item": "KR22-G09-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "사인법칙 활동지",
+    "items": [],
+    "record": []
+  }
+}
