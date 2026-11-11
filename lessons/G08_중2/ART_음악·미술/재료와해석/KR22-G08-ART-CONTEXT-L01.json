@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-ART-CONTEXT-L01",
+  "concept_id": "ART-CONTEXT",
+  "title": "문화적 맥락으로 해석",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "재료와해석",
+  "sequence": 2,
+  "file_stem": "중2_음악·미술_재료와해석_02_문화적맥락으로해석",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-ART-I02"
+    ],
+    "units": [
+      "9.2.2",
+      "9.2.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "집에 있는 그릇·보자기·명절 물건의 문양을 시대·지역의 문화적 맥락과 연결해 해석한다.",
+  "prerequisites": [
+    {
+      "text": "주제와 표현 계획",
+      "lesson": "KR22-G07-ART-ARTPLAN-L01",
+      "grade_item": "KR22-G07-ART-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "문화적 맥락으로 해석 활동지",
+    "items": [],
+    "record": []
+  }
+}

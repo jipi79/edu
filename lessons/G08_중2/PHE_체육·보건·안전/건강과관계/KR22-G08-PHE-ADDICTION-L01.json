@@ -1,0 +1,58 @@
+{
+  "id": "KR22-G08-PHE-ADDICTION-L01",
+  "concept_id": "PHE-ADDICTION",
+  "title": "중독 예방과 평등한 관계",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "PHE",
+  "strand_label": "체육·보건·안전",
+  "unit_folder": "건강과관계",
+  "sequence": 1,
+  "file_stem": "중2_체육·보건·안전_건강과관계_01_중독예방과평등한관계",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-PHE-I02"
+    ],
+    "units": [
+      "10.4.3",
+      "10.5.3",
+      "10.6.3",
+      "10.5.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "흡연·음주·스마트폰 과의존과 스트레스에 대처하는 방법을 익히고 동의에 기반한 평등한 관계의 원칙을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "사춘기·신체 경계·스트레스",
+      "lesson": "KR22-G07-PHE-BOUNDARY-L01",
+      "grade_item": "KR22-G07-PHE-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "중독 예방과 평등한 관계 활동지",
+    "items": [],
+    "record": []
+  }
+}
