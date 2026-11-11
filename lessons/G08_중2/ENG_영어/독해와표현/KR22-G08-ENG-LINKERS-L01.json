@@ -302,13 +302,13 @@
       "text": "상자에서 연결어를 골라 넣어 읽고, 까닭을 말해요.",
       "problems": [
         {
-          "text": "It rained all day.\n______, we stayed home."
-        },
-        {
           "text": "I like sweet food.\n______, I love chocolate."
         },
         {
           "text": "Jun is good at math.\n______, he is not good at art."
+        },
+        {
+          "text": "It rained all day.\n______, we stayed home."
         }
       ],
       "figure": {
@@ -332,14 +332,14 @@
         "시간": "약 3분",
         "말하기": [
           "“앞 문장과 뒤 문장을 먼저 읽고, 둘이 어떤 사이인지 생각해 봐. 반대야? 예야? 결과야?”",
-          "“①, 하루 종일 비가 왔어. 그래서 생긴 일이 뒤에 왔어?”",
+          "“③, 하루 종일 비가 왔어. 그래서 생긴 일이 뒤에 왔어?”",
           "“고른 연결어를 넣어 두 문장을 이어 읽어 줘.”"
         ],
         "정답": [
-          "① As a result, (비가 와서 집에 있었다: 결과)",
-          "② For example, (단 음식을 좋아한다 → 초콜릿: 예)",
-          "③ However, (수학은 잘하는데 미술은 못한다: 반대)",
-          "뜻: ① 하루 종일 비가 왔어요. 그 결과, 우리는 집에 있었어요. ② 나는 단 음식을 좋아해요. 예를 들어, 초콜릿을 아주 좋아해요. ③ 준은 수학을 잘해요. 그러나 미술은 잘하지 못해요."
+          "① For example, (단 음식을 좋아한다 → 초콜릿: 예)",
+          "② However, (수학은 잘하는데 미술은 못한다: 반대)",
+          "③ As a result, (비가 와서 집에 있었다: 결과)",
+          "뜻: ① 나는 단 음식을 좋아해요. 예를 들어, 초콜릿을 아주 좋아해요. ② 준은 수학을 잘해요. 그러나 미술은 잘하지 못해요. ③ 하루 종일 비가 왔어요. 그 결과, 우리는 집에 있었어요."
         ],
         "막히면": [
           "S03 표의 셋째 열(뒤에 오는 내용)을 다시 보여 주고, 뒤 문장이 그중 무엇인지 고르게 합니다.",
@@ -485,8 +485,8 @@
       "passage": {
         "paragraphs": [
           "Our school library is a great place for students.",
-          "For example, it has many new books and comfortable chairs.",
           "The school cafeteria serves delicious lunch.",
+          "For example, it has many new books and comfortable chairs.",
           "Students can also do their homework there after school.",
           "As a result, the library is always busy."
         ],
@@ -502,15 +502,15 @@
           "“고른 문장을 빼고 처음부터 다시 읽어 보자. 자연스러워?”"
         ],
         "정답": [
-          "③ The school cafeteria serves delicious lunch. 학교 이야기이지만 급식실 이야기라 ‘학교 도서관은 좋은 곳이다’라는 중심 생각과 관계없습니다.",
-          "글의 뜻: ① 우리 학교 도서관은 학생들에게 아주 좋은 곳이에요. ② 예를 들어, 새 책이 많고 의자가 편안해요. ③ 학교 급식실은 맛있는 점심을 내줘요. ④ 학생들은 방과 후에 그곳에서 숙제도 할 수 있어요. ⑤ 그 결과, 도서관은 늘 붐벼요."
+          "② The school cafeteria serves delicious lunch. 학교 이야기이지만 급식실 이야기라 ‘학교 도서관은 좋은 곳이다’라는 중심 생각과 관계없습니다.",
+          "글의 뜻: ① 우리 학교 도서관은 학생들에게 아주 좋은 곳이에요. ② 학교 급식실은 맛있는 점심을 내줘요. ③ 예를 들어, 새 책이 많고 의자가 편안해요. ④ 학생들은 방과 후에 그곳에서 숙제도 할 수 있어요. ⑤ 그 결과, 도서관은 늘 붐벼요."
         ],
         "막히면": [
           "“주제문의 중심 낱말은 library야. 문장마다 library 이야기인지 손가락으로 짚어 봐.”라고 도와줍니다."
         ],
         "주의": [
           "④에는 연결어가 없지만 also(또한)로 도서관의 좋은 점을 하나 더 말하므로 흐름에 맞습니다. 연결어가 없다고 고르면 안 됩니다(오해 M4).",
-          "⑤의 As a result는 ②와 ④(좋은 점들)의 결과로 도서관이 붐빈다는 뜻입니다."
+          "⑤의 As a result는 ③과 ④(좋은 점들)의 결과로 도서관이 붐빈다는 뜻입니다. ②가 끼어 있으면 ③의 it이 급식실로 읽혀 흐름이 끊깁니다."
         ]
       }
     },
@@ -528,7 +528,7 @@
       "steps": [
         "종이 네 장에 연결어를 써요:\nFirst, / However, / For example, / As a result,",
         "부모가 첫 문장을 말해요:\nI was very hungry.",
-        "부모가 카드 한 장을 뒤집어요.",
+        "카드 한 장을 뒤집어요.\n어울리지 않으면 다시 뽑아요.",
         "아이가 카드에 맞게 이어 말해요:\nAs a result, I ate a lot.",
         "역할을 바꿔요. 일부러 틀리게 이으면 찾아내요."
       ],
@@ -541,18 +541,22 @@
         "목적": "부모가 말한 문장에 연결어 카드를 뒤집어 아이가 알맞은 문장을 이어 말하고, 역할을 바꿔 부모가 틀리게 이은 것을 아이가 찾습니다(목표 A·B, 오해 M1·M2).",
         "시간": "약 4분",
         "말하기": [
-          "“종이 네 장에 연결어를 하나씩 써서 엎어 놓자. 엄마(아빠)가 첫 문장을 말하면, 카드를 뒤집어서 그 연결어로 이어 말해 줘.”",
-          "(부모) “I was very hungry.” + 카드 As a result → (아이) “As a result, I ate a lot.” / 카드 However → (아이) “However, I didn't eat anything.” / 카드 For example는 첫 문장을 “I like animals.”로 바꿔 → (아이) “For example, I have a cat and a dog.” 어려우면 우리말 뜻을 먼저 말해도 됩니다.",
-          "다른 첫 문장: “It was very cold yesterday.” “I like animals.” “My friend was sick.”",
-          "역할을 바꿉니다. 아이가 첫 문장을 말하면 부모가 일부러 틀리게 잇습니다. 예: “I like animals. As a result, I ate pizza.” → 아이가 “틀렸어요! 동물을 좋아하는 것과 피자는 관계없어요.”라고 찾아냅니다."
+          "“종이 네 장에 연결어를 하나씩 써서 엎어 놓자. 엄마(아빠)가 첫 문장을 말하면, 카드를 뒤집어서 그 연결어로 이어 말해 줘. 카드가 첫 문장과 어울리지 않으면 ‘안 어울려요’ 하고 다시 뽑아.”",
+          "(부모) “I was very hungry.” + 카드 As a result → (아이) “As a result, I ate a lot.” / 카드 However → (아이) “However, I didn't eat anything.” 어려우면 우리말 뜻을 먼저 말해도 됩니다.",
+          "첫 문장은 아래 목록의 네 문장에서 고릅니다. 문장마다 어울리는 카드와 이어 말할 예가 적혀 있습니다. 목록에 없는 카드가 나오면 아이가 “안 어울려요.”라고 말하고 다시 뽑습니다. 어울리지 않는다는 것을 아는 것도 연결어의 뜻을 아는 것입니다.",
+          "역할을 바꿉니다. 아이가 첫 문장을 말하면 부모가 일부러 틀리게 잇습니다. 예: “I like animals. As a result, I ate pizza.” → 아이가 “틀렸어요! 동물을 좋아하는 것과 피자는 관계없어요.”라고 찾아냅니다. 또 다른 예: “I was very hungry. However, I ate a lot.”(반대가 아니라 결과)"
         ],
         "예상답": [
-          "“As a result, I ate a lot.” “However, I didn't eat dinner.” “For example, I have a cat and a dog.” “As a result, she didn't come to school.”",
-          "기준: 연결어의 뜻(순서·반대·예·결과)에 맞게 잇고, 앞 문장과 같은 이야기를 하며, 부모가 틀리게 이은 것을 찾아 까닭을 말하면 잘한 것입니다."
+          "첫 문장마다 어울리는 카드와 이어 말할 예입니다. 여기에 없는 카드가 나오면 다시 뽑습니다.",
+          "I was very hungry.(나는 배가 몹시 고팠어요) → As a result, I ate a lot.(그 결과 많이 먹었어요) / However, I didn't eat anything.(그러나 아무것도 먹지 않았어요)",
+          "I like animals.(나는 동물을 좋아해요) → For example, I have a cat and a dog.(예를 들어 고양이와 개를 길러요) / However, I don't have a pet.(그러나 반려동물은 없어요) / As a result, I often go to the zoo.(그 결과 동물원에 자주 가요)",
+          "I cleaned my room yesterday.(어제 방을 청소했어요) → First, I opened the window.(먼저 창문을 열었어요) / However, I didn't finish.(그러나 다 하지 못했어요) / As a result, my room is clean now.(그 결과 지금 방이 깨끗해요)",
+          "My friend was sick.(친구가 아팠어요) → As a result, she didn't come to school.(그 결과 학교에 오지 않았어요) / However, she came to school.(그러나 학교에 왔어요)",
+          "기준: 연결어의 뜻(순서·반대·예·결과)에 맞게 잇고, 앞 문장과 같은 이야기를 하며, 부모가 틀리게 이은 것을 찾아 까닭을 말하면 잘한 것입니다. 아이가 다른 문장으로 이어도 연결어의 뜻에 맞으면 됩니다."
         ],
         "막히면": [
           "이어 말할 문장이 영어로 어려우면 우리말로 먼저 말하고, 부모가 영어로 바꿔 말해 준 뒤 따라 하게 합니다.",
-          "First 카드가 나오면 “배가 고파서 먼저 한 일은?”처럼 순서를 묻습니다(First, I washed my hands.)."
+          "First 카드는 한 일의 차례를 말할 수 있는 첫 문장(I cleaned my room yesterday.)에서 씁니다. “방을 청소할 때 먼저 한 일은?”처럼 순서를 묻습니다(First, I opened the window.)."
         ],
         "주의": [
           "카드마다 한 번 이상 나오도록 여러 번 합니다. 오늘은 말하기로 연습하고, 쓰기는 활동지 5에서 합니다.",
@@ -843,7 +847,7 @@
         "table": {
           "rows": [
             [
-              "① I love animals. _______________ I have two dogs and a cat."
+              "① I like many animals. _______________ I like dogs, cats, and rabbits."
             ],
             [
               "② The bus was late. _______________ I was late for school."
@@ -872,10 +876,10 @@
       {
         "no": 3,
         "prompt": "글을 읽고 물음에 답하세요. ① 주제문에 밑줄을 그으세요. ② 흐름에 맞지 않는 문장의 번호를 쓰고, 그 까닭을 우리말로 쓰세요.",
-        "read": "Dogs Are Great Pets\n① Dogs are great pets for families. ② For example, they play with children every day. ③ They also make people happy. ④ My cousin's cat is white. ⑤ As a result, many families have a dog at home.",
+        "read": "Dogs Are Great Pets\n① Dogs are great pets for families. ② For example, they play with children every day. ③ My cousin's cat is white. ④ They also make people happy. ⑤ As a result, many families have a dog at home.",
         "line_label": "② 번호와 까닭",
         "lines": 2,
-        "answer": "① 밑줄: Dogs are great pets for families. ② ④ My cousin's cat is white. 까닭: 사촌의 고양이 색깔 이야기라 ‘개는 가족에게 좋은 반려동물이다’라는 중심 생각과 관계없다. 반려동물(cat) 이야기라 관계있어 보여도 중심 생각과 다르다는 것을 말하면 통과. 낱말 뜻: pet 반려동물, cousin 사촌, also 또한."
+        "answer": "① 밑줄: Dogs are great pets for families. ② ③ My cousin's cat is white. 까닭: 사촌의 고양이 색깔 이야기라 ‘개는 가족에게 좋은 반려동물이다’라는 중심 생각과 관계없다. 반려동물(cat) 이야기라 관계있어 보여도 중심 생각과 다르다는 것을 말하면 통과. 낱말 뜻: pet 반려동물, cousin 사촌, also 또한."
       },
       {
         "no": 4,
