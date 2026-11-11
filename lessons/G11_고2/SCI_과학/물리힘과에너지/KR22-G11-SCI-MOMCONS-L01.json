@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-SCI-MOMCONS-L01",
+  "concept_id": "SCI-MOMCONS",
+  "title": "운동량 보존",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "물리힘과에너지",
+  "sequence": 4,
+  "file_stem": "고2_과학_물리힘과에너지_04_운동량보존",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I01"
+    ],
+    "units": [
+      "6.2.3",
+      "6.2.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "두 물체가 충돌하거나 분리될 때 운동량 보존 법칙으로 나중 속도를 구한다.",
+  "prerequisites": [
+    {
+      "text": "뉴턴 운동 법칙",
+      "lesson": "KR22-G11-SCI-NEWTON-L01",
+      "grade_item": "KR22-G11-SCI-I01"
+    },
+    {
+      "text": "운동량과 충격량",
+      "lesson": "KR22-G10-SCI-MOMENTUM-L01",
+      "grade_item": "KR22-G10-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "운동량 보존 활동지",
+    "items": [],
+    "record": []
+  }
+}

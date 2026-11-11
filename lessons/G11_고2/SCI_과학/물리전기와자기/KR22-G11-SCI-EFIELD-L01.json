@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G11-SCI-EFIELD-L01",
+  "concept_id": "SCI-EFIELD",
+  "title": "전하와 전기장",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "물리전기와자기",
+  "sequence": 1,
+  "file_stem": "고2_과학_물리전기와자기_01_전하와전기장",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I01"
+    ],
+    "units": [
+      "6.2.5",
+      "6.2.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "쿨롱 법칙으로 전하량과 거리에 따른 전기력의 변화를 설명하고 전기장을 전기력선으로 나타낸다.",
+  "prerequisites": [
+    {
+      "text": "전류와 전압",
+      "lesson": "KR22-G08-SCI-CURRENT-L01",
+      "grade_item": "KR22-G08-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "전하와 전기장 활동지",
+    "items": [],
+    "record": []
+  }
+}
