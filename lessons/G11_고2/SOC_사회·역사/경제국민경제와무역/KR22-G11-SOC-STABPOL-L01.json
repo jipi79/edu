@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G11-SOC-STABPOL-L01",
+  "concept_id": "SOC-STABPOL",
+  "title": "경기 변동과 안정화 정책",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "경제국민경제와무역",
+  "sequence": 2,
+  "file_stem": "고2_사회·역사_경제국민경제와무역_02_경기변동과안정화정책",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SOC-I03"
+    ],
+    "units": [
+      "4.5.3",
+      "4.5.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "경기 변동의 국면을 구별하고 경기 과열·침체 때 정부의 재정 정책과 중앙은행의 통화 정책이 작동하는 경로와 한계를 비교한다.",
+  "prerequisites": [
+    {
+      "text": "국민 경제 지표",
+      "lesson": "KR22-G11-SOC-MACROIND-L01",
+      "grade_item": "KR22-G11-SOC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "경기 변동과 안정화 정책 활동지",
+    "items": [],
+    "record": []
+  }
+}

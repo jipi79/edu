@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G12-SCI-EVOEVID-L01",
+  "concept_id": "SCI-EVOEVID",
+  "title": "진화의 증거와 기작",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과학심화",
+  "sequence": 3,
+  "file_stem": "고3_과학_생명과학심화_03_진화의증거와기작",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SCI-I03"
+    ],
+    "units": [
+      "6.4.6",
+      "6.4.7",
+      "6.4.9"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "화석·분자 서열 자료로 진화의 증거를 해석하고 대립유전자 빈도 변화로 자연 선택과 유전적 부동을 비교한다.",
+  "prerequisites": [
+    {
+      "text": "변이와 자연 선택",
+      "lesson": "KR22-G10-SCI-EVOLVE-L01",
+      "grade_item": "KR22-G10-SCI-I02"
+    },
+    {
+      "text": "사람의 유전과 가계도",
+      "lesson": "KR22-G11-SCI-HUMANGEN-L01",
+      "grade_item": "KR22-G11-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "진화의 증거와 기작 활동지",
+    "items": [],
+    "record": []
+  }
+}

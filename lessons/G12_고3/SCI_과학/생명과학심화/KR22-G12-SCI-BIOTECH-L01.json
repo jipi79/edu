@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G12-SCI-BIOTECH-L01",
+  "concept_id": "SCI-BIOTECH",
+  "title": "생명공학 기술의 원리",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과학심화",
+  "sequence": 4,
+  "file_stem": "고3_과학_생명과학심화_04_생명공학기술의원리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SCI-I03"
+    ],
+    "units": [
+      "6.4.6",
+      "6.4.7",
+      "6.4.9"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "유전자 재조합·PCR·유전자 가위의 원리를 모형으로 설명하고 의료·농업 활용 사례를 분석한다.",
+  "prerequisites": [
+    {
+      "text": "유전자 발현과 조절",
+      "lesson": "KR22-G12-SCI-GENEEXP-L01",
+      "grade_item": "KR22-G12-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "생명공학 기술의 원리 활동지",
+    "items": [],
+    "record": []
+  }
+}

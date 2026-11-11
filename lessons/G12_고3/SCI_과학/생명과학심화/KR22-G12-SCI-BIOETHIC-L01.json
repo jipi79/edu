@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G12-SCI-BIOETHIC-L01",
+  "concept_id": "SCI-BIOETHIC",
+  "title": "생명공학의 쟁점",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과학심화",
+  "sequence": 5,
+  "file_stem": "고3_과학_생명과학심화_05_생명공학의쟁점",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SCI-I03"
+    ],
+    "units": [
+      "6.4.6",
+      "6.4.7",
+      "6.4.9"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "유전자 편집과 유전자 변형 생물의 이익과 위험을 자료로 비교해 근거 있는 의견을 제시한다.",
+  "prerequisites": [
+    {
+      "text": "생명공학 기술의 원리",
+      "lesson": "KR22-G12-SCI-BIOTECH-L01",
+      "grade_item": "KR22-G12-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "생명공학의 쟁점 활동지",
+    "items": [],
+    "record": []
+  }
+}
