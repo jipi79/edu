@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-ENV-CLIMSCI-L01",
+  "concept_id": "ENV-CLIMSCI",
+  "title": "기후 위기의 증거",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENV",
+  "strand_label": "환경·생태",
+  "unit_folder": "기후위기대응",
+  "sequence": 1,
+  "file_stem": "고1_환경·생태_기후위기대응_01_기후위기의증거",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENV-I02"
+    ],
+    "units": [
+      "13.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "기온·해수면·극한 기상 자료의 그래프를 읽고 온실 효과의 강화와 연결해 기후 위기의 증거를 정리한다.",
+  "prerequisites": [
+    {
+      "text": "기후 자료 읽기",
+      "lesson": "KR22-G08-ENV-CLIMATEDATA-L01",
+      "grade_item": "KR22-G08-ENV-I01"
+    },
+    {
+      "text": "기후변화와 해양",
+      "lesson": "KR22-G09-SCI-CLIMCHG-L01",
+      "grade_item": "KR22-G09-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "기후 위기의 증거 활동지",
+    "items": [],
+    "record": []
+  }
+}

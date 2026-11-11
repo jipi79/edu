@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G12-SOC-SURVEY-L01",
+  "concept_id": "SOC-SURVEY",
+  "title": "질문지와 표본 설계",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "사회조사프로젝트",
+  "sequence": 2,
+  "file_stem": "고3_사회·역사_사회조사프로젝트_02_질문지와표본설계",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SOC-I03"
+    ],
+    "units": [
+      "4.6.4",
+      "4.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "응답을 왜곡하지 않는 질문지를 만들고 모집단·표본·표집 방법을 정해 조사 계획서를 쓴다.",
+  "prerequisites": [
+    {
+      "text": "연구 질문과 가설",
+      "lesson": "KR22-G12-SOC-RESQ-L01",
+      "grade_item": "KR22-G12-SOC-I03"
+    },
+    {
+      "text": "자료 수집과 연구 윤리",
+      "lesson": "KR22-G11-SOC-DATACOLL-L01",
+      "grade_item": "KR22-G11-SOC-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "질문지와 표본 설계 활동지",
+    "items": [],
+    "record": []
+  }
+}

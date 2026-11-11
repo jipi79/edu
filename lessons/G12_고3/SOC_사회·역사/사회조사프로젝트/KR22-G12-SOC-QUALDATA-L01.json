@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G12-SOC-QUALDATA-L01",
+  "concept_id": "SOC-QUALDATA",
+  "title": "면접 자료 해석",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SOC",
+  "strand_label": "사회·역사",
+  "unit_folder": "사회조사프로젝트",
+  "sequence": 3,
+  "file_stem": "고3_사회·역사_사회조사프로젝트_03_면접자료해석",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SOC-I03"
+    ],
+    "units": [
+      "4.6.4",
+      "4.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "짧은 면접 기록을 주제별로 분류(코딩)해 공통된 의미를 찾고 질적 자료 해석의 강점과 주관성 문제를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "연구 질문과 가설",
+      "lesson": "KR22-G12-SOC-RESQ-L01",
+      "grade_item": "KR22-G12-SOC-I03"
+    },
+    {
+      "text": "자료 수집과 연구 윤리",
+      "lesson": "KR22-G11-SOC-DATACOLL-L01",
+      "grade_item": "KR22-G11-SOC-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "면접 자료 해석 활동지",
+    "items": [],
+    "record": []
+  }
+}
