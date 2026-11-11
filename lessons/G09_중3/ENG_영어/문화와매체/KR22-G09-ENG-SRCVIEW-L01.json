@@ -390,10 +390,10 @@
       "text": "사실: 확인할 수 있는 일 · 의견: 사람의 생각이나 판단",
       "problems": [
         {
-          "text": "Last month, the school\nstarted a new phone rule."
+          "text": "I think the new rule is\na good start."
         },
         {
-          "text": "I think the new rule is\na good start."
+          "text": "Last month, the school\nstarted a new phone rule."
         },
         {
           "text": "Last Tuesday, my son\ngot sick at school."
@@ -411,8 +411,8 @@
           "“문장마다 사실인지 의견인지 말하고, 어떻게 알았는지 말해 줘.”"
         ],
         "정답": [
-          "① 사실(학교에 물어보면 확인할 수 있음)",
-          "② 의견(I think, good: 글쓴이의 판단)",
+          "① 의견(I think, good: 글쓴이의 판단)",
+          "② 사실(학교에 물어보면 확인할 수 있음)",
           "③ 사실(그날 있었던 일)",
           "④ 의견(useful: 쓸모 있다는 판단, 사람마다 다르게 볼 수 있음)"
         ],
@@ -438,22 +438,22 @@
       "claim": "두 글을 읽고 두 친구가 이렇게 말했어요.",
       "left": {
         "title": "가",
-        "text": "글 A가 맞아요.\n글 B는 틀렸어요."
+        "text": "두 글은 관점이 달라요.\n글 A는 수업을, 글 B는\n연락을 중요하게 봐요."
       },
       "right": {
         "title": "나",
-        "text": "두 글은 관점이 달라요.\n글 A는 수업을, 글 B는\n연락을 중요하게 봐요."
+        "text": "글 A가 맞아요.\n글 B는 틀렸어요."
       },
       "question": "어느 쪽이 두 글을 더 잘 비교했나요? 왜 그렇게 생각해요?",
       "notes": {
         "목적": "두 글 가운데 한쪽만 옳다고 판단하는 생각을 비교로 바로잡고, 관점이 다르다는 것과 각 관점이 중요하게 보는 것을 말하게 합니다(목표 B, 오해 M1).",
         "시간": "약 2분",
         "말하기": [
-          "“가처럼 말하면 무엇을 놓치게 될까?”",
-          "“나는 두 글이 각각 무엇을 중요하게 본다고 했어?”"
+          "“나처럼 말하면 무엇을 놓치게 될까?”",
+          "“가는 두 글이 각각 무엇을 중요하게 본다고 했어?”"
         ],
         "정답": [
-          "나가 더 잘 비교했습니다. 두 글은 같은 규칙을 다르게 보는 것이고, 글 A는 수업과 학생들의 어울림을, 글 B는 급할 때의 연락과 공부 도구를 중요하게 봅니다. 가는 글 B의 근거(아플 때 연락하지 못함)를 무시합니다. 두 글 모두 근거가 있으므로 ‘틀렸다’고 할 수 없습니다."
+          "가가 더 잘 비교했습니다. 두 글은 같은 규칙을 다르게 보는 것이고, 글 A는 수업과 학생들의 어울림을, 글 B는 급할 때의 연락과 공부 도구를 중요하게 봅니다. 나는 글 B의 근거(아플 때 연락하지 못함)를 무시합니다. 두 글 모두 근거가 있으므로 ‘틀렸다’고 할 수 없습니다."
         ],
         "막히면": [
           "“글 B의 아들이 아팠던 일은 거짓말일까?”라고 묻고, 근거가 있는 관점이라는 것을 짚습니다."
@@ -684,16 +684,16 @@
       "text": "글 E (학생): Our new uniform is comfortable and cheap.\n글 F (학부모): The new uniform is nice, but it's thin for winter.",
       "options": [
         {
-          "text": "글 E는 맞고, 글 F는 틀렸어요."
-        },
-        {
-          "text": "학생은 편하고 싸다고,\n학부모는 겨울엔 얇다고 봐요."
-        },
-        {
           "text": "두 글은 주제가 달라요."
         },
         {
+          "text": "글 E는 맞고, 글 F는 틀렸어요."
+        },
+        {
           "text": "학부모는 새 교복을 싫어해요."
+        },
+        {
+          "text": "학생은 편하고 싸다고,\n학부모는 겨울엔 얇다고 봐요."
         }
       ],
       "question": "두 글의 차이를 가장 잘 설명한 것은? 나머지는 왜 알맞지 않나요?",
@@ -704,15 +704,15 @@
           "“uniform은 교복, comfortable은 편한, cheap은 값이 싼, thin은 얇은이야. 두 글을 읽고 차이를 가장 잘 설명한 것을 골라 줘.”"
         ],
         "정답": [
-          "나(같은 주제를 두 관점에서 본 차이를 모두 말함)",
-          "가 – 한쪽만 맞다고 판단함(관점이 다를 뿐). 다 – 두 글 모두 새 교복이 주제임. 라 – 학부모는 nice(좋다)라고 하면서 겨울에 얇은 점만 걱정하므로 ‘싫어한다’는 지나친 말임.",
-          "기준: 나를 고르고 나머지 하나 이상의 까닭을 말하면 통과. 두 글은 수업을 위해 지어낸 것입니다."
+          "라(같은 주제를 두 관점에서 본 차이를 모두 말함)",
+          "가 – 두 글 모두 새 교복이 주제임. 나 – 한쪽만 맞다고 판단함(관점이 다를 뿐). 다 – 학부모는 nice(좋다)라고 하면서 겨울에 얇은 점만 걱정하므로 ‘싫어한다’는 지나친 말임.",
+          "기준: 라를 고르고 나머지 하나 이상의 까닭을 말하면 통과. 두 글은 수업을 위해 지어낸 것입니다."
         ],
         "막히면": [
           "“두 글의 주제는 무엇이야? 학부모는 교복이 nice라고 했어, 안 했어?”라고만 묻습니다."
         ],
         "주의": [
-          "라를 고르면 S05 글 B(규칙의 까닭은 이해하지만 조금 바꾸면 좋겠다)처럼 관점을 정확하게 줄여 말하는 연습을 다음 수업 첫 5분에 다시 합니다."
+          "다를 고르면 S05 글 B(규칙의 까닭은 이해하지만 조금 바꾸면 좋겠다)처럼 관점을 정확하게 줄여 말하는 연습을 다음 수업 첫 5분에 다시 합니다."
         ]
       }
     },
@@ -876,22 +876,22 @@
               ""
             ],
             [
-              "② The new rule is a good start for our school.",
+              "② Students get their phones back after the last class.",
               "",
               ""
             ],
             [
-              "③ Students get their phones back after the last class.",
+              "③ The new rule is a good start for our school.",
               "",
               ""
             ],
             [
-              "④ Phones are useful for learning.",
+              "④ Mr. Lee is a math teacher.",
               "",
               ""
             ],
             [
-              "⑤ Mr. Lee is a math teacher.",
+              "⑤ Phones are useful for learning.",
               "",
               ""
             ]
@@ -904,15 +904,15 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 사실 ② 의견 ③ 사실 ④ 의견 ⑤ 사실. 다섯 개 가운데 네 개 이상이면 통과. ②의 good, ④의 useful은 판단을 나타내는 말입니다."
+        "answer": "① 사실 ② 사실 ③ 의견 ④ 사실 ⑤ 의견. 다섯 개 가운데 네 개 이상이면 통과. ③의 good, ⑤의 useful은 판단을 나타내는 말입니다."
       },
       {
         "no": 3,
-        "prompt": "새 점심 메뉴에 대한 두 글(지어낸 글)을 읽고 답하세요. ① 두 글의 공통 주제를 우리말로 쓰세요. ② 글 E와 글 F의 관점을 우리말로 한 문장씩 쓰세요. ③ Both와 However를 넣어 차이를 영어로 쓰세요.",
-        "read": "글 E (영양 선생님의 안내문) Our new lunch menu has more vegetables and fruit. Vegetables are good for students' health. We hope everyone enjoys the healthy menu.\n글 F (학생의 게시물) The new lunch menu has less meat. Many of my friends leave their vegetables, and they are hungry after lunch. I hope the menu has more meat again.",
+        "prompt": "새 점심 메뉴에 대한 두 글(지어낸 글)을 읽고 답하세요. ① 두 글의 공통 주제를 우리말로 쓰세요. ② 글 G와 글 H의 관점을 우리말로 한 문장씩 쓰세요. ③ Both와 However를 넣어 차이를 영어로 쓰세요.",
+        "read": "글 G (영양 선생님의 안내문) Our new lunch menu has more vegetables and fruit. Vegetables are good for students' health. We hope everyone enjoys the healthy menu.\n글 H (학생의 게시물) The new lunch menu has less meat. Many of my friends leave their vegetables, and they are hungry after lunch. I hope the menu has more meat again.",
         "line_label": "①②③",
         "lines": 5,
-        "answer": "① 새 점심 메뉴 ② 글 E: 채소와 과일이 많은 새 메뉴는 건강에 좋다. 글 F: 고기가 줄어 친구들이 채소를 남기고 배고파하니 고기를 다시 늘리면 좋겠다. ③ 예: Both writers talk about the new lunch menu. The teacher thinks it is healthy because it has more vegetables. However, the student wants more meat because students are hungry after lunch. 세 물음 모두 맞으면 통과(③은 두 관점이 모두 들어가면 됨). 낱말 뜻: vegetable 채소, health 건강, healthy 건강에 좋은, less 더 적은, meat 고기, leave 남기다, hungry 배고픈."
+        "answer": "① 새 점심 메뉴 ② 글 G: 채소와 과일이 많은 새 메뉴는 건강에 좋다. 글 H: 고기가 줄어 친구들이 채소를 남기고 배고파하니 고기를 다시 늘리면 좋겠다. ③ 예: Both writers talk about the new lunch menu. The teacher thinks it is healthy because it has more vegetables. However, the student wants more meat because students are hungry after lunch. 세 물음 모두 맞으면 통과(③은 두 관점이 모두 들어가면 됨). 낱말 뜻: vegetable 채소, health 건강, healthy 건강에 좋은, less 더 적은, meat 고기, leave 남기다, hungry 배고픈."
       },
       {
         "no": 4,
