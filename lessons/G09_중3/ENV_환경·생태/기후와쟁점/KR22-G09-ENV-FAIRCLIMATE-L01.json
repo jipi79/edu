@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-ENV-FAIRCLIMATE-L01",
+  "concept_id": "ENV-FAIRCLIMATE",
+  "title": "기후 대안과 공정성",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "ENV",
+  "strand_label": "환경·생태",
+  "unit_folder": "기후와쟁점",
+  "sequence": 1,
+  "file_stem": "중3_환경·생태_기후와쟁점_01_기후대안과공정성",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-ENV-I02"
+    ],
+    "units": [
+      "13.4.3",
+      "13.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "감축·적응 및 자원·생태 문제의 대안을 비용과 피해를 누가 지는지에 따라 공정성 관점에서 비교한다.",
+  "prerequisites": [
+    {
+      "text": "감축·적응과 지역 조사",
+      "lesson": "KR22-G08-ENV-MITIGATE-L01",
+      "grade_item": "KR22-G08-ENV-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "기후 대안과 공정성 활동지",
+    "items": [],
+    "record": []
+  }
+}

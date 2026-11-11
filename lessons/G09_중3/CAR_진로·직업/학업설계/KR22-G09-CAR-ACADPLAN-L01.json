@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G09-CAR-ACADPLAN-L01",
+  "concept_id": "CAR-ACADPLAN",
+  "title": "학업 설계와 대안",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "CAR",
+  "strand_label": "진로·직업",
+  "unit_folder": "학업설계",
+  "sequence": 1,
+  "file_stem": "중3_진로·직업_학업설계_01_학업설계와대안",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-CAR-I02"
+    ],
+    "units": [
+      "12.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "관심 분야의 기초 과목을 확인해 학습 계획과 대안 경로를 세운다.",
+  "prerequisites": [
+    {
+      "text": "고교 교육과정과 과목",
+      "lesson": "KR22-G09-CAR-CURRICULUM-L01",
+      "grade_item": "KR22-G09-CAR-I01"
+    },
+    {
+      "text": "직업과 나의 가치",
+      "lesson": "KR22-G08-CAR-JOBVALUE-L01",
+      "grade_item": "KR22-G08-CAR-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "학업 설계와 대안 활동지",
+    "items": [],
+    "record": []
+  }
+}

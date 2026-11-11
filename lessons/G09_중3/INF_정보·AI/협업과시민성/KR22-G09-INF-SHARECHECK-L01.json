@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G09-INF-SHARECHECK-L01",
+  "concept_id": "INF-SHARECHECK",
+  "title": "프로젝트 공유 점검",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "협업과시민성",
+  "sequence": 1,
+  "file_stem": "중3_정보·AI_협업과시민성_01_프로젝트공유점검",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-INF-I03"
+    ],
+    "units": [
+      "8.5.2",
+      "8.5.3",
+      "8.6.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "프로젝트 결과를 공유하기 전에 보안·저작권·사회적 영향을 점검표로 확인하고 고친다.",
+  "prerequisites": [
+    {
+      "text": "보안 위협과 예방",
+      "lesson": "KR22-G08-INF-SECURITY-L01",
+      "grade_item": "KR22-G08-INF-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "프로젝트 공유 점검 활동지",
+    "items": [],
+    "record": []
+  }
+}

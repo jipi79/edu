@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G09-TEC-PROTOTEST-L01",
+  "concept_id": "TEC-PROTOTEST",
+  "title": "시제품 시험과 개선",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "설계와발명",
+  "sequence": 2,
+  "file_stem": "중3_기술·가정_설계와발명_02_시제품시험과개선",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-TEC-I03"
+    ],
+    "units": [
+      "7.6.1",
+      "7.4.3",
+      "7.4.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "시제품을 만들어 조건별로 시험하고 결과를 근거로 개선 이유를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "발명 아이디어와 설계",
+      "lesson": "KR22-G09-TEC-INVENT-L01",
+      "grade_item": "KR22-G09-TEC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "시제품 시험과 개선 활동지",
+    "items": [],
+    "record": []
+  }
+}

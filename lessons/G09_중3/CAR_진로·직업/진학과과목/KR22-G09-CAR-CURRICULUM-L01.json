@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-CAR-CURRICULUM-L01",
+  "concept_id": "CAR-CURRICULUM",
+  "title": "고교 교육과정과 과목",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "CAR",
+  "strand_label": "진로·직업",
+  "unit_folder": "진학과과목",
+  "sequence": 1,
+  "file_stem": "중3_진로·직업_진학과과목_01_고교교육과정과과목",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-CAR-I01"
+    ],
+    "units": [
+      "12.3.2",
+      "12.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "고등학교 유형별 교육과정과 과목 선택 방식의 차이를 조사해 정리한다.",
+  "prerequisites": [
+    {
+      "text": "고등학교 유형 비교",
+      "lesson": "KR22-G08-CAR-HIGHSCHOOL-L01",
+      "grade_item": "KR22-G08-CAR-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "고교 교육과정과 과목 활동지",
+    "items": [],
+    "record": []
+  }
+}
