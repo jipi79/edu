@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G11-ETH-BIOETH-L01",
+  "concept_id": "ETH-BIOETH",
+  "title": "생명·의료 윤리",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ETH",
+  "strand_label": "도덕·윤리",
+  "unit_folder": "현대윤리생명기술",
+  "sequence": 1,
+  "file_stem": "고2_도덕·윤리_현대윤리생명기술_01_생명·의료윤리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ETH-I02"
+    ],
+    "units": [
+      "5.6.1",
+      "5.6.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "안락사·생명 복제·동물 실험 가운데 한 쟁점에서 생명 존중과 자율성·이익을 내세우는 근거를 정리하고 윤리 이론을 적용해 자신의 판단을 제시한다.",
+  "prerequisites": [
+    {
+      "text": "서양 윤리사상",
+      "lesson": "KR22-G11-ETH-WESTETH-L01",
+      "grade_item": "KR22-G11-ETH-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "생명·의료 윤리 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G12-ETH-WORKETH-L01",
+  "concept_id": "ETH-WORKETH",
+  "title": "노동과 소비의 책임",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ETH",
+  "strand_label": "도덕·윤리",
+  "unit_folder": "노동문화의윤리",
+  "sequence": 1,
+  "file_stem": "고3_도덕·윤리_노동문화의윤리_01_노동과소비의책임",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ETH-I02"
+    ],
+    "units": [
+      "5.6.3",
+      "5.6.4",
+      "5.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "플랫폼 노동·공정 무역 사례에서 노동자·기업·소비자·정부의 이해관계를 정리하고 각자가 져야 할 책임을 평가한다.",
+  "prerequisites": [
+    {
+      "text": "윤리적 소비와 평화",
+      "lesson": "KR22-G09-ETH-ETHCONSUME-L01",
+      "grade_item": "KR22-G09-ETH-I02"
+    },
+    {
+      "text": "과학기술·정보 윤리",
+      "lesson": "KR22-G11-ETH-TECHETH-L01",
+      "grade_item": "KR22-G11-ETH-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "노동과 소비의 책임 활동지",
+    "items": [],
+    "record": []
+  }
+}

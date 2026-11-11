@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G12-ETH-FUTUREDUTY-L01",
+  "concept_id": "ETH-FUTUREDUTY",
+  "title": "세대 간 책임과 성찰",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ETH",
+  "strand_label": "도덕·윤리",
+  "unit_folder": "생태와세대책임",
+  "sequence": 1,
+  "file_stem": "고3_도덕·윤리_생태와세대책임_01_세대간책임과성찰",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ETH-I03"
+    ],
+    "units": [
+      "5.4.3",
+      "5.1.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "요나스의 책임 윤리로 미래 세대에 대한 책임의 근거를 설명하고 자신이 해 온 생태 실천의 결과와 한계를 성찰해 고칠 점을 정한다.",
+  "prerequisites": [
+    {
+      "text": "자연관과 생태 책임",
+      "lesson": "KR22-G10-ETH-ECORESP-L01",
+      "grade_item": "KR22-G10-ETH-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "세대 간 책임과 성찰 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-ETH-PEACEAID-L01",
+  "concept_id": "ETH-PEACEAID",
+  "title": "평화와 해외 원조",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ETH",
+  "strand_label": "도덕·윤리",
+  "unit_folder": "평화와공존",
+  "sequence": 1,
+  "file_stem": "고2_도덕·윤리_평화와공존_01_평화와해외원조",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ETH-I03"
+    ],
+    "units": [
+      "5.6.4",
+      "5.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "갈퉁의 소극적·적극적 평화를 구별하고 해외 원조에 대한 싱어와 롤스의 입장을 비교해 기후 난민 지원 같은 공존의 대안을 평가한다.",
+  "prerequisites": [
+    {
+      "text": "평화와 공존",
+      "lesson": "KR22-G08-ETH-COEXIST-L01",
+      "grade_item": "KR22-G08-ETH-I02"
+    },
+    {
+      "text": "서양 윤리사상",
+      "lesson": "KR22-G11-ETH-WESTETH-L01",
+      "grade_item": "KR22-G11-ETH-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "평화와 해외 원조 활동지",
+    "items": [],
+    "record": []
+  }
+}

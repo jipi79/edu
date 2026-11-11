@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G12-ETH-CULTURE-L01",
+  "concept_id": "ETH-CULTURE",
+  "title": "다문화 사회의 윤리",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ETH",
+  "strand_label": "도덕·윤리",
+  "unit_folder": "노동문화의윤리",
+  "sequence": 2,
+  "file_stem": "고3_도덕·윤리_노동문화의윤리_02_다문화사회의윤리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ETH-I02"
+    ],
+    "units": [
+      "5.6.3",
+      "5.6.4",
+      "5.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "이주민과 다문화 갈등 사례를 동화주의·다문화주의·문화 다원주의의 관점으로 비교하고 시민과 국가의 책임을 평가한다.",
+  "prerequisites": [
+    {
+      "text": "평화와 해외 원조",
+      "lesson": "KR22-G11-ETH-PEACEAID-L01",
+      "grade_item": "KR22-G11-ETH-I03"
+    },
+    {
+      "text": "평화와 공존",
+      "lesson": "KR22-G08-ETH-COEXIST-L01",
+      "grade_item": "KR22-G08-ETH-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "다문화 사회의 윤리 활동지",
+    "items": [],
+    "record": []
+  }
+}
