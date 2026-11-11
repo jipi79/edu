@@ -1,0 +1,1240 @@
+{
+  "id": "KR22-G10-ENG-PASSPERF-L01",
+  "concept_id": "ENG-PASSPERF",
+  "title": "진행·완료 수동태",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "공통영어문법",
+  "sequence": 4,
+  "file_stem": "고1_영어_공통영어문법_04_진행·완료수동태",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENG-I01"
+    ],
+    "units": [
+      "3.2.3",
+      "3.1.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "현재완료진행",
+      "lesson": "KR22-G10-ENG-PERFPROG-L01",
+      "grade_item": "KR22-G10-ENG-I01"
+    },
+    {
+      "text": "수동태 부정문·의문문",
+      "lesson": "KR22-G09-ENG-PASSIVE2-L01",
+      "grade_item": "KR22-G09-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "지금 진행 중인 일을 당하는 쪽에서 말할 때 am·is·are + being + 과거분사(‘~되고 있다’)를 쓴다는 것을 알고, 능동태 현재진행형 문장(Workers are repairing the road.)을 수동태(The road is being repaired.)로 바꾸고 해석한다. be동사는 새 주어에 맞추고, being을 빠뜨려 -ing를 쓰지 않는다(The road is repairing ×).",
+      "evidence": "과거분사 표(S03), is being + 과거분사(S04), 진행 수동태로 바꾸기(S05), 바꿔 말하기(S06), is repairing 비교(S07), 집 안 점검 보고(S12), 혼자 해 보기(S13 ①③), 마무리 확인(S15 ①), 활동지 1·2·4·5",
+      "success": "활동지 2의 바꾸기 4개 가운데 3개 이상을 be동사 + being + 과거분사로 바르게 쓰고, 여럿인 주어에 are being을 쓴다."
+    },
+    {
+      "id": "B",
+      "text": "이미 끝났거나 지금까지 이어져 온 일을 당하는 쪽에서 말할 때 have·has + been + 과거분사(‘~되었다, ~되어 왔다’)를 쓴다는 것을 알고, 능동태 현재완료 문장을 수동태로 바꾸고 해석한다. 현재완료진행 능동태(has been cleaning: 청소하고 있다)와 완료 수동태(has been cleaned: 청소되었다)를 -ing와 과거분사로 구별한다.",
+      "evidence": "has been + 과거분사(S08), 완료 수동태로 바꾸기 표(S09), 바꿔 말하기(S10), has been cleaning과 cleaned 비교(S11), 집 안 점검 보고(S12), 혼자 해 보기(S13 ②④), 마무리 확인(S15 ②③), 활동지 3·4·5",
+      "success": "활동지 3의 바꾸기 4개 가운데 3개 이상을 have·has been + 과거분사로 바르게 쓰고, 활동지 4의 고르기 6개 가운데 5개 이상을 ‘하는 쪽인지 당하는 쪽인지’라는 까닭과 함께 고른다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "집안일 점검 카드(종이에 ‘설거지 ✓, 바닥 청소 ✓, 화분 물 주기 ✓, 밥 짓기 … 하는 중’처럼 써 둠)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "현재진행 수동태(am·is·are + being + 과거분사, ‘~되고 있다’)와 현재완료 수동태(have·has + been + 과거분사, ‘~되었다, ~되어 왔다’)의 긍정문만 다룬다. 능동태 → 수동태 바꾸기는 목적어가 하나인 문장(주어 + 동사 + 목적어)으로 하고, by + 행위자는 누가 했는지가 중요할 때만 쓰며 someone, people, they처럼 막연한 주어는 뺀다. 과거분사는 이미 배운 것(repaired, cleaned, painted, built, sold, eaten, done, made, written, broken 등)과 새 모양 하나(★ stolen)만 쓴다. 지난 차시의 현재완료진행 능동태(has been cleaning)와 완료 수동태(has been cleaned)의 구별을 다룬다. 과거진행 수동태(was being ~)는 노트에서만 소개하고, 부정문·의문문(hasn't been ~, Has it been ~?), 조동사 + have been, 완료진행 수동태(has been being ~), 4·5형식 문장의 수동태(다음 차시)는 다루지 않는다. Dinner is cooking처럼 능동 모양이 수동 뜻으로 쓰이는 동사는 문제에 쓰지 않는다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "being을 빠뜨려 능동 진행형처럼 쓴다(The road is repairing.). 그러면 ‘길이 (무엇인가를) 고치고 있다’는 뜻이 된다.",
+      "response": "S04에서 be + being + 과거분사의 세 조각을 보여 주고, S07에서 is repairing과 is being repaired를 비교한다. S13·활동지 2·4에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "been과 being을 바꾸어 쓴다(The road is been repaired. / The room has being cleaned.).",
+      "response": "S04·S08의 열쇠 문장(be 뒤에는 being, have 뒤에는 been)과 S16 정리에서 짝을 짚고, S14 정답 장에서 흔한 실수로 보여 준다."
+    },
+    {
+      "id": "M3",
+      "text": "완료 수동태와 현재완료진행 능동태를 헷갈린다(The room has been cleaning. / Mom has been cleaned the room.).",
+      "response": "S11에서 두 문장을 나란히 두고 ‘하는 쪽은 -ing, 당하는 쪽은 과거분사’로 구별하게 한다. S15 ③과 활동지 4에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "be동사·have를 원래 주어에 맞춘다(The dishes is being washed by Tom. / All the tickets has been sold.).",
+      "response": "S05·S09의 열쇠 문장에서 새 주어에 맞춘다고 짚고, S06 ④·S10 ④와 활동지 2·3에서 확인한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "진행·완료 수동태",
+      "question": "The road is being repaired.\n‘길이 수리되고 있어요’는 영어로?",
+      "goals": [
+        "① is being + 과거분사로 ‘~되고 있다’를 말해요.",
+        "② has been + 과거분사로 ‘~되었다’를 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "The road is being\nrepaired."
+          },
+          {
+            "word": "My bike has been\nstolen!"
+          },
+          {
+            "word": "The room has been\ncleaned."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지금 ‘~되고 있는’ 일과 이미 ‘~된’ 일을 수동태로 말하는 모양에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘길이 수리되고 있어요. 내 자전거를 도둑맞았어요! 방이 청소되었어요.’라는 뜻이야. 수동태는 be + 과거분사였지? 오늘은 그 사이에 being이나 been이 들어가. 지금 되고 있는 일과 이미 된 일을 말하는 방법이야.”"
+        ],
+        "예상답": [
+          "“being이랑 been이 있어요.” “repaired, stolen, cleaned는 과거분사예요.”"
+        ],
+        "막히면": [
+          "뜻을 모르면 부모가 뜻만 알려 주고, is being과 has been에 손가락을 대 보게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(The road is being repaired. My bike has been stolen! The room has been cleaned. Mom has been cleaning the room.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "중3 ‘수동태’(be + 과거분사)와 지난 차시 ‘현재완료진행’(have been -ing)을 알면 쉬워집니다. 오늘은 둘을 합친 모양입니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(수동태, 현재완료진행)",
+      "role": "prior",
+      "objectives": [],
+      "title": "수동태와 have been 떠올리기",
+      "text": "①은 수동태로 바꾸고, ②는 골라 읽고, ③은 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "My dad washes the car.  → 수동태로"
+        },
+        {
+          "text": "It can (use / be used) here."
+        },
+        {
+          "text": "She has been studying for an hour.  → 뜻은?"
+        }
+      ],
+      "notes": {
+        "목적": "중3 수동태와 ‘수동태 부정문·의문문’(KR22-G09-ENG-PASSIVE2-L01)의 can + be + 과거분사, 지난 차시 ‘현재완료진행’(KR22-G10-ENG-PERFPROG-L01)의 해석을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 수동태 문장으로 바꿔 말해 줘.”",
+          "“②는 알맞은 것을 골라 읽어 줘.”",
+          "“③은 우리말 뜻을 말해 볼래?”"
+        ],
+        "정답": [
+          "① The car is washed by my dad. (차는 아빠가 세차해요.)",
+          "② be used (can 뒤에는 be + 과거분사) — 그것은 여기서 사용될 수 있어요.",
+          "③ 그녀는 한 시간째 공부하고 있어요."
+        ],
+        "막히면": [
+          "①은 “목적어 the car를 앞으로, washes는 is washed로, my dad는 by 뒤로.”, ②는 “can 뒤에는 무엇이 왔지?”, ③은 “have been -ing는 무슨 뜻이었지?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S17(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "①에서 The car washes by my dad.처럼 be동사를 빠뜨리면 수동태 기본이 흔들리는 것입니다. S17을 먼저 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "오늘 쓰는 과거분사(새 모양 표시)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "오늘 쓰는 과거분사",
+      "text": "★는 오늘 처음 배우는 과거분사예요.",
+      "table": {
+        "headers": [
+          "동사",
+          "뜻",
+          "과거형",
+          "과거분사"
+        ],
+        "rows": [
+          [
+            "repair",
+            "고치다, 수리하다",
+            "repaired",
+            "repaired"
+          ],
+          [
+            "clean",
+            "청소하다",
+            "cleaned",
+            "cleaned"
+          ],
+          [
+            "paint",
+            "칠하다",
+            "painted",
+            "painted"
+          ],
+          [
+            "build",
+            "짓다",
+            "built",
+            "built"
+          ],
+          [
+            "sell",
+            "팔다",
+            "sold",
+            "sold"
+          ],
+          [
+            "eat",
+            "먹다",
+            "ate",
+            "eaten"
+          ],
+          [
+            "do",
+            "하다",
+            "did",
+            "done"
+          ],
+          [
+            "steal",
+            "훔치다",
+            "stole",
+            "★ stolen"
+          ]
+        ],
+        "widths": [
+          0.18,
+          0.32,
+          0.24,
+          0.26
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "notes": {
+        "목적": "오늘 수동태에 쓸 과거분사를 확인하고, 새 모양 stolen을 익힙니다(목표 A·B의 준비).",
+        "시간": "약 2분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 동사, 과거형, 과거분사 순서로.” (repair, repaired, repaired …)",
+          "“★가 있는 steal은 처음 보는 모양이야. steal, stole, stolen. ‘훔치다’라는 뜻이야.”",
+          "“과거분사 칸만 가리고 엄마(아빠)가 동사를 말하면 과거분사를 말해 볼래?”"
+        ],
+        "예상답": [
+          "“repaired, cleaned, painted, built, sold, eaten, done, stolen.”"
+        ],
+        "막히면": [
+          "-ed로 끝나는 규칙 동사부터 먼저 하고, built·sold·eaten·done은 S17 보충 표나 지난 차시 표를 함께 봅니다."
+        ],
+        "주의": [
+          "eat의 과거분사는 ate가 아니라 eaten, do의 과거분사는 did가 아니라 done입니다. 수동태에는 과거형이 아니라 과거분사를 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "진행 수동태(be + being + 과거분사)의 뜻과 모양",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "is being + 과거분사",
+      "text": "지금 ~되고 있는 중이면 be동사 + being + 과거분사를 써요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "The road",
+            "sub": "주어: 길이"
+          },
+          {
+            "word": "is being",
+            "sub": "be동사 + being",
+            "highlight": true
+          },
+          {
+            "word": "repaired",
+            "sub": "과거분사",
+            "highlight": true
+          },
+          {
+            "word": "now.",
+            "sub": "지금"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "진행형 + 수동태",
+          "text": "be + -ing  +  be + 과거분사\n→ be + being + 과거분사"
+        },
+        {
+          "title": "뜻",
+          "text": "‘(지금) ~되고 있다’\nam·is·are는 주어에 맞게"
+        }
+      ],
+      "key": "The road is being repaired.  길이 (지금) 수리되고 있어요.",
+      "notes": {
+        "목적": "진행형(be + -ing)과 수동태(be + 과거분사)를 합친 be + being + 과거분사가 ‘지금 ~되고 있다’를 뜻한다는 것을 보여 줍니다(목표 A, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“The road is being repaired를 네 덩어리로 나눴어. 길이, is being, repaired, 지금.”",
+          "“진행형은 be + -ing, ‘~하고 있다’였지? 수동태는 be + 과거분사, ‘~되다’였고. 둘을 합치면 be + being + 과거분사, ‘~되고 있다’가 돼.”",
+          "“길은 스스로 고치지 않지? 누군가가 고치고 있고, 길은 고쳐지는 쪽이야. 그래서 is being repaired.”"
+        ],
+        "예상답": [
+          "“길이 지금 수리되고 있어요.” “be, being, 과거분사 세 개가 있어요.”"
+        ],
+        "막히면": [
+          "손가락 세 개를 펴고 “is, being, repaired”를 하나씩 접으며 말하게 합니다."
+        ],
+        "주의": [
+          "being을 빼면 The road is repaired.(길은 수리돼요/수리되었어요)가 되어 ‘지금 하는 중’이라는 뜻이 사라지고, being 대신 -ing를 쓰면 The road is repairing.(길이 무언가를 고치고 있다)이라는 이상한 뜻이 됩니다(오해 M1).",
+          "지난 일은 was being + 과거분사로 씁니다(The road was being repaired yesterday.). 오늘은 소개만 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "능동태 현재진행형을 진행 수동태로 바꾸기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "진행 수동태로 바꾸기",
+      "text": "목적어를 주어로, 동사를 be + being + 과거분사로 바꿔요.",
+      "steps": [
+        "목적어 the road를\n주어로 보내요.",
+        "are repairing →\nis being repaired",
+        "원래 주어는 by ~\n(중요하지 않으면 빼요)"
+      ],
+      "figureRatio": 0.5,
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Workers are repairing\nthe road.",
+            "sub": "일꾼들이 길을 고치고 있어요."
+          },
+          {
+            "word": "The road is being\nrepaired (by workers).",
+            "sub": "길이 (일꾼들에 의해) 수리되고 있어요.",
+            "highlight": true
+          }
+        ]
+      },
+      "key": "be동사는 새 주어에 맞춰요:  the road → is,  the dishes → are",
+      "notes": {
+        "목적": "능동태 현재진행형 문장을 진행 수동태로 바꾸는 세 단계를 보여 주고, be동사를 새 주어에 맞춘다는 것을 짚습니다(목표 A, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Workers are repairing the road. ‘일꾼들이 길을 고치고 있어요.’ 이걸 길의 입장에서 말해 보자.”",
+          "“첫째, 목적어 the road를 맨 앞 주어로 보내.”",
+          "“둘째, are repairing을 be + being + 과거분사로. 새 주어 the road는 하나니까 is being repaired.”",
+          "“셋째, 원래 주어는 by 뒤로. 그런데 누가 하는지 중요하지 않으면 by workers는 빼도 돼.”"
+        ],
+        "예상답": [
+          "“The road is being repaired by workers.” “by workers는 빼도 돼요.”"
+        ],
+        "막히면": [
+          "종이에 Workers / are repairing / the road를 세 칸으로 나눠 쓰고, the road 칸을 오려 맨 앞으로 옮기게 합니다."
+        ],
+        "주의": [
+          "be동사는 원래 주어(workers)가 아니라 새 주어(the road)에 맞춥니다(오해 M4).",
+          "someone, people, they처럼 막연한 주어는 수동태에서 보통 뺍니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "현재진행형을 진행 수동태로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "being으로 바꿔 말해요",
+      "text": "수동태로 바꿔 말하고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "Mom is cooking dinner."
+        },
+        {
+          "text": "They are building\na new school."
+        },
+        {
+          "text": "Someone is using\nthe computer."
+        },
+        {
+          "text": "Tom is washing the dishes."
+        }
+      ],
+      "hint": "목적어 → 주어,  am·is·are + being + 과거분사",
+      "notes": {
+        "목적": "능동태 현재진행형 문장을 진행 수동태로 바꾸고 해석합니다(목표 A, 오해 M1·M4). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“목적어를 찾아 주어로 보내고, be동사 + being + 과거분사로 바꿔 말해 줘. 다 말하면 뜻도 말해 볼래?”"
+        ],
+        "정답": [
+          "① Dinner is being cooked by Mom. (저녁이 엄마에 의해 요리되고 있어요 → 엄마가 저녁을 요리하고 계세요.)",
+          "② A new school is being built. (새 학교가 지어지고 있어요. by them은 빼는 것이 자연스러움)",
+          "③ The computer is being used. (컴퓨터가 사용되고 있어요. by someone은 뺌)",
+          "④ The dishes are being washed by Tom. (접시들이 톰에 의해 씻기고 있어요 → 톰이 설거지하고 있어요.)"
+        ],
+        "막히면": [
+          "“목적어는? 그게 하나야, 여럿이야?” “과거분사는?”을 차례로 묻습니다."
+        ],
+        "주의": [
+          "④의 the dishes는 여럿이라서 are being입니다. is being으로 말하면 S05의 열쇠 문장을 다시 봅니다.",
+          "수동태 문장을 우리말로 옮길 때 ‘~에 의해 ~되다’가 어색하면 ‘톰이 설거지하고 있어요’처럼 자연스럽게 말해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(being을 빠뜨려 능동 진행형으로 씀)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘길이 수리되고 있어요’를 영어로",
+      "claim": "‘길이 지금 수리되고 있어요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "The road is repairing\nnow."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "The road is being\nrepaired now."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무슨 뜻이 되나요?",
+      "notes": {
+        "목적": "being을 빠뜨려 능동 진행형으로 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“가처럼 말하면 길이 무엇을 하는 거야? 길이 직접 고치는 사람이야?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(The road is being repaired now.)입니다. 가의 is repairing은 ‘(길이 무언가를) 고치고 있다’는 능동 진행형이라 뜻이 맞지 않습니다. 길은 고쳐지는 쪽이므로 is being + 과거분사를 씁니다."
+        ],
+        "막히면": [
+          "S04의 네 덩어리를 다시 보여 주고 “길이 하는 쪽이야, 당하는 쪽이야? 당하면 과거분사”라고 말해 줍니다."
+        ],
+        "주의": [
+          "중3 ‘분사의 명사 수식’에서 배운 ‘하면 -ing, 당하면 과거분사’와 같은 원리입니다.",
+          "여기까지가 진행 수동태입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "완료 수동태(have + been + 과거분사)의 뜻과 모양",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "has been + 과거분사",
+      "text": "이미 ~되었거나 지금까지 ~되어 왔으면 have·has been + 과거분사를 써요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "The room",
+            "sub": "주어: 방이"
+          },
+          {
+            "word": "has been",
+            "sub": "have·has + been",
+            "highlight": true
+          },
+          {
+            "word": "cleaned",
+            "sub": "과거분사",
+            "highlight": true
+          },
+          {
+            "word": "(by Mom).",
+            "sub": "엄마에 의해"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "현재완료 + 수동태",
+          "text": "have + 과거분사(been)\n+ 과거분사 → have been + 과거분사"
+        },
+        {
+          "title": "뜻",
+          "text": "‘~되었다, ~되어 왔다’\nMy bike has been stolen!"
+        }
+      ],
+      "key": "be 뒤에는 being (is being cleaned),  have 뒤에는 been (has been cleaned)",
+      "notes": {
+        "목적": "현재완료(have + 과거분사)와 수동태(be + 과거분사)를 합친 have·has + been + 과거분사가 ‘~되었다, ~되어 왔다’를 뜻한다는 것을 보여 줍니다(목표 B, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“The room has been cleaned를 네 덩어리로 나눴어. 방이, has been, cleaned, 엄마에 의해.”",
+          "“현재완료는 have + 과거분사였지? 수동태의 be를 과거분사로 바꾸면 been. 그래서 have been + 과거분사가 돼.”",
+          "“뜻은 ‘~되었다’. 방이 청소되어서 지금 깨끗한 상태라는 거야. My bike has been stolen!은 자전거를 도둑맞아서 지금 없다는 뜻이야.”"
+        ],
+        "예상답": [
+          "“방이 청소되었어요.” “자전거를 도둑맞았어요.”"
+        ],
+        "막히면": [
+          "“be는 have 뒤에서 무엇으로 바뀌지? 지난 시간 have been -ing에서 봤어.”라고 묻습니다."
+        ],
+        "주의": [
+          "be 뒤에는 being(진행), have 뒤에는 been(완료)입니다. is been, has being처럼 섞어 쓰는 실수가 있습니다(오해 M2).",
+          "This song has been loved for 50 years.(이 노래는 50년 동안 사랑받아 왔어요)처럼 for·since와 함께 ‘~되어 왔다’로도 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "능동태 현재완료를 완료 수동태로 바꾸기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "완료 수동태로 바꾸기",
+      "text": "have·has는 새 주어에 맞추고, been + 과거분사를 써요.",
+      "table": {
+        "headers": [
+          "능동태",
+          "수동태",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "Mom has cleaned\nthe room.",
+            "The room has been\ncleaned by Mom.",
+            "방이 엄마에 의해\n청소되었어요."
+          ],
+          [
+            "They have sold\nall the tickets.",
+            "All the tickets\nhave been sold.",
+            "표가 모두\n팔렸어요."
+          ],
+          [
+            "Someone has stolen\nmy bike.",
+            "My bike has been\nstolen.",
+            "내 자전거를\n도둑맞았어요."
+          ]
+        ],
+        "widths": [
+          0.34,
+          0.36,
+          0.3
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "막연한 주어(someone, they, people)는 by ~로 쓰지 않고 빼요.",
+      "notes": {
+        "목적": "능동태 현재완료 문장을 완료 수동태로 바꾸는 예를 표로 보여 주고, have·has를 새 주어에 맞춘다는 것을 짚습니다(목표 B, 오해 M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“첫 줄: Mom has cleaned the room. 목적어 the room을 주어로, has cleaned를 has been cleaned로, Mom은 by Mom.”",
+          "“둘째 줄: 새 주어 All the tickets는 여럿이라서 have been sold. 누가 팔았는지는 중요하지 않아서 by them은 뺐어.”",
+          "“셋째 줄: Someone은 누군지 모르는 사람이니까 빼고, My bike has been stolen.”"
+        ],
+        "예상답": [
+          "“방이 엄마에 의해 청소되었어요. 표가 모두 팔렸어요. 내 자전거를 도둑맞았어요.”"
+        ],
+        "막히면": [
+          "표의 수동태 칸을 가리고 한 줄씩 아이가 먼저 바꿔 말한 뒤 확인하게 합니다."
+        ],
+        "주의": [
+          "have·has는 원래 주어가 아니라 새 주어에 맞춥니다(All the tickets has been sold ×).",
+          "All the tickets have been sold.는 매진되었다는 뜻으로 공연 안내에서 자주 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "현재완료를 완료 수동태로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "been으로 바꿔 말해요",
+      "text": "수동태로 바꿔 말하고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "Dad has fixed the door."
+        },
+        {
+          "text": "They have built\na new bridge."
+        },
+        {
+          "text": "Someone has eaten\nmy cake!"
+        },
+        {
+          "text": "People have loved\nthis song for 50 years."
+        }
+      ],
+      "hint": "목적어 → 주어,  have·has + been + 과거분사",
+      "notes": {
+        "목적": "능동태 현재완료 문장을 완료 수동태로 바꾸고 해석합니다(목표 B, 오해 M2·M4). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“목적어를 주어로 보내고, have·has + been + 과거분사로 바꿔 말해 줘. 뜻도 말해 볼래?”"
+        ],
+        "정답": [
+          "① The door has been fixed by Dad. (문이 아빠에 의해 고쳐졌어요.)",
+          "② A new bridge has been built. (새 다리가 지어졌어요. by them은 뺌)",
+          "③ My cake has been eaten! (내 케이크를 누가 먹어 버렸어요! by someone은 뺌)",
+          "④ This song has been loved for 50 years. (이 노래는 50년 동안 사랑받아 왔어요. by people은 뺌)"
+        ],
+        "막히면": [
+          "“목적어는? 그 주어에는 have야, has야?” “과거분사는?”을 차례로 묻습니다."
+        ],
+        "주의": [
+          "③은 eaten(과거분사)입니다. ate(과거형)를 쓰면 S03 표를 다시 봅니다.",
+          "④처럼 for·since가 있으면 ‘~되어 왔다’로 해석합니다. (fix: 고치다, bridge: 다리)"
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "현재완료진행 능동태와 완료 수동태 구별",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "cleaning일까, cleaned일까?",
+      "claim": "두 문장 모두 has been이 있어요. 뜻을 말해 봐요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "Mom has been\ncleaning the room."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "The room has been\ncleaned."
+            }
+          ]
+        }
+      },
+      "question": "누가 하나요? 무엇이 당하나요? -ing와 과거분사를 보고 뜻을 말해요.",
+      "notes": {
+        "목적": "지난 차시의 has been -ing(능동, ~하고 있다)와 오늘의 has been + 과거분사(수동, ~되었다)를 비교해, 누가 하고 무엇이 당하는지로 구별합니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장 모두 has been이 있어. 그런데 뒤가 달라. 가는 -ing, 나는 과거분사야.”",
+          "“가에서 청소하는 사람은 누구야? 나에서 방은 청소하는 쪽이야, 청소되는 쪽이야?”"
+        ],
+        "정답": [
+          "가 Mom has been cleaning the room. — 엄마는 (지금까지 계속) 방을 청소하고 계세요. 엄마가 하는 쪽이라 -ing(현재완료진행).",
+          "나 The room has been cleaned. — 방이 청소되었어요. 방이 당하는 쪽이라 과거분사(완료 수동태)."
+        ],
+        "막히면": [
+          "“하면 -ing, 당하면 과거분사.” 지난 차시의 S03과 오늘 S04를 나란히 보여 줍니다."
+        ],
+        "주의": [
+          "The room has been cleaning.(방이 무언가를 청소하고 있다)이나 Mom has been cleaned the room.처럼 섞어 쓰는 실수가 있습니다(오해 M3). 두 문장 모두 아이가 직접 고쳐 말해 보게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "집안일 점검 카드로 진행·완료 수동태 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 집안일 점검 보고",
+      "steps": [
+        "점검 카드를 준비해요.\n(✓ 끝난 일, … 하는 중)",
+        "부모가 물어요:\nWhat about the dishes?",
+        "아이가 보고해요:\nThe dishes have been washed.",
+        "하는 중인 일도 보고해요:\nThe rice is being cooked.",
+        "역할을 바꿔 부모가 보고해요."
+      ],
+      "criteria": [
+        "끝난 일: has been + 과거분사",
+        "하는 중: is being + 과거분사",
+        "be·have를 새 주어에 맞췄어요"
+      ],
+      "notes": {
+        "목적": "집안일 점검 카드를 보고 끝난 일은 has·have been + 과거분사, 하는 중인 일은 is·are being + 과거분사로 보고합니다(목표 A·B).",
+        "시간": "약 4분",
+        "말하기": [
+          "“점검 카드를 보자. ✓는 끝난 일, ‘하는 중’은 지금 하고 있는 일이야. 엄마(아빠)가 물으면 보고해 줘.”",
+          "“What about the dishes?” → (아이) “The dishes have been washed.”",
+          "“What about the floor?” → (아이) “The floor has been cleaned.”",
+          "“What about the rice?” → (아이) “The rice is being cooked.”",
+          "“이번엔 네가 물어봐. 엄마(아빠)가 보고할게.” (부모: “The plants have been watered.”)"
+        ],
+        "예상답": [
+          "“The dishes have been washed.” “The plants have been watered.” “The rice is being cooked now.” “The laundry is being dried.”",
+          "기준: 끝난 일은 has·have been + 과거분사, 하는 중인 일은 is·are being + 과거분사로 말하고, be동사와 have를 새 주어(여럿이면 are, have)에 맞추면 잘한 것입니다."
+        ],
+        "막히면": [
+          "문장 틀(The ___ has been ___ed. / The ___ is being ___ed.)을 종이에 써 주고 빈칸만 말하게 합니다.",
+          "동사가 떠오르지 않으면 wash(씻다), clean(청소하다), water(물을 주다), cook(요리하다), dry(말리다) 가운데 고르게 합니다."
+        ],
+        "주의": [
+          "water는 ‘물을 주다’라는 동사로도 씁니다. laundry는 ‘빨래’, dry는 ‘말리다’입니다.",
+          "틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다(“The dishes has been washing.” → “Oh, the dishes have been washed!”)."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(진행·완료 수동태로 바꾸기, 해석, 고르기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "They are painting the wall.\n→ 수동태로"
+        },
+        {
+          "text": "Someone has opened\nthe window.  → 수동태로"
+        },
+        {
+          "text": "The pizza is being\ndelivered now.  → 뜻은?"
+        },
+        {
+          "text": "The letter has\n(written / been written)."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 진행 수동태와 완료 수동태로 바꾸고, 진행 수동태를 해석하며, 완료 수동태의 모양을 고르는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①②는 수동태로 바꾸고, ③은 뜻을, ④는 알맞은 것을 말해 줘. 그다음 활동지 5에 써.”"
+        ],
+        "정답": [
+          "① The wall is being painted (by them). — 벽이 칠해지고 있어요.",
+          "② The window has been opened. — 창문이 열렸어요. (by someone은 뺌)",
+          "③ 피자가 지금 배달되고 있어요.",
+          "④ been written — 그 편지는 (다) 쓰였어요. (has written만 쓰면 ‘편지가 무언가를 썼다’는 뜻이 됨)",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 being·been의 자리, 과거분사, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “지금 하는 중이야, 이미 끝났어?” “be 뒤에는 being, have 뒤에는?” “편지는 쓰는 쪽이야, 쓰이는 쪽이야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "③의 deliver는 ‘배달하다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① The wall is being painted."
+        },
+        {
+          "text": "② … has been opened."
+        },
+        {
+          "text": "③ 피자가 배달되고 있어요."
+        },
+        {
+          "text": "④ been written"
+        }
+      ],
+      "bad": [
+        {
+          "text": "is painting",
+          "note": "벽은 칠해지는\n쪽이에요"
+        },
+        {
+          "text": "has being opened",
+          "note": "have 뒤에는\nbeen"
+        },
+        {
+          "text": "has written",
+          "note": "편지는 쓰이는\n쪽이에요"
+        }
+      ],
+      "explain": "하는 중: be + being + 과거분사,   끝남: have + been + 과거분사",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“being이 빠졌어요.” “has 뒤에는 been이에요.” “편지는 쓰이는 쪽이에요.”"
+        ],
+        "정답": [
+          "① The wall is being painted. ② The window has been opened. ③ 피자가 지금 배달되고 있어요. ④ been written"
+        ],
+        "막히면": [
+          "틀린 문제는 S04·S05(진행 수동태), S08·S09(완료 수동태), S11(하는 쪽과 당하는 쪽) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(해석과 하는 쪽·당하는 쪽 구별)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "뜻을 말하고 골라요",
+      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말해요.",
+      "problems": [
+        {
+          "text": "The museum is being built now."
+        },
+        {
+          "text": "Many trees have been planted here."
+        },
+        {
+          "text": "Mom has been (cooking / cooked) since 5 p.m."
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 진행·완료 수동태 문장을 해석하고, 현재완료진행 능동태와 완료 수동태를 고르는지 확인합니다(목표 A·B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①②는 뜻을 말해 줘. ③은 알맞은 것을 고르고 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① 박물관이 지금 지어지고 있어요.",
+          "② 이곳에 나무가 많이 심어졌어요.",
+          "③ cooking (엄마가 요리하는 쪽, since 5 p.m.) — 엄마는 오후 5시부터 계속 요리하고 계세요.",
+          "기준: 세 개 모두 맞으면 통과입니다. ③에서 cooked를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S11을 다시 봅니다."
+        ],
+        "막히면": [
+          "①②는 “being이 있어, been이 있어?”, ③은 “엄마가 요리하는 쪽이야, 요리되는 쪽이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "②의 plant는 ‘심다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "am·is·are + being + 과거분사: ~되고 있다   The road is being repaired.\nhave·has + been + 과거분사: ~되었다   The room has been cleaned.",
+      "do": "하면 -ing, 당하면 과거분사",
+      "dont": "The road is repairing.",
+      "review": [
+        {
+          "text": "수동태로?\nThey are building\na house."
+        },
+        {
+          "text": "수동태로?\nSomeone has stolen\nmy bag."
+        },
+        {
+          "text": "알맞은 것은?\nThe room has been\n(cleaning / cleaned)."
+        }
+      ],
+      "next": "4·5형식 문장의 수동태",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지금 ~되고 있는 일은 어떤 모양으로 말했지?”",
+          "“이미 ~된 일은?”"
+        ],
+        "예상답": [
+          "“is being + 과거분사요.” “has been + 과거분사요.”"
+        ],
+        "정답": [
+          "① A house is being built. (by them은 빼도 됨)",
+          "② My bag has been stolen.",
+          "③ cleaned (방은 청소되는 쪽)"
+        ],
+        "주의": [
+          "집안일을 하며 “The dishes are being washed.” “The floor has been cleaned.”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘4·5형식 문장의 수동태’에서는 I was given a gift.(나는 선물을 받았어요)처럼 목적어가 둘인 문장과, He is called Tom.(그는 톰이라고 불려요)처럼 목적어 뒤에 설명하는 말이 있는 문장을 수동태로 바꿉니다."
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(수동태·진행형·현재완료 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 세 가지 모양",
+      "layout": "support",
+      "text": "세 모양을 소리 내어 읽고, 뜻을 말해요.",
+      "table": {
+        "headers": [
+          "모양",
+          "예",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "수동태\nbe + 과거분사",
+            "The room is cleaned.",
+            "방이 청소돼요."
+          ],
+          [
+            "진행형\nbe + -ing",
+            "Tom is cleaning.",
+            "톰이 청소하고 있어요."
+          ],
+          [
+            "현재완료\nhave + 과거분사",
+            "Tom has cleaned\nthe room.",
+            "톰이 방을 청소했어요."
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.36,
+          0.34
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "지난 시간: 수동태로 바꾸기",
+        "text": "Mom made the cake.  → The cake was made by Mom."
+      },
+      "notes": {
+        "목적": "S02에서 수동태나 현재완료진행이 흔들리면, 오늘 내용을 배우기 전에 세 가지 모양을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표의 세 모양을 읽어 보자. 수동태는 be + 과거분사 ‘~되다’, 진행형은 be + -ing ‘~하고 있다’, 현재완료는 have + 과거분사 ‘~했다’.”",
+          "“아래 카드를 읽어 보자. 목적어 the cake가 주어로 갔고, made가 was made로 바뀌었지?”",
+          "“오늘은 이 세 모양을 합쳐서 is being cleaned, has been cleaned를 만들 거야.”"
+        ],
+        "정답": [
+          "방이 청소돼요. / 톰이 청소하고 있어요. / 톰이 방을 청소했어요. / The cake was made by Mom."
+        ],
+        "막히면": [
+          "보충으로도 어렵다면 계획의 선수 차시 ‘수동태 부정문·의문문’(KR22-G09-ENG-PASSIVE2-L01)과 ‘현재완료진행’(KR22-G10-ENG-PERFPROG-L01)을 먼저 다시 하고 이 차시를 시작합니다. 수동태의 기본(be + 과거분사)부터 흔들리면 중3 ‘수동태’(KR22-G09-ENG-PASSIVE-L01)를 먼저 합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "진행·완료 수동태 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "동사의 과거분사를 쓰세요. ★는 새 모양이에요.",
+        "table": {
+          "headers": [
+            "동사",
+            "과거분사",
+            "동사",
+            "과거분사"
+          ],
+          "rows": [
+            [
+              "repair",
+              "",
+              "sell",
+              ""
+            ],
+            [
+              "clean",
+              "",
+              "eat",
+              ""
+            ],
+            [
+              "paint",
+              "",
+              "do",
+              ""
+            ],
+            [
+              "build",
+              "",
+              "★ steal",
+              ""
+            ]
+          ],
+          "widths": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "size": 14
+        },
+        "answer": "repaired, cleaned, painted, built / sold, eaten, done, stolen. 여덟 개 가운데 일곱 개 이상이면 통과. ate, did, stole처럼 과거형을 쓰면 S03 표로 다시 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "진행 수동태(am·is·are + being + 과거분사)로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Dad is washing the car.",
+              ""
+            ],
+            [
+              "② They are making a movie.",
+              ""
+            ],
+            [
+              "③ The kids are eating the cookies.",
+              ""
+            ],
+            [
+              "④ Someone is cleaning the classroom.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① The car is being washed by Dad. ② A movie is being made. (by them은 빼는 것이 자연스러움) ③ The cookies are being eaten by the kids. ④ The classroom is being cleaned. 네 개 가운데 세 개 이상이면 통과. is washing처럼 being을 빠뜨리거나 ③에 is being을 쓰면 S05를 다시 봅니다."
+      },
+      {
+        "no": 3,
+        "prompt": "완료 수동태(have·has + been + 과거분사)로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Mina has written the letter.",
+              ""
+            ],
+            [
+              "② They have sold all the bread.",
+              ""
+            ],
+            [
+              "③ Someone has broken the window.",
+              ""
+            ],
+            [
+              "④ Dad has fixed my bike.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① The letter has been written by Mina. ② All the bread has been sold. ③ The window has been broken. ④ My bike has been fixed by Dad. 네 개 가운데 세 개 이상이면 통과. ②의 bread는 하나로 세므로 has입니다. has being, has been break처럼 쓰면 S08을 다시 봅니다."
+      },
+      {
+        "no": 4,
+        "prompt": "알맞은 것에 ○ 하세요.",
+        "table": {
+          "rows": [
+            [
+              "① The house is being (built / building) now."
+            ],
+            [
+              "② The kids are (playing / being played) outside."
+            ],
+            [
+              "③ The work has (done / been done)."
+            ],
+            [
+              "④ She has been (waiting / waited) for an hour."
+            ],
+            [
+              "⑤ My phone has been (stolen / stealing)!"
+            ],
+            [
+              "⑥ The windows (are being cleaned / are cleaning) now."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① built ② playing ③ been done ④ waiting ⑤ stolen ⑥ are being cleaned. 여섯 개 가운데 다섯 개 이상이면 통과. 주어가 하는 쪽이면 -ing(②④), 당하는 쪽이면 과거분사(①③⑤⑥)입니다. 틀리면 S11을 다시 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① They are painting the wall.\n(수동태로)",
+              ""
+            ],
+            [
+              "② Someone has opened the window.\n(수동태로)",
+              ""
+            ],
+            [
+              "③ The pizza is being delivered now.\n(뜻)",
+              ""
+            ],
+            [
+              "④ The letter has (written / been written).\n(알맞은 것)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.56,
+            0.44
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① The wall is being painted. ② The window has been opened. ③ 피자가 지금 배달되고 있어요. ④ been written. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 집안일 보고 세 문장을 쓰세요(is·are being 문장 하나, has·have been 문장 둘).",
+        "eng": {
+          "trace": [
+            "The road is being repaired.",
+            "The room has been cleaned."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: The rice is being cooked. / The dishes have been washed. / The plants have been watered.). being·been의 자리, 과거분사, 주어에 맞는 is·are·has·have, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① They are building a house.를 수동태로 바꾸어 쓰세요.\n② Someone has stolen my bag.을 수동태로 바꾸어 쓰세요.\n③ The room has been (cleaning / cleaned).에서 알맞은 것을 쓰세요.",
+        "lines": 3,
+        "answer": "① A house is being built. (by them은 빼도 됨) ② My bag has been stolen. ③ cleaned. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S13 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S15 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "The road is repairing처럼 being을 빠뜨리거나 has being, has been cleaning(당하는 쪽)처럼 섞어 씀: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}

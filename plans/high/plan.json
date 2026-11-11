@@ -24,7 +24,7 @@
   ],
   "file_stem": "고1_국어_공통국어논증_01_관점과전제파악하며읽기",
   "source": "lessons/G10_고1/KOR_국어/공통국어논증/KR22-G10-KOR-CRITREAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-ARGEVAL-L01",
@@ -51,7 +51,7 @@
   ],
   "file_stem": "고1_국어_공통국어논증_02_논증의타당성평가",
   "source": "lessons/G10_고1/KOR_국어/공통국어논증/KR22-G10-KOR-ARGEVAL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-COUNTER-L01",
@@ -78,7 +78,7 @@
   ],
   "file_stem": "고1_국어_공통국어논증_03_반론예상과반박",
   "source": "lessons/G10_고1/KOR_국어/공통국어논증/KR22-G10-KOR-COUNTER-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-ARGWRITE-L01",
@@ -106,7 +106,7 @@
   ],
   "file_stem": "고1_국어_공통국어논증_04_논증하는글쓰기",
   "source": "lessons/G10_고1/KOR_국어/공통국어논증/KR22-G10-KOR-ARGWRITE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-KOR-PHONEND-L01",
@@ -498,7 +498,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_01_다항식의덧셈과뺄셈",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-POLYADD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-POLYMUL-L01",
@@ -524,7 +524,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_02_다항식의곱셈",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-POLYMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-POLYDIV-L01",
@@ -550,7 +550,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_03_다항식의나눗셈",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-POLYDIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-IDENTITY-L01",
@@ -576,7 +576,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_04_항등식과미정계수",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-IDENTITY-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-REMTHM-L01",
@@ -601,7 +601,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_05_나머지정리와인수정리",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-REMTHM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-SYNDIV-L01",
@@ -627,7 +627,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_06_조립제법",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-SYNDIV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-FACTOR-L01",
@@ -653,7 +653,7 @@
   ],
   "file_stem": "고1_수학_공통수학1다항식_07_인수분해",
   "source": "lessons/G10_고1/MAT_수학/공통수학1다항식/KR22-G10-MAT-FACTOR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-COMPLEX-L01",
@@ -679,7 +679,7 @@
   ],
   "file_stem": "고1_수학_공통수학1복소수_01_복소수의뜻",
   "source": "lessons/G10_고1/MAT_수학/공통수학1복소수/KR22-G10-MAT-COMPLEX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-CPXCALC-L01",
@@ -706,7 +706,7 @@
   ],
   "file_stem": "고1_수학_공통수학1복소수_02_복소수의사칙연산",
   "source": "lessons/G10_고1/MAT_수학/공통수학1복소수/KR22-G10-MAT-CPXCALC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-DISCRIM-L01",
@@ -733,7 +733,7 @@
   ],
   "file_stem": "고1_수학_공통수학1이차방정식_01_이차방정식의판별식",
   "source": "lessons/G10_고1/MAT_수학/공통수학1이차방정식/KR22-G10-MAT-DISCRIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-ROOTCOEF-L01",
@@ -759,7 +759,7 @@
   ],
   "file_stem": "고1_수학_공통수학1이차방정식_02_근과계수의관계",
   "source": "lessons/G10_고1/MAT_수학/공통수학1이차방정식/KR22-G10-MAT-ROOTCOEF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-QGRAPHLINE-L01",
@@ -785,7 +785,7 @@
   ],
   "file_stem": "고1_수학_공통수학1이차함수_01_이차함수그래프와직선",
   "source": "lessons/G10_고1/MAT_수학/공통수학1이차함수/KR22-G10-MAT-QGRAPHLINE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-QMAXMIN-L01",
@@ -810,7 +810,7 @@
   ],
   "file_stem": "고1_수학_공통수학1이차함수_02_이차함수의최대·최소",
   "source": "lessons/G10_고1/MAT_수학/공통수학1이차함수/KR22-G10-MAT-QMAXMIN-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-HIGHEQ-L01",
@@ -862,7 +862,7 @@
   ],
   "file_stem": "고1_수학_공통수학1방정식부등식_02_연립이차방정식",
   "source": "lessons/G10_고1/MAT_수학/공통수학1방정식부등식/KR22-G10-MAT-SYSQUAD-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-LININEQ-L01",
@@ -888,7 +888,7 @@
   ],
   "file_stem": "고1_수학_공통수학1방정식부등식_03_연립일차부등식",
   "source": "lessons/G10_고1/MAT_수학/공통수학1방정식부등식/KR22-G10-MAT-LININEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-QUADINEQ-L01",
@@ -914,7 +914,7 @@
   ],
   "file_stem": "고1_수학_공통수학1방정식부등식_04_이차부등식",
   "source": "lessons/G10_고1/MAT_수학/공통수학1방정식부등식/KR22-G10-MAT-QUADINEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-QINEQSYS-L01",
@@ -939,7 +939,7 @@
   ],
   "file_stem": "고1_수학_공통수학1방정식부등식_05_연립이차부등식",
   "source": "lessons/G10_고1/MAT_수학/공통수학1방정식부등식/KR22-G10-MAT-QINEQSYS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-COUNTRULE-L01",
@@ -964,7 +964,7 @@
   ],
   "file_stem": "고1_수학_공통수학1경우의수_01_합의법칙과곱의법칙",
   "source": "lessons/G10_고1/MAT_수학/공통수학1경우의수/KR22-G10-MAT-COUNTRULE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-PERM-L01",
@@ -1039,7 +1039,7 @@
   ],
   "file_stem": "고1_수학_공통수학1행렬_01_행렬과덧셈·뺄셈",
   "source": "lessons/G10_고1/MAT_수학/공통수학1행렬/KR22-G10-MAT-MATRIX-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-MATMUL-L01",
@@ -1064,7 +1064,7 @@
   ],
   "file_stem": "고1_수학_공통수학1행렬_02_행렬의곱셈",
   "source": "lessons/G10_고1/MAT_수학/공통수학1행렬/KR22-G10-MAT-MATMUL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-COORDDIST-L01",
@@ -1090,7 +1090,7 @@
   ],
   "file_stem": "고1_수학_공통수학2평면좌표_01_두점사이의거리와내분점",
   "source": "lessons/G10_고1/MAT_수학/공통수학2평면좌표/KR22-G10-MAT-COORDDIST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-LINEEQ-L01",
@@ -1116,7 +1116,7 @@
   ],
   "file_stem": "고1_수학_공통수학2직선_01_직선의방정식",
   "source": "lessons/G10_고1/MAT_수학/공통수학2직선/KR22-G10-MAT-LINEEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-LINEPOS-L01",
@@ -1141,7 +1141,7 @@
   ],
   "file_stem": "고1_수학_공통수학2직선_02_두직선의평행과수직",
   "source": "lessons/G10_고1/MAT_수학/공통수학2직선/KR22-G10-MAT-LINEPOS-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-PTLINE-L01",
@@ -1167,7 +1167,7 @@
   ],
   "file_stem": "고1_수학_공통수학2직선_03_점과직선사이의거리",
   "source": "lessons/G10_고1/MAT_수학/공통수학2직선/KR22-G10-MAT-PTLINE-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-MAT-CIRCLE-L01",
@@ -1585,6 +1585,59 @@
   "status": "계획"
  },
  {
+  "id": "KR22-G10-ENG-SENTFORM-L01",
+  "concept_id": "ENG-SENTFORM",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "grade_item": "KR22-G10-ENG-I01",
+  "folder": "공통영어문장",
+  "sequence": 1,
+  "units": [
+   "3.2.3",
+   "3.1.4"
+  ],
+  "title": "문장의 다섯 형식",
+  "objective": "1~5형식 문장의 구조를 구별하고 4형식을 3형식으로 바꾸며 5형식의 목적격 보어를 찾는다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G09-ENG-PASSIVE-L01"
+  ],
+  "file_stem": "고1_영어_공통영어문장_01_문장의다섯형식",
+  "source": "lessons/G10_고1/ENG_영어/공통영어문장/KR22-G10-ENG-SENTFORM-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G10-ENG-PERFDONE-L01",
+  "concept_id": "ENG-PERFDONE",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "grade_item": "KR22-G10-ENG-I01",
+  "folder": "공통영어문장",
+  "sequence": 2,
+  "units": [
+   "3.2.3",
+   "3.1.4"
+  ],
+  "title": "현재완료(완료·결과)",
+  "objective": "just·already·yet과 함께 현재완료의 완료·결과 뜻을 쓰고 과거 시제와 구별한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G08-ENG-PERFCONT-L01",
+   "KR22-G08-ENG-PERFEXP-L01"
+  ],
+  "file_stem": "고1_영어_공통영어문장_02_현재완료완료·결과",
+  "source": "lessons/G10_고1/ENG_영어/공통영어문장/KR22-G10-ENG-PERFDONE-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G10-ENG-RELADV-L01",
   "concept_id": "ENG-RELADV",
   "grade": "G10",
@@ -1608,7 +1661,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_01_관계부사",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-RELADV-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-RELWHAT-L01",
@@ -1634,7 +1687,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_02_관계대명사what",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-RELWHAT-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-PERFPROG-L01",
@@ -1661,7 +1714,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_03_현재완료진행",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-PERFPROG-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-PASSPERF-L01",
@@ -1688,7 +1741,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_04_진행·완료수동태",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-PASSPERF-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-PASSDITR-L01",
@@ -1714,7 +1767,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_05_4·5형식문장의수동태",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-PASSDITR-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-PARTCONST-L01",
@@ -1742,7 +1795,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_06_분사구문",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-PARTCONST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-SUBJPAST-L01",
@@ -1768,7 +1821,7 @@
   ],
   "file_stem": "고1_영어_공통영어문법_07_가정법과거",
   "source": "lessons/G10_고1/ENG_영어/공통영어문법/KR22-G10-ENG-SUBJPAST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G10-ENG-MAINIDEA-L01",

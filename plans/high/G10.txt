@@ -80,6 +80,9 @@
 - RATEXPR | 유리식의 계산 | 유리식을 약분·통분해 덧셈·뺄셈·곱셈·나눗셈을 하고 결과를 간단히 나타낸다. | pre G10-MAT-FACTOR
 - RATFUNC | 유리함수의 그래프 | y=k/(x−p)+q의 그래프를 y=k/x의 평행이동으로 그리고 점근선·정의역·치역을 구한다. | pre G07-MAT-INVERSE, G10-MAT-TRANSLATE, G10-MAT-FUNCTION
 - IRRFUNC | 무리함수의 그래프 | 무리식이 실수가 될 조건을 알고 y=√(a(x−p))+q의 그래프를 평행이동으로 그려 정의역과 치역을 구한다. | pre! G09-MAT-SQRTPROP, G10-MAT-TRANSLATE, G10-MAT-INVFUNC
+@ ENG-I01 | 공통영어문장 | 3.2.3 3.1.4
+- SENTFORM | 문장의 다섯 형식 | 1~5형식 문장의 구조를 구별하고 4형식을 3형식으로 바꾸며 5형식의 목적격 보어를 찾는다. | pre G09-ENG-PASSIVE
+- PERFDONE | 현재완료(완료·결과) | just·already·yet과 함께 현재완료의 완료·결과 뜻을 쓰고 과거 시제와 구별한다. | pre! G08-ENG-PERFCONT, G08-ENG-PERFEXP
 @ ENG-I01 | 공통영어문법 | 3.2.3 3.1.4
 - RELADV | 관계부사 | where·when·why·how가 장소·때·이유·방법의 명사를 꾸미는 문장을 해석하고 '전치사+which'로 바꾸어 쓴다. | pre G09-ENG-RELOBJ
 - RELWHAT | 관계대명사 what | '~하는 것'을 뜻하는 what절을 주어·목적어·보어 자리에서 해석하고 that·which와 구별해 쓴다. | pre! G09-ENG-RELOBJ

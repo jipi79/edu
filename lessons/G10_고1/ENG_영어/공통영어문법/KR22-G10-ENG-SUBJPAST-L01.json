@@ -1,0 +1,1156 @@
+{
+  "id": "KR22-G10-ENG-SUBJPAST-L01",
+  "concept_id": "ENG-SUBJPAST",
+  "title": "가정법 과거",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "공통영어문법",
+  "sequence": 7,
+  "file_stem": "고1_영어_공통영어문법_07_가정법과거",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENG-I01"
+    ],
+    "units": [
+      "3.2.3",
+      "3.1.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "접속사 if·when",
+      "lesson": "KR22-G08-ENG-IFWHEN-L01",
+      "grade_item": "KR22-G08-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "지금 사실과 반대되는 일을 상상해 If + 주어 + 동사의 과거형(be동사는 주어와 상관없이 were), 주어 + would + 동사원형으로 말하고 ‘(지금) ~라면 ~할 텐데’로 해석한다. 모양은 과거형이지만 지금의 일이라는 것을 알고, 문장 뒤에 숨은 지금의 사실(I am not a bird.)을 말한다. would 뒤에는 동사원형을 쓴다.",
+      "evidence": "가정법 과거의 뜻(S03), 가정법에 쓰는 과거형(S04), 가정법 문장 만들기(S05), 괄호 동사 바꾸기(S06), If I am you 비교(S07), 만약 ~라면 말하기(S12), 혼자 해 보기(S13 ①③), 마무리 확인(S15 ①), 활동지 1·5",
+      "success": "활동지 1의 문장 4개 가운데 3개 이상을 If + 과거형(were), would + 동사원형으로 바르게 쓰고(would went ×), S15 ①을 ‘~라면 ~할 텐데’로 해석하며 지금의 사실을 말한다."
+    },
+    {
+      "id": "B",
+      "text": "가정법 과거를 직설법(현재형, 긍정 ↔ 부정, so)으로, 직설법을 가정법 과거로 바꾸어 쓴다. 실제로 일어날 수 있는 일은 조건문(If + 현재형, will + 동사원형)으로, 지금 사실과 반대인 일은 가정법(If + 과거형, would + 동사원형)으로 구별해 고른다.",
+      "evidence": "조건문과 가정법(S08), 알맞은 모양 고르기(S09), 가정법과 직설법 표(S10), 바꾸어 쓰기(S11), 만약 ~라면 말하기(S12), 혼자 해 보기(S13 ②④), 마무리 확인(S15 ②③), 활동지 2·3·4·5",
+      "success": "활동지 2의 고르기 4개 가운데 3개 이상을 맞히고, 활동지 3·4의 바꾸기 6개 가운데 4개 이상을 시제와 긍정·부정을 함께 바꾸어 바르게 쓴다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "상상 카드 네 장(종이에 a teacher, a bird, a million won, a superpower를 하나씩 써 둠)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "가정법 과거(If + 주어 + 동사의 과거형(be동사는 주어와 상관없이 were), 주어 + would + 동사원형)로 지금 사실과 반대되거나 일어날 가능성이 거의 없는 일을 상상해 말하는 것, 직설법(I don't have ~, so I can't ~)과 서로 바꾸어 쓰는 것, 실제로 일어날 수 있는 일을 말하는 조건문(If + 현재형, will + 동사원형)과 구별하는 것만 다룬다. 주절에는 would를 중심으로 쓰고 could(~할 수 있을 텐데)는 can't가 있는 직설법을 바꿀 때 함께 소개한다. 직설법으로 바꿀 때는 중2에서 배운 so(그래서)를 쓰고 because 문장도 맞다고 인정한다. 가정법 과거완료(If I had known ~, I would have ~), I wish 가정법, as if, without·but for, 혼합 가정법은 다루지 않는다. 주절이 앞에 오는 문장(I would fly to you if I were a bird.)은 노트에서만 짚는다. What would you do if ~? 질문은 부모가 묻는 말로만 쓴다. 말할 때 If I was ~를 쓰기도 한다는 것은 노트에서만 짚고, 교과서·시험 기준인 were로 가르친다. 동사의 과거형은 이미 배운 것(had, knew, lived, were 등)만 쓰고, 새 모양은 would(will의 과거형), could(can의 과거형) 두 개다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "지금 사실과 반대되는 일에 현재형과 will을 쓴다(If I am you, I will say sorry.).",
+      "response": "S07에서 If I am you와 If I were you를 비교하고, S08에서 될 수 있는 일(조건문)과 사실과 반대인 일(가정법)을 나누어 보여 준다. S09와 활동지 2에서 고르게 한다."
+    },
+    {
+      "id": "M2",
+      "text": "가정법 과거를 지난 일로 해석한다(If I had a car → 내가 차가 있었다면).",
+      "response": "S03의 열쇠 문장(모양은 과거, 뜻은 지금)과 S05의 ‘사실’ 카드로 지금의 일이라는 것을 보여 주고, S15 ①에서 지금의 사실을 말하게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "would 뒤에 과거형을 쓰거나(I would went) If 절의 be동사를 주어에 따라 was로 바꾼다(If she was here).",
+      "response": "S04 표와 S05의 열쇠 문장에서 would + 동사원형, 주어와 상관없이 were를 짚고, S06·S13 ①과 활동지 1에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "직설법으로 바꿀 때 시제만 바꾸고 긍정·부정을 바꾸지 않는다(If I had a car, ~ → I have a car, ~).",
+      "response": "S10 표에서 ‘과거형 → 현재형, 긍정 ↔ 부정’을 함께 보여 주고, S11과 활동지 3·4에서 확인한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "가정법 과거",
+      "question": "If I were a bird, I would fly to you.\n지금은 새가 아니지만, 새라면?",
+      "goals": [
+        "① If + 과거형, would로 지금과 반대되는 일을 말해요.",
+        "② 가정법을 직설법으로 바꾸고, 조건문과 구별해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "If I were a bird,\nI would fly to you."
+          },
+          {
+            "word": "If I had a car,\nI would drive to Busan."
+          },
+          {
+            "word": "If it rains tomorrow,\nI will stay home."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지금 사실과 반대되는 일을 상상해 말하는 가정법에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“첫 문장은 ‘내가 새라면 너에게 날아갈 텐데.’라는 뜻이야. 나는 새가 아니지? 지금 사실과 반대로 상상하는 말이야. 둘째는 ‘나에게 차가 있다면 부산까지 운전해 갈 텐데.’ 지금은 차가 없다는 뜻이지.”",
+          "“셋째는 ‘내일 비가 오면 집에 있을 거야.’ 이건 정말 일어날 수 있는 일이야. 오늘은 이 두 가지를 구별하는 법을 배울 거야.”"
+        ],
+        "예상답": [
+          "“were, had, would가 있어요.” “셋째에는 will이 있어요.”"
+        ],
+        "막히면": [
+          "뜻을 모르면 부모가 뜻만 알려 주고, 첫 두 문장의 were·had와 would에 손가락을 대 보게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(If I were a bird, I would fly to you. If I had a car, I would drive to Busan. If it rains tomorrow, I will stay home. If I were you, I would say sorry.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "중2 ‘접속사 if·when’(If it rains tomorrow, I will stay home.)을 알면 쉬워집니다. 오늘은 같은 if를 쓰지만 동사 모양이 다릅니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(조건의 if, 과거형)",
+      "role": "prior",
+      "objectives": [],
+      "title": "if 문장과 과거형 떠올리기",
+      "text": "①②는 골라 읽고 뜻을 말하고, ③은 과거형을 말해요.",
+      "problems": [
+        {
+          "text": "If it (rains / will rain) tomorrow, I will stay home."
+        },
+        {
+          "text": "When I (get / will get) home, I will call you."
+        },
+        {
+          "text": "과거형은?  have → ?   know → ?   am → ?"
+        }
+      ],
+      "notes": {
+        "목적": "중2 ‘접속사 if·when’(KR22-G08-ENG-IFWHEN-L01)의 시제 규칙(if·when 절은 현재형, 주절은 will)과 중1·중2에서 배운 과거형을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 알맞은 것을 골라 읽고 뜻을 말해 줘.”",
+          "“③은 세 동사의 과거형을 말해 볼래?”"
+        ],
+        "정답": [
+          "① rains (if 절은 앞으로의 일도 현재형) — 내일 비가 오면 나는 집에 있을 거예요.",
+          "② get — 집에 도착하면 너에게 전화할게.",
+          "③ had, knew, was(were)"
+        ],
+        "막히면": [
+          "①②는 “if·when 절에는 will을 쓰지 않았지?”, ③은 S04 표를 미리 보여 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S17(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "①②의 규칙(if 절은 현재형, 주절은 will)은 오늘 ‘조건문’으로 다시 나옵니다. knew는 중2 ‘현재완료(계속)’에서 본 know의 과거형입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "가정법 과거의 뜻과 모양",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "지금과 반대로 상상하기",
+      "text": "지금 사실과 반대되는 일을 상상할 때 과거형을 써요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "If I were a bird,",
+            "sub": "만약 내가 새라면 (상상)",
+            "highlight": true
+          },
+          {
+            "word": "I would fly to you.",
+            "sub": "너에게 날아갈 텐데",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "가정법 과거",
+          "text": "If + 주어 + 과거형,\n주어 + would + 동사원형"
+        },
+        {
+          "title": "뜻",
+          "text": "‘(지금) ~라면 ~할 텐데’\n모양은 과거, 뜻은 지금"
+        }
+      ],
+      "key": "사실: I am not a bird, so I can't fly to you.",
+      "notes": {
+        "목적": "가정법 과거가 지금 사실과 반대되는 일을 상상하는 말이고, 모양은 과거형이지만 뜻은 지금이라는 것을 보여 줍니다(목표 A, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“If I were a bird, I would fly to you. 사실 나는 새가 아니야. 그런데 새라고 상상해서 말한 거야.”",
+          "“이렇게 지금 사실과 반대되는 일을 상상할 때 if 뒤에 과거형을 쓰고, 뒤에는 would + 동사원형을 써. 이것을 가정법 과거라고 해.”",
+          "“과거형을 쓰지만 옛날 이야기가 아니야. 지금 일이야. ‘지금 새라면’이라는 뜻이지.”"
+        ],
+        "예상답": [
+          "“지금 새가 아니라서 날아갈 수 없어요.” “과거형이지만 지금 이야기예요.”"
+        ],
+        "막히면": [
+          "“지금 너는 새야? 아니지? 그러니까 ‘새라면’은 진짜야, 상상이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "would는 will의 과거형으로, 가정법에서는 ‘~할 텐데, ~할 거야(상상)’라는 뜻입니다.",
+          "If I had a car를 ‘차가 있었다면’처럼 과거로 해석하는 실수가 흔합니다(오해 M2). 지금 차가 없다는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "가정법에 쓰는 과거형(새 모양 표시)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "가정법에 쓰는 과거형",
+      "text": "be동사는 주어와 상관없이 were를 써요. ★는 새 모양이에요.",
+      "table": {
+        "headers": [
+          "동사",
+          "가정법에 쓰는 모양",
+          "예"
+        ],
+        "rows": [
+          [
+            "be (am, is, are)",
+            "were",
+            "If I were rich, ~"
+          ],
+          [
+            "have",
+            "had",
+            "If I had a dog, ~"
+          ],
+          [
+            "know",
+            "knew",
+            "If I knew his number, ~"
+          ],
+          [
+            "can",
+            "★ could",
+            "If I could fly, ~"
+          ],
+          [
+            "will",
+            "★ would",
+            "I would buy it."
+          ]
+        ],
+        "widths": [
+          0.3,
+          0.3,
+          0.4
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "If I were,  If she were,  If they were:  주어와 상관없이 were",
+      "notes": {
+        "목적": "가정법 if 절에 쓰는 과거형과, 주어와 상관없이 be동사는 were를 쓴다는 것, 새 모양 would·could를 보여 줍니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“표를 같이 읽어 보자. be동사는 주어가 I든 she든 were를 써. If I were, If she were.”",
+          "“have는 had, know는 knew. ★가 있는 could는 can의 과거형, would는 will의 과거형이야. 오늘 처음 보는 모양이야.”",
+          "“could는 ‘~할 수 있을 텐데’라는 뜻이야. If I could fly는 ‘내가 날 수 있다면’.”"
+        ],
+        "예상답": [
+          "“If I were rich, If I had a dog, If I knew his number.”"
+        ],
+        "막히면": [
+          "예 칸을 가리고 부모가 “be!”라고 하면 아이가 “were!”, “have!”라고 하면 “had!”처럼 말하게 합니다."
+        ],
+        "주의": [
+          "말할 때는 If I was ~라고 하는 사람도 있지만, 교과서와 시험에서는 were가 기준입니다. 특히 If I were you(내가 너라면)는 한 덩어리로 기억하게 합니다.",
+          "would 뒤에는 언제나 동사원형이 옵니다(would go ○, would went ×)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "지금의 사실을 반대로 바꾸어 가정법 문장 만들기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "가정법 문장 만들기",
+      "text": "지금의 사실을 반대로 바꿔 상상해요.",
+      "steps": [
+        "사실을 반대로 해요.\ndon't have → have",
+        "If + 주어 + 과거형:\nIf I had time,",
+        "주어 + would + 동사원형:\nI would help you."
+      ],
+      "figureRatio": 0.5,
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I don't have time.",
+            "sub": "사실(지금): 시간이 없어요."
+          },
+          {
+            "word": "If I had time,\nI would help you.",
+            "sub": "시간이 있다면 도와줄 텐데.",
+            "highlight": true
+          }
+        ]
+      },
+      "key": "would 뒤에는 동사원형:  would help (○)   would helped (×)",
+      "notes": {
+        "목적": "지금의 사실(직설법)을 반대로 바꾸어 If + 과거형, would + 동사원형으로 가정법 문장을 만드는 과정을 보여 줍니다(목표 A, 오해 M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“사실은 I don't have time. 시간이 없어서 너를 도와줄 수 없어. 이걸 반대로 상상해 보자.”",
+          "“첫째, 없다 → 있다로 반대로. don't have가 have로. 둘째, if 뒤에는 과거형이니까 If I had time. 셋째, 뒤에는 would + 동사원형. I would help you.”",
+          "“If I had time, I would help you. ‘시간이 있다면 너를 도와줄 텐데.’ 지금 시간이 없다는 뜻이야.”"
+        ],
+        "예상답": [
+          "“If I had time, I would help you.”"
+        ],
+        "막히면": [
+          "“지금 사실은 시간이 있어, 없어? 반대로 하면?”이라고 묻고, have의 과거형을 S04 표에서 찾게 합니다."
+        ],
+        "주의": [
+          "would helped처럼 would 뒤에 과거형을 쓰는 실수가 있습니다(오해 M3).",
+          "I would help you if I had time.처럼 순서를 바꿔도 됩니다. if 절이 뒤에 오면 쉼표를 쓰지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "괄호 동사를 가정법 모양으로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "가정법으로 바꿔 말해요",
+      "text": "괄호 안의 동사를 바꿔 읽고, 뜻과 지금의 사실을 말해요.",
+      "problems": [
+        {
+          "text": "If I (be) a bird,\nI (will) fly to you."
+        },
+        {
+          "text": "If I (have) a car,\nI (will) drive to Busan."
+        },
+        {
+          "text": "If she (know) the answer,\nshe (will) tell us."
+        },
+        {
+          "text": "If we (live) near the sea,\nwe (will) swim every day."
+        }
+      ],
+      "hint": "If + 과거형 (be → were),   would + 동사원형",
+      "notes": {
+        "목적": "괄호 안의 동사를 If 절은 과거형(be는 were), 주절은 would + 동사원형으로 바꾸어 말하고 해석합니다(목표 A, 오해 M3). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“괄호 안의 동사를 가정법 모양으로 바꿔서 문장을 읽어 줘. 그다음 뜻과 지금의 사실을 말해 볼래?”"
+        ],
+        "정답": [
+          "① If I were a bird, I would fly to you. (내가 새라면 너에게 날아갈 텐데. 사실: 나는 새가 아니에요.)",
+          "② If I had a car, I would drive to Busan. (차가 있다면 부산까지 운전해 갈 텐데. 사실: 차가 없어요.)",
+          "③ If she knew the answer, she would tell us. (그녀가 답을 안다면 우리에게 말해 줄 텐데. 사실: 답을 몰라요.)",
+          "④ If we lived near the sea, we would swim every day. (우리가 바닷가 근처에 산다면 매일 수영할 텐데. 사실: 바닷가 근처에 살지 않아요.)"
+        ],
+        "막히면": [
+          "“if 뒤에는 무슨 모양? 뒤에는 무슨 모양?”을 묻고 S04 표를 보게 합니다."
+        ],
+        "주의": [
+          "③에서 she was라고 하면 “가정법에서는 주어와 상관없이 were”라고만 짚어 줍니다(이 문제는 know라서 knew). ③의 tell은 ‘말해 주다’입니다.",
+          "‘사실’을 함께 말하게 하면 가정법이 지금의 일이라는 것을 자연스럽게 익힙니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(사실과 반대인 일에 현재형·will을 씀)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘내가 너라면’을 영어로",
+      "claim": "‘내가 너라면, 사과할 텐데.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "If I am you,\nI will say sorry."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "If I were you,\nI would say sorry."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 왜 맞지 않을까요?",
+      "notes": {
+        "목적": "사실과 반대인 일에 현재형과 will을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“내가 정말 네가 될 수 있어? 그럼 이건 될 수 있는 일이야, 상상이야?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(If I were you, I would say sorry.)입니다. 나는 네가 될 수 없으므로 지금 사실과 반대인 상상입니다. 그래서 If + were, would + 동사원형을 씁니다. 가처럼 쓰면 정말 일어날 수 있는 일처럼 들립니다."
+        ],
+        "막히면": [
+          "S03의 새 문장을 다시 보여 주고 “새가 될 수 없는 것처럼, 너도 될 수 없지?”라고 말해 줍니다."
+        ],
+        "주의": [
+          "If I were you, I would ~.(내가 너라면 ~할 텐데)는 친구에게 충고할 때 아주 많이 쓰는 표현입니다. say sorry는 ‘사과하다’입니다.",
+          "여기까지가 가정법 과거의 모양과 뜻입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "조건문(될 수 있는 일)과 가정법(사실과 반대) 구별",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "될 수 있는 일, 상상하는 일",
+      "text": "될 수 있는 일은 조건문, 사실과 반대인 일은 가정법이에요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "If it rains tomorrow,\nI will stay home.",
+            "sub": "조건문: 정말 일어날 수 있어요."
+          },
+          {
+            "word": "If I were a bird,\nI would fly to you.",
+            "sub": "가정법: 지금 사실과 반대예요.",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "조건문",
+          "text": "If + 현재형, will + 동사원형\n‘~하면 ~할 거야’"
+        },
+        {
+          "title": "가정법 과거",
+          "text": "If + 과거형, would + 동사원형\n‘~라면 ~할 텐데’"
+        }
+      ],
+      "key": "먼저 물어요: 정말 일어날 수 있는 일인가요, 상상인가요?",
+      "notes": {
+        "목적": "실제로 일어날 수 있는 일은 조건문(If + 현재형, will), 지금 사실과 반대인 일은 가정법(If + 과거형, would)으로 말한다는 것을 비교합니다(목표 B, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“왼쪽: If it rains tomorrow, I will stay home. 내일 비가 올 수도 있지? 정말 일어날 수 있는 일이야. 그래서 if 뒤에 현재형, 뒤에 will. 중2 때 배운 조건문이야.”",
+          "“오른쪽: If I were a bird, I would fly. 내가 새가 될 수 있어? 아니지. 사실과 반대인 상상이라서 과거형과 would.”",
+          "“그러니까 먼저 ‘정말 일어날 수 있는 일이야, 상상이야?’를 물어보면 돼.”"
+        ],
+        "예상답": [
+          "“비는 올 수 있으니까 will, 새는 될 수 없으니까 would예요.”"
+        ],
+        "막히면": [
+          "여러 상황을 우리말로 말하고 “될 수 있어, 없어?”만 답하게 합니다(내일 눈이 오면 / 내가 하늘을 날 수 있다면 / 네가 우리 집에 오면 / 내가 대통령이라면)."
+        ],
+        "주의": [
+          "같은 상황도 말하는 사람이 얼마나 가능하다고 생각하는지에 따라 둘 다 쓸 수 있습니다. 오늘 문제는 한쪽만 자연스러운 문장으로 골랐습니다. 아이가 다른 쪽을 고르고 까닭을 말하면 그 까닭이 맞는지 들어 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "조건문과 가정법 가운데 알맞은 모양 고르기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "조건문일까, 가정법일까?",
+      "text": "될 수 있는 일인지 상상인지 말하고, 골라 읽어요.",
+      "problems": [
+        {
+          "text": "If it rains tomorrow,\nI (will / would) stay home."
+        },
+        {
+          "text": "If I (am / were) a cat,\nI (will / would) sleep all day."
+        },
+        {
+          "text": "If I (am / were) you,\nI (will / would) say sorry."
+        },
+        {
+          "text": "If you come to my house,\nI (will / would) make pizza."
+        }
+      ],
+      "hint": "될 수 있는 일: 현재형 + will,   사실과 반대: 과거형 + would",
+      "notes": {
+        "목적": "정말 일어날 수 있는 일인지, 사실과 반대인 상상인지 따져 조건문과 가정법 가운데 알맞은 모양을 고릅니다(목표 B, 오해 M1). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“먼저 정말 일어날 수 있는 일인지 상상인지 말하고, 알맞은 것을 골라 읽어 줘.”"
+        ],
+        "정답": [
+          "① will (내일 비가 올 수 있음, if 절이 현재형) — 내일 비가 오면 집에 있을 거예요.",
+          "② were, would (고양이가 될 수 없음) — 내가 고양이라면 하루 종일 잘 텐데.",
+          "③ were, would (네가 될 수 없음) — 내가 너라면 사과할 텐데.",
+          "④ will (우리 집에 올 수 있음, if 절이 현재형) — 네가 우리 집에 오면 피자를 만들어 줄게."
+        ],
+        "막히면": [
+          "“이 일은 정말 일어날 수 있어?”를 먼저 묻고, ①④는 “if 뒤가 현재형이면 뒤에는?”이라고 묻습니다."
+        ],
+        "주의": [
+          "①④처럼 if 절이 현재형이면 뒤는 will, ②③처럼 if 절이 과거형이면 뒤는 would로 짝을 맞춥니다. all day는 ‘하루 종일’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "가정법 과거와 직설법 바꾸기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "가정법과 직설법",
+      "text": "과거형 → 현재형, 긍정 ↔ 부정을 함께 바꿔요.",
+      "table": {
+        "headers": [
+          "가정법 과거 (상상)",
+          "직설법 (지금 사실)"
+        ],
+        "rows": [
+          [
+            "If I had a car,\nI would drive to Busan.",
+            "I don't have a car,\nso I can't drive to Busan."
+          ],
+          [
+            "If I were rich,\nI would buy a house.",
+            "I am not rich,\nso I can't buy a house."
+          ],
+          [
+            "If I knew his number,\nI would call him.",
+            "I don't know his number,\nso I can't call him."
+          ]
+        ],
+        "widths": [
+          0.5,
+          0.5
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "had ↔ don't have,   were ↔ am not,   would ↔ can't (don't)",
+      "notes": {
+        "목적": "가정법 과거와 그 뒤에 숨은 지금의 사실(직설법)을 나란히 보여 주고, 바꿀 때 과거형 ↔ 현재형, 긍정 ↔ 부정을 함께 바꾼다는 것을 짚습니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“왼쪽은 상상, 오른쪽은 지금의 사실이야. 사실을 그대로 말하는 문장을 직설법이라고 해.”",
+          "“If I had a car → 차가 있다면. 사실은? I don't have a car. 과거형 had가 현재형 have로, 있다가 없다로 바뀌었지?”",
+          "“뒤도 바꿔. would drive → can't drive. 그리고 두 문장은 so(그래서)로 이어.”"
+        ],
+        "예상답": [
+          "“과거형은 현재형으로, 있다는 없다로 바꿔요.”"
+        ],
+        "막히면": [
+          "표의 오른쪽을 가리고, 왼쪽 문장마다 “지금 사실은 어때?”라고 물어 우리말로 먼저 말하게 합니다."
+        ],
+        "주의": [
+          "would + 동사는 can't 또는 don't + 동사로 바꿉니다. 둘 다 맞습니다. so 대신 because를 써도 됩니다(Because I don't have a car, I can't drive to Busan.).",
+          "If I had a car → I have a car처럼 시제만 바꾸고 긍정·부정을 그대로 두는 실수가 흔합니다(오해 M4)."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "직설법 ↔ 가정법 바꾸어 쓰기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "바꾸어 말해요",
+      "text": "①②는 가정법으로, ③④는 직설법으로 바꿔 말해요.",
+      "problems": [
+        {
+          "text": "I am not a bird,\nso I can't fly."
+        },
+        {
+          "text": "I don't have a dog,\nso I don't walk every day."
+        },
+        {
+          "text": "If I knew the answer,\nI would tell you."
+        },
+        {
+          "text": "If I lived in Jeju,\nI would swim every day."
+        }
+      ],
+      "hint": "과거형 ↔ 현재형,  긍정 ↔ 부정,  would ↔ can't·don't",
+      "notes": {
+        "목적": "직설법을 가정법 과거로, 가정법 과거를 직설법으로 바꾸어 말합니다(목표 B, 오해 M4). 활동지 3·4에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 가정법으로, ③④는 직설법으로 바꿔 말해 줘. 시제와 긍정·부정을 함께 바꿔야 해.”"
+        ],
+        "정답": [
+          "① If I were a bird, I could fly. (I would fly도 맞음. can't → could)",
+          "② If I had a dog, I would walk every day.",
+          "③ I don't know the answer, so I can't tell you. (so I don't tell you도 맞음)",
+          "④ I don't live in Jeju, so I don't swim every day."
+        ],
+        "막히면": [
+          "“지금 사실은 무엇이고, 반대로 하면?”을 묻고 S10 표의 열쇠 문장을 가리킵니다."
+        ],
+        "주의": [
+          "①처럼 직설법에 can't가 있으면 가정법에서는 could(~할 수 있을 텐데)로 바꾸는 것이 자연스럽습니다. would를 써도 틀리지 않습니다.",
+          "②의 walk는 ‘산책하다’입니다. 반려견이 있으면 매일 산책하겠다는 뜻입니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "상상 카드로 만약 ~라면 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 만약 ~라면?",
+      "steps": [
+        "상상 카드를 한 장 뽑아요.\n(a teacher, a bird …)",
+        "부모가 물어요: What would\nyou do if you were a teacher?",
+        "아이가 답해요: If I were\na teacher, I would ~.",
+        "부모가 물어요: 지금 사실은?\nI am not a teacher, so ~.",
+        "역할을 바꿔 아이가 물어요."
+      ],
+      "criteria": [
+        "If + 과거형(were)으로 말했어요",
+        "would + 동사원형을 썼어요",
+        "지금의 사실도 말했어요"
+      ],
+      "notes": {
+        "목적": "상상 카드를 보고 부모의 질문에 가정법 과거로 답하고, 지금의 사실도 함께 말합니다(목표 A·B).",
+        "시간": "약 4분",
+        "말하기": [
+          "“카드를 한 장 뽑아 볼래? 엄마(아빠)가 물어볼게.”",
+          "(a teacher 카드) “What would you do if you were a teacher?” → (아이) “If I were a teacher, I would give no homework.”",
+          "“지금 사실은?” → (아이) “I am not a teacher, so I can't do that.”",
+          "(a million won 카드) “What would you do if you had a million won?” → (아이) “If I had a million won, I would buy a new phone.”",
+          "“이번엔 네가 카드를 보여 주고 물어봐. 엄마(아빠)가 대답할게.”"
+        ],
+        "예상답": [
+          "“If I were a bird, I would fly to Jeju.” “If I had a superpower, I would fly.” “If I had a million won, I would travel with my family.”",
+          "기준: If 절에 과거형(be는 were), 주절에 would + 동사원형을 쓰고, 지금의 사실을 현재형으로 바르게 말하면 잘한 것입니다. If I am a teacher, I will ~처럼 말하면 S07을 다시 떠올리게 합니다."
+        ],
+        "막히면": [
+          "대답 틀(If I were/had ___, I would ___.)을 종이에 써 주고 빈칸만 말하게 합니다.",
+          "무엇을 할지 떠오르지 않으면 buy, go, travel, eat, help, sleep 가운데 고르게 합니다."
+        ],
+        "주의": [
+          "What would you do if ~?(~라면 너는 무엇을 하겠니?)는 오늘 부모가 묻는 말로만 씁니다. a million won은 ‘백만 원’, superpower는 ‘초능력’입니다.",
+          "틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다(“If I am a teacher, I will ~” → “Oh, if you were a teacher, you would ~!”)."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(가정법 만들기·바꾸기·해석·조건문)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "If I (be) rich, I (will)\ntravel around the world."
+        },
+        {
+          "text": "I don't have a bike,\nso I can't ride with you.\n→ 가정법으로"
+        },
+        {
+          "text": "If I were you,\nI would go to bed now.\n→ 뜻은?"
+        },
+        {
+          "text": "If it (rains / rained)\ntomorrow, I will stay home."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 가정법 문장을 만들고, 직설법을 가정법으로 바꾸며, 가정법을 해석하고, 조건문의 모양을 고르는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? ①은 괄호 안의 동사를 바꾸고, ②는 가정법으로, ③은 뜻을, ④는 알맞은 것을 말해 줘. 그다음 활동지 5에 써.”"
+        ],
+        "정답": [
+          "① If I were rich, I would travel around the world.",
+          "② If I had a bike, I could ride with you. (I would ride with you도 맞음)",
+          "③ 내가 너라면 지금 자러 갈 텐데. (사실: 나는 네가 아니에요. 충고하는 말)",
+          "④ rains (내일 비가 올 수 있음, 뒤가 will인 조건문)",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 were, would 뒤의 동사원형, 쉼표, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “be는 가정법에서 무엇으로?” “사실을 반대로 하면?” “정말 일어날 수 있는 일이야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "①의 travel around the world는 ‘세계 일주를 하다’, ②의 ride는 ‘(자전거를) 타다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① were, would travel"
+        },
+        {
+          "text": "② If I had a bike, …"
+        },
+        {
+          "text": "③ 내가 너라면 지금 잘 텐데."
+        },
+        {
+          "text": "④ rains"
+        }
+      ],
+      "bad": [
+        {
+          "text": "would traveled",
+          "note": "would 뒤에는\n동사원형"
+        },
+        {
+          "text": "내가 너였다면",
+          "note": "가정법 과거는\n지금 이야기"
+        },
+        {
+          "text": "If it rained, I will",
+          "note": "될 수 있는 일은\n현재형 + will"
+        }
+      ],
+      "explain": "If + 과거형(were), would + 동사원형: 지금과 반대인 상상",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“would 뒤에는 동사원형이에요.” “가정법은 지금 이야기예요.” “비는 올 수 있으니까 rains예요.”"
+        ],
+        "정답": [
+          "① If I were rich, I would travel around the world. ② If I had a bike, I could(would) ride with you. ③ 내가 너라면 지금 자러 갈 텐데. ④ rains"
+        ],
+        "막히면": [
+          "틀린 문제는 S04·S05(가정법 모양), S10·S11(직설법 바꾸기), S08·S09(조건문과 구별) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(해석·사실 말하기·직설법·조건문)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "뜻과 사실을 말해요",
+      "text": "①은 뜻과 사실을, ②는 직설법으로, ③은 골라서 까닭을 말해요.",
+      "problems": [
+        {
+          "text": "If I knew her address, I would send a card."
+        },
+        {
+          "text": "If she were here, she would help us.  → 직설법으로"
+        },
+        {
+          "text": "If you are free tomorrow, we (will / would) meet."
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 가정법 문장을 해석하고 지금의 사실을 말하며, 직설법으로 바꾸고, 조건문을 고르는지 확인합니다(목표 A·B, 오해 M2·M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 뜻과 지금의 사실을 말해 줘. ②는 직설법으로 바꾸고, ③은 알맞은 것을 고르고 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① 그녀의 주소를 안다면 카드를 보낼 텐데. (사실: 그녀의 주소를 몰라서 카드를 보낼 수 없어요.)",
+          "② She isn't here, so she can't help us. (so she doesn't help us도 맞음)",
+          "③ will (내일 시간이 있을 수 있음, if 절이 현재형) — 네가 내일 시간이 있으면 우리는 만날 거예요.",
+          "기준: 세 개 모두 맞으면 통과입니다. ①을 ‘알았다면’처럼 지난 일로 해석하거나 ②에서 긍정·부정을 바꾸지 않으면 기록표에 적어 둡니다."
+        ],
+        "막히면": [
+          "①은 S03의 열쇠 문장(모양은 과거, 뜻은 지금), ②는 S10 표, ③은 S08을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "①의 address는 ‘주소’, send는 ‘보내다’입니다. ③의 free는 ‘한가한, 시간이 있는’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "If + 과거형(were), would + 동사원형: (지금) ~라면 ~할 텐데\n정말 일어날 수 있는 일은 If + 현재형, will",
+      "do": "If I were you, I would ~.",
+      "dont": "If I am you, I will ~.",
+      "review": [
+        {
+          "text": "알맞은 것은?\nIf I (have / had) a car,\nI would drive."
+        },
+        {
+          "text": "가정법으로?\nI am not tall,\nso I can't reach it."
+        },
+        {
+          "text": "직설법으로?\nIf I knew the answer,\nI would tell you."
+        }
+      ],
+      "next": "요지·주제·제목 찾기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지금 사실과 반대되는 일을 상상할 때는 어떤 모양으로 말했지?”",
+          "“정말 일어날 수 있는 일은?”"
+        ],
+        "예상답": [
+          "“If + 과거형, would + 동사원형이요. be는 were.” “If + 현재형, will이요.”"
+        ],
+        "정답": [
+          "① had (지금 차가 없음)",
+          "② If I were tall, I could reach it. (I would reach it도 맞음)",
+          "③ I don't know the answer, so I can't tell you."
+        ],
+        "주의": [
+          "저녁 식사 때 “If you were a bird, where would you go?”처럼 상상 질문을 주고받으면 좋은 복습이 됩니다. 다음 차시 ‘요지·주제·제목 찾기’에서는 문법에서 독해로 넘어가, 영어 글의 주제문과 반복되는 핵심어를 찾아 글의 요지를 한 문장으로 정리합니다."
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(과거형과 조건의 if 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 과거형과 조건의 if",
+      "layout": "support",
+      "text": "지금 모양과 과거 모양을 소리 내어 읽어요.",
+      "table": {
+        "headers": [
+          "지금",
+          "과거",
+          "지금",
+          "과거"
+        ],
+        "rows": [
+          [
+            "am, is",
+            "was",
+            "have",
+            "had"
+          ],
+          [
+            "are",
+            "were",
+            "know",
+            "knew"
+          ],
+          [
+            "live",
+            "lived",
+            "go",
+            "went"
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "지난 시간: 조건의 if",
+        "text": "If it rains tomorrow, I will stay home.  (if 뒤에는 현재형, 뒤에는 will)"
+      },
+      "notes": {
+        "목적": "S02에서 조건의 if 문장이나 과거형이 흔들리면, 오늘 내용을 배우기 전에 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표의 동사를 지금 모양과 과거 모양으로 읽어 보자. am, is는 was, are는 were, have는 had, know는 knew.”",
+          "“아래 카드를 읽어 보자. 내일 비가 올 수도 있지? 정말 일어날 수 있는 일은 if 뒤에 현재형, 뒤에 will이었어.”",
+          "“오늘은 정말 일어날 수 없는 일을 상상할 때 과거형을 쓰는 법을 배울 거야.”"
+        ],
+        "정답": [
+          "was, were, had, knew, lived / 내일 비가 오면 나는 집에 있을 거예요."
+        ],
+        "막히면": [
+          "과거형 칸을 손으로 가리고 하나씩 맞히게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘접속사 if·when’(KR22-G08-ENG-IFWHEN-L01)을 먼저 다시 하고 이 차시를 시작합니다. 과거형이 흔들리면 중1 ‘과거 시제 문장’(KR22-G07-ENG-PAST-L01)의 표도 함께 봅니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "가정법 과거 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "괄호 안의 동사를 가정법 과거에 맞게 바꾸어 문장 전체를 쓰세요. 다 쓰면 지금의 사실을 말해 보세요.",
+        "table": {
+          "rows": [
+            [
+              "① If I (be) a famous singer,\nI (will) sing for you.",
+              ""
+            ],
+            [
+              "② If we (have) more time,\nwe (will) visit the museum.",
+              ""
+            ],
+            [
+              "③ If he (know) my name,\nhe (will) say hello.",
+              ""
+            ],
+            [
+              "④ If I (can) speak French,\nI (will) talk to her.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.42,
+            0.58
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① If I were a famous singer, I would sing for you. (사실: 나는 유명한 가수가 아니에요.) ② If we had more time, we would visit the museum. (사실: 시간이 더 없어요.) ③ If he knew my name, he would say hello. (사실: 그는 내 이름을 몰라요.) ④ If I could speak French, I would talk to her. (사실: 나는 프랑스어를 못해요.) 네 개 가운데 세 개 이상이면 통과. would sang, If I was처럼 쓰면 S04·S05를 다시 봅니다. (famous: 유명한, French: 프랑스어)"
+      },
+      {
+        "no": 2,
+        "prompt": "알맞은 것에 ○ 하세요.",
+        "table": {
+          "rows": [
+            [
+              "① If it is cold tomorrow, I (will / would) wear a coat."
+            ],
+            [
+              "② If I (am / were) a fish, I (will / would) live in the sea."
+            ],
+            [
+              "③ If I (am / were) you, I (will / would) take a rest."
+            ],
+            [
+              "④ If you finish early today, we (will / would) play a game."
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① will ② were, would ③ were, would ④ will. 네 개 가운데 세 개 이상이면 통과. 정말 일어날 수 있는 일(①④)은 현재형 + will, 사실과 반대인 상상(②③)은 과거형 + would입니다. 틀리면 S08을 다시 봅니다. (take a rest: 쉬다)"
+      },
+      {
+        "no": 3,
+        "prompt": "가정법 과거 문장으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I am not tall, so I can't reach the shelf.",
+              ""
+            ],
+            [
+              "② I don't live near the beach, so I don't swim often.",
+              ""
+            ],
+            [
+              "③ I don't know her phone number, so I can't call her.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① If I were tall, I could reach the shelf. (I would reach도 맞음) ② If I lived near the beach, I would swim often. ③ If I knew her phone number, I could call her. (I would call도 맞음) 세 개 가운데 두 개 이상이면 통과. If I am tall처럼 현재형을 쓰거나 If I didn't live처럼 긍정·부정을 바꾸지 않으면 S10을 다시 봅니다. (reach: 손이 닿다, shelf: 선반)"
+      },
+      {
+        "no": 4,
+        "prompt": "직설법(지금의 사실) 문장으로 바꾸어 쓰세요. so를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① If I had a bike, I would ride it every day.",
+              ""
+            ],
+            [
+              "② If she were here, she would help me.",
+              ""
+            ],
+            [
+              "③ If we had time, we would watch a movie.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① I don't have a bike, so I don't(can't) ride one every day. ② She isn't here, so she can't(doesn't) help me. ③ We don't have time, so we can't(don't) watch a movie. 세 개 가운데 두 개 이상이면 통과. 긍정·부정과 시제를 함께 바꾸었는지 봅니다. ①에서 ride it을 그대로 써도 뜻이 통하면 맞다고 봅니다."
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① If I (be) rich, I (will) travel around the world.\n(가정법으로)",
+              ""
+            ],
+            [
+              "② I don't have a bike, so I can't ride with you.\n(가정법으로)",
+              ""
+            ],
+            [
+              "③ If I were you, I would go to bed now.\n(뜻)",
+              ""
+            ],
+            [
+              "④ If it (rains / rained) tomorrow, I will stay home.\n(알맞은 것)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.58,
+            0.42
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① If I were rich, I would travel around the world. ② If I had a bike, I could(would) ride with you. ③ 내가 너라면 지금 자러 갈 텐데. ④ rains. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 ‘만약 ~라면’ 상상 문장 세 개를 쓰세요(If I were ~ 하나, If I had ~ 하나, 자유롭게 하나).",
+        "eng": {
+          "trace": [
+            "If I were you, I would say sorry.",
+            "If I had a car, I would drive."
+          ],
+          "blank": 3
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: If I were a bird, I would fly to Jeju. / If I had a million won, I would buy a new phone. / If I could speak French, I would visit Paris.). If 절의 과거형(were, had), would 뒤의 동사원형, 쉼표, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① If I (have / had) a car, I would drive.에서 알맞은 것을 쓰세요.\n② I am not tall, so I can't reach it.을 가정법 과거로 바꾸어 쓰세요.\n③ If I knew the answer, I would tell you.를 직설법으로 바꾸어 쓰세요.",
+        "lines": 3,
+        "answer": "① had ② If I were tall, I could(would) reach it. ③ I don't know the answer, so I can't(don't) tell you. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S13 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S15 뜻과 사실 말하기: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "If I am you, I will처럼 사실과 반대인 일에 현재형·will을 쓰거나 가정법을 지난 일로 해석함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
