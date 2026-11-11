@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-PHE-PLANCHECK-L01",
+  "concept_id": "PHE-PLANCHECK",
+  "title": "운동 계획 효과 점검",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "PHE",
+  "strand_label": "체육·보건·안전",
+  "unit_folder": "운동과자기관리",
+  "sequence": 1,
+  "file_stem": "중3_체육·보건·안전_운동과자기관리_01_운동계획효과점검",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-PHE-I01"
+    ],
+    "units": [
+      "10.1.3",
+      "10.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "운동 기록을 분석해 계획의 효과를 평가하고 목표와 방법을 조정한다.",
+  "prerequisites": [
+    {
+      "text": "체력 점검과 운동 계획",
+      "lesson": "KR22-G07-PHE-FITCHECK-L01",
+      "grade_item": "KR22-G07-PHE-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "운동 계획 효과 점검 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-ART-CRITIQUE-L01",
+  "concept_id": "ART-CRITIQUE",
+  "title": "디지털 작품 비평",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "매체와비평",
+  "sequence": 1,
+  "file_stem": "중3_음악·미술_매체와비평_01_디지털작품비평",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-ART-I03"
+    ],
+    "units": [
+      "9.3.2",
+      "9.3.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "디지털 작품의 표현 효과와 책임(출처·초상권·영향)을 기준표에 따라 근거를 들어 평가한다.",
+  "prerequisites": [
+    {
+      "text": "디지털 작품과 공유 책임",
+      "lesson": "KR22-G08-ART-DIGIWORK-L01",
+      "grade_item": "KR22-G08-ART-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "디지털 작품 비평 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G09-ART-MUSICLIFE-L01",
+  "concept_id": "ART-MUSICLIFE",
+  "title": "음악의 사회·문화적 의미",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "음악과사회",
+  "sequence": 1,
+  "file_stem": "중3_음악·미술_음악과사회_01_음악의사회·문화적의미",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-ART-I01"
+    ],
+    "units": [
+      "9.1.3",
+      "9.1.4",
+      "9.1.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "노동요·의식 음악·놀이 노래 등 전해 내려오는 음악의 쓰임을 조사하고 연주·개사로 표현해 사회·문화적 의미를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "악곡 해석과 변형 창작",
+      "lesson": "KR22-G08-ART-ARRANGE-L01",
+      "grade_item": "KR22-G08-ART-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "음악의 사회·문화적 의미 활동지",
+    "items": [],
+    "record": []
+  }
+}

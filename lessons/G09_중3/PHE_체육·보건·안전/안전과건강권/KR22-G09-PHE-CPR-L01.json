@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-PHE-CPR-L01",
+  "concept_id": "PHE-CPR",
+  "title": "심폐소생술과 건강권",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "PHE",
+  "strand_label": "체육·보건·안전",
+  "unit_folder": "안전과건강권",
+  "sequence": 1,
+  "file_stem": "중3_체육·보건·안전_안전과건강권_01_심폐소생술과건강권",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-PHE-I03"
+    ],
+    "units": [
+      "10.7.3",
+      "10.8.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "심폐소생술과 자동심장충격기 사용 순서를 연습하고 의료 접근성 문제를 토의한다.",
+  "prerequisites": [
+    {
+      "text": "응급상황 판단과 정보",
+      "lesson": "KR22-G08-PHE-EMERGENCY-L01",
+      "grade_item": "KR22-G08-PHE-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "심폐소생술과 건강권 활동지",
+    "items": [],
+    "record": []
+  }
+}

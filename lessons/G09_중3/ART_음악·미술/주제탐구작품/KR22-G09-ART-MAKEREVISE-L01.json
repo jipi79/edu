@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G09-ART-MAKEREVISE-L01",
+  "concept_id": "ART-MAKEREVISE",
+  "title": "제작·수정·감상 기록",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "주제탐구작품",
+  "sequence": 2,
+  "file_stem": "중3_음악·미술_주제탐구작품_02_제작·수정·감상기록",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G09-ART-I02"
+    ],
+    "units": [
+      "9.2.3",
+      "9.2.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "계획에 따라 작품을 만들고 수정한 이유와 감상 내용을 과정 기록지에 정리한다.",
+  "prerequisites": [
+    {
+      "text": "주제 탐구와 계획",
+      "lesson": "KR22-G09-ART-THEMESTUDY-L01",
+      "grade_item": "KR22-G09-ART-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "제작·수정·감상 기록 활동지",
+    "items": [],
+    "record": []
+  }
+}
