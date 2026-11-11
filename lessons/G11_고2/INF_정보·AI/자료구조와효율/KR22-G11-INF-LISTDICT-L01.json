@@ -13,7 +13,7 @@
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
-  "status": "계획",
+  "status": "제작 완료",
   "curriculum": {
     "version": "2022 개정 / 권장 학년 배치 v1",
     "grade_items": [
@@ -28,7 +28,6 @@
     "link_status": "부분 확인",
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
-  "plan_objective": "생활 자료(성적표·연락처)를 어떤 항목으로 나타낼지 정해 리스트와 딕셔너리로 저장하고 찾기·수정 방법을 비교해 문제에 맞는 데이터 구조를 고른다.",
   "prerequisites": [
     {
       "text": "함수로 나누고 테스트",
@@ -39,19 +38,2706 @@
   "objectives": [
     {
       "id": "A",
-      "text": "TODO",
-      "evidence": "TODO",
-      "success": "TODO"
+      "text": "생활 자료를 리스트에 저장하고 칸 번호(0부터)로 찾고 고치며 append·len·반복으로 다루는 파이썬 코드의 실행 결과를 구한다.",
+      "evidence": "리스트(S03), 리스트와 반복(S04), 리스트 연습(S05), 간식 재고 활동(S09), 혼자 해 보기(S11 ①②), 마무리(S13 ②), 활동지 2·5",
+      "success": "scores = [85, 92, 78, 64]에서 scores[0]·scores[3]·len을 구하고, 합계 319·평균 79.75를 반복으로 구하며, names[4]가 IndexError인 까닭을 칸 번호로 설명한다."
+    },
+    {
+      "id": "B",
+      "text": "연락처·성적표처럼 자료의 항목을 정해 딕셔너리(키: 값)로 저장하고 키로 찾기·고치기·더하기를 하며, 리스트와 딕셔너리의 찾기 방법을 비교해 문제에 맞는 구조를 고른다.",
+      "evidence": "딕셔너리(S06), 찾기 비교(S07), 항목과 구조 고르기(S08), 간식 재고 활동(S09), 오개념 비교(S10), 혼자 해 보기(S11 ③④), 마무리(S13), 활동지 1·3·4",
+      "success": "phone 딕셔너리에서 키로 찾고 고치고 더한 결과(0102, 3 0199, False)를 구하고, 300명 리스트에서 이름으로 찾으면 최대 300번 비교하므로 이름을 키로 하는 딕셔너리를 고르는 까닭을 말한다."
     }
   ],
-  "materials": [],
-  "boundary": "TODO",
-  "misconceptions": [],
-  "checks": [],
-  "slides": [],
+  "materials": [
+    "연필",
+    "활동지",
+    "(선택) 어른과 함께 쓰는 컴퓨터(설치한 파이썬이나 무료 온라인 파이썬 실행 환경)"
+  ],
+  "boundary": "리스트의 생성·인덱스(0부터)·고치기·append·len·max·index·for 반복, 딕셔너리의 키: 값·키로 찾기·고치기·더하기·in·for 반복, 딕셔너리를 담은 리스트로 성적표 나타내기, 찾을 때 비교 횟수를 들어 구조 고르기를 다룬다. 슬라이싱, 음수 인덱스, 리스트·딕셔너리의 다른 메서드, 튜플·집합, 딕셔너리가 키로 바로 찾는 원리(해시), 정렬과 이진 탐색(다음 차시)은 다루지 않는다. 이름·번호·점수는 지어낸 예시이고, 화면의 코드는 실제로 실행되는 파이썬이다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "리스트의 칸 번호가 1부터 시작한다고 생각해 scores[1]을 첫 값으로 본다.",
+      "response": "칸 번호 표와 실행 결과(scores[0]은 85)로 확인하고, 마지막 칸 다음 번호의 IndexError를 본다(S03, S05, S15)."
+    },
+    {
+      "id": "M2",
+      "text": "딕셔너리도 리스트처럼 phone[0]으로 첫 짝을 꺼낼 수 있다고 생각한다.",
+      "response": "phone[0]이 KeyError가 됨을 비교하고 키로 찾는다(S06, S10)."
+    },
+    {
+      "id": "M3",
+      "text": "자료 구조는 아무것이나 골라도 찾는 데 드는 일이 같다고 생각한다.",
+      "response": "리스트는 하나씩 비교(1000명이면 최대 1000번), 딕셔너리는 키로 바로 찾음을 비교해 쓰임에 맞게 고른다(S07, S08, S13)."
+    }
+  ],
+  "checks": [
+    {
+      "type": "blank",
+      "expr": "85 + 92 + 78 + 64 = □",
+      "answer": 319,
+      "where": "S04 합계"
+    },
+    {
+      "type": "blank",
+      "expr": "319 ÷ 4 = □",
+      "answer": "319/4",
+      "where": "S04 평균(79.75)"
+    },
+    {
+      "type": "blank",
+      "expr": "5 − 2 = □",
+      "answer": 3,
+      "where": "S09 사과 남은 개수"
+    },
+    {
+      "type": "blank",
+      "expr": "7 + 9 = □",
+      "answer": 16,
+      "where": "S11 ①"
+    },
+    {
+      "type": "blank",
+      "expr": "1500 + 1800 = □",
+      "answer": 3300,
+      "where": "S11 ③"
+    }
+  ],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "리스트와 딕셔너리",
+      "question": "여러 자료를 한 번에 담고,\n빨리 찾으려면 어떻게 할까요?",
+      "goals": [
+        "① 리스트에 저장하고 칸 번호로 찾고 고쳐요.",
+        "② 딕셔너리로 키로 찾고, 알맞은 구조를 골라요."
+      ],
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                10.464,
+                0.0
+              ],
+              [
+                10.464,
+                2.4
+              ],
+              [
+                0.0,
+                2.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.4,
+              1.7
+            ],
+            "text": "scores = [85, 92, 78, 64]",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              0.7
+            ],
+            "text": "phone = {\"지우\": \"0101\"}",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 2줄: 점수 리스트와 연락처 딕셔너리",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "지난 학년에 함수로 나누고 테스트하는 법을 배웠습니다. 오늘은 여러 자료를 한 변수에 담는 두 가지 구조, 순서대로 칸 번호로 찾는 리스트와 이름(키)으로 찾는 딕셔너리를 배웁니다. 성적표와 연락처를 예로 저장·찾기·고치기를 비교하고, 문제에 맞는 구조를 고릅니다. 화면의 코드는 모두 실제로 실행되는 파이썬이며, 이름과 번호는 지어낸 예시입니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“반 친구 30명의 점수를 변수 30개로 만들면 어떨까?”",
+          "“연락처에서 이름으로 번호를 찾을 때는?”"
+        ],
+        "예상답": [
+          "“너무 많아서 불편해요.”",
+          "“이름을 검색해요.”"
+        ],
+        "막히면": [
+          "휴대폰 연락처 앱이 이름으로 찾는 모습을 떠올리게 합니다(실제 연락처는 열지 않음)."
+        ],
+        "주의": [
+          "준비물: 연필, 활동지. (선택) 어른과 함께 쓰는 컴퓨터(설치한 파이썬이나 무료 온라인 파이썬 실행 환경). 컴퓨터가 없으면 부모님이 ‘컴퓨터 역할’을 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 학습 기억하기",
+      "problems": [
+        {
+          "text": "def f(x): return x * 3일 때\nprint(f(4))의 출력"
+        },
+        {
+          "text": "for i in range(3):\n    print(i)의 출력"
+        },
+        {
+          "text": "중학교 리스트 [5, 8, 2]에서\n1번 칸의 값"
+        },
+        {
+          "text": "assert의 조건이 거짓이면\n어떻게 될까?"
+        }
+      ],
+      "notes": {
+        "목적": "지난 학년의 함수·반복과 중학교에서 배운 리스트의 칸 번호를 확인합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 4를 넣어 3배.”",
+          "“③은 칸 번호가 0부터야.”"
+        ],
+        "정답": [
+          "① 12",
+          "② 0, 1, 2",
+          "③ 8",
+          "④ AssertionError로 멈춘다"
+        ],
+        "막히면": [
+          "③이 흔들리면 S15(보충)를 봅니다."
+        ],
+        "주의": [
+          "③의 칸 번호(인덱스)는 오늘 리스트에서 그대로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "리스트: 저장·찾기·고치기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "리스트",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                5.0
+              ],
+              [
+                11.916,
+                5.0
+              ],
+              [
+                11.916,
+                11.4
+              ],
+              [
+                0.0,
+                11.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                11.916,
+                0.0
+              ],
+              [
+                11.916,
+                4.0
+              ],
+              [
+                0.0,
+                4.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              10.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              10.7
+            ],
+            "text": "scores = [85, 92, 78, 64]",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              9.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              9.7
+            ],
+            "text": "print(scores[0], scores[3])",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              8.7
+            ],
+            "text": "print(len(scores))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "scores[2] = 80",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "scores.append(70)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "print(scores)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              4.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              3.25
+            ],
+            "text": "85 64",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              2.25
+            ],
+            "text": "4",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "[85, 92, 80, 64, 70]",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 6줄: scores 리스트 [85, 92, 78, 64]에서 0번과 3번 칸을 꺼내고, 길이 4를 출력한 뒤, 2번 칸을 80으로 고치고 70을 덧붙인다. 실행 결과 85 64, 4, [85, 92, 80, 64, 70]",
+        "max_unit": 0.42
+      },
+      "points": [
+        {
+          "title": "칸 번호",
+          "text": "0부터, 마지막은 길이 − 1"
+        },
+        {
+          "title": "고치기",
+          "text": "scores[2] = 80"
+        },
+        {
+          "title": "덧붙이기",
+          "text": "scores.append(70)"
+        }
+      ],
+      "notes": {
+        "목적": "리스트는 대괄호 안에 값을 순서대로 담습니다. 칸 번호(인덱스)는 0부터라서 scores[0]은 85, 마지막 scores[3]은 64입니다. len은 칸 수 4를 알려 줍니다. scores[2] = 80처럼 칸 번호로 고치고, append로 끝에 덧붙입니다. 마지막 출력은 [85, 92, 80, 64, 70]입니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“scores[1]은?”",
+          "“append 뒤 len(scores)는?”"
+        ],
+        "예상답": [
+          "“92요.”",
+          "“5요.”"
+        ],
+        "막히면": [
+          "S15(보충)의 칸 번호 표를 옆에 두고 짚어 갑니다."
+        ],
+        "주의": [
+          "없는 칸 번호(예: 칸이 4개일 때 scores[4])를 쓰면 IndexError가 납니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "리스트와 반복",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "리스트를 반복으로",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                4.0
+              ],
+              [
+                15.351,
+                4.0
+              ],
+              [
+                15.351,
+                10.4
+              ],
+              [
+                0.0,
+                10.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                15.351,
+                0.0
+              ],
+              [
+                15.351,
+                3.0
+              ],
+              [
+                0.0,
+                3.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              9.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              9.7
+            ],
+            "text": "scores = [85, 92, 78, 64]",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              8.7
+            ],
+            "text": "total = 0",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "for s in scores:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              6.7
+            ],
+            "text": "total = total + s",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "print(total, total / len(scores))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              4.7
+            ],
+            "text": "print(max(scores), scores.index(92))",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              3.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              2.25
+            ],
+            "text": "319 79.75",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "92 1",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 6줄: scores의 칸을 차례로 더해 합계 319와 평균 79.75를 출력하고, 최댓값 92와 92가 있는 칸 번호 1을 출력한다",
+        "max_unit": 0.42
+      },
+      "points": [
+        {
+          "title": "for s in scores",
+          "text": "칸을 차례로 꺼냄"
+        },
+        {
+          "title": "len·max",
+          "text": "칸 수, 가장 큰 값"
+        },
+        {
+          "title": "index",
+          "text": "값이 있는 칸 번호"
+        }
+      ],
+      "notes": {
+        "목적": "for s in scores:는 리스트의 칸을 앞에서부터 하나씩 s에 넣으며 반복합니다. 합계는 85 + 92 + 78 + 64 = 319, 평균은 319 ÷ 4 = 79.75입니다. max는 가장 큰 값, index(92)는 92가 들어 있는 칸 번호 1을 돌려줍니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“세 번째 반복 뒤 total은?”",
+          "“scores.index(78)은?”"
+        ],
+        "예상답": [
+          "“85 + 92 + 78 = 255요.”",
+          "“2요.”"
+        ],
+        "막히면": [
+          "반복마다 s와 total을 표에 적어 따라갑니다(지난 학년의 트레이스 표)."
+        ],
+        "주의": [
+          "len(scores)로 나누면 자료 수가 바뀌어도 평균 코드를 고칠 필요가 없습니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "안내받는 연습(리스트)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "리스트를 다뤄요",
+      "problems": [
+        {
+          "text": "names[2]의 값"
+        },
+        {
+          "text": "len(names)의 값"
+        },
+        {
+          "text": "names[1] = \"도윤\"을 한 뒤\nnames는?"
+        },
+        {
+          "text": "print(names[4])를\n실행하면?"
+        }
+      ],
+      "hint": "칸 번호는 0부터",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                17.714,
+                0.0
+              ],
+              [
+                17.714,
+                1.4
+              ],
+              [
+                0.0,
+                1.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.4,
+              0.7
+            ],
+            "text": "names = [\"지우\", \"민준\", \"서연\", \"하늘\"]",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 1줄: names 리스트에 지우, 민준, 서연, 하늘",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "도움을 받으며 리스트의 칸 번호로 찾기·고치기를 하고, 없는 칸 번호의 오류를 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“②는 칸 수야.”",
+          "“④는 칸이 0~3번까지만 있어.”"
+        ],
+        "정답": [
+          "① 서연",
+          "② 4",
+          "③ ['지우', '도윤', '서연', '하늘']",
+          "④ IndexError(4번 칸이 없음). 마지막은 names[3]"
+        ],
+        "막히면": [
+          "칸 번호를 이름 위에 0, 1, 2, 3으로 적어 줍니다."
+        ],
+        "주의": [
+          "④처럼 경계(마지막 칸 다음)를 넣어 보는 것도 테스트입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "딕셔너리: 키로 찾기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "딕셔너리",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                5.0
+              ],
+              [
+                14.206,
+                5.0
+              ],
+              [
+                14.206,
+                12.4
+              ],
+              [
+                0.0,
+                12.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                14.206,
+                0.0
+              ],
+              [
+                14.206,
+                4.0
+              ],
+              [
+                0.0,
+                4.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              11.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              11.7
+            ],
+            "text": "phone = {\"지우\": \"0101\",",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              10.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              3.65,
+              10.7
+            ],
+            "text": "\"민준\": \"0102\"}",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              9.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              9.7
+            ],
+            "text": "print(phone[\"민준\"])",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              8.7
+            ],
+            "text": "phone[\"서연\"] = \"0103\"",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "phone[\"지우\"] = \"0199\"",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "print(len(phone), phone[\"지우\"])",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "7",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "print(\"하늘\" in phone)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              4.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              3.25
+            ],
+            "text": "0102",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              2.25
+            ],
+            "text": "3 0199",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "False",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 7줄: phone 딕셔너리에 지우와 민준의 번호를 넣고, 민준의 번호를 찾고, 서연을 더하고 지우의 번호를 고친다. 실행 결과 0102, 3 0199, False",
+        "max_unit": 0.42
+      },
+      "points": [
+        {
+          "title": "키: 값",
+          "text": "이름: 번호"
+        },
+        {
+          "title": "찾기·고치기",
+          "text": "phone[키]"
+        },
+        {
+          "title": "있는지",
+          "text": "키 in phone"
+        }
+      ],
+      "notes": {
+        "목적": "딕셔너리는 중괄호 안에 ‘키: 값’ 짝을 담습니다. 연락처에서 이름이 키, 번호가 값입니다. phone[\"민준\"]처럼 키로 찾고, 없는 키에 값을 넣으면 새 짝이 더해지며(서연), 있는 키에 넣으면 값이 고쳐집니다(지우 → 0199). in은 키가 있는지 참·거짓으로 알려 줍니다. 번호는 지어낸 예시입니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“phone[\"서연\"] = \"0103\"은 고치기일까, 더하기일까?”",
+          "“\"하늘\" in phone이 False인 까닭은?”"
+        ],
+        "예상답": [
+          "“서연이 없었으니 더하기예요.”",
+          "“하늘이라는 키가 없어서요.”"
+        ],
+        "막히면": [
+          "실제 사전에서 낱말(키)로 뜻(값)을 찾는 것과 비교합니다."
+        ],
+        "주의": [
+          "없는 키로 찾으면(phone[\"하늘\"]) KeyError가 납니다. 먼저 in으로 확인합니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "찾기 비교: 리스트와 딕셔너리",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "어떻게 찾을까요?",
+      "figures": [
+        {
+          "type": "geo",
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  3.0
+                ],
+                [
+                  14.969,
+                  3.0
+                ],
+                [
+                  14.969,
+                  9.4
+                ],
+                [
+                  0.0,
+                  9.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            },
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  14.969,
+                  0.0
+                ],
+                [
+                  14.969,
+                  2.0
+                ],
+                [
+                  0.0,
+                  2.0
+                ]
+              ],
+              "fill": "FFFFFF",
+              "color": "2A9D8F",
+              "width": 1.5
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                8.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                8.7
+              ],
+              "text": "names = [\"지우\", \"민준\", \"하늘\"]",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                7.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                7.7
+              ],
+              "text": "count = 0",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                6.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                6.7
+              ],
+              "text": "for n in names:",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                5.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                5.7
+              ],
+              "text": "count = count + 1",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                4.7
+              ],
+              "text": "5",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                4.7
+              ],
+              "text": "if n == \"하늘\":",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                3.7
+              ],
+              "text": "6",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                3.65,
+                3.7
+              ],
+              "text": "print(\"찾음\", count)",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.3,
+                2.5
+              ],
+              "text": "실행 결과",
+              "size": "small",
+              "bold": true,
+              "color": "2A9D8F",
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                1.25
+              ],
+              "text": "찾음 3",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "파이썬 코드 6줄: names 리스트를 앞에서부터 하나씩 살피며 하늘을 찾고 비교한 횟수 3을 출력한다",
+          "max_unit": 0.42,
+          "caption": "리스트: 앞에서부터 하나씩"
+        },
+        {
+          "type": "geo",
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  3.0
+                ],
+                [
+                  11.153,
+                  3.0
+                ],
+                [
+                  11.153,
+                  7.4
+                ],
+                [
+                  0.0,
+                  7.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            },
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  11.153,
+                  0.0
+                ],
+                [
+                  11.153,
+                  2.0
+                ],
+                [
+                  0.0,
+                  2.0
+                ]
+              ],
+              "fill": "FFFFFF",
+              "color": "2A9D8F",
+              "width": 1.5
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                6.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                6.7
+              ],
+              "text": "phone = {\"지우\": \"0101\",",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                5.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                3.65,
+                5.7
+              ],
+              "text": "\"민준\": \"0102\",",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                4.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                3.65,
+                4.7
+              ],
+              "text": "\"하늘\": \"0103\"}",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                3.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                3.7
+              ],
+              "text": "print(phone[\"하늘\"])",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.3,
+                2.5
+              ],
+              "text": "실행 결과",
+              "size": "small",
+              "bold": true,
+              "color": "2A9D8F",
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.4,
+                1.25
+              ],
+              "text": "0103",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "파이썬 코드 4줄: phone 딕셔너리에서 키 하늘로 번호 0103을 바로 찾는다",
+          "max_unit": 0.42,
+          "caption": "딕셔너리: 키로 바로"
+        }
+      ],
+      "notes": {
+        "목적": "이름으로 번호를 찾을 때 리스트는 앞에서부터 하나씩 비교합니다. 하늘이 셋째라 3번 비교했고, 1000명이고 찾는 사람이 마지막이면 1000번 비교합니다. 딕셔너리는 키로 바로 찾으므로 하나씩 살펴보지 않습니다. 대신 리스트는 순서를 지키고 칸 번호로 다루기 쉽습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“1000명 연락처에서 마지막 사람을 리스트로 찾으면 몇 번 비교?”",
+          "“이름으로 자주 찾는 자료는 어느 쪽이 알맞을까?”"
+        ],
+        "예상답": [
+          "“1000번이요.”",
+          "“딕셔너리요.”"
+        ],
+        "막히면": [
+          "종이 명단을 위에서부터 손가락으로 짚어 찾는 것과, 이름 순 색인이 있는 책을 비교합니다."
+        ],
+        "주의": [
+          "딕셔너리가 키로 바로 찾는 원리(해시)는 다루지 않습니다. 다음 차시에서 비교 횟수를 더 자세히 셉니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "항목 정하고 구조 고르기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "알맞은 구조를 골라요",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                4.0
+              ],
+              [
+                15.732,
+                4.0
+              ],
+              [
+                15.732,
+                9.4
+              ],
+              [
+                0.0,
+                9.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          },
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                15.732,
+                0.0
+              ],
+              [
+                15.732,
+                3.0
+              ],
+              [
+                0.0,
+                3.0
+              ]
+            ],
+            "fill": "FFFFFF",
+            "color": "2A9D8F",
+            "width": 1.5
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              8.7
+            ],
+            "text": "st1 = {\"이름\": \"지우\", \"점수\": 85}",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              7.7
+            ],
+            "text": "st2 = {\"이름\": \"민준\", \"점수\": 92}",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "report = [st1, st2]",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "for st in report:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              4.7
+            ],
+            "text": "print(st[\"이름\"], st[\"점수\"])",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.3,
+              3.5
+            ],
+            "text": "실행 결과",
+            "size": "small",
+            "bold": true,
+            "color": "2A9D8F",
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              2.25
+            ],
+            "text": "지우 85",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.4,
+              1.25
+            ],
+            "text": "민준 92",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 5줄: 학생 한 명을 이름과 점수 항목의 딕셔너리로 만들고, 두 학생을 report 리스트에 담아 차례로 출력한다. 실행 결과 지우 85, 민준 92",
+        "max_unit": 0.42
+      },
+      "points": [
+        {
+          "title": "한 사람",
+          "text": "딕셔너리(항목 → 값)"
+        },
+        {
+          "title": "여러 사람",
+          "text": "리스트(순서대로)"
+        },
+        {
+          "title": "고르기",
+          "text": "순서·전체 계산 → 리스트\n키로 찾기 → 딕셔너리"
+        }
+      ],
+      "notes": {
+        "목적": "성적표를 저장하려면 먼저 항목(이름, 점수)을 정합니다. 학생 한 명은 항목 이름이 키인 딕셔너리로, 여러 학생은 그 딕셔너리를 순서대로 담은 리스트로 나타냅니다. 구조는 문제에 맞게 고릅니다. 순서가 중요하거나 전체를 계산하면 리스트, 이름 같은 키로 찾고 고치면 딕셔너리입니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“학생마다 ‘번호’ 항목을 더하려면?”",
+          "“점수로 1등부터 줄 세우는 일에는?”"
+        ],
+        "예상답": [
+          "“딕셔너리에 \"번호\": 3을 더해요.”",
+          "“리스트요(순서).”"
+        ],
+        "막히면": [
+          "종이 성적표의 한 줄이 딕셔너리 하나, 표 전체가 리스트라고 짝지어 줍니다."
+        ],
+        "주의": [
+          "실제 친구의 성적이나 연락처를 쓰지 않고 지어낸 자료로 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "간식 재고 딕셔너리 만들기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "간식 재고표를 만들어요",
+      "steps": [
+        "오른쪽 코드의 출력을 예상해요.",
+        "우리 집 간식과 개수로 딕셔너리를 써요.",
+        "먹은 것·산 것을 고치는 줄을 써요.",
+        "실행(또는 컴퓨터 역할)하고 비교해요."
+      ],
+      "safety": "실행 환경은 어른과 함께 써요.",
+      "figure": {
+        "type": "geo",
+        "names": false,
+        "polygons": [
+          {
+            "pts": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                10.856,
+                0.0
+              ],
+              [
+                10.856,
+                9.4
+              ],
+              [
+                0.0,
+                9.4
+              ]
+            ],
+            "fill": "F3F4F6",
+            "color": "9AA5B1",
+            "width": 1.25
+          }
+        ],
+        "segments": [],
+        "circles": [],
+        "texts": [
+          {
+            "at": [
+              0.45,
+              8.7
+            ],
+            "text": "1",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              8.7
+            ],
+            "text": "food = {\"우유\": 2,",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              7.7
+            ],
+            "text": "2",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              3.65,
+              7.7
+            ],
+            "text": "\"사과\": 5}",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              6.7
+            ],
+            "text": "3",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              6.7
+            ],
+            "text": "food[\"사과\"] -= 2",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              5.7
+            ],
+            "text": "4",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              5.7
+            ],
+            "text": "food[\"우유\"] -= 2",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              4.7
+            ],
+            "text": "5",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              4.7
+            ],
+            "text": "food[\"김\"] = 4",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              3.7
+            ],
+            "text": "6",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              3.7
+            ],
+            "text": "for k in food:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              2.7
+            ],
+            "text": "7",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              2.35,
+              2.7
+            ],
+            "text": "if food[k] == 0:",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              1.7
+            ],
+            "text": "8",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              3.65,
+              1.7
+            ],
+            "text": "print(k, \"부족\")",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          },
+          {
+            "at": [
+              0.45,
+              0.7
+            ],
+            "text": "9",
+            "size": "small",
+            "bold": false,
+            "color": "4B5563"
+          },
+          {
+            "at": [
+              1.05,
+              0.7
+            ],
+            "text": "print(food)",
+            "size": "label",
+            "bold": false,
+            "anchor": "left"
+          }
+        ],
+        "alt": "파이썬 코드 9줄: 간식 재고 딕셔너리 food에서 사과와 우유를 2개씩 줄이고 김 4개를 더한 뒤, 0개인 간식을 찾아 ‘부족’을 출력하고 food를 출력한다",
+        "max_unit": 0.42
+      },
+      "notes": {
+        "목적": "오른쪽 코드를 먼저 읽고 출력을 예상합니다(‘우유 부족’, 그리고 food의 내용 우유 0·사과 3·김 4). 그다음 우리 집 간식 3~4가지와 개수를 정해 활동지 3에 딕셔너리로 쓰고, 먹은 것·새로 산 것을 반영하는 줄과 0개인 간식을 찾는 반복을 씁니다. 컴퓨터가 있으면 어른과 함께 실행하고, 없으면 부모님이 ‘컴퓨터 역할’로 한 줄씩 따라갑니다. 할 때 확인할 것: 출력을 먼저 예상했는지, 키 이름을 똑같이 썼는지, 결과와 비교했는지.",
+        "시간": "약 7분",
+        "말하기": [
+          "“사과를 2개 먹으면 어떤 줄을 쓰지?”",
+          "“0개인 간식을 찾으려면 무엇을 반복하지?”"
+        ],
+        "예상답": [
+          "“food[\"사과\"] -= 2요.”",
+          "“for k in food로 키를 하나씩요.”"
+        ],
+        "막히면": [
+          "간식 두 가지만으로 시작하고, 반복 대신 print(food)만 해도 됩니다."
+        ],
+        "주의": [
+          "파이썬 실행 환경은 어른과 함께 쓰고, 회원 가입이 필요하면 어른이 합니다. 키 이름의 띄어쓰기·글자가 다르면 다른 키가 됩니다.",
+          "food[\"사과\"] -= 2는 food[\"사과\"] = food[\"사과\"] - 2와 같습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(딕셔너리도 번호로 찾는다?)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "누구 말이 맞을까요?",
+      "claim": "S07의 phone 딕셔너리에서 첫 사람의 번호를 꺼내려면?",
+      "left": {
+        "title": "토끼: phone[0]",
+        "text": "리스트처럼 0번이\n첫 사람이에요."
+      },
+      "right": {
+        "title": "곰: phone[\"지우\"]",
+        "text": "딕셔너리는 키로 찾아요.\nphone[0]은 오류예요."
+      },
+      "question": "phone[0]을 실행하면 무슨 일이 생길까요?",
+      "notes": {
+        "목적": "딕셔너리를 리스트처럼 칸 번호로 찾는다는 오개념(M2)을 비교합니다. 딕셔너리는 키로만 찾으므로 phone[0]은 0이라는 키를 찾다가 KeyError가 납니다. 첫 사람의 번호는 phone[\"지우\"]처럼 키로 찾습니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“phone의 키는 무엇이지?”",
+          "“0이라는 키가 있을까?”"
+        ],
+        "예상답": [
+          "“이름이에요.”",
+          "“없어요. 그래서 오류가 나요. 곰이 맞아요.”"
+        ],
+        "정답": [
+          "곰이 맞습니다. 딕셔너리는 키로 찾고, phone[0]은 KeyError입니다."
+        ],
+        "막히면": [
+          "S07의 phone 코드에 print(phone[0])을 넣어 실행한 결과(KeyError)를 보여 줍니다."
+        ],
+        "주의": [
+          "지치면 S10 뒤에서 쉬고, 다음에 S11부터 이어도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해결",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "problems": [
+        {
+          "text": "nums = [4, 7, 1, 9]일 때\nnums[1] + nums[3]의 값"
+        },
+        {
+          "text": "①에서 nums[0] = 5,\nnums.append(2) 뒤\nlen(nums)와 nums"
+        },
+        {
+          "text": "price = {\"우유\": 1500, \"빵\": 2000}\nprice[\"빵\"] = 1800 뒤\n두 값의 합"
+        },
+        {
+          "text": "영어 단어로 뜻을 찾는 단어장은\n리스트와 딕셔너리 중 무엇?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 리스트(A)와 딕셔너리·구조 고르기(B)를 하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 다 하면 ④를 고른 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① 16(7 + 9)",
+          "② 5, [5, 7, 1, 9, 2]",
+          "③ 3300(1500 + 1800)",
+          "④ 딕셔너리(단어가 키, 뜻이 값. 단어로 바로 찾음)"
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “칸 번호를 위에 적어 볼까?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "①②가 맞으면 목표 A, ③④가 맞으면 목표 B를 혼자 해결한 것입니다. 정답 확인은 다음 장(S12)에서 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘한 모습 돌아보기",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 모습",
+      "badTitle": "× 다시 볼 곳",
+      "good": [
+        {
+          "text": "① 7 + 9 = 16"
+        },
+        {
+          "text": "② 5 [5, 7, 1, 9, 2]"
+        },
+        {
+          "text": "③ 3300   ④ 딕셔너리"
+        }
+      ],
+      "bad": [
+        {
+          "text": "① 4 + 1 = 5",
+          "note": "칸 번호 1부터(M1)"
+        },
+        {
+          "text": "② 4 [5, 7, 1, 9]",
+          "note": "append를 놓침"
+        },
+        {
+          "text": "④ 리스트",
+          "note": "단어로 찾으면 키(M3)"
+        }
+      ],
+      "explain": "리스트는 0번부터 칸 번호로, 딕셔너리는 키로 찾아요. 찾는 방법에 맞게 구조를 골라요.",
+      "notes": {
+        "목적": "아이의 답을 함께 확인하고 칸 번호, 고치기와 더하기, 구조 고르기를 바로잡습니다. 수업용에만 있는 장입니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“①에서 nums[1]이 4라고 했다면 무엇을 헷갈렸을까?”"
+        ],
+        "정답": [
+          "① 16 ② 5 [5, 7, 1, 9, 2] ③ 3300 ④ 딕셔너리"
+        ],
+        "막히면": [
+          "①②가 틀리면 S03~S05로, ③④가 틀리면 S06~S08·S10으로 돌아갑니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에는 없습니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(처음 보는 문제)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "마무리 확인",
+      "problems": [
+        {
+          "text": "score = {\"지우\": 85, \"민준\": 92}에서\nscore[\"민준\"] = 95, score[\"하늘\"] = 70을 한 뒤\nprint(len(score), score[\"민준\"])의 출력은?"
+        },
+        {
+          "text": "학생 300명의 [이름, 점수] 리스트에서 맨 끝 학생을 이름으로 찾으면 최대 몇 번 비교할까요?\n더 빨리 찾으려면 어떤 구조로 바꿀까요?"
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 문제로 딕셔너리 고치기·더하기(B)와 리스트의 찾기 비용(A·B)을 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①에서 하늘은 새로 더해질까?”",
+          "“②는 맨 끝 사람을 찾을 때야.”"
+        ],
+        "정답": [
+          "① 3 95",
+          "② 300번. 이름을 키, 점수를 값으로 하는 딕셔너리로 바꾸고 score[\"지우\"]처럼 찾는다"
+        ],
+        "막히면": [
+          "①: 딕셔너리의 짝을 종이에 적어 가며 고칩니다."
+        ],
+        "주의": [
+          "두 문제를 맞히면 목표 A·B 확인 완료입니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "정리와 다음 수업 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "리스트 [ ]: 순서대로, 칸 번호 0부터(고치기 a[i] = 값, append)\n딕셔너리 { }: 키: 값, d[키]로 찾고 고치고 더함. 이름으로 찾으면 딕셔너리, 순서·전체 계산은 리스트",
+      "do": "칸 번호는 0부터, 키는 똑같이",
+      "dont": "딕셔너리를 번호로 찾기",
+      "review": [
+        {
+          "text": "[85, 92, 78, 64]의\n2번 칸"
+        },
+        {
+          "text": "이름으로 번호를\n찾는 구조"
+        },
+        {
+          "text": "4명 리스트에서 마지막\n사람 찾기 비교 횟수"
+        }
+      ],
+      "next": "탐색·정렬과 효율",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습 문제를 알려 줍니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“리스트와 딕셔너리는 무엇으로 찾지?”",
+          "“이름으로 자주 찾는 자료는?”",
+          "“다음 수업을 시작할 때 이 세 문제를 먼저 풀 거야.”"
+        ],
+        "예상답": [
+          "“리스트는 칸 번호, 딕셔너리는 키요.”",
+          "“딕셔너리요.”"
+        ],
+        "정답": [
+          "① 78",
+          "② 딕셔너리",
+          "③ 4번"
+        ],
+        "막히면": [
+          "S03, S06, S07을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "다음 차시 ‘탐색·정렬과 효율’에서는 찾기와 줄 세우기의 비교 횟수를 셉니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "선수 학습 보충(리스트의 칸 번호)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 칸 번호",
+      "layout": "support",
+      "table": {
+        "headers": [
+          "칸 번호(인덱스)",
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "rows": [
+          [
+            "값",
+            "85",
+            "92",
+            "78",
+            "64"
+          ]
+        ],
+        "widths": [
+          0.32,
+          0.17,
+          0.17,
+          0.17,
+          0.17
+        ],
+        "size": 20,
+        "width": 9,
+        "firstColHead": true
+      },
+      "key": "칸 번호는 0부터, 마지막은 길이 − 1이에요",
+      "notes": {
+        "목적": "S02의 ③이 흔들리면 중학교 리스트의 칸 번호를 다시 정리합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“첫 칸의 번호는?”",
+          "“칸이 4개면 마지막 칸 번호는?”"
+        ],
+        "정답": [
+          "0",
+          "3"
+        ],
+        "막히면": [
+          "달걀판 칸에 0부터 번호 스티커를 붙이는 놀이로 익힙니다."
+        ],
+        "주의": [
+          "보충으로도 어려우면 중학교 리스트 차시를 먼저 다시 합니다.",
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
   "worksheet": {
     "title": "리스트와 딕셔너리 활동지",
-    "items": [],
-    "record": []
-  }
+    "items": [
+      {
+        "no": 1,
+        "prompt": "우리 반 성적표(예시)를 저장하려고 해요. 학생 한 명에게 필요한 항목 세 가지와 예시 값, 글자인지 수인지 쓰세요.",
+        "table": {
+          "headers": [
+            "항목(키)",
+            "예시 값",
+            "글자 / 수"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.34,
+            0.4,
+            0.26
+          ]
+        },
+        "answer": "예: 이름 → \"지우\"(글자), 번호 → 3(수), 점수 → 85(수). 한 명은 딕셔너리, 여러 명은 리스트에 담는다."
+      },
+      {
+        "no": 2,
+        "prompt": "다음 코드의 출력을 예상하세요.",
+        "geo": {
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  13.824,
+                  0.0
+                ],
+                [
+                  13.824,
+                  7.4
+                ],
+                [
+                  0.0,
+                  7.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                6.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                6.7
+              ],
+              "text": "temps = [12, 15, 9, 14, 18]",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                5.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                5.7
+              ],
+              "text": "temps[2] = 10",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                4.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                4.7
+              ],
+              "text": "hot = 0",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                3.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                3.7
+              ],
+              "text": "for t in temps:",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                2.7
+              ],
+              "text": "5",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                2.7
+              ],
+              "text": "if t >= 14:",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                1.7
+              ],
+              "text": "6",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                3.65,
+                1.7
+              ],
+              "text": "hot = hot + 1",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                0.7
+              ],
+              "text": "7",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                0.7
+              ],
+              "text": "print(temps[2], hot, len(temps))",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "활동지 temps 코드",
+          "max_unit": 0.42
+        },
+        "lines": 1,
+        "answer": "10 3 5 (2번 칸을 10으로 고침, 14 이상은 15·14·18의 3개, 칸 수 5)"
+      },
+      {
+        "no": 3,
+        "prompt": "우리 집 간식 재고 딕셔너리를 쓰고, 먹은 것·새로 산 것을 반영하는 줄과 0개인 간식을 찾는 반복을 쓰세요. 출력도 예상하세요.",
+        "lines": 8,
+        "answer": "예: food = {\"우유\": 2, \"사과\": 5} / food[\"사과\"] -= 2 / food[\"김\"] = 4 / for k in food: if food[k] == 0: print(k, \"부족\")"
+      },
+      {
+        "no": 4,
+        "prompt": "상황에 알맞은 구조를 고르고 까닭을 쓰세요.",
+        "table": {
+          "headers": [
+            "상황",
+            "리스트 / 딕셔너리",
+            "까닭"
+          ],
+          "rows": [
+            [
+              "한 주 동안의 기온으로 평균 구하기",
+              "",
+              ""
+            ],
+            [
+              "매점 물건 이름으로 가격 찾기",
+              "",
+              ""
+            ],
+            [
+              "줄 선 순서대로 부르기",
+              "",
+              ""
+            ],
+            [
+              "학생 번호로 사물함 위치 찾기",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.42,
+            0.24,
+            0.34
+          ],
+          "firstColHead": true
+        },
+        "answer": "기온 → 리스트(전체 계산) / 매점 → 딕셔너리(이름이 키) / 줄 → 리스트(순서) / 번호 → 딕셔너리(번호가 키). 근거가 맞으면 다른 답도 인정"
+      },
+      {
+        "no": 5,
+        "prompt": "(도전) 두 리스트를 딕셔너리로 바꾸는 코드예요. 출력을 쓰고, 4·5줄이 하는 일을 설명하세요.",
+        "geo": {
+          "names": false,
+          "polygons": [
+            {
+              "pts": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  14.969,
+                  0.0
+                ],
+                [
+                  14.969,
+                  6.4
+                ],
+                [
+                  0.0,
+                  6.4
+                ]
+              ],
+              "fill": "F3F4F6",
+              "color": "9AA5B1",
+              "width": 1.25
+            }
+          ],
+          "segments": [],
+          "circles": [],
+          "texts": [
+            {
+              "at": [
+                0.45,
+                5.7
+              ],
+              "text": "1",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                5.7
+              ],
+              "text": "names = [\"지우\", \"민준\", \"하늘\"]",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                4.7
+              ],
+              "text": "2",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                4.7
+              ],
+              "text": "scores = [85, 92, 70]",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                3.7
+              ],
+              "text": "3",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                3.7
+              ],
+              "text": "book = {}",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                2.7
+              ],
+              "text": "4",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                2.7
+              ],
+              "text": "for i in range(len(names)):",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                1.7
+              ],
+              "text": "5",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                2.35,
+                1.7
+              ],
+              "text": "book[names[i]] = scores[i]",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            },
+            {
+              "at": [
+                0.45,
+                0.7
+              ],
+              "text": "6",
+              "size": "small",
+              "bold": false,
+              "color": "4B5563"
+            },
+            {
+              "at": [
+                1.05,
+                0.7
+              ],
+              "text": "print(book[\"민준\"])",
+              "size": "label",
+              "bold": false,
+              "anchor": "left"
+            }
+          ],
+          "alt": "활동지 리스트를 딕셔너리로 바꾸는 코드",
+          "max_unit": 0.42
+        },
+        "lines": 2,
+        "answer": "92. 칸 번호 i를 0부터 2까지 바꾸며 names[i]를 키, scores[i]를 값으로 book에 넣는다."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "물음에 답하세요.",
+        "read": "① scores = [85, 92, 78, 64]에서 scores[2]의 값은?\n② 이름으로 전화번호를 바로 찾으려면 리스트와 딕셔너리 중 무엇이 알맞나요?\n③ 이름 4개가 든 리스트에서 마지막 이름을 앞에서부터 찾으면 몇 번 비교하나요?",
+        "lines": 3,
+        "answer": "① 78 ② 딕셔너리 ③ 4번"
+      }
+    ],
+    "record": [
+      "S02 선수 확인: 모두 바르게 □  칸 번호 흔들림(보충 S15) □  함수·반복 흔들림 □",
+      "S09 활동: 출력을 먼저 예상 □  딕셔너리를 바르게 씀 □  고치는 줄·반복을 씀 □  실행(또는 컴퓨터 역할)으로 비교 □  도움을 받아 함 □",
+      "S11 혼자 해 보기: 네 문제 모두 □  리스트(①②) □  딕셔너리·구조(③④) □  도움을 받아 해결 □",
+      "S13 마무리 확인: 두 문제 모두 □  한 문제 □  아직 □",
+      "오해: 칸 번호 1부터(M1) □  딕셔너리를 번호로 찾음(M2) □  구조를 아무거나 고름(M3) □"
+    ]
+  },
+  "safety": [
+    "파이썬 실행 환경은 어른과 함께 쓰고, 회원 가입이 필요하면 어른이 합니다.",
+    "실제 친구·가족의 연락처나 성적을 코드에 넣지 않고 지어낸 자료로 연습합니다."
+  ],
+  "break_after": "S10"
 }
