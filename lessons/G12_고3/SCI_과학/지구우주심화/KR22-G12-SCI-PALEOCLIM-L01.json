@@ -1,0 +1,63 @@
+{
+  "id": "KR22-G12-SCI-PALEOCLIM-L01",
+  "concept_id": "SCI-PALEOCLIM",
+  "title": "고기후 기록 분석",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "지구우주심화",
+  "sequence": 1,
+  "file_stem": "고3_과학_지구우주심화_01_고기후기록분석",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SCI-I04"
+    ],
+    "units": [
+      "6.5.3",
+      "6.5.5",
+      "6.5.6",
+      "6.5.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "빙하 코어·나이테·퇴적층 자료로 과거 기후 변화를 해석하고 현재 기후 변화의 속도와 비교한다.",
+  "prerequisites": [
+    {
+      "text": "지층과 지질 연대",
+      "lesson": "KR22-G11-SCI-GEOTIME-L01",
+      "grade_item": "KR22-G11-SCI-I04"
+    },
+    {
+      "text": "엘니뇨와 라니냐",
+      "lesson": "KR22-G11-SCI-ENSO-L01",
+      "grade_item": "KR22-G11-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "고기후 기록 분석 활동지",
+    "items": [],
+    "record": []
+  }
+}

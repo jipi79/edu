@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G12-SCI-PENDULUM-L01",
+  "concept_id": "SCI-PENDULUM",
+  "title": "단진자 실험과 오차",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "물리심화",
+  "sequence": 3,
+  "file_stem": "고3_과학_물리심화_03_단진자실험과오차",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SCI-I01"
+    ],
+    "units": [
+      "6.2.3",
+      "6.2.5",
+      "6.2.8"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "단진자의 길이를 바꾸며 주기를 측정해 그래프로 관계를 찾고 중력 가속도를 구한 뒤 측정 오차를 검토한다.",
+  "prerequisites": [
+    {
+      "text": "역학적 에너지 보존",
+      "lesson": "KR22-G11-SCI-MECHENERGY-L01",
+      "grade_item": "KR22-G11-SCI-I01"
+    },
+    {
+      "text": "자료 분석과 결과 검토",
+      "lesson": "KR22-G11-SCI-INQREVIEW-L01",
+      "grade_item": "KR22-G11-SCI-I05"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "단진자 실험과 오차 활동지",
+    "items": [],
+    "record": []
+  }
+}

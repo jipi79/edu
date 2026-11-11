@@ -1,0 +1,58 @@
+{
+  "id": "KR22-G12-SCI-EXOPLANET-L01",
+  "concept_id": "SCI-EXOPLANET",
+  "title": "외계 행성계 탐사",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "지구우주심화",
+  "sequence": 3,
+  "file_stem": "고3_과학_지구우주심화_03_외계행성계탐사",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-SCI-I04"
+    ],
+    "units": [
+      "6.5.3",
+      "6.5.5",
+      "6.5.6",
+      "6.5.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "시선 속도 변화와 식 현상의 밝기 자료로 외계 행성의 존재를 추론하고 생명 가능 지대를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "별의 물리량과 H-R도",
+      "lesson": "KR22-G11-SCI-STARPROP-L01",
+      "grade_item": "KR22-G11-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "외계 행성계 탐사 활동지",
+    "items": [],
+    "record": []
+  }
+}
