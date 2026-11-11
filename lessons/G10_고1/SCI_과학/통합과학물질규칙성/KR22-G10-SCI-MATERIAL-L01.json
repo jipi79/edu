@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G10-SCI-MATERIAL-L01",
+  "concept_id": "SCI-MATERIAL",
+  "title": "물질의 구조와 전기적 성질",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "통합과학물질규칙성",
+  "sequence": 6,
+  "file_stem": "고1_과학_통합과학물질규칙성_06_물질의구조와전기적성질",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SCI-I01"
+    ],
+    "units": [
+      "6.3.4",
+      "6.3.5",
+      "6.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "규산염 광물·단백질·DNA가 기본 단위의 반복 결합으로 이루어짐을 설명하고 도체·반도체·부도체를 전기 전도성으로 구별한다.",
+  "prerequisites": [
+    {
+      "text": "공유 결합",
+      "lesson": "KR22-G10-SCI-COVALENT-L01",
+      "grade_item": "KR22-G10-SCI-I01"
+    },
+    {
+      "text": "전류와 전압",
+      "lesson": "KR22-G08-SCI-CURRENT-L01",
+      "grade_item": "KR22-G08-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "물질의 구조와 전기적 성질 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G10-SCI-COVALENT-L01",
+  "concept_id": "SCI-COVALENT",
+  "title": "공유 결합",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "통합과학물질규칙성",
+  "sequence": 5,
+  "file_stem": "고1_과학_통합과학물질규칙성_05_공유결합",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SCI-I01"
+    ],
+    "units": [
+      "6.3.4",
+      "6.3.5",
+      "6.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "원자들이 전자쌍을 공유해 분자를 이루는 과정을 전자 점식으로 나타내고 이온 결합 물질과 공유 결합 물질의 성질을 비교한다.",
+  "prerequisites": [
+    {
+      "text": "이온 결합",
+      "lesson": "KR22-G10-SCI-IONBOND-L01",
+      "grade_item": "KR22-G10-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "공유 결합 활동지",
+    "items": [],
+    "record": []
+  }
+}

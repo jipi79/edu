@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G10-SCI-ELEMORIGIN-L01",
+  "concept_id": "SCI-ELEMORIGIN",
+  "title": "빅뱅과 원소의 생성",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "통합과학물질규칙성",
+  "sequence": 1,
+  "file_stem": "고1_과학_통합과학물질규칙성_01_빅뱅과원소의생성",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SCI-I01"
+    ],
+    "units": [
+      "6.3.4",
+      "6.3.5",
+      "6.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "빅뱅 뒤 수소·헬륨이 생기고 별의 핵융합과 초신성 폭발로 무거운 원소가 만들어지는 과정을 순서대로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "별의 거리와 밝기",
+      "lesson": "KR22-G09-SCI-STAR-L01",
+      "grade_item": "KR22-G09-SCI-I01"
+    },
+    {
+      "text": "우리은하와 우주",
+      "lesson": "KR22-G09-SCI-GALAXY-L01",
+      "grade_item": "KR22-G09-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "빅뱅과 원소의 생성 활동지",
+    "items": [],
+    "record": []
+  }
+}

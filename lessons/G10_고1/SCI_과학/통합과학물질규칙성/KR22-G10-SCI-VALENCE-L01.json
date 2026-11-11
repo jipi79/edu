@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G10-SCI-VALENCE-L01",
+  "concept_id": "SCI-VALENCE",
+  "title": "전자 배치와 원자가 전자",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "통합과학물질규칙성",
+  "sequence": 3,
+  "file_stem": "고1_과학_통합과학물질규칙성_03_전자배치와원자가전자",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SCI-I01"
+    ],
+    "units": [
+      "6.3.4",
+      "6.3.5",
+      "6.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "원자 번호 1~20번 원자의 전자 배치를 그리고 원자가 전자 수로 주기율표의 규칙성을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "주기율표와 원소의 성질",
+      "lesson": "KR22-G10-SCI-PERIODIC-L01",
+      "grade_item": "KR22-G10-SCI-I01"
+    },
+    {
+      "text": "원자와 분자",
+      "lesson": "KR22-G08-SCI-ATOM-L01",
+      "grade_item": "KR22-G08-SCI-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "전자 배치와 원자가 전자 활동지",
+    "items": [],
+    "record": []
+  }
+}
