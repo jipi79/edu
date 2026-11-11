@@ -1261,7 +1261,7 @@
         "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 물건 두 개를 비교하는 문장을 두 개 쓰세요(하나는 -er, 하나는 more나 better).",
         "eng": {
           "trace": [
-            "Jisu is taller than Minho.",
+            "Minho is taller than Jisu.",
             "Math is more difficult than art."
           ],
           "blank": 2
