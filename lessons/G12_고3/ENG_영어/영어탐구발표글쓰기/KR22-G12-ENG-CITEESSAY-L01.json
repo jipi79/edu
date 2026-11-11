@@ -1,0 +1,930 @@
+{
+  "id": "KR22-G12-ENG-CITEESSAY-L01",
+  "concept_id": "ENG-CITEESSAY",
+  "title": "자료를 인용한 논증 글",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "영어탐구발표글쓰기",
+  "sequence": 2,
+  "file_stem": "고3_영어_영어탐구발표글쓰기_02_자료를인용한논증글",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ENG-I02"
+    ],
+    "units": [
+      "3.3.4",
+      "3.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "반론을 넣은 에세이",
+      "lesson": "KR22-G11-ENG-ESSAYCTR-L01",
+      "grade_item": "KR22-G11-ENG-I02"
+    },
+    {
+      "text": "여러 자료 종합 정리",
+      "lesson": "KR22-G12-ENG-MULTISYN-L01",
+      "grade_item": "KR22-G12-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "자료를 근거로 쓰는 세 방법(직접 인용: 원문 그대로 + 인용 부호 / 바꿔 쓰기: 같은 뜻을 내 말로 / 요약: 핵심만 짧게)을 구별하고, 신호 표현(According to ~, As ~ explains, ~ found that ~)과 간단한 본문 출처 표시(이름, 연도)를 바르게 쓴다.",
+      "evidence": "세 방법(S03), 신호 표현과 출처 표시(S04), 본보기 에세이(S05), 바꿔 쓰기(S06), 출처 없는 문장 비교(S07), 구별하기(S08), 마무리 확인(S13), 활동지 1·2·3",
+      "success": "활동지 2의 구별 네 개를 모두 맞히고, 활동지 3의 바꿔 쓰기 세 개 가운데 두 개 이상을 같은 뜻으로, 원문과 네 낱말 이상 연달아 겹치지 않게 쓴다."
+    },
+    {
+      "id": "B",
+      "text": "주장을 뒷받침하는 본론 문단에 직접 인용 하나와 바꿔 쓰기 하나를 출처 표시와 함께 넣고, This shows that ~으로 근거가 주장을 어떻게 뒷받침하는지 설명한다. 반론 문단에서도 자료로 반박한다.",
+      "evidence": "자료를 근거로 쓰는 다섯 단계(S09), 근거 고르기 인터뷰(S10), 혼자 쓰기(S11), 활동지 4·5",
+      "success": "활동지 4의 본론 문단이 점검표 다섯 항목(주장 문장 / 인용 부호와 출처가 있는 직접 인용 / 출처가 있고 네 낱말 이상 베끼지 않은 바꿔 쓰기 / This shows that 설명 / 숫자·내용을 자료 그대로) 가운데 네 개 이상을 지킨다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "색연필 두 가지(직접 인용과 바꿔 쓰기를 다른 색으로)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "짧은 영어 자료(지어낸 연구·인터뷰·설문, ‘예시 자료’)를 근거로 쓰는 논증 글을 다룬다. 본보기는 네 문단 에세이(주장·본론·반론과 반박·결론, 약 170 낱말)이고, 아이는 본론 문단 하나(4~5문장)를 쓴다. 자료를 쓰는 방법은 직접 인용(원문 그대로, 큰따옴표), 바꿔 쓰기(내 말로, 네 낱말 이상 연달아 베끼지 않기), 요약(핵심만) 세 가지이고, 출처는 문장 안 신호 표현(According to ~, As ~ explains, ~ found that ~)과 문장 끝 괄호(이름, 연도)로만 표시한다. 본보기의 직접 인용은 자료와 글자가 같고, 바꿔 쓴 문장은 자료와 네 낱말 이상 연달아 겹치지 않음을 프로그램으로 확인했다. 참고 문헌 목록, APA·MLA의 자세한 규칙, 쪽수 표시, 실제 자료 검색은 다루지 않는다. ‘직접 인용·바꿔 쓰기·요약·출처 표시·표절’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "남의 문장을 인용 부호와 출처 없이 그대로 쓴다(표절).",
+      "response": "S03·S07에서 직접 인용은 인용 부호와 출처가 꼭 함께라는 것을 보여 주고, S08 ④와 활동지 2에서 고치게 한다."
+    },
+    {
+      "id": "M2",
+      "text": "바꿔 쓰기를 낱말 몇 개만 바꾼 베끼기로 한다(네 낱말 이상 연달아 겹침).",
+      "response": "S06에서 고2 ‘요약문 쓰기’의 바꿔 쓰는 세 방법을 다시 쓰고, 활동지 3에서 겹치는 덩어리를 찾아 고치게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "인용만 붙여 놓고 그 자료가 주장을 어떻게 뒷받침하는지 설명하지 않는다.",
+      "response": "S09 다섯째 단계(This shows that ~)와 S05 본보기, 점검표 넷째 항목으로 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "직접 인용을 너무 많이 써서 글이 자료 모음이 된다.",
+      "response": "S03 열쇠 문장(직접 인용은 꼭 필요한 한 문장만, 나머지는 바꿔 쓰기)과 S11 조건(인용 하나 + 바꿔 쓰기 하나)으로 조절한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "자료를 인용한 논증 글",
+      "question": "남의 자료를 근거로 쓸 때,\n어떻게 옮기고 어떻게 밝혀야 할까?",
+      "goals": [
+        "① 직접 인용·바꿔 쓰기·요약과 출처 표시를 구별해요.",
+        "② 자료로 뒷받침한 본론 문단을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "“직접 인용”",
+            "sub": "원문 그대로"
+          },
+          {
+            "word": "바꿔 쓰기",
+            "sub": "내 말로"
+          },
+          {
+            "word": "(Cho, 2025)",
+            "sub": "출처 표시"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 주장의 근거로 다른 사람의 자료를 쓸 때는 출처를 밝히고 올바른 방법으로 옮겨야 한다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“에세이에서 ‘연구에 따르면’, ‘사서 선생님 말씀처럼’ 같은 근거가 있으면 주장이 훨씬 힘이 있지?”",
+          "“그런데 남의 글을 출처 없이 그대로 쓰면 표절이 돼. 표절은 남의 글이나 생각을 내 것처럼 쓰는 거야. 오늘은 직접 인용, 바꿔 쓰기, 요약으로 자료를 바르게 쓰는 법을 배울 거야.”"
+        ],
+        "예상답": [
+          "“출처를 밝혀야 해요.” “따옴표를 써요.”"
+        ],
+        "막히면": [
+          "“친구의 숙제를 그대로 베껴 내면 어떻게 될까? 글도 마찬가지야.”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 나오는 연구소·사람·설문은 모두 수업용으로 지어낸 예시 자료입니다. 실제 연구 결과로 받아들이지 않게 해 주세요.",
+          "모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(반론 문단, 출처 표현)",
+      "role": "prior",
+      "objectives": [],
+      "title": "지난 도구 떠올리기",
+      "text": "①은 빈칸, ②는 표현, ③은 규칙을 말해요.",
+      "problems": [
+        {
+          "text": "Some people argue that ~. ______, ~ is true.\n______, ~ (반박 + 근거)."
+        },
+        {
+          "text": "______ a survey of 200 companies, 45% value communication."
+        },
+        {
+          "text": "자료를 옮길 때 숫자와 문장의 규칙은?"
+        }
+      ],
+      "notes": {
+        "목적": "고2 ‘반론을 넣은 에세이’(KR22-G11-ENG-ESSAYCTR-L01)의 인정·반박 표현과 ‘여러 자료 종합 정리’(KR22-G12-ENG-MULTISYN-L01)의 출처 표현·베끼지 않기 규칙을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 빈칸 두 개를, ②는 알맞은 표현을, ③은 규칙을 말해 줘.”"
+        ],
+        "정답": [
+          "① Admittedly / Nevertheless",
+          "② According to",
+          "③ 숫자는 자료 그대로, 문장은 내 말로(네 낱말 이상 연달아 베끼지 않기)"
+        ],
+        "막히면": [
+          "①은 고2 ‘반론을 넣은 에세이’의 반론 문단 세 걸음을 떠올리게 합니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 이 도구들을 합쳐 자료를 근거로 쓰는 논증 글을 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "직접 인용·바꿔 쓰기·요약",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "자료를 옮기는 세 방법",
+      "text": "표절: 남의 글이나 생각을 출처 없이 내 것처럼 쓰는 것",
+      "table": {
+        "headers": [
+          "방법",
+          "어떻게",
+          "예(자료: Ms. Cho)"
+        ],
+        "rows": [
+          [
+            "직접 인용",
+            "원문 그대로 + “ ” + 출처",
+            "As Ms. Cho explains, “When students choose ~” (Cho, 2025)."
+          ],
+          [
+            "바꿔 쓰기",
+            "같은 뜻을 내 말로 + 출처",
+            "According to Ms. Cho, students read longer when they pick books."
+          ],
+          [
+            "요약",
+            "핵심만 짧게 + 출처",
+            "Ms. Cho (2025) says that choice matters in reading."
+          ]
+        ],
+        "widths": [
+          0.15,
+          0.28,
+          0.57
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "직접 인용은 꼭 필요한 한 문장만, 나머지는 바꿔 쓰기·요약으로",
+      "notes": {
+        "목적": "직접 인용, 바꿔 쓰기, 요약이 각각 언제·어떻게 쓰이는지 같은 자료로 보여 줍니다(목표 A, 오해 M1·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“직접 인용은 원문 그대로, 꼭 큰따옴표와 출처를 붙여. 말이 특별하거나 힘이 있을 때만 써.”",
+          "“바꿔 쓰기는 같은 뜻을 내 말로. 길이는 비슷해. 요약은 핵심만 짧게.”",
+          "“셋 다 출처를 밝혀야 해. 출처 없이 쓰면 표절이야.”"
+        ],
+        "예상답": [
+          "“직접 인용은 따옴표를 써요.” “요약은 짧게 해요.”"
+        ],
+        "막히면": [
+          "같은 자료 문장을 세 방법으로 바꾼 표의 줄을 하나씩 비교하게 합니다."
+        ],
+        "주의": [
+          "직접 인용을 너무 많이 쓰면 글이 자료 모음이 됩니다(오해 M4). 한 문단에 직접 인용은 하나면 충분합니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "신호 표현과 출처 표시",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "출처를 밝히는 법",
+      "text": "출처는 문장 앞 또는 문장 끝에서 밝혀요.",
+      "cards": [
+        {
+          "title": "문장 앞: 신호 표현",
+          "text": "According to ~,\nAs ~ explains, “~”"
+        },
+        {
+          "title": "문장 끝: (이름, 연도)",
+          "text": "~ (Cho, 2025).\n~ (Example Survey, 2025)."
+        },
+        {
+          "title": "신호 동사",
+          "text": "says · explains · argues\nfound that · reports"
+        },
+        {
+          "title": "근거 설명",
+          "text": "This shows that ~.\n(자료가 주장을 어떻게 돕나)"
+        }
+      ],
+      "key": "“직접 인용” (이름, 연도).  ← 마침표는 괄호 뒤",
+      "notes": {
+        "목적": "문장 앞의 신호 표현과 문장 끝의 출처 표시(이름, 연도) 두 가지 방법을 보여 줍니다(목표 A, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“문장 앞에서 밝히기: According to the Example Reading Institute (2024), ~. As Ms. Cho explains, “~”.”",
+          "“문장 끝에서 밝히기: ~ (Cho, 2025). 괄호 안에는 이름(기관 이름)과 연도.”",
+          "“신호 동사도 골라 써. says, explains, argues(주장하다), found that(연구로 알아내다), reports.”"
+        ],
+        "예상답": [
+          "“괄호에 이름과 연도를 써요.” “연구에는 found that을 써요.”"
+        ],
+        "막히면": [
+          "카드의 예문에서 출처 부분에만 색칠하게 합니다."
+        ],
+        "주의": [
+          "오늘은 간단한 형식(이름, 연도)만 씁니다. 대학이나 학술지에서는 APA·MLA 같은 정해진 형식을 씁니다. 마침표는 괄호 뒤에 찍습니다: “~” (Cho, 2025)."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 에세이의 본론과 반론 문단",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "본보기 에세이 읽기",
+      "passage": {
+        "paragraphs": [
+          "First, reading for pleasure helps students build their vocabulary. According to the Example Reading Institute (2024), students who read for enjoyment for 20 minutes or more each day know more words than students who seldom read. Second, choice keeps students reading. As librarian Ms. Cho explains, “When students choose their own books, they are more likely to keep reading” (Cho, 2025). This shows that a reading period should let students pick their own books.",
+          "Some people argue that students can read at home. Admittedly, class time is valuable. Nevertheless, a survey of 400 students found that 62% have little time for reading at home (Example Survey, 2025). Therefore, school may be the only place where many students can read regularly."
+        ]
+      },
+      "question": "① 직접 인용과 바꿔 쓰기, 출처 표시를 찾아요.  ② This shows that의 역할은?",
+      "notes": {
+        "목적": "본보기 에세이(학교에 주마다 자유 독서 시간을 주자)의 본론·반론 문단에서 직접 인용, 바꿔 쓰기, 출처 표시, 근거 설명을 찾습니다(목표 A·B, 오해 M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 두 문단을 한 번 읽어 줍니다.)",
+          "“직접 인용은 어디야? 출처는? 바꿔 쓴 문장은 어디고, 원래 자료는 무엇이었을까?”",
+          "“This shows that 문장은 무엇을 해 주지?”"
+        ],
+        "예상답": [
+          "“As librarian Ms. Cho explains 다음이 직접 인용이에요.” “According to 문장은 바꿔 쓰기예요.” “This shows that은 자료와 주장을 이어 줘요.”"
+        ],
+        "막히면": [
+          "활동지 2에 있는 원래 자료 네 개와 맞대어 보게 합니다."
+        ],
+        "주의": [
+          "자료(지어낸 예시): 1 예시 독서 연구소(2024) — 고등학생 500명 가운데 하루 20분 이상 즐거움을 위해 읽은 학생이 거의 읽지 않는 학생보다 낱말을 더 많이 알았다. 2 사서 조 선생님(2025) — “학생들이 스스로 책을 고르면 계속 읽을 가능성이 더 높다.” 3 학생 400명 설문(2025) — 62%가 숙제와 방과 후 수업 때문에 집에서 읽을 시간이 거의 없다고 답했다.",
+          "본보기의 바꿔 쓴 문장은 자료와 네 낱말 이상 연달아 겹치지 않습니다(프로그램으로 확인). 에세이 전체는 활동지 1과 안내서에 있습니다.",
+          "뜻: 첫째, 즐거움을 위한 독서는 어휘를 늘려 준다. 예시 독서 연구소(2024)에 따르면, 하루 20분 이상 재미로 읽는 학생은 거의 읽지 않는 학생보다 낱말을 더 많이 안다. 둘째, 고를 수 있으면 계속 읽게 된다. 사서 조 선생님의 말처럼 “학생들이 스스로 책을 고르면 계속 읽을 가능성이 더 높다”(Cho, 2025). 이것은 독서 시간에 학생이 책을 고르게 해야 한다는 것을 보여 준다. / 학생들이 집에서 읽으면 된다고 주장하는 사람도 있다. 물론 수업 시간은 소중하다. 그럼에도 학생 400명 설문에서 62%가 집에서 읽을 시간이 거의 없다고 답했다(Example Survey, 2025). 그러므로 많은 학생에게는 학교가 꾸준히 읽을 수 있는 유일한 곳일 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "자료 문장 바꿔 쓰기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "내 말로 바꿔 써요",
+      "text": "같은 뜻으로, 네 낱말 이상 연달아 겹치지 않게!",
+      "problems": [
+        {
+          "text": "Regular exercise improves students' ability to concentrate in class."
+        },
+        {
+          "text": "Most teenagers need eight to ten hours of sleep each night."
+        },
+        {
+          "text": "Learning a musical instrument can help children develop patience."
+        }
+      ],
+      "notes": {
+        "목적": "자료 문장을 같은 뜻으로 바꿔 쓰고, 원문과 네 낱말 이상 연달아 겹치지 않는지 확인합니다(목표 A, 오해 M2). 활동지 3에 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“문장마다 내 말로 바꿔 말해 줘. 다 쓰면 원문과 나란히 놓고 네 낱말 덩어리가 겹치는지 찾아보자.”"
+        ],
+        "정답": [
+          "① 예: Students who exercise often can focus better during lessons.",
+          "② 예: Each night, teens generally need between 8 and 10 hours of rest.",
+          "③ 예: Children may become more patient when they practice an instrument.",
+          "기준: 같은 뜻이고 원문과 네 낱말 이상 연달아 겹치지 않으면 정답입니다(본보기는 프로그램으로 확인)."
+        ],
+        "막히면": [
+          "고2 ‘요약문 쓰기’의 세 방법(낱말·품사·문장 짜임 바꾸기)을 떠올리게 합니다. ①은 “concentrate를 다른 말로?” 하고 묻습니다."
+        ],
+        "주의": [
+          "②의 내용(청소년은 하루 8~10시간 잠이 필요하다)은 여러 건강 기관이 권하는 수면 시간입니다. ①③은 연습용 예시 문장입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(출처 없이 옮기기)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 쪽이 바를까?",
+      "claim": "사서 조 선생님의 말을 에세이에 옮겼어요.",
+      "left": {
+        "title": "가",
+        "text": "When students choose their own\nbooks, they are more likely to\nkeep reading."
+      },
+      "right": {
+        "title": "나",
+        "text": "As librarian Ms. Cho explains,\n“When students choose their own\nbooks, they are more likely to\nkeep reading” (Cho, 2025)."
+      },
+      "question": "어느 쪽이 바른가요? 다른 쪽은 무엇이 문제인가요?",
+      "notes": {
+        "목적": "자료 문장을 인용 부호와 출처 없이 옮긴 문장과, 직접 인용 규칙을 지킨 문장을 비교합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 조 선생님의 말을 이렇게 옮겼어. 어느 쪽이 바를까?”",
+          "“가를 읽은 사람은 이 말이 누구 생각이라고 여길까?”"
+        ],
+        "정답": [
+          "나가 바릅니다. 원문 그대로 옮겼으므로 큰따옴표를 쓰고 출처(As librarian Ms. Cho explains, (Cho, 2025))를 밝혔습니다. 가는 남의 문장을 출처와 인용 부호 없이 써서 글쓴이 자신의 생각처럼 보이는 표절입니다."
+        ],
+        "막히면": [
+          "“가에서 조 선생님의 이름이 보여?”라고 묻습니다."
+        ],
+        "주의": [
+          "여기까지가 자료를 옮기는 방법입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "직접 인용·바꿔 쓰기·요약 구별하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어떤 방법일까?",
+      "text": "직접 인용? 바꿔 쓰기? 요약? 문제는?",
+      "problems": [
+        {
+          "text": "As Dr. Park says, “Sleep is the brain's cleaning time” (Park, 2023)."
+        },
+        {
+          "text": "According to Park (2023), the brain clears out waste while we sleep."
+        },
+        {
+          "text": "Park's article (2023) explains why sleep matters for the brain and gives three tips for better rest."
+        },
+        {
+          "text": "Sleep is the brain's cleaning time."
+        }
+      ],
+      "notes": {
+        "목적": "자료를 옮긴 문장 네 개가 직접 인용·바꿔 쓰기·요약 가운데 무엇인지, 문제가 있는 문장은 무엇인지 말합니다(목표 A, 오해 M1). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“문장마다 방법을 말하고, 문제가 있는 문장은 고쳐 말해 줘.”"
+        ],
+        "정답": [
+          "① 직접 인용",
+          "② 바꿔 쓰기",
+          "③ 요약",
+          "④ 문제: 인용 부호와 출처 없이 남의 문장을 씀",
+          "④ 고치기: As Dr. Park says, “Sleep is the brain's cleaning time” (Park, 2023)."
+        ],
+        "막히면": [
+          "인용 부호가 있는지, 길이가 짧아졌는지, 출처가 있는지 세 가지를 차례로 묻습니다."
+        ],
+        "주의": [
+          "Dr. Park과 그 글은 연습용으로 지어낸 예시입니다. waste는 ‘노폐물’, tip은 ‘도움말’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "자료를 근거로 쓰는 다섯 단계",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "자료로 뒷받침하기",
+      "text": "자료만 붙이지 말고, 주장과 이어 주세요.",
+      "steps": [
+        "주장 문장 쓰기",
+        "주장을 돕는 믿을 만한 자료 고르기",
+        "직접 인용 또는 바꿔 쓰기",
+        "출처 표시: According to ~ / (이름, 연도)",
+        "근거 설명: This shows that ~"
+      ],
+      "notes": {
+        "목적": "주장 → 알맞은 자료 고르기 → 인용 또는 바꿔 쓰기 → 출처 표시 → 근거 설명(This shows that ~)의 다섯 단계를 알려 줍니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“주장을 먼저 쓰고, 그 주장을 뒷받침하는 자료를 골라. 그다음 인용할지 바꿔 쓸지 정하고, 출처를 붙여.”",
+          "“마지막이 가장 중요해. This shows that ~으로 자료가 주장을 어떻게 돕는지 내 말로 설명해.”"
+        ],
+        "예상답": [
+          "“마지막에 This shows that을 써요.”"
+        ],
+        "막히면": [
+          "S05 본보기의 문장마다 몇째 단계인지 번호를 붙여 봅니다."
+        ],
+        "주의": [
+          "자료는 믿을 만한 것으로 고릅니다(고3 ‘자료의 신뢰성 비교’). 광고나 근거 없는 글은 근거로 쓰지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "근거 고르기 인터뷰",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 근거 고르기",
+      "steps": [
+        "부모가 주장을 말해요.",
+        "아이가 알맞은 자료를\n골라요.",
+        "According to ~ /\nAs ~ explains로 말해요.",
+        "This shows that ~으로\n이어요.",
+        "역할을 바꿔요."
+      ],
+      "criteria": [
+        "주장에 맞는 자료를 골랐어요",
+        "출처를 밝혔어요",
+        "This shows that으로 이었어요"
+      ],
+      "notes": {
+        "목적": "부모가 주장을 말하면 아이가 활동지 2의 자료 가운데 알맞은 근거를 골라 신호 표현으로 말하고 This shows that으로 잇습니다. 역할을 바꿉니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 주장을 말할게. 활동지 2의 자료 가운데 이 주장을 돕는 것을 골라 According to나 As ~ explains로 말해 줘. 그리고 This shows that으로 이어 봐.”",
+          "(주장 예: ① Students should choose their own books. ② Schools are a good place for reading time. ③ Reading for fun is not a waste of time.)",
+          "“이번엔 네가 주장을 말하고, 엄마(아빠)가 근거를 골라 볼게.”"
+        ],
+        "예상답": [
+          "① As librarian Ms. Cho explains, students keep reading when they choose their own books (Cho, 2025). This shows that choice is important.",
+          "② A survey of 400 students found that 62% have little time to read at home. This shows that school time is needed.",
+          "기준: 주장에 맞는 자료를 고르고, 출처를 밝히며, This shows that 문장으로 이으면 잘한 것입니다."
+        ],
+        "막히면": [
+          "자료 카드에 번호를 붙여 두고 “이 주장에는 몇 번이 가장 잘 맞을까?”라고 묻습니다."
+        ],
+        "주의": [
+          "반론(Mr. Lee의 글)은 주장을 돕는 근거가 아니라 반박할 대상이라는 것도 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 쓰기(체육 수업 본론 문단)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 써요: 체육 수업",
+      "passage": {
+        "paragraphs": [
+          "1 Example Health Center (2024): Students who had a PE class in the morning scored higher on afternoon focus tests than students who had no PE that day.",
+          "2 Coach Han (2025): “Exercise is not a break from learning; it is part of learning.”",
+          "3 Survey of 300 students (2025, 예시 자료): 58% said they feel less stressed after PE class."
+        ]
+      },
+      "question": "자료 둘을 골라 직접 인용 하나 + 바꿔 쓰기 하나로 본론 문단을 써요(활동지 4).",
+      "notes": {
+        "목적": "도움 없이 자료 세 편 가운데 둘을 골라 직접 인용 하나와 바꿔 쓰기 하나를 넣은 본론 문단을 쓰는지 확인합니다(목표 A·B). 주장: Schools should have more PE classes. 활동지 4에 쓰고 활동지 5 점검표로 확인합니다.",
+        "시간": "약 6분",
+        "말하기": [
+          "“주장은 ‘학교는 체육 수업을 늘려야 한다’야. 자료 가운데 둘을 골라 직접 인용 하나, 바꿔 쓰기 하나를 넣어 본론 문단을 써 줘. This shows that도 잊지 마.”"
+        ],
+        "정답": [
+          "본보기: First, PE classes help students focus. According to the Example Health Center (2024), students who took part in a morning PE class did better on focus tests later in the day than classmates without PE. Coach Han also says, “Exercise is not a break from learning; it is part of learning” (Han, 2025). This shows that more PE time could support learning instead of taking time away from it.",
+          "다른 바꿔 쓰기 예(자료 3): A survey of 300 students found that 58% feel less stressed after PE class (Example Survey, 2025).",
+          "기준(점검표 다섯 항목): ① 주장 문장 ② 인용 부호와 출처가 있는 직접 인용 ③ 출처가 있고 네 낱말 이상 베끼지 않은 바꿔 쓰기 ④ This shows that 설명 ⑤ 숫자·내용을 자료 그대로. 네 개 이상이면 통과."
+        ],
+        "막히면": [
+          "바로 고쳐 주지 말고 “S09 다섯 단계 가운데 지금 몇째 단계야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "자료는 모두 지어낸 예시입니다. 본보기의 바꿔 쓴 문장은 자료와 네 낱말 이상 연달아 겹치지 않습니다(프로그램으로 확인).",
+          "뜻: 1 예시 건강 센터(2024) — 아침에 체육 수업을 한 학생이 그날 체육이 없던 학생보다 오후 집중력 시험 점수가 높았다. 2 한 코치(2025) — “운동은 배움을 쉬는 시간이 아니라 배움의 한 부분이다.” 3 학생 300명 설문(2025) — 58%가 체육 수업 뒤 스트레스가 줄어든다고 답했다. (focus test: 집중력 시험, stressed: 스트레스를 받는)"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "본보기와 자주 고치는 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "본보기와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 본보기",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "According to the Example\nHealth Center (2024), ~"
+        },
+        {
+          "text": "Coach Han also says,\n“~” (Han, 2025)."
+        },
+        {
+          "text": "This shows that more PE time\ncould support learning ~"
+        }
+      ],
+      "bad": [
+        {
+          "text": "인용 부호 없이 옮김",
+          "note": "“ ” + 출처"
+        },
+        {
+          "text": "scored higher on afternoon\nfocus tests (그대로)",
+          "note": "내 말로\n바꿔 쓰기"
+        },
+        {
+          "text": "자료만 붙이고 끝",
+          "note": "This shows\nthat ~"
+        }
+      ],
+      "explain": "주장 → 자료 → 인용·바꿔 쓰기 → 출처 → This shows that",
+      "notes": {
+        "목적": "아이의 문단을 본보기와 견주어 보고 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“본보기와 네 문단을 견주어 볼까? 출처 표시가 두 군데 다 있어?”"
+        ],
+        "예상답": [
+          "“바꿔 쓴 문장에 출처를 안 붙였어요.” “This shows that을 빼먹었어요.”"
+        ],
+        "정답": [
+          "본보기: First, PE classes help students focus. According to the Example Health Center (2024), students who took part in a morning PE class did better on focus tests later in the day than classmates without PE. Coach Han also says, “Exercise is not a break from learning; it is part of learning” (Han, 2025). This shows that more PE time could support learning instead of taking time away from it."
+        ],
+        "막히면": [
+          "출처가 없으면 S04·S07, 베낀 곳이 많으면 S06, 설명이 없으면 S09를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점 하나를 먼저 말하고, 고칠 점은 점검표에서 하나만 골라 질문으로 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(방법·출처·설명)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "고르고, 고쳐요",
+      "text": "①은 방법, ②는 고치기, ③은 고르기",
+      "problems": [
+        {
+          "text": "Han's interview (2025) is about why PE\nmatters for learning. → 방법은?"
+        },
+        {
+          "text": "Exercise is part of learning. (코치 한의 말을\n출처 없이 옮김) → 고치면?"
+        },
+        {
+          "text": "주장: More PE classes help students. 자료 뒤에 올 문장은?\n가 PE is fun.  나 This shows that PE can support learning."
+        }
+      ],
+      "notes": {
+        "목적": "자료를 옮긴 방법을 고르고, 출처 표시를 고치며, 근거 설명 문장을 고르는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 방법을, ②는 고쳐 말하고, ③은 알맞은 설명을 골라 줘.”"
+        ],
+        "정답": [
+          "① 요약 (글 전체의 핵심만 짧게, 출처 있음)",
+          "② 예: As Coach Han says, “Exercise is part of learning” (Han, 2025). / 또는 바꿔 쓰기 + (Han, 2025)",
+          "③ 나 (자료가 주장을 어떻게 돕는지 설명함)",
+          "기준: 세 개 모두 맞으면 통과입니다."
+        ],
+        "막히면": [
+          "①은 S03 표, ②는 S07, ③은 S09 다섯째 단계를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "②의 문장은 원문(Exercise is not a break from learning; it is part of learning)의 일부만 줄여 옮겼습니다. 원문에서 일부만 인용할 때도 따옴표 안은 원문과 같아야 합니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "직접 인용 “ ” · 바꿔 쓰기 · 요약 + 출처(According to ~ / (이름, 연도))\n자료 뒤에는 This shows that ~",
+      "do": "출처를 밝히고 내 말로 잇기",
+      "dont": "출처 없이 옮기기, 인용만 붙이기",
+      "review": [
+        {
+          "text": "자료를 옮기는\n세 방법은?"
+        },
+        {
+          "text": "출처를 밝히는\n두 자리는?"
+        },
+        {
+          "text": "자료 뒤에\n쓰는 문장은?"
+        }
+      ],
+      "next": "지원 이메일 쓰기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“자료를 옮기는 세 방법은?”",
+          "“출처를 밝히는 두 자리는?”"
+        ],
+        "예상답": [
+          "“직접 인용, 바꿔 쓰기, 요약이요.” “문장 앞 According to, 문장 끝 괄호요.”"
+        ],
+        "정답": [
+          "① 직접 인용(원문 그대로 + “ ”), 바꿔 쓰기(내 말로), 요약(핵심만) — 모두 출처와 함께",
+          "② 문장 앞: According to ~, As ~ explains / 문장 끝: (이름, 연도)",
+          "③ 자료 뒤에는 This shows that ~으로 주장과 잇기"
+        ],
+        "주의": [
+          "관심 있는 주제의 믿을 만한 자료 하나를 찾아 직접 인용 한 문장, 바꿔 쓰기 한 문장을 만들어 보면 좋은 복습이 됩니다. 다음 차시 ‘지원 이메일 쓰기’에서는 진로 관련 활동에 지원하는 이메일을 목적·경험·동기·마무리 짜임으로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(반론 문단과 출처 표현 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 출처 붙이기",
+      "layout": "support",
+      "text": "출처 + 내 말",
+      "table": {
+        "headers": [
+          "자료",
+          "출처를 붙여 바꿔 쓴 문장"
+        ],
+        "rows": [
+          [
+            "Ms. Cho (2025): Choice keeps students reading.",
+            "According to Ms. Cho (2025), students read more when they can choose."
+          ],
+          [
+            "Survey (2025): 62% have little time to read at home.",
+            "A survey found that 62% of students rarely have time to read at home (Example Survey, 2025)."
+          ]
+        ],
+        "widths": [
+          0.42,
+          0.58
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": {
+        "title": "약속",
+        "text": "누가 말했는지 밝히고, 내 말로, 숫자는 그대로"
+      },
+      "notes": {
+        "목적": "S02에서 반론 표현이나 출처 표현이 흔들리면, 자료를 쓰기 전에 짧은 문장에 출처를 붙이는 연습을 다시 합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 같은 내용에 출처를 붙이는 두 방법이야.”",
+          "“엄마(아빠)가 자료를 말하면 According to로 시작해서 바꿔 말해 줘. Dr. Kim (2024): Breakfast helps students focus in the morning.”"
+        ],
+        "정답": [
+          "According to Dr. Kim (2024), eating breakfast can help students concentrate during morning classes."
+        ],
+        "막히면": [
+          "According to + 누가(연도), + 내 말 틀만 먼저 연습합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 고2 ‘반론을 넣은 에세이’(KR22-G11-ENG-ESSAYCTR-L01)와 고3 ‘여러 자료 종합 정리’(KR22-G12-ENG-MULTISYN-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "Dr. Kim의 자료는 연습용 예시입니다. 보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "자료를 인용한 논증 글 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "본보기 에세이(S05)를 읽고, 직접 인용과 바꿔 쓰기에 다른 색으로 밑줄을 긋고, 출처 표시에 동그라미를 치세요.",
+        "read": "Many students today rarely read books for fun. In my opinion, high schools should give students time every week to read books they choose.\nFirst, reading for pleasure helps students build their vocabulary. According to the Example Reading Institute (2024), students who read for enjoyment for 20 minutes or more each day know more words than students who seldom read. Second, choice keeps students reading. As librarian Ms. Cho explains, “When students choose their own books, they are more likely to keep reading” (Cho, 2025). This shows that a reading period should let students pick their own books.\nSome people argue that students can read at home. Admittedly, class time is valuable. Nevertheless, a survey of 400 students found that 62% have little time for reading at home (Example Survey, 2025). Therefore, school may be the only place where many students can read regularly.\nFor these reasons, a weekly reading period would help students become stronger and happier readers.",
+        "answer": "직접 인용: “When students choose their own books, they are more likely to keep reading” (Cho, 2025). 바꿔 쓰기: According to the Example Reading Institute (2024), students who read for enjoyment ~ / a survey of 400 students found that 62% have little time for reading at home (Example Survey, 2025). 출처 표시: According to the Example Reading Institute (2024), As librarian Ms. Cho explains, (Cho, 2025), (Example Survey, 2025). 모두 찾으면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "자료(지어낸 예시)를 읽고, 아래 문장의 방법(직접 인용·바꿔 쓰기·요약)을 쓰고 문제가 있으면 고쳐 쓰세요.",
+        "read": "자료 1 Example Reading Institute (2024): In a study of 500 high school students, those who read for pleasure for at least 20 minutes a day knew more words than those who rarely read for fun.\n자료 2 Librarian Ms. Cho (2025): “When students choose their own books, they are more likely to keep reading.”\n자료 3 Survey of 400 students (2025, 예시 자료): 62% said they have little time to read at home because of homework and after-school classes.\n자료 4 Teacher Mr. Lee's newsletter (2025): “Class time is too valuable. Students can read at home.”",
+        "table": {
+          "headers": [
+            "문장",
+            "방법 · 고치기"
+          ],
+          "rows": [
+            [
+              "① As Ms. Cho explains, “When students choose their own books, they are more likely to keep reading” (Cho, 2025).",
+              ""
+            ],
+            [
+              "② According to a 2024 study, regular pleasure reading is linked to a larger vocabulary (Example Reading Institute, 2024).",
+              ""
+            ],
+            [
+              "③ Ms. Cho's interview (2025) is about why choice matters in reading.",
+              ""
+            ],
+            [
+              "④ Class time is too valuable. Students can read at home.",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.65,
+            0.35
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① 직접 인용 ② 바꿔 쓰기 ③ 요약 ④ 문제: Mr. Lee의 말을 인용 부호와 출처 없이 씀 → Mr. Lee argues that “class time is too valuable” (Lee, 2025). / 또는 According to Mr. Lee (2025), students can read at home because class time is precious. 네 개 모두 맞으면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "S06의 자료 문장을 같은 뜻으로 바꿔 쓰세요. 다 쓰면 원문과 네 낱말 이상 연달아 겹치는 곳이 있는지 확인하세요.",
+        "table": {
+          "headers": [
+            "자료 문장",
+            "바꿔 쓴 문장"
+          ],
+          "rows": [
+            [
+              "Regular exercise improves students' ability to concentrate in class.",
+              " \n "
+            ],
+            [
+              "Most teenagers need eight to ten hours of sleep each night.",
+              " \n "
+            ],
+            [
+              "Learning a musical instrument can help children develop patience.",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "예: Students who exercise often can focus better during lessons. / Each night, teens generally need between 8 and 10 hours of rest. / Children may become more patient when they practice an instrument. 같은 뜻이고 네 낱말 이상 연달아 겹치지 않으면 정답. 세 개 가운데 두 개 이상이면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "주장: Schools should have more PE classes. S11의 자료 가운데 둘을 골라 직접 인용 하나와 바꿔 쓰기 하나를 넣은 본론 문단(4~5문장)을 쓰세요.",
+        "read": "자료 1 Example Health Center (2024): Students who had a PE class in the morning scored higher on afternoon focus tests than students who had no PE that day.\n자료 2 Coach Han (2025): “Exercise is not a break from learning; it is part of learning.”\n자료 3 Survey of 300 students (2025, 예시 자료): 58% said they feel less stressed after PE class.",
+        "eng": {
+          "trace": [],
+          "blank": 7
+        },
+        "answer": "본보기: First, PE classes help students focus. According to the Example Health Center (2024), students who took part in a morning PE class did better on focus tests later in the day than classmates without PE. Coach Han also says, “Exercise is not a break from learning; it is part of learning” (Han, 2025). This shows that more PE time could support learning instead of taking time away from it. 기준은 활동지 5 점검표 다섯 항목 가운데 네 개 이상."
+      },
+      {
+        "no": 5,
+        "prompt": "점검표: 지킨 항목에 ✔ 하세요. 나와 부모님이 따로 표시해요.",
+        "table": {
+          "headers": [
+            "항목",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① 주장 문장",
+              "□",
+              "□"
+            ],
+            [
+              "② 인용 부호와 출처가 있는 직접 인용",
+              "□",
+              "□"
+            ],
+            [
+              "③ 출처가 있고 네 낱말 이상 베끼지 않은 바꿔 쓰기",
+              "□",
+              "□"
+            ],
+            [
+              "④ This shows that 설명",
+              "□",
+              "□"
+            ],
+            [
+              "⑤ 숫자·내용을 자료 그대로",
+              "□",
+              "□"
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "고칠 점 하나와 고친 문장:",
+        "lines": 2,
+        "answer": "아이와 부모가 각자 표시하고, 표시가 다른 항목 하나를 골라 고쳐 씁니다. 네 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 자료를 옮기는 세 방법과 차이를 쓰세요.\n② 출처를 밝히는 두 자리를 예와 함께 쓰세요.\n③ 자료 뒤에 써야 하는 문장의 틀을 쓰세요.",
+        "lines": 3,
+        "answer": "① 직접 인용(원문 그대로 + 인용 부호), 바꿔 쓰기(같은 뜻을 내 말로), 요약(핵심만 짧게) ② 문장 앞: According to Ms. Cho, ~ / 문장 끝: ~ (Cho, 2025). ③ This shows that ~. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 쓰기: 점검표 다섯 □  네 개 □  세 개 이하 □ (도움을 받음 □)",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "출처 없이 옮기거나 근거 설명이 없음: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
