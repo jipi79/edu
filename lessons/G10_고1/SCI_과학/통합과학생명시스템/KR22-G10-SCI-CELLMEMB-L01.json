@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G10-SCI-CELLMEMB-L01",
+  "concept_id": "SCI-CELLMEMB",
+  "title": "세포와 세포막",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "통합과학생명시스템",
+  "sequence": 1,
+  "file_stem": "고1_과학_통합과학생명시스템_01_세포와세포막",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-SCI-I01"
+    ],
+    "units": [
+      "6.6.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "세포 소기관이 함께 일하는 생명 시스템을 설명하고 세포막을 통한 확산·삼투 현상을 실험 결과로 해석한다.",
+  "prerequisites": [
+    {
+      "text": "세포의 구조",
+      "lesson": "KR22-G07-SCI-CELL-L01",
+      "grade_item": "KR22-G07-SCI-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "세포와 세포막 활동지",
+    "items": [],
+    "record": []
+  }
+}
