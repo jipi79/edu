@@ -4488,7 +4488,9 @@
   "objective": "박과 리듬을 구별하고 리듬 꼴을 손뼉과 악기로 친다.",
   "format": "act",
   "priority": 3,
-  "pre": [],
+  "pre": [
+   "KR22-G02-ART-RHYTHM-L01"
+  ],
   "file_stem": "초3_음악·미술_음악표현_01_박과리듬",
   "source": "lessons/G03_초3/ART_음악·미술/음악표현/KR22-G03-ART-BEATRHYTHM-L01.json",
   "status": "제작 완료"

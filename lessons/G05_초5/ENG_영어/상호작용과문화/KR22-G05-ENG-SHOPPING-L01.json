@@ -205,7 +205,7 @@
         "목적": "백 단위·천 단위 값을 숫자 낱말 + hundred/thousand로 말합니다(M1, M2).",
         "시간": "약 4분",
         "말하기": [
-          "“100은 one hundred야. 소리를 듣고 따라 해 봐. one hundred. 500은? 5가 백 개 있으니 five hundred.”",
+          "“100은 one hundred야. 소리를 듣고 따라 해 봐. one hundred. 500은? 백이 다섯 개 있으니 five hundred.”",
           "“1,000은 one thousand. 2,000은 two thousand. 천이 두 개여도 thousands가 아니라 thousand야.”",
           "“엄마(아빠)가 숫자를 짚으면 영어로 말해 줘.” (500 → 3,000 → 100 → 5,000 → 1,000 → 2,000 순서로 짚습니다.)"
         ],
@@ -830,7 +830,7 @@
       },
       {
         "no": 3,
-        "prompt": "소리 내어 읽으며 따라 쓰고, 빈 줄에 한 번씩 더 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰고, 빈 줄에 두 문장을 골라 더 쓰세요.",
         "eng": {
           "trace": [
             "How much is it?",
