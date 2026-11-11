@@ -321,6 +321,110 @@
               3.55
             ]
           },
+          "polygons": [
+            {
+              "pts": [
+                [
+                  -0.75,
+                  0.0
+                ],
+                [
+                  7.3,
+                  0.0
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  0.55
+                ],
+                [
+                  7.3,
+                  0.55
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  1.1
+                ],
+                [
+                  7.3,
+                  1.1
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  1.65
+                ],
+                [
+                  7.3,
+                  1.65
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  2.2
+                ],
+                [
+                  7.3,
+                  2.2
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  2.75
+                ],
+                [
+                  7.3,
+                  2.75
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            }
+          ],
           "circles": [
             {
               "center": [
@@ -394,84 +498,6 @@
             }
           ],
           "segments": [
-            {
-              "from": [
-                -0.75,
-                0.0
-              ],
-              "to": [
-                7.3,
-                0.0
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                0.55
-              ],
-              "to": [
-                7.3,
-                0.55
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                1.1
-              ],
-              "to": [
-                7.3,
-                1.1
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                1.65
-              ],
-              "to": [
-                7.3,
-                1.65
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                2.2
-              ],
-              "to": [
-                7.3,
-                2.2
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                2.75
-              ],
-              "to": [
-                7.3,
-                2.75
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
             {
               "from": [
                 3.5,
@@ -711,6 +737,110 @@
               3.55
             ]
           },
+          "polygons": [
+            {
+              "pts": [
+                [
+                  -0.75,
+                  0.0
+                ],
+                [
+                  7.3,
+                  0.0
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  0.55
+                ],
+                [
+                  7.3,
+                  0.55
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  1.1
+                ],
+                [
+                  7.3,
+                  1.1
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  1.65
+                ],
+                [
+                  7.3,
+                  1.65
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  2.2
+                ],
+                [
+                  7.3,
+                  2.2
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            },
+            {
+              "pts": [
+                [
+                  -0.75,
+                  2.75
+                ],
+                [
+                  7.3,
+                  2.75
+                ]
+              ],
+              "open": true,
+              "fill": "none",
+              "color": "E2E8F0",
+              "width": 1,
+              "dash": true
+            }
+          ],
           "circles": [
             {
               "center": [
@@ -784,84 +914,6 @@
             }
           ],
           "segments": [
-            {
-              "from": [
-                -0.75,
-                0.0
-              ],
-              "to": [
-                7.3,
-                0.0
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                0.55
-              ],
-              "to": [
-                7.3,
-                0.55
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                1.1
-              ],
-              "to": [
-                7.3,
-                1.1
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                1.65
-              ],
-              "to": [
-                7.3,
-                1.65
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                2.2
-              ],
-              "to": [
-                7.3,
-                2.2
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
-            {
-              "from": [
-                -0.75,
-                2.75
-              ],
-              "to": [
-                7.3,
-                2.75
-              ],
-              "dash": true,
-              "color": "E2E8F0",
-              "width": 1
-            },
             {
               "from": [
                 3.5,

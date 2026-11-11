@@ -2243,7 +2243,7 @@
               "size": "small"
             }
           ],
-          "ws_unit": 5
+          "ws_unit": 6
         },
         "lines": 1,
         "line_label": "________ 시 ________ 분 ________ 초",
