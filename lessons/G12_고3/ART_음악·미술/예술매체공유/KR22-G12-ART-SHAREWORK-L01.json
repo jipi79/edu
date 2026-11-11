@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G12-ART-SHAREWORK-L01",
+  "concept_id": "ART-SHAREWORK",
+  "title": "책임 있는 온라인 공유",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "예술매체공유",
+  "sequence": 2,
+  "file_stem": "고3_음악·미술_예술매체공유_02_책임있는온라인공유",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ART-I03"
+    ],
+    "units": [
+      "9.3.4",
+      "9.3.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "포트폴리오 일부를 영상이나 온라인 전시로 만들고 공개 범위·출처 표시·댓글 관리 방법을 정해 공유한다.",
+  "prerequisites": [
+    {
+      "text": "저작권·초상권 점검",
+      "lesson": "KR22-G12-ART-COPYRIGHT-L01",
+      "grade_item": "KR22-G12-ART-I03"
+    },
+    {
+      "text": "예술 포트폴리오 구성",
+      "lesson": "KR22-G12-ART-PORTFOLIO-L01",
+      "grade_item": "KR22-G12-ART-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "책임 있는 온라인 공유 활동지",
+    "items": [],
+    "record": []
+  }
+}

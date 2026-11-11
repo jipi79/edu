@@ -1,0 +1,63 @@
+{
+  "id": "KR22-G12-HUM-CRITREVIEW-L01",
+  "concept_id": "HUM-CRITREVIEW",
+  "title": "철학적 쟁점 비판적 검토",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "HUM",
+  "strand_label": "철학·논리·심리·교육·종교",
+  "unit_folder": "기호논리와철학",
+  "sequence": 2,
+  "file_stem": "고3_철학·논리·심리·교육·종교_기호논리와철학_02_철학적쟁점비판적검토",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-HUM-I01"
+    ],
+    "units": [
+      "11.2.4",
+      "11.2.5",
+      "11.1.4",
+      "11.1.5"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "'AI의 창작은 창조인가', '자연도 권리를 가지는가' 같은 창조성·생태의 질문에 대한 주장을 숨은 전제·반례·과학적 근거로 검토하고 자신의 입장을 논증으로 쓴다.",
+  "prerequisites": [
+    {
+      "text": "귀납 논증의 강도",
+      "lesson": "KR22-G11-HUM-INDUCT-L01",
+      "grade_item": "KR22-G11-HUM-I01"
+    },
+    {
+      "text": "반례와 오류 검토",
+      "lesson": "KR22-G10-HUM-COUNTEREX-L01",
+      "grade_item": "KR22-G10-HUM-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "철학적 쟁점 비판적 검토 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G12-HUM-COEXIST-L01",
+  "concept_id": "HUM-COEXIST",
+  "title": "종교 쟁점과 공존 방안",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "HUM",
+  "strand_label": "철학·논리·심리·교육·종교",
+  "unit_folder": "종교와공존",
+  "sequence": 1,
+  "file_stem": "고3_철학·논리·심리·교육·종교_종교와공존_01_종교쟁점과공존방안",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-HUM-I03"
+    ],
+    "units": [
+      "11.5.5",
+      "11.5.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "종교의 자유가 다른 권리·규칙과 부딪치는 사회 쟁점(복장·급식·의례)을 여러 입장에서 분석하고 근거 있는 공존 방안을 제시한다.",
+  "prerequisites": [
+    {
+      "text": "세계 종교의 세계관",
+      "lesson": "KR22-G11-HUM-RELIGIONS-L01",
+      "grade_item": "KR22-G11-HUM-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "종교 쟁점과 공존 방안 활동지",
+    "items": [],
+    "record": []
+  }
+}

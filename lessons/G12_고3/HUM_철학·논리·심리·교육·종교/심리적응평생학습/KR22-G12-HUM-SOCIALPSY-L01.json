@@ -1,0 +1,63 @@
+{
+  "id": "KR22-G12-HUM-SOCIALPSY-L01",
+  "concept_id": "HUM-SOCIALPSY",
+  "title": "사회적 행동과 적응",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "HUM",
+  "strand_label": "철학·논리·심리·교육·종교",
+  "unit_folder": "심리적응평생학습",
+  "sequence": 1,
+  "file_stem": "고3_철학·논리·심리·교육·종교_심리적응평생학습_01_사회적행동과적응",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-HUM-I02"
+    ],
+    "units": [
+      "11.3.4",
+      "11.3.5",
+      "11.4.4",
+      "11.4.5"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "동조·귀인 오류 실험 결과로 일상의 사회적 행동을 분석하고 스트레스에 대처하는 적응 방법을 자신에게 맞게 고른다.",
+  "prerequisites": [
+    {
+      "text": "마음의 과학적 설명",
+      "lesson": "KR22-G10-HUM-PSYSCI-L01",
+      "grade_item": "KR22-G10-HUM-I02"
+    },
+    {
+      "text": "동기와 교육 기회",
+      "lesson": "KR22-G11-HUM-MOTIVEQ-L01",
+      "grade_item": "KR22-G11-HUM-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "사회적 행동과 적응 활동지",
+    "items": [],
+    "record": []
+  }
+}
