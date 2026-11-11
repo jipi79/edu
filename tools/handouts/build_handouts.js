@@ -25,7 +25,7 @@ function parseArgs(argv) {
 // 위첨자(2³)·아래 첨자(H₂O) 문자는 글꼴에 따라 너무 작거나 없으므로 보통 글자를 <sup>·<sub>로 쓴다.
 const { SCRIPT_RUNS, scriptKind, plainScript } = require("../pptx/scripts");
 // 수와 단위(4 g, 10 cm, 25 °C), 비(1 : 8) 사이에서는 줄을 바꾸지 않는다.
-const UNIT = /(\d) (?=(?:개|명|원|도|분|초|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal|m\/s|g\/cm³|g\/mL)(?![A-Za-z]))/g;
+const UNIT = /(\d) (?=(?:개국|개월|개|명|원|도|분|초|번째|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|종|곳|가구|군데|그루|송이|켤레|벌|채|잔|병|주|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal|m\/s|g\/cm³|g\/mL)(?![A-Za-z]))/g;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
   .replace(UNIT, "$1\u00a0").replace(/(\d) : (?=\d)/g, "$1\u00a0:\u00a0")
   .replace(SCRIPT_RUNS, (m) => `<${scriptKind(m)}>${plainScript(m)}</${scriptKind(m)}>`)
@@ -183,7 +183,7 @@ function tableHtml(t) {
   // 빈칸용 줄바꿈(" \n ")도 한 줄 높이를 차지하게, 줄바꿈 뒤가 비면 줄바꿈 없는 공백을 넣는다.
   const br = (s) => jamo(esc(s)).replace(/\n(?=\s*(?:\n|$))/g, "<br>\u00a0").replace(/\n/g, "<br>");
   const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${br(h)}</th>`).join("")}</tr>` : "";
-  const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${br(c)}</th>` : `<td style="height:9mm; min-width:18mm; text-align:center">${br(c)}</td>`);
+  const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${br(c)}</th>` : `<td style="height:9mm; min-width:18mm; text-align:${t.align || "center"}">${br(c)}</td>`);
   const rows = t.rows.map((r) => `<tr>${r.map(cell).join("")}</tr>`).join("");
   // widths(합이 1인 비율)가 있으면 열 너비를 그 비율로 나눈다.
   const cols = t.widths ? `<colgroup>${t.widths.map((f) => `<col style="width:${(f * 100).toFixed(1)}%">`).join("")}</colgroup>` : "";
