@@ -1,0 +1,924 @@
+{
+  "id": "KR22-G11-ENG-LITSTORY-L01",
+  "concept_id": "ENG-LITSTORY",
+  "title": "영미 단편 소설 읽기",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "문학과직무영어",
+  "sequence": 1,
+  "file_stem": "고2_영어_문학과직무영어_01_영미단편소설읽기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ENG-I03"
+    ],
+    "units": [
+      "3.5.3",
+      "3.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "함축된 의미 추론",
+      "lesson": "KR22-G09-ENG-IMPLIED-L01",
+      "grade_item": "KR22-G09-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "쉬운 영어로 다시 쓴 단편 소설에서 인물(Della, Jim)·배경(때·곳·형편)·갈등(크리스마스 선물을 사고 싶지만 돈이 1달러 87센트뿐)을 찾고, 사건의 흐름(시작 → 사건 → 절정 → 결말)을 표로 정리한다.",
+      "evidence": "이야기의 네 요소(S03), 1부 읽기(S04), 2부 읽기(S05), 3부 읽기(S06), 사건 흐름표(S07), 마무리 확인(S13), 활동지 1·2",
+      "success": "활동지 1의 인물·배경·갈등 칸을 모두 바르게 채우고, 활동지 2의 사건 흐름 네 칸 가운데 세 칸 이상을 알맞은 사건으로 채운다."
+    },
+    {
+      "id": "B",
+      "text": "인물의 심경 변화(Della: 슬픔 → 결심·설렘 → 걱정 → 놀람과 깊은 사랑)를 심경 낱말과 근거 문장으로 설명하고, 상황의 아이러니(서로를 위해 판 것이 상대의 선물을 쓸모없게 만듦)와 주제(사랑은 자기에게 가장 소중한 것을 내어 주는 것)를 한 문장으로 말한다.",
+      "evidence": "심경 낱말과 근거(S05), 아이러니와 주제(S08), 주제 문장 비교(S09), 인물 인터뷰(S10), 혼자 해 보기(S11), 마무리 확인(S13), 활동지 3",
+      "success": "S11과 활동지 3에서 Della의 심경 세 곳 가운데 세 곳 모두에 알맞은 심경 낱말과 근거 문장을 쓰고, 아이러니와 주제를 각각 한 문장(우리말 가능)으로 쓴다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "색연필 두 가지(Della와 Jim의 심경 근거에 다른 색)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "오 헨리(O. Henry)의 단편 「The Gift of the Magi」(1905, 저작권 보호 기간이 끝난 작품)의 줄거리를 이 차시를 위해 쉬운 영어(고2 수준 어휘, 한 부분 100~130 낱말)로 직접 다시 쓴 글만 쓴다. 원문 문장은 옮기지 않았고 인물의 대사도 간접 화법으로 바꾸었으며, 화면과 활동지에 ‘다시 쓴 이야기(원문 아님)’라고 밝힌다. 줄거리의 사실(1달러 87센트, 머리카락 20달러, 시곗줄 21달러, 남은 87센트, 금시계와 머리빗)은 원작과 같게 했다. 인물·배경·갈등·사건 흐름(시작·사건·절정·결말), 심경 낱말(sad, worried, determined, excited, nervous, afraid, shocked, touched, loving)과 근거 문장, 상황의 아이러니, 주제 한 문장을 다룬다. 원문 읽기, 작가의 문체 분석, 시점·복선 같은 문학 용어, 다른 아이러니(언어적·극적 아이러니)의 구분은 다루지 않는다. Magi(동방 박사)는 이야기 제목의 배경으로만 소개한다. ‘배경·갈등·절정·아이러니·주제’라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "인물의 심경을 근거 없이 말하거나, 근거로 심경이 드러나지 않는 문장을 댄다.",
+      "response": "S05에서 심경 낱말과 근거 문장을 짝지어 말하게 하고(I think Della felt ~ because ~), S10·S11과 활동지 3에서 근거 문장을 그대로 옮기게 한다."
+    },
+    {
+      "id": "M2",
+      "text": "주제를 줄거리 요약이나 글자 그대로의 교훈(머리카락을 팔지 말자)으로 말한다.",
+      "response": "S08에서 주제는 이야기가 말하려는 생각(삶에 대한 메시지)이라는 것을 보여 주고, S09 비교와 S13 ③에서 주제와 소재를 구분하게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "아이러니를 ‘슬픈 일’이나 ‘운 나쁜 일’로만 이해한다(예상과 정반대로 되는 결과라는 점을 놓침).",
+      "response": "S08 아이러니 카드에서 ‘기대한 것 ↔ 실제로 일어난 것’을 표로 보여 주고, S13 ②에서 아이러니인 상황을 고르게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "다시 쓴 이야기를 원작 그대로라고 생각한다.",
+      "response": "모든 지문 화면과 활동지에 ‘다시 쓴 이야기(원문 아님)’라고 밝히고, S01에서 작가와 발표 연도, 다시 쓴 글이라는 점을 알려 준다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "영미 단편 소설 읽기",
+      "question": "가장 아끼는 것을 팔아 선물을 산다면?\n두 사람에게 무슨 일이 생길까?",
+      "goals": [
+        "① 인물·배경·갈등과 사건 흐름을 정리해요.",
+        "② 심경 변화를 근거로 말하고 아이러니와 주제를 찾아요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Della",
+            "sub": "아내"
+          },
+          {
+            "word": "Jim",
+            "sub": "남편"
+          },
+          {
+            "word": "1905, New York",
+            "sub": "다시 쓴 이야기"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 읽을 이야기를 소개하고, 원작을 쉬운 영어로 다시 쓴 글이라는 것과 인물의 마음 변화·아이러니를 찾는다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오늘은 미국 작가 오 헨리가 1905년에 발표한 짧은 소설 이야기를 읽을 거야. 원래 글은 어려워서, 쉬운 영어로 다시 쓴 이야기로 읽어. 원문을 그대로 옮긴 게 아니야.”",
+          "“가난한 젊은 부부가 크리스마스에 서로에게 선물을 하려고 해. 너라면 가장 아끼는 물건을 팔아서 선물을 살 수 있을까?”"
+        ],
+        "예상답": [
+          "“가장 아끼는 건 못 팔 것 같아요.” “정말 사랑하면 팔 수도 있어요.”"
+        ],
+        "막히면": [
+          "“네가 가장 아끼는 물건은 뭐야? 그걸 엄마(아빠) 선물을 위해 팔 수 있어?”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 지문은 오 헨리 「The Gift of the Magi(크리스마스 선물)」(1905)의 줄거리를 이 수업을 위해 쉬운 영어로 다시 쓴 글입니다. 원문 문장을 옮기지 않았고, 대사도 간접 화법으로 바꾸었습니다. 원작은 저작권 보호 기간이 끝난 작품이라 도서관이나 공개 전자책에서 찾아 함께 읽어 볼 수 있습니다.",
+          "지문은 부모님이 한 번 소리 내어 읽어 주세요. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(단서로 심경 추론)",
+      "role": "prior",
+      "objectives": [],
+      "title": "마음을 짐작해요",
+      "text": "기분을 영어 낱말로 말하고, 단서를 찾아요.",
+      "problems": [
+        {
+          "text": "She smiled and hugged her mom."
+        },
+        {
+          "text": "Mina's face turned red,\nand she looked at the floor."
+        },
+        {
+          "text": "Jun slammed the door."
+        }
+      ],
+      "notes": {
+        "목적": "중3 ‘함축된 의미 추론’(KR22-G09-ENG-IMPLIED-L01)에서 행동·표정 같은 단서로 드러나지 않은 마음을 짐작하고 근거를 댄 것을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“인물의 기분을 영어 낱말로 말하고, 그렇게 생각한 단서를 말해 줘.”"
+        ],
+        "정답": [
+          "① happy / thankful — 단서: smiled, hugged her mom",
+          "② embarrassed — 단서: face turned red, looked at the floor",
+          "③ angry — 단서: slammed the door"
+        ],
+        "막히면": [
+          "“이런 행동을 할 때 너는 어떤 기분이야?”라고 묻고, 우리말로 말하면 영어 낱말을 함께 찾습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "오늘 소설에서도 인물이 ‘슬프다’고 직접 말하지 않습니다. 행동(울었다, 서둘렀다)이 단서입니다. slam은 ‘쾅 닫다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "이야기의 네 요소",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "이야기의 네 요소",
+      "text": "오늘 읽으며 네 칸을 채워요(활동지 1·2).",
+      "cards": [
+        {
+          "title": "인물",
+          "text": "이야기에 나오는 사람\n(누가?)"
+        },
+        {
+          "title": "배경",
+          "text": "때 · 곳 · 형편\n(언제, 어디서, 어떤 처지?)"
+        },
+        {
+          "title": "갈등",
+          "text": "인물이 바라는 것을\n막는 문제"
+        },
+        {
+          "title": "사건 흐름",
+          "text": "시작 → 사건 → 절정 → 결말"
+        }
+      ],
+      "key": "갈등 = 인물이 바라는 것 + 그것을 막는 문제",
+      "notes": {
+        "목적": "인물, 배경, 갈등, 사건 흐름(시작·사건·절정·결말)의 뜻을 보여 줍니다(목표 A).",
+        "시간": "약 3분",
+        "말하기": [
+          "“인물은 이야기에 나오는 사람, 배경은 때와 곳과 형편이야.”",
+          "“갈등은 인물이 바라는 것을 막는 문제야. 이야기는 갈등을 풀어 가는 과정이지.”",
+          "“사건은 시작 → 사건 → 절정 → 결말로 흘러. 절정은 가장 긴장되는 순간이야.”"
+        ],
+        "예상답": [
+          "“갈등은 인물이 겪는 문제예요.” “절정은 제일 중요한 장면이에요.”"
+        ],
+        "막히면": [
+          "아이가 잘 아는 이야기(예: 좋아하는 영화)로 네 요소를 먼저 말해 보게 합니다."
+        ],
+        "주의": [
+          "갈등은 꼭 싸움이 아니어도 됩니다. 오늘 이야기의 갈등은 ‘선물을 사고 싶은데 돈이 없다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "1부: 인물·배경·갈등 찾기(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "1부: 크리스마스 전날",
+      "text": "다시 쓴 이야기(원문 아님): O. Henry, “The Gift of the Magi” (1905)",
+      "passage": {
+        "paragraphs": [
+          "It was the day before Christmas in New York, a little more than a hundred years ago. Della counted her money again. She had only one dollar and eighty-seven cents, and she had saved every cent for months. Della and her husband, Jim, rented a small, cheap apartment, and Jim did not earn much money. Della wanted to give Jim a special Christmas present, but what could she buy with so little? She sat down and cried. The young couple owned only two treasures. One was Jim's gold watch, which had once belonged to his father and grandfather. The other was Della's beautiful brown hair. It was so long that it reached below her knees."
+        ]
+      },
+      "question": "① 인물은? ② 배경(때·곳·형편)은? ③ 갈등은? ④ 두 보물에 밑줄!",
+      "notes": {
+        "목적": "부모가 1부를 읽어 주고, 인물·배경·갈등을 함께 찾는 시범을 보입니다(목표 A).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 1부를 한 번 읽어 줍니다.)",
+          "“인물은 누구야? 때와 곳은? 이 부부의 형편은 어때?”",
+          "“Della가 바라는 것은? 그걸 막는 문제는? 그게 갈등이야.”",
+          "“두 사람의 보물 두 가지에 밑줄을 그어 볼래? 나중에 아주 중요해져.”"
+        ],
+        "예상답": [
+          "“Della와 Jim이에요. 크리스마스 전날, 뉴욕이에요. 가난해요.” “선물을 사고 싶은데 돈이 1달러 87센트뿐이에요.”"
+        ],
+        "막히면": [
+          "“Della had only ~ 문장을 다시 읽어 봐. 돈이 얼마 있었지?”라고 묻습니다."
+        ],
+        "주의": [
+          "인물: Della(아내), Jim(남편) / 배경: 100여 년 전 크리스마스 전날, 뉴욕의 작고 싼 셋집, 가난한 형편 / 갈등: Jim에게 특별한 선물을 하고 싶지만 1달러 87센트뿐이다 / 보물: Jim의 금시계(아버지와 할아버지의 것), Della의 무릎까지 오는 갈색 머리카락",
+          "1부의 뜻: 100여 년 전 뉴욕, 크리스마스 전날이었어요. Della는 돈을 다시 세어 보았어요. 몇 달 동안 한 푼 한 푼 모았지만 1달러 87센트뿐이었어요. Della와 남편 Jim은 작고 싼 셋집에 살았고, Jim은 돈을 많이 벌지 못했어요. Della는 Jim에게 특별한 크리스마스 선물을 하고 싶었지만, 이렇게 적은 돈으로 무엇을 살 수 있을까요? 그녀는 주저앉아 울었어요. 젊은 부부에게는 보물이 딱 두 개 있었어요. 하나는 아버지와 할아버지가 쓰던 Jim의 금시계였어요. 다른 하나는 Della의 아름다운 갈색 머리카락이었어요. 머리카락은 무릎 아래까지 내려올 만큼 길었어요. (earn: 벌다, rent: 세 들어 살다, treasure: 보물, belong to: ~의 것이다, knee: 무릎)"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "2부: 심경 낱말과 근거 문장",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "2부: Della의 결심",
+      "text": "다시 쓴 이야기(원문 아님): O. Henry, “The Gift of the Magi” (1905)",
+      "passage": {
+        "paragraphs": [
+          "Suddenly, Della had an idea. She put on her old coat and hat and hurried to a shop that bought hair. The owner looked at Della's hair and offered twenty dollars, and Della agreed. For the next two hours, she went from store to store, looking for the perfect gift. At last she found it: a simple but fine platinum chain for Jim's gold watch. Jim had only an old leather strap for his watch, so he sometimes checked the time secretly. The chain cost twenty-one dollars, and Della went home with eighty-seven cents. When she looked in the mirror, she saw short curls all over her head. She was afraid that Jim would no longer think she was pretty."
+        ]
+      },
+      "question": "Della의 마음: 처음은? 거울 앞에서는?  I think Della felt ~ because ~.",
+      "notes": {
+        "목적": "2부를 읽고 Della의 마음이 어떻게 바뀌는지 심경 낱말과 근거 문장으로 말합니다(목표 A·B, 오해 M1).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 2부를 한 번 읽어 줍니다.)",
+          "“1부 끝에서 Della는 울었지? 2부 처음에는 마음이 어떻게 바뀌었어? 근거 문장은?”",
+          "“거울을 볼 때 Della의 마음은? I think Della felt ~ because ~.로 말해 볼래?”"
+        ],
+        "정답": [
+          "처음: determined / excited (결심한, 설레는) — 근거: Suddenly, Della had an idea. / hurried to a shop / went from store to store",
+          "끝: nervous / afraid (불안한, 두려운) — 근거: She was afraid that Jim would no longer think she was pretty.",
+          "사건: Della가 머리카락을 20달러에 팔고, 21달러짜리 백금 시곗줄을 산다(87센트가 남음)."
+        ],
+        "막히면": [
+          "“hurried(서둘렀다), went from store to store(이 가게 저 가게를 다녔다)는 어떤 마음일 때 하는 행동이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "심경 낱말 예: sad 슬픈, worried 걱정하는, determined 굳게 결심한, excited 들뜬, nervous 불안한, afraid 두려운, shocked 크게 놀란, touched 감동한.",
+          "2부의 뜻: 갑자기 Della에게 생각이 떠올랐어요. 낡은 외투와 모자를 걸치고 머리카락을 사는 가게로 서둘러 갔어요. 가게 주인은 Della의 머리카락을 보고 20달러를 주겠다고 했고, Della는 그러자고 했어요. 그 뒤 두 시간 동안 Della는 완벽한 선물을 찾아 이 가게 저 가게를 다녔어요. 마침내 찾아냈어요. Jim의 금시계에 달 단순하지만 고급스러운 백금 시곗줄이었어요. Jim은 시계에 낡은 가죽끈밖에 없어서 가끔 몰래 시간을 보곤 했거든요. 시곗줄은 21달러였고, Della는 87센트를 들고 집에 왔어요. 거울을 보니 머리 가득 짧은 곱슬머리가 보였어요. Della는 Jim이 자기를 더는 예쁘다고 생각하지 않을까 봐 두려웠어요. (offer: 값을 부르다, platinum: 백금, leather strap: 가죽끈, curl: 곱슬머리)"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "3부: 절정 읽기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "3부: Jim의 선물",
+      "text": "다시 쓴 이야기(원문 아님): O. Henry, “The Gift of the Magi” (1905)",
+      "passage": {
+        "paragraphs": [
+          "Jim came home at the usual time. When he opened the door and saw Della, he stopped and stared at her. His face did not look angry or surprised. It showed a strange feeling that Della could not understand. She quickly explained that she had sold her hair to buy him a present and that it would grow back soon. Jim took a small package out of his coat and put it on the table. Inside was a set of beautiful combs with jewels on the edges. Della had wanted them for a long time, ever since she had seen them in a shop window. But now she had no long hair to wear them in."
+        ]
+      },
+      "question": "① Jim의 표정은 왜 이상했을까?  ② Jim의 선물을 Della는 지금 쓸 수 있나요?",
+      "notes": {
+        "목적": "3부를 읽고 절정 장면에서 Jim의 반응과 Jim이 준 선물의 뜻을 짐작합니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "(부모가 3부를 한 번 읽어 줍니다.)",
+          "“Jim은 왜 화난 얼굴도, 놀란 얼굴도 아니었을까? 다음 부분을 읽기 전에 짐작해 볼래?”",
+          "“Jim의 선물은 무엇이었어? Della는 그 선물을 지금 쓸 수 있어?”"
+        ],
+        "정답": [
+          "Jim의 반응: stared at her — 이상한 표정(아직 이유를 모름: Jim도 무언가를 팔았을지도)",
+          "Jim의 선물: 보석이 박힌 머리빗 — Della가 오래 갖고 싶어 하던 것이지만 이제 긴 머리가 없어 쓸 수 없다(근거: But now she had no long hair to wear them in.)"
+        ],
+        "막히면": [
+          "“빗은 무엇에 쓰는 물건이야? Della의 머리는 지금 어때?”라고 묻습니다."
+        ],
+        "주의": [
+          "Jim이 시계를 팔았다는 사실은 4부(결말)에서 드러납니다. 여기서는 아이가 짐작하게만 합니다.",
+          "3부의 뜻: Jim은 늘 오던 시간에 집에 왔어요. 문을 열고 Della를 보더니 멈춰 서서 그녀를 빤히 보았어요. 그의 얼굴은 화가 나 보이지도, 놀라 보이지도 않았어요. Della가 이해할 수 없는 이상한 감정이 담겨 있었지요. Della는 그에게 선물을 사 주려고 머리카락을 팔았고, 머리는 금방 다시 자랄 거라고 서둘러 설명했어요. Jim은 외투에서 작은 꾸러미를 꺼내 탁자 위에 놓았어요. 안에는 가장자리에 보석이 박힌 아름다운 머리빗 한 세트가 들어 있었어요. 가게 진열창에서 본 뒤로 Della가 오랫동안 갖고 싶어 하던 것이었어요. 하지만 이제 그녀에게는 빗을 꽂을 긴 머리가 없었어요. (stare: 빤히 보다, explain: 설명하다, package: 꾸러미, comb: 머리빗, jewel: 보석, edge: 가장자리)"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "table",
+      "section": "연습",
+      "purpose": "4부 결말과 사건 흐름표",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "사건 흐름을 정리해요",
+      "text": "4부(결말)를 듣고, 빈칸을 말로 채워요.",
+      "table": {
+        "headers": [
+          "시작(갈등)",
+          "사건",
+          "절정",
+          "결말"
+        ],
+        "rows": [
+          [
+            "크리스마스 전날, 1달러 87센트뿐",
+            "Della가 ______을 팔아\n______을 산다.",
+            "Jim이 짧은 머리를 보고\n______을 내놓는다.",
+            "Jim은 ______을 팔았다."
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "두 사람 모두 가장 소중한 것을 팔았어요.",
+      "notes": {
+        "목적": "4부(결말)를 듣고 사건 흐름표(시작·사건·절정·결말)를 말로 채웁니다(목표 A). 활동지 2에 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“4부를 읽어 줄게.” (부모가 활동지 1의 4부를 읽어 줍니다.)",
+          "“이제 표의 빈칸을 말로 채워 볼래? 다 말하면 활동지 2에 짧게 써.”"
+        ],
+        "정답": [
+          "시작: 크리스마스 전날, Della에게 1달러 87센트뿐이라 선물을 살 수 없다(갈등).",
+          "사건: Della가 머리카락을 팔아 Jim의 금시계에 달 시곗줄을 산다.",
+          "절정: Jim이 Della의 짧은 머리를 보고, 머리빗을 선물로 내놓는다.",
+          "결말: Jim은 머리빗을 사려고 시계를 팔았다. 두 선물 모두 지금은 쓸 수 없지만, 작가는 두 사람을 가장 지혜로운 선물을 한 사람들이라고 한다."
+        ],
+        "막히면": [
+          "“이 칸에서 Della나 Jim은 무엇을 했지?”라고 칸마다 한 가지만 묻습니다."
+        ],
+        "주의": [
+          "4부의 뜻: Della는 활짝 웃으며 Jim에게 시곗줄을 보여 주었어요. Jim은 앉아서 부드럽게 웃더니, 머리빗을 사려고 금시계를 팔았다고 말했어요. 이야기를 들려주는 사람(화자)은 이 두 젊은이를 아기 예수에게 선물을 가져온 지혜로운 사람들인 동방 박사(Magi)처럼 가장 지혜로운 선물을 한 사람들이라고 부르며 이야기를 끝내요. 두 사람은 저마다 가장 소중한 것을 상대를 위해 내어 주었으니까요. (narrator: 화자, Magi: 동방 박사, precious: 소중한)"
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "상황의 아이러니와 주제",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "아이러니와 주제",
+      "text": "아이러니: 기대한 것과 정반대로 일어나는 일",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "기대: 시곗줄로\n시계를 멋지게",
+            "sub": "Della의 선물"
+          },
+          {
+            "word": "실제: 시계를\n이미 팔았다",
+            "sub": "아이러니",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "상황의 아이러니",
+          "text": "서로를 위해 판 것이\n상대의 선물을 쓸모없게 했어요."
+        },
+        {
+          "title": "주제",
+          "text": "사랑은 가장 소중한 것을\n기꺼이 내어 주는 것"
+        }
+      ],
+      "key": "소재(머리카락·시계) ≠ 주제(사랑과 희생에 대한 메시지)",
+      "notes": {
+        "목적": "상황의 아이러니(기대한 것과 정반대로 일어난 결과)와 주제(이야기가 말하려는 삶의 메시지)를 이 이야기로 보여 줍니다(목표 B, 오해 M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Della는 시곗줄을 사면 Jim이 시계를 멋지게 쓸 거라고 기대했지? 실제로는? 시계가 없어. Jim도 마찬가지야. 머리빗을 쓸 머리가 없어.”",
+          "“이렇게 기대와 정반대로 일어나는 것을 상황의 아이러니라고 해. 그냥 운 나쁜 일과는 달라. 서로를 위한 행동이 바로 그 결과를 만들었잖아.”",
+          "“그럼 작가는 왜 두 사람을 ‘가장 지혜롭다’고 했을까? 그게 주제야.”"
+        ],
+        "예상답": [
+          "“서로 사랑해서 가장 소중한 걸 줬으니까요.”"
+        ],
+        "막히면": [
+          "“선물은 쓸모없어졌지만, 두 사람이 서로에게 보여 준 것은 무엇일까?”라고 묻습니다."
+        ],
+        "주의": [
+          "주제 예: True love means giving up what you treasure most for someone you love. / 선물의 값어치는 값이 아니라 그 안의 사랑에 있다.",
+          "아이러니(irony)는 고등학교 문학에서 자주 나오는 말입니다. 오늘은 ‘상황의 아이러니’ 하나만 다룹니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(교훈을 글자 그대로 말하기)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "어느 쪽이 주제일까?",
+      "claim": "두 친구가 이 이야기의 주제를 이렇게 말했어요.",
+      "left": {
+        "title": "가",
+        "text": "Don't sell your hair or\nyour watch. You will be sorry."
+      },
+      "right": {
+        "title": "나",
+        "text": "True love means giving up\nwhat you treasure most\nfor someone you love."
+      },
+      "question": "어느 쪽이 주제인가요? 다른 쪽은 무엇을 놓쳤나요?",
+      "notes": {
+        "목적": "글자 그대로의 교훈과 이야기 전체가 말하려는 주제를 비교합니다(목표 B, 오해 M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 이 이야기의 주제를 이렇게 말했어. 어느 쪽이 주제일까?”",
+          "“가처럼 말하면 Della와 Jim이 잘못한 사람이 돼. 작가는 두 사람을 뭐라고 불렀지?”"
+        ],
+        "정답": [
+          "나가 주제입니다. 작가는 두 사람을 ‘가장 지혜로운 선물을 한 사람들’이라고 불렀으므로, 이야기는 소중한 것을 내어 주는 사랑을 칭찬합니다. 가는 사건(머리카락을 팜)을 글자 그대로 받아들여 이야기와 반대되는 교훈을 말했습니다."
+        ],
+        "막히면": [
+          "4부의 the wisest gift-givers를 다시 읽게 합니다."
+        ],
+        "주의": [
+          "주제는 한 문장으로, 인물 이름 없이도 누구에게나 통하는 말로 쓰면 좋습니다.",
+          "여기까지가 이야기 읽기와 아이러니·주제입니다. 아이가 지치면 여기서 나누어 다음 날 S10부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "인물 인터뷰(핫 시트)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 인물 인터뷰",
+      "steps": [
+        "아이가 Della가 되어요.",
+        "부모가 기자처럼\n질문해요.",
+        "아이가 I felt ~ because ~.로\n답해요.",
+        "역할을 바꿔 부모가 Jim,\n아이가 기자가 돼요.",
+        "가장 마음에 남은 답을\n서로 말해요."
+      ],
+      "criteria": [
+        "심경 낱말을 썼어요",
+        "because 뒤에 이야기 속 근거",
+        "질문을 두 개 이상 했어요"
+      ],
+      "notes": {
+        "목적": "아이가 Della가 되어 부모의 질문에 영어로 심경과 근거를 말하고, 역할을 바꿔 부모가 Jim이 되어 아이의 질문에 답합니다(목표 B, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“너는 이제 Della야. 엄마(아빠)가 기자처럼 물어볼게. I felt ~ because ~.로 대답해 줘.”",
+          "(부모의 질문: How did you feel when you counted your money? / Why did you sell your hair? / How did you feel when you looked in the mirror? / How did you feel when you opened Jim's present?)",
+          "“이번엔 네가 기자야. 엄마(아빠)가 Jim이 될게. Jim에게 두 가지를 물어봐 줘.”"
+        ],
+        "예상답": [
+          "Della 답 예: I felt sad because I had only one dollar and eighty-seven cents. / I sold my hair because I wanted to buy a chain for Jim's watch. / I felt nervous because my hair was short. / I was shocked, but I felt loved.",
+          "아이의 질문 예: How did you feel when you saw Della's short hair? / Why did you sell your watch?",
+          "기준: 심경 낱말을 쓰고 because 뒤에 이야기 속 사건을 근거로 들며, 질문을 두 개 이상 하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "심경 낱말 카드처럼 S05 노트의 낱말 목록을 보여 주고 고르게 합니다."
+        ],
+        "주의": [
+          "핫 시트(hot seat)는 한 사람이 인물이 되어 질문에 답하는 활동입니다. 우리말을 섞어도 괜찮습니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(심경 변화·아이러니·주제)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "활동지 3에 써요.",
+      "problems": [
+        {
+          "text": "1부 끝의 Della: 심경 낱말 +\n근거 문장"
+        },
+        {
+          "text": "2부의 Della: 심경 변화 +\n근거 문장"
+        },
+        {
+          "text": "3·4부의 Della: 심경 낱말 +\n근거 문장"
+        },
+        {
+          "text": "아이러니 한 문장,\n주제 한 문장"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 Della의 심경 변화 세 곳을 낱말과 근거 문장으로 쓰고, 아이러니와 주제를 한 문장씩 쓰는지 확인합니다(목표 A·B). 활동지 3에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 활동지 3에 Della의 마음 세 곳과 근거 문장, 그리고 아이러니와 주제를 써 줘.”"
+        ],
+        "정답": [
+          "① 1부 끝: sad / worried — She sat down and cried.",
+          "② 2부: determined, excited → nervous, afraid — Suddenly, Della had an idea. / She was afraid that Jim would no longer think she was pretty.",
+          "③ 3·4부: shocked, then touched / loving — But now she had no long hair to wear them in. / told her that he had sold his gold watch to buy the combs.",
+          "아이러니 예: 두 사람이 서로를 위해 가장 소중한 것을 팔아 산 선물이 둘 다 쓸모없게 되었다. 주제 예: 사랑은 가장 소중한 것을 기꺼이 내어 주는 것이다.",
+          "기준: 세 곳 모두 알맞은 심경 낱말과 근거 문장, 아이러니와 주제 한 문장씩이면 통과입니다(우리말 가능)."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “그 장면에서 Della는 무엇을 했어? 그 행동은 어떤 마음일 때 해?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "심경 낱말은 하나만 맞는 것이 아닙니다. 근거 문장과 어울리면 인정합니다(예: 1부 끝은 sad, worried, hopeless 모두 가능)."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "sad — She sat down and cried."
+        },
+        {
+          "text": "afraid — She was afraid that ~"
+        },
+        {
+          "text": "주제: 사랑은 가장 소중한 것을\n내어 주는 것"
+        }
+      ],
+      "bad": [
+        {
+          "text": "Della felt sad.",
+          "note": "근거 문장을\n붙여요"
+        },
+        {
+          "text": "아이러니 = 슬픈 일",
+          "note": "기대와 정반대\n결과"
+        },
+        {
+          "text": "머리카락을 팔지 말자",
+          "note": "글자 그대로의\n교훈"
+        }
+      ],
+      "explain": "심경 낱말 + 근거 문장, 아이러니 = 기대 ↔ 실제, 주제 = 삶의 메시지",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 쓴 것과 왼쪽을 비교해 보자. 오른쪽처럼 쓰면 무엇을 놓친 걸까?”"
+        ],
+        "예상답": [
+          "“주제를 ‘머리카락을 팔지 말자’라고 썼어요.” “근거 문장 없이 슬펐다고만 썼어요.”"
+        ],
+        "정답": [
+          "sad — She sat down and cried. / afraid — She was afraid that ~ / touched — he had sold his gold watch to buy the combs. 아이러니: 서로를 위한 선물이 둘 다 쓸모없어짐. 주제: 사랑은 가장 소중한 것을 내어 주는 것."
+        ],
+        "막히면": [
+          "심경 근거가 없으면 S05, 주제가 글자 그대로면 S08·S09를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(심경·아이러니·주제)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "찾고, 고르고, 말해요",
+      "text": "①은 기분과 단서를, ②③은 골라요.",
+      "problems": [
+        {
+          "text": "Tom's hands were shaking\nbefore the speech. → 기분은?"
+        },
+        {
+          "text": "아이러니인 상황은?\n가 A fire station burns down.\n나 It rained, so we stayed home."
+        },
+        {
+          "text": "늘 지던 소년이 매일 연습해 마침내 이긴 이야기의 주제는?\n가 games  나 Hard work can lead to success."
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 짧은 상황에서 심경 낱말과 근거를 찾고, 아이러니인 상황을 고르며, 주제 문장을 고르는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 기분과 단서를, ②③은 알맞은 것을 골라 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① nervous — 단서: His hands were shaking before the speech.",
+          "② 가 (불을 끄는 소방서에 불이 남: 기대와 정반대)",
+          "③ 나 (가는 소재·사건, 나는 이야기가 말하려는 메시지)",
+          "기준: 세 개 모두 맞으면 통과입니다."
+        ],
+        "막히면": [
+          "①은 S02, ②는 S08 아이러니, ③은 S09를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "fire station은 ‘소방서’입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "인물 · 배경 · 갈등 → 시작 · 사건 · 절정 · 결말\n심경 낱말 + 근거 문장,  아이러니 = 기대 ↔ 실제,  주제 = 삶의 메시지",
+      "do": "I think Della felt ~ because ~.",
+      "dont": "근거 없는 심경, 글자 그대로의 교훈",
+      "review": [
+        {
+          "text": "이 이야기의\n갈등은?"
+        },
+        {
+          "text": "사건 흐름\n네 칸은?"
+        },
+        {
+          "text": "이 이야기의\n아이러니와 주제는?"
+        }
+      ],
+      "next": "세계 문화 비교",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“이 이야기의 갈등은 무엇이었지?”",
+          "“이 이야기에서 아이러니는 무엇이었어?”"
+        ],
+        "예상답": [
+          "“선물을 사고 싶은데 돈이 없었어요.” “서로를 위해 판 것 때문에 선물이 쓸모없어졌어요.”"
+        ],
+        "정답": [
+          "① 인물 Della·Jim / 배경 100여 년 전 크리스마스 전날, 뉴욕, 가난 / 갈등 선물을 사고 싶지만 1달러 87센트뿐",
+          "② 시작 → 사건(머리카락을 팔아 시곗줄) → 절정(머리빗) → 결말(시계를 팔았다)",
+          "③ 아이러니: 기대와 정반대 결과 / 주제: 사랑은 가장 소중한 것을 내어 주는 것"
+        ],
+        "주의": [
+          "원작은 저작권 보호 기간이 끝나 도서관이나 공개 전자책에서 읽을 수 있습니다. 원작의 첫 문단과 오늘의 1부를 비교해 보면 좋은 복습이 됩니다. 다음 차시 ‘세계 문화 비교’에서는 여러 나라의 명절 문화를 다룬 글을 읽고 비교해 1분 동안 발표합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(심경 낱말과 단서 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 심경 낱말",
+      "layout": "support",
+      "text": "행동 단서 → 심경 낱말",
+      "table": {
+        "headers": [
+          "행동 단서",
+          "심경 낱말",
+          "뜻"
+        ],
+        "rows": [
+          [
+            "cried",
+            "sad",
+            "슬픈"
+          ],
+          [
+            "hurried, could not wait",
+            "excited",
+            "들뜬"
+          ],
+          [
+            "hands were shaking",
+            "nervous",
+            "불안한"
+          ],
+          [
+            "stared without a word",
+            "shocked",
+            "크게 놀란"
+          ]
+        ],
+        "widths": [
+          0.45,
+          0.3,
+          0.25
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "말하는 틀",
+        "text": "I think she felt ~ because ~."
+      },
+      "notes": {
+        "목적": "S02에서 심경 추론이 흔들리면, 소설을 읽기 전에 행동 단서와 심경 낱말을 짝짓는 연습을 다시 합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 이런 행동을 할 때 사람은 어떤 기분일까?”",
+          "“엄마(아빠)가 행동을 말하면 기분 낱말을 말해 줘. He jumped up and down and shouted, ‘Yes!’”"
+        ],
+        "정답": [
+          "excited / happy — 단서: jumped up and down, shouted ‘Yes!’"
+        ],
+        "막히면": [
+          "우리말 기분 낱말을 먼저 말하게 한 뒤 영어 낱말을 표에서 찾게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중3 ‘함축된 의미 추론’(KR22-G09-ENG-IMPLIED-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "영미 단편 소설 읽기 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "다시 쓴 이야기(원문 아님): O. Henry, “The Gift of the Magi” (1905). 1·2부를 읽고 인물·배경·갈등을 쓰세요.",
+        "read": "Part 1\nIt was the day before Christmas in New York, a little more than a hundred years ago. Della counted her money again. She had only one dollar and eighty-seven cents, and she had saved every cent for months. Della and her husband, Jim, rented a small, cheap apartment, and Jim did not earn much money. Della wanted to give Jim a special Christmas present, but what could she buy with so little? She sat down and cried. The young couple owned only two treasures. One was Jim's gold watch, which had once belonged to his father and grandfather. The other was Della's beautiful brown hair. It was so long that it reached below her knees.\nPart 2\nSuddenly, Della had an idea. She put on her old coat and hat and hurried to a shop that bought hair. The owner looked at Della's hair and offered twenty dollars, and Della agreed. For the next two hours, she went from store to store, looking for the perfect gift. At last she found it: a simple but fine platinum chain for Jim's gold watch. Jim had only an old leather strap for his watch, so he sometimes checked the time secretly. The chain cost twenty-one dollars, and Della went home with eighty-seven cents. When she looked in the mirror, she saw short curls all over her head. She was afraid that Jim would no longer think she was pretty.",
+        "table": {
+          "headers": [
+            "요소",
+            "내용"
+          ],
+          "rows": [
+            [
+              "인물",
+              ""
+            ],
+            [
+              "배경(때·곳·형편)",
+              ""
+            ],
+            [
+              "갈등(바라는 것 + 막는 문제)",
+              ""
+            ],
+            [
+              "두 사람의 보물",
+              ""
+            ]
+          ],
+          "widths": [
+            0.35,
+            0.65
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "인물: Della(아내), Jim(남편) / 배경: 100여 년 전 크리스마스 전날, 뉴욕의 작고 싼 셋집, 가난한 형편 / 갈등: Jim에게 특별한 선물을 하고 싶지만 1달러 87센트뿐 / 보물: Jim의 금시계, Della의 긴 갈색 머리카락. 네 칸 모두 맞으면 통과. 이 글은 오 헨리 원작(1905, 저작권 만료)의 줄거리를 수업용으로 쉬운 영어로 다시 쓴 것입니다. 각 부분의 뜻은 안내서의 화면별 노트(S04~S07)에 있습니다."
+      },
+      {
+        "no": 2,
+        "prompt": "다시 쓴 이야기의 3·4부를 읽고 사건 흐름표를 채우세요(S07).",
+        "read": "Part 3\nJim came home at the usual time. When he opened the door and saw Della, he stopped and stared at her. His face did not look angry or surprised. It showed a strange feeling that Della could not understand. She quickly explained that she had sold her hair to buy him a present and that it would grow back soon. Jim took a small package out of his coat and put it on the table. Inside was a set of beautiful combs with jewels on the edges. Della had wanted them for a long time, ever since she had seen them in a shop window. But now she had no long hair to wear them in.\nPart 4\nDella showed Jim the watch chain with a happy smile. Jim sat down, smiled gently, and told her that he had sold his gold watch to buy the combs. The narrator ends the story by calling these two young people the wisest gift-givers of all, like the Magi, the wise men who brought gifts to the baby Jesus. Each of them gave up the most precious thing for the other.",
+        "table": {
+          "headers": [
+            "시작(갈등)",
+            "사건",
+            "절정",
+            "결말"
+          ],
+          "rows": [
+            [
+              " \n \n ",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "size": 13
+        },
+        "answer": "시작: 크리스마스 전날 1달러 87센트뿐이라 선물을 살 수 없다 / 사건: Della가 머리카락을 20달러에 팔아 21달러짜리 시곗줄을 산다 / 절정: Jim이 Della의 짧은 머리를 보고 머리빗을 내놓는다 / 결말: Jim은 머리빗을 사려고 시계를 팔았다, 두 선물은 쓸 수 없지만 두 사람은 가장 지혜로운 선물을 한 사람들이다. 네 칸 가운데 세 칸 이상이면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "Della의 심경 변화를 쓰고(심경 낱말 + 근거 문장), 아이러니와 주제를 한 문장씩 쓰세요(S11, 우리말 가능).",
+        "table": {
+          "headers": [
+            "장면",
+            "심경 낱말",
+            "근거 문장(그대로 옮기기)"
+          ],
+          "rows": [
+            [
+              "① 1부 끝: 돈을 센 뒤",
+              "",
+              ""
+            ],
+            [
+              "② 2부: 생각이 떠오르고, 거울을 볼 때",
+              "",
+              ""
+            ],
+            [
+              "③ 3·4부: 선물을 열고, Jim의 말을 들을 때",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.2,
+            0.48
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "line_label": "아이러니 · 주제:",
+        "lines": 3,
+        "answer": "① sad, worried — She sat down and cried. ② determined, excited → nervous, afraid — Suddenly, Della had an idea. / She was afraid that Jim would no longer think she was pretty. ③ shocked, touched, loving — But now she had no long hair to wear them in. / told her that he had sold his gold watch to buy the combs. 아이러니: 서로를 위해 가장 소중한 것을 팔아 산 선물이 둘 다 쓸모없게 되었다. 주제: True love means giving up what you treasure most for someone you love. 심경 세 곳과 근거, 아이러니와 주제가 모두 있으면 통과(근거와 어울리는 다른 심경 낱말도 인정)."
+      },
+      {
+        "no": 4,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 이 이야기의 갈등을 쓰세요.\n② 사건 흐름 네 칸(시작·사건·절정·결말)을 한 줄씩 쓰세요.\n③ 이 이야기의 아이러니와 주제를 쓰세요.",
+        "lines": 4,
+        "answer": "① Jim에게 선물을 하고 싶지만 1달러 87센트뿐이다. ② 시작: 돈이 없음 / 사건: 머리카락을 팔아 시곗줄을 삼 / 절정: Jim의 선물은 머리빗 / 결말: Jim은 시계를 팔았다. ③ 아이러니: 서로를 위한 선물이 둘 다 쓸모없어짐 / 주제: 사랑은 가장 소중한 것을 내어 주는 것. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 심경 세 곳 □  아이러니 □  주제 □ (도움을 받음 □)",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "근거 없이 심경을 말하거나 주제를 글자 그대로 말함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S09",
+  "status": "제작 완료"
+}
