@@ -36,6 +36,11 @@
       "text": "곱셈 공식 1",
       "lesson": "KR22-G09-MAT-MULFORM1-L01",
       "grade_item": "KR22-G09-MAT-I01"
+    },
+    {
+      "text": "완전제곱식으로 고치기((x − p)² = q 꼴)",
+      "lesson": "KR22-G09-MAT-QUADSQRT-L01",
+      "grade_item": "KR22-G09-MAT-I01"
     }
   ],
   "objectives": [

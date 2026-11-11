@@ -1086,7 +1086,8 @@
   "priority": 1,
   "pre": [
    "KR22-G08-MAT-PYTHAG-L01",
-   "KR22-G07-MAT-COORD-L01"
+   "KR22-G07-MAT-COORD-L01",
+   "KR22-G09-MAT-SQRTMUL-L01"
   ],
   "file_stem": "고1_수학_공통수학2평면좌표_01_두점사이의거리와내분점",
   "source": "lessons/G10_고1/MAT_수학/공통수학2평면좌표/KR22-G10-MAT-COORDDIST-L01.json",
@@ -1163,7 +1164,8 @@
   "priority": 1,
   "pre": [
    "KR22-G10-MAT-LINEPOS-L01",
-   "KR22-G10-MAT-COORDDIST-L01"
+   "KR22-G10-MAT-COORDDIST-L01",
+   "KR22-G09-MAT-SQRTMUL-L01"
   ],
   "file_stem": "고1_수학_공통수학2직선_03_점과직선사이의거리",
   "source": "lessons/G10_고1/MAT_수학/공통수학2직선/KR22-G10-MAT-PTLINE-L01.json",
@@ -1189,7 +1191,8 @@
   "priority": 1,
   "pre": [
    "KR22-G10-MAT-COORDDIST-L01",
-   "KR22-G09-MAT-MULFORM1-L01"
+   "KR22-G09-MAT-MULFORM1-L01",
+   "KR22-G09-MAT-QUADSQRT-L01"
   ],
   "file_stem": "고1_수학_공통수학2원_01_원의방정식",
   "source": "lessons/G10_고1/MAT_수학/공통수학2원/KR22-G10-MAT-CIRCLE-L01.json",
@@ -1426,6 +1429,33 @@
   "file_stem": "고1_수학_공통수학2논증_03_대우와귀류법증명",
   "source": "lessons/G10_고1/MAT_수학/공통수학2논증/KR22-G10-MAT-PROOF-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G10-MAT-ABSINEQ-L01",
+  "concept_id": "MAT-ABSINEQ",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G10-MAT-I03",
+  "folder": "공통수학2논증",
+  "sequence": 4,
+  "units": [
+   "2.7.3",
+   "2.7.2"
+  ],
+  "title": "절대부등식",
+  "objective": "절대부등식의 뜻을 알고 (실수)²≥0과 산술평균·기하평균의 관계를 이용해 간단한 절대부등식을 증명한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G10-MAT-PROOF-L01",
+   "KR22-G10-MAT-QUADINEQ-L01"
+  ],
+  "file_stem": "고1_수학_공통수학2논증_04_절대부등식",
+  "source": "lessons/G10_고1/MAT_수학/공통수학2논증/KR22-G10-MAT-ABSINEQ-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G10-MAT-FUNCTION-L01",
@@ -5402,6 +5432,31 @@
   "file_stem": "고2_수학_대수삼각함수_03_삼각함수의그래프",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGGRAPH-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G11-MAT-TRIGEQ-L01",
+  "concept_id": "MAT-TRIGEQ",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G11-MAT-I01",
+  "folder": "대수삼각방정식",
+  "sequence": 1,
+  "units": [
+   "2.3.6"
+  ],
+  "title": "삼각방정식과 삼각부등식",
+  "objective": "삼각함수의 그래프와 단위원을 이용해 0≤x<2π에서 sin x=k, cos x=k, tan x=k 꼴의 방정식과 부등식을 푼다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G11-MAT-TRIGGRAPH-L01"
+  ],
+  "file_stem": "고2_수학_대수삼각방정식_01_삼각방정식과삼각부등식",
+  "source": "lessons/G11_고2/MAT_수학/대수삼각방정식/KR22-G11-MAT-TRIGEQ-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G11-MAT-SINELAW-L01",

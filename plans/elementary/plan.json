@@ -154,6 +154,59 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G01-KOR-BATCHIM2-L01",
+  "concept_id": "KOR-BATCHIM2",
+  "grade": "G01",
+  "grade_label": "초1",
+  "band": "E12",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "grade_item": "KR22-G01-KOR-I01",
+  "folder": "한글",
+  "sequence": 7,
+  "units": [
+   "1.1.1",
+   "1.1.2"
+  ],
+  "title": "여러 가지 받침",
+  "objective": "받침 ㅅ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ㄲ ㅆ이 있는 글자를 읽고, 소리가 같아도 글자가 다른 낱말(낫·낮·낯)을 구별해 쓴다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G01-KOR-BATCHIM-L01",
+   "KR22-G01-KOR-DOUBLE-L01"
+  ],
+  "file_stem": "초1_국어_한글_07_여러가지받침",
+  "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-BATCHIM2-L01.json",
+  "status": "계획"
+ },
+ {
+  "id": "KR22-G01-KOR-VOWEL2-L01",
+  "concept_id": "KOR-VOWEL2",
+  "grade": "G01",
+  "grade_label": "초1",
+  "band": "E12",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "grade_item": "KR22-G01-KOR-I01",
+  "folder": "한글",
+  "sequence": 8,
+  "units": [
+   "1.1.1",
+   "1.1.2"
+  ],
+  "title": "여러 가지 모음 2",
+  "objective": "ㅟ ㅚ ㅙ ㅞ ㅒ ㅖ가 들어간 글자를 읽고 낱말에서 찾아 쓴다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G01-KOR-DOUBLE-L01"
+  ],
+  "file_stem": "초1_국어_한글_08_여러가지모음2",
+  "source": "lessons/G01_초1/KOR_국어/한글/KR22-G01-KOR-VOWEL2-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G01-KOR-SENTENCE-L01",
   "concept_id": "KOR-SENTENCE",
   "grade": "G01",
@@ -491,6 +544,31 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G01-MAT-NUMSEQ-L01",
+  "concept_id": "MAT-NUMSEQ",
+  "grade": "G01",
+  "grade_label": "초1",
+  "band": "E12",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G01-MAT-I01",
+  "folder": "수의순서",
+  "sequence": 1,
+  "units": [
+   "2.1.1"
+  ],
+  "title": "100까지 수의 순서",
+  "objective": "100까지 수의 순서를 알고 1만큼 더 큰 수·작은 수와 두 수 사이의 수를 말한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G01-MAT-NUM100-L01"
+  ],
+  "file_stem": "초1_수학_수의순서_01_100까지수의순서",
+  "source": "lessons/G01_초1/MAT_수학/수의순서/KR22-G01-MAT-NUMSEQ-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G01-MAT-ADD3-L01",
   "concept_id": "MAT-ADD3",
   "grade": "G01",
@@ -667,7 +745,8 @@
   "priority": 1,
   "pre": [
    "KR22-G01-MAT-ORDINAL-L01",
-   "KR22-G01-MAT-NUM100-L01"
+   "KR22-G01-MAT-NUM100-L01",
+   "KR22-G01-MAT-NUMSEQ-L01"
   ],
   "file_stem": "초1_수학_몇째와짝수홀수_02_짝수와홀수",
   "source": "lessons/G01_초1/MAT_수학/몇째와짝수홀수/KR22-G01-MAT-EVENODD-L01.json",
@@ -6381,6 +6460,31 @@
   "file_stem": "초4_음악·미술_연주와감상_01_악기와음악요소",
   "source": "lessons/G04_초4/ART_음악·미술/연주와감상/KR22-G04-ART-INSTRUMENT-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G04-ART-NOTES-L01",
+  "concept_id": "ART-NOTES",
+  "grade": "G04",
+  "grade_label": "초4",
+  "band": "E34",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "grade_item": "KR22-G04-ART-I01",
+  "folder": "연주와감상",
+  "sequence": 2,
+  "units": [
+   "9.1.2"
+  ],
+  "title": "음표와 계이름 읽기",
+  "objective": "4분음표·8분음표·4분쉼표를 리듬 카드와 연결해 읽고, 오선에서 도·레·미·파·솔을 계이름으로 읽는다.",
+  "format": "ppt",
+  "priority": 3,
+  "pre": [
+   "KR22-G03-ART-BEATRHYTHM-L01"
+  ],
+  "file_stem": "초4_음악·미술_연주와감상_02_음표와계이름읽기",
+  "source": "lessons/G04_초4/ART_음악·미술/연주와감상/KR22-G04-ART-NOTES-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G04-ART-MATERIALS-L01",

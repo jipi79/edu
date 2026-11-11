@@ -52,13 +52,13 @@
 - MATRIX | 행렬과 덧셈·뺄셈 | 자료를 행렬로 나타내 성분을 읽고 같은 위치의 성분끼리 계산해 행렬의 덧셈·뺄셈·실수배를 한다. | pre G07-MAT-INTMIX
 - MATMUL | 행렬의 곱셈 | 행과 열의 성분을 차례로 곱해 더하는 방법으로 행렬의 곱을 구하고 교환법칙이 성립하지 않는 예를 찾는다.
 @ MAT-I02 | 공통수학2평면좌표 | 2.4.4
-- COORDDIST | 두 점 사이의 거리와 내분점 | 좌표평면에서 두 점 사이의 거리와 선분을 m:n으로 내분하는 점의 좌표를 구한다. | pre G08-MAT-PYTHAG, G07-MAT-COORD
+- COORDDIST | 두 점 사이의 거리와 내분점 | 좌표평면에서 두 점 사이의 거리와 선분을 m:n으로 내분하는 점의 좌표를 구한다. | pre G08-MAT-PYTHAG, G07-MAT-COORD, G09-MAT-SQRTMUL
 @ MAT-I02 | 공통수학2직선 | 2.4.4
 - LINEEQ | 직선의 방정식 | 기울기와 한 점 또는 두 점이 주어질 때 직선의 방정식을 구하고 ax+by+c=0 꼴로 나타낸다. | pre G08-MAT-LINFORM, G08-MAT-LINEQGRAPH
 - LINEPOS | 두 직선의 평행과 수직 | 기울기를 비교해 두 직선이 평행하거나 수직일 조건을 찾고 이를 이용해 직선의 방정식을 구한다.
-- PTLINE | 점과 직선 사이의 거리 | 점과 직선 사이의 거리 공식으로 거리를 구하고 삼각형의 넓이를 구하는 데 활용한다. | pre G10-MAT-COORDDIST
+- PTLINE | 점과 직선 사이의 거리 | 점과 직선 사이의 거리 공식으로 거리를 구하고 삼각형의 넓이를 구하는 데 활용한다. | pre G10-MAT-COORDDIST, G09-MAT-SQRTMUL
 @ MAT-I02 | 공통수학2원 | 2.4.4
-- CIRCLE | 원의 방정식 | 중심과 반지름으로 원의 방정식을 세우고 x²+y²+Ax+By+C=0을 완전제곱식으로 고쳐 중심과 반지름을 구한다. | pre G10-MAT-COORDDIST, G09-MAT-MULFORM1
+- CIRCLE | 원의 방정식 | 중심과 반지름으로 원의 방정식을 세우고 x²+y²+Ax+By+C=0을 완전제곱식으로 고쳐 중심과 반지름을 구한다. | pre G10-MAT-COORDDIST, G09-MAT-MULFORM1, G09-MAT-QUADSQRT
 - CIRCLELINE | 원과 직선의 위치 관계 | 판별식이나 원의 중심과 직선 사이의 거리로 원과 직선의 위치 관계를 판단하고 원에 접하는 직선의 방정식을 구한다. | pre G10-MAT-PTLINE, G10-MAT-DISCRIM
 @ MAT-I02 | 공통수학2도형이동 | 2.4.4
 - TRANSLATE | 평행이동 | 점과 도형을 x축·y축 방향으로 평행이동한 점의 좌표와 도형의 방정식을 구한다. | pre G09-MAT-QSHIFT, G10-MAT-CIRCLE
@@ -72,6 +72,7 @@
 - CONVERSE | 명제의 역과 대우 | 명제의 역과 대우를 만들고 명제와 그 대우의 참·거짓이 같음을 진리집합으로 설명한다. | pre G10-MAT-PROPCOND
 - NECSUFF | 필요조건과 충분조건 | 진리집합의 포함 관계로 필요조건·충분조건·필요충분조건을 판별한다.
 - PROOF | 대우와 귀류법 증명 | 대우와 귀류법으로 명제를 증명하고 반례를 들어 거짓인 명제를 보인다. | pre! G10-MAT-CONVERSE, G09-MAT-IRRATIONAL
+- ABSINEQ | 절대부등식 | 절대부등식의 뜻을 알고 (실수)²≥0과 산술평균·기하평균의 관계를 이용해 간단한 절대부등식을 증명한다. | pre G10-MAT-QUADINEQ
 @ MAT-I03 | 공통수학2함수 | 2.3.4
 - FUNCTION | 함수와 일대일대응 | 대응을 보고 함수인지 판단하고 정의역·공역·치역을 구하며 일대일함수와 일대일대응을 구별한다. | pre G08-MAT-FUNC, G10-MAT-SET
 - COMPOSE | 합성함수 | 두 함수를 합성한 함수의 식과 함숫값을 구하고 합성하는 순서에 따라 결과가 달라짐을 확인한다.

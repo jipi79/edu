@@ -33,6 +33,9 @@
 - RADIAN | 일반각과 호도법 | 일반각을 동경으로 나타내고 육십분법과 호도법을 바꾸어 부채꼴의 호의 길이와 넓이를 구한다. | pre G07-MAT-SECTOR, G09-MAT-TRIGRATIO
 - TRIGDEF | 삼각함수의 뜻 | 원 위의 점의 좌표로 삼각함수를 정의하고 사분면별 부호와 sin²θ+cos²θ=1을 이용해 삼각함수의 값을 구한다. | pre G09-MAT-TRIGVAL, G10-MAT-CIRCLE
 - TRIGGRAPH | 삼각함수의 그래프 | y=sin x, y=cos x, y=tan x의 그래프를 그려 주기와 최댓값·최솟값을 구하고 계수에 따른 그래프의 변화를 설명한다. | pre G10-MAT-TRANSLATE
+@ MAT-I01 | 대수삼각방정식 | 2.3.6
+- TRIGEQ | 삼각방정식과 삼각부등식 | 삼각함수의 그래프와 단위원을 이용해 0≤x<2π에서 sin x=k, cos x=k, tan x=k 꼴의 방정식과 부등식을 푼다. | pre G11-MAT-TRIGGRAPH
+@ MAT-I01 | 대수삼각함수 | 2.3.6
 - SINELAW | 사인법칙 | 사인법칙을 이용해 삼각형의 변의 길이와 각의 크기, 외접원의 반지름을 구한다. | pre! G11-MAT-TRIGDEF, G09-MAT-TRIGAPP, G09-MAT-INSCRIBED
 - COSLAW | 코사인법칙과 넓이 | 코사인법칙으로 삼각형의 변의 길이와 각의 크기를 구하고 두 변과 끼인각으로 삼각형의 넓이를 구한다. | pre G08-MAT-PYTHAG
 @ MAT-I01 | 대수수열 | 2.3.7

@@ -36,6 +36,11 @@
       "text": "두 점 사이의 거리와 내분점",
       "lesson": "KR22-G10-MAT-COORDDIST-L01",
       "grade_item": "KR22-G10-MAT-I02"
+    },
+    {
+      "text": "근호의 곱셈·나눗셈과 분모의 유리화",
+      "lesson": "KR22-G09-MAT-SQRTMUL-L01",
+      "grade_item": "KR22-G09-MAT-I01"
     }
   ],
   "objectives": [

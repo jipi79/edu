@@ -36,6 +36,11 @@
       "text": "순서쌍과 좌표",
       "lesson": "KR22-G07-MAT-COORD-L01",
       "grade_item": "KR22-G07-MAT-I02"
+    },
+    {
+      "text": "근호가 있는 수 간단히 하기(√8 = 2√2)",
+      "lesson": "KR22-G09-MAT-SQRTMUL-L01",
+      "grade_item": "KR22-G09-MAT-I01"
     }
   ],
   "objectives": [

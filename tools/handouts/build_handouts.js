@@ -354,8 +354,9 @@ function guideHtml(L, thumbs) {
     <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>` : ""}
     ${supportLine(L)}
     <h2>자주 나오는 오해</h2>
-    <table><tr><th style="width:45%">아이가 이렇게 생각하면</th><th>이렇게 도와주세요</th></tr>
-    ${L.misconceptions.map((m) => `<tr><td>${esc(m.text)}</td><td>${esc(m.response)}</td></tr>`).join("")}</table>
+    <table><tr><th style="width:9%">번호</th><th style="width:41%">아이가 이렇게 생각하면</th><th>이렇게 도와주세요</th></tr>
+    ${L.misconceptions.map((m) => `<tr><td style="text-align:center; font-weight:700">${esc(m.id || "")}</td><td>${esc(m.text)}</td><td>${esc(m.response)}</td></tr>`).join("")}</table>
+    <div class="sub" style="margin-top:1.5mm">진행 순서의 (M1), (M2) 같은 표시는 이 표의 번호입니다.</div>
     <div style="margin-top:2mm"><b>오늘 다루지 않는 것</b> ${esc(L.boundary)}</div>
     <h2>진행 순서</h2>
     <table><tr><th style="width:12mm">장</th><th>하는 일</th><th style="width:18mm">시간</th><th style="width:16mm">목표</th></tr>${rows}</table>
