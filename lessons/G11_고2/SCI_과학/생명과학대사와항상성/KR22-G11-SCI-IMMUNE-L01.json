@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-SCI-IMMUNE-L01",
+  "concept_id": "SCI-IMMUNE",
+  "title": "질병과 방어 작용",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과학대사와항상성",
+  "sequence": 5,
+  "file_stem": "고2_과학_생명과학대사와항상성_05_질병과방어작용",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I03"
+    ],
+    "units": [
+      "6.4.3",
+      "6.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "병원체의 종류를 구별하고 비특이적·특이적 방어 작용과 백신의 원리를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "순환",
+      "lesson": "KR22-G08-SCI-CIRCULATE-L01",
+      "grade_item": "KR22-G08-SCI-I03"
+    },
+    {
+      "text": "재해·재난과 안전",
+      "lesson": "KR22-G09-SCI-DISASTER-L01",
+      "grade_item": "KR22-G09-SCI-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "질병과 방어 작용 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G11-SCI-POPCOMM-L01",
+  "concept_id": "SCI-POPCOMM",
+  "title": "개체군과 군집",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "unit_folder": "생명과학생태계",
+  "sequence": 1,
+  "file_stem": "고2_과학_생명과학생태계_01_개체군과군집",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-SCI-I03"
+    ],
+    "units": [
+      "6.4.8"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "개체군의 생장 곡선과 군집 안의 경쟁·포식·공생 관계를 자료로 해석한다.",
+  "prerequisites": [
+    {
+      "text": "생태계와 평형",
+      "lesson": "KR22-G10-SCI-ECOSYS-L01",
+      "grade_item": "KR22-G10-SCI-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "개체군과 군집 활동지",
+    "items": [],
+    "record": []
+  }
+}
