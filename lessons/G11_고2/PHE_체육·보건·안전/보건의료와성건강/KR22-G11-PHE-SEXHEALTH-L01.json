@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-PHE-SEXHEALTH-L01",
+  "concept_id": "PHE-SEXHEALTH",
+  "title": "성 건강과 정보 판단",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "PHE",
+  "strand_label": "체육·보건·안전",
+  "unit_folder": "보건의료와성건강",
+  "sequence": 2,
+  "file_stem": "고2_체육·보건·안전_보건의료와성건강_02_성건강과정보판단",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-PHE-I02"
+    ],
+    "units": [
+      "10.4.4",
+      "10.6.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "생식 건강·피임·성 매개 감염 정보를 공신력 있는 출처에서 확인하고 성 건강의 권리와 상담·진료 자원을 정리한다.",
+  "prerequisites": [
+    {
+      "text": "의료 이용과 약물 사용",
+      "lesson": "KR22-G11-PHE-MEDICINE-L01",
+      "grade_item": "KR22-G11-PHE-I02"
+    },
+    {
+      "text": "동의와 관계 폭력 대응",
+      "lesson": "KR22-G10-PHE-CONSENT-L01",
+      "grade_item": "KR22-G10-PHE-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "성 건강과 정보 판단 활동지",
+    "items": [],
+    "record": []
+  }
+}
