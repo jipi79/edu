@@ -149,7 +149,7 @@ def check(path):
             errors.append(f"계획과 다름: 선수 차시 {pre} (계획 {P['pre']})")
         if Path(path).resolve() != (ROOT / P["source"]).resolve():
             errors.append(f"원본 위치가 계획과 다르다: {P['source']}")
-    elif lesson["grade"] <= "G09":
+    elif lesson["grade"] <= "G12":
         notes.append("계획에 없는 차시다")
 
     slides = lesson["slides"]

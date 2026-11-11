@@ -2,9 +2,9 @@
 
   python3 -I tools/plan/build_plan.py [--dry-run]
 
-학교급(초등 plans/elementary, 중등 plans/middle)을 함께 읽으므로 다른 학교급의 차시도 선수 차시로 쓸 수 있다.
+학교급(초등 plans/elementary, 중등 plans/middle, 고등 plans/high)을 함께 읽으므로 다른 학교급의 차시도 선수 차시로 쓸 수 있다.
 - plans/<학교급>/plan.json : 차시마다 ID·학년·계통·학년 항목·단원 폴더·순서·연결 단원·제목·목표·형식·우선순위·선수 차시·파일 이름·원본 경로·상태
-- plans/<초등|중등>_차시계획.md : 사람이 읽는 전체 계획과 제작 현황
+- plans/<초등|중등|고등>_차시계획.md : 사람이 읽는 전체 계획과 제작 현황
 
 검사: 학년 항목·단원 ID가 curriculum/에 있는지, 단원의 연결 학년에 그 학년이 있는지,
 선수 차시가 계획 안에 있는지, 선수 관계에 순환이 없는지.
@@ -18,7 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 # (폴더, 이름, 학년 코드)
 LEVELS = [("elementary", "초등", ("G01", "G02", "G03", "G04", "G05", "G06")),
-          ("middle", "중등", ("G07", "G08", "G09"))]
+          ("middle", "중등", ("G07", "G08", "G09")),
+          ("high", "고등", ("G10", "G11", "G12"))]
 PRIORITY = {"KOR": 1, "MAT": 1, "ENG": 1, "SCI": 2, "SOC": 2}
 ACT_STRANDS = {"ART", "PHE", "TEC", "CAR", "ENV"}
 BAD_FILENAME = re.compile(r'[\\/:*?"<>|\s]')
