@@ -1,0 +1,984 @@
+{
+  "id": "KR22-G11-ENG-WORLDCULT-L01",
+  "concept_id": "ENG-WORLDCULT",
+  "title": "세계 문화 비교",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "문학과직무영어",
+  "sequence": 2,
+  "file_stem": "고2_영어_문학과직무영어_02_세계문화비교",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ENG-I03"
+    ],
+    "units": [
+      "3.5.3",
+      "3.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "문화 차이 성찰하기",
+      "lesson": "KR22-G10-ENG-CULTREFL-L01",
+      "grade_item": "KR22-G10-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "여러 나라의 명절 문화를 다룬 짧은 글과 예시 자료를 읽고 비교표(때·음식·하는 일·의미와 배경)로 정리해, 공통점과 차이, 그 차이의 문화적 배경(농사와 계절, 달력, 가족과 조상에 대한 생각)을 설명한다.",
+      "evidence": "문화 비교의 네 칸(S03), 수확 명절 글(S04), 비교표(S05), 비교 문장 만들기(S06), 새해 글(S08), 마무리 확인(S13), 활동지 1·2",
+      "success": "활동지 2의 비교표 열두 칸 가운데 열 칸 이상을 글에 맞게 채우고, 공통점 하나와 차이 하나를 그 까닭과 함께 말한다."
+    },
+    {
+      "id": "B",
+      "text": "비교 표현(Both ~ / While ~, ~ / In contrast, ~ / This is because ~)과 일반화를 피하는 말(many, some, traditionally)을 써서 두 문화를 비교하는 1분 발표(약 90~130 낱말)를 하고 기준표로 점검한다.",
+      "evidence": "비교 문장 만들기(S06), 일반화 비교(S07), 1분 발표의 다섯 걸음(S09), 발표 준비(S10), 1분 발표(S11), 활동지 3·4",
+      "success": "S11 발표가 기준표 다섯 항목(두 문화 소개 / 공통점 하나 / 차이 하나와 문화적 배경 / many·some 같은 신중한 말, 존중하는 말 / 1분 안팎) 가운데 네 개 이상을 지킨다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "메모 카드 한 장(발표 낱말 메모)",
+    "타이머(휴대 전화 시계도 됨)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "세 나라의 명절 문화를 다룬 직접 쓴 짧은 글(한 묶음 100~125 낱말)과 지어낸 설문(‘예시 자료’로 표시, 합 100%)으로 문화를 비교하는 것을 다룬다. 수확 명절(한국 추석, 미국 추수 감사절, 중국 중추절)과 새해 풍습(한국 설날, 스페인, 일본) 두 묶음만 쓴다. 글의 날짜와 풍습은 널리 알려진 사실(추석·중추절 음력 8월 15일, 추수 감사절 11월 넷째 목요일, 스페인의 자정 포도 열두 알, 일본의 섣달그믐 소바와 새해 신사·절 참배, 설날 떡국과 세배)만 쓰고, 모든 사람이 똑같이 한다고 쓰지 않도록 many, some, traditionally를 쓴다. 비교 표현은 Both ~, While ~, ~, In contrast, ~, This is because ~, Similarly, ~만 쓰고, 발표는 1분(약 90~130 낱말) 한 번과 부모의 질문 하나로 한다. 종교의 교리, 역사적 기원의 자세한 설명, 문화의 우열 판단, 특정 나라 사람에 대한 성격 일반화는 다루지 않는다. ‘문화적 배경·일반화’라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "한 나라 사람이 모두 똑같이 한다고 일반화한다(All Spanish people eat grapes. / Koreans always ~).",
+      "response": "S03 존중의 말 카드와 S07 비교에서 many, some, traditionally로 고치게 하고, 기준표 넷째 항목으로 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "낯선 풍습을 이상하다·틀렸다고 판단한다(That's weird.).",
+      "response": "S02와 S03에서 different, interesting 같은 말을 쓰고 배경을 찾아보게 하며, S11 발표 기준으로 확인한다."
+    },
+    {
+      "id": "M3",
+      "text": "차이만 늘어놓고 그 까닭(문화적 배경)을 말하지 않는다.",
+      "response": "S05 비교표의 ‘의미와 배경’ 칸과 S09 넷째 걸음(This is because ~)으로 까닭을 말하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "예시 자료의 숫자를 과장해 읽는다(41% → most students).",
+      "response": "S06 ③에서 숫자를 그대로 옮기게 하고, S13 ①에서 다시 확인한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "세계 문화 비교",
+      "question": "추석, 추수 감사절, 중추절.\n무엇이 같고 무엇이 다를까? 왜 그럴까?",
+      "goals": [
+        "① 명절 문화를 비교표로 정리하고 까닭을 말해요.",
+        "② 두 문화를 비교하는 1분 발표를 해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Chuseok",
+            "sub": "한국"
+          },
+          {
+            "word": "Thanksgiving",
+            "sub": "미국"
+          },
+          {
+            "word": "Mid-Autumn Festival",
+            "sub": "중국"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 다른 나라의 명절 문화를 비교하며 그 까닭을 생각해 보는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“추석에 우리는 송편을 먹지? 같은 날 중국 사람들은 무엇을 먹을까? 미국에도 가을에 가족이 모이는 날이 있어.”",
+          "“오늘은 여러 나라의 명절을 비교하고, 왜 다른지 까닭을 찾아서 1분 동안 영어로 발표해 볼 거야.”"
+        ],
+        "예상답": [
+          "“미국에는 추수 감사절이 있어요.” “중국은 월병을 먹는 것 같아요.”"
+        ],
+        "막히면": [
+          "“우리 집 추석은 어떻게 보내지? 무엇을 먹고, 누구를 만나?”부터 묻습니다."
+        ],
+        "주의": [
+          "오늘 글은 이 수업을 위해 직접 쓴 짧은 글입니다. 설문 숫자는 지어낸 ‘예시 자료’입니다. 나라마다, 집집마다 명절을 보내는 방식이 다르다는 점을 함께 이야기해 주세요.",
+          "모르는 낱말(songpyeon, mooncake, tteokguk, soba)의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(고정관념 고치기, 존중하는 말)",
+      "role": "prior",
+      "objectives": [],
+      "title": "문화를 말할 때",
+      "text": "①②는 바꾸고, ③은 빈칸을 채워요.",
+      "problems": [
+        {
+          "text": "Koreans always eat kimchi.\n→ 더 신중하게"
+        },
+        {
+          "text": "Eating grapes at midnight is weird.\n→ 존중하는 말로"
+        },
+        {
+          "text": "My family eats rice for breakfast.\n______, my friend's family eats bread."
+        }
+      ],
+      "notes": {
+        "목적": "고1 ‘문화 차이 성찰하기’(KR22-G10-ENG-CULTREFL-L01)에서 고정관념을 피하고 다른 문화를 존중하며 말하는 법을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 더 신중하고 존중하는 말로 바꿔 말해 줘. ③은 빈칸에 알맞은 연결어를 넣어 볼래?”"
+        ],
+        "정답": [
+          "① Many Koreans eat kimchi often. / Kimchi is a popular food in Korea.",
+          "② That's interesting. / That's different from my culture.",
+          "③ In contrast (또는 However)"
+        ],
+        "막히면": [
+          "①은 “모든 한국 사람이 늘 그럴까? 어떤 말을 바꾸면 좋을까?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "always, all은 일반화를 만들기 쉬운 말입니다. 고정관념은 한 집단의 사람들이 모두 같다고 믿는 생각입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "문화 비교의 네 칸과 존중의 말",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "문화를 비교하는 법",
+      "text": "문화적 배경: 그 풍습이 생긴 까닭",
+      "cards": [
+        {
+          "title": "① 때",
+          "text": "언제?\n(음력? 양력?)"
+        },
+        {
+          "title": "② 음식",
+          "text": "무엇을 먹나?"
+        },
+        {
+          "title": "③ 하는 일",
+          "text": "누구와\n무엇을 하나?"
+        },
+        {
+          "title": "④ 의미와 배경",
+          "text": "왜 그럴까?\nThis is because ~"
+        }
+      ],
+      "key": "all, always → many, some, traditionally   /   weird → different, interesting",
+      "notes": {
+        "목적": "문화를 비교할 때 볼 네 칸(때·음식·하는 일·의미와 배경)과 일반화를 피하고 존중하는 말을 보여 줍니다(목표 A·B, 오해 M1·M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“문화를 비교할 때는 언제, 무엇을 먹고, 무엇을 하는지, 그리고 왜 그러는지를 봐. 마지막 칸이 문화적 배경이야.”",
+          "“말할 때는 all, always 대신 many, some, traditionally(전통적으로)를 써. 낯선 풍습은 weird가 아니라 different, interesting이야.”"
+        ],
+        "예상답": [
+          "“왜 그러는지가 제일 중요해요.” “many를 써요.”"
+        ],
+        "막히면": [
+          "우리 집 설날로 네 칸을 먼저 채워 봅니다(때: 음력 1월 1일, 음식: 떡국, 하는 일: 세배, 의미: 새해 인사와 복을 빎)."
+        ],
+        "주의": [
+          "문화적 배경은 그 풍습이 생긴 까닭입니다. 오늘 글에서는 농사와 계절, 달력, 가족과 조상에 대한 생각이 배경으로 나옵니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "수확 명절 글 읽기(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "함께 읽어요: 가을 명절",
+      "text": "lunar 음력의 · harvest 수확 · ancestor 조상 · symbol 상징",
+      "passage": {
+        "paragraphs": [
+          "A 한국의 추석: Chuseok falls on the fifteenth day of the eighth lunar month, when the moon is full. Many Korean families gather in their hometowns, make songpyeon, half-moon-shaped rice cakes, and honor their ancestors to give thanks for the harvest.",
+          "B 미국의 추수 감사절: Thanksgiving in the United States is on the fourth Thursday of November. Families gather for a big dinner with roast turkey and pumpkin pie, and some take turns saying what they are thankful for.",
+          "C 중국의 중추절: China's Mid-Autumn Festival is on the same lunar date as Chuseok. Families eat round mooncakes and look at the full moon together. The round moon is a symbol of family members being together."
+        ]
+      },
+      "question": "세 글에서 때 · 음식 · 하는 일 · 의미를 찾아 표시해요.",
+      "notes": {
+        "목적": "부모가 세 글을 읽어 주고, 네 칸(때·음식·하는 일·의미)에 해당하는 말을 함께 찾아 표시합니다(목표 A).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 세 글을 한 번 읽어 줍니다.)",
+          "“A에서 때, 음식, 하는 일, 의미를 찾아 표시해 볼까? B와 C도 같은 방법으로.”",
+          "“세 명절의 공통점은? A와 C의 날짜는 어때?”"
+        ],
+        "예상답": [
+          "“세 명절 모두 가을이고 가족이 모여요.” “A와 C는 날짜가 같아요.”"
+        ],
+        "막히면": [
+          "“when, eat, gather, symbol 같은 낱말 근처를 봐.”라고 단서를 줍니다."
+        ],
+        "주의": [
+          "뜻: A 추석은 보름달이 뜨는 음력 8월 15일이에요. 많은 한국 가족이 고향에 모여 반달 모양 떡인 송편을 빚고, 조상을 기리며 한 해의 수확에 감사해요. B 미국의 추수 감사절은 11월 넷째 목요일이에요. 가족이 모여 구운 칠면조와 호박 파이로 큰 저녁을 먹고, 어떤 가족은 돌아가며 감사한 것을 말해요. C 중국의 중추절은 추석과 같은 음력 날짜예요. 가족이 둥근 월병을 먹고 함께 보름달을 봐요. 둥근 달은 가족이 함께 있음을 뜻해요. (lunar: 음력의, harvest: 수확, ancestor: 조상, honor: 기리다, symbol: 상징)"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "수확 명절 비교표와 문화적 배경",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "비교표로 정리해요",
+      "text": "공통점: 가을 · 수확 · 가족 · 특별한 음식",
+      "table": {
+        "headers": [
+          "",
+          "추석(한국)",
+          "추수 감사절(미국)",
+          "중추절(중국)"
+        ],
+        "rows": [
+          [
+            "때",
+            "음력 8월 15일",
+            "11월 넷째 목요일",
+            "음력 8월 15일"
+          ],
+          [
+            "음식",
+            "송편",
+            "칠면조, 호박 파이",
+            "월병"
+          ],
+          [
+            "하는 일",
+            "고향에 모임, 조상을 기림",
+            "큰 저녁, 감사한 것 말하기",
+            "함께 보름달 보기"
+          ],
+          [
+            "의미와 배경",
+            "수확에 감사, 조상",
+            "감사",
+            "둥근 달 = 함께함"
+          ]
+        ],
+        "widths": [
+          0.16,
+          0.28,
+          0.28,
+          0.28
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "This is because ~: 농사와 가을 수확, 음력(한국·중국)과 양력(미국)",
+      "notes": {
+        "목적": "S04의 세 글을 비교표로 정리하고, 공통점(가을 수확, 가족, 특별한 음식)과 차이, 그 배경(농사와 계절, 음력·양력)을 설명합니다(목표 A, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 세 명절의 공통점은? 모두 가을, 수확, 가족이 모여 특별한 음식을 먹어.”",
+          "“왜 모두 가을일까? 옛날 사람들은 대부분 농사를 지었고, 가을은 곡식을 거두는 때였어. 그래서 수확에 감사하는 명절이 가을에 있어.”",
+          "“추석과 중추절이 같은 날인 까닭은? 두 나라 모두 전통적으로 음력을 썼기 때문이야.”"
+        ],
+        "예상답": [
+          "“농사 때문에 가을에 감사해요.” “음력을 써서 날짜가 같아요.”"
+        ],
+        "막히면": [
+          "표의 줄을 하나씩 손가락으로 짚으며 S04 글에서 같은 말을 찾게 합니다."
+        ],
+        "주의": [
+          "공통점 문장 예: Both Chuseok and Thanksgiving are autumn holidays for family and thanks. / 차이 문장 예: While Chuseok follows the lunar calendar, Thanksgiving is on a fixed Thursday."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "비교 문장 만들기(표와 예시 자료)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "비교 문장을 만들어요",
+      "text": "표와 예시 자료로 비교 문장을 만들어요.",
+      "problems": [
+        {
+          "text": "Both ~ (추석과 중추절의 날짜)"
+        },
+        {
+          "text": "While ~, ~ (추석과 추수 감사절의 음식)"
+        },
+        {
+          "text": "예시 자료(학생 100명, 명절에 좋은 것)\n가족 만나기 41% · 음식 33%\n쉬기 26%"
+        },
+        {
+          "text": "This is because ~\n(세 명절이 모두 가을인 까닭)"
+        }
+      ],
+      "notes": {
+        "목적": "비교표와 예시 자료로 Both, While, This is because 문장을 만들고, 숫자는 자료 그대로 말합니다(목표 A·B, 오해 M3·M4). 활동지 1에 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 Both, ②는 While, ③은 예시 자료의 숫자로 문장을 만들어 말해 줘.”"
+        ],
+        "정답": [
+          "① 예: Both Chuseok and the Mid-Autumn Festival are on the fifteenth day of the eighth lunar month.",
+          "② 예: While many Koreans make songpyeon, many Americans eat roast turkey.",
+          "③ 예: 41% of the students chose meeting family, while 33% chose special food. (41%를 most라고 하지 않음)",
+          "④ 예: This is because people in farming societies gave thanks for the harvest in autumn."
+        ],
+        "막히면": [
+          "문장 틀(Both A and B ~. / While A ~, B ~.)의 빈칸을 S05 표에서 찾아 채우게 합니다."
+        ],
+        "주의": [
+          "예시 자료는 지어낸 설문입니다. 41%는 절반이 안 되므로 most students라고 하면 과장입니다(오해 M4)."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(일반화와 판단하는 말)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "어느 발표 문장이 좋을까?",
+      "claim": "두 친구가 스페인의 새해 풍습을 이렇게 소개했어요.",
+      "left": {
+        "title": "가",
+        "text": "All Spanish people eat\ngrapes at midnight.\nIt is weird."
+      },
+      "right": {
+        "title": "나",
+        "text": "Many people in Spain eat twelve\ngrapes at midnight. It is an\ninteresting way to wish for\ngood luck."
+      },
+      "question": "어느 문장이 좋은가요? 다른 쪽은 어떤 낱말을 바꾸면 좋을까요?",
+      "notes": {
+        "목적": "모든 사람이 똑같다고 일반화하고 이상하다고 판단하는 문장과, 신중하고 존중하는 문장을 비교합니다(목표 B, 오해 M1·M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 스페인의 새해 풍습을 이렇게 소개했어. 어느 쪽이 좋은 발표 문장일까?”",
+          "“가의 어느 낱말을 바꾸면 좋을까?”"
+        ],
+        "정답": [
+          "나가 좋습니다. many(많은)로 일반화를 피했고, interesting으로 존중하며 까닭(행운을 빌기 위해)을 말했습니다. 가는 All Spanish people로 모든 사람이 똑같다고 일반화했고, weird로 다른 문화를 판단했습니다."
+        ],
+        "막히면": [
+          "“스페인 사람 모두가 포도를 먹을까? weird라는 말을 들으면 스페인 친구는 어떤 기분일까?”라고 묻습니다."
+        ],
+        "주의": [
+          "여기까지가 비교하는 방법입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "새해 풍습 글로 비교표 채우기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "비교해요: 새해 풍습",
+      "passage": {
+        "paragraphs": [
+          "A 한국의 설날: On Seollal, the Lunar New Year, many Korean families eat tteokguk, a soup with sliced rice cakes. Children bow deeply to their elders, wish them a happy new year, and often receive New Year's money. Traditionally, eating tteokguk meant becoming one year older.",
+          "B 스페인의 새해: In Spain, many people eat twelve grapes at midnight on December 31, one grape for each strike of the clock. Each grape is believed to bring good luck for one month of the new year.",
+          "C 일본의 새해: In Japan, many families eat long soba noodles on New Year's Eve, wishing for a long life. In the first days of January, many people visit shrines or temples to pray for a good year."
+        ]
+      },
+      "question": "활동지 2 비교표를 채우고, 공통점을 한 문장으로 말해요.",
+      "notes": {
+        "목적": "부모가 한 번 읽어 준 뒤, 아이가 세 나라의 새해 풍습을 활동지 2 비교표(때·음식·하는 일·의미)에 정리하고 공통점 하나를 말합니다(목표 A).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 세 글을 한 번 읽어 줍니다.)",
+          "“활동지 2의 표를 채워 줘. 다 채우면 세 나라의 공통점을 한 문장으로 말해 볼래?”"
+        ],
+        "정답": [
+          "A 설날: 음력 1월 1일 / 떡국 / 웃어른께 세배, 새해 돈 / 한 살 더 먹음, 새해 복을 빎",
+          "B 스페인: 12월 31일 자정 / 포도 열두 알 / 종소리에 맞춰 한 알씩 / 열두 달의 행운",
+          "C 일본: 섣달그믐(12월 31일)과 1월 첫날들 / 긴 소바 / 신사·절에 가서 기도 / 긴 삶과 좋은 한 해",
+          "공통점 예: Both Spain and Japan have special food that wishes for good luck or a long life in the new year. / 세 나라 모두 새해에 음식으로 좋은 일을 빈다."
+        ],
+        "막히면": [
+          "“이 나라 사람들은 무엇을 먹었어? 왜 먹는대?”라고 글마다 두 가지만 묻습니다."
+        ],
+        "주의": [
+          "뜻: A 음력 새해인 설날에 많은 한국 가족은 얇게 썬 떡을 넣은 국인 떡국을 먹어요. 아이들은 어른께 큰절을 하며 새해 인사를 하고, 새해 돈을 받기도 해요. 전통적으로 떡국을 먹으면 한 살을 더 먹는다고 했어요. B 스페인에서는 많은 사람이 12월 31일 자정에 시계 종이 울릴 때마다 한 알씩 포도 열두 알을 먹어요. 포도 한 알이 새해 한 달의 행운을 가져온다고 믿어요. C 일본에서는 많은 가족이 섣달그믐에 오래 살기를 바라며 긴 소바 국수를 먹어요. 1월 첫날들에는 많은 사람이 신사나 절에 가서 좋은 한 해를 빌어요. (elder: 웃어른, bow: 절하다, strike: (시계가) 치는 소리, shrine: 신사, temple: 절, pray: 빌다)"
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "1분 발표의 다섯 걸음",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "1분 발표의 다섯 걸음",
+      "text": "Today, I'd like to compare ~ in A and B.",
+      "steps": [
+        "소개: Today, I'd like to compare ~",
+        "공통점: Both ~",
+        "차이: However, while ~, ~",
+        "배경: This is because ~",
+        "내 생각: I think ~. Thank you."
+      ],
+      "notes": {
+        "목적": "두 문화를 비교하는 1분 발표의 다섯 걸음(소개 → 공통점 → 차이 → 배경 → 내 생각)과 표현을 알려 줍니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“1분이면 영어로 열 문장쯤이야. 다섯 걸음에 두 문장씩이라고 생각하면 돼.”",
+          "“넷째 걸음, This is because ~가 빠지면 차이만 늘어놓는 발표가 돼. 꼭 까닭을 말해.”"
+        ],
+        "예상답": [
+          "“공통점 다음에 차이를 말해요.” “까닭을 This is because로 말해요.”"
+        ],
+        "막히면": [
+          "본보기 발표(활동지 3)를 부모가 읽어 주고 걸음마다 손가락을 하나씩 접게 합니다."
+        ],
+        "주의": [
+          "본보기 1분 발표(추석과 추수 감사절)는 활동지 3과 안내서에 있습니다. 발표 끝에는 Thank you for listening.을 붙입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "1분 발표 준비와 리허설",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 발표 준비",
+      "steps": [
+        "두 문화를 골라요.",
+        "메모 카드에 걸음마다\n낱말 두세 개",
+        "부모 앞에서 리허설,\n부모가 시간 재기",
+        "고칠 점 하나 듣기",
+        "메모를 고쳐요."
+      ],
+      "criteria": [
+        "다섯 걸음 메모",
+        "1분 안팎",
+        "고칠 점 하나를 반영했어요"
+      ],
+      "notes": {
+        "목적": "비교할 두 문화를 고르고 메모 카드에 다섯 걸음의 낱말을 적은 뒤, 부모 앞에서 한 번 리허설을 하고 부모가 시간을 잽니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“오늘 읽은 여섯 가지 명절·풍습 가운데 두 개를 골라. 같은 묶음이어도, 다른 묶음이어도 돼.”",
+          "“메모 카드에 걸음마다 낱말 두세 개만 적어. 문장은 적지 마.”",
+          "“이제 한 번 연습해 보자. 엄마(아빠)가 시간을 잴게.”"
+        ],
+        "예상답": [
+          "메모 예(설날 · 스페인 새해): compare / both: new year, food, luck / while: tteokguk ↔ 12 grapes / because: lunar calendar ↔ Dec 31, wish for luck / I think: different food, same wish",
+          "기준: 다섯 걸음 메모가 있고, 리허설이 1분 안팎(50초~1분 20초)이면 잘한 것입니다."
+        ],
+        "막히면": [
+          "본보기 발표의 문장을 그대로 따라 하고, 명절 이름과 음식만 바꾸게 합니다."
+        ],
+        "주의": [
+          "리허설에서 부모는 고칠 점을 하나만 말합니다(예: 까닭 문장이 빠졌어. / 조금 천천히)."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "1분 발표하기",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "발표해요: 1분 문화 비교",
+      "text": "메모 카드만 보고 1분 동안 발표해요.",
+      "problems": [
+        {
+          "text": "소개 + 공통점(Both ~)"
+        },
+        {
+          "text": "차이(While ~) +\n배경(This is because ~)"
+        },
+        {
+          "text": "내 생각 + Thank you."
+        },
+        {
+          "text": "부모님 질문에\n한두 문장으로 답해요."
+        }
+      ],
+      "notes": {
+        "목적": "메모 카드만 보고 두 문화를 비교하는 1분 발표를 하고, 부모의 질문 하나에 답하며, 기준표로 확인합니다(목표 A·B). 활동지 4에 표시합니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“준비됐으면 시작해. 엄마(아빠)가 시간을 재고, 끝나면 질문을 하나 할게.”",
+          "(부모의 질문 예: Which holiday would you like to try? Why? / What is one thing they have in common?)"
+        ],
+        "정답": [
+          "본보기 발표: Today, I'd like to compare Chuseok in Korea and Thanksgiving in the United States. Both holidays are in autumn, and both are about family and thanks. On both days, many families get together and share special food. However, while many Koreans make songpyeon, many Americans eat roast turkey. Also, the date of Chuseok changes every year because it follows the lunar calendar, but Thanksgiving is always on the fourth Thursday of November. This is because Korea traditionally used the lunar calendar for farming. I think these holidays show that people around the world want to give thanks together. Thank you for listening.",
+          "발표에서 차이와 배경의 예(설날·스페인): While many Koreans eat tteokguk, many people in Spain eat twelve grapes. This is because each culture has its own way to wish for a good year.",
+          "기준표 다섯 항목: ① 두 문화 소개 ② 공통점 하나(Both ~) ③ 차이 하나와 문화적 배경(This is because ~) ④ many·some·traditionally 같은 신중한 말, 존중하는 말(weird 없음) ⑤ 1분 안팎(50초~1분 20초). 다섯 가운데 네 개 이상이면 통과.",
+          "질문에 대한 답 예: I would like to try the Mid-Autumn Festival because I want to taste mooncakes and look at the moon with my family."
+        ],
+        "막히면": [
+          "발표가 멈추면 메모 카드의 다음 걸음 낱말을 손가락으로 짚어 줍니다. 도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "녹음해 두면 다음 발표 때 비교할 수 있습니다. 내용의 사실이 조금 틀려도 오늘은 비교와 까닭 말하기에 집중합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘한 발표의 예와 자주 고치는 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘한 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "Both holidays are in autumn."
+        },
+        {
+          "text": "While many Koreans make songpyeon,\nmany Americans eat roast turkey."
+        },
+        {
+          "text": "This is because Korea traditionally\nused the lunar calendar."
+        }
+      ],
+      "bad": [
+        {
+          "text": "All Americans eat turkey.",
+          "note": "Many ~"
+        },
+        {
+          "text": "차이만 늘어놓기",
+          "note": "This is\nbecause ~"
+        },
+        {
+          "text": "That is weird.",
+          "note": "different,\ninteresting"
+        }
+      ],
+      "explain": "소개 → Both → While → This is because → I think",
+      "notes": {
+        "목적": "아이의 발표를 본보기와 견주어 보고 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“본보기와 네 발표를 견주어 볼까? This is because 문장이 있었어?”"
+        ],
+        "예상답": [
+          "“저는 차이만 말하고 까닭을 안 말했어요.” “all을 썼어요.”"
+        ],
+        "정답": [
+          "본보기의 핵심: Both holidays are in autumn ~ / However, while many Koreans make songpyeon, many Americans eat roast turkey. / This is because Korea traditionally used the lunar calendar for farming."
+        ],
+        "막히면": [
+          "까닭이 빠졌으면 S05·S09, 일반화가 있었으면 S03·S07을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점 하나를 먼저 말해 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(숫자·일반화·배경)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "고르고, 고치고, 말해요",
+      "text": "①은 맞는지, ②는 고치고, ③은 까닭을 말해요.",
+      "problems": [
+        {
+          "text": "예시 자료: 음식 33%\n→ ‘Most students chose food.’ 맞나요?"
+        },
+        {
+          "text": "All Japanese people eat soba\non New Year's Eve.\n→ 신중하게 고치면?"
+        },
+        {
+          "text": "추석과 중추절이 같은 날인 까닭은?\nThis is because ~"
+        }
+      ],
+      "notes": {
+        "목적": "예시 자료의 숫자를 과장 없이 읽고, 일반화 문장을 고치며, 차이의 배경을 말하는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 맞는지 말하고, ②는 고쳐 말하고, ③은 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① 아니요. 33%는 절반이 안 되므로 most가 아닙니다(33% of the students chose special food.).",
+          "② 예: Many people in Japan eat soba on New Year's Eve.",
+          "③ 예: This is because Korea and China traditionally used the lunar calendar. (두 나라 모두 음력을 썼기 때문)",
+          "기준: 세 개 모두 맞으면 통과입니다."
+        ],
+        "막히면": [
+          "①은 S06 ③, ②는 S07, ③은 S05 열쇠 문장을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "때 · 음식 · 하는 일 · 의미와 배경(This is because ~)\nBoth ~ / While ~, ~ / In contrast, ~   +   many, some, traditionally",
+      "do": "many·some으로 신중하게, 까닭까지",
+      "dont": "all·always, weird, 차이만 나열",
+      "review": [
+        {
+          "text": "문화를 비교하는\n네 칸은?"
+        },
+        {
+          "text": "1분 발표의\n다섯 걸음은?"
+        },
+        {
+          "text": "일반화를 피하는\n말 세 개는?"
+        }
+      ],
+      "next": "직무 상황 영어",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“문화를 비교하는 네 칸은?”",
+          "“1분 발표의 다섯 걸음은?”"
+        ],
+        "예상답": [
+          "“때, 음식, 하는 일, 의미와 배경이요.” “소개, Both, While, This is because, I think요.”"
+        ],
+        "정답": [
+          "① 때 · 음식 · 하는 일 · 의미와 배경",
+          "② 소개 → Both ~ → While ~, ~ → This is because ~ → I think ~",
+          "③ all, always 대신 many, some, traditionally / weird 대신 different, interesting"
+        ],
+        "주의": [
+          "외국 친구나 영상에서 다른 나라 명절을 하나 찾아 네 칸으로 정리해 보면 좋은 복습이 됩니다. 다음 차시 ‘직무 상황 영어’에서는 전화 응대·일정 조율·정중한 요청 같은 일터의 영어를 역할극으로 연습합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(비교 연결어와 신중한 말 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 비교와 신중한 말",
+      "layout": "support",
+      "text": "같은 점은 Both, 다른 점은 While · In contrast",
+      "table": {
+        "headers": [
+          "말하고 싶은 것",
+          "표현"
+        ],
+        "rows": [
+          [
+            "같은 점",
+            "Both A and B ~."
+          ],
+          [
+            "다른 점",
+            "While A ~, B ~. / In contrast, ~."
+          ],
+          [
+            "까닭",
+            "This is because ~."
+          ],
+          [
+            "신중하게",
+            "many, some, usually, traditionally"
+          ]
+        ],
+        "widths": [
+          0.35,
+          0.65
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "존중하는 말",
+        "text": "weird(이상한) 대신 different(다른), interesting(흥미로운)"
+      },
+      "notes": {
+        "목적": "S02에서 고정관념 고치기나 비교 연결어가 흔들리면, 오늘 내용을 배우기 전에 우리 집과 친구 집 비교로 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 같은 점은 Both, 다른 점은 While이나 In contrast야.”",
+          "“우리 집과 친구 집의 아침 식사를 비교해서 말해 볼래?”"
+        ],
+        "정답": [
+          "예: Both families eat breakfast together. While my family eats rice, my friend's family eats bread."
+        ],
+        "막히면": [
+          "우리말로 먼저 말하게 한 뒤 표의 틀에 넣게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 고1 ‘문화 차이 성찰하기’(KR22-G10-ENG-CULTREFL-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "세계 문화 비교 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "S06의 비교 문장을 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Both ~ (추석과 중추절의 날짜)",
+              " \n "
+            ],
+            [
+              "② While ~, ~ (추석과 추수 감사절의 음식)",
+              " \n "
+            ],
+            [
+              "③ 예시 자료의 숫자로 (41% · 33% · 26%)",
+              " \n "
+            ],
+            [
+              "④ This is because ~ (가을 명절인 까닭)",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.68
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "예: ① Both Chuseok and the Mid-Autumn Festival are on the fifteenth day of the eighth lunar month. ② While many Koreans make songpyeon, many Americans eat roast turkey. ③ 41% of the students chose meeting family, while 33% chose special food. ④ This is because people in farming societies gave thanks for the harvest in autumn. 네 개 가운데 세 개 이상이면 통과. ③에서 41%를 most라고 쓰면 고칩니다. 예시 자료는 지어낸 설문입니다(합 100%)."
+      },
+      {
+        "no": 2,
+        "prompt": "S08의 세 글을 비교표로 정리하고, 공통점을 한 문장으로 쓰세요.",
+        "table": {
+          "headers": [
+            "",
+            "설날(한국)",
+            "스페인",
+            "일본"
+          ],
+          "rows": [
+            [
+              "때",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "음식",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "하는 일",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "의미",
+              " \n ",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.16,
+            0.28,
+            0.28,
+            0.28
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "공통점:",
+        "lines": 1,
+        "answer": "설날: 음력 1월 1일 / 떡국 / 세배, 새해 돈 / 한 살 더 먹음, 새해 복을 빎. 스페인: 12월 31일 자정 / 포도 열두 알 / 종소리마다 한 알 / 열두 달의 행운. 일본: 섣달그믐과 1월 첫날들 / 긴 소바 / 신사·절에서 기도 / 긴 삶, 좋은 한 해. 공통점 예: All three cultures have special New Year food that wishes for good things in the new year. 열두 칸 가운데 열 칸 이상과 공통점 한 문장이면 통과. 낱말 뜻: sliced 얇게 썬, elder 웃어른, strike 시계 종이 치는 소리, believe 믿다, shrine 신사, temple 절, pray 빌다."
+      },
+      {
+        "no": 3,
+        "prompt": "본보기 1분 발표를 소리 내어 읽고, 다섯 걸음(소개·공통점·차이·배경·내 생각)에 번호를 붙이세요. 그다음 내 발표 메모를 쓰세요(낱말로).",
+        "read": "Today, I'd like to compare Chuseok in Korea and Thanksgiving in the United States. Both holidays are in autumn, and both are about family and thanks. On both days, many families get together and share special food. However, while many Koreans make songpyeon, many Americans eat roast turkey. Also, the date of Chuseok changes every year because it follows the lunar calendar, but Thanksgiving is always on the fourth Thursday of November. This is because Korea traditionally used the lunar calendar for farming. I think these holidays show that people around the world want to give thanks together. Thank you for listening.",
+        "table": {
+          "headers": [
+            "걸음",
+            "나의 메모"
+          ],
+          "rows": [
+            [
+              "① 소개: 고른 두 문화",
+              ""
+            ],
+            [
+              "② 공통점(Both)",
+              ""
+            ],
+            [
+              "③ 차이(While)",
+              ""
+            ],
+            [
+              "④ 배경(This is because)",
+              ""
+            ],
+            [
+              "⑤ 내 생각",
+              ""
+            ]
+          ],
+          "widths": [
+            0.35,
+            0.65
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "본보기의 다섯 걸음: ① Today, I'd like to compare ~ ② Both holidays are in autumn ~ / On both days ~ ③ However, while ~ / Also, the date of Chuseok changes ~ ④ This is because Korea traditionally used the lunar calendar for farming. ⑤ I think ~ Thank you for listening. 본보기의 뜻: 오늘은 한국의 추석과 미국의 추수 감사절을 비교하려고 합니다. 두 명절은 모두 가을에 있고, 가족과 감사에 대한 날입니다. 두 날 모두 많은 가족이 모여 특별한 음식을 나눕니다. 하지만 많은 한국 사람이 송편을 빚는 반면, 많은 미국 사람은 구운 칠면조를 먹습니다. 또 추석은 음력을 따르기 때문에 날짜가 해마다 바뀌지만, 추수 감사절은 늘 11월 넷째 목요일입니다. 이것은 한국이 전통적으로 농사에 음력을 썼기 때문입니다. 저는 이 명절들이 세계 사람들이 함께 감사하고 싶어 한다는 것을 보여 준다고 생각합니다. 들어 주셔서 감사합니다. 메모 기준: 다섯 걸음마다 낱말이 있으면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "발표 기준표: 지킨 항목에 ✔ 하세요(S11). 나와 부모님이 따로 표시해요.",
+        "table": {
+          "headers": [
+            "항목",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① 두 문화 소개",
+              "□",
+              "□"
+            ],
+            [
+              "② 공통점 하나(Both ~)",
+              "□",
+              "□"
+            ],
+            [
+              "③ 차이 하나와 배경(This is because ~)",
+              "□",
+              "□"
+            ],
+            [
+              "④ many·some 같은 신중한 말, 존중하는 말",
+              "□",
+              "□"
+            ],
+            [
+              "⑤ 1분 안팎(50초~1분 20초)",
+              "□",
+              "□"
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "걸린 시간 · 잘한 점 하나 · 다음에 고칠 점 하나:",
+        "lines": 2,
+        "answer": "아이와 부모가 각자 표시합니다. 다섯 가운데 네 개 이상이면 통과."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 문화를 비교하는 네 칸을 쓰세요.\n② 1분 발표의 다섯 걸음을 영어 표현과 함께 쓰세요.\n③ All Spanish people eat grapes.를 신중한 문장으로 고쳐 쓰세요.",
+        "lines": 3,
+        "answer": "① 때 · 음식 · 하는 일 · 의미와 배경 ② Today, I'd like to compare ~ → Both ~ → However, while ~ → This is because ~ → I think ~ ③ Many people in Spain eat twelve grapes at midnight on New Year's Eve. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 발표: 기준표 다섯 개 □  네 개 □  세 개 이하 □ (도움을 받음 □)  걸린 시간: ____초",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "일반화(all, always)나 판단하는 말(weird), 까닭 없는 비교: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}

@@ -1,0 +1,984 @@
+{
+  "id": "KR22-G11-ENG-JOBENG-L01",
+  "concept_id": "ENG-JOBENG",
+  "title": "직무 상황 영어",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "문학과직무영어",
+  "sequence": 3,
+  "file_stem": "고2_영어_문학과직무영어_03_직무상황영어",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ENG-I03"
+    ],
+    "units": [
+      "3.5.3",
+      "3.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "목적에 맞는 이메일",
+      "lesson": "KR22-G11-ENG-FORMALMAIL-L01",
+      "grade_item": "KR22-G11-ENG-I02"
+    },
+    {
+      "text": "협력적 토의",
+      "lesson": "KR22-G10-ENG-DISCUSS-L01",
+      "grade_item": "KR22-G10-ENG-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "직무 상황의 표현(전화 받기 This is ~ speaking. How may I help you? / 용건 I'm calling about ~ / 부재·메시지 I'm afraid ~. Could I take a message? / 일정 Would ~ work for you? Could we make it ~ instead? So, ~. / 정중한 요청과 거절 Could you ~, please? I'm afraid I can't ~. How about ~?)과 메시지 예절을 알고 상황에 맞게 고른다.",
+      "evidence": "전화 표현 표(S03), 본보기 전화(S04), 일정 맞추기(S05), 정중하게 바꾸기(S06), 메시지 비교(S07), 마무리 확인(S13), 활동지 1·2",
+      "success": "활동지 1의 정중하게 바꾸기 5개 가운데 4개 이상과 활동지 2의 일정 맞추기 3개를 모두 맞히고, S13의 세 문제를 모두 푼다."
+    },
+    {
+      "id": "B",
+      "text": "역할극으로 전화로 약속 잡기(용건 → 날짜·시간 제안과 조정 → 확인 → 마무리)와 간단한 면접 문답(자기소개, 지원 이유, 강점 + 예, 질문 하나)을 하고 기준표로 점검한다.",
+      "evidence": "면접 질문과 답의 틀(S08), 면접 답 준비(S09), 전화 역할극(S10), 면접 역할극(S11), 활동지 3·4",
+      "success": "S10 전화 역할극에서 약속을 바르게 확인하고(So, ~. 되풀이), S11 면접 역할극이 기준표 다섯 항목(정중한 인사 / 자기소개 두 문장 이상 / 이유에 because / 강점 + For example / 질문 하나) 가운데 네 개 이상을 지킨다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "역할 카드 두 장(활동지 3에 있음: 안내 직원 / 지원자)",
+    "휴대 전화 두 대 또는 장난감 전화(없으면 등을 맞대고 앉기)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "고등학생이 겪을 만한 직무 상황(주민 센터 봉사 자리 문의, 면접 약속 잡기, 지각 알림 메시지, 짧은 면접)의 영어 표현을 역할극으로 연습한다. 전화 표현은 받기·용건·부재와 메시지·일정 조율·확인·마무리 여섯 가지만 쓰고, 정중함은 Could you ~, please? / I'm afraid ~ / Would ~ work for you? / How about ~?로 정한다. 면접은 기본 질문 네 개(Tell me about yourself. / Why do you want this job? / What are your strengths? / Do you have any questions?)만 다루고, 강점은 ‘강점 + For example + 경험’으로 답한다. 기관·사람 이름, 일정표, 전화 대화는 모두 지어낸 것이며 실제 연락처를 쓰지 않는다. 이력서·자기소개서 쓰기(고3 ‘지원 이메일’), 노동법·임금 같은 내용, 영상 면접 요령은 다루지 않는다. ‘직무·일정 조율·면접’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "직무 상황에서 친구 말투(Who are you? / Wait. / Yeah, OK.)를 쓴다.",
+      "response": "S03 표와 S06 정중하게 바꾸기에서 May I ask who's calling? / Could you hold for a moment, please? 같은 표현으로 바꾸게 하고, 기준표의 ‘정중한 인사’로 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "거절할 때 이유나 대안 없이 No.로 끝낸다.",
+      "response": "S04 대본의 I'm afraid ~. Could we make it ~ instead?와 S05 ②에서 ‘거절 + 이유 + 대안’을 연습한다."
+    },
+    {
+      "id": "M3",
+      "text": "정한 일정을 다시 확인하지 않아 약속이 틀린다.",
+      "response": "S04의 So, Thursday at 5 p.m.과 S05 ③, S10 역할극에서 날짜와 시간을 되풀이해 확인하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "면접 답을 한 낱말로 하거나 예 없이 끝낸다(I'm kind.).",
+      "response": "S08 답의 틀(강점 + For example + 경험)과 S09 메모, S11 기준표로 예를 붙이게 한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "직무 상황 영어",
+      "question": "영어로 전화를 받고, 약속을 잡고,\n면접에 답할 수 있을까?",
+      "goals": [
+        "① 전화·일정·요청의 직무 표현을 골라 써요.",
+        "② 역할극으로 약속 잡기와 면접 문답을 해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "전화 응대",
+            "sub": "How may I help you?"
+          },
+          {
+            "word": "일정 조율",
+            "sub": "Would ~ work for you?"
+          },
+          {
+            "word": "면접 문답",
+            "sub": "Tell me about yourself."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 전화 응대·일정 조율·면접처럼 일터에서 쓰는 영어에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“아르바이트나 봉사 활동을 하려면 전화로 약속을 잡고 면접을 보기도 해. 영어로도 그런 일이 있어.”",
+          "“오늘은 전화를 받고, 약속 시간을 맞추고, 짧은 면접에 답하는 영어를 역할극으로 연습할 거야. 직무는 일터에서 맡은 일이라는 뜻이야.”"
+        ],
+        "예상답": [
+          "“전화로 영어 하는 건 떨려요.” “면접에서는 자기소개를 해요.”"
+        ],
+        "막히면": [
+          "“가게에 전화해서 예약할 때 처음에 뭐라고 말하지?”라고 우리말 경험부터 묻습니다."
+        ],
+        "주의": [
+          "오늘 나오는 주민 센터, 사람 이름, 일정은 모두 지어낸 것입니다. 실제 번호로 전화하지 않습니다.",
+          "모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(격식 표현, 정중한 의견)",
+      "role": "prior",
+      "objectives": [],
+      "title": "공손한 말 떠올리기",
+      "text": "①②는 공손하게, ③은 정중하게 다른 의견을!",
+      "problems": [
+        {
+          "text": "Send me the form.\n→ 공손하게"
+        },
+        {
+          "text": "When does the meeting start?\n→ Could you tell me ~?"
+        },
+        {
+          "text": "A: Let's meet on Monday.\nB: (월요일은 안 돼요. 정중하게 다른 날 제안)"
+        }
+      ],
+      "notes": {
+        "목적": "‘목적에 맞는 이메일’(KR22-G11-ENG-FORMALMAIL-L01)에서 배운 격식 요청과 간접의문문, 고1 ‘협력적 토의’(KR22-G10-ENG-DISCUSS-L01)에서 배운 정중하게 의견 말하기를 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 더 공손하게 바꿔 말해 줘. ③은 상대 생각을 인정하며 다른 생각을 말해 볼래?”"
+        ],
+        "정답": [
+          "① Could you please send me the form? / I would appreciate it if you could send me the form.",
+          "② Could you tell me when the meeting starts?",
+          "③ I see your point, but how about meeting on Friday? (인정 + 다른 제안이면 정답)"
+        ],
+        "막히면": [
+          "①②는 지난 차시 활동지의 격식 표를 보여 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 이 표현들을 글이 아니라 말(전화, 면접)로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "전화 응대의 여섯 표현",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "전화 응대 표현",
+      "text": "직무: 일터에서 맡은 일 / 전화는 이 순서로",
+      "table": {
+        "headers": [
+          "단계",
+          "표현"
+        ],
+        "rows": [
+          [
+            "받기",
+            "Good afternoon, ~. This is ~ speaking. How may I help you?"
+          ],
+          [
+            "용건",
+            "I'm calling about ~. / I'd like to ~."
+          ],
+          [
+            "부재·메시지",
+            "I'm afraid he is in a meeting. Could I take a message?"
+          ],
+          [
+            "일정 조율",
+            "Would Thursday at 4 work for you? / Could we make it 5 instead?"
+          ],
+          [
+            "확인",
+            "So, Thursday at 5 p.m. / Could you spell your name, please?"
+          ],
+          [
+            "마무리",
+            "Thank you for your help. / See you on Thursday."
+          ]
+        ],
+        "widths": [
+          0.18,
+          0.82
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "정한 날짜와 시간은 꼭 되풀이해서 확인해요: So, ~.",
+      "notes": {
+        "목적": "전화를 받고, 용건을 말하고, 부재 시 메시지를 받고, 일정을 맞추고, 확인하고, 마무리하는 표현을 표로 보여 줍니다(목표 A, 오해 M1·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“전화를 받을 때는 기관 이름과 내 이름을 말해. This is Sarah speaking.”",
+          "“거는 사람은 I'm calling about ~으로 용건을 말해.”",
+          "“찾는 사람이 없으면 I'm afraid ~ 다음에 Could I take a message?(메시지를 남기시겠어요?)”",
+          "“일정이 정해지면 꼭 So, Thursday at 5 p.m.처럼 되풀이해서 확인해.”"
+        ],
+        "예상답": [
+          "“I'm afraid는 안 좋은 소식을 부드럽게 말할 때 써요.”"
+        ],
+        "막히면": [
+          "표의 왼쪽 칸만 먼저 읽어 순서를 익힌 뒤 오른쪽 표현을 따라 읽습니다."
+        ],
+        "주의": [
+          "I'm afraid ~는 ‘유감이지만 ~’이라는 뜻으로, 무서워한다는 뜻이 아닙니다. take a message는 ‘메시지를 받아 두다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 전화 대화(면접 약속 잡기)",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "본보기 전화 듣고 읽기",
+      "passage": {
+        "paragraphs": [
+          "R: Good afternoon, Greenwood Community Center. This is Sarah speaking. How may I help you?",
+          "C: Hello. This is Junho Lee. I'm calling about the volunteer position.",
+          "R: I'm afraid Mr. Davis is in a meeting. Could I take a message?",
+          "C: Actually, I'd like to set up an interview.",
+          "R: Sure. Would Thursday at 4 p.m. work for you?",
+          "C: I'm afraid I have class until 4:30. Could we make it 5 instead?",
+          "R: No problem. So, Thursday at 5 p.m. Could you spell your last name, please?",
+          "C: L-E-E. Thank you for your help. See you on Thursday."
+        ]
+      },
+      "question": "① 여섯 단계 표현에 번호를!  ② 4시를 어떻게 거절했나요?",
+      "notes": {
+        "목적": "부모(R, 안내 직원)와 아이(C, 전화 건 사람)가 본보기 전화를 나누어 읽고, 여섯 단계 표현을 찾아 번호를 붙입니다(목표 A·B, 오해 M2·M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "“엄마(아빠)가 R(안내 직원), 네가 C(전화 건 사람)야. 소리 내어 나누어 읽어 보자.”",
+          "“S03의 여섯 단계가 어디에 있는지 번호를 붙여 줘.”",
+          "“준호는 4시를 거절할 때 그냥 No라고 했어? 어떻게 말했지?”"
+        ],
+        "예상답": [
+          "“I'm afraid I have class until 4:30. 이유를 말하고 5시를 제안했어요.” “So, Thursday at 5 p.m.이 확인이에요.”"
+        ],
+        "막히면": [
+          "S03 표를 옆에 펼쳐 두고 같은 표현을 찾게 합니다."
+        ],
+        "주의": [
+          "거절은 ‘I'm afraid + 이유 + 대안(Could we make it ~ instead?)’으로 합니다. 이름 철자를 묻고 답하는 것(L-E-E)도 전화에서 자주 합니다.",
+          "대화의 뜻: R 안녕하세요, 그린우드 주민 센터의 세라입니다. 무엇을 도와드릴까요? / C 안녕하세요. 이준호입니다. 봉사 자리 때문에 전화드렸어요. / R 죄송하지만 데이비스 선생님은 회의 중이세요. 메시지를 남기시겠어요? / C 사실 면접 날짜를 잡고 싶어요. / R 네. 목요일 오후 4시 괜찮으세요? / C 죄송하지만 4시 30분까지 수업이 있어요. 대신 5시로 할 수 있을까요? / R 그럼요. 그럼 목요일 오후 5시예요. 성 철자를 불러 주시겠어요? / C L-E-E입니다. 도와주셔서 감사합니다. 목요일에 뵐게요. (volunteer position: 봉사 자리, set up: 정하다, instead: 대신, spell: 철자를 말하다)"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "일정 맞추기(제안·거절·확인)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "일정을 맞춰요",
+      "text": "아래 준호의 일정(예시)을 보고 말해요.",
+      "problems": [
+        {
+          "text": "시간을 제안해요.\nWould ~ work for you?"
+        },
+        {
+          "text": "“Wednesday at 5?”\n→ 정중하게 거절 + 다른 시간"
+        },
+        {
+          "text": "금요일 오후 3시로 정했어요.\n→ 확인하는 말은?"
+        }
+      ],
+      "hint": "월 3~5시 동아리 · 화 4시까지 수업 · 수 4~7시 학원 · 금 오후 비어 있음",
+      "notes": {
+        "목적": "예시 일정표를 보고 시간을 제안하고, 안 되는 시간은 이유와 대안으로 거절하고, 정한 일정을 확인합니다(목표 A, 오해 M2·M3). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“아래 준호의 일정표(예시)를 봐. ①은 시간을 제안하고, ②는 정중하게 거절하며 다른 시간을 말하고, ③은 확인해 줘.”"
+        ],
+        "정답": [
+          "① 예: Would Tuesday at 4 p.m. work for you? / How about Friday afternoon?",
+          "② 예: I'm afraid I have an academy class until 7 on Wednesday. How about Friday at 3 instead?",
+          "③ So, Friday at 3 p.m. Is that right? / So, we'll meet on Friday at 3 p.m.",
+          "기준: ①은 비어 있는 시간(화 4시 이후, 금 오후)을 제안, ②는 I'm afraid + 이유 + 대안, ③은 요일과 시간을 되풀이하면 정답입니다."
+        ],
+        "막히면": [
+          "일정표에서 비어 있는 칸에 동그라미를 먼저 치게 합니다."
+        ],
+        "주의": [
+          "academy는 ‘학원’입니다. 일정표는 지어낸 예시입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "정중하게 바꾸기(전화·일터)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "정중하게 바꿔요",
+      "text": "손님이나 상사에게 하는 말이라면?",
+      "problems": [
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Wait."
+        },
+        {
+          "text": "I can't come on Monday."
+        },
+        {
+          "text": "Give me the file."
+        }
+      ],
+      "notes": {
+        "목적": "일터에서 쓰기에 무례한 말을 정중한 직무 표현으로 바꿉니다(목표 A, 오해 M1). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“손님이나 상사에게 하는 말이라고 생각하고 정중하게 바꿔 말해 줘.”"
+        ],
+        "정답": [
+          "① May I ask who's calling?",
+          "② Could you hold for a moment, please?",
+          "③ I'm afraid I can't make it on Monday.",
+          "④ Could you send me the file, please?"
+        ],
+        "막히면": [
+          "S03 표에서 비슷한 표현을 찾게 합니다. ③은 “안 좋은 소식은 무엇으로 시작했지?”라고 묻습니다."
+        ],
+        "주의": [
+          "hold는 ‘(전화를 끊지 않고) 기다리다’, make it은 ‘(약속에) 가다, 맞추다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(지각 알림 메시지)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 메시지가 좋을까?",
+      "claim": "목요일 5시 면접에 늦게 된 준호의 메시지예요.",
+      "left": {
+        "title": "가",
+        "text": "hey im late\nsry"
+      },
+      "right": {
+        "title": "나",
+        "text": "Hello Mr. Davis, this is Junho Lee.\nI'm sorry, but I'll be about 10 minutes\nlate because my bus is delayed.\nI'll be there by 5:10.\nThank you for understanding."
+      },
+      "question": "어느 메시지가 좋은가요? 좋은 메시지에 들어 있는 것은?",
+      "notes": {
+        "목적": "면접에 늦을 때 보내는 메시지를 친구 말투와 직무 메시지로 비교합니다(목표 A, 오해 M1·M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“준호가 목요일 5시 면접에 버스가 늦어서 늦게 됐어. 두 메시지 가운데 어느 쪽을 보내야 할까?”",
+          "“좋은 메시지에는 무엇무엇이 들어 있어?”"
+        ],
+        "정답": [
+          "나가 좋습니다. 인사와 이름(this is Junho Lee), 사과(I'm sorry), 얼마나 늦는지(about 10 minutes), 이유(my bus is delayed), 도착 시간(by 5:10), 감사 인사가 모두 들어 있습니다. 가는 누구인지, 얼마나 늦는지, 왜 늦는지 알 수 없습니다."
+        ],
+        "막히면": [
+          "“가를 받은 데이비스 선생님은 무엇을 알 수 있을까?”라고 묻습니다."
+        ],
+        "주의": [
+          "5시 약속에 10분 늦으면 5시 10분입니다. 직무 메시지에는 ‘누구 · 사과 · 얼마나 · 왜 · 언제 도착’을 넣습니다.",
+          "여기까지가 전화와 메시지 표현입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "면접 질문 네 개와 답의 틀",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "면접 질문과 답의 틀",
+      "text": "면접: 일을 맡길 사람을 고르려고 묻고 답하는 자리",
+      "cards": [
+        {
+          "title": "Tell me about yourself.",
+          "text": "이름 · 학년 · 관심\n두세 문장"
+        },
+        {
+          "title": "Why do you want this job?",
+          "text": "I want to ~ because ~."
+        },
+        {
+          "title": "What are your strengths?",
+          "text": "I'm ~.\nFor example, ~ (경험)."
+        },
+        {
+          "title": "Do you have any questions?",
+          "text": "Could you tell me ~?\n(질문 하나)"
+        }
+      ],
+      "key": "강점은 한 낱말로 끝내지 말고, For example로 경험을 붙여요.",
+      "notes": {
+        "목적": "면접의 기본 질문 네 개와 답하는 틀(자기소개 두세 문장 / 이유 because / 강점 + For example / 질문 하나)을 보여 줍니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“Tell me about yourself.에는 이름, 학년, 관심 있는 것을 두세 문장으로.”",
+          "“Why do you want this job?에는 because로 이유를. What are your strengths?에는 강점 하나와 For example로 경험을 붙여.”",
+          "“마지막에 Do you have any questions?라고 물으면, 질문을 하나 하는 것이 좋아. 관심이 있다는 뜻이거든.”"
+        ],
+        "예상답": [
+          "“강점만 말하지 않고 예를 붙여요.” “마지막에 질문을 해요.”"
+        ],
+        "막히면": [
+          "본보기 답(활동지 3)을 부모가 읽어 주고 틀의 빈칸을 찾게 합니다."
+        ],
+        "주의": [
+          "본보기 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Hana High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading. / What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
+          "strength는 ‘강점’, patient는 ‘참을성 있는’, responsible은 ‘책임감 있는’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "면접 답 준비하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "내 답을 준비해요",
+      "text": "어린이 도서관 봉사 면접이라면? 낱말로 메모하고 말해요.",
+      "problems": [
+        {
+          "text": "Tell me about yourself."
+        },
+        {
+          "text": "Why do you want this job?"
+        },
+        {
+          "text": "What are your strengths?"
+        }
+      ],
+      "notes": {
+        "목적": "봉사 자리(어린이 도서관) 면접을 가정하고 세 질문에 대한 내 답을 메모하고 말해 봅니다(목표 B, 오해 M4). 활동지 3에 메모합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“어린이 도서관 봉사 면접이라고 생각하고, 세 질문에 대한 답을 활동지 3에 낱말로 메모한 뒤 말해 줘.”"
+        ],
+        "정답": [
+          "① 예: I'm Sora Park, a second-year student. I like reading picture books with children.",
+          "② 예: I want to volunteer at the library because I want to share my love of books.",
+          "③ 예: I'm creative. For example, I made a reading game for my club, and everyone enjoyed it.",
+          "기준: ①은 두 문장 이상, ②는 because, ③은 강점 + For example + 경험이 있으면 정답입니다(내용은 아이의 실제 경험)."
+        ],
+        "막히면": [
+          "“너는 어떤 사람이라는 말을 자주 들어? 그걸 보여 준 일이 있었어?”라고 물어 강점과 예를 찾게 합니다."
+        ],
+        "주의": [
+          "거짓 경험을 꾸미지 않고 실제 경험을 쓰게 합니다. 작은 경험(동생 숙제 돕기, 동아리 활동)도 좋은 예가 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "전화 역할극(면접 약속 잡기)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 전화 역할극",
+      "steps": [
+        "등을 맞대고 앉아요.",
+        "역할 카드대로\n전화를 걸고 받아요.",
+        "안 되는 시간은\nI'm afraid ~ + 대안",
+        "So, ~.로 일정을 확인해요.",
+        "역할을 바꿔 한 번 더!"
+      ],
+      "criteria": [
+        "용건을 말했어요",
+        "거절 + 이유 + 대안",
+        "일정을 되풀이해 확인했어요"
+      ],
+      "notes": {
+        "목적": "등을 맞대고 앉거나 전화기를 들고, 역할 카드대로 면접 약속을 잡는 전화를 합니다. 한 번 한 뒤 역할을 바꿉니다(목표 A·B, 오해 M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)는 안내 직원, 너는 전화 건 사람이야. 역할 카드를 보고 해 보자. 얼굴이 안 보이게 등을 맞대고 앉자.”",
+          "(부모의 역할 카드: 데이비스 선생님은 출장 중. 면접 가능 시간은 월 3시, 수 5시. 이름 철자를 꼭 물어보기.)",
+          "(아이의 역할 카드: 봉사 자리 면접을 잡고 싶다. 월요일은 동아리라서 안 됨. 수요일은 괜찮음.)",
+          "“이번엔 역할을 바꿔서, 네가 안내 직원이 되어 엄마(아빠)의 전화를 받아 줘.”"
+        ],
+        "예상답": [
+          "아이: Hello. My name is ~. I'm calling about the volunteer position. / I'm afraid I have a club meeting on Monday. Could we make it Wednesday at 5 instead? / So, Wednesday at 5 p.m. / Thank you for your help.",
+          "기준: 용건을 말하고, 안 되는 시간은 I'm afraid + 이유 + 대안으로 말하며, 마지막에 날짜와 시간을 되풀이해 확인하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "S03 표와 S04 대본을 옆에 펼쳐 두고 해도 됩니다."
+        ],
+        "주의": [
+          "등을 맞대고 하면 표정이 보이지 않아 실제 전화처럼 또박또박 말하게 됩니다. business trip은 ‘출장’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "면접 역할극(기준표 확인)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "면접 역할극",
+      "text": "면접관의 네 질문에 답해요.",
+      "problems": [
+        {
+          "text": "Tell me about yourself."
+        },
+        {
+          "text": "Why do you want this job?"
+        },
+        {
+          "text": "What are your strengths?"
+        },
+        {
+          "text": "Do you have any questions?"
+        }
+      ],
+      "notes": {
+        "목적": "부모가 면접관이 되어 네 질문을 하고 아이가 답하는 면접 역할극을 한 뒤, 기준표로 확인합니다(목표 A·B). 활동지 4에 표시합니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“이제 면접이야. 엄마(아빠)가 면접관이야. 문을 두드리고 들어오는 것부터 시작하자.”",
+          "(부모: Good afternoon. Please have a seat. → 네 질문을 차례로 합니다. 끝에 Thank you for coming.)",
+          "“끝나면 기준표에 같이 표시해 보자.”"
+        ],
+        "정답": [
+          "아이의 시작과 끝 예: Good afternoon. Thank you for having me. / Thank you for your time. I hope to see you again.",
+          "본보기 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Hana High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading.",
+          "본보기 답: What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
+          "기준표 다섯 항목: ① 정중한 인사(시작과 끝) ② 자기소개 두 문장 이상 ③ 이유에 because ④ 강점 + For example + 경험 ⑤ 질문 하나(Could you tell me ~?). 다섯 가운데 네 개 이상이면 통과."
+        ],
+        "막히면": [
+          "답이 막히면 활동지 3의 메모를 보게 합니다. 도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "면접관인 부모는 끝에 잘한 점 하나를 영어로 말해 주면 좋습니다(I liked your example about ~.)."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘한 예와 자주 고치는 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘한 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "I'm calling about the\nvolunteer position."
+        },
+        {
+          "text": "So, Thursday at 5 p.m."
+        },
+        {
+          "text": "I'm patient. For example,\nI've taught my cousin ~"
+        }
+      ],
+      "bad": [
+        {
+          "text": "No. Not Monday.",
+          "note": "I'm afraid ~\n+ 대안"
+        },
+        {
+          "text": "I'm kind.",
+          "note": "For example\n+ 경험"
+        },
+        {
+          "text": "Who are you?",
+          "note": "May I ask\nwho's calling?"
+        }
+      ],
+      "explain": "받기 → 용건 → 일정(거절 + 대안) → 확인 → 마무리 / 강점 + For example",
+      "notes": {
+        "목적": "아이의 역할극을 본보기와 견주어 보고 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“본보기와 네 답을 견주어 볼까? 강점에 예를 붙였어?”"
+        ],
+        "예상답": [
+          "“저는 I'm kind.라고만 했어요.” “일정을 확인하는 말을 안 했어요.”"
+        ],
+        "정답": [
+          "본보기: I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson."
+        ],
+        "막히면": [
+          "예가 없으면 S08·S09, 확인이 없으면 S03·S04, 친구 말투면 S06을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점 하나를 먼저 말해 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(전화 표현·메시지·면접 답)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "고르고, 고치고, 답해요",
+      "text": "①은 고르고, ②는 고치고, ③은 답해요.",
+      "problems": [
+        {
+          "text": "찾는 사람이 없을 때:\n가 She's not here. Bye.\n나 I'm afraid she's out right now. Could I take a message?"
+        },
+        {
+          "text": "3시 약속, 차가 막혀 15분 늦음:\n“late. traffic.” → 직무 메시지로"
+        },
+        {
+          "text": "What are your strengths?\n→ I'm ~. For example, ~."
+        }
+      ],
+      "notes": {
+        "목적": "상황에 맞는 전화 표현을 고르고, 지각 메시지를 고치며, 강점 질문에 예를 들어 답하는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 고르고, ②는 고쳐 말하고, ③은 For example을 넣어 답해 줘.”"
+        ],
+        "정답": [
+          "① 나 (I'm afraid she's out right now. Could I take a message?)",
+          "② 예: Hello Ms. Kim, this is (이름). I'm sorry, but I'll be about 15 minutes late because of traffic. I'll be there by 3:15.",
+          "③ 예: I'm hardworking. For example, I practiced the piano every day for a year.",
+          "기준: 세 개 모두 맞으면 통과입니다(②는 누구·사과·얼마나·이유·도착 시간 가운데 네 가지 이상)."
+        ],
+        "막히면": [
+          "①은 S03, ②는 S07, ③은 S08을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "②에서 3시 약속에 15분 늦으면 3시 15분입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "전화: This is ~ speaking. → I'm calling about ~ → I'm afraid ~ → So, ~.\n면접: 자기소개 · because · 강점 + For example · 질문 하나",
+      "do": "I'm afraid ~ + 대안, So, ~.로 확인",
+      "dont": "Who are you?, No., I'm kind.",
+      "review": [
+        {
+          "text": "전화 응대의\n여섯 단계는?"
+        },
+        {
+          "text": "정중하게 거절하는\n틀은?"
+        },
+        {
+          "text": "강점 질문에\n답하는 틀은?"
+        }
+      ],
+      "next": "긴 문장 구조 분석(고3)",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“전화로 약속을 잡을 때 마지막에 꼭 하는 말은?”",
+          "“강점을 말할 때 붙이는 것은?”"
+        ],
+        "예상답": [
+          "“So, ~.로 날짜와 시간을 되풀이해요.” “For example로 경험을 붙여요.”"
+        ],
+        "정답": [
+          "① 받기 → 용건 → 부재·메시지 → 일정 조율 → 확인 → 마무리",
+          "② 거절은 I'm afraid ~ + 이유 + 대안(How about ~? / Could we make it ~ instead?)",
+          "③ 면접: 자기소개 두세 문장, 이유 because, 강점 + For example, 질문 하나"
+        ],
+        "주의": [
+          "가족끼리 식당 예약이나 병원 예약 전화를 영어 역할극으로 바꾸어 해 보면 좋은 복습이 됩니다. 다음 차시는 고3 ‘긴 문장 구조 분석’으로, 긴 영어 문장의 주어·동사와 수식 구조를 나누어 읽습니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(정중한 요청의 세 단계 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 정중한 요청",
+      "layout": "support",
+      "text": "아래로 갈수록 더 공손해요.",
+      "table": {
+        "headers": [
+          "공손함",
+          "요청 표현"
+        ],
+        "rows": [
+          [
+            "보통",
+            "Can you send me the file?"
+          ],
+          [
+            "공손",
+            "Could you send me the file, please?"
+          ],
+          [
+            "더 공손",
+            "Would you mind sending me the file?"
+          ]
+        ],
+        "widths": [
+          0.25,
+          0.75
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "거절도 공손하게",
+        "text": "I'm afraid I can't ~. How about ~ instead?"
+      },
+      "notes": {
+        "목적": "S02에서 공손한 요청이 흔들리면, 직무 표현을 배우기 전에 요청의 공손함 세 단계를 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 아래로 갈수록 더 공손해.”",
+          "“엄마(아빠)가 명령문을 말하면 세 단계로 바꿔 말해 줘. Open the window.”"
+        ],
+        "정답": [
+          "Can you open the window? → Could you open the window, please? → Would you mind opening the window?"
+        ],
+        "막히면": [
+          "Can → Could → Would you mind -ing 순서만 먼저 외우게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘목적에 맞는 이메일’(KR22-G11-ENG-FORMALMAIL-L01)과 고1 ‘협력적 토의’(KR22-G10-ENG-DISCUSS-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "직무 상황 영어 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "손님이나 상사에게 하는 말로 정중하게 바꿔 쓰세요.",
+        "table": {
+          "headers": [
+            "무례한 말",
+            "정중한 직무 표현"
+          ],
+          "rows": [
+            [
+              "① Who is this?",
+              ""
+            ],
+            [
+              "② Hold on.",
+              ""
+            ],
+            [
+              "③ He's not here.",
+              ""
+            ],
+            [
+              "④ I can't come on Friday.",
+              ""
+            ],
+            [
+              "⑤ Tell me your name again.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "예: ① May I ask who's calling? ② Could you hold for a moment, please? ③ I'm afraid he's not in right now. Could I take a message? ④ I'm afraid I can't make it on Friday. How about Monday instead? ⑤ Could you spell your name, please? / Could you say your name again, please? 다섯 개 가운데 네 개 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "예시 일정표를 보고 답하세요.  [ 지수의 일정(예시): 월 4~6시 학원 · 화 오후 비어 있음 · 목 3시까지 수업, 그 뒤 비어 있음 ]",
+        "table": {
+          "rows": [
+            [
+              "① 상대가 Would Monday at 5 work for you?라고 해요. 정중하게 거절 + 다른 시간",
+              ""
+            ],
+            [
+              "② 비어 있는 시간을 제안하세요.",
+              ""
+            ],
+            [
+              "③ 목요일 4시로 정했어요. 확인하는 말",
+              ""
+            ]
+          ],
+          "widths": [
+            0.55,
+            0.45
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "예: ① I'm afraid I have an academy class on Monday until 6. How about Tuesday afternoon instead? ② Would Tuesday at 3 p.m. work for you? / How about Thursday at 4? ③ So, Thursday at 4 p.m. Is that right? 세 개 모두 맞으면 통과(①은 거절 + 이유 + 대안, ②는 비어 있는 시간: 화요일 오후, 목요일 3시 이후)."
+      },
+      {
+        "no": 3,
+        "prompt": "역할 카드와 면접 메모입니다. S09에서 면접 답을 낱말로 메모하세요.",
+        "read": "역할 카드(S10) — 안내 직원: 데이비스 선생님은 출장 중. 면접 가능 시간은 월 3시, 수 5시. 이름 철자를 꼭 묻기. / 전화 건 사람: 봉사 자리 면접을 잡고 싶다. 월요일은 동아리라서 안 됨. 수요일은 괜찮음.\n본보기 면접 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Hana High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading. / What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
+        "table": {
+          "headers": [
+            "질문",
+            "나의 메모(낱말로)"
+          ],
+          "rows": [
+            [
+              "Tell me about yourself.",
+              " \n "
+            ],
+            [
+              "Why do you want this job?",
+              " \n "
+            ],
+            [
+              "What are your strengths? (+ For example)",
+              " \n "
+            ],
+            [
+              "Do you have any questions?",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.42,
+            0.58
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "메모는 아이의 실제 경험이면 무엇이든 됩니다. 기준: 자기소개 두 가지 이상(이름·학년·관심), 이유 하나(because), 강점 하나와 예 하나, 질문 하나가 있으면 통과. 본보기 답의 뜻: 저는 하나고등학교 2학년 이준호입니다. 교육에 관심이 있고 어린 사촌들의 숙제를 자주 도와줍니다. / 책을 좋아하고 아이들이 책 읽기를 즐기도록 돕고 싶어서 어린이 도서관에서 일하고 싶습니다. / 저는 참을성 있고 책임감이 강합니다. 예를 들어 여섯 달 동안 사촌에게 영어 읽기를 가르쳤고 한 번도 빠진 적이 없습니다. / 네. 봉사자들이 첫날 보통 무엇을 하는지 알려 주시겠어요?"
+      },
+      {
+        "no": 4,
+        "prompt": "면접 역할극 기준표: 지킨 항목에 ✔ 하세요(S11). 나와 부모님이 따로 표시해요.",
+        "table": {
+          "headers": [
+            "항목",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① 정중한 인사(시작과 끝)",
+              "□",
+              "□"
+            ],
+            [
+              "② 자기소개 두 문장 이상",
+              "□",
+              "□"
+            ],
+            [
+              "③ 이유에 because",
+              "□",
+              "□"
+            ],
+            [
+              "④ 강점 + For example + 경험",
+              "□",
+              "□"
+            ],
+            [
+              "⑤ 질문 하나(Could you tell me ~?)",
+              "□",
+              "□"
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "잘한 점 하나 · 다음에 고칠 점 하나:",
+        "lines": 2,
+        "answer": "아이와 부모가 각자 표시합니다. 다섯 가운데 네 개 이상이면 통과."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 전화 응대의 여섯 단계를 쓰세요.\n② I can't come on Monday.를 정중한 거절 + 대안으로 바꿔 쓰세요.\n③ What are your strengths?에 For example을 넣어 답을 쓰세요.",
+        "lines": 3,
+        "answer": "① 받기 → 용건 → 부재·메시지 → 일정 조율 → 확인 → 마무리 ② I'm afraid I can't make it on Monday. How about Tuesday instead? ③ 예: I'm responsible. For example, I've never missed a club meeting this year. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S10 전화 역할극: 거절 + 대안 □  일정 확인(So, ~.) □   S11 면접 기준표: 다섯 □ 네 □ 세 개 이하 □ (도움을 받음 □)",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "친구 말투나 예 없는 답(I'm kind.): 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
