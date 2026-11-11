@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G11-ART-ARTPROJECT-L01",
+  "concept_id": "ART-ARTPROJECT",
+  "title": "주제 탐구 작품 계획",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ART",
+  "strand_label": "음악·미술",
+  "unit_folder": "미술창작과성찰",
+  "sequence": 1,
+  "file_stem": "고2_음악·미술_미술창작과성찰_01_주제탐구작품계획",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ART-I02"
+    ],
+    "units": [
+      "9.2.5",
+      "9.2.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "관심 주제를 자료 조사·아이디어 스케치로 탐구하고 재료·기법·일정을 담은 제작 계획서를 쓴다.",
+  "prerequisites": [
+    {
+      "text": "의도를 담은 작품 제작",
+      "lesson": "KR22-G10-ART-INTENTWORK-L01",
+      "grade_item": "KR22-G10-ART-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "주제 탐구 작품 계획 활동지",
+    "items": [],
+    "record": []
+  }
+}
