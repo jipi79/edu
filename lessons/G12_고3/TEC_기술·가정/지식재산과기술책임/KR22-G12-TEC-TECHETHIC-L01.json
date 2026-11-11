@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G12-TEC-TECHETHIC-L01",
+  "concept_id": "TEC-TECHETHIC",
+  "title": "기술의 사회적 책임",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "지식재산과기술책임",
+  "sequence": 2,
+  "file_stem": "고3_기술·가정_지식재산과기술책임_02_기술의사회적책임",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-TEC-I03"
+    ],
+    "units": [
+      "7.6.4",
+      "7.5.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "유전자 편집·AI 자동화 등 기술 사례에 안전·공정·환경 책임 기준을 적용해 개발과 사용의 조건을 판단한다.",
+  "prerequisites": [
+    {
+      "text": "지식재산권의 종류",
+      "lesson": "KR22-G12-TEC-IPRIGHT-L01",
+      "grade_item": "KR22-G12-TEC-I03"
+    },
+    {
+      "text": "생명기술의 이용과 영향",
+      "lesson": "KR22-G10-TEC-BIOTECH-L01",
+      "grade_item": "KR22-G10-TEC-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "기술의 사회적 책임 활동지",
+    "items": [],
+    "record": []
+  }
+}

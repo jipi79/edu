@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-TEC-HOUSING-L01",
+  "concept_id": "TEC-HOUSING",
+  "title": "주거 선택과 자립",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "생활과학탐구",
+  "sequence": 2,
+  "file_stem": "고2_기술·가정_생활과학탐구_02_주거선택과자립",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-TEC-I02"
+    ],
+    "units": [
+      "7.2.4",
+      "7.3.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "원룸·기숙사·공공임대 등 주거 형태를 주거비·계약 조건·에너지 효율로 비교해 자립할 때의 주거 선택을 지속가능성 관점에서 평가한다.",
+  "prerequisites": [
+    {
+      "text": "예산 짜기와 신용 관리",
+      "lesson": "KR22-G10-TEC-MONEYPLAN-L01",
+      "grade_item": "KR22-G10-TEC-I01"
+    },
+    {
+      "text": "옷·집 관리와 가족 돌봄",
+      "lesson": "KR22-G08-TEC-HOMECARE-L01",
+      "grade_item": "KR22-G08-TEC-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "주거 선택과 자립 활동지",
+    "items": [],
+    "record": []
+  }
+}

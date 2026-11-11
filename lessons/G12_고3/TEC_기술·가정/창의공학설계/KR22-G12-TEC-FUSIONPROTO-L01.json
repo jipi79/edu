@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G12-TEC-FUSIONPROTO-L01",
+  "concept_id": "TEC-FUSIONPROTO",
+  "title": "융합 시제품 개선",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "창의공학설계",
+  "sequence": 1,
+  "file_stem": "고3_기술·가정_창의공학설계_01_융합시제품개선",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-TEC-I02"
+    ],
+    "units": [
+      "7.6.3",
+      "7.4.4",
+      "7.6.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "앞서 만든 시제품에 센서·구조·에너지 기술을 결합해 개선하고 성능·비용·환경 영향을 평가표로 비교한다.",
+  "prerequisites": [
+    {
+      "text": "제약 조건과 로봇 시제품",
+      "lesson": "KR22-G11-TEC-ROBOTPROTO-L01",
+      "grade_item": "KR22-G11-TEC-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "융합 시제품 개선 활동지",
+    "items": [],
+    "record": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G11-TEC-SUSTFOOD-L01",
+  "concept_id": "TEC-SUSTFOOD",
+  "title": "지속가능한 식생활",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "생활과학탐구",
+  "sequence": 1,
+  "file_stem": "고2_기술·가정_생활과학탐구_01_지속가능한식생활",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-TEC-I02"
+    ],
+    "units": [
+      "7.2.4",
+      "7.3.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "일주일 식품 구입·조리·음식물 쓰레기 기록을 분석해 영양·비용·환경 영향을 함께 고려한 식단으로 고친다.",
+  "prerequisites": [
+    {
+      "text": "한 끼 식사 만들기",
+      "lesson": "KR22-G08-TEC-MEALCOOK-L01",
+      "grade_item": "KR22-G08-TEC-I01"
+    },
+    {
+      "text": "영양소와 식사 구성",
+      "lesson": "KR22-G07-TEC-DIET-L01",
+      "grade_item": "KR22-G07-TEC-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "지속가능한 식생활 활동지",
+    "items": [],
+    "record": []
+  }
+}
