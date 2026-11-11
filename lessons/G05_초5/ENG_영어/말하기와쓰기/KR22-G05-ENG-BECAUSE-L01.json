@@ -584,7 +584,7 @@
         "말하기": [
           "“이번에는 혼자 해 볼래? ①②는 빈칸에 들어갈 낱말을 말해 줘.”",
           "“③은 틀린 곳이 있어. 바르게 고쳐 말해 볼래?”",
-          "“④, 오늘 말하지 않은 좋아하는 것 하나를 골라 이유와 함께 말하고 활동지 5의 빈 줄에 써 봐.”"
+          "“④, 오늘 말하지 않은 좋아하는 것 하나를 골라 이유와 함께 말하고 활동지 4의 남은 빈 줄에 써 봐.”"
         ],
         "정답": [
           "① because",
@@ -658,10 +658,10 @@
       "title": "이유가 알맞은 문장은?",
       "options": [
         {
-          "text": "I like winter because I can swim."
+          "text": "I like pizza because it's delicious."
         },
         {
-          "text": "I like pizza because it's delicious."
+          "text": "I like winter because I can swim."
         },
         {
           "text": "I like summer because I can make a snowman."
@@ -679,8 +679,8 @@
           "“나머지는 왜 어색해?”"
         ],
         "정답": [
-          "나(I like pizza because it's delicious.)",
-          "가는 겨울에 수영, 다는 여름에 눈사람이라 이유가 어울리지 않고, 라는 because 뒤에 it's가 빠졌고 축구는 먹는 것이 아니라 delicious가 어울리지 않습니다."
+          "가(I like pizza because it's delicious.)",
+          "나는 겨울에 수영, 다는 여름에 눈사람이라 이유가 어울리지 않고, 라는 because 뒤에 it's가 빠졌고 축구는 먹는 것이 아니라 delicious가 어울리지 않습니다."
         ],
         "막히면": [
           "문장마다 이유를 우리말로 바꾸어 말해 보게 합니다. “겨울을 좋아하는데, 수영할 수 있어서?”"
@@ -778,7 +778,7 @@
           "부모가 먼저 말하고 아이가 따라 말하는 것부터 다시 합니다."
         ],
         "주의": [
-          "보충 뒤에도 과거형을 말하지 못하면 앞 차시 ‘지난 일 말하기’(KR22-G05-ENG-PAST-L01)를 먼저 다시 하고 이 차시를 시작합니다. I like ~.가 흔들리면 4학년 ‘짧은 문장 읽고 쓰기’를 다시 봅니다."
+          "보충 뒤에도 과거형을 말하지 못하면 앞 차시 ‘지난 일 말하기’를 먼저 다시 하고 이 차시를 시작합니다. I like ~.가 흔들리면 4학년 ‘짧은 문장 읽고 쓰기’를 다시 봅니다."
         ]
       }
     }
@@ -836,25 +836,25 @@
         "no": 3,
         "prompt": "이유가 알맞고 바른 문장에 모두 ✔ 하세요.",
         "choices": [
-          "I like winter because I can make a snowman.",
-          "I like pizza because I can swim.",
+          "I like soccer because delicious.",
           "I like spring because it's warm.",
-          "I like soccer because delicious."
+          "I like winter because I can make a snowman.",
+          "I like pizza because I can swim."
         ],
         "choices_size": 16,
-        "answer": "I like winter because I can make a snowman. / I like spring because it's warm. (2개). 둘째는 피자와 수영이 어울리지 않고, 넷째는 because 뒤에 it's가 빠졌으며 축구에 delicious도 어울리지 않습니다."
+        "answer": "I like spring because it's warm. / I like winter because I can make a snowman. (2개). 첫째는 because 뒤에 it's가 빠졌으며 축구에 delicious도 어울리지 않고, 넷째는 피자와 수영이 어울리지 않습니다."
       },
       {
         "no": 4,
-        "prompt": "보기 문장을 따라 쓰고, 빈 줄에 내가 좋아하는 것과 이유를 두 문장으로 쓰세요.",
+        "prompt": "보기 문장을 따라 쓰고, 빈 줄에 내가 좋아하는 것과 이유를 쓰세요.\n(보기처럼 한 문장을 두 줄에 나누어 써요. 세 문장까지 쓸 수 있어요.)",
         "eng": {
           "trace": [
             "I like summer",
             "because I can swim."
           ],
-          "blank": 2
+          "blank": 6
         },
-        "answer": "따라 쓰고, 빈 줄에 자기 문장 두 개를 쓰면 맞습니다(예: I like chicken because it's delicious. / I like soccer because it's fun.). 이유가 어울리는지, because 뒤에 it's나 I can이 있는지, 대문자 I, it's의 아포스트로피, 끝의 마침표를 봅니다. 한 줄에 다 들어가지 않으면 다음 줄에 이어 써도 됩니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "따라 쓰고, 빈 줄에 자기 문장을 쓰면 맞습니다. S09에서 말한 문장 두 개를 먼저 쓰고, 남은 두 줄에는 S11 ④의 문장을 씁니다(예: I like chicken because it's delicious. / I like soccer because it's fun.). 이유가 어울리는지, because 뒤에 it's나 I can이 있는지, 대문자 I, it's의 아포스트로피, 끝의 마침표를 봅니다. 문장이 짧으면 한 줄에 써도 됩니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 5,

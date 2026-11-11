@@ -761,7 +761,7 @@
           "헷갈리는 글자(G와 J, E와 I, B와 V 등)만 골라 여러 번 짚게 합니다."
         ],
         "주의": [
-          "보충 뒤에도 알파벳 이름을 많이 헷갈리면 3학년 ‘알파벳 A부터 M까지’(KR22-G03-ENG-ABC1-L01)와 ‘알파벳 N부터 Z까지’(KR22-G03-ENG-ABC2-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+          "보충 뒤에도 알파벳 이름을 많이 헷갈리면 3학년 ‘알파벳 A부터 M까지’와 ‘알파벳 N부터 Z까지’를 먼저 다시 하고 이 차시를 시작합니다."
         ]
       }
     }
@@ -772,7 +772,7 @@
       {
         "no": 1,
         "prompt": "상황에 알맞은 말을 골라 기호를 쓰세요.",
-        "read": "㉠ Pardon?　　㉡ What does \"tiny\" mean?　　㉢ How do you spell \"tiny\"?",
+        "read": "㉠ How do you spell \"tiny\"?　　㉡ Pardon?　　㉢ What does \"tiny\" mean?",
         "table": {
           "rows": [
             [
@@ -799,7 +799,7 @@
           "firstColHead": true,
           "size": 14
         },
-        "answer": "① ㉠ ② ㉡ ③ ㉢ (3개 모두 맞으면 통과)"
+        "answer": "① ㉡ ② ㉢ ③ ㉠ (3개 모두 맞으면 통과)"
       },
       {
         "no": 2,
@@ -849,19 +849,19 @@
             "How do you spell \"huge\"?"
           ]
         },
-        "answer": "보고 따라 썼으면 맞습니다. 첫 글자(P, W, H)는 대문자이고, 끝에 물음표(?)를 씁니다. huge 앞뒤의 큰따옴표는 빠뜨려도 틀리지 않지만 붙이면 어느 낱말을 묻는지 잘 보입니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "보고 따라 썼으면 맞습니다. 첫 글자(P, W, H)는 대문자이고, 끝에 물음표(?)를 씁니다. huge 앞뒤의 큰따옴표는 빠뜨려도 틀리지 않지만 붙이면 어느 낱말을 묻는지 잘 보입니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 5,
         "prompt": "giant의 뜻을 바르게 물은 문장에 ✔ 하세요.",
         "choices": [
-          "What does \"giant\" mean?",
           "What is \"giant\" mean?",
           "What means \"giant\"?",
-          "How do you spell \"giant\"?"
+          "How do you spell \"giant\"?",
+          "What does \"giant\" mean?"
         ],
         "choices_size": 16,
-        "answer": "첫째(What does \"giant\" mean?) 하나. 둘째와 셋째는 형태가 틀렸고, 넷째는 철자를 묻는 말입니다."
+        "answer": "넷째(What does \"giant\" mean?) 하나. 첫째와 둘째는 형태가 틀렸고, 셋째는 철자를 묻는 말입니다."
       },
       {
         "no": 6,

@@ -388,7 +388,7 @@
           "type": "words",
           "items": [
             {
-              "word": "I'm fine, thank you."
+              "word": "I'm Mina."
             }
           ],
           "perRow": 1
@@ -400,7 +400,7 @@
           "type": "words",
           "items": [
             {
-              "word": "I'm Mina."
+              "word": "I'm fine, thank you."
             }
           ],
           "perRow": 1
@@ -413,11 +413,11 @@
         "말하기": [
           "“Tom이 What's your name?이라고 물었어. 무엇을 물어본 거야?”",
           "“가와 나 가운데 알맞은 대답은 무엇일까? 왜 그렇게 생각해?”",
-          "“가는 언제 하는 대답이었지?”"
+          "“나는 언제 하는 대답이었지?”"
         ],
         "정답": [
-          "답은 나(I'm Mina.)입니다. 이름을 물었으니 이름으로 대답합니다.",
-          "가(I'm fine, thank you.)는 How are you?에 하는 대답입니다. 둘 다 I'm으로 시작하지만 뒤에 오는 말이 다릅니다."
+          "답은 가(I'm Mina.)입니다. 이름을 물었으니 이름으로 대답합니다.",
+          "나(I'm fine, thank you.)는 How are you?에 하는 대답입니다. 둘 다 I'm으로 시작하지만 뒤에 오는 말이 다릅니다."
         ],
         "막히면": [
           "“What's your name?은 ‘이름이 뭐야?’, How are you?는 ‘어떻게 지내?’”라고 우리말 뜻을 먼저 말해 줍니다."
@@ -576,16 +576,16 @@
       "title": "알맞은 대답을 골라요",
       "options": [
         {
-          "text": "I'm good."
-        },
-        {
-          "text": "I'm Tom."
-        },
-        {
           "text": "Nice to meet you, too."
         },
         {
           "text": "Goodbye."
+        },
+        {
+          "text": "I'm good."
+        },
+        {
+          "text": "I'm Tom."
         }
       ],
       "question": "What's your name?에 알맞은 대답은? 어떻게 알았나요?",
@@ -593,14 +593,14 @@
         "목적": "처음 보는 형식에서 묻는 말에 알맞은 대답을 고르는지 확인합니다.",
         "시간": "약 2분",
         "말하기": [
-          "“엄마(아빠)가 가, 나, 다, 라를 읽어 줄게. I'm good. I'm Tom. Nice to meet you, too. Goodbye.”",
+          "“엄마(아빠)가 가, 나, 다, 라를 읽어 줄게. Nice to meet you, too. Goodbye. I'm good. I'm Tom.”",
           "“What's your name?에 알맞은 대답은 어느 것일까? 어떻게 알았어?”",
           "“이번에는 엄마(아빠)가 Nice to meet you.라고 말할게. 어떤 대답이 알맞을까?”"
         ],
         "정답": [
-          "What's your name? → 나(I'm Tom.)",
-          "Nice to meet you. → 다(Nice to meet you, too.)",
-          "가(I'm good.)는 How are you?에 하는 대답, 라(Goodbye.)는 헤어질 때 하는 인사입니다."
+          "What's your name? → 라(I'm Tom.)",
+          "Nice to meet you. → 가(Nice to meet you, too.)",
+          "다(I'm good.)는 How are you?에 하는 대답, 나(Goodbye.)는 헤어질 때 하는 인사입니다."
         ],
         "막히면": [
           "S08을 다시 보여 주고 “무엇을 물어봤는지” 먼저 말하게 합니다."
@@ -697,7 +697,7 @@
           "부모가 먼저 말하고 아이가 따라 말하는 것부터 다시 합니다."
         ],
         "주의": [
-          "보충 뒤에도 인사와 안부 대답을 스스로 말하지 못하면, 앞 차시 ‘인사하기’(KR22-G03-ENG-HELLO-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+          "보충 뒤에도 인사와 안부 대답을 스스로 말하지 못하면, 앞 차시 ‘인사하기’를 먼저 다시 하고 이 차시를 시작합니다."
         ]
       }
     }
@@ -735,8 +735,8 @@
         "no": 2,
         "prompt": "What's your name?에 알맞은 대답에 모두 ✔ 하세요.",
         "choices": [
-          "I'm fine, thank you.",
           "I'm Mina.",
+          "I'm fine, thank you.",
           "Goodbye.",
           "My name is Tom."
         ],

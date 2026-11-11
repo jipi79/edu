@@ -340,14 +340,14 @@
         "A"
       ],
       "title": "언제 만날까요?",
-      "claim": "대화를 듣고 두 사람이 언제 만나는지 찾아요. 친구는 가라고 답했어요.",
+      "claim": "대화를 듣고 두 사람이 언제 만나는지 찾아요. 친구는 ‘나’라고 답했어요.",
       "left": {
         "title": "가",
-        "text": "Friday"
+        "text": "Saturday"
       },
       "right": {
         "title": "나",
-        "text": "Saturday"
+        "text": "Friday"
       },
       "question": "언제 만나나요? 친구는 왜 틀렸을까요?",
       "notes": {
@@ -356,10 +356,10 @@
         "말하기": [
           "“이번에는 ‘언제 만나는지’만 찾을 거야. 엄마(아빠)가 대화를 두 번 읽어 줄게.”",
           "부모가 읽을 대본: Mina: Can you come to my house on Friday? / Jiho: Sorry, I can't. I have a piano lesson on Friday. / Mina: How about Saturday? / Jiho: Saturday is fine.",
-          "“친구는 가(Friday)라고 답했대. 맞을까? 왜 틀렸을까?”"
+          "“친구는 나(Friday)라고 답했대. 맞을까? 왜 틀렸을까?”"
         ],
         "정답": [
-          "나(Saturday). 미나가 처음에 금요일을 말했지만 지호가 피아노 수업이 있어서 안 된다고 했고, 토요일로 바꾸었습니다. Friday를 먼저, 두 번 들어서 고르기 쉽지만 마지막에 정한 날이 핵심 정보입니다."
+          "가(Saturday). 미나가 처음에 금요일을 말했지만 지호가 피아노 수업이 있어서 안 된다고 했고, 토요일로 바꾸었습니다. Friday를 먼저, 두 번 들어서 고르기 쉽지만 마지막에 정한 날이 핵심 정보입니다."
         ],
         "막히면": [
           "대본의 Sorry, I can't.(미안, 못 가)와 How about ~?(~는 어때?)에서 약속이 바뀐다는 것을 알려 주고 다시 듣게 합니다."
@@ -406,7 +406,8 @@
           "June은 6월입니다. 달 이름이 어려우면 부모가 알려 줍니다."
         ],
         "주의": [
-          "Let's make paper rockets!는 무엇을 하는지 알려 주는 문장입니다. 오늘 질문(언제, 어디서, 가져갈 것)의 답은 아닙니다."
+          "Let's make paper rockets!는 무엇을 하는지 알려 주는 문장입니다. 오늘 질문(언제, 어디서, 가져갈 것)의 답은 아닙니다.",
+          "June 7은 ‘June seventh’라고 읽습니다. 날짜 읽는 법은 오늘 아이에게 따로 가르치지 않습니다."
         ]
       }
     },
@@ -575,6 +576,9 @@
         ],
         "막히면": [
           "S08처럼 When:, Where: 앞부분을 먼저 찾게 합니다. each는 ‘한 개마다’라는 뜻입니다."
+        ],
+        "주의": [
+          "아이가 읽는 법을 물으면 May 15는 ‘May fifteenth’, 500 won은 ‘five hundred won’이라고 읽어 줍니다."
         ]
       }
     },
@@ -694,8 +698,8 @@
         "no": 2,
         "prompt": "같은 대화를 다시 듣고, 두 사람이 어디에서 만나는지 ✔ 하세요.",
         "choices": [
-          "at the library",
           "at the bus stop",
+          "at the library",
           "at the park"
         ],
         "choices_size": 16,
@@ -736,8 +740,8 @@
         "choices": [
           "The party is on Saturday.",
           "It starts at two o'clock.",
-          "My favorite color is blue.",
-          "It's at the park."
+          "It's at the park.",
+          "My favorite color is blue."
         ],
         "choices_size": 16,
         "answer": "My favorite color is blue. (좋아하는 색은 파티에 가는 데 필요한 정보가 아닙니다.)"
@@ -754,7 +758,7 @@
           ],
           "blank": 2
         },
-        "answer": "네 문장을 보고 따라 쓰고, 빈 줄에 질문과 대답을 한 번씩 더 쓰면 맞습니다. 요일(Saturday)의 첫 글자를 대문자로 썼는지, It's의 아포스트로피(')와 물음표(?)·마침표(.)를 바르게 썼는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "네 문장을 보고 따라 쓰고, 빈 줄에 질문과 대답을 한 번씩 더 쓰면 맞습니다. 요일(Saturday)의 첫 글자를 대문자로 썼는지, It's의 아포스트로피(')와 물음표(?)·마침표(.)를 바르게 썼는지 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 6,

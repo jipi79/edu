@@ -719,12 +719,12 @@
           "I'm going to visit the zoo this weekend."
         ],
         "choices_size": 15,
-        "answer": "둘째와 넷째 (2개). going to와 tomorrow, this weekend가 단서입니다. 첫째와 셋째는 yesterday와 -ed가 있어 지난 일입니다."
+        "answer": "둘째(I'm going to read a book tomorrow.)와 넷째(I'm going to visit the zoo this weekend.) 2개. going to와 tomorrow, this weekend가 단서입니다. 첫째와 셋째는 yesterday와 -ed가 있어 지난 일입니다."
       },
       {
         "no": 2,
         "prompt": "보기에서 알맞은 말을 골라 빈칸에 쓰세요.",
-        "read": "보기:  ride   ·   bake   ·   clean",
+        "read": "보기:  clean   ·   ride   ·   bake",
         "table": {
           "rows": [
             [
@@ -770,7 +770,7 @@
           ],
           "blank": 2
         },
-        "answer": "두 문장을 한 번씩 더 쓰면 맞습니다. I'm의 아포스트로피('), 대문자 I, 물음표(?)·마침표(.)를 바르게 썼는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "두 문장을 한 번씩 더 쓰면 맞습니다. I'm의 아포스트로피('), 대문자 I, 물음표(?)·마침표(.)를 바르게 썼는지 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 5,

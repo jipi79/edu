@@ -223,19 +223,36 @@ function bondSvg(b, d = 13) {
 }
 
 // 영어 네 줄 공책: 위에서 셋째 줄이 기준선(주황). trace 글은 흐린 글씨로 따라 쓰고, blank 줄은 빈 칸으로 쓴다.
+// 따라 쓰기 글꼴은 Jost(공-막대 모양의 a·g, 낮은 소문자 몸통)를 쓴다. 소문자 몸통이 가운데 칸(둘째~셋째 줄)을 꼭 채우고,
+// 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올라가며, g·j·p·q·y는 셋째 줄 아래로 내려간다.
+const TRACE = JSON.parse(fs.readFileSync(path.join(__dirname, "fonts", "jost-metrics.json"), "utf-8"));
+const TRACE_FONT_CSS = `@font-face { font-family: "Trace Jost"; src: url(data:font/woff2;base64,${fs.readFileSync(path.join(__dirname, "fonts", "Jost-Regular.woff2")).toString("base64")}) format("woff2"); }`;
+const ENG_W = 165, ENG_MIN_H = 11;
+function traceWidth(t, h) {
+  const size = h / 3 / TRACE.xHeight;
+  let em = 0, spaces = 0;
+  for (const c of String(t)) { em += TRACE.advance[c] ?? 0.6; if (c === " ") spaces++; }
+  return em * size + spaces * 0.1 * h;
+}
 function engLinesHtml(e) {
-  const h = e.height || 15, w = 165;
-  const rows = [...[].concat(e.trace || []), ...Array.from({ length: e.blank || 0 }, () => "")];
-  // 따라 쓸 문장이 줄(165 mm)을 넘으면 빌드를 멈춘다(Liberation Sans 평균 글자 폭 약 0.55em).
-  for (const t of [].concat(e.trace || [])) {
-    const est = String(t).length * 0.55 * 0.53 * h + String(t).split(/\s+/).length * 0.1 * h;
-    if (est > w - 6) throw new Error(`영어 공책 따라 쓰기 문장이 한 줄에 들어가지 않습니다(약 ${Math.round(est)} mm > ${w - 6} mm): "${t}" — 문장을 나누어 두 줄로 주세요`);
+  let h = e.height || 15;
+  const w = ENG_W;
+  const traces = [].concat(e.trace || []);
+  const rows = [...traces, ...Array.from({ length: e.blank || 0 }, () => "")];
+  // 따라 쓸 문장이 줄(165 mm)을 넘으면 그 문항의 줄 높이를 함께 줄인다. 너무 작아지면(11 mm 미만) 빌드를 멈춘다.
+  for (const t of traces) {
+    const est = traceWidth(t, h);
+    if (est > w - 6) {
+      const fit = Math.floor((h * (w - 6)) / est * 10) / 10;
+      if (fit < ENG_MIN_H) throw new Error(`영어 공책 따라 쓰기 문장이 한 줄에 들어가지 않습니다(줄 높이 ${ENG_MIN_H} mm에서도 넘침): "${t}" — 문장을 나누어 두 줄로 주세요`);
+      h = Math.min(h, fit);
+    }
   }
+  const size = h / 3 / TRACE.xHeight;
   const row = (t) => {
     const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
-    const lines = ys.map((y, i) => `<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
-    // 소문자 몸통(x-height)이 가운데 칸(둘째~셋째 줄)에 맞도록 글자 크기를 정한다. 낱말 사이는 넉넉히 띄운다.
-    const text = t ? `<text x="3" y="${(2 * h) / 3}" font-family="Liberation Sans, Arial, sans-serif" font-size="${(0.53 * h).toFixed(2)}" fill="#C9CED6" style="white-space:pre" word-spacing="${(0.1 * h).toFixed(2)}">${esc(t)}</text>` : "";
+    const lines = ys.map((y, i) => `<line x1="0" y1="${y.toFixed(2)}" x2="${w}" y2="${y.toFixed(2)}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
+    const text = t ? `<text x="3" y="${((2 * h) / 3).toFixed(2)}" font-family="'Trace Jost', 'Liberation Sans', Arial, sans-serif" font-size="${size.toFixed(2)}" fill="#C9CED6" style="white-space:pre; font-kerning:none" word-spacing="${(0.1 * h).toFixed(2)}">${esc(t)}</text>` : "";
     return `<svg lang="en" width="${w}mm" height="${h}mm" viewBox="0 0 ${w} ${h}" style="display:block; margin:0 0 5mm 9.5mm">${lines}${text}</svg>`;
   };
   return `<div style="margin-top:2mm">${rows.map(row).join("")}</div>`;
@@ -279,7 +296,7 @@ function worksheetHtml(L) {
     for (let i = 0; i < (it.lines || 0); i++) h += '<div class="line"></div>';
     return h + "</div>";
   });
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}${TRACE_FONT_CSS}</style></head><body>
     <div class="head"><div><h1>${esc(ws.title)}</h1><div class="sub" style="margin:0">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시</div></div>
     <div class="name">이름 ______________ &nbsp; 날짜 ____________</div></div>
     ${items.join("")}
@@ -328,7 +345,7 @@ function guideHtml(L, thumbs) {
       <li>준비물: ${esc(L.materials.join(", "))}</li>
       ${(L.safety || []).map((t) => `<li style="color:#C8434E"><b>안전:</b> ${esc(t)}</li>`).join("")}
       <li>정답을 바로 알려 주기보다 “어떻게 알았어?”라고 묻고 아이가 설명하게 하세요. 막히면 각 장의 ‘막히면’을 따르세요.</li>
-      ${L.break_after ? `<li>아이가 지치면 ${esc(L.break_after)} 뒤에서 나누어 이틀에 해도 됩니다.</li>` : ""}
+      ${L.break_after ? (L.split_default ? `<li>이 차시는 내용이 많습니다. ${esc(L.break_after)} 뒤에서 나누어 <b>이틀에 하는 것을 기본</b>으로 합니다.</li>` : `<li>아이가 지치면 ${esc(L.break_after)} 뒤에서 나누어 이틀에 해도 됩니다.</li>`) : ""}
       ${L.format === "act" ? "<li>활동 중심 차시입니다. 화면은 짧은 안내이고, 실제 활동과 관찰 기록이 중심입니다.</li>" : ""}
     </ul></div>
     <h2>오늘의 목표와 확인 방법</h2>
@@ -351,6 +368,7 @@ function guideHtml(L, thumbs) {
 async function toPdf(browser, html, file) {
   const page = await browser.newPage();
   await page.setContent(html, { waitUntil: "load" });
+  await page.evaluate(async () => { await document.fonts.ready; });
   await page.pdf({ path: file, format: "A4", printBackground: true, preferCSSPageSize: true });
   await page.close();
 }

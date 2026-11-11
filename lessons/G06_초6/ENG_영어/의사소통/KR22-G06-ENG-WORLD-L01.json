@@ -447,7 +447,7 @@
           "type": "words",
           "items": [
             {
-              "word": "That's weird."
+              "word": "That's interesting!"
             }
           ],
           "perRow": 1
@@ -459,7 +459,7 @@
           "type": "words",
           "items": [
             {
-              "word": "That's interesting!"
+              "word": "That's weird."
             }
           ],
           "perRow": 1
@@ -474,7 +474,7 @@
           "“소개한 친구는 어느 쪽 반응을 들으면 기분이 좋을까? 왜?”"
         ],
         "정답": [
-          "나(That's interesting!)가 존중하는 반응입니다. 우리와 다른 것은 틀리거나 이상한 것이 아니라 그 나라의 문화이고, 관심을 갖고 들으면 서로 더 잘 알 수 있습니다."
+          "가(That's interesting!)가 존중하는 반응입니다. 우리와 다른 것은 틀리거나 이상한 것이 아니라 그 나라의 문화이고, 관심을 갖고 들으면 서로 더 잘 알 수 있습니다."
         ],
         "막히면": [
           "S06의 ‘다른 것은 틀린 것이 아니에요’를 다시 읽어 줍니다.",
@@ -570,6 +570,7 @@
         ],
         "주의": [
           "발표 내용이 맞는지는 조사표의 자료로 확인합니다. 영어 발음이 서툴러도 점검표를 지켰으면 잘한 것입니다.",
+          "화면의 점검표는 네 가지로 줄여 적었습니다. 통과 여부는 여기에 ‘조사한 자료와 내용이 맞아요’를 더한 다섯 가지(활동지 5의 발표 점검표)로 봅니다.",
           "아이가 부모님의 발표에 That's weird.처럼 반응하면 S08을 다시 이야기합니다."
         ]
       }
@@ -688,16 +689,16 @@
       "title": "바르게 말한 것은?",
       "options": [
         {
-          "text": "That's weird."
-        },
-        {
           "text": "That's interesting!"
         },
         {
-          "text": "All people in Italy eat pizza every day."
+          "text": "That's weird."
         },
         {
           "text": "Pizza is a famous food in Italy."
+        },
+        {
+          "text": "All people in Italy eat pizza every day."
         }
       ],
       "question": "존중하면서 바르게 말한 것 두 개는? 왜 그렇게 생각해요?",
@@ -709,8 +710,8 @@
           "“나머지는 어떻게 고쳐 말하면 좋을까?”"
         ],
         "정답": [
-          "나와 라. 나는 존중하는 반응이고, 라는 널리 알려진 음식이라고 사실대로 소개합니다.",
-          "가는 That's interesting!으로, 다는 Pizza is a famous food in Italy.나 Many people in Italy eat pizza.로 고쳐 말합니다."
+          "가와 다. 가는 존중하는 반응이고, 다는 널리 알려진 음식이라고 사실대로 소개합니다.",
+          "나는 That's interesting!으로, 라는 Pizza is a famous food in Italy.나 Many people in Italy eat pizza.로 고쳐 말합니다."
         ],
         "막히면": [
           "S05와 S08을 다시 보여 줍니다."
@@ -818,7 +819,7 @@
           "나라 이름의 첫 글자를 먼저 짚고, 지도에서 그 나라를 손가락으로 따라가며 읽게 합니다."
         ],
         "주의": [
-          "계획상 앞 차시는 ‘제안하고 답하기’(KR22-G06-ENG-SUGGEST-L01)입니다. Sounds good.이 흔들리면 그 차시의 S05를 다시 봅니다. 다른 나라의 문화를 존중하는 태도는 3학년 ‘나라별 인사 문화’(KR22-G03-ENG-GREETCULT-L01)와 4학년 ‘생활 예절 비교’(KR22-G04-ENG-MANNERS-L01)에서도 다루었으니 함께 떠올려 보세요."
+          "계획상 앞 차시는 ‘제안하고 답하기’입니다. Sounds good.이 흔들리면 그 차시의 S05를 다시 봅니다. 다른 나라의 문화를 존중하는 태도는 3학년 ‘나라별 인사 문화’와 4학년 ‘생활 예절 비교’에서도 다루었으니 함께 떠올려 보세요."
         ]
       }
     }
@@ -897,13 +898,13 @@
         "no": 3,
         "prompt": "존중하면서 바르게 말한 것에 모두 ✔ 하세요.",
         "choices": [
-          "That's interesting!",
           "That's weird.",
-          "Pizza is a famous food in Italy.",
-          "All people in Italy eat pizza every day."
+          "That's interesting!",
+          "All people in Italy eat pizza every day.",
+          "Pizza is a famous food in Italy."
         ],
         "choices_size": 16,
-        "answer": "첫째(That's interesting!)와 셋째(Pizza is a famous food in Italy.) 2개. 둘째는 존중하지 않는 반응이고, 넷째는 한 나라 사람이 모두 같다고 말했습니다."
+        "answer": "둘째(That's interesting!)와 넷째(Pizza is a famous food in Italy.) 2개. 첫째는 존중하지 않는 반응이고, 셋째는 한 나라 사람이 모두 같다고 말했습니다."
       },
       {
         "no": 4,

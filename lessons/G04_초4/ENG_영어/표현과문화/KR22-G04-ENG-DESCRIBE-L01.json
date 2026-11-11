@@ -631,7 +631,7 @@
           "type": "words",
           "items": [
             {
-              "word": "It's a red."
+              "word": "It's red."
             }
           ],
           "perRow": 1
@@ -643,7 +643,7 @@
           "type": "words",
           "items": [
             {
-              "word": "It's red."
+              "word": "It's a red."
             }
           ],
           "perRow": 1
@@ -658,7 +658,7 @@
           "“red는 ‘빨간’이라는 뜻이야. ‘그것은 하나의 빨간’이라고 하면 어색하지? 바르게 말한 쪽은?”"
         ],
         "정답": [
-          "바르게 말한 쪽은 나(It's red.)입니다. red, big, round 같은 꾸미는 말만 올 때는 a를 붙이지 않습니다. 물건 이름이 함께 올 때만 It's a red ball.처럼 a를 씁니다."
+          "바르게 말한 쪽은 가(It's red.)입니다. red, big, round 같은 꾸미는 말만 올 때는 a를 붙이지 않습니다. 물건 이름이 함께 올 때만 It's a red ball.처럼 a를 씁니다."
         ],
         "막히면": [
           "It's big.과 It's round.도 함께 말해 보며 a가 없다는 것을 확인합니다."
@@ -1052,36 +1052,6 @@
                 1.6
               ]
             },
-            "polygons": [],
-            "circles": [
-              {
-                "center": [
-                  0.0,
-                  0.0
-                ],
-                "r": 1.5,
-                "fill": "1F5FC4",
-                "width": 2.5
-              }
-            ],
-            "max_unit": 0.62,
-            "alt": "큰 파란색 동그라미"
-          }
-        },
-        {
-          "figure": {
-            "type": "geo",
-            "names": false,
-            "points": {
-              "_a": [
-                -1.6,
-                -1.6
-              ],
-              "_b": [
-                1.6,
-                1.6
-              ]
-            },
             "polygons": [
               {
                 "pts": [
@@ -1102,13 +1072,13 @@
                     0.6
                   ]
                 ],
-                "fill": "1F5FC4",
+                "fill": "D62828",
                 "width": 2.5
               }
             ],
             "circles": [],
             "max_unit": 0.62,
-            "alt": "작은 파란색 정사각형"
+            "alt": "작은 빨간색 정사각형"
           }
         },
         {
@@ -1168,6 +1138,36 @@
                 1.6
               ]
             },
+            "polygons": [],
+            "circles": [
+              {
+                "center": [
+                  0.0,
+                  0.0
+                ],
+                "r": 1.5,
+                "fill": "1F5FC4",
+                "width": 2.5
+              }
+            ],
+            "max_unit": 0.62,
+            "alt": "큰 파란색 동그라미"
+          }
+        },
+        {
+          "figure": {
+            "type": "geo",
+            "names": false,
+            "points": {
+              "_a": [
+                -1.6,
+                -1.6
+              ],
+              "_b": [
+                1.6,
+                1.6
+              ]
+            },
             "polygons": [
               {
                 "pts": [
@@ -1188,13 +1188,13 @@
                     0.6
                   ]
                 ],
-                "fill": "D62828",
+                "fill": "1F5FC4",
                 "width": 2.5
               }
             ],
             "circles": [],
             "max_unit": 0.62,
-            "alt": "작은 빨간색 정사각형"
+            "alt": "작은 파란색 정사각형"
           }
         }
       ],
@@ -1207,8 +1207,8 @@
           "“이번에는 It's small. It's red. It's square.”"
         ],
         "정답": [
-          "It's big. It's blue. It's square. → 다 (가는 round, 나는 small)",
-          "It's small. It's red. It's square. → 라"
+          "It's big. It's blue. It's square. → 나 (다는 round, 라는 small)",
+          "It's small. It's red. It's square. → 가"
         ],
         "막히면": [
           "한 문장씩 끊어 말하고, 맞지 않는 그림을 하나씩 손으로 가리게 합니다."
@@ -1306,7 +1306,7 @@
           "색깔 낱말 카드를 같은 색 물건 옆에 놓고 함께 읽습니다."
         ],
         "주의": [
-          "보충 뒤에도 색깔 낱말을 읽지 못하면 3학년 ‘그림 보고 낱말 읽기’(KR22-G03-ENG-PICWORDS-L01)를, It's로 대답하지 못하면 ‘시각 묻고 답하기’(KR22-G04-ENG-WHATTIME-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+          "보충 뒤에도 색깔 낱말을 읽지 못하면 3학년 ‘그림 보고 낱말 읽기’를, It's로 대답하지 못하면 ‘시각 묻고 답하기’를 먼저 다시 하고 이 차시를 시작합니다."
         ]
       }
     }
@@ -1318,12 +1318,12 @@
         "no": 1,
         "prompt": "② 도형에 알맞은 문장에 모두 ✔ 하세요.",
         "choices": [
-          "It's big.",
           "It's small.",
+          "It's big.",
           "It's red.",
           "It's blue.",
-          "It's round.",
-          "It's square."
+          "It's square.",
+          "It's round."
         ],
         "choices_size": 16,
         "answer": "It's small. / It's blue. / It's square. (②는 ①보다 작습니다. 3개 모두 고르고 다른 것을 고르지 않으면 통과)",
@@ -1512,7 +1512,7 @@
             "It's square."
           ]
         },
-        "answer": "세 문장을 따라 썼으면 맞습니다. It's의 아포스트로피(')와 끝의 마침표(.)를 빠뜨리지 않았는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "세 문장을 따라 썼으면 맞습니다. It's의 아포스트로피(')와 끝의 마침표(.)를 빠뜨리지 않았는지 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 5,

@@ -388,7 +388,7 @@
           "type": "words",
           "items": [
             {
-              "word": "Because it's sunny."
+              "word": "Sounds good."
             }
           ],
           "perRow": 1
@@ -400,7 +400,7 @@
           "type": "words",
           "items": [
             {
-              "word": "Sounds good."
+              "word": "Because it's sunny."
             }
           ],
           "perRow": 1
@@ -415,7 +415,7 @@
           "“그럼 알맞은 대답은 가와 나 가운데 어느 쪽이야?”"
         ],
         "정답": [
-          "나(Sounds good.)가 알맞습니다. Why don't we ~?는 ‘~하는 게 어때?’라는 제안이므로 받아들이거나(Sounds good.) 거절합니다(Sorry, I can't.). 가처럼 Because로 까닭을 말하는 것은 묻는 뜻을 잘못 알아들은 것입니다."
+          "가(Sounds good.)가 알맞습니다. Why don't we ~?는 ‘~하는 게 어때?’라는 제안이므로 받아들이거나(Sounds good.) 거절합니다(Sorry, I can't.). 나처럼 Because로 까닭을 말하는 것은 묻는 뜻을 잘못 알아들은 것입니다."
         ],
         "막히면": [
           "S04의 뜻(‘~하는 게 어때?’)을 다시 읽어 줍니다."
@@ -448,7 +448,7 @@
           "text": "A: Let's watch a movie.　B: ______, I can't. I'm busy."
         }
       ],
-      "hint": "보기:　Let's　·　don't　·　Sorry",
+      "hint": "보기:　Sorry　·　Let's　·　don't",
       "notes": {
         "목적": "대화의 빈칸에 들어갈 말을 정확한 형태로 넣어 제안하고 대답합니다.",
         "시간": "약 3분",
@@ -628,16 +628,16 @@
       "title": "알맞은 대답을 골라요",
       "options": [
         {
-          "text": "Sounds good."
-        },
-        {
           "text": "Because I like bikes."
         },
         {
-          "text": "Sorry, I can't. I have homework."
+          "text": "Sounds good."
         },
         {
           "text": "I'm fine, thank you."
+        },
+        {
+          "text": "Sorry, I can't. I have homework."
         }
       ],
       "question": "엄마(아빠)의 제안에 알맞은 대답은? 어떻게 알았나요?",
@@ -649,9 +649,9 @@
           "“이번에는 Let's play soccer. 숙제가 있어서 거절하려면?”"
         ],
         "정답": [
-          "좋다고 대답할 때 → 가 (Sounds good.)",
-          "숙제가 있어 거절할 때 → 다 (Sorry, I can't. I have homework.)",
-          "나는 제안에 까닭으로 대답해 맞지 않고, 라는 안부를 묻는 말(How are you?)에 하는 대답입니다."
+          "좋다고 대답할 때 → 나 (Sounds good.)",
+          "숙제가 있어 거절할 때 → 라 (Sorry, I can't. I have homework.)",
+          "가는 제안에 까닭으로 대답해 맞지 않고, 다는 안부를 묻는 말(How are you?)에 하는 대답입니다."
         ],
         "막히면": [
           "S08을 다시 보여 주고 “친구가 까닭을 물었어, 함께 하자고 했어?”라고 묻습니다."
@@ -759,7 +759,7 @@
           "부모가 먼저 말하고 아이가 몸짓과 함께 따라 말하는 것부터 다시 합니다."
         ],
         "주의": [
-          "계획상 앞 차시는 ‘뜻 확인하기’(KR22-G06-ENG-CLARIFY-L01)입니다. S02 ①의 Pardon?이 흔들리면 그 차시의 S03~S07을 다시 봅니다. 보충 뒤에도 할 일 낱말 묶음을 많이 모르면 낱말 카드를 만들어 하루 이틀 더 몸짓과 함께 익힌 뒤 이 차시를 시작합니다."
+          "계획상 앞 차시는 ‘뜻 확인하기’입니다. S02 ①의 Pardon?이 흔들리면 그 차시의 S03~S07을 다시 봅니다. 보충 뒤에도 할 일 낱말 묶음을 많이 모르면 낱말 카드를 만들어 하루 이틀 더 몸짓과 함께 익힌 뒤 이 차시를 시작합니다."
         ]
       }
     }
@@ -770,7 +770,7 @@
       {
         "no": 1,
         "prompt": "보기에서 골라 빈칸에 알맞은 말을 쓰세요. 문장 맨 앞의 말은 대문자로 시작하세요.",
-        "read": "보기:　Let's　·　Why　·　Sounds　·　Sorry",
+        "read": "보기:　Sorry　·　Sounds　·　Let's　·　Why",
         "table": {
           "rows": [
             [
@@ -814,13 +814,13 @@
         "no": 3,
         "prompt": "Why don't we go to the park?에 알맞은 대답에 모두 ✔ 하세요.",
         "choices": [
-          "Sounds good.",
           "Because it's sunny.",
-          "Sorry, I can't. I have homework.",
-          "Let's going to the park."
+          "Let's going to the park.",
+          "Sounds good.",
+          "Sorry, I can't. I have homework."
         ],
         "choices_size": 16,
-        "answer": "첫째(Sounds good.)와 셋째(Sorry, I can't. I have homework.) 2개. 둘째는 제안에 까닭으로 대답했고, 넷째는 대답이 아니며 Let's going도 틀렸습니다."
+        "answer": "셋째(Sounds good.)와 넷째(Sorry, I can't. I have homework.) 2개. 첫째는 제안에 까닭으로 대답했고, 둘째는 대답이 아니며 Let's going도 틀렸습니다."
       },
       {
         "no": 4,
@@ -832,7 +832,7 @@
             "Sorry, I can't."
           ]
         },
-        "answer": "보고 따라 썼으면 맞습니다. Let's와 can't의 아포스트로피('), Sorry 다음의 쉼표(,), 끝의 마침표(.)를 빠뜨리지 않았는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "보고 따라 썼으면 맞습니다. Let's와 can't의 아포스트로피('), Sorry 다음의 쉼표(,), 끝의 마침표(.)를 빠뜨리지 않았는지 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 5,

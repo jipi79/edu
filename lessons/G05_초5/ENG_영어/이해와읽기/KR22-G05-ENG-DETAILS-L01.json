@@ -768,7 +768,7 @@
           "대본을 한 번 더 읽어 주며 pizza가 나올 때마다 손가락을 하나씩 펴게 합니다."
         ],
         "주의": [
-          "보충 뒤에도 중심 내용을 찾지 못하면 앞 차시 ‘중심 내용 찾기’(KR22-G05-ENG-GIST-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+          "보충 뒤에도 중심 내용을 찾지 못하면 앞 차시 ‘중심 내용 찾기’를 먼저 다시 하고 이 차시를 시작합니다."
         ]
       }
     }
@@ -821,19 +821,19 @@
           ],
           "rows": [
             [
-              "Who has a cat?\n누가 고양이를 기르나요?",
+              "Who has a cat?",
               ""
             ],
             [
-              "What is the cat's name?\n고양이 이름은 무엇인가요?",
+              "What is the cat's name?",
               ""
             ],
             [
-              "When does Yuna play with Nabi?\n유나는 언제 나비와 노나요?",
+              "When does Yuna play with Nabi?",
               ""
             ],
             [
-              "Where does Nabi sleep?\n나비는 어디에서 자나요?",
+              "Where does Nabi sleep?",
               ""
             ]
           ],
@@ -843,7 +843,7 @@
           ],
           "size": 14
         },
-        "answer": "Who? Yuna / What? Nabi / When? after school / Where? in a small box (철자와 대문자 Y, N을 글과 똑같이 옮겨 썼는지 봅니다. 네 개 가운데 세 개 이상이면 통과)"
+        "answer": "Who? Yuna / What? Nabi / When? after school / Where? in a small box (철자와 대문자 Y, N을 글과 똑같이 옮겨 썼는지 봅니다. 네 개 가운데 세 개 이상이면 통과) 물음 문장이 어려우면 맨 앞의 물음 낱말만 보고 찾을 것을 정하게 하고, 뜻은 부모가 풀어 줍니다(누가 고양이를 기르나요? / 고양이 이름은? / 언제 나비와 노나요? / 나비는 어디에서 자나요?)."
       },
       {
         "no": 3,

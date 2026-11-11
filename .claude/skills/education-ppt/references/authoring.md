@@ -47,6 +47,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 - 학생에게 보이는 장에는 "정답:" 같은 정답 표기를 쓰지 않는다. 정답은 노트, answers 장(teacher_only), 안내서에만.
 - 선택: `layout`(cover·content·closing·support, 기본은 kind에 따라), `teacher_only`.
 - 차시 최상위 선택 필드 `break_after`: 이틀에 나눠도 되는 지점(장 ID). 부모용 안내에 표시된다.
+- 차시 최상위 선택 필드 `split_default: true`: 내용이 많아 `break_after`에서 나누어 이틀에 하는 것을 기본으로 권할 때 쓴다(부모용 안내의 문구가 바뀐다). 노트에도 날마다 어느 장·활동지 문항을 하는지 적는다.
 
 ## 장 종류(kind)
 

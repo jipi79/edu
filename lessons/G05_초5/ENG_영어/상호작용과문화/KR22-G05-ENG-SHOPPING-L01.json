@@ -395,11 +395,11 @@
       "claim": "친구가 2,000원을 보고 두 가지로 말했어요.",
       "left": {
         "title": "가",
-        "text": "It's two thousands wons."
+        "text": "It's two thousand won."
       },
       "right": {
         "title": "나",
-        "text": "It's two thousand won."
+        "text": "It's two thousands wons."
       },
       "question": "바르게 말한 것은 어느 쪽인가요? 왜 그렇게 생각해요?",
       "notes": {
@@ -411,7 +411,7 @@
           "“그러면 5,000원은 어떻게 말할까?”"
         ],
         "정답": [
-          "나가 바릅니다. 숫자 낱말 뒤의 thousand와 hundred에는 s를 붙이지 않고, won에도 s를 붙이지 않습니다.",
+          "가가 바릅니다. 숫자 낱말 뒤의 thousand와 hundred에는 s를 붙이지 않고, won에도 s를 붙이지 않습니다.",
           "5,000원 → It's five thousand won."
         ],
         "막히면": [
@@ -635,16 +635,16 @@
       "title": "알맞은 가격표를 골라요",
       "options": [
         {
-          "text": "300원"
-        },
-        {
-          "text": "3,000원"
-        },
-        {
           "text": "500원"
         },
         {
+          "text": "300원"
+        },
+        {
           "text": "5,000원"
+        },
+        {
+          "text": "3,000원"
         }
       ],
       "question": "엄마(아빠)가 말하는 값은 어느 것일까요? 어떻게 알았나요?",
@@ -656,8 +656,8 @@
           "“How much is it? It's five hundred won.”"
         ],
         "정답": [
-          "It's three thousand won. → 나(3,000원). 가(300원)는 three hundred won입니다.",
-          "It's five hundred won. → 다(500원). 라(5,000원)는 five thousand won입니다."
+          "It's three thousand won. → 라(3,000원). 나(300원)는 three hundred won입니다.",
+          "It's five hundred won. → 가(500원). 다(5,000원)는 five thousand won입니다."
         ],
         "막히면": [
           "hundred와 thousand 가운데 어느 소리가 들렸는지 먼저 묻고, 0의 개수로 고르게 합니다."
@@ -781,7 +781,7 @@
           "바둑돌을 숫자만큼 놓으며 숫자 낱말을 함께 말합니다."
         ],
         "주의": [
-          "보충 뒤에도 숫자 낱말을 절반 넘게 말하지 못하면 4학년 ‘시각 묻고 답하기’(KR22-G04-ENG-WHATTIME-L01)의 숫자 낱말부터, 길을 묻지 못하면 앞 차시 ‘길 묻고 안내하기’(KR22-G05-ENG-DIRECTION-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+          "보충 뒤에도 숫자 낱말을 절반 넘게 말하지 못하면 4학년 ‘시각 묻고 답하기’의 숫자 낱말부터, 길을 묻지 못하면 앞 차시 ‘길 묻고 안내하기’를 먼저 다시 하고 이 차시를 시작합니다."
         ]
       }
     }
@@ -795,11 +795,11 @@
         "read": "가격표:  2,000원",
         "choices": [
           "It's two hundred won.",
-          "It's two thousand won.",
-          "It's two thousands won."
+          "It's two thousands won.",
+          "It's two thousand won."
         ],
         "choices_size": 16,
-        "answer": "It's two thousand won. (셋째는 thousand에 s를 붙여 틀립니다. 첫째는 200원입니다.)"
+        "answer": "It's two thousand won. (둘째는 thousand에 s를 붙여 틀립니다. 첫째는 200원입니다.)"
       },
       {
         "no": 2,
@@ -840,7 +840,7 @@
           ],
           "blank": 2
         },
-        "answer": "네 문장을 보고 따라 쓰고, 빈 줄에 두 문장 이상 더 쓰면 맞습니다. It's와 I'd의 아포스트로피('), 끝의 물음표(?)·마침표(.)를 바르게 썼는지, thousand에 s를 붙이지 않았는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "네 문장을 보고 따라 쓰고, 빈 줄에 두 문장 이상 더 쓰면 맞습니다. It's와 I'd의 아포스트로피('), 끝의 물음표(?)·마침표(.)를 바르게 썼는지, thousand에 s를 붙이지 않았는지 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 4,
@@ -859,7 +859,7 @@
           "firstColHead": true,
           "size": 14
         },
-        "answer": "부모가 ① It's one thousand five hundred won. ② It's three hundred won.를 두 번씩 읽어 줍니다. 정답은 ① 1,500원 ② 300원입니다. ②에 3,000을 쓰면 hundred와 thousand를 헷갈린 것이니 S03과 S12를 다시 봅니다."
+        "answer": "부모가 ① It's five thousand won. ② It's three hundred won.를 두 번씩 읽어 줍니다. 정답은 ① 5,000원 ② 300원입니다. ①에 500, ②에 3,000을 쓰면 hundred와 thousand를 헷갈린 것이니 S03과 S12를 다시 봅니다."
       },
       {
         "no": 5,

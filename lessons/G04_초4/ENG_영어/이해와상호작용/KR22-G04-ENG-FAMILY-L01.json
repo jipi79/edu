@@ -749,7 +749,7 @@
           "부모가 먼저 말하고 아이가 따라 말하는 것부터 다시 합니다."
         ],
         "주의": [
-          "보충 뒤에도 자기 이름을 넣어 말하지 못하면 3학년 ‘이름 묻고 답하기’(KR22-G03-ENG-NAME-L01)를, 짧은 문장을 읽지 못하면 ‘짧은 문장 읽고 쓰기’(KR22-G04-ENG-ILIKE-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+          "보충 뒤에도 자기 이름을 넣어 말하지 못하면 3학년 ‘이름 묻고 답하기’를, 짧은 문장을 읽지 못하면 ‘짧은 문장 읽고 쓰기’를 먼저 다시 하고 이 차시를 시작합니다."
         ]
       }
     }
@@ -831,7 +831,7 @@
           ],
           "blank": 2
         },
-        "answer": "This is my dad. / He is tall.을 한 번씩 더 쓰면 맞습니다. 문장 첫 글자(T, H)를 대문자로 썼는지, 낱말 사이를 띄었는지, 끝에 마침표를 찍었는지 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "This is my dad. / He is tall.을 한 번씩 더 쓰면 맞습니다. 문장 첫 글자(T, H)를 대문자로 썼는지, 낱말 사이를 띄었는지, 끝에 마침표를 찍었는지 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 4,
@@ -849,12 +849,12 @@
         "no": 5,
         "prompt": "‘이 사람은 우리 할머니예요. 할머니는 친절해요.’에 알맞은 것에 ✔ 하세요.",
         "choices": [
+          "This is my grandma. He is kind.",
           "This is my grandma. She is kind.",
-          "This is my grandpa. He is kind.",
-          "This is my grandma. He is kind."
+          "This is my grandpa. He is kind."
         ],
         "choices_size": 16,
-        "answer": "This is my grandma. She is kind. (둘째는 할아버지, 셋째는 He를 잘못 씀)"
+        "answer": "This is my grandma. She is kind. (둘째가 맞음. 첫째는 He를 잘못 씀, 셋째는 할아버지)"
       },
       {
         "no": 6,

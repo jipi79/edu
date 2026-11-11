@@ -249,11 +249,11 @@ function array(deck, slide, sid, fig, box) {
       }
     }
   }
-  // 묶음 테두리는 꽉 찬 줄(또는 열)에만 그린다.
+  // 묶음 테두리는 꽉 찬 줄(또는 열)에만 그린다. 점은 줄 차례로 채우므로, 마지막 줄에 점이 있는 열까지가 꽉 찬 열이다(7개를 2줄로 놓으면 세 열에 테두리, 하나가 남는다).
   if (fig.group === "row") {
     for (let r = 0; r < fig.rows && (r + 1) * fig.cols <= count; r++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + 0.03, y: y + r * cell + 0.04, w: w - 0.06, h: cell - 0.08, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
   } else if (fig.group === "col") {
-    for (let c = 0; c < fig.cols && count >= fig.rows * fig.cols; c++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + c * cell + 0.04, y: y + 0.03, w: cell - 0.08, h: h - 0.06, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
+    for (let c = 0; c < fig.cols && (fig.rows - 1) * fig.cols + c < count; c++) slide.addShape(deck.pres.shapes.ROUNDED_RECTANGLE, { x: x + c * cell + 0.04, y: y + 0.03, w: cell - 0.08, h: h - 0.06, rectRadius: 0.12, fill: { color: P.lt1, transparency: 100 }, line: { color: P.accent4, width: 2 }, objectName: deck.name(sid, "group") });
   }
   const name = deck.name(sid, "figure");
   slide.addShape(deck.pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: P.lt1, transparency: 100 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: name });

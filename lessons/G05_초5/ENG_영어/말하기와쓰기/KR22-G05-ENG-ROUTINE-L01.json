@@ -989,7 +989,7 @@
           ],
           "blank": 3
         },
-        "answer": "따라 쓰고, 빈 줄에 자기 일과 3문장을 쓰면 맞습니다(예: I get up at seven thirty. / I go to school at eight thirty. / I go to bed at ten.). 문장마다 대문자 I, at, 시각 낱말 철자, 끝의 마침표를 봅니다. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+        "answer": "따라 쓰고, 빈 줄에 자기 일과 3문장을 쓰면 맞습니다(예: I get up at seven thirty. / I go to school at eight thirty. / I go to bed at ten.). 문장마다 대문자 I, at, 시각 낱말 철자, 끝의 마침표를 봅니다. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 5,
