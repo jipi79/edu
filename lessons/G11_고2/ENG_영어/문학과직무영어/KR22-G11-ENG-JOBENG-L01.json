@@ -825,23 +825,23 @@
           "rows": [
             [
               "① Who is this?",
-              ""
+              " \n "
             ],
             [
               "② Hold on.",
-              ""
+              " \n "
             ],
             [
               "③ He's not here.",
-              ""
+              " \n "
             ],
             [
               "④ I can't come on Friday.",
-              ""
+              " \n "
             ],
             [
               "⑤ Tell me your name again.",
-              ""
+              " \n "
             ]
           ],
           "widths": [
@@ -864,11 +864,11 @@
             ],
             [
               "② 비어 있는 시간을 제안하세요.",
-              ""
+              " \n "
             ],
             [
               "③ 목요일 4시로 정했어요. 확인하는 말",
-              ""
+              " \n "
             ]
           ],
           "widths": [
@@ -892,19 +892,19 @@
           "rows": [
             [
               "Tell me about yourself.",
-              " \n "
+              " \n \n "
             ],
             [
               "Why do you want this job?",
-              " \n "
+              " \n \n "
             ],
             [
               "What are your strengths? (+ For example)",
-              " \n "
+              " \n \n "
             ],
             [
               "Do you have any questions?",
-              " \n "
+              " \n \n "
             ]
           ],
           "widths": [
