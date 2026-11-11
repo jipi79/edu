@@ -354,11 +354,11 @@
       "claim": "친구가 내일 계획을 두 가지로 말했어요.",
       "left": {
         "title": "가",
-        "text": "I'm going to played soccer tomorrow."
+        "text": "I'm going to play soccer tomorrow."
       },
       "right": {
         "title": "나",
-        "text": "I'm going to play soccer tomorrow."
+        "text": "I'm going to played soccer tomorrow."
       },
       "question": "바르게 말한 것은 어느 쪽인가요? 무엇이 다른가요?",
       "notes": {
@@ -370,7 +370,7 @@
           "“played는 언제 쓰는 말이었지?”"
         ],
         "정답": [
-          "나가 바릅니다. going to 다음에는 동사의 기본 모양(play)을 씁니다. played는 지난 일을 말할 때 쓰는 모양이라 tomorrow와 함께 쓰지 않습니다."
+          "가가 바릅니다. going to 다음에는 동사의 기본 모양(play)을 씁니다. 나에 쓰인 played는 지난 일을 말할 때 쓰는 모양이라 tomorrow와 함께 쓰지 않습니다."
         ],
         "막히면": [
           "S04의 카드를 다시 보며 going to 다음 낱말에 -ed가 있는지 확인하게 합니다."
@@ -713,13 +713,13 @@
         "no": 1,
         "prompt": "앞으로의 계획을 말하는 문장에 모두 ✔ 하세요.",
         "choices": [
-          "I'm going to read a book tomorrow.",
           "I watched TV yesterday.",
-          "I'm going to visit the zoo this weekend.",
-          "I played soccer yesterday."
+          "I'm going to read a book tomorrow.",
+          "I played soccer yesterday.",
+          "I'm going to visit the zoo this weekend."
         ],
         "choices_size": 15,
-        "answer": "첫째와 셋째 (2개). going to와 tomorrow, this weekend가 단서입니다. 둘째와 넷째는 yesterday와 -ed가 있어 지난 일입니다."
+        "answer": "둘째와 넷째 (2개). going to와 tomorrow, this weekend가 단서입니다. 첫째와 셋째는 yesterday와 -ed가 있어 지난 일입니다."
       },
       {
         "no": 2,

@@ -427,7 +427,7 @@
           "type": "words",
           "items": [
             {
-              "word": "I goed to the park yesterday."
+              "word": "I went to the park yesterday."
             }
           ],
           "perRow": 1
@@ -439,7 +439,7 @@
           "type": "words",
           "items": [
             {
-              "word": "I went to the park yesterday."
+              "word": "I goed to the park yesterday."
             }
           ],
           "perRow": 1
@@ -455,8 +455,8 @@
           "“그럼 eat의 지난 일은? eated일까?”"
         ],
         "정답": [
-          "나(I went to the park yesterday.). go는 -ed를 붙이지 않고 went로 모양이 바뀝니다.",
-          "가의 goed라는 낱말은 없습니다. eat도 eated가 아니라 ate입니다."
+          "가(I went to the park yesterday.). go는 -ed를 붙이지 않고 went로 모양이 바뀝니다.",
+          "나의 goed라는 낱말은 없습니다. eat도 eated가 아니라 ate입니다."
         ],
         "막히면": [
           "S05를 다시 보여 주고 “go는 어느 쪽 동사였지?”라고 묻습니다."
@@ -711,10 +711,10 @@
           "text": "I eated pizza yesterday."
         },
         {
-          "text": "I ate pizza yesterday."
+          "text": "I eat pizza yesterday."
         },
         {
-          "text": "I eat pizza yesterday."
+          "text": "I ate pizza yesterday."
         },
         {
           "text": "I ated pizza yesterday."
@@ -729,8 +729,8 @@
           "“이번에는 엄마(아빠)가 말하는 문장을 바르게 고쳐 줘. I visit my grandma last Sunday.”"
         ],
         "정답": [
-          "나(I ate pizza yesterday.)",
-          "가와 라는 없는 낱말(eated, ated), 다는 yesterday인데 지금 모양(eat)을 썼습니다.",
+          "다(I ate pizza yesterday.)",
+          "가와 라는 없는 낱말(eated, ated), 나는 yesterday인데 지금 모양(eat)을 썼습니다.",
           "고쳐 말하기: I visited my grandma last Sunday."
         ],
         "막히면": [
@@ -886,10 +886,10 @@
         "no": 3,
         "prompt": "바른 문장에 모두 ✔ 하세요.",
         "choices": [
-          "I watched TV yesterday.",
           "I eated cake yesterday.",
-          "I saw a rainbow last Sunday.",
-          "I go to the zoo yesterday."
+          "I watched TV yesterday.",
+          "I go to the zoo yesterday.",
+          "I saw a rainbow last Sunday."
         ],
         "choices_size": 16,
         "answer": "I watched TV yesterday. / I saw a rainbow last Sunday. (2개). eated는 없는 낱말(ate)이고, yesterday인데 go를 썼으니 went로 고쳐야 합니다."

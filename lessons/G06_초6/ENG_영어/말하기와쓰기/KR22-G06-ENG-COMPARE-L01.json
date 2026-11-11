@@ -1861,7 +1861,7 @@
         "시간": "약 5분",
         "말하기": [
           "“소리를 듣고 따라 말해 보자.” (교과서 디지털 자료나 사전 앱의 소리를 함께 듣습니다.)",
-          "“몸으로 해 볼까? tall은 발끝으로 서고, short는 무릎을 굽혀. big은 팔을 크게, small은 손을 작게. fast는 빨리 걷고, old는 지팡이 짚는 흉내!”",
+          "“몸으로 해 볼까? tall은 발끝으로 서고, short는 무릎을 굽혀. big은 팔을 크게, small은 손을 작게. fast는 빨리 걷고, old는 우리 집에서 오래된 물건을 가리켜!”",
           "“아빠는 키가 커. 영어로? My dad is tall.”"
         ],
         "정답": [
@@ -2053,11 +2053,11 @@
         "choices": [
           "The tree is taller than the house.",
           "The house is taller than the tree.",
-          "The house is shorter than the tree.",
-          "The tree is more tall than the house."
+          "The tree is more tall than the house.",
+          "The house is shorter than the tree."
         ],
         "choices_size": 16,
-        "answer": "첫째(The tree is taller than the house.)와 셋째(The house is shorter than the tree.) 2개. 넷째는 more tall이 틀렸습니다(taller). 둘째는 그림과 반대입니다."
+        "answer": "첫째(The tree is taller than the house.)와 넷째(The house is shorter than the tree.) 2개. 셋째는 more tall이 틀렸습니다(taller). 둘째는 그림과 반대입니다."
       },
       {
         "no": 3,

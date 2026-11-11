@@ -743,21 +743,7 @@
         {
           "figure": {
             "type": "clock",
-            "h": 8,
-            "m": 0
-          }
-        },
-        {
-          "figure": {
-            "type": "clock",
             "h": 9,
-            "m": 30
-          }
-        },
-        {
-          "figure": {
-            "type": "clock",
-            "h": 8,
             "m": 30
           }
         },
@@ -766,6 +752,20 @@
             "type": "clock",
             "h": 6,
             "m": 40
+          }
+        },
+        {
+          "figure": {
+            "type": "clock",
+            "h": 8,
+            "m": 0
+          }
+        },
+        {
+          "figure": {
+            "type": "clock",
+            "h": 8,
+            "m": 30
           }
         }
       ],
@@ -778,8 +778,8 @@
           "“나머지 시계는 몇 시야?”"
         ],
         "정답": [
-          "다(8시 30분). 짧은바늘이 8과 9의 가운데, 긴바늘이 6에 있습니다.",
-          "가는 8시(eight), 나는 9시 30분(nine thirty), 라는 6시 40분입니다. 라는 긴바늘이 8에 있어 eight로 착각하기 쉽습니다."
+          "라(8시 30분). 짧은바늘이 8과 9의 가운데, 긴바늘이 6에 있습니다.",
+          "가는 9시 30분(nine thirty), 나는 6시 40분, 다는 8시(eight)입니다. 나는 긴바늘이 8에 있어 eight로 착각하기 쉽습니다."
         ],
         "막히면": [
           "“긴바늘이 6에 있으면 몇 분이었지? 짧은바늘은 어느 숫자 다음이야?”라고 차례로 묻습니다."
@@ -927,8 +927,8 @@
           }
         ],
         "choices": [
-          "I go to school at eight.",
           "I go to school at eight thirty.",
+          "I go to school at eight.",
           "I go to school at nine thirty."
         ],
         "choices_size": 16,

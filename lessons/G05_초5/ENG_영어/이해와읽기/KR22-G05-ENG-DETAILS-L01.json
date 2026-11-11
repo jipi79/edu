@@ -135,13 +135,13 @@
       "text": "엄마(아빠)가 읽어 주는 대화를 끝까지 들어요.",
       "options": [
         {
-          "text": "Mina의 새 자전거"
+          "text": "Tom의 강아지"
         },
         {
           "text": "학교 숙제"
         },
         {
-          "text": "Tom의 강아지"
+          "text": "Mina의 새 자전거"
         }
       ],
       "question": "무엇에 관한 대화인가요? 어떻게 알았나요?",
@@ -154,7 +154,7 @@
           "“무엇에 관한 대화야? 어떻게 알았어?”"
         ],
         "정답": [
-          "가(Mina의 새 자전거). bike가 두 번 나오고, 처음부터 끝까지 Mina의 새 자전거 이야기입니다."
+          "다(Mina의 새 자전거). bike가 두 번 나오고, 처음부터 끝까지 Mina의 새 자전거 이야기입니다."
         ],
         "막히면": [
           "“여러 번 들린 낱말이 뭐야?”라고 묻고 대화를 한 번 더 읽어 줍니다.",
@@ -337,7 +337,7 @@
           "type": "words",
           "items": [
             {
-              "word": "At the park."
+              "word": "On Saturday, at two."
             }
           ],
           "perRow": 1
@@ -349,7 +349,7 @@
           "type": "words",
           "items": [
             {
-              "word": "On Saturday, at two."
+              "word": "At the park."
             }
           ],
           "perRow": 1
@@ -362,11 +362,11 @@
         "말하기": [
           "“When은 무엇을 묻는 말이었지?”",
           "“가와 나 가운데 알맞은 답은? 왜 그렇게 생각해?”",
-          "“그럼 가의 At the park.는 어떤 물음의 답일까?”"
+          "“그럼 나의 At the park.는 어떤 물음의 답일까?”"
         ],
         "정답": [
-          "나(On Saturday, at two.). When은 때를 묻습니다.",
-          "가(At the park.)는 곳이므로 Where?의 답입니다. at two의 at과 at the park의 at은 같은 낱말이지만, 뒤에 시각이 오면 때, 장소가 오면 곳입니다."
+          "가(On Saturday, at two.). When은 때를 묻습니다.",
+          "나(At the park.)는 곳이므로 Where?의 답입니다. at two의 at과 at the park의 at은 같은 낱말이지만, 뒤에 시각이 오면 때, 장소가 오면 곳입니다."
         ],
         "막히면": [
           "S03의 표를 다시 보여 주고 When 줄과 Where 줄을 손으로 짚게 합니다."
@@ -664,16 +664,16 @@
       "text": "Tom plays soccer with Mina at the park on Sunday.",
       "options": [
         {
-          "text": "with Mina"
-        },
-        {
-          "text": "at the park"
-        },
-        {
           "text": "on Sunday"
         },
         {
           "text": "soccer"
+        },
+        {
+          "text": "with Mina"
+        },
+        {
+          "text": "at the park"
         }
       ],
       "question": "When?에 알맞은 답은? 어떻게 알았나요?",
@@ -686,8 +686,8 @@
           "“그럼 Where?는? Who?는? What?은?”"
         ],
         "정답": [
-          "When? → 다(on Sunday)",
-          "Where? → 나(at the park), Who?(누구와) → 가(with Mina), What? → 라(soccer)"
+          "When? → 가(on Sunday)",
+          "Where? → 라(at the park), Who?(누구와) → 다(with Mina), What? → 나(soccer)"
         ],
         "막히면": [
           "S03의 표를 다시 보여 주고 “When은 때였지? 때를 나타내는 말은?”이라고 묻습니다."
@@ -808,7 +808,7 @@
           ],
           "size": 13
         },
-        "answer": "들려줄 대화(두 번 읽어 줍니다): Jisu: Sam, do you like movies? / Sam: Yes, I do. / Jisu: Let's watch a movie on Sunday. / Sam: OK. Where? / Jisu: At my house. My mom makes popcorn! — 답: Who? 지수(Jisu) / What? 영화 보기(watch a movie) / When? 일요일(on Sunday) / Where? 지수의 집(at Jisu's house) (네 개 가운데 세 개 이상이면 통과. Who에 Sam이라고 쓰면 첫 줄은 지수가 Sam을 부르며 한 말이라는 것을 짚어 줍니다.)"
+        "answer": "들려줄 대화(두 번 읽어 줍니다): Jisu: Sam, do you like movies? / Sam: Yes, I do. / Jisu: Let's watch a movie on Sunday. / Sam: OK. Where? / Jisu: At my house. My mom makes great popcorn! — 답: Who? 지수(Jisu) / What? 영화 보기(watch a movie) / When? 일요일(on Sunday) / Where? 지수의 집(at Jisu's house) (네 개 가운데 세 개 이상이면 통과. Who에 Sam이라고 쓰면 첫 줄은 지수가 Sam을 부르며 한 말이라는 것을 짚어 줍니다.)"
       },
       {
         "no": 2,
@@ -821,19 +821,19 @@
           ],
           "rows": [
             [
-              "Who has a cat?",
+              "Who has a cat?\n누가 고양이를 기르나요?",
               ""
             ],
             [
-              "What is the cat's name?",
+              "What is the cat's name?\n고양이 이름은 무엇인가요?",
               ""
             ],
             [
-              "When does Yuna play with Nabi?",
+              "When does Yuna play with Nabi?\n유나는 언제 나비와 노나요?",
               ""
             ],
             [
-              "Where does Nabi sleep?",
+              "Where does Nabi sleep?\n나비는 어디에서 자나요?",
               ""
             ]
           ],
@@ -849,10 +849,10 @@
         "no": 3,
         "prompt": "When?(언제)에 알맞은 답에 모두 ✔ 하세요.",
         "choices": [
-          "at three",
-          "in the kitchen",
-          "on Monday",
           "my sister",
+          "at three",
+          "on Monday",
+          "in the kitchen",
           "after school"
         ],
         "choices_size": 16,
@@ -863,10 +863,10 @@
         "prompt": "Where?(어디서)에 알맞은 답에 모두 ✔ 하세요.",
         "choices": [
           "at the park",
-          "on Friday",
           "in my room",
-          "Tom",
-          "at school"
+          "on Friday",
+          "at school",
+          "Tom"
         ],
         "choices_size": 16,
         "answer": "at the park, in my room, at school (3개). on Friday는 When?(때), Tom은 Who?(사람)의 답입니다."
