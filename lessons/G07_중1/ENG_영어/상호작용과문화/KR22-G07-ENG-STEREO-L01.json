@@ -717,7 +717,7 @@
         "정답": [
           "고정관념이 없는 문장: 가(Some people in Japan don't like sushi.), 다(Pizza is a famous food in Italy.)",
           "나 → Sushi is a famous food in Japan. / Not all Japanese people eat sushi every day.",
-          "라 → Some Italians eat rice, too. / Not all Italians eat pasta every day.",
+          "라 → Some Italians eat rice, too. (never를 빼고 Some으로 고칩니다.)",
           "기준: 두 개를 바르게 고르고 까닭(신호 말 all, never)을 말하면 목표 A 달성, 나머지 하나 이상을 고쳐 말하면 목표 B도 확인된 것으로 봅니다."
         ],
         "막히면": [
