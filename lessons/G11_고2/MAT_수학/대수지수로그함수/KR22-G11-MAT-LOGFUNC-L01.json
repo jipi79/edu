@@ -1,0 +1,65 @@
+{
+  "id": "KR22-G11-MAT-LOGFUNC-L01",
+  "concept_id": "MAT-LOGFUNC",
+  "title": "로그함수와 그래프",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "대수지수로그함수",
+  "sequence": 2,
+  "file_stem": "고2_수학_대수지수로그함수_02_로그함수와그래프",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I01"
+    ],
+    "units": [
+      "2.3.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "로그함수를 지수함수의 역함수로 이해하고 y=log_a x의 그래프를 그려 증가·감소와 점근선을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "지수함수와 그래프",
+      "lesson": "KR22-G11-MAT-EXPFUNC-L01",
+      "grade_item": "KR22-G11-MAT-I01"
+    },
+    {
+      "text": "로그의 성질",
+      "lesson": "KR22-G11-MAT-LOGPROP-L01",
+      "grade_item": "KR22-G11-MAT-I01"
+    },
+    {
+      "text": "역함수",
+      "lesson": "KR22-G10-MAT-INVFUNC-L01",
+      "grade_item": "KR22-G10-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "로그함수와 그래프 활동지",
+    "items": [],
+    "record": []
+  }
+}
