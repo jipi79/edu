@@ -740,16 +740,16 @@
       "text": "인사하는 방법에 대한 문장이에요.",
       "options": [
         {
-          "text": "In many places, people\nshake hands."
+          "text": "In Korea, many people\nbow to older people."
+        },
+        {
+          "text": "All Koreans bow\nevery time."
         },
         {
           "text": "Bowing is strange.\nHandshakes are better."
         },
         {
-          "text": "In Korea, many people\nbow to older people."
-        },
-        {
-          "text": "All Koreans bow\nevery time."
+          "text": "In many places, people\nshake hands."
         }
       ],
       "question": "존중하고 ‘모두’라고 하지 않은 문장 두 개는? 나머지는 어떻게 고칠까요?",
@@ -760,16 +760,16 @@
           "“bow는 고개 숙여 인사하다, shake hands는 악수하다야. 알맞은 문장 두 개를 고르고, 나머지 두 개는 어떻게 고칠지 말해 줘.”"
         ],
         "정답": [
-          "알맞은 문장: 가(In many places, people shake hands.), 다(In Korea, many people bow to older people.)",
-          "나 → Bowing and shaking hands are different ways. Both are polite. (한쪽이 이상하다·더 낫다고 판단함)",
-          "라 → Many people in Korea bow to older people. (All, every time으로 단정함)",
-          "기준: 두 개를 바르게 고르면 목표 A, 나를 존중하는 말로 고쳐 말하면 목표 B도 확인된 것으로 봅니다."
+          "알맞은 문장: 가(In Korea, many people bow to older people.), 라(In many places, people shake hands.)",
+          "나 → Many people in Korea bow to older people. (All, every time으로 단정함)",
+          "다 → Bowing and shaking hands are different ways. Both are polite. (한쪽이 이상하다·더 낫다고 판단함)",
+          "기준: 두 개를 바르게 고르면 목표 A, 다를 존중하는 말로 고쳐 말하면 목표 B도 확인된 것으로 봅니다."
         ],
         "막히면": [
           "“신호 말이 있는 문장은? 한쪽을 낮추는 말이 있는 문장은?”이라고 차례로 묻습니다."
         ],
         "주의": [
-          "나를 알맞은 문장으로 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 이야기합니다."
+          "다를 알맞은 문장으로 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 이야기합니다."
         ]
       }
     },
@@ -944,14 +944,14 @@
         "no": 3,
         "prompt": "다른 문화를 존중하는 말에 모두 ✔ 하세요.",
         "choices": [
-          "It's different, not wrong.",
-          "That's strange. Our way is better.",
-          "Both ways have reasons.",
           "Their way is dirty.",
-          "That's interesting! Why do you do that?"
+          "It's different, not wrong.",
+          "That's interesting! Why do you do that?",
+          "That's strange. Our way is better.",
+          "Both ways have reasons."
         ],
         "choices_size": 14,
-        "answer": "✔: It's different, not wrong. / Both ways have reasons. / That's interesting! Why do you do that? 세 개를 모두 고르고 나머지 두 개를 고르지 않으면 통과. 둘째(이상하다, 우리 방식이 낫다)와 넷째(더럽다)는 다른 관점을 낮추는 말입니다."
+        "answer": "✔: It's different, not wrong. / Both ways have reasons. / That's interesting! Why do you do that? 세 개를 모두 고르고 나머지 두 개를 고르지 않으면 통과. 첫째(더럽다)와 넷째(이상하다, 우리 방식이 낫다)는 다른 관점을 낮추는 말입니다."
       },
       {
         "no": 4,

@@ -74,7 +74,7 @@
     {
       "id": "M3",
       "text": "고정관념을 고친다며 반대로 단정한다(Italians never eat pasta.).",
-      "response": "S08 ②에서 반대로 단정한 문장을 자료와 견주어 고치고, S12 보기 나로 다시 확인한다."
+      "response": "S08 ②에서 반대로 단정한 문장을 자료와 견주어 고치고, S12 보기 라로 다시 확인한다."
     },
     {
       "id": "M4",
@@ -186,7 +186,7 @@
     },
     {
       "type": "blank",
-      "expr": "3 + 7 = □",
+      "expr": "3 + 6 + 1 = □",
       "answer": 10,
       "where": "S09 피자 자료 카드 합계"
     },
@@ -197,7 +197,22 @@
         "10/2"
       ],
       "rel": "<",
-      "where": "S09·활동지 3② 피자 3명: Some"
+      "where": "S09 피자를 아주 좋아함 3명·활동지 3② 피자 3명: Some"
+    },
+    {
+      "type": "blank",
+      "expr": "3 + 6 = □",
+      "answer": 9,
+      "where": "S09 노트: 피자를 조금이라도 좋아하는 학생"
+    },
+    {
+      "type": "compare",
+      "values": [
+        "3 + 6",
+        "10/2"
+      ],
+      "rel": ">",
+      "where": "S09 노트: 피자를 조금이라도 좋아함 9명: Many"
     },
     {
       "type": "blank",
@@ -720,10 +735,10 @@
         "목적": "부모가 고정관념이 담긴 광고 문구를 내놓으면 아이가 자료 카드와 견주어 문제를 말하고, 자료에 맞는 문구를 정중하게 제안합니다(목표 A·B).",
         "시간": "약 6분",
         "말하기": [
-          "준비(종이 여섯 장): 광고 문구 카드 ① All Koreans love K-pop! Come to our K-pop concert! ② Every Canadian loves snow! Buy our winter coats! ③ Everyone in Italy loves pizza! Try our pizza! / 자료 카드(모두 예시 자료, 지어낸 숫자) ① 우리 반 20명: K-pop을 좋아함 12, 다른 음악을 더 좋아함 8 ② 캐나다 학생 10명: 눈을 좋아함 6, 좋아하지 않음 4 ③ 이탈리아 학생 10명: 가장 좋아하는 음식이 피자 3, 다른 음식 7",
+          "준비(종이 여섯 장): 광고 문구 카드 ① All Koreans love K-pop! Come to our K-pop concert! ② Every Canadian loves snow! Buy our winter coats! ③ Everyone in Italy loves pizza! Try our pizza! / 자료 카드(모두 예시 자료, 지어낸 숫자) ① 우리 반 20명: K-pop을 좋아함 12, 다른 음악을 더 좋아함 8 ② 캐나다 학생 10명: 눈을 좋아함 6, 좋아하지 않음 4 ③ 이탈리아 학생 10명: 피자를 아주 좋아함 3, 조금 좋아함 6, 좋아하지 않음 1",
           "“엄마(아빠)는 광고를 만드는 사람이야. 너는 광고가 나가기 전에 문구를 살피는 사람이고. 문구를 들으면 자료 카드를 보고, 정중하게 고쳐 줘.”",
           "(부모) “All Koreans love K-pop! Come to our K-pop concert!” → (아이) “Not all Koreans love K-pop. Look at the data. 12 of 20 students like K-pop. Why don't we say, ‘Many students love K-pop. Come to our concert!’?” → (부모) “Good idea. Thank you!”",
-          "② (아이) “Not every Canadian loves snow. 6 of 10 students like snow. Why don't we say, ‘Many people enjoy snow. Stay warm with our coats!’?” ③ (아이) “Only 3 of 10 students say pizza is their favorite food. Why don't we say, ‘Pizza is a famous food in Italy. Try our pizza!’?”",
+          "② (아이) “Not every Canadian loves snow. 6 of 10 students like snow. Why don't we say, ‘Many people enjoy snow. Stay warm with our coats!’?” ③ (아이) “Not everyone in Italy loves pizza. Only 3 of 10 students love pizza. Why don't we say, ‘Pizza is a famous food in Italy. Try our pizza!’?”",
           "역할을 바꿔 아이가 고정관념이 담긴 문구를 일부러 만들고, 부모가 자료를 보며 고칩니다."
         ],
         "예상답": [
@@ -736,7 +751,8 @@
         ],
         "주의": [
           "Why don't we ~?(~하는 게 어때요?)는 6학년 ‘제안하고 답하기’에서 배운 말입니다. Look at the data.는 ‘자료를 보세요’라는 뜻입니다.",
-          "You're wrong!처럼 몰아붙이지 않고 자료를 보여 주며 제안하는 것이 오늘 목표의 일부입니다."
+          "You're wrong!처럼 몰아붙이지 않고 자료를 보여 주며 제안하는 것이 오늘 목표의 일부입니다.",
+          "자료 카드 ③에서 광고의 loves(아주 좋아한다)는 ‘아주 좋아함’ 줄(3명)과 견줍니다. 조금이라도 좋아하는 학생은 3 + 6 = 9명이라 Many students like pizza.도 자료에 맞습니다."
         ]
       }
     },
@@ -804,7 +820,7 @@
         "정답": [
           "① All (All Canadians)",
           "② 30명 가운데 7명(7 + 9 + 6 + 8 = 30). 7명은 절반(15명)보다 적습니다.",
-          "③ 예: Some Canadian students play ice hockey. / In this school, 7 of 30 students play ice hockey. / Not all Canadians play ice hockey.",
+          "③ 예: Some Canadian students play ice hockey. / In this club, 7 of 30 students play ice hockey. / Not all Canadians play ice hockey.",
           "기준: 세 개 모두 맞으면 통과. ③은 All을 없애고 자료보다 크게 말하지 않으면(Many는 알맞지 않음) 맞습니다. 반대로 단정(Canadians never play ice hockey.)하면 다시 생각하게 합니다."
         ],
         "막히면": [
@@ -838,7 +854,7 @@
           "text": "Some Canadian students play ice hockey."
         },
         {
-          "text": "In this school, 7 of 30 students ~."
+          "text": "In this club, 7 of 30 students ~."
         }
       ],
       "bad": [
@@ -867,7 +883,7 @@
           "“7명은 많지 않으니까 Many는 안 맞아요.” “never도 고정관념이에요.” “캐나다 사람이 7명만 하키를 하는 게 아니라, 이 학교 동아리에서 7명이에요.”"
         ],
         "정답": [
-          "① All ② 30명 가운데 7명 ③ Some Canadian students play ice hockey. / In this school, 7 of 30 students play ice hockey."
+          "① All ② 30명 가운데 7명 ③ Some Canadian students play ice hockey. / In this club, 7 of 30 students play ice hockey."
         ],
         "막히면": [
           "숫자 읽기가 어려웠으면 S04, 말 고르기가 어려웠으면 S05·S07, 반대로 단정했으면 S08을 다시 봅니다."
@@ -891,16 +907,16 @@
       "text": "자막(지어낸 자막): Japanese people eat sushi every day!\n예시 자료 10명: 지난주 점심 초밥 0번 6명, 1번 3명, 2번 1명",
       "options": [
         {
-          "text": "Many students eat\nsushi every day."
-        },
-        {
-          "text": "Japanese people\nnever eat sushi."
+          "text": "Some of these\nstudents ate sushi."
         },
         {
           "text": "6 of 10 students\ndidn't eat sushi."
         },
         {
-          "text": "Some of these\nstudents ate sushi."
+          "text": "Many students eat\nsushi every day."
+        },
+        {
+          "text": "Japanese people\nnever eat sushi."
         }
       ],
       "question": "자료에 맞는 문장 두 개는? 나머지는 왜 맞지 않나요?",
@@ -911,15 +927,15 @@
           "“자막은 ‘일본 사람들은 날마다 초밥을 먹는다’야. 아래 자료는 일본 학생 10명의 지난주 점심을 조사한 지어낸 자료야. 자료에 맞는 문장 두 개는?”"
         ],
         "정답": [
-          "자료에 맞는 문장: 다(6 + 3 + 1 = 10명 가운데 6명은 초밥을 먹지 않음), 라(초밥을 먹은 학생은 3 + 1 = 4명, 절반보다 적으므로 Some)",
-          "가 – 날마다 먹은 학생은 없고(가장 많이 먹은 학생도 2번), 4명은 절반보다 적어 Many도 맞지 않습니다. 나 – 4명이 먹었으므로 never는 반대로 단정한 말입니다.",
+          "자료에 맞는 문장: 가(초밥을 먹은 학생은 3 + 1 = 4명, 절반보다 적으므로 Some), 나(6 + 3 + 1 = 10명 가운데 6명은 초밥을 먹지 않음)",
+          "다 – 날마다 먹은 학생은 없고(가장 많이 먹은 학생도 2번), 4명은 절반보다 적어 Many도 맞지 않습니다. 라 – 4명이 먹었으므로 never는 반대로 단정한 말입니다.",
           "기준: 두 개를 바르게 고르고 나머지 하나 이상의 까닭을 숫자로 말하면 통과."
         ],
         "막히면": [
           "“초밥을 한 번이라도 먹은 학생은 몇 명이야? 날마다 먹은 학생은?”이라고만 묻습니다."
         ],
         "주의": [
-          "가나 나를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07·S08을 다시 봅니다."
+          "다나 라를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S07·S08을 다시 봅니다."
         ]
       }
     },
@@ -962,7 +978,7 @@
         "정답": [
           "① All",
           "② Some (7명은 절반 15명보다 적음)",
-          "③ 예: Some Canadians play ice hockey. / Not all Canadians play ice hockey. / In this school, 7 of 30 students play ice hockey."
+          "③ 예: Some Canadians play ice hockey. / Not all Canadians play ice hockey. / In this club, 7 of 30 students play ice hockey."
         ],
         "주의": [
           "광고나 영상에서 ‘모두가 ~해요!’ 같은 말을 보면 “정말 모두일까? 자료가 있을까?”라고 함께 이야기해 보면 좋은 복습이 됩니다.",
@@ -1112,12 +1128,12 @@
         "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 S10의 광고(All Canadians play ice hockey!)를 자료(30명 가운데 7명)에 맞게 고쳐 쓰세요.",
         "eng": {
           "trace": [
-            "Not all Koreans love spicy food.",
-            "In our survey, 5 of 20 love it."
+            "Not all Koreans like spicy food.",
+            "In our survey, 16 of 20 like it."
           ],
           "blank": 2
         },
-        "answer": "따라 쓰기 두 줄과, 빈 줄에 고친 문장(예: Some Canadian students play ice hockey. / In this school, 7 of 30 students play ice hockey.). All을 없애고 Some이나 숫자로 쓰며, 첫 글자 대문자와 마침표가 있으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 고친 문장(예: Some Canadian students play ice hockey. / In this club, 7 of 30 students play ice hockey.). All을 없애고 Some이나 숫자로 쓰며, 첫 글자 대문자와 마침표가 있으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 7,
