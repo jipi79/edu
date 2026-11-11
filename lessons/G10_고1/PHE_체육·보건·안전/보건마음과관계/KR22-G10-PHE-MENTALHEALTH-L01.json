@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G10-PHE-MENTALHEALTH-L01",
+  "concept_id": "PHE-MENTALHEALTH",
+  "title": "정신 건강과 도움 요청",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "PHE",
+  "strand_label": "체육·보건·안전",
+  "unit_folder": "보건마음과관계",
+  "sequence": 1,
+  "file_stem": "고1_체육·보건·안전_보건마음과관계_01_정신건강과도움요청",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-PHE-I02"
+    ],
+    "units": [
+      "10.5.4",
+      "10.6.3",
+      "10.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "일상적 스트레스와 우울·불안의 위험 신호를 구별하고 자신과 친구를 위한 도움 요청 순서와 상담 자원을 정리한다.",
+  "prerequisites": [
+    {
+      "text": "건강정보와 도움 자원",
+      "lesson": "KR22-G09-PHE-HELPSOURCE-L01",
+      "grade_item": "KR22-G09-PHE-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "정신 건강과 도움 요청 활동지",
+    "items": [],
+    "record": []
+  }
+}

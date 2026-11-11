@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G12-INF-GENAICHK-L01",
+  "concept_id": "INF-GENAICHK",
+  "title": "생성형 AI 결과 검증",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "AI평가와생성형AI",
+  "sequence": 2,
+  "file_stem": "고3_정보·AI_AI평가와생성형AI_02_생성형AI결과검증",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-INF-I01"
+    ],
+    "units": [
+      "8.4.3",
+      "8.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "생성형 AI의 답에서 사실 오류·출처 없는 주장·편향된 표현을 찾아 원자료와 대조해 검증하고 책임 있는 활용 규칙을 정한다.",
+  "prerequisites": [
+    {
+      "text": "AI 활용의 득과 실",
+      "lesson": "KR22-G10-INF-AISOCIETY-L01",
+      "grade_item": "KR22-G10-INF-I03"
+    },
+    {
+      "text": "모델 성능과 편향",
+      "lesson": "KR22-G11-INF-MODELEVAL-L01",
+      "grade_item": "KR22-G11-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "생성형 AI 결과 검증 활동지",
+    "items": [],
+    "record": []
+  }
+}

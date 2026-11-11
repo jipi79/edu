@@ -1,0 +1,62 @@
+{
+  "id": "KR22-G10-PHE-CONSENT-L01",
+  "concept_id": "PHE-CONSENT",
+  "title": "동의와 관계 폭력 대응",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "PHE",
+  "strand_label": "체육·보건·안전",
+  "unit_folder": "보건마음과관계",
+  "sequence": 2,
+  "file_stem": "고1_체육·보건·안전_보건마음과관계_02_동의와관계폭력대응",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-PHE-I02"
+    ],
+    "units": [
+      "10.5.4",
+      "10.6.3",
+      "10.4.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "연인·온라인 관계 사례에서 동의의 조건과 경계 침해·관계 폭력의 신호를 찾고 거절·신고·도움 요청 방법을 고른다.",
+  "prerequisites": [
+    {
+      "text": "정신 건강과 도움 요청",
+      "lesson": "KR22-G10-PHE-MENTALHEALTH-L01",
+      "grade_item": "KR22-G10-PHE-I02"
+    },
+    {
+      "text": "중독 예방과 평등한 관계",
+      "lesson": "KR22-G08-PHE-ADDICTION-L01",
+      "grade_item": "KR22-G08-PHE-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "동의와 관계 폭력 대응 활동지",
+    "items": [],
+    "record": []
+  }
+}

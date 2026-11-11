@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G12-INF-OVERFIT-L01",
+  "concept_id": "INF-OVERFIT",
+  "title": "과대적합과 일반화",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "AI평가와생성형AI",
+  "sequence": 1,
+  "file_stem": "고3_정보·AI_AI평가와생성형AI_01_과대적합과일반화",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-INF-I01"
+    ],
+    "units": [
+      "8.4.3",
+      "8.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "훈련 정확도와 평가 정확도를 비교해 과대적합을 판단하고 자료를 늘리거나 모델을 단순하게 하는 등 일반화를 높이는 방법을 설명한다.",
+  "prerequisites": [
+    {
+      "text": "모델 성능과 편향",
+      "lesson": "KR22-G11-INF-MODELEVAL-L01",
+      "grade_item": "KR22-G11-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "과대적합과 일반화 활동지",
+    "items": [],
+    "record": []
+  }
+}
