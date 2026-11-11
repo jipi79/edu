@@ -1,0 +1,1138 @@
+{
+  "id": "KR22-G11-ENG-WISHASIF-L01",
+  "concept_id": "ENG-WISHASIF",
+  "title": "I wish·as if 가정법",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "영어1문법",
+  "sequence": 2,
+  "file_stem": "고2_영어_영어1문법_02_Iwish·asif가정법",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ENG-I01"
+    ],
+    "units": [
+      "3.1.4",
+      "3.2.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "가정법 과거완료",
+      "lesson": "KR22-G11-ENG-SUBJPP-L01",
+      "grade_item": "KR22-G11-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "I wish + 주어 + 과거형(be는 were, can은 could)으로 지금 이루기 어려운 바람(~라면 좋을 텐데)을, I wish + 주어 + had + 과거분사로 지난 일에 대한 아쉬움(~했다면 좋았을 텐데)을 말하고 해석하며, 실제 사실을 직설법(In fact, I don't have ~ / In fact, I didn't ~)으로 말한다.",
+      "evidence": "I wish의 뜻(S03), 지금과 그때의 I wish(S04), 해석과 실제 사실(S05), 직설법을 I wish로(S06), I wish I have 비교(S07), 실제로는? 놀이(S12), 혼자 해 보기(S13 ①②), 마무리 확인(S15 ①③), 활동지 1·2·5",
+      "success": "활동지 1·2의 I wish 문장 7개 가운데 6개 이상을 과거형·과거완료로 바르게 쓰거나 해석하고, 문장마다 실제 사실(In fact, ~)을 시제와 긍정·부정을 맞추어 말한다."
+    },
+    {
+      "id": "B",
+      "text": "as if + 주어 + 과거형(지금 사실과 반대: 마치 ~인 것처럼)과 as if + 주어 + had + 과거분사(지난 사실과 반대: 마치 ~였던 것처럼)를 해석하고, 실제 사실을 In fact, ~.로 말한다.",
+      "evidence": "as if의 뜻(S08), as if 해석과 실제 사실 표(S09), 해석하고 실제로는?(S10), 알맞은 모양 고르기(S11), 실제로는? 놀이(S12), 혼자 해 보기(S13 ③④), 마무리 확인(S15 ②), 활동지 3·4·5",
+      "success": "활동지 3·4의 as if 문장 6개 가운데 5개 이상을 ‘마치 ~인(였던) 것처럼’으로 해석하고 실제 사실을 바르게 말한다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "종이 카드 여섯 장(바람 카드 세 장: a dog, more time, fly / 연기 카드 세 장: a king, a famous singer, a ghost)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "I wish + 과거형(지금 바람), I wish + had + 과거분사(지난 일에 대한 아쉬움), as if + 과거형(지금 사실과 반대), as if + had + 과거분사(그 이전 사실과 반대)를 해석하고 실제 사실을 직설법으로 말하는 것만 다룬다. I wish 뒤의 be는 주어와 상관없이 were, can은 could로 쓴다. as if 문장의 주절 동사는 현재형(talks, acts, looks)만 써서, as if + 과거형은 ‘지금’, as if + had + 과거분사는 ‘그 전에’로 간단히 나눈다. 실제 사실은 In fact, ~.(사실은 ~)로 말하고, I'm sorry (that) ~ 직설법은 I wish 문장으로 바꾸는 데만 쓴다. as though, I wish + would(바람·불평), If only, 실제로 그럴 수도 있는 as if + 현재형(It looks as if it will rain.), 주절이 과거인 as if의 시제 일치는 다루지 않고 노트에서만 짚는다. 과거분사는 이미 배운 것(studied, seen, been, won, gone, eaten, slept, known, taken, listened 등)만 쓴다. ‘직설법’이라는 이름은 지난 차시처럼 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "I wish 뒤에 현재형이나 will을 쓴다(I wish I have a dog. / I wish I can fly.).",
+      "response": "S03·S04에서 I wish 뒤는 과거형(지금)·과거완료(그때)라는 것을 보여 주고, S07에서 I wish I have와 I wish I had를 비교한다. S13 ①과 활동지 1에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "I wish + 과거형을 지난 일로 해석한다(I wish I had a dog. → 개가 있었다면 좋았을 텐데).",
+      "response": "S04 표에서 ‘모양은 과거, 뜻은 지금’을 가정법 과거와 연결하고, S05에서 실제 사실을 현재형으로 말하게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "as if 문장을 실제 사실로 받아들인다(He talks as if he knew everything. → 그는 모든 것을 안다).",
+      "response": "S08·S09에서 as if 뒤의 과거형은 사실과 반대라는 것을 보여 주고, S10·S12에서 매번 In fact, ~.로 실제 사실을 말하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "실제 사실로 바꿀 때 시제나 긍정·부정을 바꾸지 않는다(I wish I had studied. → In fact, I studied.).",
+      "response": "S04 표의 ‘실제로는’ 칸과 S06, 활동지 2에서 과거형 → 현재형, 과거완료 → 과거형, 긍정 ↔ 부정을 함께 바꾸게 한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "I wish·as if 가정법",
+      "question": "I wish I had a dog.\n실제로는? 이루기 어려운 바람을 영어로 말하려면?",
+      "goals": [
+        "① I wish로 지금의 바람과 지난 일의 아쉬움을 말해요.",
+        "② as if 문장을 해석하고 실제 사실을 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "I wish I had a dog."
+          },
+          {
+            "word": "I wish I had studied."
+          },
+          {
+            "word": "He acts as if he knew me."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 이루기 어려운 바람과 ‘마치 ~인 것처럼’을 말하는 가정법에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘개가 있으면 좋을 텐데. 더 열심히 공부했다면 좋았을 텐데. 그는 마치 모든 것을 아는 것처럼 말해.’라는 뜻이야.”",
+          "“세 문장 모두 실제와 반대야. 실제로는 개가 없고, 공부를 열심히 안 했고, 그는 모든 것을 알지 못해. 오늘은 이 ‘실제로는’을 꼭 같이 말할 거야.”"
+        ],
+        "예상답": [
+          "“I wish 뒤에 had가 있어요.” “as if는 ‘마치 ~처럼’이에요.”"
+        ],
+        "막히면": [
+          "뜻을 모르면 부모가 뜻만 알려 주고, I wish와 as if 뒤의 동사에 손가락을 대 보게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I wish I had a dog. I wish I had studied harder. He talks as if he knew everything. She talks as if she had seen a ghost.)을 미리 들어 두세요.",
+          "고1 ‘가정법 과거’와 지난 차시 ‘가정법 과거완료’의 모양(과거형 = 지금과 반대, had + 과거분사 = 그때와 반대)을 그대로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(가정법 과거·과거완료)",
+      "role": "prior",
+      "objectives": [],
+      "title": "가정법 떠올리기",
+      "text": "가정법 과거와 과거완료를 떠올려요.",
+      "problems": [
+        {
+          "text": "If I had time, I would help you.\n→ 뜻과 숨은 사실은?"
+        },
+        {
+          "text": "I didn't see you, so I didn't say hello.\n→ 가정법 과거완료로"
+        },
+        {
+          "text": "If I (studied / had studied) yesterday,\nI would have passed."
+        }
+      ],
+      "notes": {
+        "목적": "고1 ‘가정법 과거’와 지난 차시 ‘가정법 과거완료’(KR22-G11-ENG-SUBJPP-L01)의 모양과 숨은 사실을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 뜻과 숨은 사실을 말해 줘.”",
+          "“②는 가정법 과거완료로 바꿔 말해 볼래?”",
+          "“③은 알맞은 것을 골라 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① 시간이 있다면 도와줄 텐데. (사실: 지금 시간이 없어요.)",
+          "② If I had seen you, I would have said hello.",
+          "③ had studied (yesterday: 그때 일) — 어제 공부했다면 시험에 붙었을 텐데."
+        ],
+        "막히면": [
+          "①은 “had가 지금이야, 그때야? would 뒤가 have가 아니지?”, ②는 “didn't see를 반대로, had + 과거분사로”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S17(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "가정법은 ‘한 단계 과거로’ 갑니다. 지금 일 → 과거형, 지난 일 → had + 과거분사. 오늘 I wish와 as if 뒤에도 같은 규칙을 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "I wish 가정법의 뜻",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "~라면 좋을 텐데: I wish",
+      "text": "I wish + 과거형: 지금 이루기 어려운 바람이에요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "I wish I had a dog.",
+            "sub": "개가 있으면 좋을 텐데 (지금)",
+            "highlight": true
+          },
+          {
+            "word": "In fact, I don't have a dog.",
+            "sub": "사실은: 지금 개가 없어요"
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "I wish + 과거형",
+          "text": "‘(지금) ~라면 좋을 텐데’\nbe → were,  can → could"
+        },
+        {
+          "title": "실제로는",
+          "text": "In fact, ~. 로\n현재형, 긍정 ↔ 부정"
+        }
+      ],
+      "key": "모양은 과거, 뜻은 지금:  I wish I were taller.  I wish I could fly.",
+      "notes": {
+        "목적": "I wish + 과거형은 지금 이루기 어려운 바람을 나타내고, 실제 사실은 반대라는 것을 보여 줍니다(목표 A, 오해 M1·M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“I wish I had a dog. 개가 있으면 좋을 텐데. had는 과거형이지만 뜻은 지금이야. 가정법 과거와 같아.”",
+          "“실제로는? 지금 개가 없어. In fact, I don't have a dog. In fact는 ‘사실은’이야.”",
+          "“be동사는 were, can은 could를 써. I wish I were taller. I wish I could fly.”"
+        ],
+        "예상답": [
+          "“실제로는 개가 없어요. In fact, I don't have a dog.”"
+        ],
+        "막히면": [
+          "“개가 있으면 이런 말을 할까?”라고 물어 실제 사실을 먼저 떠올리게 합니다."
+        ],
+        "주의": [
+          "I hope ~(바라다)는 실제로 될 수 있는 일에 씁니다: I hope it doesn't rain tomorrow. I wish는 이루기 어려운 일이나 사실과 반대인 일에 씁니다. 헷갈리면 이 차이를 짧게 알려 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "지금의 바람과 지난 일의 아쉬움",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "지금일까, 그때일까?",
+      "text": "I wish + 과거형은 지금, I wish + had + 과거분사는 그때예요.",
+      "table": {
+        "headers": [
+          "I wish ~",
+          "뜻",
+          "실제로는 (In fact, ~)"
+        ],
+        "rows": [
+          [
+            "I wish I were taller.",
+            "키가 더 크면 좋을 텐데.",
+            "I'm not tall."
+          ],
+          [
+            "I wish I could swim.",
+            "수영을 할 수 있으면 좋을 텐데.",
+            "I can't swim."
+          ],
+          [
+            "I wish I had studied harder.",
+            "더 열심히 공부했다면\n좋았을 텐데.",
+            "I didn't study hard."
+          ]
+        ],
+        "widths": [
+          0.36,
+          0.36,
+          0.28
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": "과거형 → 현재형,   had + 과거분사 → 과거형,   긍정 ↔ 부정",
+      "notes": {
+        "목적": "I wish + 과거형(지금의 바람)과 I wish + had + 과거분사(지난 일의 아쉬움)를 실제 사실과 함께 표로 비교합니다(목표 A, 오해 M2·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째·둘째 줄은 지금의 바람이야. 실제로는 지금 키가 크지 않고, 지금 수영을 못 해.”",
+          "“셋째 줄은 지난 일의 아쉬움이야. I wish I had studied harder. 더 열심히 공부했다면 좋았을 텐데. 실제로는 그때 열심히 하지 않았어.”",
+          "“실제로는 칸을 봐. 과거형이면 현재형으로, had + 과거분사면 과거형으로. 그리고 긍정과 부정을 바꿔.”"
+        ],
+        "예상답": [
+          "“had studied는 그때 일이에요.” “실제로는 I didn't study hard.”"
+        ],
+        "막히면": [
+          "지난 차시의 가정법 과거·과거완료 표(S04)와 같은 규칙이라고 말해 줍니다."
+        ],
+        "주의": [
+          "I wish I hadn't eaten so much.(그렇게 많이 먹지 않았다면 좋았을 텐데)처럼 부정도 씁니다. 실제로는 In fact, I ate too much.(긍정)입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "I wish 문장 해석하고 실제 사실 말하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "뜻과 실제 사실은?",
+      "text": "뜻을 말하고, In fact로 실제 사실을 말해요.",
+      "problems": [
+        {
+          "text": "I wish I had more time."
+        },
+        {
+          "text": "I wish I were good at drawing."
+        },
+        {
+          "text": "I wish I had gone to bed\nearlier."
+        },
+        {
+          "text": "I wish it hadn't rained\nyesterday."
+        }
+      ],
+      "notes": {
+        "목적": "I wish 문장을 해석하고, 지금인지 그때인지 가린 뒤 실제 사실을 In fact, ~.로 말합니다(목표 A, 오해 M2·M4). 활동지 2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“뜻을 말하고, In fact로 실제 사실을 말해 줘. 지금 일인지 그때 일인지도.”"
+        ],
+        "정답": [
+          "① 시간이 더 있으면 좋을 텐데. (지금) — In fact, I don't have much time.",
+          "② 그림을 잘 그리면 좋을 텐데. (지금) — In fact, I'm not good at drawing.",
+          "③ 더 일찍 잤다면 좋았을 텐데. (그때) — In fact, I didn't go to bed early.",
+          "④ 어제 비가 오지 않았다면 좋았을 텐데. (그때) — In fact, it rained yesterday."
+        ],
+        "막히면": [
+          "“had 다음에 과거분사가 있어? 그럼 그때 일이야.”라고 단서를 짚어 줍니다."
+        ],
+        "주의": [
+          "④는 부정(hadn't rained)이라 실제 사실은 긍정(it rained)입니다(오해 M4)."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "직설법을 I wish 문장으로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "I wish로 바꿔 말해요",
+      "text": "I'm sorry ~ (아쉬워요) → I wish ~ 로 바꿔요.",
+      "problems": [
+        {
+          "text": "I'm sorry I don't have a bike."
+        },
+        {
+          "text": "I'm sorry I can't speak Chinese."
+        },
+        {
+          "text": "I'm sorry I didn't listen to Mom."
+        },
+        {
+          "text": "I'm sorry I ate so much."
+        }
+      ],
+      "hint": "지금 → I wish + 과거형(could),   그때 → I wish + had + 과거분사",
+      "notes": {
+        "목적": "아쉬움을 나타내는 직설법(I'm sorry (that) ~)을 I wish 문장으로 바꿉니다(목표 A, 오해 M1·M4). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“I'm sorry ~는 ‘~해서 아쉬워’야. 이걸 I wish 문장으로 바꿔 말해 줘. 지금이면 과거형, 그때면 had + 과거분사. 긍정과 부정도 바꿔.”"
+        ],
+        "정답": [
+          "① I wish I had a bike.",
+          "② I wish I could speak Chinese.",
+          "③ I wish I had listened to Mom.",
+          "④ I wish I hadn't eaten so much."
+        ],
+        "막히면": [
+          "“이건 지금 일이야, 그때 일이야? don't를 반대로 하면?”을 차례로 묻습니다."
+        ],
+        "주의": [
+          "I'm sorry (that) ~은 여기서 ‘미안해요’가 아니라 ‘~해서 아쉬워요’라는 뜻입니다. Chinese는 ‘중국어’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(I wish 뒤의 현재형)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘개가 있으면 좋을 텐데’를 영어로",
+      "claim": "‘(지금) 개가 있으면 좋을 텐데.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I wish I have a dog."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "I wish I had a dog."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 틀렸나요?",
+      "notes": {
+        "목적": "I wish 뒤에 현재형을 쓴 문장과 과거형을 쓴 문장을 비교합니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“I wish 뒤는 실제와 반대인 상상이야. 가정법은 한 단계 과거로 간다고 했지?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(I wish I had a dog.)입니다. 지금 이루기 어려운 바람이므로 I wish 뒤에 과거형을 씁니다. 가는 현재형 have를 써서 틀렸습니다."
+        ],
+        "막히면": [
+          "S03의 열쇠 문장(모양은 과거, 뜻은 지금)을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "I wish I can fly.도 같은 실수입니다. I wish I could fly.로 고쳐 말하게 합니다.",
+          "여기까지가 I wish입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "as if 가정법의 뜻",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "마치 ~인 것처럼: as if",
+      "text": "as if: ‘마치 ~인 것처럼’, 실제와 반대예요.",
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "He talks as if he\nknew everything.",
+            "sub": "실제로는: 다 알지 못해요 (지금)",
+            "highlight": true
+          },
+          {
+            "word": "She talks as if she\nhad seen a ghost.",
+            "sub": "실제로는: 유령을 보지 않았어요 (그 전)",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "as if + 과거형",
+          "text": "마치 (지금) ~인 것처럼\n지금 사실과 반대"
+        },
+        {
+          "title": "as if + had + 과거분사",
+          "text": "마치 (그 전에) ~였던 것처럼\n지난 사실과 반대"
+        }
+      ],
+      "key": "실제로는: In fact, he doesn't know everything.",
+      "notes": {
+        "목적": "as if + 과거형(지금 사실과 반대)과 as if + had + 과거분사(그 전의 사실과 반대)의 뜻과 실제 사실을 보여 줍니다(목표 B, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“He talks as if he knew everything. 그는 마치 모든 것을 아는 것처럼 말해. 실제로는? 다 알지 못해.”",
+          "“She talks as if she had seen a ghost. 그녀는 마치 유령을 봤던 것처럼 말해. 실제로는 유령을 보지 않았어.”",
+          "“as if 뒤의 과거형은 지금 사실과 반대, had + 과거분사는 그 전에 있었던 일과 반대야.”"
+        ],
+        "예상답": [
+          "“실제로는 다 알지 못해요.” “실제로는 유령을 보지 않았어요.”"
+        ],
+        "막히면": [
+          "“정말 다 알아? 그럼 왜 ‘마치’라고 했을까?”라고 묻습니다."
+        ],
+        "주의": [
+          "It looks as if it will rain.(비가 올 것 같아)처럼 as if 뒤에 현재형·will이 오면 실제로 그럴 수 있는 일입니다. 오늘은 가정법(과거형·과거완료)만 다룹니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "as if 문장의 해석과 실제 사실",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "as if 해석과 실제 사실",
+      "text": "as if 뒤의 내용을 반대로 하면 실제 사실이에요.",
+      "table": {
+        "headers": [
+          "as if ~",
+          "뜻",
+          "실제로는 (In fact, ~)"
+        ],
+        "rows": [
+          [
+            "Mina acts as if she\nwere the teacher.",
+            "미나는 마치 선생님인\n것처럼 행동해요.",
+            "She isn't the teacher."
+          ],
+          [
+            "Tom spends money as if\nhe were rich.",
+            "톰은 마치 부자인 것처럼\n돈을 써요.",
+            "He isn't rich."
+          ],
+          [
+            "He talks as if he had\nbeen to Paris.",
+            "그는 마치 파리에 가 본\n것처럼 말해요.",
+            "He hasn't been\nto Paris."
+          ]
+        ],
+        "widths": [
+          0.37,
+          0.35,
+          0.28
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": "as if + 과거형 → 현재형,   as if + had + 과거분사 → 과거(현재완료)",
+      "notes": {
+        "목적": "as if 문장 세 개를 해석하고 실제 사실을 In fact, ~.로 바꾸는 방법을 표로 정리합니다(목표 B, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“한 줄씩 읽어 보자. 뜻을 말하고 실제로는 칸을 읽어.”",
+          "“as if + 과거형은 현재형으로, as if + had + 과거분사는 과거형으로. 긍정과 부정도 바꿔.”"
+        ],
+        "예상답": [
+          "“미나는 마치 선생님인 것처럼 행동해. 실제로는 선생님이 아니에요.”"
+        ],
+        "막히면": [
+          "‘마치’ 뒤의 내용을 먼저 우리말로 말하게 하고, 그 반대를 실제 사실로 말하게 합니다."
+        ],
+        "주의": [
+          "act는 ‘행동하다’, spend money는 ‘돈을 쓰다’, rich는 ‘부자인’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "as if 문장 해석하고 실제 사실 말하기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "해석하고, 실제로는?",
+      "text": "뜻을 말하고, In fact로 실제 사실을 말해요.",
+      "problems": [
+        {
+          "text": "He sings as if he were\na famous singer."
+        },
+        {
+          "text": "You look as if you hadn't\nslept at all."
+        },
+        {
+          "text": "She talks as if she had seen\nthe movie."
+        },
+        {
+          "text": "Jun acts as if he were\nthe owner of the house."
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 as if 문장을 ‘마치 ~인(였던) 것처럼’으로 해석하고 실제 사실을 말합니다(목표 B, 오해 M3). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“뜻을 말하고, In fact로 실제 사실을 말해 줘.”"
+        ],
+        "정답": [
+          "① 그는 마치 유명한 가수인 것처럼 노래해요. — In fact, he isn't a famous singer.",
+          "② 너는 마치 전혀 자지 않은 것처럼 보여. — In fact, you slept. (실제로는 잤어요.)",
+          "③ 그녀는 마치 그 영화를 본 것처럼 말해요. — In fact, she didn't see(hasn't seen) the movie.",
+          "④ 준은 마치 그 집 주인인 것처럼 행동해요. — In fact, he isn't the owner of the house."
+        ],
+        "막히면": [
+          "“as if 뒤에 had + 과거분사가 있어? 그럼 그 전 일이야.”라고 단서를 짚어 줍니다."
+        ],
+        "주의": [
+          "②의 at all은 ‘전혀’, ④의 owner는 ‘주인’입니다. ②는 부정(hadn't slept)이라 실제는 긍정(slept)입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "I wish·as if 뒤의 알맞은 모양 고르기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "알맞은 모양은?",
+      "text": "괄호의 실제 사실을 보고 골라요.",
+      "problems": [
+        {
+          "text": "He talks as if\nhe (knows / knew) me.\n(실제: He doesn't know me.)"
+        },
+        {
+          "text": "She acts as if she\n(saw / had seen) the ghost.\n(실제: She didn't see it.)"
+        },
+        {
+          "text": "I wish I (can / could)\ngo with you.\n(실제: I can't go.)"
+        },
+        {
+          "text": "I wish we (won / had won)\nyesterday.\n(실제: We didn't win.)"
+        }
+      ],
+      "notes": {
+        "목적": "실제 사실(괄호)을 보고 I wish·as if 뒤에 과거형과 과거완료 가운데 알맞은 모양을 고릅니다(목표 A·B, 오해 M1). 활동지 4에 비슷한 문제가 있습니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“괄호 안의 실제 사실을 먼저 읽어. 지금이야, 그 전이야? 그다음 알맞은 것을 골라 읽어 줘.”"
+        ],
+        "정답": [
+          "① knew (지금 모름 → 과거형)",
+          "② had seen (그 전에 보지 않았음 → had + 과거분사)",
+          "③ could (지금 못 감 → could)",
+          "④ had won (어제 이기지 못했음 → had + 과거분사)"
+        ],
+        "막히면": [
+          "괄호의 실제 사실 시제(현재형·과거형)에 동그라미를 치게 합니다."
+        ],
+        "주의": [
+          "실제 사실이 현재형이면 가정법은 과거형, 실제 사실이 과거형이면 가정법은 had + 과거분사입니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "카드로 바람과 연기 말하고 실제 사실 맞히기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 실제로는?",
+      "steps": [
+        "바람 카드: I wish I ~.",
+        "상대가 맞혀요:\nIn fact, you don't ~.",
+        "연기 카드: 왕처럼, 가수처럼\n행동해요.",
+        "상대가 말해요: You act as if\nyou were ~. In fact, ~.",
+        "역할을 바꿔요."
+      ],
+      "criteria": [
+        "I wish·as if 뒤에 과거형",
+        "그 전 일은 had + 과거분사",
+        "In fact로 실제 사실을 말했어요"
+      ],
+      "notes": {
+        "목적": "바람 카드로 I wish 문장을, 연기 카드로 as if 문장을 말하고, 상대가 In fact, ~.로 실제 사실을 맞힙니다(목표 A·B, 오해 M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "(바람 카드 a dog) 부모: “I wish I had a dog.” → 아이: “In fact, you don't have a dog.”",
+          "(연기 카드 a king) 부모가 왕처럼 걸으며: “Look at me!” → 아이: “You act as if you were a king. In fact, you aren't a king.”",
+          "“이번엔 네가 카드를 뽑아 I wish 문장을 말하거나 연기해 줘. 엄마(아빠)가 실제 사실을 맞힐게.”",
+          "(지난 일 아쉬움) 부모: “I wish I had gone to bed earlier last night.” → 아이: “In fact, you didn't go to bed early.”"
+        ],
+        "예상답": [
+          "“I wish I had more time.” → “In fact, you don't have much time.” / “You talk as if you were a famous singer.” → “In fact, you aren't a famous singer.” / “You look as if you had seen a ghost.” → “In fact, you didn't see a ghost.”",
+          "기준: I wish·as if 뒤에 과거형(지금)이나 had + 과거분사(그 전)를 쓰고, 실제 사실을 In fact, ~.로 시제와 긍정·부정을 맞추어 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "문장 틀(I wish I ___. / You act as if you were ___. / In fact, ___.)을 종이에 써 주고 빈칸만 말하게 합니다."
+        ],
+        "주의": [
+          "연기는 짧고 재미있게 합니다. 실수하면 부모가 바른 문장으로 다시 말해 줍니다(“I wish I have” → “Oh, you wish you had ~!”)."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(I wish·as if와 실제 사실)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "I wish I (have) a sister.\n(지금)"
+        },
+        {
+          "text": "I'm sorry I didn't study\nfor the test.  → I wish"
+        },
+        {
+          "text": "He talks as if he were\na famous singer.  → 실제로는?"
+        },
+        {
+          "text": "She acts as if she had won\nthe game.  → 실제로는?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 I wish 문장을 만들고, as if 문장의 실제 사실을 말하는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 지시대로 말하고, 그다음 활동지 5에 써.”"
+        ],
+        "정답": [
+          "① had (I wish I had a sister.)",
+          "② I wish I had studied for the test.",
+          "③ In fact, he isn't a famous singer.",
+          "④ In fact, she didn't win the game.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. I wish 뒤의 모양, 실제 사실의 시제와 긍정·부정, 대문자와 마침표를 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “지금이야, 그 전이야?” “반대로 하면?”이라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "④의 won은 지난 차시에 배운 win의 과거분사입니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① I wish I had a sister."
+        },
+        {
+          "text": "② I wish I had studied …"
+        },
+        {
+          "text": "③ In fact, he isn't …"
+        },
+        {
+          "text": "④ In fact, she didn't win …"
+        }
+      ],
+      "bad": [
+        {
+          "text": "I wish I have",
+          "note": "I wish 뒤는\n과거형"
+        },
+        {
+          "text": "I wish I studied",
+          "note": "그때 일은\nhad + 과거분사"
+        },
+        {
+          "text": "He is a famous singer.",
+          "note": "as if는\n실제와 반대"
+        }
+      ],
+      "explain": "I wish·as if + 과거형 = 지금과 반대,   + had p.p. = 그 전과 반대",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 쓰면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“I wish I have라고 했어요.” “실제 사실을 그대로 말했어요.”"
+        ],
+        "정답": [
+          "① had ② I wish I had studied for the test. ③ In fact, he isn't a famous singer. ④ In fact, she didn't win the game."
+        ],
+        "막히면": [
+          "틀린 문제는 S04(I wish의 지금과 그때), S09(as if와 실제 사실)를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(해석·실제 사실·고치기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "뜻과 실제 사실을 말해요",
+      "text": "①②는 뜻과 실제 사실을, ③은 고쳐 말해요.",
+      "problems": [
+        {
+          "text": "I wish I had taken my umbrella."
+        },
+        {
+          "text": "He looks as if he were sick."
+        },
+        {
+          "text": "I wish I can fly.  → 고치면?"
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 I wish·as if 문장을 해석하고 실제 사실을 말하며, 틀린 I wish 문장을 고치는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①②는 뜻과 실제 사실을 말하고, ③은 고쳐 말해 줘.”"
+        ],
+        "정답": [
+          "① 우산을 가져갔다면 좋았을 텐데. — In fact, I didn't take my umbrella.",
+          "② 그는 마치 아픈 것처럼 보여요. — In fact, he isn't sick.",
+          "③ I wish I could fly.",
+          "기준: 세 개 모두 맞으면 통과입니다."
+        ],
+        "막히면": [
+          "①은 “had + 과거분사니까 지금이야, 그때야?”, ③은 S07을 떠올리게 합니다."
+        ],
+        "주의": [
+          "①의 taken은 take(가지고 가다)의 과거분사입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "I wish·as if + 과거형: 지금과 반대,   + had + 과거분사: 그 전과 반대\n실제로는: In fact, ~. (현재 ↔ 과거, 긍정 ↔ 부정)",
+      "do": "I wish I had a dog.",
+      "dont": "I wish I have a dog.",
+      "review": [
+        {
+          "text": "I wish로?\n(지금 개가 없어요)"
+        },
+        {
+          "text": "I wish로?\nI'm sorry I didn't\nlisten to Mom."
+        },
+        {
+          "text": "실제로는?\nHe talks as if he\nknew everything."
+        }
+      ],
+      "next": "분사구문 심화",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“I wish 뒤에 지금 일과 그때 일은 각각 어떤 모양이었지?”",
+          "“as if 문장을 들으면 무엇을 같이 생각한다고 했지?”"
+        ],
+        "예상답": [
+          "“지금은 과거형, 그때는 had + 과거분사요.” “실제로는 반대라는 거요.”"
+        ],
+        "정답": [
+          "① I wish I had a dog. (In fact, I don't have a dog.)",
+          "② I wish I had listened to Mom. (In fact, I didn't listen to Mom.)",
+          "③ In fact, he doesn't know everything."
+        ],
+        "주의": [
+          "잠자기 전에 오늘 아쉬웠던 일을 I wish I had ~.로 한 문장 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘분사구문 심화’에서는 Having finished ~, Seen from ~처럼 완료·수동 분사구문을 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(가정법 과거·과거완료의 모양 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 한 단계 과거로",
+      "layout": "support",
+      "text": "사실과 반대인 상상은 한 단계 과거로 가요.",
+      "table": {
+        "headers": [
+          "사실",
+          "상상 (가정법)"
+        ],
+        "rows": [
+          [
+            "I don't have time. (지금)",
+            "had  (If I had time, ~)"
+          ],
+          [
+            "I am not tall. (지금)",
+            "were  (If I were tall, ~)"
+          ],
+          [
+            "I didn't study. (그때)",
+            "had studied  (If I had studied, ~)"
+          ]
+        ],
+        "widths": [
+          0.45,
+          0.55
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "오늘은 같은 규칙을",
+        "text": "I wish 뒤와 as if 뒤에도 써요."
+      },
+      "notes": {
+        "목적": "S02에서 가정법 과거·과거완료가 흔들리면, ‘사실과 반대인 상상은 한 단계 과거로’라는 규칙을 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 지금 사실과 반대로 상상하면 과거형, 지난 사실과 반대로 상상하면 had + 과거분사야.”",
+          "“엄마(아빠)가 사실을 말하면 상상 모양으로 말해 줘. I don't have time.”"
+        ],
+        "정답": [
+          "If I had time, ~ / I wish I had time."
+        ],
+        "막히면": [
+          "표의 상상 칸을 손으로 가리고 하나씩 말하게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘가정법 과거완료’(KR22-G11-ENG-SUBJPP-L01)와 고1 ‘가정법 과거’(KR22-G10-ENG-SUBJPAST-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "I wish·as if 가정법 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "I wish 문장으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I'm sorry I don't live near the sea.",
+              ""
+            ],
+            [
+              "② I'm sorry I can't play the guitar.",
+              ""
+            ],
+            [
+              "③ I'm sorry I didn't take a coat.",
+              ""
+            ],
+            [
+              "④ I'm sorry I went to bed so late.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.48,
+            0.52
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① I wish I lived near the sea. ② I wish I could play the guitar. ③ I wish I had taken a coat. ④ I wish I hadn't gone to bed so late. 네 개 가운데 세 개 이상이면 통과. 지금 일인데 had + 과거분사를 쓰거나, 그때 일인데 과거형만 쓰면 S04를 다시 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "뜻을 쓰고, In fact로 실제 사실을 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "뜻",
+            "실제로는 (In fact, ~)"
+          ],
+          "rows": [
+            [
+              "① I wish I were a little taller.",
+              "",
+              ""
+            ],
+            [
+              "② I wish I had eaten breakfast.",
+              "",
+              ""
+            ],
+            [
+              "③ I wish I could stay longer.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.36,
+            0.32,
+            0.32
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① 키가 조금 더 크면 좋을 텐데 — In fact, I'm not tall. ② 아침을 먹었다면 좋았을 텐데 — In fact, I didn't eat breakfast. ③ 더 오래 머물 수 있다면 좋을 텐데 — In fact, I can't stay longer. 세 개 가운데 두 개 이상이면 통과. (stay: 머무르다)"
+      },
+      {
+        "no": 3,
+        "prompt": "as if 문장의 뜻을 쓰고, 실제 사실을 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "뜻",
+            "실제로는 (In fact, ~)"
+          ],
+          "rows": [
+            [
+              "① He talks as if he were a doctor.",
+              "",
+              ""
+            ],
+            [
+              "② She looks as if she had won the lottery.",
+              "",
+              ""
+            ],
+            [
+              "③ They act as if they knew me.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.38,
+            0.31,
+            0.31
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① 그는 마치 의사인 것처럼 말해요 — In fact, he isn't a doctor. ② 그녀는 마치 복권에 당첨된 것처럼 보여요 — In fact, she didn't win the lottery. ③ 그들은 마치 나를 아는 것처럼 행동해요 — In fact, they don't know me. 세 개 가운데 두 개 이상이면 통과. (lottery: 복권)"
+      },
+      {
+        "no": 4,
+        "prompt": "괄호의 실제 사실을 보고 알맞은 것에 ○ 하세요.",
+        "table": {
+          "rows": [
+            [
+              "① I wish I (have / had) a bigger room. (실제: I don't have a bigger room.)"
+            ],
+            [
+              "② He talks as if he (met / had met) the president. (실제: He didn't meet the president.)"
+            ],
+            [
+              "③ I wish it (stopped / had stopped) raining an hour ago. (실제: It didn't stop.)"
+            ]
+          ],
+          "widths": [
+            1.0
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① had ② had met ③ had stopped. 세 개 모두 맞으면 통과. 실제 사실이 현재형이면 과거형, 과거형이면 had + 과거분사입니다. (president: 대통령)"
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① I wish I (have) a sister. (지금)",
+              ""
+            ],
+            [
+              "② I'm sorry I didn't study for the test. (I wish로)",
+              ""
+            ],
+            [
+              "③ He talks as if he were a famous singer. (실제로는?)",
+              ""
+            ],
+            [
+              "④ She acts as if she had won the game. (실제로는?)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.56,
+            0.44
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① I wish I had a sister. ② I wish I had studied for the test. ③ In fact, he isn't a famous singer. ④ In fact, she didn't win the game. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나의 바람 하나와 지난 일의 아쉬움 하나를 I wish로 쓰세요.",
+        "eng": {
+          "trace": [
+            "I wish I had a dog.",
+            "He acts as if he knew me."
+          ],
+          "blank": 2
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: I wish I could speak French. / I wish I had studied harder last year.). I wish 뒤의 과거형(지금)과 had + 과거분사(그때), 대문자와 마침표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① ‘(지금) 개가 있으면 좋을 텐데’를 I wish로 쓰세요.\n② I'm sorry I didn't listen to Mom.을 I wish로 쓰세요.\n③ He talks as if he knew everything.의 실제 사실을 쓰세요.",
+        "lines": 3,
+        "answer": "① I wish I had a dog. ② I wish I had listened to Mom. ③ In fact, he doesn't know everything. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S13 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S15 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "I wish 뒤에 현재형을 쓰거나 as if 문장을 사실로 받아들임: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
