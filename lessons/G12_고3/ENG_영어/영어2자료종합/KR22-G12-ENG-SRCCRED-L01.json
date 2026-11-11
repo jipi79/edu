@@ -1,0 +1,920 @@
+{
+  "id": "KR22-G12-ENG-SRCCRED-L01",
+  "concept_id": "ENG-SRCCRED",
+  "title": "자료의 신뢰성 비교",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "영어2자료종합",
+  "sequence": 4,
+  "file_stem": "고3_영어_영어2자료종합_04_자료의신뢰성비교",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ENG-I01"
+    ],
+    "units": [
+      "3.2.4",
+      "3.1.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "여러 자료 관점 종합",
+      "lesson": "KR22-G11-ENG-VIEWSYN-L01",
+      "grade_item": "KR22-G11-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "같은 주제를 다룬 기사·블로그·보고서에서 출처(누가 썼나, 전문성), 근거(자료·방법·숫자), 목적과 관점(알리기·팔기·한쪽만), 날짜를 찾아 비교표로 정리하고, 기사와 제목의 숫자·주장이 원래 보고서와 맞는지 확인한다.",
+      "evidence": "신뢰성 점검 네 가지(S03), 보고서 읽기(S04), 기사와 블로그(S05), 비교표(S06), 제목 과장 찾기(S09), 혼자 해 보기(S11), 마무리 확인(S13), 활동지 1·3",
+      "success": "활동지 1과 S11 비교표의 칸 열두 개 가운데 열 개 이상을 자료에 맞게 채우고, S09 제목 세 개의 과장 여부를 보고서 수치로 판단한다."
+    },
+    {
+      "id": "B",
+      "text": "점검 기준으로 자료의 신뢰성 순위를 매기고, 그 근거를 영어 틀(Source ~ is the most reliable because ~. / Source ~ is less reliable because ~.)로 설명한다.",
+      "evidence": "비교표와 순위(S06), 좋아요 수로 판단한 답 비교(S07), 서서 쓰는 책상 자료(S08), 확인 질문 놀이(S10), 혼자 해 보기(S11), 활동지 2·3",
+      "success": "S08과 S11에서 가장 믿을 만한 자료를 바르게 고르고, 순위마다 점검 기준 하나 이상을 근거로 영어 한 문장씩 설명한다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "색연필 네 가지(출처·근거·목적·날짜를 다른 색으로 표시)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "한 주제(공부할 때 음악 듣기)를 다룬 지어낸 기사·블로그·보고서 세 편과, 연습용 짧은 자료 묶음 두 개(서서 쓰는 책상, 종이책과 전자책)로 자료의 신뢰성을 비교한다. 매체·기관·사람·숫자·연구는 모두 수업용으로 지어낸 ‘예시 자료’이며 실제 매체나 연구가 아니다. 기사의 숫자가 보고서와 맞는지, 블로그에 조사 자료가 없는지를 프로그램으로 확인했다. 점검 기준은 출처, 근거, 목적·관점, 날짜 네 가지(그리고 다른 자료와 맞는지)만 쓴다. 표본 크기의 통계적 의미, 동료 평가 제도, 인용 형식(APA 등), 실제 누리집의 신뢰성 판정은 다루지 않는다. 결과는 ‘이 자료가 더 믿을 만하다’까지만 말하고, 음악이 공부에 좋은지 나쁜지에 대한 결론은 내리지 않는다. ‘신뢰성·출처·근거·과장’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "조회 수·좋아요 수가 많거나 자신 있게 쓴 글을 믿을 만하다고 판단한다.",
+      "response": "S07 비교와 S08 C(좋아요 2,000개)에서 인기와 근거를 구별하게 하고, S03 근거 카드로 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "글쓴이의 목적(판매·광고)을 확인하지 않는다.",
+      "response": "S05 블로그의 앱 판매, S08 광고, S11 회사 보도 자료에서 목적 칸을 채우게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "기사의 제목이나 요약을 그대로 믿고 원래 보고서의 숫자·한계와 맞대어 보지 않는다.",
+      "response": "S05에서 기사와 보고서의 숫자를 맞대어 보고, S09 제목 과장 찾기에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "보고서는 무조건 완벽하다고 생각해 한계(limitation)를 읽지 않는다.",
+      "response": "S04에서 보고서의 한계 문장을 짚고, S09 ②와 S11 B(짧은 이야기 하나)에서 한계를 말하게 한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "자료의 신뢰성 비교",
+      "question": "기사, 블로그, 보고서가 서로 다른 말을 할 때\n무엇을 믿어야 할까?",
+      "goals": [
+        "① 출처·근거·목적·날짜를 비교표로 정리해요.",
+        "② 신뢰성 순위를 매기고 근거를 말해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "News article",
+            "sub": "기사"
+          },
+          {
+            "word": "Blog post",
+            "sub": "블로그"
+          },
+          {
+            "word": "Research report",
+            "sub": "보고서"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 같은 주제의 자료라도 누가, 무엇을 근거로, 왜 썼는지에 따라 믿을 만한 정도가 다르다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“공부할 때 음악을 들으면 좋을까? 인터넷에서 찾으면 기사, 블로그, 보고서가 서로 다른 말을 해.”",
+          "“오늘은 어느 자료를 더 믿을 수 있는지 출처, 근거, 목적, 날짜 네 가지로 따져 볼 거야. 이것을 신뢰성이라고 해.”"
+        ],
+        "예상답": [
+          "“연구한 자료가 더 믿을 만해요.” “광고는 믿기 어려워요.”"
+        ],
+        "막히면": [
+          "“친구가 ‘이 약 먹으면 키가 큰대!’라고 하면 바로 믿어? 무엇을 물어봐야 할까?”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 나오는 기사·블로그·보고서·회사·숫자는 모두 수업용으로 지어낸 예시 자료입니다. 실제 연구 결과가 아니므로 ‘음악이 공부에 나쁘다’는 결론으로 받아들이지 않게 해 주세요.",
+          "모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(관점, 사실과 의견, 숫자)",
+      "role": "prior",
+      "objectives": [],
+      "title": "자료 비교 떠올리기",
+      "text": "①은 사실·의견, ②는 잘못된 점, ③은 관점을 말해요.",
+      "problems": [
+        {
+          "text": "In a survey of 100 students,\n38 said yes."
+        },
+        {
+          "text": "38% said yes.\n→ “Most students said yes.”"
+        },
+        {
+          "text": "Uniforms save time in the morning,\nso we should keep them."
+        }
+      ],
+      "notes": {
+        "목적": "고2 ‘여러 자료 관점 종합’(KR22-G11-ENG-VIEWSYN-L01)에서 자료마다 관점과 근거를 비교하고, 사실·자료와 의견을 구분하고, 숫자를 과장하지 않은 것을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 사실·자료인지 의견인지, ②는 무엇이 잘못됐는지, ③은 글쓴이의 관점을 말해 줘.”"
+        ],
+        "정답": [
+          "① 사실·자료 (숫자가 있고 확인할 수 있음)",
+          "② 38%는 절반이 안 되므로 most가 아님(과장)",
+          "③ 찬성(교복이 시간을 아껴 준다고 봄)"
+        ],
+        "막히면": [
+          "②는 “100명 가운데 38명이면 대부분이야?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 여기에 ‘누가 썼나, 왜 썼나, 언제 썼나’를 더합니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "신뢰성 점검 네 가지",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "믿을 만한 자료일까?",
+      "text": "신뢰성: 자료를 믿을 수 있는 정도",
+      "cards": [
+        {
+          "title": "① 출처 Source",
+          "text": "누가 썼나?\n전문가·기관인가?"
+        },
+        {
+          "title": "② 근거 Evidence",
+          "text": "자료·방법·숫자가 있나?\n확인할 수 있나?"
+        },
+        {
+          "title": "③ 목적 Purpose",
+          "text": "알리기? 팔기?\n한쪽만 말하나?"
+        },
+        {
+          "title": "④ 날짜 Date",
+          "text": "언제 썼나?\n최신인가?"
+        }
+      ],
+      "key": "좋아요 수 · 자신 있는 말투 ≠ 근거",
+      "notes": {
+        "목적": "출처, 근거, 목적과 관점, 날짜의 네 점검 기준과 확인 질문을 보여 줍니다(목표 A·B, 오해 M1·M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째, 출처. 누가 썼어? 그 분야를 잘 아는 사람이나 기관이야?”",
+          "“둘째, 근거. 자료나 방법, 숫자가 있어? 확인할 수 있어? 좋아요 수는 근거가 아니야.”",
+          "“셋째, 목적과 관점. 알리려고 썼어, 팔려고 썼어? 한쪽 이야기만 해? 넷째, 날짜. 최신이야?”"
+        ],
+        "예상답": [
+          "“팔려고 쓴 글은 조심해야 해요.” “좋아요 수는 근거가 아니에요.”"
+        ],
+        "막히면": [
+          "카드마다 “이 질문의 답이 ‘아니요’면 어떻게 될까?”라고 묻습니다."
+        ],
+        "주의": [
+          "다섯째로 ‘다른 자료와 맞는가’도 봅니다. 믿을 만한 자료끼리는 숫자와 내용이 서로 맞습니다. reliable은 ‘믿을 만한’, source는 ‘출처, 자료’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "보고서 읽기(방법·결과·한계)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "보고서 읽기",
+      "text": "method 방법 · lyrics 가사 · average 평균 · limitation 한계",
+      "passage": {
+        "paragraphs": [
+          "C Research report, Example Education Research Center, 2024. Method: 300 high school students were divided into two groups. One group studied in silence, and the other listened to songs with lyrics. Both groups then took a reading test and a math test. Results: The average reading scores were 78 (silence) and 70 (music). The math scores were 81 and 80. Limitation: The study tested only one type of music."
+        ]
+      },
+      "question": "① 누가, 언제?  ② 방법과 결과 숫자는?  ③ 한계는?",
+      "notes": {
+        "목적": "지어낸 연구 보고서에서 출처, 방법, 결과 숫자, 한계를 찾는 시범을 보입니다(목표 A, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "(부모가 보고서를 한 번 읽어 줍니다.)",
+          "“누가 언제 쓴 자료야? 몇 명을 어떻게 나눠서 시험했어? 결과 숫자를 읽어 볼래?”",
+          "“Limitation은 ‘한계’야. 이 연구가 못 보여 주는 것을 솔직하게 말한 거지. 무엇이라고 했어?”"
+        ],
+        "예상답": [
+          "“연구 기관이 2024년에 썼어요.” “300명을 두 무리로 나눴어요.” “음악 한 종류만 시험했대요.”"
+        ],
+        "막히면": [
+          "Method, Results, Limitation 낱말에 동그라미를 치고 그 뒤를 읽게 합니다."
+        ],
+        "주의": [
+          "출처: Example Education Research Center(지어낸 연구 기관), 2024 / 방법: 300명, 조용히 공부한 무리와 가사 있는 노래를 들은 무리 / 결과: 읽기 78 대 70, 수학 81 대 80 / 한계: 음악 한 종류만 시험함.",
+          "뜻: 연구 보고서, 예시 교육 연구 센터, 2024년. 방법: 고등학생 300명을 두 무리로 나누었다. 한 무리는 조용히 공부했고, 다른 무리는 가사가 있는 노래를 들었다. 그다음 두 무리 모두 읽기 시험과 수학 시험을 보았다. 결과: 읽기 평균 점수는 78점(조용히)과 70점(음악)이었다. 수학 점수는 81점과 80점이었다. 한계: 이 연구는 한 종류의 음악만 시험했다. (method: 방법, lyrics: 가사, average: 평균, limitation: 한계)"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "기사와 블로그를 보고서와 맞대기",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "기사와 블로그 읽기",
+      "passage": {
+        "paragraphs": [
+          "A News article, March 2025. A new report from an education research center studied 300 high school students. Students who studied in silence scored 78 on a reading test, while students who listened to songs with lyrics scored 70. Math scores were similar. The researchers say more studies are needed.",
+          "B Blog post by “StudyBoost Sam,” 2019. I always study with my favorite pop songs, and I remember everything twice as well. Trust me, music is the secret to good grades! Try my Focus Music app for only $4.99 a month."
+        ]
+      },
+      "question": "① A의 숫자는 보고서(C)와 같나요?  ② B의 근거와 목적, 날짜는?",
+      "notes": {
+        "목적": "같은 주제의 기사와 블로그를 읽고, 보고서의 숫자와 맞는지, 근거와 목적이 무엇인지 확인합니다(목표 A·B, 오해 M2·M3).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 두 글을 한 번 읽어 줍니다.)",
+          "“기사의 숫자 300, 78, 70은 보고서와 같아? 수학 점수는 뭐라고 했지?”",
+          "“블로그의 twice as well에는 근거가 있어? 마지막 문장은 무엇을 하려는 거야? 언제 쓴 글이야?”"
+        ],
+        "예상답": [
+          "“기사 숫자는 보고서와 같아요.” “블로그는 근거 없이 앱을 팔아요. 2019년이라 오래됐어요.”"
+        ],
+        "막히면": [
+          "보고서(S04)를 옆에 두고 같은 숫자에 같은 색 동그라미를 치게 합니다."
+        ],
+        "주의": [
+          "기사는 보고서를 바르게 옮겼지만 직접 연구한 자료가 아니라 요약입니다. 블로그는 개인 경험뿐이고, 앱을 팔려는 목적이 있으며, 날짜도 오래되었습니다.",
+          "뜻: A 뉴스 기사, 2025년 3월. 한 교육 연구 센터의 새 보고서가 고등학생 300명을 연구했다. 조용히 공부한 학생은 읽기 시험에서 78점, 가사 있는 노래를 들은 학생은 70점을 받았다. 수학 점수는 비슷했다. 연구자들은 더 많은 연구가 필요하다고 말한다. / B ‘스터디부스트 샘’의 블로그 글, 2019년. 나는 늘 좋아하는 팝송을 들으며 공부하는데 모든 것을 두 배로 잘 기억해요. 믿어 주세요, 음악이 좋은 성적의 비밀이에요! 한 달에 4.99달러로 내 포커스 뮤직 앱을 써 보세요."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "신뢰성 비교표와 순위",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "비교표로 따져요",
+      "text": "순위: C > A > B",
+      "table": {
+        "headers": [
+          "",
+          "C 보고서",
+          "A 기사",
+          "B 블로그"
+        ],
+        "rows": [
+          [
+            "출처",
+            "연구 기관",
+            "기자(보고서 요약)",
+            "개인(Sam)"
+          ],
+          [
+            "근거",
+            "방법·숫자·한계",
+            "보고서 숫자를 옮김",
+            "개인 경험뿐"
+          ],
+          [
+            "목적",
+            "알리기",
+            "알리기",
+            "앱 판매"
+          ],
+          [
+            "날짜",
+            "2024",
+            "2025",
+            "2019(오래됨)"
+          ]
+        ],
+        "widths": [
+          0.13,
+          0.29,
+          0.29,
+          0.29
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "Source C is the most reliable because it explains its method and gives numbers.",
+      "notes": {
+        "목적": "세 자료를 네 기준으로 비교표에 정리하고, 순위와 그 근거를 영어 틀로 말하는 시범을 보입니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“표를 같이 읽어 보자. C는 방법과 숫자, 한계까지 있어. A는 C를 바르게 옮긴 요약이야. B는 근거 없이 팔려고 썼어.”",
+          "“그래서 순위는 C > A > B. 영어로는 Source C is the most reliable because it explains its method and gives numbers.”"
+        ],
+        "예상답": [
+          "“Source B is the least reliable because the writer is selling an app.”"
+        ],
+        "막히면": [
+          "표의 줄마다 ‘좋음 / 보통 / 약함’을 먼저 말하게 한 뒤 순위를 정합니다."
+        ],
+        "주의": [
+          "A가 C보다 아래인 까닭: A는 C를 옮긴 요약이라 방법과 한계가 빠졌습니다. 원래 자료(1차 자료)가 있으면 그것을 먼저 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(인기와 말투로 판단하기)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "누구의 판단이 맞을까?",
+      "claim": "B 블로그(StudyBoost Sam)를 두 친구가 이렇게 평가했어요.",
+      "left": {
+        "title": "가",
+        "text": "It is reliable because Sam has\nmany followers and sounds\nvery sure."
+      },
+      "right": {
+        "title": "나",
+        "text": "It is less reliable because it\ngives no data, sells an app,\nand is from 2019."
+      },
+      "question": "누구의 판단이 맞나요? 다른 친구는 무엇으로 판단했나요?",
+      "notes": {
+        "목적": "구독자 수와 자신 있는 말투로 판단한 의견과, 점검 기준으로 판단한 의견을 비교합니다(목표 B, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 B 블로그를 이렇게 평가했어. 누구의 판단이 점검 기준에 맞을까?”"
+        ],
+        "정답": [
+          "나의 판단이 맞습니다. 근거(조사 자료 없음), 목적(앱 판매), 날짜(2019)를 기준으로 판단했습니다. 가는 인기와 말투로 판단했는데, 인기나 자신감은 근거가 아닙니다."
+        ],
+        "막히면": [
+          "S03 카드에서 가가 쓴 기준이 있는지 찾아보게 합니다."
+        ],
+        "주의": [
+          "여기까지가 신뢰성 점검 방법입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "서서 쓰는 책상 자료 순위 매기기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "순위를 매겨요",
+      "text": "네 기준으로 따져 순위를 매기고, 까닭을 말해요.",
+      "problems": [
+        {
+          "text": "A Ad from DeskPro: “Our standing desks make every student smarter! Order today.”"
+        },
+        {
+          "text": "B School nurse's newsletter, 2024: In our class trial, 20 students used standing desks for one month. 14 said their backs felt better, but 6 said their legs got tired."
+        },
+        {
+          "text": "C Social media post, 2020: “Standing desks are the best!!! Everyone should get one.” (2,000 likes)"
+        }
+      ],
+      "notes": {
+        "목적": "새 주제의 짧은 자료 세 개를 네 기준으로 따져 순위를 매기고, 영어 틀로 근거를 말합니다(목표 A·B, 오해 M1·M2). 활동지 2에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“세 자료를 네 기준으로 따져서 가장 믿을 만한 것부터 순서를 정해 줘. 그리고 영어 틀로 까닭을 말해 볼래?”"
+        ],
+        "정답": [
+          "순위: B > A·C (B가 가장 믿을 만함)",
+          "B: 학교 보건 선생님(출처), 20명 한 달 시험과 숫자, 좋은 점과 나쁜 점을 함께 말함(근거·관점), 2024(날짜)",
+          "A: 회사 광고(판매 목적), 근거 없음, ‘모든 학생이 똑똑해진다’는 과장 / C: 개인 게시물, 좋아요 2,000개는 근거가 아님, 2020",
+          "영어 예: Source B is the most reliable because it gives numbers from a trial and shows both good and bad results. Source A is less reliable because the company wants to sell desks."
+        ],
+        "막히면": [
+          "자료마다 “누가? 근거는? 왜? 언제?” 네 질문을 차례로 묻습니다."
+        ],
+        "주의": [
+          "standing desk는 ‘서서 쓰는 책상’, trial은 ‘시험 운영’, likes는 ‘좋아요’입니다. 자료는 모두 지어낸 예시입니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "제목과 요약의 과장 찾기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "과장일까?",
+      "text": "보고서(S04)와 맞대어 정확한지, 과장인지 말해요.",
+      "problems": [
+        {
+          "text": "Music Makes Students Fail Tests!"
+        },
+        {
+          "text": "All students should study in silence."
+        },
+        {
+          "text": "Study finds reading scores were lower when students listened to songs with lyrics."
+        }
+      ],
+      "notes": {
+        "목적": "보고서(S04)의 숫자와 한계를 근거로, 이 보고서를 소개한 제목 세 개가 정확한지 과장인지 판단합니다(목표 A, 오해 M3·M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“보고서의 숫자와 한계를 떠올리면서, 세 제목이 정확한지 과장인지 말해 줘. 근거도.”"
+        ],
+        "정답": [
+          "① 과장 — 음악을 들은 무리도 읽기 70점이고(낙제 아님), 수학은 81 대 80으로 비슷했다.",
+          "② 과장(지나친 일반화) — 보고서는 음악 한 종류만 시험했다는 한계가 있다.",
+          "③ 정확 — 가사 있는 노래를 들은 무리의 읽기 점수(70)가 조용히 공부한 무리(78)보다 낮았다."
+        ],
+        "막히면": [
+          "S04 보고서를 다시 보여 주고 Results와 Limitation에 밑줄을 긋게 합니다."
+        ],
+        "주의": [
+          "fail은 ‘낙제하다’입니다. 제목은 눈길을 끌려고 과장하는 경우가 많으니 본문과 원래 자료를 확인하는 습관이 중요합니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "확인 질문 놀이",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 확인 질문 놀이",
+      "steps": [
+        "부모가 지어낸 소식을\n말해요.",
+        "아이가 네 기준의\n질문을 영어로 해요.",
+        "부모가 대답해요.",
+        "아이가 믿을지 판단하고\n까닭을 말해요.",
+        "역할을 바꿔요."
+      ],
+      "criteria": [
+        "확인 질문 두 개 이상",
+        "대답을 근거로 판단",
+        "확인할 공식 출처를 말함"
+      ],
+      "notes": {
+        "목적": "부모가 지어낸 소식이나 주장을 말하면, 아이가 네 기준의 확인 질문을 영어로 하고 부모가 답한 뒤, 아이가 믿을지 판단합니다. 역할을 바꿉니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 소식 하나를 말할게. 네 기준으로 영어 질문을 해서 믿을 만한지 판단해 줘.”",
+          "(부모가 말할 소식 예: “Tomorrow there's no school because of heavy snow!” — 대답: 친구 단톡방 메시지, 학교 공지는 아직 없음, 날짜는 오늘)",
+          "“네 질문은? Who said it? What is the evidence? Why did they say it? When was it posted?”",
+          "“이번엔 네가 소식을 하나 지어내고, 엄마(아빠)가 질문할게.”"
+        ],
+        "예상답": [
+          "판단 예: I don't believe it yet because it is only a message from a friend. I will check the school website.",
+          "기준: 네 기준의 질문을 두 개 이상 영어로 하고, 대답을 근거로 믿을지 판단하며, 확인할 공식 출처(학교 누리집 등)를 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "질문 틀 네 개(Who ~? / What evidence ~? / Why ~? / When ~?)를 종이에 써 두고 고르게 합니다."
+        ],
+        "주의": [
+          "실제 생활에서도 학교 소식은 학교 누리집이나 알림장 같은 공식 출처로 확인하는 습관을 함께 이야기해 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 해 보기(종이책과 전자책 자료)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기: 종이책 vs 전자책",
+      "text": "e-reader 전자책 단말기 · news release 보도 자료 · focus 집중",
+      "passage": {
+        "paragraphs": [
+          "A Magazine article, 2023: Ms. Han, a middle school teacher, says her students seem to remember more when they read paper books. “They often lose focus on tablets,” she said. She has not tested this.",
+          "B Research report, Example University, 2024: 200 students read the same story, half on paper and half on e-readers. On a memory test, the paper group's average score was 85, and the e-reader group's was 79. The story was short.",
+          "C News release from an e-reader company, 2024: “Our new PageLight makes reading easier than ever! Buy one now and get 20% off.”"
+        ]
+      },
+      "question": "활동지 3 비교표를 채우고, 순위와 까닭을 영어 두 문장으로 써요.",
+      "notes": {
+        "목적": "도움 없이 세 자료를 네 기준으로 비교표에 정리하고, 순위와 근거를 영어 틀로 쓰는지 확인합니다(목표 A·B). 활동지 3에 씁니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 활동지 3 비교표를 채우고, 순위를 정해 영어 두 문장으로 까닭을 써 줘.”"
+        ],
+        "정답": [
+          "비교표: A 잡지 기사 — 교사 한 사람(출처), 개인 느낌·시험 안 함(근거), 알리기(목적), 2023 / B 연구 보고서 — 예시 대학(출처), 200명·점수 85 대 79(근거), 알리기·한계(짧은 이야기) 밝힘, 2024 / C 회사 보도 자료 — 전자책 회사(출처), 근거 없음, 판매·할인(목적), 2024",
+          "순위: B > A > C",
+          "영어 예: Source B is the most reliable because it tested 200 students and gives scores. Source C is the least reliable because the company wants to sell its e-reader.",
+          "기준: 비교표 열두 칸 가운데 열 칸 이상이 맞고, 가장 믿을 만한 자료(B)를 고르며, 영어 두 문장에 기준 하나 이상이 들어 있으면 통과입니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “누가? 근거는? 왜? 언제?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "B도 한계(짧은 이야기 하나)를 밝혔다는 점을 짚어 주면 좋습니다(오해 M4). e-reader는 ‘전자책 단말기’, news release는 ‘보도 자료’입니다. 모든 자료는 지어낸 예시입니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "B: 200 students, 85 vs 79"
+        },
+        {
+          "text": "A: 시험하지 않은 느낌"
+        },
+        {
+          "text": "C: 판매 목적(20% off)"
+        }
+      ],
+      "bad": [
+        {
+          "text": "A가 1등(선생님이니까)",
+          "note": "직업보다\n근거"
+        },
+        {
+          "text": "C가 좋음(최신)",
+          "note": "날짜만으로\n판단 ×"
+        },
+        {
+          "text": "B는 한계가 있어 나쁨",
+          "note": "한계를 밝힌 것은\n믿을 만한 표시"
+        }
+      ],
+      "explain": "출처 · 근거 · 목적 · 날짜를 모두 따져 순위를 정해요",
+      "notes": {
+        "목적": "아이의 비교표와 순위를 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네 순위와 왼쪽을 비교해 보자. 오른쪽처럼 판단하면 무엇을 놓친 걸까?”"
+        ],
+        "예상답": [
+          "“A를 1등으로 했어요. 선생님 말이라서요.” “C가 최신이라 좋다고 했어요.”"
+        ],
+        "정답": [
+          "순위 B > A > C — B는 시험 방법과 점수, 한계를 밝혔고, A는 시험하지 않은 개인 느낌, C는 판매 목적"
+        ],
+        "막히면": [
+          "출처만 보고 판단했으면 S03·S07, 목적을 놓쳤으면 S05를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(점검 기준 고르기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "어떤 기준일까?",
+      "text": "문제가 되는 기준(출처·근거·목적·날짜)을 골라요.",
+      "problems": [
+        {
+          "text": "A 2010 article about the newest\nsmartphones"
+        },
+        {
+          "text": "“Our running shoes make you faster!”\n— a shoe company"
+        },
+        {
+          "text": "“Everyone knows that this is true.”\n(no data)"
+        }
+      ],
+      "notes": {
+        "목적": "짧은 상황마다 신뢰성에 문제가 되는 기준(출처·근거·목적·날짜)을 고르고 까닭을 말하는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“상황마다 네 기준 가운데 무엇이 문제인지 말하고 까닭을 말해 줘.”"
+        ],
+        "정답": [
+          "① 날짜 — 2010년 자료라 오래되었다",
+          "② 목적 — 운동화를 파는 회사의 광고다",
+          "③ 근거 — 숫자나 조사 없이 ‘모두가 안다’고만 했다",
+          "기준: 세 개 모두 맞으면 통과입니다."
+        ],
+        "막히면": [
+          "S03 카드를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "출처 Source · 근거 Evidence · 목적 Purpose · 날짜 Date\nSource ~ is the most reliable because ~.",
+      "do": "네 기준으로 따지고 원래 자료 확인",
+      "dont": "좋아요 수·말투·제목만 믿기",
+      "review": [
+        {
+          "text": "신뢰성을 따지는\n네 기준은?"
+        },
+        {
+          "text": "좋아요 2,000개는\n근거일까?"
+        },
+        {
+          "text": "제목이 맞는지\n확인하는 방법은?"
+        }
+      ],
+      "next": "여러 자료 종합 정리",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“신뢰성을 따지는 네 기준은?”",
+          "“기사의 제목이 맞는지 어떻게 확인하지?”"
+        ],
+        "예상답": [
+          "“출처, 근거, 목적, 날짜요.” “원래 보고서의 숫자와 한계를 봐요.”"
+        ],
+        "정답": [
+          "① 출처(누가) · 근거(자료·방법·숫자) · 목적(알리기·팔기) · 날짜(최신)",
+          "② 원래 자료의 숫자·한계와 맞대어 본다",
+          "③ Source ~ is the most reliable because ~."
+        ],
+        "주의": [
+          "뉴스나 누리집에서 같은 주제의 글 두 개를 찾아 네 기준으로 비교해 보면 좋은 복습이 됩니다. 다음 차시 ‘여러 자료 종합 정리’에서는 믿을 만한 자료 세 편을 종합해 출처를 밝힌 한 문단 요약을 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(사실과 의견, 관점 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 사실과 의견",
+      "layout": "support",
+      "text": "확인할 수 있으면 사실, 생각이면 의견",
+      "table": {
+        "headers": [
+          "문장",
+          "사실·의견",
+          "까닭"
+        ],
+        "rows": [
+          [
+            "The test had 20 questions.",
+            "사실",
+            "셀 수 있음"
+          ],
+          [
+            "The test was too hard.",
+            "의견",
+            "사람마다 다름"
+          ],
+          [
+            "78 is higher than 70.",
+            "사실",
+            "숫자로 확인"
+          ],
+          [
+            "Music is the secret to good grades!",
+            "의견(근거 없음)",
+            "자료 없음"
+          ]
+        ],
+        "widths": [
+          0.5,
+          0.22,
+          0.28
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": {
+        "title": "다음 걸음",
+        "text": "사실이라고 쓴 문장도 ‘누가, 무엇을 근거로’ 썼는지 확인해요."
+      },
+      "notes": {
+        "목적": "S02에서 사실·의견이나 관점 구분이 흔들리면, 신뢰성을 따지기 전에 짧은 문장으로 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 확인할 수 있으면 사실, 생각이면 의견이야.”",
+          "“엄마(아빠)가 문장을 말하면 사실인지 의견인지 말해 줘. Our school has 600 students.”"
+        ],
+        "정답": [
+          "사실 (확인할 수 있음)"
+        ],
+        "막히면": [
+          "‘확인할 수 있나?’ 한 가지 질문으로 나누게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 고2 ‘여러 자료 관점 종합’(KR22-G11-ENG-VIEWSYN-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "자료의 신뢰성 비교 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "음악 자료 세 편(S04·S05)을 네 기준으로 정리하세요(지어낸 예시 자료).",
+        "read": "A News article, March 2025. A new report from an education research center studied 300 high school students. Students who studied in silence scored 78 on a reading test, while students who listened to songs with lyrics scored 70. Math scores were similar. The researchers say more studies are needed.\nB Blog post by “StudyBoost Sam,” 2019. I always study with my favorite pop songs, and I remember everything twice as well. Trust me, music is the secret to good grades! Try my Focus Music app for only $4.99 a month.\nC Research report, Example Education Research Center, 2024. Method: 300 high school students were divided into two groups. One group studied in silence, and the other listened to songs with lyrics. Both groups then took a reading test and a math test. Results: The average reading scores were 78 (silence) and 70 (music). The math scores were 81 and 80. Limitation: The study tested only one type of music.",
+        "table": {
+          "headers": [
+            "",
+            "A 기사",
+            "B 블로그",
+            "C 보고서"
+          ],
+          "rows": [
+            [
+              "출처",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "근거",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "목적",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "날짜",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.13,
+            0.29,
+            0.29,
+            0.29
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "A: 기자(보고서 요약) / 보고서 숫자를 옮김(300명, 78 대 70) / 알리기 / 2025. B: 개인(Sam) / 개인 경험뿐 / 앱 판매 / 2019. C: 연구 기관 / 방법·숫자·한계 / 알리기 / 2024. 순위 C > A > B. 열두 칸 가운데 열 칸 이상이면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "서서 쓰는 책상 자료(S08)의 순위를 쓰고, 영어 틀로 까닭을 두 문장 쓰세요.",
+        "read": "A Ad from DeskPro: “Our standing desks make every student smarter! Order today.”\nB School nurse's newsletter, 2024: In our class trial, 20 students used standing desks for one month. 14 said their backs felt better, but 6 said their legs got tired.\nC Social media post, 2020: “Standing desks are the best!!! Everyone should get one.” (2,000 likes)",
+        "line_label": "순위 · Source ~ is the most reliable because ~. / Source ~ is less reliable because ~.",
+        "lines": 3,
+        "answer": "순위: B > A·C. 예: Source B is the most reliable because it gives numbers from a trial and shows both good and bad results. Source A is less reliable because the company wants to sell desks. (C: 좋아요 수는 근거가 아님) 가장 믿을 만한 자료(B)와 기준이 든 영어 문장 두 개면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "종이책과 전자책 자료(S11)를 비교표로 정리하고, 순위와 까닭을 영어 두 문장으로 쓰세요.",
+        "read": "A Magazine article, 2023: Ms. Han, a middle school teacher, says her students seem to remember more when they read paper books. “They often lose focus on tablets,” she said. She has not tested this.\nB Research report, Example University, 2024: 200 students read the same story, half on paper and half on e-readers. On a memory test, the paper group's average score was 85, and the e-reader group's was 79. The story was short.\nC News release from an e-reader company, 2024: “Our new PageLight makes reading easier than ever! Buy one now and get 20% off.”",
+        "table": {
+          "headers": [
+            "",
+            "A 잡지 기사",
+            "B 연구 보고서",
+            "C 회사 보도 자료"
+          ],
+          "rows": [
+            [
+              "출처",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "근거",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "목적",
+              " \n ",
+              "",
+              ""
+            ],
+            [
+              "날짜",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.13,
+            0.29,
+            0.29,
+            0.29
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "line_label": "순위 · 영어 두 문장:",
+        "lines": 3,
+        "answer": "A: 교사 한 사람 / 개인 느낌, 시험 안 함 / 알리기 / 2023. B: 예시 대학 / 200명, 85 대 79, 한계(짧은 이야기) / 알리기 / 2024. C: 전자책 회사 / 근거 없음 / 판매(20% 할인) / 2024. 순위 B > A > C. 예: Source B is the most reliable because it tested 200 students and gives scores. Source C is the least reliable because the company wants to sell its e-reader. 비교표 열 칸 이상과 영어 두 문장이면 통과."
+      },
+      {
+        "no": 4,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 신뢰성을 따지는 네 기준을 영어와 우리말로 쓰세요.\n② 좋아요 2,000개는 근거가 될까요? 까닭을 쓰세요.\n③ 기사 제목이 맞는지 확인하는 방법을 쓰세요.",
+        "lines": 3,
+        "answer": "① Source 출처 · Evidence 근거 · Purpose 목적 · Date 날짜 ② 아니다. 인기일 뿐 자료나 방법이 아니다. ③ 원래 보고서(자료)의 숫자와 한계를 맞대어 본다. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 비교표 □  순위(B > A > C) □  영어 두 문장 □ (도움을 받음 □)",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "인기·말투로 판단하거나 판매 목적을 놓침: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
