@@ -165,6 +165,12 @@ class Deck {
     return Math.max(0.95, heightOf(paras, w - 0.6) + 0.36);
   }
 
+  // 카드에 들어가는 가장 큰 글자 크기(cardFit 과 같은 계산)
+  cardPt(box, c) {
+    const sizes = this.cardSizes();
+    return sizes.find((pt) => heightOf(this.cardParas(c, pt), box.w - 0.6) <= box.h - 0.3 + 0.02) || sizes[sizes.length - 1];
+  }
+
   cardFit(slide, sid, box, c) {
     const tones = { tint: TINT.tint, accent: TINT.accent, onDark: TINT.onDark, info: TINT.info, good: TINT.good, bad: TINT.bad };
     const fill = tones[c.tone || "tint"];
@@ -174,7 +180,8 @@ class Deck {
     });
     const innerW = box.w - 0.6;
     const innerH = box.h - 0.3;
-    const sizes = this.cardSizes();
+    // c.cap: 같은 줄의 카드(보기 등)가 같은 크기로 보이게 할 때 쓰는 최대 글자 크기
+    const sizes = this.cardSizes().filter((pt, i, all) => !c.cap || pt <= c.cap || i === all.length - 1);
     let chosen = sizes.find((pt) => heightOf(this.cardParas(c, pt), innerW) <= innerH + 0.02);
     if (!chosen) {
       chosen = sizes[sizes.length - 1];

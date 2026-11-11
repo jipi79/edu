@@ -187,6 +187,10 @@ const KINDS = {
     const cw = (r.w - 0.4 * (cols - 1)) / cols;
     const rh = (r.h - 0.3 * (rows - 1)) / rows;
     const chip = 0.62;
+    // 보기 글자 크기를 모두 같게(긴 보기만 작아져 답이 드러나지 않게) 가장 작은 크기에 맞춘다.
+    const innerBox = rows === 1 ? { w: cw, h: rh - chip - 0.15 } : { w: cw - chip - 0.25, h: rh };
+    const textChoices = spec.options.filter((o) => !o.figure);
+    const cap = textChoices.length ? Math.min(...textChoices.map((o) => deck.cardPt(innerBox, { tone: "tint", text: o.text }))) : 0;
     spec.options.forEach((o, i) => {
       const x = r.x + (i % cols) * (cw + 0.4);
       const y = r.y + Math.floor(i / cols) * (rh + 0.3);
@@ -194,12 +198,12 @@ const KINDS = {
         deck.chip(slide, spec.id, { x: x + (cw - chip) / 2, y, w: chip, h: chip, text: o.label || CHOICE[i], tone: "label" });
         const inner = { x, y: y + chip + 0.15, w: cw, h: rh - chip - 0.15 };
         if (o.figure) drawFigures(deck, slide, spec.id, o.figure, inner);
-        else deck.cardFit(slide, spec.id, inner, { tone: "tint", text: o.text });
+        else deck.cardFit(slide, spec.id, inner, { tone: "tint", text: o.text, cap });
       } else {
         deck.chip(slide, spec.id, { x, y: y + (rh - chip) / 2, w: chip, h: chip, text: o.label || CHOICE[i], tone: "label" });
         const inner = { x: x + chip + 0.25, y, w: cw - chip - 0.25, h: rh };
         if (o.figure) drawFigures(deck, slide, spec.id, o.figure, inner);
-        else deck.cardFit(slide, spec.id, inner, { tone: "tint", text: o.text });
+        else deck.cardFit(slide, spec.id, inner, { tone: "tint", text: o.text, cap });
       }
     });
   },

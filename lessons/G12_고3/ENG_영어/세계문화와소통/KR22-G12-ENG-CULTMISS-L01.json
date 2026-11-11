@@ -1,0 +1,994 @@
+{
+  "id": "KR22-G12-ENG-CULTMISS-L01",
+  "concept_id": "ENG-CULTMISS",
+  "title": "문화 간 오해 분석",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "세계문화와소통",
+  "sequence": 2,
+  "file_stem": "고3_영어_세계문화와소통_02_문화간오해분석",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ENG-I03"
+    ],
+    "units": [
+      "3.5.3",
+      "3.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "세계 문화 비교",
+      "lesson": "KR22-G11-ENG-WORLDCULT-L01",
+      "grade_item": "KR22-G11-ENG-I03"
+    },
+    {
+      "text": "문화 차이 성찰하기",
+      "lesson": "KR22-G10-ENG-CULTREFL-L01",
+      "grade_item": "KR22-G10-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "문화 차이(권유 사양하기, 돌려 말하기, 개인 공간, 시간 약속)로 오해가 생긴 대화를 읽고, 두 사람의 기대 → 행동 → 해석을 근거 문장과 함께 비교해, 오해의 원인을 조심스러운 말(may, probably, often, In my family)로 한 문장(A may have expected ~, while B probably ~.)으로 설명한다.",
+      "evidence": "선수 확인(S02), 분석의 네 걸음(S03), 대화 1(S04·S05), 설명 비교(S07), 대화 2(S08·S09), 혼자 해 보기(S11·S12), 마무리 확인(S14), 활동지 1·2·4",
+      "success": "S12와 활동지 4에서 두 사람의 기대를 근거와 함께 쓰고, 원인 문장에 두 사람의 기대와 조심스러운 말이 모두 들어간다. S14에서 공정한 설명을 고른다."
+    },
+    {
+      "id": "B",
+      "text": "오해를 풀 수 있는 표현(뜻 확인하기 Just to check, do you mean ~? / 내 방식 설명하기 In my family, we usually ~ / 상대 방식 묻기 How do people usually ~ in your family? / 사과와 고마움)을 골라, 상대를 탓하지 않고 대화를 고쳐 쓰고 역할극으로 말한다.",
+      "evidence": "고치는 말 표(S06), 대화 2 고쳐 쓰기(S09), 역할극(S10), 혼자 해 보기(S12), 활동지 2·3·4",
+      "success": "S10 역할극과 S12·활동지 4에서 고치는 말을 두 가지 이상 넣어, 두 사람이 한 번 이상 말하는 대화로 고쳐 쓴다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "색연필 두 가지(두 사람의 기대를 다른 색으로)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "이 수업을 위해 직접 쓴 네 대화(권유 사양하기, 돌려 말하기, 개인 공간, 시간 약속)와 짧은 장면 하나(눈 맞춤)만 쓴다. 인물은 모두 지어낸 사람이고, 나라나 민족 이름을 쓰지 않으며, 습관은 ‘그 사람의 가족·그 사람이 겪은 경험’으로만 말한다. 분석은 기대 → 행동 → 해석 → 고치기의 네 걸음과, 원인을 조심스럽게 말하는 문장(A may have expected ~, while B probably ~.)을 다룬다. 고치는 말은 뜻 확인하기, 내 방식 설명하기, 상대 방식 묻기, 사과와 고마움의 네 가지만 다룬다. 특정 나라의 문화를 사실처럼 정리하기, 문화 이론의 학술 용어(고맥락·저맥락 등), 몸짓 언어 전체는 다루지 않는다. 요청·거절·사과 표현을 상황에 맞게 고르는 것은 다음 차시 ‘상황별 소통 전략’에서 다룬다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "상대의 행동을 성격으로 판단한다(샘은 무례하다, 아나는 게으르다).",
+      "response": "S03 네 걸음으로 ‘기대’를 먼저 찾게 하고, S07에서 판단하는 설명과 기대를 말하는 설명을 비교한다."
+    },
+    {
+      "id": "M2",
+      "text": "한 사람의 행동으로 그 사람이 속한 집단 전체를 단정한다(그 동네 사람들은 늘 늦는다).",
+      "response": "S02에서 일반화와 고정관념을 되짚고, S07·S14에서 may, probably, often, In my family 같은 조심스러운 말을 쓰게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "한쪽 사람만 분석한다(오해는 두 사람의 기대가 다를 때 생긴다는 것을 놓침).",
+      "response": "S05 표에서 두 사람의 칸을 모두 채우고, 원인 문장에 while로 두 사람을 함께 쓰게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "고칠 때 사과만 하고 끝내거나 상대에게 바꾸라고만 한다.",
+      "response": "S06의 네 가지 고치는 말(확인·설명·묻기·사과와 고마움)을 고르게 하고, S13에서 비교한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "문화 간 오해 분석",
+      "question": "같은 말인데,\n왜 서로 다르게 받아들였을까?",
+      "goals": [
+        "① 오해의 원인을 두 사람의 기대로 설명해요.",
+        "② 오해를 푸는 말로 대화를 고쳐 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 2,
+        "items": [
+          {
+            "word": "No, thanks",
+            "sub": "권유 사양"
+          },
+          {
+            "word": "Maybe…",
+            "sub": "돌려 말하기"
+          },
+          {
+            "word": "Space",
+            "sub": "개인 공간"
+          },
+          {
+            "word": "Time",
+            "sub": "시간 약속"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 같은 말과 행동도 익숙한 방식이 다르면 다르게 받아들여질 수 있다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“친구가 ‘괜찮아’라고 했는데, 정말 괜찮은 건지 헷갈린 적 있어?”",
+          "“오늘은 서로 익숙한 방식이 달라서 오해가 생긴 대화를 분석하고, 오해를 푸는 말로 고쳐 볼 거야.”"
+        ],
+        "예상답": [
+          "“‘괜찮아’가 사실은 싫다는 뜻일 때도 있어요.”"
+        ],
+        "막히면": [
+          "가족 사이의 예(어떤 집은 밥을 더 권하고, 어떤 집은 한 번만 묻는다)로 이야기를 시작합니다."
+        ],
+        "주의": [
+          "오늘 대화는 모두 이 수업을 위해 직접 쓴 것이고, 인물은 지어낸 사람입니다. 나라 이름을 쓰지 않고 ‘그 사람의 가족이나 경험’으로만 말합니다. 같은 나라 안에서도 사람마다 습관이 다르기 때문입니다.",
+          "고1 ‘문화 차이 성찰하기’에서 배운 일반화와 고정관념을 오늘도 계속 씁니다. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(일반화와 고정관념)",
+      "role": "prior",
+      "objectives": [],
+      "title": "공정하게 말하기",
+      "text": "일반화일까, 고정관념일까?",
+      "problems": [
+        {
+          "text": "People in that country\nare always rude."
+        },
+        {
+          "text": "In my experience, some\nclassmates prefer texting."
+        },
+        {
+          "text": "①을 공정하게\n고쳐 쓰면?"
+        }
+      ],
+      "notes": {
+        "목적": "고1 ‘문화 차이 성찰하기’(KR22-G10-ENG-CULTREFL-L01)에서 배운 일반화와 고정관념의 구별을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 일반화일까, 고정관념일까? ③은 ①을 공정하게 고쳐 써 줘.”"
+        ],
+        "정답": [
+          "① 고정관념: always로 그 나라 사람 모두를 단정하고, rude라고 판단함",
+          "② 일반화: In my experience, some으로 경험과 범위를 밝힘",
+          "③ 예: In my experience, a few people I met there spoke very directly. (판단 대신 본 것을, 모두 대신 범위를)"
+        ],
+        "막히면": [
+          "신호 말(always, In my experience, some)에 동그라미를 치게 합니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "오늘 원인을 설명할 때도 이 구별이 핵심입니다(오해 M2)."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "오해를 분석하는 네 걸음",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "오해를 분석하는 네 걸음",
+      "text": "문화 간 오해: 익숙한 방식(기대)이 달라 같은 말·행동을 다르게 받아들이는 것",
+      "cards": [
+        {
+          "title": "① 기대",
+          "text": "각자 익숙한 방식"
+        },
+        {
+          "title": "② 행동",
+          "text": "실제 말과 행동"
+        },
+        {
+          "title": "③ 해석",
+          "text": "상대가 받아들인 뜻"
+        },
+        {
+          "title": "④ 고치기",
+          "text": "확인하고 설명하는 말"
+        }
+      ],
+      "key": "같은 행동 + 다른 기대 → 다른 해석  (may, probably로 조심스럽게)",
+      "notes": {
+        "목적": "문화 간 오해는 같은 말과 행동을 서로 다른 기대로 받아들일 때 생긴다는 것과, 기대 → 행동 → 해석 → 고치기의 네 걸음을 보여 줍니다(목표 A, 오해 M1·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“오해는 누가 나빠서 생기는 게 아니라, 두 사람이 익숙한 방식, 곧 기대가 달라서 생길 때가 많아.”",
+          "“먼저 두 사람의 기대, 그다음 실제 행동, 그리고 상대가 그 행동을 어떻게 해석했는지 봐. 마지막에 오해를 푸는 말을 찾아.”",
+          "“원인을 말할 때는 may, probably처럼 조심스럽게 말해. 우리는 그 사람의 속마음을 다 알 수 없으니까.”"
+        ],
+        "예상답": [
+          "“두 사람의 기대가 달랐는지 먼저 봐요.”"
+        ],
+        "막히면": [
+          "“엄마(아빠)가 ‘알아서 해’라고 했을 때, 정말 마음대로 해도 될까?”처럼 집 안의 예로 네 걸음을 먼저 해 봅니다."
+        ],
+        "주의": [
+          "‘기대’는 그 사람이 자라면서 익숙해진 방식입니다. 그 사람의 나라나 집단 전체의 특징으로 말하지 않게 합니다(오해 M2)."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "대화 1 읽기(권유 사양하기, 시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "대화 1: 샌드위치",
+      "text": "직접 쓴 예시 대화 · 민호가 일주일 동안 샘의 가족과 지내요.",
+      "passage": {
+        "paragraphs": [
+          "Sam: Would you like a sandwich? I just made some.",
+          "Minho: Oh, no, thank you. I'm okay.",
+          "Sam: Okay! Let me know if you change your mind.",
+          "(Sam puts the sandwiches away. Minho is hungry, but he says nothing. He wonders why Sam didn't offer again.)",
+          "(In Minho's family, a guest often says no once to be polite, and the host offers again.)"
+        ]
+      },
+      "question": "① 민호와 샘은 각각 무엇을 기대했을까?  ② 오해는 어디서 생겼을까?",
+      "notes": {
+        "목적": "부모가 대화 1을 함께 읽고, 두 사람이 각각 무엇을 기대했는지 근거 문장을 찾는 시범을 보입니다(목표 A).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 샘, 아이가 민호를 맡아 한 번 읽습니다.)",
+          "“민호는 배가 고팠는데 왜 No라고 했을까? 마지막 괄호 문장을 봐.”",
+          "“샘은 왜 다시 권하지 않았을까? 샘이 한 말 가운데 근거가 되는 문장은?”"
+        ],
+        "예상답": [
+          "“민호네 집에서는 손님이 한 번 사양하고, 주인이 다시 권해요.” “샘은 Let me know if you change your mind라고 했으니까, No를 진짜 대답으로 들었어요.”"
+        ],
+        "막히면": [
+          "“Let me know if you change your mind는 무슨 뜻이야? 누가 다시 말해야 한다는 거지?”라고 묻습니다."
+        ],
+        "주의": [
+          "대화의 뜻: (민호는 일주일 동안 샘의 가족과 지내고 있다.) 샘: 샌드위치 먹을래? 방금 만들었어. / 민호: 아, 아니, 괜찮아. / 샘: 그래! 마음 바뀌면 말해. / (샘은 샌드위치를 치운다. 민호는 배가 고프지만 아무 말도 하지 않는다.) (민호는 샘이 왜 다시 권하지 않는지 궁금해한다.) / (민호의 가족은 손님이 예의로 한 번 사양하고, 주인이 다시 권하는 일이 많다.) (offer: 권하다, polite: 예의 바른, host: 손님을 맞는 사람)",
+          "민호의 기대는 마지막 괄호 문장에, 샘의 기대는 Let me know if you change your mind에 드러납니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "대화 1 분석표와 원인 문장",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "대화 1을 분석해요",
+      "text": "기대 → 행동 → 해석, 두 사람 모두",
+      "table": {
+        "headers": [
+          "",
+          "민호",
+          "샘"
+        ],
+        "rows": [
+          [
+            "기대",
+            "손님이 한 번 사양하면 주인이 다시 권한다",
+            "‘No’는 진짜 대답이다"
+          ],
+          [
+            "행동",
+            "예의로 No, thank you.",
+            "샌드위치를 치움"
+          ],
+          [
+            "해석",
+            "샘이 나를 신경 쓰지 않는다",
+            "민호는 배가 고프지 않다"
+          ]
+        ],
+        "widths": [
+          0.14,
+          0.46,
+          0.4
+        ],
+        "width": 12.13,
+        "size": 20,
+        "firstColHead": true
+      },
+      "key": "Minho ⟦may⟧ have expected a second offer, while Sam ⟦probably⟧ took “no” as a real answer.",
+      "notes": {
+        "목적": "대화 1을 기대 → 행동 → 해석으로 두 사람 모두 정리하고, 조심스러운 원인 문장을 보여 줍니다(목표 A, 오해 M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“두 사람의 칸을 다 채워야 해. 오해는 한 사람만의 잘못이 아니니까.”",
+          "“아래 원인 문장에서 밑줄 친 may와 probably가 왜 들어갔을까?”"
+        ],
+        "예상답": [
+          "“민호의 속마음을 샘은 모르니까, 우리도 짐작해서 말하는 거예요.”"
+        ],
+        "막히면": [
+          "표의 ‘해석’ 줄을 가리키며 “민호는 샘을 어떻게 생각했어? 샘은 민호를 어떻게 생각했어?”라고 묻습니다."
+        ],
+        "주의": [
+          "원인 문장의 뜻: 민호는 한 번 더 권할 거라고 기대했을 수 있고, 샘은 아마 ‘No’를 진짜 대답으로 받아들였을 것이다. while은 두 사람을 나란히 비교할 때 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "오해를 푸는 말 네 가지",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "오해를 푸는 말",
+      "text": "상대를 탓하지 않고, 서로의 방식을 말해요.",
+      "table": {
+        "headers": [
+          "고치는 말",
+          "표현",
+          "대화 1에 넣으면"
+        ],
+        "rows": [
+          [
+            "뜻 확인하기",
+            "Just to check, do you mean ~?",
+            "Just to check, are you really not hungry?"
+          ],
+          [
+            "내 방식 설명하기",
+            "In my family, we usually ~.",
+            "In my family, guests usually say no first."
+          ],
+          [
+            "상대 방식 묻기",
+            "How do people usually ~\nin your family?",
+            "How do guests usually answer\noffers in your family?"
+          ],
+          [
+            "사과와 고마움",
+            "Sorry, I didn't know.\nThanks for telling me.",
+            "Thanks for telling me.\nHere's a sandwich!"
+          ]
+        ],
+        "widths": [
+          0.2,
+          0.36,
+          0.44
+        ],
+        "width": 12.13,
+        "size": 18,
+        "firstColHead": true
+      },
+      "key": "확인하기 · 설명하기 · 묻기 · 사과와 고마움",
+      "notes": {
+        "목적": "오해를 풀 수 있는 네 가지 말(뜻 확인하기, 내 방식 설명하기, 상대 방식 묻기, 사과와 고마움)을 대화 1에 넣어 보여 줍니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“표의 오른쪽 문장을 대화 1에 넣으면 대화가 어떻게 바뀔까? 같이 읽어 보자.”",
+          "“누가 먼저 말해도 돼. 샘이 확인해도 되고, 민호가 설명해도 되지.”"
+        ],
+        "예상답": [
+          "“샘이 Just to check, are you really not hungry?라고 물으면 민호가 사실대로 말할 수 있어요.”"
+        ],
+        "막히면": [
+          "네 가지 가운데 하나만 골라 대화 1의 알맞은 자리에 넣게 합니다."
+        ],
+        "주의": [
+          "상대에게 ‘네 방식이 틀렸다’고 말하는 대신 내 방식을 설명하고 상대 방식을 묻는 것이 핵심입니다. 표 문장의 뜻: 확인할게, 정말 배 안 고파? / 우리 가족은 손님이 처음엔 보통 사양해서, 나도 예의로 아니라고 했어. / 너희 가족은 권하는 말에 보통 어떻게 대답해? / 말해 줘서 고마워. 여기 샌드위치!"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(판단·고정관념 vs 조심스러운 설명)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 설명이 공정할까?",
+      "claim": "대화 1의 오해, 원인을 어떻게 설명할까?",
+      "left": {
+        "title": "가",
+        "text": "Sam is rude. People like him\nnever care about guests."
+      },
+      "right": {
+        "title": "나",
+        "text": "Minho may have expected a second\noffer, while Sam probably took\n“no” as a real answer."
+      },
+      "question": "어느 설명이 공정한가요? 다른 쪽은 무엇이 문제인가요?",
+      "notes": {
+        "목적": "대화 1의 원인을 사람을 판단하고 집단을 단정한 설명과, 두 사람의 기대를 조심스럽게 말한 설명으로 비교합니다(목표 A, 오해 M1·M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 대화 1의 원인을 이렇게 설명했어. 어느 쪽이 공정할까?”"
+        ],
+        "정답": [
+          "나가 공정합니다. may, probably로 조심스럽게 말하고, 두 사람의 기대를 while로 함께 설명했습니다. 가는 샘을 rude라고 판단하고(오해 M1), never로 샘과 비슷한 사람 모두를 단정했습니다(고정관념, 오해 M2). 민호의 기대도 빠졌습니다(오해 M3)."
+        ],
+        "막히면": [
+          "“가의 설명에 민호의 기대가 들어 있어? never는 몇 명에 대한 말이야?”라고 묻습니다."
+        ],
+        "주의": [
+          "여기까지가 분석과 고치는 말의 시범입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "대화 2 읽기(돌려 말하기)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "대화 2: 슬라이드 색",
+      "text": "직접 쓴 예시 대화 · 지호와 레나가 모둠 과제 슬라이드를 만들어요.",
+      "passage": {
+        "paragraphs": [
+          "Lena: What do you think of my design?",
+          "Jiho: Hmm, it's interesting. Maybe we could think about the colors a little more.",
+          "Lena: Thanks! I'm glad you like it. Let's keep it as it is.",
+          "Jiho: Oh... okay.",
+          "(Jiho thinks the red text is hard to read. Later, he tells a friend that Lena never listens.)",
+          "(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually says the problem clearly.)"
+        ]
+      },
+      "question": "① 지호가 하고 싶었던 말은?  ② 레나는 왜 칭찬으로 들었을까?",
+      "notes": {
+        "목적": "대화 2를 함께 읽고, 지호가 하고 싶었던 말과 레나가 받아들인 뜻이 어떻게 달랐는지 찾습니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "(부모가 레나, 아이가 지호를 맡아 한 번 읽습니다.)",
+          "“지호가 정말 하고 싶었던 말은 뭐였을까? 괄호 문장에서 찾아봐.”",
+          "“레나는 interesting과 maybe를 어떻게 들었을까? 레나의 기대가 드러난 문장은?”"
+        ],
+        "예상답": [
+          "“빨간 글자가 읽기 어려우니 색을 바꾸자는 말이었어요.” “레나는 문제가 있으면 분명히 말한다고 생각해서, 칭찬으로 들었어요.”"
+        ],
+        "막히면": [
+          "Maybe, a little, interesting에 동그라미를 치고 “이 말들이 문장을 더 세게 해, 부드럽게 해?”라고 묻습니다."
+        ],
+        "주의": [
+          "대화의 뜻: (지호와 레나가 모둠 과제 슬라이드를 만들고 있다.) 레나: 내 디자인 어때? / 지호: 음, 흥미롭네. 색을 조금 더 생각해 보면 어떨까. / 레나: 고마워! 마음에 든다니 기뻐. 이대로 두자. / 지호: 아… 그래. / (지호는 빨간 글자가 읽기 어렵다고 생각한다. 나중에 친구에게 레나는 남의 말을 안 듣는다고 말한다.) / (레나는 지호가 속상했다는 것을 전혀 모른다. 레나는 피드백을 할 때 보통 문제를 분명히 말한다.) (design: 디자인, feedback: 의견)"
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "대화 2 분석하고 고치기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "대화 2를 분석하고 고쳐요",
+      "text": "기대 → 행동 → 해석, 그리고 고치기",
+      "problems": [
+        {
+          "text": "지호의 기대와 행동은?"
+        },
+        {
+          "text": "레나의 기대와 해석은?\n(근거 문장)"
+        },
+        {
+          "text": "원인 문장(may, probably)"
+        },
+        {
+          "text": "오해를 푸는 말\n(레나 한 줄 + 지호 한 줄)"
+        }
+      ],
+      "notes": {
+        "목적": "대화 2의 두 사람의 기대를 근거와 함께 쓰고, 원인 문장과 오해를 푸는 말을 씁니다(목표 A·B). 활동지 2에 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 우리말로, ③④는 영어로 써 볼래? S05와 S06을 참고해도 돼.”"
+        ],
+        "정답": [
+          "① 지호의 기대: 부드럽게 말해도 상대가 문제를 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함",
+          "② 레나의 기대: 문제가 있으면 분명히 말할 것(she usually says the problem clearly) / 해석: 칭찬",
+          "③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to say the problem clearly.",
+          "④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
+        ],
+        "막히면": [
+          "③은 S05 원인 문장의 이름과 기대만 바꾸게 합니다.",
+          "④는 S06 표에서 하나를 골라 넣게 합니다."
+        ],
+        "주의": [
+          "지호가 친구에게 ‘레나는 남의 말을 안 듣는다’고 한 것도 성격으로 판단한 예입니다(오해 M1). 함께 짚어 주세요."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "역할극(대화 3, 개인 공간)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "말하기: 역할극",
+      "steps": [
+        "활동지 3 대본을\n역할을 나눠 읽어요.",
+        "두 사람의 기대를\n말해요.",
+        "고치는 말을 넣어\n다시 연기해요.",
+        "역할을 바꿔\n한 번 더 해요.",
+        "가장 좋았던 말을\n서로 말해요."
+      ],
+      "criteria": [
+        "두 사람의 기대를 말했어요",
+        "고치는 말을 두 가지 넣었어요",
+        "상대를 탓하지 않았어요"
+      ],
+      "notes": {
+        "목적": "활동지 3의 대화 3(개인 공간)을 역할을 나눠 연기하고, 오해를 푸는 말을 넣어 다시 연기합니다(목표 B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“활동지 3 대본으로 연기해 보자. 엄마(아빠)가 다니엘, 네가 유나야. 괄호 속 행동도 해 봐.”",
+          "“두 사람은 각각 무엇을 기대했을까? 이제 오해를 푸는 말을 넣어 다시 해 보자.”",
+          "“이번엔 역할을 바꿔서!”"
+        ],
+        "예상답": [
+          "예: Yuna: Sorry, I'm not leaving! I just feel more comfortable with a little more space. / Daniel: Oh, thanks for telling me. In my family, people often stand close when they talk. Is this okay? / Yuna: Yes, thanks! So, what do you like to draw?",
+          "기준: 두 사람의 기대를 말하고, 고치는 말을 두 가지 이상 넣으며, 상대를 탓하지 않으면 잘한 것입니다."
+        ],
+        "막히면": [
+          "S06 표를 펼쳐 두고 유나가 먼저 ‘내 방식 설명하기’를 하게 합니다."
+        ],
+        "주의": [
+          "대화 3의 뜻: (동아리 모임에서 다니엘이 유나에게 처음 말을 건다.) 다니엘: 안녕! 너 그림 그리는 거 좋아한다며. 나도야! (아주 가까이 선다.) / 유나: 아, 응, 좋아해. (한 걸음 물러선다.) / 다니엘: 보통 뭘 그려? (다시 다가간다.) / 유나: 음, 주로 동물. (또 물러선다.) / (다니엘은 유나가 자기와 말하기 싫어한다고 생각한다. 유나는 다니엘이 좀 밀어붙인다고 생각한다.) (step back: 물러서다, pushy: 밀어붙이는)",
+          "편안한 거리는 사람마다, 가족마다, 상황마다 다릅니다. 연기할 때 실제로 너무 가까이 서서 아이를 불편하게 하지 않도록 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 해 보기 1(대화 4 읽기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 읽어요: 대화 4",
+      "text": "직접 쓴 예시 대화 · 혜진이 새 반 친구 아나를 생일 저녁에 초대해요.",
+      "passage": {
+        "paragraphs": [
+          "Hyejin: My birthday dinner is on Saturday at 7. Can you come?",
+          "Ana: Sure! I'd love to.",
+          "(On Saturday, the other guests arrive before 7. Hyejin's family waits, and the food gets cold. Ana arrives at 7:40 with a big smile.)",
+          "Ana: Hi! Happy birthday!",
+          "Hyejin: Oh... hi. We already started eating.",
+          "(Ana is surprised. At most parties she has been to, guests often came 30 minutes or more after the start time.)"
+        ]
+      },
+      "question": "두 사람의 기대가 드러난 문장에 밑줄을 그어요(활동지 4).",
+      "notes": {
+        "목적": "도움 없이 대화 4(시간 약속)를 읽고, 두 사람의 기대가 드러난 근거 문장에 밑줄을 긋는지 확인합니다(목표 A). 활동지 4에 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“이번에는 혼자 읽어 볼래? 혜진과 아나의 기대가 드러난 문장에 다른 색으로 밑줄을 그어 줘.”"
+        ],
+        "정답": [
+          "혜진의 기대: My birthday dinner is on Saturday at 7. / the other guests arrive before 7 (저녁은 7시에 시작, 손님은 7시까지 옴)",
+          "아나의 기대: At most parties she has been to, guests often came 30 minutes or more after the start time. (파티는 조금 늦게 가도 됨)"
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “아나는 왜 놀랐을까? 마지막 괄호 문장을 봐.”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "대화의 뜻: (혜진이 새로 사귄 반 친구 아나를 생일 저녁에 초대한다.) 혜진: 토요일 7시에 생일 저녁을 먹어. 올 수 있어? / 아나: 물론이지! 꼭 갈게. / (토요일, 다른 손님들은 7시 전에 도착한다. 혜진의 가족은 기다리고, 음식은 식는다. 아나는 7시 40분에 활짝 웃으며 도착한다.) / 아나: 안녕! 생일 축하해! / 혜진: 아… 안녕. 우리 벌써 먹기 시작했어. / (아나는 놀란다. 아나가 가 본 파티 대부분에서는 손님들이 시작 시각보다 30분 이상 늦게 오는 일이 많았다.) (invite: 초대하다, guest: 손님, start time: 시작 시각)"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기 2(원인 설명과 고쳐 쓰기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기: 분석하고 고쳐요",
+      "text": "대화 4를 분석하고 고쳐 써요.",
+      "problems": [
+        {
+          "text": "혜진과 아나의 기대·해석은?\n(우리말 가능)"
+        },
+        {
+          "text": "오해의 원인을\nmay, probably로 한 문장"
+        },
+        {
+          "text": "오해를 푸는 말을 넣어\n대화를 고쳐 써요."
+        }
+      ],
+      "notes": {
+        "목적": "대화 4의 오해를 기대 → 행동 → 해석으로 분석하고, 조심스러운 원인 문장과 오해를 푸는 말로 대화를 고쳐 쓰는지 확인합니다(목표 A·B). 활동지 4에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“세 질문에 답해 줘. ②③은 영어로 써 봐.”"
+        ],
+        "정답": [
+          "① 혜진: 저녁은 7시에 시작하니 손님은 7시까지 온다 / 아나: 파티는 시작 시각보다 조금 늦게 가도 된다 → 혜진은 아나가 무례하다고, 아나는 혜진이 왜 속상한지 모른다고 해석",
+          "② Ana may have thought that arriving a little late was normal for a party, while Hyejin probably expected her guests to come at 7 for dinner.",
+          "③ 예: Ana: I'm so sorry I'm late. At parties I've been to, people often come a little after the start time. I didn't know dinner started at 7. / Hyejin: Oh, I see. Thanks for explaining. Come and sit down! (또는 초대할 때 Hyejin: Dinner starts at 7, so please come on time.)",
+          "기준: ②에 두 사람의 기대와 조심스러운 말(may, probably 등)이 모두 있고, ③에서 고치는 말을 두 가지 이상 넣어 두 사람이 한 번 이상 말하면 통과입니다."
+        ],
+        "막히면": [
+          "“S05 원인 문장에서 이름과 기대만 바꿔 볼래?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "‘아나가 무례하다’ ‘그 동네 사람들은 늘 늦는다’처럼 쓰면 S07로 돌아가 판단과 고정관념을 짚습니다(오해 M1·M2)."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "Ana ⟦may⟧ have thought\nlate was normal"
+        },
+        {
+          "text": "while Hyejin ⟦probably⟧\nexpected 7 o'clock"
+        },
+        {
+          "text": "Sorry + In my family ~\n+ Thanks for explaining"
+        }
+      ],
+      "bad": [
+        {
+          "text": "Ana is rude.",
+          "note": "판단 →\n기대로"
+        },
+        {
+          "text": "People from her town\nare always late.",
+          "note": "고정관념"
+        },
+        {
+          "text": "Sorry. (끝)",
+          "note": "설명·확인\n더하기"
+        }
+      ],
+      "explain": "두 사람의 기대 + 조심스러운 말 + 고치는 말 두 가지",
+      "notes": {
+        "목적": "아이의 원인 문장과 고친 대화를 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네 답과 왼쪽을 비교해 보자. 오른쪽처럼 쓰면 무엇이 문제일까?”"
+        ],
+        "예상답": [
+          "“저는 Ana is rude라고 썼어요.” “사과만 했어요.”"
+        ],
+        "정답": [
+          "원인: Ana may have thought that arriving a little late was normal for a party, while Hyejin probably expected her guests to come at 7 for dinner. / 고치기: 사과 + 내 방식 설명 + 고마움"
+        ],
+        "막히면": [
+          "판단이나 고정관념이 있으면 S07, 고치는 말이 하나뿐이면 S06을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "choice",
+      "section": "확인",
+      "purpose": "마무리 확인(공정한 설명 고르기)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "가장 공정한 설명은?",
+      "text": "Kai looks down when his teacher talks to him. The teacher thinks he isn't listening.",
+      "options": [
+        {
+          "text": "Kai wasn't listening because he didn't care about the lesson."
+        },
+        {
+          "text": "Kai may mean it as respect; his teacher may expect eye contact."
+        },
+        {
+          "text": "Students like Kai never look at their teachers when they talk."
+        }
+      ],
+      "question": "오해의 원인을 가장 공정하게 설명한 문장은? 나머지의 문제는?",
+      "notes": {
+        "목적": "처음 보는 장면(눈 맞춤)에서 오해의 원인을 가장 공정하게 설명한 문장을 고르고, 나머지의 문제를 말하는지 확인합니다(목표 A).",
+        "시간": "약 2분",
+        "말하기": [
+          "“장면을 읽고, 가장 공정한 설명을 골라 줘. 나머지는 무엇이 문제야?”"
+        ],
+        "정답": [
+          "나 Kai may mean it as respect; his teacher may expect eye contact. (카이는 아래를 보는 것을 존중의 뜻으로 했을 수 있고, 선생님은 눈 맞춤을 기대했을 수 있다: 두 사람의 기대를 may로 조심스럽게 말함)",
+          "가: 카이의 속마음을 단정해 판단함(오해 M1) / 다: never로 비슷한 학생 모두를 단정함(고정관념, 오해 M2) / 둘 다 한 사람의 기대만 봄(오해 M3)",
+          "기준: 나를 고르고 가와 다의 문제를 하나씩 말하면 통과입니다."
+        ],
+        "막히면": [
+          "신호 말(may, never)에 동그라미를 치게 합니다."
+        ],
+        "주의": [
+          "장면의 뜻: 카이는 선생님이 말할 때 아래를 본다. 선생님은 카이가 듣지 않는다고 생각한다. 어떤 가정에서는 어른 앞에서 눈을 내리까는 것을 예의로 가르치기도 하고, 어떤 가정에서는 눈을 맞추는 것을 잘 듣는 표시로 여기기도 합니다. 틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S07을 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "기대 → 행동 → 해석 → 고치기\nA ⟦may⟧ have expected ~, while B ⟦probably⟧ ~.",
+      "do": "두 사람의 기대를 함께 말하기",
+      "dont": "한 사람이나 한 집단을 탓하기",
+      "review": [
+        {
+          "text": "오해를 분석하는\n네 걸음은?"
+        },
+        {
+          "text": "원인을 조심스럽게\n말하는 문장 틀은?"
+        },
+        {
+          "text": "오해를 푸는 말\n두 가지는?"
+        }
+      ],
+      "next": "상황별 소통 전략",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오해를 분석하는 네 걸음은?”",
+          "“원인을 조심스럽게 말하는 문장 틀을 말해 볼래?”",
+          "“오해를 푸는 말 두 가지는?”"
+        ],
+        "예상답": [
+          "“기대, 행동, 해석, 고치기요.” “A may have expected ~, while B probably ~.” “Just to check, do you mean ~? / In my family, we usually ~.”"
+        ],
+        "정답": [
+          "① 기대 → 행동 → 해석 → 고치기",
+          "② A may have expected ~, while B probably ~. (두 사람의 기대 + 조심스러운 말)",
+          "③ 뜻 확인하기, 내 방식 설명하기, 상대 방식 묻기, 사과와 고마움 가운데 두 가지"
+        ],
+        "주의": [
+          "영화나 드라마에서 오해가 생기는 장면을 보면 네 걸음으로 함께 분석해 보면 좋은 복습이 됩니다. 다음 차시 ‘상황별 소통 전략’에서는 요청·거절·사과를 상황에 맞게 말하는 방법을 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(단정하는 말 → 조심스러운 말)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 조심스럽게 말하기",
+      "layout": "support",
+      "text": "단정하는 말 → 조심스러운 말",
+      "table": {
+        "headers": [
+          "단정하는 말",
+          "조심스러운 말"
+        ],
+        "rows": [
+          [
+            "He is rude.",
+            "He may have a different habit."
+          ],
+          [
+            "They always ~ / never ~",
+            "They often ~ / sometimes ~"
+          ],
+          [
+            "All people there ~",
+            "Some people I met ~ / In my family, ~"
+          ],
+          [
+            "She wanted ~.",
+            "She probably wanted ~."
+          ]
+        ],
+        "widths": [
+          0.45,
+          0.55
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "다음 걸음",
+        "text": "원인 문장에 may나 probably를 넣고, 두 사람을 while로 함께 써요."
+      },
+      "notes": {
+        "목적": "S02나 S07에서 판단하거나 단정하는 말이 자주 나오면, 원인을 말하기 전에 조심스러운 말 바꾸기를 연습합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“왼쪽 말을 오른쪽 말로 바꿔 읽어 보자. 무엇이 달라졌어?”"
+        ],
+        "정답": [
+          "단정(is, always, never, All)을 짐작(may, often, sometimes, Some, In my family)으로 바꾸면, 내가 다 알 수 없다는 것과 범위를 밝히게 됩니다."
+        ],
+        "막히면": [
+          "고1 ‘문화 차이 성찰하기’(KR22-G10-ENG-CULTREFL-L01)의 일반화와 고정관념 표를 다시 보여 줍니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 고1 ‘문화 차이 성찰하기’(KR22-G10-ENG-CULTREFL-L01)과 고2 ‘세계 문화 비교’(KR22-G11-ENG-WORLDCULT-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "문화 간 오해 분석 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 1. 대화를 읽고 두 사람의 기대 → 행동 → 해석을 표에 쓰세요(S04·S05).",
+        "read": "(Minho is staying with Sam's family for a week.)\nSam: Would you like a sandwich? I just made some.\nMinho: Oh, no, thank you. I'm okay.\nSam: Okay! Let me know if you change your mind.\n(Sam puts the sandwiches away. Minho is hungry, but he says nothing. He wonders why Sam didn't offer again.)\n(In Minho's family, a guest often says no once to be polite, and the host offers again.)",
+        "table": {
+          "headers": [
+            "",
+            "민호",
+            "샘"
+          ],
+          "rows": [
+            [
+              "기대",
+              " \n ",
+              " \n "
+            ],
+            [
+              "행동",
+              " \n ",
+              " \n "
+            ],
+            [
+              "해석",
+              " \n ",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.12,
+            0.44,
+            0.44
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "민호: 기대 손님이 한 번 사양하면 주인이 다시 권한다 / 행동 예의로 No, thank you / 해석 샘이 나를 신경 쓰지 않는다. 샘: 기대 No는 진짜 대답이다(Let me know if you change your mind) / 행동 샌드위치를 치움 / 해석 민호는 배가 고프지 않다. 두 사람의 칸을 모두 채우면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 2. ①②는 표에 우리말로, ③ 원인 문장과 ④ 오해를 푸는 말(레나 한 줄 + 지호 한 줄)은 아래 줄에 영어로 쓰세요(S09).",
+        "read": "(Jiho and Lena are making slides for a group project.)\nLena: What do you think of my design?\nJiho: Hmm, it's interesting. Maybe we could think about the colors a little more.\nLena: Thanks! I'm glad you like it. Let's keep it as it is.\nJiho: Oh... okay.\n(Jiho thinks the red text is hard to read. Later, he tells a friend that Lena never listens.)\n(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually says the problem clearly.)",
+        "table": {
+          "headers": [
+            "질문",
+            "답"
+          ],
+          "rows": [
+            [
+              "① 지호의 기대와 행동",
+              " \n "
+            ],
+            [
+              "② 레나의 기대와 해석(근거 문장)",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.3,
+            0.7
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "line_label": "③ 원인 문장 / ④ 오해를 푸는 말(영어):",
+        "lines": 4,
+        "answer": "① 기대: 부드럽게 말해도 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함 ② 기대: 문제가 있으면 분명히 말할 것(she usually says the problem clearly) / 해석: 칭찬 ③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to say the problem clearly. ④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
+      },
+      {
+        "no": 3,
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 3. 역할극 대본입니다(S10). 그대로 연기한 뒤, 오해를 푸는 말을 넣어 다시 연기하세요.",
+        "read": "(At a club meeting, Daniel talks to Yuna for the first time.)\nDaniel: Hi! I heard you like drawing. Me too! (He stands very close.)\nYuna: Oh, yes, I do. (She takes a step back.)\nDaniel: What do you usually draw? (He steps closer again.)\nYuna: Um, mostly animals. (She steps back again.)\n(Daniel thinks Yuna doesn't want to talk to him. Yuna thinks Daniel is a bit pushy.)",
+        "answer": "말하기 활동입니다. 예: Yuna: Sorry, I'm not leaving! I just feel more comfortable with a little more space. / Daniel: Oh, thanks for telling me. In my family, people often stand close when they talk. Is this okay? / Yuna: Yes, thanks! 역할극에서 고치는 말을 두 가지 이상 넣고 상대를 탓하지 않으면 통과."
+      },
+      {
+        "no": 4,
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 4. 혼자 읽고, 두 사람의 기대가 드러난 문장에 밑줄을 그은 뒤 표를 채우세요. 아래 줄에는 ② 원인 문장과 ③ 고쳐 쓴 대화를 영어로 쓰세요(S11·S12).",
+        "read": "(Hyejin invites Ana, a new classmate, to her birthday dinner.)\nHyejin: My birthday dinner is on Saturday at 7. Can you come?\nAna: Sure! I'd love to.\n(On Saturday, the other guests arrive before 7. Hyejin's family waits, and the food gets cold. Ana arrives at 7:40 with a big smile.)\nAna: Hi! Happy birthday!\nHyejin: Oh... hi. We already started eating.\n(Ana is surprised. At most parties she has been to, guests often came 30 minutes or more after the start time.)",
+        "table": {
+          "headers": [
+            "",
+            "혜진",
+            "아나"
+          ],
+          "rows": [
+            [
+              "① 기대",
+              " \n ",
+              " \n "
+            ],
+            [
+              "① 해석",
+              " \n ",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.12,
+            0.44,
+            0.44
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "line_label": "② 원인 문장 / ③ 고쳐 쓴 대화(영어):",
+        "lines": 6,
+        "answer": "① 혜진: 저녁은 7시에 시작하니 손님은 7시까지 온다(the other guests arrive before 7) / 아나가 무례하다고 해석. 아나: 파티는 조금 늦게 가도 된다(guests often came 30 minutes or more after the start time) / 혜진이 왜 속상한지 몰라 놀람. ② Ana may have thought that arriving a little late was normal for a party, while Hyejin probably expected her guests to come at 7 for dinner. ③ 예: Ana: I'm so sorry I'm late. At parties I've been to, people often come a little after the start time. I didn't know dinner started at 7. / Hyejin: Oh, I see. Thanks for explaining. Come and sit down! ②에 두 사람의 기대와 조심스러운 말이 있고 ③에 고치는 말이 두 가지 이상이면 통과."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 오해를 분석하는 네 걸음을 쓰세요.\n② 대화 1(샌드위치)의 오해 원인을 may와 probably를 넣어 영어 한 문장으로 쓰세요.\n③ 오해를 푸는 말 두 가지를 영어로 쓰세요.",
+        "lines": 4,
+        "answer": "① 기대 → 행동 → 해석 → 고치기 ② Minho may have expected a second offer, while Sam probably took “no” as a real answer. ③ 예: Just to check, do you mean ~? / In my family, we usually ~. / How do people usually ~ in your family? / Thanks for telling me. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11·S12 혼자 해 보기: 두 사람의 기대 □  조심스러운 원인 문장 □  고치는 말 두 가지 □ (도움을 받음 □)",
+      "S14 마무리 확인: 공정한 설명 고르기 □  나머지 둘의 문제 □",
+      "판단(rude, lazy)이나 고정관념(always, never, all)으로 설명함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 S07 다시 보기)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
