@@ -1,0 +1,983 @@
+{
+  "id": "KR22-G12-ENG-APPLYMAIL-L01",
+  "concept_id": "ENG-APPLYMAIL",
+  "title": "지원 이메일 쓰기",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "영어탐구발표글쓰기",
+  "sequence": 3,
+  "file_stem": "고3_영어_영어탐구발표글쓰기_03_지원이메일쓰기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-ENG-I02"
+    ],
+    "units": [
+      "3.3.4",
+      "3.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "목적에 맞는 이메일",
+      "lesson": "KR22-G11-ENG-FORMALMAIL-L01",
+      "grade_item": "KR22-G11-ENG-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "지원 이메일의 짜임(제목 Application for ~ → 인사 → 목적과 자기소개 → 경험과 구체적인 예 → 지원 동기와 앞으로의 꿈 → 첨부·가능한 때 → 맺음 인사)과 부분마다의 격식 표현을 알고, 막연한 경험 문장을 숫자·예가 있는 문장으로 고친다.",
+      "evidence": "지원 이메일의 일곱 부분(S03), 부분별 표현(S04), 본보기 이메일(S05), 경험 문장 고치기(S06), 과장한 이메일 비교(S07), 순서 맞추기(S09), 마무리 확인(S13), 활동지 1·2",
+      "success": "활동지 1의 순서 맞추기를 모두 맞히고, 활동지 2의 경험 문장 세 개 가운데 두 개 이상을 기간·숫자·예가 있는 정직한 문장으로 고친다."
+    },
+    {
+      "id": "B",
+      "text": "프로그램 카드 하나를 골라 목적·경험·동기·마무리를 갖춘 격식 있는 지원 이메일(8~10문장)을 쓰고, 자기 실제 경험만 쓰며 점검표로 확인한다.",
+      "evidence": "지원 동기 문장 만들기(S08), 지원 동기 인터뷰(S10), 혼자 쓰기(S11), 활동지 3·4",
+      "success": "활동지 3의 이메일이 점검표 여섯 항목(Application for 제목 / Dear + 이름 / I am writing to apply for 목적 / 구체적인 경험과 예 / 꿈과 이은 동기 / 맺음 인사와 격식 말투) 가운데 다섯 개 이상을 지킨다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "형광펜(이메일의 부분마다 다른 색)",
+    "내 활동 기록(동아리·봉사·수상 등을 적어 둔 메모, 있으면)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "고등학생이 진로 관련 활동(박물관 멘토, 병원 봉사, 도서관 독서 모임 리더, 코딩 캠프 보조)에 지원하는 격식 이메일(8~10문장, 약 120~170 낱말)을 다룬다. 기관·사람·프로그램은 모두 지어낸 예시이며 실제로 보내지 않는다. 짜임은 제목, 인사, 목적과 자기소개, 경험과 예, 지원 동기, 첨부·가능한 때, 맺음 인사의 일곱 부분으로 정하고, 표현은 I am writing to apply for ~ / For the past ~, I have ~ / For example, ~ / I am interested in this program because ~ / It would help me ~ / I have attached ~ / Thank you for considering my application.만 쓴다. 경험은 아이의 실제 경험만 쓰고 부풀리지 않는다. 이력서·자기소개서 쓰기, 영어 면접(고2 ‘직무 상황 영어’에서 기본만 다룸), 실제 지원 절차는 다루지 않는다. ‘지원 동기·경험·격식’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "경험을 막연하게 쓴다(I like science. / I helped people.).",
+      "response": "S06에서 기간·숫자·구체적인 예를 넣어 고치고, 점검표 넷째 항목으로 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "자기 자랑이나 과장(I'm the best student. Pick me!)으로 설득하려 한다.",
+      "response": "S07 비교에서 사실과 예로 보여 주는 문장과 견주고, 경계(실제 경험만)를 지키게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "지원 동기를 ‘재미있을 것 같아서’로만 쓰고 앞으로의 꿈·프로그램과 잇지 않는다.",
+      "response": "S08에서 because + 꿈, It would help me ~ 틀로 동기를 쓰게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "목적 문장이 늦게 나오거나 친구 말투(Hi, I'm ~, Thx)를 쓴다.",
+      "response": "S03·S05에서 목적 문장이 인사 바로 뒤에 온다는 것을 보여 주고, S09 순서 맞추기와 점검표로 확인한다(고2 ‘목적에 맞는 이메일’ 연결)."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "지원 이메일 쓰기",
+      "question": "짧은 이메일 한 통으로 나를 소개하고\n뽑히고 싶다면 무엇을 써야 할까?",
+      "goals": [
+        "① 지원 이메일의 짜임과 격식 표현을 알아요.",
+        "② 내 경험과 꿈을 담은 지원 이메일을 써요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "목적",
+            "sub": "I am writing to apply for ~"
+          },
+          {
+            "word": "경험 + 예",
+            "sub": "For example, ~"
+          },
+          {
+            "word": "지원 동기",
+            "sub": "because ~"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 진로와 관련된 활동에 지원할 때 짧은 이메일로 나를 소개하고 설득하는 법에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“박물관 멘토, 병원 봉사, 코딩 캠프 보조처럼 진로와 이어지는 활동에 지원할 때 영어 이메일을 써야 할 때가 있어.”",
+          "“오늘은 왜 지원하는지, 어떤 경험이 있는지, 왜 이 활동이 나에게 의미 있는지를 짜임에 맞게 쓰는 법을 배울 거야.”"
+        ],
+        "예상답": [
+          "“경험을 써야 해요.” “공손하게 써야 해요.”"
+        ],
+        "막히면": [
+          "“네가 동아리 부원을 뽑는다면, 지원자에게서 무엇을 알고 싶어?”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 나오는 기관과 프로그램은 모두 지어낸 예시입니다. 아이가 쓸 경험은 실제로 한 일만 쓰게 해 주세요. 동아리·봉사·수상 기록을 미리 함께 떠올려 두면 좋습니다.",
+          "모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(격식 이메일)",
+      "role": "prior",
+      "objectives": [],
+      "title": "격식 이메일 떠올리기",
+      "text": "격식 이메일 표현으로 말해요.",
+      "problems": [
+        {
+          "text": "Hi Dr. Lim! → 격식 인사"
+        },
+        {
+          "text": "문의 메일의 목적 문장은?"
+        },
+        {
+          "text": "Thx! See ya! → 격식 맺음"
+        }
+      ],
+      "notes": {
+        "목적": "고2 ‘목적에 맞는 이메일’(KR22-G11-ENG-FORMALMAIL-L01)에서 배운 제목·인사·목적 문장·맺음 인사를 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②③을 격식 이메일 표현으로 말해 줘.”"
+        ],
+        "정답": [
+          "① Dear Dr. Lim,",
+          "② I am writing to ask about ~ (문의) / I am writing to ask if ~ (요청)",
+          "③ Thank you for your time. I look forward to hearing from you. Best regards, (이름)"
+        ],
+        "막히면": [
+          "고2 ‘목적에 맞는 이메일’ 활동지의 격식 표를 보여 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "오늘은 목적이 ‘지원’입니다. 목적 문장이 I am writing to apply for ~로 바뀝니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "지원 이메일의 일곱 부분",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "지원 이메일의 짜임",
+      "text": "지원 동기: 이 활동을 하고 싶은 까닭",
+      "cards": [
+        {
+          "title": "① 제목 · 인사",
+          "text": "Application for ~\nDear Dr. Lim,"
+        },
+        {
+          "title": "② 목적 · 나",
+          "text": "I am writing to apply for ~.\nI am a ~ student at ~."
+        },
+        {
+          "title": "③ 경험 + 예",
+          "text": "For the past ~, I have ~.\nFor example, ~."
+        },
+        {
+          "title": "④ 지원 동기",
+          "text": "I am interested in ~ because ~.\nIt would help me ~."
+        },
+        {
+          "title": "⑤ 첨부 · 가능한 때",
+          "text": "I have attached ~.\nI am available ~."
+        },
+        {
+          "title": "⑥ 맺음",
+          "text": "Thank you for considering\nmy application."
+        }
+      ],
+      "key": "경험은 구체적으로, 동기는 꿈과 이어서",
+      "notes": {
+        "목적": "지원 이메일의 일곱 부분과 각 부분이 하는 일을 보여 줍니다(목표 A, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“제목은 Application for + 프로그램 이름. 인사 바로 뒤에 목적과 내가 누구인지.”",
+          "“가운데가 가장 중요해. 경험과 구체적인 예, 그리고 왜 지원하는지(동기).”",
+          "“끝에는 첨부한 서류, 가능한 때, 그리고 맺음 인사.”"
+        ],
+        "예상답": [
+          "“경험에는 예를 붙여요.” “목적은 처음에 써요.”"
+        ],
+        "막히면": [
+          "일곱 카드를 손가락으로 짚으며 순서대로 말해 봅니다."
+        ],
+        "주의": [
+          "읽는 사람은 지원서를 많이 읽습니다. 목적은 첫 문단에, 경험과 동기는 짧고 구체적으로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "부분별 격식 표현",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "부분별 표현",
+      "text": "부분마다 표현 하나씩이면 충분해요.",
+      "table": {
+        "headers": [
+          "부분",
+          "표현",
+          "예"
+        ],
+        "rows": [
+          [
+            "목적",
+            "I am writing to apply for ~.",
+            "~ the Youth Science Mentor Program."
+          ],
+          [
+            "경험",
+            "For the past ~, I have ~. / For example, ~.",
+            "I have led my school's science club."
+          ],
+          [
+            "동기",
+            "I am interested in ~ because ~. / It would help me ~.",
+            "~ because I want to become a teacher."
+          ],
+          [
+            "첨부·때",
+            "I have attached ~. / I am available ~.",
+            "I am available every weekend."
+          ],
+          [
+            "맺음",
+            "Thank you for considering my application.",
+            "I look forward to hearing from you."
+          ]
+        ],
+        "widths": [
+          0.12,
+          0.48,
+          0.4
+        ],
+        "width": 12.13,
+        "size": 20
+      },
+      "key": "For the past ~, I have ~. (지금까지 이어 온 경험)",
+      "notes": {
+        "목적": "부분마다 쓰는 격식 표현과 예를 표로 보여 줍니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“For the past two years, I have ~는 현재완료야. 지금까지 이어 온 경험을 말할 때 써.”",
+          "“동기는 I am interested in this program because ~, 그리고 이 활동이 나에게 어떤 도움이 되는지 It would help me ~.”"
+        ],
+        "예상답": [
+          "“현재완료로 경험을 말해요.” “It would help me로 도움을 말해요.”"
+        ],
+        "막히면": [
+          "표의 예문을 소리 내어 읽고, 내 이야기로 바꿔 말해 보게 합니다."
+        ],
+        "주의": [
+          "resume는 ‘이력서’, recommendation letter는 ‘추천서’, available은 ‘시간이 되는’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "본보기 지원 이메일 읽기",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "본보기 이메일",
+      "passage": {
+        "paragraphs": [
+          "Subject: Application for the Youth Science Mentor Program",
+          "Dear Dr. Lim,",
+          "I am writing to apply for the Youth Science Mentor Program at the Example Science Museum. My name is Jiwoo Han, and I am a third-year student at Hana High School.",
+          "For the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members and taught them how to record their results safely. I have also tutored two middle school students in math every Saturday.",
+          "I am interested in this program because I want to become a science teacher. Working with young visitors would help me learn how to explain difficult ideas in simple ways.",
+          "I have attached my resume and a recommendation letter from my science teacher. I am available every weekend in July and August.",
+          "Thank you for considering my application. I look forward to hearing from you.",
+          "Best regards,\nJiwoo Han"
+        ]
+      },
+      "question": "① 일곱 부분에 번호를!  ② 경험의 숫자와 예, 동기와 꿈은?",
+      "notes": {
+        "목적": "본보기 지원 이메일에서 일곱 부분과 표현을 찾고, 경험에 숫자와 예가 들어 있는지 확인합니다(목표 A, 오해 M1·M4).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 이메일을 한 번 읽어 줍니다.)",
+          "“일곱 부분에 번호를 붙여 볼래? 경험 문단에서 숫자와 예를 찾아 줘.”",
+          "“지우는 왜 이 프로그램에 지원했어? 그 동기는 꿈과 어떻게 이어져?”"
+        ],
+        "예상답": [
+          "“15명, 매주, 토요일마다가 들어 있어요.” “과학 선생님이 되고 싶어서요.”"
+        ],
+        "막히면": [
+          "S03 카드를 옆에 두고 같은 표현을 찾게 합니다."
+        ],
+        "주의": [
+          "뜻: 제목: 청소년 과학 멘토 프로그램 지원 / 임 박사님께, 예시 과학관의 청소년 과학 멘토 프로그램에 지원하려고 메일을 씁니다. 저는 하나고등학교 3학년 한지우입니다. 지난 2년 동안 학교 과학 동아리를 이끌었습니다. 예를 들어 부원 15명을 위해 매주 실험을 계획하고, 결과를 안전하게 기록하는 법을 가르쳤습니다. 또 토요일마다 중학생 두 명에게 수학을 가르쳤습니다. 저는 과학 교사가 되고 싶어서 이 프로그램에 관심이 있습니다. 어린 관람객과 함께하면 어려운 생각을 쉽게 설명하는 법을 배울 수 있을 것입니다. 이력서와 과학 선생님의 추천서를 첨부했습니다. 7월과 8월 주말마다 시간이 됩니다. 제 지원을 검토해 주셔서 감사합니다. 답장을 기다리겠습니다. 한지우 드림 (mentor: 멘토, tutor: 가르치다, resume: 이력서)"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "막연한 경험을 구체적으로 고치기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "경험을 구체적으로",
+      "text": "언제부터 · 얼마나 · 무엇을 했는지 넣어요.",
+      "problems": [
+        {
+          "text": "I like science."
+        },
+        {
+          "text": "I helped people."
+        },
+        {
+          "text": "I'm good at computers."
+        }
+      ],
+      "hint": "For the past ~, I have ~.  /  I have ~ every ~.  /  For example, ~.",
+      "notes": {
+        "목적": "막연한 경험 문장을 기간·숫자·구체적인 예가 있는 정직한 문장으로 고칩니다(목표 A, 오해 M1). 활동지 2에 씁니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“문장마다 언제부터, 얼마나, 무엇을 했는지 넣어 고쳐 말해 줘. 네가 실제로 한 일로 바꿔도 좋아.”"
+        ],
+        "정답": [
+          "① 예: For the past two years, I have led my school's science club.",
+          "② 예: I have tutored two middle school students in math every Saturday.",
+          "③ 예: I have built a simple website for my class's reading project.",
+          "기준: 기간·숫자·구체적인 행동 가운데 둘 이상이 들어가고, 실제 경험이면 정답입니다."
+        ],
+        "막히면": [
+          "“얼마 동안? 몇 명? 무엇을 했어?” 세 질문을 차례로 묻습니다."
+        ],
+        "주의": [
+          "예시 문장 대신 아이의 실제 경험을 쓰는 것이 더 좋습니다. 경험을 부풀리지 않게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(자랑과 과장)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 쪽이 설득력 있을까?",
+      "claim": "과학 멘토 프로그램 지원 이메일의 경험 부분이에요.",
+      "left": {
+        "title": "가",
+        "text": "I'm the best student in my\nschool. I know everything\nabout science. Pick me!"
+      },
+      "right": {
+        "title": "나",
+        "text": "For the past two years, I have\nled my school's science club.\nFor example, I planned weekly\nexperiments for 15 members."
+      },
+      "question": "어느 쪽이 설득력 있나요? 다른 쪽은 무엇이 문제인가요?",
+      "notes": {
+        "목적": "자기 자랑과 과장으로 설득하려는 문장과, 사실과 예로 보여 주는 문장을 비교합니다(목표 A, 오해 M2·M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 지원자가 경험 부분을 이렇게 썼어. 담당자라면 누구를 더 믿을까?”"
+        ],
+        "정답": [
+          "나가 설득력 있습니다. 기간(two years), 숫자(15 members), 구체적인 행동(planned experiments)으로 경험을 보여 주고 격식 말투를 썼습니다. 가는 근거 없는 자랑(the best)과 명령(Pick me!), 느낌표로 격식에도 맞지 않습니다."
+        ],
+        "막히면": [
+          "“가의 말이 사실인지 담당자가 어떻게 알 수 있을까?”라고 묻습니다."
+        ],
+        "주의": [
+          "좋은 지원 이메일은 ‘나는 대단하다’고 말하지 않고, 한 일을 보여 줍니다. 여기까지가 짜임과 표현입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "지원 동기 문장 만들기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "지원 동기를 써요",
+      "text": "I am interested in ~ because ~.  It would help me ~.",
+      "problems": [
+        {
+          "text": "A Children's Hospital Volunteer Program (예시): 주말에 입원한 어린이에게 책 읽어 주기·놀이 돕기 / 담당: Ms. Yoon"
+        },
+        {
+          "text": "B City Library Summer Book Club Leader (예시): 초등학생 독서 모임 이끌기 / 담당: Mr. Choi"
+        },
+        {
+          "text": "C Youth Coding Camp Assistant (예시): 중학생 코딩 캠프 보조 강사 / 담당: Dr. Kang"
+        }
+      ],
+      "notes": {
+        "목적": "프로그램 카드마다 because + 꿈, It would help me ~ 틀로 지원 동기 두 문장을 말합니다(목표 B, 오해 M3). 활동지 3을 쓰기 전 준비입니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“카드마다 ‘왜 이 활동을 하고 싶은지’를 네 꿈과 이어서 두 문장으로 말해 줘. 꿈이 아직 없으면 관심 있는 것과 이어도 돼.”"
+        ],
+        "정답": [
+          "A 예: I am interested in this program because I hope to become a nurse. It would help me learn how to care for sick children.",
+          "B 예: I am interested in this position because I want to work in education. It would help me practice leading a group.",
+          "C 예: I am interested in this camp because I want to be a software developer. It would help me explain coding in simple ways.",
+          "기준: because 뒤에 꿈이나 관심, It would help me 뒤에 이 활동으로 배울 점이 있으면 정답입니다."
+        ],
+        "막히면": [
+          "“이 활동을 하면 무엇을 배울 수 있을까? 그게 네 꿈과 어떻게 이어져?”라고 묻습니다."
+        ],
+        "주의": [
+          "‘재미있을 것 같아서’만으로는 동기가 약합니다(오해 M3). 프로그램은 모두 지어낸 예시입니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "지원 이메일 순서 맞추기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "순서를 맞춰요",
+      "text": "이메일 순서대로 번호를 붙여요.",
+      "problems": [
+        {
+          "text": "I am interested in this program because I want to work with children in the future."
+        },
+        {
+          "text": "Dear Ms. Park,"
+        },
+        {
+          "text": "Thank you for considering my application."
+        },
+        {
+          "text": "I am writing to apply for the Summer Book Club Leader position."
+        },
+        {
+          "text": "For example, I read picture books to children at my local library last winter."
+        }
+      ],
+      "notes": {
+        "목적": "섞인 이메일 문장 다섯 개를 알맞은 순서로 놓고, 각 문장이 어느 부분인지 말합니다(목표 A, 오해 M4). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“다섯 문장을 이메일 순서대로 번호를 붙이고, 어느 부분인지 말해 줘.”"
+        ],
+        "정답": [
+          "① 넷째 — 동기 (I am interested in ~ because)",
+          "② 첫째 — 인사 (Dear)",
+          "③ 다섯째 — 맺음 (Thank you for considering)",
+          "④ 둘째 — 목적 (I am writing to apply for)",
+          "⑤ 셋째 — 경험 (For example)",
+          "순서: ② → ④ → ⑤ → ① → ③"
+        ],
+        "막히면": [
+          "S03 카드의 순서를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "position은 ‘자리, 직책’입니다. 목적 문장은 인사 바로 다음에 옵니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "지원 동기 인터뷰",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 지원 동기 인터뷰",
+      "steps": [
+        "프로그램 카드를 골라요.",
+        "부모(담당자)가 질문해요.",
+        "실제 경험과 예,\n동기로 답해요.",
+        "답을 낱말로 메모해요.",
+        "역할을 바꿔요."
+      ],
+      "criteria": [
+        "실제 경험과 예",
+        "꿈과 이은 동기",
+        "가능한 때"
+      ],
+      "notes": {
+        "목적": "부모가 프로그램 담당자가 되어 질문하고, 아이가 실제 경험과 동기로 답하며 메모해 이메일 재료를 만듭니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“네가 고른 프로그램 카드의 담당자가 엄마(아빠)야. 질문에 영어로 답해 줘. 답한 내용을 활동지 3 메모 칸에 낱말로 적자.”",
+          "(부모의 질문: Which program are you applying for? / What experience do you have? Can you give an example? / Why are you interested in this program? / When are you available?)",
+          "“이번엔 엄마(아빠)가 지원자가 될게. 네가 담당자가 되어 같은 질문을 해 줘.”"
+        ],
+        "예상답": [
+          "예: I'm applying for the City Library Summer Book Club Leader position. I have read picture books to children at my church for a year. For example, I made a reading game. I want to work in education. I am available on weekdays in August.",
+          "기준: 실제 경험과 예 하나, 꿈과 이은 동기, 가능한 때를 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "경험이 떠오르지 않으면 학교 행사, 동아리, 가족 돕기처럼 작은 경험도 좋다고 말해 줍니다."
+        ],
+        "주의": [
+          "실제 경험만 말하게 합니다. 경험이 적어도 괜찮고, 배우고 싶은 마음을 동기에 담으면 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 쓰기(지원 이메일)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 써요: 지원 이메일",
+      "text": "S10 메모를 보고 활동지 3에 써요.",
+      "problems": [
+        {
+          "text": "제목 · 인사 · 목적:\nApplication for ~ / Dear ~, /\nI am writing to apply for ~."
+        },
+        {
+          "text": "경험 + 예:\nFor the past ~, I have ~.\nFor example, ~."
+        },
+        {
+          "text": "동기:\nI am interested in ~ because ~.\nIt would help me ~."
+        },
+        {
+          "text": "첨부·때 · 맺음:\nI am available ~.\nThank you for considering ~."
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 프로그램 카드 하나를 골라 일곱 부분을 갖춘 지원 이메일(8~10문장)을 쓰고 점검표로 확인하는지 봅니다(목표 A·B). 활동지 3에 쓰고 활동지 4로 확인합니다.",
+        "시간": "약 7분",
+        "말하기": [
+          "“S10 메모를 보고 활동지 3에 지원 이메일을 써 볼래? 다 쓰면 소리 내어 읽고 점검표에 표시해 줘.”"
+        ],
+        "정답": [
+          "잘 쓴 예(A 카드): Subject: Application for the Children's Hospital Volunteer Program / Dear Ms. Yoon, / I am writing to apply for the Children's Hospital Volunteer Program. I am a third-year student at Hana High School. / I have volunteered at a local library for one year. For example, I read picture books to young children every Sunday. / I am interested in this program because I hope to become a nurse. It would help me learn how to care for children who are sick. / I am available on weekends from July. / Thank you for considering my application. I look forward to hearing from you. / Best regards, (이름)",
+          "다른 카드도 같은 짜임으로 씁니다: B는 Dear Mr. Choi, C는 Dear Dr. Kang.",
+          "흔한 빈틈: 경험에 예가 없음, 동기가 ‘재미있을 것 같아서’뿐, 맺음 인사 빠짐",
+          "기준(점검표 여섯 항목): ① Application for 제목 ② Dear + 이름, ③ I am writing to apply for 목적 ④ 구체적인 경험과 예(기간·숫자) ⑤ 꿈과 이은 동기(because, It would help me) ⑥ 맺음 인사와 격식 말투(줄임말·이모티콘 없음). 다섯 개 이상이면 통과."
+        ],
+        "막히면": [
+          "바로 고쳐 주지 말고 “지금 몇째 부분이야? S04 표에서 그 부분의 표현은?”이라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "잘 쓴 예의 경험은 예시입니다. 아이의 실제 경험으로 바꿔 쓰게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "잘 쓴 예와 자주 고치는 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "잘 쓴 예와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 잘 쓴 예",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "I am writing to apply for\nthe ~ Program."
+        },
+        {
+          "text": "For example, I read picture books\nto young children every Sunday."
+        },
+        {
+          "text": "~ because I hope to become\na nurse. It would help me ~"
+        }
+      ],
+      "bad": [
+        {
+          "text": "I helped people.",
+          "note": "기간·숫자·예"
+        },
+        {
+          "text": "It looks fun.",
+          "note": "꿈과 이은\n동기"
+        },
+        {
+          "text": "Hi! Thx :)",
+          "note": "격식 인사·\n맺음"
+        }
+      ],
+      "explain": "목적 → 경험 + 예 → 동기(꿈) → 첨부·때 → 맺음",
+      "notes": {
+        "목적": "아이의 이메일을 잘 쓴 예와 견주어 보고 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“잘 쓴 예와 네 이메일을 견주어 볼까? 경험에 숫자나 예가 있어?”"
+        ],
+        "예상답": [
+          "“경험에 예가 없었어요.” “동기에 꿈을 안 썼어요.”"
+        ],
+        "정답": [
+          "잘 쓴 예: Subject: Application for the Children's Hospital Volunteer Program / Dear Ms. Yoon, / I am writing to apply for the Children's Hospital Volunteer Program. I am a third-year student at Hana High School. / I have volunteered at a local library for one year. For example, I read picture books to young children every Sunday. / I am interested in this program because I hope to become a nurse. It would help me learn how to care for children who are sick. / I am available on weekends from July. / Thank you for considering my application. I look forward to hearing from you. / Best regards, (이름)"
+        ],
+        "막히면": [
+          "경험이 막연하면 S06, 동기가 약하면 S08, 순서가 섞였으면 S09를 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점 하나를 먼저 말하고, 고칠 점은 점검표에서 하나만 골라 질문으로 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(부분·경험·동기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "고르고, 고쳐요",
+      "text": "①은 부분, ②는 고치기, ③은 고르기",
+      "problems": [
+        {
+          "text": "I have attached my resume.\n→ 어느 부분?"
+        },
+        {
+          "text": "I like animals.\n→ 구체적인 경험 문장으로"
+        },
+        {
+          "text": "가 I want to join because it looks fun.\n나 I am interested in this program because I want to become a vet."
+        }
+      ],
+      "notes": {
+        "목적": "문장의 부분을 고르고, 막연한 경험을 고치며, 더 좋은 동기 문장을 고르는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 부분을, ②는 고쳐 말하고, ③은 더 좋은 문장을 골라 줘.”"
+        ],
+        "정답": [
+          "① 첨부·가능한 때 (I have attached ~)",
+          "② 예: For the past year, I have volunteered at an animal shelter every Saturday.",
+          "③ 나 (꿈과 이어지고 배울 점이 있음)",
+          "기준: 세 개 모두 맞으면 통과입니다(②는 기간·숫자·행동 가운데 둘 이상)."
+        ],
+        "막히면": [
+          "①은 S04 표, ②는 S06, ③은 S08을 다시 보여 줍니다."
+        ],
+        "주의": [
+          "animal shelter는 ‘동물 보호소’입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "Application for ~ → I am writing to apply for ~ → For the past ~, I have ~ / For example, ~\n→ I am interested in ~ because ~ → Thank you for considering my application.",
+      "do": "실제 경험을 숫자·예로 보여 주기",
+      "dont": "자랑·과장, 막연한 경험",
+      "review": [
+        {
+          "text": "지원 이메일의\n짜임은?"
+        },
+        {
+          "text": "경험을 구체적으로\n만드는 세 가지는?"
+        },
+        {
+          "text": "지원 동기의\n두 문장 틀은?"
+        }
+      ],
+      "next": "발표와 질의응답",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지원 이메일의 짜임을 순서대로 말해 볼래?”",
+          "“경험 문장을 구체적으로 만드는 세 가지는?”"
+        ],
+        "예상답": [
+          "“제목, 인사, 목적, 경험과 예, 동기, 첨부와 때, 맺음이요.” “기간, 숫자, 무엇을 했는지요.”"
+        ],
+        "정답": [
+          "① 제목·인사 → 목적·나 → 경험 + 예 → 동기 → 첨부·때 → 맺음",
+          "② 기간(For the past ~), 숫자, 구체적인 행동(For example, ~)",
+          "③ I am interested in ~ because ~. / It would help me ~."
+        ],
+        "주의": [
+          "학교 동아리·봉사 활동 모집 공고를 하나 골라 실제로 지원 이메일 초안을 써 보면 좋은 복습이 됩니다(보내기 전에는 선생님이나 부모님과 함께 확인). 다음 차시 ‘발표와 질의응답’에서는 탐구 결과를 3분 동안 발표하고 질문에 답하는 법을 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(격식 이메일 표현 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 격식 표현",
+      "layout": "support",
+      "text": "친구 말투 → 격식 말투",
+      "table": {
+        "headers": [
+          "친구에게",
+          "담당자에게(격식)"
+        ],
+        "rows": [
+          [
+            "Hi!",
+            "Dear Ms. Park,"
+          ],
+          [
+            "I wanna join.",
+            "I am writing to apply for ~."
+          ],
+          [
+            "I'm free on weekends.",
+            "I am available on weekends."
+          ],
+          [
+            "Thx!",
+            "Thank you for considering my application."
+          ]
+        ],
+        "widths": [
+          0.4,
+          0.6
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "다음 걸음",
+        "text": "격식 표현을 지원 이메일의 일곱 부분에 넣어 봐요."
+      },
+      "notes": {
+        "목적": "S02에서 격식 이메일 표현이 흔들리면, 지원 이메일을 쓰기 전에 친구 말투를 격식 말투로 바꾸는 연습을 다시 합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 왼쪽은 친구에게, 오른쪽은 담당자에게 쓰는 말이야.”",
+          "“엄마(아빠)가 친구 말투로 말하면 격식 있게 바꿔 줘. I wanna join your program.”"
+        ],
+        "정답": [
+          "I would like to join your program. / I am writing to apply for your program."
+        ],
+        "막히면": [
+          "S15 표의 같은 줄을 찾아 읽게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 고2 ‘목적에 맞는 이메일’(KR22-G11-ENG-FORMALMAIL-L01)을 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "지원 이메일 쓰기 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "본보기 이메일(S05)에서 일곱 부분에 번호를 붙이고, 아래 섞인 문장(S09)을 순서대로 번호를 쓰세요.",
+        "read": "Subject: Application for the Youth Science Mentor Program\nDear Dr. Lim,\nI am writing to apply for the Youth Science Mentor Program at the Example Science Museum. My name is Jiwoo Han, and I am a third-year student at Hana High School.\nFor the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members and taught them how to record their results safely. I have also tutored two middle school students in math every Saturday.\nI am interested in this program because I want to become a science teacher. Working with young visitors would help me learn how to explain difficult ideas in simple ways.\nI have attached my resume and a recommendation letter from my science teacher. I am available every weekend in July and August.\nThank you for considering my application. I look forward to hearing from you.\nBest regards,\nJiwoo Han",
+        "table": {
+          "headers": [
+            "문장",
+            "순서",
+            "부분"
+          ],
+          "rows": [
+            [
+              "① I am interested in this program because I want to work with children in the future.",
+              "",
+              ""
+            ],
+            [
+              "② Dear Ms. Park,",
+              "",
+              ""
+            ],
+            [
+              "③ Thank you for considering my application.",
+              "",
+              ""
+            ],
+            [
+              "④ I am writing to apply for the Summer Book Club Leader position.",
+              "",
+              ""
+            ],
+            [
+              "⑤ For example, I read picture books to children at my local library last winter.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.1,
+            0.2
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "순서: ② 인사(1) → ④ 목적(2) → ⑤ 경험(3) → ① 동기(4) → ③ 맺음(5). 다섯 개 모두 맞으면 통과."
+      },
+      {
+        "no": 2,
+        "prompt": "막연한 경험 문장을 기간·숫자·구체적인 행동이 있는 정직한 문장으로 고쳐 쓰세요(S06). 내 실제 경험으로 바꿔도 좋아요.",
+        "table": {
+          "headers": [
+            "막연한 문장",
+            "구체적인 문장"
+          ],
+          "rows": [
+            [
+              "I like science.",
+              " \n "
+            ],
+            [
+              "I helped people.",
+              " \n "
+            ],
+            [
+              "I'm good at computers.",
+              " \n "
+            ]
+          ],
+          "widths": [
+            0.3,
+            0.7
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "예: For the past two years, I have led my school's science club. / I have tutored two middle school students in math every Saturday. / I have built a simple website for my class's reading project. 기간·숫자·구체적인 행동 가운데 둘 이상이 들어가면 정답. 세 개 가운데 두 개 이상이면 통과."
+      },
+      {
+        "no": 3,
+        "prompt": "프로그램 카드 하나에 ○ 하고, 메모(S10)를 보고 지원 이메일(8~10문장)을 쓰세요. 첫 줄에 Subject: 를 쓰세요.\nA Children's Hospital Volunteer Program (예시): 주말에 입원한 어린이에게 책 읽어 주기·놀이 돕기 / 담당: Ms. Yoon\nB City Library Summer Book Club Leader (예시): 초등학생 독서 모임 이끌기 / 담당: Mr. Choi\nC Youth Coding Camp Assistant (예시): 중학생 코딩 캠프 보조 강사 / 담당: Dr. Kang",
+        "line_label": "메모(경험·예·동기·가능한 때):",
+        "lines": 2,
+        "eng": {
+          "trace": [],
+          "blank": 10
+        },
+        "answer": "잘 쓴 예(A): Subject: Application for the Children's Hospital Volunteer Program / Dear Ms. Yoon, / I am writing to apply for the Children's Hospital Volunteer Program. I am a third-year student at Hana High School. / I have volunteered at a local library for one year. For example, I read picture books to young children every Sunday. / I am interested in this program because I hope to become a nurse. It would help me learn how to care for children who are sick. / I am available on weekends from July. / Thank you for considering my application. I look forward to hearing from you. / Best regards, (이름) 기준은 활동지 4 점검표 여섯 항목 가운데 다섯 개 이상. 경험은 아이의 실제 경험이어야 합니다."
+      },
+      {
+        "no": 4,
+        "prompt": "점검표: 지킨 항목에 ✔ 하세요. 나와 부모님이 따로 표시해요.",
+        "table": {
+          "headers": [
+            "항목",
+            "나",
+            "부모님"
+          ],
+          "rows": [
+            [
+              "① Application for 제목",
+              "□",
+              "□"
+            ],
+            [
+              "② Dear + 이름,",
+              "□",
+              "□"
+            ],
+            [
+              "③ I am writing to apply for 목적",
+              "□",
+              "□"
+            ],
+            [
+              "④ 구체적인 경험과 예(기간·숫자)",
+              "□",
+              "□"
+            ],
+            [
+              "⑤ 꿈과 이은 동기(because, It would help me)",
+              "□",
+              "□"
+            ],
+            [
+              "⑥ 맺음 인사와 격식 말투(줄임말·이모티콘 없음)",
+              "□",
+              "□"
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.15,
+            0.15
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "line_label": "고칠 점 하나와 고친 문장:",
+        "lines": 2,
+        "answer": "아이와 부모가 각자 표시하고, 표시가 다른 항목 하나를 골라 고쳐 씁니다. 다섯 개 이상이면 통과."
+      },
+      {
+        "no": 5,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 지원 이메일의 짜임을 순서대로 쓰세요.\n② 경험 문장을 구체적으로 만드는 세 가지를 쓰세요.\n③ 지원 동기의 두 문장 틀을 쓰세요.",
+        "lines": 3,
+        "answer": "① 제목·인사 → 목적·나 → 경험 + 예 → 동기 → 첨부·때 → 맺음 ② 기간, 숫자, 구체적인 행동(예) ③ I am interested in ~ because ~. / It would help me ~. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 쓰기: 점검표 여섯 □  다섯 □  네 개 이하 □ (도움을 받음 □)  고른 카드: A □ B □ C □",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "막연한 경험이나 과장, 꿈과 이어지지 않은 동기: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}
