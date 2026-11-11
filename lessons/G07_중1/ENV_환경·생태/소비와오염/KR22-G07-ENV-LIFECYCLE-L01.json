@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G07-ENV-LIFECYCLE-L01",
+  "concept_id": "ENV-LIFECYCLE",
+  "title": "제품의 일생과 순환경제",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "ENV",
+  "strand_label": "환경·생태",
+  "unit_folder": "소비와오염",
+  "sequence": 1,
+  "file_stem": "중1_환경·생태_소비와오염_01_제품의일생과순환경제",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G07-ENV-I02"
+    ],
+    "units": [
+      "13.3.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "생활 제품 하나의 생산·사용·폐기 과정을 추적하고 순환경제 사례를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "기후 대응과 자원 순환",
+      "lesson": "KR22-G06-ENV-CLIMATEACT-L01",
+      "grade_item": "KR22-G06-ENV-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "제품의 일생과 순환경제 활동지",
+    "items": [],
+    "record": []
+  }
+}

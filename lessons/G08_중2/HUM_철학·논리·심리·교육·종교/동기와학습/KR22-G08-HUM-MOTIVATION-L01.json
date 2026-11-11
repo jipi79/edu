@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-HUM-MOTIVATION-L01",
+  "concept_id": "HUM-MOTIVATION",
+  "title": "동기와 학습 방법",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "HUM",
+  "strand_label": "철학·논리·심리·교육·종교",
+  "unit_folder": "동기와학습",
+  "sequence": 1,
+  "file_stem": "중2_철학·논리·심리·교육·종교_동기와학습_01_동기와학습방법",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-HUM-I02"
+    ],
+    "units": [
+      "11.3.1",
+      "11.4.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "동기·관계·학습 방법을 관찰한 기록을 근거로 나에게 맞는 학습 개선안을 정한다.",
+  "prerequisites": [
+    {
+      "text": "감정·습관 관찰",
+      "lesson": "KR22-G07-HUM-OBSERVE-L01",
+      "grade_item": "KR22-G07-HUM-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "동기와 학습 방법 활동지",
+    "items": [],
+    "record": []
+  }
+}

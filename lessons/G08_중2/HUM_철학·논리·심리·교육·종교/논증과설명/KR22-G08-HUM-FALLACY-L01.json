@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-HUM-FALLACY-L01",
+  "concept_id": "HUM-FALLACY",
+  "title": "논증의 오류",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "HUM",
+  "strand_label": "철학·논리·심리·교육·종교",
+  "unit_folder": "논증과설명",
+  "sequence": 1,
+  "file_stem": "중2_철학·논리·심리·교육·종교_논증과설명_01_논증의오류",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-HUM-I01"
+    ],
+    "units": [
+      "11.2.1",
+      "11.2.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "성급한 일반화·인신공격 등 논증의 오류를 찾고 대안 설명과 반례를 비교한다.",
+  "prerequisites": [
+    {
+      "text": "질문과 주장·근거·반례",
+      "lesson": "KR22-G07-HUM-ARGUMENT-L01",
+      "grade_item": "KR22-G07-HUM-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "논증의 오류 활동지",
+    "items": [],
+    "record": []
+  }
+}
