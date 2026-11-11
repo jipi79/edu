@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-INF-FUNCTION-L01",
+  "concept_id": "INF-FUNCTION",
+  "title": "함수로 프로그램 개선",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "데이터와구현",
+  "sequence": 2,
+  "file_stem": "중2_정보·AI_데이터와구현_02_함수로프로그램개선",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-INF-I02"
+    ],
+    "units": [
+      "8.2.2",
+      "8.3.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "반복되는 코드를 매개변수가 있는 함수로 묶어 프로그램을 짧고 고치기 쉽게 개선한다.",
+  "prerequisites": [
+    {
+      "text": "리스트로 데이터 다루기",
+      "lesson": "KR22-G08-INF-LIST-L01",
+      "grade_item": "KR22-G08-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "함수로 프로그램 개선 활동지",
+    "items": [],
+    "record": []
+  }
+}

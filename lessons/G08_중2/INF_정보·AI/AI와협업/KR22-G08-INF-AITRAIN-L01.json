@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G08-INF-AITRAIN-L01",
+  "concept_id": "INF-AITRAIN",
+  "title": "학습 데이터와 협업",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "AI와협업",
+  "sequence": 1,
+  "file_stem": "중2_정보·AI_AI와협업_01_학습데이터와협업",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-INF-I03"
+    ],
+    "units": [
+      "8.4.2",
+      "8.6.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "학습 데이터를 바꾸어 분류 결과를 비교하고 부모와 역할을 나누어 분류 규칙을 개선한다.",
+  "prerequisites": [
+    {
+      "text": "정보 윤리와 문제 정의",
+      "lesson": "KR22-G07-INF-USERPROB-L01",
+      "grade_item": "KR22-G07-INF-I03"
+    },
+    {
+      "text": "학습 데이터와 AI",
+      "lesson": "KR22-G06-INF-TRAINDATA-L01",
+      "grade_item": "KR22-G06-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "학습 데이터와 협업 활동지",
+    "items": [],
+    "record": []
+  }
+}

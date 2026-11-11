@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-CAR-JOBCHANGE-L01",
+  "concept_id": "CAR-JOBCHANGE",
+  "title": "체험 성찰과 직업 변화",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "CAR",
+  "strand_label": "진로·직업",
+  "unit_folder": "체험과변화",
+  "sequence": 1,
+  "file_stem": "중2_진로·직업_체험과변화_01_체험성찰과직업변화",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-CAR-I02"
+    ],
+    "units": [
+      "12.2.2",
+      "12.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "직업 체험(인터뷰·현장 방문·온라인 체험)을 성찰하고 사회·기술 변화로 달라지는 직업을 조사한다.",
+  "prerequisites": [
+    {
+      "text": "직업 정보 확인하기",
+      "lesson": "KR22-G07-CAR-JOBINFO-L01",
+      "grade_item": "KR22-G07-CAR-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "체험 성찰과 직업 변화 활동지",
+    "items": [],
+    "record": []
+  }
+}

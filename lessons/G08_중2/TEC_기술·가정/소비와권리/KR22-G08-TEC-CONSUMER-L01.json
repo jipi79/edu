@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G08-TEC-CONSUMER-L01",
+  "concept_id": "TEC-CONSUMER",
+  "title": "구매 정보와 소비자 권리",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "TEC",
+  "strand_label": "기술·가정",
+  "unit_folder": "소비와권리",
+  "sequence": 1,
+  "file_stem": "중2_기술·가정_소비와권리_01_구매정보와소비자권리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-TEC-I02"
+    ],
+    "units": [
+      "7.3.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "표시·광고·후기 등 구매 정보를 검토하고 소비자 피해를 해결하는 절차를 제시한다.",
+  "prerequisites": [
+    {
+      "text": "시간·용돈과 옷 구매",
+      "lesson": "KR22-G07-TEC-SMARTUSE-L01",
+      "grade_item": "KR22-G07-TEC-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "구매 정보와 소비자 권리 활동지",
+    "items": [],
+    "record": []
+  }
+}

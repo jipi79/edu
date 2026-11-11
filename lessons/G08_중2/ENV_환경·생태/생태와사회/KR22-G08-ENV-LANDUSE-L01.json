@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G08-ENV-LANDUSE-L01",
+  "concept_id": "ENV-LANDUSE",
+  "title": "토지 이용과 생물다양성",
+  "grade": "G08",
+  "grade_label": "중2",
+  "band": "M",
+  "strand": "ENV",
+  "strand_label": "환경·생태",
+  "unit_folder": "생태와사회",
+  "sequence": 1,
+  "file_stem": "중2_환경·생태_생태와사회_01_토지이용과생물다양성",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G08-ENV-I02"
+    ],
+    "units": [
+      "13.2.3",
+      "13.3.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "동네 토지 이용의 변화가 생물다양성에 준 영향을 지도·사진으로 분석하고 사회적 선택과 연결한다.",
+  "prerequisites": [
+    {
+      "text": "우리 동네와 순환",
+      "lesson": "KR22-G07-ENV-CYCLE-L01",
+      "grade_item": "KR22-G07-ENV-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "토지 이용과 생물다양성 활동지",
+    "items": [],
+    "record": []
+  }
+}
