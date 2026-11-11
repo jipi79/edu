@@ -27,10 +27,17 @@ function widthIn(text, pt) {
   return (em * pt) / 72;
 }
 
+// 수와 단위·세는 말(52 도, 3 명, 10 cm) 사이에서는 줄을 바꾸지 않는다. 빌드가 이 공백을 줄바꿈 없는 공백으로 바꾸므로
+// 글 맞춤 계산도 같은 규칙으로 어절을 묶는다.
+const KEEP_UNIT = /(\d) (?=(?:개국|개월|개|명|원|도|분|초|번째|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|종|곳|가구|군데|그루|송이|켤레|자루|벌|채|잔|병|주|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal)(?![A-Za-z]))/g;
+function joinUnits(text) {
+  return String(text).replace(KEEP_UNIT, "$1\u00a0");
+}
+
 // 어절 단위로 줄을 채운다. 한 어절이 줄보다 길면 글자 단위로 나눈다.
 function countLines(text, boxW, pt) {
   let lines = 0;
-  for (const para of String(text).split("\n")) {
+  for (const para of joinUnits(text).split("\n")) {
     let cur = 0;
     let n = 1;
     for (const word of para.split(" ")) {
@@ -69,4 +76,4 @@ function heightOf(paras, w, gapPt = 6) {
   return h;
 }
 
-module.exports = { widthIn, countLines, lineH, heightOf };
+module.exports = { widthIn, countLines, lineH, heightOf, joinUnits };

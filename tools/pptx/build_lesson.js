@@ -14,7 +14,7 @@ const path = require("path");
 const pptxgen = require("pptxgenjs");
 const JSZip = require(require.resolve("jszip", { paths: [require.resolve("pptxgenjs")] }));
 const { FONT, LANG, THEME, P, TINT, BAND, textOpts, sizeOf, colorOf } = require("./style");
-const { heightOf, widthIn } = require("./fit");
+const { heightOf, widthIn, joinUnits } = require("./fit");
 const { SCRIPT_ANY, SCRIPT_SPLIT, scriptKind, plainScript } = require("./scripts");
 const { KINDS } = require("./kinds");
 
@@ -67,7 +67,6 @@ class Deck {
     const footerText = (color, text) => ({
       text: { text, options: { x: 0.6, y: 6.98, w: 9.5, h: 0.35, fontFace: FONT, fontSize: 12, color, margin: 0 } },
     });
-    const slideNumber = (color) => ({ x: 11.9, y: 6.98, w: 0.8, h: 0.35, fontFace: FONT, fontSize: 12, color, align: "right" });
 
     this.pres.defineSlideMaster({
       title: "COVER",
@@ -98,19 +97,16 @@ class Deck {
       title: "CONTENT",
       background: { color: P.lt1 },
       objects: [titlePh(P.dk1), footerText(P.accent6, footer)],
-      slideNumber: slideNumber(P.accent6),
     });
     this.pres.defineSlideMaster({
       title: "CLOSING",
       background: { color: P.dk2 },
       objects: [titlePh(P.lt1), footerText(TINT.onDarkMuted, footer)],
-      slideNumber: slideNumber(TINT.onDarkMuted),
     });
     this.pres.defineSlideMaster({
       title: "SUPPORT",
       background: { color: TINT.support },
       objects: [titlePh(P.dk1), footerText(P.accent6, `보충 자료 · ${footer}`)],
-      slideNumber: slideNumber(P.accent6),
     });
   }
 
@@ -469,6 +465,14 @@ class Deck {
     const layout = spec.layout || DEFAULT_LAYOUT[spec.kind] || "content";
     const master = { cover: "COVER", content: "CONTENT", closing: "CLOSING", support: "SUPPORT" }[layout];
     const slide = this.pres.addSlide({ masterName: master, sectionTitle });
+    // 오른쪽 아래에 장 번호 대신 장 ID(S07)를 보인다. 부모용 안내·활동지 기록표·화면의 "S07을 다시 봐요"와 같은 이름이고,
+    // 학생용에서 정답 장이 빠져도 번호가 밀리지 않는다.
+    if (layout !== "cover") {
+      slide.addText(spec.id, {
+        x: 11.9, y: 6.98, w: 0.8, h: 0.35, fontFace: FONT, fontSize: 12, align: "right", margin: 0,
+        color: layout === "closing" ? TINT.onDarkMuted : P.accent6, objectName: this.name(spec.id, "pageid"),
+      });
+    }
     // 제목은 한 줄. 굵은 큰 글자는 어림보다 넓게 그려지므로 여유(×1.1)를 두고, 넘치면 글자를 줄인다.
     const base = layout === "cover" ? this.style.title + 6 : this.style.title;
     const room = layout === "cover" ? 7.3 : 12.1;
@@ -538,8 +542,6 @@ function escapeXml(s) {
 }
 
 // pptxgenjs가 쓰지 못하는 두 가지를 저장 후에 넣는다: 테마 색, 도형의 대체 설명.
-const KEEP_UNIT = /(\d) (?=(?:개국|개월|개|명|원|도|분|초|번째|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|종|곳|가구|군데|그루|송이|켤레|자루|벌|채|잔|병|주|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal)(?![A-Za-z]))/g;
-
 async function finalize(file, alt) {
   const zip = await JSZip.loadAsync(fs.readFileSync(file));
   const themePart = "ppt/theme/theme1.xml";
@@ -562,7 +564,7 @@ async function finalize(file, alt) {
     xml = xml.replace(/<a:rPr lang="en-US"([^>]*)>((?:(?!<\/a:rPr>)[\s\S])*)<\/a:rPr><a:t>([^<]*)<\/a:t>/g, (m, attrs, inner, tx) =>
       /[\uac00-\ud7af]/.test(tx) ? `<a:rPr lang="ko-KR"${attrs.replace(/altLang="[^"]*"/, 'altLang="en-US"')}>${inner}</a:rPr><a:t>${tx}</a:t>` : m);
     // 수와 단위·세는 말(52 도, 3 명, 10 cm) 사이에서는 줄을 바꾸지 않는다.
-    xml = xml.replace(/<a:t>([^<]*)<\/a:t>/g, (m, t) => `<a:t>${t.replace(KEEP_UNIT, "$1\u00a0")}</a:t>`);
+    xml = xml.replace(/<a:t>([^<]*)<\/a:t>/g, (m, t) => `<a:t>${joinUnits(t)}</a:t>`);
     // ⟦ ⟧ 로 감싼 부분은 밑줄을 긋는다(영어 '밑줄 친 표현', 국어 지문의 밑줄). 괄호 자체는 지운다.
     xml = xml.replace(/<a:r>(<a:rPr\b[^>]*?)(\/>|>[\s\S]*?<\/a:rPr>)<a:t>([^<]*)<\/a:t><\/a:r>/g, (m, open, rest, tx) => {
       if (!/[\u27e6\u27e7]/.test(tx)) return m;
