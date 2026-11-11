@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G11-KOR-LITFLOW-L01",
+  "concept_id": "KOR-LITFLOW",
+  "title": "한국 문학의 흐름",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "문학맥락비교",
+  "sequence": 2,
+  "file_stem": "고2_국어_문학맥락비교_02_한국문학의흐름",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-KOR-I03"
+    ],
+    "units": [
+      "1.6.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "고대부터 현대까지 한국 문학의 주요 갈래와 시대별 특징을 연표로 정리하고 작품을 알맞은 시대에 배치한다.",
+  "prerequisites": [
+    {
+      "text": "고전시가 입문",
+      "lesson": "KR22-G10-KOR-CLASSPOEM-L01",
+      "grade_item": "KR22-G10-KOR-I02"
+    },
+    {
+      "text": "고전산문 입문",
+      "lesson": "KR22-G10-KOR-CLASSPROSE-L01",
+      "grade_item": "KR22-G10-KOR-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "한국 문학의 흐름 활동지",
+    "items": [],
+    "record": []
+  }
+}

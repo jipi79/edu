@@ -1,0 +1,925 @@
+{
+  "id": "KR22-G11-ENG-SUMWRITE-L01",
+  "concept_id": "ENG-SUMWRITE",
+  "title": "요약문 쓰기",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "영어독해와작문",
+  "sequence": 1,
+  "file_stem": "고2_영어_영어독해와작문_01_요약문쓰기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-ENG-I02"
+    ],
+    "units": [
+      "3.3.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "요약문 완성",
+      "lesson": "KR22-G11-ENG-SUMCOMP-L01",
+      "grade_item": "KR22-G11-ENG-I01"
+    },
+    {
+      "text": "바꾸어 말하기",
+      "lesson": "KR22-G08-ENG-PARAPHR-L01",
+      "grade_item": "KR22-G08-ENG-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "원문의 요지와 주요 근거 한두 개를 고르고 예시·숫자·세부 내용은 빼며, 바꿔 쓰는 세 방법(낱말 바꾸기, 품사 바꾸기, 문장 짜임 바꾸기)으로 원문 표현을 내 말로 바꾼다.",
+      "evidence": "요약문의 네 약속(S03), 바꿔 쓰는 세 방법(S04), 바꿔 쓰기 연습(S05), 수면 글(S06), 베낀 요약 비교(S07), 말로 요약하기(S10), 마무리 확인(S13), 활동지 1",
+      "success": "활동지 1의 바꿔 쓰기 4개 가운데 3개 이상을 원문과 같은 뜻으로, 세 낱말 이상 연달아 겹치지 않게 쓰고, S06·S09·S11에서 요지와 주요 근거를 바르게 고르며 예시 하나를 뺄 것으로 고른다."
+    },
+    {
+      "id": "B",
+      "text": "한두 문장(길어도 세 문장)의 요약문을 쓰고, 점검표(요지가 있다 / 주요 근거만 / 원문에서 세 낱말 이상 연달아 베끼지 않았다 / 원문과 같은 뜻이고 내 의견이 없다 / 한두 문장)로 점검해 한 곳을 고친다.",
+      "evidence": "요약문을 쓰는 다섯 단계(S08), 공동체 정원 글(S09), 혼자 쓰기(S11), 마무리 확인(S13 ①②), 활동지 2·3·4·5",
+      "success": "S11과 활동지 3의 요약문이 점검표 다섯 항목 가운데 다섯 개를 모두 지키고(세 낱말 연속 겹침은 부모와 함께 확인), 활동지 2·4에서도 네 개 이상을 지킨다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필과 지우개",
+    "형광펜 두 가지(요지 문장과 주요 근거에 다른 색)",
+    "원문을 가릴 종이 한 장",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기와 비슷한 말 찾기)"
+  ],
+  "boundary": "직접 쓴 한 문단 설명·의견 글(100~150 낱말)을 읽고 영어 요약문을 한두 문장(길어도 세 문장, 35 낱말 안쪽)으로 쓰는 것을 다룬다. 계획의 ‘세 문장 안팎’ 가운데 짧은 쪽으로, 첫 문장에는 요지, 둘째 문장에는 주요 근거나 글쓴이의 제안을 담는다. 바꿔 쓰는 방법은 낱말 바꾸기(비슷한 말), 품사 바꾸기(decide → decision), 문장 짜임 바꾸기(because ~ → so ~, 능동 ↔ 수동) 세 가지만 다룬다. ‘베끼지 않기’는 원문에서 세 낱말 이상을 연달아 그대로 쓰지 않는 것으로 정하고, 핵심 낱말 하나하나(sleep, garden)는 다시 써도 된다. 본보기 요약문은 이 규칙을 지키는지 프로그램으로 확인했다. 예시·숫자·인용과 내 의견은 요약에 넣지 않는다. 여러 문단 글의 요약, 출처 표기, 학술 요약(abstract)은 다루지 않는다. ‘요약문·바꿔 쓰기(paraphrase)·점검표’라는 말은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "원문 문장을 그대로 옮겨 붙여 요약문을 만든다(세 낱말 이상 연달아 베낌).",
+      "response": "S03 약속 카드와 S07 비교에서 베낀 덩어리에 밑줄을 그어 보여 주고, S08의 ‘원문을 덮고 쓰기’ 단계와 점검표 셋째 항목으로 확인한다. S13 ②, 활동지 3에서 다시 본다."
+    },
+    {
+      "id": "M2",
+      "text": "예시나 숫자(두세 시까지 깨어 있음, 동물 보호소)를 요약에 넣고 요지를 빠뜨린다.",
+      "response": "S03·S06에서 요지와 주요 근거, 뺄 예시를 나누어 표시하게 하고, S13 ③에서 뺄 것을 고르게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "바꿔 쓰다가 원문과 뜻이 달라지거나 자기 의견을 덧붙인다(I think sleep is boring.).",
+      "response": "S05·S06에서 바꾼 문장을 원문과 맞대어 읽게 하고, 점검표 넷째 항목(같은 뜻, 내 의견 없음)으로 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "낱말만 비슷한 말로 하나씩 바꾸고 문장 짜임은 원문 그대로 둔다(어색하거나 여전히 베낀 글).",
+      "response": "S04에서 품사 바꾸기와 문장 짜임 바꾸기를 함께 보여 주고, S05 ②③과 활동지 1에서 연습한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "요약문 쓰기",
+      "question": "글 한 문단을 한두 문장으로,\n내 말로 줄일 수 있을까?",
+      "goals": [
+        "① 요지와 주요 근거를 골라 내 말로 바꿔요.",
+        "② 한두 문장 요약문을 쓰고 점검표로 고쳐요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "원문 한 문단"
+          },
+          {
+            "word": "요지 + 주요 근거"
+          },
+          {
+            "word": "내 말 한두 문장"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 지난 차시에 고르기만 했던 요약문을 이제 직접 쓴다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“지난 시간에는 요약문의 빈칸 (A)(B)를 골랐지? 오늘은 요약문을 처음부터 직접 써 볼 거야.”",
+          "“요약문은 글 전체를 한두 문장으로 줄인 거야. 중요한 약속이 하나 있어. 원문을 그대로 베끼지 않고 내 말로 바꿔 써야 해.”",
+          "“오른쪽처럼 원문 한 문단에서 요지와 주요 근거만 골라, 내 말로 한두 문장을 쓰는 거야.”"
+        ],
+        "예상답": [
+          "“원문 문장을 그대로 쓰면 안 돼요.” “짧게 줄여요.”"
+        ],
+        "막히면": [
+          "“친구에게 어제 본 영화를 한두 문장으로 말해 준다면? 장면을 하나하나 말하지 않지?”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 지문은 부모님이 한 번 소리 내어 읽어 주세요. 지문의 뜻과 본보기 요약문은 노트와 안내서에 있습니다. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요.",
+          "계획에는 ‘세 문장 안팎’으로 되어 있지만, 오늘은 한두 문장(길어도 세 문장)을 목표로 합니다. 짧을수록 요지를 고르는 힘이 늘어납니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(바꿔 말하기, 요약문 완성)",
+      "role": "prior",
+      "objectives": [],
+      "title": "바꿔 말하기 떠올리기",
+      "text": "①②는 같은 뜻을 다른 말로, ③은 골라요.",
+      "problems": [
+        {
+          "text": "It is a waste of time.\n→ It is ______."
+        },
+        {
+          "text": "Many people came to the show.\n→ 같은 뜻을 다른 말로"
+        },
+        {
+          "text": "요약문에 넣을 것은? 뺄 것은?\n(요지 / For example 뒤의 이야기)"
+        }
+      ],
+      "notes": {
+        "목적": "중2 ‘바꾸어 말하기’(KR22-G08-ENG-PARAPHR-L01)에서 쉬운 말로 바꾸어 말한 것과 ‘요약문 완성’(KR22-G11-ENG-SUMCOMP-L01)에서 요약문이 원문 말을 바꿔 쓴다는 것을 배운 것을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①②는 같은 뜻을 다른 말로 말해 줘. ③은 요약문에 넣을 것과 뺄 것을 골라 볼래?”"
+        ],
+        "정답": [
+          "① useless (쓸모없는) 또는 not worth the time 등 같은 뜻이면 정답",
+          "② The show was popular. / A lot of people went to the show. 등",
+          "③ 넣을 것: 요지(글쓴이의 주장) / 뺄 것: 예시(For example 뒤의 이야기)"
+        ],
+        "막히면": [
+          "①은 “시간 낭비라면 쓸모가 있어, 없어?”, ③은 S03 카드를 미리 보여 줍니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "①②가 오늘 배울 ‘바꿔 쓰기(paraphrase)’입니다. 지난 차시에는 바꿔 쓴 말을 골랐고, 오늘은 직접 만듭니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "cards",
+      "section": "개념",
+      "purpose": "요약문의 네 약속",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "요약문의 네 약속",
+      "text": "요약문: 원문의 요지를 한두 문장으로, 내 말로 줄인 글",
+      "cards": [
+        {
+          "title": "① 요지",
+          "text": "글쓴이가 가장\n하고 싶은 말"
+        },
+        {
+          "title": "② 주요 근거만",
+          "text": "예시·숫자·세부는\n빼요."
+        },
+        {
+          "title": "③ 내 말로",
+          "text": "세 낱말 이상\n연달아 베끼지 않기"
+        },
+        {
+          "title": "④ 같은 뜻",
+          "text": "내 의견은 넣지 않고\n한두 문장으로"
+        }
+      ],
+      "key": "핵심 낱말 하나는 다시 써도 OK, 세 낱말 덩어리는 바꿔 써요.",
+      "notes": {
+        "목적": "요약문은 요지와 주요 근거만 담고, 원문을 세 낱말 이상 연달아 베끼지 않으며, 원문과 같은 뜻을 한두 문장으로 쓴다는 네 약속을 보여 줍니다(목표 A·B, 오해 M1·M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째, 글쓴이가 가장 하고 싶은 말, 곧 요지가 꼭 들어가.”",
+          "“둘째, 근거는 가장 중요한 것 한두 개만. For example 뒤의 예시나 숫자는 빼.”",
+          "“셋째, 원문에서 세 낱말 이상을 연달아 그대로 쓰지 않아. sleep, brain 같은 핵심 낱말 하나는 다시 써도 돼.”",
+          "“넷째, 뜻은 원문과 같아야 하고 내 의견은 넣지 않아. 그리고 한두 문장으로.”"
+        ],
+        "예상답": [
+          "“예시는 빼요.” “세 낱말 넘게 똑같이 쓰면 베낀 거예요.”"
+        ],
+        "막히면": [
+          "카드마다 “이걸 안 지키면 어떻게 될까?”라고 물어 까닭을 말하게 합니다."
+        ],
+        "주의": [
+          "세 낱말 규칙은 집에서 확인하기 쉬운 기준입니다. 요약문과 원문을 나란히 놓고 같은 낱말 세 개가 이어진 곳이 있는지 손가락으로 찾아봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "바꿔 쓰는 세 방법",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "바꿔 쓰는 세 방법",
+      "text": "세 방법을 섞으면 내 말이 돼요.",
+      "table": {
+        "headers": [
+          "방법",
+          "원문",
+          "바꿔 쓴 문장"
+        ],
+        "rows": [
+          [
+            "낱말 바꾸기",
+            "The test was hard.",
+            "The test was difficult."
+          ],
+          [
+            "품사 바꾸기",
+            "She decided to move.",
+            "She made a decision to move."
+          ],
+          [
+            "문장 짜임 바꾸기",
+            "Because it rained, we stayed home.",
+            "It rained, so we stayed home."
+          ]
+        ],
+        "widths": [
+          0.22,
+          0.39,
+          0.39
+        ],
+        "width": 12.13,
+        "size": 22
+      },
+      "key": "뜻은 그대로, 모양은 다르게",
+      "notes": {
+        "목적": "낱말 바꾸기, 품사 바꾸기, 문장 짜임 바꾸기의 세 방법을 예문으로 보여 줍니다(목표 A, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째, 낱말 바꾸기. hard를 difficult로, many people을 a lot of people로.”",
+          "“둘째, 품사 바꾸기. decide(결정하다)를 decision(결정)으로 바꾸면 문장 모양도 달라져. She decided to move. → She made a decision to move.”",
+          "“셋째, 문장 짜임 바꾸기. because를 so로 바꾸거나 능동을 수동으로 바꿔. 세 방법을 섞으면 베낀 느낌이 없어져.”"
+        ],
+        "예상답": [
+          "“because를 so로 바꾸면 순서가 바뀌어요.”"
+        ],
+        "막히면": [
+          "예문마다 원문과 바꾼 문장에서 겹치는 낱말에 동그라미를 쳐 보게 합니다."
+        ],
+        "주의": [
+          "낱말만 하나씩 바꾸면 문장 뼈대가 그대로 남아 베낀 글처럼 보이기 쉽습니다(오해 M4). 품사나 짜임을 함께 바꾸게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "바꿔 쓰기 연습",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "내 말로 바꿔요",
+      "text": "괄호 속 방법으로 바꿔 말해요.",
+      "problems": [
+        {
+          "text": "Many people use this app.\n(낱말 바꾸기)"
+        },
+        {
+          "text": "Exercising is important\nfor our health. (품사 바꾸기)"
+        },
+        {
+          "text": "Because he was tired,\nhe went to bed early. (짜임)"
+        },
+        {
+          "text": "My brother cleaned our house.\n(능동 → 수동)"
+        }
+      ],
+      "notes": {
+        "목적": "괄호 속 방법으로 문장을 바꿔 씁니다(목표 A, 오해 M3·M4). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“괄호 속 방법으로 바꿔 말해 줘. 다 말하면 원문과 같은 뜻인지 한 번 더 확인해.”"
+        ],
+        "정답": [
+          "① This app is popular. / A lot of people like this app.",
+          "② Exercise is important for our health. (important → importance도 가능: Exercise has great importance for health.)",
+          "③ He was tired, so he went to bed early.",
+          "④ Our house was cleaned by my brother.",
+          "기준: 원문과 뜻이 같고, 괄호 속 방법을 썼으며, 원문에서 세 낱말 이상 연달아 겹치지 않으면 정답입니다(여러 답 가능)."
+        ],
+        "막히면": [
+          "①은 “많은 사람이 쓰는 앱을 한 낱말로?”, ③은 “because 뒤를 앞으로 보내고 so를 써 봐.”, ④는 “집이 주어가 되면?”이라고 묻습니다."
+        ],
+        "주의": [
+          "②의 exercising은 동명사, Exercise는 명사입니다. 품사를 바꾸면 문장의 주어가 달라집니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "수면에 관한 글에서 요지와 주요 근거 고르기(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "함께 읽어요: 시험 전날 밤",
+      "text": "sort 정리하다 · long-term memory 장기 기억 · concentrate 집중하다",
+      "passage": {
+        "paragraphs": [
+          "Many students believe that the night before a test is the best time to study, so they stay up until two or three in the morning. However, this habit can hurt their scores. While we sleep, the brain sorts the information we learned during the day and moves the important parts into long-term memory. If we cut our sleep short, the brain does not have enough time to finish this work. As a result, students may forget facts they studied the night before. Lack of sleep also makes it hard to concentrate during the test itself. Instead of studying all night, students should review a little every day and get a full night of sleep before an exam."
+        ]
+      },
+      "question": "① 요지는? ② 주요 근거 두 개는? ③ 요약에서 뺄 것은?",
+      "notes": {
+        "목적": "부모가 글을 읽어 주고, 요지 문장과 주요 근거를 다른 색으로 표시한 뒤 뺄 예시·숫자를 고르는 시범을 보입니다(목표 A, 오해 M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 글을 한 번 읽어 줍니다.)",
+          "“글쓴이가 하고 싶은 말은? However 문장과 마지막 문장을 봐.”",
+          "“왜 그렇다고 했지? 근거 두 개를 찾아 다른 색으로 표시해 봐.”",
+          "“two or three in the morning 같은 숫자는 요약에 넣을까?”"
+        ],
+        "예상답": [
+          "“요지는 시험 전날 밤새우면 안 되고 잠을 자야 한다는 거예요.” “근거는 기억이랑 집중이에요.” “숫자는 빼요.”"
+        ],
+        "막히면": [
+          "“As a result, also 같은 말 뒤에 무엇이 나와?”라고 물어 근거를 찾게 합니다."
+        ],
+        "주의": [
+          "요지: However, this habit can hurt their scores. / students should review a little every day and get a full night of sleep before an exam. 주요 근거: 잠자는 동안 뇌가 배운 것을 장기 기억으로 옮긴다(moves the important parts into long-term memory), 잠이 부족하면 집중하기 어렵다(makes it hard to concentrate). 뺄 것: two or three in the morning 같은 숫자.",
+          "글의 뜻: 많은 학생이 시험 전날 밤이 공부하기 가장 좋은 때라고 믿고 새벽 두세 시까지 깨어 있어요. 하지만 이 습관은 점수를 떨어뜨릴 수 있어요. 우리가 자는 동안 뇌는 낮에 배운 정보를 정리하고 중요한 부분을 장기 기억으로 옮겨요. 잠을 줄이면 뇌는 이 일을 끝낼 시간이 모자라요. 그 결과 학생들은 전날 밤 공부한 내용을 잊을 수 있어요. 잠이 부족하면 시험을 보는 동안 집중하기도 어려워요. 밤새워 공부하는 대신 매일 조금씩 복습하고 시험 전에는 푹 자야 해요. (sort: 정리하다, long-term memory: 장기 기억, concentrate: 집중하다, review: 복습하다)"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "베낀 요약과 내 말 요약 비교",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "어느 요약이 좋을까?",
+      "claim": "S06 글을 두 친구가 이렇게 요약했어요.",
+      "left": {
+        "title": "가",
+        "text": "Many students stay up until two or\nthree in the morning. While we sleep,\nthe brain sorts the information\nwe learned during the day."
+      },
+      "right": {
+        "title": "나",
+        "text": "Giving up sleep to study is a poor\nplan for test days, since rest lets\nthe brain store new knowledge and\nstay focused. It is wiser to review\nregularly and rest well."
+      },
+      "question": "어느 쪽이 좋은 요약인가요? 다른 쪽은 어떤 약속을 어겼나요?",
+      "notes": {
+        "목적": "원문 문장을 이어 붙인 요약과, 요지·주요 근거를 내 말로 쓴 요약을 비교합니다(목표 A·B, 오해 M1·M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 S06 글을 이렇게 요약했어. 어느 쪽이 좋은 요약일까? 점검표 네 약속으로 따져 봐.”",
+          "“가의 문장을 원문과 맞대어 봐. 똑같은 곳이 얼마나 돼?”"
+        ],
+        "정답": [
+          "나가 좋은 요약입니다. 요지(밤새우기는 나쁜 계획, 꾸준히 복습하고 잘 자기)와 주요 근거(뇌가 지식을 저장, 집중)를 담았고, 원문에서 세 낱말 이상 연달아 겹치는 곳이 없습니다.",
+          "가는 원문 두 문장을 거의 그대로 옮겼고(stay up until two or three in the morning, the brain sorts the information ~), 숫자 같은 세부를 넣었으며, 요지(그러니 잠을 자야 한다)가 빠졌습니다."
+        ],
+        "막히면": [
+          "가의 문장과 원문에서 같은 낱말에 같은 색 밑줄을 긋게 합니다."
+        ],
+        "주의": [
+          "나의 뜻: 시험 날을 위해 잠을 포기하고 공부하는 것은 나쁜 계획이다. 쉬어야 뇌가 새 지식을 저장하고 집중할 수 있기 때문이다. 꾸준히 복습하고 푹 쉬는 것이 더 현명하다.",
+          "여기까지가 요약하는 방법과 시범입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "요약문을 쓰는 다섯 단계",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "요약문을 쓰는 다섯 단계",
+      "text": "원문을 덮고 메모만 보고 쓰면 베끼지 않게 돼요.",
+      "steps": [
+        "요지 찾기",
+        "주요 근거 한두 개 (예시는 빼기)",
+        "핵심 낱말 메모, 원문 덮기",
+        "메모만 보고 한두 문장 쓰기",
+        "점검표로 확인하고 한 곳 고치기"
+      ],
+      "notes": {
+        "목적": "요지 찾기 → 주요 근거 한두 개 고르기 → 핵심 낱말 메모 후 원문 덮기 → 내 말로 한두 문장 쓰기 → 점검표로 확인의 다섯 단계를 알려 줍니다(목표 B, 오해 M1).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫째, 요지 찾기. 둘째, 주요 근거 한두 개에 다른 색 표시. 예시는 빼.”",
+          "“셋째, 핵심 낱말 서너 개만 메모하고 원문을 종이로 덮어. 덮고 쓰면 베끼고 싶어도 못 베끼지.”",
+          "“넷째, 메모만 보고 한두 문장으로 써. 다섯째, 원문을 다시 열고 점검표로 확인해. 세 낱말 연속 겹침이 있으면 그 부분만 바꿔.”"
+        ],
+        "예상답": [
+          "“원문을 덮고 써요.” “다 쓰고 나서 겹치는 곳을 찾아요.”"
+        ],
+        "막히면": [
+          "단계마다 손가락을 하나씩 접으며 함께 말해 봅니다(요지 → 근거 → 메모·덮기 → 쓰기 → 점검)."
+        ],
+        "주의": [
+          "메모는 낱말로만 합니다. 메모에 문장을 적으면 다시 베끼게 됩니다. 우리말 메모도 좋습니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "공동체 정원 글을 요약하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "써 봐요: 공동체 정원",
+      "text": "weed 잡초 · willing 기꺼이 하는 · empty lot 빈 땅",
+      "passage": {
+        "paragraphs": [
+          "In many cities, people live close to one another but rarely talk with their neighbors. Community gardens can change this. A community garden is a shared piece of land where neighbors grow vegetables, herbs, and flowers together. While they water plants and pull weeds side by side, people start conversations and become friends. These gardens also give families fresh vegetables at a low cost. Children who help in the garden learn where their food comes from, and they are often more willing to eat vegetables they grew themselves. For these reasons, more cities should turn empty lots into community gardens."
+        ]
+      },
+      "question": "다섯 단계로 한두 문장 요약문을 써요(활동지 2).",
+      "notes": {
+        "목적": "부모가 한 번 읽어 준 뒤, 아이가 다섯 단계로 요약문을 써서 활동지 2에 적고 점검표로 확인합니다(목표 A·B).",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 글을 한 번 읽어 줍니다.)",
+          "“요지와 주요 근거에 표시하고, 핵심 낱말을 메모한 뒤 원문을 덮어. 그다음 활동지 2에 한두 문장으로 써 줘.”",
+          "“다 쓰면 원문을 열고 세 낱말 연속 겹침이 있는지 같이 찾아보자.”"
+        ],
+        "정답": [
+          "본보기 요약: Shared neighborhood gardens bring people together and provide cheap, healthy food while teaching kids about what they eat. So cities ought to create more of them on unused land.",
+          "요지: more cities should turn empty lots into community gardens / 주요 근거: 이웃이 친구가 됨, 싼 값에 신선한 채소, 아이들이 음식을 배움 / 뺄 것: 물 주기·잡초 뽑기 같은 세부",
+          "기준: 점검표 다섯 항목 가운데 네 개 이상. 아이의 문장이 본보기와 달라도 됩니다."
+        ],
+        "막히면": [
+          "“이 글의 마지막 문장에서 글쓴이는 무엇을 하자고 했지? 정원이 좋은 까닭은 몇 개야?”라고 묻습니다.",
+          "겹친 덩어리를 찾으면 그 부분만 S04의 세 방법으로 바꾸게 합니다."
+        ],
+        "주의": [
+          "본보기 요약의 뜻: 함께 쓰는 동네 정원은 사람들을 이어 주고, 아이들에게 먹는 것에 대해 가르치면서 싸고 건강한 음식을 준다. 그러니 도시는 쓰지 않는 땅에 정원을 더 만들어야 한다.",
+          "글의 뜻: 많은 도시에서 사람들은 서로 가까이 살지만 이웃과 거의 이야기하지 않아요. 공동체 정원이 이것을 바꿀 수 있어요. 공동체 정원은 이웃들이 함께 채소와 허브, 꽃을 기르는 공유 땅이에요. 나란히 식물에 물을 주고 잡초를 뽑으면서 사람들은 대화를 시작하고 친구가 돼요. 이 정원은 가족들에게 싼 값에 신선한 채소도 줘요. 정원 일을 돕는 아이들은 음식이 어디에서 오는지 배우고, 직접 기른 채소는 더 기꺼이 먹는 경우가 많아요. 이런 까닭으로 더 많은 도시가 빈 땅을 공동체 정원으로 바꿔야 해요. (community garden: 공동체 정원, shared: 함께 쓰는, weed: 잡초, willing: 기꺼이 하는, empty lot: 빈 땅)"
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "듣고 말로 요약하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 한두 문장 요약",
+      "steps": [
+        "부모가 짧은 글을 읽어요.",
+        "아이가 보지 않고\n한두 문장으로 요약해요.",
+        "부모가 점검표로 확인해요.",
+        "역할을 바꿔 아이가\nS09 글을 요약해 줘요.",
+        "요지·근거를 다시 짚어요."
+      ],
+      "criteria": [
+        "요지를 말했어요",
+        "예시 없이 한두 문장",
+        "내 말로 바꿔 말했어요"
+      ],
+      "notes": {
+        "목적": "부모가 읽어 주는 짧은 글을 듣고 보지 않은 채 한두 문장으로 말로 요약한 뒤, 부모가 점검표로 확인합니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 짧은 글을 읽어 줄게. 다 들으면 한두 문장으로 요약해서 말해 줘. 글은 보여 주지 않을 거야.”",
+          "(부모가 읽을 글 ①: Many teenagers check their phones right before bed. The bright screen and exciting messages keep their brains awake, so they fall asleep later and feel tired the next morning. Putting the phone away an hour before bed can help.)",
+          "(부모가 읽을 글 ②: Drinking enough water is important for students. Even a little lack of water can cause headaches and make it hard to focus. Keeping a water bottle on your desk is an easy way to drink enough during the day.)",
+          "“이번엔 역할을 바꿔서, 네가 S09 글을 보지 않고 엄마(아빠)에게 요약해 줄래? 엄마(아빠)가 점검표로 들어 볼게.”"
+        ],
+        "예상답": [
+          "① Using a phone at bedtime makes it hard to sleep, so it is better to stop earlier.",
+          "② Students should drink water often because too little water can hurt their head and focus.",
+          "기준: 요지가 있고, 예시·세부 없이 한두 문장이며, 들은 문장을 그대로 따라 하지 않고 내 말로 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "한 번 더 읽어 주고 “무엇을 하라는 글이야? 왜?” 두 질문에만 답하게 합니다.",
+          "영어가 막히면 우리말로 먼저 요약하게 한 뒤 영어로 옮기도록 돕습니다."
+        ],
+        "주의": [
+          "듣고 요약하면 원문을 그대로 베낄 수 없어서 내 말로 바꾸는 연습이 저절로 됩니다. lack of water는 ‘물 부족’, headache는 ‘두통’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 쓰기(봉사 활동 글 요약)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 써요: 봉사 활동",
+      "text": "gain 얻다 · animal shelter 동물 보호소 · confident 자신감 있는",
+      "passage": {
+        "paragraphs": [
+          "When people think about volunteering, they usually imagine helping others. That is true, but volunteers also gain a lot for themselves. First, volunteering is a good way to learn new skills. A student who helps at an animal shelter, for example, learns how to care for animals and how to work with adults. Second, volunteers meet people they would never meet at school, such as older neighbors or children from other towns. Many volunteers also say that they feel happier and more confident after helping. In short, volunteering is not only a gift to others but also a gift to yourself."
+        ]
+      },
+      "question": "다섯 단계로 요약문을 쓰고, 점검표에 표시해요(활동지 3).",
+      "notes": {
+        "목적": "도움 없이 다섯 단계로 요약문을 쓰고 점검표로 스스로 확인해 한 곳을 고치는지 봅니다(목표 A·B). 활동지 3에 씁니다.",
+        "시간": "약 5분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 다섯 단계로 활동지 3에 요약문을 쓰고, 점검표에 스스로 표시해 줘. 고칠 곳이 있으면 한 곳을 고쳐.”"
+        ],
+        "정답": [
+          "본보기 요약: Doing unpaid work for others benefits the helpers too. They pick up useful abilities, form new friendships, and often feel better about themselves.",
+          "요지: volunteers also gain a lot for themselves / 주요 근거: 새 기술을 배움, 새 사람을 만남, 더 행복하고 자신감이 생김 / 뺄 것: 동물 보호소 예, older neighbors 같은 세부",
+          "기준: 점검표 다섯 항목을 모두 지키면 통과(세 낱말 연속 겹침은 부모와 함께 원문에 대어 확인). 아이의 표현이 본보기와 달라도 됩니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “글쓴이가 In short 뒤에서 무엇이라고 했지? 근거는 First, Second, also 뒤에 있어.”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "본보기 요약의 뜻: 남을 위해 대가 없이 하는 일은 돕는 사람에게도 이롭다. 쓸모 있는 능력을 얻고, 새 친구를 사귀고, 자기 자신을 더 좋게 느끼는 경우가 많다.",
+          "글의 뜻: 사람들은 봉사 활동을 생각하면 보통 남을 돕는 것을 떠올려요. 맞는 말이지만, 봉사하는 사람도 스스로 얻는 것이 많아요. 첫째, 봉사는 새 기술을 배우는 좋은 방법이에요. 예를 들어 동물 보호소에서 돕는 학생은 동물을 돌보는 법과 어른들과 함께 일하는 법을 배워요. 둘째, 봉사하는 사람은 학교에서는 결코 만나지 못할 사람들, 예를 들어 나이 든 이웃이나 다른 동네 아이들을 만나요. 많은 봉사자가 돕고 나면 더 행복하고 자신감이 생긴다고도 말해요. 한마디로 봉사는 남에게 주는 선물일 뿐 아니라 나에게 주는 선물이기도 해요. (volunteer: 봉사하다·봉사자, gain: 얻다, animal shelter: 동물 보호소, confident: 자신감 있는, in short: 한마디로)"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "본보기 요약과 자주 고치는 곳",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "본보기와 고칠 곳",
+      "teacher_only": true,
+      "goodTitle": "○ 본보기 요약",
+      "badTitle": "× 자주 고치는 곳",
+      "good": [
+        {
+          "text": "Doing unpaid work for others\nbenefits the helpers too."
+        },
+        {
+          "text": "They pick up useful abilities,\nform new friendships,"
+        },
+        {
+          "text": "and often feel better\nabout themselves."
+        }
+      ],
+      "bad": [
+        {
+          "text": "helps at an animal shelter",
+          "note": "예시는\n빼요"
+        },
+        {
+          "text": "a gift to others but also",
+          "note": "세 낱말 이상\n베낌"
+        },
+        {
+          "text": "I want to volunteer, too.",
+          "note": "내 의견은\n넣지 않아요"
+        }
+      ],
+      "explain": "요지 → 주요 근거 → 메모하고 덮기 → 한두 문장 → 점검표",
+      "notes": {
+        "목적": "아이의 요약문을 본보기와 견주어 보고 자주 고치는 곳을 확인합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네 요약과 본보기를 견주어 볼까? 네 요약에도 이런 부분이 있어?”"
+        ],
+        "예상답": [
+          "“저도 새 기술, 친구, 행복을 넣었어요.” “animal shelter를 넣었어요.”"
+        ],
+        "정답": [
+          "본보기: Doing unpaid work for others benefits the helpers too. They pick up useful abilities, form new friendships, and often feel better about themselves."
+        ],
+        "막히면": [
+          "베낀 곳이 많으면 S07·S08, 예시를 넣었으면 S03·S06을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 아이의 표현이 본보기와 달라도 점검표를 지켰으면 잘한 것입니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "practice",
+      "section": "확인",
+      "purpose": "마무리 확인(베끼기 찾기와 뺄 것 고르기)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "찾고, 고르고, 바꿔요",
+      "text": "①은 고르고, ②는 찾아 바꾸고, ③은 골라요.",
+      "problems": [
+        {
+          "text": "원문: Exercise improves mood and helps people sleep better.\n가 Exercise improves mood and helps people.\n나 Being active makes people happier and helps them rest better."
+        },
+        {
+          "text": "원문: Reading every day builds a strong vocabulary.\n요약: Daily reading builds a strong vocabulary.\n→ 베낀 덩어리는? 바꿔 말하면?"
+        },
+        {
+          "text": "요약에서 뺄 것은?\nⓐ 요지   ⓑ 민호의 고양이 이야기(예시)   ⓒ 가장 중요한 근거"
+        }
+      ],
+      "notes": {
+        "목적": "베끼지 않은 요약을 고르고, 베낀 세 낱말 덩어리를 찾아 바꾸며, 요약에서 뺄 것을 고르는지 확인합니다(목표 A·B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“①은 더 좋은 요약을 고르고, ②는 베낀 덩어리를 찾아 바꿔 말해 줘. ③은 뺄 것을 골라.”"
+        ],
+        "정답": [
+          "① 나 (가는 원문 Exercise improves mood and helps people를 그대로 베낌)",
+          "② 베낀 덩어리: builds a strong vocabulary → 예: Daily reading helps you learn many words.",
+          "③ ⓑ 민호의 고양이 이야기(예시)",
+          "기준: 세 개 모두 맞으면 통과입니다(②의 고친 문장은 같은 뜻이면 됨)."
+        ],
+        "막히면": [
+          "①②는 원문과 요약에서 같은 낱말에 동그라미를 치게 하고, ③은 S03 둘째 카드를 다시 보여 줍니다."
+        ],
+        "주의": [
+          "mood는 ‘기분’, vocabulary는 ‘어휘’입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "요지 → 주요 근거 → 메모하고 원문 덮기 → 한두 문장 → 점검표\n바꿔 쓰기: 낱말 · 품사 · 문장 짜임",
+      "do": "원문을 덮고 내 말로 쓰기",
+      "dont": "세 낱말 이상 베끼기, 예시 넣기",
+      "review": [
+        {
+          "text": "요약문을 쓰는\n다섯 단계는?"
+        },
+        {
+          "text": "바꿔 쓰는\n세 방법은?"
+        },
+        {
+          "text": "‘베끼지 않기’의\n기준은?"
+        }
+      ],
+      "next": "반론을 넣은 에세이",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“요약문을 쓰는 다섯 단계를 말해 볼래?”",
+          "“바꿔 쓰는 세 방법은?”"
+        ],
+        "예상답": [
+          "“요지, 근거, 메모하고 덮기, 쓰기, 점검표요.” “낱말, 품사, 문장 짜임이요.”"
+        ],
+        "정답": [
+          "① 요지 → 주요 근거 한두 개 → 핵심 낱말 메모, 원문 덮기 → 한두 문장 쓰기 → 점검표로 확인",
+          "② 낱말 바꾸기, 품사 바꾸기, 문장 짜임 바꾸기",
+          "③ 원문에서 세 낱말 이상 연달아 베끼지 않기(핵심 낱말 하나는 괜찮음)"
+        ],
+        "주의": [
+          "교과서 본문 한 문단을 읽고 한두 문장으로 요약해 보는 것이 가장 좋은 복습입니다. 다음 차시 ‘반론을 넣은 에세이’에서는 예상되는 반론을 인정하고 반박하는 문단을 넣어 다섯 문단 에세이를 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(요지 찾기와 쉬운 바꿔 말하기 다시 보기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 요지와 바꿔 말하기",
+      "layout": "support",
+      "text": "In other words로 쉬운 말로 바꿔 말해요.",
+      "table": {
+        "headers": [
+          "원문",
+          "In other words, ~"
+        ],
+        "rows": [
+          [
+            "The test was not easy.",
+            "the test was difficult."
+          ],
+          [
+            "She never gives up.",
+            "she keeps trying."
+          ],
+          [
+            "Many people like this song.",
+            "this song is popular."
+          ]
+        ],
+        "widths": [
+          0.5,
+          0.5
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "요약 = 요지 + 내 말",
+        "text": "글쓴이가 가장 하고 싶은 말을 쉬운 내 말로 해요."
+      },
+      "notes": {
+        "목적": "S02에서 바꿔 말하기나 요지 고르기가 흔들리면, 요약문을 쓰기 전에 짧은 문장으로 다시 다집니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 원문을 쉬운 말로 바꾸면 어떻게 될까?”",
+          "“엄마(아빠)가 문장을 말하면 In other words로 바꿔 말해 줘. The room was full of people.”"
+        ],
+        "정답": [
+          "In other words, the room was crowded. / There were a lot of people in the room."
+        ],
+        "막히면": [
+          "낱말 하나만 바꾸는 것부터 시작합니다(full of people → crowded).",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘요약문 완성’(KR22-G11-ENG-SUMCOMP-L01)과 중2 ‘바꾸어 말하기’(KR22-G08-ENG-PARAPHR-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "요약문 쓰기 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "괄호 속 방법으로 바꿔 쓰세요. 원문에서 세 낱말 이상 연달아 겹치지 않게 써요.",
+        "table": {
+          "headers": [
+            "원문 (방법)",
+            "바꿔 쓴 문장"
+          ],
+          "rows": [
+            [
+              "① The movie was very long. (낱말)",
+              ""
+            ],
+            [
+              "② He succeeded in the contest. (품사: succeed → success)",
+              ""
+            ],
+            [
+              "③ Because the road was icy, the bus was late. (짜임: so)",
+              ""
+            ],
+            [
+              "④ Many students read this book. (능동 → 수동)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            0.5
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "예: ① The film lasted a long time. / The movie was not short. ② His contest was a success. / The contest ended in success for him. ③ The road was icy, so the bus came late. ④ This book is read by many students. 같은 뜻이고 세 낱말 연속 겹침이 없으면 정답. 네 개 가운데 세 개 이상이면 통과. (succeed: 성공하다, success: 성공, icy: 얼어붙은)"
+      },
+      {
+        "no": 2,
+        "prompt": "화면의 ‘써 봐요: 공동체 정원’(S09) 글을 한두 문장으로 요약하세요. 핵심 낱말은 화면을 보며 여백에 메모하고, 쓸 때는 화면을 가려요.",
+        "eng": {
+          "trace": [],
+          "blank": 3
+        },
+        "answer": "본보기: Shared neighborhood gardens bring people together and provide cheap, healthy food while teaching kids about what they eat. So cities ought to create more of them on unused land. 점검표(활동지 4) 다섯 항목 가운데 네 개 이상이면 통과. 아이의 표현이 본보기와 달라도 됩니다. 세 낱말 연속 겹침은 원문(화면 S09)에 대어 함께 찾습니다."
+      },
+      {
+        "no": 3,
+        "prompt": "화면의 ‘혼자 써요: 봉사 활동’(S11) 글을 한두 문장으로 요약하세요. 점검표(4번)에 표시한 뒤 고칠 곳 하나를 고쳐 쓰세요.",
+        "eng": {
+          "trace": [],
+          "blank": 3
+        },
+        "line_label": "고친 곳 하나:",
+        "lines": 1,
+        "answer": "본보기: Doing unpaid work for others benefits the helpers too. They pick up useful abilities, form new friendships, and often feel better about themselves. 점검표 다섯 항목을 모두 지키면 통과. 흔한 고칠 곳: 예시(animal shelter) 넣음, 원문 덩어리(a gift to others) 베낌, 내 의견 덧붙임."
+      },
+      {
+        "no": 4,
+        "prompt": "점검표: 지킨 항목에 ✔ 하세요. 세 낱말 연속 겹침은 원문과 나란히 놓고 함께 찾아요.",
+        "table": {
+          "headers": [
+            "점검표",
+            "2번 요약",
+            "3번 요약",
+            "부모님 확인"
+          ],
+          "rows": [
+            [
+              "① 요지가 있다",
+              "□",
+              "□",
+              "□"
+            ],
+            [
+              "② 주요 근거만(예시·숫자 빼기)",
+              "□",
+              "□",
+              "□"
+            ],
+            [
+              "③ 세 낱말 이상 연달아 베끼지 않았다",
+              "□",
+              "□",
+              "□"
+            ],
+            [
+              "④ 원문과 같은 뜻, 내 의견 없음",
+              "□",
+              "□",
+              "□"
+            ],
+            [
+              "⑤ 한두 문장",
+              "□",
+              "□",
+              "□"
+            ]
+          ],
+          "widths": [
+            0.55,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "아이와 부모가 각자 표시합니다. 표시가 다른 항목이 있으면 그 항목을 ‘고칠 곳 하나’로 고릅니다. 2번은 네 개 이상, 3번은 다섯 개 모두면 통과."
+      },
+      {
+        "no": 5,
+        "prompt": "글을 읽고 핵심 낱말을 메모한 뒤, 글을 가리고 한두 문장으로 요약하세요.",
+        "read": "Board games may look old-fashioned in a world full of smartphones, but they offer families something special. When family members sit around a table to play, they look at each other instead of at screens, and they talk and laugh together. Board games also teach important social skills. Players must wait for their turn, follow the rules, and accept losing without getting angry. Some games even require players to plan ahead or work as a team. Because these skills are useful at school and later at work, families should make time for a game night at least once a week.",
+        "eng": {
+          "trace": [],
+          "blank": 3
+        },
+        "answer": "본보기: Playing table games together helps relatives connect face to face and builds social abilities like patience, fairness, and teamwork. So families should play regularly, perhaps every week. (본보기와 원문 사이에 세 낱말 이상 연달아 겹치는 곳이 없음을 확인했습니다.) 점검표 다섯 항목 가운데 네 개 이상이면 통과. 낱말 뜻: old-fashioned 구식의, offer 주다, social skill 사회성 기술, turn 차례, accept 받아들이다, require 필요로 하다, plan ahead 미리 계획하다. 글의 뜻: 보드게임은 스마트폰이 가득한 세상에서 구식으로 보일지 모르지만 가족에게 특별한 것을 줘요. 가족이 탁자에 둘러앉아 게임을 하면 화면 대신 서로를 보고, 함께 이야기하고 웃어요. 보드게임은 중요한 사회성 기술도 가르쳐 줘요. 차례를 기다리고, 규칙을 지키고, 화내지 않고 지는 것을 받아들여야 하지요. 어떤 게임은 미리 계획하거나 팀으로 협력해야 해요. 이런 기술은 학교와 나중에 직장에서도 쓸모 있으니, 가족은 적어도 일주일에 한 번 게임하는 밤을 만들어야 해요."
+      },
+      {
+        "no": 6,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 요약문을 쓰는 다섯 단계를 쓰세요.\n② 바꿔 쓰는 세 방법을 쓰세요.\n③ ‘베끼지 않기’의 기준을 쓰세요.",
+        "lines": 3,
+        "answer": "① 요지 찾기 → 주요 근거 한두 개(예시 빼기) → 핵심 낱말 메모, 원문 덮기 → 한두 문장 쓰기 → 점검표로 확인하고 한 곳 고치기 ② 낱말 바꾸기, 품사 바꾸기, 문장 짜임 바꾸기 ③ 원문에서 세 낱말 이상 연달아 그대로 쓰지 않기(핵심 낱말 하나는 괜찮음). 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 쓰기: 점검표 다섯 개 □  네 개 □  세 개 이하 □ (도움을 받음 □)",
+      "S13 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "원문 덩어리를 베끼거나 예시를 넣음: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G11-KOR-ERACTX-L01",
+  "concept_id": "KOR-ERACTX",
+  "title": "시대 맥락 비교 해석",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "문학맥락비교",
+  "sequence": 3,
+  "file_stem": "고2_국어_문학맥락비교_03_시대맥락비교해석",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-KOR-I03"
+    ],
+    "units": [
+      "1.6.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "서로 다른 시대의 두 작품을 사회·문화적 맥락과 연결해 비교하고 해석의 근거를 제시한다.",
+  "prerequisites": [
+    {
+      "text": "한국 문학의 흐름",
+      "lesson": "KR22-G11-KOR-LITFLOW-L01",
+      "grade_item": "KR22-G11-KOR-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "시대 맥락 비교 해석 활동지",
+    "items": [],
+    "record": []
+  }
+}
