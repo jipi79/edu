@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G12-MAT-ESTREAD-L01",
+  "concept_id": "MAT-ESTREAD",
+  "title": "추정 결과 해석",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "통계와모델링",
+  "sequence": 2,
+  "file_stem": "고3_수학_통계와모델링_02_추정결과해석",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-MAT-I03"
+    ],
+    "units": [
+      "2.5.7",
+      "2.7.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "여론조사·실험 보고서의 신뢰구간과 표본 크기를 해석해 추정의 오차와 한계를 설명한다.",
+  "prerequisites": [
+    {
+      "text": "표본조사와 편향",
+      "lesson": "KR22-G12-MAT-SURVEY-L01",
+      "grade_item": "KR22-G12-MAT-I03"
+    },
+    {
+      "text": "모평균의 추정",
+      "lesson": "KR22-G11-MAT-ESTIMATE-L01",
+      "grade_item": "KR22-G11-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "추정 결과 해석 활동지",
+    "items": [],
+    "record": []
+  }
+}

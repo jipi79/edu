@@ -1,0 +1,66 @@
+{
+  "id": "KR22-G12-MAT-MODELFIT-L01",
+  "concept_id": "MAT-MODELFIT",
+  "title": "함수 모델 세우기",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "통계와모델링",
+  "sequence": 3,
+  "file_stem": "고3_수학_통계와모델링_03_함수모델세우기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-MAT-I03"
+    ],
+    "units": [
+      "2.5.7",
+      "2.7.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "실생활 자료를 산점도로 나타내 일차·이차·지수함수 중 알맞은 모델을 세우고 예측값과 실제값의 오차를 비교한다.",
+  "prerequisites": [
+    {
+      "text": "산점도와 상관관계",
+      "lesson": "KR22-G09-MAT-SCATTER-L01",
+      "grade_item": "KR22-G09-MAT-I04"
+    },
+    {
+      "text": "일차함수의 식 구하기",
+      "lesson": "KR22-G08-MAT-LINFORM-L01",
+      "grade_item": "KR22-G08-MAT-I02"
+    },
+    {
+      "text": "지수함수와 그래프",
+      "lesson": "KR22-G11-MAT-EXPFUNC-L01",
+      "grade_item": "KR22-G11-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "함수 모델 세우기 활동지",
+    "items": [],
+    "record": []
+  }
+}

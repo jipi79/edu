@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G12-MAT-INQPLAN-L01",
+  "concept_id": "MAT-INQPLAN",
+  "title": "탐구 주제와 계획",
+  "grade": "G12",
+  "grade_label": "고3",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "수학탐구",
+  "sequence": 1,
+  "file_stem": "고3_수학_수학탐구_01_탐구주제와계획",
+  "format": "act",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G12-MAT-I04"
+    ],
+    "units": [
+      "2.7.5",
+      "2.7.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "관심 주제에서 수학 질문을 정하고 증명·계산·시뮬레이션 중 탐구 방법과 가정을 골라 탐구 계획서를 쓴다.",
+  "prerequisites": [
+    {
+      "text": "함수 모델 세우기",
+      "lesson": "KR22-G12-MAT-MODELFIT-L01",
+      "grade_item": "KR22-G12-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "탐구 주제와 계획 활동지",
+    "items": [],
+    "record": []
+  }
+}
