@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G10-INF-PYFUNC-L01",
+  "concept_id": "INF-PYFUNC",
+  "title": "함수로 나누고 테스트",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "파이썬프로그래밍",
+  "sequence": 2,
+  "file_stem": "고1_정보·AI_파이썬프로그래밍_02_함수로나누고테스트",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-INF-I02"
+    ],
+    "units": [
+      "8.3.3",
+      "8.3.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "문제를 기능별 함수로 분해해 파이썬으로 구현하고 정상·경계·잘못된 입력의 테스트 사례로 오류와 개선점을 찾아 고친다.",
+  "prerequisites": [
+    {
+      "text": "파이썬 조건과 반복",
+      "lesson": "KR22-G10-INF-PYBASIC-L01",
+      "grade_item": "KR22-G10-INF-I02"
+    },
+    {
+      "text": "함수로 프로그램 개선",
+      "lesson": "KR22-G08-INF-FUNCTION-L01",
+      "grade_item": "KR22-G08-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "함수로 나누고 테스트 활동지",
+    "items": [],
+    "record": []
+  }
+}

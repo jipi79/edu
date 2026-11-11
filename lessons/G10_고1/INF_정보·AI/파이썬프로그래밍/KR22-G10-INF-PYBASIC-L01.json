@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G10-INF-PYBASIC-L01",
+  "concept_id": "INF-PYBASIC",
+  "title": "파이썬 조건과 반복",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "파이썬프로그래밍",
+  "sequence": 1,
+  "file_stem": "고1_정보·AI_파이썬프로그래밍_01_파이썬조건과반복",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-INF-I02"
+    ],
+    "units": [
+      "8.3.3",
+      "8.3.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "파이썬의 변수·input·print·if·for를 써서 짧은 프로그램을 작성하고 중학교에서 그린 순서도와 한 줄씩 대응시켜 실행 결과를 확인한다.",
+  "prerequisites": [
+    {
+      "text": "구현과 검증",
+      "lesson": "KR22-G09-INF-TESTCODE-L01",
+      "grade_item": "KR22-G09-INF-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "파이썬 조건과 반복 활동지",
+    "items": [],
+    "record": []
+  }
+}

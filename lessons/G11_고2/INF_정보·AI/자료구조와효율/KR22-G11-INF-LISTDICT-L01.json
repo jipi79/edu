@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G11-INF-LISTDICT-L01",
+  "concept_id": "INF-LISTDICT",
+  "title": "리스트와 딕셔너리",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "자료구조와효율",
+  "sequence": 1,
+  "file_stem": "고2_정보·AI_자료구조와효율_01_리스트와딕셔너리",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-INF-I01"
+    ],
+    "units": [
+      "8.2.4",
+      "8.3.3",
+      "8.3.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "생활 자료(성적표·연락처)를 어떤 항목으로 나타낼지 정해 리스트와 딕셔너리로 저장하고 찾기·수정 방법을 비교해 문제에 맞는 데이터 구조를 고른다.",
+  "prerequisites": [
+    {
+      "text": "함수로 나누고 테스트",
+      "lesson": "KR22-G10-INF-PYFUNC-L01",
+      "grade_item": "KR22-G10-INF-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "리스트와 딕셔너리 활동지",
+    "items": [],
+    "record": []
+  }
+}

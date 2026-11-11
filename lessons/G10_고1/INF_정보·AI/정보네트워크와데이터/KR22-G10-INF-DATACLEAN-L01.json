@@ -1,0 +1,61 @@
+{
+  "id": "KR22-G10-INF-DATACLEAN-L01",
+  "concept_id": "INF-DATACLEAN",
+  "title": "데이터 정제와 시각화",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "INF",
+  "strand_label": "정보·AI",
+  "unit_folder": "정보네트워크와데이터",
+  "sequence": 2,
+  "file_stem": "고1_정보·AI_정보네트워크와데이터_02_데이터정제와시각화",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-INF-I01"
+    ],
+    "units": [
+      "8.1.3",
+      "8.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "설문·공공 데이터를 표로 모아 빠진 값·중복·단위 오류를 정제하는 절차를 알고리즘으로 적고 정제한 자료를 알맞은 그래프로 시각화한다.",
+  "prerequisites": [
+    {
+      "text": "자료 비교와 한계",
+      "lesson": "KR22-G09-INF-DATACOMP-L01",
+      "grade_item": "KR22-G09-INF-I02"
+    },
+    {
+      "text": "상자그림",
+      "lesson": "KR22-G09-MAT-BOXPLOT-L01",
+      "grade_item": "KR22-G09-MAT-I04"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "데이터 정제와 시각화 활동지",
+    "items": [],
+    "record": []
+  }
+}
