@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G10-MAT-TRANSLATE-L01",
+  "concept_id": "MAT-TRANSLATE",
+  "title": "평행이동",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "공통수학2도형이동",
+  "sequence": 1,
+  "file_stem": "고1_수학_공통수학2도형이동_01_평행이동",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-MAT-I02"
+    ],
+    "units": [
+      "2.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "점과 도형을 x축·y축 방향으로 평행이동한 점의 좌표와 도형의 방정식을 구한다.",
+  "prerequisites": [
+    {
+      "text": "이차함수 그래프의 평행이동",
+      "lesson": "KR22-G09-MAT-QSHIFT-L01",
+      "grade_item": "KR22-G09-MAT-I02"
+    },
+    {
+      "text": "원의 방정식",
+      "lesson": "KR22-G10-MAT-CIRCLE-L01",
+      "grade_item": "KR22-G10-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "평행이동 활동지",
+    "items": [],
+    "record": []
+  }
+}

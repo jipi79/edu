@@ -1,0 +1,65 @@
+{
+  "id": "KR22-G10-MAT-CIRCLELINE-L01",
+  "concept_id": "MAT-CIRCLELINE",
+  "title": "원과 직선의 위치 관계",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "공통수학2원",
+  "sequence": 2,
+  "file_stem": "고1_수학_공통수학2원_02_원과직선의위치관계",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-MAT-I02"
+    ],
+    "units": [
+      "2.4.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "판별식이나 원의 중심과 직선 사이의 거리로 원과 직선의 위치 관계를 판단하고 원에 접하는 직선의 방정식을 구한다.",
+  "prerequisites": [
+    {
+      "text": "원의 방정식",
+      "lesson": "KR22-G10-MAT-CIRCLE-L01",
+      "grade_item": "KR22-G10-MAT-I02"
+    },
+    {
+      "text": "점과 직선 사이의 거리",
+      "lesson": "KR22-G10-MAT-PTLINE-L01",
+      "grade_item": "KR22-G10-MAT-I02"
+    },
+    {
+      "text": "이차방정식의 판별식",
+      "lesson": "KR22-G10-MAT-DISCRIM-L01",
+      "grade_item": "KR22-G10-MAT-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "원과 직선의 위치 관계 활동지",
+    "items": [],
+    "record": []
+  }
+}

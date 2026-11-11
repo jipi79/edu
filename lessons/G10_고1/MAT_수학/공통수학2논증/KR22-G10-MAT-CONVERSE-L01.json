@@ -1,0 +1,56 @@
+{
+  "id": "KR22-G10-MAT-CONVERSE-L01",
+  "concept_id": "MAT-CONVERSE",
+  "title": "명제의 역과 대우",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "공통수학2논증",
+  "sequence": 1,
+  "file_stem": "고1_수학_공통수학2논증_01_명제의역과대우",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-MAT-I03"
+    ],
+    "units": [
+      "2.7.3",
+      "2.7.2"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "명제의 역과 대우를 만들고 명제와 그 대우의 참·거짓이 같음을 진리집합으로 설명한다.",
+  "prerequisites": [
+    {
+      "text": "명제와 조건",
+      "lesson": "KR22-G10-MAT-PROPCOND-L01",
+      "grade_item": "KR22-G10-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "명제의 역과 대우 활동지",
+    "items": [],
+    "record": []
+  }
+}
