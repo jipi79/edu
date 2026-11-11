@@ -1,0 +1,60 @@
+{
+  "id": "KR22-G11-MAT-VECTOR-L01",
+  "concept_id": "MAT-VECTOR",
+  "title": "벡터와 연산",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "기하벡터",
+  "sequence": 1,
+  "file_stem": "고2_수학_기하벡터_01_벡터와연산",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I04"
+    ],
+    "units": [
+      "2.4.7"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "벡터의 뜻을 알고 벡터의 덧셈·뺄셈·실수배를 화살표 그림과 성분으로 계산한다.",
+  "prerequisites": [
+    {
+      "text": "두 점 사이의 거리와 내분점",
+      "lesson": "KR22-G10-MAT-COORDDIST-L01",
+      "grade_item": "KR22-G10-MAT-I02"
+    },
+    {
+      "text": "평행이동",
+      "lesson": "KR22-G10-MAT-TRANSLATE-L01",
+      "grade_item": "KR22-G10-MAT-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "벡터와 연산 활동지",
+    "items": [],
+    "record": []
+  }
+}
