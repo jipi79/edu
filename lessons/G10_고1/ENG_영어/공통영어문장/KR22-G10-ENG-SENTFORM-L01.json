@@ -1,0 +1,1354 @@
+{
+  "id": "KR22-G10-ENG-SENTFORM-L01",
+  "concept_id": "ENG-SENTFORM",
+  "title": "문장의 다섯 형식",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "공통영어문장",
+  "sequence": 1,
+  "file_stem": "고1_영어_공통영어문장_01_문장의다섯형식",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENG-I01"
+    ],
+    "units": [
+      "3.2.3",
+      "3.1.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "수동태",
+      "lesson": "KR22-G09-ENG-PASSIVE-L01",
+      "grade_item": "KR22-G09-ENG-I01"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "문장을 주어(S)·동사(V)·목적어(O)·보어(C)와 뼈대에 들지 않는 꾸밈말(수식어)로 나누어 1형식(S V), 2형식(S V C), 3형식(S V O)을 구별하고 해석한다. 주어와 뒤의 말이 같으면(She = a nurse) 보어, 다르면(I ≠ my dog) 목적어로 2형식과 3형식을 가르고, look·sound·smell·taste·feel(감각동사) 뒤에는 부사가 아니라 형용사를 쓴다(She looks happy. ○ / She looks happily. ×).",
+      "evidence": "문장 성분 표(S03), 1·2·3형식(S04), 감각동사 + 형용사(S05), 몇 형식인지 고르기(S06), looks happily 비교(S07), 우리 집 문장 말하기(S13), 혼자 해 보기(S14 ①), 마무리 확인(S16 ③), 활동지 1·2·5",
+      "success": "활동지 1의 형식 쓰기 6개 가운데 5개 이상을 바르게 쓰고, 활동지 2의 형용사·부사 고르기 5개 가운데 4개 이상을 ‘감각동사 뒤인지, 동작을 꾸미는지’라는 까닭과 함께 고른다."
+    },
+    {
+      "id": "B",
+      "text": "4형식(S V 간접목적어 직접목적어)을 물건을 먼저 쓰고 사람 앞에 to(give, show, send, teach)나 for(buy, make, cook)를 붙인 3형식으로 바꾸어 쓴다. 5형식(S V O 목적격 보어)에서 목적어를 설명하는 명사·형용사(목적격 보어)를 찾아 해석하고, 목적어와 뒤의 말이 같으면(me = happy) 5형식, 다르면(me ≠ a cake) 4형식으로 구별한다.",
+      "evidence": "4형식 문장(S08), 4형식 → 3형식 표(S09), 3형식으로 바꾸기(S10), 5형식과 목적격 보어(S11), 4·5형식 비교(S12), 우리 집 문장 말하기(S13), 혼자 해 보기(S14 ②③④), 마무리 확인(S16 ①②), 활동지 3·4·5",
+      "success": "활동지 3의 바꾸기 4개 가운데 3개 이상을 to·for를 바르게 써서 쓰고, 활동지 4의 4·5형식 구별 4개 가운데 3개 이상을 ‘= 를 넣을 수 있는지’라는 까닭과 함께 맞힌다."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "색연필 두 가지(주어·동사와 목적어·보어를 다른 색으로 표시)",
+    "종이 카드 다섯 장(looks, smells, made, bought, call을 하나씩 써 둠)",
+    "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
+  ],
+  "boundary": "문장의 다섯 형식(1형식 S V, 2형식 S V C, 3형식 S V O, 4형식 S V IO DO, 5형식 S V O OC)의 뼈대를 찾고 구별하는 것만 다룬다. 꾸밈말(수식어)은 때·장소·방법을 나타내는 말(in the morning, every night, fast, in the east)만 보고 뼈대에서 뺀다. 2형식 동사는 be동사와 감각동사 look·sound·smell·taste·feel만 쓰고(become·get·seem은 노트에서만 짚음), 보어는 명사·형용사만 쓴다. 4형식 동사는 give·show·send·teach(→ to)와 buy·make·cook(→ for)만 쓰고, ask(→ of)는 다루지 않는다. 5형식은 목적격 보어가 명사·형용사인 call, name, make, keep만 다루고, 목적격 보어가 to부정사·동사원형·분사인 문장(want me to go, made me clean, saw him run)은 노트에서 ‘뒤에서 배운다’고만 알린다. 동사는 현재형과 이미 배운 과거형(made, bought, showed, cooked, painted, cleaned 등)만 쓰고, 아직 배우지 않은 과거형 gave·sent·taught는 쓰지 않는다. 형식 번호는 학교 시험에서 쓰는 이름으로 소개하되, 번호를 외우기보다 ‘목적어·보어가 무엇인가’를 말하게 한다. ‘주어·동사·목적어·보어·수식어·간접목적어·직접목적어·목적격 보어·감각동사·형용사·부사’라는 이름은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "감각동사 뒤에 부사를 쓴다(She looks happily. This soup smells well.). 우리말 ‘행복하게 보여요’의 ‘-게’에 끌리기 때문이다.",
+      "response": "S05에서 감각동사 뒤의 말은 주어를 설명하는 보어라서 형용사를 쓴다는 것을 보여 주고, S07에서 looks happily와 looks happy를 비교한다. S06 ⑤⑥, S14 ①, 활동지 2에서 확인한다."
+    },
+    {
+      "id": "M2",
+      "text": "2형식의 보어와 3형식의 목적어를 구별하지 못한다(She is a nurse.를 3형식이라고 함).",
+      "response": "S04에서 ‘주어 = 뒤의 말이면 보어, 다르면 목적어’라는 판단 기준을 주고, S06과 활동지 1에서 = 를 넣어 보게 한다."
+    },
+    {
+      "id": "M3",
+      "text": "꾸밈말(in her room, every night, fast)을 뼈대에 넣어 형식을 잘못 정한다(The baby sleeps in her room.을 3형식이라고 함).",
+      "response": "S03 표에서 수식어는 뼈대가 아니라는 것을 보여 주고, S04의 1형식 예와 S06 ①④, 활동지 1 ①에서 꾸밈말에 괄호를 치고 형식을 정하게 한다."
+    },
+    {
+      "id": "M4",
+      "text": "4형식을 3형식으로 바꿀 때 사람 앞의 to·for를 빠뜨리거나 바꾸어 쓴다(Mom made a cake to me. / She showed her photos me.).",
+      "response": "S09 표에서 동사를 두 무리(to·for)로 나누어 보여 주고, S10, S14 ②③, 활동지 3에서 확인한다."
+    },
+    {
+      "id": "M5",
+      "text": "make 뒤에 말이 둘 오면 모두 4형식이라고 생각한다(She made me happy.를 ‘나에게 행복을 만들어 주었다’로 해석함).",
+      "response": "S11에서 목적격 보어가 목적어를 설명한다는 것을, S12에서 She made me a cake.와 She made me happy.를 나란히 놓고 = 를 넣어 보게 한다. S16 ①②와 활동지 4에서 확인한다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "문장의 다섯 형식",
+      "question": "Mom made me a cake.  /  She made me happy.\n같은 made인데 문장의 뼈대는 어떻게 다를까?",
+      "goals": [
+        "① 문장 성분을 나누어 1·2·3형식을 구별해요.",
+        "② 4형식을 3형식으로 바꾸고 5형식의 보어를 찾아요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "Birds sing."
+          },
+          {
+            "word": "She looks happy."
+          },
+          {
+            "word": "Mom made me a cake."
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 같은 동사(make)라도 뒤에 오는 말에 따라 문장의 뼈대가 달라진다는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
+          "“‘새들이 노래해요. 그녀는 행복해 보여요. 엄마가 나에게 케이크를 만들어 주셨어요.’라는 뜻이야. 영어 문장은 몇 가지 뼈대로 나눌 수 있어. 오늘은 그 다섯 가지 뼈대, 곧 문장의 다섯 형식을 배울 거야.”",
+          "“고등학교 영어 지문은 문장이 길어. 뼈대를 먼저 찾으면 긴 문장도 해석하기 쉬워져.”"
+        ],
+        "예상답": [
+          "“첫 문장은 짧아요.” “셋째 문장에는 me하고 a cake가 있어요.”"
+        ],
+        "막히면": [
+          "뜻을 모르면 부모가 뜻만 알려 주고, 문장마다 동사(sing, looks, made)에 손가락을 대 보게 합니다."
+        ],
+        "주의": [
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(Birds sing. She looks happy. Mom made me a cake. She made me happy. We call the dog Max.)을 미리 들어 두세요. 부모님 발음이 완벽하지 않아도 괜찮습니다.",
+          "중3 ‘수동태’에서 목적어를 주어로 보내 본 경험이 있으면 오늘 ‘목적어 찾기’가 쉬워집니다. 형식 번호는 외우기보다 ‘무엇이 목적어이고 무엇이 보어인지’를 말하게 하는 것이 목표입니다."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(주어·목적어와 수동태)",
+      "role": "prior",
+      "objectives": [],
+      "title": "주어와 목적어 떠올리기",
+      "text": "①은 주어와 목적어를 찾고, ②③은 바꿔 말해요.",
+      "problems": [
+        {
+          "text": "Jun cleaned the room.\n→ 주어와 목적어는?"
+        },
+        {
+          "text": "Jun cleaned the room.\n→ 수동태로"
+        },
+        {
+          "text": "This picture was painted by my sister.\n→ 누가 그렸나요? 능동태로"
+        }
+      ],
+      "notes": {
+        "목적": "중3 ‘수동태’(KR22-G09-ENG-PASSIVE-L01)에서 능동태 문장의 주어·목적어를 찾고, 목적어를 주어로 보내 수동태로 바꾼 것을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“①은 주어와 목적어를 찾아 말해 줘.”",
+          "“②는 같은 문장을 수동태로 바꿔 말해 줘.”",
+          "“③은 누가 그림을 그렸는지 말하고, 능동태 문장으로 바꿔 볼래?”"
+        ],
+        "정답": [
+          "① 주어 Jun, 목적어 the room (준이 방을 청소했어요.)",
+          "② The room was cleaned by Jun.",
+          "③ my sister — 능동태: My sister painted this picture. (내 여동생(언니·누나)이 이 그림을 그렸어요.)"
+        ],
+        "막히면": [
+          "①은 “누가 청소했어? 무엇을 청소했어?”, ②는 “목적어 the room을 맨 앞으로, cleaned는 was cleaned로.”, ③은 “by 뒤에 누가 있지?”라고 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S18(보충)을 먼저 합니다."
+        ],
+        "주의": [
+          "목적어는 ‘~을, ~를’에 해당하는 말입니다. 오늘 수업 내내 목적어를 찾으므로 여기서 확실히 짚어 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "문장 성분의 이름과 하는 일",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "문장을 이루는 말",
+      "text": "문장 성분: 문장을 이루는 부분이에요.",
+      "table": {
+        "headers": [
+          "이름",
+          "하는 일",
+          "예"
+        ],
+        "rows": [
+          [
+            "주어 (S)",
+            "문장의 주인 ‘~은, ~가’",
+            "She"
+          ],
+          [
+            "동사 (V)",
+            "‘~하다, ~이다’",
+            "reads, is"
+          ],
+          [
+            "목적어 (O)",
+            "동작을 받는 말 ‘~을’",
+            "a book"
+          ],
+          [
+            "보어 (C)",
+            "주어나 목적어를 설명해요",
+            "a nurse, happy"
+          ],
+          [
+            "수식어",
+            "꾸며 주는 말 (뼈대 아님)",
+            "at night, fast"
+          ]
+        ],
+        "widths": [
+          0.22,
+          0.48,
+          0.3
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "She reads a book at night.  →  S + V + O + (수식어)",
+      "notes": {
+        "목적": "문장 성분(문장을 이루는 부분) 네 가지와 뼈대에 들지 않는 꾸밈말(수식어)의 이름과 하는 일을 알려 줍니다(목표 A, 오해 M3).",
+        "시간": "약 2분",
+        "말하기": [
+          "“문장은 몇 가지 부분으로 나눌 수 있어. 이것을 문장 성분이라고 해. 한 줄씩 읽어 보자.”",
+          "“주어는 문장의 주인, 동사는 ‘~하다, ~이다’, 목적어는 동작을 받는 ‘~을’, 보어는 주어나 목적어를 설명하는 말이야.”",
+          "“at night, fast처럼 때·장소·방법을 꾸며 주는 말은 수식어야. 빼도 문장이 성립하니까 뼈대에는 넣지 않아.”",
+          "“아래 문장 She reads a book at night.을 나눠 볼래?”"
+        ],
+        "예상답": [
+          "“She가 주어, reads가 동사, a book이 목적어, at night은 수식어예요.”"
+        ],
+        "막히면": [
+          "문장을 종이에 쓰고, 주어·동사는 한 색, 목적어·보어는 다른 색, 수식어는 괄호로 표시하게 합니다."
+        ],
+        "주의": [
+          "영어 글자 S(Subject), V(Verb), O(Object), C(Complement)는 시험지와 참고서에 자주 나오므로 이름과 함께 보여 줍니다. 외우게 하지 않아도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "1·2·3형식의 뼈대와 보어·목적어 구별",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "1형식, 2형식, 3형식",
+      "text": "수식어를 빼고 남은 뼈대로 형식을 정해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "1형식",
+            "sub": "S V"
+          },
+          {
+            "word": "Birds",
+            "sub": "S 주어"
+          },
+          {
+            "word": "sing",
+            "sub": "V 동사"
+          },
+          {
+            "word": "in the trees.",
+            "sub": "수식어 (뼈대 아님)"
+          },
+          {
+            "word": "2형식",
+            "sub": "S V C"
+          },
+          {
+            "word": "She",
+            "sub": "S 주어"
+          },
+          {
+            "word": "is",
+            "sub": "V 동사"
+          },
+          {
+            "word": "a nurse.",
+            "sub": "C 보어 (She = )",
+            "highlight": true
+          },
+          {
+            "word": "3형식",
+            "sub": "S V O"
+          },
+          {
+            "word": "I",
+            "sub": "S 주어"
+          },
+          {
+            "word": "love",
+            "sub": "V 동사"
+          },
+          {
+            "word": "my dog.",
+            "sub": "O 목적어 (I ≠ )",
+            "highlight": true
+          }
+        ]
+      },
+      "key": "주어 = 뒤 말 → 보어 (2형식)     주어 ≠ 뒤 말 → 목적어 (3형식)",
+      "notes": {
+        "목적": "수식어를 뺀 뼈대로 1형식(S V), 2형식(S V C), 3형식(S V O)을 보여 주고, 주어와 뒤의 말이 같은지(=)로 보어와 목적어를 구별하게 합니다(목표 A, 오해 M2·M3).",
+        "시간": "약 3분",
+        "말하기": [
+          "“첫 줄, Birds sing in the trees. 새들이 노래해. 어디서? 나무에서. in the trees는 수식어라서 빼면 S V만 남아. 이게 1형식이야.”",
+          "“둘째 줄, She is a nurse. 그녀 = 간호사, 같은 사람이지? 이렇게 주어를 설명하는 말이 보어야. S V C, 2형식.”",
+          "“셋째 줄, I love my dog. 나 = 개? 아니지. my dog은 사랑하는 대상, 목적어야. S V O, 3형식.”",
+          "“주어와 뒤의 말 사이에 = 를 넣어 말이 되면 보어, 안 되면 목적어야.”"
+        ],
+        "예상답": [
+          "“She는 a nurse랑 같아요. 그래서 보어예요.” “I랑 my dog은 달라요. 목적어예요.”"
+        ],
+        "막히면": [
+          "종이에 She = a nurse, I = my dog을 쓰고 “말이 돼?”라고 묻습니다."
+        ],
+        "주의": [
+          "1형식에도 꾸밈말이 붙을 수 있습니다(The sun rises in the east.). 꾸밈말을 괄호로 묶고 남은 뼈대를 보게 합니다(오해 M3).",
+          "2형식의 보어는 명사(a nurse)나 형용사(happy, tired)입니다. become(~이 되다), get(~해지다)도 2형식 동사지만 오늘은 be동사와 다음 장의 감각동사만 다룹니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "2형식: 감각동사 + 형용사",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "감각동사 뒤에는 형용사",
+      "text": "감각동사: look, sound, smell, taste, feel",
+      "figure": {
+        "type": "words",
+        "perRow": 3,
+        "items": [
+          {
+            "word": "She looks happy.",
+            "sub": "그녀는 행복해 보여요.",
+            "highlight": true
+          },
+          {
+            "word": "This soup smells good.",
+            "sub": "이 수프는 좋은 냄새가 나요."
+          },
+          {
+            "word": "That sounds great.",
+            "sub": "그거 아주 좋게 들려요."
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "형용사",
+          "text": "모습·상태를 나타내요.\nhappy, good, sad, tired"
+        },
+        {
+          "title": "부사",
+          "text": "동작을 꾸며요.\nhappily, well, fast"
+        }
+      ],
+      "key": "‘행복하게’라는 우리말에 속지 말아요:  looks happy (○)  looks happily (×)",
+      "notes": {
+        "목적": "look·sound·smell·taste·feel(감각동사) 뒤의 말은 주어를 설명하는 보어이므로 부사가 아니라 형용사를 쓴다는 것을 보여 줍니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“She looks happy. 그녀는 행복해 보여. 그녀 = 행복한 상태, 그러니까 happy는 주어를 설명하는 보어야.”",
+          "“look(보이다), sound(들리다), smell(냄새가 나다), taste(맛이 나다), feel(느끼다)처럼 감각으로 느끼는 동사를 감각동사라고 해.”",
+          "“happy처럼 사람이나 물건의 모습·상태를 나타내는 말을 형용사, happily처럼 동작을 꾸미는 말을 부사라고 해. 감각동사 뒤에는 형용사야.”"
+        ],
+        "예상답": [
+          "“looks 뒤에 happy, smells 뒤에 good이 와요.”"
+        ],
+        "막히면": [
+          "“그녀가 행복해? 그럼 happy가 그녀를 설명하지?”처럼 주어와 보어를 = 로 이어 말하게 합니다."
+        ],
+        "주의": [
+          "우리말로는 ‘행복하게 보여요’라서 happily를 쓰기 쉽습니다(오해 M1). good과 well도 같습니다: This soup smells good. (○) / smells well (×).",
+          "같은 look이라도 ‘~을 보다’(look at the board)일 때는 at과 함께 쓰는 다른 뜻입니다. 오늘은 ‘~해 보이다’만 다룹니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "1·2·3형식 구별과 감각동사 뒤의 말 고르기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "몇 형식일까요?",
+      "text": "수식어에 괄호를 치고 형식을 말해요. ⑤⑥은 골라요.",
+      "problems": [
+        {
+          "text": "The baby sleeps in her room."
+        },
+        {
+          "text": "My dad is a cook."
+        },
+        {
+          "text": "I read a book every night."
+        },
+        {
+          "text": "The sun rises in the east."
+        },
+        {
+          "text": "This cake tastes\n(sweet / sweetly)."
+        },
+        {
+          "text": "Your idea sounds\n(good / well)."
+        }
+      ],
+      "hint": "주어 = 뒤 말 → 보어,   ‘~을’ → 목적어,   때·장소는 수식어",
+      "notes": {
+        "목적": "수식어를 빼고 뼈대를 찾아 1·2·3형식을 구별하고, 감각동사 뒤에 형용사를 고릅니다(목표 A, 오해 M1·M2·M3). 활동지 1·2에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“수식어에 괄호를 치고, 남은 뼈대로 몇 형식인지 말해 줘. 까닭도.”",
+          "“⑤⑥은 알맞은 말을 고르고, 몇 형식인지 말해 볼래?”"
+        ],
+        "정답": [
+          "① 1형식 (The baby sleeps + 수식어 in her room) — 아기는 자기 방에서 자요.",
+          "② 2형식 (My dad = a cook, 보어) — 우리 아빠는 요리사예요.",
+          "③ 3형식 (I ≠ a book, 목적어 / every night은 수식어) — 나는 매일 밤 책을 읽어요.",
+          "④ 1형식 (The sun rises + 수식어 in the east) — 해는 동쪽에서 떠요.",
+          "⑤ sweet, 2형식 — 이 케이크는 단맛이 나요.",
+          "⑥ good, 2형식 — 네 생각 좋은 것 같아(좋게 들려)."
+        ],
+        "막히면": [
+          "①④에서 3형식이라고 하면 “in her room은 ‘~을’이야, ‘어디서’야?”라고 묻고 괄호를 치게 합니다.",
+          "②③은 S04처럼 = 를 넣어 보게 합니다. ⑤⑥은 S05의 열쇠 문장을 다시 봅니다."
+        ],
+        "주의": [
+          "cook은 ‘요리하다’라는 동사도 되지만 ②에서는 a가 붙은 명사 ‘요리사’입니다. rise는 ‘(해가) 뜨다’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(감각동사 뒤의 부사)",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "‘행복해 보여요’를 영어로",
+      "claim": "‘그녀는 행복해 보여요.’를 두 친구가 이렇게 썼어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "She looks happily."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "She looks happy."
+            }
+          ]
+        }
+      },
+      "question": "바르게 쓴 쪽은? looks 뒤에는 무엇이 와야 하나요?",
+      "notes": {
+        "목적": "감각동사 뒤에 부사를 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장은 무엇이 달라?”",
+          "“looks 뒤의 말은 그녀를 설명해, 아니면 보는 동작을 꾸며? S05에서 감각동사 뒤에는 무엇을 쓴다고 했지?”"
+        ],
+        "정답": [
+          "바르게 쓴 쪽은 나(She looks happy.)입니다. looks 뒤의 말은 주어 She의 상태를 설명하는 보어라서 형용사 happy를 씁니다. 가의 happily는 동작을 꾸미는 부사입니다."
+        ],
+        "막히면": [
+          "“She is happy.처럼 is를 넣어도 뜻이 통하지? 감각동사 자리는 is 자리와 같아.”라고 말해 줍니다."
+        ],
+        "주의": [
+          "반대로 동작을 꾸밀 때는 부사를 씁니다: She sings happily.(그녀는 행복하게 노래해요, 1형식) 이 차이는 활동지 2 ③에서 확인합니다.",
+          "여기까지가 1·2·3형식입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "목적어가 둘인 4형식",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "목적어가 둘: 4형식",
+      "text": "‘(사람)에게 (물건)을 ~해 주다’: 목적어가 둘이에요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "She",
+            "sub": "S 주어"
+          },
+          {
+            "word": "showed",
+            "sub": "V 동사"
+          },
+          {
+            "word": "me",
+            "sub": "IO: 나에게",
+            "highlight": true
+          },
+          {
+            "word": "her photos.",
+            "sub": "DO: 사진들을",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "간접목적어 (IO)",
+          "text": "‘~에게’ (주로 사람)\nme, Mina, us"
+        },
+        {
+          "title": "직접목적어 (DO)",
+          "text": "‘~을’ (주로 물건)\na book, her photos"
+        }
+      ],
+      "key": "4형식: S + V + IO(~에게) + DO(~을)",
+      "notes": {
+        "목적": "show·give·buy·make처럼 ‘(사람)에게 (물건)을’ 두 목적어를 갖는 4형식과 두 목적어의 이름을 알려 줍니다(목표 B).",
+        "시간": "약 2분",
+        "말하기": [
+          "“She showed me her photos. 그녀가 보여 주었어. 누구에게? me, 나에게. 무엇을? her photos, 사진들을. 목적어가 둘이야.”",
+          "“‘~에게’에 해당하는 말을 간접목적어, ‘~을’에 해당하는 말을 직접목적어라고 해. 이렇게 S V 간접목적어 직접목적어로 된 문장이 4형식이야.”"
+        ],
+        "예상답": [
+          "“me가 ‘나에게’, her photos가 ‘사진들을’이에요.”"
+        ],
+        "막히면": [
+          "‘누가 / 보여 주었다 / 누구에게 / 무엇을’을 종이에 네 칸으로 쓰고 문장의 낱말을 칸에 나누어 넣게 합니다."
+        ],
+        "주의": [
+          "IO(Indirect Object)는 간접목적어, DO(Direct Object)는 직접목적어입니다. 4형식 동사는 대부분 ‘~해 주다’로 해석됩니다(보여 주다, 사 주다, 만들어 주다).",
+          "give의 과거형 gave, send의 sent, teach의 taught는 뒤 차시(4·5형식 문장의 수동태)에서 배웁니다. 오늘은 현재형(gives, sends, teaches)이나 이미 배운 과거형(showed, bought, made, cooked)으로만 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "4형식을 3형식으로 바꾸기(to·for)",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "4형식을 3형식으로",
+      "text": "물건을 먼저 쓰고, 사람 앞에 to나 for를 붙여요.",
+      "table": {
+        "headers": [
+          "동사",
+          "4형식",
+          "3형식"
+        ],
+        "rows": [
+          [
+            "give, show,\nsend, teach",
+            "She showed me\nher photos.",
+            "She showed her photos\nto me."
+          ],
+          [
+            "buy, make,\ncook",
+            "Dad bought me\na bike.",
+            "Dad bought a bike\nfor me."
+          ]
+        ],
+        "widths": [
+          0.24,
+          0.34,
+          0.42
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "3형식: S + V + 물건 + to·for + 사람",
+      "notes": {
+        "목적": "4형식을 ‘물건 + to·for + 사람’ 순서의 3형식으로 바꾸고, give·show·send·teach는 to, buy·make·cook은 for를 쓴다는 것을 표로 정리합니다(목표 B, 오해 M4).",
+        "시간": "약 3분",
+        "말하기": [
+          "“4형식에서 두 목적어의 순서를 바꿀 수 있어. 물건을 먼저 쓰고, 사람 앞에 to나 for를 붙여. 그러면 목적어가 하나인 3형식이 돼.”",
+          "“give, show, send, teach는 물건이 사람에게 ‘가는’ 느낌이라 to를 써.”",
+          "“buy, make, cook은 사람을 ‘위해’ 해 주는 거라서 for를 써. Dad bought a bike for me.”"
+        ],
+        "예상답": [
+          "“She showed her photos to me.” “Dad bought a bike for me.”"
+        ],
+        "막히면": [
+          "“사진이 나에게 갔어? 그럼 to.” “자전거를 나를 위해 샀어? 그럼 for.”처럼 우리말로 묻습니다."
+        ],
+        "주의": [
+          "to me, for me는 ‘전치사 + 명사’로 된 꾸밈말이라서 뼈대는 S V O(3형식)가 됩니다.",
+          "4형식과 3형식은 뜻이 같습니다. 시험에서는 ‘같은 뜻이 되도록 바꾸어 쓰시오’ 문제로 자주 나옵니다. ask는 of를 쓰지만(ask a question of him) 오늘은 다루지 않습니다."
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "4형식을 3형식으로 바꾸기",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "3형식으로 바꿔 말해요",
+      "text": "3형식으로 바꿔 말하고, 뜻을 말해요.",
+      "problems": [
+        {
+          "text": "Mina shows us her new phone."
+        },
+        {
+          "text": "Mr. Kim teaches us English."
+        },
+        {
+          "text": "Mom made me sandwiches."
+        },
+        {
+          "text": "Jun bought his sister a cap."
+        }
+      ],
+      "hint": "give, show, send, teach → to      buy, make, cook → for",
+      "notes": {
+        "목적": "4형식 문장을 to·for를 넣은 3형식으로 바꿉니다(목표 B, 오해 M4). 활동지 3에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“두 목적어를 찾고, 물건을 먼저 말한 다음 사람 앞에 to나 for를 붙여 줘. 다 말하면 뜻도.”"
+        ],
+        "정답": [
+          "① Mina shows her new phone to us. (미나가 우리에게 새 전화기를 보여 줘요.)",
+          "② Mr. Kim teaches English to us. (김 선생님이 우리에게 영어를 가르쳐 주세요.)",
+          "③ Mom made sandwiches for me. (엄마가 나에게 샌드위치를 만들어 주셨어요.)",
+          "④ Jun bought a cap for his sister. (준이 여동생(누나)에게 모자를 사 주었어요.)"
+        ],
+        "막히면": [
+          "“물건은 무엇이야? 사람은? 이 동사는 to 무리야, for 무리야?”를 차례로 묻습니다."
+        ],
+        "주의": [
+          "③④를 to로 말하면 S09 표의 두 무리를 다시 봅니다. us, me처럼 사람이 대명사여도 to, for 뒤에는 목적어 모양(us, me)을 그대로 씁니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "concept",
+      "section": "개념",
+      "purpose": "5형식과 목적격 보어",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "목적어를 설명하는 말: 5형식",
+      "text": "목적격 보어: 목적어가 누구인지, 어떤지 설명해요.",
+      "figure": {
+        "type": "words",
+        "perRow": 4,
+        "items": [
+          {
+            "word": "We",
+            "sub": "S 주어"
+          },
+          {
+            "word": "call",
+            "sub": "V 동사"
+          },
+          {
+            "word": "the dog",
+            "sub": "O 목적어"
+          },
+          {
+            "word": "Max.",
+            "sub": "OC: 맥스라고",
+            "highlight": true
+          },
+          {
+            "word": "The news",
+            "sub": "S 주어"
+          },
+          {
+            "word": "made",
+            "sub": "V 동사"
+          },
+          {
+            "word": "me",
+            "sub": "O 목적어"
+          },
+          {
+            "word": "happy.",
+            "sub": "OC: 행복하게",
+            "highlight": true
+          }
+        ]
+      },
+      "points": [
+        {
+          "title": "5형식: S V O OC",
+          "text": "목적어 = 목적격 보어\nthe dog = Max,  me = happy"
+        },
+        {
+          "title": "5형식 동사",
+          "text": "call 부르다, name 이름 짓다,\nmake 만들다, keep 유지하다"
+        }
+      ],
+      "notes": {
+        "목적": "call·name·make·keep 뒤에 목적어와 그 목적어를 설명하는 말(목적격 보어)이 오는 5형식을 보여 줍니다(목표 B, 오해 M5).",
+        "시간": "약 3분",
+        "말하기": [
+          "“We call the dog Max. 우리는 그 개를 맥스라고 불러. the dog = Max, 같은 개지? Max는 목적어를 설명하는 말이야.”",
+          "“The news made me happy. 그 소식이 나를 행복하게 했어. me = happy, 내가 행복한 상태야.”",
+          "“이렇게 목적어를 설명하는 말을 목적격 보어라고 해. S V O 목적격 보어, 이게 5형식이야. 보어니까 여기도 형용사를 써. made me happily는 틀려.”"
+        ],
+        "예상답": [
+          "“the dog이 Max예요.” “me가 happy예요.”"
+        ],
+        "막히면": [
+          "목적어와 그 뒤의 말 사이에 = 를 쓰게 하고, “the dog은 Max야?” “나는 행복해?”라고 묻습니다."
+        ],
+        "주의": [
+          "keep도 5형식으로 씁니다: Keep the room clean.(방을 깨끗하게 유지해요) name은 ‘이름을 짓다’입니다: They named the baby Hana.",
+          "make 뒤에 동사원형이 오는 5형식(Mom made me clean my room.)과 want me to go처럼 to부정사가 오는 문장은 뒤에서 배웁니다. 오늘은 보어가 명사·형용사인 것만 봅니다."
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "4형식과 5형식 구별(= 넣어 보기)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "made me a cake, made me happy",
+      "claim": "두 문장 모두 made 뒤에 말이 둘 있어요.",
+      "left": {
+        "title": "가",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "She made me\na cake."
+            }
+          ]
+        }
+      },
+      "right": {
+        "title": "나",
+        "figure": {
+          "type": "words",
+          "perRow": 1,
+          "items": [
+            {
+              "word": "She made me\nhappy."
+            }
+          ]
+        }
+      },
+      "question": "me와 뒤 말 사이에 = 를 넣어 봐요. 각각 몇 형식이고, 뜻은?",
+      "notes": {
+        "목적": "make 뒤에 말이 둘 오는 두 문장을 비교해, 목적어와 뒤의 말이 다르면 4형식, 같으면 5형식으로 구별하고 해석합니다(목표 B, 오해 M5).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 문장 모두 She made me 다음에 말이 하나 더 있어. me와 그 말 사이에 = 를 넣어 볼래?”",
+          "“가는 me = a cake? 나는 케이크가 아니지. 그럼 a cake는 ‘~을’, 목적어가 둘인 4형식이야.”",
+          "“나는 me = happy? 내가 행복한 상태지. 그럼 happy는 목적격 보어, 5형식이야.”"
+        ],
+        "정답": [
+          "가: 4형식(me ≠ a cake) — 그녀가 나에게 케이크를 만들어 주었어요. (3형식: She made a cake for me.)",
+          "나: 5형식(me = happy) — 그녀가 나를 행복하게 해 주었어요."
+        ],
+        "막히면": [
+          "“가를 3형식으로 바꿀 수 있어? She made a cake for me. 나는? She made happy for me. 이상하지?”라고 비교해 줍니다."
+        ],
+        "주의": [
+          "5형식은 to·for를 넣어 3형식으로 바꿀 수 없습니다. 바꿔 보는 것도 구별하는 좋은 방법입니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "카드로 우리 집 문장 말하기",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 우리 집 문장",
+      "steps": [
+        "동사 카드 다섯 장:\nlooks, smells, made,\nbought, call",
+        "부모가 카드를 한 장 보여 줘요.",
+        "아이가 가족·집 문장을 말해요:\nDad looks tired.",
+        "4형식은 3형식으로도:\nMom made me ~.\n→ Mom made ~ for me.",
+        "몇 형식인지 = 로 까닭을 말해요."
+      ],
+      "criteria": [
+        "감각동사 뒤에 형용사를 썼어요",
+        "to·for를 바르게 넣었어요",
+        "몇 형식인지 까닭을 말했어요"
+      ],
+      "notes": {
+        "목적": "동사 카드를 보고 가족과 집에 관한 문장을 말하며, 감각동사 뒤의 형용사, 4형식 → 3형식, 5형식을 연습합니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“카드 다섯 장에 looks, smells, made, bought, call을 써 두었어. 한 장씩 보여 줄게. 우리 가족이나 집에 대한 문장을 말해 줘.”",
+          "(looks 카드) → (아이) “Dad looks tired today.” “몇 형식이야?” → “2형식이요. Dad = tired.”",
+          "(made 카드) → (아이) “Mom made me kimchi fried rice.” “3형식으로도 말해 볼래?” → “Mom made kimchi fried rice for me.”",
+          "(call 카드) → (아이) “We call our cat Nabi.” → “5형식이요. our cat = Nabi.”",
+          "“이번엔 엄마(아빠)가 말할게. This kimchi smells good. 몇 형식이야?”"
+        ],
+        "예상답": [
+          "“My brother looks sleepy.” “This bread smells good.” “Grandma bought me a jacket. → Grandma bought a jacket for me.” “Our dog makes us happy.”",
+          "기준: 감각동사 뒤에 형용사를 쓰고(looks sleepy ○ sleepily ×), 4형식을 3형식으로 바꿀 때 to·for를 맞게 쓰고, 몇 형식인지 = 를 근거로 말하면 잘한 것입니다."
+        ],
+        "막히면": [
+          "문장 틀(___ looks ___. / ___ made me ___. → ___ made ___ for me. / We call ___ ___.)을 종이에 써 주고 빈칸만 말하게 합니다.",
+          "형용사가 떠오르지 않으면 happy, tired, sleepy, good, great, sad 가운데 고르게 합니다."
+        ],
+        "주의": [
+          "틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다(“Dad looks tiredly.” → “Yes, Dad looks tired!”).",
+          "sleepy는 ‘졸린’, fried rice는 ‘볶음밥’입니다. 모르는 낱말은 우리말로 말해도 되고, 부모가 영어로 알려 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "혼자 해 보기(감각동사·3형식 바꾸기·목적격 보어)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 해 보기",
+      "text": "혼자 말하고, 활동지 5에 써요.",
+      "problems": [
+        {
+          "text": "This bread smells (good / well).\n→ 고르고, 몇 형식?"
+        },
+        {
+          "text": "Ms. Park shows us a map.\n→ 3형식으로"
+        },
+        {
+          "text": "Dad cooked us dinner.\n→ 3형식으로"
+        },
+        {
+          "text": "We keep the room clean.\n→ 목적격 보어와 형식은?"
+        }
+      ],
+      "notes": {
+        "목적": "도움 없이 감각동사 뒤의 형용사를 고르고, 4형식을 3형식으로 바꾸며, 5형식의 목적격 보어를 찾는지 확인합니다(목표 A·B). 활동지 5에 씁니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 지시대로 말하고, 그다음 활동지 5에 써.”"
+        ],
+        "정답": [
+          "① good — 2형식 (This bread = good) 이 빵은 좋은 냄새가 나요.",
+          "② Ms. Park shows a map to us.",
+          "③ Dad cooked dinner for us.",
+          "④ 목적격 보어 clean — 5형식 (the room = clean) 우리는 방을 깨끗하게 유지해요.",
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 to·for, 물건과 사람의 순서, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “smells 뒤는 무엇을 설명해?” “물건은? 사람은? to 무리야, for 무리야?” “the room과 clean 사이에 = 를 넣으면?”이라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "④를 3형식(clean = 목적어)이라고 하면 S11을 다시 봅니다. clean은 여기서 ‘깨끗한’이라는 형용사입니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "good": [
+        {
+          "text": "① good  (2형식)"
+        },
+        {
+          "text": "② … shows a map to us."
+        },
+        {
+          "text": "③ … cooked dinner for us."
+        },
+        {
+          "text": "④ clean  (5형식)"
+        }
+      ],
+      "bad": [
+        {
+          "text": "smells well",
+          "note": "감각동사 뒤는\n형용사"
+        },
+        {
+          "text": "dinner to us",
+          "note": "cook은\nfor"
+        },
+        {
+          "text": "④ 3형식",
+          "note": "the room = clean\n→ 5형식"
+        }
+      ],
+      "explain": "감각동사 + 형용사,   4형식 → 3형식: to·for,   5형식: 목적어 = 보어",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 답하면 어디가 틀렸을까?”"
+        ],
+        "예상답": [
+          "“감각동사 뒤에 well을 썼어요.” “cook은 for예요.” “the room이 clean이니까 5형식이에요.”"
+        ],
+        "정답": [
+          "① good, 2형식 ② Ms. Park shows a map to us. ③ Dad cooked dinner for us. ④ clean, 5형식"
+        ],
+        "막히면": [
+          "틀린 문제는 S05·S07(감각동사), S09·S10(to·for), S11·S12(5형식) 가운데 해당 장을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "kind": "check",
+      "section": "확인",
+      "purpose": "마무리 확인(형식 구별과 해석)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "몇 형식이고, 무슨 뜻?",
+      "text": "몇 형식인지 말하고, 뜻을 말해요.  famous 유명한 · kite 연",
+      "problems": [
+        {
+          "text": "The song made him famous."
+        },
+        {
+          "text": "He made his son a kite."
+        },
+        {
+          "text": "The music sounds sad."
+        }
+      ],
+      "notes": {
+        "목적": "처음 보는 문장에서 형식을 구별하고 해석하는지 확인합니다. 특히 make 뒤의 말이 목적어인지 목적격 보어인지 가립니다(목표 A·B, 오해 M5).",
+        "시간": "약 2분",
+        "말하기": [
+          "“세 문장이 몇 형식인지 말하고, 뜻을 말해 줘. 까닭도.”"
+        ],
+        "정답": [
+          "① 5형식 (him = famous) — 그 노래가 그를 유명하게 만들었어요.",
+          "② 4형식 (his son ≠ a kite) — 그는 아들에게 연을 만들어 주었어요.",
+          "③ 2형식 (The music = sad) — 그 음악은 슬프게 들려요.",
+          "기준: 세 개 모두 형식과 뜻이 맞으면 통과. ①을 ‘그에게 유명함을 만들어 주었다’처럼 4형식으로 해석하면 목표 B는 아직입니다."
+        ],
+        "막히면": [
+          "①②는 S12처럼 = 를 넣어 보게 하고, ③은 S05의 감각동사를 다시 봅니다."
+        ],
+        "주의": [
+          "①②를 틀리면 기록표에 적어 두고, 다음 수업 첫 5분에 S12를 한 번 더 합니다. famous는 ‘유명한’, kite는 ‘연’입니다."
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "S V · S V C · S V O · S V IO DO · S V O OC\n보어는 = 로 확인해요.  4형식 → 3형식은 to·for",
+      "do": "looks happy,  a cake for me",
+      "dont": "looks happily,  a cake to me",
+      "review": [
+        {
+          "text": "알맞은 것은?\nShe looks\n(happy / happily)."
+        },
+        {
+          "text": "3형식으로?\nDad bought me\na cap."
+        },
+        {
+          "text": "목적격 보어와 형식은?\nThe news made\nme sad."
+        }
+      ],
+      "next": "현재완료(완료·결과)",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“보어와 목적어는 어떻게 구별했지?”",
+          "“4형식을 3형식으로 바꿀 때 to를 쓰는 동사와 for를 쓰는 동사는?”"
+        ],
+        "예상답": [
+          "“= 를 넣어서 말이 되면 보어예요.” “give, show는 to, buy, make는 for예요.”"
+        ],
+        "정답": [
+          "① happy (감각동사 뒤 형용사, 2형식)",
+          "② Dad bought a cap for me.",
+          "③ 목적격 보어 sad, 5형식 (me = sad)"
+        ],
+        "주의": [
+          "영어 교과서 본문에서 긴 문장 하나를 골라 수식어에 괄호를 치고 뼈대만 읽어 보면 좋은 복습이 됩니다. 다음 차시 ‘현재완료(완료·결과)’에서는 I have just finished my homework.처럼 막 끝낸 일과 그 결과를 말하는 현재완료를 배웁니다."
+        ]
+      }
+    },
+    {
+      "id": "S18",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(능동태 문장의 주어·동사·목적어 찾기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 주어·동사·목적어",
+      "layout": "support",
+      "text": "누가? → 주어,  했다 → 동사,  무엇을? → 목적어",
+      "table": {
+        "headers": [
+          "문장",
+          "주어",
+          "동사",
+          "목적어"
+        ],
+        "rows": [
+          [
+            "Jun cleaned the room.",
+            "Jun",
+            "cleaned",
+            "the room"
+          ],
+          [
+            "My sister painted\nthis picture.",
+            "My sister",
+            "painted",
+            "this picture"
+          ],
+          [
+            "The room was cleaned\nby Jun.",
+            "The room",
+            "was cleaned",
+            "없음"
+          ]
+        ],
+        "widths": [
+          0.38,
+          0.2,
+          0.2,
+          0.22
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "지난 학년: 수동태",
+        "text": "능동태의 목적어가 수동태의 주어가 돼요."
+      },
+      "notes": {
+        "목적": "S02에서 주어·목적어 찾기나 수동태가 흔들리면, 오늘 내용을 배우기 전에 문장의 주어·동사·목적어를 찾는 연습을 다시 합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표를 같이 읽어 보자. 누가? 했다. 무엇을? 이렇게 세 번 물으면 주어, 동사, 목적어가 나와.”",
+          "“셋째 줄은 수동태야. 원래 목적어였던 the room이 주어로 갔으니까 동사 뒤에 목적어가 없어.”",
+          "“이번엔 엄마(아빠)가 문장을 말할게. Mina likes cats. 주어, 동사, 목적어는?”"
+        ],
+        "정답": [
+          "Mina likes cats. → 주어 Mina, 동사 likes, 목적어 cats",
+          "표: 능동태 두 문장의 목적어는 the room, this picture이고, 수동태 문장에는 목적어가 없습니다(the room이 주어)."
+        ],
+        "막히면": [
+          "문장을 종이에 쓰고 “누가?”에 동그라미, “했다”에 네모, “무엇을?”에 밑줄을 긋게 합니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 ‘수동태’(KR22-G09-ENG-PASSIVE-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "문장의 다섯 형식 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "수식어(때·장소·방법)에 괄호를 치고, 몇 형식인지 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "형식"
+          ],
+          "rows": [
+            [
+              "① My brother runs fast.",
+              ""
+            ],
+            [
+              "② The pizza smells good.",
+              ""
+            ],
+            [
+              "③ I visited my grandma last Sunday.",
+              ""
+            ],
+            [
+              "④ Mr. Lee teaches us math.",
+              ""
+            ],
+            [
+              "⑤ The gift made her happy.",
+              ""
+            ],
+            [
+              "⑥ She is a doctor.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.8,
+            0.2
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① 1형식 (fast는 수식어) ② 2형식 (The pizza = good) ③ 3형식 (my grandma는 목적어, last Sunday는 수식어) ④ 4형식 (us에게 math를) ⑤ 5형식 (her = happy) ⑥ 2형식 (She = a doctor). 여섯 개 가운데 다섯 개 이상이면 통과. ①을 2형식, ③을 4형식으로 쓰면 수식어를 뼈대에 넣은 것이니 S04를 다시 봅니다."
+      },
+      {
+        "no": 2,
+        "prompt": "알맞은 것에 ○ 하고, 고른 까닭을 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "까닭"
+          ],
+          "rows": [
+            [
+              "① You look (tired / tiredly).",
+              ""
+            ],
+            [
+              "② This song sounds (beautiful / beautifully).",
+              ""
+            ],
+            [
+              "③ She sings (beautiful / beautifully).",
+              ""
+            ],
+            [
+              "④ The soup tastes (good / well).",
+              ""
+            ],
+            [
+              "⑤ Keep your hands (clean / cleanly).",
+              ""
+            ]
+          ],
+          "widths": [
+            0.62,
+            0.38
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① tired (감각동사 look 뒤, 주어를 설명하는 형용사) ② beautiful (감각동사 sound 뒤) ③ beautifully (sing은 감각동사가 아니고, ‘아름답게 노래한다’처럼 동작을 꾸미므로 부사) ④ good (감각동사 taste 뒤) ⑤ clean (5형식의 목적격 보어, your hands = clean). 다섯 개 가운데 네 개 이상을 까닭과 함께 맞히면 통과. ③에서 beautiful을 고르면 ‘감각동사 뒤인지 먼저 본다’고 짚어 줍니다."
+      },
+      {
+        "no": 3,
+        "prompt": "같은 뜻의 3형식 문장으로 바꾸어 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① Jun showed me his new phone.",
+              ""
+            ],
+            [
+              "② My grandma made us kimchi.",
+              ""
+            ],
+            [
+              "③ Ms. Park teaches us science.",
+              ""
+            ],
+            [
+              "④ Dad bought my sister a bag.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.45,
+            0.55
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① Jun showed his new phone to me. ② My grandma made kimchi for us. ③ Ms. Park teaches science to us. ④ Dad bought a bag for my sister. 네 개 가운데 세 개 이상이면 통과. to와 for를 바꾸어 쓰거나 빠뜨리면 S09를 다시 봅니다."
+      },
+      {
+        "no": 4,
+        "prompt": "목적어와 뒤의 말 사이에 = 를 넣어 보고, 4형식인지 5형식인지 쓴 뒤 뜻을 쓰세요.",
+        "table": {
+          "headers": [
+            "문장",
+            "형식",
+            "뜻"
+          ],
+          "rows": [
+            [
+              "① He made me a kite.",
+              "",
+              ""
+            ],
+            [
+              "② The story made me sad.",
+              "",
+              ""
+            ],
+            [
+              "③ We call him Jimmy.",
+              "",
+              ""
+            ],
+            [
+              "④ Mom cooked us dinner.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.38,
+            0.14,
+            0.48
+          ],
+          "size": 14,
+          "firstColHead": true
+        },
+        "answer": "① 4형식 (me ≠ a kite) — 그는 나에게 연을 만들어 주었어요. ② 5형식 (me = sad) — 그 이야기는 나를 슬프게 했어요. ③ 5형식 (him = Jimmy) — 우리는 그를 지미라고 불러요. ④ 4형식 (us ≠ dinner) — 엄마가 우리에게 저녁을 요리해 주셨어요. 네 개 가운데 세 개 이상을 까닭과 함께 맞히면 통과. (kite: 연, story: 이야기)"
+      },
+      {
+        "no": 5,
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "table": {
+          "rows": [
+            [
+              "① This bread smells (good / well).\n(고르고 형식 쓰기)",
+              ""
+            ],
+            [
+              "② Ms. Park shows us a map.\n(3형식으로)",
+              ""
+            ],
+            [
+              "③ Dad cooked us dinner.\n(3형식으로)",
+              ""
+            ],
+            [
+              "④ We keep the room clean.\n(목적격 보어와 형식)",
+              ""
+            ]
+          ],
+          "widths": [
+            0.52,
+            0.48
+          ],
+          "size": 13,
+          "firstColHead": true
+        },
+        "answer": "① good, 2형식 ② Ms. Park shows a map to us. ③ Dad cooked dinner for us. ④ clean, 5형식. 네 개 가운데 세 개 이상이면 통과."
+      },
+      {
+        "no": 6,
+        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 가족에 대한 문장 두 개를 쓰세요(감각동사 문장 하나, 5형식 문장 하나).",
+        "eng": {
+          "trace": [
+            "She looks happy today.",
+            "Mom made a cake for me."
+          ],
+          "blank": 2
+        },
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: My dad looks tired. / Our dog makes us happy. / We call our cat Nabi.). 감각동사 뒤의 형용사, 5형식의 목적어 = 보어, 첫 글자 대문자와 마침표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨의 작은 글자는 둘째 줄(점선)보다 조금 위로 올라와 있으니, 아이가 쓸 때는 작은 글자를 둘째 줄과 셋째 줄 사이에 맞춰 쓰게 합니다."
+      },
+      {
+        "no": 7,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① She looks (happy / happily).에서 알맞은 것을 쓰세요.\n② Dad bought me a cap.을 3형식으로 바꾸어 쓰세요.\n③ The news made me sad.의 목적격 보어와 형식을 쓰세요.",
+        "lines": 3,
+        "answer": "① happy ② Dad bought a cap for me. ③ 목적격 보어 sad, 5형식(me = sad). 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S14 혼자 해 보기: 네 개 모두 □  세 개 □  두 개 이하 □ (도움을 받음 □)",
+      "S16 마무리 확인: 세 개 모두 □  두 개 □  한 개 이하 □",
+      "감각동사 뒤에 부사를 쓰거나 4·5형식을 헷갈림: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S07",
+  "status": "제작 완료"
+}

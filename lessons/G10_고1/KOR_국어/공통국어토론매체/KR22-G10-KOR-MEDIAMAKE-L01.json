@@ -1,0 +1,57 @@
+{
+  "id": "KR22-G10-KOR-MEDIAMAKE-L01",
+  "concept_id": "KOR-MEDIAMAKE",
+  "title": "복합매체 자료 만들기",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "unit_folder": "공통국어토론매체",
+  "sequence": 4,
+  "file_stem": "고1_국어_공통국어토론매체_04_복합매체자료만들기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-KOR-I03"
+    ],
+    "units": [
+      "1.2.4",
+      "1.7.3",
+      "1.7.4"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "발표 목적과 수용자에 맞게 글·이미지·영상을 조합한 자료를 만들고 출처·저작권을 점검해 발표한다.",
+  "prerequisites": [
+    {
+      "text": "매체 비평하기",
+      "lesson": "KR22-G10-KOR-MEDIACRIT-L01",
+      "grade_item": "KR22-G10-KOR-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "복합매체 자료 만들기 활동지",
+    "items": [],
+    "record": []
+  }
+}

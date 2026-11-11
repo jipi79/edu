@@ -1,0 +1,881 @@
+{
+  "id": "KR22-G10-ENG-ORDER-L01",
+  "concept_id": "ENG-ORDER",
+  "title": "글의 순서 정하기",
+  "grade": "G10",
+  "grade_label": "고1",
+  "band": "H",
+  "strand": "ENG",
+  "strand_label": "영어",
+  "unit_folder": "공통영어독해",
+  "sequence": 3,
+  "file_stem": "고1_영어_공통영어독해_03_글의순서정하기",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G10-ENG-I01"
+    ],
+    "units": [
+      "3.2.3"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "prerequisites": [
+    {
+      "text": "요지·주제·제목 찾기",
+      "lesson": "KR22-G10-ENG-MAINIDEA-L01",
+      "grade_item": "KR22-G10-ENG-I01"
+    },
+    {
+      "text": "연결어로 글의 흐름 파악",
+      "lesson": "KR22-G08-ENG-LINKERS-L01",
+      "grade_item": "KR22-G08-ENG-I02"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "주어진 글 다음에 이어질 (A)(B)(C) 세 문단의 순서를 정할 때, 각 문단 첫 문장의 단서(연결어 However·For example·So·As a result, 지시어·대명사 this·these·it·they·one, 관사 a → the, 때를 알려 주는 말 One day·Soon)를 찾고 그것이 가리키는 앞 내용과 연결한다.",
+      "evidence": "순서의 단서 세 가지(S03), 두 문장 순서(S04), 다섯 단계(S05), 벽 정원 글(S06), 꿀벌 글(S09), 종이 띠 순서 놀이(S10), 혼자 해 보기(S11), 마무리 확인(S13), 활동지 1·2·3",
+      "success": "S11·S13과 활동지 2·3의 순서 문제 4개 가운데 3개 이상을 맞히고, 활동지 1의 두 문장 순서 4개 가운데 3개 이상을 단서와 함께 맞힌다."
+    },
+    {
+      "id": "B",
+      "text": "정한 순서마다 근거를 ‘(C)의 one은 (B)의 a vertical garden을 가리켜요’처럼 단서와 그것이 가리키는 말을 짝지어 설명하고, 순서대로 이어 읽어 흐름을 확인한다. 내용이 그럴듯하다는 느낌만으로 순서를 정하지 않는다.",
+      "evidence": "근거 말하기 표(S07), 느낌으로 정한 순서 비교(S08), 꿀벌 글(S09), 종이 띠 순서 놀이(S10), 혼자 해 보기(S11), 활동지 2·3",
+      "success": "S11과 활동지 2·3에서 순서마다 근거(단서 + 가리키는 말)를 두 개 이상 말하거나 쓴다(우리말 가능)."
+    }
+  ],
+  "materials": [
+    "활동지",
+    "연필",
+    "형광펜이나 색연필(단서에 동그라미, 가리키는 말까지 화살표)",
+    "종이 띠 네 장과 가위(순서 놀이)",
+    "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
+  ],
+  "boundary": "직접 쓴 이야기글·설명문으로 된 ‘주어진 글 + (A)(B)(C)’ 순서 문제(전체 70~120 낱말)와 두 문장 순서 정하기만 다룬다. 단서는 연결어(However, For example, So, As a result, Instead, Thanks to ~), 지시어·대명사(this, these, that, it, they, them, one), 관사(a → the) 세 가지로 하고, 때를 알려 주는 말(One day, Two months later, The next day, Soon)은 함께 본다. 글에는 지금까지 배운 문법(관계대명사, 수동태, 현재완료, to부정사, 동명사, 접속사)만 쓰고 새 낱말은 뜻을 함께 준다. 주어진 문장 넣기는 다음 차시에서 하고, 네 문단 이상의 순서 정하기, 요약문, 무관한 문장 찾기는 다루지 않는다. 근거는 우리말로 말해도 된다. ‘지시어·대명사·관사·연결어’라는 이름은 화면에 뜻과 함께 쓴다.",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "text": "단서를 보지 않고 내용이 그럴듯하다는 느낌으로만 순서를 정한다(Her plan worked well.을 주어진 글 바로 뒤에 놓음).",
+      "response": "S05의 다섯 단계로 첫 문장의 단서부터 찾게 하고, S08에서 느낌으로 정한 순서와 단서로 정한 순서를 비교한다. S11·활동지 2·3에서 근거를 쓰게 한다."
+    },
+    {
+      "id": "M2",
+      "text": "지시어·대명사(it, they, these, one, Her plan)가 가리키는 말이 앞에 없는데도 그 문단을 먼저 놓는다.",
+      "response": "S03 표와 S04 ②에서 ‘가리키는 말이 앞에 있어야 한다’를 보여 주고, S07에서 단서와 가리키는 말을 화살표로 잇게 한다. S15 보충에서 다시 연습한다."
+    },
+    {
+      "id": "M3",
+      "text": "a와 the의 차이를 몰라 처음 나오는 것(a dog)과 다시 나오는 것(The dog)을 거꾸로 놓는다.",
+      "response": "S03 표의 관사 줄과 S04 ①에서 a → the를 보여 주고, 활동지 1 ①에서 확인한다."
+    },
+    {
+      "id": "M4",
+      "text": "연결어(However, For example, As a result)의 방향을 놓쳐 앞과 맞지 않게 잇는다.",
+      "response": "S02와 S04 ③에서 연결어의 뜻을 다시 확인하고, S09에서 However·This·For example의 연결을 하나씩 짚는다."
+    }
+  ],
+  "checks": [],
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "cover",
+      "section": "도입",
+      "purpose": "오늘의 질문과 목표",
+      "role": "intro",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "글의 순서 정하기",
+      "question": "(B) → (C) → (A)?\n무엇을 보고 이어질 순서를 정할까?",
+      "goals": [
+        "① 연결어·지시어·관사로 이어질 순서를 정해요.",
+        "② 정한 순서의 근거를 단서로 설명해요."
+      ],
+      "figure": {
+        "type": "words",
+        "perRow": 1,
+        "items": [
+          {
+            "word": "a  →  the",
+            "sub": "관사"
+          },
+          {
+            "word": "this, these, it",
+            "sub": "지시어·대명사"
+          },
+          {
+            "word": "However, So",
+            "sub": "연결어"
+          }
+        ]
+      },
+      "notes": {
+        "목적": "오늘 배울 것을 알리고, 문단 첫머리의 작은 낱말이 순서를 알려 주는 단서라는 것에 관심을 갖게 합니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“고등학교 영어 시험에는 ‘주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?’ 문제가 꼭 나와. (A)(B)(C) 세 문단의 순서를 정하는 거야.”",
+          "“답은 내용을 짐작해서 정하는 게 아니라, 문단 첫머리의 작은 낱말을 보고 정해. 화면의 세 가지가 그 단서야. 오늘은 이 단서를 찾는 방법을 배울 거야.”"
+        ],
+        "예상답": [
+          "“a랑 the가 있어요.” “this, these는 ‘이것, 이것들’이에요.”"
+        ],
+        "막히면": [
+          "“a robot은 ‘어떤 로봇 하나’, the robot은 ‘그 로봇’이야. 어느 쪽이 먼저 나올까?”라고 묻습니다."
+        ],
+        "주의": [
+          "오늘 지문은 부모님이 한 번 소리 내어 읽어 주고, 아이가 다시 읽게 합니다. 지문의 뜻과 바른 순서로 이은 글은 노트와 안내서에 있습니다. 모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요.",
+          "S10에서 종이 띠 네 장과 가위를 씁니다. 미리 준비해 두세요."
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "kind": "practice",
+      "section": "도입",
+      "purpose": "선수 학습 확인(연결어의 뜻과 흐름)",
+      "role": "prior",
+      "objectives": [],
+      "title": "연결어 떠올리기",
+      "text": "상자에서 알맞은 연결어를 골라 빈칸에 넣어 읽어요.",
+      "problems": [
+        {
+          "text": "Sora practiced every day.\n______, she won the contest."
+        },
+        {
+          "text": "Our town has many parks.\n______, Green Park has a big lake."
+        },
+        {
+          "text": "The movie was long.\n______, it was never boring."
+        }
+      ],
+      "hint": "상자:  As a result  ·  For example  ·  However",
+      "notes": {
+        "목적": "중2 ‘연결어로 글의 흐름 파악’(KR22-G08-ENG-LINKERS-L01)의 연결어(However, For example, As a result)와 지난 차시 ‘요지·주제·제목 찾기’(KR22-G10-ENG-MAINIDEA-L01)·‘빈칸 추론’에서 본 신호어의 뜻을 기억하는지 확인합니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“아래 상자의 연결어 가운데 알맞은 것을 골라 빈칸에 넣어 읽어 줘. 왜 그 말인지도 말해 볼래?”"
+        ],
+        "정답": [
+          "① As a result (매일 연습한 결과 대회에서 우승) — 소라는 매일 연습했어요. 그 결과 대회에서 우승했어요.",
+          "② For example (공원이 많다는 것의 예) — 우리 동네에는 공원이 많아요. 예를 들어 그린 공원에는 큰 호수가 있어요.",
+          "③ However (길었지만 지루하지 않았다, 반대) — 그 영화는 길었어요. 하지만 전혀 지루하지 않았어요."
+        ],
+        "막히면": [
+          "연결어마다 우리말 뜻(그 결과, 예를 들어, 하지만)을 먼저 말하게 하고, 앞뒤 문장이 결과인지, 예인지, 반대인지 묻습니다.",
+          "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
+        ],
+        "주의": [
+          "won은 win(이기다, 우승하다)의 과거형, contest는 ‘대회’, lake는 ‘호수’입니다. 오늘은 이 연결어들이 문단의 순서를 알려 주는 단서로 쓰입니다."
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "순서를 알려 주는 단서 세 가지",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "순서의 단서 세 가지",
+      "text": "단서는 앞에 무엇이 있어야 하는지 알려 줘요.",
+      "table": {
+        "headers": [
+          "단서",
+          "예",
+          "알려 주는 것"
+        ],
+        "rows": [
+          [
+            "관사 a → the",
+            "a dog → The dog",
+            "처음 나온 것 → 다시 나온 것"
+          ],
+          [
+            "지시어·대명사",
+            "this, these, it,\nthey, one",
+            "가리키는 말이 앞에 있어요"
+          ],
+          [
+            "연결어",
+            "However, For example,\nSo, As a result",
+            "앞 내용과의 관계\n(반대·예·결과)"
+          ]
+        ],
+        "widths": [
+          0.26,
+          0.36,
+          0.38
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "단서가 가리키는 말을 찾아 화살표로 이어요.",
+      "notes": {
+        "목적": "관사(a → the), 지시어·대명사(this, these, it, they, one), 연결어가 각각 앞 내용과 어떻게 이어지는지 보여 줍니다(목표 A, 오해 M2·M3·M4).",
+        "시간": "약 2분",
+        "말하기": [
+          "“첫째, 관사. a dog은 ‘어떤 개 한 마리’, 처음 나올 때 써. The dog은 ‘그 개’, 앞에서 이미 말한 개야. 그러니까 a가 있는 문장이 먼저야.”",
+          "“둘째, 지시어·대명사. this, these, it, they는 앞에 나온 말을 가리켜. 가리키는 말이 앞에 있어야 해.”",
+          "“셋째, 연결어. However는 앞과 반대, For example은 앞 말의 예, So나 As a result는 앞 일의 결과야.”"
+        ],
+        "예상답": [
+          "“a가 먼저, the가 나중이에요.” “these 앞에는 가리키는 말이 있어야 해요.”"
+        ],
+        "막히면": [
+          "표의 예 칸에서 화살표 왼쪽과 오른쪽을 손가락으로 짚으며 “어느 것이 먼저야?”라고 묻습니다."
+        ],
+        "주의": [
+          "지시어는 this, that처럼 무엇을 ‘가리키는’ 말, 대명사는 it, they처럼 명사를 ‘대신하는’ 말, 관사는 명사 앞의 a, an, the입니다. 이름보다 ‘앞에 가리키는 말이 있어야 한다’는 원리가 중요합니다.",
+          "one(같은 종류의 하나)도 앞에 나온 명사를 대신합니다: a vertical garden → make one."
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "kind": "practice",
+      "section": "연습",
+      "purpose": "두 문장의 순서 정하기",
+      "role": "practice",
+      "objectives": [
+        "A"
+      ],
+      "title": "어느 문장이 먼저일까?",
+      "text": "먼저 올 문장은? 어떤 단서를 보고 정했나요?",
+      "problems": [
+        {
+          "text": "(가) The dog followed me home.\n(나) I saw a small dog in the park."
+        },
+        {
+          "text": "(가) These rules help everyone.\n(나) Our class made three rules."
+        },
+        {
+          "text": "(가) However, it started to rain.\n(나) We planned a picnic for Saturday."
+        }
+      ],
+      "notes": {
+        "목적": "두 문장의 순서를 정하고, 어떤 단서(관사·지시어·연결어)를 보고 정했는지 말합니다(목표 A, 오해 M2·M3·M4). 활동지 1에 비슷한 문제가 있습니다.",
+        "시간": "약 3분",
+        "말하기": [
+          "“두 문장 가운데 무엇이 먼저 와야 할까? 단서에 동그라미를 치고, 그 단서가 가리키는 말에 화살표를 그어 볼래?”"
+        ],
+        "정답": [
+          "① (나) → (가): a small dog(처음) → The dog(다시) — 나는 공원에서 작은 개를 봤어요. 그 개가 집까지 나를 따라왔어요.",
+          "② (나) → (가): three rules → These rules — 우리 반은 규칙 세 가지를 만들었어요. 이 규칙들은 모두에게 도움이 돼요.",
+          "③ (나) → (가): However(앞과 반대: 소풍 계획 ↔ 비) — 우리는 토요일에 소풍을 계획했어요. 하지만 비가 오기 시작했어요."
+        ],
+        "막히면": [
+          "①은 “a와 the 가운데 처음 나올 때 쓰는 것은?”, ②는 “These rules는 무엇을 가리키지?”, ③은 “However는 무엇과 반대야?”라고 묻습니다."
+        ],
+        "주의": [
+          "follow는 ‘따라오다’, rule은 ‘규칙’, plan은 ‘계획하다’입니다. 세 문제 모두 (가)가 먼저면 단서가 가리킬 말이 없어 어색하다는 것을 소리 내어 읽어 확인하게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "kind": "steps",
+      "section": "개념",
+      "purpose": "순서를 정하는 다섯 단계",
+      "role": "teach",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "순서를 정하는 다섯 단계",
+      "text": "단서는 문단의 첫 문장에 몰려 있어요.",
+      "steps": [
+        "주어진 글의 끝 문장 확인",
+        "(A)(B)(C) 첫 문장의 단서에 동그라미",
+        "단서가 가리키는 말에 화살표",
+        "주어진 글 바로 뒤에 올 문단 정하기",
+        "순서대로 이어 읽어 확인"
+      ],
+      "notes": {
+        "목적": "주어진 글 확인 → 첫 문장 단서 동그라미 → 가리키는 말에 화살표 → 첫 문단 정하기 → 이어 읽기의 다섯 단계를 알려 줍니다(목표 A·B, 오해 M1).",
+        "시간": "약 2분",
+        "말하기": [
+          "“첫째, 주어진 글의 끝 문장을 잘 봐. 다음 문단은 그 문장과 바로 이어져야 해.”",
+          "“둘째, (A)(B)(C) 첫 문장의 단서에 동그라미. 셋째, 그 단서가 가리키는 말을 찾아 화살표.”",
+          "“넷째, 주어진 글 바로 뒤에 올 문단부터 정해. 다섯째, 정한 순서대로 이어 읽어 보고 자연스러운지 확인해.”"
+        ],
+        "예상답": [
+          "“첫 문장에 단서가 있어요.” “다 정하면 이어서 읽어 봐요.”"
+        ],
+        "막히면": [
+          "단계마다 손가락을 하나씩 접으며 함께 말해 봅니다(주어진 글 → 동그라미 → 화살표 → 첫 문단 → 이어 읽기)."
+        ],
+        "주의": [
+          "단서는 대부분 문단의 첫 문장에 있습니다. 문단 전체를 다 이해하지 못해도 첫 문장의 단서로 순서를 정할 수 있다는 것이 이 문제의 요령입니다."
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "kind": "passage",
+      "section": "개념",
+      "purpose": "벽 정원 이야기로 순서 정하기(시범)",
+      "role": "teach",
+      "objectives": [
+        "A"
+      ],
+      "title": "함께 정해요: 벽 정원",
+      "text": "vertical 수직의 · pot 화분 · balcony 발코니 · seed 씨앗",
+      "passage": {
+        "title": "Mina wanted to grow vegetables, but she lived in a small apartment that had no garden.",
+        "paragraphs": [
+          "(A) Her plan worked well. Two months later, she was eating fresh tomatoes from her own wall.",
+          "(B) One day, she watched a video about a vertical garden. In this kind of garden, plants grow in pots that hang on a wall.",
+          "(C) She decided to make one on her balcony. She put ten small pots on the wall and planted seeds in them."
+        ]
+      },
+      "question": "굵은 글씨가 주어진 글.  첫 문장의 단서로 순서를 정해요.",
+      "notes": {
+        "목적": "부모가 글을 읽어 주고, 다섯 단계를 따라 (A)(B)(C) 첫 문장의 단서를 찾아 순서를 정하는 과정을 함께 해 봅니다(목표 A, 오해 M1·M2).",
+        "시간": "약 4분",
+        "말하기": [
+          "“맨 위의 굵은 글씨가 주어진 글이야. 미나는 채소를 기르고 싶었지만 정원이 없는 작은 아파트에 살았어. 다음에는 무슨 이야기가 올까?”",
+          "(부모가 (A)(B)(C)를 한 번 읽어 줍니다.)",
+          "“(A)(B)(C)의 첫 문장에서 단서를 찾아볼래? (A)는 Her plan, (C)는 make one의 one, (B)는 One day와 a video.”",
+          "“Her plan은 무슨 계획이야? one은 무엇 하나야? 가리키는 말이 앞에 있어야 하니까, 순서는?”"
+        ],
+        "예상답": [
+          "“one은 a vertical garden이에요. 그러니까 (B) 다음에 (C)예요.” “Her plan은 벽에 화분을 단 거라서 (C) 다음이에요. (B) → (C) → (A)요.”"
+        ],
+        "막히면": [
+          "(C)의 one에 동그라미를 치고 “벽 정원을 하나 만들기로 했대. 벽 정원이 처음 나오는 문단은?”이라고 묻습니다."
+        ],
+        "주의": [
+          "바른 순서: (B) → (C) → (A). 이어 읽은 글: Mina wanted to grow vegetables, but she lived in a small apartment that had no garden. One day, she watched a video about a vertical garden. In this kind of garden, plants grow in pots that hang on a wall. She decided to make one on her balcony. She put ten small pots on the wall and planted seeds in them. Her plan worked well. Two months later, she was eating fresh tomatoes from her own wall.",
+          "글의 뜻: 미나는 채소를 기르고 싶었지만 정원이 없는 작은 아파트에 살았어요. (B) 어느 날 미나는 수직 정원에 관한 영상을 봤어요. 이런 정원에서는 식물이 벽에 걸린 화분에서 자라요. (C) 미나는 발코니에 수직 정원을 하나 만들기로 했어요. 벽에 작은 화분 열 개를 달고 씨앗을 심었지요. (A) 미나의 계획은 잘 되었어요. 두 달 뒤 미나는 자기 벽에서 딴 싱싱한 토마토를 먹고 있었어요. (vertical: 세로의, 수직의, pot: 화분, hang: 걸려 있다, balcony: 발코니, seed: 씨앗)"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "kind": "table",
+      "section": "개념",
+      "purpose": "순서의 근거를 단서와 가리키는 말로 설명하기",
+      "role": "teach",
+      "objectives": [
+        "B"
+      ],
+      "title": "근거는 이렇게 말해요",
+      "text": "근거 = 단서 + 가리키는 말",
+      "table": {
+        "headers": [
+          "이어지는 곳",
+          "단서",
+          "가리키는 말"
+        ],
+        "rows": [
+          [
+            "주어진 글 → (B)",
+            "One day, a video\n(처음 나오는 이야기)",
+            "정원이 없는 문제를\n풀 방법을 찾음"
+          ],
+          [
+            "(B) → (C)",
+            "one",
+            "a vertical garden"
+          ],
+          [
+            "(C) → (A)",
+            "Her plan",
+            "벽에 화분을 단 계획"
+          ]
+        ],
+        "widths": [
+          0.28,
+          0.36,
+          0.36
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": "(C)의 one은 (B)의 a vertical garden을 가리켜요. → (B) 다음 (C)",
+      "notes": {
+        "목적": "정한 순서마다 ‘단서 + 가리키는 말’을 짝지어 근거를 말하는 방법을 S06 글로 보여 줍니다(목표 B, 오해 M2).",
+        "시간": "약 3분",
+        "말하기": [
+          "“근거는 이렇게 말해. (C)의 one은 (B)의 a vertical garden을 가리켜요. 그래서 (B) 다음에 (C)예요.”",
+          "“(A)의 Her plan은 (C)에서 벽에 화분을 단 계획을 가리켜요. 그래서 (C) 다음에 (A).”",
+          "“주어진 글 다음은? 미나는 정원이 없었지? (B)에서 One day, 방법을 처음 알게 돼. a video, a vertical garden처럼 a로 처음 나오는 말도 단서야.”"
+        ],
+        "예상답": [
+          "“(C)의 one은 (B)의 a vertical garden을 가리켜요.”"
+        ],
+        "막히면": [
+          "S06의 단서에서 가리키는 말까지 손가락으로 선을 그어 보게 하고, 그 선을 말로 옮기게 합니다."
+        ],
+        "주의": [
+          "순서를 맞혀도 근거를 말하지 못하면 목표 B는 아직입니다. 시험 문제는 문단이 더 길고 어려워서, 단서로 정하는 습관이 있어야 풀 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "kind": "compare",
+      "section": "연습",
+      "purpose": "오개념 비교(느낌으로 정한 순서)",
+      "role": "practice",
+      "objectives": [
+        "B"
+      ],
+      "title": "근거가 맞는 쪽은?",
+      "claim": "S06의 순서를 두 친구가 이렇게 정했어요.",
+      "left": {
+        "title": "가",
+        "text": "(A) → (B) → (C)\n‘계획이 잘 되었다’가 주어진\n글과 어울려 보여요."
+      },
+      "right": {
+        "title": "나",
+        "text": "(B) → (C) → (A)\nHer plan이 가리키는 계획이\n앞에 있어야 해요."
+      },
+      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤나요?",
+      "notes": {
+        "목적": "내용이 그럴듯하다는 느낌으로 정한 순서와 단서로 정한 순서를 비교합니다(목표 B, 오해 M1·M2).",
+        "시간": "약 2분",
+        "말하기": [
+          "“두 친구가 S06의 순서를 이렇게 정했어. 누구의 근거가 맞을까?”",
+          "“가처럼 (A)를 먼저 놓으면, Her plan이 무슨 계획인지 알 수 있어?”"
+        ],
+        "정답": [
+          "나의 판단이 맞습니다. 가는 ‘어울려 보인다’는 느낌으로 정했지만, (A)의 Her plan이 가리키는 계획이 앞에 나오지 않아 무슨 계획인지 알 수 없습니다. 나는 Her plan이 가리키는 말이 앞에 있어야 한다는 단서로 정했습니다."
+        ],
+        "막히면": [
+          "가의 순서대로 주어진 글과 (A)를 이어 읽게 하고 “무슨 계획이 잘 됐다는 거야?”라고 묻습니다."
+        ],
+        "주의": [
+          "‘느낌’으로 정하면 시험의 긴 글에서는 자주 틀립니다. 순서를 정할 때마다 단서와 가리키는 말을 말하는 습관을 들입니다.",
+          "여기까지가 순서 정하는 방법과 시범입니다. 아이가 지치면 여기서 나누어 다음 날 S09부터 해도 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "kind": "passage",
+      "section": "연습",
+      "purpose": "꿀벌 글로 순서 정하기(연결어·지시어)",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정해 봐요: 꿀벌의 춤",
+      "text": "hive 벌집 · instead 대신 · direction 방향 · figure-eight 8자 · angle 각도",
+      "passage": {
+        "title": "When a honey bee finds a field of flowers, it flies back to its hive. It has to tell the other bees where the food is.",
+        "paragraphs": [
+          "(A) For example, when the bee dances straight up, the other bees fly toward the sun to find the food.",
+          "(B) However, bees can't speak. Instead, they use a special dance.",
+          "(C) This dance shows the direction of the food. The bee moves in a figure-eight pattern, and the angle of its dance tells the others which way to fly."
+        ]
+      },
+      "question": "(A)(B)(C)의 순서는? 단서와 가리키는 말로 근거를 말해요.",
+      "notes": {
+        "목적": "설명문에서 연결어(However, For example)와 지시어(This dance)를 단서로 순서를 정하고, 근거를 단서와 가리키는 말로 말합니다(목표 A·B, 오해 M4). 부모가 한 번 읽어 준 뒤 아이가 다섯 단계로 풉니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "(부모가 주어진 글과 (A)(B)(C)를 한 번 읽어 줍니다.)",
+          "“주어진 글의 끝 문장은? 다른 벌들에게 먹이가 어디 있는지 알려야 한대. 그다음은?”",
+          "“(A)(B)(C) 첫 문장의 단서에 동그라미를 치고, 순서와 근거를 말해 줘.”"
+        ],
+        "정답": [
+          "순서: (B) → (C) → (A)",
+          "근거: (B)의 However → 알려야 한다 ↔ 말을 할 수 없다(반대) / (C)의 This dance → (B)의 a special dance / (A)의 For example → (C)에서 말한 ‘방향을 알려 준다’의 예"
+        ],
+        "막히면": [
+          "“This dance는 무슨 춤이야? 춤이 처음 나오는 문단은?” “For example은 무엇의 예일까? 방향 이야기가 나오는 문단은?”이라고 묻습니다."
+        ],
+        "주의": [
+          "꿀벌이 먹이가 있는 곳을 춤으로 알리는 것은 사실입니다(벌집의 위쪽 방향이 해가 있는 방향을 뜻함). 이 춤을 8자 춤(waggle dance)이라고 부르기도 합니다.",
+          "이어 읽은 글: When a honey bee finds a field of flowers, it flies back to its hive. It has to tell the other bees where the food is. However, bees can't speak. Instead, they use a special dance. This dance shows the direction of the food. The bee moves in a figure-eight pattern, and the angle of its dance tells the others which way to fly. For example, when the bee dances straight up, the other bees fly toward the sun to find the food.",
+          "글의 뜻: 꿀벌이 꽃밭을 찾으면 벌집으로 날아 돌아와요. 다른 벌들에게 먹이가 어디 있는지 알려야 하지요. (B) 하지만 벌은 말을 할 수 없어요. 대신 특별한 춤을 써요. (C) 이 춤은 먹이가 있는 방향을 보여 줘요. 벌은 8자 모양으로 움직이고, 춤의 각도가 다른 벌들에게 어느 쪽으로 날아갈지 알려 줘요. (A) 예를 들어 벌이 위쪽으로 똑바로 춤을 추면, 다른 벌들은 먹이를 찾으러 해가 있는 쪽으로 날아가요. (hive: 벌집, field: 들판, instead: 대신, direction: 방향, figure-eight: 8자 모양, angle: 각도, toward: ~쪽으로)"
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "kind": "activity",
+      "section": "연습",
+      "purpose": "종이 띠로 순서 정하기 놀이",
+      "role": "practice",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "말하기: 종이 띠 순서 놀이",
+      "steps": [
+        "부모가 문장 띠 네 장을\n섞어 놓아요.",
+        "아이가 단서에 동그라미를 쳐요.",
+        "순서대로 놓고 근거를 말해요:\nIt은 a wallet을 가리켜요.",
+        "역할을 바꿔 아이가 띠를 만들어요.",
+        "부모도 단서로 순서를 말해요."
+      ],
+      "criteria": [
+        "단서에 동그라미를 쳤어요",
+        "가리키는 말과 짝지어 말했어요",
+        "내 띠에 단서를 넣었어요"
+      ],
+      "notes": {
+        "목적": "부모가 섞어 놓은 문장 띠의 순서를 단서로 정하고 근거를 말한 뒤, 아이가 직접 문장 띠를 만들어 부모에게 냅니다(목표 A·B).",
+        "시간": "약 3분",
+        "말하기": [
+          "“엄마(아빠)가 종이 띠 네 장에 문장을 써서 섞어 놓았어. 단서를 찾아 순서대로 놓고, 왜 그 순서인지 말해 줘.”",
+          "(부모가 쓸 문장 띠: I found a wallet on the bus. / It had a student card in it. / So I called the school and told them about the card. / The next day, the student came to thank me.)",
+          "“이번엔 네가 어제 있었던 일을 세 문장으로 띠에 써서 섞어 줘. 단서(a·the, it·they, So·Then)를 꼭 하나씩 넣어. 엄마(아빠)가 순서를 맞혀 볼게.”"
+        ],
+        "예상답": [
+          "순서: I found a wallet on the bus. → It had a student card in it. → So I called the school ~. → The next day, the student came to thank me.",
+          "근거: It → a wallet, the card → a student card, So → 학생증을 본 결과, The next day·the student → 학생증의 주인",
+          "기준: 단서와 가리키는 말을 짝지어 순서를 설명하고, 직접 만든 띠에 단서를 넣으면 잘한 것입니다."
+        ],
+        "막히면": [
+          "첫 띠를 찾지 못하면 “a wallet처럼 a로 처음 나오는 말이 있는 띠는?”이라고 묻습니다.",
+          "문장 만들기가 어려우면 우리말로 세 문장을 만들고 부모가 영어로 함께 바꿉니다."
+        ],
+        "주의": [
+          "wallet은 ‘지갑’, student card는 ‘학생증’, thank는 ‘고마워하다’입니다. 아이가 만든 띠에 단서가 없으면 부모가 순서를 맞히기 어렵다는 것을 직접 느끼게 해 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "혼자 해 보기(순서와 근거)",
+      "role": "check",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "혼자 정해요: 분실물 상자",
+      "text": "student council 학생회 · come up with 생각해 내다 · for free 무료로",
+      "passage": {
+        "title": "At Hana Middle School, the lost-and-found box was always full. Jackets, water bottles, and umbrellas stayed there for months.",
+        "paragraphs": [
+          "(A) As a result, the box was empty for the first time in years.",
+          "(B) So the student council came up with an idea. They held a Take-It-Home Day at the end of each month.",
+          "(C) On that day, any student could take things from the box for free. Many students also found their own lost things."
+        ]
+      },
+      "question": "(A)(B)(C)의 순서는? 근거를 두 개 이상 말해요.",
+      "notes": {
+        "목적": "도움 없이 다섯 단계로 순서를 정하고, 순서마다 단서와 가리키는 말로 근거를 말하는지 확인합니다(목표 A·B).",
+        "시간": "약 5분",
+        "말하기": [
+          "“이번에는 혼자 해 볼래? 위의 낱말 뜻을 보고 다섯 단계로 풀어. 순서를 말하고, 근거를 두 개 이상 말해 줘.”"
+        ],
+        "정답": [
+          "순서: (B) → (C) → (A)",
+          "근거: (B)의 So → 상자가 늘 가득 찬 문제의 결과로 생각을 냄, a Take-It-Home Day(처음 나옴) / (C)의 On that day → (B)의 Take-It-Home Day / (A)의 As a result → (C)에서 학생들이 물건을 가져간 결과",
+          "기준: 순서를 맞히고 근거(단서 + 가리키는 말)를 두 개 이상 말하면 통과입니다."
+        ],
+        "막히면": [
+          "바로 알려 주지 말고 “On that day는 어느 날이야? 그날이 처음 나오는 문단은?” “As a result는 무엇의 결과야?”라고만 묻습니다.",
+          "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
+        ],
+        "주의": [
+          "이어 읽은 글: At Hana Middle School, the lost-and-found box was always full. Jackets, water bottles, and umbrellas stayed there for months. So the student council came up with an idea. They held a Take-It-Home Day at the end of each month. On that day, any student could take things from the box for free. Many students also found their own lost things. As a result, the box was empty for the first time in years.",
+          "글의 뜻: 하나중학교의 분실물 상자는 늘 가득 차 있었어요. 재킷, 물병, 우산이 몇 달씩 그곳에 있었지요. (B) 그래서 학생회가 생각을 하나 냈어요. 매달 말에 ‘가져가는 날’을 열었지요. (C) 그날에는 어떤 학생이든 상자에서 물건을 무료로 가져갈 수 있었어요. 많은 학생이 잃어버린 자기 물건도 찾았어요. (A) 그 결과 상자가 몇 년 만에 처음으로 비었어요. (lost-and-found box: 분실물 상자, student council: 학생회, come up with: (생각을) 내다, held: hold(열다)의 과거형, for free: 무료로)"
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "kind": "answers",
+      "section": "확인",
+      "purpose": "정답과 피드백",
+      "role": "feedback",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "정답 확인",
+      "teacher_only": true,
+      "goodTitle": "○ 잘한 답",
+      "good": [
+        {
+          "text": "(B) → (C) → (A)"
+        },
+        {
+          "text": "(C) On that day → (B)에서 연 그날"
+        },
+        {
+          "text": "(A) As a result → (C)의 결과"
+        }
+      ],
+      "bad": [
+        {
+          "text": "(C) → (B) → (A)",
+          "note": "On that day가\n가리킬 날이 없어요"
+        },
+        {
+          "text": "(A)를 먼저",
+          "note": "As a result는\n결과라서 뒤에"
+        },
+        {
+          "text": "근거: 그냥요",
+          "note": "단서 + 가리키는\n말로 말해요"
+        }
+      ],
+      "explain": "근거 = 단서 + 가리키는 말",
+      "notes": {
+        "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
+        "시간": "약 1분",
+        "말하기": [
+          "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 정하면 무엇을 놓친 걸까?”"
+        ],
+        "예상답": [
+          "“On that day가 가리키는 날이 앞에 있어야 해요.” “As a result는 마지막이에요.”"
+        ],
+        "정답": [
+          "(B) → (C) → (A) — 근거: So·a Take-It-Home Day / On that day / As a result"
+        ],
+        "막히면": [
+          "순서를 틀렸으면 S05(다섯 단계)와 S07(근거 표)을 다시 봅니다."
+        ],
+        "주의": [
+          "이 장은 학생용 파일에서 빠집니다. 잘한 점을 먼저 말해 준 뒤 고칠 점을 하나만 말합니다."
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "kind": "passage",
+      "section": "확인",
+      "purpose": "마무리 확인(짧은 순서 문제)",
+      "role": "check",
+      "objectives": [
+        "A"
+      ],
+      "title": "순서를 정해요: 해변 청소",
+      "text": "trash 쓰레기 · club 동아리 · join 함께하다 · thanks to ~ 덕분에",
+      "passage": {
+        "title": "Our town had a big problem with trash on the beach.",
+        "paragraphs": [
+          "(A) Thanks to them, the beach is clean now.",
+          "(B) So some students started a club to clean it every Saturday.",
+          "(C) Soon, many people in the town joined these students."
+        ]
+      },
+      "question": "(A)(B)(C)의 순서는? 어떤 단서를 보고 정했나요?",
+      "notes": {
+        "목적": "처음 보는 짧은 순서 문제에서 단서(So, these students, Thanks to them)로 순서를 정하는지 확인합니다(목표 A).",
+        "시간": "약 3분",
+        "말하기": [
+          "“주어진 글 다음에 올 순서를 정하고, 단서를 말해 줘.”"
+        ],
+        "정답": [
+          "순서: (B) → (C) → (A)",
+          "근거: (B)의 So → 쓰레기 문제의 결과로 동아리를 시작, some students(처음 나옴) / (C)의 these students → (B)의 some students / (A)의 Thanks to them → (C)의 학생들과 마을 사람들, 해변이 깨끗해진 결과",
+          "기준: 순서를 맞히고 단서를 하나 이상 말하면 통과입니다. 틀리면 기록표에 적고 다음 수업 첫 5분에 S07을 다시 봅니다."
+        ],
+        "막히면": [
+          "“these students는 어떤 학생들이야? 학생들이 처음 나오는 문단은?”이라고만 묻습니다."
+        ],
+        "주의": [
+          "이어 읽은 글: Our town had a big problem with trash on the beach. So some students started a club to clean it every Saturday. Soon, many people in the town joined these students. Thanks to them, the beach is clean now.",
+          "글의 뜻: 우리 마을은 해변의 쓰레기 때문에 큰 문제가 있었어요. (B) 그래서 몇몇 학생이 토요일마다 해변을 청소하는 동아리를 시작했어요. (C) 곧 마을의 많은 사람이 이 학생들과 함께했어요. (A) 그들 덕분에 지금 해변은 깨끗해요. (trash: 쓰레기, beach: 해변, club: 동아리, join: 함께하다, thanks to: ~ 덕분에)"
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "kind": "summary",
+      "section": "정리",
+      "purpose": "다음 학습과 복습",
+      "role": "review",
+      "objectives": [
+        "A",
+        "B"
+      ],
+      "title": "오늘 배운 것",
+      "key": "단서: a → the,   this·these·it·they,   However·For example·So\n근거 = 단서 + 가리키는 말,   정한 순서대로 이어 읽어 확인",
+      "do": "단서와 가리키는 말로 정하기",
+      "dont": "느낌으로 순서 정하기",
+      "review": [
+        {
+          "text": "순서의 단서\n세 가지는?"
+        },
+        {
+          "text": "순서는?\n(가) The cat is white.\n(나) I have a cat."
+        },
+        {
+          "text": "these가 있는 문장이\n뒤에 오는 까닭은?"
+        }
+      ],
+      "next": "문장 삽입 위치 찾기",
+      "notes": {
+        "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
+        "시간": "약 2분",
+        "말하기": [
+          "“순서를 알려 주는 단서 세 가지는?”",
+          "“근거는 어떻게 말한다고 했지?”"
+        ],
+        "예상답": [
+          "“관사, 지시어·대명사, 연결어요.” “단서랑 가리키는 말을 짝지어 말해요.”"
+        ],
+        "정답": [
+          "① 관사(a → the), 지시어·대명사(this, these, it, they, one), 연결어(However, For example, So)",
+          "② (나) → (가): a cat → The cat",
+          "③ 단서가 가리키는 말이 앞에 있어야 하므로, 가리키는 말이 있는 문장(문단)이 먼저 온다"
+        ],
+        "주의": [
+          "교과서 본문 한 단락에서 this, they, the 같은 낱말을 찾아 “무엇을 가리킬까?”를 물어보면 좋은 복습이 됩니다. 다음 차시 ‘문장 삽입 위치 찾기’에서는 오늘 배운 단서로 주어진 문장이 글의 어디에 들어가야 하는지 찾습니다."
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "kind": "table",
+      "section": "보충",
+      "purpose": "보충(지시어·대명사가 가리키는 말 찾기)",
+      "role": "support",
+      "objectives": [],
+      "title": "보충: 무엇을 가리킬까?",
+      "layout": "support",
+      "text": "지시어·대명사는 앞에 나온 말을 가리켜요.",
+      "table": {
+        "headers": [
+          "첫째 문장",
+          "둘째 문장",
+          "가리키는 말"
+        ],
+        "rows": [
+          [
+            "I have a cat.",
+            "It sleeps all day.",
+            "It → ?"
+          ],
+          [
+            "Jun and Mina are\nmy friends.",
+            "They live next door.",
+            "They → ?"
+          ],
+          [
+            "We should save water.",
+            "This is very important.",
+            "This → ?"
+          ]
+        ],
+        "widths": [
+          0.36,
+          0.38,
+          0.26
+        ],
+        "width": 12.13,
+        "size": 24
+      },
+      "key": {
+        "title": "연결어 다시 보기",
+        "text": "However 반대 · For example 예 · So, As a result 결과"
+      },
+      "notes": {
+        "목적": "S02에서 연결어가 흔들리거나 S04에서 지시어·대명사가 가리키는 말을 찾지 못하면, 짧은 두 문장으로 가리키는 말 찾기를 다시 연습합니다.",
+        "시간": "약 4분",
+        "말하기": [
+          "“표의 둘째 문장에서 It, They, This가 각각 무엇을 가리키는지 첫째 문장에서 찾아볼래?”",
+          "“가리키는 말에 동그라미, 지시어에서 화살표를 그어 이어 봐.”"
+        ],
+        "정답": [
+          "It → a cat / They → Jun and Mina / This → 물을 아끼는 것(saving water)"
+        ],
+        "막히면": [
+          "“It은 하나야, 여럿이야? 사람이야, 동물이야?”처럼 단서의 수와 종류를 먼저 묻습니다.",
+          "보충으로도 어렵다면 계획의 선수 차시 중2 ‘연결어로 글의 흐름 파악’(KR22-G08-ENG-LINKERS-L01)과 ‘요지·주제·제목 찾기’(KR22-G10-ENG-MAINIDEA-L01)를 먼저 다시 하고 이 차시를 시작합니다."
+        ],
+        "주의": [
+          "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다. next door는 ‘옆집에’, save는 ‘아끼다’입니다."
+        ]
+      }
+    }
+  ],
+  "worksheet": {
+    "title": "글의 순서 정하기 활동지",
+    "items": [
+      {
+        "no": 1,
+        "prompt": "먼저 올 문장에 ○ 하고, 단서가 된 낱말을 쓰세요.",
+        "table": {
+          "headers": [
+            "두 문장",
+            "먼저",
+            "단서"
+          ],
+          "rows": [
+            [
+              "(가) The cake was delicious.\n(나) My mom baked a cake.",
+              "",
+              ""
+            ],
+            [
+              "(가) They are very kind.\n(나) I have two new neighbors.",
+              "",
+              ""
+            ],
+            [
+              "(가) As a result, I was late for school.\n(나) I missed the bus this morning.",
+              "",
+              ""
+            ],
+            [
+              "(가) For example, it eats fruit, leaves, and insects.\n(나) This bird eats many kinds of food.",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.64,
+            0.12,
+            0.24
+          ],
+          "size": 12,
+          "firstColHead": true
+        },
+        "answer": "① (나) 먼저 — a cake → The cake ② (나) 먼저 — two new neighbors → They ③ (나) 먼저 — As a result(버스를 놓친 결과 지각) ④ (나) 먼저 — For example(여러 가지를 먹는다는 것의 예). 네 개 가운데 세 개 이상을 단서와 함께 맞히면 통과. (delicious: 맛있는, bake: 굽다, neighbor: 이웃, miss: 놓치다, insect: 곤충)"
+      },
+      {
+        "no": 2,
+        "prompt": "첫 줄이 주어진 글이에요. 그다음에 이어질 순서를 쓰고, 근거를 두 개 쓰세요(단서 → 가리키는 말).",
+        "read": "Many plastic bottles end up in trash bins after just one use.\n(A) These small pieces are melted and made into thin threads. The threads are then used to make jackets and T-shirts.\n(B) However, some of them get a second life. They are collected, washed, and cut into very small pieces.\n(C) So the next time you wear a sports jacket, check its label. It might be made from bottles like the one in your hand.",
+        "line_label": "순서 · 근거:",
+        "lines": 3,
+        "answer": "순서: (B) → (A) → (C). 근거: (B)의 some of them → 주어진 글의 plastic bottles, However → 한 번 쓰고 버려짐 ↔ 두 번째 삶 / (A)의 These small pieces → (B)의 very small pieces / (C)의 So → 병이 옷이 된다는 내용의 결론. 순서와 근거 두 개가 맞으면 통과. 낱말 뜻: end up in 결국 ~에 들어가다, trash bin 쓰레기통, collect 모으다, melt 녹이다, thread 실, label (옷의) 상표. 이어 읽은 글: Many plastic bottles end up in trash bins after just one use. However, some of them get a second life. They are collected, washed, and cut into very small pieces. These small pieces are melted and made into thin threads. The threads are then used to make jackets and T-shirts. So the next time you wear a sports jacket, check its label. It might be made from bottles like the one in your hand. 글의 뜻: 많은 플라스틱 병이 한 번 쓰인 뒤 쓰레기통에 들어가요. (B) 하지만 그중 일부는 두 번째 삶을 얻어요. 모아서 씻은 뒤 아주 작은 조각으로 잘라요. (A) 이 작은 조각들을 녹여 가는 실로 만들어요. 그 실로 재킷과 티셔츠를 만들지요. (C) 그러니 다음에 운동복 재킷을 입으면 상표를 확인해 보세요. 손에 든 것 같은 병으로 만들었을지도 몰라요."
+      },
+      {
+        "no": 3,
+        "prompt": "첫 줄이 주어진 글이에요. 그다음에 이어질 순서를 쓰고, 근거를 두 개 쓰세요.",
+        "read": "Last winter, Junho found a small, wet kitten under a car near his house.\n(A) The vet said that the kitten was healthy but very hungry. Junho's family decided to take care of it until they found it a new home.\n(B) He wrapped it in his scarf and took it to an animal hospital right away.\n(C) However, after a week, nobody in the family wanted to give it to anyone else. The kitten was already part of the family.",
+        "line_label": "순서 · 근거:",
+        "lines": 3,
+        "answer": "순서: (B) → (A) → (C). 근거: (B)의 He, it → 주어진 글의 Junho, a small, wet kitten / (A)의 The vet → (B)의 an animal hospital(동물 병원의 수의사) / (C)의 However → (A)의 ‘새 집을 찾을 때까지만 돌보기로 함’과 반대로 아무도 내주고 싶어 하지 않음. 순서와 근거 두 개가 맞으면 통과. 낱말 뜻: kitten 새끼 고양이, wet 젖은, wrap 감싸다, right away 곧바로, vet 수의사, take care of 돌보다, until ~할 때까지. 이어 읽은 글: Last winter, Junho found a small, wet kitten under a car near his house. He wrapped it in his scarf and took it to an animal hospital right away. The vet said that the kitten was healthy but very hungry. Junho's family decided to take care of it until they found it a new home. However, after a week, nobody in the family wanted to give it to anyone else. The kitten was already part of the family. 글의 뜻: 지난겨울 준호는 집 근처 차 밑에서 작고 젖은 새끼 고양이를 발견했어요. (B) 준호는 고양이를 목도리로 감싸서 곧바로 동물 병원에 데려갔어요. (A) 수의사는 고양이가 건강하지만 많이 배가 고프다고 했어요. 준호네 가족은 새 집을 찾아 줄 때까지 고양이를 돌보기로 했어요. (C) 하지만 일주일 뒤, 가족 중 아무도 고양이를 다른 사람에게 주고 싶어 하지 않았어요. 고양이는 이미 가족이었어요."
+      },
+      {
+        "no": 4,
+        "new_page": true,
+        "heading": "다음 수업을 시작할 때",
+        "prompt": "① 글의 순서를 알려 주는 단서 세 가지를 쓰세요.\n② (가) The cat is white. (나) I have a cat. — 순서와 단서를 쓰세요.\n③ these가 있는 문장이 뒤에 오는 까닭을 쓰세요.",
+        "lines": 3,
+        "answer": "① 관사(a → the), 지시어·대명사(this, these, it, they), 연결어(However, For example, So) ② (나) → (가), a cat → The cat ③ these가 가리키는 말이 앞에 나와 있어야 하기 때문. 세 가지 모두 도움 없이 하면 통과."
+      }
+    ],
+    "record": [
+      "S11 혼자 해 보기: 순서 □  근거 두 개 이상 □ (도움을 받음 □)",
+      "S13 마무리 확인: 순서 맞힘 □  틀림 □",
+      "단서 없이 느낌으로 순서를 정하거나 근거를 말하지 못함: 없음 □  있음 □ (있으면 다음 수업 첫 5분에 다시 연습)"
+    ]
+  },
+  "break_after": "S08",
+  "status": "제작 완료"
+}
