@@ -287,7 +287,7 @@
       "purpose": "선수 학습 확인(위도 · 경도, 지표, 지도 앱)",
       "role": "prior",
       "objectives": [],
-      "title": "지난 시간 기억하기",
+      "title": "배운 것 기억하기",
       "text": "중1과 지난 시간을 떠올려요.",
       "problems": [
         {
