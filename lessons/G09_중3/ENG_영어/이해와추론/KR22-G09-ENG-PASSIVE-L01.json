@@ -1064,7 +1064,7 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① is ② are ③ was ④ were ⑤ was ⑥ were. 여섯 개 가운데 다섯 개 이상이면 통과. ①②는 지금·늘 하는 일, ③~⑥은 지난 일(2005, last year, yesterday, last spring)입니다. (bake: 굽다, bridge: 다리, lost: 잃어버린, police officer: 경찰관, plant: 심다)"
+        "answer": "① is ② are(were도 맞음) ③ was ④ were ⑤ was ⑥ were. 여섯 개 가운데 다섯 개 이상이면 통과. ①②는 지금·늘 하는 일, ③~⑥은 지난 일(2005, last year, yesterday, last spring)입니다. (bake: 굽다, bridge: 다리, lost: 잃어버린, police officer: 경찰관, plant: 심다)"
       },
       {
         "no": 3,
