@@ -377,7 +377,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "She wants to goes home."
+              "word": "She wants to go home."
             }
           ]
         }
@@ -389,7 +389,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "She wants to go home."
+              "word": "She wants to goes home."
             }
           ]
         }
@@ -403,7 +403,7 @@
           "“주어가 she라서 -s를 붙여야 하는 건 맞아. 그런데 어디에 붙여야 할까? wants에 이미 -s가 있지?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(She wants to go home.)입니다. 가는 to 뒤의 go에 -s를 붙여 goes로 썼습니다. -s는 주어 바로 뒤의 동사 want에만 붙이고, to 뒤는 늘 동사원형입니다."
+          "바르게 쓴 쪽은 가(She wants to go home.)입니다. 나는 to 뒤의 go에 -s를 붙여 goes로 썼습니다. -s는 주어 바로 뒤의 동사 want에만 붙이고, to 뒤는 늘 동사원형입니다."
         ],
         "막히면": [
           "S03의 열쇠 문장(to 뒤에는 늘 동사원형)을 다시 보여 줍니다."
@@ -919,7 +919,8 @@
         "말하기": [
           "“표를 소리 내어 읽어 보자. I like cats. She likes cats.”",
           "“don't, doesn't 뒤의 like에는 -s가 있어, 없어? 이렇게 -s를 붙이지 않은 원래 모양을 동사원형이라고 해.”",
-          "“엄마(아빠)가 주어를 말하면 문장을 완성해 봐. he, play soccer!” (아이: “He plays soccer.”) “I, play soccer!” (아이: “I play soccer.”)"
+          "“엄마(아빠)가 주어를 말하면 문장을 완성해 봐. he, play soccer!” (아이: “He plays soccer.”) “I, play soccer!” (아이: “I play soccer.”)",
+          "“이번엔 ‘좋아하지 않는다’로 말해 봐. she, milk!” (아이: “She doesn't like milk.”)"
         ],
         "정답": [
           "He plays soccer. / I play soccer. / She doesn't like milk. / 동사원형: like, play, go처럼 -s를 붙이지 않은 모양"

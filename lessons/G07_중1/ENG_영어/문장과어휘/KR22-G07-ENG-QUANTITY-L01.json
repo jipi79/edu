@@ -308,7 +308,8 @@
         ],
         "주의": [
           "bread는 우리말로 ‘빵 한 개’라고 하지만 영어에서는 셀 수 없는 명사입니다(a piece of bread, a loaf of bread로 셉니다). money도 동전(coin)은 셀 수 있지만 money는 셀 수 없습니다.",
-          "time은 ‘~번’이라는 뜻(three times)일 때는 셀 수 있습니다. 오늘은 ‘시간’의 뜻만 씁니다."
+          "time은 ‘~번’이라는 뜻(three times)일 때는 셀 수 있습니다. 오늘은 ‘시간’의 뜻만 씁니다.",
+          "chicken(닭 한 마리는 a chicken, 닭고기는 chicken), paper(종이는 paper, 신문은 a paper)처럼 뜻에 따라 셀 수도 있고 없기도 한 명사가 있습니다. 아이가 물을 때만 알려 줍니다."
         ]
       }
     },
@@ -392,10 +393,10 @@
           "text": "I have ______ friends.\n(many / much)"
         },
         {
-          "text": "I don't have ______ time.\n(many / much)"
+          "text": "I don't have ______ time.\n(much / many)"
         },
         {
-          "text": "She drinks ______ water.\n(a lot of / many)"
+          "text": "She drinks ______ water.\n(many / a lot of)"
         },
         {
           "text": "Do you have ______ money?\n(many / much)"

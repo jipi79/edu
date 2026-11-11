@@ -499,11 +499,11 @@
         "시간": "약 3분",
         "말하기": [
           "“①부터 지시대로 바꾸어 말해 줘.”",
-          "“②의 The test는 대답할 때 무엇으로 바꿀까?”"
+          "“②를 물은 다음에는 Yes로 대답도 해 볼까? The test는 무엇으로 바꿔?”"
         ],
         "정답": [
           "① I wasn't sleepy. (I was not sleepy.)",
-          "② Was the test easy?",
+          "② Was the test easy? (이어서 대답하면 Yes, it was.)",
           "③ Yes, I was.",
           "④ No, they weren't."
         ],
@@ -594,10 +594,10 @@
           "text": "______ she go out?\n(Did / Was)"
         },
         {
-          "text": "I ______ hungry.\n(didn't / wasn't)"
+          "text": "I ______ hungry.\n(wasn't / didn't)"
         },
         {
-          "text": "We ______ watch TV.\n(didn't / weren't)"
+          "text": "We ______ watch TV.\n(weren't / didn't)"
         }
       ],
       "hint": "뒤에 일반동사가 있으면 did, 상태나 장소면 was, were",

@@ -63,12 +63,12 @@
     {
       "id": "M1",
       "text": "will·going to 뒤에 동사원형이 아닌 모양을 쓴다(He will plays. I'm going to played. I will going to the park.).",
-      "response": "S03에서 ‘주어가 누구든 will 뒤는 동사원형’을 보여 주고, S06에서 He will plays와 He will play를 나란히 비교한다. S05·S11 ①과 활동지 1·2에서 확인한다."
+      "response": "S03에서 ‘주어가 누구든 will 뒤는 동사원형’을 보여 주고, S06에서 He will plays와 He will play를 나란히 비교한다. S05 ①④⑥과 활동지 1에서 확인한다."
     },
     {
       "id": "M2",
       "text": "be going to에서 be동사를 빠뜨리거나(I going to study.), 주어와 be동사의 짝을 틀린다(She are going to swim.).",
-      "response": "S04의 표에서 be동사를 주어에 맞게 고르는 것을 be동사 문장과 연결하고, S05에서 빈칸에 be동사를 넣게 한다."
+      "response": "S04의 표에서 be동사를 주어에 맞게 고르는 것을 be동사 문장과 연결하고, S05 ②③⑤, S11 ①과 활동지 2에서 빈칸에 be동사를 넣게 한다."
     },
     {
       "id": "M3",
@@ -318,7 +318,7 @@
       "text": "빈칸에 be동사를 넣거나, 괄호에서 골라 읽어요.",
       "problems": [
         {
-          "text": "It will (rain / rains)."
+          "text": "It will (rains / rain)."
         },
         {
           "text": "She ______ going to swim."
@@ -333,7 +333,7 @@
           "text": "I ______ going to read."
         },
         {
-          "text": "They will (come / came)."
+          "text": "They will (came / come)."
         }
       ],
       "hint": "be going to의 be는 주어에 맞게, will 뒤는 동사원형으로!",
@@ -357,7 +357,7 @@
           "④에서 is를 고르면 “am, are, is의 원래 모양은 be야. will 뒤에는 be를 써.”라고 알려 줍니다."
         ],
         "주의": [
-          "④ will be는 아이들이 가장 어려워하는 모양입니다. I will be thirteen next year.(나는 내년에 열세 살이 될 거예요.) 같은 예를 하나 더 들어 줍니다."
+          "④ will be는 아이들이 가장 어려워하는 모양입니다. I will be fourteen next year.(나는 내년에 열네 살이 될 거예요.) 같은 예를 하나 더 들어 줍니다."
         ]
       }
     },
@@ -379,7 +379,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "He will plays soccer."
+              "word": "He will play soccer."
             }
           ]
         }
@@ -391,7 +391,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "He will play soccer."
+              "word": "He will plays soccer."
             }
           ]
         }
@@ -405,7 +405,7 @@
           "“He가 3인칭 단수라서 s를 붙이고 싶지? 그런데 will이 있으면 어떻게 했지?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(He will play soccer.)입니다. will 뒤에는 주어와 상관없이 동사원형을 씁니다. 앞에서 배운 doesn't, didn't 뒤와 같습니다."
+          "바르게 쓴 쪽은 가(He will play soccer.)입니다. will 뒤에는 주어와 상관없이 동사원형을 씁니다. 앞에서 배운 doesn't, didn't 뒤와 같습니다."
         ],
         "막히면": [
           "S03의 ‘주어가 누구든 will은 그대로’ 카드를 다시 보여 줍니다."
