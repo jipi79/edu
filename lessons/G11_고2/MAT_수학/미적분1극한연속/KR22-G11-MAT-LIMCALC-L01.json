@@ -1,0 +1,65 @@
+{
+  "id": "KR22-G11-MAT-LIMCALC-L01",
+  "concept_id": "MAT-LIMCALC",
+  "title": "극한값의 계산",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "미적분1극한연속",
+  "sequence": 2,
+  "file_stem": "고2_수학_미적분1극한연속_02_극한값의계산",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I02"
+    ],
+    "units": [
+      "2.6.1"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "극한의 성질을 이용하고 0/0 꼴은 인수분해, ∞/∞ 꼴은 최고차항으로 나누어 극한값을 구한다.",
+  "prerequisites": [
+    {
+      "text": "함수의 극한",
+      "lesson": "KR22-G11-MAT-LIMIT-L01",
+      "grade_item": "KR22-G11-MAT-I02"
+    },
+    {
+      "text": "인수분해",
+      "lesson": "KR22-G10-MAT-FACTOR-L01",
+      "grade_item": "KR22-G10-MAT-I01"
+    },
+    {
+      "text": "유리식의 계산",
+      "lesson": "KR22-G10-MAT-RATEXPR-L01",
+      "grade_item": "KR22-G10-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "극한값의 계산 활동지",
+    "items": [],
+    "record": []
+  }
+}
