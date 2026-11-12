@@ -664,7 +664,7 @@
         ],
         "주의": [
           "이 글에는 However가 없습니다. 첫 문장과 끝 두 문장이 주제문이고, 가운데(그늘, 먼지, 스트레스)는 뒷받침하는 내용입니다. In addition은 ‘게다가’입니다.",
-          "글의 뜻: 도시의 나무는 거리를 아름답게 하는 것 이상의 일을 해요. 더운 여름날 나무는 그늘을 만들어서 그 아래 공기가 햇볕 아래 공기보다 훨씬 시원해요. 또 나뭇잎이 먼지를 붙잡아서 공기를 더 깨끗하게 해요. 게다가 공원과 나무 가까이 사는 사람들은 스트레스를 덜 느끼는 경우가 많아요. 그래서 요즘 많은 도시가 나무를 더 심고 있어요. 나무는 장식품이 아니에요. 도시 생활을 더 건강하고 편안하게 만드는 중요한 도우미예요. (shade: 그늘, dust: 먼지, stressed: 스트레스를 받는, decoration: 장식품, comfortable: 편안한)"
+          "글의 뜻: 도시의 나무는 거리를 아름답게 하는 것 이상의 일을 해요. 더운 여름날 나무는 그늘을 만들어서 그 아래 공기가 햇볕 아래 공기보다 훨씬 시원해요. 또 나뭇잎이 먼지를 붙잡아서 공기를 더 깨끗하게 해요. 게다가 공원과 나무 가까이 사는 사람들은 스트레스를 덜 느끼는 경우가 많아요. 그래서 요즘 많은 도시가 나무를 더 심고 있어요. 나무는 그저 장식품이 아니에요. 도시 생활을 더 건강하고 편안하게 만드는 중요한 도우미예요. (shade: 그늘, dust: 먼지, stressed: 스트레스를 받는, decoration: 장식품, comfortable: 편안한)"
         ]
       }
     },
@@ -945,7 +945,7 @@
         "read": "When Jisu's grandfather was young, he read the newspaper aloud every morning. Jisu thought it was a strange habit. But last month, she tried reading her English textbook aloud before a test. She noticed that she made fewer mistakes and remembered new words better. When you read aloud, you see the words, say them, and hear them at the same time. Using your eyes, mouth, and ears together helps your brain remember. Reading aloud is not just an old habit; it is a useful way to study.",
         "line_label": "요지 · 주제문 · 제목:",
         "lines": 3,
-        "answer": "요지 예: 소리 내어 읽기는 옛날 습관이 아니라 눈·입·귀를 함께 써서 기억을 돕는 유용한 공부 방법이다. 주제문: Reading aloud is not just an old habit; it is a useful way to study. 제목 예: Read It Out Loud! / Reading Aloud: An Old Habit, A New Study Tool / 소리 내어 읽으면 더 잘 기억해요. 요지에 주제(소리 내어 읽기)와 핵심(유용한 공부 방법)이 들어가고, 제목이 요지와 같은 방향이면 통과. ‘할아버지는 신문을 읽었다’처럼 이야기의 세부를 쓰면 너무 좁습니다. 낱말 뜻: aloud 소리 내어, habit 습관, notice 알아차리다, fewer 더 적은. 글의 뜻: 지수의 할아버지는 젊었을 때 매일 아침 신문을 소리 내어 읽으셨어요. 지수는 그것이 이상한 습관이라고 생각했지요. 그런데 지난달 지수는 시험 전에 영어 교과서를 소리 내어 읽어 보았어요. 실수를 덜 하고 새 낱말을 더 잘 기억한다는 것을 알게 되었지요. 소리 내어 읽으면 낱말을 보고, 말하고, 듣는 것을 동시에 하게 돼요. 눈, 입, 귀를 함께 쓰는 것이 뇌가 기억하도록 도와줘요. 소리 내어 읽기는 그저 옛날 습관이 아니라 유용한 공부 방법이에요."
+        "answer": "요지 예: 소리 내어 읽기는 그저 옛날 습관이 아니라 눈·입·귀를 함께 써서 기억을 돕는 유용한 공부 방법이다. 주제문: Reading aloud is not just an old habit; it is a useful way to study. 제목 예: Read It Out Loud! / Reading Aloud: An Old Habit, A New Study Tool / 소리 내어 읽으면 더 잘 기억해요. 요지에 주제(소리 내어 읽기)와 핵심(유용한 공부 방법)이 들어가고, 제목이 요지와 같은 방향이면 통과. ‘할아버지는 신문을 읽었다’처럼 이야기의 세부를 쓰면 너무 좁습니다. 낱말 뜻: aloud 소리 내어, habit 습관, notice 알아차리다, fewer 더 적은. 글의 뜻: 지수의 할아버지는 젊었을 때 매일 아침 신문을 소리 내어 읽으셨어요. 지수는 그것이 이상한 습관이라고 생각했지요. 그런데 지난달 지수는 시험 전에 영어 교과서를 소리 내어 읽어 보았어요. 실수를 덜 하고 새 낱말을 더 잘 기억한다는 것을 알게 되었지요. 소리 내어 읽으면 낱말을 보고, 말하고, 듣는 것을 동시에 하게 돼요. 눈, 입, 귀를 함께 쓰는 것이 뇌가 기억하도록 도와줘요. 소리 내어 읽기는 그저 옛날 습관이 아니라 유용한 공부 방법이에요."
       },
       {
         "no": 5,
