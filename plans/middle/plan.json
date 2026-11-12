@@ -939,6 +939,32 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G07-MAT-SPACEREL-L01",
+  "concept_id": "MAT-SPACEREL",
+  "grade": "G07",
+  "grade_label": "중1",
+  "band": "M",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G07-MAT-I03",
+  "folder": "공간의위치관계",
+  "sequence": 1,
+  "units": [
+   "2.4.3"
+  ],
+  "title": "공간에서 직선과 평면의 위치 관계",
+  "objective": "공간에서 직선과 평면의 위치 관계(포함·한 점에서 만남·평행)와 두 평면의 위치 관계(만남·평행)를 구별하고 직육면체에서 찾는다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G07-MAT-PARALLEL-L01",
+   "KR22-G05-MAT-CUBOID-L01"
+  ],
+  "file_stem": "중1_수학_공간의위치관계_01_공간에서직선과평면의위치관계",
+  "source": "lessons/G07_중1/MAT_수학/공간의위치관계/KR22-G07-MAT-SPACEREL-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G07-MAT-CONSTRUCT-L01",
   "concept_id": "MAT-CONSTRUCT",
   "grade": "G07",

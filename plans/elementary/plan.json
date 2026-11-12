@@ -1538,6 +1538,33 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G02-KOR-GYEOPBATCHIM-L01",
+  "concept_id": "KOR-GYEOPBATCHIM",
+  "grade": "G02",
+  "grade_label": "초2",
+  "band": "E12",
+  "strand": "KOR",
+  "strand_label": "국어",
+  "grade_item": "KR22-G02-KOR-I01",
+  "folder": "겹받침",
+  "sequence": 1,
+  "units": [
+   "1.1.1",
+   "1.1.2"
+  ],
+  "title": "겹받침이 있는 낱말",
+  "objective": "겹받침(ㄶ ㄺ ㄼ ㅄ 등)이 있는 낱말을 바르게 읽고, 소리 나는 대로 쓰지 않고 바르게 쓴다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G02-KOR-LINKSOUND-L01",
+   "KR22-G01-KOR-BATCHIM2-L01"
+  ],
+  "file_stem": "초2_국어_겹받침_01_겹받침이있는낱말",
+  "source": "lessons/G02_초2/KOR_국어/겹받침/KR22-G02-KOR-GYEOPBATCHIM-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G02-KOR-SPELL-L01",
   "concept_id": "KOR-SPELL",
   "grade": "G02",
@@ -3558,6 +3585,31 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G03-MAT-FRACCOMP-L01",
+  "concept_id": "MAT-FRACCOMP",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G03-MAT-I02",
+  "folder": "분수와소수",
+  "sequence": 6,
+  "units": [
+   "2.1.2"
+  ],
+  "title": "가분수와 대분수의 크기 비교",
+  "objective": "분모가 같은 가분수와 대분수의 크기를 비교한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G03-MAT-MIXED-L01"
+  ],
+  "file_stem": "초3_수학_분수와소수_06_가분수와대분수의크기비교",
+  "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-FRACCOMP-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G03-MAT-LINES-L01",
   "concept_id": "MAT-LINES",
   "grade": "G03",
@@ -3684,6 +3736,31 @@
   "file_stem": "초3_수학_도형과측정_05_초와시간의계산",
   "source": "lessons/G03_초3/MAT_수학/도형과측정/KR22-G03-MAT-SECOND-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G03-MAT-TIMECALC-L01",
+  "concept_id": "MAT-TIMECALC",
+  "grade": "G03",
+  "grade_label": "초3",
+  "band": "E34",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G03-MAT-I03",
+  "folder": "시각과시간",
+  "sequence": 1,
+  "units": [
+   "2.4.1"
+  ],
+  "title": "시각과 시간의 계산",
+  "objective": "시·분·초가 함께 나오는 시간의 덧셈·뺄셈을 하고 두 시각 사이의 시간을 구한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G03-MAT-SECOND-L01"
+  ],
+  "file_stem": "초3_수학_시각과시간_01_시각과시간의계산",
+  "source": "lessons/G03_초3/MAT_수학/시각과시간/KR22-G03-MAT-TIMECALC-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G03-MAT-LITER-L01",

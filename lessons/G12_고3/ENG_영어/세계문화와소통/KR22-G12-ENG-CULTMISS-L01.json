@@ -455,7 +455,7 @@
           "Lena: Thanks! I'm glad you like it. Let's keep it as it is.",
           "Jiho: Oh... okay.",
           "(Jiho thinks the red text is hard to read. Later, he tells a friend that Lena never listens.)",
-          "(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually says the problem clearly.)"
+          "(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually states the problem clearly.)"
         ]
       },
       "question": "① 지호가 하고 싶었던 말은?  ② 레나는 왜 칭찬으로 들었을까?",
@@ -512,8 +512,8 @@
         ],
         "정답": [
           "① 지호의 기대: 부드럽게 말해도 상대가 문제를 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함",
-          "② 레나의 기대: 문제가 있으면 분명히 말할 것(she usually says the problem clearly) / 해석: 칭찬",
-          "③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to say the problem clearly.",
+          "② 레나의 기대: 문제가 있으면 분명히 말할 것(she usually states the problem clearly) / 해석: 칭찬",
+          "③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to state the problem clearly.",
           "④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
         ],
         "막히면": [
@@ -640,9 +640,9 @@
           "“세 질문에 답해 줘. ②③은 영어로 써 봐.”"
         ],
         "정답": [
-          "① 혜진: 저녁은 7시에 시작하니 손님은 7시까지 온다 / 아나: 파티는 시작 시각보다 조금 늦게 가도 된다 → 혜진은 아나가 무례하다고, 아나는 혜진이 왜 속상한지 모른다고 해석",
+          "① 혜진: 저녁은 7시에 시작하니 손님은 7시까지 온다 / 아나: 파티는 시작 시각보다 조금 늦게 가도 된다 → 해석: 혜진은 아나가 무례하다고 여김, 아나는 혜진이 왜 속상한지 몰라 놀람",
           "② Ana may have thought that arriving a little late was normal for a party, while Hyejin probably expected her guests to come at 7 for dinner.",
-          "③ 예: Ana: I'm so sorry I'm late. At parties I've been to, people often come a little after the start time. I didn't know dinner started at 7. / Hyejin: Oh, I see. Thanks for explaining. Come and sit down! (또는 초대할 때 Hyejin: Dinner starts at 7, so please come on time.)",
+          "③ 예: Ana: I'm so sorry I'm late. At parties I've been to, people often come a little after the start time. I didn't know dinner would start right at 7. / Hyejin: Oh, I see. Thanks for explaining. Come and sit down! (또는 초대할 때 Hyejin: Dinner starts at 7, so please come on time.)",
           "기준: ②에 두 사람의 기대와 조심스러운 말(may, probably 등)이 모두 있고, ③에서 고치는 말을 두 가지 이상 넣어 두 사람이 한 번 이상 말하면 통과입니다."
         ],
         "막히면": [
@@ -907,7 +907,7 @@
       {
         "no": 2,
         "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 2. ①②는 표에 우리말로, ③ 원인 문장과 ④ 오해를 푸는 말(레나 한 줄 + 지호 한 줄)은 아래 줄에 영어로 쓰세요(S09).",
-        "read": "(Jiho and Lena are making slides for a group project.)\nLena: What do you think of my design?\nJiho: Hmm, it's interesting. Maybe we could think about the colors a little more.\nLena: Thanks! I'm glad you like it. Let's keep it as it is.\nJiho: Oh... okay.\n(Jiho thinks the red text is hard to read. Later, he tells a friend that Lena never listens.)\n(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually says the problem clearly.)",
+        "read": "(Jiho and Lena are making slides for a group project.)\nLena: What do you think of my design?\nJiho: Hmm, it's interesting. Maybe we could think about the colors a little more.\nLena: Thanks! I'm glad you like it. Let's keep it as it is.\nJiho: Oh... okay.\n(Jiho thinks the red text is hard to read. Later, he tells a friend that Lena never listens.)\n(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually states the problem clearly.)",
         "table": {
           "headers": [
             "질문",
@@ -932,7 +932,7 @@
         },
         "line_label": "③ 원인 문장 / ④ 오해를 푸는 말(영어):",
         "lines": 4,
-        "answer": "① 기대: 부드럽게 말해도 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함 ② 기대: 문제가 있으면 분명히 말할 것(she usually says the problem clearly) / 해석: 칭찬 ③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to say the problem clearly. ④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
+        "answer": "① 기대: 부드럽게 말해도 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함 ② 기대: 문제가 있으면 분명히 말할 것(she usually states the problem clearly) / 해석: 칭찬 ③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to state the problem clearly. ④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
       },
       {
         "no": 3,
@@ -972,7 +972,7 @@
         },
         "line_label": "② 원인 문장 / ③ 고쳐 쓴 대화(영어):",
         "lines": 6,
-        "answer": "① 혜진: 저녁은 7시에 시작하니 손님은 7시까지 온다(the other guests arrive before 7) / 아나가 무례하다고 해석. 아나: 파티는 조금 늦게 가도 된다(guests often came 30 minutes or more after the start time) / 혜진이 왜 속상한지 몰라 놀람. ② Ana may have thought that arriving a little late was normal for a party, while Hyejin probably expected her guests to come at 7 for dinner. ③ 예: Ana: I'm so sorry I'm late. At parties I've been to, people often come a little after the start time. I didn't know dinner started at 7. / Hyejin: Oh, I see. Thanks for explaining. Come and sit down! ②에 두 사람의 기대와 조심스러운 말이 있고 ③에 고치는 말이 두 가지 이상이면 통과."
+        "answer": "① 혜진: 저녁은 7시에 시작하니 손님은 7시까지 온다(the other guests arrive before 7) / 아나가 무례하다고 해석. 아나: 파티는 조금 늦게 가도 된다(guests often came 30 minutes or more after the start time) / 혜진이 왜 속상한지 몰라 놀람. ② Ana may have thought that arriving a little late was normal for a party, while Hyejin probably expected her guests to come at 7 for dinner. ③ 예: Ana: I'm so sorry I'm late. At parties I've been to, people often come a little after the start time. I didn't know dinner would start right at 7. / Hyejin: Oh, I see. Thanks for explaining. Come and sit down! ②에 두 사람의 기대와 조심스러운 말이 있고 ③에 고치는 말이 두 가지 이상이면 통과."
       },
       {
         "no": 5,

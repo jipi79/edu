@@ -42,13 +42,13 @@
   "objectives": [
     {
       "id": "A",
-      "text": "삼각형 ABC에서 DE ∥ BC이면 동위각이 같아 △ADE ∽ △ABC(AA 닮음)임을 말하고, 닮음비 AD : AB = AE : AC = DE : BC로 비례식을 세워 DE나 AE의 길이를 구한다.",
+      "text": "삼각형 ABC에서 DE // BC이면 동위각이 같아 △ADE ∽ △ABC(AA 닮음)임을 말하고, 닮음비 AD : AB = AE : AC = DE : BC로 비례식을 세워 DE나 AE의 길이를 구한다.",
       "evidence": "닮음 설명과 DE·AE 구하기(S03, S06, S07, S12 ①, S14 ①③, 활동지 1·3·4)",
       "success": "AD = 6 cm, DB = 3 cm, BC = 12 cm일 때 ‘DE는 BC와 짝이므로 6 : 9 = x : 12’로 세워 DE = 8 cm를 구하고, AD : DB를 쓰면 DE가 BC보다 길어져 틀린다고 말한다."
     },
     {
       "id": "B",
-      "text": "삼각형 ABC에서 DE ∥ BC이면 AD : DB = AE : EC임을 같은 칸으로 나누어 설명하고, 같은 자리의 선분끼리 비례식을 세워 나뉜 선분의 길이를 구한다.",
+      "text": "삼각형 ABC에서 DE // BC이면 AD : DB = AE : EC임을 같은 칸으로 나누어 설명하고, 같은 자리의 선분끼리 비례식을 세워 나뉜 선분의 길이를 구한다.",
       "evidence": "나뉜 선분 구하기(S10, S11, S12 ②③, S14 ②③, 활동지 2·3·4)",
       "success": "AD = 8 cm, DB = 4 cm, AE = 6 cm일 때 8 : 4 = 6 : x로 EC = 3 cm를 구하고, 순서를 바꾸면(8 : 4 = x : 6) EC가 AE보다 길어져 그림과 맞지 않음을 안다."
     }
@@ -60,7 +60,7 @@
     "공책",
     "활동지"
   ],
-  "boundary": "삼각형 ABC의 두 변 AB, AC 위의 점 D, E에 대하여 DE ∥ BC일 때 AD : AB = AE : AC = DE : BC와 AD : DB = AE : EC를 이용해 선분의 길이(자연수)를 구한다. 점 D, E가 변의 연장선 위에 있는 경우, 역(비가 같으면 평행), 삼각형의 두 변의 중점을 연결한 선분의 성질(활동지 도전 문제에서 특수한 경우로만 맛봄), 평행선 사이에 생기는 선분의 길이의 비, 삼각형의 각의 이등분선의 성질은 다루지 않는다.",
+  "boundary": "삼각형 ABC의 두 변 AB, AC 위의 점 D, E에 대하여 DE // BC일 때 AD : AB = AE : AC = DE : BC와 AD : DB = AE : EC를 이용해 선분의 길이(자연수)를 구한다. 점 D, E가 변의 연장선 위에 있는 경우, 역(비가 같으면 평행), 삼각형의 두 변의 중점을 연결한 선분의 성질(활동지 도전 문제에서 특수한 경우로만 맛봄), 평행선 사이에 생기는 선분의 길이의 비, 삼각형의 각의 이등분선의 성질은 다루지 않는다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -429,7 +429,7 @@
         "주의": [
           "답은 ‘작은 삼각형과 큰 삼각형이 닮음이라 길이의 비가 같다’입니다. S03에서 배웁니다.",
           "그림의 화살표 모양(>) 표시는 두 선분이 평행하다는 약속입니다.",
-          "준비물: 자, 색연필 두 가지, 공책, 활동지."
+          "준비물: 자, 색연필 두 가지, 종이 띠 두 개, 공책, 활동지."
         ]
       }
     },
@@ -654,10 +654,10 @@
         }
       ],
       "notes": {
-        "목적": "BC ∥ DE이면 동위각의 크기가 같아 △ADE와 △ABC가 AA 닮음임을 압니다.",
+        "목적": "BC // DE이면 동위각의 크기가 같아 △ADE와 △ABC가 AA 닮음임을 압니다.",
         "시간": "약 3분",
         "말하기": [
-          "“∥는 평행이라는 기호야. DE ∥ BC는 ‘DE와 BC는 평행하다’라고 읽어.”",
+          "“// 는 평행하다는 기호야. DE // BC는 ‘DE와 BC가 평행하다’고 읽어.”",
           "“노란색 두 각은 어떤 관계야? 직선 AB가 평행한 두 선분 DE, BC와 만나서 생긴 같은 위치의 각이지?”",
           "“작은 삼각형 ADE와 큰 삼각형 ABC에서 같은 각이 몇 쌍이야? 그럼 두 삼각형은?”"
         ],
@@ -810,7 +810,7 @@
         "A"
       ],
       "title": "DE의 길이 구하기",
-      "text": "DE ∥ BC일 때 x의 값을 구해요.",
+      "text": "DE // BC일 때 x의 값을 구해요.",
       "steps": [
         "AB = 6 + 3 = 9 (cm)",
         "AD : AB = DE : BC\n6 : 9 = x : 12",
@@ -926,7 +926,7 @@
             "color": "1F2937"
           }
         ],
-        "alt": "DE ∥ BC인 삼각형 ABC. AD = 6 cm, DB = 3 cm, BC = 12 cm, DE = x cm",
+        "alt": "DE // BC인 삼각형 ABC. AD = 6 cm, DB = 3 cm, BC = 12 cm, DE = x cm",
         "name_dir": {
           "A": "up",
           "B": "dl",
@@ -966,7 +966,7 @@
         "A"
       ],
       "title": "x의 값을 구해요",
-      "text": "두 그림 모두 DE ∥ BC예요.",
+      "text": "두 그림 모두 DE // BC예요.",
       "figures": [
         {
           "type": "geo",
@@ -1359,7 +1359,7 @@
             "color": "1F2937"
           }
         ],
-        "alt": "DE ∥ BC인 삼각형 ABC. AD = 6 cm, DB = 2 cm, BC = 12 cm, DE = x cm",
+        "alt": "DE // BC인 삼각형 ABC. AD = 6 cm, DB = 2 cm, BC = 12 cm, DE = x cm",
         "name_dir": {
           "A": "up",
           "B": "dl",
@@ -1370,12 +1370,12 @@
       },
       "points": [
         {
-          "title": "토끼: x = 36",
-          "text": "6 : 2 = x : 12로 풀었어요."
+          "title": "토끼: x = 9",
+          "text": "6 : 8 = x : 12로 풀었어요."
         },
         {
-          "title": "곰: x = 9",
-          "text": "6 : 8 = x : 12로 풀었어요."
+          "title": "곰: x = 36",
+          "text": "6 : 2 = x : 12로 풀었어요."
         }
       ],
       "key": {
@@ -1386,14 +1386,14 @@
         "목적": "DE를 구할 때 AD : DB를 쓰는 실수(M1)를 ‘DE가 BC보다 길어진다’는 모순으로 반박합니다.",
         "시간": "약 2분",
         "말하기": [
-          "“토끼 답 36 cm는 BC 12 cm보다 길어. 그림에서 DE가 BC보다 길어?”",
+          "“곰 답 36 cm는 BC 12 cm보다 길어. 그림에서 DE가 BC보다 길어?”",
           "“DE와 짝이 되는 BC는 큰 삼각형의 변이야. 그럼 AD와 짝이 되는 변은 DB일까, AB일까?”"
         ],
         "예상답": [
-          "“DE가 더 짧아요. 토끼가 틀렸어요.” “AB예요. AB = 8 cm라서 곰이 맞아요.”"
+          "“DE가 더 짧아요. 곰이 틀렸어요.” “AB예요. AB = 8 cm라서 토끼가 맞아요.”"
         ],
         "정답": [
-          "곰이 맞습니다. AD : AB = DE : BC, 6 : 8 = x : 12, 8 × x = 72, x = 9"
+          "토끼가 맞습니다. AD : AB = DE : BC, 6 : 8 = x : 12, 8 × x = 72, x = 9"
         ],
         "막히면": [
           "S04처럼 작은 삼각형과 큰 삼각형을 공책에 떼어 그리게 합니다."
@@ -1414,7 +1414,7 @@
         "B"
       ],
       "title": "AD : DB = AE : EC",
-      "text": "DE ∥ BC이고 AD : AB = AE : AC = 2 : 3이에요.",
+      "text": "DE // BC이고 AD : AB = AE : AC = 2 : 3이에요.",
       "figure": {
         "type": "geo",
         "points": {
@@ -1570,7 +1570,7 @@
             "width": 2.25
           }
         ],
-        "alt": "DE ∥ BC인 삼각형 ABC. AB와 AC를 각각 똑같이 3칸으로 나눈 표시: AD는 2칸, DB는 1칸, AE는 2칸, EC는 1칸",
+        "alt": "DE // BC인 삼각형 ABC. AB와 AC를 각각 똑같이 3칸으로 나눈 표시: AD는 2칸, DB는 1칸, AE는 2칸, EC는 1칸",
         "name_dir": {
           "A": "up",
           "B": "dl",
@@ -1595,7 +1595,7 @@
           "text": "AE는 2칸, EC는 1칸\nAE : EC = 2 : 1"
         }
       ],
-      "key": "DE ∥ BC이면 AD : DB = AE : EC예요.",
+      "key": "DE // BC이면 AD : DB = AE : EC예요.",
       "notes": {
         "목적": "AD : AB = AE : AC에서 AB와 AC를 같은 수의 칸으로 나누어 보면 AD : DB = AE : EC임을 이해합니다.",
         "시간": "약 3분",
@@ -1627,7 +1627,7 @@
         "B"
       ],
       "title": "EC의 길이 구하기",
-      "text": "DE ∥ BC일 때 x의 값을 구해요.",
+      "text": "DE // BC일 때 x의 값을 구해요.",
       "steps": [
         "AD : DB = AE : EC",
         "8 : 4 = 6 : x",
@@ -1751,7 +1751,7 @@
             "color": "1F2937"
           }
         ],
-        "alt": "DE ∥ BC인 삼각형 ABC. AD = 8 cm, DB = 4 cm, AE = 6 cm, EC = x cm",
+        "alt": "DE // BC인 삼각형 ABC. AD = 8 cm, DB = 4 cm, AE = 6 cm, EC = x cm",
         "name_dir": {
           "A": "up",
           "B": "dl",
@@ -1791,7 +1791,7 @@
         "B"
       ],
       "title": "x의 값을 구해요",
-      "text": "두 그림 모두 DE ∥ BC예요.",
+      "text": "두 그림 모두 DE // BC예요.",
       "figures": [
         {
           "type": "geo",
@@ -2203,7 +2203,7 @@
             "color": "1F2937"
           }
         ],
-        "alt": "DE ∥ BC인 삼각형 ABC. AD = 4 cm, DB = 2 cm, AE = 6 cm, EC = x cm",
+        "alt": "DE // BC인 삼각형 ABC. AD = 4 cm, DB = 2 cm, AE = 6 cm, EC = x cm",
         "name_dir": {
           "A": "up",
           "B": "dl",
@@ -2257,7 +2257,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 해 보기: DE ∥ BC",
+      "title": "혼자 해 보기: DE // BC",
       "figures": [
         {
           "type": "geo",
@@ -2512,7 +2512,7 @@
         },
         {
           "title": "③ DB의 길이는?",
-          "text": "DE ∥ BC, AE : EC = 3 : 1, AD = 12 cm"
+          "text": "DE // BC, AE : EC = 3 : 1, AD = 12 cm"
         }
       ],
       "notes": {
@@ -2600,7 +2600,7 @@
         "B"
       ],
       "title": "마무리 확인",
-      "text": "DE ∥ BC예요.",
+      "text": "DE // BC예요.",
       "problems": [
         {
           "text": "DE = x cm일 때\nx의 값은?"
@@ -2734,7 +2734,7 @@
             "color": "1F2937"
           }
         ],
-        "alt": "DE ∥ BC인 삼각형 ABC. AD = 4 cm, DB = 8 cm, AE = 5 cm, BC = 18 cm, DE = x cm, EC = y cm",
+        "alt": "DE // BC인 삼각형 ABC. AD = 4 cm, DB = 8 cm, AE = 5 cm, BC = 18 cm, DE = x cm, EC = y cm",
         "name_dir": {
           "A": "up",
           "B": "dl",
@@ -2774,7 +2774,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "DE ∥ BC이면 AD : AB = AE : AC = DE : BC이고\nAD : DB = AE : EC예요.",
+      "key": "DE // BC이면 AD : AB = AE : AC = DE : BC이고\nAD : DB = AE : EC예요.",
       "do": "구하는 선분의 짝을 먼저 찾기",
       "dont": "DE를 구할 때 AD : DB 쓰기",
       "review": [
@@ -2808,7 +2808,7 @@
           "S05와 S09를 다시 보여 줍니다."
         ],
         "주의": [
-          "복습 ②의 길이는 모두 cm입니다(DE ∥ BC인 삼각형).",
+          "복습 ②의 길이는 모두 cm입니다(DE // BC인 삼각형).",
           "다음 차시 ‘삼각형의 중점 연결 정리’에서는 오늘 배운 비가 1 : 2인 특별한 경우, 곧 두 변의 중점을 이은 선분을 다룹니다. 오늘 쓴 AD : AB = DE : BC를 다시 씁니다."
         ]
       }
@@ -2979,7 +2979,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "DE ∥ BC일 때 x의 값을 구하세요.",
+        "prompt": "DE // BC일 때 x의 값을 구하세요.",
         "geo": {
           "points": {
             "A": [
@@ -3089,7 +3089,7 @@
               "color": "1F2937"
             }
           ],
-          "alt": "DE ∥ BC. AD = 6 cm, DB = 4 cm, BC = 15 cm, DE = x cm",
+          "alt": "DE // BC. AD = 6 cm, DB = 4 cm, BC = 15 cm, DE = x cm",
           "name_dir": {
             "A": "up",
             "B": "dl",
@@ -3105,7 +3105,7 @@
       },
       {
         "no": 2,
-        "prompt": "DE ∥ BC일 때 x의 값을 구하세요.",
+        "prompt": "DE // BC일 때 x의 값을 구하세요.",
         "geo": {
           "points": {
             "A": [
@@ -3223,7 +3223,7 @@
               "color": "1F2937"
             }
           ],
-          "alt": "DE ∥ BC. AD = 6 cm, DB = 9 cm, AE = 8 cm, EC = x cm",
+          "alt": "DE // BC. AD = 6 cm, DB = 9 cm, AE = 8 cm, EC = x cm",
           "name_dir": {
             "A": "up",
             "B": "dl",
@@ -3239,7 +3239,7 @@
       },
       {
         "no": 3,
-        "prompt": "DE ∥ BC일 때 x와 y의 값을 구하세요.",
+        "prompt": "DE // BC일 때 x와 y의 값을 구하세요.",
         "geo": {
           "points": {
             "A": [
@@ -3361,7 +3361,7 @@
               "color": "1F2937"
             }
           ],
-          "alt": "DE ∥ BC. AD = 8 cm, DB = 4 cm, EC = 6 cm, BC = 15 cm, DE = x cm, AE = y cm",
+          "alt": "DE // BC. AD = 8 cm, DB = 4 cm, EC = 6 cm, BC = 15 cm, DE = x cm, AE = y cm",
           "name_dir": {
             "A": "up",
             "B": "dl",
@@ -3377,7 +3377,7 @@
       },
       {
         "no": 4,
-        "prompt": "삼각형 ABC에서 DE ∥ BC예요. 맞으면 ○, 틀리면 ×를 쓰세요.",
+        "prompt": "삼각형 ABC에서 DE // BC예요. 맞으면 ○, 틀리면 ×를 쓰세요.",
         "table": {
           "headers": [
             "문장",
@@ -3411,7 +3411,7 @@
       },
       {
         "no": 5,
-        "prompt": "(도전) 점 D는 AB의 한가운데 점(중점)이고 DE ∥ BC, BC = 14 cm예요. AE : EC와 DE의 길이를 구하세요.",
+        "prompt": "(도전) 점 D는 AB의 한가운데 점(중점)이고 DE // BC, BC = 14 cm예요. AE : EC와 DE의 길이를 구하세요.",
         "geo": {
           "points": {
             "A": [
@@ -3519,7 +3519,7 @@
               "width": 2.25
             }
           ],
-          "alt": "DE ∥ BC. D는 AB의 중점(AD = DB 같은 표시), BC = 14 cm",
+          "alt": "DE // BC. D는 AB의 중점(AD = DB 같은 표시), BC = 14 cm",
           "name_dir": {
             "A": "up",
             "B": "dl",
@@ -3536,7 +3536,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "DE ∥ BC인 삼각형 ABC예요. 물음에 답하세요.",
+        "prompt": "DE // BC인 삼각형 ABC예요. 물음에 답하세요.",
         "read": "① AD : AB = 1 : 3, BC = 12 cm일 때 DE의 길이\n② AD = 6 cm, DB = 2 cm, AE = 9 cm일 때 EC의 길이\n③ AD : DB = 3 : 2이면 AD : AB는?",
         "lines": 3,
         "answer": "① 4 cm ② 3 cm ③ 3 : 5"

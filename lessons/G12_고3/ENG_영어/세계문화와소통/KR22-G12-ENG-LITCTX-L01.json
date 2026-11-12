@@ -53,7 +53,7 @@
     "색연필 두 가지(작품 속 장면과 시대 사실을 다른 색으로)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "저작권 보호 기간이 끝난 두 작품, 찰스 디킨스의 「A Christmas Carol」(1843)과 케이트 쇼팽의 「The Story of an Hour」(1894)의 줄거리를 이 수업을 위해 쉬운 영어(한 부분 100~140 낱말)로 직접 다시 쓴 글만 쓴다. 원문은 인용하지 않았고 대사도 간접 화법으로 바꾸었으며, 화면과 활동지에 ‘다시 쓴 이야기(원문 아님)’라고 밝힌다. 시대 맥락은 널리 알려진 일반적인 사실(산업 혁명기 도시 노동과 아동 노동, 구빈원의 힘든 생활, 가난을 개인 탓으로 보는 생각, 디킨스의 어린 시절 공장 노동, 1890년대 미국 여성이 전국 선거에서 투표할 수 없었고 아내의 역할이 집안일과 남편 돌보기로 여겨진 것)만 쓴다. 장면 → 시대 사실 → 뜻의 세 걸음과 인물의 선택 설명, 작가의 메시지 한 문장을 다룬다. 문학 이론(마르크스주의·페미니즘 비평 등)의 용어, 작가의 전기 자세히 읽기, 원문 읽기는 다루지 않는다. ‘문화 맥락·빅토리아 시대·구빈원’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "boundary": "저작권 보호 기간이 끝난 두 작품, 찰스 디킨스의 「A Christmas Carol」(1843)과 케이트 쇼팽의 「The Story of an Hour」(1894)의 줄거리를 이 수업을 위해 쉬운 영어(한 부분 100~140 낱말)로 직접 다시 쓴 글만 쓴다. 원문은 인용하지 않았고 대사도 간접 화법으로 바꾸었으며, 화면과 활동지에 ‘다시 쓴 이야기(원문 아님)’라고 밝힌다. 시대 맥락은 널리 알려진 일반적인 사실(산업 혁명기 도시 노동과 아동 노동, 구빈원의 힘든 생활, 가난을 개인 탓으로 보는 생각, 디킨스의 어린 시절 공장 노동, 1890년대 미국 여성이 대부분의 주에서 투표할 수 없었고 아내의 역할이 집안일과 남편 돌보기로 여겨진 것)만 쓴다. 장면 → 시대 사실 → 뜻의 세 걸음과 인물의 선택 설명, 작가의 메시지 한 문장을 다룬다. 문학 이론(마르크스주의·페미니즘 비평 등)의 용어, 작가의 전기 자세히 읽기, 원문 읽기는 다루지 않는다. ‘문화 맥락·빅토리아 시대·구빈원’이라는 말은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -159,7 +159,7 @@
           "③ 사랑은 자기에게 가장 소중한 것을 내어 주는 것이다"
         ],
         "막히면": [
-          "지난 차시 활동지의 사건 흐름표를 보여 줍니다.",
+          "고2 ‘영미 단편 소설 읽기’ 활동지의 사건 흐름표를 보여 줍니다.",
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
@@ -522,7 +522,7 @@
         "B"
       ],
       "title": "혼자 해 보기: 맥락으로 설명",
-      "text": "맥락 카드: 1890년대 미국: 여성은 전국 선거에서 투표할 수 없었고(1920년에 가능해짐), 많은 사람이 결혼한 여성의 역할은 남편과 집을 돌보는 것이라고 생각했다.",
+      "text": "맥락 카드: 1890년대 미국: 여성은 대부분의 주에서 투표할 수 없었고(1920년에 전국에서 가능해짐), 많은 사람이 결혼한 여성의 역할은 남편과 집을 돌보는 것이라고 생각했다.",
       "problems": [
         {
           "text": "루이즈는 왜 ‘자유’를 느꼈을까?\n(장면 → 시대 사실 → 뜻)"
@@ -551,7 +551,7 @@
           "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
         ],
         "주의": [
-          "오늘날 기준(‘싫으면 이혼하면 되지’)으로만 판단하지 않게 합니다(오해 M2). 미국 여성은 1920년 헌법 수정 제19조로 전국 선거 투표권을 얻었습니다."
+          "오늘날 기준(‘싫으면 이혼하면 되지’)으로만 판단하지 않게 합니다(오해 M2). 미국 여성은 1920년 헌법 수정 제19조로 모든 주에서 투표권을 얻었습니다(서부의 몇몇 주는 그 전부터 허용)."
         ]
       }
     },
@@ -629,7 +629,7 @@
           "text": "A ten-year-old boy works twelve\nhours a day in a factory in London."
         },
         {
-          "text": "A married woman wants to study,\nbut people say her place is at home."
+          "text": "A married woman in America wants to study,\nbut people say her place is at home."
         },
         {
           "text": "A poor family is sent to a\nworkhouse and must live apart."
@@ -816,7 +816,7 @@
       },
       {
         "no": 3,
-        "prompt": "다시 쓴 이야기(원문 아님): Kate Chopin, “The Story of an Hour” (1894). 이야기를 읽고 S10·S11의 질문에 답하세요(우리말 가능).\n맥락 카드: 1890년대 미국: 여성은 전국 선거에서 투표할 수 없었고(1920년에 가능해짐), 많은 사람이 결혼한 여성의 역할은 남편과 집을 돌보는 것이라고 생각했다.",
+        "prompt": "다시 쓴 이야기(원문 아님): Kate Chopin, “The Story of an Hour” (1894). 이야기를 읽고 S10·S11의 질문에 답하세요(우리말 가능).\n맥락 카드: 1890년대 미국: 여성은 대부분의 주에서 투표할 수 없었고(1920년에 전국에서 가능해짐), 많은 사람이 결혼한 여성의 역할은 남편과 집을 돌보는 것이라고 생각했다.",
         "read": "Louise Mallard had heart trouble, so her sister told her the news very gently: her husband, Brently, had been killed in a train accident. Louise cried, then went to her room alone. She sat by an open window and looked at the blue sky and the spring trees. Slowly, a new feeling came to her, and she whispered that she was free. She knew she would cry at the funeral, because her husband had always been kind to her. But now she could live the rest of her life for herself. When she walked downstairs, the front door opened. Brently came in, alive. He had been far from the accident. Louise fell and died. The doctors said that her weak heart could not take the great joy.",
         "table": {
           "headers": [

@@ -463,7 +463,7 @@
           "본보기 답(활동지 3)을 부모가 읽어 주고 틀의 빈칸을 찾게 합니다."
         ],
         "주의": [
-          "본보기 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Hana High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading. / What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
+          "본보기 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Maru High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading. / What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
           "strength는 ‘강점’, patient는 ‘참을성 있는’, responsible은 ‘책임감 있는’입니다."
         ]
       }
@@ -590,7 +590,7 @@
         ],
         "정답": [
           "아이의 시작과 끝 예: Good afternoon. Thank you for having me. / Thank you for your time. I hope to see you again.",
-          "본보기 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Hana High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading.",
+          "본보기 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Maru High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading.",
           "본보기 답: What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
           "기준표 다섯 항목: ① 정중한 인사(시작과 끝) ② 자기소개 두 문장 이상 ③ 이유에 because ④ 강점 + For example + 경험 ⑤ 질문 하나(Could you tell me ~?). 다섯 가운데 네 개 이상이면 통과."
         ],
@@ -883,7 +883,7 @@
       {
         "no": 3,
         "prompt": "역할 카드와 면접 메모입니다. S09에서 면접 답을 낱말로 메모하세요.",
-        "read": "역할 카드(S10) — 안내 직원: 데이비스 선생님은 출장 중. 면접 가능 시간은 월 3시, 수 5시. 이름 철자를 꼭 묻기. / 전화 건 사람: 봉사 자리 면접을 잡고 싶다. 월요일은 동아리라서 안 됨. 수요일은 괜찮음.\n본보기 면접 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Hana High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading. / What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
+        "read": "역할 카드(S10) — 안내 직원: 데이비스 선생님은 출장 중. 면접 가능 시간은 월 3시, 수 5시. 이름 철자를 꼭 묻기. / 전화 건 사람: 봉사 자리 면접을 잡고 싶다. 월요일은 동아리라서 안 됨. 수요일은 괜찮음.\n본보기 면접 답: Tell me about yourself. → I'm Junho Lee, a second-year student at Maru High School. I'm interested in education, and I often help my little cousins with their homework. / Why do you want this job? → I want to work at the children's library because I love books, and I want to help children enjoy reading. / What are your strengths? → I'm patient and responsible. For example, I've taught my cousin to read English for six months, and I've never missed a lesson. / Do you have any questions? → Yes. Could you tell me what volunteers usually do on the first day?",
         "table": {
           "headers": [
             "질문",
@@ -914,7 +914,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "메모는 아이의 실제 경험이면 무엇이든 됩니다. 기준: 자기소개 두 가지 이상(이름·학년·관심), 이유 하나(because), 강점 하나와 예 하나, 질문 하나가 있으면 통과. 본보기 답의 뜻: 저는 하나고등학교 2학년 이준호입니다. 교육에 관심이 있고 어린 사촌들의 숙제를 자주 도와줍니다. / 책을 좋아하고 아이들이 책 읽기를 즐기도록 돕고 싶어서 어린이 도서관에서 일하고 싶습니다. / 저는 참을성 있고 책임감이 강합니다. 예를 들어 여섯 달 동안 사촌에게 영어 읽기를 가르쳤고 한 번도 빠진 적이 없습니다. / 네. 봉사자들이 첫날 보통 무엇을 하는지 알려 주시겠어요?"
+        "answer": "메모는 아이의 실제 경험이면 무엇이든 됩니다. 기준: 자기소개 두 가지 이상(이름·학년·관심), 이유 하나(because), 강점 하나와 예 하나, 질문 하나가 있으면 통과. 본보기 답의 뜻: 저는 마루고등학교 2학년 이준호입니다. 교육에 관심이 있고 어린 사촌들의 숙제를 자주 도와줍니다. / 책을 좋아하고 아이들이 책 읽기를 즐기도록 돕고 싶어서 어린이 도서관에서 일하고 싶습니다. / 저는 참을성 있고 책임감이 강합니다. 예를 들어 여섯 달 동안 사촌에게 영어 읽기를 가르쳤고 한 번도 빠진 적이 없습니다. / 네. 봉사자들이 첫날 보통 무엇을 하는지 알려 주시겠어요?"
       },
       {
         "no": 4,

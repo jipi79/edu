@@ -58,7 +58,7 @@
     "색연필 세 가지(자료마다 다른 색)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "진로 주제(미래 직업에 필요한 기술, 프로그래머와 수학, 읽기와 직업)를 다룬 짧은 자료 세 편 묶음(인터뷰·설문·안내문)을 종합해 출처를 밝힌 한 문단(다섯 문장 안팎, 70~100 낱말)을 쓰는 것을 다룬다. 자료의 사람·기관·설문 숫자는 모두 지어낸 ‘예시 자료’이고, 설문 백분율은 합이 100이 되게 했다. 본보기 문단은 자료의 숫자를 그대로 옮기고, 자료 문장을 네 낱말 이상 연달아 베끼지 않음을 프로그램으로 확인했다. 출처 표현은 According to ~, A survey of ~ shows that ~, ~ says that ~, ~ supports this view, ~ adds that ~ / also points out that ~, Taken together, ~만 쓴다. 직접 인용 부호와 참고 문헌 목록(APA 등), 여러 문단 보고서는 다루지 않는다(보고서는 다음 차시). ‘종합·출처 밝히기·종합표’라는 말은 화면에 뜻과 함께 쓴다.",
+  "boundary": "진로 주제(미래 직업에 필요한 기술, 프로그래머와 수학, 읽기와 직업)를 다룬 짧은 자료 세 편 묶음(인터뷰·설문·안내문)을 종합해 출처를 밝힌 한 문단(다섯 문장 안팎, 70~100 낱말)을 쓰는 것을 다룬다. 자료의 사람·기관·설문 숫자는 모두 지어낸 ‘예시 자료’이고, 설문 백분율은 합이 100이 되게 했다. 본보기 문단은 자료의 숫자를 그대로 옮기고, 자료 문장을 네 낱말 이상 연달아 베끼지 않게 썼다. 출처 표현은 According to ~, A survey of ~ shows that ~, ~ says that ~, ~ supports this view, ~ adds that ~ / also points out that ~, Taken together, ~만 쓴다. 직접 인용 부호와 참고 문헌 목록(APA 등), 여러 문단 보고서는 다루지 않는다(보고서는 다음 차시). ‘종합·출처 밝히기·종합표’라는 말은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -161,7 +161,7 @@
         ],
         "정답": [
           "① 나 (설문 숫자가 있는 연구 자료) — 가는 광고(판매 목적)",
-          "② 예: Teamwork is the most important ability for my group. (같은 뜻, 세 낱말 연속 겹침 없음)",
+          "② 예: Teamwork is the key ability in my group. (같은 뜻, 세 낱말 연속 겹침 없음)",
           "③ 출처, 근거, 목적, 날짜"
         ],
         "막히면": [
@@ -424,7 +424,7 @@
           "S03 카드 다섯 장을 옆에 두고 맞대어 보게 합니다."
         ],
         "주의": [
-          "본보기는 자료 문장을 네 낱말 이상 연달아 베끼지 않았고, 숫자는 그대로 옮겼습니다(프로그램으로 확인).",
+          "본보기는 자료 문장을 네 낱말 이상 연달아 베끼지 않았고, 숫자는 그대로 옮겼습니다.",
           "뜻: 젊은이들에게 미래 직업을 위해 어떤 기술이 필요할까? 한 게임 개발자에 따르면 게임은 팀이 만들기 때문에 팀워크가 가장 중요하다. 회사 200곳 설문은 이 생각을 뒷받침한다. 회사의 45%가 소통을 다른 기술보다 중요하게 여기고, 35%는 문제 해결을 고른다. 한 학교 상담 선생님은 기술이 계속 바뀌기 때문에 낯선 문제를 다루고 혼자 공부하는 것처럼 계속 쓸모 있는 능력이 중요하다고 덧붙인다. 종합하면, 이 자료들은 학생들이 프로젝트와 동아리를 통해 소통과 문제 해결 능력을 길러야 한다는 것을 보여 준다."
         ]
       }
@@ -537,7 +537,7 @@
           "“According to Mom, ~. Dad supports this view, but ~. Grandma adds that ~. Taken together, ~.로 말해 줘.”"
         ],
         "예상답": [
-          "예: According to Mom, a trip to the sea would help us relax. Dad supports this view, but he thinks it should be short. Grandma adds that she wants us to visit her. Taken together, we could take a short trip to the sea and then visit Grandma.",
+          "예: According to Mom, a trip to the sea would help us relax. Dad supports this view, but he thinks it should be short. Grandma adds that she wants us to visit her. Taken together, these opinions suggest that we could take a short trip to the sea and then visit Grandma.",
           "기준: 세 사람 모두 출처를 밝혀 말하고, 잇는 말(supports, but, adds)과 Taken together 결론이 있으면 잘한 것입니다."
         ],
         "막히면": [
@@ -681,7 +681,7 @@
         "정답": [
           "① shows that (설문 결과를 소개할 때)",
           "② 예: According to a doctor, sleeping eight hours helps memory.",
-          "③ 나 (세 자료를 모두 담음: 가는 자료 하나만 따름)",
+          "③ 나 (세 자료를 모두 담음: 가는 세 자료 어느 것과도 맞지 않음)",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
         "막히면": [

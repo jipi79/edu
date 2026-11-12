@@ -242,7 +242,7 @@
       "passage": {
         "title": "No Phones in Class: A Good Start",
         "paragraphs": [
-          "Last month, Hana Middle School started a new phone rule. Every morning, students put their phones in a box in the classroom. They get their phones back after the last class. Mr. Lee, a math teacher, said, \"Students listen better now.\" At lunch, many students talk and play board games together. I think the new rule is a good start for our school.",
+          "Last month, Maru Middle School started a new phone rule. Every morning, students put their phones in a box in the classroom. They get their phones back after the last class. Mr. Lee, a math teacher, said, \"Students listen better now.\" At lunch, many students talk and play board games together. I think the new rule is a good start for our school.",
           {
             "text": "— Dana Kim, student reporter",
             "align": "right"
@@ -821,7 +821,7 @@
       {
         "no": 1,
         "prompt": "두 글(수업을 위해 지어낸 글)을 읽고 비교표를 채우세요. 우리말로 써도 돼요.",
-        "read": "글 A (학교 신문 기사) No Phones in Class: A Good Start\nLast month, Hana Middle School started a new phone rule. Every morning, students put their phones in a box in the classroom. They get their phones back after the last class. Mr. Lee, a math teacher, said, \"Students listen better now.\" At lunch, many students talk and play board games together. I think the new rule is a good start for our school. — Dana Kim, student reporter\n\n글 B (학부모 게시물) Phones Can Help, Too\nLast month, my son's school started a new phone rule. Students can't use their phones during school hours. Last Tuesday, my son got sick at school. He wanted to call me, but his phone was in the box. Phones are also useful for learning, like dictionary apps. I understand the reason for the rule, but I hope the school changes it a little. — Ms. Yoon, a parent",
+        "read": "글 A (학교 신문 기사) No Phones in Class: A Good Start\nLast month, Maru Middle School started a new phone rule. Every morning, students put their phones in a box in the classroom. They get their phones back after the last class. Mr. Lee, a math teacher, said, \"Students listen better now.\" At lunch, many students talk and play board games together. I think the new rule is a good start for our school. — Dana Kim, student reporter\n\n글 B (학부모 게시물) Phones Can Help, Too\nLast month, my son's school started a new phone rule. Students can't use their phones during school hours. Last Tuesday, my son got sick at school. He wanted to call me, but his phone was in the box. Phones are also useful for learning, like dictionary apps. I understand the reason for the rule, but I hope the school changes it a little. — Ms. Yoon, a parent",
         "table": {
           "headers": [
             "",
@@ -871,7 +871,7 @@
           ],
           "rows": [
             [
-              "① Hana Middle School started a new phone rule last month.",
+              "① Maru Middle School started a new phone rule last month.",
               "",
               ""
             ],

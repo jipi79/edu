@@ -457,11 +457,11 @@
           "perRow": 1,
           "items": [
             {
-              "word": "How to Spell\nWords Correctly"
+              "word": "Don't Fear Mistakes:\nThey Help You Learn"
             }
           ]
         },
-        "text": "‘spell’이 글에 나와요."
+        "text": "However 뒤의 생각과 같아요."
       },
       "right": {
         "title": "나",
@@ -470,11 +470,11 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Don't Fear Mistakes:\nThey Help You Learn"
+              "word": "How to Spell\nWords Correctly"
             }
           ]
         },
-        "text": "However 뒤의 생각과 같아요."
+        "text": "‘spell’이 글에 나와요."
       },
       "question": "요지와 맞는 제목은? 다른 친구는 무엇을 놓쳤나요?",
       "notes": {
@@ -485,7 +485,7 @@
           "“spell은 글의 어느 부분에 나왔지? For example 뒤야, However 뒤야?”"
         ],
         "정답": [
-          "나의 제목(Don't Fear Mistakes: They Help You Learn)이 알맞습니다. 요지(실수는 배움에 도움이 되니 두려워하지 말자)와 같은 방향입니다. 가는 For example 뒤 예시의 낱말(spell)만 보고 골라 너무 좁습니다(글은 철자 쓰는 방법을 알려 주는 글이 아님)."
+          "가의 제목(Don't Fear Mistakes: They Help You Learn)이 알맞습니다. 요지(실수는 배움에 도움이 되니 두려워하지 말자)와 같은 방향입니다. 나는 For example 뒤 예시의 낱말(spell)만 보고 골라 너무 좁습니다(글은 철자 쓰는 방법을 알려 주는 글이 아님)."
         ],
         "막히면": [
           "“이 글이 철자 쓰는 방법을 가르쳐 주는 글이야?”라고 묻습니다."
@@ -549,13 +549,13 @@
       "text": "S09 글의 주제로 가장 알맞은 것을 골라요.",
       "options": [
         {
-          "text": "the importance of short breaks while studying"
-        },
-        {
           "text": "the best time to drink water"
         },
         {
           "text": "reasons why students study without breaks"
+        },
+        {
+          "text": "the importance of short breaks while studying"
         },
         {
           "text": "ways to exercise every day"
@@ -563,23 +563,23 @@
       ],
       "question": "주제는? 나머지는 무엇이 문제인가요?",
       "notes": {
-        "목적": "S09 글의 요지를 명사구로 줄인 주제 보기를 고르고, 글의 낱말을 쓴 보기(나), 글의 일부(다), 글에 없는 보기(라)를 가려냅니다(목표 B, 오해 M3·M4). 활동지 2에 비슷한 문제가 있습니다.",
+        "목적": "S09 글의 요지를 명사구로 줄인 주제 보기를 고르고, 글의 낱말을 쓴 보기(가), 글의 일부(나), 글에 없는 보기(라)를 가려냅니다(목표 B, 오해 M3·M4). 활동지 2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
         "말하기": [
           "“요지가 ‘공부를 잘하려면 짧게 쉬어라’였지? 이 요지를 줄인 주제를 골라 볼래? 나머지는 왜 아닌지도.”",
           "(보기의 뜻을 모르면 부모가 알려 줍니다.)"
         ],
         "정답": [
-          "가 the importance of short breaks while studying (공부 중 짧은 휴식의 중요성)",
-          "나 the best time to drink water (물을 마시기 가장 좋은 때): water가 글에 있지만 쉬는 방법의 예일 뿐입니다(너무 좁음, 빗나감).",
-          "다 reasons why students study without breaks (학생들이 쉬지 않고 공부하는 이유): 글 앞부분의 일부이고 글쓴이는 반대합니다(너무 좁음·반대).",
+          "다 the importance of short breaks while studying (공부 중 짧은 휴식의 중요성)",
+          "가 the best time to drink water (물을 마시기 가장 좋은 때): water가 글에 있지만 쉬는 방법의 예일 뿐입니다(너무 좁음, 빗나감).",
+          "나 reasons why students study without breaks (학생들이 쉬지 않고 공부하는 이유): 글 앞부분의 일부이고 글쓴이는 반대합니다(너무 좁음·반대).",
           "라 ways to exercise every day (매일 운동하는 방법): 글에 없는 내용입니다."
         ],
         "막히면": [
           "보기마다 “이 말이 요지와 같은 방향이야?” “글 전체에 들어맞아?”를 묻습니다."
         ],
         "주의": [
-          "나처럼 글의 낱말(water)을 그대로 쓴 보기가 대표적인 함정입니다(오해 M4)."
+          "가처럼 글의 낱말(water)을 그대로 쓴 보기가 대표적인 함정입니다(오해 M4)."
         ]
       }
     },
@@ -639,7 +639,7 @@
         "A"
       ],
       "title": "혼자 읽어요: 도시의 나무",
-      "text": "shade 그늘 · dust 먼지 · decoration 장식품 · comfortable 편안한",
+      "text": "shade 그늘 · dust 먼지 · in addition 게다가\ndecoration 장식품 · comfortable 편안한",
       "passage": {
         "paragraphs": [
           "Trees in cities do more than make streets beautiful. On hot summer days, they give shade, so the air under them is much cooler than the air in the sun. Trees also make the air cleaner because their leaves catch dust. In addition, people who live near parks and trees often feel less stressed. That is why many cities are planting more trees these days. Trees are not just decorations. They are important helpers that make city life healthier and more comfortable."
@@ -784,9 +784,6 @@
       "text": "S12 글의 제목으로 가장 알맞은 것을 골라요.",
       "options": [
         {
-          "text": "Trees: More Than Decoration"
-        },
-        {
           "text": "Leaves Catch Dust"
         },
         {
@@ -794,6 +791,9 @@
         },
         {
           "text": "Cities Need Fewer Trees"
+        },
+        {
+          "text": "Trees: More Than Decoration"
         }
       ],
       "question": "제목은? 고른 까닭과 나머지가 아닌 까닭은?",
@@ -804,17 +804,17 @@
           "“S12 글의 제목으로 가장 알맞은 것을 고르고, 고른 까닭을 말해 줘. 나머지는 왜 아닐까?”"
         ],
         "정답": [
-          "가 Trees: More Than Decoration (나무: 장식 그 이상)",
-          "나 Leaves Catch Dust: 글 가운데 세부 하나입니다(너무 좁음).",
-          "다 How to Plant a Tree: 글에 없는 내용입니다.",
-          "라 Cities Need Fewer Trees: 요지와 반대입니다.",
-          "기준: 가를 고르고 ‘Trees are not just decorations.와 같은 생각’처럼 요지와 연결해 까닭을 말하면 통과입니다."
+          "라 Trees: More Than Decoration (나무: 장식 그 이상)",
+          "가 Leaves Catch Dust: 글 가운데 세부 하나입니다(너무 좁음).",
+          "나 How to Plant a Tree: 글에 없는 내용입니다.",
+          "다 Cities Need Fewer Trees: 요지와 반대입니다.",
+          "기준: 라를 고르고 ‘Trees are not just decorations.와 같은 생각’처럼 요지와 연결해 까닭을 말하면 통과입니다."
         ],
         "막히면": [
           "“S12 글의 끝에서 두 번째 문장을 다시 읽어 봐. Trees are not just decorations. 어느 제목과 비슷해?”라고 묻습니다."
         ],
         "주의": [
-          "가는 decoration을 써서 요지를 짧게 비유했습니다. 제목은 요지를 그대로 옮기지 않고 이렇게 줄이거나 비틀어 씁니다. 틀리면 기록표에 적고 다음 수업 첫 5분에 S07을 다시 봅니다."
+          "라는 decoration을 써서 요지를 짧게 비유했습니다. 제목은 요지를 그대로 옮기지 않고 이렇게 줄이거나 비틀어 씁니다. 틀리면 기록표에 적고 다음 수업 첫 5분에 S07을 다시 봅니다."
         ]
       }
     },
@@ -873,10 +873,10 @@
       "objectives": [],
       "title": "보충: 요지와 예시",
       "layout": "support",
-      "text": "equipment 장비 · comfortable 편한 · such as ~ 같은",
+      "text": "equipment 장비 · racket 라켓 · such as ~ 같은",
       "passage": {
         "paragraphs": [
-          "Walking is a great exercise for everyone. You don't need any special equipment. For example, you only need a pair of comfortable shoes. Also, you can walk almost anywhere, such as in a park or around your school. So, try to walk for twenty minutes every day."
+          "Walking is a great exercise for everyone. You don't need any special equipment. For example, you don't have to buy a ball, a racket, or a bike. Also, you can walk almost anywhere, such as in a park or around your school. So, try to walk for twenty minutes every day."
         ]
       },
       "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가요?",
@@ -890,7 +890,7 @@
         ],
         "정답": [
           "① 매일 20분씩 걷자(걷기는 누구에게나 좋은 운동이다). 근거: Walking is a great exercise for everyone. / So, try to walk for twenty minutes every day.",
-          "② 걷기에는 특별한 장비가 필요 없다는 것의 예(편한 신발 한 켤레만 있으면 됨)"
+          "② 걷기에는 특별한 장비가 필요 없다는 것의 예(공, 라켓, 자전거를 사지 않아도 됨)"
         ],
         "막히면": [
           "문장마다 뜻을 부모가 먼저 말해 주고, 예시 문장에는 괄호를, 주제문에는 밑줄을 긋게 합니다.",
@@ -898,7 +898,7 @@
         ],
         "주의": [
           "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다.",
-          "글의 뜻: 걷기는 누구에게나 아주 좋은 운동이에요. 특별한 장비가 필요 없어요. 예를 들어 편한 신발 한 켤레만 있으면 돼요. 또 공원이나 학교 주변처럼 거의 어디서나 걸을 수 있어요. 그러니 매일 20분씩 걸어 보세요. (equipment: 장비, a pair of: 한 켤레의, comfortable: 편한)"
+          "글의 뜻: 걷기는 누구에게나 아주 좋은 운동이에요. 특별한 장비가 필요 없어요. 예를 들어 공이나 라켓, 자전거를 사지 않아도 돼요. 또 공원이나 학교 주변처럼 거의 어디서나 걸을 수 있어요. 그러니 매일 20분씩 걸어 보세요. (equipment: 장비, don't have to: ~하지 않아도 되다, racket: 라켓, such as: ~ 같은)"
         ]
       }
     }
@@ -918,8 +918,8 @@
         "no": 2,
         "prompt": "1의 글의 주제로 가장 알맞은 것에 ✔ 하고, 고르지 않은 보기 하나를 골라 까닭을 쓰세요.",
         "choices": [
-          "the benefits of taking notes by hand",
           "how to type faster on a laptop",
+          "the benefits of taking notes by hand",
           "the importance of listening to teachers",
           "the history of pens and paper"
         ],
@@ -932,9 +932,9 @@
         "no": 3,
         "prompt": "1의 글의 제목으로 가장 알맞은 것에 ✔ 하세요.",
         "choices": [
-          "Pens Beat Keyboards for Learning",
           "Laptops Make Students Smarter",
-          "Teachers Talk Too Fast"
+          "Teachers Talk Too Fast",
+          "Pens Beat Keyboards for Learning"
         ],
         "choices_size": 13,
         "answer": "Pens Beat Keyboards for Learning (배움에서는 펜이 키보드를 이긴다). Laptops Make Students Smarter는 요지와 반대, Teachers Talk Too Fast는 글에 없는 내용입니다. 맞히면 통과. (beat: 이기다)"
@@ -942,10 +942,10 @@
       {
         "no": 4,
         "prompt": "글을 읽고 요지를 한 문장으로 쓰고, 주제문을 옮겨 쓰세요. 그다음 이 글의 제목을 직접 지어 보세요(영어나 우리말).",
-        "read": "When Jisu's grandfather was young, he read the newspaper aloud every morning. Jisu thought it was a strange habit. But last month, she tried reading her English textbook aloud before a test. She noticed that she made fewer mistakes and remembered new words better. When you read aloud, you see the words, say them, and hear them at the same time. Using your eyes, mouth, and ears together helps your brain remember. Reading aloud is not just an old habit; it is a useful way to study.",
+        "read": "Jisu's grandfather reads the newspaper aloud every morning. Jisu thought it was a strange habit. But last month, she tried reading her English textbook aloud before a test. She noticed that she made fewer mistakes and remembered new words better. When you read aloud, you see the words, say them, and hear them at the same time. Using your eyes, mouth, and ears together helps your brain remember. Reading aloud is not just an old habit; it is a useful way to study.",
         "line_label": "요지 · 주제문 · 제목:",
         "lines": 3,
-        "answer": "요지 예: 소리 내어 읽기는 그저 옛날 습관이 아니라 눈·입·귀를 함께 써서 기억을 돕는 유용한 공부 방법이다. 주제문: Reading aloud is not just an old habit; it is a useful way to study. 제목 예: Read It Out Loud! / Reading Aloud: An Old Habit, A New Study Tool / 소리 내어 읽으면 더 잘 기억해요. 요지에 주제(소리 내어 읽기)와 핵심(유용한 공부 방법)이 들어가고, 제목이 요지와 같은 방향이면 통과. ‘할아버지는 신문을 읽었다’처럼 이야기의 세부를 쓰면 너무 좁습니다. 낱말 뜻: aloud 소리 내어, habit 습관, notice 알아차리다, fewer 더 적은. 글의 뜻: 지수의 할아버지는 젊었을 때 매일 아침 신문을 소리 내어 읽으셨어요. 지수는 그것이 이상한 습관이라고 생각했지요. 그런데 지난달 지수는 시험 전에 영어 교과서를 소리 내어 읽어 보았어요. 실수를 덜 하고 새 낱말을 더 잘 기억한다는 것을 알게 되었지요. 소리 내어 읽으면 낱말을 보고, 말하고, 듣는 것을 동시에 하게 돼요. 눈, 입, 귀를 함께 쓰는 것이 뇌가 기억하도록 도와줘요. 소리 내어 읽기는 그저 옛날 습관이 아니라 유용한 공부 방법이에요."
+        "answer": "요지 예: 소리 내어 읽기는 그저 옛날 습관이 아니라 눈·입·귀를 함께 써서 기억을 돕는 유용한 공부 방법이다. 주제문: Reading aloud is not just an old habit; it is a useful way to study. 제목 예: Read It Out Loud! / Reading Aloud: An Old Habit, A New Study Tool / 소리 내어 읽으면 더 잘 기억해요. 요지에 주제(소리 내어 읽기)와 핵심(유용한 공부 방법)이 들어가고, 제목이 요지와 같은 방향이면 통과. ‘할아버지는 신문을 읽는다’처럼 이야기의 세부를 쓰면 너무 좁습니다. 낱말 뜻: aloud 소리 내어, habit 습관, notice 알아차리다, fewer 더 적은. 글의 뜻: 지수의 할아버지는 매일 아침 신문을 소리 내어 읽으세요. 지수는 그것이 이상한 습관이라고 생각했지요. 그런데 지난달 지수는 시험 전에 영어 교과서를 소리 내어 읽어 보았어요. 실수를 덜 하고 새 낱말을 더 잘 기억한다는 것을 알게 되었지요. 소리 내어 읽으면 낱말을 보고, 말하고, 듣는 것을 동시에 하게 돼요. 눈, 입, 귀를 함께 쓰는 것이 뇌가 기억하도록 도와줘요. 소리 내어 읽기는 그저 옛날 습관이 아니라 유용한 공부 방법이에요."
       },
       {
         "no": 5,
@@ -957,7 +957,7 @@
           ],
           "rows": [
             [
-              "① 지수의 할아버지는 매일 아침 신문을 소리 내어 읽었다.",
+              "① 지수의 할아버지는 매일 아침 신문을 소리 내어 읽는다.",
               ""
             ],
             [

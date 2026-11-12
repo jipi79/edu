@@ -404,7 +404,7 @@
       "text": "수동태로 바꿔 말하고, 뜻을 말해요.",
       "problems": [
         {
-          "text": "Mom is cooking dinner."
+          "text": "Mom is making dinner."
         },
         {
           "text": "They are building\na new school."
@@ -424,7 +424,7 @@
           "“목적어를 찾아 주어로 보내고, be동사 + being + 과거분사로 바꿔 말해 줘. 다 말하면 뜻도 말해 볼래?”"
         ],
         "정답": [
-          "① Dinner is being cooked by Mom. (저녁이 엄마에 의해 요리되고 있어요 → 엄마가 저녁을 요리하고 계세요.)",
+          "① Dinner is being made by Mom. (저녁이 엄마에 의해 만들어지고 있어요 → 엄마가 저녁을 만들고 계세요.)",
           "② A new school is being built. (새 학교가 지어지고 있어요. by them은 빼는 것이 자연스러움)",
           "③ The computer is being used. (컴퓨터가 사용되고 있어요. by someone은 뺌)",
           "④ The dishes are being washed by Tom. (접시들이 톰에 의해 씻기고 있어요 → 톰이 설거지하고 있어요.)"

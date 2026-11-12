@@ -139,7 +139,7 @@
       "text": "①은 골라 읽고, ②는 수동태로 바꾸고, ③은 골라 읽어요.",
       "problems": [
         {
-          "text": "The room has been (cleaning / cleaned)."
+          "text": "The room has been (cleaned / cleaning)."
         },
         {
           "text": "Mom made this cake.  → 수동태로"
@@ -902,7 +902,7 @@
           "text": "The baby was named Haneul."
         },
         {
-          "text": "I was made (clean / to clean) my room."
+          "text": "I was made (to clean / clean) my room."
         }
       ],
       "notes": {
@@ -912,7 +912,7 @@
           "“①②는 뜻을 말해 줘. ③은 알맞은 것을 고르고 까닭을 말해 줘.”"
         ],
         "정답": [
-          "① 나는 삼촌에게 수학을 배웠어요. (수학이 삼촌에 의해 나에게 가르쳐졌어요.)",
+          "① 나는 삼촌에게 수학을 배웠어요. (직역: 나는 삼촌에 의해 수학을 가르침 받았어요.)",
           "② 그 아기는 하늘이라고 이름 지어졌어요.",
           "③ to clean (make + 동사원형은 수동태에서 be made to + 동사원형) — 나는 내 방을 청소해야 했어요.",
           "기준: 세 개 모두 맞으면 통과입니다. ①을 ‘내가 삼촌을 가르쳤다’처럼 거꾸로 해석하면 기록표에 적어 둡니다."

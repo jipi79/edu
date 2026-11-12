@@ -146,13 +146,13 @@
       "role": "prior",
       "objectives": [],
       "title": "because, when, -ing 떠올리기",
-      "text": "①②는 골라 읽고, ③은 뜻을 말해요.",
+      "text": "①②는 우리말 뜻에 맞게 골라 읽고, ③은 뜻을 말해요.",
       "problems": [
         {
-          "text": "(When / Because) I was sick, I stayed home."
+          "text": "(When / Because) I was sick, I stayed home.  → ‘아파서 집에 있었어요.’"
         },
         {
-          "text": "a baby (crying / cried) loudly"
+          "text": "a baby (crying / cried) loudly  → ‘큰 소리로 우는 아기’"
         },
         {
           "text": "When I got home, I called Mom.  → 뜻은?"
@@ -162,13 +162,13 @@
         "목적": "중2 ‘접속사 because’와 ‘접속사 if·when’, 중3 ‘분사의 명사 수식’의 -ing를 기억하는지 확인합니다.",
         "시간": "약 3분",
         "말하기": [
-          "“①은 알맞은 접속사를 골라 읽어 줘.”",
-          "“②는 알맞은 것을 골라 읽고 뜻을 말해 줘.”",
+          "“①은 ‘아파서 집에 있었어요’라는 뜻이 되게 알맞은 접속사를 골라 읽어 줘.”",
+          "“②는 ‘큰 소리로 우는 아기’라는 뜻이 되게 알맞은 것을 골라 읽어 줘.”",
           "“③은 우리말 뜻을 말해 볼래?”"
         ],
         "정답": [
-          "① Because (아파서 집에 있었어요: 이유)",
-          "② crying (아기가 우는 것, 하는 쪽이라 -ing) — 큰 소리로 우는 아기",
+          "① Because (아파서 집에 있었어요: 이유). When을 넣으면 ‘아팠을 때’라는 다른 뜻의 문장이 됩니다.",
+          "② crying (아기가 우는 것, 하는 쪽이라 -ing) — 큰 소리로 우는 아기. cried를 넣으면 ‘아기가 크게 울었다’라는 문장이 되어 뜻이 달라집니다.",
           "③ 집에 왔을 때 나는 엄마에게 전화했어요."
         ],
         "막히면": [
@@ -233,7 +233,8 @@
         ],
         "주의": [
           "분사구문은 글에서 많이 쓰고, 말할 때는 부사절을 더 많이 씁니다. 고등학교 독해 지문에 자주 나오므로 ‘보고 해석하기’가 가장 중요합니다.",
-          "‘부사절·분사구문’이라는 이름은 외우지 않아도 됩니다. ‘-ing로 줄인 덩어리’로 기억하면 충분합니다."
+          "‘부사절·분사구문’이라는 이름은 외우지 않아도 됩니다. ‘-ing로 줄인 덩어리’로 기억하면 충분합니다.",
+          "When I walked home, I met Tom.은 줄이는 과정을 보여 주려고 고른 문장입니다. 같은 뜻으로 While I was walking home, I met Tom.이라고 더 자주 말하며, 이 문장도 Walking home, I met Tom.으로 줄어듭니다."
         ]
       }
     },
@@ -582,7 +583,7 @@
           "text": "She did her homework,\nlistening to music."
         },
         {
-          "text": "Not having breakfast,\nI was very hungry."
+          "text": "Not having a key,\nI waited outside."
         }
       ],
       "hint": "때 → when,  이유 → because,  동시 동작 → while",
@@ -596,14 +597,14 @@
           "① 때 — 창문을 열었을 때 새 한 마리를 봤어요. When I opened the window, I saw a bird.",
           "② 이유 — 감기에 걸려서 톰은 침대에 누워 있었어요. Because Tom had a cold, he stayed in bed.",
           "③ 동시 동작 — 그녀는 음악을 들으면서 숙제를 했어요. She did her homework while she listened to music.",
-          "④ 이유 — 아침을 먹지 않아서 나는 몹시 배가 고팠어요. Because I didn't have breakfast, I was very hungry."
+          "④ 이유 — 열쇠가 없어서 나는 밖에서 기다렸어요. Because I didn't have a key, I waited outside."
         ],
         "막히면": [
           "“앞의 일이 뒤의 일의 까닭이야?”를 먼저 묻고, 아니면 “차례로 일어났어, 함께 일어났어?”를 묻습니다."
         ],
         "주의": [
           "①을 ‘창문을 열다가’로 해석해도 맞습니다. 앞뒤가 자연스러우면 맞다고 인정해 주세요.",
-          "②처럼 분사구문의 뜻상 주어는 뒤 문장의 주어(Tom)입니다. 되돌릴 때 주어를 다시 넣습니다. (have a cold: 감기에 걸리다, stay in bed: 침대에 누워 있다)"
+          "②처럼 분사구문의 뜻상 주어는 뒤 문장의 주어(Tom)입니다. 되돌릴 때 주어를 다시 넣습니다. (have a cold: 감기에 걸리다, stay in bed: 침대에 누워 있다, key: 열쇠, outside: 밖에서)"
         ]
       }
     },
@@ -1027,7 +1028,7 @@
         "table": {
           "rows": [
             [
-              "① Finishing my homework, I went out.",
+              "① Looking out the window, I saw a rainbow.",
               ""
             ],
             [
@@ -1046,7 +1047,7 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① When I finished my homework, I went out. ② Because she was tired, she went to bed early. ③ Mom cooked dinner while she was singing a song. 세 개 가운데 두 개 이상이면 통과. 되돌릴 때 주어(I, she)를 다시 넣었는지, 시제를 뒤 문장에 맞췄는지 봅니다. ①은 After I finished ~도 맞습니다. (went to bed: 잠자리에 들었다)"
+        "answer": "① When I looked out the window, I saw a rainbow. ② Because she was tired, she went to bed early. ③ Mom cooked dinner while she was singing a song. 세 개 가운데 두 개 이상이면 통과. 되돌릴 때 주어(I, she)를 다시 넣었는지, 시제를 뒤 문장에 맞췄는지 봅니다. ①은 While I was looking out ~도 맞습니다. (look out the window: 창밖을 보다, rainbow: 무지개, went to bed: 잠자리에 들었다)"
       },
       {
         "no": 5,
