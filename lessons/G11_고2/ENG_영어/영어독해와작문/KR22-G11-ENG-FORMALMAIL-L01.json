@@ -319,7 +319,7 @@
           "카드마다 “이런 메일을 언제 쓸까?”라고 물어 상황을 떠올리게 합니다."
         ],
         "주의": [
-          "apologize for 뒤에는 -ing(missing, being late)가 옵니다. 사과 메일은 It will not happen again.(다시는 그러지 않겠습니다)으로 마무리하면 좋습니다. refund는 ‘환불’, exchange는 ‘교환’입니다(I would like an exchange.)."
+          "apologize for 뒤에 동사를 쓸 때는 -ing(missing, being late)로 씁니다. 사과 메일은 It will not happen again.(다시는 그러지 않겠습니다)으로 마무리하면 좋습니다. refund는 ‘환불’, exchange는 ‘교환’입니다(I would like an exchange.)."
         ]
       }
     },
@@ -577,7 +577,7 @@
           "잘 쓴 예(카드 A 요청): Subject: Request to Use the Science Lab on Friday / Dear Ms. Lee, / I am Sora Park, the leader of the science club. I am writing to ask if our club could use the science lab this Friday after school. We need it for about an hour to finish our project on plant growth. / We will clean the lab and return the key right after we finish. I would appreciate it if you could let me know by Wednesday. Thank you for your help. / Best regards, / Sora Park",
           "카드 B 문의 예: Subject: Question about Student Tickets / Dear City Museum Staff, / I am writing to ask about student tickets for a group of ten. Could you tell me how much a student ticket is? I would also like to know whether we can take photos inside. / Thank you for your time. / Best regards, (이름)",
           "카드 C 사과 예: Subject: Apology for Missing Practice / Dear Coach Kim, / I am writing to apologize for missing practice yesterday. I had a bad cold. Could you tell me what I missed? It will not happen again. / Sincerely, (이름)",
-          "카드 D 불만 예: Subject: Wrong Size in My T-shirt Order / Dear Customer Service Team, / Unfortunately, the T-shirt I received is size S, but I ordered size M. Could you please send me the right size? / I look forward to hearing from you. / Sincerely, (이름)",
+          "카드 D 불만 예: Subject: Wrong Size in My T-shirt Order / Dear Customer Service Team, / I am writing about a problem with my order. Unfortunately, the T-shirt I received is size S, but I ordered size M. Could you please send me the right size? / I look forward to hearing from you. / Sincerely, (이름)",
           "기준(점검표 6항목): ① 목적이 보이는 제목 ② Dear + 이름, ③ 목적 문장(I am writing to ~) ④ 세부 내용과 정중한 요청 ⑤ 맺음 인사와 이름 ⑥ 줄임말·이모티콘·느낌표 없음. 다섯 개 이상이면 통과."
         ],
         "막히면": [
@@ -725,10 +725,10 @@
           "“목적 문장은 어떻게 시작하지?”"
         ],
         "예상답": [
-          "“제목, Dear, 목적, 세부·요청, 맺음 인사, 이름이요.” “I am writing to ~요.”"
+          "“제목, Dear, 목적, 세부 질문, 요청과 기한, 맺음 인사와 이름이요.” “I am writing to ~요.”"
         ],
         "정답": [
-          "① 제목 → Dear ~, → 목적 문장 → 세부 내용·요청 → 맺음 인사 → 이름",
+          "① 제목 → Dear ~, → 목적 문장 → 세부 내용·질문 → 요청과 기한 → 맺음 인사와 이름",
           "② I am writing to ask if ~ / ask about ~ / apologize for ~ / I am writing about a problem with ~",
           "③ Could you please ~? / I would appreciate it if you could ~."
         ],
@@ -948,7 +948,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 격식 이메일의 여섯 부분을 순서대로 쓰세요.\n② 요청·문의·사과 메일의 목적 문장을 하나씩 쓰세요.\n③ Can you send it?을 가장 공손한 표현으로 바꿔 쓰세요.",
         "lines": 3,
-        "answer": "① 제목 → Dear ~, → 목적 문장 → 세부 내용·요청 → 맺음 인사 → 이름 ② I am writing to ask if ~ / I am writing to ask about ~ / I am writing to apologize for ~ ③ I would appreciate it if you could send it. (Could you please send it?도 인정). 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 제목 → Dear ~, → 목적 문장 → 세부 내용·질문 → 요청과 기한 → 맺음 인사와 이름 ② I am writing to ask if ~ / I am writing to ask about ~ / I am writing to apologize for ~ ③ I would appreciate it if you could send it. (Could you please send it?도 인정). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
