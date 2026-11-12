@@ -269,7 +269,7 @@
         ],
         "주의": [
           "go–went–gone은 과거형과 과거분사가 다릅니다. I have went는 틀립니다(오해 M3). lose–lost–lost, leave–left–left는 과거형과 과거분사가 같습니다.",
-          "leave는 ‘떠나다’ 말고 ‘두고 오다’(I left my book at home.)라는 뜻도 있습니다. 중3에서 left를 ‘두고 왔다’로 본 적이 있습니다."
+          "leave는 ‘떠나다’ 말고 ‘두고 오다’(I left my book at home.)라는 뜻도 있습니다. 중3 글에서 left를 뜻만 본 적이 있고, 모양(leave–left–left)은 오늘 처음 익힙니다."
         ]
       }
     },
@@ -686,7 +686,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I have finished my\nhomework yesterday."
+              "word": "I finished my\nhomework yesterday."
             }
           ]
         }
@@ -698,7 +698,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "I finished my\nhomework yesterday."
+              "word": "I have finished my\nhomework yesterday."
             }
           ]
         }
@@ -712,13 +712,13 @@
           "“yesterday는 지난 때를 밝히는 말이지? 그럼 과거 시제를 써야 해, 현재완료를 써야 해?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(I finished my homework yesterday.)입니다. 가는 yesterday와 현재완료를 함께 썼습니다. yesterday가 있으면 과거 시제를 씁니다."
+          "바르게 쓴 쪽은 가(I finished my homework yesterday.)입니다. 나의 문장은 yesterday와 현재완료를 함께 썼습니다. yesterday가 있으면 과거 시제를 씁니다."
         ],
         "막히면": [
           "S10 표의 첫 줄을 다시 보여 주고 “yesterday가 있으면 have를 빼요.”라고 말해 줍니다."
         ],
         "주의": [
-          "yesterday를 빼면 가도 맞는 문장이 됩니다(I have finished my homework. 숙제를 끝냈어요, 그래서 지금 끝나 있어요). 아이가 두 가지로 고쳐 말해 보게 합니다."
+          "yesterday를 빼면 나의 문장도 맞는 문장이 됩니다(I have finished my homework. 숙제를 끝냈어요, 그래서 지금 끝나 있어요). 아이가 두 가지로 고쳐 말해 보게 합니다."
         ]
       }
     },
@@ -744,7 +744,7 @@
           "text": "When (did he leave /\nhas he left)?"
         },
         {
-          "text": "I (visited / have visited) my\ngrandma last weekend."
+          "text": "I (have visited / visited) my\ngrandma last weekend."
         }
       ],
       "hint": "ago, last ~, yesterday, When → 과거 시제      just, already, yet → 현재완료",
@@ -1205,7 +1205,7 @@
               ""
             ],
             [
-              "③ He (arrived / has arrived) an hour ago.",
+              "③ He (has arrived / arrived) an hour ago.",
               ""
             ],
             [
@@ -1213,7 +1213,7 @@
               ""
             ],
             [
-              "⑤ When (did you buy / have you bought) that cap?",
+              "⑤ When (have you bought / did you buy) that cap?",
               ""
             ]
           ],

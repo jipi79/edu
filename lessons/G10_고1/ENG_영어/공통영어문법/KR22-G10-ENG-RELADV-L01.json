@@ -378,16 +378,16 @@
           "text": "the city (where / when)\nI was born"
         },
         {
-          "text": "the day (when / where)\nwe went to Jeju"
+          "text": "the day (where / when)\nwe went to Jeju"
         },
         {
           "text": "the reason (why / how)\nyou are late"
         },
         {
-          "text": "the park (where / why)\nwe play soccer"
+          "text": "the park (why / where)\nwe play soccer"
         },
         {
-          "text": "the year (when / where)\nmy sister was born"
+          "text": "the year (where / when)\nmy sister was born"
         },
         {
           "text": "This is (how / the way how)\nI make sandwiches."
@@ -900,7 +900,7 @@
       "dont": "the way how I study",
       "review": [
         {
-          "text": "알맞은 것은?\nthe day (when / where)\nwe met"
+          "text": "알맞은 것은?\nthe day (where / when)\nwe met"
         },
         {
           "text": "전치사 + which로?\nthe park where we play"
@@ -1025,7 +1025,7 @@
               ""
             ],
             [
-              "④ This is ______ I remember new words.",
+              "④ This is ______ I remember new words. (방법)",
               "",
               ""
             ]
@@ -1184,7 +1184,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① the day (when / where) we met에서 알맞은 것을 쓰세요.\n② the park where we play를 ‘전치사 + which’로 바꾸어 쓰세요.\n③ the way how I study를 바르게 고쳐 쓰세요.",
+        "prompt": "① the day (where / when) we met에서 알맞은 것을 쓰세요.\n② the park where we play를 ‘전치사 + which’로 바꾸어 쓰세요.\n③ the way how I study를 바르게 고쳐 쓰세요.",
         "lines": 3,
         "answer": "① when ② the park in which(at which) we play ③ the way I study 또는 how I study. 세 가지 모두 도움 없이 하면 통과."
       }

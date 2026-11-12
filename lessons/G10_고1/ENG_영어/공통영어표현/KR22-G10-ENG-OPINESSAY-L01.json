@@ -60,7 +60,7 @@
     "종이 카드 세 장(주제: swim / diary / walk or bike를 하나씩 써 둠)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기와 뜻 찾기)"
   ],
-  "boundary": "네 문단 의견 에세이(서론·본론·반론과 반박·결론)만 다룬다. 계획의 ‘서론·본론·결론 세 문단’에 반론 한 문장과 반박 한 문장을 넣은 짧은 셋째 문단을 더한 짜임이다. 본론에는 서로 다른 이유 두 개와 이유마다 예시 하나(때·곳·사람이 보이게)를 쓰고, 반론은 Some people say that ~. 한 문장, 반박은 However, ~. 한 문장으로만 쓴다. 연결어는 In my opinion, I believe, First, Second, For example, For instance(= For example), In addition, However, For these reasons, In conclusion만 쓰고, In addition·For instance·In conclusion은 뜻을 함께 소개한다. 주제는 생활 속 가벼운 주제(수영 배우기, 일기 쓰기, 걷거나 자전거로 학교 가기, 본보기는 요리 배우기)만 쓰고 사회적으로 찬반이 크게 갈리는 주제는 쓰지 않는다. 문장은 지금까지 배운 문법(조동사 should·can, 동명사, to부정사, 관계대명사, 현재완료, because·when·if)으로 쓰고, 통계·출처 인용, 다섯 문단 이상의 글, 반론을 여러 개 다루는 글은 다루지 않는다(반론을 넣은 에세이는 고2에서 다시 한다). 고쳐 쓰기는 부모가 고른 고칠 점 하나만 한 번 한다. ‘서론·본론·결론·반론·반박·점검표’라는 말은 화면에 뜻과 함께 쓴다.",
+  "boundary": "네 문단 의견 에세이(서론·본론·반론과 반박·결론)만 다룬다. 기본 짜임인 ‘서론·본론·결론 세 문단’에 반론 한 문장과 반박 한 문장을 넣은 짧은 셋째 문단을 더한 짜임이다. 본론에는 서로 다른 이유 두 개와 이유마다 예시 하나(때·곳·사람이 보이게)를 쓰고, 반론은 Some people say that ~. 한 문장, 반박은 However, ~. 한 문장으로만 쓴다. 연결어는 In my opinion, I believe, First, Second, For example, For instance(= For example), In addition, However, For these reasons, In conclusion만 쓰고, In addition·For instance·In conclusion은 뜻을 함께 소개한다. 주제는 생활 속 가벼운 주제(수영 배우기, 일기 쓰기, 걷거나 자전거로 학교 가기, 본보기는 요리 배우기)만 쓰고 사회적으로 찬반이 크게 갈리는 주제는 쓰지 않는다. 문장은 지금까지 배운 문법(조동사 should·can, 동명사, to부정사, 관계대명사, 현재완료, because·when·if)으로 쓰고, 통계·출처 인용, 다섯 문단 이상의 글, 반론을 여러 개 다루는 글은 다루지 않는다(반론을 넣은 에세이는 고2에서 다시 한다). 고쳐 쓰기는 부모가 고른 고칠 점 하나만 한 번 한다. ‘서론·본론·결론·반론·반박·점검표’라는 말은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -538,7 +538,7 @@
           "서론 예: Do you remember what you did last Monday? In my opinion, students should keep a diary.",
           "본론 예: First, a diary helps us remember special days. For example, I can read about my fifteenth birthday party again. Second, writing every day makes our writing better. For example, my sentences got longer after one month.",
           "반론과 반박 예: Some people say that a diary takes too much time. However, writing three sentences takes only five minutes.",
-          "결론 예: For these reasons, I believe that every student should keep a diary.",
+          "결론 예: For these reasons, I believe that every student should keep a diary. Why don't you try it tonight?",
           "기준(점검표 6항목): ① 네 문단(서론·본론·반론과 반박·결론) ② 서론에 주장 한 문장(In my opinion, ~ / I believe ~) ③ 본론에 서로 다른 이유 두 개와 이유마다 예시 ④ 반론 한 문장(Some people say that ~.)과 However로 시작하는 반박 한 문장 ⑤ 결론에서 주장을 다시 말하고 새 이유를 넣지 않음 ⑥ 첫 글자 대문자, 마침표, 문장마다 주어와 동사. 10~14문장이고 여섯 항목 가운데 다섯 개 이상이면 통과입니다."
         ],
         "막히면": [
@@ -781,7 +781,7 @@
           "“제 글에도 반론과 반박이 있어요.” “결론에 새 이유를 넣었네요.”"
         ],
         "정답": [
-          "잘 쓴 예(일기): Do you remember what you did last Monday? In my opinion, students should keep a diary. / First, a diary helps us remember special days. For example, I can read about my fifteenth birthday party again. Second, writing every day makes our writing better. For example, my sentences got longer after one month. / Some people say that a diary takes too much time. However, writing three sentences takes only five minutes. / For these reasons, I believe that every student should keep a diary."
+          "잘 쓴 예(일기): Do you remember what you did last Monday? In my opinion, students should keep a diary. / First, a diary helps us remember special days. For example, I can read about my fifteenth birthday party again. Second, writing every day makes our writing better. For example, my sentences got longer after one month. / Some people say that a diary takes too much time. However, writing three sentences takes only five minutes. / For these reasons, I believe that every student should keep a diary. Why don't you try it tonight?"
         ],
         "막히면": [
           "반론이 없으면 S06·S08, 문단이 안 나뉘었으면 S03·S04, 예시가 막연하면 S12를 다시 봅니다."
@@ -1042,7 +1042,7 @@
         "no": 4,
         "prompt": "개요를 보고 네 문단 의견 에세이를 쓰세요. 문단이 바뀌면 줄을 바꾸세요(10~14문장).",
         "lines": 16,
-        "answer": "잘 쓴 예(일기): Do you remember what you did last Monday? In my opinion, students should keep a diary. / First, a diary helps us remember special days. For example, I can read about my fifteenth birthday party again. Second, writing every day makes our writing better. For example, my sentences got longer after one month. / Some people say that a diary takes too much time. However, writing three sentences takes only five minutes. / For these reasons, I believe that every student should keep a diary. 기준(점검표 6항목): 네 문단 / 서론의 주장 문장 / 서로 다른 이유 두 개와 예시 / 반론과 However 반박 / 결론에서 주장 다시(새 이유 없음) / 대문자·마침표·주어와 동사. 여섯 항목 가운데 다섯 개 이상이면 통과. 의견의 내용은 무엇이든 됩니다."
+        "answer": "잘 쓴 예(일기): Do you remember what you did last Monday? In my opinion, students should keep a diary. / First, a diary helps us remember special days. For example, I can read about my fifteenth birthday party again. Second, writing every day makes our writing better. For example, my sentences got longer after one month. / Some people say that a diary takes too much time. However, writing three sentences takes only five minutes. / For these reasons, I believe that every student should keep a diary. Why don't you try it tonight? 기준(점검표 6항목): 네 문단 / 서론의 주장 문장 / 서로 다른 이유 두 개와 예시 / 반론과 However 반박 / 결론에서 주장 다시(새 이유 없음) / 대문자·마침표·주어와 동사. 여섯 항목 가운데 다섯 개 이상이면 통과. 의견의 내용은 무엇이든 됩니다."
       },
       {
         "no": 5,

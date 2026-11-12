@@ -519,8 +519,8 @@
           "“이번엔 네가 주장을 말하고, 엄마(아빠)가 근거를 골라 볼게.”"
         ],
         "예상답": [
-          "① As librarian Ms. Cho explains, students keep reading when they choose their own books (Cho, 2025). This shows that choice is important.",
-          "② A survey of 400 students found that 62% have little time to read at home. This shows that school time is needed.",
+          "① As librarian Ms. Cho explains, students keep reading when they pick their own books (Cho, 2025). This shows that choice is important.",
+          "② A survey of 400 students found that 62% have little time for reading at home. This shows that school time is needed.",
           "기준: 주장에 맞는 자료를 고르고, 출처를 밝히며, This shows that 문장으로 이으면 잘한 것입니다."
         ],
         "막히면": [
@@ -558,7 +558,7 @@
         ],
         "정답": [
           "본보기: First, PE classes help students focus. According to the Example Health Center (2024), students who took part in a morning PE class did better on focus tests later in the day than classmates without PE. Coach Han also says, “Exercise is not a break from learning; it is part of learning” (Han, 2025). This shows that more PE time could support learning instead of taking time away from it.",
-          "다른 바꿔 쓰기 예(자료 3): A survey of 300 students found that 58% feel less stressed after PE class (Example Survey, 2025).",
+          "다른 바꿔 쓰기 예(자료 3): In a survey of 300 students, 58% reported lower stress after a PE lesson (Example Survey, 2025).",
           "기준(점검표 다섯 항목): ① 주장 문장 ② 인용 부호와 출처가 있는 직접 인용 ③ 출처가 있고 네 낱말 이상 베끼지 않은 바꿔 쓰기 ④ This shows that 설명 ⑤ 숫자·내용을 자료 그대로. 네 개 이상이면 통과."
         ],
         "막히면": [
@@ -662,7 +662,7 @@
         ],
         "정답": [
           "① 요약 (글 전체의 핵심만 짧게, 출처 있음)",
-          "② 예: As Coach Han says, “Exercise is part of learning” (Han, 2025). / 또는 바꿔 쓰기 + (Han, 2025)",
+          "② 예: As Coach Han says, exercise “is part of learning” (Han, 2025). / 또는 바꿔 쓰기 + (Han, 2025)",
           "③ 나 (자료가 주장을 어떻게 돕는지 설명함)",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
@@ -742,7 +742,7 @@
           ],
           [
             "Survey (2025): 62% have little time to read at home.",
-            "A survey found that 62% of students rarely have time to read at home (Example Survey, 2025)."
+            "A survey found that 62% of students seldom have time for reading at home (Example Survey, 2025)."
           ]
         ],
         "widths": [
@@ -819,7 +819,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 직접 인용 ② 바꿔 쓰기 ③ 요약 ④ 문제: Mr. Lee의 말을 인용 부호와 출처 없이 씀 → Mr. Lee argues that “class time is too valuable” (Lee, 2025). / 또는 According to Mr. Lee (2025), students can read at home because class time is precious. 네 개 모두 맞으면 통과."
+        "answer": "① 직접 인용 ② 바꿔 쓰기 ③ 요약 ④ 문제: Mr. Lee의 말을 인용 부호와 출처 없이 씀 → Mr. Lee argues that “class time is too valuable” (Lee, 2025). / 또는 According to Mr. Lee (2025), reading can be done at home because class time is precious. 네 개 모두 맞으면 통과."
       },
       {
         "no": 3,

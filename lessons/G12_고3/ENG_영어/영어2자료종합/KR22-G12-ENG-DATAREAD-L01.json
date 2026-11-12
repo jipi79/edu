@@ -2037,7 +2037,7 @@
           "“이번엔 엄마(아빠)가 네 그래프로 세 문장을 말할게. 하나는 틀리게 말할 거야. 찾아낼 수 있어?”"
         ],
         "예상답": [
-          "예(과일): apples 6, oranges 3, bananas 3 → Apples are the most common fruit. There are twice as many apples as oranges. Oranges and bananas are the same.",
+          "예(과일): apples 6, oranges 3, bananas 3 → Apples are the most common fruit. There are twice as many apples as oranges. The number of oranges is the same as the number of bananas.",
           "기준: 그래프의 수치와 맞는 문장 세 개를 말하고, 부모의 틀린 문장을 근거 수치로 찾아내면 잘한 것입니다."
         ],
         "막히면": [
@@ -2064,7 +2064,7 @@
           "text": "Bus (30%) is ______ as popular as Bike (10%)."
         },
         {
-          "text": "From 2023 to 2024, the number ______ by 600."
+          "text": "From 2023 (1,800) to 2024 (2,400),\nthe number ______ by 600."
         },
         {
           "text": "Sports (25%) is the ______ activity.\n(Videos 35%, Friends 20%, Reading 15%)"
@@ -2660,8 +2660,8 @@
           "“나눗셈해서 2가 나오는지 봐요.” “문장마다 근거 수치를 써요.”"
         ],
         "정답": [
-          "① increase·rise / decrease·fall / remain the same, twice·three times as ~ as, the highest·the second highest, account for ~%",
-          "② 몇 배 → 나눗셈, 얼마나 더 → 뺄셈, 순위 → 큰 순서로 번호",
+          "① 큰 수 ÷ 작은 수 = 2인지 나눗셈으로 확인(몇 배 → 나눗셈, 얼마나 더 → 뺄셈)",
+          "② 그대로이다(앞뒤 두 수가 같다. 예: 2022년 1,800 = 2023년 1,800)",
           "③ 1,800 ÷ 1,200 = 1.5이므로 두 배가 아니다"
         ],
         "주의": [
@@ -3130,17 +3130,17 @@
           ],
           "rows": [
             [
-              "Walking and the bus together account for 70% of the students.",
+              "① Walking and the bus together account for 70% of the students.",
               "",
               ""
             ],
             [
-              "Half as many students ride a bike as take the subway.",
+              "② Half as many students ride a bike as take the subway.",
               "",
               ""
             ],
             [
-              "80 students walk to school.",
+              "③ 80 students walk to school.",
               "",
               ""
             ],
@@ -3158,7 +3158,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "Walking and the bus together ~ 70%: 참(40 + 30 = 70). Half as many ~ bike as ~ subway: 참(10 × 2 = 20). 80 students walk: 참(200 × 0.4 = 80). 빈칸: three times(30 ÷ 10 = 3). 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① 참(40 + 30 = 70) ② 참(10 × 2 = 20, 자전거는 지하철의 절반) ③ 참(200 × 0.4 = 80) ④ 빈칸: three times(30 ÷ 10 = 3). 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 2,

@@ -445,7 +445,7 @@
           "A 설날: 음력 1월 1일 / 떡국 / 웃어른께 세배, 새해 돈 / 한 살 더 먹음, 새해 복을 빎",
           "B 스페인: 12월 31일 자정 / 포도 열두 알 / 종소리에 맞춰 한 알씩 / 열두 달의 행운",
           "C 일본: 섣달그믐(12월 31일)과 1월 첫날들 / 긴 소바 / 신사·절에 가서 기도 / 긴 삶과 좋은 한 해",
-          "공통점 예: Both Spain and Japan have special food that wishes for good luck or a long life in the new year. / 세 나라 모두 새해에 음식으로 좋은 일을 빈다."
+          "공통점 예: In both Spain and Japan, people eat special food to wish for good luck or a long life in the new year. / 세 나라 모두 새해에 음식으로 좋은 일을 빈다."
         ],
         "막히면": [
           "“이 나라 사람들은 무엇을 먹었어? 왜 먹는대?”라고 글마다 두 가지만 묻습니다."
@@ -874,7 +874,7 @@
         },
         "line_label": "공통점:",
         "lines": 1,
-        "answer": "설날: 음력 1월 1일 / 떡국 / 세배, 새해 돈 / 한 살 더 먹음, 새해 복을 빎. 스페인: 12월 31일 자정 / 포도 열두 알 / 종소리마다 한 알 / 열두 달의 행운. 일본: 섣달그믐과 1월 첫날들 / 긴 소바 / 신사·절에서 기도 / 긴 삶, 좋은 한 해. 공통점 예: All three cultures have special New Year food that wishes for good things in the new year. 열두 칸 가운데 열 칸 이상과 공통점 한 문장이면 통과. 낱말 뜻: sliced 얇게 썬, elder 웃어른, strike 시계 종이 치는 소리, believe 믿다, shrine 신사, temple 절, pray 빌다."
+        "answer": "설날: 음력 1월 1일 / 떡국 / 세배, 새해 돈 / 한 살 더 먹음, 새해 복을 빎. 스페인: 12월 31일 자정 / 포도 열두 알 / 종소리마다 한 알 / 열두 달의 행운. 일본: 섣달그믐과 1월 첫날들 / 긴 소바 / 신사·절에서 기도 / 긴 삶, 좋은 한 해. 공통점 예: In all three cultures, people eat special New Year food to wish for good things in the new year. 열두 칸 가운데 열 칸 이상과 공통점 한 문장이면 통과. 낱말 뜻: sliced 얇게 썬, elder 웃어른, strike 시계 종이 치는 소리, believe 믿다, shrine 신사, temple 절, pray 빌다."
       },
       {
         "no": 3,

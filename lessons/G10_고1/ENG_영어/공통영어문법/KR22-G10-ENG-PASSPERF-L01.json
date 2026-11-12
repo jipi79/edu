@@ -55,7 +55,7 @@
   "materials": [
     "활동지",
     "연필",
-    "집안일 점검 카드(종이에 ‘설거지 ✓, 바닥 청소 ✓, 화분 물 주기 ✓, 밥 짓기 … 하는 중’처럼 써 둠)",
+    "집안일 점검 카드(종이에 ‘설거지 ✓, 화분 물 주기 ✓, 방 청소 … 하는 중, 세차 … 하는 중’처럼 써 둠)",
     "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
   ],
   "boundary": "현재진행 수동태(am·is·are + being + 과거분사, ‘~되고 있다’)와 현재완료 수동태(have·has + been + 과거분사, ‘~되었다, ~되어 왔다’)의 긍정문만 다룬다. 능동태 → 수동태 바꾸기는 목적어가 하나인 문장(주어 + 동사 + 목적어)으로 하고, by + 행위자는 누가 했는지가 중요할 때만 쓰며 someone, people, they처럼 막연한 주어는 뺀다. 과거분사는 이미 배운 것(repaired, cleaned, painted, built, sold, eaten, done, made, written, broken 등)과 새 모양 하나(★ stolen)만 쓴다. 지난 차시의 현재완료진행 능동태(has been cleaning)와 완료 수동태(has been cleaned)의 구별을 다룬다. 과거진행 수동태(was being ~)는 노트에서만 소개하고, 부정문·의문문(hasn't been ~, Has it been ~?), 조동사 + have been, 완료진행 수동태(has been being ~), 4·5형식 문장의 수동태(다음 차시)는 다루지 않는다. Dinner is cooking처럼 능동 모양이 수동 뜻으로 쓰이는 동사는 문제에 쓰지 않는다.",
@@ -456,7 +456,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "The road is repairing\nnow."
+              "word": "The road is being\nrepaired now."
             }
           ]
         }
@@ -468,7 +468,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "The road is being\nrepaired now."
+              "word": "The road is repairing\nnow."
             }
           ]
         }
@@ -479,10 +479,10 @@
         "시간": "약 2분",
         "말하기": [
           "“두 문장은 무엇이 달라?”",
-          "“가처럼 말하면 길이 무엇을 하는 거야? 길이 직접 고치는 사람이야?”"
+          "“나처럼 말하면 길이 무엇을 하는 거야? 길이 직접 고치는 사람이야?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(The road is being repaired now.)입니다. 가의 is repairing은 ‘(길이 무언가를) 고치고 있다’는 능동 진행형이라 뜻이 맞지 않습니다. 길은 고쳐지는 쪽이므로 is being + 과거분사를 씁니다."
+          "바르게 쓴 쪽은 가(The road is being repaired now.)입니다. 나의 is repairing은 ‘(길이 무언가를) 고치고 있다’는 능동 진행형이라 뜻이 맞지 않습니다. 길은 고쳐지는 쪽이므로 is being + 과거분사를 씁니다."
         ],
         "막히면": [
           "S04의 네 덩어리를 다시 보여 주고 “길이 하는 쪽이야, 당하는 쪽이야? 당하면 과거분사”라고 말해 줍니다."
@@ -739,7 +739,7 @@
         "점검 카드를 준비해요.\n(✓ 끝난 일, … 하는 중)",
         "부모가 물어요:\nWhat about the dishes?",
         "아이가 보고해요:\nThe dishes have been washed.",
-        "하는 중인 일도 보고해요:\nThe rice is being cooked.",
+        "하는 중인 일도 보고해요:\nThe room is being cleaned.",
         "역할을 바꿔 부모가 보고해요."
       ],
       "criteria": [
@@ -753,20 +753,20 @@
         "말하기": [
           "“점검 카드를 보자. ✓는 끝난 일, ‘하는 중’은 지금 하고 있는 일이야. 엄마(아빠)가 물으면 보고해 줘.”",
           "“What about the dishes?” → (아이) “The dishes have been washed.”",
-          "“What about the floor?” → (아이) “The floor has been cleaned.”",
-          "“What about the rice?” → (아이) “The rice is being cooked.”",
-          "“이번엔 네가 물어봐. 엄마(아빠)가 보고할게.” (부모: “The plants have been watered.”)"
+          "“What about the plants?” → (아이) “The plants have been watered.”",
+          "“What about the room?” → (아이) “The room is being cleaned.”",
+          "“이번엔 네가 물어봐. 엄마(아빠)가 보고할게.” (부모: “The car is being washed.”)"
         ],
         "예상답": [
-          "“The dishes have been washed.” “The plants have been watered.” “The rice is being cooked now.” “The laundry is being dried.”",
+          "“The dishes have been washed.” “The plants have been watered.” “The room is being cleaned now.” “The car is being washed.”",
           "기준: 끝난 일은 has·have been + 과거분사, 하는 중인 일은 is·are being + 과거분사로 말하고, be동사와 have를 새 주어(여럿이면 are, have)에 맞추면 잘한 것입니다."
         ],
         "막히면": [
           "문장 틀(The ___ has been ___ed. / The ___ is being ___ed.)을 종이에 써 주고 빈칸만 말하게 합니다.",
-          "동사가 떠오르지 않으면 wash(씻다), clean(청소하다), water(물을 주다), cook(요리하다), dry(말리다) 가운데 고르게 합니다."
+          "동사가 떠오르지 않으면 wash(씻다), clean(청소하다), water(물을 주다), fix(고치다), paint(칠하다) 가운데 고르게 합니다."
         ],
         "주의": [
-          "water는 ‘물을 주다’라는 동사로도 씁니다. laundry는 ‘빨래’, dry는 ‘말리다’입니다.",
+          "water는 ‘물을 주다’라는 동사로도 씁니다. 밥과 빨래는 The rice is cooking. The laundry is drying.처럼 being 없이 말해도 바른 영어라서, 오늘은 wash·clean·water로 연습합니다.",
           "틀려도 바로 고치기보다 부모가 바른 문장으로 다시 말해 줍니다(“The dishes has been washing.” → “Oh, the dishes have been washed!”)."
         ]
       }
@@ -1154,7 +1154,7 @@
               "① The house is being (built / building) now."
             ],
             [
-              "② The kids are (playing / being played) outside."
+              "② The kids are (being played / playing) outside."
             ],
             [
               "③ The work has (done / been done)."
@@ -1163,7 +1163,7 @@
               "④ She has been (waiting / waited) for an hour."
             ],
             [
-              "⑤ My phone has been (stolen / stealing)!"
+              "⑤ My phone has been (stealing / stolen)!"
             ],
             [
               "⑥ The windows (are being cleaned / are cleaning) now."
@@ -1218,7 +1218,7 @@
           ],
           "blank": 3
         },
-        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: The rice is being cooked. / The dishes have been washed. / The plants have been watered.). being·been의 자리, 과거분사, 주어에 맞는 is·are·has·have, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 세 문장(예: The room is being cleaned. / The dishes have been washed. / The plants have been watered.). being·been의 자리, 과거분사, 주어에 맞는 is·are·has·have, 첫 글자 대문자와 마침표를 봅니다. 세 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 7,

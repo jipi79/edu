@@ -577,7 +577,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "This is the bag\nwhat I bought."
+              "word": "This is the bag\nwhich I bought."
             }
           ]
         }
@@ -589,7 +589,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "This is the bag\nwhich I bought."
+              "word": "This is the bag\nwhat I bought."
             }
           ]
         }
@@ -603,7 +603,7 @@
           "“the bag이 있는데 what을 쓰면 무엇이 두 번 들어간 걸까?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(This is the bag which I bought.)입니다. 가는 앞 명사 the bag 뒤에 what을 썼습니다. what 안에 이미 ‘것’(the thing)이 들어 있으므로 명사 뒤에 쓰지 않습니다. 가를 고치면 This is the bag which(that) I bought. 또는 the bag을 빼고 This is what I bought.(이것이 내가 산 거예요)"
+          "바르게 쓴 쪽은 가(This is the bag which I bought.)입니다. 나의 문장은 앞 명사 the bag 뒤에 what을 썼습니다. what 안에 이미 ‘것’(the thing)이 들어 있으므로 명사 뒤에 쓰지 않습니다. 나의 문장을 고치면 This is the bag which(that) I bought. 또는 the bag을 빼고 This is what I bought.(이것이 내가 산 거예요)"
         ],
         "막히면": [
           "S08의 두 카드를 다시 보여 주고 “what = the thing which. 그러면 the bag what은 the bag the thing which가 돼.”라고 말해 줍니다."
@@ -1018,15 +1018,15 @@
               ""
             ],
             [
-              "③ (What / That) you need is a good sleep.",
+              "③ (What / That) you need is some sleep.",
               ""
             ],
             [
-              "④ the boy (what / that) I met",
+              "④ the boy (that / what) I met",
               ""
             ],
             [
-              "⑤ Show me (what / that) you have.",
+              "⑤ Show me (that / what) you have.",
               ""
             ],
             [

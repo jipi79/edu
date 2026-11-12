@@ -425,7 +425,7 @@
           "text": "The sun rises in the east."
         },
         {
-          "text": "This cake tastes\n(sweet / sweetly)."
+          "text": "This cake tastes\n(sweetly / sweet)."
         },
         {
           "text": "Your idea sounds\n(good / well)."
@@ -474,7 +474,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "She looks happily."
+              "word": "She looks happy."
             }
           ]
         }
@@ -486,7 +486,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "She looks happy."
+              "word": "She looks happily."
             }
           ]
         }
@@ -500,7 +500,7 @@
           "“looks 뒤의 말은 그녀를 설명해, 아니면 보는 동작을 꾸며? S05에서 감각동사 뒤에는 무엇을 쓴다고 했지?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(She looks happy.)입니다. looks 뒤의 말은 주어 She의 상태를 설명하는 보어라서 형용사 happy를 씁니다. 가의 happily는 동작을 꾸미는 부사입니다."
+          "바르게 쓴 쪽은 가(She looks happy.)입니다. looks 뒤의 말은 주어 She의 상태를 설명하는 보어라서 형용사 happy를 씁니다. 나의 happily는 동작을 꾸미는 부사입니다."
         ],
         "막히면": [
           "“She is happy.처럼 is를 넣어도 뜻이 통하지? 감각동사 자리는 is 자리와 같아.”라고 말해 줍니다."
@@ -878,7 +878,7 @@
       "text": "혼자 말하고, 활동지 5에 써요.",
       "problems": [
         {
-          "text": "This bread smells (good / well).\n→ 고르고, 몇 형식?"
+          "text": "This bread smells (well / good).\n→ 고르고, 몇 형식?"
         },
         {
           "text": "Ms. Park shows us a map.\n→ 3형식으로"
@@ -1190,7 +1190,7 @@
           ],
           "rows": [
             [
-              "① You look (tired / tiredly).",
+              "① You look (tiredly / tired).",
               ""
             ],
             [
@@ -1202,7 +1202,7 @@
               ""
             ],
             [
-              "④ The soup tastes (good / well).",
+              "④ The soup tastes (well / good).",
               ""
             ],
             [
@@ -1297,7 +1297,7 @@
         "table": {
           "rows": [
             [
-              "① This bread smells (good / well).\n(고르고 형식 쓰기)",
+              "① This bread smells (well / good).\n(고르고 형식 쓰기)",
               ""
             ],
             [

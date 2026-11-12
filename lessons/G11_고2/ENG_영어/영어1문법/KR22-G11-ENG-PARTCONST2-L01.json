@@ -1064,7 +1064,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① (Being) Built 100 years ago, the house is very old. ② Seen from the bridge, the river looks like a snake. ③ (Being) Made of glass, the cup breaks easily. 세 개 가운데 두 개 이상이면 통과. Building, Seeing처럼 -ing를 쓰면 S08을 다시 봅니다. (bridge: 다리, snake: 뱀, glass: 유리)"
+        "answer": "① (Having been) Built 100 years ago, the house is very old. ② Seen from the bridge, the river looks like a snake. ③ (Being) Made of glass, the cup breaks easily. 세 개 가운데 두 개 이상이면 통과. Building, Seeing처럼 -ing를 쓰면 S08을 다시 봅니다. (bridge: 다리, snake: 뱀, glass: 유리)"
       },
       {
         "no": 3,
@@ -1161,7 +1161,7 @@
           ],
           "blank": 2
         },
-        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: Having eaten lunch, I went to the library. / I studied with the window opened.). Having 뒤의 과거분사, with 뒤의 명사와 분사의 관계, 쉼표와 마침표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: Having eaten lunch, I went to the library. / I studied with the door closed.). Having 뒤의 과거분사, with 뒤의 명사와 분사의 관계, 쉼표와 마침표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 7,

@@ -1031,7 +1031,7 @@
               ""
             ],
             [
-              "② Being tired, she slept early.",
+              "② Being tired, she went to bed early.",
               ""
             ],
             [
@@ -1046,7 +1046,7 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① When I finished my homework, I went out. ② Because she was tired, she slept early. ③ Mom cooked dinner while she was singing a song. 세 개 가운데 두 개 이상이면 통과. 되돌릴 때 주어(I, she)를 다시 넣었는지, 시제를 뒤 문장에 맞췄는지 봅니다. ①은 After I finished ~도 맞습니다. (slept: sleep의 과거형)"
+        "answer": "① When I finished my homework, I went out. ② Because she was tired, she went to bed early. ③ Mom cooked dinner while she was singing a song. 세 개 가운데 두 개 이상이면 통과. 되돌릴 때 주어(I, she)를 다시 넣었는지, 시제를 뒤 문장에 맞췄는지 봅니다. ①은 After I finished ~도 맞습니다. (went to bed: 잠자리에 들었다)"
       },
       {
         "no": 5,

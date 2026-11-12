@@ -376,7 +376,7 @@
           "S03 표의 신호어 칸과 맞대어 보게 합니다."
         ],
         "주의": [
-          "pilot은 ‘조종사’, shortage는 ‘부족’입니다. ④는 앞 문장의 결과를 말하는 문장입니다."
+          "pilot은 ‘조종사’, task는 ‘일, 작업’입니다. ④는 앞 문장의 결과를 말하는 문장입니다."
         ]
       }
     },
@@ -669,7 +669,7 @@
           "“①②는 짜임과 신호어를 말하고, ③은 원인 → 결과를 말로 그려 줘.”"
         ],
         "정답": [
-          "① 정의 — refers to (보안 전문가 = 컴퓨터 시스템을 공격에서 지키는 일)",
+          "① 정의 — refers to (사이버 보안 = 컴퓨터 시스템을 공격에서 지키는 일)",
           "② 분류 — Some ~ Others ~ (일하는 곳: 병원 / 학교)",
           "③ 온라인 쇼핑이 늘었다 → 배달 기사가 더 필요해졌다 (As a result)",
           "기준: 세 개 모두 맞으면 통과입니다."
@@ -850,7 +850,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 정의 — is a person who ② 분류 — can be divided into ③ 인과 — Because ④ 정의 — refers to ⑤ 분류 — Some ~ Others ~ ⑥ 인과 — lead to. 여섯 개 가운데 다섯 개 이상이면 통과. (chef: 요리사, civil engineer: 토목 기사, electrical: 전기의, vet: 수의사)"
+        "answer": "① 정의 — is a person who ② 분류 — can be divided into ③ 인과 — Because ④ 정의 — refers to ⑤ 분류 — Some ~ Others ~ ⑥ 인과 — lead to. 여섯 개 가운데 다섯 개 이상이면 통과. (chef: 요리사, civil engineer: 토목 기사, electrical: 전기의, animal hospital: 동물 병원)"
       },
       {
         "no": 2,

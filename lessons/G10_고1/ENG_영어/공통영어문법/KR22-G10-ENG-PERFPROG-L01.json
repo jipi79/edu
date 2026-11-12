@@ -77,7 +77,7 @@
     },
     {
       "id": "M4",
-      "text": "for와 since를 바꾸어 쓰거나(for 3 p.m., since two hours) ~ ago를 since와 함께 쓴다(since two hours ago).",
+      "text": "for와 since를 바꾸어 쓰거나(for 3 p.m., since two hours) ~ ago를 since 뒤에 붙여 어색한 문장을 만든다(since two hours ago → for two hours).",
       "response": "S04에서 시작한 때(since)와 기간(for)을 수직선으로 구별하고, S11 ③에서 ‘~ ago → for ~’로 바꾸어 보게 한다."
     }
   ],
@@ -721,7 +721,7 @@
           "“언제 시작했어? 아니면 얼마 전에 시작했어?”라고 묻고, ‘~ ago’가 있으면 for로 바꾼다고 알려 줍니다."
         ],
         "주의": [
-          "③④처럼 ‘~ ago(~ 전에)’는 since와 함께 쓰지 않고 for + 기간으로 바꿉니다. since three hours ago는 틀립니다(오해 M4).",
+          "③④처럼 ‘~ ago(~ 전에)’는 for + 기간으로 바꿉니다. since three hours ago는 어색하게 들리므로 for three hours로 씁니다(오해 M4).",
           "②에서 have been knowing이라고 하면 S08을 다시 봅니다. (still: 아직도, started: 시작했다, learn: 배우다)"
         ]
       }
@@ -1099,7 +1099,7 @@
         "table": {
           "rows": [
             [
-              "① I (have known / have been knowing) her since 2018."
+              "① I (have been knowing / have known) her since 2018."
             ],
             [
               "② We (have been waiting / are waiting) for 20 minutes."
@@ -1114,7 +1114,7 @@
               "⑤ She has been studying (for / since) 9 a.m."
             ],
             [
-              "⑥ They (have been playing / play) games since lunch."
+              "⑥ They (play / have been playing) games since lunch."
             ]
           ],
           "widths": [
