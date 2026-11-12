@@ -480,11 +480,11 @@
       "claim": "Jun is shy, but his sister is very outgoing.\n두 친구가 outgoing의 뜻을 이렇게 짐작했어요.",
       "left": {
         "title": "가",
-        "text": "밖으로 나가는\nout + going으로\n쪼개 봤어요."
+        "text": "사교적인, 활발한\nbut 앞의 shy(수줍은)와\n반대예요."
       },
       "right": {
         "title": "나",
-        "text": "사교적인, 활발한\nbut 앞의 shy(수줍은)와\n반대예요."
+        "text": "밖으로 나가는\nout + going으로\n쪼개 봤어요."
       },
       "question": "문맥에 맞는 쪽은? 다른 친구는 무엇을 확인하지 않았나요?",
       "notes": {
@@ -495,10 +495,10 @@
           "“but 앞에서 준은 어떻다고 했지? shy, 수줍은. but은 앞과 반대니까?”"
         ],
         "정답": [
-          "나의 짐작(사교적인, 활발한)이 문맥에 맞습니다. but 앞의 shy(수줍은)와 반대이기 때문입니다. 가는 out + going으로 쪼갠 겉뜻(밖으로 나가는)만 보고 문맥으로 확인하지 않았습니다."
+          "가의 짐작(사교적인, 활발한)이 문맥에 맞습니다. but 앞의 shy(수줍은)와 반대이기 때문입니다. 나는 out + going으로 쪼갠 겉뜻(밖으로 나가는)만 보고 문맥으로 확인하지 않았습니다."
         ],
         "막히면": [
-          "가의 뜻을 넣어 읽게 합니다: “준은 수줍지만 여동생은 아주 밖으로 나가는 사람이다? 어색하지?”"
+          "나의 뜻을 넣어 읽게 합니다: “준은 수줍지만 여동생은 아주 밖으로 나가는 사람이다? 어색하지?”"
         ],
         "주의": [
           "쪼개기는 좋은 출발점이지만, 그 뜻이 문맥과 맞는지 꼭 넣어 읽어 확인합니다.",
@@ -615,10 +615,10 @@
           "text": "Please hand me that book.\n(손 / 건네주다)"
         },
         {
-          "text": "It's hot. Turn on the fan.\n(팬 / 선풍기)"
+          "text": "It's hot. Turn on the fan.\n(선풍기 / 응원하는 팬)"
         },
         {
-          "text": "Let's save water.\n(구하다 / 아끼다)"
+          "text": "Let's save water.\n(아끼다 / 구하다)"
         },
         {
           "text": "Mina left the room.\n(왼쪽 / 떠났다)"
@@ -640,7 +640,7 @@
           "두 뜻을 차례로 넣어 읽게 하고 “어느 쪽이 말이 돼?”라고 묻습니다."
         ],
         "주의": [
-          "hand는 명사로 ‘손’, 동사로 ‘건네주다’입니다. fan은 ‘팬(좋아하는 사람)’과 ‘선풍기’, save는 ‘구하다·저축하다·아끼다’, left는 ‘왼쪽’과 leave(떠나다)의 과거형입니다."
+          "hand는 명사로 ‘손’, 동사로 ‘건네주다’입니다. fan은 ‘팬(가수나 팀을 응원하는 사람)’과 ‘선풍기’, save는 ‘구하다·저축하다·아끼다’, left는 ‘왼쪽’과 leave(떠나다)의 과거형입니다."
         ]
       }
     },
@@ -807,7 +807,7 @@
           "text": "unbreakable  → 쪼개면? 뜻은?"
         },
         {
-          "text": "My dad can't stand loud music.\n(서다 / 참다)"
+          "text": "My dad can't stand loud music.\n(참다 / 서다)"
         },
         {
           "text": "The story was so moving that\neveryone cried. (움직이는 / 감동적인)"
@@ -1070,7 +1070,7 @@
             ],
             [
               "④ I can't stand the noise.",
-              "서다  /  참다"
+              "참다  /  서다"
             ]
           ],
           "widths": [
