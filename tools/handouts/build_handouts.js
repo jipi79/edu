@@ -321,9 +321,20 @@ function supportLine(L) {
 }
 
 // 이틀에 나누는 차시의 하루 분량: 보충 장을 뺀 장별 시간의 합을 둘로 나누어 5분 단위로 적는다.
-function perDayMinutes(L) {
-  const total = L.slides.filter((s) => s.role !== "support").reduce((t, s) => t + (parseInt(String((s.notes || {})["시간"] || "").replace(/[^0-9]/g, ""), 10) || 0), 0) || L.minutes;
-  return Math.max(15, Math.round(total / 2 / 5) * 5);
+// 이틀에 나누는 차시의 날마다 걸리는 시간(분). 나눌 곳(break_after)까지가 첫날이다. 보충 장은 세지 않는다.
+function dayMinutes(L) {
+  const mins = (s) => parseInt(String((s.notes || {})["시간"] || "").replace(/[^0-9]/g, ""), 10) || 0;
+  const main = L.slides.filter((s) => s.role !== "support");
+  const total = main.reduce((t, s) => t + mins(s), 0) || L.minutes;
+  const r5 = (n) => Math.max(10, Math.round(n / 5) * 5);
+  const k = main.findIndex((s) => s.id === L.break_after);
+  if (k < 0) return [r5(total / 2), r5(total / 2)];
+  const d1 = main.slice(0, k + 1).reduce((t, s) => t + mins(s), 0);
+  return [r5(d1), r5(total - d1)];
+}
+function splitLabel(L) {
+  const [d1, d2] = dayMinutes(L);
+  return d1 === d2 ? `이틀에 나누어(하루 약 ${d1}분)` : `이틀에 나누어(첫날 약 ${d1}분, 둘째 날 약 ${d2}분)`;
 }
 
 function guideHtml(L, thumbs) {
@@ -345,7 +356,7 @@ function guideHtml(L, thumbs) {
   const record = ws && ws.record ? `<h2>오늘의 기록</h2><div class="box">${ws.record.map((r) => `<div>${esc(r)}</div>`).join("")}<div style="margin-top:2mm">메모: ______________________________________________</div></div>` : "";
   return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
     <h1>부모용 진행 안내 · ${esc(L.title)}</h1>
-    <div class="sub">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시 · ${L.split_default ? `이틀에 나누어(하루 약 ${perDayMinutes(L)}분)` : `약 ${L.minutes}분`} · 수업 ID ${esc(L.id)}</div>
+    <div class="sub">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시 · ${L.split_default ? splitLabel(L) : `약 ${L.minutes}분`} · 수업 ID ${esc(L.id)}</div>
     <div class="box warn"><b>시작 전에</b><ul style="margin:1mm 0 0">
       <li>아이에게는 PPT를 <b>슬라이드 쇼</b>로 보여 주세요. 일반 보기 화면 아래쪽 노트에는 정답이 있습니다. 진행은 이 안내서를 보며 합니다.</li>
       <li>준비물: ${esc(L.materials.join(", "))}</li>
