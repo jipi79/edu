@@ -262,7 +262,7 @@
         "paragraphs": [
           "R: Good afternoon, Greenwood Community Center. This is Sarah speaking. How may I help you?",
           "C: Hello. This is Junho Lee. I'm calling about the volunteer position.",
-          "R: I'm afraid Mr. Davis is in a meeting. Could I take a message?",
+          "R: I'm afraid the manager, Mr. Davis, is in a meeting. Could I take a message?",
           "C: Actually, I'd like to set up an interview.",
           "R: Sure. Would Thursday at 4 p.m. work for you?",
           "C: I'm afraid I have class until 4:30. Could we make it 5 instead?",
@@ -287,7 +287,7 @@
         ],
         "주의": [
           "거절은 ‘I'm afraid + 이유 + 대안(Could we make it ~ instead?)’으로 합니다. 이름 철자를 묻고 답하는 것(L-E-E)도 전화에서 자주 합니다.",
-          "대화의 뜻: R 안녕하세요, 그린우드 주민 센터의 세라입니다. 무엇을 도와드릴까요? / C 안녕하세요. 이준호입니다. 봉사 자리 때문에 전화드렸어요. / R 죄송하지만 데이비스 선생님은 회의 중이세요. 메시지를 남기시겠어요? / C 사실 면접 날짜를 잡고 싶어요. / R 네. 목요일 오후 4시 괜찮으세요? / C 죄송하지만 4시 30분까지 수업이 있어요. 대신 5시로 할 수 있을까요? / R 그럼요. 그럼 목요일 오후 5시예요. 성 철자를 불러 주시겠어요? / C L-E-E입니다. 도와주셔서 감사합니다. 목요일에 뵐게요. (volunteer position: 봉사 자리, set up: 정하다, instead: 대신, spell: 철자를 말하다)"
+          "대화의 뜻: R 안녕하세요, 그린우드 주민 센터의 세라입니다. 무엇을 도와드릴까요? / C 안녕하세요. 이준호입니다. 봉사 자리 때문에 전화드렸어요. / R 죄송하지만 담당자인 데이비스 선생님은 회의 중이세요. 메시지를 남기시겠어요? / C 사실 면접 날짜를 잡고 싶어요. / R 네. 목요일 오후 4시 괜찮으세요? / C 죄송하지만 4시 30분까지 수업이 있어요. 대신 5시로 할 수 있을까요? / R 그럼요. 그럼 목요일 오후 5시예요. 성 철자를 불러 주시겠어요? / C L-E-E입니다. 도와주셔서 감사합니다. 목요일에 뵐게요. (volunteer position: 봉사 자리, manager: 담당자, set up: 정하다, instead: 대신, spell: 철자를 말하다)"
         ]
       }
     },
@@ -322,7 +322,7 @@
         ],
         "정답": [
           "① 예: Would Tuesday at 5 p.m. work for you? / How about Friday afternoon?",
-          "② 예: I'm afraid I have an academy class until 7 on Wednesday. How about Friday at 3 instead?",
+          "② 예: I'm afraid I have a class at my academy until 7 on Wednesday. How about Friday at 3 instead?",
           "③ So, Friday at 3 p.m. Is that right? / So, we'll meet on Friday at 3 p.m.",
           "기준: ①은 비어 있는 시간(화 4시 이후, 금 오후)을 제안, ②는 I'm afraid + 이유 + 대안, ③은 요일과 시간을 되풀이하면 정답입니다."
         ],
@@ -676,7 +676,7 @@
       "text": "①은 고르고, ②는 고치고, ③은 답해요.",
       "problems": [
         {
-          "text": "찾는 사람이 없을 때:\n가 She's not here. Bye.\n나 I'm afraid she's out right now. Could I take a message?"
+          "text": "찾는 사람이 없을 때:\n가 I'm afraid she's out right now. Could I take a message?\n나 She's not here right now. Call again later. Bye."
         },
         {
           "text": "3시 약속, 차가 막혀 15분 늦음:\n“late. traffic.” → 직무 메시지로"
@@ -692,7 +692,7 @@
           "“①은 고르고, ②는 고쳐 말하고, ③은 For example을 넣어 답해 줘.”"
         ],
         "정답": [
-          "① 나 (I'm afraid she's out right now. Could I take a message?)",
+          "① 가 (I'm afraid she's out right now. Could I take a message?)",
           "② 예: Hello Ms. Kim, this is (이름). I'm sorry, but I'll be about 15 minutes late because of traffic. I'll be there by 3:15.",
           "③ 예: I'm hardworking. For example, I practiced the piano every day for a year.",
           "기준: 세 개 모두 맞으면 통과입니다(②는 누구·사과·얼마나·이유·도착 시간 가운데 네 가지 이상)."
@@ -878,7 +878,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "예: ① I'm afraid I have an academy class on Monday until 6. How about Tuesday afternoon instead? ② Would Tuesday at 3 p.m. work for you? / How about Thursday at 4? ③ So, Thursday at 4 p.m. Is that right? 세 개 모두 맞으면 통과(①은 거절 + 이유 + 대안, ②는 비어 있는 시간: 화요일 오후, 목요일 3시 이후)."
+        "answer": "예: ① I'm afraid I have a class at my academy on Monday until 6. How about Tuesday afternoon instead? ② Would Tuesday at 3 p.m. work for you? / How about Thursday at 4? ③ So, Thursday at 4 p.m. Is that right? 세 개 모두 맞으면 통과(①은 거절 + 이유 + 대안, ②는 비어 있는 시간: 화요일 오후, 목요일 3시 이후)."
       },
       {
         "no": 3,

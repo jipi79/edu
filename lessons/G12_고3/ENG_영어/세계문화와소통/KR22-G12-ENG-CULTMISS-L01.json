@@ -412,11 +412,11 @@
       "claim": "대화 1의 오해, 원인을 어떻게 설명할까?",
       "left": {
         "title": "가",
-        "text": "Sam is rude. People like him\nnever care about guests."
+        "text": "Minho may have expected a second\noffer, while Sam probably took\n“no” as a real answer."
       },
       "right": {
         "title": "나",
-        "text": "Minho may have expected a second\noffer, while Sam probably took\n“no” as a real answer."
+        "text": "Sam is rude. People like him\nnever care about guests."
       },
       "question": "어느 설명이 공정한가요? 다른 쪽은 무엇이 문제인가요?",
       "notes": {
@@ -426,10 +426,10 @@
           "“두 친구가 대화 1의 원인을 이렇게 설명했어. 어느 쪽이 공정할까?”"
         ],
         "정답": [
-          "나가 공정합니다. may, probably로 조심스럽게 말하고, 두 사람의 기대를 while로 함께 설명했습니다. 가는 샘을 rude라고 판단하고(오해 M1), never로 샘과 비슷한 사람 모두를 단정했습니다(고정관념, 오해 M2). 민호의 기대도 빠졌습니다(오해 M3)."
+          "가가 공정합니다. may, probably로 조심스럽게 말하고, 두 사람의 기대를 while로 함께 설명했습니다. 나 쪽은 샘을 rude라고 판단하고(오해 M1), never로 샘과 비슷한 사람 모두를 단정했습니다(고정관념, 오해 M2). 민호의 기대도 빠졌습니다(오해 M3)."
         ],
         "막히면": [
-          "“가의 설명에 민호의 기대가 들어 있어? never는 몇 명에 대한 말이야?”라고 묻습니다."
+          "“나 쪽 설명에 민호의 기대가 들어 있어? never는 몇 명에 대한 말이야?”라고 묻습니다."
         ],
         "주의": [
           "여기까지가 분석과 고치는 말의 시범입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
@@ -513,7 +513,7 @@
         "정답": [
           "① 지호의 기대: 부드럽게 말해도 상대가 문제를 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함",
           "② 레나의 기대: 문제가 있으면 분명히 말할 것(she usually states the problem clearly) / 해석: 칭찬",
-          "③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to state the problem clearly.",
+          "③ Jiho may have expected Lena to understand the problem from his gentle hints, while Lena probably expected him to state the problem clearly.",
           "④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
         ],
         "막히면": [
@@ -728,10 +728,10 @@
           "text": "Kai wasn't listening because he didn't care about the lesson."
         },
         {
-          "text": "Kai may mean it as respect; his teacher may expect eye contact."
+          "text": "Students like Kai never look at their teachers when they talk."
         },
         {
-          "text": "Students like Kai never look at their teachers when they talk."
+          "text": "Kai may mean it as respect; his teacher may expect eye contact."
         }
       ],
       "question": "오해의 원인을 가장 공정하게 설명한 문장은? 나머지의 문제는?",
@@ -742,9 +742,9 @@
           "“장면을 읽고, 가장 공정한 설명을 골라 줘. 나머지는 무엇이 문제야?”"
         ],
         "정답": [
-          "나 Kai may mean it as respect; his teacher may expect eye contact. (카이는 아래를 보는 것을 존중의 뜻으로 했을 수 있고, 선생님은 눈 맞춤을 기대했을 수 있다: 두 사람의 기대를 may로 조심스럽게 말함)",
-          "가: 카이의 속마음을 단정해 판단함(오해 M1) / 다: never로 비슷한 학생 모두를 단정함(고정관념, 오해 M2) / 둘 다 한 사람의 기대만 봄(오해 M3)",
-          "기준: 나를 고르고 가와 다의 문제를 하나씩 말하면 통과입니다."
+          "다 Kai may mean it as respect; his teacher may expect eye contact. (카이는 아래를 보는 것을 존중의 뜻으로 했을 수 있고, 선생님은 눈 맞춤을 기대했을 수 있다: 두 사람의 기대를 may로 조심스럽게 말함)",
+          "가: 카이의 속마음을 단정해 판단함(오해 M1) / 나: never로 비슷한 학생 모두를 단정함(고정관념, 오해 M2) / 둘 다 한 사람의 기대만 봄(오해 M3)",
+          "기준: 다를 고르고 가와 나의 문제를 하나씩 말하면 통과입니다."
         ],
         "막히면": [
           "신호 말(may, never)에 동그라미를 치게 합니다."
@@ -932,7 +932,7 @@
         },
         "line_label": "③ 원인 문장 / ④ 오해를 푸는 말(영어):",
         "lines": 4,
-        "answer": "① 기대: 부드럽게 말해도 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함 ② 기대: 문제가 있으면 분명히 말할 것(she usually states the problem clearly) / 해석: 칭찬 ③ Jiho may have expected Lena to hear the problem in his soft words, while Lena probably expected him to state the problem clearly. ④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
+        "answer": "① 기대: 부드럽게 말해도 알아들을 것 / 행동: Maybe, a little, interesting으로 돌려 말함 ② 기대: 문제가 있으면 분명히 말할 것(she usually states the problem clearly) / 해석: 칭찬 ③ Jiho may have expected Lena to understand the problem from his gentle hints, while Lena probably expected him to state the problem clearly. ④ 예: Lena: Just to check, do you mean the colors need to change? / Jiho: Yes. The red text is hard to read. Could we use dark blue?"
       },
       {
         "no": 3,

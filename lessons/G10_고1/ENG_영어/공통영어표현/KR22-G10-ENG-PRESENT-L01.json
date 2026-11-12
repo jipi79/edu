@@ -48,7 +48,7 @@
       "id": "A",
       "text": "지난 차시의 의견 에세이를 2~3분 발표로 바꾸어, 발표 신호어(Today I'm going to talk about ~. / I have two reasons. First, ~. Second, ~. / Let me show you ~. Look at this ~. / Some people may think ~. However, ~. / To sum up, ~. / Thank you for listening. Do you have any questions?)를 알맞은 자리에 넣은 메모 카드와, 한 장에 한 생각을 담은 시각 자료 계획(3~4장, 장마다 그림 하나와 핵심어 6낱말 이내)을 만든다.",
       "evidence": "글과 발표의 차이(S03), 발표 신호어 표(S04), 본보기 발표(S05·S06), 신호어 넣기(S07), 시각 자료 계획(S08), 글이 가득한 자료 비교(S09), 메모 카드(S10), 마무리 확인(S16), 활동지 1·2·3",
-      "success": "활동지 2의 자료 계획이 3~4장이고 장마다 그림 하나와 핵심어 6낱말 이내이며, 활동지 3의 메모 카드에 시작·자료·마무리 신호어가 모두 들어 있다. S16과 활동지 1의 신호어 고르기·넣기 7개 가운데 6개 이상을 맞힌다."
+      "success": "활동지 2의 자료 계획이 3~4장이고 장마다 그림 하나와 핵심어 6낱말 이내이며, 활동지 3의 메모 카드에 시작·자료·마무리 신호어가 모두 들어 있다. S16과 활동지 1의 신호어 고르기·넣기 6개 가운데 5개 이상을 맞힌다."
     },
     {
       "id": "B",
@@ -66,7 +66,7 @@
     "휴대 전화의 초시계",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "지난 차시에 쓴 네 문단 의견 에세이를 2~3분 영어 발표로 바꾸는 것만 다룬다. 신호어는 시작(Hello, everyone. Today I'm going to talk about ~. I have two reasons.), 순서(First, Second), 자료(Let me show you ~. / Look at this ~. / As you can see, ~), 반론(Some people may think ~. However, ~.), 마무리(To sum up, ~. Thank you for listening.), 질문 받기(Do you have any questions?)만 쓰고, I'm going to·To sum up·As you can see는 뜻을 함께 소개한다. 시각 자료는 컴퓨터 슬라이드가 아니어도 되며, A4 종이에 그린 3~4장(제목·이유 1·이유 2·정리)으로 한다. 장마다 그림 하나와 핵심어 6낱말 이내라는 수업용 기준을 쓴다. 전달은 눈 맞춤·속도·목소리·자료 가리키기·시간(2~3분) 다섯 가지만 다루고, 발음·억양을 고치는 연습, 몸짓 기법, 발표 프로그램 사용법은 다루지 않는다. 질문 받기는 부모의 질문 하나에 확인(Do you mean ~?)과 근거(I think ~ because ~. / For example, ~.)로 답하는 데까지 하고, 모를 때는 I'm not sure, but I think ~.로 답하며 숫자나 사실을 지어내지 않는다. 여러 사람 앞의 발표, 토론, 반대 질문에 반박하기는 다루지 않는다. 발표 내용은 에세이를 그대로 쓰고 새 문법은 더하지 않는다. ‘신호어·시각 자료·메모 카드’라는 말은 화면에 뜻과 함께 쓴다.",
+  "boundary": "지난 차시에 쓴 네 문단 의견 에세이를 2~3분 영어 발표로 바꾸는 것만 다룬다. 신호어는 시작(Hello, everyone. Today I'm going to talk about ~. I have two reasons.), 순서(First, Second), 자료(Let me show you ~. / Look at this ~. / As you can see, ~), 반론(Some people may think ~. However, ~.), 마무리(To sum up, ~. Thank you for listening.), 질문 받기(Do you have any questions?)만 쓰고, I'm going to·To sum up·As you can see는 뜻을 함께 소개한다. 시각 자료는 컴퓨터 슬라이드가 아니어도 되며, A4 종이에 그린 3~4장(제목·이유 1·이유 2·정리)으로 한다. 장마다 그림 하나와 핵심어 6낱말 이내라는 수업용 기준을 쓴다. 전달은 눈 맞춤·속도·목소리·자료 가리키기·시간(2~3분) 다섯 가지만 다루고, 발음·억양을 고치는 연습, 몸짓 기법, 발표 프로그램 사용법은 다루지 않는다. 질문 받기는 부모의 질문 하나에 확인(Do you mean ~?)과 근거(I think ~ because ~. / For example, ~.)로 답하는 데까지 하고, 모를 때는 I'm not sure, but I think ~.로 답하며 숫자나 사실을 지어내지 않는다. 여러 사람 앞의 발표, 토론, 반대 질문에 반박하기는 다루지 않는다. 발표 내용은 에세이를 바탕으로 하되 예시 한두 문장은 더해도 되고, 새 문법은 더하지 않는다. ‘신호어·시각 자료·메모 카드’라는 말은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -564,7 +564,8 @@
           "“이 문장에서 꼭 기억해야 할 낱말 두 개만 골라 볼래?”라고 묻습니다."
         ],
         "주의": [
-          "메모 카드에 문장을 다 쓰면 고개를 숙이고 읽게 됩니다(오해 M2). 처음에는 낱말 메모만 보고 말하기가 어렵지만, S13의 세 번 연습에서 익숙해집니다."
+          "메모 카드에 문장을 다 쓰면 고개를 숙이고 읽게 됩니다(오해 M2). 처음에는 낱말 메모만 보고 말하기가 어렵지만, S13의 세 번 연습에서 익숙해집니다.",
+          "에세이가 열 문장 안팎이면 신호어를 넣어도 2분에 조금 못 미칠 수 있습니다. 본보기 대본처럼 이유마다 예시를 한 문장씩 더해 메모 카드에 낱말로 적어 두면 2~3분에 맞습니다."
         ]
       }
     },
@@ -850,10 +851,10 @@
           "text": "Thank you for listening."
         },
         {
-          "text": "Let me show you this picture."
+          "text": "Today I'm going to talk about ~."
         },
         {
-          "text": "Today I'm going to talk about ~."
+          "text": "Let me show you this picture."
         }
       ],
       "question": "알맞은 말은? 나머지는 언제 쓰나요?",
@@ -864,9 +865,9 @@
           "“그림을 들어 보여 주려고 해. 무엇이라고 말할까? 나머지는 언제 쓰는 말인지도 말해 줘.”"
         ],
         "정답": [
-          "다 Let me show you this picture.",
-          "가 To sum up, ~: 마무리할 때 / 나 Thank you for listening.: 발표를 끝낼 때 / 라 Today I'm going to talk about ~.: 시작할 때",
-          "기준: 다를 고르고 나머지 셋의 자리를 둘 이상 말하면 통과입니다."
+          "라 Let me show you this picture.",
+          "가 To sum up, ~: 마무리할 때 / 나 Thank you for listening.: 발표를 끝낼 때 / 다 Today I'm going to talk about ~.: 시작할 때",
+          "기준: 라를 고르고 나머지 셋의 자리를 둘 이상 말하면 통과입니다."
         ],
         "막히면": [
           "S04 표를 보여 주고 “그림을 보여 주는 건 어느 줄이야?”라고 묻습니다."
@@ -942,7 +943,7 @@
           [
             "도입",
             "Hello, everyone.\nToday I'd like to talk about ~.",
-            "안녕하세요, 여러분.\n오늘은 ~에 대해 이야기할게요."
+            "안녕하세요, 여러분.\n오늘은 ~에 대해 이야기하고 싶어요."
           ],
           [
             "이유",

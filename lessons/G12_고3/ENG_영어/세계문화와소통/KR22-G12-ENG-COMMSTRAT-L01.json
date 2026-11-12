@@ -734,10 +734,10 @@
       "text": "처음 보는 회사 담당자에게 이메일로 인터뷰를 부탁해요.",
       "options": [
         {
-          "text": "Hey, can I interview you tomorrow? It'll be quick!"
+          "text": "I was wondering if you could spare 15 minutes for an interview."
         },
         {
-          "text": "I was wondering if you could spare 15 minutes for an interview."
+          "text": "Hey, can I interview you tomorrow? It'll be quick!"
         },
         {
           "text": "You need to give me an interview for my school report."
@@ -754,9 +754,9 @@
           "“학교 보고서를 위해 처음 보는 회사 담당자에게 이메일로 인터뷰를 부탁해. 가장 알맞은 것을 고르고, 나머지는 무엇이 문제인지 말해 줘.”"
         ],
         "정답": [
-          "나 I was wondering if you could spare 15 minutes for an interview. (먼 관계, 큰 부탁, 이메일 → 3단계)",
-          "가: 친구에게 하듯 너무 가볍다(1단계) / 다: You need to ~로 명령하듯 요구한다 / 라: 사과만 되풀이하고 무엇을 부탁하는지 흐리다",
-          "기준: 나를 고르고 나머지 가운데 둘 이상의 문제를 말하면 통과입니다."
+          "가 I was wondering if you could spare 15 minutes for an interview. (먼 관계, 큰 부탁, 이메일 → 3단계)",
+          "나: 친구에게 하듯 너무 가볍다(1단계) / 다: You need to ~로 명령하듯 요구한다 / 라: 사과만 되풀이하고 무엇을 부탁하는지 흐리다",
+          "기준: 가를 고르고 나머지 가운데 둘 이상의 문제를 말하면 통과입니다."
         ],
         "막히면": [
           "S03 표의 세 가지 요소를 하나씩 짚게 합니다."

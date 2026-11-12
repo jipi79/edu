@@ -61,13 +61,13 @@
   "misconceptions": [
     {
       "id": "M1",
-      "text": "글에 나온 낱말이 그대로 들어간 보기를 고른다(make mistakes, forget, exciting).",
-      "response": "S03 카드와 S04에서 요약문은 원문의 말을 바꿔 쓴다는 것을 보여 주고, S07 다 보기와 S08 비교에서 같은 낱말 때문에 고른 답을 가려낸다. S09·S11·활동지 2에서 다시 확인한다."
+      "text": "글에 나온 낱말이 그대로 들어간 보기를 고른다(work, forget, exciting).",
+      "response": "S03 카드와 S04에서 요약문은 원문의 말을 바꿔 쓴다는 것을 보여 주고, S07 가 보기와 S08 비교에서 같은 낱말 때문에 고른 답을 가려낸다. S09·S11·활동지 2에서 다시 확인한다."
     },
     {
       "id": "M2",
       "text": "(A)만 맞으면 (B)는 확인하지 않고 고른다(한쪽만 맞는 짝을 고름).",
-      "response": "S05의 다섯째 단계(둘 다 넣어 다시 읽기)와 S03 열쇠 문장으로 (A)(B)를 모두 확인하게 하고, S09 ⓑ, S11 ⓒ에서 한쪽만 맞는 보기를 가려낸다."
+      "response": "S05의 다섯째 단계(둘 다 넣어 다시 읽기)와 S03 열쇠 문장으로 (A)(B)를 모두 확인하게 하고, S09 ⓐ, S11 ⓒ에서 한쪽만 맞는 보기를 가려낸다."
     },
     {
       "id": "M3",
@@ -364,13 +364,13 @@
       "text": "Many students see breaks as (A)______, but short breaks give the brain time to (B)______, so they can study better.",
       "options": [
         {
-          "text": "useless … recover"
+          "text": "useless … work"
         },
         {
           "text": "helpful … recover"
         },
         {
-          "text": "useless … make mistakes"
+          "text": "useless … recover"
         },
         {
           "text": "important … stretch"
@@ -378,7 +378,7 @@
       ],
       "question": "알맞은 짝은? (A)(B)의 근거는? 나머지는 왜 아닌가요?",
       "notes": {
-        "목적": "밑줄 친 원문과 같은 뜻으로 바꿔 쓴 짝을 고르고, 관계가 반대인 보기(나), 글 낱말 함정(다), 예시 하나(라)를 가려냅니다(목표 A·B, 오해 M1·M3·M4).",
+        "목적": "밑줄 친 원문과 같은 뜻으로 바꿔 쓴 짝을 고르고, 글 낱말 함정(가), 관계가 반대인 보기(나), 예시 하나(라)를 가려냅니다(목표 A·B, 오해 M1·M3·M4).",
         "시간": "약 3분",
         "말하기": [
           "“(A)에 밑줄 친 말은 a waste of time이었지? 같은 뜻의 말은? (B)의 get a chance to rest와 같은 뜻의 말은?”",
@@ -386,9 +386,9 @@
           "“고른 짝을 넣어 요약문을 다시 읽어 봐.”"
         ],
         "정답": [
-          "가 useless … recover — (A) a waste of time = useless(쓸모없는), (B) gets a chance to rest, return with a clear mind = recover(회복하다)",
+          "다 useless … recover — (A) a waste of time = useless(쓸모없는), (B) gets a chance to rest, return with a clear mind = recover(회복하다)",
+          "가 useless … work: (B)에 글의 낱말(hard work)을 그대로 쓴 함정입니다. 쉬는 동안 뇌는 일하는 것이 아니라 쉽니다.",
           "나 helpful … recover: (A)는 학생들의 생각인데 helpful(도움이 되는)은 글쓴이의 생각입니다(but 관계를 놓침, 반대).",
-          "다 useless … make mistakes: (B)에 글의 낱말(make careless mistakes)을 그대로 쓴 함정이고, 쉬면 실수가 아니라 회복합니다.",
           "라 important … stretch: (A)는 학생들의 생각과 반대이고, (B) stretch는 예시 속 행동 하나(너무 좁음)입니다."
         ],
         "막히면": [
@@ -412,7 +412,7 @@
       "claim": "S06 요약문의 답과 근거를 두 친구가 이렇게 말했어요.",
       "left": {
         "title": "가",
-        "text": "useless … make mistakes\nmake mistakes가\n글에 나오니까요."
+        "text": "useless … work\nwork가\n글에 나오니까요."
       },
       "right": {
         "title": "나",
@@ -424,13 +424,13 @@
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 S06 요약문의 답과 근거를 이렇게 말했어. 누구의 근거가 맞을까?”",
-          "“make mistakes가 글에 나온 건 맞아. 그런데 글에서 실수는 언제 생긴다고 했지?”"
+          "“work가 글에 나온 건 맞아. 그런데 글의 hard work는 쉴 때 이야기야, 쉬지 않을 때 이야기야?”"
         ],
         "정답": [
-          "나의 판단이 맞습니다. a waste of time은 useless와 같은 뜻이고, gets a chance to rest는 recover와 같은 뜻입니다. 가는 글에 나온 낱말이라서 골랐지만, 글에서 실수는 쉬지 않고 오래 공부할 때 생기고, 쉬면 오히려 맑은 정신으로 돌아옵니다."
+          "나의 판단이 맞습니다. a waste of time은 useless와 같은 뜻이고, gets a chance to rest는 recover와 같은 뜻입니다. 가는 글에 나온 낱말이라서 골랐지만, 글의 hard work는 쉬지 않고 오래 공부하는 것이고, 쉬는 동안 뇌는 일하지 않고 쉽니다."
         ],
         "막히면": [
-          "S06 글에서 After a long time of hard work ~ 문장을 다시 읽게 하고 “실수는 쉴 때 생겨, 쉬지 않을 때 생겨?”라고 묻습니다."
+          "S06 글에서 After a long time of hard work ~ 문장과 your brain gets a chance to rest를 다시 읽게 하고 “쉬는 동안 뇌는 일해, 쉬어?”라고 묻습니다."
         ],
         "주의": [
           "‘글에 있는 말이니까’는 근거가 아닙니다. 근거는 ‘원문의 어느 말과 같은 뜻인가’입니다.",
@@ -454,7 +454,7 @@
           "When children learn to ride a bike, they fall many times. Each time, they learn something new about balance. Strangely, many older students forget this lesson. They feel embarrassed when they give a wrong answer in class, so they stop raising their hands. Some even choose easy tasks because they don't want to fail. But a mistake is like a sign on the road: it shows you exactly where you need to work harder. A student who checks the wrong answers on a test learns more than one who only looks at the score. So instead of hiding your mistakes, look at them closely."
         ]
       },
-      "question": "Mistakes, which many students try to (A)______,\nactually show them where they need to (B)______.\nⓐ avoid…improve   ⓑ avoid…forget   ⓒ enjoy…improve   ⓓ check…ride",
+      "question": "Mistakes, which many students try to (A)______,\nactually show them where they need to (B)______.\nⓐ avoid…forget   ⓑ avoid…improve   ⓒ enjoy…improve   ⓓ check…ride",
       "notes": {
         "목적": "다섯 단계로 실수에 관한 글의 요약문을 풀고 (A)(B)의 근거를 짚습니다(목표 A·B, 오해 M2·M4). 부모가 한 번 읽어 준 뒤 아이가 풉니다.",
         "시간": "약 4분",
@@ -464,15 +464,15 @@
           "“(A)와 (B)의 근거에 다른 색으로 밑줄을 긋고, 같은 뜻의 짝을 골라 줘.”"
         ],
         "정답": [
-          "답: ⓐ avoid … improve",
+          "답: ⓑ avoid … improve",
           "근거: (A) Some even choose easy tasks because they don't want to fail. / instead of hiding your mistakes → avoid(피하다) (B) it shows you exactly where you need to work harder. → improve(나아지다)",
-          "ⓑ avoid … forget: (B)에 글 낱말(forget this lesson) 함정 / ⓒ enjoy … improve: (A)가 반대(학생들은 실수를 부끄러워함) / ⓓ check … ride: 글 낱말과 예시 속 낱말 함정"
+          "ⓐ avoid … forget: (B)에 글 낱말(forget this lesson) 함정 / ⓒ enjoy … improve: (A)가 반대(학생들은 실수를 부끄러워함) / ⓓ check … ride: 글 낱말과 예시 속 낱말 함정"
         ],
         "막히면": [
           "“학생들은 실수를 하면 어떻게 행동했지? 손을 드는 걸 멈추고, 쉬운 과제만 골랐지? 그건 실수를 어떻게 하려는 거야?”라고 묻습니다."
         ],
         "주의": [
-          "ⓑ처럼 (A)만 맞는 보기가 늘 있습니다(오해 M2). (B)까지 넣어 다시 읽어 보게 합니다.",
+          "ⓐ처럼 (A)만 맞는 보기가 늘 있습니다(오해 M2). (B)까지 넣어 다시 읽어 보게 합니다.",
           "글의 뜻: 아이들은 자전거 타기를 배울 때 여러 번 넘어져요. 넘어질 때마다 균형에 대해 새로운 것을 배우지요. 이상하게도 많은 고학년 학생은 이 교훈을 잊어요. 수업 시간에 틀린 답을 말하면 창피해서 손을 들지 않게 돼요. 어떤 학생은 실패하고 싶지 않아서 쉬운 과제만 고르기도 해요. 하지만 실수는 길 위의 표지판과 같아요. 어디를 더 열심히 해야 하는지 정확히 보여 주지요. 시험에서 틀린 답을 확인하는 학생은 점수만 보는 학생보다 더 많이 배워요. 그러니 실수를 숨기지 말고 자세히 들여다보세요. (balance: 균형, embarrassed: 창피한, task: 과제, sign: 표지판, score: 점수)"
         ]
       }
@@ -538,7 +538,7 @@
           "Have you ever felt that everyone else's life looks more exciting than yours? On social media, people usually share only their best moments: delicious meals, trips to beautiful places, and prizes they have won. They rarely post pictures of themselves doing homework or feeling bored at home. So when we scroll through these posts, we are comparing our ordinary days with other people's best days. This is not a fair comparison, and it often makes us feel that our lives are not good enough. Remember that the posts you see are carefully chosen. Behind each happy photo, there are many ordinary moments that nobody shares."
         ]
       },
-      "question": "We feel unhappy online because we compare\nour (A)_____ lives with others' (B)_____ moments.\nⓐ everyday…selected   ⓑ exciting…selected\nⓒ everyday…boring   ⓓ busy…real",
+      "question": "We feel unhappy online because we compare\nour (A)_____ lives with others' (B)_____ moments.\nⓐ busy…real   ⓑ exciting…selected\nⓒ everyday…boring   ⓓ everyday…selected",
       "notes": {
         "목적": "도움 없이 다섯 단계로 요약문의 (A)(B)를 고르고, 근거가 되는 원문 표현을 짚으며 틀린 보기를 가려내는지 확인합니다(목표 A·B). 활동지 3에 씁니다.",
         "시간": "약 5분",
@@ -546,10 +546,10 @@
           "“이번에는 혼자 해 볼래? 요약문부터 읽고 다섯 단계로 풀어. 답과 (A)(B)의 근거, 틀린 보기 두 개의 까닭을 말해 줘.”"
         ],
         "정답": [
-          "답: ⓐ everyday … selected",
+          "답: ⓓ everyday … selected",
           "근거: (A) we are comparing our ordinary days ~ → everyday(평범한) (B) people usually share only their best moments / the posts you see are carefully chosen → selected(골라 뽑은)",
-          "ⓑ exciting … selected: (A)에 글 낱말(exciting) 함정, 우리 삶이 아니라 남의 삶이 신나 보인다고 했음 / ⓒ everyday … boring: (B)가 반대(남은 가장 좋은 순간만 올림) / ⓓ busy … real: 글에 없음",
-          "기준: ⓐ를 고르고 (A)(B) 근거를 하나씩 짚으며, 틀린 보기 두 개 이상의 까닭을 말하면 통과입니다."
+          "ⓐ busy … real: 글에 없음 / ⓑ exciting … selected: (A)에 글 낱말(exciting) 함정, 우리 삶이 아니라 남의 삶이 신나 보인다고 했음 / ⓒ everyday … boring: (B)가 반대(남은 가장 좋은 순간만 올림)",
+          "기준: ⓓ를 고르고 (A)(B) 근거를 하나씩 짚으며, 틀린 보기 두 개 이상의 까닭을 말하면 통과입니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “우리는 어떤 날을 남의 어떤 날과 비교한다고 했지? 남이 올리는 사진은 어떤 사진이야?”라고만 묻습니다.",
@@ -576,7 +576,7 @@
       "goodTitle": "○ 잘한 답",
       "good": [
         {
-          "text": "ⓐ everyday … selected"
+          "text": "ⓓ everyday … selected"
         },
         {
           "text": "(A) ordinary days = everyday"
@@ -610,7 +610,7 @@
           "“exciting은 글에 나온 낱말이에요.” “boring은 남의 순간이 아니라 우리가 지루한 거예요.”"
         ],
         "정답": [
-          "ⓐ everyday … selected — 근거: (A) our ordinary days (B) share only their best moments / carefully chosen"
+          "ⓓ everyday … selected — 근거: (A) our ordinary days (B) share only their best moments / carefully chosen"
         ],
         "막히면": [
           "답을 틀렸으면 S05(다섯 단계)와 S08(같은 낱말로 고른 답)을 다시 봅니다."
@@ -634,13 +634,13 @@
       "text": "①②는 같은 뜻을 고르고, ③은 (A)(B)를 골라요.",
       "problems": [
         {
-          "text": "Jimin never gives up, even when things get hard.\n→ Jimin is (determined / careless)."
+          "text": "Jimin never gives up, even when things get hard.\n→ Jimin is (careless / determined)."
         },
         {
           "text": "Many people came to see the show.\n→ The show was (popular / boring)."
         },
         {
-          "text": "Plastic bags are cheap and easy to use.\nHowever, they harm animals.\n→ They are (A)(convenient / expensive)\nbut (B)(harmful / helpful) to nature."
+          "text": "Plastic bags are cheap and easy to use.\nHowever, they harm animals.\n→ They are (A)(expensive / convenient)\nbut (B)(harmful / helpful) to nature."
         }
       ],
       "notes": {
@@ -826,9 +826,9 @@
         "prompt": "다섯 단계로 요약문을 완성하세요. (A)(B)의 짝을 고르고, (A)(B) 각각의 근거가 되는 원문 표현을 옮겨 쓰세요.\n요약문: Trees in a city are important not only for their (A)______ but also for making city life more (B)______.",
         "read": "When people think of trees in a city, they usually think of how beautiful the trees make the streets look. But trees do much more than that. On hot summer days, the shade of large trees keeps streets and buildings cooler, so people use less electricity for air conditioning. Trees also catch dust from the air with their leaves, which helps people breathe cleaner air. In addition, many people say that they feel calmer when they walk along streets with trees. For these reasons, some cities plant more trees every year. A tree is not just a decoration; it is a quiet helper that makes city life healthier and more comfortable.",
         "choices": [
-          "appearance … pleasant",
           "appearance … expensive",
           "electricity … pleasant",
+          "appearance … pleasant",
           "shade … noisy"
         ],
         "choices_size": 13,
@@ -865,7 +865,7 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "고른 답: ⓐ everyday … selected. (A) 근거: we are comparing our ordinary days with other people's best days (ordinary → everyday). (B) 근거: people usually share only their best moments / the posts you see are carefully chosen (→ selected). 까닭 예: ⓑ exciting은 글 낱말 함정(남의 삶이 신나 보인다고 했음), ⓒ boring은 (B)가 반대, ⓓ busy … real은 글에 없음. 답과 근거 두 개, 까닭 두 개가 맞으면 통과."
+        "answer": "고른 답: ⓓ everyday … selected. (A) 근거: we are comparing our ordinary days with other people's best days (ordinary → everyday). (B) 근거: people usually share only their best moments / the posts you see are carefully chosen (→ selected). 까닭 예: ⓐ busy … real은 글에 없음, ⓑ exciting은 글 낱말 함정(남의 삶이 신나 보인다고 했음), ⓒ boring은 (B)가 반대. 답과 근거 두 개, 까닭 두 개가 맞으면 통과."
       },
       {
         "no": 4,

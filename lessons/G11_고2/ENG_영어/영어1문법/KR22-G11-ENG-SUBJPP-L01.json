@@ -50,7 +50,7 @@
   "materials": [
     "활동지",
     "연필",
-    "지난 일 카드 네 장(missed the bus, didn't take an umbrella, stayed up late, didn't eat breakfast를 하나씩 써 둠)",
+    "지난 일 카드 네 장(missed the bus, didn't take a coat, stayed up late, didn't eat breakfast를 하나씩 써 둠)",
     "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
   ],
   "boundary": "가정법 과거완료(If + 주어 + had + 과거분사, 주어 + would·could have + 과거분사)로 지난 사실과 반대되는 일을 상상해 말하는 것, 직설법(과거 시제 + so)과 서로 바꾸어 쓰는 것, 지금과 반대인 가정법 과거와 구별하는 것만 다룬다. 부정은 hadn't + 과거분사, wouldn't have + 과거분사까지 쓴다. 주절이 앞에 오는 문장(I would have called you if I had known.)은 노트에서 짚는다. 혼합 가정법(If I had slept well last night, I would feel better now.)은 노트에서만 소개하고, I wish·as if 가정법은 다음 차시, without·but for, if 생략 도치(Had I known ~), 과거완료 시제(대과거)는 다루지 않는다. 과거분사는 이미 배운 것(studied, known, left, taken, been, seen, missed, done, eaten, lost 등)과 새 모양 won(win–won–won) 하나만 쓴다. ‘가정법 과거완료·직설법’이라는 이름은 화면에 뜻과 함께 쓴다.",
@@ -499,7 +499,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "If I studied harder yesterday,\nI would pass the quiz."
+              "word": "If I had studied harder yesterday,\nI would have passed the quiz."
             }
           ]
         }
@@ -511,7 +511,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "If I had studied harder yesterday,\nI would have passed the quiz."
+              "word": "If I studied harder yesterday,\nI would pass the quiz."
             }
           ]
         }
@@ -525,7 +525,7 @@
           "“yesterday가 있지? 지금 일이야, 이미 지난 일이야?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(If I had studied harder yesterday, I would have passed the quiz.)입니다. 어제 일과 반대되는 상상이므로 가정법 과거완료를 씁니다. 가는 가정법 과거(studied, would pass)라 지금 일처럼 들립니다."
+          "바르게 쓴 쪽은 가(If I had studied harder yesterday, I would have passed the quiz.)입니다. 어제 일과 반대되는 상상이므로 가정법 과거완료를 씁니다. 나는 가정법 과거(studied, would pass)라 지금 일처럼 들립니다."
         ],
         "막히면": [
           "S04 표의 열쇠 문장(yesterday → 가정법 과거완료)을 다시 보여 줍니다."
@@ -605,7 +605,7 @@
       "text": "①②는 가정법 과거완료로, ③④는 직설법으로 바꿔요.",
       "problems": [
         {
-          "text": "I didn't take an umbrella,\nso I was wet."
+          "text": "I didn't take a coat,\nso I was cold."
         },
         {
           "text": "He didn't know my address,\nso he couldn't visit me."
@@ -625,7 +625,7 @@
           "“①②는 가정법 과거완료로, ③④는 직설법으로 바꿔 말해 줘.”"
         ],
         "정답": [
-          "① If I had taken an umbrella, I wouldn't have been wet.",
+          "① If I had taken a coat, I wouldn't have been cold.",
           "② If he had known my address, he could have visited me.",
           "③ I didn't see you, so I didn't say hello.",
           "④ She didn't take the bus, so she was late. (She was late because she didn't take the bus.도 맞음)"
@@ -634,7 +634,7 @@
           "“사실을 반대로 하면? 긍정이면 부정, 부정이면 긍정”을 먼저 묻습니다."
         ],
         "주의": [
-          "①의 be wet은 ‘젖어 있다’입니다. was wet의 과거분사는 been이라 wouldn't have been wet이 됩니다.",
+          "①의 was cold는 ‘추웠다’입니다. was의 과거분사는 been이라 wouldn't have been cold가 됩니다.",
           "④의 wouldn't have been late를 바꾸면 사실은 ‘늦었다(was late)’입니다. 부정이 긍정이 됩니다."
         ]
       }
@@ -655,10 +655,10 @@
           "text": "If I (had / had had)\na bike now, I would ride it."
         },
         {
-          "text": "If I (knew / had known)\nabout the party yesterday,\nI would have gone."
+          "text": "If I (had known / knew)\nabout the party yesterday,\nI would have gone."
         },
         {
-          "text": "If he (were / had been)\nhere now, he would help us."
+          "text": "If he (had been / were)\nhere now, he would help us."
         },
         {
           "text": "If you (asked / had asked)\nme last week,\nI could have helped."
@@ -718,7 +718,7 @@
           "“이번엔 네가 카드를 보여 주고 물어봐.”"
         ],
         "예상답": [
-          "“I didn't take an umbrella, so I was wet. → If I had taken an umbrella, I wouldn't have been wet.” “I stayed up late, so I was tired. → If I hadn't stayed up late, I wouldn't have been tired.” “I didn't eat breakfast, so I was hungry. → If I had eaten breakfast, I wouldn't have been hungry.”",
+          "“I didn't take a coat, so I was cold. → If I had taken a coat, I wouldn't have been cold.” “I stayed up late, so I was tired. → If I hadn't stayed up late, I wouldn't have been tired.” “I didn't eat breakfast, so I was hungry. → If I had eaten breakfast, I wouldn't have been hungry.”",
           "기준: 사실을 과거 시제로 말하고, If + had p.p., would have p.p.로 긍정·부정을 바꾸어 말하면 잘한 것입니다. would had처럼 말하면 S06을 다시 떠올리게 합니다."
         ],
         "막히면": [
@@ -765,7 +765,7 @@
         "정답": [
           "① If I had known your number yesterday, I would have called you.",
           "② If we had had time, we would have visited the museum.",
-          "③ She didn't leave earlier, so she was late.",
+          "③ She didn't leave early, so she was late. (earlier도 맞음)",
           "④ were (now: 지금 일)",
           "기준: 네 개 가운데 세 개 이상이면 통과. had + 과거분사, would have + 과거분사, 긍정·부정 바꾸기, 쉼표와 마침표를 봅니다."
         ],
@@ -798,7 +798,7 @@
           "text": "② If we had had time, …"
         },
         {
-          "text": "③ She didn't leave earlier, so …"
+          "text": "③ She didn't leave early, so …"
         },
         {
           "text": "④ were"
@@ -829,7 +829,7 @@
           "“would had라고 썼어요.” “사실로 바꿀 때 not을 안 바꿨어요.”"
         ],
         "정답": [
-          "① had known, would have called ② If we had had time, we would have visited the museum. ③ She didn't leave earlier, so she was late. ④ were"
+          "① had known, would have called ② If we had had time, we would have visited the museum. ③ She didn't leave early, so she was late. ④ were"
         ],
         "막히면": [
           "틀린 문제는 S06(만들기), S09·S10(바꾸기), S04·S11(지금과 그때) 가운데 해당 장을 다시 봅니다."
@@ -853,13 +853,13 @@
       "text": "①②는 뜻과 숨은 사실을, ③은 골라서 까닭을 말해요.",
       "problems": [
         {
-          "text": "If I had seen the movie, I would have called you."
+          "text": "If I had seen your message, I would have called you."
         },
         {
           "text": "If they had practiced hard, they would have won the game."
         },
         {
-          "text": "If I (had / had had) more time now, I would read more."
+          "text": "If I (had had / had) more time now, I would read more."
         }
       ],
       "notes": {
@@ -869,13 +869,13 @@
           "“①②는 뜻과 숨은 사실을 말하고, ③은 알맞은 것을 골라 까닭을 말해 줘.”"
         ],
         "정답": [
-          "① 그 영화를 봤다면 너에게 전화했을 텐데. (사실: I didn't see the movie, so I didn't call you.)",
+          "① 네 메시지를 봤다면 너에게 전화했을 텐데. (사실: I didn't see your message, so I didn't call you.)",
           "② 그들이 열심히 연습했다면 경기에서 이겼을 텐데. (사실: They didn't practice hard, so they didn't win the game.)",
           "③ had (now: 지금 일이라 가정법 과거) — 지금 시간이 더 있다면 책을 더 읽을 텐데.",
           "기준: 세 개 모두 맞으면 통과입니다. ①②를 ‘~하면 ~할 텐데’처럼 지금 일로 해석하면 S03을 다시 봅니다."
         ],
         "막히면": [
-          "①은 “실제로는 영화를 봤어, 안 봤어?”, ③은 “now가 있지?”라고 묻습니다."
+          "①은 “실제로는 메시지를 봤어, 안 봤어?”, ③은 “now가 있지?”라고 묻습니다."
         ],
         "주의": [
           "②의 won이 오늘 새로 배운 과거분사입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
@@ -898,10 +898,10 @@
       "dont": "would had,  If I studied yesterday",
       "review": [
         {
-          "text": "알맞은 모양은?\nIf I (see) you, I\n(will) say hello."
+          "text": "가정법 과거완료로?\nIf I (see) you, I\n(will) say hello."
         },
         {
-          "text": "가정법으로?\nI didn't take an umbrella,\nso I was wet."
+          "text": "가정법으로?\nI didn't take a coat,\nso I was cold."
         },
         {
           "text": "직설법으로?\nIf I had known the answer,\nI would have helped you."
@@ -920,7 +920,7 @@
         ],
         "정답": [
           "① had seen, would have said",
-          "② If I had taken an umbrella, I wouldn't have been wet.",
+          "② If I had taken a coat, I wouldn't have been cold.",
           "③ I didn't know the answer, so I didn't help you."
         ],
         "주의": [
@@ -1097,7 +1097,7 @@
         "table": {
           "rows": [
             [
-              "① If I (had / had had) a dog now, I would walk it every day."
+              "① If I (had had / had) a dog now, I would walk it every day."
             ],
             [
               "② If he (studied / had studied) last night, he would have done better."
@@ -1106,7 +1106,7 @@
               "③ If I (were / had been) you now, I would call her."
             ],
             [
-              "④ If we (left / had left) an hour ago, we would have arrived by now."
+              "④ If we (had left / left) an hour ago, we would have arrived by now."
             ]
           ],
           "widths": [
@@ -1146,7 +1146,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① If I had known your number yesterday, I would have called you. ② If we had had time, we would have visited the museum. ③ She didn't leave earlier, so she was late. ④ were. 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① If I had known your number yesterday, I would have called you. ② If we had had time, we would have visited the museum. ③ She didn't leave early, so she was late. (earlier도 맞음) ④ were. 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,
@@ -1158,15 +1158,15 @@
           ],
           "blank": 2
         },
-        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: If I had gone to bed earlier, I wouldn't have been tired. / If I had taken my umbrella, I wouldn't have been wet.). had + 과거분사, would have + 과거분사, 쉼표, 대문자와 마침표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
+        "answer": "따라 쓰기 두 줄과, 빈 줄에 두 문장(예: If I had gone to bed earlier, I wouldn't have been tired. / If I had taken my coat, I wouldn't have been cold.). had + 과거분사, would have + 과거분사, 쉼표, 대문자와 마침표를 봅니다. 두 문장 모두 맞으면 통과. 흐린 글씨처럼 작은 글자는 둘째 줄(점선)과 셋째 줄 사이에 맞추고, 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올려 썼는지 봅니다."
       },
       {
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① If I (see) you, I (will) say hello.를 가정법 과거완료로 바꾸어 쓰세요.\n② I didn't take an umbrella, so I was wet.을 가정법으로 바꾸어 쓰세요.\n③ If I had known the answer, I would have helped you.를 직설법으로 바꾸어 쓰세요.",
+        "prompt": "① If I (see) you, I (will) say hello.를 가정법 과거완료로 바꾸어 쓰세요.\n② I didn't take a coat, so I was cold.를 가정법으로 바꾸어 쓰세요.\n③ If I had known the answer, I would have helped you.를 직설법으로 바꾸어 쓰세요.",
         "lines": 3,
-        "answer": "① If I had seen you, I would have said hello. ② If I had taken an umbrella, I wouldn't have been wet. ③ I didn't know the answer, so I didn't help you. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① If I had seen you, I would have said hello. ② If I had taken a coat, I wouldn't have been cold. ③ I didn't know the answer, so I didn't help you. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

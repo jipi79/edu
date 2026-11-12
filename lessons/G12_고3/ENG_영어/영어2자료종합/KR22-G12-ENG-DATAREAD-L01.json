@@ -43,7 +43,7 @@
       "id": "A",
       "text": "도표 글의 표현(increase·rise / decrease·fall / remain the same, twice as ~ as, three times as many ~ as, half as many ~ as, the highest·the second highest·the largest share, account for ~%, more than / less than)을 그래프와 표의 수치와 맞대어 해석한다.",
       "evidence": "도표 표현(S03), 등교 방법 그래프(S04), 참·거짓(S05), 빌린 책 그래프(S06), 두 배 비교(S07), 표현 채우기(S10), 마무리 확인(S13), 활동지 1",
-      "success": "활동지 1의 표현 채우기 네 개 가운데 세 개 이상과 S13의 세 문제를 모두 맞힌다."
+      "success": "활동지 1의 네 문제 가운데 세 개 이상과 S13의 세 문제를 모두 맞힌다."
     },
     {
       "id": "B",
@@ -1060,13 +1060,13 @@
       },
       "problems": [
         {
+          "text": "The bus is the most popular way to get to school."
+        },
+        {
           "text": "Walking accounts for 40% of the students."
         },
         {
           "text": "Walking is twice as popular as the subway."
-        },
-        {
-          "text": "The bus is the most popular way to get to school."
         },
         {
           "text": "Three times as many students take the bus as ride a bike."
@@ -1079,16 +1079,16 @@
           "“문장마다 참인지 거짓인지 말하고, 근거 수치를 말해 줘.”"
         ],
         "정답": [
-          "① 참 — Walk 40%",
-          "② 참 — 40 ÷ 20 = 2",
-          "③ 거짓 — 가장 많은 것은 Walk(40%), Bus는 두 번째(30%)",
+          "① 거짓 — 가장 많은 것은 Walk(40%), Bus는 두 번째(30%)",
+          "② 참 — Walk 40%",
+          "③ 참 — 40 ÷ 20 = 2",
           "④ 참 — 30 ÷ 10 = 3"
         ],
         "막히면": [
           "S03 표의 확인 방법 칸을 다시 보여 줍니다."
         ],
         "주의": [
-          "거짓 문장 ③을 고치면: Walking is the most popular way. / The bus is the second most popular way."
+          "거짓 문장 ①을 고치면: Walking is the most popular way. / The bus is the second most popular way."
         ]
       }
     },
@@ -1540,21 +1540,21 @@
       "claim": "빌린 책 그래프(2020년 1,200권 · 2022년 1,800권 · 2024년 2,400권)를 보고 쓴 문장이에요.",
       "left": {
         "title": "가",
-        "text": "Books borrowed in 2022\nwere twice\nas many as in 2020."
+        "text": "Twice as many books\nwere borrowed in 2024\nas in 2020."
       },
       "right": {
         "title": "나",
-        "text": "Books borrowed in 2024\nwere twice\nas many as in 2020."
+        "text": "Twice as many books\nwere borrowed in 2022\nas in 2020."
       },
       "question": "어느 문장이 맞나요? 나눗셈으로 확인해요.",
       "notes": {
-        "목적": "차이(뺄셈)로 ‘두 배’를 판단한 문장과 나눗셈으로 확인한 문장을 비교합니다(목표 A, 오해 M1).",
+        "목적": "나눗셈으로 확인한 문장과 차이(뺄셈)로 ‘두 배’를 판단한 문장을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 그래프를 보고 이렇게 썼어. 어느 문장이 맞을까? 나눗셈으로 확인해 봐.”"
         ],
         "정답": [
-          "나가 맞습니다. 2,400 ÷ 1,200 = 2이므로 2024년은 2020년의 두 배입니다. 가는 1,800 ÷ 1,200 = 1.5라서 두 배가 아닙니다(1.5배). 600권 더 많다고 두 배가 되는 것은 아닙니다."
+          "가가 맞습니다. 2,400 ÷ 1,200 = 2이므로 2024년은 2020년의 두 배입니다. 나는 1,800 ÷ 1,200 = 1.5라서 두 배가 아닙니다(1.5배). 600권 더 많다고 두 배가 되는 것은 아닙니다."
         ],
         "막히면": [
           "계산기로 두 나눗셈을 직접 해 보게 합니다."
@@ -3130,7 +3130,7 @@
           ],
           "rows": [
             [
-              "① Walking and the bus together account for 70% of the students.",
+              "① Walking and the bus together account for 60% of the students.",
               "",
               ""
             ],
@@ -3140,7 +3140,7 @@
               ""
             ],
             [
-              "③ 80 students walk to school.",
+              "③ 60 students walk to school.",
               "",
               ""
             ],
@@ -3158,7 +3158,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 참(40 + 30 = 70) ② 참(10 × 2 = 20, 자전거는 지하철의 절반) ③ 참(200 × 0.4 = 80) ④ 빈칸: three times(30 ÷ 10 = 3). 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① 거짓(40 + 30 = 70이므로 70%) ② 참(10 × 2 = 20, 자전거는 지하철의 절반) ③ 거짓(200 × 0.4 = 80이므로 80명. 60명은 버스) ④ 빈칸: three times(30 ÷ 10 = 3). 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 2,

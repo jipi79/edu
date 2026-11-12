@@ -50,7 +50,7 @@
   "materials": [
     "활동지",
     "연필",
-    "종이 카드 여섯 장(바람 카드 세 장: a dog, more time, fly / 연기 카드 세 장: a king, a famous singer, a ghost)",
+    "종이 카드 여섯 장(바람 카드 세 장: a dog, more time, fly / 연기 카드 세 장: a king, a famous singer, a ghost(유령을 본 듯 놀란 표정))",
     "교과서 디지털 자료나 사전 앱(낱말과 문장 소리 듣기)"
   ],
   "boundary": "I wish + 과거형(지금 바람), I wish + had + 과거분사(지난 일에 대한 아쉬움), as if + 과거형(지금 사실과 반대), as if + had + 과거분사(그 이전 사실과 반대)를 해석하고 실제 사실을 직설법으로 말하는 것만 다룬다. I wish 뒤의 be는 주어와 상관없이 were, can은 could로 쓴다. as if 문장의 주절 동사는 현재형(talks, acts, looks)만 써서, as if + 과거형은 ‘지금’, as if + had + 과거분사는 ‘그 전에’로 간단히 나눈다. 실제 사실은 In fact, ~.(사실은 ~)로 말하고, I'm sorry (that) ~ 직설법은 I wish 문장으로 바꾸는 데만 쓴다. as though, I wish + would(바람·불평), If only, 실제로 그럴 수도 있는 as if + 현재형(It looks as if it will rain.), 주절이 과거인 as if의 시제 일치는 다루지 않고 노트에서만 짚는다. 과거분사는 이미 배운 것(studied, seen, been, won, gone, eaten, slept, known, taken, listened 등)만 쓴다. ‘직설법’이라는 이름은 지난 차시처럼 화면에 뜻과 함께 쓴다.",
@@ -124,7 +124,7 @@
           "뜻을 모르면 부모가 뜻만 알려 주고, I wish와 as if 뒤의 동사에 손가락을 대 보게 합니다."
         ],
         "주의": [
-          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I wish I had a dog. I wish I had studied harder. He talks as if he knew everything. She talks as if she had seen a ghost.)을 미리 들어 두세요.",
+          "수업 전에 교과서 디지털 자료나 사전 앱의 발음 듣기로 오늘 문장(I wish I had a dog. I wish I had studied. He acts as if he knew me. She talks as if she had seen a ghost.)을 미리 들어 두세요.",
           "고1 ‘가정법 과거’와 지난 차시 ‘가정법 과거완료’의 모양(과거형 = 지금과 반대, had + 과거분사 = 그때와 반대)을 그대로 씁니다."
         ]
       }
@@ -146,7 +146,7 @@
           "text": "I didn't see you, so I didn't say hello.\n→ 가정법 과거완료로"
         },
         {
-          "text": "If I (studied / had studied) yesterday,\nI would have passed."
+          "text": "If I (had studied / studied) yesterday,\nI would have passed."
         }
       ],
       "notes": {
@@ -615,10 +615,10 @@
           "text": "He talks as if\nhe (knows / knew) me.\n(실제: He doesn't know me.)"
         },
         {
-          "text": "She acts as if she\n(saw / had seen) the ghost.\n(실제: She didn't see it.)"
+          "text": "She acts as if she\n(had seen / saw) the ghost.\n(실제: She didn't see it.)"
         },
         {
-          "text": "I wish I (can / could)\ngo with you.\n(실제: I can't go.)"
+          "text": "I wish I (could / can)\ngo with you.\n(실제: I can't go.)"
         },
         {
           "text": "I wish we (won / had won)\nyesterday.\n(실제: We didn't win.)"
@@ -677,14 +677,15 @@
           "(지난 일 아쉬움) 부모: “I wish I had gone to bed earlier last night.” → 아이: “In fact, you didn't go to bed early.”"
         ],
         "예상답": [
-          "“I wish I had more time.” → “In fact, you don't have much time.” / “You talk as if you were a famous singer.” → “In fact, you aren't a famous singer.” / “You look as if you had seen a ghost.” → “In fact, you didn't see a ghost.”",
+          "“I wish I had more time.” → “In fact, you don't have much time.” / “You sing as if you were a famous singer.” → “In fact, you aren't a famous singer.” / “You look as if you had seen a ghost.” → “In fact, you didn't see a ghost.”",
           "기준: I wish·as if 뒤에 과거형(지금)이나 had + 과거분사(그 전)를 쓰고, 실제 사실을 In fact, ~.로 시제와 긍정·부정을 맞추어 말하면 잘한 것입니다."
         ],
         "막히면": [
           "문장 틀(I wish I ___. / You act as if you were ___. / In fact, ___.)을 종이에 써 주고 빈칸만 말하게 합니다."
         ],
         "주의": [
-          "연기는 짧고 재미있게 합니다. 실수하면 부모가 바른 문장으로 다시 말해 줍니다(“I wish I have” → “Oh, you wish you had ~!”)."
+          "연기는 짧고 재미있게 합니다. 실수하면 부모가 바른 문장으로 다시 말해 줍니다(“I wish I have” → “Oh, you wish you had ~!”).",
+          "연기 카드 a famous singer는 노래하는 흉내를 내고(You sing as if you were a famous singer.), a ghost는 유령을 본 것처럼 놀란 표정을 짓습니다(You look as if you had seen a ghost.)."
         ]
       }
     },
@@ -1058,13 +1059,13 @@
         "table": {
           "rows": [
             [
-              "① I wish I (have / had) a bigger room. (실제: I don't have a bigger room.)"
+              "① I wish I (had / have) a bigger room. (실제: I don't have a bigger room.)"
             ],
             [
               "② He talks as if he (met / had met) the president. (실제: He didn't meet the president.)"
             ],
             [
-              "③ I wish it (stopped / had stopped) raining an hour ago. (실제: It didn't stop.)"
+              "③ I wish it (had stopped / stopped) raining an hour ago. (실제: It didn't stop.)"
             ]
           ],
           "widths": [

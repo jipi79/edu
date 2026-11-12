@@ -420,10 +420,10 @@
       "text": "네 기준으로 따져 순위를 매기고, 까닭을 말해요.",
       "problems": [
         {
-          "text": "A Ad from DeskPro: “Our standing desks make every student smarter! Order today.”"
+          "text": "A School nurse's newsletter, 2024: In our class trial, 20 students used standing desks for one month. 14 said their backs felt better, but 6 said their legs got tired."
         },
         {
-          "text": "B School nurse's newsletter, 2024: In our class trial, 20 students used standing desks for one month. 14 said their backs felt better, but 6 said their legs got tired."
+          "text": "B Ad from a desk company: “Our standing desks make every student smarter! Order today.”"
         },
         {
           "text": "C Social media post, 2020: “Standing desks are the best!!! Everyone should get one.” (2,000 likes)"
@@ -436,10 +436,10 @@
           "“세 자료를 네 기준으로 따져서 가장 믿을 만한 것부터 순서를 정해 줘. 그리고 영어 틀로 까닭을 말해 볼래?”"
         ],
         "정답": [
-          "순위: B > A·C (B가 가장 믿을 만함)",
-          "B: 학교 보건 선생님(출처), 20명 한 달 시험과 숫자, 좋은 점과 나쁜 점을 함께 말함(근거·관점), 2024(날짜)",
-          "A: 회사 광고(판매 목적), 근거 없음, ‘모든 학생이 똑똑해진다’는 과장 / C: 개인 게시물, 좋아요 2,000개는 근거가 아님, 2020",
-          "영어 예: Source B is the most reliable because it gives numbers from a trial and shows both good and bad results. Source A is less reliable because the company wants to sell desks."
+          "순위: A > B·C (A가 가장 믿을 만함)",
+          "A: 학교 보건 선생님(출처), 20명 한 달 시험과 숫자, 좋은 점과 나쁜 점을 함께 말함(근거·관점), 2024(날짜)",
+          "B: 회사 광고(판매 목적), 근거 없음, ‘모든 학생이 똑똑해진다’는 과장 / C: 개인 게시물, 좋아요 2,000개는 근거가 아님, 2020",
+          "영어 예: Source A is the most reliable because it gives numbers from a trial and shows both good and bad results. Source B is less reliable because the company wants to sell desks."
         ],
         "막히면": [
           "자료마다 “누가? 근거는? 왜? 언제?” 네 질문을 차례로 묻습니다."
@@ -663,7 +663,7 @@
         ],
         "정답": [
           "① 날짜 — 2010년 자료라 오래되었다",
-          "② 목적 — 운동화를 파는 회사의 광고다",
+          "② 목적 — 운동화를 파는 회사의 광고다(‘출처’라고 답해도 ‘파는 회사가 쓴 글이라서’라고 까닭을 말하면 인정)",
           "③ 근거 — 숫자나 조사 없이 ‘모두가 안다’고만 했다",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
@@ -845,10 +845,10 @@
       {
         "no": 2,
         "prompt": "서서 쓰는 책상 자료(S08)의 순위를 쓰고, 영어 틀로 까닭을 두 문장 쓰세요.",
-        "read": "A Ad from DeskPro: “Our standing desks make every student smarter! Order today.”\nB School nurse's newsletter, 2024: In our class trial, 20 students used standing desks for one month. 14 said their backs felt better, but 6 said their legs got tired.\nC Social media post, 2020: “Standing desks are the best!!! Everyone should get one.” (2,000 likes)",
+        "read": "A School nurse's newsletter, 2024: In our class trial, 20 students used standing desks for one month. 14 said their backs felt better, but 6 said their legs got tired.\nB Ad from a desk company: “Our standing desks make every student smarter! Order today.”\nC Social media post, 2020: “Standing desks are the best!!! Everyone should get one.” (2,000 likes)",
         "line_label": "순위 · Source ~ is the most reliable because ~. / Source ~ is less reliable because ~.",
         "lines": 3,
-        "answer": "순위: B > A·C. 예: Source B is the most reliable because it gives numbers from a trial and shows both good and bad results. Source A is less reliable because the company wants to sell desks. (C: 좋아요 수는 근거가 아님) 가장 믿을 만한 자료(B)와 기준이 든 영어 문장 두 개면 통과."
+        "answer": "순위: A > B·C. 예: Source A is the most reliable because it gives numbers from a trial and shows both good and bad results. Source B is less reliable because the company wants to sell desks. (C: 좋아요 수는 근거가 아님) 가장 믿을 만한 자료(A)와 기준이 든 영어 문장 두 개면 통과."
       },
       {
         "no": 3,

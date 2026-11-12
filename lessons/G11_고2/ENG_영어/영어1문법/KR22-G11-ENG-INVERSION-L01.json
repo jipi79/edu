@@ -399,7 +399,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Never I have seen\nsuch a big dog."
+              "word": "Never have I seen\nsuch a big dog."
             }
           ]
         }
@@ -411,7 +411,7 @@
           "perRow": 1,
           "items": [
             {
-              "word": "Never have I seen\nsuch a big dog."
+              "word": "Never I have seen\nsuch a big dog."
             }
           ]
         }
@@ -425,7 +425,7 @@
           "“Never가 앞에 오면 뒤는 무슨 어순이라고 했지?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 나(Never have I seen such a big dog.)입니다. 부정어가 앞에 오면 have가 주어 I 앞으로 나가 의문문 어순이 됩니다. 가는 원래 순서(I have)를 그대로 써서 틀렸습니다."
+          "바르게 쓴 쪽은 가(Never have I seen such a big dog.)입니다. 부정어가 앞에 오면 have가 주어 I 앞으로 나가 의문문 어순이 됩니다. 나 쪽은 원래 순서(I have)를 그대로 써서 틀렸습니다."
         ],
         "막히면": [
           "S03의 두 카드를 다시 보여 줍니다."
