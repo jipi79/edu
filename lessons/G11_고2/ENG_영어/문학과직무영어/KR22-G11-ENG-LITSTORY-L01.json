@@ -253,7 +253,7 @@
           "“Della had only ~ 문장을 다시 읽어 봐. 돈이 얼마 있었지?”라고 묻습니다."
         ],
         "주의": [
-          "인물: Della(아내), Jim(남편) / 배경: 100여 년 전 크리스마스 전날, 뉴욕의 작고 싼 셋집, 가난한 형편 / 갈등: Jim에게 특별한 선물을 하고 싶지만 1달러 87센트뿐이다 / 보물: Jim의 금시계(아버지와 할아버지의 것), Della의 무릎까지 오는 갈색 머리카락",
+          "인물: Della(아내), Jim(남편) / 배경: 100여 년 전 크리스마스 전날, 뉴욕의 작고 싼 셋집, 가난한 형편 / 갈등: Jim에게 특별한 선물을 하고 싶지만 1달러 87센트뿐이다 / 보물: Jim의 금시계(아버지와 할아버지의 것), Della의 무릎 아래까지 오는 갈색 머리카락. 원작에는 ‘뉴욕’이라는 말이 직접 나오지 않지만, 브로드웨이·코니아일랜드 같은 지명으로 뉴욕이 배경임을 알 수 있습니다.",
           "1부의 뜻: 100여 년 전 뉴욕, 크리스마스 전날이었어요. Della는 돈을 다시 세어 보았어요. 몇 달 동안 한 푼 한 푼 모았지만 1달러 87센트뿐이었어요. Della와 남편 Jim은 작고 싼 셋집에 살았고, Jim은 돈을 많이 벌지 못했어요. Della는 Jim에게 특별한 크리스마스 선물을 하고 싶었지만, 이렇게 적은 돈으로 무엇을 살 수 있을까요? 그녀는 주저앉아 울었어요. 젊은 부부에게는 보물이 딱 두 개 있었어요. 하나는 아버지와 할아버지가 쓰던 Jim의 금시계였어요. 다른 하나는 Della의 아름다운 갈색 머리카락이었어요. 머리카락은 무릎 아래까지 내려올 만큼 길었어요. (earn: 벌다, rent: 세 들어 살다, treasure: 보물, belong to: ~의 것이다, knee: 무릎)"
         ]
       }
@@ -523,6 +523,7 @@
         "예상답": [
           "Della 답 예: I felt sad because I had only one dollar and eighty-seven cents. / I sold my hair because I wanted to buy a chain for Jim's watch. / I felt nervous because my hair was short. / I was shocked, but I felt loved.",
           "아이의 질문 예: How did you feel when you saw Della's short hair? / Why did you sell your watch?",
+          "부모(Jim)의 답 예: I didn't know what to say because I had bought combs for her long hair. / I sold my watch because I wanted to buy the combs Della had wanted for a long time.",
           "기준: 심경 낱말을 쓰고 because 뒤에 이야기 속 사건을 근거로 들며, 질문을 두 개 이상 하면 잘한 것입니다."
         ],
         "막히면": [
@@ -659,7 +660,7 @@
           "text": "아이러니인 상황은?\n가 A fire station burns down.\n나 It rained, so we stayed home."
         },
         {
-          "text": "늘 지던 소년이 매일 연습해 마침내 이긴 이야기의 주제는?\n가 games  나 Hard work can lead to success."
+          "text": "늘 지던 소년이 매일 연습해 마침내 이긴 이야기의 주제는?\n가 A boy finally wins a game.\n나 Hard work can lead to success."
         }
       ],
       "notes": {
@@ -671,7 +672,7 @@
         "정답": [
           "① nervous — 단서: His hands were shaking before the speech.",
           "② 가 (불을 끄는 소방서에 불이 남: 기대와 정반대)",
-          "③ 나 (가는 소재·사건, 나는 이야기가 말하려는 메시지)",
+          "③ 나 (가는 사건을 줄인 말, 나는 이야기가 말하려는 메시지)",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
         "막히면": [

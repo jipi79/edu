@@ -143,8 +143,8 @@
       "passage": {
         "title": "Last Sunday, I made a sandwich for my dad.",
         "paragraphs": [
-          "(A) He said it was the best sandwich in the world.",
-          "(B) I put cheese, eggs, and tomatoes between two pieces of bread.",
+          "(A) I put cheese, eggs, and tomatoes between two pieces of bread.",
+          "(B) He said it was the best sandwich in the world.",
           "(C) Then I gave it to him with a glass of milk."
         ]
       },
@@ -156,15 +156,15 @@
           "“굵은 글씨가 주어진 글이야. 다음에 이어질 순서를 정하고, 어떤 단서를 보고 정했는지 말해 줘.”"
         ],
         "정답": [
-          "순서: (B) → (C) → (A)",
-          "근거: (B) 샌드위치를 만드는 과정(빵 사이에 재료) / (C)의 Then, it → 만든 샌드위치를 줌 / (A)의 He said → 아빠가 받은 뒤 한 말"
+          "순서: (A) → (C) → (B)",
+          "근거: (A) 샌드위치를 만드는 과정(빵 사이에 재료) / (C)의 Then, it → 만든 샌드위치를 줌 / (B)의 He said → 아빠가 받은 뒤 한 말"
         ],
         "막히면": [
-          "“(C)의 it은 무엇을 가리켜? (A)의 He는 누구야? 아빠가 샌드위치를 받기 전에 말할 수 있을까?”라고 묻습니다.",
+          "“(C)의 it은 무엇을 가리켜? (B)의 He는 누구야? 아빠가 샌드위치를 받기 전에 말할 수 있을까?”라고 묻습니다.",
           "어려우면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
-          "글의 뜻: 지난 일요일 나는 아빠에게 샌드위치를 만들어 드렸어요. (B) 빵 두 쪽 사이에 치즈, 달걀, 토마토를 넣었어요. (C) 그다음 우유 한 잔과 함께 아빠에게 드렸어요. (A) 아빠는 세상에서 가장 맛있는 샌드위치라고 하셨어요. (between: ~ 사이에, piece: 조각)"
+          "글의 뜻: 지난 일요일 나는 아빠에게 샌드위치를 만들어 드렸어요. (A) 빵 두 쪽 사이에 치즈, 달걀, 토마토를 넣었어요. (C) 그다음 우유 한 잔과 함께 아빠에게 드렸어요. (B) 아빠는 세상에서 가장 맛있는 샌드위치라고 하셨어요. (between: ~ 사이에, piece: 조각)"
         ]
       }
     },
@@ -820,10 +820,10 @@
       {
         "no": 3,
         "prompt": "주어진 문장이 들어갈 곳에 ○ 하고, 근거를 앞 문장과 뒤 문장 양쪽으로 쓰세요.",
-        "read": "주어진 문장: Then she remembered her teacher's advice: “Just breathe and count to four.”\nSumin wanted to join the school band, but she had never played an instrument. ( ① ) She chose the drums and practiced for an hour every day after school. ( ② ) On the day of the audition, she was so nervous that she dropped her sticks. ( ③ ) She took a deep breath, counted to four, and started again. ( ④ ) This time, she played the whole song without a mistake. ( ⑤ ) A week later, she found her name on the list of new band members.",
+        "read": "주어진 문장: Then she remembered her teacher's advice: “Just breathe and count to four.”\nSumin wanted to join the school band, but she couldn't play any instrument. ( ① ) She chose the drums and practiced for an hour every day after school. ( ② ) On the day of the audition, she was so nervous that she dropped her sticks. ( ③ ) She took a deep breath, counted to four, and started again. ( ④ ) This time, she played the whole song without a mistake. ( ⑤ ) A week later, she found her name on the list of new band members.",
         "line_label": "자리 · 근거:",
         "lines": 3,
-        "answer": "③. 근거: 앞 — she was so nervous that she dropped her sticks(너무 긴장해서 채를 떨어뜨림) 다음에 Then(그때) 조언을 떠올림 / 뒤 — She took a deep breath, counted to four, and started again.이 조언(숨 쉬고 넷까지 세기)을 그대로 따른 행동. 자리와 앞뒤 근거가 맞으면 통과. 낱말 뜻: band 밴드, instrument 악기, drum 드럼, audition 오디션, so ~ that 아주 ~해서 …하다, nervous 긴장한, stick (드럼) 채, advice 조언, breathe 숨 쉬다, deep breath 깊은 숨, whole 전체의, mistake 실수, member 단원. 이어 읽은 글: Sumin wanted to join the school band, but she had never played an instrument. She chose the drums and practiced for an hour every day after school. On the day of the audition, she was so nervous that she dropped her sticks. Then she remembered her teacher's advice: “Just breathe and count to four.” She took a deep breath, counted to four, and started again. This time, she played the whole song without a mistake. A week later, she found her name on the list of new band members. 글의 뜻: 수민이는 학교 밴드에 들어가고 싶었지만 악기를 연주해 본 적이 없었어요. 드럼을 골라서 매일 방과 후에 한 시간씩 연습했어요. 오디션 날, 수민이는 너무 긴장해서 드럼 채를 떨어뜨렸어요. ( 그때 선생님의 조언이 떠올랐어요. ‘그냥 숨을 쉬고 넷까지 세렴.’ ) 수민이는 깊게 숨을 쉬고, 넷까지 센 뒤 다시 시작했어요. 이번에는 실수 없이 곡 전체를 연주했어요. 일주일 뒤, 수민이는 새 밴드 단원 명단에서 자기 이름을 찾았어요."
+        "answer": "③. 근거: 앞 — she was so nervous that she dropped her sticks(너무 긴장해서 채를 떨어뜨림) 다음에 Then(그때) 조언을 떠올림 / 뒤 — She took a deep breath, counted to four, and started again.이 조언(숨 쉬고 넷까지 세기)을 그대로 따른 행동. 자리와 앞뒤 근거가 맞으면 통과. 낱말 뜻: band 밴드, instrument 악기, drum 드럼, audition 오디션, so ~ that 아주 ~해서 …하다, nervous 긴장한, stick (드럼) 채, advice 조언, breathe 숨 쉬다, deep breath 깊은 숨, whole 전체의, mistake 실수, member 단원. 이어 읽은 글: Sumin wanted to join the school band, but she couldn't play any instrument. She chose the drums and practiced for an hour every day after school. On the day of the audition, she was so nervous that she dropped her sticks. Then she remembered her teacher's advice: “Just breathe and count to four.” She took a deep breath, counted to four, and started again. This time, she played the whole song without a mistake. A week later, she found her name on the list of new band members. 글의 뜻: 수민이는 학교 밴드에 들어가고 싶었지만 악기를 하나도 연주할 줄 몰랐어요. 드럼을 골라서 매일 방과 후에 한 시간씩 연습했어요. 오디션 날, 수민이는 너무 긴장해서 드럼 채를 떨어뜨렸어요. ( 그때 선생님의 조언이 떠올랐어요. ‘그냥 숨을 쉬고 넷까지 세렴.’ ) 수민이는 깊게 숨을 쉬고, 넷까지 센 뒤 다시 시작했어요. 이번에는 실수 없이 곡 전체를 연주했어요. 일주일 뒤, 수민이는 새 밴드 단원 명단에서 자기 이름을 찾았어요."
       },
       {
         "no": 4,

@@ -226,7 +226,8 @@
           "괄호 안을 종이로 가리고 남은 말을 읽게 합니다."
         ],
         "주의": [
-          "본동사: 문장 전체의 동사로, 시제가 있고(walks, was, have found, will give) 괄호 밖에 있습니다. 절: 주어와 동사가 있는 덩어리. 구: 주어와 동사가 없는 덩어리."
+          "본동사: 문장 전체의 동사로, 시제가 있고(walks, was, have found, will give) 괄호 밖에 있습니다. 절: 주어와 동사가 있는 덩어리. 구: 주어와 동사가 없는 덩어리.",
+          "to the park처럼 동사에 바로 이어져 뜻을 채우는 말은 뼈대에 남겨 두었습니다. 아이가 ( )로 묶어도 괜찮습니다. 주어와 본동사만 맞으면 됩니다."
         ]
       }
     },
@@ -355,7 +356,7 @@
           "“동사처럼 보이는 낱말이 몇 개야? 그중 괄호 안에 들어가는 것은?”이라고 묻습니다."
         ],
         "주의": [
-          "①의 built는 과거분사(본동사 아님), ②의 visited·was는 [ ] 안의 동사, ③의 bought는 관계사절 안, has already stopped가 본동사입니다. repair는 ‘수리’, exhibit는 ‘전시’입니다."
+          "①의 built는 과거분사(본동사 아님), ②의 visited·was는 [ ] 안의 동사(주어 Most는 ‘대부분’이라는 뜻의 대명사), ③의 bought는 관계사절 안, has already stopped가 본동사입니다. repair는 ‘수리’, exhibit는 ‘전시’입니다."
         ]
       }
     },
@@ -372,22 +373,22 @@
       "claim": "The students who joined the science club last year have won three prizes.",
       "left": {
         "title": "가",
-        "text": "본동사: joined\n(주어 바로 뒤의 동사니까요)"
+        "text": "본동사: have won\nThe students [who joined ~]\nhave won three prizes."
       },
       "right": {
         "title": "나",
-        "text": "본동사: have won\nThe students [who joined ~]\nhave won three prizes."
+        "text": "본동사: joined\n(주어 바로 뒤의 동사니까요)"
       },
       "question": "누가 맞나요? 다른 친구는 무엇을 놓쳤나요?",
       "notes": {
-        "목적": "관계사절 안의 동사를 본동사로 잡은 판단과, 절을 묶고 괄호 밖에서 본동사를 찾은 판단을 비교합니다(목표 A, 오해 M1).",
+        "목적": "절을 묶고 괄호 밖에서 본동사를 찾은 판단과, 관계사절 안의 동사를 본동사로 잡은 판단을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 같은 문장의 본동사를 이렇게 골랐어. 누가 맞을까?”",
-          "“가가 고른 joined는 어디에 들어 있는 동사지?”"
+          "“나가 고른 joined는 어디에 들어 있는 동사지?”"
         ],
         "정답": [
-          "나가 맞습니다. who joined the science club last year는 The students를 꾸미는 관계사절이라 [ ]로 묶이고, 괄호 밖에 남은 have won이 본동사입니다. 가는 주어 바로 뒤의 동사를 골랐지만 그 동사는 관계사절 안에 있습니다."
+          "가가 맞습니다. who joined the science club last year는 The students를 꾸미는 관계사절이라 [ ]로 묶이고, 괄호 밖에 남은 have won이 본동사입니다. 나는 주어 바로 뒤의 동사를 골랐지만 그 동사는 관계사절 안에 있습니다."
         ],
         "막히면": [
           "관계사 who 뒤를 [ ]로 묶어 보게 합니다."
@@ -515,7 +516,8 @@
           "“괄호를 다 가리면 남는 주어는? 하나야, 여럿이야?”라고 묻습니다."
         ],
         "주의": [
-          "③처럼 관계사절 안의 동사(sing)는 꾸밈을 받는 명사(the girls)에, 본동사(lives)는 진짜 주어(One)에 수를 맞춥니다. attic은 ‘다락방’, choir는 ‘합창단’입니다."
+          "③처럼 관계사절 안의 동사(sing)는 꾸밈을 받는 명사(the girls)에, 본동사(lives)는 진짜 주어(One)에 수를 맞춥니다. attic은 ‘다락방’, choir는 ‘합창단’입니다.",
+          "예외: most·some·all·half of + 명사는 동사의 수를 of 뒤 명사에 맞춥니다(Most of the people are ~ / Most of the water is ~). S06 ②의 Most가 이런 주어입니다. 오늘 문제에는 나오지 않으니, 아이가 물을 때만 알려 줍니다."
         ]
       }
     },
@@ -555,7 +557,8 @@
           "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
         ],
         "주의": [
-          "③의 decide는 help 뒤의 동사원형이라 본동사가 아닙니다(오해 M2). data analyst는 ‘데이터 분석가’, finding은 ‘발견한 것’, manager는 ‘관리자’입니다."
+          "③의 decide는 help 뒤의 동사원형이라 본동사가 아닙니다(오해 M2). data analyst는 ‘데이터 분석가’, finding은 ‘발견한 것’, manager는 ‘관리자’입니다.",
+          "③의 (which products to sell)은 꾸밈말이 아니라 decide의 목적어 덩어리(‘어떤 제품을 팔지’)입니다. 아이가 묶지 않아도 맞습니다."
         ]
       }
     },

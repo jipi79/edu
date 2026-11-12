@@ -36,8 +36,8 @@
   "objectives": [
     {
       "id": "A",
-      "text": "지원 이메일의 짜임(제목 Application for ~ → 인사 → 목적과 자기소개 → 경험과 구체적인 예 → 지원 동기와 앞으로의 꿈 → 첨부·가능한 때 → 맺음 인사)과 부분마다의 격식 표현을 알고, 막연한 경험 문장을 숫자·예가 있는 문장으로 고친다.",
-      "evidence": "지원 이메일의 일곱 부분(S03), 부분별 표현(S04), 본보기 이메일(S05), 경험 문장 고치기(S06), 과장한 이메일 비교(S07), 순서 맞추기(S09), 마무리 확인(S13), 활동지 1·2",
+      "text": "지원 이메일의 여섯 부분 짜임(제목 Application for ~과 인사 → 목적과 자기소개 → 경험과 구체적인 예 → 지원 동기와 앞으로의 꿈 → 첨부·가능한 때 → 맺음 인사)과 부분마다의 격식 표현을 알고, 막연한 경험 문장을 숫자·예가 있는 문장으로 고친다.",
+      "evidence": "지원 이메일의 여섯 부분(S03), 부분별 표현(S04), 본보기 이메일(S05), 경험 문장 고치기(S06), 과장한 이메일 비교(S07), 순서 맞추기(S09), 마무리 확인(S13), 활동지 1·2",
       "success": "활동지 1의 순서 맞추기를 모두 맞히고, 활동지 2의 경험 문장 세 개 가운데 두 개 이상을 기간·숫자·예가 있는 정직한 문장으로 고친다."
     },
     {
@@ -54,7 +54,7 @@
     "내 활동 기록(동아리·봉사·수상 등을 적어 둔 메모, 있으면)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "고등학생이 진로 관련 활동(박물관 멘토, 병원 봉사, 도서관 독서 모임 리더, 코딩 캠프 보조)에 지원하는 격식 이메일(8~10문장, 약 90~130 낱말)을 다룬다. 기관·사람·프로그램은 모두 지어낸 예시이며 실제로 보내지 않는다. 짜임은 제목, 인사, 목적과 자기소개, 경험과 예, 지원 동기, 첨부·가능한 때, 맺음 인사의 일곱 부분으로 정하고, 표현은 I am writing to apply for ~ / For the past ~, I have ~ / For example, ~ / I am interested in this program because ~ / It would help me ~ / I have attached ~ / Thank you for considering my application.만 쓴다. 경험은 아이의 실제 경험만 쓰고 부풀리지 않는다. 이력서·자기소개서 쓰기, 영어 면접(고2 ‘직무 상황 영어’에서 기본만 다룸), 실제 지원 절차는 다루지 않는다. ‘지원 동기·경험·격식’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "boundary": "고등학생이 진로 관련 활동(박물관 멘토, 병원 봉사, 도서관 독서 모임 리더, 코딩 캠프 보조)에 지원하는 격식 이메일(8~10문장, 약 90~130 낱말)을 다룬다. 기관·사람·프로그램은 모두 지어낸 예시이며 실제로 보내지 않는다. 짜임은 제목과 인사, 목적과 자기소개, 경험과 예, 지원 동기, 첨부·가능한 때, 맺음 인사의 여섯 부분으로 정하고, 표현은 I am writing to apply for ~ / For the past ~, I have ~ / For example, ~ / I am interested in this program because ~ / It would help me ~ / I have attached ~ / Thank you for considering my application.만 쓴다. 경험은 아이의 실제 경험만 쓰고 부풀리지 않는다. 이력서·자기소개서 쓰기, 영어 면접(고2 ‘직무 상황 영어’에서 기본만 다룸), 실제 지원 절차는 다루지 않는다. ‘지원 동기·경험·격식’이라는 말은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
@@ -176,7 +176,7 @@
       "id": "S03",
       "kind": "cards",
       "section": "개념",
-      "purpose": "지원 이메일의 일곱 부분",
+      "purpose": "지원 이메일의 여섯 부분",
       "role": "teach",
       "objectives": [
         "A"
@@ -211,7 +211,7 @@
       ],
       "key": "경험은 구체적으로, 동기는 꿈과 이어서",
       "notes": {
-        "목적": "지원 이메일의 일곱 부분과 각 부분이 하는 일을 보여 줍니다(목표 A, 오해 M4).",
+        "목적": "지원 이메일의 여섯 부분과 각 부분이 하는 일을 보여 줍니다(목표 A, 오해 M4).",
         "시간": "약 3분",
         "말하기": [
           "“제목은 Application for + 프로그램 이름. 인사 바로 뒤에 목적과 내가 누구인지.”",
@@ -322,17 +322,20 @@
           "Best regards, Jiwoo Han (Maru High School, third-year student)"
         ]
       },
-      "question": "① 일곱 부분에 번호를!  ② 경험의 숫자와 예, 동기와 꿈은?",
+      "question": "① 여섯 부분에 번호를!  ② 경험의 숫자와 예, 동기와 꿈은?",
       "notes": {
-        "목적": "본보기 지원 이메일에서 일곱 부분과 표현을 찾고, 경험에 숫자와 예가 들어 있는지 확인합니다(목표 A, 오해 M1·M4).",
+        "목적": "본보기 지원 이메일에서 여섯 부분과 표현을 찾고, 경험에 숫자와 예가 들어 있는지 확인합니다(목표 A, 오해 M1·M4).",
         "시간": "약 4분",
         "말하기": [
           "(부모가 이메일을 한 번 읽어 줍니다.)",
-          "“일곱 부분에 번호를 붙여 볼래? 경험 문단에서 숫자와 예를 찾아 줘.”",
+          "“S03 카드처럼 여섯 부분에 번호를 붙여 볼래? 경험 문단에서 숫자와 예를 찾아 줘.”",
           "“지우는 왜 이 프로그램에 지원했어? 그 동기는 꿈과 어떻게 이어져?”"
         ],
         "예상답": [
           "“2년, 15명, 매주가 들어 있어요.” “과학 선생님이 되고 싶어서요.”"
+        ],
+        "정답": [
+          "① 여섯 부분(S03 카드 순서): ① Subject ~ / Dear Dr. Lim, ② I am writing to apply for ~. ③ For the past two years, ~. For example, ~. ④ I am interested in ~ because ~. It would help me ~. ⑤ I am available ~. ⑥ Thank you for considering ~. / Best regards, ~"
         ],
         "막히면": [
           "S03 카드를 옆에 두고 같은 표현을 찾게 합니다."
@@ -585,7 +588,7 @@
         }
       ],
       "notes": {
-        "목적": "도움 없이 프로그램 카드 하나를 골라 일곱 부분을 갖춘 지원 이메일(8~10문장)을 쓰고 점검표로 확인하는지 봅니다(목표 A·B). 활동지 3에 쓰고 활동지 4로 확인합니다.",
+        "목적": "도움 없이 프로그램 카드 하나를 골라 여섯 부분을 갖춘 지원 이메일(8~10문장)을 쓰고 점검표로 확인하는지 봅니다(목표 A·B). 활동지 3에 쓰고 활동지 4로 확인합니다.",
         "시간": "약 7분",
         "말하기": [
           "“S10 메모를 보고 활동지 3에 지원 이메일을 써 볼래? 다 쓰면 소리 내어 읽고 점검표에 표시해 줘.”"
@@ -685,7 +688,7 @@
           "text": "I like animals.\n→ 구체적인 경험 문장으로"
         },
         {
-          "text": "가 I want to join because it looks fun.\n나 I am interested in this program because I want to become a vet."
+          "text": "가 I am interested in this program because I want to become a vet.\n나 I want to join because it looks fun."
         }
       ],
       "notes": {
@@ -697,7 +700,7 @@
         "정답": [
           "① 첨부·가능한 때 (I have attached ~)",
           "② 예: For the past year, I have volunteered at an animal shelter every Saturday.",
-          "③ 나 (동기가 꿈과 이어짐)",
+          "③ 가 (동기가 꿈과 이어짐)",
           "기준: 세 개 모두 맞으면 통과입니다(②는 기간·숫자·행동 가운데 둘 이상)."
         ],
         "막히면": [
@@ -719,7 +722,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "목적 → 경험 + 예 → 지원 동기 → 첨부·때 → 맺음\nI am writing to apply for ~ / For example, ~ / because ~",
+      "key": "제목·인사 → 목적 → 경험 + 예 → 동기 → 첨부·때 → 맺음\nI am writing to apply for ~ / For example, ~ / because ~",
       "do": "실제 경험을 숫자·예로 보여 주기",
       "dont": "자랑·과장, 막연한 경험",
       "review": [
@@ -742,7 +745,7 @@
           "“경험 문장을 구체적으로 만드는 세 가지는?”"
         ],
         "예상답": [
-          "“제목, 인사, 목적, 경험과 예, 동기, 첨부와 때, 맺음이요.” “기간, 숫자, 무엇을 했는지요.”"
+          "“제목과 인사, 목적, 경험과 예, 동기, 첨부와 때, 맺음이요.” “기간, 숫자, 무엇을 했는지요.”"
         ],
         "정답": [
           "① 제목·인사 → 목적·나 → 경험 + 예 → 동기 → 첨부·때 → 맺음",
@@ -796,7 +799,7 @@
       },
       "key": {
         "title": "다음 걸음",
-        "text": "격식 표현을 지원 이메일의 일곱 부분에 넣어 봐요."
+        "text": "격식 표현을 지원 이메일의 여섯 부분에 넣어 봐요."
       },
       "notes": {
         "목적": "S02에서 격식 이메일 표현이 흔들리면, 지원 이메일을 쓰기 전에 친구 말투를 격식 말투로 바꾸는 연습을 다시 합니다.",
@@ -823,7 +826,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "본보기 이메일(S05)에서 일곱 부분에 번호를 붙이고, 아래 섞인 문장(S09)을 순서대로 번호를 쓰세요.",
+        "prompt": "본보기 이메일(S05)에서 여섯 부분에 번호를 붙이고, 아래 섞인 문장(S09)을 순서대로 번호를 쓰세요.",
         "read": "Subject: Application for the Youth Science Mentor Program\nDear Dr. Lim,\nI am writing to apply for the Youth Science Mentor Program.\nFor the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members.\nI am interested in this program because I want to be a science teacher. It would help me learn to explain ideas simply.\nI am available on weekends in July and August. Thank you for considering my application.\nBest regards, Jiwoo Han (Maru High School, third-year student)",
         "table": {
           "headers": [
@@ -866,7 +869,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "순서: ② 인사(1) → ④ 목적(2) → ⑤ 경험(3) → ① 동기(4) → ③ 맺음(5). 다섯 개 모두 맞으면 통과."
+        "answer": "본보기의 여섯 부분: ① 제목·인사 ② 목적 ③ 경험과 예 ④ 동기 ⑤ 가능한 때 ⑥ 맺음(S03 카드 순서). 섞인 문장 순서: ② 인사(1) → ④ 목적(2) → ⑤ 경험(3) → ① 동기(4) → ③ 맺음(5). 다섯 개 모두 맞으면 통과."
       },
       {
         "no": 2,

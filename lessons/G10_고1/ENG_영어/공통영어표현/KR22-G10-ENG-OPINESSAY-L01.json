@@ -351,11 +351,11 @@
       "claim": "요리 에세이의 셋째 문단을 두 친구가 이렇게 썼어요.",
       "left": {
         "title": "가",
-        "text": "Some people say that\nstudents are too busy\nto cook. They are right."
+        "text": "Some people say that\nstudents are too busy to cook.\nHowever, many simple dishes\ntake only fifteen minutes."
       },
       "right": {
         "title": "나",
-        "text": "Some people say that\nstudents are too busy to cook.\nHowever, many simple dishes\ntake only fifteen minutes."
+        "text": "Some people say that\nstudents are too busy\nto cook. They are right."
       },
       "question": "어느 쪽이 좋을까요? 다른 쪽은 무엇이 빠졌나요?",
       "notes": {
@@ -363,13 +363,13 @@
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 요리 에세이의 셋째 문단을 이렇게 썼어. 어느 쪽이 글쓴이의 주장을 더 튼튼하게 해 줄까?”",
-          "“가를 읽으면 글쓴이는 요리를 배워야 한다는 거야, 말아야 한다는 거야?”"
+          "“나를 읽으면 글쓴이는 요리를 배워야 한다는 거야, 말아야 한다는 거야?”"
         ],
         "정답": [
-          "나가 좋습니다. 반론(학생들은 너무 바쁘다)에 However로 대답해(간단한 요리는 15분이면 된다) 내 주장을 지켰습니다. 가는 반론에 동의해 버려서(They are right.) 서론의 주장과 맞지 않게 됩니다."
+          "가가 좋습니다. 반론(학생들은 너무 바쁘다)에 However로 대답해(간단한 요리는 15분이면 된다) 내 주장을 지켰습니다. 나는 반론에 동의해 버려서(They are right.) 서론의 주장과 맞지 않게 됩니다."
         ],
         "막히면": [
-          "가의 셋째 문단과 서론의 주장을 이어 읽게 하고 “말이 서로 맞아?”라고 묻습니다."
+          "나의 셋째 문단과 서론의 주장을 이어 읽게 하고 “말이 서로 맞아?”라고 묻습니다."
         ],
         "주의": [
           "반론을 넣는 까닭은 ‘다른 생각도 알고 있지만, 그래도 내 생각이 맞다’를 보여 주기 위해서입니다. 반박은 짧아도 이유가 있어야 합니다."
@@ -524,7 +524,7 @@
           "text": "반론과 반박:\nSome people say that ~. However, ~."
         },
         {
-          "text": "결론:\nFor these reasons, ~."
+          "text": "결론: 주장 다시 + 마무리 한 문장\nFor these reasons, ~. Why don't you ~?"
         }
       ],
       "notes": {
@@ -532,6 +532,7 @@
         "시간": "약 7분",
         "말하기": [
           "“활동지 3의 개요를 보고 활동지 4에 네 문단으로 써 볼래? 문단이 바뀔 때는 줄을 바꾸고 첫 줄을 조금 들여 써.”",
+          "“결론은 For these reasons로 주장을 다시 말하고, Why don't you ~?(~해 보는 건 어때?)처럼 마무리 한 문장을 더해. 그러면 모두 열 문장쯤 돼.”",
           "“다 쓰면 소리 내어 한 번 읽어 줘.”"
         ],
         "정답": [
@@ -942,7 +943,7 @@
           "주제문 → 서론, 이유·예시 → 본론, 마무리 → 결론 (반론과 반박 문단만 새로 더함)"
         ],
         "막히면": [
-          "아래 카드의 문단을 문장마다 끊어 읽고 각 문장이 네 부분 가운데 무엇인지 말하게 합니다.",
+          "다음 문단을 한 문장씩 읽어 주고, 문장마다 네 부분 가운데 무엇인지 말하게 합니다: In my opinion, students should read every day. / First, reading is relaxing. / For example, I read a comic book on the bus every morning, and I feel calm. / For these reasons, students should read every day. (차례대로 주제문 / 이유 / 예시 / 마무리)",
           "보충으로도 어렵다면 앞서 배운 중3 ‘의견·이유 문단’을 먼저 다시 하고 이 차시를 시작합니다."
         ],
         "주의": [

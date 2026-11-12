@@ -136,7 +136,7 @@
           "“학교에서 종이 책 대신 태블릿만 쓰면 무엇이 좋고 무엇이 걱정될까?”라고 묻습니다."
         ],
         "주의": [
-          "토론의 입장은 연습을 위해 정한 것입니다. 실제 생각과 달라도 괜찮다고 말해 줍니다.",
+          "토론의 입장과 논제는 연습을 위해 정한 것입니다. 실제 생각과 달라도 괜찮고, 실제 학교 정책이 옳은지를 가리는 것이 아니라고 말해 줍니다.",
           "모르는 낱말의 발음은 교과서 디지털 자료나 사전 앱의 발음 듣기로 확인해 두세요."
         ]
       }
@@ -360,7 +360,7 @@
           "text": "______, clubs help students\nmake friends and find\ntheir interests."
         }
       ],
-      "hint": "We believe that  ·  You said that  ·  That may be true, but  ·  To sum up",
+      "hint": "That may be true, but  ·  To sum up  ·  You said that  ·  We believe that",
       "notes": {
         "목적": "토론 대본의 빈칸에 차례에 맞는 표현을 넣습니다(목표 A). 활동지 2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -395,11 +395,11 @@
       "claim": "반대 쪽: “Tablets are expensive.”에 두 친구가 이렇게 반박했어요.",
       "left": {
         "title": "가",
-        "text": "That's wrong.\nYou don't know anything\nabout tablets."
+        "text": "You said that tablets are\nexpensive. That may be true, but\none tablet can replace many\nbooks, so it can save money."
       },
       "right": {
         "title": "나",
-        "text": "You said that tablets are\nexpensive. That may be true, but\none tablet can replace many\nbooks, so it can save money."
+        "text": "That's wrong. Tablets are\nnot expensive at all.\nYou don't know anything\nabout tablets."
       },
       "question": "어느 반박이 좋은가요? 다른 쪽은 무엇이 문제인가요?",
       "notes": {
@@ -407,16 +407,16 @@
         "시간": "약 2분",
         "말하기": [
           "“반대 쪽이 ‘태블릿은 비싸다’고 했어. 두 친구가 이렇게 반박했어. 어느 쪽이 더 설득력 있을까?”",
-          "“가를 들은 심판이나 상대는 어떤 기분일까?”"
+          "“나를 들은 심판이나 상대는 어떤 기분일까?”"
         ],
         "정답": [
-          "나가 좋은 반박입니다. 상대 근거를 요약하고(You said that ~), 인정한 뒤(That may be true, but ~) 근거(종이 책 여러 권을 대신함)를 들어 우리 주장으로 돌아왔습니다. 가는 근거가 없고, 상대 사람을 공격해서 설득력이 없고 예의에도 어긋납니다."
+          "가가 좋은 반박입니다. 상대 근거를 요약하고(You said that ~), 인정한 뒤(That may be true, but ~) 근거(종이 책 여러 권을 대신함)를 들어 우리 주장으로 돌아왔습니다. 나는 ‘전혀 비싸지 않다’고만 할 뿐 근거가 없고, 상대 사람을 공격해서 설득력이 없고 예의에도 어긋납니다."
         ],
         "막히면": [
-          "“가에서 ‘왜 틀렸는지’가 나와 있어?”라고 묻습니다."
+          "“나에서 ‘왜 틀렸는지’가 나와 있어?”라고 묻습니다."
         ],
         "주의": [
-          "나의 뜻: 태블릿이 비싸다고 하셨습니다. 그럴 수도 있지만, 태블릿 하나가 여러 권의 종이 책을 대신하니 시간이 지나면 돈을 아낄 수 있습니다. ‘아낄 수 있다(can)’처럼 단정하지 않는 말도 좋은 습관입니다.",
+          "가의 뜻: 태블릿이 비싸다고 하셨습니다. 그럴 수도 있지만, 태블릿 하나가 여러 권의 종이 책을 대신하니 돈을 아낄 수 있습니다. ‘아낄 수 있다(can)’처럼 단정하지 않는 말도 좋은 습관입니다.",
           "여기까지가 토론의 짜임과 표현입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
         ]
       }
@@ -671,7 +671,7 @@
           "text": "가 You said that ~.  나 To sum up, ~.\n다 We believe that ~ for two reasons.\n→ 토론 차례대로 놓으면?"
         },
         {
-          "text": "반박을 시작하는 가장 좋은 말은?\n가 That's wrong.  나 You said that ~.  다 I don't care."
+          "text": "반박을 시작하는 가장 좋은 말은?\n가 That's wrong.  나 I don't care.  다 You said that ~."
         },
         {
           "text": "To sum up, clubs help us make friends.\nAlso, clubs give free snacks.\n→ 최종 발언에서 잘못된 점은?"
@@ -685,7 +685,7 @@
         ],
         "정답": [
           "① 입론 → 반박 → 최종 발언 (다 → 가 → 나)",
-          "② 나 (You said that ~로 상대 근거를 요약하며 시작)",
+          "② 다 (You said that ~로 상대 근거를 요약하며 시작)",
           "③ 최종 발언에 새 이유(Also, clubs give free snacks.)를 넣었다 → 빼고 이미 말한 이유로만 정리한다.",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
@@ -809,12 +809,12 @@
       {
         "no": 1,
         "prompt": "부모-아이 토론 대본입니다(논제: Schools should replace paper textbooks with tablets.). 차례마다 이름(입론·반박·최종 발언)을 확인하며 소리 내어 읽으세요(S09).",
-        "read": "① 찬성 입론(아이): We believe that schools should replace paper textbooks with tablets for two reasons. First, tablets make school bags much lighter, because one tablet can hold all of our textbooks. Second, digital textbooks can be updated quickly, so students can always learn the newest information.\n② 반대 입론(부모): We believe that schools should keep paper textbooks. First, reading on a screen for many hours can make students' eyes tired. Second, tablets can be distracting. Students may play games or chat instead of studying.\n③ 찬성 반박(아이): You said that tablets can be distracting. That may be true, but schools can block games and chat apps during class. So tablets can be used only for learning.\n④ 반대 반박(부모): You said that tablets make bags lighter. I see your point. However, tablets are expensive, and if one breaks, a student cannot study until it is fixed. Paper books do not need batteries or repairs.\n⑤ 찬성 최종 발언(아이): To sum up, tablets are lighter, always up to date, and can be controlled by schools. For these reasons, we still believe that schools should switch to tablets.\n⑥ 반대 최종 발언(부모): In conclusion, paper textbooks are cheaper to keep, easier on the eyes, and never run out of battery. That is why we believe that schools should keep paper textbooks.",
-        "answer": "차례: ① 찬성 입론 ② 반대 입론 ③ 찬성 반박 ④ 반대 반박 ⑤ 찬성 최종 발언 ⑥ 반대 최종 발언. 반박 ③은 ②의 ‘집중을 흩뜨린다’에, 반박 ④는 ①의 ‘가방이 가벼워진다’에 답합니다. 낱말 뜻: replace 바꾸다, update 새로 고치다, distracting 집중을 흩뜨리는, block 막다, repair 수리, up to date 최신의, run out of ~이 다 떨어지다. 대본의 뜻: ① 우리는 두 가지 까닭으로 학교가 종이 교과서를 태블릿으로 바꿔야 한다고 믿습니다. 첫째, 태블릿 하나에 교과서를 모두 담을 수 있어 가방이 훨씬 가벼워집니다. 둘째, 디지털 교과서는 빨리 고칠 수 있어 학생들이 늘 최신 정보를 배울 수 있습니다. ② 우리는 학교가 종이 교과서를 지켜야 한다고 믿습니다. 첫째, 화면으로 오래 읽으면 눈이 피로해질 수 있습니다. 둘째, 태블릿은 집중을 흩뜨릴 수 있습니다. 학생들이 공부 대신 게임이나 채팅을 할지도 모릅니다. ③ 태블릿이 집중을 흩뜨린다고 하셨습니다. 그럴 수도 있지만 학교는 수업 중 게임과 채팅 앱을 막을 수 있습니다. 그러니 태블릿은 공부에만 쓰일 수 있습니다. ④ 태블릿이 가방을 가볍게 한다고 하셨습니다. 그 점은 알겠습니다. 하지만 태블릿은 비싸고, 고장 나면 고칠 때까지 공부할 수 없습니다. 종이 책은 배터리나 수리가 필요 없습니다. ⑤ 정리하면, 태블릿은 가볍고 늘 최신이며 학교가 관리할 수 있습니다. 그래서 우리는 여전히 학교가 태블릿으로 바꿔야 한다고 믿습니다. ⑥ 결론적으로, 종이 교과서는 유지비가 덜 들고 눈에 편하며 배터리가 떨어질 일이 없습니다. 그래서 우리는 학교가 종이 교과서를 지켜야 한다고 믿습니다."
+        "read": "① 찬성 입론(아이): We believe that schools should replace paper textbooks with tablets for two reasons. First, tablets make school bags much lighter, because one tablet can hold all of our textbooks. Second, digital textbooks can be updated quickly, so students can always learn the newest information.\n② 반대 입론(부모): We believe that schools should keep paper textbooks. First, reading on a screen for many hours can make students' eyes tired. Second, tablets can be distracting. Students may play games or chat instead of studying.\n③ 찬성 반박(아이): You said that tablets can be distracting. That may be true, but schools can block games and chat apps during class. So tablets can be used only for learning.\n④ 반대 반박(부모): You said that tablets make bags lighter. I see your point. However, students can leave heavy books in their lockers, and a tablet can break or run out of battery. So paper books are still the safer choice.\n⑤ 찬성 최종 발언(아이): To sum up, tablets are lighter, always up to date, and can be controlled by schools. For these reasons, we still believe that schools should switch to tablets.\n⑥ 반대 최종 발언(부모): In conclusion, paper textbooks are easier on the eyes, less distracting, and never run out of battery. That is why we believe that schools should keep paper textbooks.",
+        "answer": "차례: ① 찬성 입론 ② 반대 입론 ③ 찬성 반박 ④ 반대 반박 ⑤ 찬성 최종 발언 ⑥ 반대 최종 발언. 반박 ③은 ②의 ‘집중을 흩뜨린다’에, 반박 ④는 ①의 ‘가방이 가벼워진다’에 답합니다. 낱말 뜻: replace 바꾸다, update 새로 고치다, distracting 집중을 흩뜨리는, block 막다, locker 사물함, up to date 최신의, run out of ~이 다 떨어지다. 대본의 뜻: ① 우리는 두 가지 까닭으로 학교가 종이 교과서를 태블릿으로 바꿔야 한다고 믿습니다. 첫째, 태블릿 하나에 교과서를 모두 담을 수 있어 가방이 훨씬 가벼워집니다. 둘째, 디지털 교과서는 빨리 고칠 수 있어 학생들이 늘 최신 정보를 배울 수 있습니다. ② 우리는 학교가 종이 교과서를 지켜야 한다고 믿습니다. 첫째, 화면으로 오래 읽으면 눈이 피로해질 수 있습니다. 둘째, 태블릿은 집중을 흩뜨릴 수 있습니다. 학생들이 공부 대신 게임이나 채팅을 할지도 모릅니다. ③ 태블릿이 집중을 흩뜨린다고 하셨습니다. 그럴 수도 있지만 학교는 수업 중 게임과 채팅 앱을 막을 수 있습니다. 그러니 태블릿은 공부에만 쓰일 수 있습니다. ④ 태블릿이 가방을 가볍게 한다고 하셨습니다. 그 점은 알겠습니다. 하지만 무거운 책은 사물함에 두면 되고, 태블릿은 고장 나거나 배터리가 떨어질 수 있습니다. 그러니 종이 책이 여전히 더 안전한 선택입니다. ⑤ 정리하면, 태블릿은 가볍고 늘 최신이며 학교가 관리할 수 있습니다. 그래서 우리는 여전히 학교가 태블릿으로 바꿔야 한다고 믿습니다. ⑥ 결론적으로, 종이 교과서는 눈에 편하고 집중을 덜 흩뜨리며 배터리가 떨어질 일이 없습니다. 그래서 우리는 학교가 종이 교과서를 지켜야 한다고 믿습니다."
       },
       {
         "no": 2,
-        "prompt": "상자에서 알맞은 표현을 골라 빈칸에 쓰세요.  [ We believe that · You said that · That may be true, but · because · To sum up ]",
+        "prompt": "상자에서 알맞은 표현을 골라 빈칸에 쓰세요.  [ because · To sum up · We believe that · That may be true, but · You said that ]",
         "read": "A: ______ students should wear school uniforms for two reasons.\nB: ______ uniforms save time. ______ choosing clothes takes only a minute. So we do not need uniforms.\nA: That is not true for everyone ______ many students spend a long time choosing clothes.\nA: ______, uniforms save time and make everyone feel equal.",
         "answer": "차례대로 We believe that / You said that / That may be true, but / because / To sum up. 다섯 개 가운데 네 개 이상이면 통과."
       },
