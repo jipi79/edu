@@ -37,6 +37,11 @@
       "text": "100까지의 수",
       "lesson": "KR22-G01-MAT-NUM100-L01",
       "grade_item": "KR22-G01-MAT-I01"
+    },
+    {
+      "text": "100까지 수의 순서(바로 다음 수, 사이의 수)",
+      "lesson": "KR22-G01-MAT-NUMSEQ-L01",
+      "grade_item": "KR22-G01-MAT-I01"
     }
   ],
   "objectives": [

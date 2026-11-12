@@ -921,7 +921,8 @@
   "priority": 1,
   "pre": [
    "KR22-G01-MAT-PATTERN-L01",
-   "KR22-G01-MAT-NUM100-L01"
+   "KR22-G01-MAT-NUM100-L01",
+   "KR22-G01-MAT-NUMSEQ-L01"
   ],
   "file_stem": "초1_수학_시간과규칙_03_수배열의규칙",
   "source": "lessons/G01_초1/MAT_수학/시간과규칙/KR22-G01-MAT-NUMPAT-L01.json",
@@ -6486,7 +6487,7 @@
   ],
   "file_stem": "초4_음악·미술_연주와감상_02_음표와계이름읽기",
   "source": "lessons/G04_초4/ART_음악·미술/연주와감상/KR22-G04-ART-NOTES-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G04-ART-MATERIALS-L01",
@@ -10656,7 +10657,8 @@
   "format": "act",
   "priority": 3,
   "pre": [
-   "KR22-G05-ART-PERFORM-L01"
+   "KR22-G05-ART-PERFORM-L01",
+   "KR22-G04-ART-NOTES-L01"
   ],
   "file_stem": "초6_음악·미술_연주와창작_01_리듬·가락바꾸기",
   "source": "lessons/G06_초6/ART_음악·미술/연주와창작/KR22-G06-ART-VARIATION-L01.json",
