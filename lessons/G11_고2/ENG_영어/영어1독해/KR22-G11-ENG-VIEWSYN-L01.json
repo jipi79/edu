@@ -57,17 +57,17 @@
     "형광펜이나 색연필 세 가지(자료 A·B·C의 근거를 다른 색으로 밑줄)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "같은 쟁점(학교생활)을 다룬 짧은 자료 세 개(합쳐서 100~150 낱말, 한 자료 15~60 낱말)를 비교해 종합하는 것을 다룬다. 자료의 종류는 설명문(학교 안내), 논설문(학생·학부모의 글), 기사, 설문 결과로 하고, 학교 이름·설문·숫자는 모두 지어낸 것이라 ‘예시 자료’로 표시한다. 설문의 백분율은 합이 100이 되게 한다. 비교표는 자료·글의 종류와 쓴 사람·관점·근거(종류) 네 칸으로 하고, 근거의 종류는 사실·자료, 경험, 의견 세 가지로 나눈다. 종합 결론은 영어 틀 세 문장(Both ~ show that ~. / However, ~. / So, ~.)으로 쓰고 우리말로 먼저 말해도 된다. 출처의 신뢰도를 깊이 따지기, 표본·오차 같은 통계 해석, 긴 논설문 쓰기는 다루지 않는다. ‘쟁점·관점·근거·종합’이라는 이름은 화면에 뜻과 함께 쓴다.",
+  "boundary": "같은 쟁점(학교생활)을 다룬 짧은 자료 세 개(합쳐서 100~150 낱말, 한 자료 15~60 낱말)를 비교해 종합하는 것을 다룬다. 자료의 종류는 설명문(학교 안내), 논설문(학생·학부모·교사의 글), 기사, 설문 결과로 하고, 학교 이름·설문·숫자는 모두 지어낸 것이라 ‘예시 자료’로 표시한다. 설문의 백분율은 합이 100이 되게 한다. 비교표는 자료·글의 종류와 쓴 사람·관점·근거(종류) 네 칸으로 하고, 근거의 종류는 사실·자료, 경험, 의견 세 가지로 나눈다. 종합 결론은 영어 틀 세 문장(Both ~ show that ~. / However, ~. / So, ~.)으로 쓰고 우리말로 먼저 말해도 된다. 출처의 신뢰도를 깊이 따지기, 표본·오차 같은 통계 해석, 긴 논설문 쓰기는 다루지 않는다. ‘쟁점·관점·근거·종합’이라는 이름은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
       "text": "자료 하나의 관점만 담거나 자기 생각만으로 결론을 쓴다(종합이 아니라 편들기).",
-      "response": "S03 종합 결론 카드와 S07 비교에서 한쪽만 담은 결론과 종합 결론을 나란히 보여 주고, S09 가·나 보기와 S11·활동지 3·4의 기준표로 확인한다."
+      "response": "S03 종합 결론 카드와 S07 비교에서 한쪽만 담은 결론과 종합 결론을 나란히 보여 주고, S09 나·라 보기와 S11·활동지 3·4의 기준표로 확인한다."
     },
     {
       "id": "M2",
-      "text": "설명문의 중립 정보를 찬성·반대 의견으로 분류하거나, 관점과 근거를 섞어 쓴다.",
-      "response": "S05·S06에서 자료 A(학교 안내)는 정보만 주는 중립이라는 것을 보여 주고, 비교표의 ‘관점’ 칸에는 한 낱말(찬성·반대·중립·조건부)만 쓰게 한다."
+      "text": "설명문·기사·설문처럼 정보만 전하는 자료를 찬성·반대로 분류하거나, 관점과 근거를 섞어 쓴다.",
+      "response": "S05·S06에서 자료 A(학교 안내)와 C(기사)는 정보만 전하는 중립이라는 것을 보여 주고, 비교표의 ‘관점’ 칸에는 한 낱말(찬성·반대·중립·조건부)만 쓰게 한다."
     },
     {
       "id": "M3",
@@ -221,7 +221,8 @@
           "카드마다 “점심시간 이야기로 예를 들면?”이라고 물어 아이 말로 바꾸게 합니다."
         ],
         "주의": [
-          "근거의 종류에 따라 무게가 다릅니다. 한 사람의 느낌(의견)보다 여러 사람에게 물은 설문(자료)이 더 넓은 근거가 됩니다. 다만 자료도 숫자를 과장하지 않고 그대로 읽어야 합니다(오해 M3·M4)."
+          "근거의 종류에 따라 무게가 다릅니다. 한 사람의 느낌(의견)보다 여러 사람에게 물은 설문(자료)이 더 넓은 근거가 됩니다. 다만 자료도 숫자를 과장하지 않고 그대로 읽어야 합니다(오해 M3·M4).",
+          "기사나 설문처럼 다른 사람들의 생각이나 숫자를 전하기만 하는 자료는 글쓴이 자신의 입장이 없으므로 중립입니다. ‘~하면 찬성’ 같은 조건이 글에 직접 나와야 조건부입니다."
         ]
       }
     },
@@ -276,7 +277,7 @@
       "title": "함께 읽어요: 점심시간",
       "passage": {
         "paragraphs": [
-          "A 학교 안내(설명문): At Maru High School, lunch break is 50 minutes long. During this time, students eat in the cafeteria, talk with friends, play sports, or visit the library.",
+          "A 학교 안내(설명문·예시): At Maru High School, lunch break is 50 minutes long. During this time, students eat in the cafeteria, talk with friends, play sports, or visit the library.",
           "B 학생 지호의 글(논설문): Our lunch break should be longer. Many of us wait in line for about 20 minutes, so we have to eat in a hurry. We also need time to rest and move our bodies. A longer break would help us focus in afternoon classes.",
           "C 학교 신문 기사(예시 자료): Last year, Maru High School made lunch break 20 minutes longer for one month. In a survey after the trial, 64% of students said they felt less tired in afternoon classes. However, some teachers pointed out that school ended later, so students got home later."
         ]
@@ -289,7 +290,7 @@
           "(부모가 세 자료를 한 번 읽어 줍니다.)",
           "“세 자료가 함께 다루는 질문은? ‘점심시간을 늘려야 할까?’”",
           "“A는 학교 안내문이야. 늘리자거나 줄이자는 말이 있어? 없지. 그래서 정보만 주는 중립이야.”",
-          "“B와 C의 관점은? 근거에 색을 달리해 밑줄을 그어 볼래? C에는 좋은 점과 걱정이 함께 있어.”"
+          "“B와 C의 관점은? 근거에 색을 달리해 밑줄을 그어 볼래? C는 좋은 점과 걱정을 전하기만 하고 자기 생각은 말하지 않아. 그래서 C도 중립이야.”"
         ],
         "예상답": [
           "“B는 찬성이에요. 줄 서느라 20분을 기다려서 급하게 먹는대요.” “C는 64%가 덜 피곤했대요. 그런데 집에 늦게 간대요.”"
@@ -298,7 +299,7 @@
           "“C에서 However 앞은 좋은 점이야, 걱정이야? 뒤는?”이라고 묻습니다."
         ],
         "주의": [
-          "관점: A 중립(정보), B 찬성, C 좋은 점과 걱정을 함께 보도(조건부에 가까움). 근거 종류: A 사실, B 경험·의견, C 자료(64%)와 교사의 걱정.",
+          "관점: A 중립, B 찬성, C 중립. C는 좋은 점(64%)과 걱정을 함께 전할 뿐, 기사를 쓴 사람이 늘리자거나 말자고 하지 않으므로 중립입니다. 근거 종류: A 사실, B 경험·의견, C 자료(64%)와 교사가 말한 사실.",
           "자료의 뜻: A 마루고등학교의 점심시간은 50분이에요. 이 시간에 학생들은 급식실에서 밥을 먹고, 친구와 이야기하고, 운동을 하거나 도서관에 가요. B 우리 점심시간은 더 길어야 해요. 우리 가운데 많은 학생이 20분쯤 줄을 서서 급하게 먹어야 해요. 쉬고 몸을 움직일 시간도 필요해요. 점심시간이 길어지면 오후 수업에 더 집중할 수 있을 거예요. C 작년에 마루고등학교는 한 달 동안 점심시간을 20분 늘렸어요. 시험 운영 뒤 설문에서 학생의 64%가 오후 수업에 덜 피곤했다고 답했어요. 하지만 몇몇 선생님은 학교가 늦게 끝나서 학생들이 집에 늦게 갔다고 지적했어요. (cafeteria: 급식실, in a hurry: 급하게, focus: 집중하다, trial: 시험 운영, point out: 지적하다)",
           "학교 이름과 설문 숫자는 모두 지어낸 예시 자료입니다."
         ]
@@ -335,8 +336,8 @@
           ],
           [
             "C 학교 신문(예시 자료)",
-            "조건부",
-            "64% 덜 피곤(자료), 집에 늦게 감(교사 의견)"
+            "중립",
+            "64% 덜 피곤(자료), 집에 늦게 감(사실)"
           ]
         ],
         "widths": [
@@ -353,8 +354,8 @@
         "시간": "약 3분",
         "말하기": [
           "“표를 같이 읽어 보자. 관점 칸에는 한 낱말만, 근거 칸에는 자료에 있는 말을 그대로 옮겼어.”",
-          "“B와 C가 함께 보여 주는 것은? 점심시간이 길면 덜 피곤하고 집중에 도움이 된다는 거야. 그런데 C의 걱정은? 집에 늦게 간다는 거지.”",
-          "“그래서 종합 결론은 아래처럼 세 문장이야. 두 관점을 모두 담고, 마지막에 해결책을 말했어.”"
+          "“B와 C가 함께 보여 주는 것은? 점심시간이 길면 덜 피곤하고 집중에 도움이 된다는 거야. 그런데 C에 나온 걱정은? 집에 늦게 간다는 거지.”",
+          "“그래서 종합 결론은 아래처럼 세 문장이야. 좋은 점과 걱정을 모두 담고, 마지막에 해결책을 말했어.”"
         ],
         "예상답": [
           "“So 문장은 둘 다 생각한 해결책이에요.”"
@@ -364,7 +365,8 @@
         ],
         "주의": [
           "종합 결론의 뜻: B와 C 모두 점심시간이 길면 학생들이 쉬는 데 도움이 된다는 것을 보여 준다. 하지만 C는 학교가 늦게 끝날 수 있다는 것도 보여 준다. 그러니 학교가 여전히 제시간에 끝날 수 있다면 점심시간을 늘릴 수 있다.",
-          "So 문장의 해결책(제시간에 끝나게 하기, 예를 들어 다른 쉬는 시간을 조금 줄이기)은 자료에 없는 새 생각이어도 됩니다. 다만 두 관점의 근거를 모두 담아야 합니다."
+          "So 문장의 해결책(제시간에 끝나게 하기, 예를 들어 다른 쉬는 시간을 조금 줄이기)은 자료에 없는 새 생각이어도 됩니다. 다만 두 관점의 근거를 모두 담아야 합니다.",
+          "세 자료 가운데 조건부는 없습니다. 다만 So 문장처럼 ‘제시간에 끝난다면 늘려도 된다’고 조건을 붙여 말하면 그것이 조건부 관점입니다."
         ]
       }
     },
@@ -393,13 +395,13 @@
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 점심시간 자료로 결론을 이렇게 썼어. 어느 쪽이 ‘종합’ 결론일까?”",
-          "“가는 어떤 자료의 생각만 담았지? C의 걱정은 어디 갔을까?”"
+          "“가는 어떤 자료의 생각만 담았지? C에 나온 걱정은 어디 갔을까?”"
         ],
         "정답": [
-          "나가 종합 결론입니다. B·C의 좋은 점(덜 피곤함)과 C의 걱정(늦게 끝남)을 함께 담고, 둘을 모두 생각한 해결책을 말했습니다. 가는 B의 생각만 담아 C의 걱정을 빼 버렸습니다(편들기)."
+          "나가 종합 결론입니다. B·C의 좋은 점(덜 피곤함)과 C에 나온 걱정(늦게 끝남)을 함께 담고, 둘을 모두 생각한 해결책을 말했습니다. 가는 B의 생각만 담아 C에 나온 걱정을 빼 버렸습니다(편들기)."
         ],
         "막히면": [
-          "S06 표를 다시 보여 주고 “가의 결론에 C의 걱정이 들어 있어?”라고 묻습니다."
+          "S06 표를 다시 보여 주고 “가의 결론에 C에 나온 걱정이 들어 있어?”라고 묻습니다."
         ],
         "주의": [
           "내 생각이 한쪽이어도 종합 결론에는 다른 관점의 근거를 넣어야 합니다. 그래야 읽는 사람이 믿을 수 있습니다.",
@@ -420,7 +422,7 @@
       "passage": {
         "paragraphs": [
           "A 학생 민호의 글(논설문): I think students should clean their own classrooms. When we clean together, we learn to take care of our space and to work as a team. In my class, we finish in 15 minutes when everyone helps.",
-          "B 학부모의 편지(논설문): I don't think students should do all the cleaning. Many students are busy after school, and cleaning takes away their study time. Also, some cleaning products can be dangerous, so adults should use them.",
+          "B 학부모의 편지(논설문): I don't think students should clean their classrooms. Many students are busy after school, and cleaning takes away their study time. Also, some cleaning products can be dangerous, so adults should use them.",
           "C 설문 결과(예시 자료): An example school asked 200 students, “Should students clean their classrooms?” 58% said yes, 30% said no, and 12% were not sure. Many students who said yes added, “But only for a short time.”"
         ]
       },
@@ -436,14 +438,14 @@
           "쟁점: 학생이 자기 교실을 청소해야 할까?",
           "A 학생 민호(논설문) — 찬성 — 공간을 아끼고 팀으로 일하는 법을 배움(의견), 모두 도우면 15분에 끝남(경험)",
           "B 학부모(논설문) — 반대 — 공부 시간을 빼앗음(의견), 어떤 청소 용품은 위험함(사실에 가까운 의견)",
-          "C 설문(예시 자료) — 찬성이 많지만 조건부 — 58% 찬성, 30% 반대, 12% 모름(자료), 찬성한 학생도 ‘짧은 시간만’(자료)"
+          "C 설문(예시 자료) — 중립 — 58% 찬성, 30% 반대, 12% 모름(자료), 찬성한 학생도 ‘짧은 시간만’(자료)"
         ],
         "막히면": [
           "“A는 청소를 좋게 봐, 나쁘게 봐? B는? C에서 58%는 무엇에 대한 숫자야?”라고 묻습니다."
         ],
         "주의": [
-          "C의 Many students who said yes added, “But only for a short time.”는 찬성한 학생들도 조건(짧은 시간)을 붙였다는 뜻입니다. 종합 결론의 실마리가 됩니다.",
-          "자료의 뜻: A 나는 학생이 자기 교실을 청소해야 한다고 생각해요. 함께 청소하면 우리 공간을 아끼는 법과 팀으로 일하는 법을 배워요. 우리 반은 모두 도우면 15분 만에 끝나요. B 나는 학생이 청소를 모두 해야 한다고 생각하지 않아요. 많은 학생이 방과 후에 바쁘고, 청소는 공부 시간을 빼앗아요. 또 어떤 청소 용품은 위험할 수 있으니 어른이 써야 해요. C 한 예시 학교가 학생 200명에게 ‘학생이 교실을 청소해야 할까요?’라고 물었어요. 58%는 그렇다, 30%는 아니다, 12%는 잘 모르겠다고 답했어요. 그렇다고 답한 많은 학생이 ‘하지만 짧은 시간만요.’라고 덧붙였어요. (take care of: 아끼다·돌보다, product: 용품, dangerous: 위험한, add: 덧붙이다)"
+          "C의 Many students who said yes added, “But only for a short time.”는 찬성한 학생들도 조건(짧은 시간)을 붙였다는 뜻입니다. 종합 결론의 실마리가 됩니다. 설문은 학생들의 생각을 숫자로 전할 뿐 설문을 한 쪽의 입장은 없으므로 관점은 중립입니다.",
+          "자료의 뜻: A 나는 학생이 자기 교실을 청소해야 한다고 생각해요. 함께 청소하면 우리 공간을 아끼는 법과 팀으로 일하는 법을 배워요. 우리 반은 모두 도우면 15분 만에 끝나요. B 나는 학생이 교실을 청소해야 한다고 생각하지 않아요. 많은 학생이 방과 후에 바쁘고, 청소는 공부 시간을 빼앗아요. 또 어떤 청소 용품은 위험할 수 있으니 어른이 써야 해요. C 한 예시 학교가 학생 200명에게 ‘학생이 교실을 청소해야 할까요?’라고 물었어요. 58%는 그렇다, 30%는 아니다, 12%는 잘 모르겠다고 답했어요. 그렇다고 답한 많은 학생이 ‘하지만 짧은 시간만요.’라고 덧붙였어요. (take care of: 아끼다·돌보다, product: 용품, dangerous: 위험한, add: 덧붙이다)"
         ]
       }
     },
@@ -460,7 +462,7 @@
       "text": "세 자료의 근거를 함께 담은 결론을 골라요.",
       "options": [
         {
-          "text": "Students should clean their classrooms because it teaches teamwork."
+          "text": "Students clean for a short time; adults use the dangerous products."
         },
         {
           "text": "Students should never clean because cleaning is dangerous."
@@ -469,7 +471,7 @@
           "text": "Most students love cleaning, so they should clean for hours."
         },
         {
-          "text": "Students clean for a short time; adults use the dangerous products."
+          "text": "Students should clean their classrooms because it teaches teamwork."
         }
       ],
       "question": "종합 결론은? 나머지 세 개는 왜 아닌가요?",
@@ -480,8 +482,8 @@
           "“네 결론 가운데 세 자료를 모두 생각한 종합 결론은 무엇일까? 나머지는 왜 아닌지도 말해 줘.”"
         ],
         "정답": [
-          "라 Students clean for a short time; adults use the dangerous products. — A·C(찬성, 짧은 시간)와 B(시간·위험 걱정)를 함께 담았습니다.",
-          "가: A의 생각만 담음(편들기) / 나: B의 생각만 담고 never로 과장함 / 다: 58%를 ‘대부분이 아주 좋아한다’로 과장하고, ‘몇 시간씩’은 ‘짧은 시간만’이라는 자료와 반대"
+          "가 Students clean for a short time; adults use the dangerous products. — A·C(찬성, 짧은 시간)와 B(시간·위험 걱정)를 함께 담았습니다.",
+          "나: B의 생각만 담고 never로 과장함 / 다: 58%를 ‘대부분이 아주 좋아한다’로 과장하고, ‘몇 시간씩’은 ‘짧은 시간만’이라는 자료와 반대 / 라: A의 생각만 담음(편들기)"
         ],
         "막히면": [
           "보기마다 “이 결론에 A의 생각이 있어? B는? C의 숫자는 맞게 썼어?”라고 묻습니다."
@@ -550,7 +552,7 @@
       "passage": {
         "paragraphs": [
           "A 소라의 글: Our school library should open on Saturdays. Many students don't have a quiet place to study at home, especially when they have little brothers or sisters. The library has desks, books, and free Wi-Fi, so it is a great place to study on weekends.",
-          "B 기사(예시): Last spring, an example school opened its library on four Saturdays. About 25 students came each day, mostly to study for exams. However, the school had to pay a librarian for the extra days, and some parents asked who would be responsible for safety.",
+          "B 선생님의 글(예시): Last spring, our school opened its library on four Saturdays. About 25 students came each day. However, the school had to pay a librarian for the extra days, and some parents asked who would be responsible for safety. I would support opening on Saturdays only if these two problems are solved.",
           "C 설문(예시): When 300 students were asked, “Would you use the library on Saturdays?”, 22% answered “every week,” 41% answered “sometimes,” and 37% answered “never.”"
         ]
       },
@@ -564,18 +566,18 @@
         "정답": [
           "쟁점: 학교 도서관을 토요일에 열어야 할까?",
           "A 학생 소라(논설문) — 찬성 — 집에 조용히 공부할 곳이 없는 학생이 많음(의견), 책상·책·무료 와이파이가 있음(사실)",
-          "B 기사(예시 자료) — 걱정(조건부) — 토요일마다 25명쯤 옴(자료), 사서에게 돈을 줘야 함·안전 책임 문제(사실·학부모 의견)",
-          "C 설문(예시 자료) — 찬성이 많음 — 매주 22%, 가끔 41%(합 63%), 안 씀 37%(자료)",
+          "B 선생님의 글(논설문·예시 자료) — 조건부 — 토요일마다 25명쯤 옴(사실), 사서에게 돈을 줘야 함·학부모가 안전 책임을 물음(사실). only if 뒤에 ‘두 문제가 풀리면 찬성’이라는 조건이 있음",
+          "C 설문(예시 자료) — 중립 — 매주 22%, 가끔 41%(합 63%), 안 씀 37%(자료)",
           "종합 결론 예: Both A and C show that many students want to use the library on Saturdays. However, B shows that it costs money and someone must take care of safety. So, the school could open the library on some Saturdays with a librarian.",
-          "기준: 표의 관점 세 개가 맞고 근거를 자료마다 하나 이상 옮기며, 종합 결론에 두 관점의 근거와 So 해결 문장이 모두 있으면 통과입니다."
+          "기준: 표의 관점 세 개(A 찬성, B 조건부, C 중립)가 맞고 근거를 자료마다 하나 이상 옮기며, 종합 결론에 두 관점의 근거와 So 해결 문장이 모두 있으면 통과입니다."
         ],
         "막히면": [
-          "바로 알려 주지 말고 “B는 도서관을 열면 무엇이 걱정이래? C에서 매주와 가끔을 더하면?”이라고만 묻습니다.",
+          "바로 알려 주지 말고 “B의 마지막 문장을 다시 읽어 봐. 그냥 찬성이야, 조건이 붙었어? C에서 매주와 가끔을 더하면?”이라고만 묻습니다.",
           "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
         ],
         "주의": [
-          "C의 숫자는 그대로 옮기게 합니다. 63%(22% + 41%)는 ‘절반이 넘는 학생’이지만 ‘모든 학생’은 아닙니다.",
-          "자료의 뜻: A 우리 학교 도서관은 토요일에 문을 열어야 해요. 많은 학생이, 특히 어린 동생이 있으면 집에 조용히 공부할 곳이 없어요. 도서관에는 책상, 책, 무료 와이파이가 있어서 주말에 공부하기 좋은 곳이에요. B 지난봄 한 예시 학교가 토요일 네 번 도서관을 열었어요. 날마다 25명쯤 왔는데, 대부분 시험공부를 하러 왔어요. 하지만 학교는 늘어난 날만큼 사서에게 돈을 줘야 했고, 몇몇 학부모는 안전은 누가 책임지느냐고 물었어요. C 학생 300명에게 ‘토요일에 도서관을 이용하겠어요?’라고 물었더니 22%는 ‘매주’, 41%는 ‘가끔’, 37%는 ‘안 함’이라고 답했어요. (quiet: 조용한, librarian: 사서, responsible: 책임 있는, safety: 안전)"
+          "C의 숫자는 그대로 옮기게 합니다. 63%(22% + 41%)는 ‘절반이 넘는 학생’이지만 ‘모든 학생’은 아닙니다. C는 숫자만 전하므로 관점은 중립이고, B는 only if 뒤에 조건이 있어 조건부입니다.",
+          "자료의 뜻: A 우리 학교 도서관은 토요일에 문을 열어야 해요. 많은 학생이, 특히 어린 동생이 있으면 집에 조용히 공부할 곳이 없어요. 도서관에는 책상, 책, 무료 와이파이가 있어서 주말에 공부하기 좋은 곳이에요. B 지난봄 우리 학교는 토요일 네 번 도서관을 열었어요. 날마다 25명쯤 왔어요. 하지만 학교는 늘어난 날만큼 사서에게 돈을 줘야 했고, 몇몇 학부모는 안전은 누가 책임지느냐고 물었어요. 나는 이 두 문제가 풀릴 때에만 토요일에 여는 것에 찬성하겠어요. C 학생 300명에게 ‘토요일에 도서관을 이용하겠어요?’라고 물었더니 22%는 ‘매주’, 41%는 ‘가끔’, 37%는 ‘안 함’이라고 답했어요. (quiet: 조용한, librarian: 사서, responsible: 책임 있는, safety: 안전, only if: ~할 때에만)"
         ]
       }
     },
@@ -594,7 +596,7 @@
       "goodTitle": "○ 잘한 답",
       "good": [
         {
-          "text": "A 찬성, B 걱정, C 찬성이 많음(63%)"
+          "text": "A 찬성, B 조건부, C 중립(설문)"
         },
         {
           "text": "Both A and C show that ~"
@@ -613,8 +615,8 @@
           "note": "63%를\n과장"
         },
         {
-          "text": "B: 찬성",
-          "note": "B는 비용·안전\n걱정"
+          "text": "B 반대, C 찬성",
+          "note": "B는 조건부\nC는 중립"
         }
       ],
       "explain": "쟁점 → 관점 → 근거(종류) → 같은 점·다른 점 → Both / However / So",
@@ -628,7 +630,7 @@
           "“저는 A 생각만 썼어요.” “63%를 거의 모두라고 썼어요.”"
         ],
         "정답": [
-          "관점: A 찬성, B 걱정(조건부), C 찬성이 많음(63%). 종합 결론에 A·C의 근거와 B의 걱정, So 해결책이 모두 있으면 통과."
+          "관점: A 찬성, B 조건부(두 문제가 풀리면 찬성), C 중립(숫자만 전함, 쓰겠다는 학생 63%). 종합 결론에 A·C의 근거와 B의 걱정, So 해결책이 모두 있으면 통과."
         ],
         "막히면": [
           "관점을 틀렸으면 S03 관점 카드와 S06 비교표를, 결론이 한쪽이면 S07을 다시 봅니다."
@@ -723,7 +725,7 @@
           "③ 숫자를 그대로 옮긴다(41%를 ‘대부분’이라고 하지 않음). 의견과 자료를 구분한다."
         ],
         "주의": [
-          "신문이나 학교 가정통신문에서 같은 주제에 대한 두 가지 생각을 찾아 “둘 다 담은 결론은?”을 물어보면 좋은 복습이 됩니다. 다음 차시 ‘요약문 쓰기’에서는 글의 요지와 주요 근거를 골라 원문의 표현을 바꾸어 세 문장 안팎의 요약문을 직접 씁니다."
+          "신문이나 학교 가정통신문에서 같은 주제에 대한 두 가지 생각을 찾아 “둘 다 담은 결론은?”을 물어보면 좋은 복습이 됩니다. 다음 차시 ‘요약문 쓰기’에서는 글의 요지와 주요 근거를 골라 원문의 표현을 바꾸어 한두 문장의 요약문을 직접 씁니다."
         ]
       }
     },
@@ -746,23 +748,23 @@
         "rows": [
           [
             "Lunch break is 50 minutes long.",
-            "중립(정보)",
+            "중립",
             "사실"
           ],
           [
-            "Lunch break should be longer.",
+            "Too short! I waited 20 minutes.",
             "찬성",
-            "의견"
-          ],
-          [
-            "I waited in line for 20 minutes.",
-            "찬성 쪽",
             "경험"
           ],
           [
             "64% felt less tired.",
-            "찬성 쪽",
+            "중립",
             "자료"
+          ],
+          [
+            "Yes, if school still ends on time.",
+            "조건부",
+            "의견"
           ]
         ],
         "widths": [
@@ -781,7 +783,7 @@
         "목적": "S02에서 관점 비교나 근거 구분이 흔들리면, 종합하기 전에 짧은 문장으로 관점과 근거의 종류를 다시 나누어 봅니다.",
         "시간": "약 4분",
         "말하기": [
-          "“표를 같이 읽어 보자. 이 문장은 찬성이야, 반대야, 정보만 주는 거야? 근거는 숫자야, 겪은 일이야, 생각이야?”",
+          "“표를 같이 읽어 보자. 이 문장은 찬성이야, 정보만 주는 거야, 조건이 붙은 찬성이야? 근거는 숫자야, 겪은 일이야, 생각이야?”",
           "“엄마(아빠)가 말하는 문장도 나눠 볼래? Our class has 25 students. / I think our class is too noisy. / Yesterday, I couldn't hear the teacher.”"
         ],
         "정답": [
@@ -792,6 +794,7 @@
           "보충으로도 어렵다면 앞서 배운 중3 ‘자료의 관점 비교’와 고1 ‘요지·주제·제목 찾기’를 먼저 다시 하고 이 차시를 시작합니다."
         ],
         "주의": [
+          "숫자만 전하는 문장(64% felt less tired.)은 말하는 사람의 입장이 없어 중립입니다. 다만 찬성하는 사람이 근거로 쓸 수 있습니다.",
           "보충이 오래 걸리면 오늘은 여기까지 하고 다음 날 S02부터 다시 시작합니다."
         ]
       }
@@ -889,7 +892,7 @@
         },
         "line_label": "고른 결론 · 까닭:",
         "lines": 2,
-        "answer": "쟁점: 학생이 자기 교실을 청소해야 할까? A 학생 민호(논설문) 찬성 — 공간을 아끼고 팀으로 일하는 법(의견), 15분이면 끝남(경험). B 학부모(논설문) 반대 — 공부 시간을 빼앗음(의견), 위험한 청소 용품(사실에 가까운 의견). C 설문(예시 자료) 찬성이 많음·조건부 — 58% 찬성, 30% 반대, 12% 모름, ‘짧은 시간만’(자료). 고른 결론: 라 Students clean for a short time; adults use the dangerous products. 까닭: A·C의 찬성과 짧은 시간, B의 걱정을 함께 담았다. 관점 세 개와 근거 자료마다 하나, 결론과 까닭이 맞으면 통과."
+        "answer": "쟁점: 학생이 자기 교실을 청소해야 할까? A 학생 민호(논설문) 찬성 — 공간을 아끼고 팀으로 일하는 법(의견), 15분이면 끝남(경험). B 학부모(논설문) 반대 — 공부 시간을 빼앗음(의견), 위험한 청소 용품(사실에 가까운 의견). C 설문(예시 자료) 중립 — 58% 찬성, 30% 반대, 12% 모름, ‘짧은 시간만’(자료). 고른 결론: 가 Students clean for a short time; adults use the dangerous products. 까닭: A·C의 찬성과 짧은 시간, B의 걱정을 함께 담았다. 관점 세 개와 근거 자료마다 하나, 결론과 까닭이 맞으면 통과."
       },
       {
         "no": 3,
@@ -927,7 +930,7 @@
         },
         "line_label": "종합 결론 (Both ~ / However, ~ / So, ~):",
         "lines": 3,
-        "answer": "쟁점: 학교 도서관을 토요일에 열어야 할까? A 학생 소라(논설문) 찬성 — 집에 조용한 공부 장소가 없는 학생이 많음(의견), 책상·책·무료 와이파이(사실). B 기사(예시 자료) 걱정·조건부 — 토요일마다 25명쯤(자료), 사서 비용·안전 책임(사실·학부모 의견). C 설문(예시 자료) 찬성이 많음 — 매주 22% + 가끔 41% = 63%, 안 씀 37%(자료). 종합 결론 예: Both A and C show that many students want to use the library on Saturdays. However, B shows that it costs money and someone must take care of safety. So, the school could open the library on some Saturdays with a librarian. 기준표: ① 두 관점의 근거가 모두 있음 ② So 문장에 해결책이 있음 ③ 숫자를 과장하지 않음. 세 항목 모두면 통과."
+        "answer": "쟁점: 학교 도서관을 토요일에 열어야 할까? A 학생 소라(논설문) 찬성 — 집에 조용한 공부 장소가 없는 학생이 많음(의견), 책상·책·무료 와이파이(사실). B 선생님의 글(논설문·예시 자료) 조건부 — 토요일마다 25명쯤, 사서 비용·안전 책임(사실), ‘두 문제가 풀리면 찬성’(조건). C 설문(예시 자료) 중립 — 매주 22% + 가끔 41% = 63%, 안 씀 37%(자료). 종합 결론 예: Both A and C show that many students want to use the library on Saturdays. However, B shows that it costs money and someone must take care of safety. So, the school could open the library on some Saturdays with a librarian. 기준표: ① 두 관점의 근거가 모두 있음 ② So 문장에 해결책이 있음 ③ 숫자를 과장하지 않음. 세 항목 모두면 통과."
       },
       {
         "no": 4,
@@ -935,7 +938,7 @@
         "read": "A 학생 지수의 글(논설문): I like our school uniform. I don't have to think about what to wear every morning, so I save time. Also, when everyone wears the same clothes, nobody feels bad about not having expensive clothes. The uniform also makes me feel proud of my school.\nB 학생 대니얼의 글(논설문): School uniforms are not comfortable, especially in summer. The jacket is hot, and it is hard to move freely during breaks. I also want to show my personality through my clothes.\nC 설문 결과(예시 자료): An example school asked 250 students about uniforms. 48% wanted to keep them, 36% wanted to change them to more comfortable ones such as T-shirts, and 16% wanted no uniforms at all.",
         "line_label": "종합 결론:",
         "lines": 3,
-        "answer": "쟁점: 학교는 교복을 계속 입게 해야 할까? A 학생 지수 찬성 — 아침 시간 절약, 모두 같은 옷이라 비싼 옷이 없어도 속상하지 않음, 학교에 대한 자부심. B 학생 대니얼 반대 — 여름에 불편, 쉬는 시간에 움직이기 어려움, 개성을 보이고 싶음. C 설문 — 유지 48%, 티셔츠처럼 편한 교복으로 바꾸기 36%, 교복 없애기 16%(합 100%). 종합 결론 예: Both A and C show that many students want to keep school uniforms because they save time. However, B and 36% of the students say that uniforms are uncomfortable. So, the school could keep uniforms but change them to more comfortable ones, such as T-shirts. 기준표: ① 찬성 근거와 불편하다는 근거가 모두 있음 ② So 문장에 해결책이 있음 ③ 숫자를 과장하지 않음(48%를 ‘대부분’이라고 쓰지 않음). 세 항목 모두면 통과. 낱말 뜻: uniform 교복, comfortable 편한, especially 특히, freely 자유롭게, personality 개성. 자료의 뜻: A 나는 우리 교복이 좋아요. 아침마다 무엇을 입을지 생각하지 않아도 되니 시간이 절약돼요. 또 모두 같은 옷을 입으면 비싼 옷이 없다고 속상한 사람이 없어요. 교복을 입으면 우리 학교가 자랑스럽기도 해요. B 교복은 특히 여름에 편하지 않아요. 재킷은 덥고, 쉬는 시간에 자유롭게 움직이기 어려워요. 나는 옷으로 내 개성도 보여 주고 싶어요. C 한 예시 학교가 학생 250명에게 교복에 대해 물었어요. 48%는 교복을 그대로 두기를, 36%는 티셔츠처럼 더 편한 교복으로 바꾸기를, 16%는 교복을 아예 없애기를 원했어요."
+        "answer": "쟁점: 학교는 교복을 계속 입게 해야 할까? A 학생 지수 찬성 — 아침 시간 절약, 모두 같은 옷이라 비싼 옷이 없어도 속상하지 않음, 학교에 대한 자부심. B 학생 대니얼 반대 — 여름에 불편, 쉬는 시간에 움직이기 어려움, 개성을 보이고 싶음. C 설문 중립 — 유지 48%, 티셔츠처럼 편한 교복으로 바꾸기 36%, 교복 없애기 16%(합 100%). 종합 결론 예: Both A and C show that many students want to keep school uniforms, and A says they save time. However, B and 36% of the students say that uniforms are uncomfortable. So, the school could keep uniforms but change them to more comfortable ones, such as T-shirts. 기준표: ① 찬성 근거와 불편하다는 근거가 모두 있음 ② So 문장에 해결책이 있음 ③ 숫자를 과장하지 않음(48%를 ‘대부분’이라고 쓰지 않음). 세 항목 모두면 통과. 낱말 뜻: uniform 교복, comfortable 편한, especially 특히, freely 자유롭게, personality 개성. 자료의 뜻: A 나는 우리 교복이 좋아요. 아침마다 무엇을 입을지 생각하지 않아도 되니 시간이 절약돼요. 또 모두 같은 옷을 입으면 비싼 옷이 없다고 속상한 사람이 없어요. 교복을 입으면 우리 학교가 자랑스럽기도 해요. B 교복은 특히 여름에 편하지 않아요. 재킷은 덥고, 쉬는 시간에 자유롭게 움직이기 어려워요. 나는 옷으로 내 개성도 보여 주고 싶어요. C 한 예시 학교가 학생 250명에게 교복에 대해 물었어요. 48%는 교복을 그대로 두기를, 36%는 티셔츠처럼 더 편한 교복으로 바꾸기를, 16%는 교복을 아예 없애기를 원했어요."
       },
       {
         "no": 5,
