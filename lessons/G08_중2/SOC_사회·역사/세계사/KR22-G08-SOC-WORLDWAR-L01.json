@@ -1,7 +1,7 @@
 {
   "id": "KR22-G08-SOC-WORLDWAR-L01",
   "concept_id": "SOC-WORLDWAR",
-  "title": "두 차례 세계대전",
+  "title": "두 차례 세계 대전",
   "grade": "G08",
   "grade_label": "중2",
   "band": "M",
@@ -115,7 +115,7 @@
         "A",
         "B"
       ],
-      "title": "두 차례 세계대전",
+      "title": "두 차례 세계 대전",
       "question": "두 번의 세계 대전은 왜 일어났고,\n세계에 무엇을 남겼을까?",
       "goals": [
         "① 제1차 세계 대전의 원인과 결과를 지도와 연표로 설명할 수 있다.",
@@ -2054,7 +2054,7 @@
     }
   ],
   "worksheet": {
-    "title": "두 차례 세계대전 활동지",
+    "title": "두 차례 세계 대전 활동지",
     "items": [
       {
         "no": 1,
