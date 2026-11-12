@@ -1562,7 +1562,7 @@
   ],
   "file_stem": "초2_국어_겹받침_01_겹받침이있는낱말",
   "source": "lessons/G02_초2/KOR_국어/겹받침/KR22-G02-KOR-GYEOPBATCHIM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G02-KOR-SPELL-L01",
@@ -3607,7 +3607,7 @@
   ],
   "file_stem": "초3_수학_분수와소수_06_가분수와대분수의크기비교",
   "source": "lessons/G03_초3/MAT_수학/분수와소수/KR22-G03-MAT-FRACCOMP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-LINES-L01",
@@ -3760,7 +3760,7 @@
   ],
   "file_stem": "초3_수학_시각과시간_01_시각과시간의계산",
   "source": "lessons/G03_초3/MAT_수학/시각과시간/KR22-G03-MAT-TIMECALC-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G03-MAT-LITER-L01",

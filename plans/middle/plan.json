@@ -962,7 +962,7 @@
   ],
   "file_stem": "중1_수학_공간의위치관계_01_공간에서직선과평면의위치관계",
   "source": "lessons/G07_중1/MAT_수학/공간의위치관계/KR22-G07-MAT-SPACEREL-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G07-MAT-CONSTRUCT-L01",
@@ -9325,6 +9325,33 @@
   "file_stem": "중3_과학_운동과생명_08_멘델의유전법칙",
   "source": "lessons/G09_중3/SCI_과학/운동과생명/KR22-G09-SCI-MENDEL-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G09-SCI-HUMANHERED-L01",
+  "concept_id": "SCI-HUMANHERED",
+  "grade": "G09",
+  "grade_label": "중3",
+  "band": "M",
+  "strand": "SCI",
+  "strand_label": "과학",
+  "grade_item": "KR22-G09-SCI-I03",
+  "folder": "운동과생명",
+  "sequence": 9,
+  "units": [
+   "6.2.3",
+   "6.4.4",
+   "6.4.5"
+  ],
+  "title": "사람의 유전과 가계도",
+  "objective": "사람의 유전을 연구하는 방법을 알고 가계도에서 우성·열성과 가족의 유전자형을 판단한다.",
+  "format": "ppt",
+  "priority": 2,
+  "pre": [
+   "KR22-G09-SCI-MENDEL-L01"
+  ],
+  "file_stem": "중3_과학_운동과생명_09_사람의유전과가계도",
+  "source": "lessons/G09_중3/SCI_과학/운동과생명/KR22-G09-SCI-HUMANHERED-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G09-SCI-DISASTER-L01",
