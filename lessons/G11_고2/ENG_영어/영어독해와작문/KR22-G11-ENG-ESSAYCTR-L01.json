@@ -650,7 +650,7 @@
           "text": "It is true that walking to school\ntakes longer than taking the bus.\n→ 반론 소개 / 인정 / 반박?"
         },
         {
-          "text": "Admittedly, homework takes time.\n(Admittedly · Nevertheless · For example),\nit helps us review."
+          "text": "Admittedly, homework takes time.\n(For example · Admittedly · Nevertheless),\nit helps us review."
         },
         {
           "text": "Some people argue that we are too busy\nto exercise. Nevertheless, I disagree.\n→ 근거를 붙여 고쳐 말하면?"
@@ -784,7 +784,7 @@
       {
         "no": 1,
         "prompt": "본보기 에세이를 읽고, 아래 문장이 반론 문단의 어느 걸음인지 쓰세요(반론 소개 / 인정 / 반박 / 근거).",
-        "read": "Most teenagers will soon pay their own bills, open bank accounts, and maybe borrow money. However, few of them learn how money works before they finish school. In my opinion, every high school should teach students how to manage money.\nFirst, money skills prevent serious mistakes. For example, a student who understands interest will think twice before borrowing money to buy something he cannot afford.\nSecond, these lessons build good habits early. For instance, students who practice making a monthly budget can start saving for their goals, such as a laptop or college.\nSome people argue that parents, not schools, should teach children about money. Admittedly, parents play an important role, and many of them give useful advice at home. Nevertheless, not all parents feel confident about money, and some are too busy to explain it carefully. A school class can give every student the same basic knowledge, whatever their family situation is.\nFor these reasons, I believe that money management should be a regular subject in high school. With these skills, young people can make wiser choices for their future.",
+        "read": "Most teenagers will soon pay their own bills, open bank accounts, and maybe borrow money. However, few of them learn how money works before they finish school. In my opinion, every high school should teach students how to manage money.\nFirst, money skills prevent serious mistakes. For example, a student who understands interest will think twice before borrowing money to buy something they cannot afford.\nSecond, these lessons build good habits early. For instance, students who practice making a monthly budget can start saving for their goals, such as a laptop or college.\nSome people argue that parents, not schools, should teach children about money. Admittedly, parents play an important role, and many of them give useful advice at home. Nevertheless, not all parents feel confident about money, and some are too busy to explain it carefully. A school class can give every student the same basic knowledge, whatever their family situation is.\nFor these reasons, I believe that money management should be a regular subject in high school. With these skills, young people can make wiser choices for their future.",
         "table": {
           "headers": [
             "문장",
@@ -823,9 +823,9 @@
       },
       {
         "no": 2,
-        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰세요.  [ Some people argue that · Admittedly · Nevertheless · Even so ]",
-        "read": "______ teenagers should not have part-time jobs during the school year. ______, working can make students tired. ______, a few hours of work on weekends can teach responsibility. Students also learn how hard it is to earn money. ______, the school should help students choose safe and short jobs.",
-        "answer": "차례대로 Some people argue that / Admittedly / Nevertheless / Even so(또는 Nevertheless). 네 개 가운데 세 개 이상이면 통과. 마지막 빈칸은 반박을 한 번 더 이어 가는 자리라 Even so가 가장 자연스럽습니다. (part-time job: 아르바이트, responsibility: 책임감, earn: 벌다)"
+        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰세요.  [ Some people argue that · Admittedly · Nevertheless · because ]",
+        "read": "______ teenagers should not have part-time jobs during the school year. ______, working can make students tired. ______, a few hours of work on weekends can be good for them ______ they learn responsibility. Students also learn how hard it is to earn money.",
+        "answer": "차례대로 Some people argue that / Admittedly / Nevertheless / because. 네 개 가운데 세 개 이상이면 통과. 걸음으로는 반론 소개 → 인정 → 반박 → 근거입니다. 셋째 빈칸에 상자에 없는 Even so를 써도 맞습니다(Nevertheless와 같은 뜻, ‘그럼에도’). (part-time job: 아르바이트, responsibility: 책임감, earn: 벌다)"
       },
       {
         "no": 3,

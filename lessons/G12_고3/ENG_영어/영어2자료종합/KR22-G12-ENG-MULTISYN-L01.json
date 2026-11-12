@@ -169,7 +169,8 @@
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
-          "오늘은 믿을 만한 자료를 고른 뒤, 바꿔 쓰기로 옮기고 출처를 밝히는 것까지 합니다."
+          "오늘은 믿을 만한 자료를 고른 뒤, 바꿔 쓰기로 옮기고 출처를 밝히는 것까지 합니다.",
+          "베끼지 않기 기준: 고2 ‘요약문 쓰기’에서는 더 엄격하게 ‘세 낱말 이상 연달아 베끼지 않기’로 연습했습니다(② 예시는 그 기준에도 맞습니다). 여러 자료를 묶는 오늘부터는 자료 속 이름·용어가 겹치기 쉬워 ‘네 낱말 이상 연달아 베끼지 않기’가 기준입니다."
         ]
       }
     },
@@ -424,7 +425,7 @@
           "S03 카드 다섯 장을 옆에 두고 맞대어 보게 합니다."
         ],
         "주의": [
-          "본보기는 자료 문장을 네 낱말 이상 연달아 베끼지 않았고, 숫자는 그대로 옮겼습니다.",
+          "본보기는 자료 문장을 네 낱말 이상 연달아 베끼지 않았고, 숫자는 그대로 옮겼습니다. (고2에서는 세 낱말이 기준이었지만 오늘부터는 네 낱말이 기준입니다. projects and clubs처럼 세 낱말이 겹치는 곳은 괜찮습니다.)",
           "뜻: 젊은이들에게 미래 직업을 위해 어떤 기술이 필요할까? 한 게임 개발자에 따르면 게임은 팀이 만들기 때문에 팀워크가 가장 중요하다. 회사 200곳 설문은 이 생각을 뒷받침한다. 회사의 45%가 소통을 다른 기술보다 중요하게 여기고, 35%는 문제 해결을 고른다. 한 학교 상담 선생님은 기술이 계속 바뀌기 때문에 낯선 문제를 다루고 혼자 공부하는 것처럼 계속 쓸모 있는 능력이 중요하다고 덧붙인다. 종합하면, 이 자료들은 학생들이 프로젝트와 동아리를 통해 소통과 문제 해결 능력을 길러야 한다는 것을 보여 준다."
         ]
       }
@@ -443,22 +444,22 @@
       "claim": "같은 자료 세 편으로 두 친구가 이렇게 썼어요(일부).",
       "left": {
         "title": "가",
-        "text": "Teamwork is important.\n45% chose communication.\nNew problems are important."
+        "text": "A survey of 200 companies\nsupports this view. A counselor\nadds that ~. Taken together, ~."
       },
       "right": {
         "title": "나",
-        "text": "A survey of 200 companies\nsupports this view. A counselor\nadds that ~. Taken together, ~."
+        "text": "Teamwork is important.\n45% chose communication.\nNew problems are important."
       },
       "question": "어느 쪽이 종합인가요? 다른 쪽에는 무엇이 빠졌나요?",
       "notes": {
-        "목적": "자료를 출처 없이 나열한 글과, 출처를 밝히고 이어서 결론으로 묶은 글을 비교합니다(목표 A·B, 오해 M1·M2).",
+        "목적": "출처를 밝히고 이어서 결론으로 묶은 글과, 자료를 출처 없이 나열한 글을 비교합니다(목표 A·B, 오해 M1·M2).",
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 같은 자료로 이렇게 썼어. 어느 쪽이 종합 요약일까?”",
-          "“가를 읽으면 누가 한 말인지 알 수 있어? 결론은 있어?”"
+          "“나를 읽으면 누가 한 말인지 알 수 있어? 결론은 있어?”"
         ],
         "정답": [
-          "나가 종합입니다. 출처(A survey of 200 companies, A counselor)를 밝히고, supports this view로 자료를 잇고, Taken together로 결론을 냈습니다. 가는 출처 없이 내용만 나열하고 결론이 없습니다."
+          "가가 종합입니다. 출처(A survey of 200 companies, A counselor)를 밝히고, supports this view로 자료를 잇고, Taken together로 결론을 냈습니다. 나는 출처 없이 내용만 나열하고 결론이 없습니다."
         ],
         "막히면": [
           "가와 나에서 출처를 알려 주는 말에 밑줄을 긋게 합니다."
@@ -485,18 +486,20 @@
           "3 University guide (예시): Students who want to work on game graphics or artificial intelligence will need advanced math, such as linear algebra."
         ]
       },
-      "question": "종합표를 채우고(활동지 2), 세 자료를 모두 담은 결론을 골라요.",
+      "question": "활동지 2: 종합표를 채우고, 세 자료를 모두 담은 결론을 골라요. 까닭도 써요.",
       "notes": {
-        "목적": "새 자료 세 편을 활동지 2 종합표에 정리하고, 세 자료를 모두 담은 결론을 고릅니다(목표 A, 오해 M4).",
+        "목적": "새 자료 세 편을 활동지 2 종합표에 정리하고, 활동지 2의 결론 보기 가운데 세 자료를 모두 담은 것을 고릅니다(목표 A, 오해 M4).",
         "시간": "약 4분",
         "말하기": [
           "(부모가 세 자료를 한 번 읽어 줍니다.)",
-          "“활동지 2 종합표를 채우고, 아래 결론 세 개 가운데 세 자료를 모두 담은 것을 골라 줘.”",
-          "(결론: 가 Programmers do not need math at all. / 나 All programmers must study advanced math. / 다 Most programmers need basic math and logic, but some fields such as AI need advanced math.)"
+          "“활동지 2 종합표를 채우고, 그 아래 결론 가·나·다 가운데 세 자료를 모두 담은 것을 골라 ✔ 해 줘. 고른 까닭도 한 줄 써.”",
+          "(활동지 2의 결론 보기: 가 Programmers do not need math at all. / 나 Most programmers need basic math and logic, but some fields such as AI need advanced math. / 다 All programmers must study advanced math.)",
+          "“고른 결론 앞에 Taken together, these sources suggest that을 붙여서 말해 볼래?”"
         ],
         "정답": [
           "종합표: 1 웹 개발자 — 기본 수학 매일, 대부분 논리·단계별 문제 해결 / 2 프로그래머 150명 설문 — 기본 수학만 60%, 고급 수학 가끔 25%, 자주 15% (1을 뒷받침) / 3 대학 안내 — 게임 그래픽·인공지능은 선형대수 같은 고급 수학 필요 (보충·다른 점)",
-          "결론: 다 (가는 자료 1·2의 ‘기본 수학은 쓴다’와 맞지 않고, 나는 60%가 기본 수학만 쓴다는 설문과 맞지 않음)"
+          "결론: 나 (가는 자료 1·2의 ‘기본 수학은 쓴다’와 맞지 않고, 다는 60%가 기본 수학만 쓴다는 설문과 맞지 않음)",
+          "말하기 예: Taken together, these sources suggest that most programmers need basic math and logic, but some fields such as AI need advanced math."
         ],
         "막히면": [
           "관계 칸은 “2의 60%는 1의 말과 같아, 달라? 3은 어떤 사람들 이야기야?”라고 묻습니다."
@@ -537,7 +540,7 @@
           "“According to Mom, ~. Dad supports this view, but ~. Grandma adds that ~. Taken together, ~.로 말해 줘.”"
         ],
         "예상답": [
-          "예: According to Mom, a trip to the sea would help us relax. Dad supports this view, but he thinks it should be short. Grandma adds that she wants us to visit her. Taken together, these opinions suggest that we could take a short trip to the sea and then visit Grandma.",
+          "예: According to Mom, a trip to the sea would help us relax. Dad supports this view, but he wants the trip to be short. Grandma adds that she wants us to visit her. Taken together, these opinions suggest that we could take a short trip to the sea and then visit Grandma.",
           "기준: 세 사람 모두 출처를 밝혀 말하고, 잇는 말(supports, but, adds)과 Taken together 결론이 있으면 잘한 것입니다."
         ],
         "막히면": [
@@ -576,7 +579,7 @@
         ],
         "정답": [
           "종합표: 1 변호사 인터뷰 — 여러 책을 읽어 길고 어려운 문서를 빨리 이해 / 2 직장인 300명 설문 — 하루 2시간 넘게 52%, 1~2시간 33%, 1시간 미만 15%(1시간 이상 85%) / 3 교사 블로그 — 긴 글 읽기는 짧은 영상이 못 주는 집중력을 길러 줌",
-          "본보기 문단: Is reading still important for future jobs? According to a lawyer, reading widely helped her deal with long documents at work. A survey of 300 office workers shows that 85% of them spend at least an hour a day reading documents for their jobs. A teacher also points out that reading long texts trains focus in a way short videos do not. Taken together, these sources suggest that reading remains a key skill for many jobs.",
+          "본보기 문단: Is reading still important for future jobs? According to a lawyer, reading widely made it easier to deal with long documents at work. A survey of 300 office workers shows that 85% of them spend at least an hour a day reading documents for their jobs. A teacher also points out that reading long texts trains focus in a way short videos do not. Taken together, these sources suggest that reading remains a key skill for many jobs.",
           "기준(점검표 다섯 항목): ① 주제 문장 ② 자료 세 편 모두 출처와 함께 ③ 숫자는 자료 그대로(52%, 33%, 15% 또는 85% = 52 + 33) ④ 자료 문장을 네 낱말 이상 베끼지 않음 ⑤ Taken together 결론. 네 개 이상이면 통과."
         ],
         "막히면": [
@@ -639,7 +642,7 @@
           "“블로그 내용에 출처를 안 붙였어요.” “결론이 없었어요.”"
         ],
         "정답": [
-          "본보기: Is reading still important for future jobs? According to a lawyer, reading widely helped her deal with long documents at work. A survey of 300 office workers shows that 85% of them spend at least an hour a day reading documents for their jobs. A teacher also points out that reading long texts trains focus in a way short videos do not. Taken together, these sources suggest that reading remains a key skill for many jobs."
+          "본보기: Is reading still important for future jobs? According to a lawyer, reading widely made it easier to deal with long documents at work. A survey of 300 office workers shows that 85% of them spend at least an hour a day reading documents for their jobs. A teacher also points out that reading long texts trains focus in a way short videos do not. Taken together, these sources suggest that reading remains a key skill for many jobs."
         ],
         "막히면": [
           "출처가 없으면 S04, 나열만 했으면 S03·S08, 베낀 곳이 많으면 S07을 다시 봅니다."
@@ -669,7 +672,7 @@
           "text": "(의사가 한 말) Sleeping eight hours helps memory.\n→ 출처를 밝혀 고치면?"
         },
         {
-          "text": "자료: 개발자(팀워크) · 설문(소통 45%) · 상담 선생님(새 문제 풀기)\n가 Only coding skills matter.  나 Communication and problem-solving both matter."
+          "text": "자료: 개발자(팀워크) · 설문(소통 45%) · 상담 선생님(새 문제 풀기)\n가 Communication and problem-solving both matter.  나 Only teamwork matters."
         }
       ],
       "notes": {
@@ -680,12 +683,12 @@
         ],
         "정답": [
           "① shows that (설문 결과를 소개할 때)",
-          "② 예: According to a doctor, sleeping eight hours helps memory.",
-          "③ 나 (세 자료를 모두 담음: 가는 세 자료 어느 것과도 맞지 않음)",
+          "② 예: According to a doctor, getting eight hours of sleep is good for memory. (출처만 붙인 According to a doctor, sleeping eight hours helps memory.도 인정 — 여기서는 출처 붙이기만 봅니다.)",
+          "③ 가 (세 자료를 모두 담음: 나는 개발자 자료 하나만 따름)",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
         "막히면": [
-          "①②는 S04 표를, ③은 S09를 다시 보여 줍니다."
+          "①②는 S04 표를, ③은 S09와 활동지 2의 결론 고르기를 다시 봅니다."
         ],
         "주의": [
           "②의 자료(의사의 말)는 연습용으로 지어낸 것입니다. 틀린 문제는 기록표에 적고 다음 수업 첫 5분에 다시 봅니다."
@@ -831,7 +834,7 @@
       },
       {
         "no": 2,
-        "prompt": "프로그래머와 수학 자료(S09)로 종합표를 채우고, 세 자료를 모두 담은 결론을 쓰세요.",
+        "prompt": "프로그래머와 수학 자료(S09)로 종합표를 채우고, 세 자료를 모두 담은 결론을 골라 ✔ 하세요. 고른 까닭도 쓰세요.",
         "read": "1 Interview with a web developer (예시): “I use basic math every day, but most of my work is logic, which means solving problems step by step.”\n2 Survey of 150 programmers (예시 자료): 60% said they use only basic math at work, 25% use advanced math sometimes, and 15% use it often.\n3 University guide (예시): Students who want to work on game graphics or artificial intelligence will need advanced math, such as linear algebra.",
         "table": {
           "headers": [
@@ -864,9 +867,15 @@
           "size": 12,
           "firstColHead": true
         },
-        "line_label": "결론(Taken together, ~):",
+        "choices": [
+          "가 Programmers do not need math at all.",
+          "나 Most programmers need basic math and logic, but some fields such as AI need advanced math.",
+          "다 All programmers must study advanced math."
+        ],
+        "choices_size": 12,
+        "line_label": "고른 까닭:",
         "lines": 2,
-        "answer": "1 웹 개발자 — 기본 수학 매일, 대부분 논리 / 2 프로그래머 150명 — 기본 수학만 60%, 고급 가끔 25%, 자주 15%(1을 뒷받침) / 3 대학 안내 — 게임 그래픽·AI는 고급 수학(보충·다른 점). 결론 예: Taken together, these sources suggest that most programmers need basic math and logic, but some fields such as AI need advanced math. 종합표와 세 자료를 담은 결론이면 통과."
+        "answer": "1 웹 개발자 — 기본 수학 매일, 대부분 논리 / 2 프로그래머 150명 — 기본 수학만 60%, 고급 가끔 25%, 자주 15%(1을 뒷받침) / 3 대학 안내 — 게임 그래픽·AI는 고급 수학(보충·다른 점). 결론: 나 Most programmers need basic math and logic, but some fields such as AI need advanced math. 까닭 예: 자료 1·2(기본 수학과 논리)와 자료 3(게임 그래픽·AI는 고급 수학)을 모두 담았다. 가는 자료 1·2의 ‘기본 수학은 쓴다’와 맞지 않고, 다는 60%가 기본 수학만 쓴다는 설문과 맞지 않는다. 종합표를 채우고 나를 고르면 통과."
       },
       {
         "no": 3,
@@ -907,7 +916,7 @@
           "trace": [],
           "blank": 6
         },
-        "answer": "본보기: Is reading still important for future jobs? According to a lawyer, reading widely helped her deal with long documents at work. A survey of 300 office workers shows that 85% of them spend at least an hour a day reading documents for their jobs. A teacher also points out that reading long texts trains focus in a way short videos do not. Taken together, these sources suggest that reading remains a key skill for many jobs. (본보기는 자료 문장을 네 낱말 이상 연달아 베끼지 않았음을 확인했습니다.) 기준은 활동지 4 점검표 다섯 항목 가운데 네 개 이상."
+        "answer": "본보기: Is reading still important for future jobs? According to a lawyer, reading widely made it easier to deal with long documents at work. A survey of 300 office workers shows that 85% of them spend at least an hour a day reading documents for their jobs. A teacher also points out that reading long texts trains focus in a way short videos do not. Taken together, these sources suggest that reading remains a key skill for many jobs. (본보기는 자료 문장을 네 낱말 이상 연달아 베끼지 않았음을 확인했습니다.) 기준은 활동지 4 점검표 다섯 항목 가운데 네 개 이상."
       },
       {
         "no": 4,

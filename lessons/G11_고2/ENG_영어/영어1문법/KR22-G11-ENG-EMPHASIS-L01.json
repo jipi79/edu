@@ -427,10 +427,10 @@
           "text": "It is important\nthat we drink water."
         },
         {
-          "text": "It is Mina that sings\nthe best in our class."
+          "text": "It is strange\nthat he didn't come."
         },
         {
-          "text": "It is strange\nthat he didn't come."
+          "text": "It is Mina that sings\nthe best in our class."
         }
       ],
       "hint": "지워서 완전한 문장 → 강조 (바로 ~),   문장이 안 됨 → 가주어 (~라는 것은)",
@@ -443,14 +443,14 @@
         "정답": [
           "① 강조 (I met her in Busan. ○) — 내가 그녀를 만난 곳은 바로 부산이었어요.",
           "② 가주어 (important we drink water ×) — 우리가 물을 마시는 것은 중요해요.",
-          "③ 강조 (Mina sings the best in our class. ○) — 우리 반에서 노래를 가장 잘하는 사람은 바로 미나예요.",
-          "④ 가주어 (strange he didn't come ×) — 그가 오지 않은 것은 이상해요."
+          "③ 가주어 (strange he didn't come ×) — 그가 오지 않은 것은 이상해요.",
+          "④ 강조 (Mina sings the best in our class. ○) — 우리 반에서 노래를 가장 잘하는 사람은 바로 미나예요."
         ],
         "막히면": [
           "①은 in Busan을 제자리(문장 끝)로 돌려 읽게 합니다."
         ],
         "주의": [
-          "④의 strange는 ‘이상한’입니다. 가주어 문장은 ‘~라는 것은 …하다’로, 강조 구문은 ‘~한 것은 바로 …이다’로 해석이 다릅니다."
+          "③의 strange는 ‘이상한’입니다. 가주어 문장은 ‘~라는 것은 …하다’로, 강조 구문은 ‘~한 것은 바로 …이다’로 해석이 다릅니다."
         ]
       }
     },
@@ -987,12 +987,12 @@
           ],
           "rows": [
             [
-              "① It was my sister that broke the cup.",
+              "① It is true that the earth is round.",
               "강조 / 가주어",
               ""
             ],
             [
-              "② It is true that the earth is round.",
+              "② It was my sister that broke the cup.",
               "강조 / 가주어",
               ""
             ],
@@ -1015,7 +1015,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 강조 — 컵을 깬 사람은 바로 내 여동생(언니·누나)이었어요. ② 가주어 — 지구가 둥글다는 것은 사실이에요. ③ 강조 — 우리가 그 소리를 들은 것은 바로 밤이었어요. ④ 가주어 — 네가 헬멧을 쓰는 것은 꼭 필요해요. 네 개 가운데 세 개 이상을 맞히면 통과. (round: 둥근, heard: hear(듣다)의 과거형, noise: 소리, necessary: 필요한)"
+        "answer": "① 가주어 — 지구가 둥글다는 것은 사실이에요. ② 강조 — 컵을 깬 사람은 바로 내 여동생(언니·누나)이었어요. ③ 강조 — 우리가 그 소리를 들은 것은 바로 밤이었어요. ④ 가주어 — 네가 헬멧을 쓰는 것은 꼭 필요해요. 네 개 가운데 세 개 이상을 맞히면 통과. (round: 둥근, heard: hear(듣다)의 과거형, noise: 소리, necessary: 필요한)"
       },
       {
         "no": 3,
