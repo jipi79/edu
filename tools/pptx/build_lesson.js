@@ -161,10 +161,11 @@ class Deck {
     return Math.max(0.95, heightOf(paras, w - 0.6) + 0.36);
   }
 
-  // 카드에 들어가는 가장 큰 글자 크기(cardFit 과 같은 계산)
+  // 카드에 들어가는 가장 큰 글자 크기의 단계(0이 가장 큰 글자, cardFit 과 같은 계산)
   cardPt(box, c) {
     const sizes = this.cardSizes();
-    return sizes.find((pt) => heightOf(this.cardParas(c, pt), box.w - 0.6) <= box.h - 0.3 + 0.02) || sizes[sizes.length - 1];
+    const i = sizes.findIndex((pt) => heightOf(this.cardParas(c, pt), box.w - 0.6) <= box.h - 0.3 + 0.02);
+    return i < 0 ? sizes.length - 1 : i;
   }
 
   cardFit(slide, sid, box, c) {
@@ -176,8 +177,8 @@ class Deck {
     });
     const innerW = box.w - 0.6;
     const innerH = box.h - 0.3;
-    // c.cap: 같은 줄의 카드(보기 등)가 같은 크기로 보이게 할 때 쓰는 최대 글자 크기
-    const sizes = this.cardSizes().filter((pt, i, all) => !c.cap || pt <= c.cap || i === all.length - 1);
+    // c.cap: 같은 줄의 카드(보기 등)가 같은 크기로 보이게 할 때 쓰는 글자 크기 단계(이 단계보다 큰 글자는 쓰지 않는다)
+    const sizes = this.cardSizes().filter((pt, i, all) => !c.cap || i >= c.cap || i === all.length - 1);
     let chosen = sizes.find((pt) => heightOf(this.cardParas(c, pt), innerW) <= innerH + 0.02);
     if (!chosen) {
       chosen = sizes[sizes.length - 1];

@@ -190,7 +190,7 @@ const KINDS = {
     // 보기 글자 크기를 모두 같게(긴 보기만 작아져 답이 드러나지 않게) 가장 작은 크기에 맞춘다.
     const innerBox = rows === 1 ? { w: cw, h: rh - chip - 0.15 } : { w: cw - chip - 0.25, h: rh };
     const textChoices = spec.options.filter((o) => !o.figure);
-    const cap = textChoices.length ? Math.min(...textChoices.map((o) => deck.cardPt(innerBox, { tone: "tint", text: o.text }))) : 0;
+    const cap = textChoices.length ? Math.max(...textChoices.map((o) => deck.cardPt(innerBox, { tone: "tint", text: o.text }))) : 0;
     spec.options.forEach((o, i) => {
       const x = r.x + (i % cols) * (cw + 0.4);
       const y = r.y + Math.floor(i / cols) * (rh + 0.3);
