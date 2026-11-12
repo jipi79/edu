@@ -96,8 +96,8 @@
       "title": "일반동사 현재 문장",
       "question": "I like cats. She likes cats.\n왜 She 다음에는 like에 s가 붙을까?",
       "goals": [
-        "① 주어에 맞게 동사에 -s, -es를 붙여 말하고 써요.",
-        "② don't·doesn't, Do·Does로 부정문·의문문을 만들어요."
+        "① 주어에 맞게 동사에 -s, -es를 붙여 말하고 쓸 수 있다.",
+        "② don't·doesn't, Do·Does로 부정문·의문문을 만들 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -141,7 +141,7 @@
       "role": "prior",
       "objectives": [],
       "title": "be동사와 하루 일과 떠올리기",
-      "text": "①②는 빈칸에 알맞은 말을 넣고, ③은 No로 대답해요.",
+      "text": "①②는 빈칸에 알맞은 말을 넣고, ③은 No로 대답해 보자.",
       "problems": [
         {
           "text": "My mom ______ busy today."
@@ -208,7 +208,7 @@
       "points": [
         {
           "title": "일반동사",
-          "text": "be동사가 아닌 동사예요.\n움직임이나 생각을 나타내요."
+          "text": "be동사가 아닌 동사이다.\n움직임이나 생각을 나타낸다."
         },
         {
           "title": "이런 동사",
@@ -252,20 +252,20 @@
         "items": [
           {
             "word": "I like cats.",
-            "sub": "나는 고양이를 좋아해요."
+            "sub": "나는 고양이를 좋아한다."
           },
           {
             "word": "She likes cats.",
-            "sub": "그녀는 고양이를 좋아해요.",
+            "sub": "그녀는 고양이를 좋아한다.",
             "highlight": true
           },
           {
             "word": "We play games.",
-            "sub": "우리는 게임을 해요."
+            "sub": "우리는 게임을 한다."
           },
           {
             "word": "Tom plays games.",
-            "sub": "Tom은 게임을 해요.",
+            "sub": "Tom은 게임을 한다.",
             "highlight": true
           }
         ]
@@ -273,14 +273,14 @@
       "points": [
         {
           "title": "3인칭 단수",
-          "text": "나(I)와 너(you)가 아닌\n한 사람이나 한 개예요."
+          "text": "나(I)와 너(you)가 아닌\n한 사람이나 한 개이다."
         },
         {
           "title": "이런 주어",
           "text": "he, she, it, my mom,\nTom, the dog"
         }
       ],
-      "key": "주어가 3인칭 단수이면 동사 끝에 -s를 붙여요.",
+      "key": "주어가 3인칭 단수이면 동사 끝에 -s를 붙인다.",
       "notes": {
         "목적": "3인칭 단수의 뜻을 알려 주고, 주어가 3인칭 단수일 때만 동사에 -s가 붙는다는 것을 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -313,7 +313,7 @@
         "A"
       ],
       "title": "-s, -es, -ies 붙이는 방법",
-      "text": "동사의 끝 글자를 보고 붙이는 방법을 골라요.",
+      "text": "동사의 끝 글자를 보고 붙이는 방법을 고른다.",
       "table": {
         "headers": [
           "동사의 끝",
@@ -350,7 +350,7 @@
         "width": 12,
         "size": 24
       },
-      "key": "자음은 모음(a, e, i, o, u)이 아닌 글자예요.\n모음 + y는 -s만 붙여요.  play → plays",
+      "key": "자음은 모음(a, e, i, o, u)이 아닌 글자이다.\n모음 + y는 -s만 붙인다.  play → plays",
       "notes": {
         "목적": "3인칭 단수 동사의 철자 규칙 네 가지를 표로 익힙니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -384,7 +384,7 @@
         "A"
       ],
       "title": "알맞은 동사 모양은?",
-      "text": "괄호 안의 동사를 알맞은 모양으로 바꿔 읽어요.",
+      "text": "괄호 안의 동사를 알맞은 모양으로 바꿔 읽어 보자.",
       "problems": [
         {
           "text": "She (watch) TV."
@@ -405,7 +405,7 @@
           "text": "They (like) pizza."
         }
       ],
-      "hint": "주어가 3인칭 단수인지 먼저 보고, S05 표에서 방법을 골라요.",
+      "hint": "주어가 3인칭 단수인지 먼저 보고, S05 표에서 방법을 고른다.",
       "notes": {
         "목적": "주어가 3인칭 단수인지 판단하고 철자 규칙에 맞게 동사를 바꿉니다(목표 A, 오해 M1·M2). 활동지 1·2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -440,7 +440,7 @@
         "A"
       ],
       "title": "동사에 -s가 필요할까?",
-      "claim": "‘내 남동생은 게임을 해요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘내 남동생은 게임을 한다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -465,7 +465,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 주어를 he, she, it 가운데 무엇으로 바꿀 수 있나요?",
+      "question": "바르게 쓴 쪽은? 주어를 he, she, it 가운데 무엇으로 바꿀 수 있을까?",
       "notes": {
         "목적": "여러 낱말로 된 주어에서 -s를 빠뜨리는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -495,11 +495,11 @@
         "B"
       ],
       "title": "부정문: don't, doesn't",
-      "text": "일반동사 문장은 not만 넣지 않고 don't나 doesn't를 써요.",
+      "text": "일반동사 문장은 not만 넣지 않고 don't나 doesn't를 쓴다.",
       "steps": [
-        "주어를 봐요.",
-        "동사 앞에 넣어요.\nI, you, we, they → don't\nhe, she, it → doesn't",
-        "동사는 원래 모양으로 써요.\n(동사원형: -s를 붙이지 않은 모양)"
+        "주어를 본다.",
+        "동사 앞에 넣는다.\nI, you, we, they → don't\nhe, she, it → doesn't",
+        "동사는 원래 모양으로 쓴다.\n(동사원형: -s를 붙이지 않은 모양)"
       ],
       "figure": {
         "type": "words",
@@ -507,20 +507,20 @@
         "items": [
           {
             "word": "She likes milk.",
-            "sub": "그녀는 우유를 좋아해요."
+            "sub": "그녀는 우유를 좋아한다."
           },
           {
             "word": "She doesn't like milk.",
-            "sub": "그녀는 우유를 좋아하지 않아요.",
+            "sub": "그녀는 우유를 좋아하지 않는다.",
             "highlight": true
           },
           {
             "word": "I don't like milk.",
-            "sub": "나는 우유를 좋아하지 않아요."
+            "sub": "나는 우유를 좋아하지 않는다."
           }
         ]
       },
-      "key": "does가 -s를 가져가요.  She doesn't likes milk. (×)",
+      "key": "does가 -s를 가져간다.  She doesn't likes milk. (×)",
       "notes": {
         "목적": "일반동사 문장의 부정문은 동사 앞에 don't·doesn't를 넣고 동사를 원래 모양(동사원형)으로 쓴다는 것을 익힙니다(목표 B, 오해 M3·M4).",
         "시간": "약 3분",
@@ -552,7 +552,7 @@
         "B"
       ],
       "title": "의문문과 대답",
-      "text": "의문문은 주어 앞에 Do나 Does를 놓고\n동사는 원래 모양으로 써요.",
+      "text": "의문문은 주어 앞에 Do나 Does를 놓고\n동사는 원래 모양으로 쓴다.",
       "table": {
         "headers": [
           "문장",
@@ -589,7 +589,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "Do로 물으면 do로, Does로 물으면 does로 대답해요.\nDoes she watches TV? (×)",
+      "key": "Do로 물으면 do로, Does로 물으면 does로 대답한다.\nDoes she watches TV? (×)",
       "notes": {
         "목적": "Do·Does + 주어 + 동사원형 ~?으로 묻고, 주어와 do·does로 짧게 대답하는 방법을 익힙니다(목표 B, 오해 M4).",
         "시간": "약 4분",
@@ -621,8 +621,8 @@
       "objectives": [
         "B"
       ],
-      "title": "바꾸어 말해요",
-      "text": "지시대로 바꾸어 말해요.",
+      "title": "바꾸어 말하자",
+      "text": "지시대로 바꾸어 말해 보자.",
       "problems": [
         {
           "text": "I like carrots.\n→ 부정문으로"
@@ -637,7 +637,7 @@
           "text": "Do you play the piano?\n→ No로 대답"
         }
       ],
-      "hint": "주어를 보고 do와 does를 골라요. 동사는 원래 모양으로!",
+      "hint": "주어를 보고 do와 does를 고른다. 동사는 원래 모양으로!",
       "notes": {
         "목적": "긍정문을 부정문·의문문으로 바꾸고 묻는 말에 짧게 대답하는 연습을 합니다(목표 B, 오해 M3·M4). 활동지 3·4에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -671,16 +671,16 @@
       ],
       "title": "묻고 답하기: 취향 인터뷰",
       "steps": [
-        "종이 네 장에 써요: like pizza, play games, drink milk, watch TV",
-        "부모가 물어요: Do you like pizza?",
-        "아이가 답해요: Yes, I do. / No, I don't.",
-        "가족, 친구에 대해 물어요: Does she drink milk?",
-        "역할을 바꿔 아이가 물어요."
+        "종이 네 장에 쓴다: like pizza, play games, drink milk, watch TV",
+        "부모가 묻는다: Do you like pizza?",
+        "아이가 답한다: Yes, I do. / No, I don't.",
+        "가족, 친구에 대해 묻는다: Does she drink milk?",
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
-        "Do·Does를 주어 앞에 말했어요",
-        "do·does로 짧게 대답했어요",
-        "he, she 뒤의 동사도 바르게 썼어요"
+        "Do·Does를 주어 앞에 말했다",
+        "do·does로 짧게 대답했다",
+        "he, she 뒤의 동사도 바르게 썼다"
       ],
       "notes": {
         "목적": "카드를 보며 Do·Does로 묻고 do·does로 대답하는 것을 소리 내어 여러 번 말합니다(목표 B, 오해 M4).",
@@ -717,7 +717,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "Minsu (go) to school.\n→ 알맞은 모양으로"
@@ -791,7 +791,7 @@
           "note": "Does 뒤는 have"
         }
       ],
-      "explain": "주어 확인 → -s 붙이기 → do와 does 고르기 → 동사원형으로 다시 봐요.",
+      "explain": "주어 확인 → -s 붙이기 → do와 does 고르기 → 동사원형으로 다시 본다.",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -821,8 +821,8 @@
       "objectives": [
         "B"
       ],
-      "title": "묻는 말에 대답해요",
-      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "title": "묻는 말에 대답하기",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답하시오.",
       "problems": [
         {
           "text": "Do you eat breakfast every day?"
@@ -910,7 +910,7 @@
       "role": "support",
       "objectives": [],
       "title": "보충: 하루 일과와 동사",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -979,7 +979,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "주어가 3인칭 단수(he, she, it)일 때의 모양으로 바꿔 쓰세요.",
+        "prompt": "주어가 3인칭 단수(he, she, it)일 때의 모양으로 바꿔 쓰시오.",
         "table": {
           "headers": [
             "동사",
@@ -1031,7 +1031,7 @@
       },
       {
         "no": 2,
-        "prompt": "괄호 안의 동사를 알맞은 모양으로 바꿔 빈칸에 쓰세요.",
+        "prompt": "괄호 안의 동사를 알맞은 모양으로 바꿔 빈칸에 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1061,7 +1061,7 @@
       },
       {
         "no": 3,
-        "prompt": "부정문으로 바꾸어 쓰세요. don't나 doesn't를 쓰세요.",
+        "prompt": "부정문으로 바꾸어 쓰시오. don't나 doesn't를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1092,7 +1092,7 @@
       },
       {
         "no": 4,
-        "prompt": "의문문으로 바꾸어 쓰고, 짧은 대답을 완성하세요.",
+        "prompt": "의문문으로 바꾸어 쓰고, 짧은 대답을 완성하시오.",
         "table": {
           "headers": [
             "문장",
@@ -1133,7 +1133,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1164,7 +1164,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 가족이나 친구에 대한 문장을 세 개 쓰세요(-s가 붙는 긍정문 하나, 부정문 하나, 의문문과 대답 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 가족이나 친구에 대한 문장을 세 개 쓰시오(-s가 붙는 긍정문 하나, 부정문 하나, 의문문과 대답 하나).",
         "eng": {
           "trace": [
             "He doesn't like milk.",
@@ -1178,7 +1178,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① My dad (watch) TV. 괄호 안의 동사를 알맞은 모양으로 바꿔 문장을 쓰세요.\n② She likes cats. 부정문으로 바꾸어 쓰세요.\n③ Does he play soccer? No로 대답을 쓰세요.",
+        "prompt": "① My dad (watch) TV. 괄호 안의 동사를 알맞은 모양으로 바꿔 문장을 쓰시오.\n② She likes cats. 부정문으로 바꾸어 쓰시오.\n③ Does he play soccer? No로 대답을 쓰시오.",
         "lines": 3,
         "answer": "① My dad watches TV. ② She doesn't like cats. ③ No, he doesn't. 세 가지 모두 도움 없이 하면 통과."
       }

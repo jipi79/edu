@@ -91,8 +91,8 @@
       "title": "과거 부정문·의문문",
       "question": "Did you go? Were you tired?\n언제 Did를 쓰고, 언제 Were를 쓸까?",
       "goals": [
-        "① didn't, Did로 지난 일을 부정하고 물어요.",
-        "② wasn't, Was·Were로 묻고 답하며 did와 구별해요."
+        "① didn't, Did로 지난 일을 부정하고 물을 수 있다.",
+        "② wasn't, Was·Were로 묻고 답하며 did와 구별할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -136,7 +136,7 @@
       "role": "prior",
       "objectives": [],
       "title": "과거형 떠올리기",
-      "text": "①②는 괄호 안의 동사를 과거형으로, ③은 빈칸을 채워 읽어요.",
+      "text": "①②는 괄호 안의 동사를 과거형으로, ③은 빈칸을 채워 읽어 보자.",
       "problems": [
         {
           "text": "I (go) to the park yesterday."
@@ -179,11 +179,11 @@
         "A"
       ],
       "title": "부정문: didn't + 동사원형",
-      "text": "지난 일을 ‘~하지 않았다’고 말할 때 didn't를 써요.",
+      "text": "지난 일을 ‘~하지 않았다’고 말할 때 didn't를 쓴다.",
       "steps": [
-        "과거형 동사를 찾아요.",
-        "동사 앞에 didn't를 넣어요.\n(did not → didn't)",
-        "동사는 원래 모양으로 돌려요.\nwent → go, ate → eat"
+        "과거형 동사를 찾는다.",
+        "동사 앞에 didn't를 넣는다.\n(did not → didn't)",
+        "동사는 원래 모양으로 돌린다.\nwent → go, ate → eat"
       ],
       "figure": {
         "type": "words",
@@ -191,20 +191,20 @@
         "items": [
           {
             "word": "She went to the park.",
-            "sub": "그녀는 공원에 갔어요."
+            "sub": "그녀는 공원에 갔다."
           },
           {
             "word": "She didn't go to the park.",
-            "sub": "그녀는 공원에 가지 않았어요.",
+            "sub": "그녀는 공원에 가지 않았다.",
             "highlight": true
           },
           {
             "word": "I didn't eat breakfast.",
-            "sub": "나는 아침을 먹지 않았어요."
+            "sub": "나는 아침을 먹지 않았다."
           }
         ]
       },
-      "key": "didn't가 과거를 맡아요.  didn't went (×)",
+      "key": "didn't가 과거를 맡는다.  didn't went (×)",
       "notes": {
         "목적": "일반동사 과거 부정문은 동사 앞에 didn't를 넣고 동사를 원래 모양(동사원형)으로 쓴다는 것을 익힙니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -236,7 +236,7 @@
         "A"
       ],
       "title": "Did 의문문과 대답",
-      "text": "주어 앞에 Did를 놓고, 동사는 원래 모양으로 써요.",
+      "text": "주어 앞에 Did를 놓고, 동사는 원래 모양으로 쓴다.",
       "table": {
         "headers": [
           "문장",
@@ -305,8 +305,8 @@
       "objectives": [
         "A"
       ],
-      "title": "바꾸어 말해요",
-      "text": "지시대로 바꾸어 말해요.",
+      "title": "바꾸어 말하자",
+      "text": "지시대로 바꾸어 말해 보자.",
       "problems": [
         {
           "text": "I bought a cap.\n→ 부정문으로"
@@ -353,8 +353,8 @@
       "objectives": [
         "A"
       ],
-      "title": "‘학교에 가지 않았어요’를 영어로",
-      "claim": "‘나는 학교에 가지 않았어요.’를 두 친구가 이렇게 썼어요.",
+      "title": "‘학교에 가지 않았다’를 영어로",
+      "claim": "‘나는 학교에 가지 않았다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -379,7 +379,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 두 번 나타냈나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 두 번 나타냈을까?",
       "notes": {
         "목적": "didn't 뒤에 과거형을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -409,7 +409,7 @@
         "B"
       ],
       "title": "was, were의 부정문·의문문",
-      "text": "be동사 문장처럼 not을 넣고, Was나 Were를 앞으로 옮겨요.",
+      "text": "be동사 문장처럼 not을 넣고, Was나 Were를 앞으로 옮긴다.",
       "table": {
         "headers": [
           "문장",
@@ -477,8 +477,8 @@
       "objectives": [
         "B"
       ],
-      "title": "was, were로 바꾸어 말해요",
-      "text": "지시대로 바꾸어 말해요.",
+      "title": "was, were로 바꾸어 말하자",
+      "text": "지시대로 바꾸어 말해 보자.",
       "problems": [
         {
           "text": "I was sleepy.\n→ 부정문으로"
@@ -493,7 +493,7 @@
           "text": "Were they happy?\n→ No로 대답"
         }
       ],
-      "hint": "Were you ~?에는 I로 대답해요.",
+      "hint": "Were you ~?에는 I로 대답한다.",
       "notes": {
         "목적": "was·were 문장을 부정문·의문문으로 바꾸고 짧게 대답합니다(목표 B, 오해 M4). 활동지 3에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -525,7 +525,7 @@
         "B"
       ],
       "title": "Did일까, Were일까?",
-      "claim": "뒤에 일반동사가 있는지 보면 알 수 있어요.",
+      "claim": "뒤에 일반동사가 있는지 보면 알 수 있다.",
       "left": {
         "title": "한 일을 물을 때",
         "figure": {
@@ -552,7 +552,7 @@
           ]
         }
       },
-      "question": "Did you tired?는 왜 틀렸을까요?",
+      "question": "Did you tired?는 왜 틀렸을까?",
       "notes": {
         "목적": "한 일(일반동사)을 말할 때는 did, 상태(기분, 장소)를 말할 때는 was·were를 쓴다는 것을 비교로 익힙니다(목표 B, 오해 M3).",
         "시간": "약 2분",
@@ -584,8 +584,8 @@
       "objectives": [
         "B"
       ],
-      "title": "알맞은 말을 골라요",
-      "text": "알맞은 것을 골라 문장 전체를 읽어요.",
+      "title": "알맞은 말을 고르자",
+      "text": "알맞은 것을 골라 문장 전체를 읽어 보자.",
       "problems": [
         {
           "text": "______ you busy?\n(Did / Were)"
@@ -633,16 +633,16 @@
       ],
       "title": "묻고 답하기: 어제 탐정",
       "steps": [
-        "부모가 어제 한 일 다섯 가지를 종이에 몰래 써요.",
-        "아이가 물어요: Did you go shopping?",
-        "부모가 답해요: Yes, I did. / No, I didn't.",
-        "기분도 물어요: Were you tired?",
-        "역할을 바꿔서 해요."
+        "부모가 어제 한 일 다섯 가지를 종이에 몰래 쓴다.",
+        "아이가 묻는다: Did you go shopping?",
+        "부모가 답한다: Yes, I did. / No, I didn't.",
+        "기분도 묻는다: Were you tired?",
+        "역할을 바꿔서 한다."
       ],
       "criteria": [
-        "Did 뒤에 동사원형을 말했어요",
-        "did, didn't로 짧게 대답했어요",
-        "상태는 be동사로 물었어요"
+        "Did 뒤에 동사원형을 말했다",
+        "did, didn't로 짧게 대답했다",
+        "상태는 be동사로 물었다"
       ],
       "notes": {
         "목적": "상대가 어제 한 일을 Did you ~?로 맞히고, 기분·상태는 Were you ~?로 물으며 짧게 대답하는 것을 소리 내어 여러 번 말합니다(목표 A·B, 오해 M3·M4).",
@@ -678,7 +678,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "She watched a movie.\n→ 부정문으로"
@@ -783,8 +783,8 @@
         "A",
         "B"
       ],
-      "title": "묻는 말에 대답해요",
-      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "title": "묻는 말에 대답하기",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답하시오.",
       "problems": [
         {
           "text": "Did you sleep well last night?"
@@ -872,7 +872,7 @@
       "role": "support",
       "objectives": [],
       "title": "보충: 현재형과 과거형",
-      "text": "왼쪽을 보고 과거형을 말해요. 그다음 거꾸로 해요.",
+      "text": "왼쪽을 보고 과거형을 말해 보자. 그다음 거꾸로 해 보자.",
       "table": {
         "headers": [
           "지금 (현재)",
@@ -915,7 +915,7 @@
         "width": 12,
         "size": 24
       },
-      "key": "didn't, Did 뒤의 동사는 왼쪽의 원래 모양으로 돌아가요.",
+      "key": "didn't, Did 뒤의 동사는 왼쪽의 원래 모양으로 돌아간다.",
       "notes": {
         "목적": "S02에서 과거형이 흔들리면, did를 배우기 전에 현재형과 과거형을 양쪽으로 바꾸는 연습을 합니다. 오늘은 과거형에서 원래 모양으로 돌아가는 방향이 특히 중요합니다.",
         "시간": "약 4분",
@@ -941,7 +941,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "didn't를 써서 부정문으로 바꾸어 쓰세요.",
+        "prompt": "didn't를 써서 부정문으로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -972,7 +972,7 @@
       },
       {
         "no": 2,
-        "prompt": "Did 의문문으로 바꾸어 쓰고, 짧은 대답을 완성하세요.",
+        "prompt": "Did 의문문으로 바꾸어 쓰고, 짧은 대답을 완성하시오.",
         "table": {
           "headers": [
             "문장",
@@ -1008,7 +1008,7 @@
       },
       {
         "no": 3,
-        "prompt": "부정문과 의문문으로 바꾸어 쓰세요.",
+        "prompt": "부정문과 의문문으로 바꾸어 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1044,7 +1044,7 @@
       },
       {
         "no": 4,
-        "prompt": "괄호에서 알맞은 말을 골라 빈칸에 쓰세요.",
+        "prompt": "괄호에서 알맞은 말을 골라 빈칸에 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1087,7 +1087,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1118,7 +1118,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 어제에 대한 문장을 세 개 쓰세요(didn't 부정문 하나, Did 의문문과 대답 하나, Was나 Were 의문문과 대답 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 어제에 대한 문장을 세 개 쓰시오(didn't 부정문 하나, Did 의문문과 대답 하나, Was나 Were 의문문과 대답 하나).",
         "eng": {
           "trace": [
             "I didn't go to school.",
@@ -1132,7 +1132,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① I ate breakfast. 부정문으로 바꾸어 쓰세요.\n② They were at home. 의문문으로 바꾸어 쓰세요.\n③ Did you see the movie? Yes로 대답을 쓰세요.",
+        "prompt": "① I ate breakfast. 부정문으로 바꾸어 쓰시오.\n② They were at home. 의문문으로 바꾸어 쓰시오.\n③ Did you see the movie? Yes로 대답을 쓰시오.",
         "lines": 3,
         "answer": "① I didn't eat breakfast. ② Were they at home? ③ Yes, I did. 세 가지 모두 도움 없이 하면 통과."
       }
