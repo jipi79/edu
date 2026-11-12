@@ -2497,8 +2497,8 @@
           "note": "HG ⊥ 면 BCGF"
         },
         {
-          "text": "③ 면 ABFE, 면 BCGF,\n면 DCGH, 면 ADHE",
-          "note": "윗면과 만나는 면"
+          "text": "③ 면 ABFE, BCGF,\nDCGH, ADHE",
+          "note": "윗면과 만나는 면 4개"
         }
       ],
       "bad": [
