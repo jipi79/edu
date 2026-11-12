@@ -706,7 +706,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "What time is it?으로 몇 시인지 묻고,\n짧은바늘을 보고 It's ~ o'clock.으로 대답해요.",
+      "key": "What time is it?으로 몇 시인지 물어요.\n짧은바늘을 보고 It's ~ o'clock.으로 대답해요.",
       "do": "짧은바늘 보고 읽기",
       "dont": "긴바늘의 12를 시로 읽기",
       "review": [

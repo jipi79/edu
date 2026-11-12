@@ -2381,7 +2381,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "Where is the ~?로 어디 있는지 묻고,\nIt's on/in/under the ~.로 대답해요.",
+      "key": "Where is the ~?로 어디 있는지 물어요.\nIt's on/in/under the ~.로 대답해요.",
       "do": "위 on, 안 in, 아래 under",
       "dont": "It's 빼고 낱말만 말하기",
       "review": [

@@ -672,7 +672,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "못 들으면 Pardon?, 뜻을 모르면 What does ~ mean?,\n철자를 모르면 How do you spell ~?으로 물어요.",
+      "key": "못 들으면 Pardon?\n뜻을 모르면 What does ~ mean?\n철자를 모르면 How do you spell ~?으로 물어요.",
       "do": "모르면 영어로 묻기",
       "dont": "What? / What is ~ mean?",
       "review": [
