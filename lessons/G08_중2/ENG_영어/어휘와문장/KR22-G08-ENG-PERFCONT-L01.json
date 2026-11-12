@@ -91,8 +91,8 @@
       "title": "현재완료(계속)",
       "question": "I have lived here for ten years.\n지금까지 이어진 일은 어떻게 말할까?",
       "goals": [
-        "① for·since를 넣어 지금까지 이어진 일을 말하고 써요.",
-        "② How long have you ~?로 묻고 대답해요."
+        "① for·since를 넣어 지금까지 이어진 일을 말하고 쓸 수 있다.",
+        "② How long have you ~?로 묻고 대답할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -136,7 +136,7 @@
       "role": "prior",
       "objectives": [],
       "title": "현재완료(경험) 떠올리기",
-      "text": "①은 과거분사로 바꾸고, ②는 골라 읽고, ③은 No로 대답해요.",
+      "text": "①은 과거분사로 바꾸고, ②는 골라 읽고, ③은 No로 대답하자.",
       "problems": [
         {
           "text": "I have (see) a koala."
@@ -198,13 +198,13 @@
           },
           {
             "label": "지금",
-            "sub": "아직 서울에 살아요"
+            "sub": "아직 서울에 산다"
           }
         ],
         "alt": "시간 띠: 4년 전 서울로 이사, 3년 전, 2년 전, 1년 전, 지금 아직 서울에 살아요"
       },
       "text": "I have lived in Seoul for four years.",
-      "key": "4년 전에 시작해서 지금도 서울에 살아요.\n지금까지 이어지는 일 → have·has + 과거분사 (계속)",
+      "key": "4년 전에 시작해서 지금도 서울에 산다.\n지금까지 이어지는 일 → have·has + 과거분사 (계속)",
       "notes": {
         "목적": "과거에 시작한 일이 지금까지 이어질 때 현재완료를 쓴다는 것을 시간 띠로 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -235,7 +235,7 @@
         "A"
       ],
       "title": "for와 since",
-      "text": "얼마 동안이면 for, 언제부터면 since를 써요.",
+      "text": "얼마 동안이면 for, 언제부터면 since를 쓴다.",
       "table": {
         "headers": [
           "말",
@@ -293,7 +293,7 @@
         "A"
       ],
       "title": "계속에 자주 쓰는 동사",
-      "text": "★는 새 모양이에요. know(알다)는 오늘 처음 배워요.",
+      "text": "★는 새 모양이다. know(알다)는 오늘 처음 배운다.",
       "table": {
         "headers": [
           "동사",
@@ -378,7 +378,7 @@
         "A"
       ],
       "title": "for일까, since일까?",
-      "text": "빈칸에 for나 since를 넣어 문장 전체를 읽어요.",
+      "text": "빈칸에 for나 since를 넣어 문장 전체를 읽자.",
       "problems": [
         {
           "text": "I have lived here ____ 2019."
@@ -433,7 +433,7 @@
         "A"
       ],
       "title": "지금도 살까, 이제는 안 살까?",
-      "claim": "두 사람이 사는 곳을 이렇게 말했어요.",
+      "claim": "두 사람이 사는 곳을 이렇게 말했다.",
       "left": {
         "title": "과거 시제",
         "figure": {
@@ -442,7 +442,7 @@
           "items": [
             {
               "word": "I lived in Busan\nfor two years.",
-              "sub": "지금은 부산에 살지 않아요"
+              "sub": "지금은 부산에 살지 않는다"
             }
           ]
         }
@@ -455,13 +455,13 @@
           "items": [
             {
               "word": "I have lived in Seoul\nfor two years.",
-              "sub": "지금도 서울에 살아요",
+              "sub": "지금도 서울에 산다",
               "highlight": true
             }
           ]
         }
       },
-      "question": "지금도 이어지는 일은 어느 쪽인가요?",
+      "question": "지금도 이어지는 일은 어느 쪽일까?",
       "notes": {
         "목적": "지금은 끝난 일은 과거 시제, 지금까지 이어지는 일은 현재완료로 쓴다는 것을 두 문장으로 비교합니다(목표 A, 오해 M3).",
         "시간": "약 3분",
@@ -496,7 +496,7 @@
         "A"
       ],
       "title": "과거일까, 현재완료일까?",
-      "text": "알맞은 것을 골라 문장 전체를 읽어요.",
+      "text": "알맞은 것을 골라 문장 전체를 읽자.",
       "problems": [
         {
           "text": "I (live / have lived)\nhere since 2020."
@@ -545,7 +545,7 @@
         "B"
       ],
       "title": "How long have you ~?",
-      "text": "How long 뒤에 have·has를 주어 앞에 써요.",
+      "text": "How long 뒤에 have·has를 주어 앞에 쓴다.",
       "table": {
         "headers": [
           "질문",
@@ -604,7 +604,7 @@
         "B"
       ],
       "title": "얼마 동안이야?",
-      "text": "지시대로 묻거나 대답해요.",
+      "text": "지시대로 묻거나 대답하자.",
       "problems": [
         {
           "text": "you · live in this house  → How long 질문으로"
@@ -650,16 +650,16 @@
       ],
       "title": "말하기: 얼마 동안이야?",
       "steps": [
-        "부모가 물어요:\nHow long have you lived here?",
-        "아이가 답해요: For ~. / Since ~.",
-        "문장으로 한 번 더 말해요.",
-        "know, have, study로도 물어요.",
-        "역할을 바꿔 아이가 물어요."
+        "부모가 묻는다:\nHow long have you lived here?",
+        "아이가 답한다: For ~. / Since ~.",
+        "문장으로 한 번 더 말한다.",
+        "know, have, study로도 묻는다.",
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
-        "How long have you + 과거분사로 물었어요",
+        "How long have you + 과거분사로 물었다",
         "기간은 for, 시작한 때는 since",
-        "have·has + 과거분사로 문장을 말했어요"
+        "have·has + 과거분사로 문장을 말했다"
       ],
       "notes": {
         "목적": "가족끼리 How long 질문을 주고받으며 for·since와 현재완료 문장을 소리 내어 여러 번 말합니다(목표 A·B, 오해 M1·M2·M4).",
@@ -695,7 +695,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "I have lived here ____ 2021.\n→ for, since 가운데"
@@ -799,8 +799,8 @@
       "objectives": [
         "B"
       ],
-      "title": "묻는 말에 대답해요",
-      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답해요.",
+      "title": "묻는 말에 대답하기",
+      "text": "엄마(아빠)가 묻는 말에 나에게 맞게 대답하시오.",
       "problems": [
         {
           "text": "How long have you lived in your house?"
@@ -888,7 +888,7 @@
       "objectives": [],
       "title": "보충: have·has + 과거분사",
       "layout": "support",
-      "text": "동사를 보고 과거분사를 말해요.",
+      "text": "동사를 보고 과거분사를 말하자.",
       "table": {
         "headers": [
           "동사",
@@ -955,7 +955,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "빈칸에 for나 since를 쓰세요.",
+        "prompt": "빈칸에 for나 since를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -985,7 +985,7 @@
       },
       {
         "no": 2,
-        "prompt": "괄호 안의 동사를 have나 has + 과거분사로 바꾸고, for나 since를 넣어 빈칸을 채우세요.",
+        "prompt": "괄호 안의 동사를 have나 has + 과거분사로 바꾸고, for나 since를 넣어 빈칸을 채우시오.",
         "table": {
           "rows": [
             [
@@ -1014,7 +1014,7 @@
       },
       {
         "no": 3,
-        "prompt": "알맞은 것에 ○ 하세요.",
+        "prompt": "알맞은 것에 ○표 하시오.",
         "table": {
           "rows": [
             [
@@ -1043,7 +1043,7 @@
       },
       {
         "no": 4,
-        "prompt": "왼쪽 말을 써서 How long 질문(Q)과 문장으로 된 대답(A)을 쓰세요.",
+        "prompt": "왼쪽 말을 써서 How long 질문(Q)과 문장으로 된 대답(A)을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1070,7 +1070,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1101,7 +1101,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나에 대한 세 문장을 쓰세요(for 문장 하나, since 문장 하나, 부모님께 묻는 How long 질문 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나에 대한 세 문장을 쓰시오(for 문장 하나, since 문장 하나, 부모님께 묻는 How long 질문 하나).",
         "eng": {
           "trace": [
             "I have lived here for five years.",
@@ -1115,7 +1115,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 빈칸에 for나 since를 쓰세요: ______ Monday, ______ two weeks\n② you · live here를 How long 질문으로 쓰세요.\n③ know의 과거형과 과거분사를 쓰세요.",
+        "prompt": "① 빈칸에 for나 since를 쓰시오: ______ Monday, ______ two weeks\n② you · live here를 How long 질문으로 쓰시오.\n③ know의 과거형과 과거분사를 쓰시오.",
         "lines": 3,
         "answer": "① since Monday, for two weeks ② How long have you lived here? ③ knew, known. 세 가지 모두 도움 없이 하면 통과."
       }

@@ -96,8 +96,8 @@
       "title": "접속사 because",
       "question": "I stayed home because it was cold.\n이유와 결과를 영어로 어떻게 이을까?",
       "goals": [
-        "① because + 주어 + 동사로 이유를 이어 말하고 써요.",
-        "② so로 결과를 잇는 문장과 바꾸어 써요."
+        "① because + 주어 + 동사로 이유를 이어 말하고 쓸 수 있다.",
+        "② so로 결과를 잇는 문장과 바꾸어 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -141,7 +141,7 @@
       "role": "prior",
       "objectives": [],
       "title": "because 떠올리기",
-      "text": "①②는 because 뒤를 문장으로 말하고, ③은 바르게 고쳐요.",
+      "text": "①②는 because 뒤를 문장으로 말하고, ③은 바르게 고치자.",
       "problems": [
         {
           "text": "I like summer because ______. (swim)"
@@ -150,7 +150,7 @@
           "text": "I think cats are cute because ______. (soft)"
         },
         {
-          "text": "I like soccer because fun.  → 바르게 고쳐요"
+          "text": "I like soccer because fun.  → 바르게 고치자"
         }
       ],
       "notes": {
@@ -191,7 +191,7 @@
         "items": [
           {
             "word": "I stayed home",
-            "sub": "결과: 집에 있었어요"
+            "sub": "결과: 집에 있었다"
           },
           {
             "word": "because",
@@ -200,7 +200,7 @@
           },
           {
             "word": "it was cold.",
-            "sub": "이유: 추웠어요"
+            "sub": "이유: 추웠다"
           }
         ]
       },
@@ -211,7 +211,7 @@
         },
         {
           "title": "because + 절",
-          "text": "‘~ 때문에, ~해서’\n이유를 말해요."
+          "text": "‘~ 때문에, ~해서’\n이유를 말한다."
         }
       ],
       "key": "because 뒤에는 주어와 동사!   because cold (×)",
@@ -245,7 +245,7 @@
         "A"
       ],
       "title": "Why ~? Because ~.",
-      "text": "Why(왜)로 물으면 Because로 이유를 대답해요.",
+      "text": "Why(왜)로 물으면 Because로 이유를 대답한다.",
       "table": {
         "headers": [
           "질문",
@@ -272,7 +272,7 @@
         "width": 12,
         "size": 24
       },
-      "key": "말할 때는 Because ~.만 대답해도 돼요.\n글에서는 앞 문장과 이어 써요:  I'm happy because I got a present.",
+      "key": "말할 때는 Because ~.만 대답해도 된다.\n글에서는 앞 문장과 이어 쓴다:  I'm happy because I got a present.",
       "notes": {
         "목적": "Why(왜)로 이유를 묻고 Because ~.로 대답하는 방법을 익히고, 글에서는 because 절을 앞 문장과 이어 쓴다는 것을 알려 줍니다(목표 A, 오해 M4).",
         "시간": "약 3분",
@@ -303,8 +303,8 @@
       "objectives": [
         "A"
       ],
-      "title": "알맞은 이유를 이어요",
-      "text": "보기에서 이유를 골라 because 뒤에 붙여 읽어요.",
+      "title": "알맞은 이유를 잇자",
+      "text": "보기에서 이유를 골라 because 뒤에 붙여 읽자.",
       "problems": [
         {
           "text": "I ate two sandwiches\nbecause ______."
@@ -408,7 +408,7 @@
         "A"
       ],
       "title": "because일까, because of일까?",
-      "text": "빈칸에 because나 because of를 넣어 읽어요.",
+      "text": "빈칸에 because나 because of를 넣어 읽자.",
       "problems": [
         {
           "text": "The game stopped ______\nthe rain."
@@ -454,7 +454,7 @@
         "A"
       ],
       "title": "‘비 때문에’를 영어로",
-      "claim": "‘비 때문에 집에 있었어요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘비 때문에 집에 있었다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -479,7 +479,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 하나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 할까?",
       "notes": {
         "목적": "because 뒤에 명사만 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M2).",
         "시간": "약 2분",
@@ -508,10 +508,10 @@
       "objectives": [
         "B"
       ],
-      "title": "so로 결과를 이어요",
-      "text": "so는 ‘그래서’예요. 이유 다음에 결과를 이어요.",
+      "title": "so로 결과를 잇는다",
+      "text": "so는 ‘그래서’이다. 이유 다음에 결과를 잇는다.",
       "steps": [
-        "이유와 결과를 찾아요.",
+        "이유와 결과를 찾는다.",
         "so: 이유 + , so + 결과",
         "because: 결과 + because + 이유"
       ],
@@ -530,7 +530,7 @@
           }
         ]
       },
-      "key": "so 앞에는 쉼표(,).  because와 so를 함께 쓰지 않아요.",
+      "key": "so 앞에는 쉼표(,).  because와 so를 함께 쓰지 않는다.",
       "notes": {
         "목적": "so(그래서)는 ‘이유, so 결과’ 순서로 잇고, because는 ‘결과 because 이유’ 순서라는 것을 보여 주며 두 문장을 서로 바꾸는 방법을 익힙니다(목표 B, 오해 M1·M3).",
         "시간": "약 4분",
@@ -561,8 +561,8 @@
       "objectives": [
         "B"
       ],
-      "title": "바꾸어 써요",
-      "text": "이유와 결과를 찾고, 지시대로 바꾸어 말해요.",
+      "title": "바꾸어 쓰자",
+      "text": "이유와 결과를 찾고, 지시대로 바꾸어 말하자.",
       "problems": [
         {
           "text": "I was tired, so I went to bed early.  → because로"
@@ -606,15 +606,15 @@
       ],
       "title": "말하기: 왜 그랬어?",
       "steps": [
-        "부모가 한 일을 말해요:\nI opened the window.",
-        "아이가 물어요:\nWhy did you open the window?",
-        "부모가 답해요: Because it was hot.",
-        "아이가 because와 so로\n한 문장씩 이어 말해요.",
-        "역할을 바꿔서 해요."
+        "부모가 한 일을 말한다:\nI opened the window.",
+        "아이가 묻는다:\nWhy did you open the window?",
+        "부모가 답한다: Because it was hot.",
+        "아이가 because와 so로\n한 문장씩 이어 말한다.",
+        "역할을 바꿔서 한다."
       ],
       "criteria": [
-        "Because + 주어 + 동사로 대답했어요",
-        "because와 so로 이어 말했어요",
+        "Because + 주어 + 동사로 대답했다",
+        "because와 so로 이어 말했다",
         "so 앞은 이유, 뒤는 결과"
       ],
       "notes": {
@@ -652,13 +652,13 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "I opened the window ____\nit was hot. (because / so)"
         },
         {
-          "text": "I got wet because the rain.\n→ 바르게 고쳐요"
+          "text": "I got wet because the rain.\n→ 바르게 고치시오"
         },
         {
           "text": "I was sad, so I cried.\n→ because로"
@@ -719,7 +719,7 @@
         },
         {
           "text": "Because ~, so ~",
-          "note": "함께 쓰지\n않아요"
+          "note": "함께 쓰지\n않는다"
         },
         {
           "text": "because of I was",
@@ -757,14 +757,14 @@
         "A",
         "B"
       ],
-      "title": "이어 쓰고 대답해요",
-      "text": "①②는 두 문장을 이어 말하고, ③은 나에게 맞게 대답해요.",
+      "title": "이어 쓰고 대답하기",
+      "text": "①②는 두 문장을 이어 말하고, ③은 나에게 맞게 대답하시오.",
       "problems": [
         {
-          "text": "It was rainy. + I took an umbrella.  → so로 이어요"
+          "text": "It was rainy. + I took an umbrella.  → so로 이으시오"
         },
         {
-          "text": "It was rainy. + I took an umbrella.  → because로 이어요"
+          "text": "It was rainy. + I took an umbrella.  → because로 이으시오"
         },
         {
           "text": "Why do you like your favorite food?  → Because로"
@@ -813,7 +813,7 @@
           "text": "because로 바꾸면?\nI was tired, so I slept."
         },
         {
-          "text": "대답해요\nWhy do you study English?"
+          "text": "대답하시오\nWhy do you study English?"
         }
       ],
       "next": "접속사 if·when",
@@ -846,14 +846,14 @@
       "objectives": [],
       "title": "보충: because 다시 하기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말하자.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "I like summer",
-            "sub": "나는 여름이 좋아요"
+            "sub": "나는 여름이 좋다"
           },
           {
             "word": "because I can swim.",
@@ -861,7 +861,7 @@
           },
           {
             "word": "I think cats are cute",
-            "sub": "고양이가 귀엽다고 생각해요"
+            "sub": "고양이가 귀엽다고 생각한다"
           },
           {
             "word": "because they are soft.",
@@ -869,7 +869,7 @@
           }
         ]
       },
-      "key": "because 다음에 까닭을 문장(주어 + 동사)으로 말해요.",
+      "key": "because 다음에 까닭을 문장(주어 + 동사)으로 말한다.",
       "notes": {
         "목적": "S02에서 because 뒤를 문장으로 말하지 못하면, 오늘 내용을 배우기 전에 초등에서 배운 because 문장을 다시 다집니다.",
         "시간": "약 4분",
@@ -896,7 +896,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "어울리는 이유를 보기에서 골라 because 뒤에 쓰세요.",
+        "prompt": "어울리는 이유를 보기에서 골라 because 뒤에 쓰시오.",
         "read": "보기:  it was sunny  /  I was thirsty  /  he was tired  /  the movie was sad",
         "table": {
           "rows": [
@@ -923,7 +923,7 @@
       },
       {
         "no": 2,
-        "prompt": "빈칸에 because나 because of를 쓰세요.",
+        "prompt": "빈칸에 because나 because of를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -949,7 +949,7 @@
       },
       {
         "no": 3,
-        "prompt": "지시대로 바꾸어 문장 전체를 쓰세요.",
+        "prompt": "지시대로 바꾸어 문장 전체를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -976,7 +976,7 @@
       },
       {
         "no": 4,
-        "prompt": "질문에 나에게 맞게 Because로 대답을 쓰세요. Because 뒤에 주어와 동사를 쓰세요.",
+        "prompt": "질문에 나에게 맞게 Because로 대답을 쓰시오. Because 뒤에 주어와 동사를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1003,7 +1003,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1011,7 +1011,7 @@
               ""
             ],
             [
-              "② I got wet because the rain.\n(바르게 고쳐요)",
+              "② I got wet because the rain.\n(바르게 고치시오)",
               ""
             ],
             [
@@ -1034,7 +1034,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나에 대한 세 문장을 쓰세요(because 문장 하나, 같은 내용의 so 문장 하나, because of 문장 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나에 대한 세 문장을 쓰시오(because 문장 하나, 같은 내용의 so 문장 하나, because of 문장 하나).",
         "eng": {
           "trace": [
             "I ate because I was hungry.",
@@ -1048,7 +1048,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① I was late ______ the snow. 빈칸에 because나 because of를 쓰세요.\n② I was tired, so I slept.를 because로 바꾸어 쓰세요.\n③ Why do you study English?에 Because로 대답을 쓰세요.",
+        "prompt": "① I was late ______ the snow. 빈칸에 because나 because of를 쓰시오.\n② I was tired, so I slept.를 because로 바꾸어 쓰시오.\n③ Why do you study English?에 Because로 대답을 쓰시오.",
         "lines": 3,
         "answer": "① because of ② I slept because I was tired. ③ Because + 주어 + 동사(예: Because I want to travel.) 세 가지 모두 도움 없이 하면 통과."
       }

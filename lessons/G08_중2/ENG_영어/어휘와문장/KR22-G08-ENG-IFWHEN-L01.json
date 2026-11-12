@@ -95,8 +95,8 @@
       "title": "접속사 if·when",
       "question": "If it rains tomorrow, I will stay home.\n‘~하면, ~할 때’는 어떻게 말할까?",
       "goals": [
-        "① if·when으로 조건과 때를 나타내는 문장을 말해요.",
-        "② 앞으로의 일도 if·when 뒤에는 현재 시제를 써요."
+        "① if·when으로 조건과 때를 나타내는 문장을 말할 수 있다.",
+        "② 앞으로의 일도 if·when 뒤에는 현재 시제를 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -137,7 +137,7 @@
       "role": "prior",
       "objectives": [],
       "title": "will과 because 떠올리기",
-      "text": "①②는 알맞은 것을 고르고, ③은 빈칸을 채워 읽어요.",
+      "text": "①②는 알맞은 것을 고르고, ③은 빈칸을 채워 읽자.",
       "problems": [
         {
           "text": "I (am / will) visit Grandma tomorrow."
@@ -186,11 +186,11 @@
         "items": [
           {
             "word": "If it is sunny, I ride my bike.",
-            "sub": "날씨가 맑으면, 나는 자전거를 타요."
+            "sub": "날씨가 맑으면, 나는 자전거를 탄다."
           },
           {
             "word": "When I am tired, I go to bed early.",
-            "sub": "피곤할 때, 나는 일찍 자요.",
+            "sub": "피곤할 때, 나는 일찍 잔다.",
             "highlight": true
           }
         ]
@@ -205,7 +205,7 @@
           "text": "그 일이 일어나는 때"
         }
       ],
-      "key": "if·when 절이 앞에 오면 쉼표(,)를 찍어요.\n뒤로 보내면 쉼표 없이:  I ride my bike if it is sunny.",
+      "key": "if·when 절이 앞에 오면 쉼표(,)를 찍는다.\n뒤로 보내면 쉼표 없이:  I ride my bike if it is sunny.",
       "notes": {
         "목적": "if(만약 ~하면)와 when(~할 때) 뒤에 주어 + 동사(절)를 써서 조건과 때를 나타내고, if·when 절이 앞에 오면 쉼표를 찍는다는 것을 보여 줍니다(목표 A, 오해 M4).",
         "시간": "약 4분",
@@ -237,8 +237,8 @@
       "objectives": [
         "A"
       ],
-      "title": "알맞게 이어 말해요",
-      "text": "보기에서 골라 이어 읽어요.",
+      "title": "알맞게 이어 말하자",
+      "text": "보기에서 골라 이어 읽자.",
       "problems": [
         {
           "text": "When I am thirsty, ______."
@@ -318,7 +318,7 @@
         },
         {
           "title": "if·when 절",
-          "text": "앞으로의 일이어도\n현재 시제로 써요."
+          "text": "앞으로의 일이어도\n현재 시제로 쓴다."
         }
       ],
       "key": "If it will rain (×)   →   If it rains (○)",
@@ -354,7 +354,7 @@
         "B"
       ],
       "title": "if·when 절과 주절",
-      "text": "왼쪽은 현재 시제, 오른쪽은 will + 동사원형이에요.",
+      "text": "왼쪽은 현재 시제, 오른쪽은 will + 동사원형이다.",
       "table": {
         "headers": [
           "if·when 절 (현재 시제)",
@@ -416,7 +416,7 @@
         "B"
       ],
       "title": "알맞은 모양은?",
-      "text": "괄호마다 알맞은 것을 골라 문장 전체를 읽어요.",
+      "text": "괄호마다 알맞은 것을 골라 문장 전체를 읽자.",
       "problems": [
         {
           "text": "If it (will rain / rains) tomorrow,\nI (will stay / stay) home."
@@ -460,7 +460,7 @@
         "B"
       ],
       "title": "‘내일 눈이 오면’을 영어로",
-      "claim": "‘내일 눈이 오면 우리는 눈사람을 만들 거예요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘내일 눈이 오면 우리는 눈사람을 만들 것이다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -485,7 +485,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 하나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 할까?",
       "notes": {
         "목적": "if 절에 will을 쓰는 실수를 비교로 바로잡습니다(목표 B, 오해 M1).",
         "시간": "약 2분",
@@ -515,14 +515,14 @@
         "A",
         "B"
       ],
-      "title": "영어로 말해요",
-      "text": "우리말을 영어로 말해요. 괄호 안의 말을 써요.",
+      "title": "영어로 말하자",
+      "text": "괄호 안의 말을 써서 우리말을 영어로 말하자.",
       "problems": [
         {
-          "text": "내일 맑으면, 우리는 공원에 갈 거예요.\n(sunny, go to the park)"
+          "text": "내일 맑으면, 우리는 공원에 갈 것이다.\n(sunny, go to the park)"
         },
         {
-          "text": "집에 도착하면, 나는 손을 씻을 거예요.\n(get home, wash my hands)"
+          "text": "집에 도착하면, 나는 손을 씻을 것이다.\n(get home, wash my hands)"
         },
         {
           "text": "네가 바쁘면, 내가 도와줄게.\n(busy, help you)"
@@ -561,11 +561,11 @@
       ],
       "title": "말하기: 만약에 이어 말하기",
       "steps": [
-        "부모가 if 절로 시작해요:\nIf it snows tomorrow, …",
-        "아이가 will로 끝내요:\nI will make a snowman.",
-        "그 말로 새 if 절을 만들어요:\nIf I make a snowman, …",
-        "번갈아 다섯 번 이어요.",
-        "when으로도 해요: When I get home, …"
+        "부모가 if 절로 시작한다:\nIf it snows tomorrow, …",
+        "아이가 will로 끝낸다:\nI will make a snowman.",
+        "그 말로 새 if 절을 만든다:\nIf I make a snowman, …",
+        "번갈아 다섯 번 잇는다.",
+        "when으로도 한다: When I get home, …"
       ],
       "criteria": [
         "if·when 뒤에 현재 시제",
@@ -604,19 +604,19 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "If it (will be / is) cold\ntomorrow, I will stay home."
         },
         {
-          "text": "When he will come, I'll go.\n→ 바르게 고쳐요"
+          "text": "When he will come, I'll go.\n→ 바르게 고치시오"
         },
         {
-          "text": "I'll help you if I'm free.\n→ If로 시작해요"
+          "text": "I'll help you if I'm free.\n→ If로 시작하시오"
         },
         {
-          "text": "이기면 엄마가 웃을 거예요.\n(I, win, Mom, smile)"
+          "text": "이기면 엄마가 웃을 것이다.\n(I, win, Mom, smile)"
         }
       ],
       "notes": {
@@ -708,8 +708,8 @@
       "objectives": [
         "B"
       ],
-      "title": "나에게 맞게 끝내요",
-      "text": "앞부분에 이어 나에게 맞게 말해요.",
+      "title": "나에게 맞게 끝내기",
+      "text": "앞부분에 이어 나에게 맞게 말하시오.",
       "problems": [
         {
           "text": "If it snows this weekend, ______."
@@ -796,22 +796,22 @@
       "objectives": [],
       "title": "보충: will과 because",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말하자.",
       "figure": {
         "type": "words",
         "perRow": 1,
         "items": [
           {
             "word": "I will stay home.",
-            "sub": "집에 있을 거예요. (will + 동사원형)"
+            "sub": "집에 있을 것이다. (will + 동사원형)"
           },
           {
             "word": "It will rain tomorrow.",
-            "sub": "내일 비가 올 거예요."
+            "sub": "내일 비가 올 것이다."
           },
           {
             "word": "I stayed home because it was cold.",
-            "sub": "추워서 집에 있었어요. (because + 주어 + 동사)"
+            "sub": "추워서 집에 있었다. (because + 주어 + 동사)"
           }
         ]
       },
@@ -843,7 +843,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "어울리는 말을 보기에서 골라 빈칸에 쓰세요.",
+        "prompt": "어울리는 말을 보기에서 골라 빈칸에 쓰시오.",
         "read": "보기:  I eat a snack  /  I wear a coat  /  I go to the doctor  /  I listen to music",
         "table": {
           "rows": [
@@ -870,7 +870,7 @@
       },
       {
         "no": 2,
-        "prompt": "알맞은 것에 ○ 하세요.",
+        "prompt": "알맞은 것에 ○표 하시오.",
         "table": {
           "rows": [
             [
@@ -899,11 +899,11 @@
       },
       {
         "no": 3,
-        "prompt": "괄호 안의 말을 써서 우리말을 영어로 쓰세요.",
+        "prompt": "괄호 안의 말을 써서 우리말을 영어로 쓰시오.",
         "table": {
           "rows": [
             [
-              "① 내일 비가 오면, 나는 영화를 볼 거예요.\n(rain, watch a movie)",
+              "① 내일 비가 오면, 나는 영화를 볼 것이다.\n(rain, watch a movie)",
               ""
             ],
             [
@@ -911,7 +911,7 @@
               ""
             ],
             [
-              "③ 그가 오면, 우리는 출발할 거예요.\n(come, start)",
+              "③ 그가 오면, 우리는 출발할 것이다.\n(come, start)",
               ""
             ]
           ],
@@ -926,7 +926,7 @@
       },
       {
         "no": 4,
-        "prompt": "if·when 절을 앞으로 보내 다시 쓰세요. 쉼표를 잊지 마세요.",
+        "prompt": "if·when 절을 앞으로 보내 다시 쓰시오. 쉼표를 잊지 마시오.",
         "table": {
           "rows": [
             [
@@ -949,7 +949,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -957,15 +957,15 @@
               ""
             ],
             [
-              "② When he will come, I'll go.\n(바르게 고쳐요)",
+              "② When he will come, I'll go.\n(바르게 고치시오)",
               ""
             ],
             [
-              "③ I'll help you if I'm free.\n(If로 시작해요)",
+              "③ I'll help you if I'm free.\n(If로 시작하시오)",
               ""
             ],
             [
-              "④ 이기면 엄마가 웃을 거예요.\n(I, win, Mom, smile)",
+              "④ 이기면 엄마가 웃을 것이다.\n(I, win, Mom, smile)",
               ""
             ]
           ],
@@ -980,7 +980,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나에 대한 세 문장을 쓰세요(if 문장 하나, when 문장 하나, 늘 그런 일을 말하는 when 문장 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나에 대한 세 문장을 쓰시오(if 문장 하나, when 문장 하나, 늘 그런 일을 말하는 when 문장 하나).",
         "eng": {
           "trace": [
             "If it rains, I will stay home.",
@@ -994,7 +994,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① If it (rains / will rain) tomorrow, I will stay home. 알맞은 것을 쓰세요.\n② If it will snow, we will make a snowman.을 바르게 고쳐 쓰세요.\n③ ‘집에 오면 전화할게.’를 영어로 쓰세요. (get home, call you)",
+        "prompt": "① If it (rains / will rain) tomorrow, I will stay home. 알맞은 것을 쓰시오.\n② If it will snow, we will make a snowman.을 바르게 고쳐 쓰시오.\n③ ‘집에 오면 전화할게.’를 영어로 쓰시오. (get home, call you)",
         "lines": 3,
         "answer": "① rains ② If it snows, we will make a snowman. ③ When I get home, I will call you. (I'll call you도 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
