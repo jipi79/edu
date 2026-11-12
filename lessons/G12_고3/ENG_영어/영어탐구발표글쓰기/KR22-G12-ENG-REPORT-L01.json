@@ -147,7 +147,7 @@
       "text": "①은 고르고, ②는 잘못된 점을, ③은 빈칸을 채워요.",
       "problems": [
         {
-          "text": "A survey of 200 companies (shows that / buys) 45% value communication."
+          "text": "A survey of 200 companies (buys / shows that) 45% value communication."
         },
         {
           "text": "자료: 45% chose communication.\n→ “About half chose communication, 50%.”"
@@ -298,7 +298,7 @@
           "Question: The purpose of this inquiry was to find out whether I remember more English words when I study in the morning or in the evening.",
           "Method: To answer this question, I studied 10 new English words at 7 a.m. on three days and 10 different words at 9 p.m. on three other days. Each time, I tested myself one hour later by writing down the words I remembered.",
           "Results: The results show that I remembered 8, 7, and 9 words in the morning, and 6, 7, and 5 words in the evening. On average, I remembered 8 words in the morning and 6 in the evening.",
-          "Conclusion: This suggests that the morning may be a better time for me to memorize words. One limitation is that I tested only three days for each time. Next time, I will test for two weeks."
+          "Conclusion: This suggests that the morning may be a better time for me to memorize words. One limitation is that I tested each time of day for only three days. Next time, I will test for two weeks."
         ]
       },
       "question": "① 네 부분과 보고서 표현에 표시해요.  ② 결과의 숫자와 한계는?",
@@ -682,7 +682,7 @@
       },
       "right": {
         "title": "나",
-        "text": "This suggests that the morning\nmay be better for me. One limitation\nis that I tested only three days."
+        "text": "This suggests that the morning\nmay be better for me. One limitation\nis that I tested for only three days."
       },
       "question": "어느 결론이 알맞나요? 다른 쪽은 무엇이 문제인가요?",
       "notes": {
@@ -865,7 +865,7 @@
           "“활동지 3의 결과로 활동지 4에 보고서를 써 볼래? Question, Method, Results, Conclusion 제목을 꼭 쓰고, 한계 한 문장도 넣어.”"
         ],
         "정답": [
-          "질문·방법 예: Question: The purpose of this inquiry was to find out whether I remember more words when I say them out loud. Method: I read 10 words silently for one minute and wrote down the words I remembered. Then I read 10 different words out loud for one minute and did the same.",
+          "질문·방법 예: Question: The purpose of this inquiry was to find out whether I remember more words when I say them out loud. Method: To answer this question, I read 10 words silently for one minute and wrote down the words I remembered. Then I read 10 different words out loud for one minute and did the same.",
           "결과·결론 예: Results: The results show that I remembered 6 words when I read silently and 8 words when I read out loud. Conclusion: This suggests that saying words out loud may help me remember them. One limitation is that I tried it only once.",
           "기준(점검표 다섯 항목): ① 네 부분 제목 ② whether 질문 ③ 방법에 무엇·몇 번·어떻게 ④ 결과에 숫자 ⑤ 과장 없는 결론(may, for me)과 한계 한 문장. 네 개 이상이면 통과.",
           "아이의 결과가 예시와 다르면(예: 소리 없이 더 많이 기억) 그 숫자대로 쓰고 결론도 거기에 맞추면 됩니다."
@@ -929,7 +929,7 @@
           "“한계를 안 썼어요.” “결과에 숫자 없이 많이 기억했다고만 썼어요.”"
         ],
         "정답": [
-          "잘 쓴 예: Question: The purpose of this inquiry was to find out whether I remember more words when I say them out loud. Method: I read 10 words silently for one minute and wrote down the words I remembered. Then I read 10 different words out loud for one minute and did the same. Results: The results show that I remembered 6 words when I read silently and 8 words when I read out loud. Conclusion: This suggests that saying words out loud may help me remember them. One limitation is that I tried it only once."
+          "잘 쓴 예: Question: The purpose of this inquiry was to find out whether I remember more words when I say them out loud. Method: To answer this question, I read 10 words silently for one minute and wrote down the words I remembered. Then I read 10 different words out loud for one minute and did the same. Results: The results show that I remembered 6 words when I read silently and 8 words when I read out loud. Conclusion: This suggests that saying words out loud may help me remember them. One limitation is that I tried it only once."
         ],
         "막히면": [
           "결과·결론이 섞였으면 S06·S08, 과장했으면 S07, 방법이 막연하면 S09를 다시 봅니다."
@@ -970,7 +970,7 @@
         ],
         "정답": [
           "① Conclusion (This suggests that)",
-          "② 예: This suggests that drinking water may help me focus. One limitation is that I tested only two days.",
+          "② 예: This suggests that drinking water may help me focus. One limitation is that I tested for only two days.",
           "③ (12 + 15 + 18) ÷ 3 = 15 → On average, I solved 15 problems.",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
@@ -1073,10 +1073,10 @@
         "시간": "약 4분",
         "말하기": [
           "“표를 같이 읽어 보자. 숫자는 그대로, 단위(words, minutes, students)도 함께 써.”",
-          "“엄마(아빠)가 숫자를 말하면 문장으로 말해 줘. 낱말 10개 중 7개 기억.”"
+          "“엄마(아빠)가 숫자를 말하면 문장으로 말해 줘. 낱말 10개 중 9개 기억.”"
         ],
         "정답": [
-          "I remembered 7 of the 10 words."
+          "I remembered 9 of the 10 words."
         ],
         "막히면": [
           "I remembered ___ words. 틀에 숫자만 넣는 것부터 합니다.",
@@ -1204,7 +1204,7 @@
           "trace": [],
           "blank": 10
         },
-        "answer": "잘 쓴 예(예시 자료 6개·8개): Question: The purpose of this inquiry was to find out whether I remember more words when I say them out loud. Method: I read 10 words silently for one minute and wrote down the words I remembered. Then I read 10 different words out loud for one minute and did the same. Results: The results show that I remembered 6 words when I read silently and 8 words when I read out loud. Conclusion: This suggests that saying words out loud may help me remember them. One limitation is that I tried it only once. 기준은 활동지 5 점검표 다섯 항목 가운데 네 개 이상. 아이의 결과가 다르면 그 숫자대로 쓰고 결론도 맞춥니다."
+        "answer": "잘 쓴 예(예시 자료 6개·8개): Question: The purpose of this inquiry was to find out whether I remember more words when I say them out loud. Method: To answer this question, I read 10 words silently for one minute and wrote down the words I remembered. Then I read 10 different words out loud for one minute and did the same. Results: The results show that I remembered 6 words when I read silently and 8 words when I read out loud. Conclusion: This suggests that saying words out loud may help me remember them. One limitation is that I tried it only once. 기준은 활동지 5 점검표 다섯 항목 가운데 네 개 이상. 아이의 결과가 다르면 그 숫자대로 쓰고 결론도 맞춥니다."
       },
       {
         "no": 5,
