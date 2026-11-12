@@ -4283,7 +4283,8 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
-   "KR22-G08-MAT-ISOSCELES-L01"
+   "KR22-G08-MAT-ISOSCELES-L01",
+   "KR22-G08-MAT-RTCONG-L01"
   ],
   "file_stem": "중2_수학_삼각형과사각형_03_삼각형의외심과내심",
   "source": "lessons/G08_중2/MAT_수학/삼각형과사각형/KR22-G08-MAT-CENTERS-L01.json",

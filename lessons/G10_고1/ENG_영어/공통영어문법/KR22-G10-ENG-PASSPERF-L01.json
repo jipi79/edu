@@ -264,7 +264,7 @@
           "“repaired, cleaned, painted, built, sold, eaten, done, stolen.”"
         ],
         "막히면": [
-          "-ed로 끝나는 규칙 동사부터 먼저 하고, built·sold·eaten·done은 S17 보충 표나 지난 차시 표를 함께 봅니다."
+          "-ed로 끝나는 규칙 동사부터 먼저 하고, built·sold·eaten·done은 이 표의 과거분사 칸을 짚으며 두 번씩 더 읽습니다."
         ],
         "주의": [
           "eat의 과거분사는 ate가 아니라 eaten, do의 과거분사는 did가 아니라 done입니다. 수동태에는 과거형이 아니라 과거분사를 씁니다."
@@ -1011,7 +1011,7 @@
         "size": 24
       },
       "key": {
-        "title": "지난 시간: 수동태로 바꾸기",
+        "title": "지난 학년: 수동태로 바꾸기",
         "text": "Mom made the cake.  → The cake was made by Mom."
       },
       "notes": {
@@ -1143,7 +1143,7 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① The letter has been written by Mina. ② All the bread has been sold. ③ The window has been broken. ④ My bike has been fixed by Dad. 네 개 가운데 세 개 이상이면 통과. ②의 bread는 하나로 세므로 has입니다. has being, has been break처럼 쓰면 S08을 다시 봅니다."
+        "answer": "① The letter has been written by Mina. ② All the bread has been sold. ③ The window has been broken. ④ My bike has been fixed by Dad. 네 개 가운데 세 개 이상이면 통과. ②의 bread는 셀 수 없는 명사라서 has입니다. has being, has been break처럼 쓰면 S08을 다시 봅니다."
       },
       {
         "no": 4,

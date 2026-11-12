@@ -73,7 +73,7 @@
     {
       "id": "M4",
       "text": "what 절 안에 목적어를 다시 쓴다(I like what you made it.).",
-      "response": "S04에서 what이 ‘~을’ 자리를 이미 대신한다는 것을 지난 시간의 which my mom made it 실수와 연결해 짚고, S11·활동지 3에서 확인한다."
+      "response": "S04에서 what이 ‘~을’ 자리를 이미 대신한다는 것을 중3 때의 which my mom made it 실수와 연결해 짚고, S11·활동지 3에서 확인한다."
     }
   ],
   "checks": [],
@@ -275,7 +275,7 @@
           "종이에 the thing which를 쓰고 두 낱말을 한 동그라미로 묶은 뒤, 그 위에 what이라고 쓰게 합니다."
         ],
         "주의": [
-          "I like what you made it.처럼 it을 다시 쓰는 실수가 있습니다(오해 M4). what이 ‘~을’ 자리를 이미 대신한다는 것은 지난 시간 which my mom made it과 같은 원리입니다.",
+          "I like what you made it.처럼 it을 다시 쓰는 실수가 있습니다(오해 M4). what이 ‘~을’ 자리를 이미 대신한다는 것은 중3 때의 which my mom made it과 같은 원리입니다.",
           "what 덩어리는 명사처럼 쓰여서 주어·목적어·보어 자리에 들어갑니다. 다음 장에서 봅니다."
         ]
       }
@@ -547,7 +547,7 @@
           "② what (앞 명사 없음) — 이것이 내가 원했던 거예요.",
           "③ What (앞 명사 없음) — 내가 필요한 것은 너의 도움이야.",
           "④ that (앞 명사 the movie) — 우리가 본 영화",
-          "⑤ what (앞 명사 없음) — 네가 아는 것을 말해 줘.",
+          "⑤ what (앞 명사 없음) — 네가 원하는 것을 말해 줘.",
           "⑥ that (앞 명사 the cake) — 나는 네가 만든 케이크가 좋아."
         ],
         "막히면": [
@@ -555,7 +555,7 @@
         ],
         "주의": [
           "③처럼 문장 맨 앞에서도 앞 명사가 없으면 What입니다. That I need is ~처럼 쓰지 않습니다.",
-          "⑤의 Tell me ~는 ‘~을 말해 줘’입니다. Tell me what you know.는 ‘네가 무엇을 아는지 말해 줘’로 해석해도 뜻이 통합니다."
+          "⑤의 Tell me ~는 ‘~을 말해 줘’입니다. Tell me what you want.는 ‘네가 무엇을 원하는지 말해 줘’로 해석해도 뜻이 통합니다."
         ]
       }
     },
@@ -942,7 +942,7 @@
         "size": 24
       },
       "key": {
-        "title": "지난 시간: 목적격 관계대명사",
+        "title": "지난 학년: 목적격 관계대명사",
         "text": "This is the cake. + I made it.  → This is the cake which I made."
       },
       "notes": {
@@ -954,7 +954,7 @@
           "“아래 카드를 읽어 보자. it이 which로 바뀌어서 the cake 뒤에 붙었지?”"
         ],
         "정답": [
-          "내가 만든 케이크 / 내가 만든 것 / 내가 만든 것들 / I like the cake which I made."
+          "내가 만든 케이크 / 내가 만든 것 / 내가 만든 것들 / This is the cake which I made."
         ],
         "막히면": [
           "‘내가 만들었다 → 무엇을? → 케이크를’처럼 우리말로 묻고 답하게 합니다.",

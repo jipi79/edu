@@ -68,7 +68,7 @@
     {
       "id": "M3",
       "text": "관계부사 절 안에 there를 다시 쓴다(This is the house where I live there.).",
-      "response": "S04에서 there가 where로 바뀌어 절 맨 앞으로 옮겨 간다는 것을 단계로 보여 주고, 지난 차시의 which my mom made it 실수와 같은 원리라고 연결한다. S13 ①과 활동지 2에서 확인한다."
+      "response": "S04에서 there가 where로 바뀌어 절 맨 앞으로 옮겨 간다는 것을 단계로 보여 주고, 중3 ‘목적격 관계대명사’의 which my mom made it 실수와 같은 원리라고 연결한다. S13 ①과 활동지 2에서 확인한다."
     },
     {
       "id": "M4",
@@ -166,7 +166,7 @@
           "세 문제 가운데 두 개 이상 어려우면 S17(보충)을 먼저 합니다."
         ],
         "주의": [
-          "①에서 which my dad bought it처럼 it을 남기면 지난 시간의 흔한 실수입니다. 오늘도 같은 원리(바뀐 말은 다시 쓰지 않음)가 나오므로 여기서 짚어 줍니다. (cap: 모자)"
+          "①에서 which my dad bought it처럼 it을 남기면 중3 때의 흔한 실수입니다. 오늘도 같은 원리(바뀐 말은 다시 쓰지 않음)가 나오므로 여기서 짚어 줍니다. (cap: 모자)"
         ]
       }
     },
@@ -222,7 +222,7 @@
         "시간": "약 3분",
         "말하기": [
           "“the house where I live를 네 덩어리로 나눴어. 어떤 집? I live, ‘내가 사는’ 집이야.”",
-          "“지난 시간 which는 둘째 문장의 it, 곧 ‘그것을’을 대신했지? where는 there, ‘거기에서’를 대신해. ‘어디에서’처럼 동사를 꾸며 주는 말을 부사라고 하는데, 두 문장을 이어 주는 부사라서 관계부사라고 불러. 꾸밈을 받는 앞 명사는 선행사라고 해.”",
+          "“중3 때 배운 which는 둘째 문장의 it, 곧 ‘그것을’을 대신했지? where는 there, ‘거기에서’를 대신해. ‘어디에서’처럼 동사를 꾸며 주는 말을 부사라고 하는데, 두 문장을 이어 주는 부사라서 관계부사라고 불러. 꾸밈을 받는 앞 명사는 선행사라고 해.”",
           "“the park where we play는 무슨 뜻일까?”"
         ],
         "예상답": [
@@ -289,7 +289,7 @@
           "종이에 I live there.를 쓰고 there에 동그라미를 친 뒤 화살표로 맨 앞으로 끌어와 where라고 쓰게 합니다. 원래 there 자리는 지웁니다."
         ],
         "주의": [
-          "where I live there처럼 there를 남기는 실수가 흔합니다(오해 M3). 지난 시간 which my mom made it과 같은 실수라고 말해 줍니다.",
+          "where I live there처럼 there를 남기는 실수가 흔합니다(오해 M3). 중3 때의 which my mom made it과 같은 실수라고 말해 줍니다.",
           "둘째 문장이 I live in the house.처럼 ‘in + 장소’로 되어 있어도 in the house 전체가 where로 바뀝니다. 이 부분은 S08에서 다시 봅니다."
         ]
       }
@@ -972,7 +972,7 @@
         "size": 24
       },
       "key": {
-        "title": "지난 시간: 목적격 관계대명사",
+        "title": "지난 학년: 목적격 관계대명사",
         "text": "This is the bag. + I bought it.  → This is the bag which I bought."
       },
       "notes": {

@@ -869,7 +869,7 @@
           "“네가 말한 것과 왼쪽을 비교해 보자. 오른쪽처럼 말하면 어디가 틀렸을까?”"
         ],
         "예상답": [
-          "“been이 빠졌어요.” “know는 -ing로 안 써요.” “두 시간은 기간이라 for예요.”"
+          "“been이 빠졌어요.” “know는 -ing로 안 써요.” “한 시간은 기간이라 for예요.”"
         ],
         "정답": [
           "① She has been swimming for an hour. ② It has been snowing since this morning. ③ I have known him for years. ④ How long have you been waiting?"
@@ -1013,7 +1013,7 @@
         "size": 24
       },
       "key": {
-        "title": "지난 시간: 현재완료(계속)",
+        "title": "중2 때: 현재완료(계속)",
         "text": "I have lived here for five years.   She has been sick since Monday."
       },
       "notes": {
