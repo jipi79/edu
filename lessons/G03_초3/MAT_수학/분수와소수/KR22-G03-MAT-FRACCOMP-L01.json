@@ -527,6 +527,54 @@
       ],
       "rel": ">",
       "where": "활동지 6 차례"
+    },
+    {
+      "type": "blank",
+      "expr": "2 + 1/5 = □/5",
+      "answer": 11,
+      "where": "S07 막히면"
+    },
+    {
+      "type": "blank",
+      "expr": "1 + 4/5 = □/5",
+      "answer": 9,
+      "where": "S07 막히면"
+    },
+    {
+      "type": "blank",
+      "expr": "11/5 = 2 + □/5",
+      "answer": 1,
+      "where": "S10 막히면"
+    },
+    {
+      "type": "blank",
+      "expr": "13/5 = 2 + □/5",
+      "answer": 3,
+      "where": "S13 가를 대분수로"
+    },
+    {
+      "type": "blank",
+      "expr": "12/5 = 2 + □/5",
+      "answer": 2,
+      "where": "S13 나를 대분수로"
+    },
+    {
+      "type": "blank",
+      "expr": "9/5 = 1 + □/5",
+      "answer": 4,
+      "where": "활동지 5"
+    },
+    {
+      "type": "blank",
+      "expr": "2 + 2/3 = □/3",
+      "answer": 8,
+      "where": "활동지 6"
+    },
+    {
+      "type": "blank",
+      "expr": "1 + 2/3 = □/3",
+      "answer": 5,
+      "where": "활동지 6"
     }
   ],
   "slides": [
