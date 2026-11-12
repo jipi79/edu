@@ -483,10 +483,11 @@
         "paragraphs": [
           "1 Interview with a web developer (예시): “I use basic math every day, but most of my work is logic, which means solving problems step by step.”",
           "2 Survey of 150 programmers (예시 자료): 60% said they use only basic math at work, 25% use advanced math sometimes, and 15% use it often.",
-          "3 University guide (예시): Students who want to work on game graphics or artificial intelligence will need advanced math, such as linear algebra."
+          "3 University guide (예시): Students who want to work on game graphics or artificial intelligence will need advanced math, such as linear algebra.",
+          "결론 — 가 Programmers do not need math at all. / 나 Most programmers need basic math and logic, but some fields such as AI need advanced math. / 다 All programmers must study advanced math."
         ]
       },
-      "question": "활동지 2: 종합표를 채우고, 세 자료를 모두 담은 결론을 골라요. 까닭도 써요.",
+      "question": "종합표를 채우고, 세 자료를 모두 담은 결론을 골라요. 까닭도 써요(활동지 2).",
       "notes": {
         "목적": "새 자료 세 편을 활동지 2 종합표에 정리하고, 활동지 2의 결론 보기 가운데 세 자료를 모두 담은 것을 고릅니다(목표 A, 오해 M4).",
         "시간": "약 4분",
