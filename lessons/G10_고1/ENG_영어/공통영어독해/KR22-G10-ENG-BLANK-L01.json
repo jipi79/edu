@@ -62,7 +62,7 @@
     {
       "id": "M1",
       "text": "보기부터 읽고 글에 나온 낱말이 들어 있는 보기를 고른다(one big decision, reading fifty books).",
-      "response": "S05에서 ‘내 말로 먼저 채운 뒤 보기를 본다’는 순서를 주고, S07의 나·다·라 보기와 S08 비교에서 같은 낱말 때문에 고른 답을 가려낸다. 활동지 2·3에서 다시 확인한다."
+      "response": "S05에서 ‘내 말로 먼저 채운 뒤 보기를 본다’는 순서를 주고, S07의 가·나·다 보기와 S08 비교에서 같은 낱말 때문에 고른 답을 가려낸다. 활동지 2·3에서 다시 확인한다."
     },
     {
       "id": "M2",
@@ -77,7 +77,7 @@
     {
       "id": "M4",
       "text": "For example 뒤의 예시 하나를 빈칸 답으로 고른다(너무 좁음).",
-      "response": "S03 For example 카드에서 ‘예를 모아 하나로 묶은 말’이 빈칸이라는 것을 보여 주고, S07 다 보기와 S09에서 가려내게 한다."
+      "response": "S03 For example 카드에서 ‘예를 모아 하나로 묶은 말’이 빈칸이라는 것을 보여 주고, S07 나 보기와 S09에서 가려내게 한다."
     }
   ],
   "checks": [],
@@ -146,7 +146,7 @@
       "text": "글을 읽고 질문에 답해요.  messy 지저분한 · lazy 게으른 · creative 창의적인",
       "passage": {
         "paragraphs": [
-          "Many people think that a messy desk is a sign of a lazy person. However, some creative people work well at messy desks. For example, they get new ideas when they see different things together. So, a messy desk is not always a bad thing."
+          "Many people think that a messy desk is a sign of a lazy person. However, some creative people work well at messy desks. For example, some artists get new ideas from the many things on their desks. So, a messy desk is not always a bad thing."
         ]
       },
       "question": "① 요지는? 근거 문장은?　② For example 뒤는 무엇의 예인가요?",
@@ -160,7 +160,7 @@
         ],
         "정답": [
           "① 지저분한 책상이 늘 나쁜 것은 아니다(창의적인 사람은 지저분한 책상에서도 일을 잘한다). 근거: However, some creative people work well at messy desks. / So, a messy desk is not always a bad thing.",
-          "② 창의적인 사람이 지저분한 책상에서 일을 잘한다는 것의 예(여러 물건을 함께 보면 새 생각이 떠오름)"
+          "② 창의적인 사람이 지저분한 책상에서 일을 잘한다는 것의 예(책상 위의 많은 물건에서 새 생각을 얻는 예술가들)"
         ],
         "막히면": [
           "①에서 첫 문장(지저분한 책상은 게으름의 표시)을 말하면 “Many people think는 누구의 생각이야? However 뒤에서 글쓴이는?”이라고 묻습니다.",
@@ -168,7 +168,7 @@
           "두 문제 모두 어려우면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
-          "글의 뜻: 많은 사람이 지저분한 책상은 게으른 사람의 표시라고 생각해요. 하지만 어떤 창의적인 사람들은 지저분한 책상에서 일을 잘해요. 예를 들어 그들은 서로 다른 물건을 함께 볼 때 새로운 생각을 떠올려요. 그러니 지저분한 책상이 늘 나쁜 것은 아니에요. (messy: 지저분한, sign: 표시, lazy: 게으른, creative: 창의적인)"
+          "글의 뜻: 많은 사람이 지저분한 책상은 게으른 사람의 표시라고 생각해요. 하지만 어떤 창의적인 사람들은 지저분한 책상에서 일을 잘해요. 예를 들어 어떤 예술가들은 책상 위의 많은 물건에서 새로운 생각을 얻어요. 그러니 지저분한 책상이 늘 나쁜 것은 아니에요. (messy: 지저분한, sign: 표시, lazy: 게으른, creative: 창의적인, artist: 예술가)"
         ]
       }
     },
@@ -306,7 +306,7 @@
           "단계마다 손가락을 하나씩 접으며 함께 말해 봅니다(문장 → 밑줄 → 내 말 → 보기 → 다시 읽기)."
         ],
         "주의": [
-          "보기를 먼저 읽으면 글에 나온 낱말이 들어 있는 보기에 끌려가기 쉽습니다(오해 M1). 시험에서는 보기 다섯 개 가운데 두세 개가 글의 낱말을 그대로 쓴 함정입니다."
+          "보기를 먼저 읽으면 글에 나온 낱말이 들어 있는 보기에 끌려가기 쉽습니다(오해 M1). 시험의 보기에는 글의 낱말을 그대로 쓴 함정이 섞여 있는 경우가 많습니다."
         ]
       }
     },
@@ -362,9 +362,6 @@
       "text": "내 말과 같은 뜻의 보기를 골라요.",
       "options": [
         {
-          "text": "small, easy actions"
-        },
-        {
           "text": "one big decision"
         },
         {
@@ -372,11 +369,14 @@
         },
         {
           "text": "busy days"
+        },
+        {
+          "text": "small, easy actions"
         }
       ],
       "question": "빈칸에 알맞은 것은? 근거 문장은? 나머지는 왜 아닌가요?",
       "notes": {
-        "목적": "내 말로 채운 답(작은 것)과 같은 뜻의 보기를 고르고, 글 낱말 함정(나·라)과 예시 하나(다)를 가려냅니다(목표 A·B, 오해 M1·M4).",
+        "목적": "내 말로 채운 답(작은 것)과 같은 뜻의 보기를 고르고, 글 낱말 함정(가·다)과 예시 하나(나)를 가려냅니다(목표 A·B, 오해 M1·M4).",
         "시간": "약 3분",
         "말하기": [
           "“아까 내 말로 ‘아주 작은 것’이라고 채웠지? 같은 뜻의 보기를 골라 볼래?”",
@@ -384,16 +384,16 @@
           "“고른 답을 빈칸에 넣어서 끝 문장을 다시 읽어 봐.”"
         ],
         "정답": [
-          "가 small, easy actions (작고 쉬운 행동) — 근거: A better way is to start with something very small. / These actions are so easy ~",
-          "나 one big decision: 글의 낱말이지만 글쓴이는 However 뒤에서 큰 계획이 실패한다고 했습니다(반대).",
-          "다 reading fifty books: 큰 계획의 예이고 글쓴이가 반대하는 쪽입니다(반대·예 하나).",
-          "라 busy days: 글의 낱말(even on busy days)을 그대로 쓴 함정입니다. 변화가 바쁜 날로 시작하는 것이 아닙니다."
+          "라 small, easy actions (작고 쉬운 행동) — 근거: A better way is to start with something very small. / These actions are so easy ~",
+          "가 one big decision: 글의 낱말이지만 글쓴이는 However 뒤에서 큰 계획이 실패한다고 했습니다(반대).",
+          "나 reading fifty books: 큰 계획의 예이고 글쓴이가 반대하는 쪽입니다(반대·예 하나).",
+          "다 busy days: 글의 낱말(even on busy days)을 그대로 쓴 함정입니다. 변화가 바쁜 날로 시작하는 것이 아닙니다."
         ],
         "막히면": [
           "보기마다 빈칸에 넣고 소리 내어 읽게 한 뒤 “글쓴이가 이렇게 말했어?”라고 묻습니다."
         ],
         "주의": [
-          "나·다·라는 모두 글에 나온 말입니다. ‘글에 있는 말이니까’는 근거가 아니라는 것을 다음 장에서 비교합니다."
+          "가·나·다는 모두 글에 나온 말입니다. ‘글에 있는 말이니까’는 근거가 아니라는 것을 다음 장에서 비교합니다."
         ]
       }
     },
@@ -410,7 +410,7 @@
       "claim": "S06 빈칸의 답과 근거를 두 친구가 이렇게 말했어요.",
       "left": {
         "title": "가",
-        "text": "one big decision\nbig이 글에 여러 번\n나오니까요."
+        "text": "one big decision\nbig이 글에 두 번\n나오니까요."
       },
       "right": {
         "title": "나",
@@ -418,14 +418,14 @@
       },
       "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤나요?",
       "notes": {
-        "목적": "글에 여러 번 나온 낱말(big) 때문에 보기를 고른 판단과, 예시들을 묶어 단서로 고른 판단을 비교합니다(목표 B, 오해 M1).",
+        "목적": "글에 거듭 나온 낱말(big) 때문에 보기를 고른 판단과, 예시들을 묶어 단서로 고른 판단을 비교합니다(목표 B, 오해 M1).",
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 S06 빈칸의 답과 근거를 이렇게 말했어. 누구의 근거가 맞을까?”",
-          "“big이 글에 여러 번 나온 건 맞아. 그런데 글쓴이는 big plans에 대해 무엇이라고 했지?”"
+          "“big이 글에 두 번 나온 건 맞아. 그런데 글쓴이는 big plans에 대해 무엇이라고 했지?”"
         ],
         "정답": [
-          "나의 판단이 맞습니다. For example 뒤의 예(팔굽혀펴기 다섯 번, 두 쪽 읽기)가 모두 작고 쉬운 행동이고, 앞 문장도 start with something very small이라고 했습니다. 가는 big이 자주 나온다는 것만 보고 골랐는데, 글쓴이는 However 뒤에서 큰 계획은 실패한다고 했으므로 반대입니다."
+          "나의 판단이 맞습니다. For example 뒤의 예(팔굽혀펴기 다섯 번, 두 쪽 읽기)가 모두 작고 쉬운 행동이고, 앞 문장도 start with something very small이라고 했습니다. 가는 big이 두 번 나온다는 것만 보고 골랐는데, 글쓴이는 However 뒤에서 큰 계획은 실패한다고 했으므로 반대입니다."
         ],
         "막히면": [
           "S06 글에서 However 문장을 다시 읽게 하고 “큰 계획이 성공해, 실패해?”라고 묻습니다."
@@ -453,7 +453,7 @@
           "__________ is one of the best ways to learn. When you explain something to a friend, you have to organize what you know. You also find the parts that you don't understand well. For example, Minho thought he knew the water cycle. But when he tried to explain it to his little sister, he couldn't answer her questions. So he read his science book again, and this time he really understood it. Next time you study, try to teach someone else what you learned."
         ]
       },
-      "question": "ⓐ Teaching others  ⓑ Reading a science book\nⓒ Asking questions  ⓓ Studying alone     답과 근거는?",
+      "question": "ⓐ Reading a science book  ⓑ Asking questions\nⓒ Teaching others  ⓓ Studying alone     답과 근거는?",
       "notes": {
         "목적": "빈칸이 첫 문장(주제문)에 있는 글에서, 뒤의 설명·예시와 끝 문장을 단서로 빈칸을 채우고 보기를 고릅니다(목표 A·B, 오해 M4). 부모가 한 번 읽어 준 뒤 아이가 다섯 단계로 풉니다.",
         "시간": "약 4분",
@@ -463,9 +463,9 @@
           "“단서에 밑줄을 긋고, 내 말로 먼저 채워 봐. 그다음 아래 보기에서 골라 줘.”"
         ],
         "정답": [
-          "답: ⓐ Teaching others (다른 사람을 가르치는 것)",
+          "답: ⓒ Teaching others (다른 사람을 가르치는 것)",
           "근거: When you explain something to a friend, ~ / But when he tried to explain it to his little sister, ~ / Next time you study, try to teach someone else what you learned.",
-          "ⓑ Reading a science book: 민호의 이야기에 나온 낱말(예 속의 한 행동, 너무 좁음) / ⓒ Asking questions: 질문은 동생이 했고 글의 중심이 아님 / ⓓ Studying alone: 글의 생각과 반대"
+          "ⓐ Reading a science book: 민호의 이야기에 나온 낱말(예 속의 한 행동, 너무 좁음) / ⓑ Asking questions: 질문은 동생이 했고 글의 중심이 아님 / ⓓ Studying alone: 글의 생각과 반대"
         ],
         "막히면": [
           "“민호가 동생에게 무엇을 하려고 했지? 끝 문장에서 글쓴이는 무엇을 해 보라고 했지?”라고 묻습니다."
@@ -518,7 +518,7 @@
           "영어 낱말이 떠오르지 않으면 우리말로 말하게 하고, 부모가 영어로 알려 줍니다."
         ],
         "주의": [
-          "gardening은 ‘정원 가꾸기’, yard는 ‘마당’, crowded는 ‘붐비는’, contest는 ‘대회’, won은 win(이기다, 우승하다)의 과거형입니다."
+          "As a result는 ‘그 결과’라는 뜻의 신호어입니다. gardening은 ‘정원 가꾸기’, yard는 ‘마당’, crowded는 ‘붐비는’, contest는 ‘대회’, won은 win(이기다, 우승하다)의 과거형입니다."
         ]
       }
     },
@@ -786,7 +786,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "신호어에 동그라미를 치고, 상자에서 알맞은 말을 골라 빈칸에 쓰세요.  [ late · makes · sleep · won ]",
+        "prompt": "신호어에 동그라미를 치고, 상자에서 알맞은 말을 골라 빈칸에 쓰세요.  [ late · makes · sleep · won ]  (as a result: 그 결과)",
         "table": {
           "headers": [
             "문장",
@@ -830,10 +830,10 @@
         "prompt": "다섯 단계로 빈칸을 푸세요. 먼저 내 말로 채우고, 보기에서 고른 뒤 근거 문장을 옮겨 쓰세요.",
         "read": "Have you ever smiled back at someone who smiled at you? Kindness works in a similar way. When someone helps you, you feel good, and you want to help someone else. For example, after a stranger held the door for Minji, she let an old man go ahead of her in line. Later, that man picked up a pen that a student dropped and gave it back. One small act of kindness traveled from person to person. In this way, kindness __________.",
         "choices": [
-          "spreads from one person to another",
           "makes people tired",
           "is only for strangers",
-          "starts with a pen"
+          "starts with a pen",
+          "spreads from one person to another"
         ],
         "choices_size": 13,
         "line_label": "내 말 · 근거 문장:",
@@ -845,8 +845,8 @@
         "prompt": "다섯 단계로 빈칸을 푸세요. 보기에서 고르고, 근거 문장과 고르지 않은 보기 하나의 까닭을 쓰세요.",
         "read": "Most of us try to avoid boredom. We pick up our phones whenever we have nothing to do. However, boredom can actually be __________. When you are bored, your mind starts to wander, and you begin to imagine new things. Many writers and artists say that some of their best ideas came while they were doing nothing special, such as waiting for a bus or taking a shower. So the next time you feel bored, don't reach for your phone right away. Give your mind a chance to play.",
         "choices": [
-          "good for creative thinking",
           "a waste of time",
+          "good for creative thinking",
           "bad for your phone",
           "a reason to take a shower"
         ],

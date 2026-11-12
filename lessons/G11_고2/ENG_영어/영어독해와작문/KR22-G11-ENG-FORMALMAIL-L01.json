@@ -284,7 +284,7 @@
         "A"
       ],
       "title": "목적에 맞는 표현",
-      "text": "목적 문장: I am writing to ~",
+      "text": "목적 문장: I am writing to ~ / about ~",
       "cards": [
         {
           "title": "요청",
@@ -300,7 +300,7 @@
         },
         {
           "title": "불만",
-          "text": "Unfortunately, ~.\nI would like a refund."
+          "text": "I am writing about a problem with ~.\nUnfortunately, ~. I would like a refund."
         }
       ],
       "key": "불만도 차분하게: 문제 → 증거 → 원하는 해결",
@@ -313,7 +313,7 @@
           "“불만 메일도 화내지 않고, 문제 → 증거 → 원하는 해결(교환·환불)을 차분하게 말해.”"
         ],
         "예상답": [
-          "“요청은 if, 문의는 about이에요.” “불만은 원하는 걸 꼭 말해요.”"
+          "“요청은 if, 문의는 about이에요.” “불만은 about a problem with로 시작하고, 원하는 걸 꼭 말해요.”"
         ],
         "막히면": [
           "카드마다 “이런 메일을 언제 쓸까?”라고 물어 상황을 떠올리게 합니다."
@@ -381,7 +381,7 @@
       "claim": "역사 보고서 마감을 하루 늦춰 달라는 메일의 제목이에요.",
       "left": {
         "title": "가",
-        "text": "Hi!!!"
+        "text": "Hi!!! Please read this\nright now, it is really\nimportant!!!"
       },
       "right": {
         "title": "나",
@@ -396,7 +396,7 @@
           "“좋은 제목에는 무엇이 들어 있지?”"
         ],
         "정답": [
-          "나가 좋은 제목입니다. 무엇을 원하는지(하루 연장 요청)와 무엇에 대한 것인지(역사 보고서)가 제목만 보고도 보입니다. 가는 무슨 일인지 알 수 없고, 느낌표가 많아 격식에도 맞지 않습니다."
+          "나가 좋은 제목입니다. 무엇을 원하는지(하루 연장 요청)와 무엇에 대한 것인지(역사 보고서)가 제목만 보고도 보입니다. 가는 길지만 무슨 일인지 알 수 없고, 느낌표가 많아 격식에도 맞지 않습니다."
         ],
         "막히면": [
           "“가 제목만 보고 무슨 메일인지 알 수 있어?”라고 묻습니다."
@@ -429,7 +429,7 @@
           "text": "Unfortunately, the shoes\nI received are the\nwrong size."
         },
         {
-          "text": "I would appreciate it if\nyou could lend us the lab\non Friday."
+          "text": "I would appreciate it if\nyou could let us use the\nlab on Friday."
         }
       ],
       "notes": {
@@ -446,10 +446,10 @@
           "기준: 목적이 맞고, 제목에 목적과 대상이 보이면 정답입니다(표현은 여러 가지)."
         ],
         "막히면": [
-          "S05 카드에서 같은 표현을 찾게 합니다(apologize → 사과, ask about → 문의, Unfortunately → 불만, appreciate ~ lend → 요청)."
+          "S05 카드에서 같은 표현을 찾게 합니다(apologize → 사과, ask about → 문의, Unfortunately → 불만, I would appreciate it if ~ → 요청)."
         ],
         "주의": [
-          "lend는 ‘빌려주다’, receive는 ‘받다’입니다."
+          "let us use는 ‘우리가 쓰게 해 주다’, receive는 ‘받다’입니다."
         ]
       }
     },
@@ -575,9 +575,9 @@
         ],
         "정답": [
           "잘 쓴 예(카드 A 요청): Subject: Request to Use the Science Lab on Friday / Dear Ms. Lee, / I am Sora Park, the leader of the science club. I am writing to ask if our club could use the science lab this Friday after school. We need it for about an hour to finish our project on plant growth. / We will clean the lab and return the key right after we finish. I would appreciate it if you could let me know by Wednesday. Thank you for your help. / Best regards, / Sora Park",
-          "카드 B 문의 예: Subject: Question about Student Tickets / Dear City Museum Staff, / I am writing to ask about student tickets for a group of ten. Could you tell me how much a student ticket is? I would also like to know whether we can take photos inside. / Thank you for your time. / Best regards, (이름)",
-          "카드 C 사과 예: Subject: Apology for Missing Practice / Dear Coach Kim, / I am writing to apologize for missing practice yesterday. I had a bad cold. Could you tell me what I missed? It will not happen again. / Sincerely, (이름)",
-          "카드 D 불만 예: Subject: Wrong Size in My T-shirt Order / Dear Customer Service Team, / I am writing about a problem with my order. Unfortunately, the T-shirt I received is size S, but I ordered size M. Could you please send me the right size? / I look forward to hearing from you. / Sincerely, (이름)",
+          "카드 B 문의 예: Subject: Question about Student Tickets / Dear City Museum Staff, / I am writing to ask about student tickets for a group of ten. We are planning to visit your museum next Saturday. Could you tell me how much a student ticket is? I would also like to know whether we can take photos inside. / Thank you for your time. / Best regards, (이름)",
+          "카드 C 사과 예: Subject: Apology for Missing Practice / Dear Coach Kim, / I am writing to apologize for missing practice yesterday. I had a bad cold. Could you tell me what I missed? It will not happen again. Thank you for your understanding. / Sincerely, (이름)",
+          "카드 D 불만 예: Subject: Wrong Size in My T-shirt Order / Dear Customer Service Team, / I am writing about a problem with my order. Unfortunately, the T-shirt I received is size S, but I ordered size M. I have attached a photo of the label. Could you please send me the right size? / I look forward to hearing from you. / Sincerely, (이름)",
           "기준(점검표 6항목): ① 목적이 보이는 제목 ② Dear + 이름, ③ 목적 문장(I am writing to ~) ④ 세부 내용과 정중한 요청 ⑤ 맺음 인사와 이름 ⑥ 줄임말·이모티콘·느낌표 없음. 다섯 개 이상이면 통과."
         ],
         "막히면": [
@@ -620,7 +620,7 @@
           "note": "목적이 보이는\n제목"
         },
         {
-          "text": "Can u lend us the lab?",
+          "text": "Can u let us use the lab?",
           "note": "Could you\nplease ~?"
         },
         {
@@ -662,7 +662,7 @@
       "text": "①은 고르고, ②는 고치고, ③은 바꿔요.",
       "problems": [
         {
-          "text": "선생님께 보낼 문장은?\n가 Check my essay, OK?\n나 I would appreciate it if you could check my essay."
+          "text": "선생님께 보낼 문장은?\n가 I would appreciate it if you could check my essay.\n나 Hey, check my essay and tell me what is wrong, OK?"
         },
         {
           "text": "말하기 시험 날짜를 묻는 메일의 제목:\n“Hello” → 더 좋은 제목은?"
@@ -678,7 +678,7 @@
           "“①은 고르고, ②는 제목을 고치고, ③은 Could you tell me로 바꿔 말해 줘.”"
         ],
         "정답": [
-          "① 나 (I would appreciate it if you could check my essay.)",
+          "① 가 (I would appreciate it if you could check my essay.)",
           "② 예: Question about the Speaking Test Date",
           "③ Could you tell me when the deadline is?",
           "기준: 세 개 모두 맞으면 통과입니다(②는 목적과 대상이 보이면 됨)."

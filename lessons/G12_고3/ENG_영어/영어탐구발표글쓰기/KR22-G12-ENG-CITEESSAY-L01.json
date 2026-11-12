@@ -381,11 +381,11 @@
       "claim": "사서 조 선생님의 말을 에세이에 옮겼어요.",
       "left": {
         "title": "가",
-        "text": "When students choose their own\nbooks, they are more likely to\nkeep reading."
+        "text": "As librarian Ms. Cho explains,\n“When students choose their own\nbooks, they are more likely to\nkeep reading” (Cho, 2025)."
       },
       "right": {
         "title": "나",
-        "text": "As librarian Ms. Cho explains,\n“When students choose their own\nbooks, they are more likely to\nkeep reading” (Cho, 2025)."
+        "text": "When students choose their own\nbooks, they are more likely to\nkeep reading."
       },
       "question": "어느 쪽이 바른가요? 다른 쪽은 무엇이 문제인가요?",
       "notes": {
@@ -393,13 +393,13 @@
         "시간": "약 2분",
         "말하기": [
           "“두 친구가 조 선생님의 말을 이렇게 옮겼어. 어느 쪽이 바를까?”",
-          "“가를 읽은 사람은 이 말이 누구 생각이라고 여길까?”"
+          "“나 쪽을 읽은 사람은 이 말이 누구 생각이라고 여길까?”"
         ],
         "정답": [
-          "나가 바릅니다. 원문 그대로 옮겼으므로 큰따옴표를 쓰고 출처(As librarian Ms. Cho explains, (Cho, 2025))를 밝혔습니다. 가는 남의 문장을 출처와 인용 부호 없이 써서 글쓴이 자신의 생각처럼 보이는 표절입니다."
+          "가가 바릅니다. 원문 그대로 옮겼으므로 큰따옴표를 쓰고 출처(As librarian Ms. Cho explains, (Cho, 2025))를 밝혔습니다. 나 쪽은 남의 문장을 출처와 인용 부호 없이 써서 글쓴이 자신의 생각처럼 보이는 표절입니다."
         ],
         "막히면": [
-          "“가에서 조 선생님의 이름이 보여?”라고 묻습니다."
+          "“나 쪽에 조 선생님의 이름이 보여?”라고 묻습니다."
         ],
         "주의": [
           "여기까지가 자료를 옮기는 방법입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
@@ -800,7 +800,7 @@
               ""
             ],
             [
-              "② According to a 2024 study, regular pleasure reading is linked to a larger vocabulary (Example Reading Institute, 2024).",
+              "② According to a 2024 study involving 500 high schoolers, those who spent 20 minutes or more a day reading for fun had a larger vocabulary than those who seldom did (Example Reading Institute, 2024).",
               ""
             ],
             [
@@ -819,7 +819,7 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 직접 인용 ② 바꿔 쓰기 ③ 요약 ④ 문제: Mr. Lee의 말을 인용 부호와 출처 없이 씀 → Mr. Lee argues that “class time is too valuable” (Lee, 2025). / 또는 According to Mr. Lee (2025), reading can be done at home because class time is precious. 네 개 모두 맞으면 통과."
+        "answer": "① 직접 인용 ② 바꿔 쓰기(자료 1의 내용을 빠짐없이, 비슷한 길이의 내 말로) ③ 요약(핵심만 짧게) ④ 문제: Mr. Lee의 말을 인용 부호와 출처 없이 씀 → Mr. Lee argues that “class time is too valuable” (Lee, 2025). / 또는 According to Mr. Lee (2025), reading can be done at home because class time is precious. 네 개 모두 맞으면 통과."
       },
       {
         "no": 3,

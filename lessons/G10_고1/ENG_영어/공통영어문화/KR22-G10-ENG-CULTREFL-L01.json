@@ -41,9 +41,9 @@
   "objectives": [
     {
       "id": "A",
-      "text": "일반화(경험이나 자료를 근거로 범위를 밝혀 조심스럽게 말하기: In my experience, ~ / Many people in ~ / Some people in ~ / often)와 고정관념(한 사람이나 한 번의 경험으로 한 나라·집단 모두를 단정하기: All ~ / ~ people always·never ~)을 구별하고, 고정관념이 담긴 문장을 근거와 범위를 밝힌 공정한 문장으로 고친다.",
-      "evidence": "일반화와 고정관념(S03), 어느 쪽일까?(S04), 공정하게 고쳐 쓰기(S05), 판단하는 해석 비교(S06), 글의 조심스러운 말 찾기(S10), 마무리 확인(S14), 활동지 1·2",
-      "success": "S04·S14와 활동지 1의 구별 문제 9개 가운데 8개 이상을 맞히고, 고정관념 문장 세 개 이상을 범위(Many·Some·In my experience)를 밝힌 문장으로 고친다."
+      "text": "공정한 말(한 사람의 일은 본 대로만 말하기: One of my ~ / When I met ~, 여럿의 일은 근거를 바탕으로 범위를 밝힌 조심스러운 일반화: Many people in ~ / Some people in ~ / often)과 고정관념(한 사람이나 한 번의 경험으로 한 나라·집단 모두를 단정하기: All ~ / ~ people always·never ~)을 구별하고, 고정관념이 담긴 문장을 본 대로만 말하거나 범위를 밝힌 공정한 문장으로 고친다.",
+      "evidence": "공정한 말과 고정관념(S03), 어느 쪽일까?(S04), 공정하게 고쳐 쓰기(S05), 판단하는 해석 비교(S06), 글의 조심스러운 말 찾기(S10), 마무리 확인(S14), 활동지 1·2",
+      "success": "S04·S14와 활동지 1의 구별 문제 9개 가운데 8개 이상을 맞히고, 고정관념 문장 세 개 이상을 범위(Many·Some·often)를 밝히거나 본 대로만 말한(One of my ~, When I met ~) 문장으로 고친다."
     },
     {
       "id": "B",
@@ -59,12 +59,12 @@
     "종이 카드 세 장(인사·시간·개인 공간 상황 카드)",
     "교과서 디지털 자료나 사전 앱(낱말 소리 듣기)"
   ],
-  "boundary": "인사(고개 숙여 인사, 볼 인사, 포옹), 시간(저녁 식사 시각, 모임에 오는 시각), 개인 공간(이야기할 때 서는 거리)에 관한 문화 차이를 다룬 직접 쓴 성찰 글을 읽고, 자기 경험을 바탕으로 성찰 문단을 쓰는 것만 다룬다. 나라 이름은 글 속 인물의 경험으로만 쓰고(교환 학생 루시아의 고향 마을, 사촌의 캐나다 친구), 사실로 단정하지 않으며 in her town, many people ~ / Of course, not everyone ~처럼 범위를 밝힌다. 볼 인사와 늦은 저녁 식사처럼 널리 알려진 관습만 예로 쓰고, 사실이 불확실한 관습, 외모·성격·능력·종교·정치·성별에 대한 일반화는 예로도 쓰지 않는다. 일반화와 고정관념은 ‘근거가 있고 범위를 밝혔는가(In my experience, Many·Some, often)’와 ‘한 사람·한 번의 경험으로 모두를 단정하는가(All, always, never)’로만 구별한다. 고쳐 쓰는 말은 중3에서 배운 Some, Many, Not all과 오늘 새로 쓰는 In my experience, ~ / Some people in ~ / often으로 한다. 성찰 문단은 한 문단(6~8문장)으로 쓰고, 문화 비교 에세이·통계 인용·문화 이론은 다루지 않는다(세계 문화 비교는 고2에서 한다). 자기 경험이 없으면 부모가 준비한 상황 카드로 쓴다. ‘일반화·고정관념·성찰’이라는 말은 화면에 뜻과 함께 쓴다.",
+  "boundary": "인사(고개 숙여 인사, 볼 인사, 포옹), 시간(저녁 식사 시각, 모임에 오는 시각), 개인 공간(이야기할 때 서는 거리)에 관한 문화 차이를 다룬 직접 쓴 성찰 글을 읽고, 자기 경험을 바탕으로 성찰 문단을 쓰는 것만 다룬다. 나라 이름은 글 속 인물의 경험으로만 쓰고(교환 학생 루시아의 고향 마을, 사촌의 캐나다 친구), 사실로 단정하지 않으며 in her town, many people ~ / Of course, not everyone ~처럼 범위를 밝힌다. 볼 인사와 늦은 저녁 식사처럼 널리 알려진 관습만 예로 쓰고, 사실이 불확실한 관습, 외모·성격·능력·종교·정치·성별에 대한 일반화는 예로도 쓰지 않는다. 공정한 말과 고정관념은 ‘한 사람의 일을 본 대로만 말했거나(One of my ~, When I met ~) 근거가 있고 범위를 밝혔는가(Many·Some, often)’와 ‘한 사람·한 번의 경험으로 모두를 단정하는가(All, always, never)’로만 구별한다. 고쳐 쓰는 말은 중3에서 배운 Some, Many, Not all과 오늘 새로 쓰는 One of my ~ / When I met ~ / Some people in ~ / often으로 한다. In my experience, ~는 성찰 문단에서 여러 번 겪어 알게 된 것을 말할 때만 쓴다. 성찰 문단은 한 문단(6~8문장)으로 쓰고, 문화 비교 에세이·통계 인용·문화 이론은 다루지 않는다(세계 문화 비교는 고2에서 한다). 자기 경험이 없으면 부모가 준비한 상황 카드로 쓴다. ‘일반화·고정관념·성찰’이라는 말은 화면에 뜻과 함께 쓴다.",
   "misconceptions": [
     {
       "id": "M1",
       "text": "한 사람이나 한 번의 경험으로 그 나라 사람 모두를 말한다(Lucía stood close, so all Spanish people stand close.).",
-      "response": "S03 표에서 근거와 범위를 기준으로 일반화와 고정관념을 나누고, S05와 활동지 1에서 In my experience, ~ / Some people in ~로 고쳐 쓰게 한다. 글의 마지막 문장(one friend can't show me a whole country)을 짚는다."
+      "response": "S03 표에서 본 대로 말하기·조심스러운 일반화·고정관념을 나누고, S05와 활동지 1에서 When I met ~ / Some people in ~로 고쳐 쓰게 한다. 글의 마지막 문장(one friend can't show me a whole country)을 짚는다."
     },
     {
       "id": "M2",
@@ -74,7 +74,7 @@
     {
       "id": "M3",
       "text": "고정관념을 피하려다 문화 차이가 아예 없다고 말하거나, 문화에 대해 아무 말도 하지 못한다.",
-      "response": "S03 표에서 근거가 있는 일반화(Many people in Korea bow to older people.)는 괜찮다는 것을 보여 주고, S04 ③에서 구별하게 한다."
+      "response": "S03 표에서 근거가 있고 범위를 밝힌 일반화(Many people in Korea bow to older people.)는 괜찮다는 것을 보여 주고, S04 ③에서 구별하게 한다."
     },
     {
       "id": "M4",
@@ -95,9 +95,9 @@
         "B"
       ],
       "title": "문화 차이 성찰하기",
-      "question": "“All Spanish people stand close.”\n“In my experience, Lucía stood close.”\n어느 문장이 더 공정할까?",
+      "question": "“All Spanish people stand close.”\n“When I met Lucía, she stood close.”\n어느 문장이 더 공정할까?",
       "goals": [
-        "① 일반화와 고정관념을 구별하고 공정한 문장으로 고쳐요.",
+        "① 공정한 말과 고정관념을 구별하고 공정하게 고쳐 써요.",
         "② 문화 차이를 겪은 경험을 성찰하는 문단을 써요."
       ],
       "figure": {
@@ -105,7 +105,7 @@
         "perRow": 1,
         "items": [
           {
-            "word": "In my experience, ~"
+            "word": "One of my friends ~"
           },
           {
             "word": "Some people in ~"
@@ -121,10 +121,10 @@
         "말하기": [
           "“처음 만난 사람이 볼에 입을 맞추며 인사하면 어떤 기분이 들까? 놀랄 수도 있지?”",
           "“오늘은 그런 경험을 한 서연이의 글을 읽고, 너도 비슷한 경험을 글로 써 볼 거야. 자기 경험과 생각을 돌아보는 것을 성찰이라고 해.”",
-          "“화면의 두 문장을 봐. 하나는 한 사람만 보고 모두를 말했고, 하나는 내 경험이라고 범위를 밝혔어. 어느 쪽이 더 공정할까?”"
+          "“화면의 두 문장을 봐. 하나는 한 사람만 보고 모두를 말했고, 하나는 내가 본 루시아의 일만 말했어. 어느 쪽이 더 공정할까?”"
         ],
         "예상답": [
-          "“In my experience로 시작하는 문장이요. 모두라고 하지 않았어요.”"
+          "“When I met Lucía로 시작하는 문장이요. 모두라고 하지 않았어요.”"
         ],
         "막히면": [
           "“한 반 친구 한 명이 늦게 왔다고 우리 반 모두가 늦는다고 하면 어때?”처럼 가까운 예로 묻습니다."
@@ -173,7 +173,7 @@
           "세 문제 가운데 두 개 이상 어려우면 S16(보충)을 먼저 합니다."
         ],
         "주의": [
-          "오늘은 여기에 In my experience, ~(내 경험으로는)와 Some people in ~(~의 어떤 사람들은)을 더해, 근거와 범위를 밝히는 말을 연습합니다."
+          "오늘은 여기에 One of my ~(내 ~ 가운데 한 명은), When I met ~(내가 ~를 만났을 때)처럼 본 대로만 말하는 법과 Some people in ~(~의 어떤 사람들은)을 더해 연습합니다."
         ]
       }
     },
@@ -181,61 +181,61 @@
       "id": "S03",
       "kind": "table",
       "section": "개념",
-      "purpose": "일반화와 고정관념의 구별",
+      "purpose": "공정한 말과 고정관념의 구별",
       "role": "teach",
       "objectives": [
         "A"
       ],
-      "title": "일반화와 고정관념",
-      "text": "근거가 있고 범위를 밝혔나요?",
+      "title": "공정한 말과 고정관념",
+      "text": "한 사람의 일은 본 대로, 여럿의 일(일반화)은 범위를 밝혀 말해요.",
       "table": {
         "headers": [
-          "",
-          "일반화 (조심스럽게)",
-          "고정관념 (단정)"
+          "말하는 방법",
+          "신호 말",
+          "예"
         ],
         "rows": [
           [
-            "근거",
-            "여러 경험·자료",
-            "한 사람, 한 번의 경험"
+            "본 대로 말하기\n(공정)",
+            "One of my ~,\nWhen I met ~",
+            "When I met Lucía,\nshe stood close."
           ],
           [
-            "신호 말",
-            "In my experience, Many,\nSome people in ~, often",
-            "All, always, never,\n~ people are ~"
+            "조심스러운 일반화\n(공정)",
+            "Many, Some people in ~,\noften, not everyone",
+            "Many people in Korea\nbow to older people."
           ],
           [
-            "예",
-            "Many people in Korea\nbow to older people.",
+            "고정관념\n(모두를 단정)",
+            "All, always, never,\n~ people are ~",
             "All Spanish people\nstand close."
           ]
         ],
         "widths": [
-          0.16,
-          0.44,
-          0.4
+          0.27,
+          0.38,
+          0.35
         ],
         "width": 12.13,
         "size": 24
       },
-      "key": "일반화: 범위를 밝혀 조심스럽게,  고정관념: 모두를 단정",
+      "key": "‘모두 ~하다’라고 단정하면 고정관념이에요.",
       "notes": {
-        "목적": "근거가 있고 범위를 밝힌 조심스러운 일반화와, 한 사람·한 번의 경험으로 모두를 단정하는 고정관념을 표로 구별합니다(목표 A, 오해 M1·M3).",
+        "목적": "한 사람의 일을 본 대로 말하기, 근거가 있고 범위를 밝힌 조심스러운 일반화, 한 사람·한 번의 경험을 모두로 넓혀 단정하는 고정관념을 표로 구별합니다(목표 A, 오해 M1·M3).",
         "시간": "약 3분",
         "말하기": [
-          "“일반화는 많은 경우를 보고 ‘많은 사람이 ~하는 편이다’라고 말하는 거야. 근거가 있고, Many, Some, often처럼 범위를 밝혀.”",
-          "“고정관념은 한 사람이나 한 번 본 것으로 ‘그 나라 사람은 모두 ~해’라고 단정하는 거야. All, always, never가 자주 나와.”",
-          "“문화 이야기를 아예 하지 말라는 게 아니야. Many people in Korea bow to older people.은 널리 알려진 사실이고 범위도 밝혔지? 이건 괜찮아.”"
+          "“루시아 한 명이 가까이 섰다면 본 대로만 말하면 돼. When I met Lucía, she stood close. 한 사람의 일을 그 사람의 일로 말했으니 공정해.”",
+          "“일반화는 여러 사람을 보고 ‘많은 사람이 ~하는 편이다’라고 말하는 거야. Many, Some, often처럼 범위를 밝히면 괜찮아. Many people in Korea bow to older people.은 널리 알려진 사실이고 범위도 밝혔지?”",
+          "“고정관념은 한 사람이나 한 번 본 것을 ‘그 나라 사람은 모두 ~해’라고 넓혀서 단정하는 거야. All, always, never가 자주 나와.”"
         ],
         "예상답": [
-          "“일반화는 Many, Some을 써요.” “고정관념은 All, always를 써요.”"
+          "“한 사람의 일은 본 대로만 말해요.” “일반화는 Many, Some을 써요.” “고정관념은 All, always를 써요.”"
         ],
         "막히면": [
-          "표의 두 예문을 나란히 읽고 “어느 문장이 ‘모두’라고 말해?”라고 묻습니다."
+          "표의 첫째 줄과 셋째 줄 예문을 나란히 읽고 “어느 문장이 ‘모두’라고 말해? 어느 문장이 본 것만 말해?”라고 묻습니다."
         ],
         "주의": [
-          "일반화도 조심해서 써야 합니다. 그래서 In my experience(내 경험으로는)처럼 근거를 밝히고, Of course, not everyone ~.(물론 모두가 그런 건 아니다)을 덧붙이면 더 공정합니다.",
+          "일반화도 조심해서 써야 합니다. Of course, not everyone ~.(물론 모두가 그런 건 아니다)을 덧붙이면 더 공정합니다. In my experience(내 경험으로는)는 In my experience, people show kindness in different ways.처럼 여러 번 겪어 알게 된 것을 말할 때 씁니다.",
           "고정관념을 피하려다 ‘문화 차이는 없다’고 말하는 것도 실제와 맞지 않습니다(오해 M3). 차이를 말하되 범위를 밝히는 것이 핵심입니다."
         ]
       }
@@ -244,19 +244,19 @@
       "id": "S04",
       "kind": "practice",
       "section": "연습",
-      "purpose": "일반화인지 고정관념인지 구별하기",
+      "purpose": "공정한 말인지 고정관념인지 구별하기",
       "role": "practice",
       "objectives": [
         "A"
       ],
       "title": "어느 쪽일까요?",
-      "text": "신호 말에 동그라미를 치고 구별해요.",
+      "text": "공정한 말인지 고정관념인지 구별해요. 신호 말에 동그라미!",
       "problems": [
         {
           "text": "All Koreans eat kimchi\nevery day."
         },
         {
-          "text": "In my experience, my friend\nfrom Brazil liked to hug."
+          "text": "One of my friends from\nBrazil liked to hug."
         },
         {
           "text": "Many people in Japan bow\nwhen they say thank you."
@@ -266,22 +266,23 @@
         }
       ],
       "notes": {
-        "목적": "네 문장이 조심스러운 일반화인지 고정관념인지 신호 말과 근거를 보고 구별합니다(목표 A, 오해 M1·M3). 활동지 1에 비슷한 문제가 있습니다.",
+        "목적": "네 문장이 공정한 말(본 대로 말하기·조심스러운 일반화)인지 고정관념인지 신호 말과 근거를 보고 구별합니다(목표 A, 오해 M1·M3). 활동지 1에 비슷한 문제가 있습니다.",
         "시간": "약 2분",
         "말하기": [
-          "“문장마다 신호 말에 동그라미를 치고, 일반화인지 고정관념인지 말해 줘. 왜 그런지도.”"
+          "“문장마다 신호 말에 동그라미를 치고, 공정한 말인지 고정관념인지 말해 줘. 왜 그런지도.”"
         ],
         "정답": [
           "① 고정관념 (All, every day — 모두를 단정)",
-          "② 일반화 (In my experience — 내 경험이라고 범위를 밝힘)",
-          "③ 일반화 (Many people in Japan — 범위를 밝혔고 널리 알려진 사실)",
+          "② 공정한 말 (One of my friends — 친구 한 명의 일을 본 대로만 말함)",
+          "③ 공정한 말 (Many people in Japan — 범위를 밝혔고 널리 알려진 사실)",
           "④ 고정관념 (never — 모두를 단정)"
         ],
         "막히면": [
-          "“이 문장은 ‘모두’라고 말해, ‘많은’이나 ‘내 경험’이라고 말해?”를 먼저 묻습니다."
+          "“이 문장은 ‘모두’라고 말해, ‘많은 사람’이나 ‘내 친구 한 명’이라고 말해?”를 먼저 묻습니다."
         ],
         "주의": [
-          "②의 hug는 ‘껴안다’, ③의 bow는 ‘고개 숙여 인사하다’입니다. ③을 고정관념이라고 하면 S03의 열쇠 문장을 다시 보며 ‘범위를 밝힌 일반화는 괜찮다’는 것을 짚습니다(오해 M3)."
+          "②의 hug는 ‘껴안다’, ③의 bow는 ‘고개 숙여 인사하다’입니다. ②는 친구 한 명의 일을 그대로 말해서 공정합니다. 여기에 so all Brazilians like to hug.를 붙이면 고정관념이 됩니다.",
+          "③을 고정관념이라고 하면 S03 표의 둘째 줄을 다시 보며 ‘범위를 밝힌 일반화는 괜찮다’는 것을 짚습니다(오해 M3)."
         ]
       }
     },
@@ -307,24 +308,24 @@
           "text": "People in big cities\nare always busy."
         }
       ],
-      "hint": "All, always, never, everyone  →  Many, Some, often, In my experience",
+      "hint": "All, always, everyone → Many, Some, often     한 사람의 일 → 본 대로만",
       "notes": {
-        "목적": "고정관념이 담긴 문장을 근거와 범위를 밝힌 문장(Many·Some people in ~, In my experience, ~, often)으로 고칩니다(목표 A, 오해 M1). 활동지 1에 비슷한 문제가 있습니다.",
+        "목적": "고정관념이 담긴 문장을 범위를 밝힌 문장(Many·Some people in ~, often)이나 본 대로만 말한 문장(When I met ~, One of my ~)으로 고칩니다(목표 A, 오해 M1). 활동지 1에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
         "말하기": [
           "“모두를 단정하는 말을 찾아서, 범위를 밝히는 말로 고쳐 말해 줘.”"
         ],
         "정답": [
           "① Many people in Korea bow to older people. (everyone → Many people, 범위도 older people로)",
-          "② In my experience, Lucía stood close when she talked. (한 사람의 경험이라고 밝힘)",
+          "② When I met Lucía, she stood close. / Lucía stood close when we talked. (so 뒤를 빼고 한 사람의 일로만 말함)",
           "③ Some people in big cities are very busy. / People in big cities are often busy.",
-          "기준: All, always, never, everyone을 빼고 Many·Some·often·In my experience로 범위를 밝히면 맞습니다. 반대로 단정하는 문장(Koreans never bow.)으로 바꾸면 다시 생각하게 합니다."
+          "기준: All, always, never, everyone을 빼고 Many·Some·often으로 범위를 밝히거나, 한 사람의 일은 본 대로만 쓰면 맞습니다. 반대로 단정하는 문장(Koreans never bow.)으로 바꾸면 다시 생각하게 합니다."
         ],
         "막히면": [
-          "S03 표의 신호 말 칸을 가리키며 “왼쪽 칸의 말로 바꿔 볼래?”라고 묻습니다."
+          "S03 표의 신호 말 칸을 가리키며 “위 두 줄의 말로 바꿔 볼래?”라고 묻습니다."
         ],
         "주의": [
-          "②처럼 경험한 사람이 한 명이면 Some people도 크게 말한 것일 수 있습니다. 그럴 때는 In my experience, (그 사람) ~.처럼 경험 그대로 쓰는 것이 가장 공정합니다."
+          "②처럼 본 사람이 한 명이면 Some people도 크게 말한 것일 수 있습니다. 그럴 때는 When I met Lucía, she stood close.처럼 그 사람의 일로만 쓰는 것이 가장 공정합니다."
         ]
       }
     },
@@ -628,8 +629,8 @@
         "정답": [
           "경험 예: In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug.",
           "처음 생각 예: At first, I thought it was strange because I usually just say hello.",
-          "다른 관점의 까닭 예: But my cousin said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs.",
-          "배운 점 예: Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country from one person. (잘 쓴 예 전체 89낱말)",
+          "다른 관점의 까닭 예: But he said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs.",
+          "배운 점 예: Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country by one person. (잘 쓴 예 전체 88낱말)",
           "기준(점검표 5항목): ① 네 부분(경험·처음 생각·다른 관점의 까닭·배운 점) ② 6~8문장 ③ 조심스러운 말 하나 이상(In my experience, Many·Some people, Of course, not everyone ~) ④ All·always·never로 한 나라 사람 모두를 단정하는 문장이 없음 ⑤ 대문자·마침표·주어와 동사. 다섯 가운데 네 개 이상이면 통과입니다."
         ],
         "막히면": [
@@ -661,7 +662,7 @@
           "text": "At first, I thought it was strange."
         },
         {
-          "text": "But my cousin said that many of his\nfriends hug to show they are happy."
+          "text": "But he said that many of his\nfriends hug to show they are happy."
         },
         {
           "text": "Of course, not everyone in Canada hugs."
@@ -692,7 +693,7 @@
           "“제 글에도 At first, I thought가 있어요.” “배운 점이 빠졌어요.”"
         ],
         "정답": [
-          "잘 쓴 예: In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug. At first, I thought it was strange because I usually just say hello. But my cousin said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs. Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country from one person."
+          "잘 쓴 예: In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug. At first, I thought it was strange because I usually just say hello. But he said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs. Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country by one person."
         ],
         "막히면": [
           "부분이 빠졌으면 S09, 단정하는 문장이 있으면 S03·S05를 다시 봅니다."
@@ -718,13 +719,13 @@
           "text": "People in that country are always late."
         },
         {
-          "text": "In my experience, my friend from there was often late."
-        },
-        {
           "text": "Everyone in Korea bows to everyone."
         },
         {
           "text": "People who stand close are rude."
+        },
+        {
+          "text": "One of my friends from there was often late."
         }
       ],
       "question": "가장 공정한 문장은? 나머지는 무엇이 문제인가요?",
@@ -735,12 +736,12 @@
           "“가장 공정한 문장을 고르고, 나머지는 무엇이 문제인지 말해 줘.”"
         ],
         "정답": [
-          "나 In my experience, my friend from there was often late. (내 경험으로는 그곳 출신 내 친구가 자주 늦었다: 한 사람의 경험이라고 범위를 밝힘)",
-          "가: always로 그 나라 사람 모두를 단정(고정관념) / 다: Everyone으로 모두를 단정 / 라: 서는 거리만 보고 무례하다고 판단",
-          "기준: 나를 고르고 나머지 가운데 둘 이상의 문제를 말하면 통과입니다."
+          "라 One of my friends from there was often late. (그곳 출신 내 친구 한 명이 자주 늦었다: 한 사람의 일을 본 대로만 말함)",
+          "가: always로 그 나라 사람 모두를 단정(고정관념) / 나: Everyone으로 모두를 단정 / 다: 서는 거리만 보고 무례하다고 판단",
+          "기준: 라를 고르고 나머지 가운데 둘 이상의 문제를 말하면 통과입니다."
         ],
         "막히면": [
-          "신호 말(always, Everyone, In my experience)에 동그라미를 치게 합니다."
+          "신호 말(always, Everyone, One of my friends)에 동그라미를 치게 합니다."
         ],
         "주의": [
           "틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S03 표를 다시 봅니다."
@@ -758,12 +759,12 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "일반화: 범위를 밝혀 조심스럽게 (In my experience, Many, Some, often)\n고정관념: 모두를 단정 (All, always, never)",
+      "key": "공정한 말: 본 대로만, 범위를 밝혀 (One of my ~, Many, Some, often)\n고정관념: 모두를 단정 (All, always, never)",
       "do": "그 사람의 관점에서 까닭 찾기",
       "dont": "한 사람으로 나라 전체 말하기",
       "review": [
         {
-          "text": "일반화와 고정관념의\n차이는?"
+          "text": "공정한 말과 고정관념의\n차이는?"
         },
         {
           "text": "성찰 글의\n네 부분은?"
@@ -777,16 +778,16 @@
         "목적": "핵심을 정리하고 다음 수업 첫 5분에 풀 복습을 알려 줍니다.",
         "시간": "약 2분",
         "말하기": [
-          "“일반화와 고정관념은 어떻게 달라?”",
+          "“공정한 말과 고정관념은 어떻게 달라?”",
           "“성찰 글의 네 부분은?”"
         ],
         "예상답": [
-          "“일반화는 범위를 밝히고, 고정관념은 모두를 단정해요.” “경험, 처음 생각, 다른 관점의 까닭, 배운 점이요.”"
+          "“공정한 말은 본 대로만 말하거나 범위를 밝히고, 고정관념은 모두를 단정해요.” “경험, 처음 생각, 다른 관점의 까닭, 배운 점이요.”"
         ],
         "정답": [
-          "① 일반화는 근거와 범위를 밝힘(In my experience, Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정함(All, always, never)",
+          "① 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝힘(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정함(All, always, never)",
           "② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점",
-          "③ In my experience, Lucía stood close when she talked. (또는 Some people in Lucía's town ~)"
+          "③ When I met Lucía, she stood close. (또는 Some people in Lucía's town stand close when they talk.)"
         ],
         "주의": [
           "뉴스나 영상에서 ‘○○ 사람들은 모두 ~’ 같은 말을 들으면 함께 고쳐 말해 보면 좋은 복습이 됩니다. 고1 영어 차시는 여기까지입니다. 고2 첫 영어 차시 ‘가정법 과거완료’에서는 지난 일과 반대되는 상상을 말하는 방법을 배웁니다."
@@ -802,11 +803,11 @@
       "objectives": [],
       "title": "보충: ‘모두’ 없이 말하기",
       "layout": "support",
-      "text": "모두를 단정하는 말을 범위를 밝히는 말로 바꿔요.",
+      "text": "모두를 단정하는 말을 공정한 말로 바꿔요.",
       "table": {
         "headers": [
           "모두를 단정해요",
-          "범위를 밝혀요"
+          "공정하게 말해요"
         ],
         "rows": [
           [
@@ -823,7 +824,7 @@
           ],
           [
             "(한 사람을 보고) ~ people are ~",
-            "In my experience, (그 사람) ~"
+            "One of my ~ / When I met ~ (그 사람만)"
           ]
         ],
         "widths": [
@@ -862,49 +863,49 @@
     "items": [
       {
         "no": 1,
-        "prompt": "일반화(조심스럽게)인지 고정관념(단정)인지 ○ 하고, 고정관념이면 공정하게 고쳐 쓰세요.",
+        "prompt": "공정한 말인지 고정관념(모두를 단정)인지 ○ 하고, 고정관념이면 공정하게 고쳐 쓰세요.",
         "table": {
           "headers": [
             "문장",
-            "일반화 / 고정관념",
+            "공정한 말 / 고정관념",
             "고쳐 쓰기"
           ],
           "rows": [
             [
               "① All Koreans eat rice three times a day.",
-              "일반화 / 고정관념",
+              "공정한 말 / 고정관념",
               ""
             ],
             [
-              "② In my experience, my aunt's friend from Mexico loved spicy food.",
-              "일반화 / 고정관념",
+              "② One of my aunt's friends from Mexico loved spicy food.",
+              "공정한 말 / 고정관념",
               ""
             ],
             [
               "③ Many people in Korea take off their shoes at home.",
-              "일반화 / 고정관념",
+              "공정한 말 / 고정관념",
               ""
             ],
             [
               "④ People from big cities never say hello to their neighbors.",
-              "일반화 / 고정관념",
+              "공정한 말 / 고정관념",
               ""
             ],
             [
               "⑤ My classmate came late once, so people from his town are always late.",
-              "일반화 / 고정관념",
+              "공정한 말 / 고정관념",
               ""
             ]
           ],
           "widths": [
-            0.46,
-            0.2,
-            0.34
+            0.44,
+            0.24,
+            0.32
           ],
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 고정관념 → Many people in Korea eat rice often. / Not all Koreans eat rice three times a day. ② 일반화(내 경험이라고 범위를 밝힘) ③ 일반화(범위를 밝힌 널리 알려진 사실) ④ 고정관념 → Some people in big cities don't often say hello to their neighbors. ⑤ 고정관념 → In my experience, my classmate came late once. 다섯 개 구별 가운데 네 개 이상, 고쳐 쓰기 세 개 가운데 두 개 이상이 범위를 밝힌 문장이면 통과. (neighbor: 이웃)"
+        "answer": "① 고정관념 → Many people in Korea eat rice often. / Not all Koreans eat rice three times a day. ② 공정한 말(한 사람의 일을 본 대로만 말함) ③ 공정한 말(범위를 밝힌 널리 알려진 사실) ④ 고정관념 → Some people in big cities don't often say hello to their neighbors. ⑤ 고정관념 → My classmate came late once. (so 뒤를 빼고 한 사람의 일로만 말함) 다섯 개 구별 가운데 네 개 이상, 고쳐 쓰기 세 개 가운데 두 개 이상이 공정한 문장(범위를 밝히거나 본 대로만 말함)이면 통과. (neighbor: 이웃)"
       },
       {
         "no": 2,
@@ -947,13 +948,13 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "아이의 경험이면 무엇이든 됩니다. 예: ① last year, cousin's friend from Canada, big hug ② strange, surprised ③ many of his friends hug to show they are happy ④ different, not wrong; can't judge a whole country from one person. 네 칸이 모두 있고 ③을 그 사람의 관점에서 쓰면 통과."
+        "answer": "아이의 경험이면 무엇이든 됩니다. 예: ① last year, cousin's friend from Canada, big hug ② strange, surprised ③ many of his friends hug to show they are happy ④ different, not wrong; can't judge a whole country by one person. 네 칸이 모두 있고 ③을 그 사람의 관점에서 쓰면 통과."
       },
       {
         "no": 4,
         "prompt": "개요를 보고 성찰 문단을 쓰세요(6~8문장). In my experience, ~ / At first, I thought ~ / Now I understand that ~ / I learned that ~을 써 보세요.",
         "lines": 10,
-        "answer": "잘 쓴 예(89낱말): In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug. At first, I thought it was strange because I usually just say hello. But my cousin said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs. Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country from one person. 기준(점검표 5항목): 네 부분 / 6~8문장 / 조심스러운 말 하나 이상 / All·always·never로 한 나라 사람 모두를 단정하지 않음 / 대문자·마침표·주어와 동사. 다섯 가운데 네 개 이상이면 통과."
+        "answer": "잘 쓴 예(88낱말): In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug. At first, I thought it was strange because I usually just say hello. But he said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs. Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country by one person. 기준(점검표 5항목): 네 부분 / 6~8문장 / 조심스러운 말 하나 이상 / All·always·never로 한 나라 사람 모두를 단정하지 않음 / 대문자·마침표·주어와 동사. 다섯 가운데 네 개 이상이면 통과."
       },
       {
         "no": 5,
@@ -998,9 +999,9 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 일반화와 고정관념의 차이를 쓰세요.\n② 성찰 글의 네 부분을 순서대로 쓰세요.\n③ All Spanish people stand close.를 공정하게 고쳐 쓰세요.",
+        "prompt": "① 공정한 말과 고정관념의 차이를 쓰세요.\n② 성찰 글의 네 부분을 순서대로 쓰세요.\n③ All Spanish people stand close.를 공정하게 고쳐 쓰세요.",
         "lines": 3,
-        "answer": "① 일반화는 근거와 범위를 밝혀 조심스럽게 말하고(In my experience, Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정한다(All, always, never). ② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점 ③ In my experience, Lucía stood close when she talked. / Some people in Lucía's town stand close when they talk. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝혀 조심스럽게 말하며(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정한다(All, always, never). ② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점 ③ When I met Lucía, she stood close. / Some people in Lucía's town stand close when they talk. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
