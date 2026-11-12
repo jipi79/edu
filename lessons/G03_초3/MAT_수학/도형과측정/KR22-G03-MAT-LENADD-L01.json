@@ -1464,7 +1464,7 @@
       "claim": "8 cm 2 mm − 3 cm 5 mm를 계산했어요.",
       "left": {
         "title": "토끼: 4 cm 7 mm",
-        "text": "1 cm를 10 mm로 받아내려\nmm: 12 − 5 = 7\ncm: 7 − 3 = 4"
+        "text": "1 cm를 10 mm로 받아내려요.\nmm: 12 − 5 = 7\ncm: 7 − 3 = 4"
       },
       "right": {
         "title": "곰: 5 cm 3 mm",
@@ -1894,7 +1894,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "같은 단위끼리 계산하고, 10 mm = 1 cm, 1000 m = 1 km로 바꾸어요.",
+      "key": "같은 단위끼리 계산해요.\n10 mm = 1 cm, 1000 m = 1 km로 바꾸어요.",
       "do": "1 cm는 10 mm로 받아내리기",
       "dont": "7 cm 13 mm처럼 두기",
       "review": [
