@@ -293,7 +293,7 @@ const KINDS = {
     if (spec.criteria) {
       const [l, right] = split(r, 0.55);
       left = l;
-      const card = { tone: "tint", title: spec.criteriaTitle || "이렇게 하면 잘한 거예요", items: spec.criteria.map((c) => `☐ ${c}`) };
+      const card = { tone: "tint", title: spec.criteriaTitle || (deck.teen ? "스스로 확인하기" : "이렇게 하면 잘한 거예요"), items: spec.criteria.map((c) => `☐ ${c}`) };
       if (figureOf(spec)) {
         // 그림과 관찰 기준을 함께: 오른쪽 위에 그림, 아래에 기준 카드
         const ch = Math.min(right.h * 0.55, deck.cardHeight(card, right.w));
@@ -345,7 +345,7 @@ const KINDS = {
     }
     const nextH = spec.next ? 0.55 : 0;
     if (spec.review && spec.review.length) {
-      deck.para(slide, spec.id, "다음 수업을 시작할 때 다시 풀어요", { x: r.x, y, w: r.w, h: 0.5 }, { sizes: [deck.style.small], bold: true, color: "onDark" });
+      deck.para(slide, spec.id, deck.teen ? "다음 수업을 시작할 때 다시 풀어 보자" : "다음 수업을 시작할 때 다시 풀어요", { x: r.x, y, w: r.w, h: 0.5 }, { sizes: [deck.style.small], bold: true, color: "onDark" });
       y += 0.55;
       const h = r.y + r.h - y - nextH - 0.15;
       const n = spec.review.length;

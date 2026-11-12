@@ -10,7 +10,7 @@
 2. `references/authoring.md` — 원본 형식(장 종류, 그림, 글의 양, 정답 검산, 활동지). 그대로 따른다.
 3. `references/home-tutoring.md`, `references/lesson-design.md`
 4. `references/subjects/` 의 해당 과목 파일
-5. 맡은 차시 바로 앞의 완성된 차시(없으면 받은 견본). 구조, 아이용 화면 말투(짧은 해요체), 부모용 노트의 자세함을 맞춘다.
+5. 맡은 차시 바로 앞의 완성된 차시(없으면 받은 견본). 구조, 아이용 화면 말투(초등은 짧은 해요체, 중·고는 교과서식 — `tone-by-age.md`), 부모용 노트의 자세함을 맞춘다.
 6. `plans/<학교급>/plan.json`(초등 elementary, 중등 middle)의 맡은 차시와 그 다음 차시(정리 장의 `next` 는 계획상 다음 차시 제목)
 
 ## 차시마다

@@ -33,7 +33,7 @@ PPTX를 직접 고치지 않는다. 원본을 고치고 다시 생성한다.
 2. **분할·계획**: 초등은 `plans/elementary/G0N.txt` 에 차시가 이미 나뉘어 있다. 차시를 더하거나 고칠 때는 이 파일을 고치고 `python3 -I tools/plan/build_plan.py` 로 검사한다(ID·단원·선수 차시·순환). 중·고는 같은 형식으로 새 계획 파일을 만든다.
 3. **뼈대**: `python3 -I tools/plan/new_lesson.py <수업 ID>` 가 계획에서 원본 뼈대를 만든다(메타데이터·교육과정 연결·선수 차시).
 4. **목표**: 목표마다 확인 방법(학습 증거)과 성공 기준을 먼저 쓴다. `references/lesson-design.md`.
-5. **원고**: 장·활동지를 쓴다. 장 종류와 그림, 글의 양, 정답 검산은 `references/authoring.md`, 과목별 규칙은 `references/subjects/` 의 해당 파일만 읽는다. 내용 JSON을 따로 쓰고 `python3 -I tools/plan/fill_lesson.py <뼈대> <내용>` 으로 합쳐도 된다.
+5. **원고**: 장·활동지를 쓴다. 장 종류와 그림, 글의 양, 정답 검산은 `references/authoring.md`, 과목별 규칙은 `references/subjects/` 의 해당 파일만 읽는다. 아이가 보는 글의 말투·문장 길이·등장인물은 나이에 맞춘다(`references/tone-by-age.md`: 초등은 해요체, 중·고는 교과서식). 내용 JSON을 따로 쓰고 `python3 -I tools/plan/fill_lesson.py <뼈대> <내용>` 으로 합쳐도 된다.
 6. **검사·제작**: `tools/build_one.sh <원본>` (원고 검사 → PPTX 2벌 → 활동지·안내 PDF → 출력 검사). 글이 넘치거나 검사가 실패하면 원고를 고쳐 다시 돌린다.
 7. **화면 검증**: `python3 -I tools/preview.py <원본> <임시 폴더>` 로 모든 장의 미리보기를 만들어 직접 본다(넘침·겹침·잘림·숫자와 단위가 갈라진 줄바꿈·그림과 설명의 불일치). `references/visuals-and-qa.md`.
 8. **등록**: 원본 `status` 를 "제작 완료"로 두고 `tools/build.sh <원본…>` 으로 목차(`lessons/INDEX.md`)와 계획 현황을 갱신한 뒤 커밋한다. 검사하지 못한 항목은 통과로 적지 않는다.

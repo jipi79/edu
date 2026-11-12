@@ -39,6 +39,7 @@ class Deck {
     this.lesson = lesson;
     this.variant = variant;
     this.style = BAND[lesson.band] || BAND.E56;
+    this.teen = lesson.band === "M" || lesson.band === "H"; // 중·고는 도구가 넣는 문구도 교과서식으로
     this.font = FONT;
     this.alt = new Map(); // objectName → 대체 설명
     this.problems = [];
