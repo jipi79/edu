@@ -6166,7 +6166,7 @@
    "8.5.3"
   ],
   "title": "네트워크와 정보 전달",
-  "objective": "주소와 패킷으로 정보가 전달되는 과정을 쪽지 전달 놀이로 재현하고 설명한다.",
+  "objective": "주소와 패킷으로 정보가 전달되는 과정을 쪽지 전달 활동로 재현하고 설명한다.",
   "format": "ppt",
   "priority": 3,
   "pre": [
@@ -9351,7 +9351,7 @@
   ],
   "file_stem": "중3_과학_운동과생명_09_사람의유전과가계도",
   "source": "lessons/G09_중3/SCI_과학/운동과생명/KR22-G09-SCI-HUMANHERED-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G09-SCI-DISASTER-L01",
