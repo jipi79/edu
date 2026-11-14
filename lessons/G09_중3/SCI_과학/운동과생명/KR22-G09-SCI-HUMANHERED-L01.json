@@ -2333,7 +2333,7 @@
               -1.04
             ],
             "text": "Aa",
-            "size": "label",
+            "size": "small",
             "bold": true,
             "color": "info"
           },
@@ -2352,7 +2352,7 @@
               -1.04
             ],
             "text": "Aa",
-            "size": "label",
+            "size": "small",
             "bold": true,
             "color": "info"
           },
@@ -2370,8 +2370,8 @@
               0.6,
               -3.04
             ],
-            "text": "AA 또는 Aa",
-            "size": "label",
+            "text": "AA 또는 Aa",
+            "size": "small",
             "bold": true,
             "color": "info"
           },
@@ -2390,7 +2390,7 @@
               -3.04
             ],
             "text": "aa",
-            "size": "label",
+            "size": "small",
             "bold": true,
             "color": "info"
           },
@@ -2408,8 +2408,8 @@
               5.2,
               -3.04
             ],
-            "text": "AA 또는 Aa",
-            "size": "label",
+            "text": "AA 또는 Aa",
+            "size": "small",
             "bold": true,
             "color": "info"
           },
@@ -2428,7 +2428,7 @@
               -5.04
             ],
             "text": "Aa",
-            "size": "label",
+            "size": "small",
             "bold": true,
             "color": "info"
           },
@@ -2447,18 +2447,18 @@
               -5.04
             ],
             "text": "Aa",
-            "size": "label",
+            "size": "small",
             "bold": true,
             "color": "info"
           }
         ],
         "points": {
           "_a": [
-            -0.4,
+            -0.25,
             -5.3
           ],
           "_b": [
-            6.2,
+            6.05,
             0.43999999999999995
           ]
         },

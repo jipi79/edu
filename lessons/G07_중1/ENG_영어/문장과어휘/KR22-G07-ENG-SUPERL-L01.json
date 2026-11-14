@@ -674,7 +674,7 @@
         "A"
       ],
       "title": "the most tallest일까?",
-      "claim": "‘칼이 셋 가운데 가장 키가 크다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘칼이 셋 가운데 가장 키가 크다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -808,8 +808,8 @@
       "steps": [
         "물건 세 개를 골라 나란히 놓는다.",
         "들어 보고 견주어 가장 ~한 것을 찾는다.",
-        "부모가 묻는다: Which is the heaviest?",
-        "아이가 답한다: This book is the heaviest of the three.",
+        "부모님이 묻는다: Which is the heaviest?",
+        "내가 답한다: This book is the heaviest of the three.",
         "가족으로도 한다: My dad is the tallest in my family."
       ],
       "criteria": [

@@ -426,10 +426,10 @@
       "title": "일부러 헷갈리기 역할극",
       "steps": [
         "종이 네 장에 짝을 쓴다: 13 / 30, 15 / 50, Tuesday / Thursday, flour / flower",
-        "부모가 카드로 말한다: My brother is thirteen.",
-        "아이가 확인한다: Do you mean thirty?",
-        "부모가 바로잡는다: No, I mean thirteen.",
-        "역할을 바꾼다. 이번엔 부모가 일부러 잘못 알아듣는다."
+        "부모님이 카드로 말한다: My brother is thirteen.",
+        "내가 확인한다: Do you mean thirty?",
+        "부모님이 바로잡는다: No, I mean thirteen.",
+        "역할을 바꾼다. 이번엔 부모님이 일부러 잘못 알아듣는다."
       ],
       "criteria": [
         "Do you mean ~?으로 확인했다",
