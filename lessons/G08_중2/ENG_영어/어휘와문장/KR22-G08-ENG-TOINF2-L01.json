@@ -367,7 +367,7 @@
         "A"
       ],
       "title": "‘잘 시간이다’를 영어로",
-      "claim": "‘잘 시간이다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘잘 시간이다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -645,10 +645,10 @@
       ],
       "title": "말하기: 필요한 것, 하러 가는 곳",
       "steps": [
-        "부모가 상황을 말한다: I'm hungry.",
-        "아이가 답한다:\nYou need something to eat.",
-        "부모가 장소를 말한다: the library",
-        "아이가 목적을 붙인다:\nI go to the library to read.",
+        "부모님이 상황을 말한다: I'm hungry.",
+        "내가 답한다:\nYou need something to eat.",
+        "부모님이 장소를 말한다: the library",
+        "내가 목적을 붙인다:\nI go to the library to read.",
         "역할을 바꿔서 한다."
       ],
       "criteria": [

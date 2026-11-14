@@ -435,7 +435,7 @@
         "B"
       ],
       "title": "한쪽만 맞을까?",
-      "claim": "두 글을 읽고 두 친구가 이렇게 말했다.",
+      "claim": "두 글을 읽고 두 학생이 이렇게 말했다.",
       "left": {
         "title": "가",
         "text": "두 글은 관점이 달라요.\n글 A는 수업을, 글 B는\n연락을 중요하게 봐요."
@@ -532,10 +532,10 @@
       ],
       "title": "글쓴이 인터뷰",
       "steps": [
-        "부모가 Dana(학생 기자)가 된다.\n아이: What do you think about the rule?",
-        "아이: Why do you think so?\n부모가 글 A의 근거로 답한다.",
-        "부모가 Ms. Yoon(학부모)이 되어\n같은 질문에 답한다.",
-        "아이가 비교표를 보며 설명한다:\nBoth writers ~. However, ~.",
+        "부모님이 Dana(학생 기자)가 된다.\n아이: What do you think about the rule?",
+        "아이: Why do you think so?\n부모님이 글 A의 근거로 답한다.",
+        "부모님이 Ms. Yoon(학부모)이 되어\n같은 질문에 답한다.",
+        "내가 비교표를 보며 설명한다:\nBoth writers ~. However, ~.",
         "부모: What do you think?\n아이: I think ~ because ~."
       ],
       "criteria": [

@@ -432,7 +432,7 @@
         "A"
       ],
       "title": "last year와 함께 쓸까?",
-      "claim": "‘작년에 부산에 가 봤다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘작년에 부산에 가 봤다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -578,7 +578,7 @@
         "아이: Yes, I have.\nI have been to ~.",
         "부모: When did you go?\nWho did you go with?",
         "부모: What did you do first?\nThen?",
-        "부모: How was it?\n→ 아이가 답하고 개요표에 적는다."
+        "부모: How was it?\n→ 내가 답하고 개요표에 적는다."
       ],
       "criteria": [
         "현재완료로 경험을 말했다",

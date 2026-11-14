@@ -454,7 +454,7 @@
         "A"
       ],
       "title": "‘비 때문에’를 영어로",
-      "claim": "‘비 때문에 집에 있었다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘비 때문에 집에 있었다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -606,10 +606,10 @@
       ],
       "title": "말하기: 왜 그랬어?",
       "steps": [
-        "부모가 한 일을 말한다:\nI opened the window.",
-        "아이가 묻는다:\nWhy did you open the window?",
-        "부모가 답한다: Because it was hot.",
-        "아이가 because와 so로\n한 문장씩 이어 말한다.",
+        "부모님이 한 일을 말한다:\nI opened the window.",
+        "내가 묻는다:\nWhy did you open the window?",
+        "부모님이 답한다: Because it was hot.",
+        "내가 because와 so로\n한 문장씩 이어 말한다.",
         "역할을 바꿔서 한다."
       ],
       "criteria": [

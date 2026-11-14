@@ -595,7 +595,7 @@
         "B"
       ],
       "title": "Many일까, Some일까?",
-      "claim": "자료(20명 가운데 5명)를 보고 두 친구가 광고를 고쳐 썼다.",
+      "claim": "자료(20명 가운데 5명)를 보고 두 학생이 광고를 고쳐 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -720,10 +720,10 @@
       ],
       "title": "광고 회의 역할극",
       "steps": [
-        "부모는 광고를 만드는 사람,\n아이는 문구를 살피는 사람이 된다.",
-        "부모가 광고 문구 카드를 읽는다:\nAll Koreans love K-pop!",
-        "아이가 자료 카드를 보고 말한다:\nNot all ~. Look at the data.",
-        "아이가 고친 문구를 제안한다:\nWhy don't we say, “~”?",
+        "부모님은 광고를 만드는 사람,\n나는 문구를 살피는 사람이 된다.",
+        "부모님이 광고 문구 카드를 읽는다:\nAll Koreans love K-pop!",
+        "내가 자료 카드를 보고 말한다:\nNot all ~. Look at the data.",
+        "내가 고친 문구를 제안한다:\nWhy don't we say, “~”?",
         "역할을 바꾼다."
       ],
       "criteria": [

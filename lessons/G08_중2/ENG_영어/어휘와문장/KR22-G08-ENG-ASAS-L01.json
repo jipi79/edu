@@ -498,7 +498,7 @@
         "A"
       ],
       "title": "as bigger as일까?",
-      "claim": "‘이 상자는 저 상자만큼 크다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘이 상자는 저 상자만큼 크다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -759,8 +759,8 @@
       "steps": [
         "물건 두세 개를 나란히 놓는다.\n(컵, 책, 숟가락, 연필)",
         "들어 보고 길이도 견준다.",
-        "부모가 묻는다:\nIs the cup as heavy as the book?",
-        "아이가 답한다: No, the cup is\nnot as heavy as the book.",
+        "부모님이 묻는다:\nIs the cup as heavy as the book?",
+        "내가 답한다: No, the cup is\nnot as heavy as the book.",
         "차이가 크면 much를 넣는다:\nThe book is much heavier."
       ],
       "criteria": [

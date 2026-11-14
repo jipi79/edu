@@ -521,7 +521,7 @@
         "A"
       ],
       "title": "‘고래를 본 적이 있다’를 영어로",
-      "claim": "‘나는 고래를 본 적이 있다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘나는 고래를 본 적이 있다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -694,10 +694,10 @@
       "title": "말하기: 해 본 적 있어?",
       "steps": [
         "종이 여섯 장에 해 본 일을 쓴다.",
-        "부모가 한 장을 뽑아 묻는다:\nHave you ever eaten tacos?",
-        "아이가 답한다: Yes, I have. /\nNo, I haven't.",
+        "부모님이 한 장을 뽑아 묻는다:\nHave you ever eaten tacos?",
+        "내가 답한다: Yes, I have. /\nNo, I haven't.",
         "twice나 never를 넣어\n한 문장 더 말한다.",
-        "역할을 바꿔 아이가 묻는다."
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "Have you ever + 과거분사로 물었다",
