@@ -296,8 +296,8 @@
       "title": "평행선과 선분의 길이의 비",
       "question": "삼각형에 밑변과 평행한 선을 그으면\n길이 사이에 어떤 규칙이 생길까?",
       "goals": [
-        "① 평행선이 만든 닮은 삼각형으로 길이를 구해요.",
-        "② AD : DB = AE : EC를 이용해 길이를 구해요."
+        "① 평행선이 만든 닮은 삼각형으로 길이를 구할 수 있다.",
+        "② AD : DB = AE : EC를 이용해 길이를 구할 수 있다."
       ],
       "figure": {
         "type": "geo",
@@ -443,7 +443,7 @@
       "title": "지난 학습 기억하기",
       "problems": [
         {
-          "text": "평행선에서 동위각의\n크기는 어때요?"
+          "text": "평행선에서 동위각의\n크기는 어떨까?"
         },
         {
           "text": "2 : 3 = 6 : □"
@@ -488,7 +488,7 @@
         "A"
       ],
       "title": "평행선이 만든 닮은 삼각형",
-      "text": "△ABC에서 BC와 평행한 선분 DE를 그었어요.",
+      "text": "△ABC에서 BC와 평행한 선분 DE를 그었다.",
       "figure": {
         "type": "geo",
         "points": {
@@ -642,15 +642,15 @@
       "points": [
         {
           "title": "∠A는 공통",
-          "text": "두 삼각형이 함께 가진 각이에요."
+          "text": "두 삼각형이 함께 가진 각이다."
         },
         {
           "title": "∠ADE = ∠ABC (동위각)",
-          "text": "∠AED = ∠ACB도 동위각이에요."
+          "text": "∠AED = ∠ACB도 동위각이다."
         },
         {
           "title": "△ADE ∽ △ABC",
-          "text": "두 쌍의 각이 같아요(AA 닮음)."
+          "text": "두 쌍의 각이 같다(AA 닮음)."
         }
       ],
       "notes": {
@@ -683,7 +683,7 @@
         "A"
       ],
       "title": "작은 삼각형과 큰 삼각형",
-      "text": "AD = 6 cm, DB = 3 cm예요. 두 삼각형을 떼어 그렸어요.",
+      "text": "AD = 6 cm, DB = 3 cm이다. 두 삼각형을 떼어 그렸다.",
       "figures": [
         {
           "type": "geo",
@@ -810,7 +810,7 @@
         "A"
       ],
       "title": "DE의 길이 구하기",
-      "text": "DE // BC일 때 x의 값을 구해요.",
+      "text": "DE // BC일 때 x의 값을 구하자.",
       "steps": [
         "AB = 6 + 3 = 9 (cm)",
         "AD : AB = DE : BC\n6 : 9 = x : 12",
@@ -965,8 +965,8 @@
       "objectives": [
         "A"
       ],
-      "title": "x의 값을 구해요",
-      "text": "두 그림 모두 DE // BC예요.",
+      "title": "x의 값을 구하자",
+      "text": "두 그림 모두 DE // BC이다.",
       "figures": [
         {
           "type": "geo",
@@ -1212,11 +1212,11 @@
       "points": [
         {
           "title": "① DE = x cm",
-          "text": "먼저 AB를 구해요."
+          "text": "먼저 AB를 구한다."
         },
         {
           "title": "② AE = x cm",
-          "text": "AC = 15 cm예요."
+          "text": "AC = 15 cm이다."
         }
       ],
       "notes": {
@@ -1248,7 +1248,7 @@
       "objectives": [
         "A"
       ],
-      "title": "누구 말이 맞을까요?",
+      "title": "누구의 말이 맞을까?",
       "figure": {
         "type": "geo",
         "points": {
@@ -1371,15 +1371,15 @@
       "points": [
         {
           "title": "토끼: x = 9",
-          "text": "6 : 8 = x : 12로 풀었어요."
+          "text": "6 : 8 = x : 12로 풀었다."
         },
         {
           "title": "곰: x = 36",
-          "text": "6 : 2 = x : 12로 풀었어요."
+          "text": "6 : 2 = x : 12로 풀었다."
         }
       ],
       "key": {
-        "text": "DE가 BC보다 길 수 있을까요?",
+        "text": "DE가 BC보다 길 수 있을까?",
         "tone": "info"
       },
       "notes": {
@@ -1414,7 +1414,7 @@
         "B"
       ],
       "title": "AD : DB = AE : EC",
-      "text": "DE // BC이고 AD : AB = AE : AC = 2 : 3이에요.",
+      "text": "DE // BC이고 AD : AB = AE : AC = 2 : 3이다.",
       "figure": {
         "type": "geo",
         "points": {
@@ -1595,7 +1595,7 @@
           "text": "AE는 2칸, EC는 1칸\nAE : EC = 2 : 1"
         }
       ],
-      "key": "DE // BC이면 AD : DB = AE : EC예요.",
+      "key": "DE // BC이면 AD : DB = AE : EC이다.",
       "notes": {
         "목적": "AD : AB = AE : AC에서 AB와 AC를 같은 수의 칸으로 나누어 보면 AD : DB = AE : EC임을 이해합니다.",
         "시간": "약 3분",
@@ -1627,7 +1627,7 @@
         "B"
       ],
       "title": "EC의 길이 구하기",
-      "text": "DE // BC일 때 x의 값을 구해요.",
+      "text": "DE // BC일 때 x의 값을 구하자.",
       "steps": [
         "AD : DB = AE : EC",
         "8 : 4 = 6 : x",
@@ -1760,7 +1760,7 @@
           "E": "ur"
         }
       },
-      "key": "위쪽은 위쪽끼리, 아래쪽은 아래쪽끼리 같은 자리에 써요.",
+      "key": "위쪽은 위쪽끼리, 아래쪽은 아래쪽끼리 같은 자리에 쓴다.",
       "notes": {
         "목적": "AD : DB = AE : EC로 비례식을 세워 EC의 길이를 구하는 과정을 보여 줍니다.",
         "시간": "약 3분",
@@ -1790,8 +1790,8 @@
       "objectives": [
         "B"
       ],
-      "title": "x의 값을 구해요",
-      "text": "두 그림 모두 DE // BC예요.",
+      "title": "x의 값을 구하자",
+      "text": "두 그림 모두 DE // BC이다.",
       "figures": [
         {
           "type": "geo",
@@ -2084,7 +2084,7 @@
       "objectives": [
         "B"
       ],
-      "title": "누구 말이 맞을까요?",
+      "title": "누구의 말이 맞을까?",
       "figure": {
         "type": "geo",
         "points": {
@@ -2215,15 +2215,15 @@
       "points": [
         {
           "title": "토끼: x = 12",
-          "text": "4 : 2 = x : 6으로 풀었어요."
+          "text": "4 : 2 = x : 6으로 풀었다."
         },
         {
           "title": "곰: x = 3",
-          "text": "4 : 2 = 6 : x로 풀었어요."
+          "text": "4 : 2 = 6 : x로 풀었다."
         }
       ],
       "key": {
-        "text": "AD가 DB보다 길면 AE와 EC 중 어느 쪽이 길까요?",
+        "text": "AD가 DB보다 길면 AE와 EC 중 어느 쪽이 길까?",
         "tone": "info"
       },
       "notes": {
@@ -2571,7 +2571,7 @@
           "note": "순서를 섞음(M2)"
         }
       ],
-      "explain": "틀린 문항은 구하는 선분이 큰 삼각형의 변과 짝인지, 나뉜 조각인지부터 말하게 하세요.",
+      "explain": "틀린 문항은 구하는 선분이 큰 삼각형의 변과 짝인지, 나뉜 조각인지부터 말한다.",
       "notes": {
         "목적": "아이의 답을 함께 확인하고 비를 잘못 고르거나 순서를 섞는 실수를 바로잡습니다. 수업용에만 있는 장입니다.",
         "시간": "약 2분",
@@ -2600,7 +2600,7 @@
         "B"
       ],
       "title": "마무리 확인",
-      "text": "DE // BC예요.",
+      "text": "DE // BC이다.",
       "problems": [
         {
           "text": "DE = x cm일 때\nx의 값은?"
@@ -2609,7 +2609,7 @@
           "text": "EC = y cm일 때\ny의 값은?"
         },
         {
-          "text": "x와 y를 구할 때\n쓴 비는 어떻게 달라요?"
+          "text": "x와 y를 구할 때\n쓴 비는 어떻게 다른가?"
         }
       ],
       "figure": {
@@ -2774,7 +2774,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "DE // BC이면 AD : AB = AE : AC = DE : BC이고\nAD : DB = AE : EC예요.",
+      "key": "DE // BC이면 AD : AB = AE : AC = DE : BC이고\nAD : DB = AE : EC이다.",
       "do": "구하는 선분의 짝을 먼저 찾기",
       "dont": "DE를 구할 때 AD : DB 쓰기",
       "review": [
@@ -2946,7 +2946,7 @@
       "points": [
         {
           "title": "평행선의 동위각",
-          "text": "같은 위치에 있는 두 각은\n크기가 같아요."
+          "text": "같은 위치에 있는 두 각은\n크기가 같다."
         },
         {
           "title": "비례식 풀기",
@@ -2979,7 +2979,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "DE // BC일 때 x의 값을 구하세요.",
+        "prompt": "DE // BC일 때 x의 값을 구하시오.",
         "geo": {
           "points": {
             "A": [
@@ -3105,7 +3105,7 @@
       },
       {
         "no": 2,
-        "prompt": "DE // BC일 때 x의 값을 구하세요.",
+        "prompt": "DE // BC일 때 x의 값을 구하시오.",
         "geo": {
           "points": {
             "A": [
@@ -3239,7 +3239,7 @@
       },
       {
         "no": 3,
-        "prompt": "DE // BC일 때 x와 y의 값을 구하세요.",
+        "prompt": "DE // BC일 때 x와 y의 값을 구하시오.",
         "geo": {
           "points": {
             "A": [
@@ -3377,7 +3377,7 @@
       },
       {
         "no": 4,
-        "prompt": "삼각형 ABC에서 DE // BC예요. 맞으면 ○, 틀리면 ×를 쓰세요.",
+        "prompt": "삼각형 ABC에서 DE // BC이다. 맞으면 ○, 틀리면 ×를 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -3397,7 +3397,7 @@
               ""
             ],
             [
-              "④ AD : DB = 2 : 1이면 DE는 BC의 2배예요.",
+              "④ AD : DB = 2 : 1이면 DE는 BC의 2배이다.",
               ""
             ]
           ],
@@ -3411,7 +3411,7 @@
       },
       {
         "no": 5,
-        "prompt": "(도전) 점 D는 AB의 한가운데 점(중점)이고 DE // BC, BC = 14 cm예요. AE : EC와 DE의 길이를 구하세요.",
+        "prompt": "(도전) 점 D는 AB의 한가운데 점(중점)이고 DE // BC, BC = 14 cm이다. AE : EC와 DE의 길이를 구하시오.",
         "geo": {
           "points": {
             "A": [
@@ -3536,7 +3536,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "DE // BC인 삼각형 ABC예요. 물음에 답하세요.",
+        "prompt": "DE // BC인 삼각형 ABC이다. 물음에 답하시오.",
         "read": "① AD : AB = 1 : 3, BC = 12 cm일 때 DE의 길이\n② AD = 6 cm, DB = 2 cm, AE = 9 cm일 때 EC의 길이\n③ AD : DB = 3 : 2이면 AD : AB는?",
         "lines": 3,
         "answer": "① 4 cm ② 3 cm ③ 3 : 5"
