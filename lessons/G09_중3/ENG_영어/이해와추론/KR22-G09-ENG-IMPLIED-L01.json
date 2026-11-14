@@ -369,7 +369,7 @@
         "B"
       ],
       "title": "추론일까, 짐작일까?",
-      "claim": "Mom: Did you clean your room?  Tom: Um... I was really busy today.\n톰은 방을 청소했을까? 두 친구가 이렇게 답했다.",
+      "claim": "Mom: Did you clean your room?  Tom: Um... I was really busy today.\n톰은 방을 청소했을까? 두 학생이 이렇게 답했다.",
       "left": {
         "title": "가",
         "text": "청소하지 않았어요.\n“Um... I was really busy\ntoday.”라며 망설였으니까요."
@@ -508,10 +508,10 @@
       "title": "말하기: 말투 연기 맞히기",
       "steps": [
         "종이 다섯 장에 상황을 쓴다.\n(예: 시험을 못 봤다)",
-        "부모가 한 장을 골라 그 기분으로\n말한다: I'm fine.",
-        "아이가 추론한다:\nI think you're sad.",
+        "부모님이 한 장을 골라 그 기분으로\n말한다: I'm fine.",
+        "내가 추론한다:\nI think you're sad.",
         "근거를 말한다: You said it\nin a small voice.",
-        "역할을 바꿔 아이가 연기한다."
+        "역할을 바꿔 내가 연기한다."
       ],
       "criteria": [
         "진짜 기분이나 뜻을 말했다",

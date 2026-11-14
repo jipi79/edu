@@ -477,7 +477,7 @@
         "B"
       ],
       "title": "같은 낱말이 있으면 T일까?",
-      "claim": "Experts say teenagers need six or seven hours of sleep.\n이 문장을 두 친구가 이렇게 판단했다.",
+      "claim": "Experts say teenagers need six or seven hours of sleep.\n이 문장을 두 학생이 이렇게 판단했다.",
       "left": {
         "title": "가",
         "text": "T예요.\nsix or seven hours가\n글에 그대로 나와요."
@@ -640,11 +640,11 @@
       ],
       "title": "말하기: 한 문장으로 전하기",
       "steps": [
-        "아이가 요지를 한 문장으로 말한다:\nThis interview is about ~.",
-        "부모가 인터뷰에 대한 문장을 말한다:\nThe shelf is in a classroom.",
-        "아이가 답한다: That's not true.\nIt's in the library.",
+        "내가 요지를 한 문장으로 말한다:\nThis interview is about ~.",
+        "부모님이 인터뷰에 대한 문장을 말한다:\nThe shelf is in a classroom.",
+        "내가 답한다: That's not true.\nIt's in the library.",
         "맞는 문장이면: That's true.",
-        "역할을 바꿔 아이가 문장을 만든다."
+        "역할을 바꿔 내가 문장을 만든다."
       ],
       "criteria": [
         "요지를 한 문장으로 말했다",

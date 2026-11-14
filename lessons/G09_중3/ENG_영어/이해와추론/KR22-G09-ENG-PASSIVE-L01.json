@@ -453,7 +453,7 @@
         "A"
       ],
       "title": "‘엄마가 만들었다’를 수동태로",
-      "claim": "‘이 케이크는 엄마가 만들었다.’를 수동태로 두 친구가 이렇게 썼다.",
+      "claim": "‘이 케이크는 엄마가 만들었다.’를 수동태로 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -679,11 +679,11 @@
       ],
       "title": "말하기: 누가 했을까?",
       "steps": [
-        "부모가 묻는다:\nWho painted the Mona Lisa?",
-        "아이가 수동태로 답한다: It was\npainted by Leonardo da Vinci.",
+        "부모님이 묻는다:\nWho painted the Mona Lisa?",
+        "내가 수동태로 답한다: It was\npainted by Leonardo da Vinci.",
         "집안일도 묻는다: Who cleaned\nthe bathroom?",
         "물건 표시를 보고 답한다:\nIt was made in China.",
-        "역할을 바꿔 아이가 묻는다."
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "be동사 + 과거분사로 답했다",

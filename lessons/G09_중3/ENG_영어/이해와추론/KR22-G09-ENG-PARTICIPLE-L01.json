@@ -567,7 +567,7 @@
         "B"
       ],
       "title": "‘영어로 쓰인 책’을 영어로",
-      "claim": "‘나는 영어로 쓰인 책을 읽었다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘나는 영어로 쓰인 책을 읽었다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -624,10 +624,10 @@
       ],
       "title": "말하기: 집 안 보물찾기",
       "steps": [
-        "부모가 찾을 것을 말한다:\nFind something made in Korea.",
-        "아이가 찾아 와서 말한다:\nThis is a cup made in Korea.",
+        "부모님이 찾을 것을 말한다:\nFind something made in Korea.",
+        "내가 찾아 와서 말한다:\nThis is a cup made in Korea.",
         "다른 것도 찾는다: a book\nwritten in English, a photo\ntaken last year",
-        "역할을 바꿔 아이가 찾을 것을 말한다.",
+        "역할을 바꿔 내가 찾을 것을 말한다.",
         "-ing도 쓴다: Find a doll\nwearing a hat."
       ],
       "criteria": [
