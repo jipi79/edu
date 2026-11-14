@@ -164,8 +164,8 @@
       "title": "삼각함수의 극한과 미분",
       "question": "x → 0일 때\nsin x / x는?",
       "goals": [
-        "① lim sin x/x = 1을 알고 극한값을 구해요.",
-        "② sin x, cos x를 미분해요."
+        "① lim sin x/x = 1을 알고 극한값을 구할 수 있다.",
+        "② sin x, cos x를 미분할 수 있다."
       ],
       "figure": {
         "type": "geo",
@@ -318,7 +318,7 @@
       "objectives": [
         "A"
       ],
-      "title": "sin x / x를 표로 봐요",
+      "title": "sin x / x를 표로 보자",
       "table": {
         "type": "table",
         "headers": [
@@ -378,7 +378,7 @@
       "objectives": [
         "A"
       ],
-      "title": "넓이로 조여요",
+      "title": "넓이로 조여 보자",
       "figure": {
         "type": "geo",
         "names": false,
@@ -764,9 +764,9 @@
       "objectives": [
         "A"
       ],
-      "title": "모양을 맞춰요",
+      "title": "모양을 맞추자",
       "steps": [
-        "sin 안의 3x와 분모를 맞춰요.",
+        "sin 안의 3x와 분모를 맞춘다.",
         "sin 3x / 3x → 1",
         "1 × 3 = 3"
       ],
@@ -946,7 +946,7 @@
       "objectives": [
         "A"
       ],
-      "title": "극한값을 구해요",
+      "title": "극한값을 구하자",
       "problems": [
         {
           "figure": {
@@ -1229,7 +1229,7 @@
           }
         }
       ],
-      "hint": "sin 안의 식과 분모를 맞춰요.",
+      "hint": "sin 안의 식과 분모를 맞춘다.",
       "notes": {
         "목적": "도움을 받으며 sin x / x 꼴로 맞추어 극한값을 구합니다.",
         "시간": "약 3분",
@@ -1261,7 +1261,7 @@
       "objectives": [
         "A"
       ],
-      "title": "누구 말이 맞을까요?",
+      "title": "누구의 말이 맞을까?",
       "claim": "x → 0일 때 sin 3x / x는?",
       "left": {
         "title": "지호: 1",
@@ -1271,7 +1271,7 @@
         "title": "서윤: 3",
         "text": "sin 3x / 3x × 3이라\n3이에요."
       },
-      "question": "sin 3x와 짝이 되는 분모는 무엇일까요?",
+      "question": "sin 3x와 짝이 되는 분모는 무엇일까?",
       "notes": {
         "목적": "sin ■ / x에서 ■와 분모가 다를 때도 1로 보는 오개념(M1)을 비교합니다.",
         "시간": "약 2분",
@@ -1305,8 +1305,8 @@
       ],
       "title": "sin x를 미분하면 cos x",
       "steps": [
-        "덧셈정리로 펼쳐요.",
-        "sin x, cos x로 묶어요.",
+        "덧셈정리로 펼친다.",
+        "sin x, cos x로 묶는다.",
         "0과 1로 가서 cos x"
       ],
       "figure": {
@@ -2547,7 +2547,7 @@
       "objectives": [
         "B"
       ],
-      "title": "미분해요",
+      "title": "미분하자",
       "problems": [
         {
           "text": "y = 3sin x"
@@ -3060,7 +3060,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "극한값을 구하세요.",
+        "prompt": "극한값을 구하시오.",
         "geo": {
           "names": false,
           "points": {
@@ -3337,20 +3337,20 @@
       },
       {
         "no": 2,
-        "prompt": "미분하세요.",
+        "prompt": "미분하시오.",
         "read": "① y = 4sin x − cos x   ② y = x² cos x   ③ y = sin x × sin x",
         "lines": 3,
         "answer": "① 4cos x + sin x ② 2x cos x − x² sin x ③ 2sin x cos x"
       },
       {
         "no": 3,
-        "prompt": "도(°)로 잰 x에 대해 sin x / x가 x → 0일 때 1에 가까워지는지 계산기로 x = 1°, 0.1°일 때 확인하고, 라디안일 때와 비교해 쓰세요.",
+        "prompt": "도(°)로 잰 x에 대해 sin x / x가 x → 0일 때 1에 가까워지는지 계산기로 x = 1°, 0.1°일 때 확인하고, 라디안일 때와 비교해 쓰시오.",
         "lines": 2,
         "answer": "sin 1° ÷ 1 ≈ 0.01745, sin 0.1° ÷ 0.1 ≈ 0.01745 → π/180 ≈ 0.01745에 가까워짐. 라디안일 때만 1"
       },
       {
         "no": 4,
-        "prompt": "(도전) y = sin x 위의 점 (π, 0)에서의 접선의 방정식을 구하세요.",
+        "prompt": "(도전) y = sin x 위의 점 (π, 0)에서의 접선의 방정식을 구하시오.",
         "lines": 2,
         "answer": "기울기 cos π = −1, y = −(x − π) = −x + π"
       },
@@ -3358,7 +3358,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "물음에 답하세요.",
+        "prompt": "물음에 답하시오.",
         "read": "① x → 0일 때 sin 5x / (3x)의 극한값은?\n② y = x cos x를 미분하면?\n③ y = cos x 위의 x = π/2인 점에서 접선의 기울기는?",
         "lines": 3,
         "answer": "① 5/3 ② cos x − x sin x ③ −1"

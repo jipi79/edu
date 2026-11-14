@@ -127,10 +127,10 @@
         "B"
       ],
       "title": "부분적분법",
-      "question": "∫ xeˣ dx는\n어떻게 구할까요?",
+      "question": "∫ xeˣ dx는\n어떻게 구할까?",
       "goals": [
-        "① 부분적분법으로 xeˣ, x sin x 꼴을 적분해요.",
-        "② 미분할 것을 골라 ln x 꼴도 적분해요."
+        "① 부분적분법으로 xeˣ, x sin x 꼴을 적분할 수 있다.",
+        "② 미분할 것을 골라 ln x 꼴도 적분할 수 있다."
       ],
       "figure": {
         "type": "eq",
@@ -267,7 +267,7 @@
       "objectives": [
         "A"
       ],
-      "title": "f와 g′을 정해요",
+      "title": "f와 g′을 정하자",
       "problem": {
         "eq": [
           "∫ xeˣ dx"
@@ -371,17 +371,17 @@
       "objectives": [
         "A"
       ],
-      "title": "누구 말이 맞을까요?",
-      "claim": "∫ xeˣ dx에서 f와 g′을 골랐어요.",
+      "title": "누구의 말이 맞을까?",
+      "claim": "∫ xeˣ dx에서 f와 g′을 골랐다.",
       "left": {
         "title": "지호: f = eˣ, g′ = x",
-        "text": "eˣ·x²/2 − ∫ eˣ·x²/2 dx\n남은 적분이 더 어려워요."
+        "text": "eˣ·x²/2 − ∫ eˣ·x²/2 dx\n남은 적분이 더 어렵다."
       },
       "right": {
         "title": "서윤: f = x, g′ = eˣ",
-        "text": "xeˣ − ∫ eˣ dx\n남은 적분이 쉬워요."
+        "text": "xeˣ − ∫ eˣ dx\n남은 적분이 쉽다."
       },
-      "question": "남은 적분이 쉬워지는 쪽은 어느 것일까요?",
+      "question": "남은 적분이 쉬워지는 쪽은 어느 것일까?",
       "notes": {
         "목적": "f와 g′을 거꾸로 골라 남은 적분이 더 어려워지는 경우를 비교합니다.",
         "시간": "약 2분",
@@ -414,7 +414,7 @@
         "B"
       ],
       "title": "미분할 것 고르기",
-      "text": "왼쪽에 있는 것을 f(미분할 것)로, 오른쪽에 있는 것을 g′(적분할 것)으로 골라요. (외우기 팁)",
+      "text": "왼쪽에 있는 것을 f(미분할 것)로, 오른쪽에 있는 것을 g′(적분할 것)으로 고른다. (외우기 팁)",
       "table": {
         "headers": [
           "로그",
@@ -1056,17 +1056,17 @@
       "objectives": [
         "B"
       ],
-      "title": "누구 말이 맞을까요?",
-      "claim": "∫ x sin x dx를 구했어요.",
+      "title": "누구의 말이 맞을까?",
+      "claim": "∫ x sin x dx를 구했다.",
       "left": {
         "title": "지호: x cos x − sin x + C",
-        "text": "g = cos x로 썼어요."
+        "text": "g = cos x로 썼다."
       },
       "right": {
         "title": "서윤: −x cos x + sin x + C",
-        "text": "g = −cos x로 썼어요."
+        "text": "g = −cos x로 썼다."
       },
-      "question": "sin x를 적분하면 무엇일까요?",
+      "question": "sin x를 적분하면 무엇일까?",
       "notes": {
         "목적": "g′ = sin x에서 g를 cos x로 써 부호가 틀리는 실수를 바로잡습니다.",
         "시간": "약 2분",
@@ -1575,19 +1575,19 @@
     "items": [
       {
         "no": 1,
-        "prompt": "부정적분을 구하세요.  ∫ xe²ˣ dx  (∫ e²ˣ dx = e²ˣ/2 + C를 쓰세요.)",
+        "prompt": "부정적분을 구하시오.  ∫ xe²ˣ dx  (∫ e²ˣ dx = e²ˣ/2 + C를 이용하시오.)",
         "lines": 3,
         "answer": "f = x, g′ = e²ˣ → g = e²ˣ/2: xe²ˣ/2 − ∫ e²ˣ/2 dx = xe²ˣ/2 − e²ˣ/4 + C"
       },
       {
         "no": 2,
-        "prompt": "부정적분을 구하세요.  ∫ (2x + 1)ln x dx",
+        "prompt": "부정적분을 구하시오.  ∫ (2x + 1)ln x dx",
         "lines": 3,
         "answer": "f = ln x, g′ = 2x + 1 → g = x² + x: (x² + x)ln x − ∫ (x + 1) dx = (x² + x)ln x − x²/2 − x + C"
       },
       {
         "no": 3,
-        "prompt": "다음 정적분을 구하세요.",
+        "prompt": "다음 정적분을 구하시오.",
         "geo": {
           "names": false,
           "points": {
@@ -1834,7 +1834,7 @@
       },
       {
         "no": 4,
-        "prompt": "∫ x ln x dx에서 f = x, g′ = ln x로 고르면 왜 곤란한지, 어떻게 고르면 좋은지 쓰세요.",
+        "prompt": "∫ x ln x dx에서 f = x, g′ = ln x로 고르면 왜 곤란한지, 어떻게 고르면 좋은지 쓰시오.",
         "lines": 3,
         "answer": "g′ = ln x이면 g(ln x의 적분)를 먼저 구해야 하고 남은 적분도 어려워집니다. 로그를 f(미분)로, x를 g′으로 고르면 남은 적분이 ∫ x/2 dx로 쉬워집니다."
       },
@@ -1842,7 +1842,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "구하세요.",
+        "prompt": "구하시오.",
         "read": "① ∫ xeˣ dx\n② ∫ ln x dx\n③ ∫₀¹ xeˣ dx",
         "lines": 3,
         "answer": "① xeˣ − eˣ + C ② x ln x − x + C ③ 1"
