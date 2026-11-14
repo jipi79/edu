@@ -96,8 +96,8 @@
       "title": "자료의 관점 비교",
       "question": "같은 일을 다룬 두 글,\n왜 이렇게 다르게 말할까?",
       "goals": [
-        "① 두 글의 관점과 정보를 비교표로 정리해요.",
-        "② 두 관점의 차이를 영어로 설명해요."
+        "① 두 글의 관점과 정보를 비교표로 정리할 수 있다.",
+        "② 두 관점의 차이를 영어로 설명할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -109,7 +109,7 @@
           },
           {
             "word": "A thinks ~.",
-            "sub": "글 A는 ~라고 봐요"
+            "sub": "글 A는 ~라고 본다"
           },
           {
             "word": "However, B ~.",
@@ -146,7 +146,7 @@
       "role": "prior",
       "objectives": [],
       "title": "요지와 관점 떠올리기",
-      "text": "①②는 뜻을 말하고, ③은 요지를 한 문장으로 말해요.",
+      "text": "①②는 뜻을 말하고, ③은 요지를 한 문장으로 말해 보자.",
       "problems": [
         {
           "text": "관점이란?"
@@ -207,7 +207,7 @@
         ]
       },
       "key": {
-        "title": "누가 썼는지 보면 관점이 보여요",
+        "title": "누가 썼는지 보면 관점이 보인다",
         "text": "주제: 글이 무엇에 대한 것인지\n관점: 그 주제를 바라보는 글쓴이의 생각의 자리"
       },
       "notes": {
@@ -225,7 +225,7 @@
           "“엄마(아빠)는 네가 학교에 있을 때 무엇이 가장 걱정될까?”라고 묻습니다."
         ],
         "주의": [
-          "주제가 같다는 것을 먼저 분명히 합니다. 아이가 ‘두 글은 주제가 달라요’라고 하면 “둘 다 무엇에 대한 글이야?”라고 다시 묻습니다(오해 M3)."
+          "주제가 같다는 것을 먼저 분명히 합니다. 아이가 ‘두 글은 주제가 다르다’라고 하면 “둘 다 무엇에 대한 글이야?”라고 다시 묻습니다(오해 M3)."
         ]
       }
     },
@@ -249,7 +249,7 @@
           }
         ]
       },
-      "question": "누가 썼나요? 새 규칙을 어떻게 보고, 근거는 무엇인가요? (지어낸 글)",
+      "question": "누가 썼는가? 새 규칙을 어떻게 보고, 근거는 무엇인가? (지어낸 글)",
       "notes": {
         "목적": "글 A를 읽고 글쓴이(학생 기자), 관점(새 규칙은 좋은 시작이다), 근거 정보(수업을 더 잘 듣는다, 점심에 함께 이야기하고 논다)를 찾습니다(목표 A).",
         "시간": "약 3분",
@@ -289,7 +289,7 @@
           }
         ]
       },
-      "question": "누가 썼나요? 새 규칙을 어떻게 보고, 근거는 무엇인가요? (지어낸 글)",
+      "question": "누가 썼는가? 새 규칙을 어떻게 보고, 근거는 무엇인가? (지어낸 글)",
       "notes": {
         "목적": "글 B를 읽고 글쓴이(학부모), 관점(규칙의 까닭은 알지만 조금 바꾸면 좋겠다), 근거 정보(아플 때 연락하지 못했다, 사전 앱처럼 공부에 쓸모 있다)를 찾고, 글 A와 같은 사실(지난달 새 규칙 시작)을 확인합니다(목표 A).",
         "시간": "약 3분",
@@ -319,7 +319,7 @@
         "A",
         "B"
       ],
-      "title": "두 글을 표로 비교해요",
+      "title": "두 글을 표로 비교하자",
       "table": {
         "headers": [
           "",
@@ -328,7 +328,7 @@
         ],
         "rows": [
           [
-            "누가 썼나요",
+            "누가 썼나",
             "학생 기자",
             "학부모"
           ],
@@ -356,7 +356,7 @@
         "width": 12.2,
         "size": 22
       },
-      "key": "같은 규칙이어도 글쓴이마다 고른 정보가 달라요. 두 글을 함께 읽어요.",
+      "key": "같은 규칙이어도 글쓴이마다 고른 정보가 다르다. 두 글을 함께 읽는다.",
       "notes": {
         "목적": "두 글을 누가 썼나·관점·근거 정보·말하지 않은 것의 네 칸으로 나란히 정리하고, 각 글이 다른 정보를 골랐다는 것을 보여 줍니다(목표 A·B, 오해 M1).",
         "시간": "약 3분",
@@ -386,7 +386,7 @@
       "objectives": [
         "A"
       ],
-      "title": "사실일까요, 의견일까요?",
+      "title": "사실일까, 의견일까?",
       "text": "사실: 확인할 수 있는 일 · 의견: 사람의 생각이나 판단",
       "problems": [
         {
@@ -402,7 +402,7 @@
           "text": "Phones are also useful\nfor learning."
         }
       ],
-      "hint": "I think, good, useful 같은 말이 보이면 의견일 때가 많아요.",
+      "hint": "I think, good, useful 같은 말이 보이면 의견일 때가 많다.",
       "notes": {
         "목적": "두 글의 문장을 사실(확인할 수 있는 일)과 의견(사람의 생각이나 판단)으로 나눕니다(목표 A, 오해 M2). 활동지 2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -434,8 +434,8 @@
       "objectives": [
         "B"
       ],
-      "title": "한쪽만 맞을까요?",
-      "claim": "두 글을 읽고 두 친구가 이렇게 말했어요.",
+      "title": "한쪽만 맞을까?",
+      "claim": "두 글을 읽고 두 친구가 이렇게 말했다.",
       "left": {
         "title": "가",
         "text": "두 글은 관점이 달라요.\n글 A는 수업을, 글 B는\n연락을 중요하게 봐요."
@@ -444,7 +444,7 @@
         "title": "나",
         "text": "글 A가 맞아요.\n글 B는 틀렸어요."
       },
-      "question": "어느 쪽이 두 글을 더 잘 비교했나요? 왜 그렇게 생각해요?",
+      "question": "어느 쪽이 두 글을 더 잘 비교했는가? 왜 그렇게 생각하는가?",
       "notes": {
         "목적": "두 글 가운데 한쪽만 옳다고 판단하는 생각을 비교로 바로잡고, 관점이 다르다는 것과 각 관점이 중요하게 보는 것을 말하게 합니다(목표 B, 오해 M1).",
         "시간": "약 2분",
@@ -475,7 +475,7 @@
       ],
       "title": "차이를 설명하는 순서",
       "steps": [
-        "공통 주제를 말해요:\nBoth writers talk about ~.",
+        "공통 주제를 말한다:\nBoth writers talk about ~.",
         "글 A의 관점과 근거:\nThe reporter thinks ~ because ~.",
         "글 B의 관점과 근거:\nHowever, the parent ~.",
         "(내 생각은 따로)\nI think ~ because ~."
@@ -532,16 +532,16 @@
       ],
       "title": "글쓴이 인터뷰",
       "steps": [
-        "부모가 Dana(학생 기자)가 돼요.\n아이: What do you think about the rule?",
-        "아이: Why do you think so?\n부모가 글 A의 근거로 답해요.",
-        "부모가 Ms. Yoon(학부모)이 되어\n같은 질문에 답해요.",
-        "아이가 비교표를 보며 설명해요:\nBoth writers ~. However, ~.",
+        "부모가 Dana(학생 기자)가 된다.\n아이: What do you think about the rule?",
+        "아이: Why do you think so?\n부모가 글 A의 근거로 답한다.",
+        "부모가 Ms. Yoon(학부모)이 되어\n같은 질문에 답한다.",
+        "아이가 비교표를 보며 설명한다:\nBoth writers ~. However, ~.",
         "부모: What do you think?\n아이: I think ~ because ~."
       ],
       "criteria": [
-        "두 사람의 관점을 모두 말했어요",
-        "관점마다 근거를 하나씩 말했어요",
-        "한쪽을 틀렸다고 하지 않았어요"
+        "두 사람의 관점을 모두 말했다",
+        "관점마다 근거를 하나씩 말했다",
+        "한쪽을 틀렸다고 하지 않았다"
       ],
       "notes": {
         "목적": "부모가 두 글쓴이를 차례로 맡아 아이의 인터뷰에 답하고, 아이는 들은 내용과 비교표를 바탕으로 두 관점의 차이를 영어로 설명한 뒤 자기 생각을 따로 말합니다(목표 A·B).",
@@ -577,7 +577,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 비교해요: 동물원",
+      "title": "혼자 비교하기: 동물원",
       "passage": {
         "paragraphs": [
           "글 C (동물원 안내원의 블로그, 지어낸 글)",
@@ -586,7 +586,7 @@
           "I went to the zoo last Sunday. The lion's space was very small, and it walked around and around. I think animals need big spaces. We can learn about animals from nature videos, too."
         ]
       },
-      "question": "활동지 4 비교표를 채우고, Both ~ / However ~로 차이를 말해요.",
+      "question": "활동지 4 비교표를 채우고, Both ~ / However ~로 차이를 말하시오.",
       "notes": {
         "목적": "도움 없이 처음 보는 두 게시물의 글쓴이·관점·근거를 비교표로 정리하고, 두 관점의 차이를 영어로 설명하는지 확인합니다(목표 A·B). 활동지 4에 씁니다.",
         "시간": "약 5분",
@@ -637,19 +637,19 @@
       ],
       "bad": [
         {
-          "text": "글 C가 맞아요.",
+          "text": "글 C가 맞다.",
           "note": "관점이\n다를 뿐"
         },
         {
-          "text": "두 글은 주제가 달라요.",
-          "note": "주제는 같아요:\nzoos"
+          "text": "두 글은 주제가 다르다.",
+          "note": "주제는 같다:\nzoos"
         },
         {
-          "text": "학생은 싫대요.",
+          "text": "학생은 싫다고 한다.",
           "note": "근거를\n함께"
         }
       ],
-      "explain": "공통 주제 → 글 C의 관점과 근거 → However, 글 D의 관점과 근거 순서로 봐요.",
+      "explain": "공통 주제 → 글 C의 관점과 근거 → However, 글 D의 관점과 근거 순서로 본다.",
       "notes": {
         "목적": "아이의 설명을 설명 예와 견주어 보고, 다시 생각해 볼 설명을 확인합니다.",
         "시간": "약 1분",
@@ -684,19 +684,19 @@
       "text": "글 E (학생): Our new uniform is comfortable and cheap.\n글 F (학부모): The new uniform is nice, but it's thin for winter.",
       "options": [
         {
-          "text": "두 글은 주제가 달라요."
+          "text": "두 글은 주제가 다르다."
         },
         {
-          "text": "글 E는 맞고, 글 F는 틀렸어요."
+          "text": "글 E는 맞고, 글 F는 틀렸다."
         },
         {
-          "text": "학부모는 새 교복을 싫어해요."
+          "text": "학부모는 새 교복을 싫어한다."
         },
         {
-          "text": "학생은 편하고 싸대요.\n학부모는 겨울엔 얇대요."
+          "text": "학생은 편하고 싸다고 한다.\n학부모는 겨울엔 얇다고 한다."
         }
       ],
-      "question": "두 글의 차이를 가장 잘 설명한 것은? 나머지는 왜 알맞지 않나요?",
+      "question": "두 글의 차이를 가장 잘 설명한 것은? 나머지는 왜 알맞지 않은가?",
       "notes": {
         "목적": "처음 보는 두 짧은 글에서 차이를 가장 잘 설명한 문장을 고르고, 나머지가 알맞지 않은 까닭을 말하는지 확인합니다(목표 B, 오해 M1·M3·M4).",
         "시간": "약 2분",
@@ -727,15 +727,15 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "누가 썼나 → 관점 → 근거 정보 → 말하지 않은 것을 표로 비교해요.\nBoth writers talk about ~. ~ thinks ~ because ~. However, ~.",
+      "key": "누가 썼나 → 관점 → 근거 정보 → 말하지 않은 것을 표로 비교한다.\nBoth writers talk about ~. ~ thinks ~ because ~. However, ~.",
       "do": "두 글을 공평하게 함께 읽기",
       "dont": "한쪽만 맞다고 판단하기",
       "review": [
         {
-          "text": "주제와 관점은\n어떻게 다른가요?"
+          "text": "주제와 관점은\n어떻게 다른가?"
         },
         {
-          "text": "사실과 의견은\n어떻게 다른가요?"
+          "text": "사실과 의견은\n어떻게 다른가?"
         },
         {
           "text": "차이를 설명할 때\n쓰는 영어 틀은?"
@@ -771,7 +771,7 @@
       "objectives": [],
       "title": "보충: 요지와 관점",
       "layout": "support",
-      "text": "낱말과 뜻을 함께 읽고, 짧은 글로 연습해요.",
+      "text": "낱말과 뜻을 함께 읽고, 짧은 글로 연습해 보자.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -794,7 +794,7 @@
           }
         ]
       },
-      "key": "요지를 찾으면 관점이 보여요: 글쓴이는 무엇을 좋다고(걱정된다고) 하나요?",
+      "key": "요지를 찾으면 관점이 보인다: 글쓴이는 무엇을 좋다고(걱정된다고) 하는가?",
       "notes": {
         "목적": "S02에서 요지나 관점이 흔들리면, 두 글을 비교하기 전에 요지·관점·사실·의견을 짧은 글로 다시 다집니다.",
         "시간": "약 4분",
@@ -820,7 +820,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "두 글(수업을 위해 지어낸 글)을 읽고 비교표를 채우세요. 우리말로 써도 돼요.",
+        "prompt": "두 글(수업을 위해 지어낸 글)을 읽고 비교표를 채우시오. 우리말로 써도 된다.",
         "read": "글 A (학교 신문 기사) No Phones in Class: A Good Start\nLast month, Maru Middle School started a new phone rule. Every morning, students put their phones in a box in the classroom. They get their phones back after the last class. Mr. Lee, a math teacher, said, \"Students listen better now.\" At lunch, many students talk and play board games together. I think the new rule is a good start for our school. — Dana Kim, student reporter\n\n글 B (학부모 게시물) Phones Can Help, Too\nLast month, my son's school started a new phone rule. Students can't use their phones during school hours. Last Tuesday, my son got sick at school. He wanted to call me, but his phone was in the box. Phones are also useful for learning, like dictionary apps. I understand the reason for the rule, but I hope the school changes it a little. — Ms. Yoon, a parent",
         "table": {
           "headers": [
@@ -830,17 +830,17 @@
           ],
           "rows": [
             [
-              "누가 썼나요\n(글쓴이)",
+              "누가 썼나\n(글쓴이)",
               "",
               ""
             ],
             [
-              "관점\n(어떻게 보나요)",
+              "관점\n(어떻게 보나)",
               "",
               ""
             ],
             [
-              "근거 정보\n(왜 그렇게\n보나요)",
+              "근거 정보\n(왜 그렇게\n보나)",
               "",
               ""
             ],
@@ -862,7 +862,7 @@
       },
       {
         "no": 2,
-        "prompt": "문장이 사실인지 의견인지 ✔ 하세요.",
+        "prompt": "문장이 사실인지 의견인지 ✔ 하시오.",
         "table": {
           "headers": [
             "문장",
@@ -908,7 +908,7 @@
       },
       {
         "no": 3,
-        "prompt": "새 점심 메뉴에 대한 두 글(지어낸 글)을 읽고 답하세요. ① 두 글의 공통 주제를 우리말로 쓰세요. ② 글 G와 글 H의 관점을 우리말로 한 문장씩 쓰세요. ③ Both와 However를 넣어 차이를 영어로 쓰세요.",
+        "prompt": "새 점심 메뉴에 대한 두 글(지어낸 글)을 읽고 답하시오. ① 두 글의 공통 주제를 우리말로 쓰시오. ② 글 G와 글 H의 관점을 우리말로 한 문장씩 쓰시오. ③ Both와 However를 넣어 차이를 영어로 쓰시오.",
         "read": "글 G (영양 선생님의 안내문) Our new lunch menu has more vegetables and fruit. Vegetables are good for students' health. We hope everyone enjoys the healthy menu.\n글 H (학생의 게시물) The new lunch menu has less meat. Many of my friends leave their vegetables, and they are hungry after lunch. I hope the menu has more meat again.",
         "line_label": "①②③",
         "lines": 5,
@@ -916,7 +916,7 @@
       },
       {
         "no": 4,
-        "prompt": "S11의 동물원 두 게시물(글 C·글 D)을 비교표로 정리하세요. 우리말로 써도 돼요.",
+        "prompt": "S11의 동물원 두 게시물(글 C·글 D)을 비교표로 정리하시오. 우리말로 써도 된다.",
         "table": {
           "headers": [
             "",
@@ -925,17 +925,17 @@
           ],
           "rows": [
             [
-              "누가 썼나요\n(글쓴이)",
+              "누가 썼나\n(글쓴이)",
               "",
               ""
             ],
             [
-              "관점\n(어떻게 보나요)",
+              "관점\n(어떻게 보나)",
               "",
               ""
             ],
             [
-              "근거 정보\n(왜 그렇게\n보나요)",
+              "근거 정보\n(왜 그렇게\n보나)",
               "",
               ""
             ],
@@ -957,7 +957,7 @@
       },
       {
         "no": 5,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 휴대 전화 규칙에 대한 두 글(글 A·글 B)의 차이를 Both, because, However를 넣어 영어 세 문장으로 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 휴대 전화 규칙에 대한 두 글(글 A·글 B)의 차이를 Both, because, However를 넣어 영어 세 문장으로 쓰시오.",
         "eng": {
           "trace": [
             "Both writers talk about zoos.",
@@ -971,7 +971,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 주제와 관점은 어떻게 다른지 우리말로 쓰세요.\n② 사실과 의견은 어떻게 다른지 우리말로 쓰세요.\n③ 두 글의 차이를 설명할 때 쓰는 영어 틀을 쓰세요.",
+        "prompt": "① 주제와 관점은 어떻게 다른지 우리말로 쓰시오.\n② 사실과 의견은 어떻게 다른지 우리말로 쓰시오.\n③ 두 글의 차이를 설명할 때 쓰는 영어 틀을 쓰시오.",
         "lines": 3,
         "answer": "① 주제는 글이 무엇에 대한 것인지, 관점은 그 주제를 바라보는 글쓴이의 생각의 자리 ② 사실은 확인할 수 있는 일, 의견은 사람의 생각이나 판단 ③ Both writers talk about ~. / The ~ thinks ~ because ~. / However, the ~ thinks ~. 세 가지 모두 도움 없이 하면 통과."
       }

@@ -102,8 +102,8 @@
       "title": "의견 문단 쓰기",
       "question": "내 생각을 이유와 예시로\n한 문단에 쓸 수 있을까?",
       "goals": [
-        "① 주제문·이유·예시·마무리를 찾아요.",
-        "② 연결어로 이어 의견 문단을 써요."
+        "① 주제문·이유·예시·마무리를 찾을 수 있다.",
+        "② 연결어로 이어 의견 문단을 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -151,7 +151,7 @@
       "role": "prior",
       "objectives": [],
       "title": "because와 문단 떠올리기",
-      "text": "①②는 알맞은 말을 넣어 읽고, ③은 답해요.",
+      "text": "①②는 알맞은 말을 넣어 읽고, ③은 답해 보자.",
       "problems": [
         {
           "text": "I think summer is fun ______ I can swim."
@@ -195,7 +195,7 @@
         "A"
       ],
       "title": "의견 문단의 네 부분",
-      "text": "의견 문단은 내 생각과 그 까닭을 담은 문단이에요.",
+      "text": "의견 문단은 내 생각과 그 까닭을 담은 문단이다.",
       "cards": [
         {
           "title": "주제문",
@@ -203,7 +203,7 @@
         },
         {
           "title": "이유",
-          "text": "왜 그렇게 생각하나요?\nFirst, ~. / Second, ~."
+          "text": "왜 그렇게 생각하는가?\nFirst, ~. / Second, ~."
         },
         {
           "title": "예시",
@@ -211,10 +211,10 @@
         },
         {
           "title": "마무리",
-          "text": "의견을 다시 말해요.\nSo, I think ~."
+          "text": "의견을 다시 말한다.\nSo, I think ~."
         }
       ],
-      "key": "이유는 ‘왜?’에, 예시는 ‘예를 들면?’에 답해요.",
+      "key": "이유는 ‘왜?’에, 예시는 ‘예를 들면?’에 답한다.",
       "notes": {
         "목적": "의견(어떤 일에 대한 내 생각) 문단의 네 부분과 각 부분을 여는 연결어를 알려 주고, 이유와 예시의 차이를 짚습니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -258,7 +258,7 @@
         ],
         "numbered": true
       },
-      "question": "주제문, 이유 두 개, 예시 두 개, 마무리 문장은 몇 번인가요?",
+      "question": "주제문, 이유 두 개, 예시 두 개, 마무리 문장은 몇 번인가?",
       "notes": {
         "목적": "본보기 의견 문단을 함께 읽으며 주제문(①)–이유(②④)–예시(③⑤)–마무리(⑥)를 찾고, 예시가 바로 앞 이유를 보여 준다는 것을 확인합니다(목표 A).",
         "시간": "약 3분",
@@ -327,7 +327,7 @@
         "width": 12.2,
         "size": 22
       },
-      "key": "마무리 문장은 주제문과 같은 의견을 다시 말해요.",
+      "key": "마무리 문장은 주제문과 같은 의견을 다시 말한다.",
       "notes": {
         "목적": "의견 문단을 쓸 때 쓰는 문장 틀을 부분별로 보여 줍니다. 아이는 S11과 활동지 5에서 이 틀을 보며 씁니다(목표 A·B, 오해 M2).",
         "시간": "약 3분",
@@ -357,8 +357,8 @@
       "objectives": [
         "A"
       ],
-      "title": "이유일까요, 예시일까요?",
-      "text": "주제문: I think P.E. class is important.\n문장마다 이유인지 예시인지 말해요.",
+      "title": "이유일까, 예시일까?",
+      "text": "주제문: I think P.E. class is important.\n문장마다 이유인지 예시인지 말해 보자.",
       "problems": [
         {
           "text": "We run and jump\nevery Monday."
@@ -404,8 +404,8 @@
       "objectives": [
         "A"
       ],
-      "title": "이유와 맞는 예시일까요?",
-      "claim": "‘I think dogs are good pets.’에 두 친구가 이렇게 썼어요.",
+      "title": "이유와 맞는 예시일까?",
+      "claim": "‘I think dogs are good pets.’에 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -430,7 +430,7 @@
           ]
         }
       },
-      "question": "예시가 이유와 맞는 쪽은? 다른 쪽은 무엇이 문제인가요?",
+      "question": "예시가 이유와 맞는 쪽은? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "For example 뒤에 이유와 관계없는 예를 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -459,8 +459,8 @@
         "A",
         "B"
       ],
-      "title": "예시를 붙여 말해요",
-      "text": "이유를 보여 주는 예시를 영어로 이어 말해요. 내 경험을 넣어도 좋아요.",
+      "title": "예시를 붙여 말하자",
+      "text": "이유를 보여 주는 예시를 영어로 이어 말해 보자. 내 경험을 넣어도 좋다.",
       "problems": [
         {
           "text": "이유: We can swim in summer.\nFor example, ______"
@@ -506,11 +506,11 @@
       ],
       "title": "의견 문단 쓰는 순서",
       "steps": [
-        "주제를 고르고 의견을 정해요.",
-        "이유 두 개를 적어요.",
-        "이유마다 예시를 하나씩 떠올려요.",
-        "개요를 보고 써요:\nFirst, For example, Second, So",
-        "점검표로 확인하고 고쳐요."
+        "주제를 고르고 의견을 정한다.",
+        "이유 두 개를 적는다.",
+        "이유마다 예시를 하나씩 떠올린다.",
+        "개요를 보고 쓴다:\nFirst, For example, Second, So",
+        "점검표로 확인하고 고친다."
       ],
       "figure": {
         "type": "table",
@@ -579,16 +579,16 @@
       ],
       "title": "왜? 예를 들면? 인터뷰",
       "steps": [
-        "주제 카드 하나를 골라요:\npets / P.E. class / winter",
+        "주제 카드 하나를 고른다:\npets / P.E. class / winter",
         "부모: Do you think pets are\ngood for children?",
         "아이: I think ~.",
         "부모: Why?\n아이: First, ~. Second, ~.",
         "부모: For example?\n아이: For example, ~."
       ],
       "criteria": [
-        "I think ~.로 의견을 말했어요",
-        "이유를 두 개 말했어요",
-        "이유에 맞는 예시를 말했어요"
+        "I think ~.로 의견을 말했다",
+        "이유를 두 개 말했다",
+        "이유에 맞는 예시를 말했다"
       ],
       "notes": {
         "목적": "부모가 ‘왜? 예를 들면?’을 물으며 아이가 의견·이유·예시를 말하고, 그 내용을 활동지 4 개요표에 적습니다(목표 A·B).",
@@ -622,8 +622,8 @@
       "objectives": [
         "B"
       ],
-      "title": "혼자 써요: 의견 문단",
-      "text": "활동지 4의 개요를 보고 활동지 5에 한 문단으로 써요.",
+      "title": "혼자 쓰기: 의견 문단",
+      "text": "활동지 4의 개요를 보고 활동지 5에 한 문단으로 쓰시오.",
       "problems": [
         {
           "text": "주제문:\nI think ~."
@@ -696,14 +696,14 @@
         },
         {
           "text": "For example, I like pizza.",
-          "note": "이유와 맞는\n예시인가요?"
+          "note": "이유와 맞는\n예시인가?"
         },
         {
           "text": "(마무리 없음)",
-          "note": "So, I think ~.로\n끝내요"
+          "note": "So, I think ~.로\n끝낸다"
         }
       ],
-      "explain": "주제문 → 이유와 예시가 맞는지 → 마무리가 같은 의견인지 점검해요.",
+      "explain": "주제문 → 이유와 예시가 맞는지 → 마무리가 같은 의견인지 점검한다.",
       "notes": {
         "목적": "아이의 문단을 잘 쓴 예와 견주어 보고, 우리말로 피드백하는 순서에 따라 고칠 곳 하나를 아이가 직접 고치게 합니다.",
         "시간": "약 2분",
@@ -737,7 +737,7 @@
       "objectives": [
         "A"
       ],
-      "title": "혼자 찾아요: 우리 동네 공원",
+      "title": "혼자 찾기: 우리 동네 공원",
       "passage": {
         "paragraphs": [
           "I think our town park is a great place for families.",
@@ -749,7 +749,7 @@
         ],
         "numbered": true
       },
-      "question": "① 이유 두 개는 몇 번?　② 이유와 맞지 않는 예시는? 어떻게 고칠까요?",
+      "question": "① 이유 두 개는 몇 번?　② 이유와 맞지 않는 예시는? 어떻게 고칠까?",
       "notes": {
         "목적": "처음 보는 의견 문단에서 이유를 찾고, 이유와 맞지 않는 예시를 찾아 맞는 예시로 고쳐 말하는지 확인합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -782,7 +782,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "주제문(I think ~.) → 이유(First, Second) + 예시(For example) → 마무리(So, I think ~.)\n의견은 달라도 이유와 예시가 맞으면 좋은 문단이에요.",
+      "key": "주제문(I think ~.) → 이유(First, Second) + 예시(For example) → 마무리(So, I think ~.)\n의견은 달라도 이유와 예시가 맞으면 좋은 문단이다.",
       "do": "이유마다 맞는 예시 하나",
       "dont": "Because ~.만 따로 쓰기",
       "review": [
@@ -793,7 +793,7 @@
           "text": "이유와 예시의\n차이는?"
         },
         {
-          "text": "‘겨울은 멋져요’의\n이유와 예시를 영어로"
+          "text": "‘겨울은 멋지다’의\n이유와 예시를 영어로"
         }
       ],
       "next": "바꾸어 말하기",
@@ -826,26 +826,26 @@
       "objectives": [],
       "title": "보충: 의견과 이유",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 1,
         "items": [
           {
             "word": "I think summer is fun",
-            "sub": "내 생각에 여름은 재미있어요"
+            "sub": "내 생각에 여름은 재미있다"
           },
           {
             "word": "because I can swim.",
-            "sub": "수영할 수 있기 때문이에요"
+            "sub": "수영할 수 있기 때문이다"
           },
           {
             "word": "It rained, so we stayed home.",
-            "sub": "비가 와서 우리는 집에 있었어요"
+            "sub": "비가 와서 우리는 집에 있었다"
           }
         ]
       },
-      "key": "because 뒤에는 까닭, so 뒤에는 결과가 와요. 한 문장에 하나만 써요.",
+      "key": "because 뒤에는 까닭, so 뒤에는 결과가 온다. 한 문장에 하나만 쓴다.",
       "notes": {
         "목적": "S02에서 because·so나 의견 말하기가 흔들리면, 의견 문단을 쓰기 전에 I think ~ because ~.와 so를 다시 다집니다.",
         "시간": "약 4분",
@@ -855,7 +855,7 @@
           "“좋아하는 계절을 I think ~ because ~.로 말해 볼래?”"
         ],
         "정답": [
-          "내 생각에 여름은 재미있어요 / 수영할 수 있기 때문이에요 / 비가 와서 우리는 집에 있었어요. 예: I think winter is great because I can make a snowman."
+          "내 생각에 여름은 재미있다 / 수영할 수 있기 때문이다 / 비가 와서 우리는 집에 있었다. 예: I think winter is great because I can make a snowman."
         ],
         "막히면": [
           "부모가 먼저 자기 생각을 I think ~ because ~.로 말하고, 아이가 낱말만 바꾸어 따라 하게 합니다.",
@@ -873,7 +873,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "문단을 읽고 각 부분의 문장 번호를 쓰세요.",
+        "prompt": "문단을 읽고 각 부분의 문장 번호를 쓰시오.",
         "read": "① I think winter is a great season. ② First, we can play in the snow. ③ For example, my sister and I made a big snowman last January. ④ Second, winter has fun holidays. ⑤ For example, my family eats tteokguk together on New Year's Day. ⑥ So, winter is my favorite season.",
         "table": {
           "headers": [
@@ -902,7 +902,7 @@
       },
       {
         "no": 2,
-        "prompt": "주제문 ‘I think pets are good for children.’을 뒷받침하는 문장이에요. 이유인지 예시인지 ✔ 하세요.",
+        "prompt": "주제문 ‘I think pets are good for children.’을 뒷받침하는 문장이다. 이유인지 예시인지 ✔ 하시오.",
         "table": {
           "headers": [
             "문장",
@@ -943,7 +943,7 @@
       },
       {
         "no": 3,
-        "prompt": "문단을 읽고 ① 이유와 맞지 않는 예시에 밑줄을 그으세요. ② 그 예시를 이유에 맞게 고쳐 쓰세요.",
+        "prompt": "문단을 읽고 ① 이유와 맞지 않는 예시에 밑줄을 그으시오. ② 그 예시를 이유에 맞게 고쳐 쓰시오.",
         "read": "I think bikes are good for students. First, riding a bike is good exercise. For example, my bike has a red bell. Second, riding a bike is cheap. For example, I don't need money for the bus. So, I think bikes are great for students.",
         "line_label": "②",
         "lines": 2,
@@ -951,7 +951,7 @@
       },
       {
         "no": 4,
-        "prompt": "주제를 하나 고르고(pets / P.E. class / winter / my town / 내가 정한 주제) 개요표를 채우세요(S10에서 말한 내용). 낱말로 짧게 쓰세요.",
+        "prompt": "주제를 하나 고르고(pets / P.E. class / winter / my town / 내가 정한 주제) 개요표를 채우시오(S10에서 말한 내용). 낱말로 짧게 쓰시오.",
         "table": {
           "headers": [
             "부분",
@@ -994,7 +994,7 @@
       },
       {
         "no": 5,
-        "prompt": "4의 개요를 보고 6문장 안팎의 의견 문단을 쓰세요. 주제문(I think ~.) → 이유 ①(First) → 예시(For example) → 이유 ②(Second) → 예시(For example) → 마무리(So, I think ~.) 순서로 이어 쓰세요.",
+        "prompt": "4의 개요를 보고 6문장 안팎의 의견 문단을 쓰시오. 주제문(I think ~.) → 이유 ①(First) → 예시(For example) → 이유 ②(Second) → 예시(For example) → 마무리(So, I think ~.) 순서로 이어 쓰시오.",
         "eng": {
           "trace": [],
           "blank": 7
@@ -1003,7 +1003,7 @@
       },
       {
         "no": 6,
-        "prompt": "5에 쓴 문단을 점검표로 확인하세요. 나와 부모님이 각각 ✔ 하고, 고칠 문장은 아래 줄에 고쳐 쓰세요.",
+        "prompt": "5에 쓴 문단을 점검표로 확인하시오. 나와 부모님이 각각 ✔ 하고, 고칠 문장은 아래 줄에 고쳐 쓰시오.",
         "table": {
           "headers": [
             "점검할 것",
@@ -1012,32 +1012,32 @@
           ],
           "rows": [
             [
-              "① 첫 문장이 I think ~.로 시작하는 주제문인가요?",
+              "① 첫 문장이 I think ~.로 시작하는 주제문인가?",
               "",
               ""
             ],
             [
-              "② 이유가 두 개 있고 First, Second로 시작하나요?",
+              "② 이유가 두 개 있고 First, Second로 시작하는가?",
               "",
               ""
             ],
             [
-              "③ 예시가 For example로 시작하고 이유와 맞나요?",
+              "③ 예시가 For example로 시작하고 이유와 맞는가?",
               "",
               ""
             ],
             [
-              "④ because·so 문장이 끝까지 완성되었나요?",
+              "④ because·so 문장이 끝까지 완성되었는가?",
               "",
               ""
             ],
             [
-              "⑤ 마무리 문장이 주제문과 같은 의견인가요?",
+              "⑤ 마무리 문장이 주제문과 같은 의견인가?",
               "",
               ""
             ],
             [
-              "⑥ 대문자, 마침표, 연결어 뒤 쉼표를 지켰나요?",
+              "⑥ 대문자, 마침표, 연결어 뒤 쉼표를 지켰는가?",
               "",
               ""
             ]
@@ -1057,7 +1057,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 의견 문단의 네 부분을 쓰세요.\n② 이유와 예시는 어떻게 다른지 우리말로 쓰세요.\n③ I think winter is great.에 이유 하나(First, ~.)와 예시 하나(For example, ~.)를 영어로 쓰세요.",
+        "prompt": "① 의견 문단의 네 부분을 쓰시오.\n② 이유와 예시는 어떻게 다른지 우리말로 쓰시오.\n③ I think winter is great.에 이유 하나(First, ~.)와 예시 하나(For example, ~.)를 영어로 쓰시오.",
         "lines": 3,
         "answer": "① 주제문, 이유, 예시, 마무리 문장 ② 이유는 왜 그렇게 생각하는지(까닭), 예시는 그 이유를 보여 주는 실제 일 ③ 예: First, we can play in the snow. For example, I made a snowman last winter. 세 가지 모두 도움 없이 하면 통과."
       }

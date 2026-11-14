@@ -187,8 +187,8 @@
       "title": "비교급",
       "question": "My bag is heavier than your bag.\n두 가지를 영어로 어떻게 비교할까?",
       "goals": [
-        "① 규칙에 맞게 비교급(-er, more, better)을 만들어요.",
-        "② A is ~er than B.로 두 가지를 비교해 말하고 써요."
+        "① 규칙에 맞게 비교급(-er, more, better)을 만들 수 있다.",
+        "② A is ~er than B.로 두 가지를 비교해 말하고 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -233,10 +233,10 @@
       "role": "prior",
       "objectives": [],
       "title": "비교하기 떠올리기",
-      "text": "①②는 빈칸을 채워 읽고, ③은 알맞은 be동사를 넣어요.",
+      "text": "①②는 빈칸을 채워 읽고, ③은 알맞은 be동사를 넣어 보자.",
       "problems": [
         {
-          "text": "big → ______  (철자를 말해요)"
+          "text": "big → ______  (철자를 말하자)"
         },
         {
           "text": "The tree is ______ than the house. (tall)"
@@ -307,14 +307,14 @@
       "points": [
         {
           "title": "형용사",
-          "text": "사람·물건이 어떤지 나타내는 말이에요.\ntall, big, happy"
+          "text": "사람·물건이 어떤지 나타내는 말이다.\ntall, big, happy"
         },
         {
           "title": "비교급",
-          "text": "형용사의 ‘더 ~한’ 모양이에요.\ntall → taller"
+          "text": "형용사의 ‘더 ~한’ 모양이다.\ntall → taller"
         }
       ],
-      "key": "더 그러한 쪽을 주어로 쓰고, 비교하는 대상은 than 뒤에 써요.",
+      "key": "더 그러한 쪽을 주어로 쓰고, 비교하는 대상은 than 뒤에 쓴다.",
       "notes": {
         "목적": "형용사와 비교급의 뜻을 알려 주고, 더 그러한 쪽이 주어, 비교하는 대상이 than 뒤에 온다는 것을 보여 줍니다(목표 B, 오해 M4).",
         "시간": "약 3분",
@@ -347,7 +347,7 @@
         "A"
       ],
       "title": "-er을 붙이는 규칙",
-      "text": "낱말 끝 글자를 보고 붙이는 방법을 골라요.",
+      "text": "낱말 끝 글자를 보고 붙이는 방법을 고른다.",
       "table": {
         "headers": [
           "낱말의 끝",
@@ -361,7 +361,7 @@
             "tall → taller, cold → colder"
           ],
           [
-            "e로 끝나요",
+            "e로 끝난다",
             "+ -r",
             "large → larger, nice → nicer"
           ],
@@ -384,7 +384,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "모음은 a, e, i, o, u예요. 나머지 글자는 자음이에요.",
+      "key": "모음은 a, e, i, o, u이다. 나머지 글자는 자음이다.",
       "notes": {
         "목적": "형용사의 끝 글자에 따라 -er을 붙이는 네 가지 방법을 표로 익힙니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -418,7 +418,7 @@
         "A"
       ],
       "title": "비교급 만들기",
-      "text": "비교급을 말하고, 철자도 말해요.",
+      "text": "비교급을 말하고, 철자도 말해 보자.",
       "problems": [
         {
           "text": "long → ______"
@@ -439,7 +439,7 @@
           "text": "thin → ______"
         }
       ],
-      "hint": "낱말의 끝 글자를 먼저 봐요.",
+      "hint": "낱말의 끝 글자를 먼저 본다.",
       "notes": {
         "목적": "끝 글자를 보고 규칙을 골라 비교급을 만들고 철자로 말합니다(목표 A, 오해 M2). 활동지 1에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -473,7 +473,7 @@
         "A"
       ],
       "title": "긴 낱말은 more",
-      "text": "긴 낱말은 -er을 붙이지 않고 앞에 more를 써요.",
+      "text": "긴 낱말은 -er을 붙이지 않고 앞에 more를 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 1,
@@ -492,7 +492,7 @@
           }
         ]
       },
-      "key": "more와 -er은 함께 쓰지 않아요.  (more bigger ×)",
+      "key": "more와 -er은 함께 쓰지 않는다.  (more bigger ×)",
       "notes": {
         "목적": "긴 형용사는 -er을 붙이지 않고 앞에 more를 쓴다는 것과 more와 -er을 함께 쓰지 않는다는 것을 알려 줍니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -523,7 +523,7 @@
         "A"
       ],
       "title": "모양이 바뀌는 비교급",
-      "text": "몇몇 낱말은 규칙을 따르지 않아요. 통째로 외워요.",
+      "text": "몇몇 낱말은 규칙을 따르지 않는다. 통째로 외우자.",
       "table": {
         "headers": [
           "낱말(뜻)",
@@ -555,7 +555,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "gooder, more good, badder로 쓰지 않아요.",
+      "key": "gooder, more good, badder로 쓰지 않는다.",
       "notes": {
         "목적": "규칙을 따르지 않는 비교급 good → better, bad → worse, many → more를 익힙니다(목표 A, 오해 M3).",
         "시간": "약 3분",
@@ -585,8 +585,8 @@
       "objectives": [
         "A"
       ],
-      "title": "more heavier일까요?",
-      "claim": "‘내 가방이 네 가방보다 더 무거워.’를 두 친구가 이렇게 썼어요.",
+      "title": "more heavier일까?",
+      "claim": "‘내 가방이 네 가방보다 더 무거워.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -611,7 +611,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐을까?",
       "notes": {
         "목적": "more와 -er을 함께 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -623,7 +623,7 @@
           "바르게 쓴 쪽은 가(My bag is heavier than your bag.)입니다. 나는 more와 -er을 함께 썼습니다. heavy는 자음 + y로 끝나므로 heavier만 씁니다."
         ],
         "막히면": [
-          "S06 아래 카드(more와 -er은 함께 쓰지 않아요)를 다시 보여 줍니다."
+          "S06 아래 카드(more와 -er은 함께 쓰지 않는다)를 다시 보여 줍니다."
         ],
         "주의": [
           "같은 실수 예: more bigger → bigger, more better → better, more happier → happier. 아이가 직접 고쳐 말해 보게 합니다.",
@@ -640,8 +640,8 @@
       "objectives": [
         "B"
       ],
-      "title": "표를 보고 비교해요",
-      "text": "표를 보고 괄호 속 낱말을 비교급으로 바꿔 말해요.",
+      "title": "표를 보고 비교하자",
+      "text": "표를 보고 괄호 속 낱말을 비교급으로 바꿔 말해 보자.",
       "problems": [
         {
           "text": "Max is ______ than Coco. (old)"
@@ -718,8 +718,8 @@
         "A",
         "B"
       ],
-      "title": "more일까요, 모양이 바뀔까요?",
-      "text": "괄호 속 낱말을 비교급으로 바꿔 문장을 읽어요.",
+      "title": "more일까, 모양이 바뀔까?",
+      "text": "괄호 속 낱말을 비교급으로 바꿔 문장을 읽어 보자.",
       "problems": [
         {
           "text": "This movie is ______ than that movie. (good)"
@@ -731,7 +731,7 @@
           "text": "Jisu has ______ books than Minho. (many)"
         }
       ],
-      "hint": "긴 낱말은 more, good·bad·many는 모양이 바뀌어요.",
+      "hint": "긴 낱말은 more, good·bad·many는 모양이 바뀐다.",
       "notes": {
         "목적": "긴 낱말의 more와 불규칙 비교급을 문장 속에서 골라 씁니다(목표 A·B, 오해 M1·M3).",
         "시간": "약 3분",
@@ -765,16 +765,16 @@
       ],
       "title": "우리 집 물건 비교하기",
       "steps": [
-        "집에서 물건 두 개를 골라 나란히 놓아요.",
-        "들어 보고, 길이와 크기도 견주어 봐요.",
-        "부모가 물어요: Which is heavier?",
-        "아이가 답해요: The book is heavier than the cup.",
-        "역할을 바꿔 long, big, old로도 해요."
+        "집에서 물건 두 개를 골라 나란히 놓는다.",
+        "들어 보고, 길이와 크기도 견주어 본다.",
+        "부모가 묻는다: Which is heavier?",
+        "아이가 답한다: The book is heavier than the cup.",
+        "역할을 바꿔 long, big, old로도 한다."
       ],
       "criteria": [
-        "더 그러한 쪽을 주어로 말했어요",
-        "비교급을 규칙에 맞게 말했어요",
-        "than 뒤에 비교하는 물건을 말했어요"
+        "더 그러한 쪽을 주어로 말했다",
+        "비교급을 규칙에 맞게 말했다",
+        "than 뒤에 비교하는 물건을 말했다"
       ],
       "notes": {
         "목적": "실제 물건을 들고 견주어 보며 비교 문장을 소리 내어 여러 번 말합니다(목표 B).",
@@ -810,7 +810,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "hot · easy · bad\n→ 비교급으로"
@@ -819,10 +819,10 @@
           "text": "popular\n→ 비교급으로"
         },
         {
-          "text": "cat 4 kg · dog 9 kg\n→ heavy로 비교해요"
+          "text": "cat 4 kg · dog 9 kg\n→ heavy로 비교하시오"
         },
         {
-          "text": "Ann is more tall than Tom.\n→ 바르게 고쳐요"
+          "text": "Ann is more tall than Tom.\n→ 바르게 고치시오"
         }
       ],
       "notes": {
@@ -873,18 +873,18 @@
       "bad": [
         {
           "text": "hoter, easyer",
-          "note": "끝 글자 규칙을\n다시 봐요"
+          "note": "끝 글자 규칙을\n다시 본다"
         },
         {
           "text": "more heavier",
-          "note": "more와 -er은\n함께 쓰지 않아요"
+          "note": "more와 -er은\n함께 쓰지 않는다"
         },
         {
           "text": "badder",
           "note": "bad → worse"
         }
       ],
-      "explain": "끝 글자 보기 → -er·more·모양이 바뀌는 말 고르기 → than 뒤 비교 대상 순서로 다시 봐요.",
+      "explain": "끝 글자 보기 → -er·more·모양이 바뀌는 말 고르기 → than 뒤 비교 대상 순서로 다시 본다.",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -916,7 +916,7 @@
         "B"
       ],
       "title": "가방 두 개 비교하기",
-      "text": "표를 보고 괄호 속 낱말로 비교하는 문장을 말해요.",
+      "text": "표를 보고 괄호 속 낱말로 비교하는 문장을 말하시오.",
       "problems": [
         {
           "text": "무게 (heavy)"
@@ -1003,7 +1003,7 @@
           "text": "beautiful의\n비교급은?"
         },
         {
-          "text": "‘이 상자가 저 상자보다\n더 무거워요.’를 영어로"
+          "text": "‘이 상자가 저 상자보다\n더 무겁다.’를 영어로"
         }
       ],
       "next": "최상급",
@@ -1036,7 +1036,7 @@
       "objectives": [],
       "title": "보충: -er 비교 다시 보기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 3,
@@ -1067,7 +1067,7 @@
           }
         ]
       },
-      "key": "The tree is taller than the house.처럼 than 앞뒤로 비교했지요?",
+      "key": "The tree is taller than the house.처럼 than 앞뒤로 비교했다.",
       "notes": {
         "목적": "S02에서 -er과 than이 흔들리면, 오늘 내용을 배우기 전에 6학년에서 익힌 여섯 낱말의 비교 모양과 뜻을 다시 다집니다.",
         "시간": "약 4분",
@@ -1094,7 +1094,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "낱말을 비교급으로 바꾸어 쓰세요.",
+        "prompt": "낱말을 비교급으로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1128,7 +1128,7 @@
       },
       {
         "no": 2,
-        "prompt": "괄호 속 낱말을 비교급으로 바꾸어 빈칸에 쓰세요.",
+        "prompt": "괄호 속 낱말을 비교급으로 바꾸어 빈칸에 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1159,7 +1159,7 @@
       },
       {
         "no": 3,
-        "prompt": "틀린 곳을 찾아 바르게 고친 문장 전체를 쓰세요.",
+        "prompt": "틀린 곳을 찾아 바르게 고친 문장 전체를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1190,7 +1190,7 @@
       },
       {
         "no": 4,
-        "prompt": "표를 보고 괄호 속 낱말로 두 자전거를 비교하는 문장을 쓰세요.",
+        "prompt": "표를 보고 괄호 속 낱말로 두 자전거를 비교하는 문장을 쓰시오.",
         "table": {
           "headers": [
             "",
@@ -1227,7 +1227,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1239,11 +1239,11 @@
               ""
             ],
             [
-              "③ cat 4 kg · dog 9 kg\n(heavy로 비교해요)",
+              "③ cat 4 kg · dog 9 kg\n(heavy로 비교하시오)",
               ""
             ],
             [
-              "④ Ann is more tall than Tom.\n(바르게 고쳐요)",
+              "④ Ann is more tall than Tom.\n(바르게 고치시오)",
               ""
             ]
           ],
@@ -1258,7 +1258,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 물건 두 개를 비교하는 문장을 두 개 쓰세요(하나는 -er, 하나는 more나 better).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 우리 집 물건 두 개를 비교하는 문장을 두 개 쓰시오(하나는 -er, 하나는 more나 better).",
         "eng": {
           "trace": [
             "Minho is taller than Jisu.",
@@ -1272,7 +1272,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① big, happy, good의 비교급을 쓰세요.\n② beautiful의 비교급을 쓰세요.\n③ ‘이 상자가 저 상자보다 더 무거워요.’를 영어로 쓰세요.",
+        "prompt": "① big, happy, good의 비교급을 쓰시오.\n② beautiful의 비교급을 쓰시오.\n③ ‘이 상자가 저 상자보다 더 무겁다.’를 영어로 쓰시오.",
         "lines": 3,
         "answer": "① bigger, happier, better ② more beautiful ③ This box is heavier than that box. 세 가지 모두 도움 없이 하면 통과."
       }

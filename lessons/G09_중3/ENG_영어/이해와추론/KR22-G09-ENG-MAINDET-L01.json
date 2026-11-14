@@ -58,12 +58,12 @@
   "misconceptions": [
     {
       "id": "M1",
-      "text": "눈에 띄는 세부 정보 하나를 요지로 쓴다(많은 학생이 6~7시간만 자요).",
+      "text": "눈에 띄는 세부 정보 하나를 요지로 쓴다(많은 학생이 6~7시간만 잔다).",
       "response": "S03에서 요지 = 주제 + 핵심이라는 틀을 주고, S05에서 ‘너무 좁은 보기’를 가려내게 한다. S13 정답 장과 활동지 1에서 다시 확인한다."
     },
     {
       "id": "M2",
-      "text": "주제만 있고 핵심이 빠진 막연한 문장을 요지로 쓴다(잠은 중요해요.).",
+      "text": "주제만 있고 핵심이 빠진 막연한 문장을 요지로 쓴다(잠은 중요하다.).",
       "response": "S05의 나 보기로 ‘맞지만 너무 넓은 요지’를 짚고, 무엇을 하라는지(So 뒤)가 들어가야 한다는 것을 보여 준다. S11·S12에서 한 문장으로 말하게 한다."
     },
     {
@@ -120,8 +120,8 @@
       "title": "요지와 세부 정보",
       "question": "글 전체가 하고 싶은 말은 한 문장으로 무엇일까?\n이 문장은 글과 맞을까, 틀릴까?",
       "goals": [
-        "① 글과 대화의 요지를 한 문장으로 말하고 써요.",
-        "② 세부 정보가 글과 맞는지(T/F) 판단하고 근거를 짚어요."
+        "① 글과 대화의 요지를 한 문장으로 말하고 쓸 수 있다.",
+        "② 세부 정보가 글과 맞는지(T/F) 판단하고 근거를 짚을 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -133,7 +133,7 @@
           },
           {
             "word": "True or False?",
-            "sub": "세부 정보가 글과 맞나요?"
+            "sub": "세부 정보가 글과 맞는가?"
           }
         ]
       },
@@ -164,14 +164,14 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 글 읽기",
-      "text": "글을 읽고 질문에 답해요.  cause air pollution 공기 오염을 일으키다",
+      "text": "글을 읽고 질문에 답하자.  cause air pollution 공기 오염을 일으키다",
       "passage": {
         "title": "Ride a Bike to School",
         "paragraphs": [
           "Riding a bike to school is a great idea. First, it is good for your health. For example, you can exercise for twenty minutes every morning. Also, bikes don't cause air pollution. However, you should always wear a helmet."
         ]
       },
-      "question": "① 글쓴이가 가장 하고 싶은 말은?　② However 뒤에서 무엇을 말하나요?",
+      "question": "① 글쓴이가 가장 하고 싶은 말은?　② However 뒤에서 무엇을 말하는가?",
       "notes": {
         "목적": "중2 ‘연결어로 글의 흐름 파악’의 First·For example·However를 단서로 글의 흐름을 읽는지, 중1부터 해 온 요지 찾기를 기억하는지 확인합니다.",
         "시간": "약 3분",
@@ -212,18 +212,18 @@
         },
         {
           "title": "요지의 단서",
-          "text": "되풀이되는 말, 첫·끝 문장,\nSo·However 뒤를 봐요."
+          "text": "되풀이되는 말, 첫·끝 문장,\nSo·However 뒤를 본다."
         },
         {
           "title": "T/F 판단",
-          "text": "핵심어를 글에서 찾아\n한 낱말씩 맞대어 봐요."
+          "text": "핵심어를 글에서 찾아\n한 낱말씩 맞대어 본다."
         },
         {
           "title": "F의 함정",
           "text": "숫자·요일, not·never,\nmore·less, 바뀐 정보"
         }
       ],
-      "key": "같은 낱말이 있다고 T가 아니에요. 뜻이 같아야 T예요.",
+      "key": "같은 낱말이 있다고 T가 아니다. 뜻이 같아야 T이다.",
       "notes": {
         "목적": "요지를 ‘주제 + 핵심’ 한 문장으로 쓰는 방법과, T/F 문장을 글과 맞대어 판단하는 방법을 알려 줍니다(목표 A·B).",
         "시간": "약 2분",
@@ -264,7 +264,7 @@
         ],
         "numbered": true
       },
-      "question": "글쓴이가 가장 하고 싶은 말을 한 문장으로? 어느 문장에서 알 수 있나요?",
+      "question": "글쓴이가 가장 하고 싶은 말을 한 문장으로? 어느 문장에서 알 수 있을까?",
       "notes": {
         "목적": "부모와 함께 설명문을 끝까지 읽고, 되풀이되는 말과 So 뒤의 문장에서 요지를 찾아 한 문장으로 말하는 과정을 보여 줍니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -282,7 +282,7 @@
         ],
         "주의": [
           "모범 요지: ‘학교생활을 잘하려면 충분히 자야 한다.’ 영어로는 Teenagers should get enough sleep to do well at school. 근거: ④ So, if you want to do well at school, get enough sleep.",
-          "글의 뜻: ① 많은 10대가 늦게 자요. 전문가들은 10대가 8~10시간 자야 한다고 말해요. 하지만 많은 학생이 6~7시간만 자요. ② 잠은 중요해요. 잠자는 동안 뇌는 일해요. 뇌는 배운 것을 저장해요. ③ 충분히 자지 않으면 수업 시간에 집중하기 힘들어요. ④ 그러니 학교생활을 잘하고 싶다면 충분히 자세요. 매일 밤 같은 시각에 자세요. (enough: 충분한)"
+          "글의 뜻: ① 많은 10대가 늦게 자요. 전문가들은 10대가 8~10시간 자야 한다고 말해요. 하지만 많은 학생이 6~7시간만 잔다. ② 잠은 중요하다. 잠자는 동안 뇌는 일해요. 뇌는 배운 것을 저장해요. ③ 충분히 자지 않으면 수업 시간에 집중하기 힘들어요. ④ 그러니 학교생활을 잘하고 싶다면 충분히 자세요. 매일 밤 같은 시각에 자세요. (enough: 충분한)"
         ]
       }
     },
@@ -296,22 +296,22 @@
         "A"
       ],
       "title": "가장 좋은 요지 문장은?",
-      "text": "S04 글의 요지로 가장 알맞은 문장을 골라요.",
+      "text": "S04 글의 요지로 가장 알맞은 문장을 고르자.",
       "options": [
         {
-          "text": "많은 학생이 6~7시간만 자요."
+          "text": "많은 학생이 6~7시간만 잔다."
         },
         {
-          "text": "잠은 중요해요."
+          "text": "잠은 중요하다."
         },
         {
-          "text": "자기 전에 휴대 전화를 보면 안 돼요."
+          "text": "자기 전에 휴대 전화를 보면 안 된다."
         },
         {
-          "text": "학교생활을 잘하려면 충분히 자야 해요."
+          "text": "학교생활을 잘하려면 충분히 자야 한다."
         }
       ],
-      "question": "요지는? 나머지는 왜 요지가 아닌가요?",
+      "question": "요지는? 나머지는 왜 요지가 아닌가?",
       "notes": {
         "목적": "요지 문장 가운데 세부 정보 하나만 담은 것(너무 좁음), 핵심이 빠진 것(너무 넓음), 글에 없는 것을 가려내고 가장 알맞은 요지를 고릅니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -321,7 +321,7 @@
           "“나도 틀린 말은 아니야. 그런데 무엇이 빠졌을까? 글쓴이가 우리에게 무엇을 하라고 했지?”"
         ],
         "정답": [
-          "라 (학교생활을 잘하려면 충분히 자야 해요.)",
+          "라 (학교생활을 잘하려면 충분히 자야 한다.)",
           "가: ① 문단의 세부 정보 하나입니다(너무 좁음).",
           "나: 주제(잠)는 있지만 ‘그래서 무엇을 하라는지’가 빠졌습니다(너무 넓음).",
           "다: 글에 없는 내용입니다(휴대 전화 이야기는 나오지 않음)."
@@ -346,10 +346,10 @@
       "title": "T일까, F일까? 따져 보기",
       "text": "문장: Your brain stops working while you sleep.",
       "steps": [
-        "핵심어에 밑줄을 그어요.\nbrain, stops working, sleep",
-        "글에서 같은 말이 있는\n문장을 찾아요. (② 문단)",
-        "한 낱말씩 맞대어 봐요.\nstops working ≠ works",
-        "다르면 F! 글의 문장으로 고쳐요."
+        "핵심어에 밑줄을 긋는다.\nbrain, stops working, sleep",
+        "글에서 같은 말이 있는\n문장을 찾는다. (② 문단)",
+        "한 낱말씩 맞대어 본다.\nstops working ≠ works",
+        "다르면 F! 글의 문장으로 고친다."
       ],
       "figureRatio": 0.45,
       "figure": {
@@ -402,8 +402,8 @@
       "objectives": [
         "B"
       ],
-      "title": "T/F를 판단해요",
-      "text": "글과 맞으면 T, 틀리면 F라고 말하고, F는 바르게 고쳐요.",
+      "title": "T/F를 판단하자",
+      "text": "글과 맞으면 T, 틀리면 F라고 말하고, F는 바르게 고치자.",
       "passage": {
         "paragraphs": [
           "Many teenagers go to bed late. Experts say that teenagers need eight to ten hours of sleep. However, a lot of students sleep only six or seven hours.",
@@ -454,7 +454,7 @@
         ],
         "정답": [
           "① T (① 문단: teenagers need eight to ten hours of sleep)",
-          "② F → 많은 학생이 6~7시간만 자요. (a lot of students sleep only six or seven hours)",
+          "② F → 많은 학생이 6~7시간만 잔다. (a lot of students sleep only six or seven hours)",
           "③ F → 충분히 자지 않으면 집중하기 힘들어요. (it is hard to focus in class)",
           "④ T (④ 문단: Go to bed at the same time every night.)"
         ],
@@ -477,7 +477,7 @@
         "B"
       ],
       "title": "같은 낱말이 있으면 T일까?",
-      "claim": "Experts say teenagers need six or seven hours of sleep.\n이 문장을 두 친구가 이렇게 판단했어요.",
+      "claim": "Experts say teenagers need six or seven hours of sleep.\n이 문장을 두 친구가 이렇게 판단했다.",
       "left": {
         "title": "가",
         "text": "T예요.\nsix or seven hours가\n글에 그대로 나와요."
@@ -486,7 +486,7 @@
         "title": "나",
         "text": "F예요.\n6~7시간은 학생들이 실제로\n자는 시간이에요. 전문가는\n8~10시간이 필요하다고 했어요."
       },
-      "question": "누구의 판단이 맞나요? 다른 친구는 무엇을 놓쳤나요?",
+      "question": "누구의 판단이 맞을까? 다른 친구는 무엇을 놓쳤을까?",
       "notes": {
         "목적": "같은 낱말이 글에 있다는 것만으로 T라고 판단하는 실수를 비교로 바로잡습니다(목표 B, 오해 M3).",
         "시간": "약 2분",
@@ -592,11 +592,11 @@
         "A",
         "B"
       ],
-      "title": "듣고 판단해요: 인터뷰",
-      "text": "질문을 먼저 읽어요. 그다음 인터뷰를 듣고 답해요.",
+      "title": "듣고 판단하자: 인터뷰",
+      "text": "질문을 먼저 읽자. 그다음 인터뷰를 듣고 답하자.",
       "problems": [
         {
-          "text": "인터뷰의 요지를 한 문장으로 말해요."
+          "text": "인터뷰의 요지를 한 문장으로 말해 보자."
         },
         {
           "text": "The Share Shelf is in the library.  (T / F)"
@@ -638,18 +638,18 @@
         "A",
         "B"
       ],
-      "title": "말하기: 한 문장으로 전해요",
+      "title": "말하기: 한 문장으로 전하기",
       "steps": [
-        "아이가 요지를 한 문장으로 말해요:\nThis interview is about ~.",
-        "부모가 인터뷰에 대한 문장을 말해요:\nThe shelf is in a classroom.",
-        "아이가 답해요: That's not true.\nIt's in the library.",
+        "아이가 요지를 한 문장으로 말한다:\nThis interview is about ~.",
+        "부모가 인터뷰에 대한 문장을 말한다:\nThe shelf is in a classroom.",
+        "아이가 답한다: That's not true.\nIt's in the library.",
         "맞는 문장이면: That's true.",
-        "역할을 바꿔 아이가 문장을 만들어요."
+        "역할을 바꿔 아이가 문장을 만든다."
       ],
       "criteria": [
-        "요지를 한 문장으로 말했어요",
-        "That's true. / That's not true.로 답했어요",
-        "틀린 문장은 바르게 고쳐 말했어요"
+        "요지를 한 문장으로 말했다",
+        "That's true. / That's not true.로 답했다",
+        "틀린 문장은 바르게 고쳐 말했다"
       ],
       "notes": {
         "목적": "들은 인터뷰의 요지를 한 문장으로 전하고, 부모가 말하는 문장이 맞는지 That's true. / That's not true.로 답하며 틀린 부분을 고쳐 말합니다(목표 A·B, 오해 M3).",
@@ -684,7 +684,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 읽고 판단해요",
+      "title": "혼자 읽고 판단하기",
       "text": "insect 곤충 · Arctic tern 북극제비갈매기 · survive 살아남다",
       "passage": {
         "title": "Birds on a Long Trip",
@@ -731,7 +731,7 @@
         "정답": [
           "① 요지 예: 새들은 겨울에 먹이를 구하기 어려워 먹이가 많은 따뜻한 곳으로 먼 길을 이동하고, 이 여행은 힘들지만 새들이 살아남게 도와준다. 근거: The main reason is food. / This long trip is hard, but it helps birds survive.",
           "② ① T (The main reason is food.) ② F → 약 70,000 km (about 70,000 km) ③ T (In spring, the birds come back home to have babies.)",
-          "기준: 요지에 주제(새의 이동)와 핵심(먹이 때문에 / 살아남게 도와준다)이 들어가고 근거 문장을 짚으며, T/F 세 개 가운데 세 개를 맞히면 통과입니다. ‘북극제비갈매기는 멀리 날아요’처럼 예 하나만 말하면 요지는 아직입니다."
+          "기준: 요지에 주제(새의 이동)와 핵심(먹이 때문에 / 살아남게 도와준다)이 들어가고 근거 문장을 짚으며, T/F 세 개 가운데 세 개를 맞히면 통과입니다. ‘북극제비갈매기는 멀리 난다’처럼 예 하나만 말하면 요지는 아직입니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “되풀이되는 말은? Why 질문의 답은 어디 있어?” “숫자를 한 자리씩 맞대어 봐.”라고만 말합니다.",
@@ -757,7 +757,7 @@
       "goodTitle": "○ 잘한 답",
       "good": [
         {
-          "text": "① 새들은 먹이를 찾아 따뜻한 곳으로 이동하고, 이동은 살아남게 도와요."
+          "text": "① 새들은 먹이를 찾아 따뜻한 곳으로 이동하고, 이동은 살아남게 돕는다."
         },
         {
           "text": "② ① T   ② F (약 70,000 km)   ③ T"
@@ -765,19 +765,19 @@
       ],
       "bad": [
         {
-          "text": "북극제비갈매기는 멀리 날아요",
-          "note": "예 하나\n(너무 좁아요)"
+          "text": "북극제비갈매기는 멀리 난다",
+          "note": "예 하나\n(너무 좁다)"
         },
         {
-          "text": "새는 신기해요",
-          "note": "글에 없고\n너무 넓어요"
+          "text": "새는 신기하다",
+          "note": "글에 없고\n너무 넓다"
         },
         {
           "text": "② T",
-          "note": "7,000과\n70,000은 달라요"
+          "note": "7,000과\n70,000은 다르다"
         }
       ],
-      "explain": "요지 = 주제 + 핵심,  T/F는 숫자까지 한 낱말씩 맞대어요",
+      "explain": "요지 = 주제 + 핵심,  T/F는 숫자까지 한 낱말씩 맞댄다",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -808,11 +808,11 @@
         "A",
         "B"
       ],
-      "title": "혼자 듣고 판단해요",
-      "text": "질문을 먼저 읽고, 인터뷰를 들은 뒤 답해요.",
+      "title": "혼자 듣고 판단하기",
+      "text": "질문을 먼저 읽고, 인터뷰를 들은 뒤 답하시오.",
       "problems": [
         {
-          "text": "인터뷰의 요지를 한 문장으로 말해요."
+          "text": "인터뷰의 요지를 한 문장으로 말하시오."
         },
         {
           "text": "There are about 50 cats at the shelter.  (T / F)"
@@ -856,7 +856,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "요지 한 문장: 무엇에 대해(주제) + 무엇을 말하나(핵심)\nT/F: 핵심어를 글에서 찾아 한 낱말씩 맞대고, F는 근거로 고쳐요",
+      "key": "요지 한 문장: 무엇에 대해(주제) + 무엇을 말하나(핵심)\nT/F: 핵심어를 글에서 찾아 한 낱말씩 맞대고, F는 근거로 고친다",
       "do": "숫자·요일·not까지 맞대기",
       "dont": "같은 낱말이 있으니 T",
       "review": [
@@ -907,7 +907,7 @@
           "Breakfast is important for students. First, it gives you energy for the morning. For example, students who eat breakfast can focus better in class. However, many students skip breakfast because they are busy. So, try to have something small, like a banana or milk, every morning."
         ]
       },
-      "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가요?",
+      "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가?",
       "notes": {
         "목적": "S02에서 연결어나 요지 찾기가 흔들리면, 연결어를 단서로 글의 흐름을 읽고 요지를 찾는 방법을 짧은 글로 다시 다집니다.",
         "시간": "약 4분",
@@ -936,15 +936,15 @@
     "items": [
       {
         "no": 1,
-        "prompt": "글을 끝까지 읽고, 요지를 한 문장(주제 + 핵심)으로 쓰세요. 요지가 드러난 문장에 밑줄을 그으세요.",
+        "prompt": "글을 끝까지 읽고, 요지를 한 문장(주제 + 핵심)으로 쓰시오. 요지가 드러난 문장에 밑줄을 그으시오.",
         "read": "Plastic in Our Oceans\nPlastic is used everywhere because it is cheap and strong. However, this is also a big problem for the ocean. Every year, millions of tons of plastic go into the sea. Plastic doesn't disappear easily. It can stay in the water for hundreds of years. Sea animals are hurt by it, too. For example, sea turtles sometimes eat plastic bags because the bags look like jellyfish. What can we do? We can bring our own bags and bottles when we go shopping. We can also recycle the plastic that we use. Small actions like these can make our oceans cleaner.",
         "line_label": "요지:",
         "lines": 2,
-        "answer": "요지 예: 바다의 플라스틱 쓰레기는 큰 문제이므로, 장바구니·물병을 가져가고 재활용하는 작은 행동으로 바다를 깨끗하게 하자. 밑줄: However, this is also a big problem for the ocean. / Small actions like these can make our oceans cleaner. 주제(바다의 플라스틱)와 핵심(작은 행동으로 줄이자)이 모두 들어가면 통과. ‘거북이가 비닐을 먹어요’처럼 예 하나만 쓰면 너무 좁은 요지입니다. 낱말 뜻: everywhere 어디에나, ocean 바다, millions of tons 수백만 톤, disappear 사라지다, hundreds of years 수백 년, hurt 다치게 하다, sea turtle 바다거북, jellyfish 해파리, recycle 재활용하다, action 행동."
+        "answer": "요지 예: 바다의 플라스틱 쓰레기는 큰 문제이므로, 장바구니·물병을 가져가고 재활용하는 작은 행동으로 바다를 깨끗하게 하자. 밑줄: However, this is also a big problem for the ocean. / Small actions like these can make our oceans cleaner. 주제(바다의 플라스틱)와 핵심(작은 행동으로 줄이자)이 모두 들어가면 통과. ‘거북이가 비닐을 먹는다’처럼 예 하나만 쓰면 너무 좁은 요지입니다. 낱말 뜻: everywhere 어디에나, ocean 바다, millions of tons 수백만 톤, disappear 사라지다, hundreds of years 수백 년, hurt 다치게 하다, sea turtle 바다거북, jellyfish 해파리, recycle 재활용하다, action 행동."
       },
       {
         "no": 2,
-        "prompt": "1의 글을 다시 읽고, 글과 맞으면 T, 틀리면 F를 쓰세요. F이면 글에 맞게 고쳐 쓰세요(우리말 가능).",
+        "prompt": "1의 글을 다시 읽고, 글과 맞으면 T, 틀리면 F를 쓰시오. F이면 글에 맞게 고쳐 쓰시오(우리말 가능).",
         "table": {
           "headers": [
             "문장",
@@ -990,7 +990,7 @@
       },
       {
         "no": 3,
-        "prompt": "이메일을 읽고 요지를 한 문장으로 쓴 뒤, 표에 T나 F를 쓰세요.",
+        "prompt": "이메일을 읽고 요지를 한 문장으로 쓴 뒤, 표에 T나 F를 쓰시오.",
         "read": "Hi Ben,\nThanks for inviting me to your birthday party on Saturday. I'm sorry, but I can't come at two because I have a swimming lesson. It ends at three, so I can arrive at about four. Is that okay? I bought a present for you yesterday. I hope you like it! Also, my mom asked me about your address. Could you send it to me?\nSee you soon,\nMina",
         "table": {
           "headers": [
@@ -1024,7 +1024,7 @@
       },
       {
         "no": 4,
-        "prompt": "부모님이 읽어 주는 인터뷰를 두 번 듣고, 요지를 한 문장으로 쓴 뒤 표에 T나 F를 쓰세요. 듣기 전에 표를 먼저 읽으세요.",
+        "prompt": "부모님이 읽어 주는 인터뷰를 두 번 듣고, 요지를 한 문장으로 쓴 뒤 표에 T나 F를 쓰시오. 듣기 전에 표를 먼저 읽으시오.",
         "table": {
           "headers": [
             "문장",
@@ -1059,7 +1059,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 요지를 한 문장으로 쓸 때 꼭 들어갈 두 가지를 쓰세요.\n② 요지 보기에서 빼야 할 세 가지를 쓰세요.\n③ T/F 문장에서 자주 바뀌는 곳을 두 가지 이상 쓰세요.",
+        "prompt": "① 요지를 한 문장으로 쓸 때 꼭 들어갈 두 가지를 쓰시오.\n② 요지 보기에서 빼야 할 세 가지를 쓰시오.\n③ T/F 문장에서 자주 바뀌는 곳을 두 가지 이상 쓰시오.",
         "lines": 3,
         "answer": "① 주제(무엇에 대해)와 핵심(무엇을 말하나) ② 너무 좁은 것(세부 정보 하나), 너무 넓은 것(핵심이 빠짐), 글에 없는 것 ③ 숫자·요일, not·never, more·less, 바뀐 정보 가운데 두 가지 이상. 세 가지 모두 도움 없이 하면 통과."
       }

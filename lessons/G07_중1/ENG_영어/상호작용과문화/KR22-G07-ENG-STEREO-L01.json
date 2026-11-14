@@ -44,7 +44,7 @@
     {
       "id": "B",
       "text": "고정관념이 담긴 문장을 Some ~, Many ~, Not all ~, Not everyone ~, 한 사람의 이야기(My friend ~), ~ is a famous food (in ~)로 고쳐 말하고 쓰며, 대화에서 상대가 고정관념을 말할 때 화내지 않고 Not all ~.처럼 정중하게 다른 생각과 자기 예를 말한다.",
-      "evidence": "고쳐 말하는 방법(S06), 고쳐 말해요(S07), 대화에서 찾기(S09), 정중하게 다른 생각 말하기(S10), 혼자 해 보기(S11 ②③), 고정관념이 없는 문장(S13 고쳐 말하기), 활동지 2·3·4",
+      "evidence": "고쳐 말하는 방법(S06), 고쳐 말하자(S07), 대화에서 찾기(S09), 정중하게 다른 생각 말하기(S10), 혼자 해 보기(S11 ②③), 고정관념이 없는 문장(S13 고쳐 말하기), 활동지 2·3·4",
       "success": "고정관념 문장 세 개 가운데 세 개를 ‘모두’라는 뜻이 없는 문장으로 고치고, 고정관념이 담긴 질문에 자기 이야기를 넣어 정중하게 대답한다."
     }
   ],
@@ -97,8 +97,8 @@
       "title": "문화적 고정관념 살피기",
       "question": "All Koreans love K-pop.\n이 말, 정말 맞을까?",
       "goals": [
-        "① 고정관념이 담긴 문장을 찾고 까닭을 말해요.",
-        "② Some·Many·Not all로 고쳐 말하고 써요."
+        "① 고정관념이 담긴 문장을 찾고 까닭을 말할 수 있다.",
+        "② Some·Many·Not all로 고쳐 말하고 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -114,7 +114,7 @@
           },
           {
             "word": "Not all Koreans ...",
-            "sub": "모든 한국 사람이 ~인 것은 아니에요"
+            "sub": "모든 한국 사람이 ~인 것은 아니다"
           }
         ]
       },
@@ -146,13 +146,13 @@
       "role": "prior",
       "objectives": [],
       "title": "세계 문화 존중 떠올리기",
-      "text": "①은 고쳐 말하고, ②는 반응하고, ③은 뜻을 말해요.",
+      "text": "①은 고쳐 말하고, ②는 반응하고, ③은 뜻을 말해 보자.",
       "problems": [
         {
-          "text": "All people in Italy eat pizza every day.\n→ 바르게 고쳐 말해요"
+          "text": "All people in Italy eat pizza every day.\n→ 바르게 고쳐 말하자"
         },
         {
-          "text": "친구가 자기 나라 음식을 소개했어요.\n→ 존중하는 말로 반응해요"
+          "text": "친구가 자기 나라 음식을 소개했다.\n→ 존중하는 말로 반응하자"
         },
         {
           "text": "Many people speak Korean.의 뜻은?"
@@ -169,7 +169,7 @@
         "정답": [
           "① Pizza is a famous food in Italy. (모든 사람이 날마다 먹는다는 것은 사실이 아님)",
           "② That's interesting!",
-          "③ 많은 사람이 한국어를 써요(말해요)."
+          "③ 많은 사람이 한국어를 쓴다(말해요)."
         ],
         "막히면": [
           "①이 어려우면 “famous food(널리 알려진 음식)를 써서 말했지?”라고 떠올리게 합니다.",
@@ -200,14 +200,14 @@
       "points": [
         {
           "title": "고정관념",
-          "text": "한 나라·무리 사람들이 모두 똑같다고 굳게 믿는 생각이에요."
+          "text": "한 나라·무리 사람들이 모두 똑같다고 굳게 믿는 생각이다."
         },
         {
-          "title": "왜 문제일까요?",
-          "text": "사람마다 달라요. 매운 음식을 못 먹는 한국 사람도 있어요."
+          "title": "왜 문제일까?",
+          "text": "사람마다 다르다. 매운 음식을 못 먹는 한국 사람도 있다."
         }
       ],
-      "key": "한두 사람을 보고 ‘모두 그렇다’고 말하면 고정관념이 돼요.",
+      "key": "한두 사람을 보고 ‘모두 그렇다’고 말하면 고정관념이 된다.",
       "notes": {
         "목적": "고정관념의 뜻을 알려 주고, 사람마다 다르다는 것과 한두 사람의 모습을 모두에게 넓히면 고정관념이 된다는 것을 짚습니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -238,7 +238,7 @@
         "A"
       ],
       "title": "고정관념을 알려 주는 말",
-      "text": "이런 말이 보이면 ‘정말 모두 그럴까?’ 생각해요.",
+      "text": "이런 말이 보이면 ‘정말 모두 그럴까?’ 생각해 보자.",
       "table": {
         "headers": [
           "신호 말",
@@ -275,7 +275,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "신호 말이 보이면 ‘정말 모두 그럴까?’ 하고 물어봐요.",
+      "key": "신호 말이 보이면 ‘정말 모두 그럴까?’ 하고 물어보자.",
       "notes": {
         "목적": "고정관념을 찾는 단서가 되는 신호 말 네 가지를 예문과 함께 익힙니다(목표 A, 오해 M5).",
         "시간": "약 3분",
@@ -306,7 +306,7 @@
         "A"
       ],
       "title": "고정관념이 담긴 문장은?",
-      "text": "고정관념이 담긴 문장 두 개를 골라요.",
+      "text": "고정관념이 담긴 문장 두 개를 골라 보자.",
       "options": [
         {
           "text": "All Koreans eat kimchi every day."
@@ -321,7 +321,7 @@
           "text": "Everyone in Brazil plays soccer every day."
         }
       ],
-      "question": "고정관념이 담긴 문장은? 신호 말은 무엇인가요?",
+      "question": "고정관념이 담긴 문장은? 신호 말은 무엇인가?",
       "notes": {
         "목적": "네 문장 가운데 고정관념이 담긴 문장을 신호 말을 단서로 찾고, 까닭을 말합니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -352,9 +352,9 @@
       ],
       "title": "고쳐 말하는 방법",
       "steps": [
-        "신호 말을 찾아요.\nAll, Everyone, always, never",
-        "‘정말 모두 그럴까?’ 생각해요.",
-        "고쳐요: All → Some·Many\nalways → often(자주)",
+        "신호 말을 찾는다.\nAll, Everyone, always, never",
+        "‘정말 모두 그럴까?’ 생각한다.",
+        "고친다: All → Some·Many\nalways → often(자주)",
         "또는 Not all ~. / 한 사람 이야기로"
       ],
       "figure": {
@@ -371,7 +371,7 @@
           },
           {
             "word": "Not all Koreans like spicy food.",
-            "sub": "모두 그런 것은 아니에요",
+            "sub": "모두 그런 것은 아니다",
             "highlight": true
           }
         ]
@@ -406,8 +406,8 @@
       "objectives": [
         "B"
       ],
-      "title": "고쳐 말해요",
-      "text": "신호 말을 찾고, 고쳐서 말해요.",
+      "title": "고쳐 말하자",
+      "text": "신호 말을 찾고, 고쳐서 말해 보자.",
       "problems": [
         {
           "text": "All Brazilians are good at soccer."
@@ -450,8 +450,8 @@
       "objectives": [
         "A"
       ],
-      "title": "칭찬이면 괜찮을까요?",
-      "claim": "두 문장 모두 칭찬하는 말이에요.",
+      "title": "칭찬이면 괜찮을까?",
+      "claim": "두 문장 모두 칭찬하는 말이다.",
       "left": {
         "title": "가",
         "figure": {
@@ -476,7 +476,7 @@
           ]
         }
       },
-      "question": "어느 쪽에 고정관념이 담겨 있나요? 칭찬이어도 문제가 될까요?",
+      "question": "어느 쪽에 고정관념이 담겨 있는가? 칭찬이어도 문제가 될까?",
       "notes": {
         "목적": "칭찬하는 말이어도 모두를 하나로 묶으면 고정관념이라는 것을 비교로 확인합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -506,7 +506,7 @@
         "A",
         "B"
       ],
-      "title": "대화에서 찾아요",
+      "title": "대화에서 찾자",
       "passage": {
         "paragraphs": [
           "Minji: Ana, you're from Brazil, so you're good at soccer, right?",
@@ -518,7 +518,7 @@
           "Minji: Right. I like classical music."
         ]
       },
-      "question": "고정관념이 담긴 말은? 두 사람은 어떻게 고쳐 말했나요?",
+      "question": "고정관념이 담긴 말은? 두 사람은 어떻게 고쳐 말했는가?",
       "notes": {
         "목적": "두 친구의 대화에서 고정관념이 담긴 말을 찾고, 그것을 어떻게 고쳐 말했는지 확인합니다(목표 A·B).",
         "시간": "약 4분",
@@ -550,16 +550,16 @@
       ],
       "title": "정중하게 다른 생각 말하기",
       "steps": [
-        "부모가 고정관념이 담긴 문장을 말해요.",
-        "아이가 신호 말을 찾아요.",
-        "정중하게 답해요: Not all ~. / Some ~, but some ~.",
-        "예를 들어요: My dad doesn't like spicy food.",
-        "역할을 바꿔요."
+        "부모가 고정관념이 담긴 문장을 말한다.",
+        "아이가 신호 말을 찾는다.",
+        "정중하게 답한다: Not all ~. / Some ~, but some ~.",
+        "예를 든다: My dad doesn't like spicy food.",
+        "역할을 바꾼다."
       ],
       "criteria": [
-        "신호 말을 찾았어요",
-        "Not all·Some으로 고쳐 말했어요",
-        "화내지 않고 예의 바르게 말했어요"
+        "신호 말을 찾았다",
+        "Not all·Some으로 고쳐 말했다",
+        "화내지 않고 예의 바르게 말했다"
       ],
       "notes": {
         "목적": "부모가 고정관념이 담긴 말을 하면 아이가 신호 말을 찾고 Not all ~., Some ~, but ~.으로 정중하게 다른 생각을 말하는 역할극을 합니다(목표 B, 오해 M4).",
@@ -595,16 +595,16 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 영어로 말해요.",
+      "text": "혼자 영어로 말하시오.",
       "problems": [
         {
-          "text": "Everyone in Italy eats pizza every day.\n→ 신호 말을 찾고 고쳐 말해요"
+          "text": "Everyone in Italy eats pizza every day.\n→ 신호 말을 찾고 고쳐 말하시오"
         },
         {
-          "text": "All Koreans like baseball.\n→ Not all로 고쳐 말해요"
+          "text": "All Koreans like baseball.\n→ Not all로 고쳐 말하시오"
         },
         {
-          "text": "You're from Korea, so you love kimchi, right?\n→ 나에게 맞게 정중하게 대답해요"
+          "text": "You're from Korea, so you love kimchi, right?\n→ 나에게 맞게 정중하게 대답하시오"
         }
       ],
       "notes": {
@@ -692,7 +692,7 @@
         "A"
       ],
       "title": "고정관념이 없는 문장은?",
-      "text": "네 문장을 읽고 골라요.",
+      "text": "네 문장을 읽고 고르시오.",
       "options": [
         {
           "text": "All Japanese people eat sushi every day."
@@ -707,7 +707,7 @@
           "text": "Italians never eat rice."
         }
       ],
-      "question": "고정관념이 없는 문장 두 개는? 나머지는 어떻게 고칠까요?",
+      "question": "고정관념이 없는 문장 두 개는? 나머지는 어떻게 고칠까?",
       "notes": {
         "목적": "처음 보는 네 문장에서 고정관념이 없는 문장을 고르고, 나머지를 고쳐 말하는지 확인합니다(목표 A·B).",
         "시간": "약 2분",
@@ -739,7 +739,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "All·Everyone·always·never → ‘정말 모두 그럴까?’\nSome·Many·Not all, 또는 한 사람의 이야기로 고쳐 말해요.",
+      "key": "All·Everyone·always·never → ‘정말 모두 그럴까?’\nSome·Many·Not all, 또는 한 사람의 이야기로 고쳐 말한다.",
       "do": "Not all ~.처럼 정중하게",
       "dont": "칭찬이니까 ‘모두’라고 해도 된다?",
       "review": [
@@ -783,22 +783,22 @@
       "objectives": [],
       "title": "보충: 나라 소개와 존중하는 말",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "Let me tell you about Korea.",
-            "sub": "한국을 소개할게요."
+            "sub": "한국을 소개하겠다."
           },
           {
             "word": "Many people speak Korean.",
-            "sub": "많은 사람이 한국어를 써요."
+            "sub": "많은 사람이 한국어를 쓴다."
           },
           {
             "word": "Bibimbap is a famous food.",
-            "sub": "비빔밥은 널리 알려진 음식이에요."
+            "sub": "비빔밥은 널리 알려진 음식이다."
           },
           {
             "word": "That's interesting!",
@@ -816,7 +816,7 @@
           "“엄마(아빠)가 일본을 소개할게. Sushi is a famous food in Japan. 뭐라고 반응할래?”"
         ],
         "정답": [
-          "한국을 소개할게요 / 많은 사람이 한국어를 써요 / 비빔밥은 널리 알려진 음식이에요 / 흥미롭다! — 반응: That's interesting!"
+          "한국을 소개하겠다 / 많은 사람이 한국어를 쓴다 / 비빔밥은 널리 알려진 음식이다 / 흥미롭다! — 반응: That's interesting!"
         ],
         "막히면": [
           "부모가 먼저 한국을 네 문장으로 소개하고, 아이가 나라 이름만 바꾸어 따라 하게 합니다.",
@@ -833,7 +833,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "고정관념이 담긴 문장에 모두 ✔ 하고, 그 문장의 신호 말에 동그라미 하세요.",
+        "prompt": "고정관념이 담긴 문장에 모두 ✔ 하고, 그 문장의 신호 말에 동그라미 하시오.",
         "choices": [
           "My uncle in Canada likes ice hockey.",
           "All Koreans like spicy food.",
@@ -847,15 +847,15 @@
       },
       {
         "no": 2,
-        "prompt": "고정관념이 담긴 문장을 ‘모두’라는 뜻이 없게 고쳐 쓰세요. Some, Many, Not all, often 가운데 알맞은 말을 쓰세요.",
+        "prompt": "고정관념이 담긴 문장을 ‘모두’라는 뜻이 없게 고쳐 쓰시오. Some, Many, Not all, often 가운데 알맞은 말을 쓰시오.",
         "read": "① All Koreans like spicy food.\n② Everyone in Canada likes ice hockey.\n③ Japanese students never eat bread for lunch.\n④ All Brazilians are good at soccer.",
-        "line_label": "①~④를 한 줄에 하나씩 고쳐 쓰세요.",
+        "line_label": "①~④를 한 줄에 하나씩 고쳐 쓰시오.",
         "lines": 4,
         "answer": "예: ① Many Koreans like spicy food. / Not all Koreans like spicy food. ② Many people in Canada like ice hockey. / Not everyone in Canada likes ice hockey. ③ Some Japanese students eat bread for lunch. ④ Some Brazilians are good at soccer. / Not all Brazilians are good at soccer. ‘모두’의 뜻이 없어지고 문법이 맞으면 통과(네 개 가운데 세 개 이상)."
       },
       {
         "no": 3,
-        "prompt": "대화를 읽고 물음에 답하세요. ① Sumin의 말 가운데 고정관념이 담긴 문장을 찾아 밑줄을 그으세요. ② Leo는 그 말을 어떻게 고쳐 말했나요? 해당 문장에 물결선을 그으세요. ③ 대화에서 고정관념에 맞지 않는 예를 두 가지 찾아 우리말로 쓰세요.",
+        "prompt": "대화를 읽고 물음에 답하시오. ① Sumin의 말 가운데 고정관념이 담긴 문장을 찾아 밑줄을 그으시오. ② Leo는 그 말을 어떻게 고쳐 말했는가? 해당 문장에 물결선을 그으시오. ③ 대화에서 고정관념에 맞지 않는 예를 두 가지 찾아 우리말로 쓰시오.",
         "read": "Leo: Hi, I'm Leo. I'm from Canada.\nSumin: Nice to meet you, Leo! Canada is cold, so you love winter sports, right?\nLeo: Well, some people in Canada love winter sports, but I don't. I like baseball.\nSumin: Oh, sorry. I didn't know that.\nLeo: That's okay. Many people think all Canadians play ice hockey. It's not true for everyone.\nSumin: I see. People ask me about K-pop all the time. But I like rock music!\nLeo: Ha! So not all Koreans love K-pop.\nSumin: Right. Every person is different.\nLeo: Let's talk more. What's your favorite food?\nSumin: Tteokbokki! But my sister doesn't like spicy food.",
         "line_label": "③",
         "lines": 2,
@@ -863,7 +863,7 @@
       },
       {
         "no": 4,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 친구가 “You're from Korea, so you love K-pop, right?”라고 물었을 때 나에게 맞는 정중한 대답을 두 문장으로 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 친구가 “You're from Korea, so you love K-pop, right?”라고 물었을 때 나에게 맞는 정중한 대답을 두 문장으로 쓰시오.",
         "eng": {
           "trace": [
             "Not all Koreans like spicy food.",
@@ -877,7 +877,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 고정관념이 무엇인지 우리말 한 문장으로 쓰세요.\n② All Brazilians are good at soccer.를 고쳐 쓰세요.\n③ 고정관념이 담긴 말을 들었을 때 정중하게 하는 말을 영어로 쓰세요.",
+        "prompt": "① 고정관념이 무엇인지 우리말 한 문장으로 쓰시오.\n② All Brazilians are good at soccer.를 고쳐 쓰시오.\n③ 고정관념이 담긴 말을 들었을 때 정중하게 하는 말을 영어로 쓰시오.",
         "lines": 3,
         "answer": "① 한 나라나 무리의 사람들이 모두 똑같다고 굳게 믿는 생각 ② Some Brazilians are good at soccer. / Not all Brazilians are good at soccer. ③ Not all ~. (예: Not all Koreans like spicy food.) 또는 Some ~, but some ~. 세 가지 모두 도움 없이 하면 통과."
       }

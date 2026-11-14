@@ -98,8 +98,8 @@
       "title": "질문에 답하기",
       "question": "발표가 끝나고 질문을 받으면\n어떻게 답할까?",
       "goals": [
-        "① 질문이 헷갈리면 Do you mean ~?으로 확인해요.",
-        "② I think ~ because ~.로 근거를 들어 답해요."
+        "① 질문이 헷갈리면 Do you mean ~?으로 확인할 수 있다.",
+        "② I think ~ because ~.로 근거를 들어 답할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -147,13 +147,13 @@
       "role": "prior",
       "objectives": [],
       "title": "질문과 대답 떠올리기",
-      "text": "①은 뜻을 말하고, ②③은 영어로 말해요.",
+      "text": "①은 뜻을 말하고, ②③은 영어로 말해 보자.",
       "problems": [
         {
           "text": "Can you tell me if the library\nis open?의 뜻은?"
         },
         {
-          "text": "질문이 잘 안 들렸어요.\n→ 공손하게 다시 말해 달라고"
+          "text": "질문이 잘 안 들렸다.\n→ 공손하게 다시 말해 달라고"
         },
         {
           "text": "Why do you like summer?\n→ because로 대답"
@@ -190,8 +190,8 @@
       ],
       "title": "질문에 답하는 순서",
       "steps": [
-        "끝까지 듣고 고개를 끄덕여요.",
-        "안 들리면 다시 묻고, 헷갈리면\nDo you mean ~?으로 확인해요.",
+        "끝까지 듣고 고개를 끄덕인다.",
+        "안 들리면 다시 묻고, 헷갈리면\nDo you mean ~?으로 확인한다.",
         "답 + 근거: I think ~ because ~.",
         "모르면: I'm not sure, but I think ~."
       ],
@@ -243,31 +243,31 @@
         "A",
         "B"
       ],
-      "title": "이럴 때 이렇게 말해요",
+      "title": "이럴 때 이렇게 말한다",
       "table": {
         "headers": [
           "이럴 때",
-          "이렇게 말해요"
+          "이렇게 말한다"
         ],
         "rows": [
           [
-            "질문이 잘 안 들려요",
+            "질문이 잘 안 들린다",
             "Could you say that again?"
           ],
           [
-            "질문의 뜻이 헷갈려요",
+            "질문의 뜻이 헷갈린다",
             "Do you mean ~?"
           ],
           [
-            "생각할 시간이 필요해요",
+            "생각할 시간이 필요하다",
             "That's a good question."
           ],
           [
-            "답과 근거를 알아요",
+            "답과 근거를 안다",
             "I think ~ because ~."
           ],
           [
-            "잘 모르겠어요",
+            "잘 모르겠다",
             "I'm not sure, but I think ~."
           ]
         ],
@@ -278,7 +278,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "Do you mean 뒤에는 내가 이해한 뜻을 내 말로 말해요.",
+      "key": "Do you mean 뒤에는 내가 이해한 뜻을 내 말로 말한다.",
       "notes": {
         "목적": "질문을 받았을 때 상황에 따라 쓰는 다섯 표현을 정리합니다(목표 A·B, 오해 M4). That's a good question.(좋은 질문이에요.)은 새 표현입니다.",
         "시간": "약 3분",
@@ -321,7 +321,7 @@
           "Jiho: I'm not sure, but I think many students walk."
         ]
       },
-      "question": "지호의 발표 뒤 대화예요. 확인한 말, 근거를 든 말, 모를 때 한 말은?",
+      "question": "지호의 발표 뒤 대화이다. 확인한 말, 근거를 든 말, 모를 때 한 말은?",
       "notes": {
         "목적": "지난 두 차시의 본보기 발표(Walking to School) 뒤에 이어지는 질문과 대답을 읽으며, 질문 확인·근거 대기·모를 때 답하기를 찾습니다(목표 A·B).",
         "시간": "약 3분",
@@ -351,8 +351,8 @@
       "objectives": [
         "A"
       ],
-      "title": "질문을 확인해요",
-      "text": "발표 주제와 질문을 보고 Do you mean ~?으로 확인해요.",
+      "title": "질문을 확인하자",
+      "text": "발표 주제와 질문을 보고 Do you mean ~?으로 확인해 보자.",
       "problems": [
         {
           "text": "주제: Our town park is great.\nQ: What about at night?"
@@ -395,8 +395,8 @@
       "objectives": [
         "B"
       ],
-      "title": "어느 대답이 더 좋을까요?",
-      "claim": "발표 뒤 엄마가 물었어요: I wonder if walking is safe.",
+      "title": "어느 대답이 더 좋을까?",
+      "claim": "발표 뒤 엄마가 물었다: I wonder if walking is safe.",
       "left": {
         "title": "가",
         "figure": {
@@ -421,7 +421,7 @@
           ]
         }
       },
-      "question": "어느 대답이 더 좋은가요? 왜 그렇게 생각해요?",
+      "question": "어느 대답이 더 좋은가? 왜 그렇게 생각하는가?",
       "notes": {
         "목적": "Yes.처럼 한 낱말로만 답하는 것과 because로 근거를 든 대답을 비교해, 질문에는 근거를 들어 답해야 한다는 것을 스스로 말하게 합니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -465,7 +465,7 @@
           },
           {
             "word": "It's 213 years old. (×)",
-            "sub": "모르는 숫자를 지어냈어요"
+            "sub": "모르는 숫자를 지어냈다"
           }
         ]
       },
@@ -488,7 +488,7 @@
           "how old는 ‘몇 살인지, (건물이) 몇 년 되었는지’를 묻는 말입니다. where·what처럼 의문사라 뒤가 주어 + 동사 순서입니다(how old the library is)."
         ]
       },
-      "key": "모르면 지어내지 말고, I'm not sure, but ~.로 아는 만큼만 말해요."
+      "key": "모르면 지어내지 말고, I'm not sure, but ~.로 아는 만큼만 말한다."
     },
     {
       "id": "S09",
@@ -499,8 +499,8 @@
       "objectives": [
         "B"
       ],
-      "title": "근거를 들어 답해요",
-      "text": "엄마(아빠)의 질문에 영어로 답해요.",
+      "title": "근거를 들어 답하자",
+      "text": "엄마(아빠)의 질문에 영어로 답해 보자.",
       "problems": [
         {
           "text": "Is homework helpful?\n→ I think ~ because ~."
@@ -509,7 +509,7 @@
           "text": "I wonder if pets are good for students.\n→ I think ~ because ~."
         },
         {
-          "text": "Do you know how many books are\nin your school library? → 잘 몰라요"
+          "text": "Do you know how many books are\nin your school library? → 잘 모른다"
         }
       ],
       "notes": {
@@ -546,16 +546,16 @@
       ],
       "title": "발표하고 질문 받기",
       "steps": [
-        "아이가 지난 시간의 발표를 해요.\n(메모 카드를 보고)",
-        "부모가 준비한 질문 세 개를\n하나씩 물어요.",
-        "헷갈리면 확인해요:\nDo you mean ~?",
-        "답해요: I think ~ because ~.\n모르면 I'm not sure, but ~.",
-        "역할을 바꿔 아이가 질문해요."
+        "아이가 지난 시간의 발표를 한다.\n(메모 카드를 보고)",
+        "부모가 준비한 질문 세 개를\n하나씩 묻는다.",
+        "헷갈리면 확인한다:\nDo you mean ~?",
+        "답한다: I think ~ because ~.\n모르면 I'm not sure, but ~.",
+        "역할을 바꿔 아이가 질문한다."
       ],
       "criteria": [
-        "질문을 끝까지 듣고 뜻을 확인했어요",
-        "because로 근거를 들어 답했어요",
-        "모를 때 지어내지 않고 답했어요"
+        "질문을 끝까지 듣고 뜻을 확인했다",
+        "because로 근거를 들어 답했다",
+        "모를 때 지어내지 않고 답했다"
       ],
       "notes": {
         "목적": "아이가 지난 차시의 발표를 한 번 더 하고, 부모가 아이의 주제에 맞게 미리 고른 질문 세 개(막연한 질문 하나, 근거를 묻는 질문 하나, 모를 수 있는 사실 질문 하나)에 답합니다(목표 A·B). 부모는 활동지 4 기록표에 ✔ 합니다.",
@@ -592,17 +592,17 @@
         "A",
         "B"
       ],
-      "title": "혼자 답해요",
-      "text": "엄마(아빠)가 내 발표 주제로 새 질문을 해요.",
+      "title": "혼자 답하기",
+      "text": "엄마(아빠)가 내 발표 주제로 새 질문을 한다.",
       "problems": [
         {
-          "text": "Q: What about weekends?\n→ 뜻이 헷갈려요. 확인하고 답해요"
+          "text": "Q: What about weekends?\n→ 뜻이 헷갈린다. 확인하고 답하시오"
         },
         {
-          "text": "Q: Can you tell me why it's important to you?\n→ 근거를 들어 답해요"
+          "text": "Q: Can you tell me why it's important to you?\n→ 근거를 들어 답하시오"
         },
         {
-          "text": "Q: Do you know how many students in Korea\ndo it? → 잘 몰라요"
+          "text": "Q: Do you know how many students in Korea\ndo it? → 잘 모른다"
         }
       ],
       "notes": {
@@ -663,7 +663,7 @@
           "note": "Do you mean ~?\n으로 확인"
         }
       ],
-      "explain": "확인했나? → 근거가 있나? → 모를 때 지어내지 않았나? 순서로 봐요.",
+      "explain": "확인했나? → 근거가 있나? → 모를 때 지어내지 않았나? 순서로 본다.",
       "notes": {
         "목적": "아이의 대답을 대답 예와 견주어 보고, 다시 생각해 볼 대답을 확인합니다.",
         "시간": "약 1분",
@@ -711,7 +711,7 @@
           "text": "I don't know.\nNext question."
         }
       ],
-      "question": "좋은 대답 두 개는? 나머지는 어떻게 고칠까요?",
+      "question": "좋은 대답 두 개는? 나머지는 어떻게 고칠까?",
       "notes": {
         "목적": "처음 보는 질문과 네 대답에서 좋은 대답(확인하기, 근거를 든 대답)을 고르고, 나머지를 고쳐 말하는지 확인합니다(목표 A·B, 오해 M1·M2·M3).",
         "시간": "약 2분",
@@ -786,7 +786,7 @@
       "objectives": [],
       "title": "보충: 확인하고 답하기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -836,28 +836,28 @@
     "items": [
       {
         "no": 1,
-        "prompt": "상황에 알맞은 말을 보기에서 골라 기호를 쓰세요.",
+        "prompt": "상황에 알맞은 말을 보기에서 골라 기호를 쓰시오.",
         "read": "가 I'm not sure, but I think ~.　　나 Could you say that again?\n다 Do you mean ~?　　라 I think ~ because ~.　　마 That's a good question.",
         "table": {
           "rows": [
             [
-              "① 질문이 잘 안 들렸어요.",
+              "① 질문이 잘 안 들렸다.",
               ""
             ],
             [
-              "② 질문이 무엇을 묻는지 헷갈려요.",
+              "② 질문이 무엇을 묻는지 헷갈린다.",
               ""
             ],
             [
-              "③ 답을 생각할 시간이 조금 필요해요.",
+              "③ 답을 생각할 시간이 조금 필요하다.",
               ""
             ],
             [
-              "④ 답과 그 까닭을 알아요.",
+              "④ 답과 그 까닭을 안다.",
               ""
             ],
             [
-              "⑤ 답을 잘 몰라요.",
+              "⑤ 답을 잘 모른다.",
               ""
             ]
           ],
@@ -872,7 +872,7 @@
       },
       {
         "no": 2,
-        "prompt": "‘Walking in the Park’ 발표 뒤의 대화예요. 빈칸 ①~④에 알맞은 말을 쓰세요.",
+        "prompt": "‘Walking in the Park’ 발표 뒤의 대화이다. 빈칸 ①~④에 알맞은 말을 쓰시오.",
         "read": "Q: What about the weekend?\nA: ①______ ______ ______ walking on the weekend? (확인하기)\nQ: Yes.\nA: I ②______ it's great ③______ the park is quiet in the morning.\nQ: Do you know how many people walk in the park?\nA: I'm ④______ ______, but I think a lot of people walk there.",
         "line_label": "①  ②  ③  ④",
         "lines": 2,
@@ -880,7 +880,7 @@
       },
       {
         "no": 3,
-        "prompt": "질문에 영어로 답을 쓰세요. ①②는 I think ~ because ~.로, ③은 잘 모를 때 하는 말로 쓰세요.",
+        "prompt": "질문에 영어로 답을 쓰시오. ①②는 I think ~ because ~.로, ③은 잘 모를 때 하는 말로 쓰시오.",
         "table": {
           "rows": [
             [
@@ -907,7 +907,7 @@
       },
       {
         "no": 4,
-        "prompt": "부모님 기록표예요. S10에서 질문에 답할 때 지킨 것에 ✔ 하세요.",
+        "prompt": "부모님 기록표이다. S10에서 질문에 답할 때 지킨 것에 ✔ 한다.",
         "table": {
           "headers": [
             "질문",
@@ -948,7 +948,7 @@
       },
       {
         "no": 5,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 ‘Why is your topic important to you?’라는 질문에 대한 내 대답을 I think ~ because ~.로 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 ‘Why is your topic important to you?’라는 질문에 대한 내 대답을 I think ~ because ~.로 쓰시오.",
         "eng": {
           "trace": [
             "Do you mean on rainy days?",
@@ -962,7 +962,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 질문의 뜻이 헷갈릴 때 확인하는 말을 영어로 쓰세요.\n② Why do you like your hobby?에 because를 넣어 대답을 쓰세요.\n③ 답을 잘 모를 때 하는 말을 영어로 쓰세요.",
+        "prompt": "① 질문의 뜻이 헷갈릴 때 확인하는 말을 영어로 쓰시오.\n② Why do you like your hobby?에 because를 넣어 대답을 쓰시오.\n③ 답을 잘 모를 때 하는 말을 영어로 쓰시오.",
         "lines": 3,
         "answer": "① Do you mean ~? ② 예: I like my hobby because it makes me happy. (because 뒤에 주어 + 동사) ③ I'm not sure, but I think ~. 세 가지 모두 도움 없이 하면 통과."
       }

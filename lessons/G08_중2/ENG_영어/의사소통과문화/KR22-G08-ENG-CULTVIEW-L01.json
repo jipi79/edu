@@ -92,8 +92,8 @@
       "title": "문화적 관점 차이",
       "question": "집에 들어갈 때 신발을 벗는 것,\n어디서나 당연할까?",
       "goals": [
-        "① 같은 행동을 다르게 보는 두 관점을 비교해요.",
-        "② 근거를 들어 내 생각을 정중하게 말해요."
+        "① 같은 행동을 다르게 보는 두 관점을 비교할 수 있다.",
+        "② 근거를 들어 내 생각을 정중하게 말할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -142,13 +142,13 @@
       "role": "prior",
       "objectives": [],
       "title": "고정관념 고쳐 말하기 떠올리기",
-      "text": "①②는 고쳐 말하고, ③은 뜻을 말해요.",
+      "text": "①②는 고쳐 말하고, ③은 뜻을 말해 보자.",
       "problems": [
         {
-          "text": "All Koreans like spicy food.\n→ 고쳐 말해요"
+          "text": "All Koreans like spicy food.\n→ 고쳐 말하자"
         },
         {
-          "text": "Japanese people never eat bread.\n→ 신호 말을 찾고 고쳐 말해요"
+          "text": "Japanese people never eat bread.\n→ 신호 말을 찾고 고쳐 말하자"
         },
         {
           "text": "고정관념이란?"
@@ -204,14 +204,14 @@
       "points": [
         {
           "title": "관점",
-          "text": "어떤 일을 바라보는\n생각의 자리예요."
+          "text": "어떤 일을 바라보는\n생각의 자리이다."
         },
         {
           "title": "문화",
-          "text": "한 무리의 사람들이 함께\n지닌 생활 방식이에요."
+          "text": "한 무리의 사람들이 함께\n지닌 생활 방식이다."
         }
       ],
-      "key": "같은 행동도 문화에 따라 다르게 볼 수 있어요. 까닭을 알면 이해가 돼요.",
+      "key": "같은 행동도 문화에 따라 다르게 볼 수 있다. 까닭을 알면 이해가 된다.",
       "notes": {
         "목적": "관점(어떤 일을 바라보는 생각의 자리)과 문화(한 무리의 사람들이 함께 지닌 생활 방식)의 뜻을 알려 주고, 같은 행동을 다르게 볼 수 있다는 것을 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -253,7 +253,7 @@
         ],
         "numbered": true
       },
-      "question": "두 관점은 무엇이고, 각각의 까닭은 무엇인가요?",
+      "question": "두 관점은 무엇이고, 각각의 까닭은 무엇인가?",
       "notes": {
         "목적": "신발에 대한 두 관점과 까닭을 글에서 함께 찾고, ‘모두’라고 단정하지 않는 말(many, In some other places, Not every)이 쓰인 곳을 확인합니다(목표 A, 오해 M2).",
         "시간": "약 4분",
@@ -285,7 +285,7 @@
         "A"
       ],
       "title": "관점 비교표",
-      "text": "S04 글을 표로 나란히 정리해요.",
+      "text": "S04 글을 표로 나란히 정리하자.",
       "table": {
         "headers": [
           "",
@@ -322,7 +322,7 @@
         "width": 12.2,
         "size": 22
       },
-      "key": "비교할 때는 ‘어디서·무엇을·왜’를 나란히 적어요.",
+      "key": "비교할 때는 ‘어디서·무엇을·왜’를 나란히 적는다.",
       "notes": {
         "목적": "두 관점을 어디서·행동·까닭·어떻게 보나의 칸으로 나란히 정리하는 비교표를 보여 줍니다. 아이는 S06·S11과 활동지 1에서 같은 표를 씁니다(목표 A, 오해 M3).",
         "시간": "약 3분",
@@ -364,7 +364,7 @@
         ],
         "numbered": true
       },
-      "question": "같은 행동을 어떻게 다르게 보나요? 비교표의 칸으로 말해요.",
+      "question": "같은 행동을 어떻게 다르게 보는가? 비교표의 칸으로 말해 보자.",
       "notes": {
         "목적": "밥그릇을 들고 먹는 같은 행동을 두 나라에서 다르게 보는 관점과 까닭을 찾아 비교표의 칸(어디서·행동·까닭·어떻게 보나)으로 말합니다(목표 A, 오해 M3).",
         "시간": "약 3분",
@@ -397,8 +397,8 @@
       "objectives": [
         "B"
       ],
-      "title": "어느 쪽이 존중하는 말일까요?",
-      "claim": "밥그릇 이야기를 듣고 두 친구가 이렇게 말했어요.",
+      "title": "어느 쪽이 존중하는 말일까?",
+      "claim": "밥그릇 이야기를 듣고 두 친구가 이렇게 말했다.",
       "left": {
         "title": "가",
         "figure": {
@@ -423,7 +423,7 @@
           ]
         }
       },
-      "question": "어느 쪽이 다른 문화를 존중하는 말인가요? 왜 그렇게 생각해요?",
+      "question": "어느 쪽이 다른 문화를 존중하는 말인가? 왜 그렇게 생각하는가?",
       "notes": {
         "목적": "내 문화의 방식만 옳다고 판단하는 말과 존중하는 말을 비교합니다(목표 B, 오해 M1).",
         "시간": "약 2분",
@@ -451,14 +451,14 @@
       "objectives": [
         "A"
       ],
-      "title": "‘모두’ 없이 고쳐 말해요",
-      "text": "‘모두’라고 단정하지 않게 고쳐 말해요.",
+      "title": "‘모두’ 없이 고쳐 말하자",
+      "text": "‘모두’라고 단정하지 않게 고쳐 말해 보자.",
       "problems": [
         {
           "text": "All Koreans sit on the floor at home.\n→ Many나 Some으로"
         },
         {
-          "text": "Japanese people always hold their bowls.\n→ 고쳐 말해요"
+          "text": "Japanese people always hold their bowls.\n→ 고쳐 말하자"
         },
         {
           "text": "Shoes in the house are dirty.\n→ 다른 곳 사람들의 관점으로"
@@ -498,10 +498,10 @@
       ],
       "title": "근거를 들어 내 생각 말하기",
       "steps": [
-        "두 관점을 먼저 말해요:\nIn Korea, ~. In some places, ~.",
-        "내 생각을 말해요: I think ~",
-        "근거를 붙여요: because ~.",
-        "존중하는 말로 끝내요:\nIt's different, not wrong."
+        "두 관점을 먼저 말한다:\nIn Korea, ~. In some places, ~.",
+        "내 생각을 말한다: I think ~",
+        "근거를 붙인다: because ~.",
+        "존중하는 말로 끝낸다:\nIt's different, not wrong."
       ],
       "figure": {
         "type": "words",
@@ -556,16 +556,16 @@
       ],
       "title": "친구 집 방문 역할극",
       "steps": [
-        "부모가 다른 곳에서 온\n친구가 돼요.",
+        "부모가 다른 곳에서 온\n친구가 된다.",
         "부모: We wear shoes inside.",
         "아이: That's interesting!",
         "아이: In Korea, many people\ntake off shoes because ~.",
         "부모: What do you think?\n아이: I think ~ because ~."
       ],
       "criteria": [
-        "‘모두’라고 하지 않고 말했어요",
-        "I think ~ because ~.로 근거를 들었어요",
-        "다른 관점을 낮추지 않았어요"
+        "‘모두’라고 하지 않고 말했다",
+        "I think ~ because ~.로 근거를 들었다",
+        "다른 관점을 낮추지 않았다"
       ],
       "notes": {
         "목적": "부모가 다른 문화의 친구 역할을 맡고, 아이가 반응하고 우리 방식을 까닭과 함께 설명하며, 근거를 들어 자기 생각을 정중하게 말하는 역할극을 합니다(목표 A·B, 오해 M1·M2).",
@@ -602,13 +602,13 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "표를 보고 혼자 영어로 말해요.",
+      "text": "표를 보고 혼자 영어로 말하시오.",
       "problems": [
         {
-          "text": "표를 보고 두 관점을\n영어로 말해요"
+          "text": "표를 보고 두 관점을\n영어로 말하시오"
         },
         {
-          "text": "Everyone in Korea\nuses two hands.\n→ 고쳐 말해요"
+          "text": "Everyone in Korea\nuses two hands.\n→ 고쳐 말하시오"
         },
         {
           "text": "I think ~ because ~.\n→ 내 생각 말하기"
@@ -694,7 +694,7 @@
       "bad": [
         {
           "text": "One hand is rude.",
-          "note": "그곳에서는\n보통이에요"
+          "note": "그곳에서는\n보통이다"
         },
         {
           "text": "All Koreans ~.",
@@ -705,7 +705,7 @@
           "note": "because로\n근거를"
         }
       ],
-      "explain": "‘모두’ 없이 두 관점 → 근거를 든 내 생각 → 존중하는 말 순서로 봐요.",
+      "explain": "‘모두’ 없이 두 관점 → 근거를 든 내 생각 → 존중하는 말 순서로 본다.",
       "notes": {
         "목적": "아이의 대답을 대답 예와 견주어 보고, 다시 생각해 볼 대답을 확인합니다.",
         "시간": "약 1분",
@@ -737,7 +737,7 @@
         "B"
       ],
       "title": "알맞은 문장은?",
-      "text": "인사하는 방법에 대한 문장이에요.",
+      "text": "인사하는 방법에 대한 문장이다.",
       "options": [
         {
           "text": "In Korea, many people\nbow to older people."
@@ -752,7 +752,7 @@
           "text": "In many places, people\nshake hands."
         }
       ],
-      "question": "존중하고 ‘모두’라고 하지 않은 문장 두 개는? 나머지는 어떻게 고칠까요?",
+      "question": "존중하고 ‘모두’라고 하지 않은 문장 두 개는? 나머지는 어떻게 고칠까?",
       "notes": {
         "목적": "처음 보는 예(인사)에서 관점을 존중하고 단정하지 않은 문장을 고르고, 나머지를 고쳐 말하는지 확인합니다(목표 A·B, 오해 M1·M2).",
         "시간": "약 2분",
@@ -784,7 +784,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "같은 행동도 문화에 따라 다르게 봐요. 까닭을 찾아 나란히 비교해요.\nIn some places, ~ / Many people in ~ / It's different, not wrong.",
+      "key": "같은 행동도 문화에 따라 다르게 본다. 까닭을 찾아 나란히 비교한다.\nIn some places, ~ / Many people in ~ / It's different, not wrong.",
       "do": "‘왜 그럴까?’ 까닭 찾기",
       "dont": "‘이상해, 틀렸어’로 판단하기",
       "review": [
@@ -792,7 +792,7 @@
           "text": "관점이란?\n우리말 한 문장으로"
         },
         {
-          "text": "‘한국의 많은 사람은 집에서\n신발을 벗어요.’를 영어로"
+          "text": "‘한국의 많은 사람은 집에서\n신발을 벗는다.’를 영어로"
         },
         {
           "text": "다른 문화를 존중하는\n말 한 문장"
@@ -828,7 +828,7 @@
       "objectives": [],
       "title": "보충: ‘모두’ 없이 말하기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -847,11 +847,11 @@
           },
           {
             "word": "Not all ~",
-            "sub": "모두 ~인 것은 아니에요"
+            "sub": "모두 ~인 것은 아니다"
           }
         ]
       },
-      "key": "all, everyone, always, never가 보이면 ‘정말 모두 그럴까?’ 생각해요.",
+      "key": "all, everyone, always, never가 보이면 ‘정말 모두 그럴까?’ 생각하자.",
       "notes": {
         "목적": "S02에서 고정관념 고쳐 말하기가 흔들리면, 관점을 비교하기 전에 Many·Some·Not all로 말하는 법을 다시 다집니다.",
         "시간": "약 4분",
@@ -861,7 +861,7 @@
           "“Many나 Not all로 고쳐 말해 볼래?”"
         ],
         "정답": [
-          "모든 한국 사람은? / 많은 한국 사람은 / 어떤 사람들은 / 모두 ~인 것은 아니에요. 예: Many Koreans like kimchi. / Not all Koreans like kimchi."
+          "모든 한국 사람은? / 많은 한국 사람은 / 어떤 사람들은 / 모두 ~인 것은 아니다. 예: Many Koreans like kimchi. / Not all Koreans like kimchi."
         ],
         "막히면": [
           "부모가 먼저 All ~ 문장을 말하고 Many ~로 고쳐 보인 뒤, 아이가 낱말만 바꾸어 따라 하게 합니다.",
@@ -878,7 +878,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "글을 읽고 두 관점을 비교표에 정리하세요. 우리말로 써도 돼요.",
+        "prompt": "글을 읽고 두 관점을 비교표에 정리하시오. 우리말로 써도 된다.",
         "read": "Ways to Say Hello\nIn Korea, many people bow to older people. Bowing shows respect. In many places, people often shake hands when they meet someone. For them, a handshake is a friendly and polite way to say hello. Some people also hug their family and close friends. Not everyone says hello in the same way.",
         "table": {
           "headers": [
@@ -893,12 +893,12 @@
               ""
             ],
             [
-              "어떻게 인사하나요",
+              "어떻게 인사하나",
               "",
               ""
             ],
             [
-              "무엇을 나타내나요",
+              "무엇을 나타내나",
               "",
               ""
             ]
@@ -915,7 +915,7 @@
       },
       {
         "no": 2,
-        "prompt": "‘모두’라고 단정하지 않도록 고쳐 쓰세요.",
+        "prompt": "‘모두’라고 단정하지 않도록 고쳐 쓰시오.",
         "table": {
           "rows": [
             [
@@ -942,7 +942,7 @@
       },
       {
         "no": 3,
-        "prompt": "다른 문화를 존중하는 말에 모두 ✔ 하세요.",
+        "prompt": "다른 문화를 존중하는 말에 모두 ✔ 하시오.",
         "choices": [
           "Their way is dirty.",
           "It's different, not wrong.",
@@ -955,7 +955,7 @@
       },
       {
         "no": 4,
-        "prompt": "신발·밥그릇·인사 가운데 하나를 골라 쓰세요. ① 두 관점을 한 문장씩(In Korea, ~. In some places, ~.) ② 내 생각을 I think ~ because ~.로 ③ 다른 관점을 존중하는 말 한 문장",
+        "prompt": "신발·밥그릇·인사 가운데 하나를 골라 쓰시오. ① 두 관점을 한 문장씩(In Korea, ~. In some places, ~.) ② 내 생각을 I think ~ because ~.로 ③ 다른 관점을 존중하는 말 한 문장",
         "eng": {
           "trace": [],
           "blank": 5
@@ -966,7 +966,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 관점이 무엇인지 우리말 한 문장으로 쓰세요.\n② ‘한국의 많은 사람은 집에서 신발을 벗어요.’를 영어로 쓰세요.\n③ 다른 문화를 존중하는 말을 영어 한 문장으로 쓰세요.",
+        "prompt": "① 관점이 무엇인지 우리말 한 문장으로 쓰시오.\n② ‘한국의 많은 사람은 집에서 신발을 벗는다.’를 영어로 쓰시오.\n③ 다른 문화를 존중하는 말을 영어 한 문장으로 쓰시오.",
         "lines": 3,
         "answer": "① 어떤 일을 바라보는 생각의 자리 ② In Korea, many people take off their shoes at home. (Many Koreans take off their shoes at home.도 맞음) ③ It's different, not wrong. / Both ways have reasons. / That's interesting! 세 가지 모두 도움 없이 하면 통과."
       }

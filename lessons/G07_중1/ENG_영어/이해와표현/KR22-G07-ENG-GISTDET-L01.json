@@ -122,8 +122,8 @@
       "title": "요지와 세부 정보",
       "question": "글 전체가 하고 싶은 말과 꼭 필요한 정보,\n어떻게 나누어 찾을까?",
       "goals": [
-        "① 글과 대화의 요지(가장 하고 싶은 말)를 골라요.",
-        "② 질문에 필요한 세부 정보를 찾아 표로 정리해요."
+        "① 글과 대화의 요지(가장 하고 싶은 말)를 고를 수 있다.",
+        "② 질문에 필요한 세부 정보를 찾아 표로 정리할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -167,14 +167,14 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 메시지 읽기",
-      "text": "메시지를 읽고 질문에 답해요.",
+      "text": "메시지를 읽고 질문에 답해 보자.",
       "passage": {
         "title": "Mina's message",
         "paragraphs": [
           "Hi, Jun! Let's go to the zoo this Saturday. We can see the new baby pandas there. Let's meet at the bus stop at ten o'clock. See you!"
         ]
       },
-      "question": "① 무엇에 관한 메시지인가요?　② 언제, 어디에서 만나나요?",
+      "question": "① 무엇에 관한 메시지인가?　② 언제, 어디에서 만나는가?",
       "notes": {
         "목적": "5학년 ‘중심 내용 찾기’의 무엇에 관한 글인지 찾기와, 6학년 ‘핵심 정보 파악’의 질문 먼저 읽고 언제·어디서 찾기를 기억하는지 확인합니다.",
         "시간": "약 3분",
@@ -207,18 +207,18 @@
         "B"
       ],
       "title": "요지와 세부 정보",
-      "text": "글 하나에는 요지 하나와 세부 정보 여러 개가 있어요.",
+      "text": "글 하나에는 요지 하나와 세부 정보 여러 개가 있다.",
       "cards": [
         {
           "title": "요지",
-          "text": "가장 하고 싶은 말이에요.\n끝까지 읽고 되풀이되는 말, 첫·끝 문장을 봐요."
+          "text": "가장 하고 싶은 말이다.\n끝까지 읽고 되풀이되는 말, 첫·끝 문장을 본다."
         },
         {
           "title": "세부 정보",
-          "text": "언제·어디서·무엇을 같은 작은 정보예요.\n질문을 먼저 읽고 그 정보를 잡아요."
+          "text": "언제·어디서·무엇을 같은 작은 정보이다.\n질문을 먼저 읽고 그 정보를 잡는다."
         }
       ],
-      "key": "요지는 하나, 세부 정보는 여러 개예요.",
+      "key": "요지는 하나, 세부 정보는 여러 개이다.",
       "notes": {
         "목적": "요지와 세부 정보의 뜻과 각각을 찾는 방법을 알려 줍니다(목표 A·B).",
         "시간": "약 3분",
@@ -260,7 +260,7 @@
         ],
         "numbered": true
       },
-      "question": "글쓴이가 가장 하고 싶은 말은? ①~④ 가운데 어디에서 알 수 있나요?",
+      "question": "글쓴이가 가장 하고 싶은 말은? ①~④ 가운데 어디에서 알 수 있는가?",
       "notes": {
         "목적": "부모와 함께 안내문을 끝까지 읽고, 되풀이되는 말과 첫·끝 부분에서 요지를 찾는 과정을 보여 줍니다(목표 A, 오해 M2·M5).",
         "시간": "약 4분",
@@ -291,23 +291,23 @@
       "objectives": [
         "A"
       ],
-      "title": "요지를 골라요",
-      "text": "S04 안내문의 요지로 알맞은 것을 골라요.",
+      "title": "요지를 고르자",
+      "text": "S04 안내문의 요지로 알맞은 것을 골라 보자.",
       "options": [
         {
-          "text": "공원에 요즘 쓰레기가 많아요."
+          "text": "공원에 요즘 쓰레기가 많다."
         },
         {
-          "text": "청소가 끝나면 간식을 줘요."
+          "text": "청소가 끝나면 간식을 준다."
         },
         {
-          "text": "우리 동네 공원은 아주 넓어요."
+          "text": "우리 동네 공원은 아주 넓다."
         },
         {
-          "text": "토요일 공원 청소에 함께 참여해요."
+          "text": "토요일 공원 청소에 함께 참여하자."
         }
       ],
-      "question": "요지는? 나머지는 왜 요지가 아닌가요?",
+      "question": "요지는? 나머지는 왜 요지가 아닌가?",
       "notes": {
         "목적": "요지 보기 가운데 세부 정보 하나만 담은 보기와 글에 없는 보기를 가려내고 요지를 고릅니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -317,7 +317,7 @@
           "“나와 다는 왜 요지가 아닐까?”"
         ],
         "정답": [
-          "라 (토요일 공원 청소에 함께 참여해요.)",
+          "라 (토요일 공원 청소에 함께 참여하자.)",
           "가: 글의 첫 문장이지만 청소하자는 까닭일 뿐, 글 전체가 하고 싶은 말이 아닙니다.",
           "나: 글에 있는 세부 정보 하나입니다(너무 좁음).",
           "다: 글에 없는 내용입니다."
@@ -339,12 +339,12 @@
       "objectives": [
         "B"
       ],
-      "title": "세부 정보를 표로 정리해요",
+      "title": "세부 정보를 표로 정리하자",
       "steps": [
-        "표의 칸(질문)을 먼저 읽어요.",
-        "칸마다 찾을 말을 정해요.\n언제 → 요일·날짜, 어디서 → 장소",
-        "필요한 낱말만 짧게 써요.\n우리말로 써도 좋아요.",
-        "바뀐 정보는 마지막에 정한 것을 써요."
+        "표의 칸(질문)을 먼저 읽는다.",
+        "칸마다 찾을 말을 정한다.\n언제 → 요일·날짜, 어디서 → 장소",
+        "필요한 낱말만 짧게 쓴다.\n우리말로 써도 좋다.",
+        "바뀐 정보는 마지막에 정한 것을 쓴다."
       ],
       "figure": {
         "type": "table",
@@ -409,17 +409,17 @@
         "A",
         "B"
       ],
-      "title": "듣고 찾아요: 대화",
-      "text": "질문을 먼저 읽어요. 그다음 대화를 듣고 답해요.",
+      "title": "듣고 찾자: 대화",
+      "text": "질문을 먼저 읽자. 그다음 대화를 듣고 답해 보자.",
       "problems": [
         {
-          "text": "무엇에 관한 대화인가요?"
+          "text": "무엇에 관한 대화인가?"
         },
         {
-          "text": "준은 몇 시에 가기로 했나요?"
+          "text": "준은 몇 시에 가기로 했는가?"
         },
         {
-          "text": "과학 축제는 어디에서 열리나요?"
+          "text": "과학 축제는 어디에서 열리는가?"
         }
       ],
       "notes": {
@@ -467,7 +467,7 @@
           "Mina: It's in the school gym. See you on Saturday!"
         ]
       },
-      "question": "초대하는 말은 어디에? 시각은 어떻게 바뀌었나요?",
+      "question": "초대하는 말은 어디에? 시각은 어떻게 바뀌었는가?",
       "notes": {
         "목적": "들은 대화를 글로 읽으며 요지가 드러난 말과 바뀐 시각을 직접 짚어 확인합니다(목표 A·B, 오해 M3).",
         "시간": "약 3분",
@@ -497,8 +497,8 @@
       "objectives": [
         "A"
       ],
-      "title": "기억에 남는 말이 요지일까요?",
-      "claim": "두 친구가 S08 대화의 요지를 이렇게 말했어요.",
+      "title": "기억에 남는 말이 요지일까?",
+      "claim": "두 친구가 S08 대화의 요지를 이렇게 말했다.",
       "left": {
         "title": "가",
         "text": "미나가 준을 과학 축제에 초대했어요."
@@ -507,7 +507,7 @@
         "title": "나",
         "text": "준은 10시에 피아노 수업이 있어요."
       },
-      "question": "어느 쪽이 요지인가요? 다른 쪽은 무엇인가요?",
+      "question": "어느 쪽이 요지인가? 다른 쪽은 무엇인가?",
       "notes": {
         "목적": "기억에 남는 세부 정보(피아노 수업)를 요지로 고르는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -536,7 +536,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 읽고 답해요",
+      "title": "혼자 읽고 답하기",
       "text": "borrow 빌리다 · member 회원 · welcome 환영받는",
       "passage": {
         "title": "Join Our Book Club!",
@@ -546,7 +546,7 @@
           "New members are always welcome. Come and share your ideas with us!"
         ]
       },
-      "question": "① 요지는?　② 언제, 어디서 만나요?　③ 이번 달 책은?",
+      "question": "① 요지는?　② 언제, 어디서 만나는가?　③ 이번 달 책은?",
       "notes": {
         "목적": "도움 없이 처음 보는 글을 끝까지 읽고 요지를 고르고 세부 정보를 찾는지 확인합니다(목표 A·B).",
         "시간": "약 5분",
@@ -583,7 +583,7 @@
       "teacher_only": true,
       "good": [
         {
-          "text": "① 독서 동아리에 들어오세요."
+          "text": "① 독서 동아리에 들어오라."
         },
         {
           "text": "② 수요일 방과 후, 203호"
@@ -594,19 +594,19 @@
       ],
       "bad": [
         {
-          "text": "① 로봇 책을 읽어요",
-          "note": "세부 정보 하나\n(너무 좁아요)"
+          "text": "① 로봇 책을 읽는다",
+          "note": "세부 정보 하나\n(너무 좁다)"
         },
         {
-          "text": "① 읽으면 똑똑해져요",
-          "note": "글에 없는\n내용이에요"
+          "text": "① 읽으면 똑똑해진다",
+          "note": "글에 없는\n내용이다"
         },
         {
           "text": "② 도서관",
           "note": "만나는 곳은\nRoom 203"
         }
       ],
-      "explain": "요지는 글 전체를 아우르는 말, 세부 정보는 질문과 딱 맞는 말이에요.",
+      "explain": "요지는 글 전체를 아우르는 말, 세부 정보는 질문과 딱 맞는 말이다.",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -617,7 +617,7 @@
           "“로봇 책 이야기는 한 부분이라 너무 좁아요.” “똑똑해진다는 말은 글에 없어요.”"
         ],
         "정답": [
-          "① 독서 동아리에 들어오세요(함께해요). ② 수요일 방과 후, 203호 ③ 소년과 로봇에 관한 책"
+          "① 독서 동아리에 들어오라(함께해요). ② 수요일 방과 후, 203호 ③ 소년과 로봇에 관한 책"
         ],
         "막히면": [
           "요지를 틀렸으면 S05(보기 가려내기), 세부 정보를 틀렸으면 S06(표로 정리하기)을 다시 봅니다."
@@ -637,17 +637,17 @@
         "A",
         "B"
       ],
-      "title": "혼자 듣고 답해요",
-      "text": "질문을 먼저 읽고, 대화를 들은 뒤 답해요.",
+      "title": "혼자 듣고 답하기",
+      "text": "질문을 먼저 읽고, 대화를 들은 뒤 답하시오.",
       "problems": [
         {
-          "text": "무엇에 관한 대화인가요?"
+          "text": "무엇에 관한 대화인가?"
         },
         {
-          "text": "파티는 몇 시에 시작하나요?"
+          "text": "파티는 몇 시에 시작하는가?"
         },
         {
-          "text": "할아버지께 무엇을 준비하나요? (두 가지)"
+          "text": "할아버지께 무엇을 준비하는가? (두 가지)"
         }
       ],
       "notes": {
@@ -685,7 +685,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "요지: 끝까지 읽고, 되풀이되는 말과 첫·끝 문장을 봐요.\n세부 정보: 질문을 먼저 읽고, 바뀌면 마지막 정보를 써요.",
+      "key": "요지: 끝까지 읽고, 되풀이되는 말과 첫·끝 문장을 본다.\n세부 정보: 질문을 먼저 읽고, 바뀌면 마지막 정보를 쓴다.",
       "do": "글 전체를 아우르는 보기 고르기",
       "dont": "눈에 띄는 세부 정보 하나를 요지로",
       "review": [
@@ -696,7 +696,7 @@
           "text": "요지 보기에서\n빼야 할 두 가지는?"
         },
         {
-          "text": "약속이 바뀌면\n어떤 정보를 써요?"
+          "text": "약속이 바뀌면\n어떤 정보를 쓸까?"
         }
       ],
       "next": "경험 말하고 쓰기",
@@ -729,14 +729,14 @@
       "objectives": [],
       "title": "보충: 짧은 글 다시 읽기",
       "layout": "support",
-      "text": "질문을 먼저 읽고, 글을 끝까지 읽어요.",
+      "text": "질문을 먼저 읽고, 글을 끝까지 읽어 보자.",
       "passage": {
         "title": "My New Friend",
         "paragraphs": [
           "I have a new friend, Leo. He came to my class last month. He likes soccer and music. We play soccer after school on Fridays. Leo is a really good friend."
         ]
       },
-      "question": "① 무엇에 관한 글인가요?　② 언제 축구를 하나요?",
+      "question": "① 무엇에 관한 글인가?　② 언제 축구를 하는가?",
       "notes": {
         "목적": "S02에서 무엇에 관한 글인지, 언제·어디서를 찾기 어려워하면, 5문장 글로 중심 내용과 핵심 정보 찾기를 다시 연습합니다.",
         "시간": "약 4분",
@@ -765,20 +765,20 @@
     "items": [
       {
         "no": 1,
-        "prompt": "안내문을 끝까지 읽고, 요지로 알맞은 것에 ✔ 하세요. 요지가 드러난 문장에 밑줄을 그으세요.",
+        "prompt": "안내문을 끝까지 읽고, 요지로 알맞은 것에 ✔ 하시오. 요지가 드러난 문장에 밑줄을 그으시오.",
         "read": "School Sports Day\nHello, students! Our school's Sports Day is coming soon. It is a day for everyone to have fun and cheer for each other. Sports Day is on Friday, October 11. It starts at 9:30 a.m. on the school field. If it rains, we will move to the gym. There will be relay races, tug-of-war, and a dance show by the first graders. Please wear your class T-shirt and comfortable shoes. Bring a water bottle and a hat. Lunch will be served at school, so you don't need to bring lunch. Parents are welcome to come and watch. Let's enjoy the day together and do our best!",
         "choices": [
-          "비가 오면 체육관으로 옮겨요.",
-          "운동을 매일 하면 건강해져요.",
-          "체육대회에 모두 함께 즐겁게 참여해요.",
-          "1학년이 춤 공연을 해요."
+          "비가 오면 체육관으로 옮긴다.",
+          "운동을 매일 하면 건강해진다.",
+          "체육대회에 모두 함께 즐겁게 참여하자.",
+          "1학년이 춤 공연을 한다."
         ],
         "choices_size": 13,
-        "answer": "체육대회에 모두 함께 즐겁게 참여해요. 근거: It is a day for everyone to have fun and cheer for each other. / Let's enjoy the day together and do our best! (첫째 보기와 넷째 보기는 세부 정보 하나, 둘째 보기는 글에 없는 내용) 낱말 뜻: cheer 응원하다, field 운동장, relay race 이어달리기, tug-of-war 줄다리기, comfortable 편한, serve 내주다."
+        "answer": "체육대회에 모두 함께 즐겁게 참여하자. 근거: It is a day for everyone to have fun and cheer for each other. / Let's enjoy the day together and do our best! (첫째 보기와 넷째 보기는 세부 정보 하나, 둘째 보기는 글에 없는 내용) 낱말 뜻: cheer 응원하다, field 운동장, relay race 이어달리기, tug-of-war 줄다리기, comfortable 편한, serve 내주다."
       },
       {
         "no": 2,
-        "prompt": "1의 안내문을 다시 읽고 표를 채우세요. 우리말로 써도 돼요.",
+        "prompt": "1의 안내문을 다시 읽고 표를 채우시오. 우리말로 써도 된다.",
         "table": {
           "headers": [
             "언제(날짜·시각)",
@@ -809,11 +809,11 @@
       },
       {
         "no": 3,
-        "prompt": "부모님이 읽어 주는 대화를 두 번 듣고, 표를 채운 뒤 대화의 요지에 ✔ 하세요. 듣기 전에 표와 보기를 먼저 읽으세요.",
+        "prompt": "부모님이 읽어 주는 대화를 두 번 듣고, 표를 채운 뒤 대화의 요지에 ✔ 하시오. 듣기 전에 표와 보기를 먼저 읽으시오.",
         "choices": [
-          "벤은 일요일마다 할머니와 아침을 먹어요.",
-          "소라가 벤에게 벼룩시장 일을 도와 달라고 부탁해요.",
-          "벤에게는 큰 탁자가 없어요."
+          "벤은 일요일마다 할머니와 아침을 먹는다.",
+          "소라가 벤에게 벼룩시장 일을 도와 달라고 부탁한다.",
+          "벤에게는 큰 탁자가 없다."
         ],
         "choices_size": 13,
         "table": {
@@ -839,13 +839,13 @@
           ],
           "size": 13
         },
-        "answer": "부모가 대화를 두 번 읽어 줍니다. 부모가 읽을 대본: Sora: Hi, Ben. What are you doing this Sunday? / Ben: Nothing special. Why? / Sora: There's a flea market at Hana Park. I want to sell my old books and toys. Can you help me? / Ben: Sure. What time should I come? / Sora: The market opens at ten, so let's meet at nine thirty. / Ben: Nine thirty? I have breakfast with my grandma on Sundays. How about ten? / Sora: Okay, ten is fine. Can you bring a big table? / Ben: Sorry, I don't have one. But I can bring a blanket for our things. / Sora: Perfect. Thanks, Ben! / Ben: No problem. See you on Sunday! → 요지: 소라가 벤에게 벼룩시장(쓰던 물건을 사고파는 장터) 일을 도와 달라고 부탁해요. 표: 일요일 / 하나 공원(Hana Park) / 10시(처음에 9시 30분이었다가 바뀜) / 담요(a blanket, 큰 탁자는 없어서 못 가져감). 요지와 네 칸 가운데 세 칸 이상 맞으면 통과. 9시 30분이나 탁자를 쓰면 바뀐 정보를 놓친 것입니다."
+        "answer": "부모가 대화를 두 번 읽어 줍니다. 부모가 읽을 대본: Sora: Hi, Ben. What are you doing this Sunday? / Ben: Nothing special. Why? / Sora: There's a flea market at Hana Park. I want to sell my old books and toys. Can you help me? / Ben: Sure. What time should I come? / Sora: The market opens at ten, so let's meet at nine thirty. / Ben: Nine thirty? I have breakfast with my grandma on Sundays. How about ten? / Sora: Okay, ten is fine. Can you bring a big table? / Ben: Sorry, I don't have one. But I can bring a blanket for our things. / Sora: Perfect. Thanks, Ben! / Ben: No problem. See you on Sunday! → 요지: 소라가 벤에게 벼룩시장(쓰던 물건을 사고파는 장터) 일을 도와 달라고 부탁한다. 표: 일요일 / 하나 공원(Hana Park) / 10시(처음에 9시 30분이었다가 바뀜) / 담요(a blanket, 큰 탁자는 없어서 못 가져감). 요지와 네 칸 가운데 세 칸 이상 맞으면 통과. 9시 30분이나 탁자를 쓰면 바뀐 정보를 놓친 것입니다."
       },
       {
         "no": 4,
-        "prompt": "글을 읽고 물음에 답하세요. ① 글쓴이가 가장 하고 싶은 말을 우리말 한 문장으로 쓰고, 그 말이 드러난 문장에 밑줄을 그으세요. ② 작은 잎이 난 것은 씨앗을 심고 얼마 뒤인가요?",
+        "prompt": "글을 읽고 물음에 답하시오. ① 글쓴이가 가장 하고 싶은 말을 우리말 한 문장으로 쓰고, 그 말이 드러난 문장에 밑줄을 그으시오. ② 작은 잎이 난 것은 씨앗을 심고 얼마 뒤인가?",
         "read": "My Little Garden\nLast spring, I got some tomato seeds from my grandma. I planted them in small pots on our sunny balcony. Every morning before school, I watered them. At first, nothing happened, and I was worried. But after two weeks, tiny green leaves came out! In summer, the plants got very tall, and I picked many red tomatoes. I shared some with our neighbors, too. My family ate them in salads and on pizza. Growing my own food was hard work, but it made me really happy. I want to grow cucumbers next year.",
-        "line_label": "①은 위의 두 줄에, ②는 마지막 줄에 쓰세요.",
+        "line_label": "①은 위의 두 줄에, ②는 마지막 줄에 쓰시오.",
         "lines": 3,
         "answer": "① 직접 토마토를 길러 보니 힘들었지만 정말 행복했다. 밑줄: Growing my own food was hard work, but it made me really happy. ② 2주 뒤(after two weeks). 낱말 뜻: seed 씨앗, plant 심다, pot 화분, sunny 햇볕이 잘 드는, balcony 베란다, neighbor 이웃, share 나누다, water 물을 주다, worried 걱정한, tiny 아주 작은, leaf(leaves) 잎, pick 따다, grow 자라다·기르다, cucumber 오이. ‘토마토를 땄다’, ‘할머니께 씨앗을 받았다’처럼 세부 정보 하나만 쓰면 다시 생각하게 합니다."
       },
@@ -853,7 +853,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 요지와 세부 정보는 각각 무엇인지 쓰세요.\n② 요지 보기를 고를 때 빼야 할 보기 두 가지를 쓰세요.\n③ 대화에서 약속이 중간에 바뀌면 어떤 정보를 써야 하나요?",
+        "prompt": "① 요지와 세부 정보는 각각 무엇인지 쓰시오.\n② 요지 보기를 고를 때 빼야 할 보기 두 가지를 쓰시오.\n③ 대화에서 약속이 중간에 바뀌면 어떤 정보를 써야 하는가?",
         "lines": 3,
         "answer": "① 요지: 글쓴이나 말하는 사람이 가장 하고 싶은 말 / 세부 정보: 언제·어디서·무엇을 같은 작은 정보 ② 세부 정보 하나만 담은 보기(너무 좁은 보기), 글에 없는 보기 ③ 마지막에 정한 정보. 세 가지 모두 도움 없이 하면 통과."
       }

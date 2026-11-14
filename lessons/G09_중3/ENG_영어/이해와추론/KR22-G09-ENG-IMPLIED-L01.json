@@ -93,8 +93,8 @@
       "title": "함축된 의미 추론",
       "question": "“I have a big math test tomorrow.”\n‘영화 보러 갈래?’의 대답이라면 진짜 뜻은?",
       "goals": [
-        "① 말투·상황·앞뒤 단서로 숨은 뜻을 추론해요.",
-        "② 단서 문장을 그대로 들어 근거를 말해요."
+        "① 말투·상황·앞뒤 단서로 숨은 뜻을 추론할 수 있다.",
+        "② 단서 문장을 그대로 들어 근거를 말할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -136,7 +136,7 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 메시지 읽기",
-      "text": "메시지를 읽고 질문에 답해요.  scarf 목도리",
+      "text": "메시지를 읽고 질문에 답하자.  scarf 목도리",
       "passage": {
         "paragraphs": [
           "Hi, Sumi! Thank you for the scarf. I wear it every day because it is so warm. My mom says the color looks good on me, too. Let's meet this Saturday. I'll buy you lunch!",
@@ -193,7 +193,7 @@
           "text": "질문과 대답이 맞는지,\n상대가 어떻게 반응하는지"
         }
       ],
-      "key": "추론에는 꼭 근거가 있어야 해요. 근거 = 글에 있는 단서 문장",
+      "key": "추론에는 꼭 근거가 있어야 한다. 근거 = 글에 있는 단서 문장",
       "notes": {
         "목적": "추론(단서로 숨은 뜻 알아내기)의 뜻과 단서 세 가지(말투, 상황, 앞뒤)를 알려 주고, 추론에는 글 속 근거가 꼭 있어야 한다는 것을 짚습니다(목표 A, 오해 M2·M4).",
         "시간": "약 3분",
@@ -230,7 +230,7 @@
           "Mina: Oh, I see. Maybe next time, then."
         ]
       },
-      "question": "준은 오늘 밤 영화를 보러 갈까요? 단서는 무엇인가요?",
+      "question": "준은 오늘 밤 영화를 보러 갈까? 단서는 무엇인가?",
       "notes": {
         "목적": "Yes·No가 없는 대답에서 말투·까닭·상대의 반응을 단서로 숨은 뜻(거절)을 추론하는 과정을 보여 줍니다(목표 A, 오해 M1·M4).",
         "시간": "약 3분",
@@ -247,7 +247,7 @@
           "“준이 영화 보러 가고 싶었다면 뭐라고 했을까? Sure! 같은 말을 했겠지?”라고 반대 경우를 떠올리게 합니다."
         ],
         "주의": [
-          "모범 답: 준은 영화를 보러 가지 않아요(돌려서 거절했어요). 근거: “Hmm...”(망설임), “I have a big math test tomorrow.”(까닭), 미나의 “Maybe next time, then.”(상대도 거절로 알아들음).",
+          "모범 답: 준은 영화를 보러 가지 않는다(돌려서 거절했어요). 근거: “Hmm...”(망설임), “I have a big math test tomorrow.”(까닭), 미나의 “Maybe next time, then.”(상대도 거절로 알아들음).",
           "대화의 뜻: 미나: 오늘 밤 영화 보러 갈래? / 준: 음... 내일 큰 수학 시험이 있어. / 미나: 아, 그렇구나. 그럼 다음에 가자."
         ]
       }
@@ -262,12 +262,12 @@
         "B"
       ],
       "title": "근거는 단서를 그대로",
-      "text": "추론한 다음에는 근거를 이렇게 말해요.",
+      "text": "추론한 다음에는 근거를 이렇게 말한다.",
       "steps": [
-        "질문을 다시 읽어요.",
-        "단서가 되는 말에 밑줄을 그어요.",
-        "단서를 따옴표(“ ”)로 그대로 옮겨요.",
-        "“~”라고 했으니까 ~예요.\n로 이어 말해요."
+        "질문을 다시 읽는다.",
+        "단서가 되는 말에 밑줄을 긋는다.",
+        "단서를 따옴표(“ ”)로 그대로 옮긴다.",
+        "“~”라고 했으니까 ~이다.\n로 이어 말한다."
       ],
       "figureRatio": 0.52,
       "figure": {
@@ -278,11 +278,11 @@
         ],
         "rows": [
           [
-            "준은 영화를 보러\n가지 않아요.",
+            "준은 영화를 보러\n가지 않는다.",
             "“I have a big math\ntest tomorrow.”"
           ],
           [
-            "미나도 거절로\n알아들었어요.",
+            "미나도 거절로\n알아들었다.",
             "“Maybe next time,\nthen.”"
           ]
         ],
@@ -294,14 +294,14 @@
         "size": 20,
         "alt": "왼쪽 칸에 추론, 오른쪽 칸에 그 근거가 되는 대화 문장을 그대로 옮긴 표"
       },
-      "key": "“I have a big math test tomorrow.”라고 했으니까 못 가요.",
+      "key": "“I have a big math test tomorrow.”라고 했으니까 못 간다.",
       "notes": {
         "목적": "추론의 근거를 단서 문장 그대로 옮겨 ‘“~”라고 했으니까 ~예요’로 말하는 방법을 보여 줍니다(목표 B, 오해 M3).",
         "시간": "약 3분",
         "말하기": [
           "“근거를 말할 때 ‘그냥 느낌으로요’는 안 돼. 글에 있는 단서 문장을 따옴표로 그대로 옮겨.”",
-          "“표를 봐. 추론 ‘준은 영화를 보러 가지 않아요’의 근거는 “I have a big math test tomorrow.”야. 이걸 이어서 말하면 아래 카드처럼 돼.”",
-          "“둘째 줄은 네가 말해 볼래? ‘미나도 거절로 알아들었어요’의 근거를 이어서.”"
+          "“표를 봐. 추론 ‘준은 영화를 보러 가지 않는다’의 근거는 “I have a big math test tomorrow.”야. 이걸 이어서 말하면 아래 카드처럼 돼.”",
+          "“둘째 줄은 네가 말해 볼래? ‘미나도 거절로 알아들었다’의 근거를 이어서.”"
         ],
         "예상답": [
           "“‘Maybe next time, then.’이라고 했으니까 미나도 준이 안 간다고 알아들었어요.”"
@@ -325,10 +325,10 @@
         "B"
       ],
       "title": "짧은 대화 세 개",
-      "text": "물음에 답하고, 근거가 되는 말을 짚어요.",
+      "text": "물음에 답하고, 근거가 되는 말을 짚어 보자.",
       "problems": [
         {
-          "text": "A: Please fasten your seatbelt. We will take off soon.\n→ 여기는 어디일까요?"
+          "text": "A: Please fasten your seatbelt. We will take off soon.\n→ 여기는 어디일까?"
         },
         {
           "text": "A: Open your mouth, please. Your teeth look fine.\n→ A의 직업은?"
@@ -369,7 +369,7 @@
         "B"
       ],
       "title": "추론일까, 짐작일까?",
-      "claim": "Mom: Did you clean your room?  Tom: Um... I was really busy today.\n톰은 방을 청소했을까요? 두 친구가 이렇게 답했어요.",
+      "claim": "Mom: Did you clean your room?  Tom: Um... I was really busy today.\n톰은 방을 청소했을까? 두 친구가 이렇게 답했다.",
       "left": {
         "title": "가",
         "text": "청소하지 않았어요.\n“Um... I was really busy\ntoday.”라며 망설였으니까요."
@@ -378,7 +378,7 @@
         "title": "나",
         "text": "청소하지 않았어요.\n톰은 게을러서 늘 청소를\n싫어하니까요."
       },
-      "question": "근거가 있는 쪽은? 다른 쪽은 무엇이 문제인가요?",
+      "question": "근거가 있는 쪽은? 다른 쪽은 무엇이 문제일까?",
       "notes": {
         "목적": "글 속 단서를 근거로 한 추론과, 단서 없이 지어낸 짐작을 비교해 가려냅니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -408,18 +408,18 @@
         "A"
       ],
       "title": "말과 뜻이 반대일 때",
-      "text": "말투와 앞뒤를 보면 말과 반대인 진짜 뜻이 보여요.",
+      "text": "말투와 앞뒤를 보면 말과 반대인 진짜 뜻이 보인다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "Oh, great. It's raining again.",
-            "sub": "정말 좋다? → 사실은 짜증이 나요"
+            "sub": "정말 좋다? → 사실은 짜증이 난다"
           },
           {
             "word": "And I left my umbrella at home.",
-            "sub": "단서: again, 우산을 두고 왔어요",
+            "sub": "단서: again, 우산을 두고 왔다",
             "highlight": true
           }
         ]
@@ -427,14 +427,14 @@
       "points": [
         {
           "title": "말투",
-          "text": "힘없이, 한숨 쉬며 말하면\n말과 뜻이 반대일 수 있어요."
+          "text": "힘없이, 한숨 쉬며 말하면\n말과 뜻이 반대일 수 있다."
         },
         {
           "title": "앞뒤 단서",
-          "text": "또(again) 비가 오고\n우산도 없어요 → 기분이 나빠요."
+          "text": "또(again) 비가 오고\n우산도 없다 → 기분이 나쁘다."
         }
       ],
-      "key": "great가 늘 ‘좋다’는 아니에요. 말투와 앞뒤를 보고 판단해요.",
+      "key": "great가 늘 ‘좋다’는 아니다. 말투와 앞뒤를 보고 판단한다.",
       "notes": {
         "목적": "말의 뜻과 진짜 뜻이 반대인 경우(반어)를 말투와 앞뒤 단서로 알아차리는 방법을 알려 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -507,16 +507,16 @@
       ],
       "title": "말하기: 말투 연기 맞히기",
       "steps": [
-        "종이 다섯 장에 상황을 써요.\n(예: 시험을 못 봤어요)",
-        "부모가 한 장을 골라 그 기분으로\n말해요: I'm fine.",
-        "아이가 추론해요:\nI think you're sad.",
-        "근거를 말해요: You said it\nin a small voice.",
-        "역할을 바꿔 아이가 연기해요."
+        "종이 다섯 장에 상황을 쓴다.\n(예: 시험을 못 봤다)",
+        "부모가 한 장을 골라 그 기분으로\n말한다: I'm fine.",
+        "아이가 추론한다:\nI think you're sad.",
+        "근거를 말한다: You said it\nin a small voice.",
+        "역할을 바꿔 아이가 연기한다."
       ],
       "criteria": [
-        "진짜 기분이나 뜻을 말했어요",
-        "말투나 말을 근거로 들었어요",
-        "I think you're ~.로 말했어요"
+        "진짜 기분이나 뜻을 말했다",
+        "말투나 말을 근거로 들었다",
+        "I think you're ~.로 말했다"
       ],
       "notes": {
         "목적": "부모가 상황 카드의 기분으로 짧은 말을 연기하면, 아이가 말투와 말을 단서로 진짜 기분을 추론하고 근거를 댑니다(목표 A·B, 오해 M1·M3).",
@@ -551,7 +551,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 추론해요",
+      "title": "혼자 추론하기",
       "text": "order 주문하다 · hair 머리카락 · right away 바로",
       "passage": {
         "paragraphs": [
@@ -601,7 +601,7 @@
           "text": "① 식당 — “I ordered this soup”"
         },
         {
-          "text": "② 화가 났어요 — “it's cold”,\n“there's a hair in it”"
+          "text": "② 화가 났다 — “it's cold”,\n“there's a hair in it”"
         },
         {
           "text": "③ 새 수프 — “I'll bring you\na new one right away.”"
@@ -613,15 +613,15 @@
           "note": "ordered,\nWaiter를 놓침"
         },
         {
-          "text": "② 배가 고파요",
-          "note": "글에 단서가\n없어요"
+          "text": "② 배가 고프다",
+          "note": "글에 단서가\n없다"
         },
         {
           "text": "근거: 그냥요",
-          "note": "단서 문장을\n그대로 옮겨요"
+          "note": "단서 문장을\n그대로 옮긴다"
         }
       ],
-      "explain": "추론 + 근거(단서를 그대로) → “~”라고 했으니까 ~예요",
+      "explain": "추론 + 근거(단서를 그대로) → “~”라고 했으니까 ~이다",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -652,11 +652,11 @@
         "A",
         "B"
       ],
-      "title": "듣고 추론해요",
-      "text": "엄마(아빠)가 읽어 주는 대화를 듣고 답해요. 근거도 말해요.",
+      "title": "듣고 추론하기",
+      "text": "엄마(아빠)가 읽어 주는 대화를 듣고 답하시오. 근거도 말하시오.",
       "problems": [
         {
-          "text": "유리는 시험을 잘 봤을까요?"
+          "text": "유리는 시험을 잘 봤을까?"
         },
         {
           "text": "진이 방을 청소한 까닭은?"
@@ -701,7 +701,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "숨은 뜻 = 단서(말투·상황·앞뒤) + 내가 아는 것\n근거: “~”라고 했으니까 ~예요.",
+      "key": "숨은 뜻 = 단서(말투·상황·앞뒤) + 내가 아는 것\n근거: “~”라고 했으니까 ~이다.",
       "do": "단서 문장을 그대로 옮기기",
       "dont": "단서 없이 짐작하기",
       "review": [
@@ -745,7 +745,7 @@
       "objectives": [],
       "title": "보충: 낱말로 장소 알아내기",
       "layout": "support",
-      "text": "대화를 읽고, 장소를 알려 주는 낱말에 밑줄을 그어요.",
+      "text": "대화를 읽고, 장소를 알려 주는 낱말에 밑줄을 긋자.",
       "passage": {
         "paragraphs": [
           "Clerk: Hello. What would you like?",
@@ -754,7 +754,7 @@
           "Boy: To go, please."
         ]
       },
-      "question": "① 여기는 어디일까요?　② 어떤 낱말을 보고 알았나요?",
+      "question": "① 여기는 어디일까?　② 어떤 낱말을 보고 알았는가?",
       "notes": {
         "목적": "S02에서 요지·세부 정보 찾기가 흔들리면, 대화 속 낱말(세부 정보)을 정확히 찾아 장소를 알아내는 쉬운 추론부터 다시 연습합니다.",
         "시간": "약 4분",
@@ -783,7 +783,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "대화를 읽고 물음에 답한 뒤, 근거가 되는 말을 그대로 옮겨 쓰세요.",
+        "prompt": "대화를 읽고 물음에 답한 뒤, 근거가 되는 말을 그대로 옮겨 쓰시오.",
         "table": {
           "headers": [
             "대화",
@@ -793,12 +793,12 @@
           "rows": [
             [
               "① A: How much is this T-shirt?\nB: It's 20 dollars. It's on sale today.",
-              "어디일까요?\n\n",
+              "어디일까?\n\n",
               ""
             ],
             [
               "② A: Please open your books to page 35.\nB: Ms. Lee, I left my book at home.",
-              "A와 B는\n어떤 사이일까요?\n",
+              "A와 B는\n어떤 사이일까?\n",
               ""
             ],
             [
@@ -819,7 +819,7 @@
       },
       {
         "no": 2,
-        "prompt": "글을 읽고 글쓴이의 기분에 ✔ 하세요. 그렇게 생각한 근거 문장 두 개를 그대로 옮겨 쓰세요.",
+        "prompt": "글을 읽고 글쓴이의 기분에 ✔ 하시오. 그렇게 생각한 근거 문장 두 개를 그대로 옮겨 쓰시오.",
         "read": "Tomorrow is my first piano contest. I have practiced the song every day for a month. But tonight, my hands are cold and my heart is beating fast. I checked my music three times. I can't stop thinking about the contest. I hope I don't make a mistake.",
         "choices": [
           "bored (지루한)",
@@ -834,7 +834,7 @@
       },
       {
         "no": 3,
-        "prompt": "B의 진짜 기분을 쓰고, 근거가 되는 말을 쓰세요.",
+        "prompt": "B의 진짜 기분을 쓰고, 근거가 되는 말을 쓰시오.",
         "table": {
           "headers": [
             "대화",
@@ -865,7 +865,7 @@
       },
       {
         "no": 4,
-        "prompt": "대화를 읽고, 근거가 있는 추론이면 ○, 지나친 짐작이면 ×를 쓰세요. ○이면 근거 문장을 쓰세요.",
+        "prompt": "대화를 읽고, 근거가 있는 추론이면 ○, 지나친 짐작이면 ×를 쓰시오. ○이면 근거 문장을 쓰시오.",
         "read": "Sora: Do you want to come to my birthday party on Saturday?\nBen: Oh, Saturday? I'm going to visit my grandpa in Busan this weekend.\nSora: That's okay. Maybe next time.",
         "table": {
           "headers": [
@@ -875,17 +875,17 @@
           ],
           "rows": [
             [
-              "① 벤은 토요일 파티에 가지 못해요.",
+              "① 벤은 토요일 파티에 가지 못한다.",
               "",
               ""
             ],
             [
-              "② 벤은 소라를 싫어해요.",
+              "② 벤은 소라를 싫어한다.",
               "",
               ""
             ],
             [
-              "③ 소라는 벤의 대답을 거절로 알아들었어요.",
+              "③ 소라는 벤의 대답을 거절로 알아들었다.",
               "",
               ""
             ]
@@ -904,7 +904,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 숨은 뜻을 추론할 때 쓰는 단서 세 가지를 쓰세요.\n② Oh, great. It's raining again.을 말한 사람의 진짜 기분을 쓰세요.\n③ A: Let's play soccer! B: My leg hurts. — B의 숨은 뜻과 근거를 쓰세요.",
+        "prompt": "① 숨은 뜻을 추론할 때 쓰는 단서 세 가지를 쓰시오.\n② Oh, great. It's raining again.을 말한 사람의 진짜 기분을 쓰시오.\n③ A: Let's play soccer! B: My leg hurts. — B의 숨은 뜻과 근거를 쓰시오.",
         "lines": 3,
         "answer": "① 말투, 상황(장소·사람 사이를 알려 주는 낱말), 앞뒤 단서(질문과 대답, 상대의 반응) ② 짜증 나다·속상하다(again이 단서) ③ 축구를 하지 않겠다(못 한다). 근거: “My leg hurts.” 세 가지 모두 도움 없이 하면 통과."
       }

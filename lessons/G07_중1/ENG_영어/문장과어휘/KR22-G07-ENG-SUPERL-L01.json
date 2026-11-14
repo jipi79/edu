@@ -214,8 +214,8 @@
       "title": "최상급",
       "question": "셋 가운데 가장 키가 큰 사람은?\n‘가장 ~한’을 영어로 어떻게 말할까?",
       "goals": [
-        "① 규칙에 맞게 최상급(the -est, the most, the best)을 만들어요.",
-        "② in·of로 범위를 넣어 ‘가장 ~한’ 문장을 말하고 써요."
+        "① 규칙에 맞게 최상급(the -est, the most, the best)을 만들 수 있다.",
+        "② in·of로 범위를 넣어 ‘가장 ~한’ 문장을 말하고 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -264,7 +264,7 @@
       "role": "prior",
       "objectives": [],
       "title": "비교급 떠올리기",
-      "text": "①②는 비교급으로 바꾸고, ③은 비교하는 문장을 말해요.",
+      "text": "①②는 비교급으로 바꾸고, ③은 비교하는 문장을 말해 보자.",
       "problems": [
         {
           "text": "heavy → ______"
@@ -273,7 +273,7 @@
           "text": "good → ______"
         },
         {
-          "text": "Minho 160 cm · Jisu 150 cm\n→ tall로 비교해요"
+          "text": "Minho 160 cm · Jisu 150 cm\n→ tall로 비교하자"
         }
       ],
       "notes": {
@@ -335,7 +335,7 @@
           "text": "Cal is the tallest of the three."
         }
       ],
-      "key": "최상급은 ‘가장 ~한’을 나타내는 모양이에요. 앞에 the를 써요.",
+      "key": "최상급은 ‘가장 ~한’을 나타내는 모양이다. 앞에 the를 쓴다.",
       "notes": {
         "목적": "둘을 비교할 때는 비교급, 셋 이상 가운데 가장일 때는 최상급(the + -est)을 쓴다는 것을 그래프로 보여 줍니다(목표 A·B, 오해 M1·M5).",
         "시간": "약 3분",
@@ -367,7 +367,7 @@
         "A"
       ],
       "title": "-est와 the most",
-      "text": "비교급의 규칙을 그대로 써요. -er 자리에 -est가 와요.",
+      "text": "비교급의 규칙을 그대로 쓴다. -er 자리에 -est가 온다.",
       "table": {
         "headers": [
           "규칙",
@@ -383,7 +383,7 @@
             "the tallest"
           ],
           [
-            "e로 끝나요",
+            "e로 끝난다",
             "large",
             "larger",
             "the largest"
@@ -416,7 +416,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "긴 낱말은 the most를 써요.  (the most biggest ×)",
+      "key": "긴 낱말은 the most를 쓴다.  (the most biggest ×)",
       "notes": {
         "목적": "비교급과 같은 규칙으로 -est를 붙이고, 긴 낱말은 the most를 쓴다는 것을 표로 익힙니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -448,7 +448,7 @@
         "A"
       ],
       "title": "최상급 만들기",
-      "text": "최상급을 the까지 넣어 말하고, 철자도 말해요.",
+      "text": "최상급을 the까지 넣어 말하고, 철자도 말해 보자.",
       "problems": [
         {
           "text": "old → ______"
@@ -469,7 +469,7 @@
           "text": "easy → ______"
         }
       ],
-      "hint": "비교급을 먼저 떠올리고, -er 자리에 -est를 넣어요.",
+      "hint": "비교급을 먼저 떠올리고, -er 자리에 -est를 넣는다.",
       "notes": {
         "목적": "비교급을 떠올린 뒤 최상급으로 바꾸고 철자로 말합니다(목표 A, 오해 M2). 활동지 1에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -504,7 +504,7 @@
         "A"
       ],
       "title": "모양이 바뀌는 최상급",
-      "text": "비교급에서 모양이 바뀐 말은 최상급도 모양이 바뀌어요.",
+      "text": "비교급에서 모양이 바뀐 말은 최상급도 모양이 바뀐다.",
       "table": {
         "headers": [
           "낱말(뜻)",
@@ -541,7 +541,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "the goodest, the most good로 쓰지 않아요.",
+      "key": "the goodest, the most good로 쓰지 않는다.",
       "notes": {
         "목적": "비교급에서 모양이 바뀐 good·bad·many는 최상급도 모양이 바뀐다는 것을 익힙니다(목표 A, 오해 M3).",
         "시간": "약 2분",
@@ -571,18 +571,18 @@
         "B"
       ],
       "title": "범위는 in과 of로",
-      "text": "‘어디에서, 무엇 가운데’ 가장인지 뒤에 써요.",
+      "text": "‘어디에서, 무엇 가운데’ 가장인지 뒤에 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 1,
         "items": [
           {
             "word": "Minho is the tallest in my class.",
-            "sub": "민호는 우리 반에서 가장 키가 커요."
+            "sub": "민호는 우리 반에서 가장 키가 크다."
           },
           {
             "word": "This box is the heaviest of the three.",
-            "sub": "이 상자가 셋 가운데 가장 무거워요."
+            "sub": "이 상자가 셋 가운데 가장 무겁다."
           }
         ]
       },
@@ -596,7 +596,7 @@
           "text": "of the three, of all"
         }
       ],
-      "key": "‘~에서’는 in, ‘여럿 가운데’는 of로 기억해요.",
+      "key": "‘~에서’는 in, ‘여럿 가운데’는 of로 기억하자.",
       "notes": {
         "목적": "‘어디에서, 무엇 가운데’ 가장인지를 in + 장소·모임, of + 여럿으로 나타내는 방법을 알려 줍니다(목표 B, 오해 M4).",
         "시간": "약 3분",
@@ -627,8 +627,8 @@
       "objectives": [
         "B"
       ],
-      "title": "in일까요, of일까요?",
-      "text": "빈칸에 in과 of 가운데 알맞은 말을 넣어 읽어요.",
+      "title": "in일까, of일까?",
+      "text": "빈칸에 in과 of 가운데 알맞은 말을 넣어 읽어 보자.",
       "problems": [
         {
           "text": "the biggest ___ the four boxes"
@@ -673,8 +673,8 @@
       "objectives": [
         "A"
       ],
-      "title": "the most tallest일까요?",
-      "claim": "‘칼이 셋 가운데 가장 키가 커요.’를 두 친구가 이렇게 썼어요.",
+      "title": "the most tallest일까?",
+      "claim": "‘칼이 셋 가운데 가장 키가 크다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -699,7 +699,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐을까?",
       "notes": {
         "목적": "the most와 -est를 함께 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M2·M1).",
         "시간": "약 2분",
@@ -728,8 +728,8 @@
       "objectives": [
         "B"
       ],
-      "title": "표를 보고 말해요",
-      "text": "표를 보고 괄호 속 낱말을 알맞게 바꿔 말해요.",
+      "title": "표를 보고 말하자",
+      "text": "표를 보고 괄호 속 낱말을 알맞게 바꿔 말해 보자.",
       "problems": [
         {
           "text": "Coco is ______ of the three. (old)"
@@ -806,16 +806,16 @@
       ],
       "title": "우리 집에서 가장 ~한 것",
       "steps": [
-        "물건 세 개를 골라 나란히 놓아요.",
-        "들어 보고 견주어 가장 ~한 것을 찾아요.",
-        "부모가 물어요: Which is the heaviest?",
-        "아이가 답해요: This book is the heaviest of the three.",
-        "가족으로도 해요: My dad is the tallest in my family."
+        "물건 세 개를 골라 나란히 놓는다.",
+        "들어 보고 견주어 가장 ~한 것을 찾는다.",
+        "부모가 묻는다: Which is the heaviest?",
+        "아이가 답한다: This book is the heaviest of the three.",
+        "가족으로도 한다: My dad is the tallest in my family."
       ],
       "criteria": [
-        "the를 빠뜨리지 않았어요",
-        "-est와 the most를 맞게 썼어요",
-        "in이나 of로 범위를 말했어요"
+        "the를 빠뜨리지 않았다",
+        "-est와 the most를 맞게 썼다",
+        "in이나 of로 범위를 말했다"
       ],
       "notes": {
         "목적": "물건 세 개를 견주어 보고 가족 이야기를 하며 최상급 문장을 소리 내어 여러 번 말합니다(목표 B).",
@@ -851,7 +851,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "big · happy · good\n→ 최상급으로"
@@ -863,7 +863,7 @@
           "text": "the tallest ___ my class\n→ in? of?"
         },
         {
-          "text": "It is the most biggest\nof the three. → 고쳐요"
+          "text": "It is the most biggest\nof the three. → 고치시오"
         }
       ],
       "notes": {
@@ -914,7 +914,7 @@
       "bad": [
         {
           "text": "biggest",
-          "note": "최상급 앞에는\nthe를 써요"
+          "note": "최상급 앞에는\nthe를 쓴다"
         },
         {
           "text": "the goodest",
@@ -925,7 +925,7 @@
           "note": "모임 앞은 in"
         }
       ],
-      "explain": "비교급 떠올리기 → -est·the most·모양이 바뀌는 말 → in·of 범위 순서로 다시 봐요.",
+      "explain": "비교급 떠올리기 → -est·the most·모양이 바뀌는 말 → in·of 범위 순서로 다시 본다.",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -956,8 +956,8 @@
         "A",
         "B"
       ],
-      "title": "비교급일까요, 최상급일까요?",
-      "text": "표를 보고 괄호 속 낱말로 문장을 말해요.",
+      "title": "비교급일까, 최상급일까?",
+      "text": "표를 보고 괄호 속 낱말로 문장을 말하시오.",
       "problems": [
         {
           "text": "A와 B의 값 비교 (expensive)"
@@ -1043,7 +1043,7 @@
           "text": "the tallest ___ the four\nin? of?"
         },
         {
-          "text": "‘이 책이 셋 가운데 가장\n재미있어요.’를 영어로"
+          "text": "‘이 책이 셋 가운데 가장\n재미있다.’를 영어로"
         }
       ],
       "next": "요지와 세부 정보",
@@ -1076,7 +1076,7 @@
       "objectives": [],
       "title": "보충: 비교급 다시 보기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 3,
@@ -1107,7 +1107,7 @@
           }
         ]
       },
-      "key": "A is taller than B.처럼 두 가지를 비교할 때 써요. 긴 낱말은 more!",
+      "key": "A is taller than B.처럼 두 가지를 비교할 때 쓴다. 긴 낱말은 more!",
       "notes": {
         "목적": "S02에서 비교급이 흔들리면, 최상급을 배우기 전에 비교급의 규칙과 문장을 다시 다집니다.",
         "시간": "약 4분",
@@ -1135,7 +1135,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "낱말의 비교급과 최상급을 쓰세요. 최상급에는 the를 붙이세요.",
+        "prompt": "낱말의 비교급과 최상급을 쓰시오. 최상급에는 the를 붙이시오.",
         "table": {
           "headers": [
             "낱말",
@@ -1193,7 +1193,7 @@
       },
       {
         "no": 2,
-        "prompt": "빈칸에 in과 of 가운데 알맞은 말을 쓰세요.",
+        "prompt": "빈칸에 in과 of 가운데 알맞은 말을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1224,7 +1224,7 @@
       },
       {
         "no": 3,
-        "prompt": "괄호 속 낱말을 최상급으로 바꾸어 빈칸에 쓰세요.",
+        "prompt": "괄호 속 낱말을 최상급으로 바꾸어 빈칸에 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1255,7 +1255,7 @@
       },
       {
         "no": 4,
-        "prompt": "표를 보고 괄호 속 낱말로 문장을 쓰세요. ①②는 셋 가운데 가장인 것, ③은 A와 B를 비교하는 문장이에요.",
+        "prompt": "표를 보고 괄호 속 낱말로 문장을 쓰시오. ①②는 셋 가운데 가장인 것, ③은 A와 B를 비교하는 문장이다.",
         "table": {
           "headers": [
             "",
@@ -1285,7 +1285,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1301,7 +1301,7 @@
               ""
             ],
             [
-              "④ It is the most biggest of the three.\n(바르게 고쳐요)",
+              "④ It is the most biggest of the three.\n(바르게 고치시오)",
               ""
             ]
           ],
@@ -1316,7 +1316,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 가족이나 집 물건에 대한 최상급 문장을 두 개 쓰세요(하나는 in, 하나는 of).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 우리 가족이나 집 물건에 대한 최상급 문장을 두 개 쓰시오(하나는 in, 하나는 of).",
         "eng": {
           "trace": [
             "He is the tallest in my family.",
@@ -1330,7 +1330,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① hot, good의 최상급을 쓰세요.\n② the tallest ___ the four의 빈칸에 in과 of 가운데 알맞은 말을 쓰세요.\n③ ‘이 책이 셋 가운데 가장 재미있어요.’를 영어로 쓰세요.",
+        "prompt": "① hot, good의 최상급을 쓰시오.\n② the tallest ___ the four의 빈칸에 in과 of 가운데 알맞은 말을 쓰시오.\n③ ‘이 책이 셋 가운데 가장 재미있다.’를 영어로 쓰시오.",
         "lines": 3,
         "answer": "① the hottest, the best ② of ③ This book is the most interesting of the three. 세 가지 모두 도움 없이 하면 통과."
       }

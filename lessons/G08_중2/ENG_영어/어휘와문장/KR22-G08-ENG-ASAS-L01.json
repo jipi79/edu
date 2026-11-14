@@ -200,8 +200,8 @@
       "title": "비교 표현 확장",
       "question": "Jisu is as tall as Minho.\n두 사람의 키는 어떨까?",
       "goals": [
-        "① as ~ as, not as ~ as로 같음과 덜함을 말해요.",
-        "② much + 비교급으로 큰 차이를 강조해요."
+        "① as ~ as, not as ~ as로 같음과 덜함을 말할 수 있다.",
+        "② much + 비교급으로 큰 차이를 강조할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -249,7 +249,7 @@
       "role": "prior",
       "objectives": [],
       "title": "비교급 떠올리기",
-      "text": "①은 비교급으로 바꾸고, ②③은 문장으로 말해요.",
+      "text": "①은 비교급으로 바꾸고, ②③은 문장으로 말해 보자.",
       "problems": [
         {
           "text": "big · easy · good → 비교급으로"
@@ -258,7 +258,7 @@
           "text": "This bag is ______ than that bag. (expensive)"
         },
         {
-          "text": "Mina 150 cm · Jun 145 cm → tall로 비교해요"
+          "text": "Mina 150 cm · Jun 145 cm → tall로 비교하자"
         }
       ],
       "notes": {
@@ -319,14 +319,14 @@
       "points": [
         {
           "title": "원급",
-          "text": "형용사의 원래 모양이에요.\ntall, big, good"
+          "text": "형용사의 원래 모양이다.\ntall, big, good"
         },
         {
           "title": "as ~ as",
-          "text": "두 쪽의 정도가 같아요.\n‘~만큼 …한’"
+          "text": "두 쪽의 정도가 같다.\n‘~만큼 …한’"
         }
       ],
-      "key": "as와 as 사이에는 원래 모양을 써요.  (as taller as ×)",
+      "key": "as와 as 사이에는 원래 모양을 쓴다.  (as taller as ×)",
       "notes": {
         "목적": "원급(형용사의 원래 모양)의 뜻을 알려 주고, as + 원급 + as가 ‘~만큼 …한’, 곧 두 쪽이 같다는 뜻임을 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -357,8 +357,8 @@
       "objectives": [
         "A"
       ],
-      "title": "같아요, 덜해요, 더해요",
-      "text": "키를 보고 세 문장의 뜻을 비교해요.",
+      "title": "같다, 덜하다, 더하다",
+      "text": "키를 보고 세 문장의 뜻을 비교하자.",
       "table": {
         "headers": [
           "두 사람의 키",
@@ -369,17 +369,17 @@
           [
             "지수 150 cm\n민호 150 cm",
             "Jisu is as tall as Minho.",
-            "지수는 민호만큼\n키가 커요."
+            "지수는 민호만큼\n키가 크다."
           ],
           [
             "지수 145 cm\n민호 150 cm",
             "Jisu is not as tall as Minho.",
-            "지수는 민호만큼\n키가 크지 않아요."
+            "지수는 민호만큼\n키가 크지 않다."
           ],
           [
             "지수 145 cm\n민호 150 cm",
             "Minho is taller than Jisu.",
-            "민호가 지수보다\n키가 더 커요."
+            "민호가 지수보다\n키가 더 크다."
           ]
         ],
         "widths": [
@@ -390,7 +390,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "not as ~ as는 앞쪽이 덜해요. 둘째·셋째 줄은 같은 뜻이에요.",
+      "key": "not as ~ as는 앞쪽이 덜하다. 둘째·셋째 줄은 같은 뜻이다.",
       "notes": {
         "목적": "as ~ as(같음), not as ~ as(앞쪽이 덜함), 비교급(앞쪽이 더함)을 같은 두 사람의 키로 비교해 보여 줍니다. not as ~ as와 비교급 문장이 같은 뜻이 될 수 있음을 알게 합니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -420,8 +420,8 @@
       "objectives": [
         "A"
       ],
-      "title": "표를 보고 비교해요",
-      "text": "표를 보고 as ~ as나 not as ~ as로 문장을 말해요.",
+      "title": "표를 보고 비교하자",
+      "text": "표를 보고 as ~ as나 not as ~ as로 문장을 말해 보자.",
       "problems": [
         {
           "text": "Coco is ______ Bella. (old)"
@@ -497,8 +497,8 @@
       "objectives": [
         "A"
       ],
-      "title": "as bigger as일까요?",
-      "claim": "‘이 상자는 저 상자만큼 커요.’를 두 친구가 이렇게 썼어요.",
+      "title": "as bigger as일까?",
+      "claim": "‘이 상자는 저 상자만큼 크다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -523,7 +523,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 잘못됐을까?",
       "notes": {
         "목적": "as와 as 사이에 비교급을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -554,11 +554,11 @@
       "objectives": [
         "A"
       ],
-      "title": "같은 뜻으로 바꿔요",
+      "title": "같은 뜻으로 바꾸자",
       "steps": [
-        "not as ~ as 문장에서 두 쪽을 찾아요.",
-        "더 그러한 쪽은 as 뒤쪽이에요.",
-        "뒤쪽을 주어로 두고\n비교급 + than으로 써요."
+        "not as ~ as 문장에서 두 쪽을 찾는다.",
+        "더 그러한 쪽은 as 뒤쪽이다.",
+        "뒤쪽을 주어로 두고\n비교급 + than으로 쓴다."
       ],
       "figure": {
         "type": "words",
@@ -566,11 +566,11 @@
         "items": [
           {
             "word": "My bag is not as heavy as your bag.",
-            "sub": "내 가방은 네 가방만큼 무겁지 않아요."
+            "sub": "내 가방은 네 가방만큼 무겁지 않다."
           },
           {
             "word": "Your bag is heavier than my bag.",
-            "sub": "네 가방이 내 가방보다 더 무거워요.",
+            "sub": "네 가방이 내 가방보다 더 무겁다.",
             "highlight": true
           }
         ]
@@ -604,8 +604,8 @@
       "objectives": [
         "A"
       ],
-      "title": "바꾸어 말해요",
-      "text": "뜻이 같도록 빈칸을 채워 문장을 읽어요.",
+      "title": "바꾸어 말하자",
+      "text": "뜻이 같도록 빈칸을 채워 문장을 읽어 보자.",
       "problems": [
         {
           "text": "Jun is not as old as Mina.\n→ Mina is ______ than Jun."
@@ -617,7 +617,7 @@
           "text": "Tom is shorter than Ben.\n→ Tom is not ______ Ben."
         }
       ],
-      "hint": "더 그러한 쪽은 as 뒤쪽이에요.",
+      "hint": "더 그러한 쪽은 as 뒤쪽이다.",
       "notes": {
         "목적": "not as ~ as 문장과 비교급 문장을 서로 바꾸며, 누가 더 그러한지 바르게 읽는지 확인합니다(목표 A, 오해 M2). 활동지 2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -657,11 +657,11 @@
         "items": [
           {
             "word": "A dog is bigger than a cat.",
-            "sub": "개는 고양이보다 더 커요."
+            "sub": "개는 고양이보다 더 크다."
           },
           {
             "word": "An elephant is much bigger than a cat.",
-            "sub": "코끼리는 고양이보다 훨씬 더 커요.",
+            "sub": "코끼리는 고양이보다 훨씬 더 크다.",
             "highlight": true
           }
         ]
@@ -669,10 +669,10 @@
       "points": [
         {
           "title": "much + 비교급",
-          "text": "차이가 아주 클 때 써요.\n‘훨씬 더 ~한’"
+          "text": "차이가 아주 클 때 쓴다.\n‘훨씬 더 ~한’"
         },
         {
-          "title": "very는 안 돼요",
+          "title": "very는 안 된다",
           "text": "very big ○, very bigger ×\nmuch bigger ○"
         }
       ],
@@ -708,8 +708,8 @@
       "objectives": [
         "B"
       ],
-      "title": "much를 넣어 비교해요",
-      "text": "much를 넣어 비교하는 문장을 말해요.",
+      "title": "much를 넣어 비교하자",
+      "text": "much를 넣어 비교하는 문장을 말해 보자.",
       "problems": [
         {
           "text": "a bus · a bike (big)\n→ A bus is ______ a bike."
@@ -718,10 +718,10 @@
           "text": "phone 1,000,000원 · pencil case 10,000원\n(expensive) → The phone is ______ the pencil case."
         },
         {
-          "text": "This movie is very better than that movie.\n→ 바르게 고쳐요"
+          "text": "This movie is very better than that movie.\n→ 바르게 고치자"
         }
       ],
-      "hint": "much는 비교급 바로 앞에 써요.",
+      "hint": "much는 비교급 바로 앞에 쓴다.",
       "notes": {
         "목적": "차이가 큰 두 대상을 much + 비교급 + than으로 비교하고, very + 비교급을 고칩니다(목표 B, 오해 M3).",
         "시간": "약 3분",
@@ -757,16 +757,16 @@
       ],
       "title": "우리 집 물건 비교하기",
       "steps": [
-        "물건 두세 개를 나란히 놓아요.\n(컵, 책, 숟가락, 연필)",
-        "들어 보고 길이도 견주어요.",
-        "부모가 물어요:\nIs the cup as heavy as the book?",
-        "아이가 답해요: No, the cup is\nnot as heavy as the book.",
-        "차이가 크면 much를 넣어요:\nThe book is much heavier."
+        "물건 두세 개를 나란히 놓는다.\n(컵, 책, 숟가락, 연필)",
+        "들어 보고 길이도 견준다.",
+        "부모가 묻는다:\nIs the cup as heavy as the book?",
+        "아이가 답한다: No, the cup is\nnot as heavy as the book.",
+        "차이가 크면 much를 넣는다:\nThe book is much heavier."
       ],
       "criteria": [
-        "as와 as 사이에 원래 모양을 썼어요",
-        "not as ~ as의 뜻을 바르게 썼어요",
-        "차이가 크면 much를 넣었어요"
+        "as와 as 사이에 원래 모양을 썼다",
+        "not as ~ as의 뜻을 바르게 썼다",
+        "차이가 크면 much를 넣었다"
       ],
       "notes": {
         "목적": "실제 물건을 들고 견주어 보며 as ~ as, not as ~ as, much + 비교급을 소리 내어 여러 번 말합니다(목표 A·B).",
@@ -802,7 +802,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "my pencil 15 cm\nyour pencil 15 cm\n→ long으로"
@@ -814,7 +814,7 @@
           "text": "Jun's bag is not as\nheavy as Ann's bag.\n→ Ann's bag으로 시작"
         },
         {
-          "text": "Tom is as taller as Ben.\n→ 바르게 고쳐요"
+          "text": "Tom is as taller as Ben.\n→ 바르게 고치시오"
         }
       ],
       "notes": {
@@ -923,7 +923,7 @@
           "text": "Mina is not as tall as Dad."
         }
       ],
-      "question": "키와 맞고 바르게 쓴 문장 두 개는? 나머지는 어떻게 고칠까요?",
+      "question": "키와 맞고 바르게 쓴 문장 두 개는? 나머지는 어떻게 고칠까?",
       "notes": {
         "목적": "처음 보는 정보에서 as ~ as와 not as ~ as가 맞게 쓰였는지 판단하고, 틀린 문장을 as ~ as와 much로 고치는지 확인합니다(목표 A·B).",
         "시간": "약 2분",
@@ -960,13 +960,13 @@
       "dont": "as taller as / very taller",
       "review": [
         {
-          "text": "‘나는 우리 언니만큼\n키가 커요.’를 영어로"
+          "text": "‘나는 우리 언니만큼\n키가 크다.’를 영어로"
         },
         {
-          "text": "Jun is not as old as Mina.\n누가 나이가 더 많아요?"
+          "text": "Jun is not as old as Mina.\n누가 나이가 더 많은가?"
         },
         {
-          "text": "‘이 차는 저 자전거보다\n훨씬 더 비싸요.’를 영어로"
+          "text": "‘이 차는 저 자전거보다\n훨씬 더 비싸다.’를 영어로"
         }
       ],
       "next": "연결어로 글의 흐름 파악",
@@ -999,7 +999,7 @@
       "objectives": [],
       "title": "보충: 비교급 다시 보기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 3,
@@ -1030,7 +1030,7 @@
           }
         ]
       },
-      "key": "Minho is taller than Jisu.  더 그러한 쪽이 주어, than 뒤가 비교하는 대상이에요.",
+      "key": "Minho is taller than Jisu.  더 그러한 쪽이 주어, than 뒤가 비교하는 대상이다.",
       "notes": {
         "목적": "S02에서 비교급이 흔들리면, 오늘 내용을 배우기 전에 중1에서 익힌 비교급의 모양과 비교 문장의 순서를 다시 다집니다.",
         "시간": "약 4분",
@@ -1057,7 +1057,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "괄호 속 정보를 보고 as ~ as나 not as ~ as로 빈칸을 채우세요.",
+        "prompt": "괄호 속 정보를 보고 as ~ as나 not as ~ as로 빈칸을 채우시오.",
         "table": {
           "headers": [
             "문장",
@@ -1066,27 +1066,27 @@
           "rows": [
             [
               "① My bag is _______________ your bag.",
-              "heavy · 무게가 같아요"
+              "heavy · 무게가 같다"
             ],
             [
               "② This room is _______________ that room.",
-              "big · 크기가 같아요"
+              "big · 크기가 같다"
             ],
             [
               "③ Jun is _______________ Mina.",
-              "old · 준이 더 어려요"
+              "old · 준이 더 어리다"
             ],
             [
               "④ This book is _______________ that book.",
-              "interesting ·\n이 책이 덜 재미있어요"
+              "interesting ·\n이 책이 덜 재미있다"
             ],
             [
               "⑤ My cookie is _______________ your cookie.",
-              "good · 맛이 똑같이 좋아요"
+              "good · 맛이 똑같이 좋다"
             ],
             [
               "⑥ Ann is _______________ her brother.",
-              "tall · 앤이 더 작아요"
+              "tall · 앤이 더 작다"
             ]
           ],
           "widths": [
@@ -1100,7 +1100,7 @@
       },
       {
         "no": 2,
-        "prompt": "뜻이 같도록 빈칸을 채워 문장을 완성하세요.",
+        "prompt": "뜻이 같도록 빈칸을 채워 문장을 완성하시오.",
         "table": {
           "headers": [
             "주어진 문장",
@@ -1135,7 +1135,7 @@
       },
       {
         "no": 3,
-        "prompt": "틀린 곳을 찾아 바르게 고친 문장 전체를 쓰세요.",
+        "prompt": "틀린 곳을 찾아 바르게 고친 문장 전체를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1166,7 +1166,7 @@
       },
       {
         "no": 4,
-        "prompt": "표를 보고 괄호 속 말로 두 자전거를 비교하는 문장을 쓰세요.",
+        "prompt": "표를 보고 괄호 속 말로 두 자전거를 비교하는 문장을 쓰시오.",
         "table": {
           "headers": [
             "",
@@ -1203,7 +1203,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1215,11 +1215,11 @@
               ""
             ],
             [
-              "③ Jun's bag is not as heavy as Ann's bag.\n(Ann's bag으로 시작해요)",
+              "③ Jun's bag is not as heavy as Ann's bag.\n(Ann's bag으로 시작)",
               ""
             ],
             [
-              "④ Tom is as taller as Ben.\n(바르게 고쳐요)",
+              "④ Tom is as taller as Ben.\n(바르게 고치시오)",
               ""
             ]
           ],
@@ -1234,7 +1234,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 우리 집 물건을 비교하는 문장을 두 개 쓰세요(하나는 as ~ as나 not as ~ as, 하나는 much).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 우리 집 물건을 비교하는 문장을 두 개 쓰시오(하나는 as ~ as나 not as ~ as, 하나는 much).",
         "eng": {
           "trace": [
             "Jisu is as tall as Minho.",
@@ -1248,7 +1248,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① ‘나는 우리 언니만큼 키가 커요.’를 영어로 쓰세요.\n② Jun is not as old as Mina.에서 누가 나이가 더 많은지 쓰세요.\n③ ‘이 차는 저 자전거보다 훨씬 더 비싸요.’를 영어로 쓰세요.",
+        "prompt": "① ‘나는 우리 언니만큼 키가 크다.’를 영어로 쓰시오.\n② Jun is not as old as Mina.에서 누가 나이가 더 많은지 쓰시오.\n③ ‘이 차는 저 자전거보다 훨씬 더 비싸다.’를 영어로 쓰시오.",
         "lines": 3,
         "answer": "① I am as tall as my sister. ② Mina (미나) ③ This car is much more expensive than that bike. 세 가지 모두 도움 없이 하면 통과."
       }

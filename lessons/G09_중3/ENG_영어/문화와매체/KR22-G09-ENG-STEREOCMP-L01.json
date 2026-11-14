@@ -259,8 +259,8 @@
       "title": "고정관념 비교하기",
       "question": "Every Korean loves spicy food!\n광고 속 이 말, 자료와 맞을까?",
       "goals": [
-        "① 광고·제목·자막의 고정관념을 자료와 견줘요.",
-        "② 자료에 맞게 공정하게 고쳐 써요."
+        "① 광고·제목·자막의 고정관념을 자료와 견줄 수 있다.",
+        "② 자료에 맞게 공정하게 고쳐 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -309,16 +309,16 @@
       "role": "prior",
       "objectives": [],
       "title": "고정관념과 사실 떠올리기",
-      "text": "①③은 뜻을 말하고, ②는 고쳐 말해요.",
+      "text": "①③은 뜻을 말하고, ②는 고쳐 말해 보자.",
       "problems": [
         {
           "text": "고정관념이란?"
         },
         {
-          "text": "All Brazilians are good at soccer.\n→ 고쳐 말해요"
+          "text": "All Brazilians are good at soccer.\n→ 고쳐 말하자"
         },
         {
-          "text": "사실과 의견은 어떻게 다른가요?"
+          "text": "사실과 의견은 어떻게 다른가?"
         }
       ],
       "notes": {
@@ -350,22 +350,22 @@
         "A"
       ],
       "title": "매체 속 고정관념",
-      "text": "매체(광고·기사·영상처럼 정보를 전하는 것)에도 고정관념이 숨어 있어요.",
+      "text": "매체(광고·기사·영상처럼 정보를 전하는 것)에도 고정관념이 숨어 있다.",
       "cards": [
         {
           "title": "광고",
-          "text": "물건을 팔려고\n짧고 강하게 말해요."
+          "text": "물건을 팔려고\n짧고 강하게 말한다."
         },
         {
           "title": "기사 제목",
-          "text": "눈길을 끌려고\n크게 말해요."
+          "text": "눈길을 끌려고\n크게 말한다."
         },
         {
           "title": "영상 자막",
-          "text": "재미있게 하려고\n‘모두’라고 해요."
+          "text": "재미있게 하려고\n‘모두’라고 한다."
         }
       ],
-      "key": "짧고 강한 말일수록 ‘정말 모두 그럴까?’ 자료와 견줘 봐요.",
+      "key": "짧고 강한 말일수록 ‘정말 모두 그럴까?’ 자료와 견줘 본다.",
       "notes": {
         "목적": "매체(광고·기사·영상처럼 정보를 전하는 것)가 짧고 강한 말을 쓰는 까닭을 짚고, 그래서 고정관념이 섞이기 쉬우니 자료와 견주어 봐야 한다는 것을 알려 줍니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -395,7 +395,7 @@
       "objectives": [
         "A"
       ],
-      "title": "광고와 자료를 견줘요",
+      "title": "광고와 자료를 견주자",
       "left": {
         "title": "광고 (지어낸 광고)",
         "text": "STAR NOODLES\nEvery Korean loves\nsuper spicy food!"
@@ -430,7 +430,7 @@
           "alt": "예시 자료(지어낸 자료): 우리 반 20명 가운데 아주 매운 음식을 좋아함 5명, 조금 매운 음식을 좋아함 11명, 매운 음식을 좋아하지 않음 4명"
         }
       },
-      "question": "자료에서 아주 매운 음식을 좋아하는 학생은 몇 명 가운데 몇 명인가요? 광고의 말과 맞나요?",
+      "question": "자료에서 아주 매운 음식을 좋아하는 학생은 몇 명 가운데 몇 명인가? 광고의 말과 맞는가?",
       "notes": {
         "목적": "광고 문구의 신호 말(Every)을 찾고, 예시 자료의 전체와 부분을 읽어 광고의 말이 자료와 맞지 않는다는 것을 숫자로 확인합니다(목표 A, 오해 M1·M5).",
         "시간": "약 4분",
@@ -463,10 +463,10 @@
       ],
       "title": "견주고 고쳐 쓰는 순서",
       "steps": [
-        "신호 말을 찾아요:\nevery, all, always, never",
-        "자료의 숫자를 봐요:\n전체 몇 명 가운데 몇 명?",
-        "말을 골라요: 절반보다\n많으면 Many, 적으면 Some\n(모두가 아니면 Not all)",
-        "범위를 밝혀요:\nIn our survey, 5 of 20 ~."
+        "신호 말을 찾는다:\nevery, all, always, never",
+        "자료의 숫자를 본다:\n전체 몇 명 가운데 몇 명?",
+        "말을 고른다: 절반보다\n많으면 Many, 적으면 Some\n(모두가 아니면 Not all)",
+        "범위를 밝힌다:\nIn our survey, 5 of 20 ~."
       ],
       "figure": {
         "type": "words",
@@ -482,7 +482,7 @@
           },
           {
             "word": "In our survey, 5 of 20\nstudents love it.",
-            "sub": "자료의 범위를 밝혀요",
+            "sub": "자료의 범위를 밝힌다",
             "highlight": true
           }
         ]
@@ -527,7 +527,7 @@
           "text": "자료에서 축구를 한 사람은\n몇 명 가운데 몇 명?"
         },
         {
-          "text": "자료에 맞게 고쳐 말해요."
+          "text": "자료에 맞게 고쳐 말하자."
         }
       ],
       "figure": {
@@ -594,8 +594,8 @@
       "objectives": [
         "B"
       ],
-      "title": "Many일까요, Some일까요?",
-      "claim": "자료(20명 가운데 5명)를 보고 두 친구가 광고를 고쳐 썼어요.",
+      "title": "Many일까, Some일까?",
+      "claim": "자료(20명 가운데 5명)를 보고 두 친구가 광고를 고쳐 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -620,7 +620,7 @@
           ]
         }
       },
-      "question": "자료에 더 맞게 고친 쪽은? 다른 쪽은 무엇이 문제인가요?",
+      "question": "자료에 더 맞게 고친 쪽은? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "All을 Many로 바꾸기만 하면 맞다는 생각을 자료와 견주어 바로잡습니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -649,14 +649,14 @@
       "objectives": [
         "B"
       ],
-      "title": "기사 제목을 고쳐요",
+      "title": "기사 제목을 고치자",
       "text": "기사 제목(지어낸 제목): Italians Eat Pasta Three Times a Day",
       "problems": [
         {
-          "text": "자료와 견주어\n제목을 고쳐 말해요."
+          "text": "자료와 견주어\n제목을 고쳐 말하자."
         },
         {
-          "text": "친구가 고친 제목:\nItalians never eat pasta.\n→ 무엇이 문제일까요?"
+          "text": "친구가 고친 제목:\nItalians never eat pasta.\n→ 무엇이 문제일까?"
         }
       ],
       "figure": {
@@ -720,16 +720,16 @@
       ],
       "title": "광고 회의 역할극",
       "steps": [
-        "부모는 광고를 만드는 사람,\n아이는 문구를 살피는 사람이 돼요.",
-        "부모가 광고 문구 카드를 읽어요:\nAll Koreans love K-pop!",
-        "아이가 자료 카드를 보고 말해요:\nNot all ~. Look at the data.",
-        "아이가 고친 문구를 제안해요:\nWhy don't we say, “~”?",
-        "역할을 바꿔요."
+        "부모는 광고를 만드는 사람,\n아이는 문구를 살피는 사람이 된다.",
+        "부모가 광고 문구 카드를 읽는다:\nAll Koreans love K-pop!",
+        "아이가 자료 카드를 보고 말한다:\nNot all ~. Look at the data.",
+        "아이가 고친 문구를 제안한다:\nWhy don't we say, “~”?",
+        "역할을 바꾼다."
       ],
       "criteria": [
-        "신호 말을 찾아 자료와 견줬어요",
-        "숫자에 맞는 말(Many·Some·Not all)을 골랐어요",
-        "정중하게 고친 문구를 제안했어요"
+        "신호 말을 찾아 자료와 견줬다",
+        "숫자에 맞는 말(Many·Some·Not all)을 골랐다",
+        "정중하게 고친 문구를 제안했다"
       ],
       "notes": {
         "목적": "부모가 고정관념이 담긴 광고 문구를 내놓으면 아이가 자료 카드와 견주어 문제를 말하고, 자료에 맞는 문구를 정중하게 제안합니다(목표 A·B).",
@@ -776,7 +776,7 @@
           "text": "자료에서 아이스하키를 하는\n학생은 몇 명 가운데 몇 명?"
         },
         {
-          "text": "자료에 맞게 고쳐 써요.\n(활동지 6 빈 줄)"
+          "text": "자료에 맞게 고쳐 쓰시오.\n(활동지 6 빈 줄)"
         }
       ],
       "figure": {
@@ -860,18 +860,18 @@
       "bad": [
         {
           "text": "Many Canadians play ~.",
-          "note": "7명은 절반보다\n적어요"
+          "note": "7명은 절반보다\n적다"
         },
         {
           "text": "Canadians never play ~.",
-          "note": "반대로\n단정했어요"
+          "note": "반대로\n단정했다"
         },
         {
           "text": "Only 7 Canadians play ~.",
-          "note": "자료의 범위를\n밝혀요"
+          "note": "자료의 범위를\n밝힌다"
         }
       ],
-      "explain": "신호 말 → 전체 몇 명 가운데 몇 명 → 숫자에 맞는 말 → 자료의 범위 순서로 봐요.",
+      "explain": "신호 말 → 전체 몇 명 가운데 몇 명 → 숫자에 맞는 말 → 자료의 범위 순서로 본다.",
       "notes": {
         "목적": "아이의 답을 고쳐 쓴 예와 견주어 보고, 다시 생각해 볼 문장을 확인합니다.",
         "시간": "약 1분",
@@ -919,7 +919,7 @@
           "text": "Japanese people\nnever eat sushi."
         }
       ],
-      "question": "자료에 맞는 문장 두 개는? 나머지는 왜 맞지 않나요?",
+      "question": "자료에 맞는 문장 두 개는? 나머지는 왜 맞지 않는가?",
       "notes": {
         "목적": "처음 보는 자막과 예시 자료(지어낸 자료)에서 자료에 맞는 문장을 고르고, 자료보다 크게 말한 문장과 반대로 단정한 문장을 가려내는지 확인합니다(목표 A·B, 오해 M2·M3).",
         "시간": "약 2분",
@@ -950,7 +950,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "신호 말 → 자료의 숫자 → Many·Some·Not all → In our survey\n짧고 강한 매체의 말일수록 자료와 견줘 봐요.",
+      "key": "신호 말 → 자료의 숫자 → Many·Some·Not all → In our survey\n짧고 강한 매체의 말일수록 자료와 견줘 본다.",
       "do": "숫자에 맞는 말로 고쳐 쓰기",
       "dont": "Many로 바꾸기만, 반대로 단정하기",
       "review": [
@@ -995,7 +995,7 @@
       "objectives": [],
       "title": "보충: ‘모두’ 없이 말하기",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -1014,11 +1014,11 @@
           },
           {
             "word": "Not all Koreans ~.",
-            "sub": "모두 ~인 것은 아니에요"
+            "sub": "모두 ~인 것은 아니다"
           }
         ]
       },
-      "key": "all, every, always, never가 보이면 ‘정말 모두 그럴까?’ 생각해요.",
+      "key": "all, every, always, never가 보이면 ‘정말 모두 그럴까?’ 생각한다.",
       "notes": {
         "목적": "S02에서 고정관념의 뜻이나 고쳐 말하기가 흔들리면, 자료와 견주기 전에 중1의 고쳐 말하기를 다시 다집니다.",
         "시간": "약 4분",
@@ -1027,7 +1027,7 @@
           "“All Koreans like spicy food.를 세 가지로 고쳐 말해 볼래?”"
         ],
         "정답": [
-          "모든 한국 사람은? / 많은 한국 사람은 / 어떤(몇몇) 한국 사람은 / 모두 ~인 것은 아니에요 — Many Koreans like spicy food. / Some Koreans like spicy food. / Not all Koreans like spicy food."
+          "모든 한국 사람은? / 많은 한국 사람은 / 어떤(몇몇) 한국 사람은 / 모두 ~인 것은 아니다 — Many Koreans like spicy food. / Some Koreans like spicy food. / Not all Koreans like spicy food."
         ],
         "막히면": [
           "부모가 먼저 All Koreans love K-pop.을 세 가지로 고쳐 말하고, 아이가 낱말만 바꾸어 따라 하게 합니다.",
@@ -1044,7 +1044,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "광고(지어낸 광고)와 예시 자료(지어낸 자료)를 보고 물음에 답하세요. ① 조사한 학생은 모두 몇 명인가요? ② 아주 매운 음식을 좋아하는 학생은 몇 명인가요? ③ 매운 음식을 조금이라도 좋아하는 학생은 몇 명인가요? ④ 광고의 말은 자료와 맞나요? 까닭을 우리말로 쓰세요.",
+        "prompt": "광고(지어낸 광고)와 예시 자료(지어낸 자료)를 보고 물음에 답하시오. ① 조사한 학생은 모두 몇 명인가? ② 아주 매운 음식을 좋아하는 학생은 몇 명인가? ③ 매운 음식을 조금이라도 좋아하는 학생은 몇 명인가? ④ 광고의 말은 자료와 맞는가? 까닭을 우리말로 쓰시오.",
         "read": "광고: STAR NOODLES — Every Korean loves super spicy food!",
         "table": {
           "headers": [
@@ -1078,14 +1078,14 @@
       },
       {
         "no": 2,
-        "prompt": "영상 자막(지어낸 자막)을 S06의 관찰 기록(어느 토요일 아침, 한 바닷가 40명 가운데 축구 8명)에 맞게 영어로 고쳐 쓰세요. ‘날마다’와 ‘모두’를 말하지 않게 쓰세요.",
+        "prompt": "영상 자막(지어낸 자막)을 S06의 관찰 기록(어느 토요일 아침, 한 바닷가 40명 가운데 축구 8명)에 맞게 영어로 고쳐 쓰시오. ‘날마다’와 ‘모두’를 말하지 않게 쓰시오.",
         "read": "영상 자막: In Brazil, everyone plays soccer on the beach every day!",
         "lines": 2,
         "answer": "예: Some people play soccer on the beach. / On one Saturday, 8 of 40 people on this beach played soccer. / Not everyone in Brazil plays soccer on the beach. everyone과 every day의 뜻이 없어지고 자료보다 크게 말하지 않으면(Many는 알맞지 않음) 통과."
       },
       {
         "no": 3,
-        "prompt": "괄호 안의 예시 자료를 보고 빈칸에 Many나 Some을 쓰세요. (절반보다 많으면 Many, 적으면 Some)",
+        "prompt": "괄호 안의 예시 자료를 보고 빈칸에 Many나 Some을 쓰시오. (절반보다 많으면 Many, 적으면 Some)",
         "table": {
           "rows": [
             [
@@ -1111,7 +1111,7 @@
       },
       {
         "no": 4,
-        "prompt": "기사 제목(지어낸 제목)과 예시 자료를 보고 물음에 답하세요. ① 자료에 맞게 제목을 영어로 고쳐 쓰세요. ② 친구가 Italians never eat pasta.로 고쳤어요. 무엇이 문제인지 우리말로 쓰세요.",
+        "prompt": "기사 제목(지어낸 제목)과 예시 자료를 보고 물음에 답하시오. ① 자료에 맞게 제목을 영어로 고쳐 쓰시오. ② 친구가 Italians never eat pasta.로 고쳤다. 무엇이 문제인지 우리말로 쓰시오.",
         "read": "기사 제목: Italians Eat Pasta Three Times a Day\n예시 자료(한 마을 10가족의 지난주 저녁): 파스타를 안 먹음 1가족, 1~2번 6가족, 3~4번 3가족",
         "line_label": "①②",
         "lines": 3,
@@ -1119,13 +1119,13 @@
       },
       {
         "no": 5,
-        "prompt": "예시 자료(우리 반 20명 가운데 12명이 K-pop을 좋아함, 지어낸 자료)를 보고, 고정관념 없이 K-pop 공연 광고 문구를 영어 두 문장으로 쓰세요.",
+        "prompt": "예시 자료(우리 반 20명 가운데 12명이 K-pop을 좋아함, 지어낸 자료)를 보고, 고정관념 없이 K-pop 공연 광고 문구를 영어 두 문장으로 쓰시오.",
         "lines": 2,
         "answer": "예: Many students love K-pop. Come and enjoy our concert! / Do you like K-pop? Join our concert this Saturday! 사람들을 all, every, always, never로 묶지 않고, 자료보다 크게 말하지 않으면(12명이므로 Many까지 가능) 통과. 내용과 표현의 재미는 자유입니다."
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 S10의 광고(All Canadians play ice hockey!)를 자료(30명 가운데 7명)에 맞게 고쳐 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 S10의 광고(All Canadians play ice hockey!)를 자료(30명 가운데 7명)에 맞게 고쳐 쓰시오.",
         "eng": {
           "trace": [
             "Not all Koreans like spicy food.",
@@ -1139,7 +1139,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① All Canadians play ice hockey!에서 고정관념을 알려 주는 신호 말을 쓰세요.\n② 30명 가운데 7명이 아이스하키를 해요. Many와 Some 가운데 알맞은 말을 쓰세요.\n③ Canadians never play ice hockey.를 고정관념 없이 고쳐 쓰세요.",
+        "prompt": "① All Canadians play ice hockey!에서 고정관념을 알려 주는 신호 말을 쓰시오.\n② 30명 가운데 7명이 아이스하키를 한다. Many와 Some 가운데 알맞은 말을 쓰시오.\n③ Canadians never play ice hockey.를 고정관념 없이 고쳐 쓰시오.",
         "lines": 3,
         "answer": "① All ② Some ③ 예: Some Canadians play ice hockey. / Not all Canadians play ice hockey. 세 가지 모두 도움 없이 하면 통과."
       }

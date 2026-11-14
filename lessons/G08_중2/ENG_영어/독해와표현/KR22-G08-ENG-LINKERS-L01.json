@@ -97,8 +97,8 @@
       "title": "연결어로 글의 흐름 파악",
       "question": "However, 뒤에는\n어떤 내용이 올까?",
       "goals": [
-        "① 연결어의 뜻을 알고 뒤에 올 내용을 짐작해요.",
-        "② 흐름에 맞지 않는 문장을 찾아요."
+        "① 연결어의 뜻을 알고 뒤에 올 내용을 짐작할 수 있다.",
+        "② 흐름에 맞지 않는 문장을 찾을 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -146,14 +146,14 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 글 읽기",
-      "text": "글을 읽고 질문에 답해요.",
+      "text": "글을 읽고 질문에 답하자.",
       "passage": {
         "title": "Jun's Pancakes",
         "paragraphs": [
           "Last Saturday, Jun made pancakes for his family. First, he mixed flour, milk, and eggs. Then, he cooked them in a pan. Finally, they ate the pancakes together."
         ]
       },
-      "question": "① 무엇에 관한 글인가요?　② 준이 처음에 한 일과 마지막에 한 일은?",
+      "question": "① 무엇에 관한 글인가?　② 준이 처음에 한 일과 마지막에 한 일은?",
       "notes": {
         "목적": "중1 ‘요지와 세부 정보’의 요지 찾기와 6학년 ‘사건 순서 파악’의 순서 말(First, Then, Finally)을 기억하는지 확인합니다.",
         "시간": "약 3분",
@@ -186,7 +186,7 @@
         "A"
       ],
       "title": "글의 흐름을 알려 주는 말",
-      "text": "연결어는 앞 문장과 뒤 문장의 관계를 알려 줘요.",
+      "text": "연결어는 앞 문장과 뒤 문장의 관계를 알려 준다.",
       "table": {
         "headers": [
           "연결어",
@@ -223,7 +223,7 @@
         "width": 12.2,
         "size": 24
       },
-      "key": "연결어를 보면 뒤에 올 내용을 미리 짐작할 수 있어요.",
+      "key": "연결어를 보면 뒤에 올 내용을 미리 짐작할 수 있다.",
       "notes": {
         "목적": "연결어(문장과 문장을 이어 글의 흐름을 알려 주는 말)의 뜻과, 각 연결어 뒤에 어떤 내용이 오는지 알려 줍니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -255,7 +255,7 @@
       "objectives": [
         "A"
       ],
-      "title": "연결어를 따라 읽어요",
+      "title": "연결어를 따라 읽자",
       "passage": {
         "title": "Minsu's Phone",
         "paragraphs": [
@@ -267,7 +267,7 @@
         ],
         "numbered": true
       },
-      "question": "연결어를 찾고, 그 뒤에 어떤 내용이 왔는지 말해요.",
+      "question": "연결어를 찾고, 그 뒤에 어떤 내용이 왔는지 말해 보자.",
       "notes": {
         "목적": "연결어 세 가지가 들어간 글을 함께 읽으며, 연결어마다 앞 문장과 어떤 관계로 이어지는지 부모가 생각을 소리 내어 보여 줍니다(목표 A).",
         "시간": "약 4분",
@@ -299,7 +299,7 @@
         "A"
       ],
       "title": "알맞은 연결어는?",
-      "text": "상자에서 연결어를 골라 넣어 읽고, 까닭을 말해요.",
+      "text": "상자에서 연결어를 골라 넣어 읽고, 까닭을 말해 보자.",
       "problems": [
         {
           "text": "I like sweet food.\n______, I love chocolate."
@@ -359,8 +359,8 @@
       "objectives": [
         "A"
       ],
-      "title": "However일까요?",
-      "claim": "‘비가 많이 왔어요.’ 뒤에 두 친구가 이렇게 이었어요.",
+      "title": "However일까?",
+      "claim": "‘비가 많이 왔다.’ 뒤에 두 친구가 이렇게 이었다.",
       "left": {
         "title": "가",
         "text": "It rained a lot.\nHowever, we stayed home."
@@ -369,7 +369,7 @@
         "title": "나",
         "text": "It rained a lot.\nAs a result, we stayed home."
       },
-      "question": "흐름에 맞게 이은 쪽은? 다른 쪽은 왜 어색한가요?",
+      "question": "흐름에 맞게 이은 쪽은? 다른 쪽은 왜 어색한가?",
       "notes": {
         "목적": "앞과 반대가 아닌 내용에 However를 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -400,12 +400,12 @@
       ],
       "title": "흐름에 맞지 않는 문장 찾기",
       "steps": [
-        "첫 문장(주제문)에서 중심 생각을 잡아요.",
-        "한 문장씩 ‘중심 생각과 관계있나?’ 물어요.",
-        "연결어가 앞뒤와 맞는지 봐요.",
-        "그 문장을 빼고 읽어 봐요.\n더 자연스러우면 그 문장이에요."
+        "첫 문장(주제문)에서 중심 생각을 잡는다.",
+        "한 문장씩 ‘중심 생각과 관계있나?’ 묻는다.",
+        "연결어가 앞뒤와 맞는지 본다.",
+        "그 문장을 빼고 읽어 본다.\n더 자연스러우면 그 문장이다."
       ],
-      "key": "주제문은 글의 중심 생각을 담은 문장이에요. 같은 낱말이 나와도 생각이 다르면 흐름에 맞지 않아요.",
+      "key": "주제문은 글의 중심 생각을 담은 문장이다. 같은 낱말이 나와도 생각이 다르면 흐름에 맞지 않는다.",
       "notes": {
         "목적": "주제문(글의 중심 생각을 담은 문장)의 뜻을 알려 주고, 흐름에 맞지 않는 문장을 찾는 네 단계를 보여 줍니다(목표 B, 오해 M3·M4).",
         "시간": "약 3분",
@@ -435,7 +435,7 @@
       "objectives": [
         "B"
       ],
-      "title": "함께 찾아요: 아침밥",
+      "title": "함께 찾자: 아침밥",
       "passage": {
         "title": "Breakfast Is Important",
         "paragraphs": [
@@ -448,7 +448,7 @@
         ],
         "numbered": true
       },
-      "question": "흐름에 맞지 않는 문장은 몇 번인가요? 왜 그렇게 생각해요?",
+      "question": "흐름에 맞지 않는 문장은 몇 번인가? 왜 그렇게 생각하는가?",
       "notes": {
         "목적": "S07의 네 단계를 따라 흐름에 맞지 않는 문장을 함께 찾습니다. 부모가 단계를 소리 내어 말하며 시범을 보이고, 아이가 답을 고릅니다(목표 B, 오해 M3).",
         "시간": "약 4분",
@@ -480,7 +480,7 @@
       "objectives": [
         "B"
       ],
-      "title": "찾아봐요: 학교 도서관",
+      "title": "찾아보자: 학교 도서관",
       "text": "cafeteria 급식실 · serve 내주다 · comfortable 편안한",
       "passage": {
         "paragraphs": [
@@ -492,7 +492,7 @@
         ],
         "numbered": true
       },
-      "question": "흐름에 맞지 않는 문장은? S07의 순서로 찾고 까닭을 말해요.",
+      "question": "흐름에 맞지 않는 문장은? S07의 순서로 찾고 까닭을 말해 보자.",
       "notes": {
         "목적": "S07의 네 단계를 아이가 직접 말하며 흐름에 맞지 않는 문장을 찾습니다(목표 B, 오해 M3·M4).",
         "시간": "약 3분",
@@ -526,16 +526,16 @@
       ],
       "title": "연결어 이어 말하기 놀이",
       "steps": [
-        "종이 네 장에 연결어를 써요:\nFirst, / However, / For example, / As a result,",
-        "부모가 첫 문장을 말해요:\nI was very hungry.",
-        "카드 한 장을 뒤집어요.\n어울리지 않으면 다시 뽑아요.",
-        "아이가 카드에 맞게 이어 말해요:\nAs a result, I ate a lot.",
-        "역할을 바꿔요. 일부러 틀리게 이으면 찾아내요."
+        "종이 네 장에 연결어를 쓴다:\nFirst, / However, / For example, / As a result,",
+        "부모가 첫 문장을 말한다:\nI was very hungry.",
+        "카드 한 장을 뒤집는다.\n어울리지 않으면 다시 뽑는다.",
+        "아이가 카드에 맞게 이어 말한다:\nAs a result, I ate a lot.",
+        "역할을 바꾼다. 일부러 틀리게 이으면 찾아낸다."
       ],
       "criteria": [
-        "연결어의 뜻에 맞게 이었어요",
-        "앞 문장과 같은 이야기를 이어 갔어요",
-        "틀리게 이은 것을 찾아 까닭을 말했어요"
+        "연결어의 뜻에 맞게 이었다",
+        "앞 문장과 같은 이야기를 이어 갔다",
+        "틀리게 이은 것을 찾아 까닭을 말했다"
       ],
       "notes": {
         "목적": "부모가 말한 문장에 연결어 카드를 뒤집어 아이가 알맞은 문장을 이어 말하고, 역할을 바꿔 부모가 틀리게 이은 것을 아이가 찾습니다(목표 A·B, 오해 M1·M2).",
@@ -574,7 +574,7 @@
         "A"
       ],
       "title": "혼자 해 보기",
-      "text": "빈칸에 알맞은 연결어를 넣어 읽고, 까닭을 말해요.",
+      "text": "빈칸에 알맞은 연결어를 넣어 읽고, 까닭을 말하시오.",
       "problems": [
         {
           "text": "Jun studied hard for the test.\n______, he got a good score."
@@ -632,14 +632,14 @@
       "bad": [
         {
           "text": "③ As a result,",
-          "note": "좋아해서 못 기른다?\n결과가 아니에요"
+          "note": "좋아해서 못 기른다?\n결과가 아니다"
         },
         {
           "text": "② However,",
-          "note": "운동의 예가\n뒤에 와요"
+          "note": "운동의 예가\n뒤에 온다"
         }
       ],
-      "explain": "뒤 문장이 앞과 반대면 However, 예면 For example, 결과면 As a result예요.",
+      "explain": "뒤 문장이 앞과 반대면 However, 예면 For example, 결과면 As a result이다.",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -670,7 +670,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 찾아요: 비닐봉지",
+      "title": "혼자 찾기: 비닐봉지",
       "text": "plastic bag 비닐봉지 · get sick 아프다 · fishing boat 고깃배",
       "passage": {
         "paragraphs": [
@@ -683,7 +683,7 @@
         ],
         "numbered": true
       },
-      "question": "① 흐름에 맞지 않는 문장은?　② ③은 무엇의 결과인가요?",
+      "question": "① 흐름에 맞지 않는 문장은?　② ③은 무엇의 결과인가?",
       "notes": {
         "목적": "처음 보는 글에서 혼자 흐름에 맞지 않는 문장을 찾고(목표 B), As a result가 앞의 어떤 일과 이어지는지 말하는지(목표 A) 확인합니다.",
         "시간": "약 3분",
@@ -716,7 +716,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "First·Then 순서, However 반대, For example 예, As a result 결과\n주제문의 중심 생각과 관계없는 문장이 흐름에 맞지 않는 문장이에요.",
+      "key": "First·Then 순서, However 반대, For example 예, As a result 결과\n주제문의 중심 생각과 관계없는 문장이 흐름에 맞지 않는 문장이다.",
       "do": "연결어 뒤의 내용을 미리 짐작하기",
       "dont": "같은 낱말만 보고 관계있다고 판단하기",
       "review": [
@@ -760,7 +760,7 @@
       "objectives": [],
       "title": "보충: 순서 말과 요지",
       "layout": "support",
-      "text": "소리를 듣고 따라 읽고, 뜻을 말해요.",
+      "text": "소리를 듣고 따라 읽고, 뜻을 말해 보자.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -783,7 +783,7 @@
           }
         ]
       },
-      "key": "순서 말은 일의 차례를, 요지는 글 전체의 중심 생각을 알려 줘요.",
+      "key": "순서 말은 일의 차례를, 요지는 글 전체의 중심 생각을 알려 준다.",
       "notes": {
         "목적": "S02에서 요지 찾기나 순서 말이 흔들리면, 오늘 내용을 배우기 전에 순서 말의 뜻과 요지의 뜻을 다시 다집니다.",
         "시간": "약 4분",
@@ -810,8 +810,8 @@
     "items": [
       {
         "no": 1,
-        "prompt": "연결어와 뜻·하는 일을 바르게 이어 기호를 쓰세요.",
-        "read": "가 예를 들어 — 앞 말의 예가 와요.　　나 그 결과 — 앞 일 때문에 생긴 일이 와요.\n다 그러나 — 앞과 반대되는 말이 와요.　　라 먼저 — 일의 순서를 알려요.",
+        "prompt": "연결어와 뜻·하는 일을 바르게 이어 기호를 쓰시오.",
+        "read": "가 예를 들어 — 앞 말의 예가 온다.　　나 그 결과 — 앞 일 때문에 생긴 일이 온다.\n다 그러나 — 앞과 반대되는 말이 온다.　　라 먼저 — 일의 순서를 알린다.",
         "table": {
           "rows": [
             [
@@ -842,7 +842,7 @@
       },
       {
         "no": 2,
-        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰세요. (같은 연결어를 두 번 써도 돼요.)",
+        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰시오. (같은 연결어를 두 번 써도 된다.)",
         "read": "First,　　However,　　For example,　　As a result,",
         "table": {
           "rows": [
@@ -875,7 +875,7 @@
       },
       {
         "no": 3,
-        "prompt": "글을 읽고 물음에 답하세요. ① 주제문에 밑줄을 그으세요. ② 흐름에 맞지 않는 문장의 번호를 쓰고, 그 까닭을 우리말로 쓰세요.",
+        "prompt": "글을 읽고 물음에 답하시오. ① 주제문에 밑줄을 그으시오. ② 흐름에 맞지 않는 문장의 번호를 쓰고, 그 까닭을 우리말로 쓰시오.",
         "read": "Dogs Are Great Pets\n① Dogs are great pets for families. ② For example, they play with children every day. ③ My cousin's cat is white. ④ They also make people happy. ⑤ As a result, many families have a dog at home.",
         "line_label": "② 번호와 까닭",
         "lines": 2,
@@ -883,7 +883,7 @@
       },
       {
         "no": 4,
-        "prompt": "글의 빈칸 ①~④에 알맞은 연결어를 쓰세요.",
+        "prompt": "글의 빈칸 ①~④에 알맞은 연결어를 쓰시오.",
         "read": "My First Fried Rice\nLast Sunday, I made fried rice for my family. ①________, I washed some vegetables. ②________, I cooked them with rice and eggs. It looked delicious. ③________, it was too salty! ④________, my dad drank three glasses of water.",
         "line_label": "①~④에 들어갈 연결어",
         "lines": 2,
@@ -891,7 +891,7 @@
       },
       {
         "no": 5,
-        "prompt": "연결어 뒤에 알맞은 문장을 이어 쓰세요.",
+        "prompt": "연결어 뒤에 알맞은 문장을 이어 쓰시오.",
         "read": "① I was very hungry. However, ...\n② I was very hungry. As a result, ...\n③ I like winter. For example, ...",
         "eng": {
           "trace": [],
@@ -903,7 +903,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① As a result의 뜻을 쓰세요.\n② Jun is tall. ________, he is not good at basketball. 빈칸에 알맞은 연결어를 쓰세요.\n③ 흐름에 맞지 않는 문장을 찾는 방법을 우리말로 쓰세요.",
+        "prompt": "① As a result의 뜻을 쓰시오.\n② Jun is tall. ________, he is not good at basketball. 빈칸에 알맞은 연결어를 쓰시오.\n③ 흐름에 맞지 않는 문장을 찾는 방법을 우리말로 쓰시오.",
         "lines": 3,
         "answer": "① 그 결과 ② However ③ 주제문에서 중심 생각을 잡고, 한 문장씩 중심 생각과 관계있는지 묻고, 빼고 읽어 본다. 세 가지 모두 도움 없이 하면 통과."
       }

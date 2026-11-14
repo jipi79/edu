@@ -74,7 +74,7 @@
     {
       "id": "M2",
       "text": "명사가 당하는 일에 -ing를 쓴다(a book writing in English, boiling eggs를 ‘삶은 달걀’로).",
-      "response": "S09에서 writing과 written을 비교하며 ‘책이 쓰나요, 쓰였나요?’를 묻는다. S05의 boiling water / boiled eggs, S08 ④와 활동지 4에서 확인한다."
+      "response": "S09에서 writing과 written을 비교하며 ‘책이 쓰는가, 쓰였는가?’를 묻는다. S05의 boiling water / boiled eggs, S08 ④와 활동지 4에서 확인한다."
     },
     {
       "id": "M3",
@@ -102,8 +102,8 @@
       "title": "분사의 명사 수식",
       "question": "a crying baby, a broken window\n‘우는’과 ‘깨진’은 영어로 어떻게 다를까?",
       "goals": [
-        "① -ing와 과거분사를 구별해 명사를 꾸며요.",
-        "② 명사 뒤에서 꾸미는 분사를 해석하고 써요."
+        "① -ing와 과거분사를 구별해 명사를 꾸밀 수 있다.",
+        "② 명사 뒤에서 꾸미는 분사를 해석하고 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -147,7 +147,7 @@
       "role": "prior",
       "objectives": [],
       "title": "-ing, 과거분사, who 떠올리기",
-      "text": "①은 -ing 모양, ②는 과거분사로 바꾸고, ③은 골라 읽어요.",
+      "text": "①은 -ing 모양, ②는 과거분사로 바꾸고, ③은 골라 읽자.",
       "problems": [
         {
           "text": "The baby is (cry) now."
@@ -191,19 +191,19 @@
         "A"
       ],
       "title": "명사가 하면 -ing",
-      "text": "분사는 동사 모양을 바꿔 명사를 꾸미는 말이에요.",
+      "text": "분사는 동사 모양을 바꿔 명사를 꾸미는 말이다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "a crying baby",
-            "sub": "우는 아기: 아기가 울어요",
+            "sub": "우는 아기: 아기가 운다",
             "highlight": true
           },
           {
             "word": "a sleeping cat",
-            "sub": "자고 있는 고양이: 고양이가 자요"
+            "sub": "자고 있는 고양이: 고양이가 잔다"
           }
         ]
       },
@@ -213,11 +213,11 @@
           "text": "‘~하는, ~하고 있는’\n진행형의 -ing와 같은 모양"
         },
         {
-          "title": "누가 하나요?",
-          "text": "꾸밈을 받는 명사가\n직접 해요."
+          "title": "누가 하는가?",
+          "text": "꾸밈을 받는 명사가\n직접 한다."
         }
       ],
-      "key": "a crying baby: 우는 것은 아기예요. 명사가 하는 일이면 -ing",
+      "key": "a crying baby: 우는 것은 아기이다. 명사가 하는 일이면 -ing",
       "notes": {
         "목적": "분사의 뜻과, 현재분사(-ing)가 명사 앞에서 ‘~하는, ~하고 있는’으로 명사를 꾸민다는 것을 알려 줍니다(목표 A).",
         "시간": "약 3분",
@@ -249,7 +249,7 @@
         "A"
       ],
       "title": "오늘 쓰는 과거분사",
-      "text": "★는 오늘 처음 배우는 과거분사예요.",
+      "text": "★는 오늘 처음 배우는 과거분사이다.",
       "table": {
         "headers": [
           "동사",
@@ -348,33 +348,33 @@
         "A"
       ],
       "title": "명사가 당하면 과거분사",
-      "text": "명사가 그 일을 당했거나 이미 끝났으면 과거분사를 써요.",
+      "text": "명사가 그 일을 당했거나 이미 끝났으면 과거분사를 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "a broken window",
-            "sub": "깨진 창문: 창문이 깨졌어요",
+            "sub": "깨진 창문: 창문이 깨졌다",
             "highlight": true
           },
           {
             "word": "fallen leaves",
-            "sub": "떨어진 잎: 이미 떨어졌어요"
+            "sub": "떨어진 잎: 이미 떨어졌다"
           }
         ]
       },
       "points": [
         {
           "title": "과거분사",
-          "text": "‘~된, ~해진’\n명사가 당했거나 끝났어요."
+          "text": "‘~된, ~해진’\n명사가 당했거나 끝났다."
         },
         {
-          "title": "하나요? 당하나요?",
+          "title": "하는가? 당하는가?",
           "text": "boiling water 끓고 있는 물\nboiled eggs 삶은 달걀"
         }
       ],
-      "key": "과거분사는 ‘옛날’이 아니라 ‘당한 쪽, 끝난 쪽’이에요.",
+      "key": "과거분사는 ‘옛날’이 아니라 ‘당한 쪽, 끝난 쪽’이다.",
       "notes": {
         "목적": "과거분사가 명사 앞에서 ‘~된, ~해진’으로 명사가 당했거나 이미 끝난 일을 나타낸다는 것을 보여 주고, -ing와 대비합니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -405,7 +405,7 @@
         "A"
       ],
       "title": "-ing일까, 과거분사일까?",
-      "text": "알맞은 것을 골라 읽고, 누가 하는지 말해요.",
+      "text": "알맞은 것을 골라 읽고, 누가 하는지 말해 보자.",
       "problems": [
         {
           "text": "a (smiling / smiled) girl"
@@ -461,7 +461,7 @@
         "B"
       ],
       "title": "덩어리 분사는 명사 뒤에",
-      "text": "분사에 다른 말이 붙으면 명사 뒤로 가요.",
+      "text": "분사에 다른 말이 붙으면 명사 뒤로 간다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -519,7 +519,7 @@
         "B"
       ],
       "title": "뒤에서 꾸미는 분사",
-      "text": "①②는 뜻을 말하고, ③④는 알맞은 모양으로 바꿔 읽어요.",
+      "text": "①②는 뜻을 말하고, ③④는 알맞은 모양으로 바꿔 읽자.",
       "problems": [
         {
           "text": "the girl sitting next to me"
@@ -534,7 +534,7 @@
           "text": "a language (speak)\nin Brazil"
         }
       ],
-      "hint": "명사가 하나요(-ing)? 당하나요(과거분사)?",
+      "hint": "명사가 하는가(-ing)? 당하는가(과거분사)?",
       "notes": {
         "목적": "명사 뒤에서 꾸미는 분사 덩어리를 해석하고, 괄호 안의 동사를 알맞은 분사로 바꿉니다(목표 B, 오해 M2·M3). 활동지 3·4에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -567,7 +567,7 @@
         "B"
       ],
       "title": "‘영어로 쓰인 책’을 영어로",
-      "claim": "‘나는 영어로 쓰인 책을 읽었어요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘나는 영어로 쓰인 책을 읽었다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -592,7 +592,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 책이 쓰나요, 쓰였나요?",
+      "question": "바르게 쓴 쪽은? 책이 쓰는가, 쓰였는가?",
       "notes": {
         "목적": "명사가 당하는 일에 -ing를 쓰는 실수를 비교로 바로잡습니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -624,16 +624,16 @@
       ],
       "title": "말하기: 집 안 보물찾기",
       "steps": [
-        "부모가 찾을 것을 말해요:\nFind something made in Korea.",
-        "아이가 찾아 와서 말해요:\nThis is a cup made in Korea.",
-        "다른 것도 찾아요: a book\nwritten in English, a photo\ntaken last year",
-        "역할을 바꿔 아이가 찾을 것을 말해요.",
-        "-ing도 써요: Find a doll\nwearing a hat."
+        "부모가 찾을 것을 말한다:\nFind something made in Korea.",
+        "아이가 찾아 와서 말한다:\nThis is a cup made in Korea.",
+        "다른 것도 찾는다: a book\nwritten in English, a photo\ntaken last year",
+        "역할을 바꿔 아이가 찾을 것을 말한다.",
+        "-ing도 쓴다: Find a doll\nwearing a hat."
       ],
       "criteria": [
         "하면 -ing, 당하면 과거분사",
         "덩어리 분사는 명사 뒤에",
-        "This is ~.로 문장을 말했어요"
+        "This is ~.로 문장을 말했다"
       ],
       "notes": {
         "목적": "집 안 물건을 찾으며 명사 뒤에서 꾸미는 분사(made in Korea, written in English, taken last year)를 듣고 말합니다(목표 A·B, 오해 M2·M3).",
@@ -671,7 +671,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "알맞은 모양으로 바꾸고 뜻을 말한 뒤, 활동지 5에 써요.",
+      "text": "알맞은 모양으로 바꾸고 뜻을 말한 뒤, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "a (cry) baby"
@@ -738,14 +738,14 @@
         },
         {
           "text": "a letter writing",
-          "note": "편지는 쓰여요\n→ written"
+          "note": "편지는 쓰인다\n→ written"
         },
         {
           "text": "a cried baby",
-          "note": "아기가 울어요\n→ crying"
+          "note": "아기가 운다\n→ crying"
         }
       ],
-      "explain": "명사가 하나요(-ing)? 당하나요(과거분사)?  덩어리면 명사 뒤에",
+      "explain": "명사가 하는가(-ing)? 당하는가(과거분사)?  덩어리면 명사 뒤에",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -777,7 +777,7 @@
         "B"
       ],
       "title": "세 문장의 뜻은?",
-      "text": "꾸밈을 받는 명사를 찾고 뜻을 말해요.",
+      "text": "꾸밈을 받는 명사를 찾고 뜻을 말하시오.",
       "problems": [
         {
           "text": "The man wearing a cap is my uncle."
@@ -821,7 +821,7 @@
       ],
       "title": "오늘 배운 것",
       "key": "명사가 하면 -ing (a crying baby),  당하면 과거분사 (a broken window)\n덩어리면 명사 뒤에: a book written in English",
-      "do": "하나요? 당하나요? 먼저 따지기",
+      "do": "하는가? 당하는가? 먼저 따지기",
       "dont": "a book writing in English",
       "review": [
         {
@@ -864,7 +864,7 @@
       "objectives": [],
       "title": "보충: -ing와 과거분사",
       "layout": "support",
-      "text": "소리 내어 읽고, 가린 칸을 맞혀요.",
+      "text": "소리 내어 읽고, 가린 칸을 맞혀 보자.",
       "table": {
         "headers": [
           "동사",
@@ -933,7 +933,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "동사의 과거분사를 쓰세요. ★는 새 모양이에요.",
+        "prompt": "동사의 과거분사를 쓰시오. ★는 새 모양이다.",
         "table": {
           "headers": [
             "동사",
@@ -979,7 +979,7 @@
       },
       {
         "no": 2,
-        "prompt": "알맞은 것에 ○ 하고, 누가 하는지(당하는지) 우리말로 쓰세요.",
+        "prompt": "알맞은 것에 ○ 하고, 누가 하는지(당하는지) 우리말로 쓰시오.",
         "table": {
           "headers": [
             "표현",
@@ -1018,11 +1018,11 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① barking(개가 짖어요) ② used(차가 쓰였어요: 중고차) ③ shouting(남자가 소리쳐요) ④ fried(닭이 튀겨졌어요: 프라이드치킨) ⑤ smiling(얼굴이 웃어요) ⑥ locked(문이 잠겼어요). 여섯 개 가운데 다섯 개 이상이면 통과. (bark: 짖다, used car: 중고차, shout: 소리치다, fry: 튀기다, lock: 잠그다)"
+        "answer": "① barking(개가 짖는다) ② used(차가 쓰였다: 중고차) ③ shouting(남자가 소리친다) ④ fried(닭이 튀겨졌다: 프라이드치킨) ⑤ smiling(얼굴이 웃는다) ⑥ locked(문이 잠겼다). 여섯 개 가운데 다섯 개 이상이면 통과. (bark: 짖다, used car: 중고차, shout: 소리치다, fry: 튀기다, lock: 잠그다)"
       },
       {
         "no": 3,
-        "prompt": "우리말 뜻을 쓰세요. ‘어떤 (명사)?’를 생각하며 써요.",
+        "prompt": "우리말 뜻을 쓰시오. ‘어떤 (명사)?’를 생각하며 쓴다.",
         "table": {
           "rows": [
             [
@@ -1053,7 +1053,7 @@
       },
       {
         "no": 4,
-        "prompt": "괄호 안의 동사를 -ing 모양이나 과거분사로 바꾸어 빈칸에 쓰세요.",
+        "prompt": "괄호 안의 동사를 -ing 모양이나 과거분사로 바꾸어 빈칸에 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1079,7 +1079,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 알맞은 모양으로 바꾸어 쓰고 뜻을 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 알맞은 모양으로 바꾸어 쓰고 뜻을 쓰시오.",
         "table": {
           "headers": [
             "문제",
@@ -1120,7 +1120,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 집에서 찾은 물건을 소개하는 세 문장을 쓰세요(made in ~ 하나, 다른 과거분사 하나, -ing 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 집에서 찾은 물건을 소개하는 세 문장을 쓰시오(made in ~ 하나, 다른 과거분사 하나, -ing 하나).",
         "eng": {
           "trace": [
             "I ate two boiled eggs.",
@@ -1134,7 +1134,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① (boiling / boiled) eggs에서 알맞은 것을 쓰세요.\n② the boy playing soccer의 뜻을 쓰세요.\n③ a photo (take) by Dad의 괄호 안 동사를 알맞은 모양으로 쓰세요.",
+        "prompt": "① (boiling / boiled) eggs에서 알맞은 것을 쓰시오.\n② the boy playing soccer의 뜻을 쓰시오.\n③ a photo (take) by Dad의 괄호 안 동사를 알맞은 모양으로 쓰시오.",
         "lines": 3,
         "answer": "① boiled ② 축구를 하고 있는 소년 ③ taken. 세 가지 모두 도움 없이 하면 통과."
       }
