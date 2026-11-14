@@ -84,7 +84,7 @@
 - ELLIPSE | 타원 | 두 초점에서의 거리의 합이 일정한 점의 자취로 타원을 정의하고 타원의 방정식에서 초점과 꼭짓점을 구한다. | pre G10-MAT-CIRCLE
 - HYPERBOLA | 쌍곡선 | 두 초점에서의 거리의 차가 일정한 점의 자취로 쌍곡선을 정의하고 쌍곡선의 방정식에서 초점과 점근선을 구한다.
 @ MAT-I04 | 기하공간도형 | 2.4.6
-- SPACEPOS | 공간에서의 위치 관계 | 공간에서 두 직선, 직선과 평면, 두 평면의 위치 관계를 구별하고 삼수선의 정리로 점과 직선 사이의 거리를 구한다. | pre G07-MAT-PARALLEL, G08-MAT-PYTHAG
+- SPACEPOS | 공간에서의 위치 관계 | 공간에서 두 직선, 직선과 평면, 두 평면의 위치 관계를 구별하고 삼수선의 정리로 점과 직선 사이의 거리를 구한다. | pre G07-MAT-PARALLEL, G07-MAT-SPACEREL, G08-MAT-PYTHAG
 - SPACECOORD | 공간좌표 | 공간좌표로 점의 위치를 나타내고 두 점 사이의 거리와 선분의 내분점의 좌표를 구한다. | pre G10-MAT-COORDDIST
 @ MAT-I04 | 기하벡터 | 2.4.7
 - VECTOR | 벡터와 연산 | 벡터의 뜻을 알고 벡터의 덧셈·뺄셈·실수배를 화살표 그림과 성분으로 계산한다. | pre G10-MAT-COORDDIST, G10-MAT-TRANSLATE
@@ -187,7 +187,7 @@
 - IMMUNE | 질병과 방어 작용 | 병원체의 종류를 구별하고 비특이적·특이적 방어 작용과 백신의 원리를 설명한다. | pre! G08-SCI-CIRCULATE, G09-SCI-DISASTER
 @ SCI-I03 | 생명과학유전 | 6.4.5
 - CHROMO | 염색체와 세포 분열 | 염색체·유전자·DNA의 관계를 알고 체세포 분열과 감수 분열에서 염색체 수와 DNA양의 변화를 비교한다. | pre G09-SCI-CELLDIV
-- HUMANGEN | 사람의 유전과 가계도 | 가계도를 분석해 형질의 우열과 상염색체 유전·X 염색체 유전 방식을 판단한다. | pre G09-SCI-MENDEL
+- HUMANGEN | 사람의 유전과 가계도 | 가계도를 분석해 형질의 우열과 상염색체 유전·X 염색체 유전 방식을 판단한다. | pre G09-SCI-MENDEL, G09-SCI-HUMANHERED
 - GENDISORD | 유전자 이상과 염색체 이상 | 유전자 돌연변이와 염색체 수·구조 이상으로 생기는 유전병을 핵형 자료로 구별한다.
 @ SCI-I03 | 생명과학생태계 | 6.4.8
 - POPCOMM | 개체군과 군집 | 개체군의 생장 곡선과 군집 안의 경쟁·포식·공생 관계를 자료로 해석한다. | pre G10-SCI-ECOSYS

@@ -36,6 +36,11 @@
       "text": "멘델의 유전 법칙",
       "lesson": "KR22-G09-SCI-MENDEL-L01",
       "grade_item": "KR22-G09-SCI-I03"
+    },
+    {
+      "text": "사람의 유전과 가계도",
+      "lesson": "KR22-G09-SCI-HUMANHERED-L01",
+      "grade_item": "KR22-G09-SCI-I03"
     }
   ],
   "objectives": [

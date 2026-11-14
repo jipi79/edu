@@ -6428,6 +6428,7 @@
   "priority": 1,
   "pre": [
    "KR22-G07-MAT-PARALLEL-L01",
+   "KR22-G07-MAT-SPACEREL-L01",
    "KR22-G08-MAT-PYTHAG-L01"
   ],
   "file_stem": "고2_수학_기하공간도형_01_공간에서의위치관계",
@@ -8480,7 +8481,8 @@
   "priority": 2,
   "pre": [
    "KR22-G11-SCI-CHROMO-L01",
-   "KR22-G09-SCI-MENDEL-L01"
+   "KR22-G09-SCI-MENDEL-L01",
+   "KR22-G09-SCI-HUMANHERED-L01"
   ],
   "file_stem": "고2_과학_생명과학유전_02_사람의유전과가계도",
   "source": "lessons/G11_고2/SCI_과학/생명과학유전/KR22-G11-SCI-HUMANGEN-L01.json",
