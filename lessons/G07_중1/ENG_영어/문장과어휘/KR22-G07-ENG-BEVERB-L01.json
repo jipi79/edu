@@ -374,7 +374,7 @@
         "A"
       ],
       "title": "‘나는 배고프다’를 영어로",
-      "claim": "‘나는 배고프다.’를 두 친구가 영어로 이렇게 썼다.",
+      "claim": "‘나는 배고프다.’를 두 학생이 영어로 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -608,9 +608,9 @@
       "title": "묻고 답하기 역할극",
       "steps": [
         "종이 네 장에 hungry, tired, happy, sleepy를 쓴다.",
-        "아이가 한 장을 몰래 고른다.",
-        "부모가 묻는다: Are you hungry?",
-        "아이가 답한다: Yes, I am. / No, I'm not.",
+        "내가 한 장을 몰래 고른다.",
+        "부모님이 묻는다: Are you hungry?",
+        "내가 답한다: Yes, I am. / No, I'm not.",
         "역할을 바꾸고, 가족 이야기로도 한다: Is he tall?"
       ],
       "criteria": [

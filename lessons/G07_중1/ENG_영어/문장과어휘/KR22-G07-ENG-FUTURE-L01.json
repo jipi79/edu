@@ -371,7 +371,7 @@
         "A"
       ],
       "title": "‘축구를 할 것이다’를 영어로",
-      "claim": "‘그는 내일 축구를 할 것이다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘그는 내일 축구를 할 것이다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -600,8 +600,8 @@
       "title": "묻고 답하기: 주말 계획 맞히기",
       "steps": [
         "각자 종이 세 장에 이번 주말 계획을 몰래 쓴다.",
-        "부모가 묻는다: Are you going to swim?",
-        "아이가 답한다: Yes, I am. / No, I'm not.",
+        "부모님이 묻는다: Are you going to swim?",
+        "내가 답한다: Yes, I am. / No, I'm not.",
         "부탁도 한다: Will you help me?",
         "역할을 바꿔서 한다."
       ],

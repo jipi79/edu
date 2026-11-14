@@ -442,7 +442,7 @@
         "A"
       ],
       "title": "‘숙제가 많다’를 영어로",
-      "claim": "‘나는 숙제가 많다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘나는 숙제가 많다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -618,8 +618,8 @@
       "title": "묻고 답하기: 장보기 목록",
       "steps": [
         "종이 여섯 장에 음식 이름을 쓴다.",
-        "부모가 묻는다: Do we have any milk?",
-        "아이가 답한다: We have some. / We don't have any.",
+        "부모님이 묻는다: Do we have any milk?",
+        "내가 답한다: We have some. / We don't have any.",
         "없는 것은 목록에 쓴다: We need some eggs.",
         "역할을 바꿔서 한다."
       ],

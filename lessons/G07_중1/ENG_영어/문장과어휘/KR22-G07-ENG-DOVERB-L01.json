@@ -440,7 +440,7 @@
         "A"
       ],
       "title": "동사에 -s가 필요할까?",
-      "claim": "‘내 남동생은 게임을 한다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘내 남동생은 게임을 한다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -672,10 +672,10 @@
       "title": "묻고 답하기: 취향 인터뷰",
       "steps": [
         "종이 네 장에 쓴다: like pizza, play games, drink milk, watch TV",
-        "부모가 묻는다: Do you like pizza?",
-        "아이가 답한다: Yes, I do. / No, I don't.",
+        "부모님이 묻는다: Do you like pizza?",
+        "내가 답한다: Yes, I do. / No, I don't.",
         "가족, 친구에 대해 묻는다: Does she drink milk?",
-        "역할을 바꿔 아이가 묻는다."
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "Do·Does를 주어 앞에 말했다",
