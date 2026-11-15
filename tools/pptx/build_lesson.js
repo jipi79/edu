@@ -300,6 +300,28 @@ class Deck {
     const light = new Set((b.light || []).map(([r, c]) => `${r},${c}`));
     const cw = b.w / b.cols;
     const ch = b.h / b.rows;
+    // lines: false — 칸선 없이 색칠한 부분을 한 덩어리로(컵의 물, 탑, 띠). 칸 수를 세지 않고 직접 비교하게 할 때.
+    // outline: false — 바깥 테두리도 그리지 않는다(빈 칸이 안 보여 색칠한 부분의 높이·길이만 남는다).
+    if (b.lines === false) {
+      const hidden = { color: P.lt1, transparency: 100, width: 0 };
+      const cells = [...shaded].map((k) => k.split(",").map(Number));
+      for (const [r, c] of [...light].map((k) => k.split(",").map(Number))) {
+        slide.addShape(this.pres.shapes.RECTANGLE, { x: b.x + c * cw, y: b.y + r * ch, w: cw, h: ch, fill: { color: TINT.accent }, line: hidden, objectName: this.name(sid, "cell") });
+      }
+      for (const [r, c] of cells) {
+        slide.addShape(this.pres.shapes.RECTANGLE, { x: b.x + c * cw, y: b.y + r * ch, w: cw, h: ch, fill: { color: P.accent1 }, line: hidden, objectName: this.name(sid, "cell") });
+      }
+      if (cells.length) {
+        const r0 = Math.min(...cells.map((q) => q[0])), r1 = Math.max(...cells.map((q) => q[0]));
+        const c0 = Math.min(...cells.map((q) => q[1])), c1 = Math.max(...cells.map((q) => q[1]));
+        const name = this.name(sid, b.outline === false ? "figure" : "fill");
+        slide.addShape(this.pres.shapes.RECTANGLE, { x: b.x + c0 * cw, y: b.y + r0 * ch, w: (c1 - c0 + 1) * cw, h: (r1 - r0 + 1) * ch, fill: { color: P.lt1, transparency: 100 }, line: { color: P.dk1, width: 1.5 }, objectName: name });
+        if (b.outline === false && b.alt) this.alt.set(name, b.alt);
+      }
+      if (b.outline !== false) this.outline(slide, sid, b, b.alt);
+      else if (!cells.length) this.outline(slide, sid, { ...b, w: 0.01, h: 0.01 }, b.alt);
+      return;
+    }
     for (let r = 0; r < b.rows; r++) {
       for (let c = 0; c < b.cols; c++) {
         const k = `${r},${c}`;

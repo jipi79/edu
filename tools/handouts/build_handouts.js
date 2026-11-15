@@ -145,7 +145,17 @@ function gridSvg(gr, cell = 10) {
   const set = new Set(shaded.map(([r, c]) => `${r},${c}`));
   const light = new Set((gr.light || []).map(([r, c]) => `${r},${c}`));
   let g = "";
-  for (let r = 0; r < gr.rows; r++) for (let c = 0; c < gr.cols; c++) {
+  if (gr.lines === false) {
+    // 칸선 없이: 색칠한 부분을 한 덩어리로, outline이 false가 아니면 바깥 테두리(컵 모양)를 둔다.
+    for (const k of light) { const [r, c] = k.split(",").map(Number); g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="#FBE3D2"/>`; }
+    for (const [r, c] of shaded) g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="#E9762B"/>`;
+    if (shaded.length) {
+      const rs = shaded.map((q) => q[0]), cs = shaded.map((q) => q[1]);
+      const r0 = Math.min(...rs), c0 = Math.min(...cs);
+      g += `<rect x="${c0 * cell}" y="${r0 * cell}" width="${(Math.max(...cs) - c0 + 1) * cell}" height="${(Math.max(...rs) - r0 + 1) * cell}" fill="none" stroke="#1F2937" stroke-width="0.5"/>`;
+    }
+    if (gr.outline !== false) g += `<rect x="0" y="0" width="${gr.cols * cell}" height="${gr.rows * cell}" fill="none" stroke="#1F2937" stroke-width="0.6"/>`;
+  } else for (let r = 0; r < gr.rows; r++) for (let c = 0; c < gr.cols; c++) {
     const k = `${r},${c}`;
     g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="${set.has(k) ? "#E9762B" : light.has(k) ? "#FBE3D2" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
   }
@@ -272,6 +282,24 @@ function figureHtml(it) {
   return parts.length ? `<div class="figrow" style="flex-wrap:wrap; gap:8mm">${parts.join("")}</div>` : "";
 }
 
+// 따라 쓰기 칸(한글 자모·낱자, 숫자): 흐린 글자 칸(copies)에 덧쓰고 빈 칸(blank)에 혼자 쓴다.
+// 칸마다 십자 점선 안내선을 둔다. 초1이 처음 쓰기에 맞게 기본 18 mm.
+function traceCellsHtml(t) {
+  const size = t.size || 18;
+  const copies = t.copies ?? 2;
+  const blank = t.blank ?? 2;
+  const glyphs = String(t.text).split(/\s+/).filter(Boolean);
+  const m = (v) => v.toFixed(2);
+  const cell = (ch) => `<svg width="${size}mm" height="${size}mm" viewBox="0 0 ${size} ${size}">`
+    + `<rect x="0.3" y="0.3" width="${m(size - 0.6)}" height="${m(size - 0.6)}" fill="#fff" stroke="#9CA3AF" stroke-width="0.4"/>`
+    + `<line x1="${m(size / 2)}" y1="0.6" x2="${m(size / 2)}" y2="${m(size - 0.6)}" stroke="#CBD5E1" stroke-width="0.3" stroke-dasharray="1 1"/>`
+    + `<line x1="0.6" y1="${m(size / 2)}" x2="${m(size - 0.6)}" y2="${m(size / 2)}" stroke="#CBD5E1" stroke-width="0.3" stroke-dasharray="1 1"/>`
+    + (ch ? `<text x="${m(size / 2)}" y="${m(size / 2)}" text-anchor="middle" dominant-baseline="central" font-size="${m(size * 0.78)}" fill="#C4CAD3">${esc(ch)}</text>` : "")
+    + `</svg>`;
+  const group = (g) => `<span style="display:inline-flex">${Array.from({ length: copies }, () => cell(g)).join("")}${Array.from({ length: blank }, () => cell("")).join("")}</span>`;
+  return `<div style="margin:2mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:3mm 6mm">${glyphs.map(group).join("")}</div>`;
+}
+
 function worksheetHtml(L) {
   const ws = L.worksheet;
   const items = ws.items.map((it) => {
@@ -288,6 +316,7 @@ function worksheetHtml(L) {
       const spacing = it.big_spacing ?? (/^[\s가-힯ㄱ-ㆎ　]+$/.test(it.big) ? 4 : 0.5);
       h += `<div style="margin:2mm 0 0 9.5mm; font-size:${it.big_size || 26}pt; letter-spacing:${spacing}mm; font-weight:700; white-space:pre-wrap">${jamo(esc(it.big))}</div>`;
     }
+    if (it.trace) h += traceCellsHtml(it.trace);
     if (it.eng) h += engLinesHtml(it.eng);
     if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
     if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;

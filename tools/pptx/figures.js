@@ -78,7 +78,7 @@ function grid(deck, slide, sid, fig, box) {
   let shaded = fig.shaded || [];
   if (typeof shaded === "number") shaded = Array.from({ length: shaded }, (_, k) => [Math.floor(k / fig.cols), k % fig.cols]);
   const total = shaded.length;
-  deck.grid(slide, sid, { x, y, w, h, rows: fig.rows, cols: fig.cols, shaded, light: fig.light,
+  deck.grid(slide, sid, { x, y, w, h, rows: fig.rows, cols: fig.cols, shaded, light: fig.light, lines: fig.lines, outline: fig.outline,
     alt: fig.alt || `${fig.rows * fig.cols}칸 격자, ${total}칸 색칠${fig.light ? `(옅은 색 ${fig.light.length}칸)` : ""}` });
   if (fig.axis === "v") deck.vline(slide, sid, { x: x + w / 2, y1: y - 0.25, y2: y + h + 0.25 });
   if (fig.axis === "h") segment(deck, slide, sid, x - 0.25, y + h / 2, x + w + 0.25, y + h / 2, { color: P.accent4, width: 2, dashType: "dash" });
@@ -317,9 +317,24 @@ function blocks10(deck, slide, sid, fig, box) {
     const row = k % 5;
     slide.addShape(deck.pres.shapes.RECTANGLE, { x: x + col * u * 1.3, y: y + 10 * u - (row + 1) * u * 1.25, w: u, h: u, fill: { color: "FBD3B4" }, line: { color: INK, width: 1.5 }, objectName: deck.name(sid, "unit") });
   }
+  // crossed: { tens, ones } — 뒤에서부터 그만큼의 십 모형·낱개에 ×를 그린다(덜어 낸 것).
+  const cross = fig.crossed || {};
+  const xline = { color: P.accent3, width: 2.5 };
+  const xOver = (cx, cy, cw, chh) => {
+    segment(deck, slide, sid, cx - u * 0.15, cy - u * 0.15, cx + cw + u * 0.15, cy + chh + u * 0.15, xline, "cross");
+    segment(deck, slide, sid, cx + cw + u * 0.15, cy - u * 0.15, cx - u * 0.15, cy + chh + u * 0.15, xline, "cross");
+  };
+  const tensX0 = box.x + (box.w - u * (widthUnits - 1)) / 2 + hund * u * 10.6;
+  for (let k = Math.max(0, tens - (cross.tens || 0)); k < tens; k++) xOver(tensX0 + k * u * 1.6, y, u, u * 10);
+  const onesX0 = tensX0 + tens * u * 1.6;
+  for (let k = Math.max(0, ones - (cross.ones || 0)); k < ones; k++) {
+    const col = Math.floor(k / 5);
+    const row = k % 5;
+    xOver(onesX0 + col * u * 1.3, y + 10 * u - (row + 1) * u * 1.25, u, u);
+  }
   const name = deck.name(sid, "figure");
   slide.addShape(deck.pres.shapes.RECTANGLE, { x: box.x, y, w: 0.01, h: 0.01, fill: { color: P.lt1, transparency: 100 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: name });
-  deck.alt.set(name, fig.alt || `수 모형: 백 ${hund}개, 십 ${tens}개, 일 ${ones}개`);
+  deck.alt.set(name, fig.alt || `수 모형: 백 ${hund}개, 십 ${tens}개, 일 ${ones}개${cross.tens || cross.ones ? `(× 표시: 십 ${cross.tens || 0}개, 일 ${cross.ones || 0}개)` : ""}`);
 }
 
 // ---------- 표 ----------
@@ -413,6 +428,11 @@ function shapes(deck, slide, sid, fig, box) {
     if (s.shape === "cone") {
       slide.addShape("triangle", { x, y, w: size * 0.8, h: size, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: name });
       slide.addShape(deck.pres.shapes.OVAL, { x, y: y + size - 0.18, w: size * 0.8, h: 0.36, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: deck.name(sid, "base") });
+    } else if (s.shape === "sphere") {
+      // 공은 평면 동그라미와 구별되게 입체 단서를 그린다: 점선 적도(뒤로 돌아가는 선)와 밝은 반사점.
+      slide.addShape(deck.pres.shapes.OVAL, { x, y, w, h, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: name });
+      slide.addShape(deck.pres.shapes.OVAL, { x: x + w * 0.02, y: y + h * 0.39, w: w * 0.96, h: h * 0.22, fill: { color: fill, transparency: 100 }, line: { color: INK, width: 1.25, dashType: "dash" }, objectName: deck.name(sid, "equator") });
+      slide.addShape(deck.pres.shapes.OVAL, { x: x + w * 0.2, y: y + h * 0.13, w: w * 0.24, h: h * 0.15, fill: { color: P.lt1, transparency: 25 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: deck.name(sid, "shine") });
     } else {
       slide.addShape(preset, { x, y, w, h, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: name });
     }
@@ -543,6 +563,11 @@ function letters(deck, slide, sid, fig, box) {
     const rowW = inRow * tile + (inRow - 1) * gap;
     const x = box.x + (box.w - totalW) / 2 + (totalW - rowW) / 2 + c * (tile + gap);
     const y = box.y + (box.h - totalH) / 2 + r * (tile + subH + gap);
+    // 줄 번호(①②…)만 있는 칸은 문제 타일이 아니라 이름표다. 테두리 없이 흐린 글자로 쓴다(수 ‘2’로 읽히지 않게).
+    if (/^[①-⑳]$/.test(String(ch))) {
+      slide.addText(String(ch), textOpts({ x, y, w: tile, h: tile, fontSize: Math.round(tile * 72 * 0.4), bold: true, color: P.accent6, align: "center", valign: "middle", margin: 0, objectName: deck.name(sid, "rowlabel") }));
+      return;
+    }
     slide.addText(String(ch), textOpts({
       shape: deck.pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.14, x, y, w: tile, h: tile,
       fill: { color: hi.has(i) ? TINT.accent : P.lt1 }, line: { color: hi.has(i) ? P.accent1 : P.dk2, width: hi.has(i) ? 3 : 1.5 },

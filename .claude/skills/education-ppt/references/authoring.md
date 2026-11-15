@@ -80,14 +80,14 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | type | 필드 | 쓰임 |
 |---|---|---|
 | `bars` | `bars`[ {parts, shaded(개수 또는 칸 번호 배열), label?: [분자,분모] 또는 글자, widths?} ], `guide`? | 분수 막대. `guide: true` 이면 첫 막대의 색칠 끝에 점선(같은 양 비교) |
-| `grid` | `rows`, `cols`, `shaded`(개수 또는 [[행,열]…]), `light`?([[행,열]…] 옅은 색), `axis`?: v/h | 넓이·배열·대칭. (분수)×(분수)는 첫 분수 부분을 `light`, 겹친 부분을 `shaded`로(검산 count는 shaded만 센다) |
+| `grid` | `rows`, `cols`, `shaded`(개수 또는 [[행,열]…]), `light`?([[행,열]…] 옅은 색), `axis`?: v/h, `lines`?(false면 칸선 없이 색칠한 부분을 한 덩어리로), `outline`?(false면 바깥 테두리도 없이) | 넓이·배열·대칭. (분수)×(분수)는 첫 분수 부분을 `light`, 겹친 부분을 `shaded`로(검산 count는 shaded만 센다). 칸 수를 세지 않고 직접 비교하는 그림(탑의 높이, 컵의 물, 띠의 길이)은 `lines: false` 로 그린다: 컵은 테두리를 두고, 탑·띠는 `outline: false` |
 | `pie` | `parts`, `shaded` | 원 분수 |
 | `eq` | `items` (분수는 [분자,분모], 대분수는 [자연수,분자,분모], 빈칸은 null 또는 "□", 기호는 문자열) 또는 `lines`[…] | 식. 분수가 없으면 한 줄 글자 |
 | `eqx` | `from`, `to`, `op`("×2"), `join`?("="·"→") | 분수 변환 화살표 |
 | `numberline` | `min`, `max`, `step`?, `labels`?("all"·"ends"·[값]), `marks`?[{at,label,open?}](open: 속이 빈 ○), `jumps`?[{from,to,label,color?}](color: info 기본·accent·good·bad — 더하기·빼기 이동을 색으로 구별) | 수직선, 뛰어 세기. 음수 눈금은 자동으로 진짜 빼기 기호(−)로 쓴다 |
 | `array` | `rows`, `cols`, `count`?, `group`?("row"·"col"), `crossed`?(뒤에서부터 × 표시할 개수), `cell`?(점 칸 크기, in) | 세기·곱셈·나눗셈 묶음, 덜어 내기(crossed). 양을 나란히 비교할 때는 모든 배열에 같은 `cell` 을 준다 |
 | `tenframe` | `count`, `frames`?, `split`?([a, b]: 앞의 a개는 주황, 다음 b개는 파랑) | 10의 보수, 가르기·모으기. 옮겨 온 돌이나 두 수를 구별해 보여야 할 때(8과 옮겨 온 2, 6과 4)는 `split` 을 쓴다 |
-| `blocks10` | `hundreds`?, `tens`, `ones`, `unit`?(한 칸 크기, in) | 자릿값(수 모형). 여러 개를 나란히 둘 때는 같은 `unit` |
+| `blocks10` | `hundreds`?, `tens`, `ones`, `unit`?(한 칸 크기, in), `crossed`?({`tens`, `ones`}: 뒤에서부터 그만큼 × 표시) | 자릿값(수 모형). 여러 개를 나란히 둘 때는 같은 `unit`. 두 자리 수 뺄셈의 덜어 내기는 `crossed` |
 | `bond` | `whole`, `parts`[2] (빈칸은 null), `merge`? | 가르기(전체 위)·모으기(merge: 부분 위) |
 | `placevalue` | `headers`, `rows` | 자릿값 표 |
 | `table` | `headers`, `rows`, `widths`?(열 너비 비율, 합 1), `width`?(표 전체 너비 in), `size`?(pt), `firstColHead`? | 표 |
@@ -101,7 +101,7 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `chart` | `chart`, `labels`, `values`, `title`?, `valueTitle`?, `max`?, `min`?, `step`?(눈금 한 칸) | 그래프. 눈금 한 칸을 말하는 차시는 `step`을 꼭 준다. 물결선·칸 단위 그림이 필요하면 `geo`로 그린다 |
 | `flow` | `items`[2~6], `cycle`?, `highlight`?, `size`?(pt), `boxHeight`?(in) | 과정·한살이·순환 |
 | `timeline` | `events`[ {label, sub?} ] | 역사 흐름 |
-| `letters` | `items`(글자), `sub`?(읽는 소리), `perRow`?, `highlight`? | 한글 자모·알파벳 |
+| `letters` | `items`(글자), `sub`?(읽는 소리), `perRow`?, `highlight`? | 한글 자모·알파벳, 모양·수 규칙 줄. 줄 번호로 쓴 ①~⑳ 하나짜리 항목은 테두리 없는 흐린 이름표로 그려진다 |
 | `words` | `items`[ {word, sub?, highlight?} ], `perRow`? | 낱말 카드(영어 낱말과 뜻 등) |
 | `text` | `text`, `size`? | 큰 글자 하나(예: 오늘의 낱말) |
 
@@ -168,7 +168,8 @@ tools/build.sh <원본>                                # 검사 + PPTX + 활동�
 | `clock`, `numberline`, `grid`, `array`, `pie`, `table`(`size`? pt), `tenframe`, `bond`, `geo`, `ruler`, `protractor` | 그림(시계는 h 없이 주면 아이가 바늘을 그린다, bond의 null은 빈 동그라미, geo·ruler·protractor는 슬라이드와 같은 필드이며 `type`은 쓰지 않는다. 그리기 문제는 `geo`에 `grid`와 `grid_range`[x0,y0,x1,y1]만 주어 빈 모눈·점판을 준다) |
 | `read` | 읽을 글(상자) |
 | `choices`, `choices_size`?(pt, 기본 12) | 고르기 보기(☐). 영어 낱말 읽기는 16 이상 |
-| `big`, `big_size`?, `big_spacing`?(mm) | 큰 글자(따라 쓰기 낱말 등, 기본 26pt). 한글은 글자 사이를 4 mm 띄우고 영어는 붙여 쓴다. 한글 낱말 사이는 전각 공백(　)으로 띄운다 |
+| `big`, `big_size`?, `big_spacing`?(mm) | 큰 글자(보고 쓰기 낱말 등, 기본 26pt, 굵은 실선이라 덧쓰기용이 아니다). 한글은 글자 사이를 4 mm 띄우고 영어는 붙여 쓴다. 한글 낱말 사이는 전각 공백(　)으로 띄운다 |
+| `trace` | {`text`(빈칸으로 나눈 글자들), `copies`?(흐린 글자 칸 수, 기본 2), `blank`?(빈 칸 수, 기본 2), `size`?(칸 크기 mm, 기본 18)} | 따라 쓰기 칸. 칸마다 십자 점선 안내선이 있고, 흐린 글자에 덧쓴 뒤 빈 칸에 혼자 쓴다. 한글 자모·낱자와 숫자를 처음 쓰는 차시에 쓴다(화면에서 “점선을 따라 써요”라고 하면 이것을 쓴다) |
 | `eng` | {`trace`[영어 문장…](흐린 글씨로 따라 쓰기), `blank`(빈 네 줄 수), `height`?(mm, 기본 15)} | 영어 네 줄 공책(셋째 줄이 기준선) |
 | `lines` / `line_label` | 쓰기 줄 수 / 줄 앞 안내 |
 | `box` | 그리기 칸 높이(mm) |
