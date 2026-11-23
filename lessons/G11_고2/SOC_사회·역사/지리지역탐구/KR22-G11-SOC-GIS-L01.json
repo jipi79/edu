@@ -8632,7 +8632,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "앞의 세 레이어를 읽고 답하시오.",
+        "prompt": "아래 세 레이어를 읽고 답하시오.",
         "geo": {
           "type": "geo",
           "names": false,
