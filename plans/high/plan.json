@@ -5457,7 +5457,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_04_삼각함수의성질",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGPROP-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-TRIGEQ-L01",
@@ -6332,7 +6332,7 @@
   ],
   "file_stem": "고2_수학_확률통계확률분포_05_이항분포와정규분포의관계",
   "source": "lessons/G11_고2/MAT_수학/확률통계확률분포/KR22-G11-MAT-BINOMNORM-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SAMPLE-L01",
@@ -6408,7 +6408,7 @@
   ],
   "file_stem": "고2_수학_확률통계추정_03_모비율의추정",
   "source": "lessons/G11_고2/MAT_수학/확률통계추정/KR22-G11-MAT-PROPEST-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-PARABOLA-L01",
