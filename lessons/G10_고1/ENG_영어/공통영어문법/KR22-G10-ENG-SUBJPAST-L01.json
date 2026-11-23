@@ -411,7 +411,7 @@
         "A"
       ],
       "title": "‘내가 너라면’을 영어로",
-      "claim": "‘내가 너라면, 사과할 텐데.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘내가 너라면, 사과할 텐데.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -676,10 +676,10 @@
       "title": "말하기: 만약 ~라면?",
       "steps": [
         "상상 카드를 한 장 뽑는다.\n(a teacher, a bird …)",
-        "부모가 묻는다: What would\nyou do if you were a teacher?",
-        "아이가 답한다: If I were\na teacher, I would ~.",
-        "부모가 묻는다: 지금 사실은?\nI am not a teacher, so ~.",
-        "역할을 바꿔 아이가 묻는다."
+        "부모님이 묻는다: What would\nyou do if you were a teacher?",
+        "내가 답한다: If I were\na teacher, I would ~.",
+        "부모님이 묻는다: 지금 사실은?\nI am not a teacher, so ~.",
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "If + 과거형(were)으로 말했다",

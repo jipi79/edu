@@ -464,7 +464,7 @@
         "A"
       ],
       "title": "‘벌써 끝냈다’를 영어로",
-      "claim": "‘나는 벌써 숙제를 끝냈다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘나는 벌써 숙제를 끝냈다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -678,7 +678,7 @@
         "B"
       ],
       "title": "‘어제 숙제를 끝냈다’를 영어로",
-      "claim": "‘나는 어제 숙제를 끝냈다.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘나는 어제 숙제를 끝냈다.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -782,10 +782,10 @@
       "title": "말하기: 오늘 할 일 다 했니?",
       "steps": [
         "종이에 오늘 할 일을 쓴다:\ndo my homework …",
-        "부모가 묻는다:\nHave you done it yet?",
-        "아이가 답한다:\nYes, I have. / No, not yet.",
+        "부모님이 묻는다:\nHave you done it yet?",
+        "내가 답한다:\nYes, I have. / No, not yet.",
         "끝낸 일에 ✔ 표시를 한다.",
-        "역할을 바꿔 아이가 묻는다."
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "Yes, I have. / No, not yet.",

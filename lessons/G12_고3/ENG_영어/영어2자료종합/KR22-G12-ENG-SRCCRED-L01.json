@@ -43,7 +43,7 @@
     {
       "id": "B",
       "text": "점검 기준으로 자료의 신뢰성 순위를 매기고, 그 근거를 영어 틀(Source ~ is the most reliable because ~. / Source ~ is less reliable because ~.)로 설명한다.",
-      "evidence": "비교표와 순위(S06), 좋아요 수로 판단한 답 비교(S07), 서서 쓰는 책상 자료(S08), 확인 질문 놀이(S10), 혼자 해 보기(S11), 활동지 2·3",
+      "evidence": "비교표와 순위(S06), 좋아요 수로 판단한 답 비교(S07), 서서 쓰는 책상 자료(S08), 확인 질문 활동(S10), 혼자 해 보기(S11), 활동지 2·3",
       "success": "S08과 S11에서 가장 믿을 만한 자료를 바르게 고르고, 순위마다 점검 기준 하나 이상을 근거로 영어 한 문장씩 설명한다."
     }
   ],
@@ -379,7 +379,7 @@
         "B"
       ],
       "title": "누구의 판단이 맞을까?",
-      "claim": "B 블로그(StudyBoost Sam)를 두 친구가 이렇게 평가했다.",
+      "claim": "B 블로그(StudyBoost Sam)를 두 학생이 이렇게 평가했다.",
       "left": {
         "title": "가",
         "text": "It is reliable because Sam has\nmany followers and sounds\nvery sure."
@@ -494,17 +494,17 @@
       "id": "S10",
       "kind": "activity",
       "section": "연습",
-      "purpose": "확인 질문 놀이",
+      "purpose": "확인 질문 활동",
       "role": "practice",
       "objectives": [
         "B"
       ],
-      "title": "말하기: 확인 질문 놀이",
+      "title": "말하기: 확인 질문 활동",
       "steps": [
-        "부모가 지어낸 소식을\n말한다.",
-        "아이가 네 기준의\n질문을 영어로 한다.",
-        "부모가 대답한다.",
-        "아이가 믿을지 판단하고\n까닭을 말한다.",
+        "부모님이 지어낸 소식을\n말한다.",
+        "내가 네 기준의\n질문을 영어로 한다.",
+        "부모님이 대답한다.",
+        "내가 믿을지 판단하고\n까닭을 말한다.",
         "역할을 바꾼다."
       ],
       "criteria": [

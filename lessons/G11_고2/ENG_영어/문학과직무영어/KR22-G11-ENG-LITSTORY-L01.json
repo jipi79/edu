@@ -461,7 +461,7 @@
         "B"
       ],
       "title": "어느 쪽이 주제일까?",
-      "claim": "두 친구가 이 이야기의 주제를 이렇게 말했다.",
+      "claim": "두 학생이 이 이야기의 주제를 이렇게 말했다.",
       "left": {
         "title": "가",
         "text": "Don't sell your hair or\nyour watch. You will be sorry."
@@ -501,10 +501,10 @@
       ],
       "title": "말하기: 인물 인터뷰",
       "steps": [
-        "아이가 Della가 된다.",
-        "부모가 기자처럼\n질문한다.",
-        "아이가 I felt ~ because ~.로\n답한다.",
-        "역할을 바꿔 부모가 Jim,\n아이가 기자가 된다.",
+        "내가 Della가 된다.",
+        "부모님이 기자처럼\n질문한다.",
+        "내가 I felt ~ because ~.로\n답한다.",
+        "역할을 바꿔 부모님이 Jim,\n내가 기자가 된다.",
         "가장 마음에 남은 답을\n서로 말한다."
       ],
       "criteria": [

@@ -353,7 +353,7 @@
         "A"
       ],
       "title": "어느 반대가 좋을까?",
-      "claim": "‘할머니 생신에 식당에 가자’는 말에 두 친구가 이렇게 반대했다.",
+      "claim": "‘할머니 생신에 식당에 가자’는 말에 두 학생이 이렇게 반대했다.",
       "left": {
         "title": "가",
         "text": "I see your point, but\nrestaurants are crowded\non Saturdays."
@@ -478,11 +478,11 @@
       ],
       "title": "말하기: 역할 바꿔 토의",
       "steps": [
-        "역할을 바꾼다:\n아이가 A, 부모가 B",
+        "역할을 바꾼다:\n내가 A, 부모님이 B",
         "대본을 보며 끝까지 말한다.",
-        "대본을 덮고 부모가 새 의견:\nLet's have a picnic.",
-        "아이가 기능 표현으로 답한다.",
-        "아이가 정리한다:\nSo, we both think ~. Let's ~."
+        "대본을 덮고 부모님이 새 의견:\nLet's have a picnic.",
+        "내가 기능 표현으로 답한다.",
+        "내가 정리한다:\nSo, we both think ~. Let's ~."
       ],
       "criteria": [
         "역할을 바꿔 끝까지 말했다",
@@ -559,8 +559,8 @@
       "title": "말하기: 비 오는 토요일",
       "steps": [
         "주제: What should we do\non a rainy Saturday?",
-        "부모가 먼저 의견을 말하고\n막대를 넘긴다.",
-        "아이가 기능 표현으로 답하고\nWhat do you think?",
+        "부모님이 먼저 의견을 말하고\n막대를 넘긴다.",
+        "내가 기능 표현으로 답하고\nWhat do you think?",
         "8번 안팎 주고받는다.",
         "결론: So, we both think ~.\nLet's ~."
       ],

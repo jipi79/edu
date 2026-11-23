@@ -464,7 +464,7 @@
         "A"
       ],
       "title": "어느 해석이 맞을까?",
-      "claim": "It is true that Jun won the race.  두 친구가 이렇게 해석했다.",
+      "claim": "It is true that Jun won the race.  두 학생이 이렇게 해석했다.",
       "left": {
         "title": "가",
         "text": "준이 경주에서 이긴 것은\n바로 ‘사실’이다.\n(강조 구문)"
@@ -656,11 +656,11 @@
       ],
       "title": "말하기: 오해를 풀자",
       "steps": [
-        "부모가 오해 카드를 읽는다:\nYou broke the window!",
-        "아이가 바로잡는다: No! It was\nthe cat that broke it.",
+        "부모님이 오해 카드를 읽는다:\nYou broke the window!",
+        "내가 바로잡는다: No! It was\nthe cat that broke it.",
         "부모: You don't like vegetables.",
         "아이: I do like vegetables!",
-        "역할을 바꿔 아이가 오해를 말한다."
+        "역할을 바꿔 내가 오해를 말한다."
       ],
       "criteria": [
         "It was ~ that으로 강조했다",

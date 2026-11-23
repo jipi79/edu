@@ -491,7 +491,7 @@
         "A"
       ],
       "title": "‘어제 ~했다면’을 영어로",
-      "claim": "‘어제 더 열심히 공부했다면 쪽지 시험에 붙었을 텐데.’를 두 친구가 이렇게 썼다.",
+      "claim": "‘어제 더 열심히 공부했다면 쪽지 시험에 붙었을 텐데.’를 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -700,8 +700,8 @@
         "지난 일 카드를 한 장 뽑는다.\n(missed the bus …)",
         "사실을 말한다:\nI missed the bus, so I was late.",
         "반대로 상상한다:\nIf I hadn't missed the bus, ~",
-        "부모가 묻는다: What would you\nhave done if ~?",
-        "역할을 바꿔 아이가 묻는다."
+        "부모님이 묻는다: What would you\nhave done if ~?",
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "사실을 과거 시제로 말했다",

@@ -505,7 +505,7 @@
         "A"
       ],
       "title": "‘나를 위해 사 주셨다’를 수동태로",
-      "claim": "‘아빠가 나에게 자전거를 사 주셨다.’를 물건이 주어인 수동태로 두 친구가 이렇게 썼다.",
+      "claim": "‘아빠가 나에게 자전거를 사 주셨다.’를 물건이 주어인 수동태로 두 학생이 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -739,11 +739,11 @@
       ],
       "title": "말하기: 받은 것, 불리는 이름",
       "steps": [
-        "부모가 묻는다: What were you\ngiven for your birthday?",
-        "아이가 답한다:\nI was given a watch\nby my aunt.",
+        "부모님이 묻는다: What were you\ngiven for your birthday?",
+        "내가 답한다:\nI was given a watch\nby my aunt.",
         "별명을 묻는다: What are you\ncalled by your friends?",
         "물건을 들고: What is this\ncalled in English?",
-        "역할을 바꿔 아이가 묻는다."
+        "역할을 바꿔 내가 묻는다."
       ],
       "criteria": [
         "I was given ~ by ~.로 답했다",

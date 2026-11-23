@@ -477,7 +477,7 @@
         "A"
       ],
       "title": "outgoing은 무슨 뜻일까?",
-      "claim": "Jun is shy, but his sister is very outgoing.\n두 친구가 outgoing의 뜻을 이렇게 짐작했다.",
+      "claim": "Jun is shy, but his sister is very outgoing.\n두 학생이 outgoing의 뜻을 이렇게 짐작했다.",
       "left": {
         "title": "가",
         "text": "사교적인, 활발한\nbut 앞의 shy(수줍은)와\n반대이다."
@@ -656,11 +656,11 @@
       ],
       "title": "말하기: 낱말 탐정 놀이",
       "steps": [
-        "부모가 어려운 낱말이 든\n문장을 말한다.",
-        "아이가 뜻을 짐작한다.",
+        "부모님이 어려운 낱말이 든\n문장을 말한다.",
+        "내가 뜻을 짐작한다.",
         "단서의 종류를 말한다:\n대조이다. but이 있다.",
-        "역할을 바꿔 아이가 카드 낱말로\n단서 문장을 만든다.",
-        "부모가 뜻과 단서를 맞힌다."
+        "역할을 바꿔 내가 카드 낱말로\n단서 문장을 만든다.",
+        "부모님이 뜻과 단서를 맞힌다."
       ],
       "criteria": [
         "뜻을 비슷하게 짐작했다",

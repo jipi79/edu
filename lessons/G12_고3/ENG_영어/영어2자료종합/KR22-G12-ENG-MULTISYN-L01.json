@@ -441,7 +441,7 @@
         "B"
       ],
       "title": "어느 쪽이 종합일까?",
-      "claim": "같은 자료 세 편으로 두 친구가 이렇게 썼다(일부).",
+      "claim": "같은 자료 세 편으로 두 학생이 이렇게 썼다(일부).",
       "left": {
         "title": "가",
         "text": "A survey of 200 companies\nsupports this view. A counselor\nadds that ~. Taken together, ~."
@@ -521,8 +521,8 @@
       ],
       "title": "말하기: 우리 집 종합 요약",
       "steps": [
-        "부모가 세 사람의\n의견을 말한다.",
-        "아이가 누가 무엇을\n말했는지 메모한다.",
+        "부모님이 세 사람의\n의견을 말한다.",
+        "내가 누가 무엇을\n말했는지 메모한다.",
         "According to ~로\n첫 의견을 말한다.",
         "supports · adds로\n나머지를 잇는다.",
         "Taken together로\n결론을 말한다."
