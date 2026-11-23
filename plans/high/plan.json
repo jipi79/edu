@@ -5483,7 +5483,7 @@
   ],
   "file_stem": "고2_수학_대수삼각함수_05_삼각방정식과삼각부등식",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGEQ-L01.json",
-  "status": "계획"
+  "status": "제작 완료"
  },
  {
   "id": "KR22-G11-MAT-SINELAW-L01",
@@ -6310,6 +6310,31 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G11-MAT-BINOMNORM-L01",
+  "concept_id": "MAT-BINOMNORM",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G11-MAT-I03",
+  "folder": "확률통계확률분포",
+  "sequence": 5,
+  "units": [
+   "2.5.6"
+  ],
+  "title": "이항분포와 정규분포의 관계",
+  "objective": "n이 충분히 클 때 이항분포 B(n, p)를 정규분포 N(np, npq)로 어림하여 확률을 구한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G11-MAT-NORMAL-L01"
+  ],
+  "file_stem": "고2_수학_확률통계확률분포_05_이항분포와정규분포의관계",
+  "source": "lessons/G11_고2/MAT_수학/확률통계확률분포/KR22-G11-MAT-BINOMNORM-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G11-MAT-SAMPLE-L01",
   "concept_id": "MAT-SAMPLE",
   "grade": "G11",
@@ -6358,6 +6383,32 @@
   "file_stem": "고2_수학_확률통계추정_02_모평균의추정",
   "source": "lessons/G11_고2/MAT_수학/확률통계추정/KR22-G11-MAT-ESTIMATE-L01.json",
   "status": "제작 완료"
+ },
+ {
+  "id": "KR22-G11-MAT-PROPEST-L01",
+  "concept_id": "MAT-PROPEST",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G11-MAT-I03",
+  "folder": "확률통계추정",
+  "sequence": 3,
+  "units": [
+   "2.5.7"
+  ],
+  "title": "모비율의 추정",
+  "objective": "표본비율의 분포를 이용해 모비율의 신뢰구간을 구하고 표본의 크기와 신뢰구간의 길이 관계를 설명한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G11-MAT-ESTIMATE-L01",
+   "KR22-G11-MAT-BINOMNORM-L01"
+  ],
+  "file_stem": "고2_수학_확률통계추정_03_모비율의추정",
+  "source": "lessons/G11_고2/MAT_수학/확률통계추정/KR22-G11-MAT-PROPEST-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G11-MAT-PARABOLA-L01",

@@ -1,0 +1,55 @@
+{
+  "id": "KR22-G11-MAT-BINOMNORM-L01",
+  "concept_id": "MAT-BINOMNORM",
+  "title": "이항분포와 정규분포의 관계",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "unit_folder": "확률통계확률분포",
+  "sequence": 5,
+  "file_stem": "고2_수학_확률통계확률분포_05_이항분포와정규분포의관계",
+  "format": "ppt",
+  "minutes": 40,
+  "mode": "home-1to1",
+  "status": "계획",
+  "curriculum": {
+    "version": "2022 개정 / 권장 학년 배치 v1",
+    "grade_items": [
+      "KR22-G11-MAT-I03"
+    ],
+    "units": [
+      "2.5.6"
+    ],
+    "standard_code": null,
+    "link_status": "부분 확인",
+    "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
+  },
+  "plan_objective": "n이 충분히 클 때 이항분포 B(n, p)를 정규분포 N(np, npq)로 어림하여 확률을 구한다.",
+  "prerequisites": [
+    {
+      "text": "정규분포",
+      "lesson": "KR22-G11-MAT-NORMAL-L01",
+      "grade_item": "KR22-G11-MAT-I03"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "A",
+      "text": "TODO",
+      "evidence": "TODO",
+      "success": "TODO"
+    }
+  ],
+  "materials": [],
+  "boundary": "TODO",
+  "misconceptions": [],
+  "checks": [],
+  "slides": [],
+  "worksheet": {
+    "title": "이항분포와 정규분포의 관계 활동지",
+    "items": [],
+    "record": []
+  }
+}
