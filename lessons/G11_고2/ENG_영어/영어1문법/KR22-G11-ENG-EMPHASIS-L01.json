@@ -395,7 +395,7 @@
         "말하기": [
           "“It is true that Jun won the race.는 강조 구문처럼 생겼지? 하지만 다른 문장이야. 확인해 보자.”",
           "“It was와 that을 지우고 Jun을 제자리로 돌리면 Jun broke the window. 완전한 문장이지? 그러면 강조 구문.”",
-          "“It is와 that을 지우면 true Jun won the race. 문장이 안 되지? 이건 가주어 it 문장이야. 진짜 주어는 that Jun won the race, ‘준이 경주에서 이긴 것’. ‘준이 경주에서 이긴 것은 사실이에요.’”"
+          "“It is와 that을 지우면 true Jun won the race. 문장이 안 되지? 이건 가주어 it 문장이야. 진짜 주어는 that Jun won the race, ‘준이 경주에서 이긴 것’. ‘준이 경주에서 이긴 것은 사실이다.’”"
         ],
         "예상답": [
           "“지웠을 때 문장이 되면 강조, 안 되면 가주어예요.”"
@@ -482,7 +482,7 @@
           "“지워서 확인해 볼까? true Jun won the race. 문장이 돼?”"
         ],
         "정답": [
-          "나의 해석(준이 경주에서 이긴 것은 사실이에요)이 맞습니다. It is와 that을 지우면 문장이 안 되므로 가주어 it 문장이고, 진짜 주어는 that Jun won the race입니다. 가는 강조 구문처럼 ‘바로’를 넣어 해석했습니다."
+          "나의 해석(준이 경주에서 이긴 것은 사실이다)이 맞습니다. It is와 that을 지우면 문장이 안 되므로 가주어 it 문장이고, 진짜 주어는 that Jun won the race입니다. 가는 강조 구문처럼 ‘바로’를 넣어 해석했습니다."
         ],
         "막히면": [
           "S06의 표를 다시 보여 주고 둘째 줄을 함께 읽습니다."
