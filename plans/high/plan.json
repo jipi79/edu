@@ -5434,6 +5434,32 @@
   "status": "제작 완료"
  },
  {
+  "id": "KR22-G11-MAT-TRIGPROP-L01",
+  "concept_id": "MAT-TRIGPROP",
+  "grade": "G11",
+  "grade_label": "고2",
+  "band": "H",
+  "strand": "MAT",
+  "strand_label": "수학",
+  "grade_item": "KR22-G11-MAT-I01",
+  "folder": "대수삼각함수",
+  "sequence": 4,
+  "units": [
+   "2.3.6"
+  ],
+  "title": "삼각함수의 성질",
+  "objective": "단위원과 그래프의 대칭으로 −θ, π±θ, π/2±θ의 삼각함수를 θ의 삼각함수로 나타내고 이를 이용해 삼각함수의 값을 구한다.",
+  "format": "ppt",
+  "priority": 1,
+  "pre": [
+   "KR22-G11-MAT-TRIGGRAPH-L01",
+   "KR22-G11-MAT-TRIGDEF-L01"
+  ],
+  "file_stem": "고2_수학_대수삼각함수_04_삼각함수의성질",
+  "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGPROP-L01.json",
+  "status": "계획"
+ },
+ {
   "id": "KR22-G11-MAT-TRIGEQ-L01",
   "concept_id": "MAT-TRIGEQ",
   "grade": "G11",
@@ -5442,8 +5468,8 @@
   "strand": "MAT",
   "strand_label": "수학",
   "grade_item": "KR22-G11-MAT-I01",
-  "folder": "대수삼각방정식",
-  "sequence": 1,
+  "folder": "대수삼각함수",
+  "sequence": 5,
   "units": [
    "2.3.6"
   ],
@@ -5452,11 +5478,12 @@
   "format": "ppt",
   "priority": 1,
   "pre": [
+   "KR22-G11-MAT-TRIGPROP-L01",
    "KR22-G11-MAT-TRIGGRAPH-L01"
   ],
-  "file_stem": "고2_수학_대수삼각방정식_01_삼각방정식과삼각부등식",
-  "source": "lessons/G11_고2/MAT_수학/대수삼각방정식/KR22-G11-MAT-TRIGEQ-L01.json",
-  "status": "제작 완료"
+  "file_stem": "고2_수학_대수삼각함수_05_삼각방정식과삼각부등식",
+  "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-TRIGEQ-L01.json",
+  "status": "계획"
  },
  {
   "id": "KR22-G11-MAT-SINELAW-L01",
@@ -5468,7 +5495,7 @@
   "strand_label": "수학",
   "grade_item": "KR22-G11-MAT-I01",
   "folder": "대수삼각함수",
-  "sequence": 4,
+  "sequence": 6,
   "units": [
    "2.3.6"
   ],
@@ -5481,7 +5508,7 @@
    "KR22-G09-MAT-TRIGAPP-L01",
    "KR22-G09-MAT-INSCRIBED-L01"
   ],
-  "file_stem": "고2_수학_대수삼각함수_04_사인법칙",
+  "file_stem": "고2_수학_대수삼각함수_06_사인법칙",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-SINELAW-L01.json",
   "status": "제작 완료"
  },
@@ -5495,7 +5522,7 @@
   "strand_label": "수학",
   "grade_item": "KR22-G11-MAT-I01",
   "folder": "대수삼각함수",
-  "sequence": 5,
+  "sequence": 7,
   "units": [
    "2.3.6"
   ],
@@ -5505,9 +5532,10 @@
   "priority": 1,
   "pre": [
    "KR22-G11-MAT-SINELAW-L01",
-   "KR22-G08-MAT-PYTHAG-L01"
+   "KR22-G08-MAT-PYTHAG-L01",
+   "KR22-G09-MAT-TRIGAPP-L01"
   ],
-  "file_stem": "고2_수학_대수삼각함수_05_코사인법칙과넓이",
+  "file_stem": "고2_수학_대수삼각함수_07_코사인법칙과넓이",
   "source": "lessons/G11_고2/MAT_수학/대수삼각함수/KR22-G11-MAT-COSLAW-L01.json",
   "status": "제작 완료"
  },

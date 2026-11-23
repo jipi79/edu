@@ -8,8 +8,8 @@
   "strand": "MAT",
   "strand_label": "수학",
   "unit_folder": "대수삼각함수",
-  "sequence": 5,
-  "file_stem": "고2_수학_대수삼각함수_05_코사인법칙과넓이",
+  "sequence": 7,
+  "file_stem": "고2_수학_대수삼각함수_07_코사인법칙과넓이",
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
@@ -36,6 +36,11 @@
       "text": "피타고라스 정리",
       "lesson": "KR22-G08-MAT-PYTHAG-L01",
       "grade_item": "KR22-G08-MAT-I03"
+    },
+    {
+      "text": "삼각비의 활용",
+      "lesson": "KR22-G09-MAT-TRIGAPP-L01",
+      "grade_item": "KR22-G09-MAT-I03"
     }
   ],
   "objectives": [

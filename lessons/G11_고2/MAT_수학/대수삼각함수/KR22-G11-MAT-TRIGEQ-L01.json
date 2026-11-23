@@ -7,9 +7,9 @@
   "band": "H",
   "strand": "MAT",
   "strand_label": "수학",
-  "unit_folder": "대수삼각방정식",
-  "sequence": 1,
-  "file_stem": "고2_수학_대수삼각방정식_01_삼각방정식과삼각부등식",
+  "unit_folder": "대수삼각함수",
+  "sequence": 5,
+  "file_stem": "고2_수학_대수삼각함수_05_삼각방정식과삼각부등식",
   "format": "ppt",
   "minutes": 40,
   "mode": "home-1to1",
@@ -27,6 +27,11 @@
     "note": "권장 배치이다. 공식 성취기준 코드는 원문으로 확인하지 않았으므로 기록하지 않는다."
   },
   "prerequisites": [
+    {
+      "text": "삼각함수의 성질",
+      "lesson": "KR22-G11-MAT-TRIGPROP-L01",
+      "grade_item": "KR22-G11-MAT-I01"
+    },
     {
       "text": "삼각함수의 그래프",
       "lesson": "KR22-G11-MAT-TRIGGRAPH-L01",
