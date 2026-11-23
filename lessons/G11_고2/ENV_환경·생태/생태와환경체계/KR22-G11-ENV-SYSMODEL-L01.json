@@ -444,7 +444,7 @@
             ],
             "to": [
               14.95,
-              2.7
+              2.3
             ],
             "color": "6B7280",
             "width": 1.5,
@@ -535,14 +535,14 @@
           },
           {
             "at": [
-              8.25,
-              2.1
+              7.75,
+              2.3
             ],
             "text": "많으면 녹조 → 물고기 줄어듦",
             "size": "small",
             "bold": false,
             "color": "C8434E",
-            "anchor": "left",
+            "anchor": "right",
             "bg": true
           },
           {
