@@ -91,8 +91,8 @@
       "title": "문장 삽입 위치 찾기",
       "question": "“However, after a few weeks, ~.”\n이 문장은 글의 어느 자리에 들어가야 할까?",
       "goals": [
-        "① 주어진 문장의 단서로 앞에 올 내용을 예측해요.",
-        "② 빈틈을 찾아 위치를 정하고 근거를 말해요."
+        "① 주어진 문장의 단서로 앞에 올 내용을 예측할 수 있다.",
+        "② 빈틈을 찾아 위치를 정하고 근거를 말할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -100,7 +100,7 @@
         "items": [
           {
             "word": "주어진 문장",
-            "sub": "먼저 읽어요"
+            "sub": "먼저 읽는다"
           },
           {
             "word": "단서에 동그라미",
@@ -139,7 +139,7 @@
       "role": "prior",
       "objectives": [],
       "title": "순서 정하기 떠올리기",
-      "text": "굵은 글씨가 주어진 글이에요.",
+      "text": "굵은 글씨가 주어진 글이다.",
       "passage": {
         "title": "Last Sunday, I made a sandwich for my dad.",
         "paragraphs": [
@@ -148,7 +148,7 @@
           "(C) Then I gave it to him with a glass of milk."
         ]
       },
-      "question": "(A)(B)(C)의 순서는? 어떤 단서를 보고 정했나요?",
+      "question": "(A)(B)(C)의 순서는? 어떤 단서를 보고 정했는가?",
       "notes": {
         "목적": "지난 차시 ‘글의 순서 정하기’에서 연결어·대명사를 단서로 순서를 정하고 근거를 말한 것을 기억하는지 확인합니다.",
         "시간": "약 3분",
@@ -194,10 +194,10 @@
         },
         {
           "title": "뒤 문장의 단서",
-          "text": "뒤 문장이 주어진 문장의\n말을 받기도 해요."
+          "text": "뒤 문장이 주어진 문장의\n말을 받기도 한다."
         }
       ],
-      "key": "앞에 무엇이 있어야 하는지 예측한 뒤 글을 읽어요.",
+      "key": "앞에 무엇이 있어야 하는지 예측한 뒤 글을 읽는다.",
       "notes": {
         "목적": "주어진 문장의 연결어·지시어·관사가 앞에 무엇이 있어야 하는지 알려 주고, 정답 자리의 뒤 문장도 주어진 문장의 말을 받는다는 것을 보여 줍니다(목표 A, 오해 M2·M3).",
         "시간": "약 2분",
@@ -227,7 +227,7 @@
         "A"
       ],
       "title": "앞에는 무엇이 있었을까?",
-      "text": "단서에 동그라미를 치고, 바로 앞에 올 내용을 예측해요.",
+      "text": "단서에 동그라미를 치고, 바로 앞에 올 내용을 예측하자.",
       "problems": [
         {
           "text": "For example, she reads three\nbooks every week."
@@ -311,7 +311,7 @@
         "A",
         "B"
       ],
-      "title": "함께 찾아요: 반딧불이",
+      "title": "함께 찾자: 반딧불이",
       "text": "주어진 문장 ▶ Their light is actually a kind of language.",
       "passage": {
         "paragraphs": [
@@ -350,8 +350,8 @@
       "objectives": [
         "B"
       ],
-      "title": "넣어서 앞뒤로 확인해요",
-      "text": "앞 → 주어진 문장 → 뒤 를 이어 읽어요.",
+      "title": "넣어서 앞뒤로 확인하자",
+      "text": "앞 → 주어진 문장 → 뒤 를 이어 읽는다.",
       "table": {
         "headers": [
           "자리",
@@ -362,7 +362,7 @@
           [
             "②",
             "빛을 만든다 → 사실은 언어다\n→ 하지만 예쁘게 보이려고만이 아니다",
-            "× But이 앞과\n맞지 않아요"
+            "× But이 앞과\n맞지 않는다"
           ],
           [
             "③",
@@ -378,7 +378,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "근거: 앞과는 actually(진짜 이유)로, 뒤와는 In this language로 이어져요.",
+      "key": "근거: 앞과는 actually(진짜 이유)로, 뒤와는 In this language로 이어진다.",
       "notes": {
         "목적": "헷갈리는 두 자리(②, ③)에 주어진 문장을 넣어 앞뒤를 이어 읽고, 앞 문장·뒤 문장 양쪽으로 근거를 말하는 방법을 보여 줍니다(목표 B, 오해 M1·M2).",
         "시간": "약 3분",
@@ -408,7 +408,7 @@
         "B"
       ],
       "title": "근거가 맞는 쪽은?",
-      "claim": "S06의 자리를 두 친구가 이렇게 골랐어요.",
+      "claim": "S06의 자리를 두 친구가 이렇게 골랐다.",
       "left": {
         "title": "가",
         "text": "②\n바로 앞 문장에 light와\nfireflies가 있어요."
@@ -417,7 +417,7 @@
         "title": "나",
         "text": "③\n뒤 문장의 In this language가\n가리킬 말이 앞에 없어요."
       },
-      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤나요?",
+      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤는가?",
       "notes": {
         "목적": "주어진 문장과 같은 낱말(light, fireflies)이 앞에 있다는 이유로 고른 자리와, 빈틈으로 고른 자리를 비교합니다(목표 B, 오해 M1·M4).",
         "시간": "약 2분",
@@ -447,7 +447,7 @@
         "A",
         "B"
       ],
-      "title": "찾아봐요: 휴대 전화 없는 저녁",
+      "title": "찾아보자: 휴대 전화 없는 저녁",
       "text": "주어진 문장 ▶ However, after a few weeks, we started to enjoy talking to each other.",
       "passage": {
         "paragraphs": [
@@ -490,16 +490,16 @@
       ],
       "title": "말하기: 문장 띠 끼우기",
       "steps": [
-        "부모가 문장 띠 다섯 장 가운데\n한 장을 빼 둬요.",
-        "아이가 남은 띠를 이어 읽어요.",
-        "빈틈을 찾아 뺀 띠를 끼워요.",
-        "앞 띠·뒤 띠로 근거를 말해요.",
-        "역할을 바꿔 아이가 띠를 빼요."
+        "부모가 문장 띠 다섯 장 가운데\n한 장을 빼 둔다.",
+        "아이가 남은 띠를 이어 읽는다.",
+        "빈틈을 찾아 뺀 띠를 끼운다.",
+        "앞 띠·뒤 띠로 근거를 말한다.",
+        "역할을 바꿔 아이가 띠를 뺀다."
       ],
       "criteria": [
-        "빈틈을 찾았어요",
-        "띠를 바른 자리에 끼웠어요",
-        "앞뒤 양쪽으로 근거를 말했어요"
+        "빈틈을 찾았다",
+        "띠를 바른 자리에 끼웠다",
+        "앞뒤 양쪽으로 근거를 말했다"
       ],
       "notes": {
         "목적": "부모가 다섯 문장 띠 가운데 하나를 빼 두고, 아이가 남은 띠에서 빈틈을 찾아 끼운 뒤 근거를 말합니다. 역할을 바꿔 아이가 문장을 빼서 냅니다(목표 A·B, 오해 M4).",
@@ -532,7 +532,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 찾아요: 해달의 도구",
+      "title": "혼자 찾기: 해달의 도구",
       "text": "주어진 문장 ▶ However, these animals are covered with hard shells.",
       "passage": {
         "paragraphs": [
@@ -590,18 +590,18 @@
       "bad": [
         {
           "text": "①",
-          "note": "these animals가\n해달이 돼요"
+          "note": "these animals가\n해달이 된다"
         },
         {
           "text": "③",
-          "note": "these shells가\n먼저 나와요"
+          "note": "these shells가\n먼저 나온다"
         },
         {
           "text": "근거: 앞만",
-          "note": "뒤 문장과도\n이어 읽어요"
+          "note": "뒤 문장과도\n이어 읽는다"
         }
       ],
-      "explain": "근거는 앞뒤 양쪽으로: 앞과는 ~로, 뒤와는 ~로 이어져요",
+      "explain": "근거는 앞뒤 양쪽으로: 앞과는 ~로, 뒤와는 ~로 이어진다",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -682,7 +682,7 @@
           "text": "However, ~ enjoy.\n앞에는 어떤 내용이\n와야 할까?"
         },
         {
-          "text": "근거는 어느 두\n문장과 이어서 말해요?"
+          "text": "근거는 어느 두\n문장과 이어서 말할까?"
         }
       ],
       "next": "의견 에세이 쓰기",
@@ -715,7 +715,7 @@
       "objectives": [],
       "title": "보충: 단서가 가리키는 말",
       "layout": "support",
-      "text": "뒤 문장의 단서는 앞 문장의 말을 가리켜요.",
+      "text": "뒤 문장의 단서는 앞 문장의 말을 가리킨다.",
       "table": {
         "headers": [
           "앞 문장",
@@ -776,7 +776,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "주어진 문장의 단서에 동그라미를 치고, 바로 앞에 올 내용을 예측해 쓰세요(우리말 가능).",
+        "prompt": "주어진 문장의 단서에 동그라미를 치고, 바로 앞에 올 내용을 예측해 쓰시오(우리말 가능).",
         "table": {
           "headers": [
             "주어진 문장",
@@ -811,7 +811,7 @@
       },
       {
         "no": 2,
-        "prompt": "주어진 문장이 들어갈 곳에 ○ 하고, 근거를 앞 문장과 뒤 문장 양쪽으로 쓰세요.",
+        "prompt": "주어진 문장이 들어갈 곳에 ○ 하고, 근거를 앞 문장과 뒤 문장 양쪽으로 쓰시오.",
         "read": "주어진 문장: To solve this problem, they keep changing places.\nEmperor penguins live in Antarctica, one of the coldest places on Earth. ( ① ) In winter, the temperature there can fall below minus 40 degrees Celsius. ( ② ) To stay alive, the penguins stand close together in a big group called a huddle. ( ③ ) The penguins in the middle of the huddle stay warm. ( ④ ) But the ones on the outside get very cold. ( ⑤ ) Slowly, the cold penguins move into the middle, and the warm ones move out. In this way, every penguin gets a turn to be warm.",
         "line_label": "자리 · 근거:",
         "lines": 3,
@@ -819,7 +819,7 @@
       },
       {
         "no": 3,
-        "prompt": "주어진 문장이 들어갈 곳에 ○ 하고, 근거를 앞 문장과 뒤 문장 양쪽으로 쓰세요.",
+        "prompt": "주어진 문장이 들어갈 곳에 ○ 하고, 근거를 앞 문장과 뒤 문장 양쪽으로 쓰시오.",
         "read": "주어진 문장: Then she remembered her teacher's advice: “Just breathe and count to four.”\nSumin wanted to join the school band, but she couldn't play any instrument. ( ① ) She chose the drums and practiced for an hour every day after school. ( ② ) On the day of the audition, she was so nervous that she dropped her sticks. ( ③ ) She took a deep breath, counted to four, and started again. ( ④ ) This time, she played the whole song without a mistake. ( ⑤ ) A week later, she found her name on the list of new band members.",
         "line_label": "자리 · 근거:",
         "lines": 3,
@@ -829,7 +829,7 @@
         "no": 4,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 글에서 흐름이 끊기는 곳(빈틈)의 세 가지 모습을 쓰세요.\n② However, after a few weeks, we started to enjoy it. 앞에는 어떤 내용이 와야 하는지 쓰세요.\n③ 위치를 정한 근거는 어느 두 문장과 이어서 말해야 하는지 쓰세요.",
+        "prompt": "① 글에서 흐름이 끊기는 곳(빈틈)의 세 가지 모습을 쓰시오.\n② However, after a few weeks, we started to enjoy it. 앞에는 어떤 내용이 와야 하는지 쓰시오.\n③ 위치를 정한 근거는 어느 두 문장과 이어서 말해야 하는지 쓰시오.",
         "lines": 3,
         "answer": "① 가리키는 말이 앞에 없는 곳, 연결어가 앞과 맞지 않는 곳, 이야기가 갑자기 바뀌는 곳 ② 즐기지 못했던 반대 내용(예: 처음에는 힘들었다·싫었다) ③ 앞 문장과 뒤 문장(양쪽). 세 가지 모두 도움 없이 하면 통과."
       }

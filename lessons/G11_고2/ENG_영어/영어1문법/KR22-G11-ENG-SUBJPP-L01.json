@@ -91,8 +91,8 @@
       "title": "가정법 과거완료",
       "question": "If I had studied harder, …\n이미 지난 일을 반대로 상상하려면?",
       "goals": [
-        "① If + had p.p., would have p.p.로 지난 일과 반대로 상상해요.",
-        "② 가정법 과거완료와 직설법을 바꾸어 써요."
+        "① If + had p.p., would have p.p.로 지난 일과 반대로 상상할 수 있다.",
+        "② 가정법 과거완료와 직설법을 바꾸어 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -134,7 +134,7 @@
       "role": "prior",
       "objectives": [],
       "title": "가정법 과거 떠올리기",
-      "text": "①은 골라 읽고, ②③은 바꾸어 말해요.",
+      "text": "①은 골라 읽고, ②③은 바꾸어 말해 보자.",
       "problems": [
         {
           "text": "If I (have / had) a car,\nI would drive to Busan."
@@ -178,7 +178,7 @@
         "A"
       ],
       "title": "그때와 반대로 상상하기",
-      "text": "지난 사실과 반대되는 일을 상상할 때 써요.",
+      "text": "지난 사실과 반대되는 일을 상상할 때 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -298,7 +298,7 @@
         "A"
       ],
       "title": "오늘 쓰는 과거분사",
-      "text": "★는 오늘 처음 배우는 모양이에요.",
+      "text": "★는 오늘 처음 배우는 모양이다.",
       "table": {
         "headers": [
           "동사",
@@ -394,9 +394,9 @@
         "A"
       ],
       "title": "가정법 과거완료 만들기",
-      "text": "지난 사실을 반대로 바꿔 상상해요.",
+      "text": "지난 사실을 반대로 바꿔 상상한다.",
       "steps": [
-        "사실을 반대로 해요.\nmissed → hadn't missed",
+        "사실을 반대로 한다.\nmissed → hadn't missed",
         "If + 주어 + had + 과거분사:\nIf I hadn't missed the bus,",
         "주어 + would have + 과거분사:\nI wouldn't have been late."
       ],
@@ -444,8 +444,8 @@
       "objectives": [
         "A"
       ],
-      "title": "가정법 과거완료로 바꿔요",
-      "text": "괄호 동사를 바꿔 읽고, 숨은 사실을 말해요.",
+      "title": "가정법 과거완료로 바꾸자",
+      "text": "괄호 동사를 바꿔 읽고, 숨은 사실을 말해 보자.",
       "problems": [
         {
           "text": "If I (study) harder,\nI (will) pass the test."
@@ -491,7 +491,7 @@
         "A"
       ],
       "title": "‘어제 ~했다면’을 영어로",
-      "claim": "‘어제 더 열심히 공부했다면 쪽지 시험에 붙었을 텐데.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘어제 더 열심히 공부했다면 쪽지 시험에 붙었을 텐데.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -516,7 +516,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 어떤 낱말이 단서인가요?",
+      "question": "바르게 쓴 쪽은? 어떤 낱말이 단서인가?",
       "notes": {
         "목적": "어제 일(지난 일)과 반대되는 상상에 가정법 과거를 쓴 문장과 가정법 과거완료를 쓴 문장을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -545,7 +545,7 @@
         "B"
       ],
       "title": "가정법 과거완료와 직설법",
-      "text": "과거완료 → 과거형,  긍정 ↔ 부정을 함께 바꿔요.",
+      "text": "과거완료 → 과거형,  긍정 ↔ 부정을 함께 바꾼다.",
       "table": {
         "headers": [
           "가정법 과거완료 (상상)",
@@ -601,8 +601,8 @@
       "objectives": [
         "B"
       ],
-      "title": "바꾸어 말해요",
-      "text": "①②는 가정법 과거완료로, ③④는 직설법으로 바꿔요.",
+      "title": "바꾸어 말하자",
+      "text": "①②는 가정법 과거완료로, ③④는 직설법으로 바꿔 보자.",
       "problems": [
         {
           "text": "I didn't take a coat,\nso I was cold."
@@ -649,7 +649,7 @@
         "A"
       ],
       "title": "지금일까, 그때일까?",
-      "text": "때를 나타내는 말에 동그라미를 치고 골라요.",
+      "text": "때를 나타내는 말에 동그라미를 치고 골라 보자.",
       "problems": [
         {
           "text": "If I (had / had had)\na bike now, I would ride it."
@@ -697,16 +697,16 @@
       ],
       "title": "말하기: 그때 ~했다면",
       "steps": [
-        "지난 일 카드를 한 장 뽑아요.\n(missed the bus …)",
-        "사실을 말해요:\nI missed the bus, so I was late.",
-        "반대로 상상해요:\nIf I hadn't missed the bus, ~",
-        "부모가 물어요: What would you\nhave done if ~?",
-        "역할을 바꿔 아이가 물어요."
+        "지난 일 카드를 한 장 뽑는다.\n(missed the bus …)",
+        "사실을 말한다:\nI missed the bus, so I was late.",
+        "반대로 상상한다:\nIf I hadn't missed the bus, ~",
+        "부모가 묻는다: What would you\nhave done if ~?",
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
-        "사실을 과거 시제로 말했어요",
+        "사실을 과거 시제로 말했다",
         "had + 과거분사, would have",
-        "긍정·부정을 바꿨어요"
+        "긍정·부정을 바꿨다"
       ],
       "notes": {
         "목적": "지난 일 카드를 보고 직설법(사실)을 말한 뒤 가정법 과거완료로 아쉬움을 말하고, 부모의 What would you have done if ~? 질문에 답합니다(목표 A·B).",
@@ -741,7 +741,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "If I (know) your number\nyesterday, I (will) call you."
@@ -815,7 +815,7 @@
         },
         {
           "text": "She left earlier.",
-          "note": "긍정 ↔ 부정을\n바꿔요"
+          "note": "긍정 ↔ 부정을\n바꾼다"
         }
       ],
       "explain": "If + had p.p., would have p.p.:  그때 ~했다면 ~했을 텐데",
@@ -849,8 +849,8 @@
         "A",
         "B"
       ],
-      "title": "뜻과 숨은 사실을 말해요",
-      "text": "①②는 뜻과 숨은 사실을, ③은 골라서 까닭을 말해요.",
+      "title": "뜻과 숨은 사실을 말하자",
+      "text": "①②는 뜻과 숨은 사실을, ③은 골라서 까닭을 말하시오.",
       "problems": [
         {
           "text": "If I had seen your message, I would have called you."
@@ -937,7 +937,7 @@
       "objectives": [],
       "title": "보충: 가정법 과거와 과거분사",
       "layout": "support",
-      "text": "고1 가정법 과거와 과거분사를 다시 봐요.",
+      "text": "고1 가정법 과거와 과거분사를 다시 보자.",
       "table": {
         "headers": [
           "동사",
@@ -981,7 +981,7 @@
       },
       "key": {
         "title": "고1: 가정법 과거",
-        "text": "If I had a car, I would drive to Busan.  (사실: 지금 차가 없어요.)"
+        "text": "If I had a car, I would drive to Busan.  (사실: 지금 차가 없다.)"
       },
       "notes": {
         "목적": "S02에서 가정법 과거나 과거분사가 흔들리면, 오늘 내용을 배우기 전에 다시 다집니다.",
@@ -1008,7 +1008,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "괄호 안의 동사를 가정법 과거완료로 바꾸어 문장 전체를 쓰세요.",
+        "prompt": "괄호 안의 동사를 가정법 과거완료로 바꾸어 문장 전체를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1039,7 +1039,7 @@
       },
       {
         "no": 2,
-        "prompt": "가정법 과거완료로 바꾸어 쓰세요.",
+        "prompt": "가정법 과거완료로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1066,7 +1066,7 @@
       },
       {
         "no": 3,
-        "prompt": "직설법(지난 사실)으로 바꾸어 쓰세요. so를 쓰세요.",
+        "prompt": "직설법(지난 사실)으로 바꾸어 쓰시오. so를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1093,7 +1093,7 @@
       },
       {
         "no": 4,
-        "prompt": "때를 나타내는 말에 동그라미를 치고, 알맞은 것에 ○ 하세요.",
+        "prompt": "때를 나타내는 말에 동그라미를 치고, 알맞은 것에 ○ 하시오.",
         "table": {
           "rows": [
             [
@@ -1119,7 +1119,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1150,7 +1150,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 내가 아쉬웠던 지난 일을 가정법 과거완료로 두 문장 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 내가 아쉬웠던 지난 일을 가정법 과거완료로 두 문장 쓰시오.",
         "eng": {
           "trace": [
             "If I had studied harder,",
@@ -1164,7 +1164,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① If I (see) you, I (will) say hello.를 가정법 과거완료로 바꾸어 쓰세요.\n② I didn't take a coat, so I was cold.를 가정법으로 바꾸어 쓰세요.\n③ If I had known the answer, I would have helped you.를 직설법으로 바꾸어 쓰세요.",
+        "prompt": "① If I (see) you, I (will) say hello.를 가정법 과거완료로 바꾸어 쓰시오.\n② I didn't take a coat, so I was cold.를 가정법으로 바꾸어 쓰시오.\n③ If I had known the answer, I would have helped you.를 직설법으로 바꾸어 쓰시오.",
         "lines": 3,
         "answer": "① If I had seen you, I would have said hello. ② If I had taken a coat, I wouldn't have been cold. ③ I didn't know the answer, so I didn't help you. 세 가지 모두 도움 없이 하면 통과."
       }

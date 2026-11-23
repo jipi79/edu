@@ -96,8 +96,8 @@
       "title": "문화 간 오해 분석",
       "question": "같은 말인데,\n왜 서로 다르게 받아들였을까?",
       "goals": [
-        "① 오해의 원인을 두 사람의 기대로 설명해요.",
-        "② 오해를 푸는 말로 대화를 고쳐 써요."
+        "① 오해의 원인을 두 사람의 기대로 설명할 수 있다.",
+        "② 오해를 푸는 말로 대화를 고쳐 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -239,7 +239,7 @@
         "A"
       ],
       "title": "대화 1: 샌드위치",
-      "text": "직접 쓴 예시 대화 · 민호가 일주일 동안 샘의 가족과 지내요.",
+      "text": "직접 쓴 예시 대화 · 민호가 일주일 동안 샘의 가족과 지낸다.",
       "passage": {
         "paragraphs": [
           "Sam: Would you like a sandwich? I just made some.",
@@ -279,7 +279,7 @@
       "objectives": [
         "A"
       ],
-      "title": "대화 1을 분석해요",
+      "title": "대화 1을 분석하자",
       "text": "기대 → 행동 → 해석, 두 사람 모두",
       "table": {
         "headers": [
@@ -342,7 +342,7 @@
         "B"
       ],
       "title": "오해를 푸는 말",
-      "text": "상대를 탓하지 않고, 서로의 방식을 말해요.",
+      "text": "상대를 탓하지 않고, 서로의 방식을 말한다.",
       "table": {
         "headers": [
           "고치는 말",
@@ -418,7 +418,7 @@
         "title": "나",
         "text": "Sam is rude. People like him\nnever care about guests."
       },
-      "question": "어느 설명이 공정한가요? 다른 쪽은 무엇이 문제인가요?",
+      "question": "어느 설명이 공정한가? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "대화 1의 원인을 사람을 판단하고 집단을 단정한 설명과, 두 사람의 기대를 조심스럽게 말한 설명으로 비교합니다(목표 A, 오해 M1·M2).",
         "시간": "약 2분",
@@ -447,7 +447,7 @@
         "B"
       ],
       "title": "대화 2: 슬라이드 색",
-      "text": "직접 쓴 예시 대화 · 지호와 레나가 모둠 과제 슬라이드를 만들어요.",
+      "text": "직접 쓴 예시 대화 · 지호와 레나가 모둠 과제 슬라이드를 만든다.",
       "passage": {
         "paragraphs": [
           "Lena: What do you think of my design?",
@@ -488,7 +488,7 @@
         "A",
         "B"
       ],
-      "title": "대화 2를 분석하고 고쳐요",
+      "title": "대화 2를 분석하고 고치자",
       "text": "기대 → 행동 → 해석, 그리고 고치기",
       "problems": [
         {
@@ -536,16 +536,16 @@
       ],
       "title": "말하기: 역할극",
       "steps": [
-        "활동지 3 대본을\n역할을 나눠 읽어요.",
-        "두 사람의 기대를\n말해요.",
-        "고치는 말을 넣어\n다시 연기해요.",
-        "역할을 바꿔\n한 번 더 해요.",
-        "가장 좋았던 말을\n서로 말해요."
+        "활동지 3 대본을\n역할을 나눠 읽는다.",
+        "두 사람의 기대를\n말한다.",
+        "고치는 말을 넣어\n다시 연기한다.",
+        "역할을 바꿔\n한 번 더 한다.",
+        "가장 좋았던 말을\n서로 말한다."
       ],
       "criteria": [
-        "두 사람의 기대를 말했어요",
-        "고치는 말을 두 가지 넣었어요",
-        "상대를 탓하지 않았어요"
+        "두 사람의 기대를 말했다",
+        "고치는 말을 두 가지 넣었다",
+        "상대를 탓하지 않았다"
       ],
       "notes": {
         "목적": "활동지 3의 대화 3(개인 공간)을 역할을 나눠 연기하고, 오해를 푸는 말을 넣어 다시 연기합니다(목표 B).",
@@ -578,8 +578,8 @@
         "A",
         "B"
       ],
-      "title": "혼자 읽어요: 대화 4",
-      "text": "직접 쓴 예시 대화 · 혜진이 새 반 친구 아나를 생일 저녁에 초대해요.",
+      "title": "혼자 읽기: 대화 4",
+      "text": "직접 쓴 예시 대화 · 혜진이 새 반 친구 아나를 생일 저녁에 초대한다.",
       "passage": {
         "paragraphs": [
           "Hyejin: My birthday dinner is on Saturday at 7. Can you come?",
@@ -590,7 +590,7 @@
           "(Ana is surprised. At most parties she has been to, guests often came 30 minutes or more after the start time.)"
         ]
       },
-      "question": "두 사람의 기대가 드러난 문장에 밑줄을 그어요(활동지 4).",
+      "question": "두 사람의 기대가 드러난 문장에 밑줄을 그으시오(활동지 4).",
       "notes": {
         "목적": "도움 없이 대화 4(시간 약속)를 읽고, 두 사람의 기대가 드러난 근거 문장에 밑줄을 긋는지 확인합니다(목표 A). 활동지 4에 씁니다.",
         "시간": "약 3분",
@@ -620,8 +620,8 @@
         "A",
         "B"
       ],
-      "title": "혼자 해 보기: 분석하고 고쳐요",
-      "text": "대화 4를 분석하고 고쳐 써요.",
+      "title": "혼자 해 보기: 분석하고 고치기",
+      "text": "대화 4를 분석하고 고쳐 쓰시오.",
       "problems": [
         {
           "text": "혜진과 아나의 기대·해석은?\n(우리말 가능)"
@@ -630,7 +630,7 @@
           "text": "오해의 원인을\nmay, probably로 한 문장"
         },
         {
-          "text": "오해를 푸는 말을 넣어\n대화를 고쳐 써요."
+          "text": "오해를 푸는 말을 넣어\n대화를 고쳐 쓰시오."
         }
       ],
       "notes": {
@@ -843,7 +843,7 @@
       },
       "key": {
         "title": "다음 걸음",
-        "text": "원인 문장에 may나 probably를 넣고, 두 사람을 while로 함께 써요."
+        "text": "원인 문장에 may나 probably를 넣고, 두 사람을 while로 함께 쓴다."
       },
       "notes": {
         "목적": "S02나 S07에서 판단하거나 단정하는 말이 자주 나오면, 원인을 말하기 전에 조심스러운 말 바꾸기를 연습합니다.",
@@ -869,7 +869,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 1. 대화를 읽고 두 사람의 기대 → 행동 → 해석을 표에 쓰세요(S04·S05).",
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 1. 대화를 읽고 두 사람의 기대 → 행동 → 해석을 표에 쓰시오(S04·S05).",
         "read": "(Minho is staying with Sam's family for a week.)\nSam: Would you like a sandwich? I just made some.\nMinho: Oh, no, thank you. I'm okay.\nSam: Okay! Let me know if you change your mind.\n(Sam puts the sandwiches away. Minho is hungry, but he says nothing. He wonders why Sam didn't offer again.)\n(In Minho's family, a guest often says no once to be polite, and the host offers again.)",
         "table": {
           "headers": [
@@ -906,7 +906,7 @@
       },
       {
         "no": 2,
-        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 2. ①②는 표에 우리말로, ③ 원인 문장과 ④ 오해를 푸는 말(레나 한 줄 + 지호 한 줄)은 아래 줄에 영어로 쓰세요(S09).",
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 2. ①②는 표에 우리말로, ③ 원인 문장과 ④ 오해를 푸는 말(레나 한 줄 + 지호 한 줄)은 아래 줄에 영어로 쓰시오(S09).",
         "read": "(Jiho and Lena are making slides for a group project.)\nLena: What do you think of my design?\nJiho: Hmm, it's interesting. Maybe we could think about the colors a little more.\nLena: Thanks! I'm glad you like it. Let's keep it as it is.\nJiho: Oh... okay.\n(Jiho thinks the red text is hard to read. Later, he tells a friend that Lena never listens.)\n(Lena has no idea that Jiho was unhappy. When she gives feedback, she usually states the problem clearly.)",
         "table": {
           "headers": [
@@ -936,13 +936,13 @@
       },
       {
         "no": 3,
-        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 3. 역할극 대본입니다(S10). 그대로 연기한 뒤, 오해를 푸는 말을 넣어 다시 연기하세요.",
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 3. 역할극 대본이다(S10). 그대로 연기한 뒤, 오해를 푸는 말을 넣어 다시 연기하시오.",
         "read": "(At a club meeting, Daniel talks to Yuna for the first time.)\nDaniel: Hi! I heard you like drawing. Me too! (He stands very close.)\nYuna: Oh, yes, I do. (She takes a step back.)\nDaniel: What do you usually draw? (He steps closer again.)\nYuna: Um, mostly animals. (She steps back again.)\n(Daniel thinks Yuna doesn't want to talk to him. Yuna thinks Daniel is a bit pushy.)",
         "answer": "말하기 활동입니다. 예: Yuna: Sorry, I'm not leaving! I just feel more comfortable with a little more space. / Daniel: Oh, thanks for telling me. In my family, people often stand close when they talk. Is this okay? / Yuna: Yes, thanks! 역할극에서 고치는 말을 두 가지 이상 넣고 상대를 탓하지 않으면 통과."
       },
       {
         "no": 4,
-        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 4. 혼자 읽고, 두 사람의 기대가 드러난 문장에 밑줄을 그은 뒤 표를 채우세요. 아래 줄에는 ② 원인 문장과 ③ 고쳐 쓴 대화를 영어로 쓰세요(S11·S12).",
+        "prompt": "예시 대화(직접 쓴 대화, 인물은 지어낸 사람) 4. 혼자 읽고, 두 사람의 기대가 드러난 문장에 밑줄을 그은 뒤 표를 채우시오. 아래 줄에는 ② 원인 문장과 ③ 고쳐 쓴 대화를 영어로 쓰시오(S11·S12).",
         "read": "(Hyejin invites Ana, a new classmate, to her birthday dinner.)\nHyejin: My birthday dinner is on Saturday at 7. Can you come?\nAna: Sure! I'd love to.\n(On Saturday, the other guests arrive before 7. Hyejin's family waits, and the food gets cold. Ana arrives at 7:40 with a big smile.)\nAna: Hi! Happy birthday!\nHyejin: Oh... hi. We already started eating.\n(Ana is surprised. At most parties she has been to, guests often came 30 minutes or more after the start time.)",
         "table": {
           "headers": [
@@ -978,7 +978,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 오해를 분석하는 네 걸음을 쓰세요.\n② 대화 1(샌드위치)의 오해 원인을 may와 probably를 넣어 영어 한 문장으로 쓰세요.\n③ 오해를 푸는 말 두 가지를 영어로 쓰세요.",
+        "prompt": "① 오해를 분석하는 네 걸음을 쓰시오.\n② 대화 1(샌드위치)의 오해 원인을 may와 probably를 넣어 영어 한 문장으로 쓰시오.\n③ 오해를 푸는 말 두 가지를 영어로 쓰시오.",
         "lines": 4,
         "answer": "① 기대 → 행동 → 해석 → 고치기 ② Minho may have expected a second offer, while Sam probably took “no” as a real answer. ③ 예: Just to check, do you mean ~? / In my family, we usually ~. / How do people usually ~ in your family? / Thanks for telling me. 세 가지 모두 도움 없이 하면 통과."
       }

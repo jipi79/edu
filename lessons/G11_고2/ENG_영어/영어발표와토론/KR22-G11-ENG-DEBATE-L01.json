@@ -101,8 +101,8 @@
       "title": "찬반 토론하기",
       "question": "Schools should replace paper\ntextbooks with tablets. 찬성? 반대?",
       "goals": [
-        "① 토론의 차례와 차례마다의 표현을 찾아요.",
-        "② 근거를 들어 반박하며 부모님과 토론해요."
+        "① 토론의 차례와 차례마다의 표현을 찾을 수 있다.",
+        "② 근거를 들어 반박하며 부모님과 토론할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -149,7 +149,7 @@
       "role": "prior",
       "objectives": [],
       "title": "토의·발표 표현 떠올리기",
-      "text": "지난번에 배운 표현으로 말해요.",
+      "text": "지난번에 배운 표현으로 말해 보자.",
       "problems": [
         {
           "text": "정중하게 반대하기:\n“네 말도 알겠지만 ~”"
@@ -228,7 +228,7 @@
         "width": 12.13,
         "size": 20
       },
-      "key": "최종 발언에는 새 이유를 넣지 않아요.",
+      "key": "최종 발언에는 새 이유를 넣지 않는다.",
       "notes": {
         "목적": "찬성·반대가 번갈아 입론, 반박, 최종 발언을 하는 여섯 차례와 차례마다의 표현·시간을 보여 줍니다(목표 A, 오해 M3·M4).",
         "시간": "약 3분",
@@ -259,7 +259,7 @@
         "B"
       ],
       "title": "반박의 네 걸음",
-      "text": "상대의 사람이 아니라 상대의 근거에 반박해요.",
+      "text": "상대의 사람이 아니라 상대의 근거에 반박한다.",
       "cards": [
         {
           "title": "① 요약",
@@ -315,7 +315,7 @@
           "③ 찬성 반박(아이): You said that tablets can be distracting. That may be true, but schools can block games and chat apps during class. So tablets can be used only for learning."
         ]
       },
-      "question": "③은 ②의 어느 근거에 답하나요? 반박의 네 걸음을 찾아요.",
+      "question": "③은 ②의 어느 근거에 답하는가? 반박의 네 걸음을 찾자.",
       "notes": {
         "목적": "본보기 대본의 반대 입론(②)과 찬성 반박(③)을 읽고, 반박이 상대 입론의 근거를 그대로 받아 네 걸음으로 답하는 것을 찾습니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -344,8 +344,8 @@
       "objectives": [
         "A"
       ],
-      "title": "표현을 넣어요",
-      "text": "어느 차례의 말일까? 상자에서 골라 넣어요.",
+      "title": "표현을 넣자",
+      "text": "어느 차례의 말일까? 상자에서 골라 넣자.",
       "problems": [
         {
           "text": "______ every student\nshould join a school club\nfor two reasons."
@@ -392,7 +392,7 @@
         "B"
       ],
       "title": "어느 반박이 좋을까?",
-      "claim": "반대 쪽: “Tablets are expensive.”에 두 친구가 이렇게 반박했어요.",
+      "claim": "반대 쪽: “Tablets are expensive.”에 두 친구가 이렇게 반박했다.",
       "left": {
         "title": "가",
         "text": "You said that tablets are\nexpensive. That may be true, but\none tablet can replace many\nbooks, so it can save money."
@@ -401,7 +401,7 @@
         "title": "나",
         "text": "That's wrong. Tablets are\nnot expensive at all.\nYou don't know anything\nabout tablets."
       },
-      "question": "어느 반박이 좋은가요? 다른 쪽은 무엇이 문제인가요?",
+      "question": "어느 반박이 좋은가? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "근거 없이 상대를 공격하는 반박과, 상대 근거를 요약하고 근거로 답하는 정중한 반박을 비교합니다(목표 A·B, 오해 M1·M2).",
         "시간": "약 2분",
@@ -430,7 +430,7 @@
       "objectives": [
         "B"
       ],
-      "title": "반박해 봐요",
+      "title": "반박해 보자",
       "text": "You said that ~. That may be true, but ~ because ~. So ~.",
       "problems": [
         {
@@ -473,18 +473,18 @@
         "A",
         "B"
       ],
-      "title": "말하기: 대본으로 토론해요",
+      "title": "말하기: 대본으로 토론하자",
       "steps": [
-        "대본 ①~⑥을 차례대로\n소리 내어 읽어요.",
-        "차례마다 타이머로\n시간을 재요.",
-        "역할을 바꿔 다시 읽어요.",
-        "반박 한 차례를\n내 말로 바꿔 말해요.",
-        "잘한 점을 서로 말해요."
+        "대본 ①~⑥을 차례대로\n소리 내어 읽는다.",
+        "차례마다 타이머로\n시간을 잰다.",
+        "역할을 바꿔 다시 읽는다.",
+        "반박 한 차례를\n내 말로 바꿔 말한다.",
+        "잘한 점을 서로 말한다."
       ],
       "criteria": [
-        "차례와 시간을 지켰어요",
-        "상대를 보며 말했어요",
-        "반박을 내 말로 바꿨어요"
+        "차례와 시간을 지켰다",
+        "상대를 보며 말했다",
+        "반박을 내 말로 바꿨다"
       ],
       "notes": {
         "목적": "활동지 1의 본보기 대본을 아이(찬성)와 부모(반대)가 차례대로 소리 내어 읽고, 역할을 바꿔 한 번 더 읽습니다. 두 번째에는 반박 한 차례를 자기 말로 바꿔 봅니다(목표 A·B).",
@@ -515,8 +515,8 @@
       "objectives": [
         "B"
       ],
-      "title": "입론을 준비해요",
-      "text": "논제를 고르고 입장 카드를 뽑아요. 메모는 활동지 3에!",
+      "title": "입론을 준비하자",
+      "text": "논제를 고르고 입장 카드를 뽑자. 메모는 활동지 3에!",
       "problems": [
         {
           "text": "Every student should join\na school club."
@@ -556,7 +556,7 @@
         "A",
         "B"
       ],
-      "title": "토론해요: 여섯 차례",
+      "title": "토론하기: 여섯 차례",
       "text": "①입론 → ②입론 → ③반박 → ④반박 → ⑤최종 → ⑥최종",
       "problems": [
         {
@@ -569,7 +569,7 @@
           "text": "최종 발언:\nTo sum up, ~.\nFor these reasons, we still believe ~."
         },
         {
-          "text": "기준표로 함께 확인해요\n(활동지 4)."
+          "text": "기준표로 함께 확인한다\n(활동지 4)."
         }
       ],
       "notes": {
@@ -623,15 +623,15 @@
       "bad": [
         {
           "text": "That's wrong.",
-          "note": "근거를\n붙여요"
+          "note": "근거를\n붙인다"
         },
         {
           "text": "입론만 되풀이",
-          "note": "상대 근거를\n요약하고 답해요"
+          "note": "상대 근거를\n요약하고 답한다"
         },
         {
           "text": "최종 발언의 새 이유",
-          "note": "정리만\n해요"
+          "note": "정리만\n한다"
         }
       ],
       "explain": "요약 → 인정·반박 → 근거 → 우리 주장, 최종 발언은 정리만",
@@ -664,8 +664,8 @@
       "objectives": [
         "A"
       ],
-      "title": "고르고, 고쳐요",
-      "text": "①은 차례대로, ②는 고르고, ③은 고쳐요.",
+      "title": "고르고, 고치기",
+      "text": "①은 차례대로, ②는 고르고, ③은 고치시오.",
       "problems": [
         {
           "text": "가 You said that ~.  나 To sum up, ~.\n다 We believe that ~ for two reasons.\n→ 토론 차례대로 놓으면?"
@@ -781,7 +781,7 @@
       },
       "key": {
         "title": "토론의 약속",
-        "text": "사람이 아니라 근거에 답해요."
+        "text": "사람이 아니라 근거에 답한다."
       },
       "notes": {
         "목적": "S02에서 정중하게 반대하는 표현이 흔들리면, 토론 전에 짧은 의견에 정중하게 반대하는 연습을 다시 합니다.",
@@ -808,19 +808,19 @@
     "items": [
       {
         "no": 1,
-        "prompt": "부모-아이 토론 대본입니다(논제: Schools should replace paper textbooks with tablets.). 차례마다 이름(입론·반박·최종 발언)을 확인하며 소리 내어 읽으세요(S09).",
+        "prompt": "부모-아이 토론 대본이다(논제: Schools should replace paper textbooks with tablets.). 차례마다 이름(입론·반박·최종 발언)을 확인하며 소리 내어 읽으시오(S09).",
         "read": "① 찬성 입론(아이): We believe that schools should replace paper textbooks with tablets for two reasons. First, tablets make school bags much lighter, because one tablet can hold all of our textbooks. Second, digital textbooks can be updated quickly, so students can always learn the newest information.\n② 반대 입론(부모): We believe that schools should keep paper textbooks. First, reading on a screen for many hours can make students' eyes tired. Second, tablets can be distracting. Students may play games or chat instead of studying.\n③ 찬성 반박(아이): You said that tablets can be distracting. That may be true, but schools can block games and chat apps during class. So tablets can be used only for learning.\n④ 반대 반박(부모): You said that tablets make bags lighter. I see your point. However, students can leave heavy books in their lockers, and a tablet can break or run out of battery. So paper books are still the safer choice.\n⑤ 찬성 최종 발언(아이): To sum up, tablets are lighter, always up to date, and can be controlled by schools. For these reasons, we still believe that schools should switch to tablets.\n⑥ 반대 최종 발언(부모): In conclusion, paper textbooks are easier on the eyes, less distracting, and never run out of battery. That is why we believe that schools should keep paper textbooks.",
         "answer": "차례: ① 찬성 입론 ② 반대 입론 ③ 찬성 반박 ④ 반대 반박 ⑤ 찬성 최종 발언 ⑥ 반대 최종 발언. 반박 ③은 ②의 ‘집중을 흩뜨린다’에, 반박 ④는 ①의 ‘가방이 가벼워진다’에 답합니다. 낱말 뜻: replace 바꾸다, update 새로 고치다, distracting 집중을 흩뜨리는, block 막다, locker 사물함, up to date 최신의, run out of ~이 다 떨어지다. 대본의 뜻: ① 우리는 두 가지 까닭으로 학교가 종이 교과서를 태블릿으로 바꿔야 한다고 믿습니다. 첫째, 태블릿 하나에 교과서를 모두 담을 수 있어 가방이 훨씬 가벼워집니다. 둘째, 디지털 교과서는 빨리 고칠 수 있어 학생들이 늘 최신 정보를 배울 수 있습니다. ② 우리는 학교가 종이 교과서를 지켜야 한다고 믿습니다. 첫째, 화면으로 오래 읽으면 눈이 피로해질 수 있습니다. 둘째, 태블릿은 집중을 흩뜨릴 수 있습니다. 학생들이 공부 대신 게임이나 채팅을 할지도 모릅니다. ③ 태블릿이 집중을 흩뜨린다고 하셨습니다. 그럴 수도 있지만 학교는 수업 중 게임과 채팅 앱을 막을 수 있습니다. 그러니 태블릿은 공부에만 쓰일 수 있습니다. ④ 태블릿이 가방을 가볍게 한다고 하셨습니다. 그 점은 알겠습니다. 하지만 무거운 책은 사물함에 두면 되고, 태블릿은 고장 나거나 배터리가 떨어질 수 있습니다. 그러니 종이 책이 여전히 더 안전한 선택입니다. ⑤ 정리하면, 태블릿은 가볍고 늘 최신이며 학교가 관리할 수 있습니다. 그래서 우리는 여전히 학교가 태블릿으로 바꿔야 한다고 믿습니다. ⑥ 결론적으로, 종이 교과서는 눈에 편하고 집중을 덜 흩뜨리며 배터리가 떨어질 일이 없습니다. 그래서 우리는 학교가 종이 교과서를 지켜야 한다고 믿습니다."
       },
       {
         "no": 2,
-        "prompt": "상자에서 알맞은 표현을 골라 빈칸에 쓰세요.  [ because · To sum up · We believe that · That may be true, but · You said that ]",
+        "prompt": "상자에서 알맞은 표현을 골라 빈칸에 쓰시오.  [ because · To sum up · We believe that · That may be true, but · You said that ]",
         "read": "A: ______ students should wear school uniforms for two reasons.\nB: ______ uniforms save time. ______ choosing clothes takes only a minute. So we do not need uniforms.\nA: That is not true for everyone ______ many students spend a long time choosing clothes.\nA: ______, uniforms save time and make everyone feel equal.",
         "answer": "차례대로 We believe that / You said that / That may be true, but / because / To sum up. 다섯 개 가운데 네 개 이상이면 통과."
       },
       {
         "no": 3,
-        "prompt": "S08 반박 하나를 쓰고, S10에서 고른 논제로 입론과 반박을 메모하세요(낱말로 짧게, 우리말 섞어도 돼요).",
+        "prompt": "S08 반박 하나를 쓰고, S10에서 고른 논제로 입론과 반박을 메모하시오(낱말로 짧게, 우리말 섞어도 된다).",
         "line_label": "S08 반박 하나:",
         "lines": 2,
         "table": {
@@ -865,7 +865,7 @@
       },
       {
         "no": 4,
-        "prompt": "토론 기준표: 지킨 항목에 ✔ 하세요(S11). 나와 부모님이 따로 표시해요.",
+        "prompt": "토론 기준표: 지킨 항목에 ✔ 하시오(S11). 나와 부모님이 따로 표시한다.",
         "table": {
           "headers": [
             "항목",
@@ -915,7 +915,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 토론의 여섯 차례를 순서대로 쓰세요.\n② 반박의 네 걸음을 영어 표현과 함께 쓰세요.\n③ 최종 발언에서 하지 않는 것은 무엇인가요?",
+        "prompt": "① 토론의 여섯 차례를 순서대로 쓰시오.\n② 반박의 네 걸음을 영어 표현과 함께 쓰시오.\n③ 최종 발언에서 하지 않는 것은 무엇인가?",
         "lines": 3,
         "answer": "① 찬성 입론 → 반대 입론 → 찬성 반박 → 반대 반박 → 찬성 최종 발언 → 반대 최종 발언 ② 요약(You said that ~) → 인정·반박 시작(That may be true, but ~) → 근거(because ~) → 우리 주장(So ~) ③ 새 이유를 넣지 않는다. 세 가지 모두 도움 없이 하면 통과."
       }

@@ -90,8 +90,8 @@
       "title": "요지·주제·제목 찾기",
       "question": "글쓴이의 진짜 생각은 글의 어디에 있을까?\n요지·주제·제목은 어떻게 찾을까?",
       "goals": [
-        "① 주제문과 핵심어로 요지를 한 문장으로 정리해요.",
-        "② 요지에 맞는 주제와 제목을 골라요."
+        "① 주제문과 핵심어로 요지를 한 문장으로 정리할 수 있다.",
+        "② 요지에 맞는 주제와 제목을 고를 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -138,13 +138,13 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 글 읽기",
-      "text": "글을 읽고 질문에 답해요.  owner 주인 · trust 믿다",
+      "text": "글을 읽고 질문에 답해 보자.  owner 주인 · trust 믿다",
       "passage": {
         "paragraphs": [
           "Many people think that cats don't love their owners. However, cats show love in their own ways. For example, they often follow their owners from room to room. They also like to sleep near the people they trust. So, a quiet cat may love you more than you think."
         ]
       },
-      "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가요?",
+      "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가?",
       "notes": {
         "목적": "중3 ‘요지와 세부 정보’에서 요지를 ‘주제 + 핵심’ 한 문장으로 말하고, 예시(세부 정보)와 구별한 것을 기억하는지 확인합니다.",
         "시간": "약 3분",
@@ -178,7 +178,7 @@
         "B"
       ],
       "title": "요지, 주제, 제목",
-      "text": "세 가지 모두 요지를 먼저 찾으면 풀려요.",
+      "text": "세 가지 모두 요지를 먼저 찾으면 풀린다.",
       "cards": [
         {
           "title": "요지",
@@ -190,14 +190,14 @@
         },
         {
           "title": "제목",
-          "text": "요지를 짧고 눈길 끌게\n(질문·비유도 돼요)"
+          "text": "요지를 짧고 눈길 끌게\n(질문·비유도 된다)"
         },
         {
           "title": "주제문",
           "text": "요지가 드러난 문장\n첫·끝 문장, However 뒤"
         }
       ],
-      "key": "For example 뒤는 예시예요. 주제문은 그 앞에 있어요.",
+      "key": "For example 뒤는 예시이다. 주제문은 그 앞에 있다.",
       "notes": {
         "목적": "요지(문장)·주제(명사구)·제목(짧고 눈길을 끄는 말)의 차이와, 요지가 드러난 문장(주제문)이 잘 나오는 자리를 알려 줍니다(목표 A·B, 오해 M1·M3).",
         "시간": "약 2분",
@@ -229,7 +229,7 @@
         "A"
       ],
       "title": "요지를 찾는 네 단계",
-      "text": "신호어는 주제문이 어디 있는지 알려 줘요.",
+      "text": "신호어는 주제문이 어디 있는지 알려 준다.",
       "steps": [
         "첫 두 문장: 무엇에 대한 글?",
         "되풀이되는 핵심어에 동그라미",
@@ -300,14 +300,14 @@
       "objectives": [
         "A"
       ],
-      "title": "함께 찾아요: 실수",
+      "title": "함께 찾자: 실수",
       "text": "embarrassed 창피한 · notice 알아차리다 · spell 철자를 쓰다 · success 성공",
       "passage": {
         "paragraphs": [
           "Many students think that making mistakes is a bad thing. They feel embarrassed when they give a wrong answer in class. However, mistakes are an important part of learning. When you make a mistake, you notice what you don't know yet. Then you pay more attention to the right answer. For example, if you spell a word wrong on a test, you will probably remember the correct spelling for a long time. In fact, many people learn more from their mistakes than from easy success. So don't be afraid of making mistakes. They help you learn better."
         ]
       },
-      "question": "핵심어에 동그라미, 주제문에 밑줄!  요지를 한 문장으로 말해요.",
+      "question": "핵심어에 동그라미, 주제문에 밑줄!  요지를 한 문장으로 말해 보자.",
       "notes": {
         "목적": "부모가 글을 읽어 주고, 네 단계를 따라 핵심어·신호어·주제문을 찾아 요지를 한 문장으로 말하는 과정을 함께 해 봅니다(목표 A, 오해 M2).",
         "시간": "약 4분",
@@ -340,22 +340,22 @@
         "A"
       ],
       "title": "가장 알맞은 요지는?",
-      "text": "S05 글의 요지로 가장 알맞은 것을 골라요.",
+      "text": "S05 글의 요지로 가장 알맞은 것을 골라 보자.",
       "options": [
         {
-          "text": "실수하면 창피해요. 그러니 실수는 나빠요."
+          "text": "실수하면 창피하다. 그러니 실수는 나쁘다."
         },
         {
-          "text": "실수는 배움의 중요한 부분이니 두려워하지 말아요."
+          "text": "실수는 배움의 중요한 부분이니 두려워하지 말자."
         },
         {
-          "text": "시험에서 틀린 철자는 오래 기억해요."
+          "text": "시험에서 틀린 철자는 오래 기억한다."
         },
         {
-          "text": "공부를 잘하려면 잠을 충분히 자야 해요."
+          "text": "공부를 잘하려면 잠을 충분히 자야 한다."
         }
       ],
-      "question": "요지는? 나머지는 왜 요지가 아닌가요?",
+      "question": "요지는? 나머지는 왜 요지가 아닌가?",
       "notes": {
         "목적": "S05 글의 요지를 고르며, 글쓴이가 반대하는 생각(가), 예시 하나(다), 글에 없는 내용(라)을 가려냅니다(목표 A, 오해 M1·M2). 활동지 5에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -363,7 +363,7 @@
           "“S05 글의 요지로 가장 알맞은 것을 고르고, 나머지가 왜 아닌지 하나씩 말해 줘.”"
         ],
         "정답": [
-          "나 (실수는 배움의 중요한 부분이니 두려워하지 말아요.)",
+          "나 (실수는 배움의 중요한 부분이니 두려워하지 말자.)",
           "가: 글쓴이가 아니라 많은 학생의 생각이고, 글쓴이는 However 뒤에서 반대합니다(반대).",
           "다: For example 뒤의 예시 하나입니다(너무 좁음).",
           "라: 글에 없는 내용입니다(잠 이야기는 나오지 않음)."
@@ -386,7 +386,7 @@
         "B"
       ],
       "title": "요지 → 주제 → 제목",
-      "text": "요지를 줄이면 주제, 눈길을 끌게 바꾸면 제목이에요.",
+      "text": "요지를 줄이면 주제, 눈길을 끌게 바꾸면 제목이다.",
       "table": {
         "headers": [
           "",
@@ -397,7 +397,7 @@
           [
             "요지",
             "문장 (글쓴이의 생각)",
-            "실수는 배움에 중요하니\n두려워하지 말아요."
+            "실수는 배움에 중요하니\n두려워하지 말자."
           ],
           [
             "주제",
@@ -449,7 +449,7 @@
         "B"
       ],
       "title": "이 제목이 알맞을까?",
-      "claim": "S05 글의 제목을 두 친구가 이렇게 골랐어요.",
+      "claim": "S05 글의 제목을 두 친구가 이렇게 골랐다.",
       "left": {
         "title": "가",
         "figure": {
@@ -461,7 +461,7 @@
             }
           ]
         },
-        "text": "However 뒤의 생각과 같아요."
+        "text": "However 뒤의 생각과 같다."
       },
       "right": {
         "title": "나",
@@ -474,9 +474,9 @@
             }
           ]
         },
-        "text": "‘spell’이 글에 나와요."
+        "text": "‘spell’이 글에 나온다."
       },
-      "question": "요지와 맞는 제목은? 다른 친구는 무엇을 놓쳤나요?",
+      "question": "요지와 맞는 제목은? 다른 친구는 무엇을 놓쳤는가?",
       "notes": {
         "목적": "예시에 나온 낱말(spell)로 제목을 고르는 실수를 비교로 바로잡습니다(목표 B, 오해 M1·M4).",
         "시간": "약 2분",
@@ -505,7 +505,7 @@
       "objectives": [
         "A"
       ],
-      "title": "찾아봐요: 짧은 휴식",
+      "title": "찾아보자: 짧은 휴식",
       "text": "break 휴식 · focus 집중하다 · careless 부주의한 · rest 쉬다",
       "passage": {
         "paragraphs": [
@@ -546,7 +546,7 @@
         "B"
       ],
       "title": "S09 글의 주제는?",
-      "text": "S09 글의 주제로 가장 알맞은 것을 골라요.",
+      "text": "S09 글의 주제로 가장 알맞은 것을 골라 보자.",
       "options": [
         {
           "text": "the best time to drink water"
@@ -561,7 +561,7 @@
           "text": "ways to exercise every day"
         }
       ],
-      "question": "주제는? 나머지는 무엇이 문제인가요?",
+      "question": "주제는? 나머지는 무엇이 문제인가?",
       "notes": {
         "목적": "S09 글의 요지를 명사구로 줄인 주제 보기를 고르고, 글의 낱말을 쓴 보기(가), 글의 일부(나), 글에 없는 보기(라)를 가려냅니다(목표 B, 오해 M3·M4). 활동지 2에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -595,16 +595,16 @@
       ],
       "title": "말하기: 요지 전하고 제목 짓기",
       "steps": [
-        "부모가 짧은 글을\n두 번 읽어 줘요.",
-        "아이가 요지를 전해요:\nThis text says that ~.",
-        "아이가 제목을 지어요.",
-        "부모도 제목 두 개를 지어요.\n(하나는 일부러 좁게)",
-        "어느 제목이 요지와 맞는지\n까닭을 말해요."
+        "부모가 짧은 글을\n두 번 읽어 준다.",
+        "아이가 요지를 전한다:\nThis text says that ~.",
+        "아이가 제목을 짓는다.",
+        "부모도 제목 두 개를 짓는다.\n(하나는 일부러 좁게)",
+        "어느 제목이 요지와 맞는지\n까닭을 말한다."
       ],
       "criteria": [
-        "요지에 주제와 핵심이 있어요",
-        "제목이 요지와 같은 방향이에요",
-        "좁은 제목을 가려냈어요"
+        "요지에 주제와 핵심이 있다",
+        "제목이 요지와 같은 방향이다",
+        "좁은 제목을 가려냈다"
       ],
       "notes": {
         "목적": "부모가 읽어 주는 짧은 글을 듣고 요지를 한 문장으로 전한 뒤, 요지와 같은 방향의 제목을 지어 서로 비교합니다(목표 A·B).",
@@ -638,14 +638,14 @@
       "objectives": [
         "A"
       ],
-      "title": "혼자 읽어요: 도시의 나무",
+      "title": "혼자 읽기: 도시의 나무",
       "text": "shade 그늘 · dust 먼지 · in addition 게다가\ndecoration 장식품 · comfortable 편안한",
       "passage": {
         "paragraphs": [
           "Trees in cities do more than make streets beautiful. On hot summer days, they give shade, so the air under them is much cooler than the air in the sun. Trees also make the air cleaner because their leaves catch dust. In addition, people who live near parks and trees often feel less stressed. That is why many cities are planting more trees these days. Trees are not just decorations. They are important helpers that make city life healthier and more comfortable."
         ]
       },
-      "question": "요지를 한 문장으로 말하고, 주제문을 짚어요.",
+      "question": "요지를 한 문장으로 말하고, 주제문을 짚으시오.",
       "notes": {
         "목적": "도움 없이 처음 보는 글의 요지를 한 문장으로 말하고 주제문을 짚는지 확인합니다(목표 A). 활동지 1·4에 비슷한 글이 있습니다.",
         "시간": "약 4분",
@@ -656,7 +656,7 @@
         "정답": [
           "요지 예: 도시의 나무는 거리를 아름답게 할 뿐 아니라 도시 생활을 더 건강하고 쾌적하게 만드는 중요한 도우미다.",
           "주제문: Trees in cities do more than make streets beautiful. / They are important helpers that make city life healthier and more comfortable.",
-          "기준: 요지에 주제(도시의 나무)와 핵심(도시 생활에 중요한 도우미)이 들어가고 주제문을 짚으면 통과입니다. ‘나무는 그늘을 줘요’처럼 예 하나만 말하면 요지는 아직입니다."
+          "기준: 요지에 주제(도시의 나무)와 핵심(도시 생활에 중요한 도우미)이 들어가고 주제문을 짚으면 통과입니다. ‘나무는 그늘을 준다’처럼 예 하나만 말하면 요지는 아직입니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “되풀이되는 낱말은? 첫 문장과 끝 문장을 다시 읽어 봐.”라고만 말합니다.",
@@ -678,7 +678,7 @@
         "B"
       ],
       "title": "S12 글의 주제는?",
-      "text": "S12 글의 주제로 가장 알맞은 것을 골라요.",
+      "text": "S12 글의 주제로 가장 알맞은 것을 고르시오.",
       "options": [
         {
           "text": "the importance of trees in city life"
@@ -693,7 +693,7 @@
           "text": "the shade that trees give in summer"
         }
       ],
-      "question": "주제는? 나머지는 무엇이 문제인가요?",
+      "question": "주제는? 나머지는 무엇이 문제인가?",
       "notes": {
         "목적": "S12 글의 요지를 줄인 주제 보기를 고르고, 나머지 보기를 가려내는지 확인합니다(목표 B, 오해 M3).",
         "시간": "약 2분",
@@ -730,7 +730,7 @@
       "goodTitle": "○ 잘한 답",
       "good": [
         {
-          "text": "S12 도시의 나무는 도시 생활을 돕는\n중요한 도우미예요."
+          "text": "S12 도시의 나무는 도시 생활을 돕는\n중요한 도우미이다."
         },
         {
           "text": "S13 가 the importance of trees\nin city life"
@@ -738,16 +738,16 @@
       ],
       "bad": [
         {
-          "text": "나무는 그늘을 줘요",
-          "note": "예 하나\n(너무 좁아요)"
+          "text": "나무는 그늘을 준다",
+          "note": "예 하나\n(너무 좁다)"
         },
         {
           "text": "다 ways to keep the air clean",
-          "note": "너무 넓어요"
+          "note": "너무 넓다"
         },
         {
           "text": "라 the shade …",
-          "note": "너무 좁아요"
+          "note": "너무 좁다"
         }
       ],
       "explain": "요지 = 주제 + 핵심,  주제 = 요지를 줄인 명사구",
@@ -781,7 +781,7 @@
         "B"
       ],
       "title": "S12 글의 제목은?",
-      "text": "S12 글의 제목으로 가장 알맞은 것을 골라요.",
+      "text": "S12 글의 제목으로 가장 알맞은 것을 고르시오.",
       "options": [
         {
           "text": "Leaves Catch Dust"
@@ -834,7 +834,7 @@
       "dont": "예시의 낱말로 고르기",
       "review": [
         {
-          "text": "요지·주제·제목은\n어떻게 달라요?"
+          "text": "요지·주제·제목은\n어떻게 다른가?"
         },
         {
           "text": "주제문이 잘 나오는\n자리는?"
@@ -879,7 +879,7 @@
           "Walking is a great exercise for everyone. You don't need any special equipment. For example, you don't have to buy a ball, a racket, or a bike. Also, you can walk almost anywhere, such as in a park or around your school. So, try to walk for twenty minutes every day."
         ]
       },
-      "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가요?",
+      "question": "① 글쓴이가 가장 하고 싶은 말은?　② For example 뒤는 무엇의 예인가?",
       "notes": {
         "목적": "S02에서 요지와 예시(세부 정보)의 구별이 흔들리면, 짧은 글로 주제문과 예시를 나누는 연습을 다시 합니다.",
         "시간": "약 4분",
@@ -908,7 +908,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "글을 네 단계로 읽고 물음에 답하세요. 핵심어에는 동그라미, 주제문에는 밑줄을 그으세요.",
+        "prompt": "글을 네 단계로 읽고 물음에 답하시오. 핵심어에는 동그라미, 주제문에는 밑줄을 그으시오.",
         "read": "Today, many students take notes on laptops or tablets because typing is fast. However, writing by hand may be a better way to learn. When you write by hand, you can't write down every word that the teacher says. So you have to listen carefully and choose the most important ideas. This helps you understand and remember the lesson. In fact, some studies have found that students who take notes by hand often remember more than students who type. Next time you study, try putting down your keyboard and picking up a pen.",
         "line_label": "① 핵심어 두 개  ② 요지(한 문장):",
         "lines": 3,
@@ -916,7 +916,7 @@
       },
       {
         "no": 2,
-        "prompt": "1의 글의 주제로 가장 알맞은 것에 ✔ 하고, 고르지 않은 보기 하나를 골라 까닭을 쓰세요.",
+        "prompt": "1의 글의 주제로 가장 알맞은 것에 ✔ 하고, 고르지 않은 보기 하나를 골라 까닭을 쓰시오.",
         "choices": [
           "how to type faster on a laptop",
           "the benefits of taking notes by hand",
@@ -930,7 +930,7 @@
       },
       {
         "no": 3,
-        "prompt": "1의 글의 제목으로 가장 알맞은 것에 ✔ 하세요.",
+        "prompt": "1의 글의 제목으로 가장 알맞은 것에 ✔ 하시오.",
         "choices": [
           "Laptops Make Students Smarter",
           "Teachers Talk Too Fast",
@@ -941,15 +941,15 @@
       },
       {
         "no": 4,
-        "prompt": "글을 읽고 요지를 한 문장으로 쓰고, 주제문을 옮겨 쓰세요. 그다음 이 글의 제목을 직접 지어 보세요(영어나 우리말).",
+        "prompt": "글을 읽고 요지를 한 문장으로 쓰고, 주제문을 옮겨 쓰시오. 그다음 이 글의 제목을 직접 지어 보시오(영어나 우리말).",
         "read": "Jisu's grandfather reads the newspaper aloud every morning. Jisu thought it was a strange habit. But last month, she tried reading her English textbook aloud before a test. She noticed that she made fewer mistakes and remembered new words better. When you read aloud, you see the words, say them, and hear them at the same time. Using your eyes, mouth, and ears together helps your brain remember. Reading aloud is not just an old habit; it is a useful way to study.",
         "line_label": "요지 · 주제문 · 제목:",
         "lines": 3,
-        "answer": "요지 예: 소리 내어 읽기는 그저 옛날 습관이 아니라 눈·입·귀를 함께 써서 기억을 돕는 유용한 공부 방법이다. 주제문: Reading aloud is not just an old habit; it is a useful way to study. 제목 예: Read It Out Loud! / Reading Aloud: An Old Habit, A New Study Tool / 소리 내어 읽으면 더 잘 기억해요. 요지에 주제(소리 내어 읽기)와 핵심(유용한 공부 방법)이 들어가고, 제목이 요지와 같은 방향이면 통과. ‘할아버지는 신문을 읽는다’처럼 이야기의 세부를 쓰면 너무 좁습니다. 낱말 뜻: aloud 소리 내어, habit 습관, notice 알아차리다, fewer 더 적은. 글의 뜻: 지수의 할아버지는 매일 아침 신문을 소리 내어 읽으세요. 지수는 그것이 이상한 습관이라고 생각했지요. 그런데 지난달 지수는 시험 전에 영어 교과서를 소리 내어 읽어 보았어요. 실수를 덜 하고 새 낱말을 더 잘 기억한다는 것을 알게 되었지요. 소리 내어 읽으면 낱말을 보고, 말하고, 듣는 것을 동시에 하게 돼요. 눈, 입, 귀를 함께 쓰는 것이 뇌가 기억하도록 도와줘요. 소리 내어 읽기는 그저 옛날 습관이 아니라 유용한 공부 방법이에요."
+        "answer": "요지 예: 소리 내어 읽기는 그저 옛날 습관이 아니라 눈·입·귀를 함께 써서 기억을 돕는 유용한 공부 방법이다. 주제문: Reading aloud is not just an old habit; it is a useful way to study. 제목 예: Read It Out Loud! / Reading Aloud: An Old Habit, A New Study Tool / 소리 내어 읽으면 더 잘 기억한다. 요지에 주제(소리 내어 읽기)와 핵심(유용한 공부 방법)이 들어가고, 제목이 요지와 같은 방향이면 통과. ‘할아버지는 신문을 읽는다’처럼 이야기의 세부를 쓰면 너무 좁습니다. 낱말 뜻: aloud 소리 내어, habit 습관, notice 알아차리다, fewer 더 적은. 글의 뜻: 지수의 할아버지는 매일 아침 신문을 소리 내어 읽으세요. 지수는 그것이 이상한 습관이라고 생각했지요. 그런데 지난달 지수는 시험 전에 영어 교과서를 소리 내어 읽어 보았어요. 실수를 덜 하고 새 낱말을 더 잘 기억한다는 것을 알게 되었지요. 소리 내어 읽으면 낱말을 보고, 말하고, 듣는 것을 동시에 하게 돼요. 눈, 입, 귀를 함께 쓰는 것이 뇌가 기억하도록 도와줘요. 소리 내어 읽기는 그저 옛날 습관이 아니라 유용한 공부 방법이에요."
       },
       {
         "no": 5,
-        "prompt": "4의 글에 대한 문장이에요. 요지이면 ‘요지’, 아니면 너무 좁음·너무 넓음·글에 없음 가운데 하나를 쓰세요.",
+        "prompt": "4의 글에 대한 문장이다. 요지이면 ‘요지’, 아니면 너무 좁음·너무 넓음·글에 없음 가운데 하나를 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -986,7 +986,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 요지, 주제, 제목은 어떻게 다른지 쓰세요.\n② 주제문이 잘 나오는 자리를 두 가지 이상 쓰세요.\n③ 주제·제목 보기에서 빼야 할 보기 네 가지를 쓰세요.",
+        "prompt": "① 요지, 주제, 제목은 어떻게 다른지 쓰시오.\n② 주제문이 잘 나오는 자리를 두 가지 이상 쓰시오.\n③ 주제·제목 보기에서 빼야 할 보기 네 가지를 쓰시오.",
         "lines": 3,
         "answer": "① 요지는 글쓴이가 가장 하고 싶은 말(문장), 주제는 무엇에 대한 글인지(명사구), 제목은 요지를 짧고 눈길 끌게 바꾼 말 ② 첫 문장, 끝 문장, However·But 뒤, Therefore·So 뒤 가운데 두 가지 이상 ③ 너무 좁은 것, 너무 넓은 것, 글에 없는 것, 요지와 반대인 것. 세 가지 모두 도움 없이 하면 통과."
       }

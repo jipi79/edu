@@ -102,8 +102,8 @@
       "title": "긴 문장 구조 분석",
       "question": "두세 줄짜리 영어 문장,\n주어와 본동사는 어디에 있을까?",
       "goals": [
-        "① 괄호로 묶어 주어와 본동사를 찾아요.",
-        "② 의미 단위로 끊어 해석해요."
+        "① 괄호로 묶어 주어와 본동사를 찾을 수 있다.",
+        "② 의미 단위로 끊어 해석할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -147,7 +147,7 @@
       "role": "prior",
       "objectives": [],
       "title": "꾸밈말 떠올리기",
-      "text": "①②는 밑줄 친 부분이 꾸미는 말을, ③은 뜻을 말해요.",
+      "text": "①②는 밑줄 친 부분이 꾸미는 말을, ③은 뜻을 말하자.",
       "problems": [
         {
           "text": "the man ⟦who lives next door⟧"
@@ -189,7 +189,7 @@
         "A"
       ],
       "title": "뼈대와 꾸밈말",
-      "text": "괄호 밖에 남은 것이 뼈대예요.",
+      "text": "괄호 밖에 남은 것이 뼈대이다.",
       "figure": {
         "type": "words",
         "perRow": 1,
@@ -260,7 +260,7 @@
           "text": "[What surprised me most]\nwas ~."
         }
       ],
-      "key": "-ing · 과거분사 · to부정사는 혼자서 본동사가 될 수 없어요.",
+      "key": "-ing · 과거분사 · to부정사는 혼자서 본동사가 될 수 없다.",
       "notes": {
         "목적": "절은 [ ], 분사구·전치사구·삽입구는 ( ), 주어 자리의 명사절은 괄호째 주어라는 네 규칙을 예문으로 보여 줍니다(목표 A, 오해 M2·M4).",
         "시간": "약 3분",
@@ -291,7 +291,7 @@
         "A",
         "B"
       ],
-      "title": "다섯 단계로 찾아요",
+      "title": "다섯 단계로 찾자",
       "text": "괄호 밖 = 뼈대,  괄호 안 = 꾸밈말",
       "steps": [
         "동사 후보에 점 찍기 (시제 있는 것만)",
@@ -328,8 +328,8 @@
       "objectives": [
         "A"
       ],
-      "title": "주어와 본동사를 찾아요",
-      "text": "괄호를 묶고, 주어와 본동사를 찾아요.",
+      "title": "주어와 본동사를 찾자",
+      "text": "괄호를 묶고, 주어와 본동사를 찾자.",
       "problems": [
         {
           "text": "The bridge built over the river needs repairs."
@@ -379,7 +379,7 @@
         "title": "나",
         "text": "본동사: joined\n(주어 바로 뒤의 동사니까요)"
       },
-      "question": "누가 맞나요? 다른 친구는 무엇을 놓쳤나요?",
+      "question": "누가 맞을까? 다른 친구는 무엇을 놓쳤을까?",
       "notes": {
         "목적": "절을 묶고 괄호 밖에서 본동사를 찾은 판단과, 관계사절 안의 동사를 본동사로 잡은 판단을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -408,8 +408,8 @@
       "objectives": [
         "B"
       ],
-      "title": "끊어 읽고 해석해요",
-      "text": "/ 로 끊고, 뼈대부터 해석해요.",
+      "title": "끊어 읽고 해석하자",
+      "text": "/ 로 끊고, 뼈대부터 해석하자.",
       "problems": [
         {
           "text": "The students who finished the project early helped their classmates with the hard parts."
@@ -448,16 +448,16 @@
       ],
       "title": "말하기: 문장 늘리기 놀이",
       "steps": [
-        "부모가 뼈대 문장을 말해요.",
-        "번갈아 꾸밈말을\n하나씩 붙여요.",
-        "다 늘린 문장을 써요.",
-        "상대 문장을 괄호로 묶고\n본동사를 찾아요.",
-        "뼈대부터 해석해요."
+        "부모가 뼈대 문장을 말한다.",
+        "번갈아 꾸밈말을\n하나씩 붙인다.",
+        "다 늘린 문장을 쓴다.",
+        "상대 문장을 괄호로 묶고\n본동사를 찾는다.",
+        "뼈대부터 해석한다."
       ],
       "criteria": [
-        "뼈대가 그대로 남았어요",
-        "상대 문장의 본동사를 찾았어요",
-        "뼈대부터 해석했어요"
+        "뼈대가 그대로 남았다",
+        "상대 문장의 본동사를 찾았다",
+        "뼈대부터 해석했다"
       ],
       "notes": {
         "목적": "부모가 짧은 뼈대 문장을 말하면 아이와 번갈아 꾸밈말(절·구)을 하나씩 붙여 문장을 늘리고, 다 늘린 문장을 상대가 괄호로 묶어 본동사를 찾습니다(목표 A·B).",
@@ -488,8 +488,8 @@
       "objectives": [
         "A"
       ],
-      "title": "진짜 주어에 맞춰요",
-      "text": "괄호 밖의 진짜 주어에 동사의 수를 맞춰요.",
+      "title": "진짜 주어에 맞추자",
+      "text": "괄호 밖의 진짜 주어에 동사의 수를 맞추자.",
       "problems": [
         {
           "text": "The students [who joined the club]\n(has / have) won three prizes."
@@ -538,7 +538,7 @@
           "People who work as data analysts spend much of their time cleaning information collected from many different sources. This job, although it sounds technical, requires good communication skills, because analysts must explain their findings to people who are not experts. The reports that they write help managers in many companies decide which products to sell."
         ]
       },
-      "question": "세 문장을 괄호로 묶고, 주어와 본동사를 찾아 해석해요(활동지 4).",
+      "question": "세 문장을 괄호로 묶고, 주어와 본동사를 찾아 해석하시오(활동지 4).",
       "notes": {
         "목적": "도움 없이 짧은 진로 글의 긴 문장 세 개를 괄호로 묶어 주어와 본동사를 찾고, 끊어 해석하는지 확인합니다(목표 A·B). 활동지 4에 씁니다.",
         "시간": "약 5분",
@@ -629,8 +629,8 @@
       "objectives": [
         "A"
       ],
-      "title": "본동사를 찾아요",
-      "text": "본동사를 찾고, 까닭을 말해요.",
+      "title": "본동사 찾기",
+      "text": "본동사를 찾고, 까닭을 말하시오.",
       "problems": [
         {
           "text": "The cookies baked by my grandmother taste better than any others."
@@ -673,7 +673,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "점 찍기 → [ ] 절 → ( ) 꾸밈 구 → 괄호 밖 주어·본동사 → 뼈대부터 해석\n-ing · 과거분사 · to부정사 · help 뒤 동사원형은 본동사가 아니에요",
+      "key": "점 찍기 → [ ] 절 → ( ) 꾸밈 구 → 괄호 밖 주어·본동사 → 뼈대부터 해석\n-ing · 과거분사 · to부정사 · help 뒤 동사원형은 본동사가 아니다",
       "do": "괄호 밖에서 본동사 찾기",
       "dont": "주어 바로 뒤 동사 고르기",
       "review": [
@@ -717,7 +717,7 @@
       "objectives": [],
       "title": "보충: 꾸밈말 찾기",
       "layout": "support",
-      "text": "명사 + 꾸밈말: 꾸밈말을 떼면 명사가 남아요.",
+      "text": "명사 + 꾸밈말: 꾸밈말을 떼면 명사가 남는다.",
       "table": {
         "headers": [
           "덩어리",
@@ -756,7 +756,7 @@
       },
       "key": {
         "title": "다음 걸음",
-        "text": "덩어리 뒤에 동사를 붙이면 오늘의 긴 문장이 돼요: The boy (singing ~) is my brother."
+        "text": "덩어리 뒤에 동사를 붙이면 오늘의 긴 문장이 된다: The boy (singing ~) is my brother."
       },
       "notes": {
         "목적": "S02에서 관계사절이나 분사구가 흔들리면, 긴 문장을 배우기 전에 명사 + 꾸밈말 덩어리를 다시 다집니다.",
@@ -783,7 +783,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "절은 [ ], 꾸밈 구는 ( )로 묶고, 주어와 본동사를 쓰세요.",
+        "prompt": "절은 [ ], 꾸밈 구는 ( )로 묶고, 주어와 본동사를 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -824,7 +824,7 @@
       },
       {
         "no": 2,
-        "prompt": "의미 단위로 끊고(/), 뼈대부터 해석하세요.",
+        "prompt": "의미 단위로 끊고(/), 뼈대부터 해석하시오.",
         "table": {
           "rows": [
             [
@@ -848,7 +848,7 @@
       },
       {
         "no": 3,
-        "prompt": "괄호 밖의 진짜 주어를 쓰고, 알맞은 동사에 ○ 하세요.",
+        "prompt": "괄호 밖의 진짜 주어를 쓰고, 알맞은 동사에 ○ 하시오.",
         "table": {
           "headers": [
             "문장",
@@ -879,7 +879,7 @@
       },
       {
         "no": 4,
-        "prompt": "화면의 ‘혼자 해 보기: 데이터 분석가’(S11) 세 문장을 괄호로 묶고, 주어·본동사와 뜻을 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기: 데이터 분석가’(S11) 세 문장을 괄호로 묶고, 주어·본동사와 뜻을 쓰시오.",
         "read": "① People who work as data analysts spend much of their time cleaning information collected from many different sources.\n② This job, although it sounds technical, requires good communication skills, because analysts must explain their findings to people who are not experts.\n③ The reports that they write help managers in many companies decide which products to sell.",
         "table": {
           "headers": [
@@ -922,7 +922,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 본동사를 찾는 다섯 단계를 쓰세요.\n② [ ]와 ( )에 묶는 것을 각각 쓰세요.\n③ The fact that she won the prize made her parents very proud.의 본동사를 쓰세요.",
+        "prompt": "① 본동사를 찾는 다섯 단계를 쓰시오.\n② [ ]와 ( )에 묶는 것을 각각 쓰시오.\n③ The fact that she won the prize made her parents very proud.의 본동사를 쓰시오.",
         "lines": 3,
         "answer": "① 동사 후보에 점 → [ ] 절 → ( ) 꾸밈 구 → 괄호 밖 주어·본동사 → 뼈대부터 해석 ② [ ] 관계사절·명사절·부사절, ( ) 분사구·전치사구·to부정사구·삽입구 ③ made (won은 that 절 안의 동사). 세 가지 모두 도움 없이 하면 통과."
       }

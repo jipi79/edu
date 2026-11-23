@@ -95,8 +95,8 @@
       "title": "빈칸 추론",
       "question": "Real change begins with ______.\n빈칸의 답은 글의 어디에 숨어 있을까?",
       "goals": [
-        "① 빈칸 앞뒤의 단서와 요지로 빈칸을 추론해요.",
-        "② 근거 문장을 짚고 함정 보기를 가려내요."
+        "① 빈칸 앞뒤의 단서와 요지로 빈칸을 추론할 수 있다.",
+        "② 근거 문장을 짚고 함정 보기를 가려낼 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -143,13 +143,13 @@
       "role": "prior",
       "objectives": [],
       "title": "짧은 글 읽기",
-      "text": "글을 읽고 질문에 답해요.  messy 지저분한 · lazy 게으른 · creative 창의적인",
+      "text": "글을 읽고 질문에 답해 보자.  messy 지저분한 · lazy 게으른 · creative 창의적인",
       "passage": {
         "paragraphs": [
           "Many people think that a messy desk is a sign of a lazy person. However, some creative people work well at messy desks. For example, some artists get new ideas from the many things on their desks. So, a messy desk is not always a bad thing."
         ]
       },
-      "question": "① 요지는? 근거 문장은?　② For example 뒤는 무엇의 예인가요?",
+      "question": "① 요지는? 근거 문장은?　② For example 뒤는 무엇의 예인가?",
       "notes": {
         "목적": "지난 차시 ‘요지·주제·제목 찾기’에서 However 뒤의 주제문으로 요지를 찾은 것과, 중3 ‘함축된 의미 추론’에서 단서 문장을 그대로 들어 근거를 댄 것을 기억하는지 확인합니다.",
         "시간": "약 3분",
@@ -183,26 +183,26 @@
         "B"
       ],
       "title": "빈칸의 단서 네 가지",
-      "text": "빈칸 추론: 글의 단서로 빈칸에 들어갈 말을 짐작해요.",
+      "text": "빈칸 추론: 글의 단서로 빈칸에 들어갈 말을 짐작한다.",
       "cards": [
         {
           "title": "빈칸 = 주제문",
-          "text": "첫·끝 문장의 빈칸은\n요지가 곧 답이에요."
+          "text": "첫·끝 문장의 빈칸은\n요지가 곧 답이다."
         },
         {
           "title": "For example",
-          "text": "예들을 하나로 묶은 말이\n빈칸에 들어가요."
+          "text": "예들을 하나로 묶은 말이\n빈칸에 들어간다."
         },
         {
           "title": "In other words",
-          "text": "‘다시 말해’\n앞 말과 뜻이 같아요."
+          "text": "‘다시 말해’\n앞 말과 뜻이 같다."
         },
         {
           "title": "However",
-          "text": "앞과 반대되는 말이\n빈칸에 들어가요."
+          "text": "앞과 반대되는 말이\n빈칸에 들어간다."
         }
       ],
-      "key": "답은 내 생각이 아니라 글에 있어요. 근거 문장을 꼭 짚어요.",
+      "key": "답은 내 생각이 아니라 글에 있다. 근거 문장을 꼭 짚자.",
       "notes": {
         "목적": "빈칸이 주제문에 있으면 요지가 답이 된다는 것과, For example·In other words·However가 빈칸의 내용을 알려 주는 방식을 보여 줍니다(목표 A·B, 오해 M2·M3·M4).",
         "시간": "약 2분",
@@ -234,7 +234,7 @@
         "A"
       ],
       "title": "신호어로 빈칸 채우기",
-      "text": "신호어에 동그라미를 치고, 아래 상자에서 골라요.",
+      "text": "신호어에 동그라미를 치고, 아래 상자에서 골라 보자.",
       "problems": [
         {
           "text": "The test looked hard.\nHowever, it was ______."
@@ -282,7 +282,7 @@
         "B"
       ],
       "title": "빈칸을 푸는 다섯 단계",
-      "text": "보기를 먼저 보면 글의 낱말에 끌려가요. 보기는 맨 나중에!",
+      "text": "보기를 먼저 보면 글의 낱말에 끌려간다. 보기는 맨 나중에!",
       "steps": [
         "빈칸 문장 먼저: 무엇을 찾나?",
         "글을 읽으며 단서에 밑줄",
@@ -319,14 +319,14 @@
       "objectives": [
         "A"
       ],
-      "title": "함께 풀어요: 작은 습관",
+      "title": "함께 풀자: 작은 습관",
       "text": "decision 결심 · fail 실패하다 · push-up 팔굽혀펴기 · habit 습관",
       "passage": {
         "paragraphs": [
           "Many people want to change their lives with one big decision. They plan to exercise for two hours every day or to read fifty books in a month. However, these big plans usually fail after a few days. A better way is to start with something very small. For example, you can do five push-ups a day or read just two pages before bed. These actions are so easy that you can do them even on busy days. Slowly, they become habits, and then you can do more. In other words, real change begins with __________."
         ]
       },
-      "question": "① 빈칸 문장은 무엇을 찾나요?　② 단서 문장은?　③ 내 말로 채우면?",
+      "question": "① 빈칸 문장은 무엇을 찾는가?　② 단서 문장은?　③ 내 말로 채우면?",
       "notes": {
         "목적": "부모가 글을 읽어 주고, 다섯 단계 가운데 앞의 세 단계(빈칸 문장 → 단서 밑줄 → 내 말로 채우기)를 함께 해 봅니다(목표 A).",
         "시간": "약 4분",
@@ -359,7 +359,7 @@
         "B"
       ],
       "title": "S06 빈칸에 알맞은 말은?",
-      "text": "내 말과 같은 뜻의 보기를 골라요.",
+      "text": "내 말과 같은 뜻의 보기를 골라 보자.",
       "options": [
         {
           "text": "one big decision"
@@ -374,7 +374,7 @@
           "text": "small, easy actions"
         }
       ],
-      "question": "빈칸에 알맞은 것은? 근거 문장은? 나머지는 왜 아닌가요?",
+      "question": "빈칸에 알맞은 것은? 근거 문장은? 나머지는 왜 아닌가?",
       "notes": {
         "목적": "내 말로 채운 답(작은 것)과 같은 뜻의 보기를 고르고, 글 낱말 함정(가·다)과 예시 하나(나)를 가려냅니다(목표 A·B, 오해 M1·M4).",
         "시간": "약 3분",
@@ -407,7 +407,7 @@
         "B"
       ],
       "title": "근거가 맞는 쪽은?",
-      "claim": "S06 빈칸의 답과 근거를 두 친구가 이렇게 말했어요.",
+      "claim": "S06 빈칸의 답과 근거를 두 친구가 이렇게 말했다.",
       "left": {
         "title": "가",
         "text": "one big decision\nbig이 글에 두 번\n나오니까요."
@@ -416,7 +416,7 @@
         "title": "나",
         "text": "small, easy actions\nFor example 뒤의 예가\n모두 작은 행동이니까요."
       },
-      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤나요?",
+      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤는가?",
       "notes": {
         "목적": "글에 거듭 나온 낱말(big) 때문에 보기를 고른 판단과, 예시들을 묶어 단서로 고른 판단을 비교합니다(목표 B, 오해 M1).",
         "시간": "약 2분",
@@ -446,7 +446,7 @@
         "A",
         "B"
       ],
-      "title": "풀어 봐요: 가르치며 배우기",
+      "title": "풀어 보자: 가르치며 배우기",
       "text": "explain 설명하다 · organize 정리하다 · water cycle 물의 순환",
       "passage": {
         "paragraphs": [
@@ -488,16 +488,16 @@
       ],
       "title": "말하기: 빈칸 퀴즈",
       "steps": [
-        "부모가 짧은 글을 읽다가\n‘음~’ 하고 멈춰요.",
-        "아이가 빈칸을 내 말로 채워요.",
-        "단서가 된 말을 말해요:\nFor example, …",
-        "역할을 바꿔 아이가 S09 글로\n빈칸 문제를 내요.",
-        "부모도 단서를 들어 답해요."
+        "부모가 짧은 글을 읽다가\n‘음~’ 하고 멈춘다.",
+        "아이가 빈칸을 내 말로 채운다.",
+        "단서가 된 말을 말한다:\nFor example, …",
+        "역할을 바꿔 아이가 S09 글로\n빈칸 문제를 낸다.",
+        "부모도 단서를 들어 답한다."
       ],
       "criteria": [
-        "빈칸을 뜻이 통하게 채웠어요",
-        "단서가 된 말을 말했어요",
-        "빈칸 문제를 직접 냈어요"
+        "빈칸을 뜻이 통하게 채웠다",
+        "단서가 된 말을 말했다",
+        "빈칸 문제를 직접 냈다"
       ],
       "notes": {
         "목적": "부모가 읽어 주는 짧은 글의 빈칸을 내 말로 채우고 단서를 말한 뒤, 아이가 S09 글로 빈칸 문제를 만들어 부모에게 냅니다(목표 A·B).",
@@ -532,14 +532,14 @@
         "A",
         "B"
       ],
-      "title": "혼자 풀어요: 좋은 대화",
+      "title": "혼자 풀기: 좋은 대화",
       "text": "pay attention to ~에 귀를 기울이다 · patient 환자 · respected 존중받는",
       "passage": {
         "paragraphs": [
           "Many people believe that good speakers are people who talk a lot. However, the best conversations often happen when people __________. When you really pay attention to someone, you learn what they think and feel. You can also ask better questions because you understand their story. For example, a doctor who listens carefully to a patient can find the problem more quickly. People also feel respected when others listen to them. That is why good listeners are often loved by others."
         ]
       },
-      "question": "ⓐ talk a lot  ⓑ listen carefully  ⓒ ask a doctor  ⓓ speak loudly\n답과 근거 문장은? 틀린 보기 두 개는 왜 아닌가요?",
+      "question": "ⓐ talk a lot  ⓑ listen carefully  ⓒ ask a doctor  ⓓ speak loudly\n답과 근거 문장은? 틀린 보기 두 개는 왜 아닌가?",
       "notes": {
         "목적": "도움 없이 다섯 단계로 빈칸을 풀고, 근거 문장을 짚으며 함정 보기를 가려내는지 확인합니다(목표 A·B, 오해 M3).",
         "시간": "약 5분",
@@ -596,8 +596,8 @@
           "note": "예 속 낱말\n함정"
         },
         {
-          "text": "근거: 그냥요",
-          "note": "단서 문장을\n그대로 짚어요"
+          "text": "근거: 그냥",
+          "note": "단서 문장을\n그대로 짚는다"
         }
       ],
       "explain": "빈칸 문장 → 단서 밑줄 → 내 말로 → 보기 → 넣어 읽기",
@@ -630,8 +630,8 @@
       "objectives": [
         "A"
       ],
-      "title": "빈칸을 채우고 단서를 말해요",
-      "text": "빈칸을 채우고, 단서가 된 신호어를 말해요.",
+      "title": "빈칸을 채우고 단서를 말하자",
+      "text": "빈칸을 채우고, 단서가 된 신호어를 말하시오.",
       "problems": [
         {
           "text": "Most birds can fly. However,\npenguins ______."
@@ -718,7 +718,7 @@
       "objectives": [],
       "title": "보충: 신호어와 근거",
       "layout": "support",
-      "text": "신호어는 뒤에 올 내용의 방향을 알려 줘요.",
+      "text": "신호어는 뒤에 올 내용의 방향을 알려 준다.",
       "table": {
         "headers": [
           "신호어",
@@ -757,7 +757,7 @@
       },
       "key": {
         "title": "근거 대기",
-        "text": "글의 단서 문장을 그대로 짚어요: “~”라고 했으니까 ~예요."
+        "text": "글의 단서 문장을 그대로 짚는다: “~”라고 했으니까 ~이다."
       },
       "notes": {
         "목적": "S02에서 요지 찾기나 근거 대기가 흔들리면, 신호어의 뜻과 ‘단서 문장을 그대로 옮겨 근거 대기’를 다시 다집니다.",
@@ -786,7 +786,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "신호어에 동그라미를 치고, 상자에서 알맞은 말을 골라 빈칸에 쓰세요.  [ late · makes · sleep · won ]  (as a result: 그 결과)",
+        "prompt": "신호어에 동그라미를 치고, 상자에서 알맞은 말을 골라 빈칸에 쓰시오.  [ late · makes · sleep · won ]  (as a result: 그 결과)",
         "table": {
           "headers": [
             "문장",
@@ -827,7 +827,7 @@
       },
       {
         "no": 2,
-        "prompt": "다섯 단계로 빈칸을 푸세요. 먼저 내 말로 채우고, 보기에서 고른 뒤 근거 문장을 옮겨 쓰세요.",
+        "prompt": "다섯 단계로 빈칸을 푸시오. 먼저 내 말로 채우고, 보기에서 고른 뒤 근거 문장을 옮겨 쓰시오.",
         "read": "Have you ever smiled back at someone who smiled at you? Kindness works in a similar way. When someone helps you, you feel good, and you want to help someone else. For example, after a stranger held the door for Minji, she let an old man go ahead of her in line. Later, that man picked up a pen that a student dropped and gave it back. One small act of kindness traveled from person to person. In this way, kindness __________.",
         "choices": [
           "makes people tired",
@@ -842,7 +842,7 @@
       },
       {
         "no": 3,
-        "prompt": "다섯 단계로 빈칸을 푸세요. 보기에서 고르고, 근거 문장과 고르지 않은 보기 하나의 까닭을 쓰세요.",
+        "prompt": "다섯 단계로 빈칸을 푸시오. 보기에서 고르고, 근거 문장과 고르지 않은 보기 하나의 까닭을 쓰시오.",
         "read": "Most of us try to avoid boredom. We pick up our phones whenever we have nothing to do. However, boredom can actually be __________. When you are bored, your mind starts to wander, and you begin to imagine new things. Many writers and artists say that some of their best ideas came while they were doing nothing special, such as waiting for a bus or taking a shower. So the next time you feel bored, don't reach for your phone right away. Give your mind a chance to play.",
         "choices": [
           "a waste of time",
@@ -859,7 +859,7 @@
         "no": 4,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① For example, In other words, However 뒤에는 각각 무엇이 오는지 쓰세요.\n② I thought the movie would be boring. However, it was ______. 빈칸을 채우세요.\n③ 빈칸 문제에서 고르면 안 되는 함정 보기 세 가지를 쓰세요.",
+        "prompt": "① For example, In other words, However 뒤에는 각각 무엇이 오는지 쓰시오.\n② I thought the movie would be boring. However, it was ______. 빈칸을 채우시오.\n③ 빈칸 문제에서 고르면 안 되는 함정 보기 세 가지를 쓰시오.",
         "lines": 3,
         "answer": "① For example → 예(예들을 묶은 말이 빈칸), In other words → 앞 말과 같은 뜻, However → 앞과 반대 ② fun, exciting, interesting 등 boring의 반대 ③ 글의 낱말을 그대로 쓴 보기, 요지와 반대인 보기, 예시 하나만 담은 보기. 세 가지 모두 도움 없이 하면 통과."
       }

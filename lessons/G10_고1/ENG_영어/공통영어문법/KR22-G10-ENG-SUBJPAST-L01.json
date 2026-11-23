@@ -91,8 +91,8 @@
       "title": "가정법 과거",
       "question": "If I were a bird, I would fly to you.\n지금은 새가 아니지만, 새라면?",
       "goals": [
-        "① If + 과거형, would로 지금과 반대되는 일을 말해요.",
-        "② 가정법을 직설법으로 바꾸고, 조건문과 구별해요."
+        "① If + 과거형, would로 지금과 반대되는 일을 말할 수 있다.",
+        "② 가정법을 직설법으로 바꾸고, 조건문과 구별할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -137,7 +137,7 @@
       "role": "prior",
       "objectives": [],
       "title": "if 문장과 과거형 떠올리기",
-      "text": "①②는 골라 읽고 뜻을 말하고, ③은 과거형을 말해요.",
+      "text": "①②는 골라 읽고 뜻을 말하고, ③은 과거형을 말해 보자.",
       "problems": [
         {
           "text": "If it (rains / will rain) tomorrow, I will stay home."
@@ -180,7 +180,7 @@
         "A"
       ],
       "title": "지금과 반대로 상상하기",
-      "text": "지금 사실과 반대되는 일을 상상할 때 과거형을 써요.",
+      "text": "지금 사실과 반대되는 일을 상상할 때 과거형을 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -238,7 +238,7 @@
         "A"
       ],
       "title": "가정법에 쓰는 과거형",
-      "text": "be동사는 주어와 상관없이 were를 써요. ★는 새 모양이에요.",
+      "text": "be동사는 주어와 상관없이 were를 쓴다. ★는 새 모양이다.",
       "table": {
         "headers": [
           "동사",
@@ -311,9 +311,9 @@
         "A"
       ],
       "title": "가정법 문장 만들기",
-      "text": "지금의 사실을 반대로 바꿔 상상해요.",
+      "text": "지금의 사실을 반대로 바꿔 상상한다.",
       "steps": [
-        "사실을 반대로 해요.\ndon't have → have",
+        "사실을 반대로 한다.\ndon't have → have",
         "If + 주어 + 과거형:\nIf I had time,",
         "주어 + would + 동사원형:\nI would help you."
       ],
@@ -324,7 +324,7 @@
         "items": [
           {
             "word": "I don't have time.",
-            "sub": "사실(지금): 시간이 없어요."
+            "sub": "사실(지금): 시간이 없다."
           },
           {
             "word": "If I had time,\nI would help you.",
@@ -363,8 +363,8 @@
       "objectives": [
         "A"
       ],
-      "title": "가정법으로 바꿔 말해요",
-      "text": "괄호 안의 동사를 바꿔 읽고, 뜻과 지금의 사실을 말해요.",
+      "title": "가정법으로 바꿔 말하자",
+      "text": "괄호 안의 동사를 바꿔 읽고, 뜻과 지금의 사실을 말해 보자.",
       "problems": [
         {
           "text": "If I (be) a bird,\nI (will) fly to you."
@@ -411,7 +411,7 @@
         "A"
       ],
       "title": "‘내가 너라면’을 영어로",
-      "claim": "‘내가 너라면, 사과할 텐데.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘내가 너라면, 사과할 텐데.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -436,7 +436,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 왜 맞지 않을까요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 왜 맞지 않을까?",
       "notes": {
         "목적": "사실과 반대인 일에 현재형과 will을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -466,18 +466,18 @@
         "B"
       ],
       "title": "될 수 있는 일, 상상하는 일",
-      "text": "될 수 있는 일은 조건문, 사실과 반대인 일은 가정법이에요.",
+      "text": "될 수 있는 일은 조건문, 사실과 반대인 일은 가정법이다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "If it rains tomorrow,\nI will stay home.",
-            "sub": "조건문: 정말 일어날 수 있어요."
+            "sub": "조건문: 정말 일어날 수 있다."
           },
           {
             "word": "If I were a bird,\nI would fly to you.",
-            "sub": "가정법: 지금 사실과 반대예요.",
+            "sub": "가정법: 지금 사실과 반대이다.",
             "highlight": true
           }
         ]
@@ -492,7 +492,7 @@
           "text": "If + 과거형, would + 동사원형\n‘~라면 ~할 텐데’"
         }
       ],
-      "key": "먼저 물어요: 정말 일어날 수 있는 일인가요, 상상인가요?",
+      "key": "먼저 묻자: 정말 일어날 수 있는 일인가, 상상인가?",
       "notes": {
         "목적": "실제로 일어날 수 있는 일은 조건문(If + 현재형, will), 지금 사실과 반대인 일은 가정법(If + 과거형, would)으로 말한다는 것을 비교합니다(목표 B, 오해 M1).",
         "시간": "약 3분",
@@ -522,7 +522,7 @@
         "B"
       ],
       "title": "조건문일까, 가정법일까?",
-      "text": "될 수 있는 일인지 상상인지 말하고, 골라 읽어요.",
+      "text": "될 수 있는 일인지 상상인지 말하고, 골라 읽어 보자.",
       "problems": [
         {
           "text": "If it rains tomorrow,\nI (will / would) stay home."
@@ -568,7 +568,7 @@
         "B"
       ],
       "title": "가정법과 직설법",
-      "text": "과거형 → 현재형, 긍정 ↔ 부정을 함께 바꿔요.",
+      "text": "과거형 → 현재형, 긍정 ↔ 부정을 함께 바꾼다.",
       "table": {
         "headers": [
           "가정법 과거 (상상)",
@@ -625,8 +625,8 @@
       "objectives": [
         "B"
       ],
-      "title": "바꾸어 말해요",
-      "text": "①②는 가정법으로, ③④는 직설법으로 바꿔 말해요.",
+      "title": "바꾸어 말하자",
+      "text": "①②는 가정법으로, ③④는 직설법으로 바꿔 말해 보자.",
       "problems": [
         {
           "text": "I am not a bird,\nso I can't fly."
@@ -675,16 +675,16 @@
       ],
       "title": "말하기: 만약 ~라면?",
       "steps": [
-        "상상 카드를 한 장 뽑아요.\n(a teacher, a bird …)",
-        "부모가 물어요: What would\nyou do if you were a teacher?",
-        "아이가 답해요: If I were\na teacher, I would ~.",
-        "부모가 물어요: 지금 사실은?\nI am not a teacher, so ~.",
-        "역할을 바꿔 아이가 물어요."
+        "상상 카드를 한 장 뽑는다.\n(a teacher, a bird …)",
+        "부모가 묻는다: What would\nyou do if you were a teacher?",
+        "아이가 답한다: If I were\na teacher, I would ~.",
+        "부모가 묻는다: 지금 사실은?\nI am not a teacher, so ~.",
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
-        "If + 과거형(were)으로 말했어요",
-        "would + 동사원형을 썼어요",
-        "지금의 사실도 말했어요"
+        "If + 과거형(were)으로 말했다",
+        "would + 동사원형을 썼다",
+        "지금의 사실도 말했다"
       ],
       "notes": {
         "목적": "상상 카드를 보고 부모의 질문에 가정법 과거로 답하고, 지금의 사실도 함께 말합니다(목표 A·B).",
@@ -721,7 +721,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "If I (be) rich, I (will)\ntravel around the world."
@@ -829,8 +829,8 @@
         "A",
         "B"
       ],
-      "title": "뜻과 사실을 말해요",
-      "text": "①은 뜻과 사실을, ②는 직설법으로, ③은 골라서 까닭을 말해요.",
+      "title": "뜻과 사실을 말하자",
+      "text": "①은 뜻과 사실을, ②는 직설법으로, ③은 골라서 까닭을 말하시오.",
       "problems": [
         {
           "text": "If I knew her address, I would send a card."
@@ -917,7 +917,7 @@
       "objectives": [],
       "title": "보충: 과거형과 조건의 if",
       "layout": "support",
-      "text": "지금 모양과 과거 모양을 소리 내어 읽어요.",
+      "text": "지금 모양과 과거 모양을 소리 내어 읽어 보자.",
       "table": {
         "headers": [
           "지금",
@@ -984,7 +984,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "괄호 안의 동사를 가정법 과거에 맞게 바꾸어 문장 전체를 쓰세요. 다 쓰면 지금의 사실을 말해 보세요.",
+        "prompt": "괄호 안의 동사를 가정법 과거에 맞게 바꾸어 문장 전체를 쓰시오. 다 쓰면 지금의 사실을 말하시오.",
         "table": {
           "rows": [
             [
@@ -1011,11 +1011,11 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① If I were a famous singer, I would sing for you. (사실: 나는 유명한 가수가 아니에요.) ② If we had more time, we would visit the museum. (사실: 시간이 더 없어요.) ③ If he knew my name, he would say hello. (사실: 그는 내 이름을 몰라요.) ④ If I could speak French, I would talk to her. (사실: 나는 프랑스어를 못해요.) 네 개 가운데 세 개 이상이면 통과. would sang, If I was처럼 쓰면 S04·S05를 다시 봅니다. (famous: 유명한, French: 프랑스어)"
+        "answer": "① If I were a famous singer, I would sing for you. (사실: 나는 유명한 가수가 아니다.) ② If we had more time, we would visit the museum. (사실: 시간이 더 없다.) ③ If he knew my name, he would say hello. (사실: 그는 내 이름을 모른다.) ④ If I could speak French, I would talk to her. (사실: 나는 프랑스어를 못한다.) 네 개 가운데 세 개 이상이면 통과. would sang, If I was처럼 쓰면 S04·S05를 다시 봅니다. (famous: 유명한, French: 프랑스어)"
       },
       {
         "no": 2,
-        "prompt": "알맞은 것에 ○ 하세요.",
+        "prompt": "알맞은 것에 ○ 하시오.",
         "table": {
           "rows": [
             [
@@ -1041,7 +1041,7 @@
       },
       {
         "no": 3,
-        "prompt": "가정법 과거 문장으로 바꾸어 쓰세요.",
+        "prompt": "가정법 과거 문장으로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1068,7 +1068,7 @@
       },
       {
         "no": 4,
-        "prompt": "직설법(지금의 사실) 문장으로 바꾸어 쓰세요. so를 쓰세요.",
+        "prompt": "직설법(지금의 사실) 문장으로 바꾸어 쓰시오. so를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1095,7 +1095,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1126,7 +1126,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 ‘만약 ~라면’ 상상 문장 세 개를 쓰세요(If I were ~ 하나, If I had ~ 하나, 자유롭게 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 ‘만약 ~라면’ 상상 문장 세 개를 쓰시오(If I were ~ 하나, If I had ~ 하나, 자유롭게 하나).",
         "eng": {
           "trace": [
             "If I were you, I would say sorry.",
@@ -1140,7 +1140,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① If I (have / had) a car, I would drive.에서 알맞은 것을 쓰세요.\n② I am not tall, so I can't reach it.을 가정법 과거로 바꾸어 쓰세요.\n③ If I knew the answer, I would tell you.를 직설법으로 바꾸어 쓰세요.",
+        "prompt": "① If I (have / had) a car, I would drive.에서 알맞은 것을 쓰시오.\n② I am not tall, so I can't reach it.을 가정법 과거로 바꾸어 쓰시오.\n③ If I knew the answer, I would tell you.를 직설법으로 바꾸어 쓰시오.",
         "lines": 3,
         "answer": "① had ② If I were tall, I could(would) reach it. ③ I don't know the answer, so I can't(don't) tell you. 세 가지 모두 도움 없이 하면 통과."
       }

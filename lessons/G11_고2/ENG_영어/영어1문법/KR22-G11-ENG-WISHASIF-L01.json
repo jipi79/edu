@@ -91,8 +91,8 @@
       "title": "I wish·as if 가정법",
       "question": "I wish I had a dog.\n실제로는? 이루기 어려운 바람을 영어로 말하려면?",
       "goals": [
-        "① I wish로 지금의 바람과 지난 일의 아쉬움을 말해요.",
-        "② as if 문장을 해석하고 실제 사실을 말해요."
+        "① I wish로 지금의 바람과 지난 일의 아쉬움을 말할 수 있다.",
+        "② as if 문장을 해석하고 실제 사실을 말할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -137,7 +137,7 @@
       "role": "prior",
       "objectives": [],
       "title": "가정법 떠올리기",
-      "text": "가정법 과거와 과거완료를 떠올려요.",
+      "text": "가정법 과거와 과거완료를 떠올려 보자.",
       "problems": [
         {
           "text": "If I had time, I would help you.\n→ 뜻과 숨은 사실은?"
@@ -181,7 +181,7 @@
         "A"
       ],
       "title": "~라면 좋을 텐데: I wish",
-      "text": "I wish + 과거형: 지금 이루기 어려운 바람이에요.",
+      "text": "I wish + 과거형: 지금 이루기 어려운 바람이다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -193,7 +193,7 @@
           },
           {
             "word": "In fact, I don't have a dog.",
-            "sub": "사실은: 지금 개가 없어요"
+            "sub": "사실은: 지금 개가 없다"
           }
         ]
       },
@@ -237,7 +237,7 @@
         "A"
       ],
       "title": "지금일까, 그때일까?",
-      "text": "I wish + 과거형은 지금, I wish + had + 과거분사는 그때예요.",
+      "text": "I wish + 과거형은 지금, I wish + had + 과거분사는 그때이다.",
       "table": {
         "headers": [
           "I wish ~",
@@ -299,7 +299,7 @@
         "A"
       ],
       "title": "뜻과 실제 사실은?",
-      "text": "뜻을 말하고, In fact로 실제 사실을 말해요.",
+      "text": "뜻을 말하고, In fact로 실제 사실을 말해 보자.",
       "problems": [
         {
           "text": "I wish I had more time."
@@ -343,8 +343,8 @@
       "objectives": [
         "A"
       ],
-      "title": "I wish로 바꿔 말해요",
-      "text": "I'm sorry ~ (아쉬워요) → I wish ~ 로 바꿔요.",
+      "title": "I wish로 바꿔 말하자",
+      "text": "I'm sorry ~ (아쉽다) → I wish ~ 로 바꿔 보자.",
       "problems": [
         {
           "text": "I'm sorry I don't have a bike."
@@ -390,7 +390,7 @@
         "A"
       ],
       "title": "‘개가 있으면 좋을 텐데’를 영어로",
-      "claim": "‘(지금) 개가 있으면 좋을 텐데.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘(지금) 개가 있으면 좋을 텐데.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -415,7 +415,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 틀렸나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇이 틀렸는가?",
       "notes": {
         "목적": "I wish 뒤에 현재형을 쓴 문장과 과거형을 쓴 문장을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -445,19 +445,19 @@
         "B"
       ],
       "title": "마치 ~인 것처럼: as if",
-      "text": "as if: ‘마치 ~인 것처럼’, 실제와 반대예요.",
+      "text": "as if: ‘마치 ~인 것처럼’, 실제와 반대이다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "He talks as if he\nknew everything.",
-            "sub": "실제로는: 다 알지 못해요 (지금)",
+            "sub": "실제로는: 다 알지 못한다 (지금)",
             "highlight": true
           },
           {
             "word": "She talks as if she\nhad seen a ghost.",
-            "sub": "실제로는: 유령을 보지 않았어요 (그 전)",
+            "sub": "실제로는: 유령을 보지 않았다 (그 전)",
             "highlight": true
           }
         ]
@@ -502,7 +502,7 @@
         "B"
       ],
       "title": "as if 해석과 실제 사실",
-      "text": "as if 뒤의 내용을 반대로 하면 실제 사실이에요.",
+      "text": "as if 뒤의 내용을 반대로 하면 실제 사실이다.",
       "table": {
         "headers": [
           "as if ~",
@@ -512,17 +512,17 @@
         "rows": [
           [
             "Mina acts as if she\nwere the teacher.",
-            "미나는 마치 선생님인\n것처럼 행동해요.",
+            "미나는 마치 선생님인\n것처럼 행동한다.",
             "She isn't the teacher."
           ],
           [
             "Tom spends money as if\nhe were rich.",
-            "톰은 마치 부자인 것처럼\n돈을 써요.",
+            "톰은 마치 부자인 것처럼\n돈을 쓴다.",
             "He isn't rich."
           ],
           [
             "He talks as if he had\nbeen to Paris.",
-            "그는 마치 파리에 가 본\n것처럼 말해요.",
+            "그는 마치 파리에 가 본\n것처럼 말한다.",
             "He hasn't been\nto Paris."
           ]
         ],
@@ -563,7 +563,7 @@
         "B"
       ],
       "title": "해석하고, 실제로는?",
-      "text": "뜻을 말하고, In fact로 실제 사실을 말해요.",
+      "text": "뜻을 말하고, In fact로 실제 사실을 말해 보자.",
       "problems": [
         {
           "text": "He sings as if he were\na famous singer."
@@ -609,7 +609,7 @@
         "B"
       ],
       "title": "알맞은 모양은?",
-      "text": "괄호의 실제 사실을 보고 골라요.",
+      "text": "괄호의 실제 사실을 보고 골라 보자.",
       "problems": [
         {
           "text": "He talks as if\nhe (knows / knew) me.\n(실제: He doesn't know me.)"
@@ -657,15 +657,15 @@
       "title": "말하기: 실제로는?",
       "steps": [
         "바람 카드: I wish I ~.",
-        "상대가 맞혀요:\nIn fact, you don't ~.",
-        "연기 카드: 왕처럼, 가수처럼\n행동해요.",
-        "상대가 말해요: You act as if\nyou were ~. In fact, ~.",
-        "역할을 바꿔요."
+        "상대가 맞힌다:\nIn fact, you don't ~.",
+        "연기 카드: 왕처럼, 가수처럼\n행동한다.",
+        "상대가 말한다: You act as if\nyou were ~. In fact, ~.",
+        "역할을 바꾼다."
       ],
       "criteria": [
         "I wish·as if 뒤에 과거형",
         "그 전 일은 had + 과거분사",
-        "In fact로 실제 사실을 말했어요"
+        "In fact로 실제 사실을 말했다"
       ],
       "notes": {
         "목적": "바람 카드로 I wish 문장을, 연기 카드로 as if 문장을 말하고, 상대가 In fact, ~.로 실제 사실을 맞힙니다(목표 A·B, 오해 M3).",
@@ -700,7 +700,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "I wish I (have) a sister.\n(지금)"
@@ -808,8 +808,8 @@
         "A",
         "B"
       ],
-      "title": "뜻과 실제 사실을 말해요",
-      "text": "①②는 뜻과 실제 사실을, ③은 고쳐 말해요.",
+      "title": "뜻과 실제 사실을 말하자",
+      "text": "①②는 뜻과 실제 사실을, ③은 고쳐 말하시오.",
       "problems": [
         {
           "text": "I wish I had taken my umbrella."
@@ -857,7 +857,7 @@
       "dont": "I wish I have a dog.",
       "review": [
         {
-          "text": "I wish로?\n(지금 개가 없어요)"
+          "text": "I wish로?\n(지금 개가 없다)"
         },
         {
           "text": "I wish로?\nI'm sorry I didn't\nlisten to Mom."
@@ -896,7 +896,7 @@
       "objectives": [],
       "title": "보충: 한 단계 과거로",
       "layout": "support",
-      "text": "사실과 반대인 상상은 한 단계 과거로 가요.",
+      "text": "사실과 반대인 상상은 한 단계 과거로 간다.",
       "table": {
         "headers": [
           "사실",
@@ -925,7 +925,7 @@
       },
       "key": {
         "title": "오늘은 같은 규칙을",
-        "text": "I wish 뒤와 as if 뒤에도 써요."
+        "text": "I wish 뒤와 as if 뒤에도 쓴다."
       },
       "notes": {
         "목적": "S02에서 가정법 과거·과거완료가 흔들리면, ‘사실과 반대인 상상은 한 단계 과거로’라는 규칙을 다시 다집니다.",
@@ -952,7 +952,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "I wish 문장으로 바꾸어 쓰세요.",
+        "prompt": "I wish 문장으로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -983,7 +983,7 @@
       },
       {
         "no": 2,
-        "prompt": "뜻을 쓰고, In fact로 실제 사실을 쓰세요.",
+        "prompt": "뜻을 쓰고, In fact로 실제 사실을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1019,7 +1019,7 @@
       },
       {
         "no": 3,
-        "prompt": "as if 문장의 뜻을 쓰고, 실제 사실을 쓰세요.",
+        "prompt": "as if 문장의 뜻을 쓰고, 실제 사실을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1051,11 +1051,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 그는 마치 의사인 것처럼 말해요 — In fact, he isn't a doctor. ② 그녀는 마치 복권에 당첨된 것처럼 보여요 — In fact, she didn't win the lottery. ③ 그들은 마치 나를 아는 것처럼 행동해요 — In fact, they don't know me. 세 개 가운데 두 개 이상이면 통과. (lottery: 복권)"
+        "answer": "① 그는 마치 의사인 것처럼 말한다 — In fact, he isn't a doctor. ② 그녀는 마치 복권에 당첨된 것처럼 보인다 — In fact, she didn't win the lottery. ③ 그들은 마치 나를 아는 것처럼 행동한다 — In fact, they don't know me. 세 개 가운데 두 개 이상이면 통과. (lottery: 복권)"
       },
       {
         "no": 4,
-        "prompt": "괄호의 실제 사실을 보고 알맞은 것에 ○ 하세요.",
+        "prompt": "괄호의 실제 사실을 보고 알맞은 것에 ○ 하시오.",
         "table": {
           "rows": [
             [
@@ -1078,7 +1078,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1109,7 +1109,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나의 바람 하나와 지난 일의 아쉬움 하나를 I wish로 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나의 바람 하나와 지난 일의 아쉬움 하나를 I wish로 쓰시오.",
         "eng": {
           "trace": [
             "I wish I had a dog.",
@@ -1123,7 +1123,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① ‘(지금) 개가 있으면 좋을 텐데’를 I wish로 쓰세요.\n② I'm sorry I didn't listen to Mom.을 I wish로 쓰세요.\n③ He talks as if he knew everything.의 실제 사실을 쓰세요.",
+        "prompt": "① ‘(지금) 개가 있으면 좋을 텐데’를 I wish로 쓰시오.\n② I'm sorry I didn't listen to Mom.을 I wish로 쓰시오.\n③ He talks as if he knew everything.의 실제 사실을 쓰시오.",
         "lines": 3,
         "answer": "① I wish I had a dog. ② I wish I had listened to Mom. ③ In fact, he doesn't know everything. 세 가지 모두 도움 없이 하면 통과."
       }

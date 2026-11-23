@@ -91,8 +91,8 @@
       "title": "영미 단편 소설 읽기",
       "question": "가장 아끼는 것을 팔아 선물을 산다면?\n두 사람에게 무슨 일이 생길까?",
       "goals": [
-        "① 인물·배경·갈등과 사건 흐름을 정리해요.",
-        "② 심경 변화를 근거로 말하고 아이러니와 주제를 찾아요."
+        "① 인물·배경·갈등과 사건 흐름을 정리할 수 있다.",
+        "② 심경 변화를 근거로 말하고 아이러니와 주제를 찾을 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -138,8 +138,8 @@
       "purpose": "선수 학습 확인(단서로 심경 추론)",
       "role": "prior",
       "objectives": [],
-      "title": "마음을 짐작해요",
-      "text": "기분을 영어 낱말로 말하고, 단서를 찾아요.",
+      "title": "마음을 짐작하자",
+      "text": "기분을 영어 낱말로 말하고, 단서를 찾자.",
       "problems": [
         {
           "text": "She smiled and hugged her mom."
@@ -181,7 +181,7 @@
         "A"
       ],
       "title": "이야기의 네 요소",
-      "text": "오늘 읽으며 네 칸을 채워요(활동지 1·2).",
+      "text": "오늘 읽으며 네 칸을 채우자(활동지 1·2).",
       "cards": [
         {
           "title": "인물",
@@ -315,7 +315,7 @@
           "Jim came home at the usual time. When he opened the door and saw Della, he stopped and stared at her. His face did not look angry or surprised. It showed a strange feeling that Della could not understand. She quickly explained that she had sold her hair to buy him a present and that it would grow back soon. Jim took a small package out of his coat and put it on the table. Inside was a set of beautiful combs with jewels on the edges. Della had wanted them for a long time, ever since she had seen them in a shop window. But now she had no long hair to wear them in."
         ]
       },
-      "question": "① Jim의 표정은 왜 이상했을까?  ② Jim의 선물을 Della는 지금 쓸 수 있나요?",
+      "question": "① Jim의 표정은 왜 이상했을까?  ② Jim의 선물을 Della는 지금 쓸 수 있는가?",
       "notes": {
         "목적": "3부를 읽고 절정 장면에서 Jim의 반응과 Jim이 준 선물의 뜻을 짐작합니다(목표 A·B).",
         "시간": "약 3분",
@@ -346,8 +346,8 @@
       "objectives": [
         "A"
       ],
-      "title": "사건 흐름을 정리해요",
-      "text": "4부(결말)를 듣고, 빈칸을 말로 채워요.",
+      "title": "사건 흐름을 정리하자",
+      "text": "4부(결말)를 듣고, 빈칸을 말로 채우자.",
       "table": {
         "headers": [
           "시작(갈등)",
@@ -372,7 +372,7 @@
         "width": 12.13,
         "size": 20
       },
-      "key": "두 사람 모두 가장 소중한 것을 팔았어요.",
+      "key": "두 사람 모두 가장 소중한 것을 팔았다.",
       "notes": {
         "목적": "4부(결말)를 듣고 사건 흐름표(시작·사건·절정·결말)를 말로 채웁니다(목표 A). 활동지 2에 씁니다.",
         "시간": "약 3분",
@@ -423,7 +423,7 @@
       "points": [
         {
           "title": "상황의 아이러니",
-          "text": "서로를 위해 판 것이\n상대의 선물을 쓸모없게 했어요."
+          "text": "서로를 위해 판 것이\n상대의 선물을 쓸모없게 했다."
         },
         {
           "title": "주제",
@@ -461,7 +461,7 @@
         "B"
       ],
       "title": "어느 쪽이 주제일까?",
-      "claim": "두 친구가 이 이야기의 주제를 이렇게 말했어요.",
+      "claim": "두 친구가 이 이야기의 주제를 이렇게 말했다.",
       "left": {
         "title": "가",
         "text": "Don't sell your hair or\nyour watch. You will be sorry."
@@ -470,7 +470,7 @@
         "title": "나",
         "text": "True love means giving up\nwhat you treasure most\nfor someone you love."
       },
-      "question": "어느 쪽이 주제인가요? 다른 쪽은 무엇을 놓쳤나요?",
+      "question": "어느 쪽이 주제인가? 다른 쪽은 무엇을 놓쳤는가?",
       "notes": {
         "목적": "글자 그대로의 교훈과 이야기 전체가 말하려는 주제를 비교합니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -501,16 +501,16 @@
       ],
       "title": "말하기: 인물 인터뷰",
       "steps": [
-        "아이가 Della가 되어요.",
-        "부모가 기자처럼\n질문해요.",
-        "아이가 I felt ~ because ~.로\n답해요.",
-        "역할을 바꿔 부모가 Jim,\n아이가 기자가 돼요.",
-        "가장 마음에 남은 답을\n서로 말해요."
+        "아이가 Della가 된다.",
+        "부모가 기자처럼\n질문한다.",
+        "아이가 I felt ~ because ~.로\n답한다.",
+        "역할을 바꿔 부모가 Jim,\n아이가 기자가 된다.",
+        "가장 마음에 남은 답을\n서로 말한다."
       ],
       "criteria": [
-        "심경 낱말을 썼어요",
+        "심경 낱말을 썼다",
         "because 뒤에 이야기 속 근거",
-        "질문을 두 개 이상 했어요"
+        "질문을 두 개 이상 했다"
       ],
       "notes": {
         "목적": "아이가 Della가 되어 부모의 질문에 영어로 심경과 근거를 말하고, 역할을 바꿔 부모가 Jim이 되어 아이의 질문에 답합니다(목표 B, 오해 M1).",
@@ -545,7 +545,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "활동지 3에 써요.",
+      "text": "활동지 3에 쓰시오.",
       "problems": [
         {
           "text": "1부 끝의 Della: 심경 낱말 +\n근거 문장"
@@ -608,7 +608,7 @@
       "bad": [
         {
           "text": "Della felt sad.",
-          "note": "근거 문장을\n붙여요"
+          "note": "근거 문장을\n붙인다"
         },
         {
           "text": "아이러니 = 슬픈 일",
@@ -650,8 +650,8 @@
         "A",
         "B"
       ],
-      "title": "찾고, 고르고, 말해요",
-      "text": "①은 기분과 단서를, ②③은 골라요.",
+      "title": "찾고, 고르고, 말하기",
+      "text": "①은 기분과 단서를, ②③은 고르시오.",
       "problems": [
         {
           "text": "Tom's hands were shaking\nbefore the speech. → 기분은?"
@@ -804,7 +804,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "다시 쓴 이야기(원문 아님): O. Henry, “The Gift of the Magi” (1905). 1·2부를 읽고 인물·배경·갈등을 쓰세요.",
+        "prompt": "다시 쓴 이야기(원문 아님): O. Henry, “The Gift of the Magi” (1905). 1·2부를 읽고 인물·배경·갈등을 쓰시오.",
         "read": "Part 1\nIt was the day before Christmas in New York, a little more than a hundred years ago. Della counted her money again. She had only one dollar and eighty-seven cents, and she had saved every cent for months. Della and her husband, Jim, rented a small, cheap apartment, and Jim did not earn much money. Della wanted to give Jim a special Christmas present, but what could she buy with so little? She sat down and cried. The young couple owned only two treasures. One was Jim's gold watch, which had once belonged to his father and grandfather. The other was Della's beautiful brown hair. It was so long that it reached below her knees.\nPart 2\nSuddenly, Della had an idea. She put on her old coat and hat and hurried to a shop that bought hair. The owner looked at Della's hair and offered twenty dollars, and Della agreed. For the next two hours, she went from store to store, looking for the perfect gift. At last she found it: a simple but fine platinum chain for Jim's gold watch. Jim had only an old leather strap for his watch, so he sometimes checked the time secretly. The chain cost twenty-one dollars, and Della went home with eighty-seven cents. When she looked in the mirror, she saw short curls all over her head. She was afraid that Jim would no longer think she was pretty.",
         "table": {
           "headers": [
@@ -840,7 +840,7 @@
       },
       {
         "no": 2,
-        "prompt": "다시 쓴 이야기의 3·4부를 읽고 사건 흐름표를 채우세요(S07).",
+        "prompt": "다시 쓴 이야기의 3·4부를 읽고 사건 흐름표를 채우시오(S07).",
         "read": "Part 3\nJim came home at the usual time. When he opened the door and saw Della, he stopped and stared at her. His face did not look angry or surprised. It showed a strange feeling that Della could not understand. She quickly explained that she had sold her hair to buy him a present and that it would grow back soon. Jim took a small package out of his coat and put it on the table. Inside was a set of beautiful combs with jewels on the edges. Della had wanted them for a long time, ever since she had seen them in a shop window. But now she had no long hair to wear them in.\nPart 4\nDella showed Jim the watch chain with a happy smile. Jim sat down, smiled gently, and told her that he had sold his gold watch to buy the combs. The narrator ends the story by calling these two young people the wisest gift-givers of all, like the Magi, the wise men who brought gifts to the baby Jesus. Each of them gave up the most precious thing for the other.",
         "table": {
           "headers": [
@@ -869,7 +869,7 @@
       },
       {
         "no": 3,
-        "prompt": "Della의 심경 변화를 쓰고(심경 낱말 + 근거 문장), 아이러니와 주제를 한 문장씩 쓰세요(S11, 우리말 가능).",
+        "prompt": "Della의 심경 변화를 쓰고(심경 낱말 + 근거 문장), 아이러니와 주제를 한 문장씩 쓰시오(S11, 우리말 가능).",
         "table": {
           "headers": [
             "장면",
@@ -909,7 +909,7 @@
         "no": 4,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 이 이야기의 갈등을 쓰세요.\n② 사건 흐름 네 칸(시작·사건·절정·결말)을 한 줄씩 쓰세요.\n③ 이 이야기의 아이러니와 주제를 쓰세요.",
+        "prompt": "① 이 이야기의 갈등을 쓰시오.\n② 사건 흐름 네 칸(시작·사건·절정·결말)을 한 줄씩 쓰시오.\n③ 이 이야기의 아이러니와 주제를 쓰시오.",
         "lines": 4,
         "answer": "① Jim에게 선물을 하고 싶지만 1달러 87센트뿐이다. ② 시작: 돈이 없음 / 사건: 머리카락을 팔아 시곗줄을 삼 / 절정: Jim의 선물은 머리빗 / 결말: Jim은 시계를 팔았다. ③ 아이러니: 서로를 위한 선물이 둘 다 쓸모없어짐 / 주제: 사랑은 가장 소중한 것을 내어 주는 것. 세 가지 모두 도움 없이 하면 통과."
       }

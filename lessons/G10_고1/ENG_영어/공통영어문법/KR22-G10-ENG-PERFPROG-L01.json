@@ -131,10 +131,10 @@
         "B"
       ],
       "title": "현재완료진행",
-      "question": "I have been waiting for an hour.\n‘한 시간째 기다리고 있어요’는 영어로?",
+      "question": "I have been waiting for an hour.\n‘한 시간째 기다리고 있다’는 영어로?",
       "goals": [
-        "① have·has been -ing와 for·since로 계속하는 일을 말해요.",
-        "② 현재완료와 현재완료진행을 구별해 써요."
+        "① have·has been -ing와 for·since로 계속하는 일을 말할 수 있다.",
+        "② 현재완료와 현재완료진행을 구별해 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -156,7 +156,7 @@
         "시간": "약 2분",
         "말하기": [
           "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
-          "“‘나는 한 시간째 기다리고 있어요. 월요일부터 계속 비가 오고 있어요. 얼마나 오래 공부하고 있었어요?’라는 뜻이야. 세 문장 모두 have been이나 has been 뒤에 -ing가 와. 과거에 시작해서 지금도 계속하고 있는 일을 말할 때 써. 오늘은 이 모양을 배울 거야.”"
+          "“‘나는 한 시간째 기다리고 있다. 월요일부터 계속 비가 오고 있다. 얼마나 오래 공부하고 있었어요?’라는 뜻이야. 세 문장 모두 have been이나 has been 뒤에 -ing가 와. 과거에 시작해서 지금도 계속하고 있는 일을 말할 때 써. 오늘은 이 모양을 배울 거야.”"
         ],
         "예상답": [
           "“been 뒤에 -ing가 있어요.” “for, since가 있어요.”"
@@ -178,7 +178,7 @@
       "role": "prior",
       "objectives": [],
       "title": "-ing와 현재완료 떠올리기",
-      "text": "①은 -ing 모양으로, ②는 골라 읽고, ③은 뜻을 말해요.",
+      "text": "①은 -ing 모양으로, ②는 골라 읽고, ③은 뜻을 말해 보자.",
       "problems": [
         {
           "text": "The baby is (sleep) now."
@@ -222,7 +222,7 @@
         "A"
       ],
       "title": "have been + -ing",
-      "text": "과거에 시작한 동작을 지금도 계속하고 있을 때 써요.",
+      "text": "과거에 시작한 동작을 지금도 계속하고 있을 때 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -253,11 +253,11 @@
           "text": "have·has been + 동사-ing\n‘(쭉) ~하고 있다, ~째 ~하고 있다’"
         },
         {
-          "title": "두 모양을 합쳤어요",
+          "title": "두 모양을 합쳤다",
           "text": "현재완료 have + 과거분사(been)\n진행형 be + -ing"
         }
       ],
-      "key": "I have been waiting for an hour.  나는 한 시간째 기다리고 있어요.",
+      "key": "I have been waiting for an hour.  나는 한 시간째 기다리고 있다.",
       "notes": {
         "목적": "현재완료진행이 have·has + been + 동사-ing의 세 조각으로 되어 있고, 과거에 시작한 동작을 지금도 계속하고 있다는 뜻임을 보여 줍니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -288,11 +288,11 @@
         "A"
       ],
       "title": "for일까, since일까?",
-      "text": "오후 3시에 공부를 시작했어요. 지금은 오후 5시, 아직 공부해요.",
+      "text": "오후 3시에 공부를 시작했다. 지금은 오후 5시, 아직 공부한다.",
       "steps": [
         "시작한 때: since 3 p.m.",
         "지금까지의 기간:\nfor two hours",
-        "have been + -ing로 말해요."
+        "have been + -ing로 말한다."
       ],
       "figure": {
         "type": "numberline",
@@ -349,7 +349,7 @@
         "A"
       ],
       "title": "has been, How long",
-      "text": "주어가 he, she, it이면 has been을 써요.",
+      "text": "주어가 he, she, it이면 has been을 쓴다.",
       "table": {
         "headers": [
           "",
@@ -360,17 +360,17 @@
           [
             "I, You, We, They",
             "We have been playing\nfor an hour.",
-            "우리는 한 시간째\n놀고 있어요."
+            "우리는 한 시간째\n놀고 있다."
           ],
           [
             "He, She, It",
             "It has been raining\nsince Monday.",
-            "월요일부터 계속\n비가 오고 있어요."
+            "월요일부터 계속\n비가 오고 있다."
           ],
           [
             "How long ~?",
             "How long have you\nbeen waiting?",
-            "얼마나 오래\n기다리고 있었어요?"
+            "얼마나 오래\n기다리고 있었니?"
           ]
         ],
         "widths": [
@@ -411,8 +411,8 @@
       "objectives": [
         "A"
       ],
-      "title": "have been -ing로 말해요",
-      "text": "주어진 말로 have·has been -ing 문장을 말해요.",
+      "title": "have been -ing로 말하자",
+      "text": "주어진 말로 have·has been -ing 문장을 말해 보자.",
       "problems": [
         {
           "text": "I / read a book\n(오후 2시부터, 지금 4시)"
@@ -467,8 +467,8 @@
       "objectives": [
         "A"
       ],
-      "title": "‘한 시간째 기다리고 있어요’를 영어로",
-      "claim": "‘나는 한 시간째 기다리고 있어요.’를 두 친구가 이렇게 썼어요.",
+      "title": "‘한 시간째 기다리고 있다’를 영어로",
+      "claim": "‘나는 한 시간째 기다리고 있다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -493,7 +493,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 하나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 고쳐야 할까?",
       "notes": {
         "목적": "for·since로 기간을 말하는데 현재진행형을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -523,7 +523,7 @@
         "B"
       ],
       "title": "상태는 현재완료로",
-      "text": "상태 동사(know, like, have)는 -ing로 쓰지 않아요.",
+      "text": "상태 동사(know, like, have)는 -ing로 쓰지 않는다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -580,7 +580,7 @@
         "B"
       ],
       "title": "현재완료와 현재완료진행",
-      "text": "모양과 쓰는 동사를 비교해요.",
+      "text": "모양과 쓰는 동사를 비교해 보자.",
       "table": {
         "headers": [
           "",
@@ -617,7 +617,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "live, work는 두 모양을 다 써요. 뜻이 거의 같아요.",
+      "key": "live, work는 두 모양을 다 쓴다. 뜻이 거의 같다.",
       "notes": {
         "목적": "현재완료(계속)와 현재완료진행의 모양·쓰는 동사·예를 나란히 정리하고, live·work처럼 둘 다 쓰는 동사가 있다는 것을 보여 줍니다(목표 B).",
         "시간": "약 2분",
@@ -646,7 +646,7 @@
         "B"
       ],
       "title": "알맞은 모양은?",
-      "text": "알맞은 것을 골라 읽고, 고른 까닭을 말해요.",
+      "text": "알맞은 것을 골라 읽고, 고른 까닭을 말해 보자.",
       "problems": [
         {
           "text": "I (have known / have been knowing) Mina since 2019."
@@ -688,8 +688,8 @@
       "objectives": [
         "B"
       ],
-      "title": "한 문장으로 말해요",
-      "text": "두 문장을 for나 since가 있는 한 문장으로 말해요.",
+      "title": "한 문장으로 말하자",
+      "text": "두 문장을 for나 since가 있는 한 문장으로 말해 보자.",
       "problems": [
         {
           "text": "Tom started cleaning at 1 p.m.\nHe is still cleaning."
@@ -738,14 +738,14 @@
       ],
       "title": "말하기: 얼마나 오래?",
       "steps": [
-        "시계를 보고 수업을 시작한\n시각을 확인해요.",
-        "부모가 물어요:\nHow long have you\nbeen studying?",
-        "아이가 답해요:\nI have been studying\nfor 20 minutes.",
-        "다른 질문도 해요:\nHow long have you\nknown your best friend?",
-        "역할을 바꿔 아이가 물어요."
+        "시계를 보고 수업을 시작한\n시각을 확인한다.",
+        "부모가 묻는다:\nHow long have you\nbeen studying?",
+        "아이가 답한다:\nI have been studying\nfor 20 minutes.",
+        "다른 질문도 한다:\nHow long have you\nknown your best friend?",
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
-        "have·has been + -ing로 말했어요",
+        "have·has been + -ing로 말했다",
         "for(기간), since(시작한 때)",
         "know는 have known으로"
       ],
@@ -784,7 +784,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "She started swimming at 10.\nIt's 11 now.  → for로"
@@ -850,7 +850,7 @@
       "bad": [
         {
           "text": "has swimming",
-          "note": "been이\n빠졌어요"
+          "note": "been이\n빠졌다"
         },
         {
           "text": "since an hour",
@@ -892,8 +892,8 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 바꿔요",
-      "text": "①②는 뜻을 말하고, ③은 have been -ing로 말해요.",
+      "title": "뜻을 말하고 바꾸자",
+      "text": "①②는 뜻을 말하고, ③은 have been -ing로 말하시오.",
       "problems": [
         {
           "text": "My mom has been cooking since 5 p.m."
@@ -980,7 +980,7 @@
       "objectives": [],
       "title": "보충: -ing와 have + 과거분사",
       "layout": "support",
-      "text": "-ing 모양을 만들고, have been 뒤에 붙여 읽어요.",
+      "text": "-ing 모양을 만들고, have been 뒤에 붙여 읽어 보자.",
       "table": {
         "headers": [
           "동사",
@@ -995,7 +995,7 @@
           ],
           [
             "make",
-            "making (e를 빼요)",
+            "making (e를 뺀다)",
             "She has been making it."
           ],
           [
@@ -1041,7 +1041,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "주어진 말로 have·has been -ing 문장을 쓰세요.",
+        "prompt": "주어진 말로 have·has been -ing 문장을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1072,7 +1072,7 @@
       },
       {
         "no": 2,
-        "prompt": "시각을 보고 for 문장과 since 문장을 하나씩 쓰세요.",
+        "prompt": "시각을 보고 for 문장과 since 문장을 하나씩 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1095,7 +1095,7 @@
       },
       {
         "no": 3,
-        "prompt": "알맞은 것에 ○ 하세요.",
+        "prompt": "알맞은 것에 ○ 하시오.",
         "table": {
           "rows": [
             [
@@ -1127,7 +1127,7 @@
       },
       {
         "no": 4,
-        "prompt": "How long 질문과 대답을 쓰세요.",
+        "prompt": "How long 질문과 대답을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1154,7 +1154,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1185,7 +1185,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나에 대한 세 문장을 쓰세요(for 문장 하나, since 문장 하나, How long 질문 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나에 대한 세 문장을 쓰시오(for 문장 하나, since 문장 하나, How long 질문 하나).",
         "eng": {
           "trace": [
             "I have been waiting for an hour.",
@@ -1199,7 +1199,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① I (am waiting / have been waiting) for an hour.에서 알맞은 것을 쓰세요.\n② It has been raining (for / since) Monday.에서 알맞은 것을 쓰세요.\n③ I have been knowing him for years.를 바르게 고쳐 쓰세요.",
+        "prompt": "① I (am waiting / have been waiting) for an hour.에서 알맞은 것을 쓰시오.\n② It has been raining (for / since) Monday.에서 알맞은 것을 쓰시오.\n③ I have been knowing him for years.를 바르게 고쳐 쓰시오.",
         "lines": 3,
         "answer": "① have been waiting ② since ③ I have known him for years. 세 가지 모두 도움 없이 하면 통과."
       }

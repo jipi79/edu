@@ -89,10 +89,10 @@
         "B"
       ],
       "title": "4·5형식 문장의 수동태",
-      "question": "I was given a book by Tom.\n‘톰에게 책을 받았어요’를 수동태로 하면?",
+      "question": "I was given a book by Tom.\n‘톰에게 책을 받았다’를 수동태로 하면?",
       "goals": [
-        "① give·show 문장을 두 가지 수동태로 바꿔요.",
-        "② call·make 문장을 수동태로 바꿔요."
+        "① give·show 문장을 두 가지 수동태로 바꿀 수 있다.",
+        "② call·make 문장을 수동태로 바꿀 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -136,7 +136,7 @@
       "role": "prior",
       "objectives": [],
       "title": "수동태와 대명사 떠올리기",
-      "text": "①은 골라 읽고, ②는 수동태로 바꾸고, ③은 골라 읽어요.",
+      "text": "①은 골라 읽고, ②는 수동태로 바꾸고, ③은 골라 읽어 보자.",
       "problems": [
         {
           "text": "The room has been (cleaned / cleaning)."
@@ -181,7 +181,7 @@
         "A"
       ],
       "title": "오늘 쓰는 과거분사",
-      "text": "★는 오늘 처음 배우는 모양이에요.",
+      "text": "★는 오늘 처음 배우는 모양이다.",
       "table": {
         "headers": [
           "동사",
@@ -278,7 +278,7 @@
         "A"
       ],
       "title": "4형식 다시 보기: 목적어가 둘",
-      "text": "문장의 다섯 형식에서 본 4형식: ‘(사람)에게 (물건)을’ 목적어가 둘이에요.",
+      "text": "문장의 다섯 형식에서 본 4형식: ‘(사람)에게 (물건)을’ 목적어가 둘이다.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -313,7 +313,7 @@
           "text": "‘~을’ (물건)\na book, a letter"
         }
       ],
-      "key": "목적어가 둘이라 수동태도 두 가지로 만들 수 있어요.",
+      "key": "목적어가 둘이라 수동태도 두 가지로 만들 수 있다.",
       "notes": {
         "목적": "‘문장의 다섯 형식’에서 배운 4형식, 곧 give·show·send·teach가 ‘(사람)에게 (물건)을’ 두 목적어를 갖는다는 것과 두 목적어의 이름을 다시 떠올립니다(목표 A).",
         "시간": "약 2분",
@@ -344,7 +344,7 @@
         "A"
       ],
       "title": "두 가지 수동태",
-      "text": "사람이나 물건을 주어로 보내요. 물건이 주어면 사람 앞에 to.",
+      "text": "사람이나 물건을 주어로 보낸다. 물건이 주어면 사람 앞에 to.",
       "steps": [
         "사람을 주어로:\nme → I, 물건은 그대로",
         "물건을 주어로:\n사람 앞에 to",
@@ -357,7 +357,7 @@
         "items": [
           {
             "word": "Tom gave me a book.",
-            "sub": "톰이 나에게 책을 주었어요."
+            "sub": "톰이 나에게 책을 주었다."
           },
           {
             "word": "I was given a book\nby Tom.",
@@ -369,7 +369,7 @@
           }
         ]
       },
-      "key": "두 문장의 뜻은 같아요:  나는 톰에게 책을 받았어요.",
+      "key": "두 문장의 뜻은 같다:  나는 톰에게 책을 받았다.",
       "notes": {
         "목적": "4형식 문장을 사람(간접목적어)을 주어로 한 수동태와 물건(직접목적어)을 주어로 한 수동태로 바꾸는 방법을 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -400,7 +400,7 @@
         "A"
       ],
       "title": "to일까, for일까?",
-      "text": "물건이 주어일 때 사람 앞에 to나 for를 써요.",
+      "text": "물건이 주어일 때 사람 앞에 to나 for를 쓴다.",
       "table": {
         "headers": [
           "동사",
@@ -457,8 +457,8 @@
       "objectives": [
         "A"
       ],
-      "title": "수동태로 바꿔 말해요",
-      "text": "지시대로 수동태로 바꿔 말하고, 뜻을 말해요.",
+      "title": "수동태로 바꿔 말하자",
+      "text": "지시대로 수동태로 바꿔 말하고, 뜻을 말해 보자.",
       "problems": [
         {
           "text": "Mina sent me a letter.\n→ 사람을 주어로"
@@ -504,8 +504,8 @@
       "objectives": [
         "A"
       ],
-      "title": "‘나를 위해 사 주셨어요’를 수동태로",
-      "claim": "‘아빠가 나에게 자전거를 사 주셨어요.’를 물건이 주어인 수동태로 두 친구가 이렇게 썼어요.",
+      "title": "‘나를 위해 사 주셨다’를 수동태로",
+      "claim": "‘아빠가 나에게 자전거를 사 주셨다.’를 물건이 주어인 수동태로 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -530,7 +530,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? buy는 to와 for 가운데 무엇을 쓰나요?",
+      "question": "바르게 쓴 쪽은? buy는 to와 for 가운데 무엇을 쓰는가?",
       "notes": {
         "목적": "buy의 수동태에서 사람 앞에 to를 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M2).",
         "시간": "약 2분",
@@ -560,7 +560,7 @@
         "B"
       ],
       "title": "5형식 다시 보기: 목적격 보어",
-      "text": "문장의 다섯 형식에서 본 5형식: 목적어 뒤에 목적어를 설명하는 말이 와요.",
+      "text": "문장의 다섯 형식에서 본 5형식: 목적어 뒤에 목적어를 설명하는 말이 온다.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -588,7 +588,7 @@
       "points": [
         {
           "title": "목적격 보어",
-          "text": "목적어가 누구인지, 어떤지 설명해요.\nthe dog = Max"
+          "text": "목적어가 누구인지, 어떤지 설명한다.\nthe dog = Max"
         },
         {
           "title": "수동태",
@@ -602,7 +602,7 @@
         "말하기": [
           "“We call the dog Max. 우리는 그 개를 맥스라고 불러. 목적어는 the dog이고, Max는 그 개가 누구인지 설명하는 말이야. the dog = Max.”",
           "“문장의 다섯 형식에서 배운 것처럼, 목적어를 설명하는 말이 목적격 보어야. 이런 문장이 5형식이었지.”",
-          "“수동태로 바꿀 때는 목적어 the dog만 주어로 가. Max는 동사 뒤에 그대로 남아. The dog is called Max. ‘그 개는 맥스라고 불려요.’”"
+          "“수동태로 바꿀 때는 목적어 the dog만 주어로 가. Max는 동사 뒤에 그대로 남아. The dog is called Max. ‘그 개는 맥스라고 불린다.’”"
         ],
         "예상답": [
           "“the dog이 Max예요.” “The dog is called Max.”"
@@ -627,7 +627,7 @@
         "B"
       ],
       "title": "5형식 문장의 수동태",
-      "text": "보어는 그대로!  make + 동사원형만 to가 생겨요.",
+      "text": "보어는 그대로!  make + 동사원형만 to가 생긴다.",
       "table": {
         "headers": [
           "능동태",
@@ -638,17 +638,17 @@
           [
             "We call the dog Max.",
             "The dog is called Max.",
-            "그 개는\n맥스라고 불려요."
+            "그 개는\n맥스라고 불린다."
           ],
           [
             "The news made me happy.",
             "I was made happy\nby the news.",
-            "나는 그 소식에\n행복해졌어요."
+            "나는 그 소식에\n행복해졌다."
           ],
           [
             "Mom made me\nclean my room.",
             "I was made to clean\nmy room (by Mom).",
-            "나는 방을\n청소해야 했어요."
+            "나는 방을\n청소해야 했다."
           ]
         ],
         "widths": [
@@ -666,7 +666,7 @@
         "말하기": [
           "“위의 두 줄 모두 목적어가 주어로 가고, Max, happy는 그대로 남았어.”",
           "“마지막 줄을 봐. Mom made me clean my room. 엄마가 나에게 방을 청소하게 하셨어. 이렇게 make 뒤에 동사원형이 오는 문장은 수동태에서 to가 생겨. I was made to clean my room.”",
-          "“뜻은 ‘나는 방을 청소해야 했어요’ 정도야.”"
+          "“뜻은 ‘나는 방을 청소해야 했다’ 정도야.”"
         ],
         "예상답": [
           "“보어는 그대로예요.” “마지막 줄에는 to가 생겼어요.”"
@@ -690,7 +690,7 @@
         "B"
       ],
       "title": "보어는 그대로",
-      "text": "수동태로 바꿔 말하고, 뜻을 말해요.",
+      "text": "수동태로 바꿔 말하고, 뜻을 말해 보자.",
       "problems": [
         {
           "text": "People call him Big Joe."
@@ -739,16 +739,16 @@
       ],
       "title": "말하기: 받은 것, 불리는 이름",
       "steps": [
-        "부모가 물어요: What were you\ngiven for your birthday?",
-        "아이가 답해요:\nI was given a watch\nby my aunt.",
-        "별명을 물어요: What are you\ncalled by your friends?",
+        "부모가 묻는다: What were you\ngiven for your birthday?",
+        "아이가 답한다:\nI was given a watch\nby my aunt.",
+        "별명을 묻는다: What are you\ncalled by your friends?",
         "물건을 들고: What is this\ncalled in English?",
-        "역할을 바꿔 아이가 물어요."
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
-        "I was given ~ by ~.로 답했어요",
+        "I was given ~ by ~.로 답했다",
         "is called 뒤에 이름을 그대로",
-        "be동사의 시제를 맞췄어요"
+        "be동사의 시제를 맞췄다"
       ],
       "notes": {
         "목적": "받은 선물, 별명, 집 안 물건의 영어 이름을 묻고 답하며 4형식 수동태(was given)와 5형식 수동태(is called)를 말합니다(목표 A·B).",
@@ -784,7 +784,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "Tom showed me his photos.\n→ 사람을 주어로"
@@ -892,8 +892,8 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 골라요",
-      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말해요.",
+      "title": "뜻을 말하고 고르자",
+      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말하시오.",
       "problems": [
         {
           "text": "I was taught math by my uncle."
@@ -980,7 +980,7 @@
       "objectives": [],
       "title": "보충: 주어 모양과 목적어 모양",
       "layout": "support",
-      "text": "수동태에서 사람이 주어가 되면 주어(~은) 모양을 써요.",
+      "text": "수동태에서 사람이 주어가 되면 주어(~은) 모양을 쓴다.",
       "table": {
         "headers": [
           "주어",
@@ -1048,7 +1048,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "동사의 과거분사를 쓰세요. ★는 새 모양이에요.",
+        "prompt": "동사의 과거분사를 쓰시오. ★는 새 모양이다.",
         "table": {
           "headers": [
             "동사",
@@ -1094,7 +1094,7 @@
       },
       {
         "no": 2,
-        "prompt": "두 가지 수동태로 바꾸어 쓰세요.",
+        "prompt": "두 가지 수동태로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1133,7 +1133,7 @@
       },
       {
         "no": 3,
-        "prompt": "빈칸에 to와 for 가운데 알맞은 것을 쓰세요.",
+        "prompt": "빈칸에 to와 for 가운데 알맞은 것을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1159,7 +1159,7 @@
       },
       {
         "no": 4,
-        "prompt": "수동태로 바꾸어 쓰세요. 목적어를 설명하는 말은 그대로 두세요.",
+        "prompt": "수동태로 바꾸어 쓰시오. 목적어를 설명하는 말은 그대로 두시오.",
         "table": {
           "rows": [
             [
@@ -1190,7 +1190,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1221,7 +1221,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나에 대한 세 문장을 쓰세요(받은 선물, 불리는 별명이나 집 안 물건의 이름, 해야 했던 일).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나에 대한 세 문장을 쓰시오(받은 선물, 불리는 별명이나 집 안 물건의 이름, 해야 했던 일).",
         "eng": {
           "trace": [
             "I was given a book by Tom.",
@@ -1235,7 +1235,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① Mina sent me a card.를 물건(a card)을 주어로 한 수동태로 쓰세요.\n② We call him Big Joe.를 수동태로 쓰세요.\n③ A cake was made (to / for) me.에서 알맞은 것을 쓰세요.",
+        "prompt": "① Mina sent me a card.를 물건(a card)을 주어로 한 수동태로 쓰시오.\n② We call him Big Joe.를 수동태로 쓰시오.\n③ A cake was made (to / for) me.에서 알맞은 것을 쓰시오.",
         "lines": 3,
         "answer": "① A card was sent to me by Mina. ② He is called Big Joe (by us). ③ for. 세 가지 모두 도움 없이 하면 통과."
       }

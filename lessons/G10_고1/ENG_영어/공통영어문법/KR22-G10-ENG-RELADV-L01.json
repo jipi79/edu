@@ -91,8 +91,8 @@
       "title": "관계부사",
       "question": "This is the house where I was born.\n‘내가 태어난 집’은 영어로 어떻게 말할까?",
       "goals": [
-        "① where·when·why·how가 꾸미는 문장을 해석하고 써요.",
-        "② 관계부사를 ‘전치사 + which’로 바꿔 써요."
+        "① where·when·why·how가 꾸미는 문장을 해석하고 쓸 수 있다.",
+        "② 관계부사를 ‘전치사 + which’로 바꿔 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -136,7 +136,7 @@
       "role": "prior",
       "objectives": [],
       "title": "관계대명사 떠올리기",
-      "text": "①은 한 문장으로 잇고, ②는 뜻을 말하고, ③은 빠진 곳을 짚어요.",
+      "text": "①은 한 문장으로 잇고, ②는 뜻을 말하고, ③은 빠진 곳을 짚어 보자.",
       "problems": [
         {
           "text": "This is the cap.  +  My dad bought it."
@@ -180,7 +180,7 @@
         "A"
       ],
       "title": "장소를 꾸미는 where",
-      "text": "where는 장소 명사 뒤에서 ‘~하는 (장소)’로 꾸며요.",
+      "text": "where는 장소 명사 뒤에서 ‘~하는 (장소)’로 꾸민다.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -209,14 +209,14 @@
       "points": [
         {
           "title": "관계부사",
-          "text": "두 문장을 잇고 앞 명사를 꾸며요.\nwhere, when, why, how"
+          "text": "두 문장을 잇고 앞 명사를 꾸민다.\nwhere, when, why, how"
         },
         {
           "title": "where + 주어 + 동사",
           "text": "‘(주어)가 ~하는 (장소)’\nthe park where we play"
         }
       ],
-      "key": "the house where I live  내가 사는 집   (where는 there를 대신해요)",
+      "key": "the house where I live  내가 사는 집   (where는 there를 대신한다)",
       "notes": {
         "목적": "관계부사의 뜻을 알려 주고, 장소 명사 뒤의 where + 주어 + 동사를 ‘(주어)가 ~하는 (장소)’로 해석하는 방법을 보여 줍니다(목표 A).",
         "시간": "약 3분",
@@ -247,11 +247,11 @@
         "A"
       ],
       "title": "두 문장을 where로 잇기",
-      "text": "장소를 나타내는 there를 where로 바꿔요.",
+      "text": "장소를 나타내는 there를 where로 바꾼다.",
       "steps": [
-        "같은 장소를 찾아요.\nthe house = there",
-        "there를 where로 바꿔\n절 맨 앞으로 옮겨요.",
-        "앞 명사 바로 뒤에 붙여요."
+        "같은 장소를 찾는다.\nthe house = there",
+        "there를 where로 바꿔\n절 맨 앞으로 옮긴다.",
+        "앞 명사 바로 뒤에 붙인다."
       ],
       "figureRatio": 0.5,
       "figure": {
@@ -260,11 +260,11 @@
         "items": [
           {
             "word": "This is the house.",
-            "sub": "이것은 그 집이에요."
+            "sub": "이것은 그 집이다."
           },
           {
             "word": "I live there.",
-            "sub": "나는 거기에서 살아요."
+            "sub": "나는 거기에서 산다."
           },
           {
             "word": "This is the house\nwhere I live.",
@@ -272,7 +272,7 @@
           }
         ]
       },
-      "key": "there는 where로 바뀌었으니 live 뒤에 다시 쓰지 않아요.",
+      "key": "there는 where로 바뀌었으니 live 뒤에 다시 쓰지 않는다.",
       "notes": {
         "목적": "두 문장을 잇는 세 단계를 장소에 적용해, there가 where로 바뀌어 절 맨 앞으로 옮겨 간다는 것을 보여 줍니다(목표 A, 오해 M3).",
         "시간": "약 3분",
@@ -304,7 +304,7 @@
         "A"
       ],
       "title": "where, when, why, how",
-      "text": "앞 명사가 무엇인지 보고 관계부사를 골라요.",
+      "text": "앞 명사가 무엇인지 보고 관계부사를 고른다.",
       "table": {
         "headers": [
           "앞 명사",
@@ -341,7 +341,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "the way how I study (×)   the way와 how는 둘 가운데 하나만 써요.",
+      "key": "the way how I study (×)   the way와 how는 둘 가운데 하나만 쓴다.",
       "notes": {
         "목적": "앞 명사가 장소·때·이유·방법 가운데 무엇인지 보고 관계부사를 고른다는 것과, how는 the way와 함께 쓰지 않는다는 것을 표로 정리합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -372,7 +372,7 @@
         "A"
       ],
       "title": "알맞은 관계부사는?",
-      "text": "알맞은 것을 골라 읽고, 뜻을 말해요.",
+      "text": "알맞은 것을 골라 읽고, 뜻을 말해 보자.",
       "problems": [
         {
           "text": "the city (where / when)\nI was born"
@@ -428,7 +428,7 @@
         "A"
       ],
       "title": "‘내가 공부하는 방법’을 영어로",
-      "claim": "‘이것이 내가 영어를 공부하는 방법이에요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘이것이 내가 영어를 공부하는 방법이다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -453,7 +453,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 빼야 하나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 빼야 할까?",
       "notes": {
         "목적": "how와 the way를 함께 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -483,7 +483,7 @@
         "B"
       ],
       "title": "관계부사 = 전치사 + which",
-      "text": "원래 문장의 전치사를 which 앞에 붙여요.",
+      "text": "원래 문장의 전치사를 which 앞에 붙인다.",
       "table": {
         "headers": [
           "원래 문장",
@@ -546,8 +546,8 @@
       "objectives": [
         "B"
       ],
-      "title": "바꾸어 말해요",
-      "text": "①②는 ‘전치사 + which’로, ③④는 관계부사로 바꿔요.",
+      "title": "바꾸어 말하자",
+      "text": "①②는 ‘전치사 + which’로, ③④는 관계부사로 바꿔 보자.",
       "problems": [
         {
           "text": "the park where we play"
@@ -595,7 +595,7 @@
         "B"
       ],
       "title": "which일까, where일까?",
-      "text": "장소 명사 뒤예요. 절 안에 ‘~을’이 빠졌나요?",
+      "text": "장소 명사 뒤이다. 절 안에 ‘~을’이 빠졌는가?",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -614,14 +614,14 @@
       "points": [
         {
           "title": "which + 빠진 말이 있는 절",
-          "text": "‘~을’ 자리가 비어 있어요.\nthe city which we visited"
+          "text": "‘~을’ 자리가 비어 있다.\nthe city which we visited"
         },
         {
           "title": "where + 빠진 말이 없는 절",
-          "text": "주어 + 동사로 문장이 끝나요.\nthe city where we stayed"
+          "text": "주어 + 동사로 문장이 끝난다.\nthe city where we stayed"
         }
       ],
-      "key": "where = in which: 전치사까지 품었으니 뒤에 빠진 말이 없어요.",
+      "key": "where = in which: 전치사까지 품었으니 뒤에 빠진 말이 없다.",
       "notes": {
         "목적": "장소 명사 뒤라도 절 안에 ‘~을’(목적어)이 빠져 있으면 which, 빠진 말 없이 문장이 끝나면 where를 쓴다는 것을 보여 줍니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -651,8 +651,8 @@
       "objectives": [
         "B"
       ],
-      "title": "which, where 골라요",
-      "text": "알맞은 것을 골라 읽고, 고른 까닭을 말해요.",
+      "title": "which, where 고르기",
+      "text": "알맞은 것을 골라 읽고, 고른 까닭을 말해 보자.",
       "problems": [
         {
           "text": "the museum (which / where)\nwe visited"
@@ -701,15 +701,15 @@
       "title": "말하기: 나의 장소·날·방법",
       "steps": [
         "종이 카드 세 장:\nthe place, the day, the way",
-        "부모가 카드를 보여 주며 물어요:\nTell me about a place you like.",
-        "아이가 답해요:\nThis is the park\nwhere I ride my bike.",
-        "다른 카드도 해요:\nSaturday is the day when I ~.\nThis is how I ~.",
-        "역할을 바꿔 부모가 말하고\n아이가 뜻을 말해요."
+        "부모가 카드를 보여 주며 묻는다:\nTell me about a place you like.",
+        "아이가 답한다:\nThis is the park\nwhere I ride my bike.",
+        "다른 카드도 한다:\nSaturday is the day when I ~.\nThis is how I ~.",
+        "역할을 바꿔 부모가 말하고\n아이가 뜻을 말한다."
       ],
       "criteria": [
-        "앞 명사에 맞는 관계부사를 썼어요",
+        "앞 명사에 맞는 관계부사를 썼다",
         "관계부사 뒤에 주어 + 동사",
-        "the way how로 쓰지 않았어요"
+        "the way how로 쓰지 않았다"
       ],
       "notes": {
         "목적": "종이 카드로 묻고 답하며 자기 생활의 장소·날·방법을 관계부사 문장으로 말합니다(목표 A·B).",
@@ -746,7 +746,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "This is the school.\n+ I study there."
@@ -809,7 +809,7 @@
       "bad": [
         {
           "text": "where … there",
-          "note": "there는 where로\n바뀌었어요"
+          "note": "there는 where로\n바뀌었다"
         },
         {
           "text": "which I live",
@@ -851,8 +851,8 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 골라요",
-      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말해요.",
+      "title": "뜻을 말하고 고르자",
+      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말하시오.",
       "problems": [
         {
           "text": "This is the town where my dad grew up."
@@ -895,7 +895,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "명사 + where·when·why + 주어 + 동사: (주어)가 ~하는 (장소·때·이유)\nwhere = in which,  how = the way (함께 쓰지 않아요)",
+      "key": "명사 + where·when·why + 주어 + 동사: (주어)가 ~하는 (장소·때·이유)\nwhere = in which,  how = the way (함께 쓰지 않는다)",
       "do": "‘~을’이 빠졌으면 which",
       "dont": "the way how I study",
       "review": [
@@ -939,7 +939,7 @@
       "objectives": [],
       "title": "보충: there, then과 전치사",
       "layout": "support",
-      "text": "there, then은 앞에서 말한 장소와 때를 가리켜요.",
+      "text": "there, then은 앞에서 말한 장소와 때를 가리킨다.",
       "table": {
         "headers": [
           "말",
@@ -1001,7 +1001,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "빈칸에 알맞은 관계부사(where, when, why, how)를 쓰고, 뜻을 쓰세요.",
+        "prompt": "빈칸에 알맞은 관계부사(where, when, why, how)를 쓰고, 뜻을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1038,11 +1038,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① where (우리가 저녁을 먹은 식당) ② when (내가 중학교에 입학한 날) ③ why (그가 화가 난 이유) ④ how (이것이 내가 새 낱말을 기억하는 방법이에요). 네 개 가운데 세 개 이상이면 통과. ④에 the way how를 쓰면 S07을 다시 봅니다. (start middle school: 중학교에 입학하다)"
+        "answer": "① where (우리가 저녁을 먹은 식당) ② when (내가 중학교에 입학한 날) ③ why (그가 화가 난 이유) ④ how (이것이 내가 새 낱말을 기억하는 방법이다). 네 개 가운데 세 개 이상이면 통과. ④에 the way how를 쓰면 S07을 다시 봅니다. (start middle school: 중학교에 입학하다)"
       },
       {
         "no": 2,
-        "prompt": "관계부사로 두 문장을 이어 한 문장으로 쓰세요.",
+        "prompt": "관계부사로 두 문장을 이어 한 문장으로 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1073,7 +1073,7 @@
       },
       {
         "no": 3,
-        "prompt": "지시대로 바꾸어 쓰세요.",
+        "prompt": "지시대로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1104,7 +1104,7 @@
       },
       {
         "no": 4,
-        "prompt": "which와 where 가운데 알맞은 것에 ○ 하고, 까닭을 쓰세요.",
+        "prompt": "which와 where 가운데 알맞은 것에 ○ 하고, 까닭을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1139,7 +1139,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1170,7 +1170,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나의 장소·날·방법을 소개하는 세 문장을 쓰세요(where 하나, when 하나, how나 the way 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나의 장소·날·방법을 소개하는 세 문장을 쓰시오(where 하나, when 하나, how나 the way 하나).",
         "eng": {
           "trace": [
             "This is the park where I play.",
@@ -1184,7 +1184,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① the day (where / when) we met에서 알맞은 것을 쓰세요.\n② the park where we play를 ‘전치사 + which’로 바꾸어 쓰세요.\n③ the way how I study를 바르게 고쳐 쓰세요.",
+        "prompt": "① the day (where / when) we met에서 알맞은 것을 쓰시오.\n② the park where we play를 ‘전치사 + which’로 바꾸어 쓰시오.\n③ the way how I study를 바르게 고쳐 쓰시오.",
         "lines": 3,
         "answer": "① when ② the park in which(at which) we play ③ the way I study 또는 how I study. 세 가지 모두 도움 없이 하면 통과."
       }

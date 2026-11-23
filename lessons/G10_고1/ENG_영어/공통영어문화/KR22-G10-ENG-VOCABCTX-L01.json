@@ -92,8 +92,8 @@
       "title": "문맥으로 어휘 추론",
       "question": "so narrow that two cars couldn't pass\nnarrow의 뜻을 사전 없이 알 수 있을까?",
       "goals": [
-        "① 접사와 문맥 단서로 모르는 낱말의 뜻을 짐작해요.",
-        "② 다의어의 뜻을 문맥에 맞게 골라요."
+        "① 접사와 문맥 단서로 모르는 낱말의 뜻을 짐작할 수 있다.",
+        "② 다의어의 뜻을 문맥에 맞게 고를 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -141,7 +141,7 @@
       "role": "prior",
       "objectives": [],
       "title": "바꾸어 말하기 떠올리기",
-      "text": "쉬운 영어로 풀어 말해요.",
+      "text": "쉬운 영어로 풀어 말해 보자.",
       "problems": [
         {
           "text": "What does “huge” mean?\n→ It means very ______."
@@ -182,7 +182,7 @@
       "objectives": [
         "A"
       ],
-      "title": "낱말을 쪼개 봐요",
+      "title": "낱말을 쪼개 보자",
       "text": "접두사: 낱말 앞에 붙는 말,  접미사: 낱말 뒤에 붙는 말",
       "table": {
         "headers": [
@@ -260,8 +260,8 @@
       "objectives": [
         "A"
       ],
-      "title": "쪼개서 뜻을 짐작해요",
-      "text": "쪼개서 / 표시를 하고, 뜻을 짐작해요.",
+      "title": "쪼개서 뜻을 짐작하자",
+      "text": "쪼개서 / 표시를 하고, 뜻을 짐작해 보자.",
       "problems": [
         {
           "text": "unfriendly"
@@ -315,7 +315,7 @@
         "A"
       ],
       "title": "문맥 단서 네 가지",
-      "text": "문맥: 낱말 앞뒤의 문장.  단서를 찾아 뜻을 짐작해요.",
+      "text": "문맥: 낱말 앞뒤의 문장.  단서를 찾아 뜻을 짐작한다.",
       "table": {
         "headers": [
           "단서",
@@ -383,7 +383,7 @@
         "A"
       ],
       "title": "모르는 낱말을 만나면",
-      "text": "멈추지 말고 끝까지 읽은 뒤 짐작해요.",
+      "text": "멈추지 말고 끝까지 읽은 뒤 짐작한다.",
       "steps": [
         "모르는 낱말에 동그라미",
         "문장 끝까지 읽기",
@@ -430,8 +430,8 @@
       "objectives": [
         "A"
       ],
-      "title": "단서를 찾아 짐작해요",
-      "text": "[ ] 낱말의 뜻과 단서의 종류를 말해요.",
+      "title": "단서를 찾아 짐작하자",
+      "text": "[ ] 낱말의 뜻과 단서의 종류를 말해 보자.",
       "problems": [
         {
           "text": "A [ferry], a boat for people\nand cars, leaves every hour."
@@ -477,16 +477,16 @@
         "A"
       ],
       "title": "outgoing은 무슨 뜻일까?",
-      "claim": "Jun is shy, but his sister is very outgoing.\n두 친구가 outgoing의 뜻을 이렇게 짐작했어요.",
+      "claim": "Jun is shy, but his sister is very outgoing.\n두 친구가 outgoing의 뜻을 이렇게 짐작했다.",
       "left": {
         "title": "가",
-        "text": "사교적인, 활발한\nbut 앞의 shy(수줍은)와\n반대예요."
+        "text": "사교적인, 활발한\nbut 앞의 shy(수줍은)와\n반대이다."
       },
       "right": {
         "title": "나",
-        "text": "밖으로 나가는\nout + going으로\n쪼개 봤어요."
+        "text": "밖으로 나가는\nout + going으로\n쪼개 봤다."
       },
-      "question": "문맥에 맞는 쪽은? 다른 친구는 무엇을 확인하지 않았나요?",
+      "question": "문맥에 맞는 쪽은? 다른 친구는 무엇을 확인하지 않았는가?",
       "notes": {
         "목적": "낱말을 쪼갠 겉뜻만으로 정한 짐작과 문맥(대조)으로 확인한 짐작을 비교합니다(목표 A, 오해 M2).",
         "시간": "약 2분",
@@ -515,14 +515,14 @@
       "objectives": [
         "A"
       ],
-      "title": "짐작해요: 사막의 선인장",
+      "title": "짐작하기: 사막의 선인장",
       "text": "desert 사막 · cactus 선인장 · stem 줄기 · root 뿌리",
       "passage": {
         "paragraphs": [
           "Deserts are very hot and dry places, and only a few plants can [thrive] there. The cactus is one of these plants. A cactus stores water in its thick stem, so it can stay healthy for months without rain. Unlike most plants, which have wide, flat leaves, a cactus has [spines], sharp, thin points that protect it from hungry animals. Its roots are also [shallow]; they spread out just under the ground, not deep, so they can catch rain quickly."
         ]
       },
-      "question": "[ ] 낱말 세 개의 뜻은? 어떤 단서를 썼나요?",
+      "question": "[ ] 낱말 세 개의 뜻은? 어떤 단서를 썼는가?",
       "notes": {
         "목적": "짧은 설명문에서 [ ] 낱말 세 개의 뜻을 유추·정의·대조 단서로 짐작하고, 근거가 된 말을 짚습니다(목표 A, 오해 M1·M3). 부모가 한 번 읽어 준 뒤 아이가 다시 읽습니다.",
         "시간": "약 4분",
@@ -554,7 +554,7 @@
         "B"
       ],
       "title": "뜻이 여러 개인 낱말",
-      "text": "다의어: 뜻이 여러 개인 낱말. 앞뒤 낱말을 보고 골라요.",
+      "text": "다의어: 뜻이 여러 개인 낱말. 앞뒤 낱말을 보고 고른다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -608,8 +608,8 @@
       "objectives": [
         "B"
       ],
-      "title": "알맞은 뜻을 골라요",
-      "text": "문장에 맞는 뜻을 고르고, 단서가 된 낱말을 말해요.",
+      "title": "알맞은 뜻을 고르자",
+      "text": "문장에 맞는 뜻을 고르고, 단서가 된 낱말을 말해 보자.",
       "problems": [
         {
           "text": "Please hand me that book.\n(손 / 건네주다)"
@@ -656,16 +656,16 @@
       ],
       "title": "말하기: 낱말 탐정 놀이",
       "steps": [
-        "부모가 어려운 낱말이 든\n문장을 말해요.",
-        "아이가 뜻을 짐작해요.",
-        "단서의 종류를 말해요:\n대조예요. but이 있어요.",
-        "역할을 바꿔 아이가 카드 낱말로\n단서 문장을 만들어요.",
-        "부모가 뜻과 단서를 맞혀요."
+        "부모가 어려운 낱말이 든\n문장을 말한다.",
+        "아이가 뜻을 짐작한다.",
+        "단서의 종류를 말한다:\n대조이다. but이 있다.",
+        "역할을 바꿔 아이가 카드 낱말로\n단서 문장을 만든다.",
+        "부모가 뜻과 단서를 맞힌다."
       ],
       "criteria": [
-        "뜻을 비슷하게 짐작했어요",
-        "단서의 종류를 말했어요",
-        "내 문장에 단서를 넣었어요"
+        "뜻을 비슷하게 짐작했다",
+        "단서의 종류를 말했다",
+        "내 문장에 단서를 넣었다"
       ],
       "notes": {
         "목적": "부모가 어려운 낱말이 든 단서 문장을 말하면 아이가 뜻과 단서의 종류를 맞히고, 역할을 바꿔 아이가 카드의 낱말로 단서 문장을 만들어 냅니다(목표 A·B).",
@@ -701,7 +701,7 @@
       "objectives": [
         "A"
       ],
-      "title": "혼자 짐작해요: 나무늘보",
+      "title": "혼자 짐작하기: 나무늘보",
       "text": "sloth 나무늘보 · energy 힘 · lifestyle 생활 방식 · rainforest 열대 우림",
       "passage": {
         "paragraphs": [
@@ -762,11 +762,11 @@
         },
         {
           "text": "conserve 쓰다",
-          "note": "little energy와\n맞지 않아요"
+          "note": "little energy와\n맞지 않다"
         },
         {
-          "text": "단서: 그냥요",
-          "note": "신호 낱말을\n짚어요"
+          "text": "단서: 그냥",
+          "note": "신호 낱말을\n짚는다"
         }
       ],
       "explain": "정의 is·or   예시 such as   대조 but·unlike   유추 원인과 결과",
@@ -800,8 +800,8 @@
         "A",
         "B"
       ],
-      "title": "쪼개고, 골라요",
-      "text": "①은 쪼개서 짐작하고, ②③은 알맞은 뜻을 골라요.",
+      "title": "쪼개고, 고르자",
+      "text": "①은 쪼개서 짐작하고, ②③은 알맞은 뜻을 고르시오.",
       "problems": [
         {
           "text": "unbreakable  → 쪼개면? 뜻은?"
@@ -888,7 +888,7 @@
       "objectives": [],
       "title": "보충: 쉬운 말로 풀기",
       "layout": "support",
-      "text": "어려운 낱말을 쉬운 말로 풀어 말해요.",
+      "text": "어려운 낱말을 쉬운 말로 풀어 말해 보자.",
       "table": {
         "headers": [
           "낱말",
@@ -922,7 +922,7 @@
       },
       "key": {
         "title": "정의 단서",
-        "text": "글에서는 쉼표나 or 뒤에 이런 풀이가 나와요:  a vet, a doctor for animals"
+        "text": "글에서는 쉼표나 or 뒤에 이런 풀이가 나온다:  a vet, a doctor for animals"
       },
       "notes": {
         "목적": "S02에서 쉬운 말로 풀어 말하기가 흔들리면, 중2에서 배운 틀로 낱말을 풀어 말하며 ‘정의’ 단서가 이런 풀이라는 것을 다시 다집니다.",
@@ -949,7 +949,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "낱말을 아는 낱말과 접사로 쪼개(/ 표시) 쓰고, 뜻을 짐작해 쓰세요.",
+        "prompt": "낱말을 아는 낱말과 접사로 쪼개(/ 표시) 쓰고, 뜻을 짐작해 쓰시오.",
         "table": {
           "headers": [
             "낱말",
@@ -1000,7 +1000,7 @@
       },
       {
         "no": 2,
-        "prompt": "[ ] 낱말의 뜻을 짐작하고, 단서의 종류(정의·예시·대조·유추)를 쓰세요.",
+        "prompt": "[ ] 낱말의 뜻을 짐작하고, 단서의 종류(정의·예시·대조·유추)를 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1041,7 +1041,7 @@
       },
       {
         "no": 3,
-        "prompt": "글을 읽고 [ ] 낱말 세 개의 뜻을 짐작해 쓰고, 근거가 된 말을 옮겨 쓰세요.",
+        "prompt": "글을 읽고 [ ] 낱말 세 개의 뜻을 짐작해 쓰고, 근거가 된 말을 옮겨 쓰시오.",
         "read": "Camels are well [adapted] to life in the desert. Many people think that a camel's hump is full of water, but it actually stores fat. When food is [scarce], the camel uses this fat for energy. Camels also have long eyelashes and can close their noses, so sand can't get into their eyes and noses during a [sandstorm], a strong wind that carries sand. Their wide, flat feet also help them walk on hot sand without sinking. Thanks to all these things, camels can cross the desert for days.",
         "line_label": "뜻 · 근거:",
         "lines": 3,
@@ -1049,7 +1049,7 @@
       },
       {
         "no": 4,
-        "prompt": "다의어(hand, light, runs, stand)가 문장에서 어떤 뜻으로 쓰였나요? 알맞은 뜻에 ○ 하세요.",
+        "prompt": "다의어(hand, light, runs, stand)가 문장에서 어떤 뜻으로 쓰였는가? 알맞은 뜻에 ○ 하시오.",
         "table": {
           "headers": [
             "문장",
@@ -1086,7 +1086,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 문맥 단서 네 가지를 쓰세요.\n② unkind와 helpless의 뜻을 짐작해 쓰세요.\n③ She runs a bakery.에서 runs의 뜻을 쓰세요.",
+        "prompt": "① 문맥 단서 네 가지를 쓰시오.\n② unkind와 helpless의 뜻을 짐작해 쓰시오.\n③ She runs a bakery.에서 runs의 뜻을 쓰시오.",
         "lines": 3,
         "answer": "① 정의(is, or, 쉼표 뒤 풀이), 예시(such as), 대조(but, unlike), 유추(앞뒤 상황, 원인과 결과) ② unkind 친절하지 않은 / helpless 무력한(스스로 어떻게 할 수 없는) ③ 운영하다. 세 가지 모두 도움 없이 하면 통과."
       }

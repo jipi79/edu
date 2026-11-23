@@ -91,8 +91,8 @@
       "title": "문학 작품의 문화 맥락",
       "question": "1843년 런던과 1894년 미국,\n그 시대를 알면 이야기가 어떻게 달라 보일까?",
       "goals": [
-        "① 작품 속 장면을 시대·사회 맥락과 이어요.",
-        "② 인물의 선택을 그 맥락에서 설명해요."
+        "① 작품 속 장면을 시대·사회 맥락과 이을 수 있다.",
+        "② 인물의 선택을 그 맥락에서 설명할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -135,7 +135,7 @@
       "role": "prior",
       "objectives": [],
       "title": "소설 읽기 도구 떠올리기",
-      "text": "지난 소설을 떠올려요.",
+      "text": "지난 소설을 떠올리자.",
       "problems": [
         {
           "text": "「The Gift of the Magi」의\n갈등은?"
@@ -290,7 +290,7 @@
         "width": 12.13,
         "size": 18
       },
-      "key": "스크루지의 말은 그 시대 일부 부자들의 생각을 보여 줘요.",
+      "key": "스크루지의 말은 그 시대 일부 부자들의 생각을 보여 준다.",
       "notes": {
         "목적": "빅토리아 시대(1837~1901) 영국의 사회 사실 네 가지를 1부의 장면과 이어 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 3분",
@@ -368,7 +368,7 @@
         "title": "나",
         "text": "Workhouses were very hard places,\nand some rich people blamed the\npoor. Dickens shows this cold idea\nto make readers care."
       },
-      "question": "어느 해석이 더 깊은가요? 다른 쪽은 무엇을 놓쳤나요?",
+      "question": "어느 해석이 더 깊은가? 다른 쪽은 무엇을 놓쳤는가?",
       "notes": {
         "목적": "인물을 개인의 성격으로만 본 해석과, 시대 맥락과 이어 본 해석을 비교합니다(목표 A·B, 오해 M1).",
         "시간": "약 2분",
@@ -395,8 +395,8 @@
       "objectives": [
         "A"
       ],
-      "title": "장면과 맥락을 이어요",
-      "text": "장면에 맞는 시대 사실을 고르고 뜻을 말해요.",
+      "title": "장면과 맥락을 잇자",
+      "text": "장면에 맞는 시대 사실을 고르고 뜻을 말하자.",
       "problems": [
         {
           "text": "크래칫 가족을 가난하지만\n따뜻하게 그린다."
@@ -443,16 +443,16 @@
       ],
       "title": "말하기: 디킨스 인터뷰",
       "steps": [
-        "아이가 디킨스가 돼요.",
-        "부모가 기자처럼\n질문해요.",
-        "시대 사실을 들어\n답해요.",
-        "역할을 바꿔 부모가\n스크루지가 돼요.",
-        "가장 좋았던 답을\n서로 말해요."
+        "아이가 디킨스가 된다.",
+        "부모가 기자처럼\n질문한다.",
+        "시대 사실을 들어\n답한다.",
+        "역할을 바꿔 부모가\n스크루지가 된다.",
+        "가장 좋았던 답을\n서로 말한다."
       ],
       "criteria": [
-        "시대 사실을 들어 답했어요",
-        "작품 속 장면과 이었어요",
-        "질문을 두 개 이상 했어요"
+        "시대 사실을 들어 답했다",
+        "작품 속 장면과 이었다",
+        "질문을 두 개 이상 했다"
       ],
       "notes": {
         "목적": "아이가 디킨스가 되어 부모의 질문에 맥락을 들어 답하고, 역할을 바꿔 부모가 스크루지가 되어 아이의 질문에 답합니다(목표 B).",
@@ -484,14 +484,14 @@
         "A",
         "B"
       ],
-      "title": "혼자 읽어요: 한 시간의 이야기",
+      "title": "혼자 읽기: 한 시간의 이야기",
       "text": "다시 쓴 이야기(원문 아님): Kate Chopin, “The Story of an Hour” (1894)",
       "passage": {
         "paragraphs": [
           "Louise Mallard had heart trouble, so her sister told her the news very gently: her husband, Brently, had been killed in a train accident. Louise cried, then went to her room alone. She sat by an open window and looked at the blue sky and the spring trees. Slowly, a new feeling came to her, and she whispered that she was free. She knew she would cry at the funeral, because her husband had always been kind to her. But now she could live the rest of her life for herself. When she walked downstairs, the front door opened. Brently came in, alive. He had been far from the accident. Louise fell and died. The doctors said that her weak heart could not take the great joy."
         ]
       },
-      "question": "루이즈의 감정 변화와 근거 문장에 밑줄을 그어요(활동지 3).",
+      "question": "루이즈의 감정 변화와 근거 문장에 밑줄을 그으시오(활동지 3).",
       "notes": {
         "목적": "도움 없이 「한 시간의 이야기」 다시 쓴 글을 읽고, 루이즈의 감정 변화와 근거 문장을 찾는지 확인합니다(목표 A·B). 활동지 3에 씁니다.",
         "시간": "약 3분",
@@ -622,7 +622,7 @@
       "objectives": [
         "A"
       ],
-      "title": "맥락을 골라요",
+      "title": "맥락 고르기",
       "text": "가 1840년대 영국  ·  나 1890년대 미국 — 어느 쪽 맥락일까?",
       "problems": [
         {
@@ -743,7 +743,7 @@
       },
       "key": {
         "title": "다음 걸음",
-        "text": "‘배경’을 그 시대의 사회 사실로 넓히면 문화 맥락이 돼요."
+        "text": "‘배경’을 그 시대의 사회 사실로 넓히면 문화 맥락이 된다."
       },
       "notes": {
         "목적": "S02에서 소설 읽기 도구가 흔들리면, 맥락을 배우기 전에 인물·배경·갈등·주제를 다시 다집니다.",
@@ -769,13 +769,13 @@
     "items": [
       {
         "no": 1,
-        "prompt": "다시 쓴 이야기(원문 아님): Charles Dickens, “A Christmas Carol” (1843). 1·2부를 읽고 스크루지의 거절 장면과 변화 장면에 밑줄을 그으세요.",
+        "prompt": "다시 쓴 이야기(원문 아님): Charles Dickens, “A Christmas Carol” (1843). 1·2부를 읽고 스크루지의 거절 장면과 변화 장면에 밑줄을 그으시오.",
         "read": "Part 1\nIt was Christmas Eve in London. Ebenezer Scrooge, a rich businessman, sat in his cold office counting money. His clerk, Bob Cratchit, worked beside him with a very small fire, because Scrooge did not want to pay for more coal. Bob earned little money, and his young son, Tiny Tim, was sick. Two gentlemen came in and asked Scrooge to give money to help poor people at Christmas. Scrooge refused. He said that the poor could go to the prisons and workhouses, which his taxes already paid for. When the men answered that many poor people would rather die than go there, Scrooge showed no pity.\nPart 2\nThat night, the ghost of Scrooge's old business partner, Jacob Marley, visited him. Marley was wrapped in heavy chains that he had made by caring only about money, and he warned Scrooge that three spirits would come. The first spirit showed Scrooge his lonely childhood and the young woman he lost because he loved money more than her. The second spirit showed him the poor Cratchit family enjoying a small but happy Christmas dinner. The third spirit showed him a future in which Tiny Tim had died and no one was sad about Scrooge's own death. On Christmas morning, Scrooge woke up a changed man. He became generous and kind, and he helped the Cratchit family.",
         "answer": "거절: Scrooge refused. / the poor could go to the prisons and workhouses, which his taxes already paid for. / Scrooge showed no pity. 변화: On Christmas morning, Scrooge woke up a changed man. He became generous and kind, and he helped the Cratchit family. 두 곳 모두 찾으면 통과. 각 부분의 뜻은 안내서 S04·S06 노트에 있습니다."
       },
       {
         "no": 2,
-        "prompt": "장면에 맞는 시대 사실을 고르고(가·나·다·라), 뜻을 한 줄로 쓰세요(S08).\n가 낮은 임금의 도시 노동 · 나 구빈원의 힘든 생활 · 다 가난은 개인 탓이라는 생각 · 라 디킨스의 어린 시절 공장 노동",
+        "prompt": "장면에 맞는 시대 사실을 고르고(가·나·다·라), 뜻을 한 줄로 쓰시오(S08).\n가 낮은 임금의 도시 노동 · 나 구빈원의 힘든 생활 · 다 가난은 개인 탓이라는 생각 · 라 디킨스의 어린 시절 공장 노동",
         "table": {
           "headers": [
             "장면",
@@ -816,7 +816,7 @@
       },
       {
         "no": 3,
-        "prompt": "다시 쓴 이야기(원문 아님): Kate Chopin, “The Story of an Hour” (1894). 이야기를 읽고 S10·S11의 질문에 답하세요(우리말 가능).\n맥락 카드: 1890년대 미국: 여성은 대부분의 주에서 투표할 수 없었고(1920년에 전국에서 가능해짐), 많은 사람이 결혼한 여성의 역할은 남편과 집을 돌보는 것이라고 생각했다.",
+        "prompt": "다시 쓴 이야기(원문 아님): Kate Chopin, “The Story of an Hour” (1894). 이야기를 읽고 S10·S11의 질문에 답하시오(우리말 가능).\n맥락 카드: 1890년대 미국: 여성은 대부분의 주에서 투표할 수 없었고(1920년에 전국에서 가능해짐), 많은 사람이 결혼한 여성의 역할은 남편과 집을 돌보는 것이라고 생각했다.",
         "read": "Louise Mallard had heart trouble, so her sister told her the news very gently: her husband, Brently, had been killed in a train accident. Louise cried, then went to her room alone. She sat by an open window and looked at the blue sky and the spring trees. Slowly, a new feeling came to her, and she whispered that she was free. She knew she would cry at the funeral, because her husband had always been kind to her. But now she could live the rest of her life for herself. When she walked downstairs, the front door opened. Brently came in, alive. He had been far from the accident. Louise fell and died. The doctors said that her weak heart could not take the great joy.",
         "table": {
           "headers": [
@@ -850,7 +850,7 @@
         "no": 4,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 문화 맥락으로 읽는 세 걸음을 쓰세요.\n② 스크루지의 거절을 1840년대 영국의 맥락으로 한 문장 설명하세요.\n③ 루이즈가 자유를 느낀 까닭을 1890년대 미국의 맥락으로 한 문장 설명하세요.",
+        "prompt": "① 문화 맥락으로 읽는 세 걸음을 쓰시오.\n② 스크루지의 거절을 1840년대 영국의 맥락으로 한 문장 설명하시오.\n③ 루이즈가 자유를 느낀 까닭을 1890년대 미국의 맥락으로 한 문장 설명하시오.",
         "lines": 3,
         "answer": "① 장면 → 시대 사실 → 뜻 ② 예: 가난을 개인 탓으로 보고 구빈원에 보내면 된다고 여긴 그 시대 일부 부자의 생각을 보여 준다. ③ 예: 아내가 남편과 집을 위해 살아야 한다고 여겨진 시대라, 자기 삶을 스스로 살 수 있다는 생각에 자유를 느꼈다. 세 가지 모두 도움 없이 하면 통과."
       }

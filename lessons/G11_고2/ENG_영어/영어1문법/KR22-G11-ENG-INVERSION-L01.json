@@ -92,8 +92,8 @@
       "title": "도치 구문 입문",
       "question": "Never have I seen such a big dog.\n주어와 동사의 순서가 왜 바뀌었을까?",
       "goals": [
-        "① 부정어·Only가 앞에 온 도치 문장을 찾아 해석해요.",
-        "② 장소 도치를 해석하고 So·Neither로 맞장구쳐요."
+        "① 부정어·Only가 앞에 온 도치 문장을 찾아 해석할 수 있다.",
+        "② 장소 도치를 해석하고 So·Neither로 맞장구칠 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -115,7 +115,7 @@
         "시간": "약 2분",
         "말하기": [
           "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
-          "“‘나는 그렇게 큰 개를 한 번도 본 적이 없어요. 언덕 위에 성이 서 있어요. 나도 그래요.’라는 뜻이야.”",
+          "“‘나는 그렇게 큰 개를 한 번도 본 적이 없다. 언덕 위에 성이 서 있어요. 나도 그래요.’라는 뜻이야.”",
           "“세 문장 모두 주어와 동사의 순서가 보통과 달라. 이렇게 순서를 바꾼 것을 도치라고 해. 오늘은 도치된 문장을 찾아 해석하는 연습을 할 거야.”"
         ],
         "예상답": [
@@ -138,7 +138,7 @@
       "role": "prior",
       "objectives": [],
       "title": "의문문 어순 떠올리기",
-      "text": "①②는 의문문으로 바꾸고, ③은 무엇을 강조했는지 말해요.",
+      "text": "①②는 의문문으로 바꾸고, ③은 무엇을 강조했는지 말해 보자.",
       "problems": [
         {
           "text": "You have seen a whale.\n→ 의문문으로"
@@ -181,7 +181,7 @@
         "A"
       ],
       "title": "순서를 바꾸는 도치",
-      "text": "부정어를 앞으로 꺼내면 뒤가 의문문 어순이 돼요.",
+      "text": "부정어를 앞으로 꺼내면 뒤가 의문문 어순이 된다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -200,11 +200,11 @@
       "points": [
         {
           "title": "도치",
-          "text": "강조하려고 말을 앞으로 꺼내면\n주어와 동사의 순서가 바뀌어요."
+          "text": "강조하려고 말을 앞으로 꺼내면\n주어와 동사의 순서가 바뀐다."
         },
         {
           "title": "부정어 + 의문문 어순",
-          "text": "Never + have + 주어 + 과거분사\n뜻은 원래 문장과 같아요."
+          "text": "Never + have + 주어 + 과거분사\n뜻은 원래 문장과 같다."
         }
       ],
       "key": "Never have I seen ~  =  I have never seen ~",
@@ -248,22 +248,22 @@
           [
             "Never",
             "Never have I seen it.",
-            "한 번도 본 적이 없어요."
+            "한 번도 본 적이 없다."
           ],
           [
             "Rarely",
             "Rarely does he eat breakfast.",
-            "그는 좀처럼 아침을 먹지 않아요."
+            "그는 좀처럼 아침을 먹지 않는다."
           ],
           [
             "Little",
             "Little did I know the truth.",
-            "나는 진실을 전혀 몰랐어요."
+            "나는 진실을 전혀 몰랐다."
           ],
           [
             "Only then",
             "Only then did I understand it.",
-            "그때서야 그것을 이해했어요."
+            "그때서야 그것을 이해했다."
           ]
         ],
         "widths": [
@@ -303,8 +303,8 @@
       "objectives": [
         "A"
       ],
-      "title": "해석하고 되돌려요",
-      "text": "주어에 동그라미를 치고, 뜻을 말한 뒤 되돌려요.",
+      "title": "해석하고 되돌리자",
+      "text": "주어에 동그라미를 치고, 뜻을 말한 뒤 되돌리자.",
       "problems": [
         {
           "text": "Never have I been to Jeju."
@@ -348,8 +348,8 @@
       "objectives": [
         "A"
       ],
-      "title": "도치 문장을 만들어요",
-      "text": "부정어를 앞으로 꺼내 도치 문장을 만들어요.",
+      "title": "도치 문장을 만들자",
+      "text": "부정어를 앞으로 꺼내 도치 문장을 만들자.",
       "problems": [
         {
           "text": "I have never seen a ghost."
@@ -391,7 +391,7 @@
         "A"
       ],
       "title": "Never 다음의 순서는?",
-      "claim": "‘나는 그렇게 큰 개를 한 번도 본 적이 없어요.’를 Never로 시작해 두 친구가 이렇게 썼어요.",
+      "claim": "‘나는 그렇게 큰 개를 한 번도 본 적이 없다.’를 Never로 시작해 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -416,7 +416,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? Never 다음에는 어떤 어순이 와야 하나요?",
+      "question": "바르게 쓴 쪽은? Never 다음에는 어떤 어순이 와야 하는가?",
       "notes": {
         "목적": "부정어를 앞에 두고 주어 + 조동사 순서를 그대로 쓴 문장과 도치한 문장을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -445,7 +445,7 @@
         "B"
       ],
       "title": "장소가 앞에 오면",
-      "text": "장소·방향이 앞에 오면 동사 + 주어 순서가 돼요.",
+      "text": "장소·방향이 앞에 오면 동사 + 주어 순서가 된다.",
       "figure": {
         "type": "words",
         "perRow": 3,
@@ -473,7 +473,7 @@
         },
         {
           "title": "대명사 주어",
-          "text": "순서를 바꾸지 않아요.\nHere it comes. / There he goes."
+          "text": "순서를 바꾸지 않는다.\nHere it comes. / There he goes."
         }
       ],
       "notes": {
@@ -571,7 +571,7 @@
       "objectives": [
         "B"
       ],
-      "title": "진짜 주어를 찾아요",
+      "title": "진짜 주어를 찾자",
       "text": "동사에 밑줄, 진짜 주어에 동그라미!",
       "problems": [
         {
@@ -616,8 +616,8 @@
       "objectives": [
         "B"
       ],
-      "title": "맞장구쳐요",
-      "text": "‘나도 그래’, ‘나도 안 그래’를 영어로 말해요.",
+      "title": "맞장구치자",
+      "text": "‘나도 그래’, ‘나도 안 그래’를 영어로 말해 보자.",
       "problems": [
         {
           "text": "I love summer."
@@ -665,15 +665,15 @@
       ],
       "title": "말하기: 나도 그래!",
       "steps": [
-        "부모가 카드를 읽어요:\nI like pizza.",
-        "아이가 사실에 맞게 답해요:\nSo do I. / Really? I don't.",
-        "역할을 바꿔 아이가 말해요.",
-        "Never로 문장을 만들어요:\nNever have I ~.",
-        "서로 맞장구쳐요."
+        "부모가 카드를 읽는다:\nI like pizza.",
+        "아이가 사실에 맞게 답한다:\nSo do I. / Really? I don't.",
+        "역할을 바꿔 아이가 말한다.",
+        "Never로 문장을 만든다:\nNever have I ~.",
+        "서로 맞장구친다."
       ],
       "criteria": [
-        "So·Neither를 맞게 골랐어요",
-        "동사와 시제를 앞 문장에 맞췄어요",
+        "So·Neither를 맞게 골랐다",
+        "동사와 시제를 앞 문장에 맞췄다",
         "Never + have + 주어 순서"
       ],
       "notes": {
@@ -708,7 +708,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "Never have I eaten such\ngood pizza.  → 뜻은?"
@@ -759,7 +759,7 @@
       "teacher_only": true,
       "good": [
         {
-          "text": "① 한 번도 먹어 본 적이 없어요"
+          "text": "① 한 번도 먹어 본 적이 없다"
         },
         {
           "text": "② Rarely does he sleep late."
@@ -782,7 +782,7 @@
         },
         {
           "text": "Neither do I.",
-          "note": "be동사(am)에\n맞춰요"
+          "note": "be동사(am)에\n맞춘다"
         }
       ],
       "explain": "부정어 + 조동사·do + 주어,   장소 + 동사 + 주어\nSo·Neither + 동사 + 주어",
@@ -816,8 +816,8 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 골라요",
-      "text": "①②는 뜻을 말하고, ③은 골라요.",
+      "title": "뜻 말하고 고르기",
+      "text": "①②는 뜻을 말하고, ③은 고르시오.",
       "problems": [
         {
           "text": "Only then did she smile."
@@ -904,7 +904,7 @@
       "objectives": [],
       "title": "보충: 의문문 어순",
       "layout": "support",
-      "text": "의문문은 조동사·do가 주어 앞으로 가요.",
+      "text": "의문문은 조동사·do가 주어 앞으로 간다.",
       "table": {
         "headers": [
           "원래 문장",
@@ -964,7 +964,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "주어에 동그라미를 치고 뜻을 쓰세요.",
+        "prompt": "주어에 동그라미를 치고 뜻을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -991,11 +991,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 주어 I — 나는 그렇게 아름다운 노을을 한 번도 본 적이 없어요. ② 주어 my dad — 우리 아빠는 좀처럼 영화를 보지 않아요. ③ 주어 she — 그녀는 깜짝 파티에 대해 전혀 몰랐어요. ④ 주어 we — 그때서야 우리는 그 문제를 이해했어요. 네 개 가운데 세 개 이상이면 통과. (sunset: 노을, surprise party: 깜짝 파티)"
+        "answer": "① 주어 I — 나는 그렇게 아름다운 노을을 한 번도 본 적이 없다. ② 주어 my dad — 우리 아빠는 좀처럼 영화를 보지 않는다. ③ 주어 she — 그녀는 깜짝 파티에 대해 전혀 몰랐다. ④ 주어 we — 그때서야 우리는 그 문제를 이해했다. 네 개 가운데 세 개 이상이면 통과. (sunset: 노을, surprise party: 깜짝 파티)"
       },
       {
         "no": 2,
-        "prompt": "부정어를 맨 앞에 두어 도치 문장으로 바꾸어 쓰세요.",
+        "prompt": "부정어를 맨 앞에 두어 도치 문장으로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1022,7 +1022,7 @@
       },
       {
         "no": 3,
-        "prompt": "동사에 밑줄, 진짜 주어에 동그라미를 치고 뜻을 쓰세요.",
+        "prompt": "동사에 밑줄, 진짜 주어에 동그라미를 치고 뜻을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1045,11 +1045,11 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① 주어 a small puppy — 상자 안에 작은 강아지가 있었어요. ② 주어 our pizza — 우리 피자가 온다! ③ 주어 a tall man — 문 옆에 키 큰 남자가 서 있었어요. 세 개 가운데 두 개 이상이면 통과. (puppy: 강아지, stood: stand(서 있다)의 과거형)"
+        "answer": "① 주어 a small puppy — 상자 안에 작은 강아지가 있었다. ② 주어 our pizza — 우리 피자가 온다! ③ 주어 a tall man — 문 옆에 키 큰 남자가 서 있었다. 세 개 가운데 두 개 이상이면 통과. (puppy: 강아지, stood: stand(서 있다)의 과거형)"
       },
       {
         "no": 4,
-        "prompt": "B의 맞장구를 So나 Neither로 쓰세요.",
+        "prompt": "B의 맞장구를 So나 Neither로 쓰시오.",
         "table": {
           "headers": [
             "A",
@@ -1088,7 +1088,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1115,15 +1115,15 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 그렇게 맛있는 피자는 한 번도 먹어 본 적이 없어요. ② Rarely does he sleep late. ③ 주어 a clock — 벽에 시계가 걸려 있어요. ④ Neither am I. 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① 그렇게 맛있는 피자는 한 번도 먹어 본 적이 없다. ② Rarely does he sleep late. ③ 주어 a clock — 벽에 시계가 걸려 있다. ④ Neither am I. 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① I have never seen a ghost.를 Never로 시작해 쓰세요.\n② On the hill stands a castle.의 주어와 뜻을 쓰세요.\n③ I like pizza.와 I can't swim.에 맞장구(나도 그래·나도 안 그래)를 쓰세요.",
+        "prompt": "① I have never seen a ghost.를 Never로 시작해 쓰시오.\n② On the hill stands a castle.의 주어와 뜻을 쓰시오.\n③ I like pizza.와 I can't swim.에 맞장구(나도 그래·나도 안 그래)를 쓰시오.",
         "lines": 3,
-        "answer": "① Never have I seen a ghost. ② 주어 a castle — 언덕 위에 성이 서 있어요. ③ So do I. / Neither can I. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Never have I seen a ghost. ② 주어 a castle — 언덕 위에 성이 서 있다. ③ So do I. / Neither can I. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

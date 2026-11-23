@@ -92,8 +92,8 @@
       "title": "탐구 보고서 쓰기",
       "question": "낱말을 소리 내어 읽으면\n더 잘 외워질까? 어떻게 확인할까?",
       "goals": [
-        "① 보고서의 네 부분과 표현을 알아요.",
-        "② 미니 실험으로 짧은 영어 보고서를 써요."
+        "① 보고서의 네 부분과 표현을 설명할 수 있다.",
+        "② 미니 실험으로 짧은 영어 보고서를 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -144,7 +144,7 @@
       "role": "prior",
       "objectives": [],
       "title": "종합 요약 떠올리기",
-      "text": "①은 고르고, ②는 잘못된 점을, ③은 빈칸을 채워요.",
+      "text": "①은 고르고, ②는 잘못된 점을, ③은 빈칸을 채우자.",
       "problems": [
         {
           "text": "A survey of 200 companies (buys / shows that) 45% value communication."
@@ -232,7 +232,7 @@
         "B"
       ],
       "title": "보고서 표현",
-      "text": "부분마다 표현 두세 개면 충분해요.",
+      "text": "부분마다 표현 두세 개면 충분하다.",
       "table": {
         "headers": [
           "부분",
@@ -301,7 +301,7 @@
           "Conclusion: This suggests that the morning may be a better time for me to memorize words. One limitation is that I tested each time of day for only three days. Next time, I will test for two weeks."
         ]
       },
-      "question": "① 네 부분과 보고서 표현에 표시해요.  ② 결과의 숫자와 한계는?",
+      "question": "① 네 부분과 보고서 표현에 표시하자.  ② 결과의 숫자와 한계는?",
       "notes": {
         "목적": "본보기 보고서를 읽고 네 부분과 보고서 표현을 찾는 시범을 보입니다(목표 A).",
         "시간": "약 4분",
@@ -684,7 +684,7 @@
         "title": "나",
         "text": "This suggests that the morning\nmay be better for me. One limitation\nis that I tested for only three days."
       },
-      "question": "어느 결론이 알맞나요? 다른 쪽은 무엇이 문제인가요?",
+      "question": "어느 결론이 알맞을까? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "작은 실험으로 모든 사람에 대한 결론을 낸 문장과, 나에 대한 신중한 결론과 한계를 쓴 문장을 비교합니다(목표 B, 오해 M2).",
         "시간": "약 2분",
@@ -713,7 +713,7 @@
         "A"
       ],
       "title": "어느 부분일까?",
-      "text": "들어갈 부분과 단서 표현을 말해요.",
+      "text": "들어갈 부분과 단서 표현을 말하자.",
       "problems": [
         {
           "text": "To answer this question, I asked\n20 classmates two questions."
@@ -757,8 +757,8 @@
       "objectives": [
         "B"
       ],
-      "title": "구체적으로 고쳐요",
-      "text": "무엇이 부족한지 말하고, 고쳐 말해요.",
+      "title": "구체적으로 고치자",
+      "text": "무엇이 부족한지 말하고, 고쳐 말하자.",
       "problems": [
         {
           "text": "Method: I studied some words."
@@ -800,16 +800,16 @@
       ],
       "title": "말하기: 미니 실험",
       "steps": [
-        "목록 A를 1분 동안\n소리 없이 읽어요.",
-        "덮고 기억나는 낱말을\n써요.",
-        "목록 B를 1분 동안\n소리 내어 읽어요.",
-        "덮고 기억나는 낱말을\n써요.",
-        "개수를 표에 쓰고\n방법을 영어로 말해요."
+        "목록 A를 1분 동안\n소리 없이 읽는다.",
+        "덮고 기억나는 낱말을\n쓴다.",
+        "목록 B를 1분 동안\n소리 내어 읽는다.",
+        "덮고 기억나는 낱말을\n쓴다.",
+        "개수를 표에 쓰고\n방법을 영어로 말한다."
       ],
       "criteria": [
-        "1분 · 10개를 지켰어요",
-        "결과 숫자를 기록했어요",
-        "방법을 영어로 말했어요"
+        "1분 · 10개를 지켰다",
+        "결과 숫자를 기록했다",
+        "방법을 영어로 말했다"
       ],
       "notes": {
         "목적": "활동지 3의 낱말 목록으로 1분 미니 실험을 직접 하고 결과를 표에 기록합니다. 부모가 시간을 재고, 실험 과정을 영어로 함께 말해 봅니다(목표 B).",
@@ -842,8 +842,8 @@
         "A",
         "B"
       ],
-      "title": "혼자 써요: 미니 실험 보고서",
-      "text": "활동지 3의 결과로 활동지 4에 써요.",
+      "title": "혼자 쓰기: 미니 실험 보고서",
+      "text": "활동지 3의 결과로 활동지 4에 쓰시오.",
       "problems": [
         {
           "text": "Question:\nThe purpose ~ was to find out\nwhether ~."
@@ -949,7 +949,7 @@
         "A",
         "B"
       ],
-      "title": "고르고, 고치고, 계산해요",
+      "title": "고르고, 고치고, 계산하자",
       "text": "①은 부분, ②는 고치기, ③은 평균!",
       "problems": [
         {
@@ -1037,7 +1037,7 @@
       "objectives": [],
       "title": "보충: 숫자 쓰기",
       "layout": "support",
-      "text": "숫자와 단위를 함께 써요.",
+      "text": "숫자와 단위를 함께 쓴다.",
       "table": {
         "headers": [
           "숫자",
@@ -1066,7 +1066,7 @@
       },
       "key": {
         "title": "다음 걸음",
-        "text": "이 문장들을 Method와 Results 칸에 넣으면 보고서가 돼요."
+        "text": "이 문장들을 Method와 Results 칸에 넣으면 보고서가 된다."
       },
       "notes": {
         "목적": "S02에서 숫자 옮기기나 종합 표현이 흔들리면, 보고서를 쓰기 전에 숫자를 영어 문장으로 정확히 쓰는 연습을 다시 합니다.",
@@ -1093,7 +1093,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "문장이 들어갈 부분(Question · Method · Results · Conclusion)을 쓰세요.",
+        "prompt": "문장이 들어갈 부분(Question · Method · Results · Conclusion)을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1136,7 +1136,7 @@
       },
       {
         "no": 2,
-        "prompt": "S09의 세 문장을 보고서답게 고쳐 쓰세요.",
+        "prompt": "S09의 세 문장을 보고서답게 고쳐 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1163,7 +1163,7 @@
       },
       {
         "no": 3,
-        "prompt": "1분 미니 실험(S10): 목록마다 1분 동안 읽고, 덮은 뒤 기억나는 낱말을 따로 종이에 쓰세요. 기억한 개수를 표에 쓰세요.",
+        "prompt": "1분 미니 실험(S10): 목록마다 1분 동안 읽고, 덮은 뒤 기억나는 낱말을 따로 종이에 쓰시오. 기억한 개수를 표에 쓰시오.",
         "read": "목록 A(소리 없이 읽기): apple, river, pencil, cloud, garden, doctor, window, bridge, candle, rabbit\n목록 B(소리 내어 읽기): orange, mountain, eraser, rain, kitchen, farmer, door, tunnel, lamp, turtle",
         "table": {
           "headers": [
@@ -1199,7 +1199,7 @@
       },
       {
         "no": 4,
-        "prompt": "활동지 3의 결과로 탐구 보고서를 쓰세요. Question, Method, Results, Conclusion 제목을 쓰고, 한계 한 문장을 넣으세요.",
+        "prompt": "활동지 3의 결과로 탐구 보고서를 쓰시오. Question, Method, Results, Conclusion 제목을 쓰고, 한계 한 문장을 넣으시오.",
         "eng": {
           "trace": [],
           "blank": 10
@@ -1208,7 +1208,7 @@
       },
       {
         "no": 5,
-        "prompt": "점검표: 지킨 항목에 ✔ 하세요. 나와 부모님이 따로 표시해요.",
+        "prompt": "점검표: 지킨 항목에 ✔ 하시오. 나와 부모님이 따로 표시한다.",
         "table": {
           "headers": [
             "항목",
@@ -1258,7 +1258,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 탐구 보고서의 네 부분과 대표 표현을 쓰세요.\n② 결과와 결론의 차이를 쓰세요.\n③ This proves that everyone ~.를 신중한 결론으로 고칠 때 쓰는 말을 쓰세요.",
+        "prompt": "① 탐구 보고서의 네 부분과 대표 표현을 쓰시오.\n② 결과와 결론의 차이를 쓰시오.\n③ This proves that everyone ~.를 신중한 결론으로 고칠 때 쓰는 말을 쓰시오.",
         "lines": 3,
         "answer": "① Question(The purpose of this inquiry was to find out whether ~) / Method(To answer this question, I ~) / Results(The results show that ~) / Conclusion(This suggests that ~, One limitation is that ~) ② 결과는 숫자, 결론은 그 숫자의 뜻과 한계 ③ suggest, may, for me(+ 한계 문장). 세 가지 모두 도움 없이 하면 통과."
       }

@@ -97,8 +97,8 @@
       "title": "문화 차이 성찰하기",
       "question": "“All Spanish people stand close.”\n“When I met Lucía, she stood close.”\n어느 문장이 더 공정할까?",
       "goals": [
-        "① 공정한 말과 고정관념을 구별하고 공정하게 고쳐 써요.",
-        "② 문화 차이를 겪은 경험을 성찰하는 문단을 써요."
+        "① 공정한 말과 고정관념을 구별하고 공정하게 고쳐 쓸 수 있다.",
+        "② 문화 차이를 겪은 경험을 성찰하는 문단을 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -143,16 +143,16 @@
       "role": "prior",
       "objectives": [],
       "title": "고정관념 떠올리기",
-      "text": "중2·중3에서 배운 것을 떠올려요.",
+      "text": "중2·중3에서 배운 것을 떠올려 보자.",
       "problems": [
         {
           "text": "고정관념이란?"
         },
         {
-          "text": "All Brazilians are good at soccer.\n→ 신호 말을 찾고 고쳐 말해요"
+          "text": "All Brazilians are good at soccer.\n→ 신호 말을 찾고 고쳐 말하자"
         },
         {
-          "text": "It's different, not wrong.\n→ 뜻은? 언제 써요?"
+          "text": "It's different, not wrong.\n→ 뜻은? 언제 쓸까?"
         }
       ],
       "notes": {
@@ -187,7 +187,7 @@
         "A"
       ],
       "title": "공정한 말과 고정관념",
-      "text": "한 사람의 일은 본 대로, 여럿의 일(일반화)은 범위를 밝혀 말해요.",
+      "text": "한 사람의 일은 본 대로, 여럿의 일(일반화)은 범위를 밝혀 말한다.",
       "table": {
         "headers": [
           "말하는 방법",
@@ -219,7 +219,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "‘모두 ~하다’라고 단정하면 고정관념이에요.",
+      "key": "‘모두 ~하다’라고 단정하면 고정관념이다.",
       "notes": {
         "목적": "한 사람의 일을 본 대로 말하기, 근거가 있고 범위를 밝힌 조심스러운 일반화, 한 사람·한 번의 경험을 모두로 넓혀 단정하는 고정관념을 표로 구별합니다(목표 A, 오해 M1·M3).",
         "시간": "약 3분",
@@ -249,8 +249,8 @@
       "objectives": [
         "A"
       ],
-      "title": "어느 쪽일까요?",
-      "text": "공정한 말인지 고정관념인지 구별해요. 신호 말에 동그라미!",
+      "title": "어느 쪽일까?",
+      "text": "공정한 말인지 고정관념인지 구별해 보자. 신호 말에 동그라미!",
       "problems": [
         {
           "text": "All Koreans eat kimchi\nevery day."
@@ -295,8 +295,8 @@
       "objectives": [
         "A"
       ],
-      "title": "공정하게 고쳐 써요",
-      "text": "모두를 단정하는 말을 찾아 고쳐 써요.",
+      "title": "공정하게 고쳐 쓰자",
+      "text": "모두를 단정하는 말을 찾아 고쳐 써 보자.",
       "problems": [
         {
           "text": "Everyone in Korea bows\nto everyone."
@@ -339,7 +339,7 @@
         "A"
       ],
       "title": "어느 해석이 공정할까?",
-      "claim": "Lucía stood close to me when we talked.  두 친구가 이렇게 생각했어요.",
+      "claim": "Lucía stood close to me when we talked.  두 친구가 이렇게 생각했다.",
       "left": {
         "title": "가",
         "text": "People from Spain\nare rude."
@@ -348,7 +348,7 @@
         "title": "나",
         "text": "For her, standing close\nmay be a way to\nbe friendly."
       },
-      "question": "어느 해석이 더 공정할까요? 다른 쪽은 무엇이 문제인가요?",
+      "question": "어느 해석이 더 공정할까? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "낯선 행동을 보고 ‘무례하다’고 판단하며 나라 전체로 넓힌 해석과, 그 사람의 관점에서 까닭을 찾는 해석을 비교합니다(목표 A, 오해 M1·M2).",
         "시간": "약 2분",
@@ -384,7 +384,7 @@
           "Last spring, Lucía, an exchange student from Spain, stayed with my family for two weeks. On her first day, she greeted my mom with a kiss on each cheek, and my mom was surprised. In our family, we usually bow or just say hello. Lucía also stood close to me when we talked, and she wanted to eat dinner late, around nine. At first, I thought she was a little rude."
         ]
       },
-      "question": "루시아와 무엇이 달랐나요? 서연이의 처음 생각은?",
+      "question": "루시아와 무엇이 달랐는가? 서연이의 처음 생각은?",
       "notes": {
         "목적": "부모가 서연이의 성찰 글 앞부분을 읽어 주고, 인사·개인 공간·시간에 관한 경험과 서연이의 처음 생각을 찾습니다(목표 B).",
         "시간": "약 3분",
@@ -452,7 +452,7 @@
         "B"
       ],
       "title": "성찰 글의 짜임",
-      "text": "성찰: 내 경험과 생각을 돌아보는 것이에요.",
+      "text": "성찰: 내 경험과 생각을 돌아보는 것이다.",
       "table": {
         "headers": [
           "부분",
@@ -463,22 +463,22 @@
           [
             "① 경험",
             "Last ~, ~.",
-            "루시아가 볼 인사를 하고\n가까이 섰어요."
+            "루시아가 볼 인사를 하고\n가까이 섰다."
           ],
           [
             "② 처음 생각",
             "At first, I thought ~.",
-            "조금 무례하다고 생각했어요."
+            "조금 무례하다고 생각했다."
           ],
           [
             "③ 다른 관점의 까닭",
             "But ~ explained that ~.",
-            "그 마을에서는 많은 사람이\n그렇게 인사해요."
+            "그 마을에서는 많은 사람이\n그렇게 인사한다."
           ],
           [
             "④ 배운 점",
             "Now I understand that ~.\nI learned that ~.",
-            "다른 것이지 틀린 게 아니에요."
+            "다른 것이지 틀린 게 아니다."
           ]
         ],
         "widths": [
@@ -518,8 +518,8 @@
         "A",
         "B"
       ],
-      "title": "글을 읽고 답해요",
-      "text": "세 물음에 답하고, 근거 문장을 읽어요.",
+      "title": "글을 읽고 답하자",
+      "text": "세 물음에 답하고, 근거 문장을 읽어 보자.",
       "problems": [
         {
           "text": "서연이의 처음 생각은?"
@@ -562,15 +562,15 @@
       "title": "말하기: 내 경험 인터뷰",
       "steps": [
         "부모: Have you ever met someone\nwho does things differently?",
-        "경험이 없으면\n상황 카드를 골라요.",
-        "네 부분으로 말해요:\n경험 → 처음 생각",
+        "경험이 없으면\n상황 카드를 고른다.",
+        "네 부분으로 말한다:\n경험 → 처음 생각",
         "→ 다른 관점의 까닭\n→ 배운 점",
-        "개요표(활동지 3)에 적어요."
+        "개요표(활동지 3)에 적는다."
       ],
       "criteria": [
-        "네 부분을 모두 말했어요",
-        "그 사람의 관점에서 까닭을 찾았어요",
-        "모두를 단정하지 않았어요"
+        "네 부분을 모두 말했다",
+        "그 사람의 관점에서 까닭을 찾았다",
+        "모두를 단정하지 않았다"
       ],
       "notes": {
         "목적": "부모가 인사·시간·개인 공간에 관한 아이의 경험을 묻고, 아이가 네 부분(경험·처음 생각·다른 관점의 까닭·배운 점)으로 말한 뒤 활동지 3 개요표에 적습니다(목표 B). 경험이 없으면 상황 카드를 씁니다.",
@@ -603,8 +603,8 @@
         "A",
         "B"
       ],
-      "title": "혼자 써요: 성찰 문단",
-      "text": "활동지 3의 개요를 보고 활동지 4에 써요.",
+      "title": "혼자 쓰기: 성찰 문단",
+      "text": "활동지 3의 개요를 보고 활동지 4에 쓰시오.",
       "problems": [
         {
           "text": "경험:\nLast ~, ~."
@@ -682,7 +682,7 @@
           "note": "Now I understand\nthat ~."
         }
       ],
-      "explain": "경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점,  범위를 밝혀요",
+      "explain": "경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점,  범위를 밝힌다",
       "notes": {
         "목적": "아이의 문단을 잘 쓴 예와 견주어 보고, 고칠 곳 하나를 정합니다.",
         "시간": "약 1분",
@@ -713,7 +713,7 @@
         "A"
       ],
       "title": "편견 없는 문장은?",
-      "text": "가장 공정한 문장을 골라요.",
+      "text": "가장 공정한 문장을 고르시오.",
       "options": [
         {
           "text": "People in that country are always late."
@@ -728,7 +728,7 @@
           "text": "One of my friends from there was often late."
         }
       ],
-      "question": "가장 공정한 문장은? 나머지는 무엇이 문제인가요?",
+      "question": "가장 공정한 문장은? 나머지는 무엇이 문제인가?",
       "notes": {
         "목적": "처음 보는 네 문장 가운데 근거와 범위를 밝힌 공정한 문장을 고르고, 나머지가 왜 고정관념이나 판단인지 말하는지 확인합니다(목표 A).",
         "시간": "약 2분",
@@ -770,7 +770,7 @@
           "text": "성찰 글의\n네 부분은?"
         },
         {
-          "text": "고쳐 써요:\nAll Spanish people\nstand close."
+          "text": "고쳐 쓰시오:\nAll Spanish people\nstand close."
         }
       ],
       "next": "가정법 과거완료(고2)",
@@ -803,11 +803,11 @@
       "objectives": [],
       "title": "보충: ‘모두’ 없이 말하기",
       "layout": "support",
-      "text": "모두를 단정하는 말을 공정한 말로 바꿔요.",
+      "text": "모두를 단정하는 말을 공정한 말로 바꿔 보자.",
       "table": {
         "headers": [
-          "모두를 단정해요",
-          "공정하게 말해요"
+          "모두를 단정한다",
+          "공정하게 말한다"
         ],
         "rows": [
           [
@@ -863,7 +863,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "공정한 말인지 고정관념(모두를 단정)인지 ○ 하고, 고정관념이면 공정하게 고쳐 쓰세요.",
+        "prompt": "공정한 말인지 고정관념(모두를 단정)인지 ○ 하고, 고정관념이면 공정하게 고쳐 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -909,7 +909,7 @@
       },
       {
         "no": 2,
-        "prompt": "서연이의 글을 다시 읽고 물음에 답하세요.",
+        "prompt": "서연이의 글을 다시 읽고 물음에 답하시오.",
         "read": "What I Learned from Lucía\nLast spring, Lucía, an exchange student from Spain, stayed with my family for two weeks. On her first day, she greeted my mom with a kiss on each cheek, and my mom was surprised. In our family, we usually bow or just say hello. Lucía also stood close to me when we talked, and she wanted to eat dinner late, around nine. At first, I thought she was a little rude.\nBut Lucía explained that in her town, many people greet friends this way and stand close when they talk. Late dinners are common there, too. Of course, not everyone in Spain does the same. Now I understand that her ways are different, not wrong. In my experience, people show kindness in different ways. I also learned that one friend can't show me a whole country.",
         "line_label": "① 처음 생각과 근거 문장  ② 생각이 바뀐 까닭  ③ 서연이가 배운 점",
         "lines": 3,
@@ -917,7 +917,7 @@
       },
       {
         "no": 3,
-        "prompt": "나의 성찰 문단 개요표를 채우세요(S11에서 말한 내용). 낱말로 짧게, 우리말을 섞어도 돼요.",
+        "prompt": "나의 성찰 문단 개요표를 채우시오(S11에서 말한 내용). 낱말로 짧게, 우리말을 섞어도 된다.",
         "table": {
           "headers": [
             "부분",
@@ -952,13 +952,13 @@
       },
       {
         "no": 4,
-        "prompt": "개요를 보고 성찰 문단을 쓰세요(6~8문장). In my experience, ~ / At first, I thought ~ / Now I understand that ~ / I learned that ~을 써 보세요.",
+        "prompt": "개요를 보고 성찰 문단을 쓰시오(6~8문장). In my experience, ~ / At first, I thought ~ / Now I understand that ~ / I learned that ~을 써 보시오.",
         "lines": 10,
         "answer": "잘 쓴 예(88낱말): In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug. At first, I thought it was strange because I usually just say hello. But he said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs. Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country by one person. 기준(점검표 5항목): 네 부분 / 6~8문장 / 조심스러운 말 하나 이상 / All·always·never로 한 나라 사람 모두를 단정하지 않음 / 대문자·마침표·주어와 동사. 다섯 가운데 네 개 이상이면 통과."
       },
       {
         "no": 5,
-        "prompt": "점검표: 지킨 항목에 ✔ 하세요.",
+        "prompt": "점검표: 지킨 항목에 ✔ 하시오.",
         "table": {
           "headers": [
             "항목",
@@ -999,7 +999,7 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 공정한 말과 고정관념의 차이를 쓰세요.\n② 성찰 글의 네 부분을 순서대로 쓰세요.\n③ All Spanish people stand close.를 공정하게 고쳐 쓰세요.",
+        "prompt": "① 공정한 말과 고정관념의 차이를 쓰시오.\n② 성찰 글의 네 부분을 순서대로 쓰시오.\n③ All Spanish people stand close.를 공정하게 고쳐 쓰시오.",
         "lines": 3,
         "answer": "① 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝혀 조심스럽게 말하며(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정한다(All, always, never). ② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점 ③ When I met Lucía, she stood close. / Some people in Lucía's town stand close when they talk. 세 가지 모두 도움 없이 하면 통과."
       }

@@ -96,8 +96,8 @@
       "title": "분사구문 심화",
       "question": "Having finished my homework, I went out.\n-ing가 아닌 분사구문은 언제 쓸까?",
       "goals": [
-        "① 완료·수동 분사구문을 해석하고 바꾸어 써요.",
-        "② 주어가 다른 분사구문과 with + 명사 + 분사를 해석해요."
+        "① 완료·수동 분사구문을 해석하고 바꾸어 쓸 수 있다.",
+        "② 주어가 다른 분사구문과 with + 명사 + 분사를 해석할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -142,7 +142,7 @@
       "role": "prior",
       "objectives": [],
       "title": "분사구문과 수동태 떠올리기",
-      "text": "고1에서 배운 분사구문과 수동태예요.",
+      "text": "고1에서 배운 분사구문과 수동태이다.",
       "problems": [
         {
           "text": "When I opened the door, I saw a cat.\n→ 분사구문으로"
@@ -186,7 +186,7 @@
         "A"
       ],
       "title": "먼저 끝난 일: Having + 과거분사",
-      "text": "앞 덩어리의 일이 먼저 일어났으면 Having + 과거분사로 줄여요.",
+      "text": "앞 덩어리의 일이 먼저 일어났으면 Having + 과거분사로 줄인다.",
       "figure": {
         "type": "words",
         "perRow": 3,
@@ -246,7 +246,7 @@
         "A"
       ],
       "title": "같은 때일까, 먼저일까?",
-      "text": "두 일이 같은 때인지, 앞 덩어리의 일이 먼저인지 봐요.",
+      "text": "두 일이 같은 때인지, 앞 덩어리의 일이 먼저인지 본다.",
       "table": {
         "headers": [
           "부사절",
@@ -306,8 +306,8 @@
       "objectives": [
         "A"
       ],
-      "title": "Having으로 줄여요",
-      "text": "Having + 과거분사로 줄여 말하고, 뜻을 말해요.",
+      "title": "Having으로 줄이자",
+      "text": "Having + 과거분사로 줄여 말하고, 뜻을 말해 보자.",
       "problems": [
         {
           "text": "After I finished dinner,\nI watched TV."
@@ -353,7 +353,7 @@
         "A"
       ],
       "title": "~되는 쪽: (Being) + 과거분사",
-      "text": "주어가 ‘~되는’ 쪽이면 과거분사로 시작해요.",
+      "text": "주어가 ‘~되는’ 쪽이면 과거분사로 시작한다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -408,8 +408,8 @@
       "objectives": [
         "A"
       ],
-      "title": "과거분사로 줄여요",
-      "text": "①②③은 줄이고, ④는 뜻을 말하고 되돌려요.",
+      "title": "과거분사로 줄이자",
+      "text": "①②③은 줄이고, ④는 뜻을 말하고 되돌려 보자.",
       "problems": [
         {
           "text": "Because it is written\nin easy English,\nthe book is popular."
@@ -454,7 +454,7 @@
         "A"
       ],
       "title": "Seeing일까, Seen일까?",
-      "claim": "‘하늘에서 보면 그 섬은 하트처럼 보여요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘하늘에서 보면 그 섬은 하트처럼 보여요.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -479,7 +479,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 섬은 보는 쪽인가요, 보이는 쪽인가요?",
+      "question": "바르게 쓴 쪽은? 섬은 보는 쪽인가, 보이는 쪽인가?",
       "notes": {
         "목적": "주어가 ‘~되는’ 쪽인데 -ing를 쓴 문장과 과거분사를 쓴 문장을 비교합니다(목표 A, 오해 M2).",
         "시간": "약 2분",
@@ -508,8 +508,8 @@
       "objectives": [
         "B"
       ],
-      "title": "주어가 다르면 주어를 남겨요",
-      "text": "주어가 다르면 주어를 남긴 채 줄여요.",
+      "title": "주어가 다르면 주어를 남긴다",
+      "text": "주어가 다르면 주어를 남긴 채 줄인다.",
       "table": {
         "headers": [
           "부사절",
@@ -536,7 +536,7 @@
         "width": 12.13,
         "size": 22
       },
-      "key": "주어가 같으면 빼요,   주어가 다르면 남겨요",
+      "key": "주어가 같으면 뺀다,   주어가 다르면 남긴다",
       "notes": {
         "목적": "부사절과 주절의 주어가 다르면 부사절의 주어를 남긴 채 분사구문을 만든다는 것(독립 분사구문)을 보여 줍니다(목표 B, 오해 M3).",
         "시간": "약 2분",
@@ -620,8 +620,8 @@
       "objectives": [
         "B"
       ],
-      "title": "뜻을 말해요",
-      "text": "뜻을 말해요.",
+      "title": "뜻을 말하자",
+      "text": "뜻을 말해 보자.",
       "problems": [
         {
           "text": "It being rainy,\nwe stayed home."
@@ -667,7 +667,7 @@
         "B"
       ],
       "title": "-ing일까, 과거분사일까?",
-      "text": "명사와 분사의 관계를 보고 골라요.",
+      "text": "명사와 분사의 관계를 보고 골라 보자.",
       "problems": [
         {
           "text": "He waited with his arms\n(folding / folded)."
@@ -714,16 +714,16 @@
       ],
       "title": "말하기: ~한 채로, ~하고 나서",
       "steps": [
-        "부모가 동작을 해요:\n눈 감기, 팔짱 끼기",
-        "아이가 말해요: You are sitting\nwith your eyes closed.",
+        "부모가 동작을 한다:\n눈 감기, 팔짱 끼기",
+        "아이가 말한다: You are sitting\nwith your eyes closed.",
         "오늘 일을 순서대로:\nHaving eaten lunch, I ~.",
-        "카드로 더 말해요:\nwith the TV turned on",
-        "역할을 바꿔요."
+        "카드로 더 말한다:\nwith the TV turned on",
+        "역할을 바꾼다."
       ],
       "criteria": [
         "with + 명사 + 알맞은 분사",
         "먼저 한 일은 Having + 과거분사",
-        "주어와 분사의 관계를 말했어요"
+        "주어와 분사의 관계를 말했다"
       ],
       "notes": {
         "목적": "부모의 동작을 with + 명사 + 분사로 묘사하고, 오늘 한 일의 순서를 Having + 과거분사로 말합니다(목표 A·B).",
@@ -758,7 +758,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "After I washed my hands,\nI ate dinner.  → Having으로"
@@ -832,10 +832,10 @@
         },
         {
           "text": "Being cold, we ~",
-          "note": "주어가 다르면\n남겨요 (It)"
+          "note": "주어가 다르면\n남긴다 (It)"
         }
       ],
-      "explain": "먼저 → Having + p.p.,  ~되는 쪽 → p.p.,  주어가 다르면 남겨요",
+      "explain": "먼저 → Having + p.p.,  ~되는 쪽 → p.p.,  주어가 다르면 남긴다",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -866,8 +866,8 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 골라요",
-      "text": "①②는 뜻을 말하고 되돌리고, ③은 골라요.",
+      "title": "뜻을 말하고 고르자",
+      "text": "①②는 뜻을 말하고 되돌리고, ③은 고르시오.",
       "problems": [
         {
           "text": "Seen from far away, the rock looks like a face."
@@ -910,7 +910,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "먼저 일어난 일 → Having + p.p.,    ~되는 쪽 → (Being) + p.p.\n주어가 다르면 남겨요,    with + 명사 + 분사: ~하는(된) 채로",
+      "key": "먼저 일어난 일 → Having + p.p.,    ~되는 쪽 → (Being) + p.p.\n주어가 다르면 남긴다,    with + 명사 + 분사: ~하는(된) 채로",
       "do": "Seen from the sky, ~",
       "dont": "Seeing from the sky, the island ~",
       "review": [
@@ -954,7 +954,7 @@
       "objectives": [],
       "title": "보충: 분사구문 세 단계",
       "layout": "support",
-      "text": "고1에서 배운 분사구문 세 단계예요.",
+      "text": "고1에서 배운 분사구문 세 단계이다.",
       "table": {
         "headers": [
           "단계",
@@ -982,7 +982,7 @@
         "size": 24
       },
       "key": {
-        "title": "오늘은 ③ 단계가 바뀌어요",
+        "title": "오늘은 ③ 단계가 바뀐다",
         "text": "먼저 일어난 일 → Having + 과거분사,  ~되는 쪽 → 과거분사"
       },
       "notes": {
@@ -1010,7 +1010,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "Having + 과거분사를 써서 분사구문으로 바꾸어 문장 전체를 쓰세요.",
+        "prompt": "Having + 과거분사를 써서 분사구문으로 바꾸어 문장 전체를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1041,7 +1041,7 @@
       },
       {
         "no": 2,
-        "prompt": "수동 분사구문으로 바꾸어 쓰세요. Being은 빼도 돼요.",
+        "prompt": "수동 분사구문으로 바꾸어 쓰시오. Being은 빼도 된다.",
         "table": {
           "rows": [
             [
@@ -1068,7 +1068,7 @@
       },
       {
         "no": 3,
-        "prompt": "뜻을 쓰세요.",
+        "prompt": "뜻을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1095,11 +1095,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 날씨가 좋아서 우리는 밖에서 놀았어요. ② 영화가 끝나자 모두 일어섰어요. ③ 그는 눈을 감은 채로 소파에 앉아 있었어요. ④ 그 소년은 고양이가 뒤따르는 채로 들어왔어요. 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① 날씨가 좋아서 우리는 밖에서 놀았다. ② 영화가 끝나자 모두 일어섰다. ③ 그는 눈을 감은 채로 소파에 앉아 있었다. ④ 그 소년은 고양이가 뒤따르는 채로 들어왔다. 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 4,
-        "prompt": "알맞은 것에 ○ 하세요.",
+        "prompt": "알맞은 것에 ○ 하시오.",
         "table": {
           "rows": [
             [
@@ -1122,7 +1122,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1149,11 +1149,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① Having washed my hands, I ate dinner. ② (Being) Made by hand, the bag is expensive. ③ 추워서 우리는 코트를 입었어요. ④ 그는 다리를 꼰 채로 앉아 있었어요. 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① Having washed my hands, I ate dinner. ② (Being) Made by hand, the bag is expensive. ③ 추워서 우리는 코트를 입었다. ④ 그는 다리를 꼰 채로 앉아 있었다. 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 오늘 한 일 하나를 Having으로, 내 모습 하나를 with + 명사 + 분사로 쓰세요.",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 오늘 한 일 하나를 Having으로, 내 모습 하나를 with + 명사 + 분사로 쓰시오.",
         "eng": {
           "trace": [
             "Having finished my homework,",
@@ -1167,7 +1167,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① After I finished my homework, I went out.을 Having으로 바꾸어 쓰세요.\n② (Seeing / Seen) from the sky, the island looks like a heart.에서 알맞은 것을 쓰세요.\n③ with her eyes closed의 뜻을 쓰세요.",
+        "prompt": "① After I finished my homework, I went out.을 Having으로 바꾸어 쓰시오.\n② (Seeing / Seen) from the sky, the island looks like a heart.에서 알맞은 것을 쓰시오.\n③ with her eyes closed의 뜻을 쓰시오.",
         "lines": 3,
         "answer": "① Having finished my homework, I went out. ② Seen ③ 눈을 감은 채로. 세 가지 모두 도움 없이 하면 통과."
       }

@@ -92,8 +92,8 @@
       "title": "지원 이메일 쓰기",
       "question": "짧은 이메일 한 통으로 나를 소개하고\n뽑히고 싶다면 무엇을 써야 할까?",
       "goals": [
-        "① 지원 이메일의 짜임과 격식 표현을 알아요.",
-        "② 내 경험과 꿈을 담은 지원 이메일을 써요."
+        "① 지원 이메일의 짜임과 격식 표현을 알 수 있다.",
+        "② 내 경험과 꿈을 담은 지원 이메일을 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -140,7 +140,7 @@
       "role": "prior",
       "objectives": [],
       "title": "격식 이메일 떠올리기",
-      "text": "격식 이메일 표현으로 말해요.",
+      "text": "격식 이메일 표현으로 말하자.",
       "problems": [
         {
           "text": "Hi Dr. Lim! → 격식 인사"
@@ -240,7 +240,7 @@
         "B"
       ],
       "title": "부분별 표현",
-      "text": "부분마다 표현 하나씩이면 충분해요.",
+      "text": "부분마다 표현 하나씩이면 충분하다.",
       "table": {
         "headers": [
           "부분",
@@ -356,7 +356,7 @@
         "A"
       ],
       "title": "경험을 구체적으로",
-      "text": "언제부터 · 얼마나 · 무엇을 했는지 넣어요.",
+      "text": "언제부터 · 얼마나 · 무엇을 했는지 넣자.",
       "problems": [
         {
           "text": "I like science."
@@ -399,7 +399,7 @@
         "A"
       ],
       "title": "어느 쪽이 설득력 있을까?",
-      "claim": "과학 멘토 프로그램 지원 이메일의 경험 부분이에요.",
+      "claim": "과학 멘토 프로그램 지원 이메일의 경험 부분이다.",
       "left": {
         "title": "가",
         "text": "I'm the best student in my\nschool. I know everything\nabout science. Pick me!"
@@ -408,7 +408,7 @@
         "title": "나",
         "text": "For the past two years, I have\nled my school's science club.\nFor example, I planned weekly\nexperiments for 15 members."
       },
-      "question": "어느 쪽이 설득력 있나요? 다른 쪽은 무엇이 문제인가요?",
+      "question": "어느 쪽이 설득력 있는가? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "자기 자랑과 과장으로 설득하려는 문장과, 사실과 예로 보여 주는 문장을 비교합니다(목표 A, 오해 M2·M4).",
         "시간": "약 2분",
@@ -435,7 +435,7 @@
       "objectives": [
         "B"
       ],
-      "title": "지원 동기를 써요",
+      "title": "지원 동기를 쓰자",
       "text": "I am interested in ~ because ~.  It would help me ~.",
       "problems": [
         {
@@ -477,8 +477,8 @@
       "objectives": [
         "A"
       ],
-      "title": "순서를 맞춰요",
-      "text": "이메일 순서대로 번호를 붙여요.",
+      "title": "순서를 맞추자",
+      "text": "이메일 순서대로 번호를 붙이자.",
       "problems": [
         {
           "text": "I am interested in this program because I want to work with children in the future."
@@ -530,11 +530,11 @@
       ],
       "title": "말하기: 지원 동기 인터뷰",
       "steps": [
-        "프로그램 카드를 골라요.",
-        "부모(담당자)가 질문해요.",
-        "실제 경험과 예,\n동기로 답해요.",
-        "답을 낱말로 메모해요.",
-        "역할을 바꿔요."
+        "프로그램 카드를 고른다.",
+        "부모(담당자)가 질문한다.",
+        "실제 경험과 예,\n동기로 답한다.",
+        "답을 낱말로 메모한다.",
+        "역할을 바꾼다."
       ],
       "criteria": [
         "실제 경험과 예",
@@ -571,8 +571,8 @@
         "A",
         "B"
       ],
-      "title": "혼자 써요: 지원 이메일",
-      "text": "S10 메모를 보고 활동지 3에 써요.",
+      "title": "혼자 쓰기: 지원 이메일",
+      "text": "S10 메모를 보고 활동지 3에 쓰시오.",
       "problems": [
         {
           "text": "제목 · 인사 · 목적:\nApplication for ~ / Dear ~, /\nI am writing to apply for ~."
@@ -678,7 +678,7 @@
         "A",
         "B"
       ],
-      "title": "고르고, 고쳐요",
+      "title": "고르고, 고치기",
       "text": "①은 부분, ②는 고치기, ③은 고르기",
       "problems": [
         {
@@ -799,7 +799,7 @@
       },
       "key": {
         "title": "다음 걸음",
-        "text": "격식 표현을 지원 이메일의 여섯 부분에 넣어 봐요."
+        "text": "격식 표현을 지원 이메일의 여섯 부분에 넣어 보자."
       },
       "notes": {
         "목적": "S02에서 격식 이메일 표현이 흔들리면, 지원 이메일을 쓰기 전에 친구 말투를 격식 말투로 바꾸는 연습을 다시 합니다.",
@@ -826,7 +826,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "본보기 이메일(S05)에서 여섯 부분에 번호를 붙이고, 아래 섞인 문장(S09)을 순서대로 번호를 쓰세요.",
+        "prompt": "본보기 이메일(S05)에서 여섯 부분에 번호를 붙이고, 아래 섞인 문장(S09)을 순서대로 번호를 쓰시오.",
         "read": "Subject: Application for the Youth Science Mentor Program\nDear Dr. Lim,\nI am writing to apply for the Youth Science Mentor Program.\nFor the past two years, I have led my school's science club. For example, I planned weekly experiments for 15 members.\nI am interested in this program because I want to be a science teacher. It would help me learn to explain ideas simply.\nI am available on weekends in July and August. Thank you for considering my application.\nBest regards, Jiwoo Han (Maru High School, third-year student)",
         "table": {
           "headers": [
@@ -873,7 +873,7 @@
       },
       {
         "no": 2,
-        "prompt": "막연한 경험 문장을 기간·숫자·구체적인 행동이 있는 정직한 문장으로 고쳐 쓰세요(S06). 내 실제 경험으로 바꿔도 좋아요.",
+        "prompt": "막연한 경험 문장을 기간·숫자·구체적인 행동이 있는 정직한 문장으로 고쳐 쓰시오(S06). 내 실제 경험으로 바꿔도 좋다.",
         "table": {
           "headers": [
             "막연한 문장",
@@ -904,7 +904,7 @@
       },
       {
         "no": 3,
-        "prompt": "프로그램 카드 하나에 ○ 하고, 메모(S10)를 보고 지원 이메일(8~10문장)을 쓰세요. 첫 줄에 Subject: 를 쓰세요.\nA Children's Hospital Volunteer Program (예시): 주말에 입원한 어린이에게 책 읽어 주기·놀이 돕기 / 담당: Ms. Yoon\nB City Library Summer Book Club Leader (예시): 초등학생 독서 모임 이끌기 / 담당: Mr. Choi\nC Youth Coding Camp Assistant (예시): 중학생 코딩 캠프 보조 강사 / 담당: Dr. Kang",
+        "prompt": "프로그램 카드 하나에 ○ 하고, 메모(S10)를 보고 지원 이메일(8~10문장)을 쓰시오. 첫 줄에 Subject: 를 쓰시오.\nA Children's Hospital Volunteer Program (예시): 주말에 입원한 어린이에게 책 읽어 주기·놀이 돕기 / 담당: Ms. Yoon\nB City Library Summer Book Club Leader (예시): 초등학생 독서 모임 이끌기 / 담당: Mr. Choi\nC Youth Coding Camp Assistant (예시): 중학생 코딩 캠프 보조 강사 / 담당: Dr. Kang",
         "eng": {
           "trace": [],
           "blank": 10
@@ -913,7 +913,7 @@
       },
       {
         "no": 4,
-        "prompt": "점검표: 지킨 항목에 ✔ 하세요. 나와 부모님이 따로 표시해요.",
+        "prompt": "점검표: 지킨 항목에 ✔ 하시오. 나와 부모님이 따로 표시한다.",
         "table": {
           "headers": [
             "항목",
@@ -968,7 +968,7 @@
         "no": 5,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 지원 이메일의 짜임을 순서대로 쓰세요.\n② 경험 문장을 구체적으로 만드는 세 가지를 쓰세요.\n③ 지원 동기의 두 문장 틀을 쓰세요.",
+        "prompt": "① 지원 이메일의 짜임을 순서대로 쓰시오.\n② 경험 문장을 구체적으로 만드는 세 가지를 쓰시오.\n③ 지원 동기의 두 문장 틀을 쓰시오.",
         "lines": 3,
         "answer": "① 제목·인사 → 목적·나 → 경험 + 예 → 동기 → 첨부·때 → 맺음 ② 기간, 숫자, 구체적인 행동(예) ③ I am interested in ~ because ~. / It would help me ~. 세 가지 모두 도움 없이 하면 통과."
       }

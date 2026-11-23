@@ -48,7 +48,7 @@
     {
       "id": "B",
       "text": "현재완료의 결과 쓰임(I have lost my key. = 잃어버려서 지금도 없다, He has gone to Busan. = 가 버려서 지금 여기 없다)을 지금의 상태까지 넣어 해석하고, yesterday·last ~·~ ago·When ~?처럼 지난 때를 밝히는 말이 있으면 현재완료가 아니라 과거 시제를 쓴다는 것을 구별한다.",
-      "evidence": "결과의 뜻(S08), 지금은 어떤가요?(S09), 과거와 현재완료 표(S10), yesterday 비교(S11), 과거와 현재완료 고르기(S12), 혼자 해 보기(S14 ②④), 마무리 확인(S16 ①③), 활동지 3·4·5",
+      "evidence": "결과의 뜻(S08), 지금은 어떤가?(S09), 과거와 현재완료 표(S10), yesterday 비교(S11), 과거와 현재완료 고르기(S12), 혼자 해 보기(S14 ②④), 마무리 확인(S16 ①③), 활동지 3·4·5",
       "success": "활동지 3의 결과 해석 3개 모두에 지금의 상태를 넣어 쓰고, 활동지 4의 고르기 5개 가운데 4개 이상을 단서 낱말(ago, last, When, yet 등)과 함께 고른다."
     }
   ],
@@ -94,10 +94,10 @@
         "B"
       ],
       "title": "현재완료(완료·결과)",
-      "question": "I have just finished my homework.\n‘막 끝냈어요’는 영어로 어떻게 말할까?",
+      "question": "I have just finished my homework.\n‘막 끝냈다’는 영어로 어떻게 말할까?",
       "goals": [
-        "① just·already·yet으로 끝낸 일을 말해요.",
-        "② 결과의 뜻을 알고 과거 시제와 구별해요."
+        "① just·already·yet으로 끝낸 일을 말할 수 있다.",
+        "② 결과의 뜻을 알고 과거 시제와 구별할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -142,7 +142,7 @@
       "role": "prior",
       "objectives": [],
       "title": "현재완료 떠올리기",
-      "text": "①②는 알맞은 말을 넣고, ③은 No로 대답해요.",
+      "text": "①②는 알맞은 말을 넣고, ③은 No로 대답해 보자.",
       "problems": [
         {
           "text": "I have (saw / seen) a panda."
@@ -151,7 +151,7 @@
           "text": "She ______ lived here since 2020.\n(have / has)"
         },
         {
-          "text": "Have you ever been to Jeju?\n→ No로 대답해요"
+          "text": "Have you ever been to Jeju?\n→ No로 대답하자"
         }
       ],
       "notes": {
@@ -186,7 +186,7 @@
         "A"
       ],
       "title": "오늘 쓰는 과거분사",
-      "text": "★는 오늘 처음 배우는 모양이에요.",
+      "text": "★는 오늘 처음 배우는 모양이다.",
       "table": {
         "headers": [
           "동사",
@@ -282,19 +282,19 @@
       "objectives": [
         "A"
       ],
-      "title": "막 끝냈어요, 벌써 먹었어요",
-      "text": "have·has와 과거분사 사이에 just, already를 넣어요.",
+      "title": "막 끝냈다, 벌써 먹었다",
+      "text": "have·has와 과거분사 사이에 just, already를 넣는다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "I have just finished\nmy homework.",
-            "sub": "나는 막 숙제를 끝냈어요."
+            "sub": "나는 막 숙제를 끝냈다."
           },
           {
             "word": "She has already\neaten lunch.",
-            "sub": "그녀는 벌써 점심을 먹었어요."
+            "sub": "그녀는 벌써 점심을 먹었다."
           }
         ]
       },
@@ -308,7 +308,7 @@
           "text": "‘벌써, 이미’\nhave와 과거분사 사이"
         }
       ],
-      "key": "완료: 지난 일이 지금 끝나 있어요 → 그래서 지금 놀 수 있어요.",
+      "key": "완료: 지난 일이 지금 끝나 있다 → 그래서 지금 놀 수 있다.",
       "notes": {
         "목적": "have·has + just·already + 과거분사로 막·벌써 끝낸 일(완료)을 말한다는 것을 보여 줍니다(목표 A).",
         "시간": "약 3분",
@@ -339,7 +339,7 @@
         "A"
       ],
       "title": "just, already, yet의 자리",
-      "text": "yet은 부정문과 의문문의 끝에 와요.",
+      "text": "yet은 부정문과 의문문의 끝에 온다.",
       "table": {
         "headers": [
           "말과 뜻",
@@ -408,7 +408,7 @@
         "A"
       ],
       "title": "알맞은 말은?",
-      "text": "알맞은 말을 골라 읽고, ⑤⑥은 과거분사로 바꿔요.",
+      "text": "알맞은 말을 골라 읽고, ⑤⑥은 과거분사로 바꿔 보자.",
       "problems": [
         {
           "text": "I have (just / yet)\ncleaned my room."
@@ -463,8 +463,8 @@
       "objectives": [
         "A"
       ],
-      "title": "‘벌써 끝냈어요’를 영어로",
-      "claim": "‘나는 벌써 숙제를 끝냈어요.’를 두 친구가 이렇게 썼어요.",
+      "title": "‘벌써 끝냈다’를 영어로",
+      "claim": "‘나는 벌써 숙제를 끝냈다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -489,7 +489,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? yet은 어떤 문장에 쓰나요?",
+      "question": "바르게 쓴 쪽은? yet은 어떤 문장에 쓸까?",
       "notes": {
         "목적": "긍정문에 yet을 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M2).",
         "시간": "약 2분",
@@ -518,19 +518,19 @@
       "objectives": [
         "B"
       ],
-      "title": "잃어버려서 지금도 없어요",
-      "text": "결과: 지난 일 때문에 생긴 상태가 지금도 남아 있어요.",
+      "title": "잃어버려서 지금도 없다",
+      "text": "결과: 지난 일 때문에 생긴 상태가 지금도 남아 있다.",
       "figure": {
         "type": "words",
         "perRow": 2,
         "items": [
           {
             "word": "I lost my key.",
-            "sub": "잃어버렸어요. (지금은? 알 수 없어요)"
+            "sub": "잃어버렸다. (지금은? 알 수 없다)"
           },
           {
             "word": "I have lost my key.",
-            "sub": "잃어버려서 지금도 없어요.",
+            "sub": "잃어버려서 지금도 없다.",
             "highlight": true
           }
         ]
@@ -538,11 +538,11 @@
       "points": [
         {
           "title": "has gone to (결과)",
-          "text": "가 버려서 지금 여기 없어요.\nHe has gone to Busan."
+          "text": "가 버려서 지금 여기 없다.\nHe has gone to Busan."
         },
         {
           "title": "has been to (경험)",
-          "text": "가 본 적이 있어요.\nHe has been to Busan."
+          "text": "가 본 적이 있다.\nHe has been to Busan."
         }
       ],
       "notes": {
@@ -574,20 +574,20 @@
       "objectives": [
         "B"
       ],
-      "title": "지금은 어떤가요?",
-      "text": "뜻을 말하고, 물음에 답해요.",
+      "title": "지금은 어떤가?",
+      "text": "뜻을 말하고, 물음에 답해 보자.",
       "problems": [
         {
-          "text": "I have lost my phone.\n→ 지금 전화기가 있나요?"
+          "text": "I have lost my phone.\n→ 지금 전화기가 있는가?"
         },
         {
-          "text": "Tom has gone to London.\n→ 톰은 지금 여기 있나요?"
+          "text": "Tom has gone to London.\n→ 톰은 지금 여기 있는가?"
         },
         {
-          "text": "She has broken her leg.\n→ 지금 다리는 어떤가요?"
+          "text": "She has broken her leg.\n→ 지금 다리는 어떤가?"
         },
         {
-          "text": "The bus has just left.\n→ 지금 그 버스를 탈 수 있나요?"
+          "text": "The bus has just left.\n→ 지금 그 버스를 탈 수 있는가?"
         }
       ],
       "notes": {
@@ -620,7 +620,7 @@
         "B"
       ],
       "title": "과거일까, 현재완료일까?",
-      "text": "지난 때를 밝히는 말이 있으면 과거 시제를 써요.",
+      "text": "지난 때를 밝히는 말이 있으면 과거 시제를 쓴다.",
       "table": {
         "headers": [
           "과거 시제 (지난 때가 분명)",
@@ -677,8 +677,8 @@
       "objectives": [
         "B"
       ],
-      "title": "‘어제 숙제를 끝냈어요’를 영어로",
-      "claim": "‘나는 어제 숙제를 끝냈어요.’를 두 친구가 이렇게 썼어요.",
+      "title": "‘어제 숙제를 끝냈다’를 영어로",
+      "claim": "‘나는 어제 숙제를 끝냈다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -703,7 +703,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 어떤 낱말이 단서인가요?",
+      "question": "바르게 쓴 쪽은? 어떤 낱말이 단서인가?",
       "notes": {
         "목적": "지난 때를 밝히는 말(yesterday)과 현재완료를 함께 쓰는 실수를 비교로 바로잡습니다(목표 B, 오해 M1).",
         "시간": "약 2분",
@@ -731,8 +731,8 @@
       "objectives": [
         "B"
       ],
-      "title": "단서를 보고 골라요",
-      "text": "단서 낱말에 동그라미를 치고 골라요.",
+      "title": "단서를 보고 고르자",
+      "text": "단서 낱말에 동그라미를 치고 고르자.",
       "problems": [
         {
           "text": "We (finished / have finished)\nthe project two days ago."
@@ -781,16 +781,16 @@
       ],
       "title": "말하기: 오늘 할 일 다 했니?",
       "steps": [
-        "종이에 오늘 할 일을 써요:\ndo my homework …",
-        "부모가 물어요:\nHave you done it yet?",
-        "아이가 답해요:\nYes, I have. / No, not yet.",
-        "끝낸 일에 ✔ 표시를 해요.",
-        "역할을 바꿔 아이가 물어요."
+        "종이에 오늘 할 일을 쓴다:\ndo my homework …",
+        "부모가 묻는다:\nHave you done it yet?",
+        "아이가 답한다:\nYes, I have. / No, not yet.",
+        "끝낸 일에 ✔ 표시를 한다.",
+        "역할을 바꿔 아이가 묻는다."
       ],
       "criteria": [
         "Yes, I have. / No, not yet.",
         "already·yet을 바른 자리에",
-        "have 뒤에 과거분사를 썼어요"
+        "have 뒤에 과거분사를 썼다"
       ],
       "notes": {
         "목적": "오늘 할 일 목록을 보며 Have you ~ yet?으로 묻고 already·yet으로 답하고, 집 안 상황으로 결과의 현재완료를 말합니다(목표 A·B).",
@@ -826,13 +826,13 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
-          "text": "‘나는 막 숙제를 끝냈어요.’\n→ 영어로 (just)"
+          "text": "‘나는 막 숙제를 끝냈다.’\n→ 영어로 (just)"
         },
         {
-          "text": "She ___ ___ her bag.\n(잃어버려서 지금 없어요: lose)"
+          "text": "She ___ ___ her bag.\n(잃어버려서 지금 없다: lose)"
         },
         {
           "text": "I haven't cleaned my\nroom ______."
@@ -934,17 +934,17 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 답해요",
-      "text": "뜻을 말하고, 물음에 답해요.",
+      "title": "뜻을 말하고 답하자",
+      "text": "뜻을 말하고, 물음에 답하시오.",
       "problems": [
         {
-          "text": "He has gone to Jeju.\n→ 그는 지금 어디에 있나요?"
+          "text": "He has gone to Jeju.\n→ 그는 지금 어디에 있는가?"
         },
         {
-          "text": "Have you finished your homework yet?\n→ 뜻은? No로 대답해요"
+          "text": "Have you finished your homework yet?\n→ 뜻은? No로 대답하시오"
         },
         {
-          "text": "The train has already left.\n→ 지금 그 기차를 탈 수 있나요?"
+          "text": "The train has already left.\n→ 지금 그 기차를 탈 수 있는가?"
         }
       ],
       "notes": {
@@ -978,7 +978,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "완료: have just·already + 과거분사,  haven't ~ yet,  Have you ~ yet?\n결과: have lost = 지금도 없어요.   yesterday·ago는 과거 시제",
+      "key": "완료: have just·already + 과거분사,  haven't ~ yet,  Have you ~ yet?\n결과: have lost = 지금도 없다.   yesterday·ago는 과거 시제",
       "do": "I have already eaten.",
       "dont": "I have eaten yesterday.",
       "review": [
@@ -1005,7 +1005,7 @@
         ],
         "정답": [
           "① yet (I haven't done it yet.)",
-          "② 열쇠를 잃어버려서 지금도 없어요.",
+          "② 열쇠를 잃어버려서 지금도 없다.",
           "③ I saw him yesterday."
         ],
         "주의": [
@@ -1080,7 +1080,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "동사의 과거분사를 쓰세요. ★는 오늘 새로 배운 모양이에요.",
+        "prompt": "동사의 과거분사를 쓰시오. ★는 오늘 새로 배운 모양이다.",
         "table": {
           "headers": [
             "동사",
@@ -1127,7 +1127,7 @@
       },
       {
         "no": 2,
-        "prompt": "괄호 안의 말을 알맞은 자리에 넣어 문장을 다시 쓰세요.",
+        "prompt": "괄호 안의 말을 알맞은 자리에 넣어 문장을 다시 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1162,7 +1162,7 @@
       },
       {
         "no": 3,
-        "prompt": "뜻을 쓰세요. ‘그래서 지금 ~’까지 넣어 쓰세요.",
+        "prompt": "뜻을 쓰시오. ‘그래서 지금 ~’까지 넣어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1185,11 +1185,11 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① 나는 지갑을 잃어버렸어요(그래서 지금 지갑이 없어요). ② 우리 형(오빠·남동생)은 도서관에 가 버렸어요(그래서 지금 여기 없어요). ③ 누군가 창문을 깼어요(그래서 지금 창문이 깨져 있어요). 세 개 모두 지금의 상태를 넣어 쓰면 통과. ②를 ‘가 본 적이 있다’로 쓰면 S08을 다시 봅니다. (wallet: 지갑, someone: 누군가)"
+        "answer": "① 나는 지갑을 잃어버렸다(그래서 지금 지갑이 없다). ② 우리 형(오빠·남동생)은 도서관에 가 버렸다(그래서 지금 여기 없다). ③ 누군가 창문을 깼다(그래서 지금 창문이 깨져 있다). 세 개 모두 지금의 상태를 넣어 쓰면 통과. ②를 ‘가 본 적이 있다’로 쓰면 S08을 다시 봅니다. (wallet: 지갑, someone: 누군가)"
       },
       {
         "no": 4,
-        "prompt": "알맞은 것에 ○ 하고, 단서가 된 낱말을 쓰세요.",
+        "prompt": "알맞은 것에 ○ 하고, 단서가 된 낱말을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1228,15 +1228,15 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
-              "① ‘나는 막 숙제를 끝냈어요.’ (just)",
+              "① ‘나는 막 숙제를 끝냈다.’ (just)",
               ""
             ],
             [
-              "② She ___ ___ her bag. (lose, 지금 없어요)",
+              "② She ___ ___ her bag. (lose, 지금 없다)",
               ""
             ],
             [
@@ -1259,7 +1259,7 @@
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 오늘 내가 한 일과 아직 안 한 일을 쓰세요(already 문장 하나, yet 문장 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 오늘 내가 한 일과 아직 안 한 일을 쓰시오(already 문장 하나, yet 문장 하나).",
         "eng": {
           "trace": [
             "I have just finished my homework.",
@@ -1273,9 +1273,9 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① I haven't done it (already / yet).에서 알맞은 것을 쓰세요.\n② I have lost my key.의 뜻을 ‘지금’까지 넣어 쓰세요.\n③ I have seen him yesterday.를 바르게 고쳐 쓰세요.",
+        "prompt": "① I haven't done it (already / yet).에서 알맞은 것을 쓰시오.\n② I have lost my key.의 뜻을 ‘지금’까지 넣어 쓰시오.\n③ I have seen him yesterday.를 바르게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① yet ② 열쇠를 잃어버려서 지금도 없어요. ③ I saw him yesterday. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① yet ② 열쇠를 잃어버려서 지금도 없다. ③ I saw him yesterday. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

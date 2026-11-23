@@ -99,8 +99,8 @@
       "title": "의견 에세이 쓰기",
       "question": "“Every student should learn to cook.”\n이 주장을 네 문단 에세이로 어떻게 펼칠까?",
       "goals": [
-        "① 네 문단의 짜임과 연결어를 알고, 반론과 반박을 넣어 에세이를 써요.",
-        "② 점검표와 부모님 피드백으로 한 번 고쳐 써요."
+        "① 네 문단의 짜임과 연결어를 알고, 반론과 반박을 넣어 에세이를 쓸 수 있다.",
+        "② 점검표와 부모님 피드백으로 한 번 고쳐 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -149,13 +149,13 @@
       "role": "prior",
       "objectives": [],
       "title": "의견 문단 떠올리기",
-      "text": "중3 의견 문단을 떠올려요.",
+      "text": "중3 의견 문단을 떠올리자.",
       "problems": [
         {
           "text": "의견 문단의 네 부분은?"
         },
         {
-          "text": "Reason: Reading is relaxing.\nFor example, books are good.\n→ 무엇이 문제? 고쳐 말해요"
+          "text": "Reason: Reading is relaxing.\nFor example, books are good.\n→ 무엇이 문제? 고쳐 말하자"
         },
         {
           "text": "For these reasons의 뜻은?"
@@ -193,7 +193,7 @@
         "A"
       ],
       "title": "의견 에세이의 네 문단",
-      "text": "문단: 한 가지 생각을 담은 문장 묶음이에요.",
+      "text": "문단: 한 가지 생각을 담은 문장 묶음이다.",
       "table": {
         "headers": [
           "문단",
@@ -230,7 +230,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "반론(다른 의견)과 반박(내 대답)은 늘 한 쌍이에요.",
+      "key": "반론(다른 의견)과 반박(내 대답)은 늘 한 쌍이다.",
       "notes": {
         "목적": "네 문단(서론·본론·반론과 반박·결론)이 각각 하는 일과 쓰는 연결어를 표로 보여 주고, 반론과 반박은 늘 한 쌍이라는 것을 짚습니다(목표 A, 오해 M1·M3).",
         "시간": "약 2분",
@@ -271,7 +271,7 @@
         ],
         "numbered": true
       },
-      "question": "skill 기술 · measure 재다 · dish 요리      각 문단은 무슨 일을 하나요?",
+      "question": "skill 기술 · measure 재다 · dish 요리      각 문단은 무슨 일을 하는가?",
       "notes": {
         "목적": "본보기 에세이를 함께 읽고, 문단마다 다른 색으로 표시하며 문단이 하는 일과 연결어를 찾습니다(목표 A, 오해 M2).",
         "시간": "약 3분",
@@ -301,8 +301,8 @@
       "objectives": [
         "A"
       ],
-      "title": "연결어를 넣어요",
-      "text": "상자에서 알맞은 연결어를 골라 넣어요.",
+      "title": "연결어를 넣자",
+      "text": "상자에서 알맞은 연결어를 골라 넣자.",
       "problems": [
         {
           "text": "______, students should\nwalk to school."
@@ -348,7 +348,7 @@
         "A"
       ],
       "title": "어느 반론 문단이 좋을까?",
-      "claim": "요리 에세이의 셋째 문단을 두 친구가 이렇게 썼어요.",
+      "claim": "요리 에세이의 셋째 문단을 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "text": "Some people say that\nstudents are too busy to cook.\nHowever, many simple dishes\ntake only fifteen minutes."
@@ -357,7 +357,7 @@
         "title": "나",
         "text": "Some people say that\nstudents are too busy\nto cook. They are right."
       },
-      "question": "어느 쪽이 좋을까요? 다른 쪽은 무엇이 빠졌나요?",
+      "question": "어느 쪽이 좋을까? 다른 쪽은 무엇이 빠졌는가?",
       "notes": {
         "목적": "반론만 쓰고 동의해 버린 문단과, However로 반박한 문단을 비교합니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -385,8 +385,8 @@
       "objectives": [
         "B"
       ],
-      "title": "개요를 세워요",
-      "text": "개요: 글을 쓰기 전에 적는 뼈대 메모예요.",
+      "title": "개요를 세우자",
+      "text": "개요: 글을 쓰기 전에 적는 뼈대 메모이다.",
       "steps": [
         "주제를 고르고 주장 한 문장",
         "서로 다른 이유 두 개",
@@ -422,8 +422,8 @@
       "objectives": [
         "B"
       ],
-      "title": "However로 답해요",
-      "text": "반론을 읽고 However로 반박해요.",
+      "title": "However로 답하자",
+      "text": "반론을 읽고 However로 반박하자.",
       "problems": [
         {
           "text": "Students should walk to school.\nSome people say it is dangerous.\n→ However, ~"
@@ -467,16 +467,16 @@
       ],
       "title": "말하기: 주제 카드 인터뷰",
       "steps": [
-        "주제 카드 하나를 골라요:\nswim / diary / walk or bike",
+        "주제 카드 하나를 고른다:\nswim / diary / walk or bike",
         "부모: What's your opinion?\nWhy? For example?",
         "부모: What might other people say?\n아이: Some people say ~.",
         "부모: How would you answer?\n아이: However, ~.",
-        "개요표(활동지 3)에 적어요."
+        "개요표(활동지 3)에 적는다."
       ],
       "criteria": [
-        "주장이 한 문장이에요",
-        "이유 두 개가 서로 달라요",
-        "반론과 반박이 한 쌍이에요"
+        "주장이 한 문장이다",
+        "이유 두 개가 서로 다르다",
+        "반론과 반박이 한 쌍이다"
       ],
       "notes": {
         "목적": "아이가 주제 카드를 고르고, 부모가 ‘왜? 예를 들면? 다른 사람은? 결론은?’을 물으며 개요를 말하게 한 뒤 활동지 3 개요표에 적습니다(목표 B).",
@@ -511,8 +511,8 @@
         "A",
         "B"
       ],
-      "title": "혼자 써요: 네 문단 에세이",
-      "text": "활동지 3의 개요를 보고 활동지 4에 써요.",
+      "title": "혼자 쓰기: 네 문단 에세이",
+      "text": "활동지 3의 개요를 보고 활동지 4에 쓰시오.",
       "problems": [
         {
           "text": "서론: 주제 소개 + 주장\nIn my opinion, ~."
@@ -561,8 +561,8 @@
       "objectives": [
         "C"
       ],
-      "title": "점검표로 확인해요",
-      "text": "점검표: 글을 하나씩 확인하는 표예요.",
+      "title": "점검표로 확인하자",
+      "text": "점검표: 글을 하나씩 확인하는 표이다.",
       "cards": [
         {
           "title": "① 네 문단",
@@ -619,7 +619,7 @@
         "C"
       ],
       "title": "무엇을 고쳤을까?",
-      "claim": "First, swimming keeps us safe near water.  다음 예시를 이렇게 고쳤어요.",
+      "claim": "First, swimming keeps us safe near water.  다음 예시를 이렇게 고쳤다.",
       "left": {
         "title": "고치기 전",
         "text": "For example,\nit is fun."
@@ -628,7 +628,7 @@
         "title": "고친 뒤",
         "text": "For example, if you fall\ninto a river, you can\nswim to safety."
       },
-      "question": "무엇을 고쳤나요? 왜 더 좋아졌나요?",
+      "question": "무엇을 고쳤는가? 왜 더 좋아졌는가?",
       "notes": {
         "목적": "부모가 말한 고칠 점 하나(예시가 막연함)만 고친 문장을 고치기 전과 비교해, 고쳐 쓰기가 무엇인지 보여 줍니다(목표 C, 오해 M4).",
         "시간": "약 2분",
@@ -656,18 +656,18 @@
       "objectives": [
         "C"
       ],
-      "title": "피드백 받고 고쳐 써요",
+      "title": "피드백 받고 고쳐 쓰자",
       "steps": [
-        "아이가 에세이를\n소리 내어 읽어요.",
-        "점검표에 스스로 ✔ 해요.\n(부모도 옆 칸에)",
+        "아이가 에세이를\n소리 내어 읽는다.",
+        "점검표에 스스로 ✔ 한다.\n(부모도 옆 칸에)",
         "부모: 잘한 점 하나,\n고칠 점 하나",
-        "고칠 점 하나만\n활동지 6에 고쳐 써요.",
-        "고친 문단을 다시 읽어요."
+        "고칠 점 하나만\n활동지 6에 고쳐 쓴다.",
+        "고친 문단을 다시 읽는다."
       ],
       "criteria": [
-        "점검표를 스스로 표시했어요",
-        "고칠 점 하나를 고쳤어요",
-        "고친 문단을 다시 읽었어요"
+        "점검표를 스스로 표시했다",
+        "고칠 점 하나를 고쳤다",
+        "고친 문단을 다시 읽었다"
       ],
       "notes": {
         "목적": "아이가 에세이를 소리 내어 읽고 점검표로 스스로 점검한 뒤, 부모의 피드백(잘한 점 하나, 고칠 점 하나)을 받아 고칠 점 하나를 활동지 6에 고쳐 씁니다(목표 C).",
@@ -699,17 +699,17 @@
       "objectives": [
         "C"
       ],
-      "title": "고쳐 쓴 글을 확인해요",
-      "text": "고친 곳을 읽고, 무엇이 좋아졌는지 말해요.",
+      "title": "고쳐 쓴 글 확인하기",
+      "text": "고친 곳을 읽고, 무엇이 좋아졌는지 말하시오.",
       "problems": [
         {
-          "text": "어느 항목을 고쳤나요?"
+          "text": "어느 항목을 고쳤는가?"
         },
         {
-          "text": "고치기 전과 뒤를 읽고\n좋아진 점을 말해요."
+          "text": "고치기 전과 뒤를 읽고\n좋아진 점을 말하시오."
         },
         {
-          "text": "점검표에서 몇 개를\n지켰나요?"
+          "text": "점검표에서 몇 개를\n지켰는가?"
         }
       ],
       "notes": {
@@ -760,18 +760,18 @@
       "bad": [
         {
           "text": "They are right.",
-          "note": "반론에 동의하면\n주장이 약해져요"
+          "note": "반론에 동의하면\n주장이 약해진다"
         },
         {
           "text": "한 문단에 모두",
-          "note": "네 문단으로\n나눠요"
+          "note": "네 문단으로\n나눈다"
         },
         {
           "text": "결론의 새 이유",
-          "note": "주장만\n다시 말해요"
+          "note": "주장만\n다시 말한다"
         }
       ],
-      "explain": "네 문단 · 이유와 예시 · 반론과 반박 · 결론을 점검해요",
+      "explain": "네 문단 · 이유와 예시 · 반론과 반박 · 결론을 점검한다",
       "notes": {
         "목적": "아이의 에세이를 잘 쓴 예와 견주어 보고, 자주 고치는 곳을 확인합니다.",
         "시간": "약 1분",
@@ -802,7 +802,7 @@
         "A"
       ],
       "title": "어느 문단에 들어갈까?",
-      "text": "문장이 들어갈 문단을 말하고, 단서를 말해요.",
+      "text": "문장이 들어갈 문단을 말하고, 단서를 말하시오.",
       "problems": [
         {
           "text": "For these reasons, everyone\nshould keep a diary."
@@ -894,7 +894,7 @@
       "objectives": [],
       "title": "보충: 의견 문단 다시 보기",
       "layout": "support",
-      "text": "의견 문단의 네 부분이 에세이의 문단이 돼요.",
+      "text": "의견 문단의 네 부분이 에세이의 문단이 된다.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -920,11 +920,11 @@
       "points": [
         {
           "title": "좋은 이유",
-          "text": "‘왜?’에 답해요.\n서로 달라요."
+          "text": "‘왜?’에 답한다.\n서로 다르다."
         },
         {
           "title": "좋은 예시",
-          "text": "이유를 보여 줘요.\n때·곳·사람이 보여요."
+          "text": "이유를 보여 준다.\n때·곳·사람이 보인다."
         }
       ],
       "key": {
@@ -957,7 +957,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "수영 에세이의 문장이에요. 들어갈 문단을 쓰세요(서론 / 본론 / 반론과 반박 / 결론).",
+        "prompt": "수영 에세이의 문장이다. 들어갈 문단을 쓰시오(서론 / 본론 / 반론과 반박 / 결론).",
         "table": {
           "headers": [
             "문장",
@@ -996,13 +996,13 @@
       },
       {
         "no": 2,
-        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰세요.  [ In my opinion · First · For example · However · For these reasons ]",
+        "prompt": "상자에서 알맞은 연결어를 골라 빈칸에 쓰시오.  [ In my opinion · First · For example · However · For these reasons ]",
         "read": "______, students should walk to school.\n______, walking is good exercise. ______, I walk for twenty minutes every morning, so my legs are strong. In addition, we can talk with friends on the way.\nSome people say that walking takes too long. ______, it is often only ten minutes longer than the bus.\n______, I believe that walking is a great way to go to school.",
         "answer": "차례대로 In my opinion / First / For example / However / For these reasons. 다섯 개 가운데 네 개 이상이면 통과. (exercise: 운동, on the way: 가는 길에, In addition: 게다가)"
       },
       {
         "no": 3,
-        "prompt": "주제 카드 하나를 골라 개요표를 채우세요(S09에서 말한 내용). 낱말로 짧게, 우리말을 섞어도 돼요.",
+        "prompt": "주제 카드 하나를 골라 개요표를 채우시오(S09에서 말한 내용). 낱말로 짧게, 우리말을 섞어도 된다.",
         "table": {
           "headers": [
             "문단",
@@ -1041,13 +1041,13 @@
       },
       {
         "no": 4,
-        "prompt": "개요를 보고 네 문단 의견 에세이를 쓰세요. 문단이 바뀌면 줄을 바꾸세요(10~14문장).",
+        "prompt": "개요를 보고 네 문단 의견 에세이를 쓰시오. 문단이 바뀌면 줄을 바꾸시오(10~14문장).",
         "lines": 16,
         "answer": "잘 쓴 예(일기): Do you remember what you did last Monday? In my opinion, students should keep a diary. / First, a diary helps us remember special days. For example, I can read about my fifteenth birthday party again. Second, writing every day makes our writing better. For example, my sentences got longer after one month. / Some people say that a diary takes too much time. However, writing three sentences takes only five minutes. / For these reasons, I believe that every student should keep a diary. Why don't you try it tonight? 기준(점검표 6항목): 네 문단 / 서론의 주장 문장 / 서로 다른 이유 두 개와 예시 / 반론과 However 반박 / 결론에서 주장 다시(새 이유 없음) / 대문자·마침표·주어와 동사. 여섯 항목 가운데 다섯 개 이상이면 통과. 의견의 내용은 무엇이든 됩니다."
       },
       {
         "no": 5,
-        "prompt": "점검표: 지킨 항목에 ✔ 하세요. 나와 부모님이 따로 표시해요.",
+        "prompt": "점검표: 지킨 항목에 ✔ 하시오. 나와 부모님이 따로 표시한다.",
         "table": {
           "headers": [
             "항목",
@@ -1098,7 +1098,7 @@
       },
       {
         "no": 6,
-        "prompt": "부모님이 말한 고칠 점 하나를 쓰고, 그 부분을 고쳐 다시 쓰세요.",
+        "prompt": "부모님이 말한 고칠 점 하나를 쓰고, 그 부분을 고쳐 다시 쓰시오.",
         "line_label": "고칠 점 · 고친 문장:",
         "lines": 4,
         "answer": "예: 고칠 점 ④ 반박이 없음 → 고친 문장 However, writing three sentences takes only five minutes. / 고칠 점 ③ 예시가 막연함 → For example, I can read about my fifteenth birthday party again. 고친 문장이 그 점검표 항목을 만족하면 통과."
@@ -1107,7 +1107,7 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 의견 에세이의 네 문단을 순서대로 쓰세요.\n② 반론 문장 다음에 꼭 써야 하는 문장은 무엇으로 시작하나요?\n③ 피드백을 받고 고쳐 쓰는 순서를 쓰세요.",
+        "prompt": "① 의견 에세이의 네 문단을 순서대로 쓰시오.\n② 반론 문장 다음에 꼭 써야 하는 문장은 무엇으로 시작하는가?\n③ 피드백을 받고 고쳐 쓰는 순서를 쓰시오.",
         "lines": 3,
         "answer": "① 서론(주장) → 본론(이유 두 개와 예시) → 반론과 반박 → 결론(주장 다시) ② However, ~.(반박) ③ 잘한 점 하나 듣기 → 고칠 점 하나 듣기 → 내가 직접 고치기. 세 가지 모두 도움 없이 하면 통과."
       }

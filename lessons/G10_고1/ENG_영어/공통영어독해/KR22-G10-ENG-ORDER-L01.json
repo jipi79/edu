@@ -96,8 +96,8 @@
       "title": "글의 순서 정하기",
       "question": "(B) → (C) → (A)?\n무엇을 보고 이어질 순서를 정할까?",
       "goals": [
-        "① 연결어·지시어·관사로 이어질 순서를 정해요.",
-        "② 정한 순서의 근거를 단서로 설명해요."
+        "① 연결어·지시어·관사로 이어질 순서를 정할 수 있다.",
+        "② 정한 순서의 근거를 단서로 설명할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -144,7 +144,7 @@
       "role": "prior",
       "objectives": [],
       "title": "연결어 떠올리기",
-      "text": "상자에서 알맞은 연결어를 골라 빈칸에 넣어 읽어요.",
+      "text": "상자에서 알맞은 연결어를 골라 빈칸에 넣어 읽자.",
       "problems": [
         {
           "text": "Sora practiced every day.\n______, she won the contest."
@@ -187,7 +187,7 @@
         "A"
       ],
       "title": "순서의 단서 세 가지",
-      "text": "단서는 앞에 무엇이 있어야 하는지 알려 줘요.",
+      "text": "단서는 앞에 무엇이 있어야 하는지 알려 준다.",
       "table": {
         "headers": [
           "단서",
@@ -203,7 +203,7 @@
           [
             "지시어·대명사",
             "this, these, it,\nthey, one",
-            "가리키는 말이 앞에 있어요"
+            "가리키는 말이 앞에 있다"
           ],
           [
             "연결어",
@@ -219,7 +219,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "단서가 가리키는 말을 찾아 화살표로 이어요.",
+      "key": "단서가 가리키는 말을 찾아 화살표로 잇는다.",
       "notes": {
         "목적": "관사(a → the), 지시어·대명사(this, these, it, they, one), 연결어가 각각 앞 내용과 어떻게 이어지는지 보여 줍니다(목표 A, 오해 M2·M3·M4).",
         "시간": "약 2분",
@@ -250,7 +250,7 @@
         "A"
       ],
       "title": "어느 문장이 먼저일까?",
-      "text": "먼저 올 문장은? 어떤 단서를 보고 정했나요?",
+      "text": "먼저 올 문장은? 어떤 단서를 보고 정했는가?",
       "problems": [
         {
           "text": "(가) The dog followed me home.\n(나) I saw a small dog in the park."
@@ -292,7 +292,7 @@
         "B"
       ],
       "title": "순서를 정하는 다섯 단계",
-      "text": "단서는 문단의 첫 문장에 몰려 있어요.",
+      "text": "단서는 문단의 첫 문장에 몰려 있다.",
       "steps": [
         "주어진 글의 끝 문장 확인",
         "(A)(B)(C) 첫 문장의 단서에 동그라미",
@@ -328,7 +328,7 @@
       "objectives": [
         "A"
       ],
-      "title": "함께 정해요: 벽 정원",
+      "title": "함께 정하자: 벽 정원",
       "text": "yard 마당 · vertical 수직의 · pot 화분 · balcony 발코니 · seed 씨앗",
       "passage": {
         "title": "Mina wanted to grow vegetables, but she lived in a small apartment that had no yard.",
@@ -338,7 +338,7 @@
           "(C) She decided to make one on her balcony. She put ten small pots on the wall and planted seeds in them."
         ]
       },
-      "question": "굵은 글씨가 주어진 글.  첫 문장의 단서로 순서를 정해요.",
+      "question": "굵은 글씨가 주어진 글.  첫 문장의 단서로 순서를 정하자.",
       "notes": {
         "목적": "부모가 글을 읽어 주고, 다섯 단계를 따라 (A)(B)(C) 첫 문장의 단서를 찾아 순서를 정하는 과정을 함께 해 봅니다(목표 A, 오해 M1·M2).",
         "시간": "약 4분",
@@ -369,7 +369,7 @@
       "objectives": [
         "B"
       ],
-      "title": "근거는 이렇게 말해요",
+      "title": "근거는 이렇게 말한다",
       "text": "근거 = 단서 + 가리키는 말",
       "table": {
         "headers": [
@@ -402,7 +402,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "(C)의 one은 (B)의 a vertical garden을 가리켜요. → (B) 다음 (C)",
+      "key": "(C)의 one은 (B)의 a vertical garden을 가리킨다. → (B) 다음 (C)",
       "notes": {
         "목적": "정한 순서마다 ‘단서 + 가리키는 말’을 짝지어 근거를 말하는 방법을 S06 글로 보여 줍니다(목표 B, 오해 M2).",
         "시간": "약 3분",
@@ -432,7 +432,7 @@
         "B"
       ],
       "title": "근거가 맞는 쪽은?",
-      "claim": "S06의 순서를 두 친구가 이렇게 정했어요.",
+      "claim": "S06의 순서를 두 친구가 이렇게 정했다.",
       "left": {
         "title": "가",
         "text": "(B) → (C) → (A)\nHer plan이 가리키는 계획이\n앞에 있어야 해요."
@@ -441,7 +441,7 @@
         "title": "나",
         "text": "(A) → (B) → (C)\n‘계획이 잘 되었다’가 주어진\n글과 어울려 보여요."
       },
-      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤나요?",
+      "question": "근거가 맞는 쪽은? 다른 친구는 무엇을 놓쳤는가?",
       "notes": {
         "목적": "내용이 그럴듯하다는 느낌으로 정한 순서와 단서로 정한 순서를 비교합니다(목표 B, 오해 M1·M2).",
         "시간": "약 2분",
@@ -471,7 +471,7 @@
         "A",
         "B"
       ],
-      "title": "정해 봐요: 꿀벌의 춤",
+      "title": "정해 보자: 꿀벌의 춤",
       "text": "hive 벌집 · instead 대신 · direction 방향 · figure-eight 8자 · angle 각도",
       "passage": {
         "title": "When a honey bee finds a field of flowers, it flies back to its hive. It has to tell the other bees where the food is.",
@@ -481,7 +481,7 @@
           "(C) However, bees can't speak. Instead, they use a special dance."
         ]
       },
-      "question": "(A)(B)(C)의 순서는? 단서와 가리키는 말로 근거를 말해요.",
+      "question": "(A)(B)(C)의 순서는? 단서와 가리키는 말로 근거를 말하자.",
       "notes": {
         "목적": "설명문에서 연결어(However, For example)와 지시어(This dance)를 단서로 순서를 정하고, 근거를 단서와 가리키는 말로 말합니다(목표 A·B, 오해 M4). 부모가 한 번 읽어 준 뒤 아이가 다섯 단계로 풉니다.",
         "시간": "약 4분",
@@ -516,16 +516,16 @@
       ],
       "title": "말하기: 종이 띠 순서 놀이",
       "steps": [
-        "부모가 문장 띠 네 장을\n섞어 놓아요.",
-        "아이가 단서에 동그라미를 쳐요.",
-        "순서대로 놓고 근거를 말해요:\nIt은 a wallet을 가리켜요.",
-        "역할을 바꿔 아이가 띠를 만들어요.",
-        "부모도 단서로 순서를 말해요."
+        "부모가 문장 띠 네 장을\n섞어 놓는다.",
+        "아이가 단서에 동그라미를 친다.",
+        "순서대로 놓고 근거를 말한다:\nIt은 a wallet을 가리킨다.",
+        "역할을 바꿔 아이가 띠를 만든다.",
+        "부모도 단서로 순서를 말한다."
       ],
       "criteria": [
-        "단서에 동그라미를 쳤어요",
-        "가리키는 말과 짝지어 말했어요",
-        "내 띠에 단서를 넣었어요"
+        "단서에 동그라미를 쳤다",
+        "가리키는 말과 짝지어 말했다",
+        "내 띠에 단서를 넣었다"
       ],
       "notes": {
         "목적": "부모가 섞어 놓은 문장 띠의 순서를 단서로 정하고 근거를 말한 뒤, 아이가 직접 문장 띠를 만들어 부모에게 냅니다(목표 A·B).",
@@ -559,7 +559,7 @@
         "A",
         "B"
       ],
-      "title": "혼자 정해요: 분실물 상자",
+      "title": "혼자 정하기: 분실물 상자",
       "text": "student council 학생회 · come up with 생각해 내다 · for free 무료로",
       "passage": {
         "title": "At Maru Middle School, the lost-and-found box was always full. Jackets, water bottles, and umbrellas stayed there for months.",
@@ -569,7 +569,7 @@
           "(C) On that day, any student could take things from the box for free. Many students also found their own lost things."
         ]
       },
-      "question": "(A)(B)(C)의 순서는? 근거를 두 개 이상 말해요.",
+      "question": "(A)(B)(C)의 순서는? 근거를 두 개 이상 말하시오.",
       "notes": {
         "목적": "도움 없이 다섯 단계로 순서를 정하고, 순서마다 단서와 가리키는 말로 근거를 말하는지 확인합니다(목표 A·B).",
         "시간": "약 5분",
@@ -618,15 +618,15 @@
       "bad": [
         {
           "text": "(C) → (A) → (B)",
-          "note": "On that day가\n가리킬 날이 없어요"
+          "note": "On that day가\n가리킬 날이 없다"
         },
         {
           "text": "(B)를 먼저",
           "note": "As a result는\n결과라서 뒤에"
         },
         {
-          "text": "근거: 그냥요",
-          "note": "단서 + 가리키는\n말로 말해요"
+          "text": "근거: 그냥",
+          "note": "단서 + 가리키는\n말로 말한다"
         }
       ],
       "explain": "근거 = 단서 + 가리키는 말",
@@ -659,7 +659,7 @@
       "objectives": [
         "A"
       ],
-      "title": "순서를 정해요: 해변 청소",
+      "title": "순서 정하기: 해변 청소",
       "text": "trash 쓰레기 · club 동아리 · join 함께하다 · thanks to ~ 덕분에",
       "passage": {
         "title": "Our town had a big problem with trash on the beach.",
@@ -669,7 +669,7 @@
           "(C) So some students started a club to clean it every Saturday."
         ]
       },
-      "question": "(A)(B)(C)의 순서는? 어떤 단서를 보고 정했나요?",
+      "question": "(A)(B)(C)의 순서는? 어떤 단서를 보고 정했는가?",
       "notes": {
         "목적": "처음 보는 짧은 순서 문제에서 단서(So, these students, Thanks to them)로 순서를 정하는지 확인합니다(목표 A).",
         "시간": "약 3분",
@@ -745,7 +745,7 @@
       "objectives": [],
       "title": "보충: 무엇을 가리킬까?",
       "layout": "support",
-      "text": "지시어·대명사는 앞에 나온 말을 가리켜요.",
+      "text": "지시어·대명사는 앞에 나온 말을 가리킨다.",
       "table": {
         "headers": [
           "첫째 문장",
@@ -806,7 +806,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "먼저 올 문장에 ○ 하고, 단서가 된 낱말을 쓰세요.",
+        "prompt": "먼저 올 문장에 ○ 하고, 단서가 된 낱말을 쓰시오.",
         "table": {
           "headers": [
             "두 문장",
@@ -847,7 +847,7 @@
       },
       {
         "no": 2,
-        "prompt": "첫 줄이 주어진 글이에요. 그다음에 이어질 순서를 쓰고, 근거를 두 개 쓰세요(단서 → 가리키는 말).",
+        "prompt": "첫 줄이 주어진 글이다. 그다음에 이어질 순서를 쓰고, 근거를 두 개 쓰시오(단서 → 가리키는 말).",
         "read": "Many plastic bottles end up in trash bins after just one use.\n(A) These small pieces are melted and made into thin threads. The threads are then used to make jackets and T-shirts.\n(B) However, some of them get a second life. They are collected, washed, and cut into very small pieces.\n(C) So the next time you wear a sports jacket, check its label. It might be made from bottles like the one in your hand.",
         "line_label": "순서 · 근거:",
         "lines": 3,
@@ -855,7 +855,7 @@
       },
       {
         "no": 3,
-        "prompt": "첫 줄이 주어진 글이에요. 그다음에 이어질 순서를 쓰고, 근거를 두 개 쓰세요.",
+        "prompt": "첫 줄이 주어진 글이다. 그다음에 이어질 순서를 쓰고, 근거를 두 개 쓰시오.",
         "read": "Last winter, Junho found a small, wet kitten under a car near his house.\n(A) The vet said that the kitten was healthy but very hungry. Junho's family decided to take care of it until they found it a new home.\n(B) However, after a week, nobody in the family wanted to give it to anyone else. The kitten was already part of the family.\n(C) He wrapped it in his scarf and took it to an animal hospital right away.",
         "line_label": "순서 · 근거:",
         "lines": 3,
@@ -865,7 +865,7 @@
         "no": 4,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 글의 순서를 알려 주는 단서 세 가지를 쓰세요.\n② (가) I have a cat. (나) The cat is white. — 순서와 단서를 쓰세요.\n③ these가 있는 문장이 뒤에 오는 까닭을 쓰세요.",
+        "prompt": "① 글의 순서를 알려 주는 단서 세 가지를 쓰시오.\n② (가) I have a cat. (나) The cat is white. — 순서와 단서를 쓰시오.\n③ these가 있는 문장이 뒤에 오는 까닭을 쓰시오.",
         "lines": 3,
         "answer": "① 관사(a → the), 지시어·대명사(this, these, it, they), 연결어(However, For example, So) ② (가) → (나), a cat → The cat ③ these가 가리키는 말이 앞에 나와 있어야 하기 때문. 세 가지 모두 도움 없이 하면 통과."
       }

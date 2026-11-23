@@ -43,7 +43,7 @@
     {
       "id": "B",
       "text": "앞 명사(선행사)가 있으면 which·that, 앞 명사가 없으면 what을 쓴다는 것을 구별해 고르고(the bag what I bought ×), the thing which(that) ~를 what ~으로 바꾸어 쓴다. what 절 안에 목적어(it)를 다시 쓰지 않는다.",
-      "evidence": "앞 명사가 있나요(S08), what일까 which일까(S09), the bag what 비교(S10), what으로 바꾸기(S11), 내가 원하는 것 말하기(S12), 혼자 해 보기(S13 ②③④), 세 문장(S15 ③), 활동지 2·3·4·5",
+      "evidence": "앞 명사가 있는가(S08), what일까 which일까(S09), the bag what 비교(S10), what으로 바꾸기(S11), 내가 원하는 것 말하기(S12), 혼자 해 보기(S13 ②③④), 세 문장(S15 ③), 활동지 2·3·4·5",
       "success": "활동지 2의 고르기 6개 가운데 5개 이상을 ‘앞 명사가 있는지’라는 까닭과 함께 고르고, 활동지 3의 바꾸기 4개 가운데 3개 이상을 바르게 쓴다."
     }
   ],
@@ -91,8 +91,8 @@
       "title": "관계대명사 what",
       "question": "What I want is a new bike.\n‘내가 원하는 것’은 영어로 어떻게 말할까?",
       "goals": [
-        "① what이 이끄는 ‘~하는 것’ 덩어리를 찾아 해석해요.",
-        "② what과 which·that을 구별해 써요."
+        "① what이 이끄는 ‘~하는 것’ 덩어리를 찾아 해석할 수 있다.",
+        "② what과 which·that을 구별해 쓸 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -114,7 +114,7 @@
         "시간": "약 2분",
         "말하기": [
           "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
-          "“‘내가 원하는 것은 새 자전거예요. 나는 네가 만든 것이 좋아. 이것이 내가 필요한 것이에요.’라는 뜻이야. 세 문장 모두 what이 ‘~하는 것’이라는 뜻이야. 묻는 말이 아니라는 게 신기하지? 오늘은 이 what을 배울 거야.”"
+          "“‘내가 원하는 것은 새 자전거이다. 나는 네가 만든 것이 좋다. 이것이 내가 필요한 것이다.’라는 뜻이야. 세 문장 모두 what이 ‘~하는 것’이라는 뜻이야. 묻는 말이 아니라는 게 신기하지? 오늘은 이 what을 배울 거야.”"
         ],
         "예상답": [
           "“물음표가 없어요.” “what이 ‘무엇’이 아니라 ‘것’이에요.”"
@@ -136,7 +136,7 @@
       "role": "prior",
       "objectives": [],
       "title": "관계대명사 떠올리기",
-      "text": "①은 한 문장으로 잇고, ②는 뜻을 말하고, ③은 골라 읽어요.",
+      "text": "①은 한 문장으로 잇고, ②는 뜻을 말하고, ③은 골라 읽어 보자.",
       "problems": [
         {
           "text": "I like the cake.  +  You made it."
@@ -180,7 +180,7 @@
         "A"
       ],
       "title": "what = the thing which",
-      "text": "what은 ‘앞 명사 + which’를 합친 말이에요. 뜻은 ‘~하는 것’.",
+      "text": "what은 ‘앞 명사 + which’를 합친 말이다. 뜻은 ‘~하는 것’.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -199,14 +199,14 @@
       "points": [
         {
           "title": "관계대명사 what",
-          "text": "‘~하는 것’\n앞 명사 없이 혼자 써요."
+          "text": "‘~하는 것’\n앞 명사 없이 혼자 쓴다."
         },
         {
           "title": "what + 주어 + 동사",
           "text": "‘(주어)가 ~하는 것’\nwhat you said  네가 말한 것"
         }
       ],
-      "key": "what = the thing(s) which:  what 안에 ‘것’이 이미 들어 있어요.",
+      "key": "what = the thing(s) which:  what 안에 ‘것’이 이미 들어 있다.",
       "notes": {
         "목적": "what이 앞 명사(the thing)와 which를 합친 말이라서 ‘~하는 것’을 뜻하고, 앞 명사 없이 혼자 쓴다는 것을 보여 줍니다(목표 A).",
         "시간": "약 3분",
@@ -237,10 +237,10 @@
         "A"
       ],
       "title": "what 덩어리 만들기",
-      "text": "the thing which를 what 하나로 바꿔요.",
+      "text": "the thing which를 what 하나로 바꾼다.",
       "steps": [
-        "the thing which를 찾아요.",
-        "the thing which를\nwhat 하나로 바꿔요.",
+        "the thing which를 찾는다.",
+        "the thing which를\nwhat 하나로 바꾼다.",
         "what + 주어 + 동사:\n‘(주어)가 ~한 것’"
       ],
       "figureRatio": 0.5,
@@ -250,21 +250,21 @@
         "items": [
           {
             "word": "I like the thing\nwhich you made.",
-            "sub": "나는 네가 만든 것이 좋아."
+            "sub": "나는 네가 만든 것이 좋다."
           },
           {
             "word": "I like\nwhat you made.",
-            "sub": "뜻은 같아요.",
+            "sub": "뜻은 같다.",
             "highlight": true
           }
         ]
       },
-      "key": "what이 ‘~을’ 자리를 대신하니 made 뒤에 it을 쓰지 않아요.",
+      "key": "what이 ‘~을’ 자리를 대신하니 made 뒤에 it을 쓰지 않는다.",
       "notes": {
         "목적": "the thing which를 what 하나로 바꾸어 문장을 만드는 과정을 보여 주고, what 덩어리 안에 목적어를 다시 쓰지 않는다는 것을 짚습니다(목표 A, 오해 M4).",
         "시간": "약 3분",
         "말하기": [
-          "“I like the thing which you made. ‘나는 네가 만든 것이 좋아.’ 여기서 the thing which를 찾아 볼래?”",
+          "“I like the thing which you made. ‘나는 네가 만든 것이 좋다.’ 여기서 the thing which를 찾아 볼래?”",
           "“the thing which를 what 하나로 바꾸면? I like what you made. 뜻은 똑같아.”",
           "“what you made가 한 덩어리야. 이 덩어리가 ‘네가 만든 것’이라는 명사처럼 like 뒤에 왔어.”"
         ],
@@ -290,7 +290,7 @@
         "A"
       ],
       "title": "what 덩어리의 자리",
-      "text": "what 덩어리는 명사처럼 주어·목적어·보어 자리에 와요.",
+      "text": "what 덩어리는 명사처럼 주어·목적어·보어 자리에 온다.",
       "table": {
         "headers": [
           "자리",
@@ -301,17 +301,17 @@
           [
             "주어\n(문장 맨 앞)",
             "What I want\nis a new bike.",
-            "내가 원하는 것은\n새 자전거예요."
+            "내가 원하는 것은\n새 자전거이다."
           ],
           [
             "목적어\n(동사 뒤)",
             "I like\nwhat you made.",
-            "나는 네가 만든 것이\n좋아요."
+            "나는 네가 만든 것이\n좋다."
           ],
           [
             "보어\n(be동사 뒤)",
             "This is\nwhat I need.",
-            "이것이 내가\n필요한 것이에요."
+            "이것이 내가\n필요한 것이다."
           ]
         ],
         "widths": [
@@ -322,7 +322,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "보어: be동사 뒤에서 주어를 설명하는 말.   주어 덩어리 뒤의 진짜 동사를 찾아요.",
+      "key": "보어: be동사 뒤에서 주어를 설명하는 말.   주어 덩어리 뒤의 진짜 동사를 찾는다.",
       "notes": {
         "목적": "what 덩어리가 주어·목적어·보어 자리에 오는 세 가지 문장을 보여 주고, 주어 자리일 때 진짜 동사를 찾는 방법을 알려 줍니다(목표 A, 오해 M3).",
         "시간": "약 2분",
@@ -352,8 +352,8 @@
       "objectives": [
         "A"
       ],
-      "title": "what 덩어리를 찾아요",
-      "text": "what 덩어리에 괄호를 치고, 뜻을 말해요.",
+      "title": "what 덩어리를 찾자",
+      "text": "what 덩어리에 괄호를 치고, 뜻을 말해 보자.",
       "problems": [
         {
           "text": "What he said was true."
@@ -368,7 +368,7 @@
           "text": "What you need\nis some rest."
         }
       ],
-      "hint": "덩어리가 주어면, 그 뒤에서 진짜 동사(is, was)를 찾아요.",
+      "hint": "덩어리가 주어면, 그 뒤에서 진짜 동사(is, was)를 찾는다.",
       "notes": {
         "목적": "what 덩어리에 괄호를 치고 주어·목적어·보어 자리를 말하며 해석합니다(목표 A, 오해 M3). 활동지 1에 비슷한 문제가 있습니다.",
         "시간": "약 3분",
@@ -402,7 +402,7 @@
         "A"
       ],
       "title": "물음일까, ‘~하는 것’일까?",
-      "claim": "두 문장 모두 What으로 시작해요. 뜻을 말해 봐요.",
+      "claim": "두 문장 모두 What으로 시작한다. 뜻을 말해 보자.",
       "left": {
         "title": "가",
         "figure": {
@@ -427,7 +427,7 @@
           ]
         }
       },
-      "question": "두 what의 뜻은 어떻게 다를까요? 물음표와 진짜 동사를 찾아봐요.",
+      "question": "두 what의 뜻은 어떻게 다를까? 물음표와 진짜 동사를 찾아보자.",
       "notes": {
         "목적": "물음표와 do가 있는 의문문의 what(무엇)과 ‘~하는 것’의 what을 비교해 구별합니다(목표 A, 오해 M3).",
         "시간": "약 2분",
@@ -437,7 +437,7 @@
         ],
         "정답": [
           "가 What do you want? — 너는 무엇을 원하니? (묻는 말: do + 주어 + 동사, 물음표)",
-          "나 What I want is a new bike. — 내가 원하는 것은 새 자전거예요. (what I want가 주어 덩어리, 진짜 동사 is)"
+          "나 What I want is a new bike. — 내가 원하는 것은 새 자전거이다. (what I want가 주어 덩어리, 진짜 동사 is)"
         ],
         "막히면": [
           "가는 부모가 묻고 나는 아이가 대답하는 대화로 읽어 봅니다. “What do you want?” “What I want is a new bike.”"
@@ -457,8 +457,8 @@
       "objectives": [
         "B"
       ],
-      "title": "앞 명사가 있나요?",
-      "text": "앞 명사가 있으면 which·that, 없으면 what을 써요.",
+      "title": "앞 명사가 있는가?",
+      "text": "앞 명사가 있으면 which·that, 없으면 what을 쓴다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -477,14 +477,14 @@
       "points": [
         {
           "title": "which, that",
-          "text": "앞 명사(선행사) 뒤에 써요.\nthe song that I like"
+          "text": "앞 명사(선행사) 뒤에 쓴다.\nthe song that I like"
         },
         {
           "title": "what",
-          "text": "앞 명사 없이 써요.\nwhat I like = the thing that I like"
+          "text": "앞 명사 없이 쓴다.\nwhat I like = the thing that I like"
         }
       ],
-      "key": "the bag what I bought (×)   what 앞에는 명사를 쓰지 않아요.",
+      "key": "the bag what I bought (×)   what 앞에는 명사를 쓰지 않는다.",
       "notes": {
         "목적": "앞 명사가 있으면 which·that, 앞 명사가 없으면 what을 쓴다는 기준을 보여 줍니다(목표 B, 오해 M1·M2).",
         "시간": "약 3분",
@@ -514,7 +514,7 @@
         "B"
       ],
       "title": "what일까, which·that일까?",
-      "text": "알맞은 것을 골라 읽고, 고른 까닭을 말해요.",
+      "text": "알맞은 것을 골라 읽고, 고른 까닭을 말해 보자.",
       "problems": [
         {
           "text": "This is the book\n(what / which) I wanted."
@@ -569,7 +569,7 @@
         "B"
       ],
       "title": "‘내가 산 가방’을 영어로",
-      "claim": "‘이것은 내가 산 가방이에요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘이것은 내가 산 가방이다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -594,7 +594,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 왜 틀렸을까요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 왜 틀렸을까?",
       "notes": {
         "목적": "앞 명사 뒤에 what을 쓰는 실수를 비교로 바로잡습니다(목표 B, 오해 M1).",
         "시간": "약 2분",
@@ -622,8 +622,8 @@
       "objectives": [
         "B"
       ],
-      "title": "what으로 바꿔요",
-      "text": "the thing which(that)를 what으로 바꿔 말해요.",
+      "title": "what으로 바꾸자",
+      "text": "the thing which(that)를 what으로 바꿔 말해 보자.",
       "problems": [
         {
           "text": "the thing which I want"
@@ -649,7 +649,7 @@
           "① what I want (내가 원하는 것)",
           "② I like what you cooked. (나는 네가 요리한 것이 좋아.)",
           "③ What she bought was expensive. (그녀가 산 것은 비쌌어요.)",
-          "④ This is what I need. (이것이 내가 필요한 것이에요.)"
+          "④ This is what I need. (이것이 내가 필요한 것이다.)"
         ],
         "막히면": [
           "the thing which(that)에 동그라미를 치게 하고, 그 자리에 what만 써서 소리 내어 읽게 합니다."
@@ -672,16 +672,16 @@
       ],
       "title": "말하기: 내가 원하는 것",
       "steps": [
-        "질문 카드 세 장을 준비해요.",
-        "부모가 물어요:\nWhat do you want\nfor your birthday?",
-        "아이가 답해요:\nWhat I want is a new phone.",
-        "다른 카드도 해요:\nWhat do you need now?",
-        "역할을 바꿔 아이가 묻고\n부모가 답해요."
+        "질문 카드 세 장을 준비한다.",
+        "부모가 묻는다:\nWhat do you want\nfor your birthday?",
+        "아이가 답한다:\nWhat I want is a new phone.",
+        "다른 카드도 한다:\nWhat do you need now?",
+        "역할을 바꿔 아이가 묻고\n부모가 답한다."
       ],
       "criteria": [
-        "What I ~ is ~.로 답했어요",
-        "진짜 동사 is, was를 넣었어요",
-        "what 앞에 명사를 쓰지 않았어요"
+        "What I ~ is ~.로 답했다",
+        "진짜 동사 is, was를 넣었다",
+        "what 앞에 명사를 쓰지 않았다"
       ],
       "notes": {
         "목적": "부모가 의문사 what으로 묻고, 아이가 관계대명사 what 문장(What I ~ is ~.)으로 대답합니다(목표 A·B).",
@@ -718,7 +718,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "What I like most is pizza.\n→ 뜻은?"
@@ -827,7 +827,7 @@
         "B"
       ],
       "title": "세 문장의 뜻은?",
-      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말해요.",
+      "text": "①②는 뜻을 말하고, ③은 골라서 까닭을 말하시오.",
       "problems": [
         {
           "text": "What she said was not true."
@@ -971,7 +971,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "what 덩어리에 괄호 (  )를 치고, 뜻을 쓰세요.",
+        "prompt": "what 덩어리에 괄호 (  )를 치고, 뜻을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -998,11 +998,11 @@
           "size": 14,
           "firstColHead": true
         },
-        "answer": "① (What I want for my birthday) is a watch. — 내 생일에 내가 원하는 것은 손목시계예요. ② I can't find (what I need). — 나는 내가 필요한 것을 찾을 수 없어요. ③ That is not (what I said). — 그것은 내가 말한 것이 아니에요. ④ (What we saw last night) was amazing. — 어젯밤 우리가 본 것은 놀라웠어요. 네 개 가운데 세 개 이상이면 통과. ①④를 의문문으로 해석하면 S05·S07을 다시 봅니다. (amazing: 놀라운)"
+        "answer": "① (What I want for my birthday) is a watch. — 내 생일에 내가 원하는 것은 손목시계이다. ② I can't find (what I need). — 나는 내가 필요한 것을 찾을 수 없다. ③ That is not (what I said). — 그것은 내가 말한 것이 아니다. ④ (What we saw last night) was amazing. — 어젯밤 우리가 본 것은 놀라웠다. 네 개 가운데 세 개 이상이면 통과. ①④를 의문문으로 해석하면 S05·S07을 다시 봅니다. (amazing: 놀라운)"
       },
       {
         "no": 2,
-        "prompt": "알맞은 것에 ○ 하고, 까닭을 쓰세요.",
+        "prompt": "알맞은 것에 ○ 하고, 까닭을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1045,7 +1045,7 @@
       },
       {
         "no": 3,
-        "prompt": "the thing(s) which나 the thing that을 what으로 바꾸어 문장을 다시 쓰세요.",
+        "prompt": "the thing(s) which나 the thing that을 what으로 바꾸어 문장을 다시 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1076,7 +1076,7 @@
       },
       {
         "no": 4,
-        "prompt": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+        "prompt": "틀린 곳을 찾아 바르게 고쳐 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1103,7 +1103,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1130,11 +1130,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 내가 가장 좋아하는 것은 피자예요. ② what ③ This is what I want. ④ I read the book which(that) you bought. (I read what you bought.도 맞음) 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① 내가 가장 좋아하는 것은 피자이다. ② what ③ This is what I want. ④ I read the book which(that) you bought. (I read what you bought.도 맞음) 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 What I ~ is ~. 문장 세 개를 쓰세요(원하는 것, 필요한 것, 가장 좋아하는 것).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 What I ~ is ~. 문장 세 개를 쓰시오(원하는 것, 필요한 것, 가장 좋아하는 것).",
         "eng": {
           "trace": [
             "What I want is a new bike.",
@@ -1148,9 +1148,9 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① What I need is sleep.의 뜻을 쓰세요.\n② the song (what / that) I like에서 알맞은 것을 쓰세요.\n③ the thing which I bought를 what으로 바꾸어 쓰세요.",
+        "prompt": "① What I need is sleep.의 뜻을 쓰시오.\n② the song (what / that) I like에서 알맞은 것을 쓰시오.\n③ the thing which I bought를 what으로 바꾸어 쓰시오.",
         "lines": 3,
-        "answer": "① 내가 필요한 것은 잠이에요. ② that ③ what I bought. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 내가 필요한 것은 잠이다. ② that ③ what I bought. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

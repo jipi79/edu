@@ -92,8 +92,8 @@
       "title": "강조 구문",
       "question": "It was Jun that broke the window.\n‘창문을 깬 사람은 바로 준이에요’를 강조하려면?",
       "goals": [
-        "① It is/was ~ that으로 강조하고 가주어 it 문장과 구별해요.",
-        "② do·does·did로 동사를 강조해요."
+        "① It is/was ~ that으로 강조하고 가주어 it 문장과 구별할 수 있다.",
+        "② do·does·did로 동사를 강조할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -137,7 +137,7 @@
       "role": "prior",
       "objectives": [],
       "title": "It is ~ to ~ 떠올리기",
-      "text": "중2에서 배운 It is ~ to ~와 문장 성분을 떠올려요.",
+      "text": "중2에서 배운 It is ~ to ~와 문장 성분을 떠올려 보자.",
       "problems": [
         {
           "text": "It is fun to swim.  → 뜻은?"
@@ -181,7 +181,7 @@
         "A"
       ],
       "title": "바로 그것: It was ~ that",
-      "text": "강조할 말을 It was와 that 사이에 넣어요.",
+      "text": "강조할 말을 It was와 that 사이에 넣는다.",
       "figure": {
         "type": "words",
         "perRow": 4,
@@ -245,8 +245,8 @@
       "objectives": [
         "A"
       ],
-      "title": "무엇이든 강조할 수 있어요",
-      "text": "Jun broke the window yesterday.  (준이 어제 창문을 깼어요.)",
+      "title": "무엇이든 강조할 수 있다",
+      "text": "Jun broke the window yesterday.  (준이 어제 창문을 깼다.)",
       "table": {
         "headers": [
           "강조할 말",
@@ -257,17 +257,17 @@
           [
             "주어 Jun",
             "It was Jun that broke\nthe window yesterday.",
-            "어제 창문을 깬 사람은\n바로 준이었어요."
+            "어제 창문을 깬 사람은\n바로 준이었다."
           ],
           [
             "목적어 the window",
             "It was the window that\nJun broke yesterday.",
-            "준이 어제 깬 것은\n바로 그 창문이었어요."
+            "준이 어제 깬 것은\n바로 그 창문이었다."
           ],
           [
             "때 yesterday",
             "It was yesterday that\nJun broke the window.",
-            "준이 창문을 깬 것은\n바로 어제였어요."
+            "준이 창문을 깬 것은\n바로 어제였다."
           ]
         ],
         "widths": [
@@ -278,7 +278,7 @@
         "width": 12.13,
         "size": 22
       },
-      "key": "강조할 말은 앞으로,  나머지는 that 뒤에 (강조할 말은 다시 쓰지 않아요)",
+      "key": "강조할 말은 앞으로,  나머지는 that 뒤에 (강조할 말은 다시 쓰지 않는다)",
       "notes": {
         "목적": "한 문장에서 주어·목적어·때를 각각 강조한 강조 구문과 해석을 표로 보여 줍니다(목표 A, 오해 M1).",
         "시간": "약 2분",
@@ -306,8 +306,8 @@
       "objectives": [
         "A"
       ],
-      "title": "강조 구문으로 바꿔요",
-      "text": "Mina met Tom at the library last Sunday.  지시한 말을 강조해요.",
+      "title": "강조 구문으로 바꾸자",
+      "text": "Mina met Tom at the library last Sunday.  지시한 말을 강조해 보자.",
       "problems": [
         {
           "text": "Mina 강조"
@@ -353,10 +353,10 @@
         "A"
       ],
       "title": "강조일까, 가주어일까?",
-      "text": "It is/was와 that을 지우고 남은 말을 읽어 봐요.",
+      "text": "It is/was와 that을 지우고 남은 말을 읽어 보자.",
       "steps": [
-        "It is/was와 that을 지워요.",
-        "사이의 말을 제자리로 돌려요.",
+        "It is/was와 that을 지운다.",
+        "사이의 말을 제자리로 돌린다.",
         "완전한 문장 → 강조 구문\n문장이 안 됨 → 가주어 it"
       ],
       "figureRatio": 0.52,
@@ -417,8 +417,8 @@
       "objectives": [
         "A"
       ],
-      "title": "지워서 확인해요",
-      "text": "지워서 확인하고, 뜻을 말해요.",
+      "title": "지워서 확인하자",
+      "text": "지워서 확인하고, 뜻을 말해 보자.",
       "problems": [
         {
           "text": "It was in Busan\nthat I met her."
@@ -464,16 +464,16 @@
         "A"
       ],
       "title": "어느 해석이 맞을까?",
-      "claim": "It is true that Jun won the race.  두 친구가 이렇게 해석했어요.",
+      "claim": "It is true that Jun won the race.  두 친구가 이렇게 해석했다.",
       "left": {
         "title": "가",
-        "text": "준이 경주에서 이긴 것은\n바로 ‘사실’이에요.\n(강조 구문)"
+        "text": "준이 경주에서 이긴 것은\n바로 ‘사실’이다.\n(강조 구문)"
       },
       "right": {
         "title": "나",
-        "text": "준이 경주에서 이긴 것은\n사실이에요.\n(가주어 it 문장)"
+        "text": "준이 경주에서 이긴 것은\n사실이다.\n(가주어 it 문장)"
       },
-      "question": "어느 해석이 맞나요? 어떻게 확인하나요?",
+      "question": "어느 해석이 맞는가? 어떻게 확인하는가?",
       "notes": {
         "목적": "가주어 it 문장을 강조 구문처럼 ‘바로 ~’로 해석한 것과 바르게 해석한 것을 비교합니다(목표 A, 오해 M2).",
         "시간": "약 2분",
@@ -501,25 +501,25 @@
       "objectives": [
         "B"
       ],
-      "title": "정말 ~해요: do로 강조",
-      "text": "동사 앞에 do·does·did를 넣으면 ‘정말 ~하다’가 돼요.",
+      "title": "정말 ~하다: do로 강조",
+      "text": "동사 앞에 do·does·did를 넣으면 ‘정말 ~하다’가 된다.",
       "figure": {
         "type": "words",
         "perRow": 3,
         "items": [
           {
             "word": "I do like vegetables.",
-            "sub": "나는 채소를 정말 좋아해요.",
+            "sub": "나는 채소를 정말 좋아한다.",
             "highlight": true
           },
           {
             "word": "She does look tired.",
-            "sub": "그녀는 정말 피곤해 보여요.",
+            "sub": "그녀는 정말 피곤해 보인다.",
             "highlight": true
           },
           {
             "word": "He did call me.",
-            "sub": "그는 정말 나에게 전화했어요.",
+            "sub": "그는 정말 나에게 전화했다.",
             "highlight": true
           }
         ]
@@ -562,8 +562,8 @@
       "objectives": [
         "B"
       ],
-      "title": "동사를 강조해요",
-      "text": "do·does·did를 넣어 동사를 강조해요.",
+      "title": "동사를 강조하자",
+      "text": "do·does·did를 넣어 동사를 강조해 보자.",
       "problems": [
         {
           "text": "I like spicy food."
@@ -609,7 +609,7 @@
         "B"
       ],
       "title": "알맞은 모양은?",
-      "text": "알맞은 것을 골라 읽고, 까닭을 말해요.",
+      "text": "알맞은 것을 골라 읽고, 까닭을 말해 보자.",
       "problems": [
         {
           "text": "She does (like / likes) cats."
@@ -654,18 +654,18 @@
         "A",
         "B"
       ],
-      "title": "말하기: 오해를 풀어요",
+      "title": "말하기: 오해를 풀자",
       "steps": [
-        "부모가 오해 카드를 읽어요:\nYou broke the window!",
-        "아이가 바로잡아요: No! It was\nthe cat that broke it.",
+        "부모가 오해 카드를 읽는다:\nYou broke the window!",
+        "아이가 바로잡는다: No! It was\nthe cat that broke it.",
         "부모: You don't like vegetables.",
         "아이: I do like vegetables!",
-        "역할을 바꿔 아이가 오해를 말해요."
+        "역할을 바꿔 아이가 오해를 말한다."
       ],
       "criteria": [
-        "It was ~ that으로 강조했어요",
+        "It was ~ that으로 강조했다",
         "do·does·did + 동사원형",
-        "강조할 말을 다시 쓰지 않았어요"
+        "강조할 말을 다시 쓰지 않았다"
       ],
       "notes": {
         "목적": "부모가 오해 카드를 읽으면 아이가 강조 구문이나 do 강조로 사실을 바로잡습니다(목표 A·B).",
@@ -699,7 +699,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "My dad made this cake.\n→ my dad 강조"
@@ -756,7 +756,7 @@
           "text": "② It was under the sofa that …"
         },
         {
-          "text": "③ 가주어: ~라는 것은 놀라워요"
+          "text": "③ 가주어: ~라는 것은 놀랍다"
         },
         {
           "text": "④ He does remember …"
@@ -765,18 +765,18 @@
       "bad": [
         {
           "text": "that my dad made",
-          "note": "강조한 말은\n다시 안 써요"
+          "note": "강조한 말은\n다시 안 쓴다"
         },
         {
           "text": "③ 바로 놀라운 것",
-          "note": "지우면 문장이\n안 돼요 → 가주어"
+          "note": "지우면 문장이\n안 된다 → 가주어"
         },
         {
           "text": "does remembers",
           "note": "does 뒤는\n동사원형"
         }
       ],
-      "explain": "강조: It is/was + 강조할 말 + that ~,   가주어: 지우면 문장이 안 돼요",
+      "explain": "강조: It is/was + 강조할 말 + that ~,   가주어: 지우면 문장이 안 된다",
       "notes": {
         "목적": "아이의 답을 확인하고 흔한 실수와 비교합니다.",
         "시간": "약 1분",
@@ -807,8 +807,8 @@
         "A",
         "B"
       ],
-      "title": "뜻을 말하고 구별해요",
-      "text": "뜻을 말하고, ①②는 강조인지 가주어인지 말해요.",
+      "title": "뜻을 말하고 구별하자",
+      "text": "뜻을 말하고, ①②는 강조인지 가주어인지 말하시오.",
       "problems": [
         {
           "text": "It was in 2020 that we moved to Seoul."
@@ -851,7 +851,7 @@
         "B"
       ],
       "title": "오늘 배운 것",
-      "key": "강조: It is/was + 강조할 말 + that ~ (~한 것은 바로 …이다)\n가주어: 지우면 문장이 안 돼요,   동사 강조: do·does·did + 동사원형",
+      "key": "강조: It is/was + 강조할 말 + that ~ (~한 것은 바로 …이다)\n가주어: 지우면 문장이 안 된다,   동사 강조: do·does·did + 동사원형",
       "do": "It was Jun that broke it.",
       "dont": "It was Jun that Jun broke it.",
       "review": [
@@ -895,7 +895,7 @@
       "objectives": [],
       "title": "보충: It is ~ to ~",
       "layout": "support",
-      "text": "It은 뜻이 없는 가짜 주어, 진짜 주어는 뒤에 있어요.",
+      "text": "It은 뜻이 없는 가짜 주어, 진짜 주어는 뒤에 있다.",
       "table": {
         "headers": [
           "원래 문장",
@@ -947,7 +947,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "Sumi bought this book at the bookstore last Friday. 지시한 말을 강조하는 문장을 쓰세요.",
+        "prompt": "Sumi bought this book at the bookstore last Friday. 지시한 말을 강조하는 문장을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -978,7 +978,7 @@
       },
       {
         "no": 2,
-        "prompt": "It is/was와 that을 지워서 확인하고, 강조인지 가주어인지 ○ 한 뒤 뜻을 쓰세요.",
+        "prompt": "It is/was와 that을 지워서 확인하고, 강조인지 가주어인지 ○ 한 뒤 뜻을 쓰시오.",
         "table": {
           "headers": [
             "문장",
@@ -1015,11 +1015,11 @@
           "size": 12,
           "firstColHead": true
         },
-        "answer": "① 가주어 — 지구가 둥글다는 것은 사실이에요. ② 강조 — 컵을 깬 사람은 바로 내 여동생(언니·누나)이었어요. ③ 강조 — 우리가 그 소리를 들은 것은 바로 밤이었어요. ④ 가주어 — 네가 헬멧을 쓰는 것은 꼭 필요해요. 네 개 가운데 세 개 이상을 맞히면 통과. (round: 둥근, heard: hear(듣다)의 과거형, noise: 소리, necessary: 필요한)"
+        "answer": "① 가주어 — 지구가 둥글다는 것은 사실이다. ② 강조 — 컵을 깬 사람은 바로 내 여동생(언니·누나)이었다. ③ 강조 — 우리가 그 소리를 들은 것은 바로 밤이었다. ④ 가주어 — 네가 헬멧을 쓰는 것은 꼭 필요하다. 네 개 가운데 세 개 이상을 맞히면 통과. (round: 둥근, heard: hear(듣다)의 과거형, noise: 소리, necessary: 필요한)"
       },
       {
         "no": 3,
-        "prompt": "do·does·did를 넣어 동사를 강조한 문장을 쓰세요.",
+        "prompt": "do·does·did를 넣어 동사를 강조한 문장을 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1046,7 +1046,7 @@
       },
       {
         "no": 4,
-        "prompt": "틀린 곳을 찾아 바르게 고쳐 쓰세요.",
+        "prompt": "틀린 곳을 찾아 바르게 고쳐 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1073,7 +1073,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1100,15 +1100,15 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① It was my dad that(who) made this cake. ② It was under the sofa that I found the key. ③ 가주어 — 그녀가 이긴 것은 놀라워요. ④ He does remember my birthday. 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① It was my dad that(who) made this cake. ② It was under the sofa that I found the key. ③ 가주어 — 그녀가 이긴 것은 놀랍다. ④ He does remember my birthday. 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① Jun broke the window yesterday.에서 yesterday를 강조한 문장을 쓰세요.\n② It is important that we exercise.는 강조인가요, 가주어인가요? 뜻을 쓰세요.\n③ She likes cats.의 동사를 강조한 문장을 쓰세요.",
+        "prompt": "① Jun broke the window yesterday.에서 yesterday를 강조한 문장을 쓰시오.\n② It is important that we exercise.는 강조인가, 가주어인가? 뜻을 쓰시오.\n③ She likes cats.의 동사를 강조한 문장을 쓰시오.",
         "lines": 3,
-        "answer": "① It was yesterday that Jun broke the window. ② 가주어 — 우리가 운동하는 것은 중요해요. ③ She does like cats. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① It was yesterday that Jun broke the window. ② 가주어 — 우리가 운동하는 것은 중요하다. ③ She does like cats. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

@@ -99,10 +99,10 @@
         "B"
       ],
       "title": "분사구문",
-      "question": "Walking home, I met Tom.\n‘집에 걸어가다가 톰을 만났어요’를 짧게 말하려면?",
+      "question": "Walking home, I met Tom.\n‘집에 걸어가다가 톰을 만났다’를 짧게 말하려면?",
       "goals": [
-        "① when·because 절을 분사구문으로 줄여 써요.",
-        "② 분사구문을 때·이유·동시 동작으로 해석해요."
+        "① when·because 절을 분사구문으로 줄여 쓸 수 있다.",
+        "② 분사구문을 때·이유·동시 동작으로 해석할 수 있다."
       ],
       "figure": {
         "type": "words",
@@ -124,7 +124,7 @@
         "시간": "약 2분",
         "말하기": [
           "“오른쪽 세 문장을 같이 들어 보자.” (소리 자료로 세 문장을 듣고 따라 말합니다.)",
-          "“‘집에 걸어가다가 톰을 만났어요. 피곤해서 일찍 잤어요. 그녀는 환하게 웃으면서 들어왔어요.’라는 뜻이야. when이나 because 없이 -ing로 시작하는 덩어리가 ‘~하다가, ~해서, ~하면서’라는 뜻을 나타내. 오늘은 이런 덩어리를 만들고 해석하는 법을 배울 거야.”"
+          "“‘집에 걸어가다가 톰을 만났다. 피곤해서 일찍 잤어요. 그녀는 환하게 웃으면서 들어왔어요.’라는 뜻이야. when이나 because 없이 -ing로 시작하는 덩어리가 ‘~하다가, ~해서, ~하면서’라는 뜻을 나타내. 오늘은 이런 덩어리를 만들고 해석하는 법을 배울 거야.”"
         ],
         "예상답": [
           "“-ing로 시작해요.” “쉼표가 있어요.”"
@@ -146,10 +146,10 @@
       "role": "prior",
       "objectives": [],
       "title": "because, when, -ing 떠올리기",
-      "text": "①②는 우리말 뜻에 맞게 골라 읽고, ③은 뜻을 말해요.",
+      "text": "①②는 우리말 뜻에 맞게 골라 읽고, ③은 뜻을 말해 보자.",
       "problems": [
         {
-          "text": "(When / Because) I was sick, I stayed home.  → ‘아파서 집에 있었어요.’"
+          "text": "(When / Because) I was sick, I stayed home.  → ‘아파서 집에 있었다.’"
         },
         {
           "text": "a baby (crying / cried) loudly  → ‘큰 소리로 우는 아기’"
@@ -189,8 +189,8 @@
       "objectives": [
         "A"
       ],
-      "title": "부사절을 -ing로 줄여요",
-      "text": "때·이유를 덧붙이는 덩어리를 -ing로 줄일 수 있어요.",
+      "title": "부사절을 -ing로 줄이자",
+      "text": "때·이유를 덧붙이는 덩어리를 -ing로 줄일 수 있다.",
       "figure": {
         "type": "words",
         "perRow": 2,
@@ -201,7 +201,7 @@
           },
           {
             "word": "Walking home,\nI met Tom.",
-            "sub": "분사구문: -ing로 줄였어요",
+            "sub": "분사구문: -ing로 줄였다",
             "highlight": true
           }
         ]
@@ -213,10 +213,10 @@
         },
         {
           "title": "분사구문",
-          "text": "부사절을 -ing로 줄인 덩어리\n두 주어가 같을 때 써요."
+          "text": "부사절을 -ing로 줄인 덩어리\n두 주어가 같을 때 쓴다."
         }
       ],
-      "key": "Walking home, I met Tom.  집에 걸어가다가 톰을 만났어요.",
+      "key": "Walking home, I met Tom.  집에 걸어가다가 톰을 만났다.",
       "notes": {
         "목적": "때·이유를 덧붙이는 부사절(접속사 + 주어 + 동사)과, 그것을 -ing로 줄인 분사구문을 나란히 보여 줍니다(목표 A).",
         "시간": "약 3분",
@@ -248,11 +248,11 @@
         "A"
       ],
       "title": "분사구문 만드는 세 단계",
-      "text": "접속사와 같은 주어를 빼고, 동사를 -ing로 바꿔요.",
+      "text": "접속사와 같은 주어를 빼고, 동사를 -ing로 바꾼다.",
       "steps": [
-        "접속사(When)를 빼요.",
-        "주어가 같으면\n주어(I)를 빼요.",
-        "동사를 -ing로 바꿔요.\nwalked → walking"
+        "접속사(When)를 뺀다.",
+        "주어가 같으면\n주어(I)를 뺀다.",
+        "동사를 -ing로 바꾼다.\nwalked → walking"
       ],
       "figureRatio": 0.5,
       "figure": {
@@ -261,16 +261,16 @@
         "items": [
           {
             "word": "When I walked home,\nI met Tom.",
-            "sub": "When과 I를 빼요."
+            "sub": "When과 I를 뺀다."
           },
           {
             "word": "Walking home,\nI met Tom.",
-            "sub": "-ing로 시작해요.",
+            "sub": "-ing로 시작한다.",
             "highlight": true
           }
         ]
       },
-      "key": "지난 일이어도 언제나 -ing:  언제인지는 뒤 문장(met)이 알려 줘요.",
+      "key": "지난 일이어도 언제나 -ing:  언제인지는 뒤 문장(met)이 알려 준다.",
       "notes": {
         "목적": "접속사 빼기 → 같은 주어 빼기 → 동사를 -ing로 바꾸기의 세 단계를 보여 주고, 시제와 상관없이 -ing를 쓴다는 것을 짚습니다(목표 A, 오해 M1·M2).",
         "시간": "약 3분",
@@ -300,8 +300,8 @@
       "objectives": [
         "A"
       ],
-      "title": "분사구문으로 바꿔요",
-      "text": "세 단계로 앞 덩어리를 줄여 말해요.",
+      "title": "분사구문으로 바꾸자",
+      "text": "세 단계로 앞 덩어리를 줄여 말해 보자.",
       "problems": [
         {
           "text": "When I opened the door,\nI saw a cat."
@@ -349,7 +349,7 @@
         "A"
       ],
       "title": "Being 빼기와 Not -ing",
-      "text": "Being은 빼도 되고, not은 -ing 바로 앞에 써요.",
+      "text": "Being은 빼도 되고, not은 -ing 바로 앞에 쓴다.",
       "table": {
         "headers": [
           "부사절",
@@ -360,7 +360,7 @@
           [
             "Because I was tired,",
             "(Being) Tired,",
-            "Being은 빼도 돼요."
+            "Being은 빼도 된다."
           ],
           [
             "Because I didn't know\nthe answer,",
@@ -376,7 +376,7 @@
         "width": 12.13,
         "size": 24
       },
-      "key": "Not knowing the answer, I said nothing.  답을 몰라서 아무 말도 안 했어요.",
+      "key": "Not knowing the answer, I said nothing.  답을 몰라서 아무 말도 안 했다.",
       "notes": {
         "목적": "be동사 + 형용사인 부사절은 Being으로 시작하는데 Being은 빼도 되고, 부정은 not을 -ing 바로 앞에 쓴다는 것을 보여 줍니다(목표 A, 오해 M3).",
         "시간": "약 3분",
@@ -406,8 +406,8 @@
       "objectives": [
         "A"
       ],
-      "title": "Being, Not으로 바꿔요",
-      "text": "Being을 빼거나 Not -ing로 줄여 말해요.",
+      "title": "Being, Not으로 바꾸자",
+      "text": "Being을 빼거나 Not -ing로 줄여 말해 보자.",
       "problems": [
         {
           "text": "Because I was tired,\nI went to bed early."
@@ -453,7 +453,7 @@
         "A"
       ],
       "title": "not은 어디에?",
-      "claim": "‘답을 몰라서 아무 말도 하지 않았어요.’를 두 친구가 이렇게 썼어요.",
+      "claim": "‘답을 몰라서 아무 말도 하지 않았다.’를 두 친구가 이렇게 썼다.",
       "left": {
         "title": "가",
         "figure": {
@@ -478,7 +478,7 @@
           ]
         }
       },
-      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 옮겨야 하나요?",
+      "question": "바르게 쓴 쪽은? 다른 쪽은 무엇을 옮겨야 할까?",
       "notes": {
         "목적": "not을 -ing 뒤에 두는 실수를 비교로 바로잡습니다(목표 A, 오해 M3).",
         "시간": "약 2분",
@@ -508,7 +508,7 @@
         "B"
       ],
       "title": "분사구문의 세 가지 뜻",
-      "text": "접속사가 없으니 앞뒤 내용을 보고 뜻을 정해요.",
+      "text": "접속사가 없으니 앞뒤 내용을 보고 뜻을 정한다.",
       "table": {
         "headers": [
           "뜻",
@@ -570,8 +570,8 @@
       "objectives": [
         "B"
       ],
-      "title": "뜻을 말하고 되돌려요",
-      "text": "뜻을 말하고, when·because·while로 바꿔 말해요.",
+      "title": "뜻을 말하고 되돌리자",
+      "text": "뜻을 말하고, when·because·while로 바꿔 말해 보자.",
       "problems": [
         {
           "text": "Opening the window,\nI saw a bird."
@@ -620,16 +620,16 @@
       ],
       "title": "말하기: 두 가지 일을 한 문장으로",
       "steps": [
-        "부모가 긴 문장을 말해요:\nWhen I walk to school,\nI listen to music.",
-        "아이가 줄여 말해요:\nWalking to school,\nI listen to music.",
-        "카드를 뽑아 내 생활을 말해요:\nFeeling tired, I ~.",
-        "부모가 묻고 아이가 답해요:\n때, 이유, 동시 동작?",
-        "역할을 바꿔 아이가 문장을 말해요."
+        "부모가 긴 문장을 말한다:\nWhen I walk to school,\nI listen to music.",
+        "아이가 줄여 말한다:\nWalking to school,\nI listen to music.",
+        "카드를 뽑아 내 생활을 말한다:\nFeeling tired, I ~.",
+        "부모가 묻고 아이가 답한다:\n때, 이유, 동시 동작?",
+        "역할을 바꿔 아이가 문장을 말한다."
       ],
       "criteria": [
-        "접속사와 같은 주어를 뺐어요",
-        "동사를 -ing로 바꿨어요",
-        "때·이유·동시 동작을 말했어요"
+        "접속사와 같은 주어를 뺐다",
+        "동사를 -ing로 바꿨다",
+        "때·이유·동시 동작을 말했다"
       ],
       "notes": {
         "목적": "부모가 말한 부사절 문장을 분사구문으로 줄이고, 카드의 표현으로 자기 생활을 분사구문 문장으로 말한 뒤 뜻(때·이유·동시 동작)을 말합니다(목표 A·B).",
@@ -664,7 +664,7 @@
         "B"
       ],
       "title": "혼자 해 보기",
-      "text": "혼자 말하고, 활동지 5에 써요.",
+      "text": "혼자 말하고, 활동지 5에 쓰시오.",
       "problems": [
         {
           "text": "When I saw the news,\nI was surprised.\n→ 분사구문으로"
@@ -730,7 +730,7 @@
       "bad": [
         {
           "text": "I seeing the news",
-          "note": "같은 주어 I는\n빼요"
+          "note": "같은 주어 I는\n뺀다"
         },
         {
           "text": "Saw the news",
@@ -772,8 +772,8 @@
         "A",
         "B"
       ],
-      "title": "줄이고, 뜻을 말해요",
-      "text": "①은 분사구문으로 줄이고, ②③은 뜻을 말해요.",
+      "title": "줄이고, 뜻을 말하자",
+      "text": "①은 분사구문으로 줄이고, ②③은 뜻을 말하시오.",
       "problems": [
         {
           "text": "Because I was hungry, I ate two sandwiches.\n→ Being을 빼고 분사구문으로"
@@ -860,7 +860,7 @@
       "objectives": [],
       "title": "보충: when, because, while",
       "layout": "support",
-      "text": "때·이유를 덧붙이는 접속사를 읽고 뜻을 말해요.",
+      "text": "때·이유를 덧붙이는 접속사를 읽고 뜻을 말해 보자.",
       "table": {
         "headers": [
           "접속사",
@@ -894,7 +894,7 @@
       },
       "key": {
         "title": "-ing 만들기",
-        "text": "walk → walking,   make → making (e를 빼요),   sit → sitting (t를 하나 더)"
+        "text": "walk → walking,   make → making (e를 뺀다),   sit → sitting (t를 하나 더)"
       },
       "notes": {
         "목적": "S02에서 when·because나 -ing 모양이 흔들리면, 오늘 내용을 배우기 전에 부사절과 -ing를 다시 다집니다.",
@@ -921,7 +921,7 @@
     "items": [
       {
         "no": 1,
-        "prompt": "앞 덩어리를 분사구문으로 바꾸어 문장 전체를 다시 쓰세요.",
+        "prompt": "앞 덩어리를 분사구문으로 바꾸어 문장 전체를 다시 쓰시오.",
         "table": {
           "rows": [
             [
@@ -952,7 +952,7 @@
       },
       {
         "no": 2,
-        "prompt": "Being을 빼거나 Not -ing를 써서 분사구문으로 바꾸어 쓰세요.",
+        "prompt": "Being을 빼거나 Not -ing를 써서 분사구문으로 바꾸어 쓰시오.",
         "table": {
           "rows": [
             [
@@ -983,7 +983,7 @@
       },
       {
         "no": 3,
-        "prompt": "뜻을 쓰고, 때·이유·동시 동작 가운데 하나에 ○ 하세요.",
+        "prompt": "뜻을 쓰고, 때·이유·동시 동작 가운데 하나에 ○ 하시오.",
         "table": {
           "headers": [
             "문장",
@@ -1020,11 +1020,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① 편지를 열었을 때(열자) 그녀는 울기 시작했어요. (때) ② 아파서 나는 학교에 가지 않았어요. (이유) ③ 그는 노래를 부르면서 해변을 따라 걸었어요. (동시 동작) ④ 그의 주소를 몰라서 나는 카드를 보내지 않았어요. (이유) 네 개 가운데 세 개 이상이면 통과. (address: 주소, along the beach: 해변을 따라)"
+        "answer": "① 편지를 열었을 때(열자) 그녀는 울기 시작했다. (때) ② 아파서 나는 학교에 가지 않았다. (이유) ③ 그는 노래를 부르면서 해변을 따라 걸었다. (동시 동작) ④ 그의 주소를 몰라서 나는 카드를 보내지 않았다. (이유) 네 개 가운데 세 개 이상이면 통과. (address: 주소, along the beach: 해변을 따라)"
       },
       {
         "no": 4,
-        "prompt": "분사구문을 when, because, while 가운데 알맞은 접속사의 부사절로 바꾸어 문장 전체를 쓰세요.",
+        "prompt": "분사구문을 when, because, while 가운데 알맞은 접속사의 부사절로 바꾸어 문장 전체를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1051,7 +1051,7 @@
       },
       {
         "no": 5,
-        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰세요.",
+        "prompt": "화면의 ‘혼자 해 보기’ 네 문제를 쓰시오.",
         "table": {
           "rows": [
             [
@@ -1078,11 +1078,11 @@
           "size": 13,
           "firstColHead": true
         },
-        "answer": "① Seeing the news, I was surprised. ② Not knowing the way, I got lost. ③ 아파서 미나는 보건실에 갔어요. (이유) ④ 그는 책을 읽으면서 나를 기다렸어요. (동시 동작) 네 개 가운데 세 개 이상이면 통과."
+        "answer": "① Seeing the news, I was surprised. ② Not knowing the way, I got lost. ③ 아파서 미나는 보건실에 갔다. (이유) ④ 그는 책을 읽으면서 나를 기다렸다. (동시 동작) 네 개 가운데 세 개 이상이면 통과."
       },
       {
         "no": 6,
-        "prompt": "소리 내어 읽으며 따라 쓰세요. 빈 줄에는 나의 하루를 분사구문으로 세 문장 쓰세요(때 하나, 이유 하나, 동시 동작 하나).",
+        "prompt": "소리 내어 읽으며 따라 쓰시오. 빈 줄에는 나의 하루를 분사구문으로 세 문장 쓰시오(때 하나, 이유 하나, 동시 동작 하나).",
         "eng": {
           "trace": [
             "Walking home, I met Tom.",
@@ -1096,9 +1096,9 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① When I opened the box, I found a letter.를 분사구문으로 바꾸어 쓰세요.\n② Feeling tired, I went to bed.의 뜻을 쓰세요.\n③ Don't knowing his name, I said nothing.을 바르게 고쳐 쓰세요.",
+        "prompt": "① When I opened the box, I found a letter.를 분사구문으로 바꾸어 쓰시오.\n② Feeling tired, I went to bed.의 뜻을 쓰시오.\n③ Don't knowing his name, I said nothing.을 바르게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① Opening the box, I found a letter. ② 피곤해서 나는 잠자리에 들었어요. ③ Not knowing his name, I said nothing. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Opening the box, I found a letter. ② 피곤해서 나는 잠자리에 들었다. ③ Not knowing his name, I said nothing. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
