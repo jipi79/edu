@@ -413,6 +413,11 @@ function shapes(deck, slide, sid, fig, box) {
     if (s.shape === "cone") {
       slide.addShape("triangle", { x, y, w: size * 0.8, h: size, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: name });
       slide.addShape(deck.pres.shapes.OVAL, { x, y: y + size - 0.18, w: size * 0.8, h: 0.36, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: deck.name(sid, "base") });
+    } else if (s.shape === "sphere") {
+      // 공은 평면 동그라미와 구별되게 입체 단서를 그린다: 점선 적도(뒤로 돌아가는 선)와 밝은 반사점.
+      slide.addShape(deck.pres.shapes.OVAL, { x, y, w, h, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: name });
+      slide.addShape(deck.pres.shapes.OVAL, { x: x + w * 0.02, y: y + h * 0.39, w: w * 0.96, h: h * 0.22, fill: { color: fill, transparency: 100 }, line: { color: INK, width: 1.25, dashType: "dash" }, objectName: deck.name(sid, "equator") });
+      slide.addShape(deck.pres.shapes.OVAL, { x: x + w * 0.2, y: y + h * 0.13, w: w * 0.24, h: h * 0.15, fill: { color: P.lt1, transparency: 25 }, line: { color: P.lt1, transparency: 100, width: 0 }, objectName: deck.name(sid, "shine") });
     } else {
       slide.addShape(preset, { x, y, w, h, fill: { color: fill }, line: { color: INK, width: 2 }, objectName: name });
     }
