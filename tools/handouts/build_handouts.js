@@ -1,0 +1,422 @@
+// 수업 원본(JSON)에서 인쇄용 PDF 두 개를 만든다.
+//   활동지: 아이가 쓰는 종이(정답 없음)
+//   부모용 진행 안내: 장별 발문·예상 답·정답·막힐 때 대응, 활동지 정답, 기록표
+//
+//   node tools/handouts/build_handouts.js <lesson.json> [--out <dir>] [--thumbs <dir>]
+//
+// --thumbs 에 수업용 PPTX를 렌더링한 slide-01.jpg … 가 있으면 안내서에 장 미리보기를 넣는다.
+// 집에서는 아이와 같은 화면을 보므로, 정답이 든 발표자 노트 대신 이 안내서를 부모가 따로 본다.
+const fs = require("fs");
+const path = require("path");
+const { chromium } = require("playwright");
+const GEO = require("../pptx/geo");
+
+function parseArgs(argv) {
+  const args = { lesson: null, out: null, thumbs: null };
+  for (let i = 2; i < argv.length; i++) {
+    if (argv[i] === "--out") args.out = argv[++i];
+    else if (argv[i] === "--thumbs") args.thumbs = argv[++i];
+    else args.lesson = argv[i];
+  }
+  if (!args.lesson) throw new Error("사용법: node tools/handouts/build_handouts.js <lesson.json> [--out <dir>] [--thumbs <dir>]");
+  return args;
+}
+
+// 위첨자(2³)·아래 첨자(H₂O) 문자는 글꼴에 따라 너무 작거나 없으므로 보통 글자를 <sup>·<sub>로 쓴다.
+const { SCRIPT_RUNS, scriptKind, plainScript } = require("../pptx/scripts");
+// 수와 단위(4 g, 10 cm, 25 °C), 비(1 : 8) 사이에서는 줄을 바꾸지 않는다.
+const UNIT = /(\d) (?=(?:개국|개월|개|명|원|도|분|초|번째|번|권|장|쪽|살|년|월|일|시간|시|배|점|회|층|마리|대|칸|줄|쌍|가지|단계|종|곳|가구|군데|그루|송이|켤레|자루|벌|채|잔|병|주|kg|mg|g|mL|L|km|cm|mm|m|°C|℃|%|kJ|J|N|V|A|W|Ω|hPa|kcal|cal|m\/s|g\/cm³|g\/mL)(?![A-Za-z]))/g;
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  .replace(UNIT, "$1\u00a0").replace(/(\d) : (?=\d)/g, "$1\u00a0:\u00a0")
+  .replace(SCRIPT_RUNS, (m) => `<${scriptKind(m)}>${plainScript(m)}</${scriptKind(m)}>`)
+  .replace(/\u27e6([^\u27e7]*)\u27e7/g, "<u>$1</u>").replace(/[\u27e6\u27e7]/g, "");
+
+const CSS = `
+  @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Malgun Gothic", "맑은 고딕", "NanumGothic", sans-serif; color: #1F2937; font-size: 11pt; line-height: 1.55; margin: 0; word-break: keep-all; }
+  .jamo { font-size: 1.45em; }
+  h1 { font-size: 20pt; margin: 0 0 2mm; }
+  h2 { font-size: 13.5pt; margin: 7mm 0 2.5mm; color: #264653; break-after: avoid; page-break-after: avoid; }
+  tr { break-inside: avoid; } tr:nth-child(2) { break-before: avoid; }
+  .sub { color: #4B5563; font-size: 10pt; margin-bottom: 5mm; }
+  .frac { display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; margin: 0 1.2mm; font-weight: 700; }
+  .frac > span { display: block; min-width: 7mm; text-align: center; line-height: 1.15; }
+  .frac > span + span { border-top: 2px solid currentColor; }
+  .blank { display: inline-block; width: 7mm; height: 7mm; border: 1.6px solid #1F2937; margin: 0.8mm auto; }
+  .op { font-weight: 700; margin: 0 1.5mm; vertical-align: middle; }
+  .eq { font-size: 17pt; margin: 2mm 0; }
+  .item { break-inside: avoid; margin-bottom: 6mm; }
+  .no { display: inline-flex; width: 7.5mm; height: 7.5mm; border-radius: 50%; background: #264653; color: #fff; font-weight: 700; align-items: center; justify-content: center; margin-right: 2mm; font-size: 10.5pt; }
+  .prompt { font-size: 12pt; font-weight: 700; white-space: pre-wrap; }
+  .figrow { display: flex; align-items: center; gap: 3mm; margin: 2mm 0 2mm 9.5mm; }
+  .line { border-bottom: 1px solid #9CA3AF; height: 9mm; margin-left: 9.5mm; }
+  .linelabel { margin: 3mm 0 0 9.5mm; white-space: pre-wrap; }
+  .head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #264653; padding-bottom: 2mm; margin-bottom: 5mm; }
+  .name { font-size: 11pt; }
+  .box { background: #EAF3F1; border-radius: 3mm; padding: 3.5mm 4.5mm; margin: 2mm 0; break-inside: avoid; }
+  .warn { background: #FDEBDD; }
+  table { border-collapse: collapse; width: 100%; font-size: 10pt; }
+  th, td { border: 1px solid #CBD5E1; padding: 1.6mm 2.2mm; text-align: left; vertical-align: top; }
+  th { background: #EAF3F1; }
+  .slide { display: flex; gap: 4mm; break-inside: avoid; border-top: 1px solid #CBD5E1; padding: 3mm 0; }
+  .slide img { width: 62mm; border: 1px solid #CBD5E1; flex: none; align-self: flex-start; }
+  .slide .body { flex: 1; font-size: 10pt; }
+  .slide .body b.k { color: #264653; }
+  .slide ul { margin: 0.5mm 0 1.5mm; padding-left: 5mm; }
+  .tag { display: inline-block; background: #264653; color: #fff; border-radius: 2mm; padding: 0 2mm; font-size: 9pt; margin-right: 1.5mm; }
+  .tag.t { background: #C8434E; }
+`;
+
+function fracHtml(item) {
+  const slot = (v) => (v === null || v === undefined ? '<span><i class="blank"></i></span>' : `<span>${esc(v)}</span>`);
+  return `<span class="frac">${slot(item[0])}${slot(item[1])}</span>`;
+}
+
+function eqHtml(items) {
+  const part = (it) => {
+    if (!Array.isArray(it)) return `<span class="op">${esc(it)}</span>`;
+    if (it.length === 3) {
+      const whole = it[0] === null || it[0] === undefined ? '<i class="blank"></i>' : esc(it[0]);
+      return `<span class="op" style="margin-right:0.5mm">${whole}</span>${fracHtml(it.slice(1))}`;
+    }
+    return fracHtml(it);
+  };
+  return `<div class="eq">${items.map(part).join("")}</div>`;
+}
+
+function barSvg(bar, widthMm = 120, heightMm = 12) {
+  const widths = bar.widths || Array.from({ length: bar.parts }, () => 1 / bar.parts);
+  const parts = widths.length;
+  const shaded = Array.isArray(bar.shaded) ? new Set(bar.shaded) : new Set(Array.from({ length: bar.shaded || 0 }, (_, i) => i));
+  let cells = "";
+  let x = 0;
+  for (let i = 0; i < parts; i++) {
+    const cw = widthMm * widths[i];
+    cells += `<rect x="${x}" y="0" width="${cw}" height="${heightMm}" fill="${shaded.has(i) ? "#E9762B" : "#FFFFFF"}" stroke="#1F2937" stroke-width="0.4"/>`;
+    x += cw;
+  }
+  return `<svg width="${widthMm}mm" height="${heightMm}mm" viewBox="-0.4 -0.4 ${widthMm + 0.8} ${heightMm + 0.8}" role="img" aria-label="${parts}칸 띠">${cells}<rect x="0" y="0" width="${widthMm}" height="${heightMm}" fill="none" stroke="#1F2937" stroke-width="0.7"/></svg>`;
+}
+
+
+// 슬라이드 시계와 같은 비율: 숫자 0.76r, 긴바늘 0.6r(숫자에 닿지 않음), 짧은바늘 0.42r
+function clockSvg(c, d = 46) {
+  const r = d / 2;
+  let g = `<circle cx="${r}" cy="${r}" r="${r - 0.6}" fill="#fff" stroke="#1F2937" stroke-width="0.9"/>`;
+  for (let k = 0; k < 60; k++) {
+    const a = (k * 6 * Math.PI) / 180;
+    const l = k % 5 === 0 ? 2.6 : 1.2;
+    g += `<line x1="${r + Math.sin(a) * (r - 1)}" y1="${r - Math.cos(a) * (r - 1)}" x2="${r + Math.sin(a) * (r - 1 - l)}" y2="${r - Math.cos(a) * (r - 1 - l)}" stroke="#1F2937" stroke-width="${k % 5 === 0 ? 0.6 : 0.25}"/>`;
+  }
+  for (let k = 1; k <= 12; k++) {
+    const a = (k * 30 * Math.PI) / 180;
+    g += `<text x="${r + Math.sin(a) * r * 0.76}" y="${r - Math.cos(a) * r * 0.76 + 1.6}" font-size="4.6" text-anchor="middle" font-weight="700">${k}</text>`;
+  }
+  if (c.h !== undefined) {
+    const m = c.m || 0;
+    const ha = (((c.h % 12) + m / 60) * 30 * Math.PI) / 180;
+    const ma = (m * 6 * Math.PI) / 180;
+    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ha) * r * 0.42}" y2="${r - Math.cos(ha) * r * 0.42}" stroke="#C8434E" stroke-width="1.8" stroke-linecap="round"/>`;
+    g += `<line x1="${r}" y1="${r}" x2="${r + Math.sin(ma) * r * 0.6}" y2="${r - Math.cos(ma) * r * 0.6}" stroke="#1F2937" stroke-width="1.1" stroke-linecap="round"/>`;
+  }
+  g += `<circle cx="${r}" cy="${r}" r="1" fill="#1F2937"/>`;
+  return `<svg width="${d}mm" height="${d}mm" viewBox="0 0 ${d} ${d}">${g}</svg>`;
+}
+
+function numberlineSvg(n, w = 160) {
+  const step = n.step || 1;
+  const count = Math.round((n.max - n.min) / step);
+  const x0 = 6, x1 = w - 6, y = 8;
+  let g = `<line x1="2" y1="${y}" x2="${w - 2}" y2="${y}" stroke="#1F2937" stroke-width="0.6"/>`;
+  for (let i = 0; i <= count; i++) {
+    const v = +(n.min + i * step).toFixed(6);
+    const x = x0 + ((x1 - x0) * i) / count;
+    g += `<line x1="${x}" y1="${y - 2}" x2="${x}" y2="${y + 2}" stroke="#1F2937" stroke-width="0.5"/>`;
+    const show = !n.labels || n.labels === "all" || (n.labels === "ends" && (i === 0 || i === count)) || (Array.isArray(n.labels) && n.labels.includes(v));
+    if (show) g += `<text x="${x}" y="${y + 7}" font-size="4" text-anchor="middle">${v < 0 ? `−${-v}` : v}</text>`;
+  }
+  return `<svg width="${w}mm" height="16mm" viewBox="0 0 ${w} 16">${g}</svg>`;
+}
+
+function gridSvg(gr, cell = 10) {
+  let shaded = gr.shaded || [];
+  if (typeof shaded === "number") shaded = Array.from({ length: shaded }, (_, k) => [Math.floor(k / gr.cols), k % gr.cols]);
+  const set = new Set(shaded.map(([r, c]) => `${r},${c}`));
+  const light = new Set((gr.light || []).map(([r, c]) => `${r},${c}`));
+  let g = "";
+  for (let r = 0; r < gr.rows; r++) for (let c = 0; c < gr.cols; c++) {
+    const k = `${r},${c}`;
+    g += `<rect x="${c * cell}" y="${r * cell}" width="${cell}" height="${cell}" fill="${set.has(k) ? "#E9762B" : light.has(k) ? "#FBE3D2" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
+  }
+  return `<svg width="${gr.cols * cell}mm" height="${gr.rows * cell}mm" viewBox="-0.4 -0.4 ${gr.cols * cell + 0.8} ${gr.rows * cell + 0.8}">${g}</svg>`;
+}
+
+function arraySvg(a, cell = 8) {
+  let g = "";
+  const count = a.count ?? a.rows * a.cols;
+  for (let r = 0; r < a.rows; r++) for (let c = 0; c < a.cols; c++) {
+    if (r * a.cols + c < count) g += `<circle cx="${c * cell + cell / 2}" cy="${r * cell + cell / 2}" r="${cell * 0.3}" fill="#E9762B" stroke="#1F2937" stroke-width="0.3"/>`;
+  }
+  return `<svg width="${a.cols * cell}mm" height="${a.rows * cell}mm" viewBox="0 0 ${a.cols * cell} ${a.rows * cell}">${g}</svg>`;
+}
+
+function pieSvg(pc, d = 36) {
+  const r = d / 2 - 0.6;
+  const set = Array.isArray(pc.shaded) ? new Set(pc.shaded) : new Set(Array.from({ length: pc.shaded || 0 }, (_, i) => i));
+  let g = "";
+  for (let i = 0; i < pc.parts; i++) {
+    const a0 = (i / pc.parts) * 2 * Math.PI;
+    const a1 = ((i + 1) / pc.parts) * 2 * Math.PI;
+    const p = (a) => `${d / 2 + Math.sin(a) * r},${d / 2 - Math.cos(a) * r}`;
+    g += `<path d="M${d / 2},${d / 2} L${p(a0)} A${r},${r} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${p(a1)} Z" fill="${set.has(i) ? "#E9762B" : "#fff"}" stroke="#1F2937" stroke-width="0.4"/>`;
+  }
+  return `<svg width="${d}mm" height="${d}mm" viewBox="0 0 ${d} ${d}">${g}</svg>`;
+}
+
+// 낱자(ㄱ, ㅏ)는 글꼴에서 작게 그려지므로 키운다
+function jamo(html) {
+  return html.replace(/[\u3131-\u318E]+/g, (m) => `<span class="jamo">${m}</span>`);
+}
+
+function tableHtml(t) {
+  // 빈칸용 줄바꿈(" \n ")도 한 줄 높이를 차지하게, 줄바꿈 뒤가 비면 줄바꿈 없는 공백을 넣는다.
+  const br = (s) => jamo(esc(s)).replace(/\n(?=\s*(?:\n|$))/g, "<br>\u00a0").replace(/\n/g, "<br>");
+  const head = t.headers ? `<tr>${t.headers.map((h) => `<th>${br(h)}</th>`).join("")}</tr>` : "";
+  const cell = (c, j) => (t.firstColHead && j === 0 ? `<th style="height:9mm; min-width:18mm">${br(c)}</th>` : `<td style="height:9mm; min-width:18mm; text-align:${t.align || "center"}">${br(c)}</td>`);
+  const rows = t.rows.map((r) => `<tr>${r.map(cell).join("")}</tr>`).join("");
+  // widths(합이 1인 비율)가 있으면 열 너비를 그 비율로 나눈다.
+  const cols = t.widths ? `<colgroup>${t.widths.map((f) => `<col style="width:${(f * 100).toFixed(1)}%">`).join("")}</colgroup>` : "";
+  return `<table style="width:${t.widths ? "160mm" : "auto"}; min-width:90mm; font-size:${t.size || 11.5}pt">${cols}${head}${rows}</table>`;
+}
+
+
+function tenframeSvg(t, cell = 9) {
+  const frames = t.frames || (t.count > 10 ? 2 : 1);
+  let g = "";
+  let left = t.count || 0;
+  for (let f = 0; f < frames; f++) {
+    const ox = f * (cell * 5 + 6);
+    for (let k = 0; k < 10; k++) {
+      const x = ox + (k % 5) * cell, y = Math.floor(k / 5) * cell;
+      g += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" fill="#fff" stroke="#1F2937" stroke-width="0.4"/>`;
+      if (left > 0) { g += `<circle cx="${x + cell / 2}" cy="${y + cell / 2}" r="${cell * 0.32}" fill="#E9762B" stroke="#1F2937" stroke-width="0.3"/>`; left -= 1; }
+    }
+  }
+  const w = frames * cell * 5 + (frames - 1) * 6;
+  return `<svg width="${w}mm" height="${cell * 2}mm" viewBox="-0.4 -0.4 ${w + 0.8} ${cell * 2 + 0.8}">${g}</svg>`;
+}
+
+function bondSvg(b, d = 13) {
+  const W = d * 4.2, H = d * 2.8;
+  const merge = !!b.merge;
+  const yw = merge ? H - d / 2 - 0.5 : d / 2 + 0.5, yp = merge ? d / 2 + 0.5 : H - d / 2 - 0.5;
+  const pts = [[W / 2, yw, b.whole], [d * 0.7, yp, b.parts[0]], [W - d * 0.7, yp, b.parts[1]]];
+  let g = "";
+  for (const [x, y] of pts.slice(1)) g += `<line x1="${W / 2}" y1="${yw}" x2="${x}" y2="${y}" stroke="#1F2937" stroke-width="0.6"/>`;
+  for (const [x, y, v] of pts) {
+    const blank = v === null || v === undefined;
+    g += `<circle cx="${x}" cy="${y}" r="${d / 2}" fill="#fff" stroke="#264653" stroke-width="0.6" ${blank ? 'stroke-dasharray="1.5 1"' : ""}/>`;
+    if (!blank) g += `<text x="${x}" y="${y + 2.2}" font-size="6.5" font-weight="700" text-anchor="middle">${v}</text>`;
+  }
+  return `<svg width="${W}mm" height="${H}mm" viewBox="0 0 ${W} ${H}">${g}</svg>`;
+}
+
+// 영어 네 줄 공책: 위에서 셋째 줄이 기준선(주황). trace 글은 흐린 글씨로 따라 쓰고, blank 줄은 빈 칸으로 쓴다.
+// 따라 쓰기 글꼴은 Jost(공-막대 모양의 a·g, 낮은 소문자 몸통)를 쓴다. 소문자 몸통이 가운데 칸(둘째~셋째 줄)을 꼭 채우고,
+// 대문자와 키 큰 글자(b, d, h, k, l)는 첫째 줄 가까이까지 올라가며, g·j·p·q·y는 셋째 줄 아래로 내려간다.
+const TRACE = JSON.parse(fs.readFileSync(path.join(__dirname, "fonts", "jost-metrics.json"), "utf-8"));
+const TRACE_FONT_CSS = `@font-face { font-family: "Trace Jost"; src: url(data:font/woff2;base64,${fs.readFileSync(path.join(__dirname, "fonts", "Jost-Regular.woff2")).toString("base64")}) format("woff2"); }`;
+const ENG_W = 165, ENG_MIN_H = 11;
+function traceWidth(t, h) {
+  const size = h / 3 / TRACE.xHeight;
+  let em = 0, spaces = 0;
+  for (const c of String(t)) { em += TRACE.advance[c] ?? 0.6; if (c === " ") spaces++; }
+  return em * size + spaces * 0.1 * h;
+}
+function engLinesHtml(e) {
+  let h = e.height || 15;
+  const w = ENG_W;
+  const traces = [].concat(e.trace || []);
+  const rows = [...traces, ...Array.from({ length: e.blank || 0 }, () => "")];
+  // 따라 쓸 문장이 줄(165 mm)을 넘으면 그 문항의 줄 높이를 함께 줄인다. 너무 작아지면(11 mm 미만) 빌드를 멈춘다.
+  for (const t of traces) {
+    const est = traceWidth(t, h);
+    if (est > w - 6) {
+      const fit = Math.floor((h * (w - 6)) / est * 10) / 10;
+      if (fit < ENG_MIN_H) throw new Error(`영어 공책 따라 쓰기 문장이 한 줄에 들어가지 않습니다(줄 높이 ${ENG_MIN_H} mm에서도 넘침): "${t}" — 문장을 나누어 두 줄로 주세요`);
+      h = Math.min(h, fit);
+    }
+  }
+  const size = h / 3 / TRACE.xHeight;
+  const row = (t) => {
+    const ys = [0.5, h / 3, (2 * h) / 3, h - 0.5];
+    const lines = ys.map((y, i) => `<line x1="0" y1="${y.toFixed(2)}" x2="${w}" y2="${y.toFixed(2)}" stroke="${i === 2 ? "#E9762B" : "#9CA3AF"}" stroke-width="${i === 2 ? 0.45 : 0.3}"${i === 1 ? ' stroke-dasharray="1.6 1.2"' : ""}/>`).join("");
+    const text = t ? `<text x="3" y="${((2 * h) / 3).toFixed(2)}" font-family="'Trace Jost', 'Liberation Sans', Arial, sans-serif" font-size="${size.toFixed(2)}" fill="#C9CED6" style="white-space:pre; font-kerning:none" word-spacing="${(0.1 * h).toFixed(2)}">${esc(t)}</text>` : "";
+    return `<svg lang="en" width="${w}mm" height="${h}mm" viewBox="0 0 ${w} ${h}" style="display:block; margin:0 0 5mm 9.5mm">${lines}${text}</svg>`;
+  };
+  return `<div style="margin-top:2mm">${rows.map(row).join("")}</div>`;
+}
+
+function figureHtml(it) {
+  const parts = [];
+  if (it.clock) parts.push(...[].concat(it.clock).map((c) => clockSvg(c)));
+  if (it.numberline) parts.push(numberlineSvg(it.numberline));
+  if (it.grid) parts.push(...[].concat(it.grid).map((g) => gridSvg(g)));
+  if (it.array) parts.push(...[].concat(it.array).map((a) => arraySvg(a)));
+  if (it.pie) parts.push(...[].concat(it.pie).map((pc) => pieSvg(pc)));
+  if (it.table) parts.push(tableHtml(it.table));
+  if (it.tenframe) parts.push(...[].concat(it.tenframe).map((t) => tenframeSvg(t)));
+  if (it.bond) parts.push(...[].concat(it.bond).map((b) => bondSvg(b)));
+  for (const type of ["geo", "ruler", "protractor"]) if (it[type]) parts.push(...[].concat(it[type]).map((g) => GEO.toSvg({ ...g, type })));
+  return parts.length ? `<div class="figrow" style="flex-wrap:wrap; gap:8mm">${parts.join("")}</div>` : "";
+}
+
+function worksheetHtml(L) {
+  const ws = L.worksheet;
+  const items = ws.items.map((it) => {
+    let h = it.new_page ? `<div style="break-before: page"></div>${it.heading ? `<h2 style="margin-top:0">${esc(it.heading)}</h2>` : ""}` : "";
+    h += `<div class="item"><div><span class="no">${it.no}</span><span class="prompt">${esc(it.prompt)}</span></div>`;
+    for (const bar of it.bars || []) {
+      h += `<div class="figrow">${bar.label ? `<span style="font-size:13pt">${fracHtml(bar.label)}</span>` : ""}${barSvg(bar)}</div>`;
+    }
+    if (it.read) h += `<div class="box" style="margin-left:9.5mm; font-size:13pt">${esc(it.read).replace(/\n/g, "<br>")}</div>`;
+    h += figureHtml(it);
+    if (it.choices) h += `<div style="margin:1.5mm 0 0 9.5mm; display:flex; flex-wrap:wrap; gap:2mm 9mm; font-size:${it.choices_size || 12}pt">${it.choices.map((c) => `<span>☐ ${esc(c)}</span>`).join("")}</div>`;
+    if (it.big) {
+      // 한글 낱자는 넓게 띄우고, 영어 낱말은 글자를 붙여 쓴다.
+      const spacing = it.big_spacing ?? (/^[\s가-힯ㄱ-ㆎ　]+$/.test(it.big) ? 4 : 0.5);
+      h += `<div style="margin:2mm 0 0 9.5mm; font-size:${it.big_size || 26}pt; letter-spacing:${spacing}mm; font-weight:700; white-space:pre-wrap">${jamo(esc(it.big))}</div>`;
+    }
+    if (it.eng) h += engLinesHtml(it.eng);
+    if (it.eq) h += `<div style="margin-left:9.5mm">${eqHtml(it.eq)}</div>`;
+    if (it.eqs) h += `<div style="margin-left:9.5mm; display:flex; gap:16mm">${it.eqs.map(eqHtml).join("")}</div>`;
+    if (it.box) h += `<div style="margin:2mm 0 0 9.5mm; height:${it.box}mm; border:1.2px dashed #9CA3AF; border-radius:2mm"></div>`;
+    if (it.line_label) h += `<div class="linelabel">${esc(it.line_label)}</div>`;
+    for (let i = 0; i < (it.lines || 0); i++) h += '<div class="line"></div>';
+    return h + "</div>";
+  });
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}${TRACE_FONT_CSS}</style></head><body>
+    <div class="head"><div><h1>${esc(ws.title)}</h1><div class="sub" style="margin:0">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시</div></div>
+    <div class="name">이름 ______________ &nbsp; 날짜 ____________</div></div>
+    ${items.join("")}
+  </body></html>`;
+}
+
+function listHtml(label, items, cls = "") {
+  if (!items || !items.length) return "";
+  return `<b class="k ${cls}">${label}</b><ul>${items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`;
+}
+
+
+// 선수 확인 장과 보충 장이 있으면 어디로 가야 하는지 알려 준다
+function supportLine(L) {
+  const prior = L.slides.find((s) => s.role === "prior");
+  const support = L.slides.find((s) => s.role === "support");
+  const pre = L.prerequisites.filter((p) => p.lesson).map((p) => esc(p.text));
+  let t = "";
+  if (prior && support) t += `${esc(prior.id)}에서 흔들리면 보충 장 ${esc(support.id)}부터 합니다. `;
+  if (pre.length) t += `보충으로도 어려우면 앞 차시(${pre.join(", ")})부터 다시 다지는 것이 좋습니다.`;
+  return t ? `<div>${t}</div>` : "";
+}
+
+// 이틀에 나누는 차시의 하루 분량: 보충 장을 뺀 장별 시간의 합을 둘로 나누어 5분 단위로 적는다.
+// 이틀에 나누는 차시의 날마다 걸리는 시간(분). 나눌 곳(break_after)까지가 첫날이다. 보충 장은 세지 않는다.
+function dayMinutes(L) {
+  const mins = (s) => parseInt(String((s.notes || {})["시간"] || "").replace(/[^0-9]/g, ""), 10) || 0;
+  const main = L.slides.filter((s) => s.role !== "support");
+  const total = main.reduce((t, s) => t + mins(s), 0) || L.minutes;
+  const r5 = (n) => Math.max(10, Math.round(n / 5) * 5);
+  const k = main.findIndex((s) => s.id === L.break_after);
+  if (k < 0) return [r5(total / 2), r5(total / 2)];
+  const d1 = main.slice(0, k + 1).reduce((t, s) => t + mins(s), 0);
+  return [r5(d1), r5(total - d1)];
+}
+function splitLabel(L) {
+  const [d1, d2] = dayMinutes(L);
+  return d1 === d2 ? `이틀에 나누어(하루 약 ${d1}분)` : `이틀에 나누어(첫날 약 ${d1}분, 둘째 날 약 ${d2}분)`;
+}
+
+function guideHtml(L, thumbs) {
+  const slides = L.slides.map((s, i) => {
+    const n = s.notes;
+    const img = thumbs[i] ? `<img src="${thumbs[i]}" alt="${esc(s.id)} 미리보기">` : "";
+    const tags = `<span class="tag">${esc(s.id)}</span>${s.teacher_only ? '<span class="tag t">학생용에서 빠짐</span>' : ""}`;
+    return `<div class="slide">${img}<div class="body">
+      <div>${tags}<b>${esc(s.title)}</b> · ${esc(s.purpose)} · ${esc(n.시간 || "")}</div>
+      <div>${esc(n.목적 || "")}</div>
+      ${listHtml("이렇게 말해 보세요", n.말하기)}${listHtml("예상 답", n.예상답)}${listHtml("정답", n.정답)}
+      ${listHtml("막히면", n.막히면)}${listHtml("주의", n.주의)}
+      ${s.safety ? `<div style="margin-top:1mm; color:#C8434E; font-weight:700">안전: ${esc(s.safety)}</div>` : ""}
+    </div></div>`;
+  });
+  const rows = L.slides.map((s) => `<tr><td>${esc(s.id)}</td><td>${esc(s.purpose)}</td><td>${esc(s.notes.시간 || "")}</td><td>${esc(s.objectives.join(", ") || "—")}</td></tr>`).join("");
+  const ws = L.worksheet;
+  const answers = ws ? `<h2>활동지 정답</h2><table><tr><th style="width:12mm">번호</th><th>정답</th></tr>${ws.items.map((it) => `<tr><td>${it.no}</td><td>${esc(it.answer)}</td></tr>`).join("")}</table>` : "";
+  const record = ws && ws.record ? `<h2>오늘의 기록</h2><div class="box">${ws.record.map((r) => `<div>${esc(r)}</div>`).join("")}<div style="margin-top:2mm">메모: ______________________________________________</div></div>` : "";
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
+    <h1>부모용 진행 안내 · ${esc(L.title)}</h1>
+    <div class="sub">${esc(L.grade_label)} ${esc(L.strand_label)} · ${esc(L.unit_folder)} ${L.sequence}차시 · ${L.split_default ? splitLabel(L) : `약 ${L.minutes}분`} · 수업 ID ${esc(L.id)}</div>
+    <div class="box warn"><b>시작 전에</b><ul style="margin:1mm 0 0">
+      <li>아이에게는 PPT를 <b>슬라이드 쇼</b>로 보여 주세요. 일반 보기 화면 아래쪽 노트에는 정답이 있습니다. 진행은 이 안내서를 보며 합니다.</li>
+      <li>준비물: ${esc(L.materials.join(", "))}</li>
+      ${(L.safety || []).map((t) => `<li style="color:#C8434E"><b>안전:</b> ${esc(t)}</li>`).join("")}
+      <li>정답을 바로 알려 주기보다 “어떻게 알았어?”라고 묻고 아이가 설명하게 하세요. 막히면 각 장의 ‘막히면’을 따르세요.</li>
+      ${L.break_after ? (L.split_default ? `<li>이 차시는 내용이 많습니다. ${esc(L.break_after)} 뒤에서 나누어 <b>이틀에 하는 것을 기본</b>으로 합니다.</li>` : `<li>아이가 지치면 ${esc(L.break_after)} 뒤에서 나누어 이틀에 해도 됩니다.</li>`) : ""}
+      ${L.format === "act" ? "<li>활동 중심 차시입니다. 화면은 짧은 안내이고, 실제 활동과 관찰 기록이 중심입니다.</li>" : ""}
+    </ul></div>
+    <h2>오늘의 목표와 확인 방법</h2>
+    ${L.objectives.map((o) => `<div class="box"><b>목표 ${esc(o.id)}</b> ${esc(o.text)}<br><b class="k">확인</b> ${esc(o.evidence)}<br><b class="k">성공 기준</b> ${esc(o.success)}</div>`).join("")}
+    ${L.prerequisites.length ? `<h2>먼저 알고 있어야 할 것</h2>
+    <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>` : ""}
+    ${supportLine(L)}
+    <h2>자주 나오는 오해</h2>
+    <table><tr><th style="width:9%">번호</th><th style="width:41%">아이가 이렇게 생각하면</th><th>이렇게 도와주세요</th></tr>
+    ${L.misconceptions.map((m) => `<tr><td style="text-align:center; font-weight:700">${esc(m.id || "")}</td><td>${esc(m.text)}</td><td>${esc(m.response)}</td></tr>`).join("")}</table>
+    <div class="sub" style="margin-top:1.5mm">진행 순서의 (M1), (M2) 같은 표시는 이 표의 번호입니다.</div>
+    <div style="margin-top:2mm"><b>오늘 다루지 않는 것</b> ${esc(L.boundary)}</div>
+    <h2>진행 순서</h2>
+    <table><tr><th style="width:12mm">장</th><th>하는 일</th><th style="width:18mm">시간</th><th style="width:16mm">목표</th></tr>${rows}</table>
+    <h2 style="break-before: page; margin-top: 0">장별 안내</h2>
+    ${slides.join("")}
+    ${answers}${record}
+  </body></html>`;
+}
+
+async function toPdf(browser, html, file) {
+  const page = await browser.newPage();
+  await page.setContent(html, { waitUntil: "load" });
+  await page.evaluate(async () => { await document.fonts.ready; });
+  await page.pdf({ path: file, format: "A4", printBackground: true, preferCSSPageSize: true });
+  await page.close();
+}
+
+async function main() {
+  const args = parseArgs(process.argv);
+  const L = JSON.parse(fs.readFileSync(args.lesson, "utf-8"));
+  const outDir = args.out || path.join("dist", L.grade_label, L.strand_label, L.unit_folder);
+  fs.mkdirSync(outDir, { recursive: true });
+  let thumbs = [];
+  if (args.thumbs && fs.existsSync(args.thumbs)) {
+    thumbs = fs.readdirSync(args.thumbs).filter((f) => /^slide-\d+\.jpg$/.test(f)).sort()
+      .map((f) => "data:image/jpeg;base64," + fs.readFileSync(path.join(args.thumbs, f)).toString("base64"));
+  }
+  const browser = await chromium.launch();
+  try {
+    if (L.worksheet) {
+      const ws = path.join(outDir, `${L.file_stem}_활동지.pdf`);
+      await toPdf(browser, worksheetHtml(L), ws);
+      console.log(ws);
+    }
+    const guide = path.join(outDir, `${L.file_stem}_부모용안내.pdf`);
+    await toPdf(browser, guideHtml(L, thumbs), guide);
+    console.log(guide);
+  } finally {
+    await browser.close();
+  }
+}
+
+main().catch((err) => {
+  console.error(err.message || err);
+  process.exit(1);
+});
