@@ -327,7 +327,13 @@ def choice_item(L, s, issues, seen):
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
     more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|큽|많|작|적|길|짧|무겁|가볍)", raw)
     first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
-    if re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
+    latin = re.match(r"^([A-F])(?:[(\s.,]|$)", raw)  # 보기 이름이 A·B·C인 장
+    if latin and not first and "ABCDEF".index(latin.group(1)) < len(opts):
+        first = None
+        rec["answer"] = "ABCDEF".index(latin.group(1))
+    if rec["answer"] is not None:
+        pass
+    elif re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
         rec.update(input="parent", why="무엇을 골라도 맞음(까닭을 봄)")
     elif len(each) >= 2 and len({x for x, _ in each}) == len(each):
         rec.update(input="numpad_each", answer={x: v for x, v in each})
