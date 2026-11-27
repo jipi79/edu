@@ -1,12 +1,15 @@
-# 웹·안드로이드 앱 자료 (제작 규칙)
+# 안드로이드·PC 앱 설계 메모
 
-같은 원본(`lessons/*.json`)에서 PPTX와 함께 **안드로이드 앱**용 화면 자료를 만든다. 앱은 아이가 직접 조작하고 반복하는 화면이고, PPTX는 부모가 아이와 함께 보며 시범·비교·대화를 하는 화면이다. 두 형식의 내용과 목적은 달라도 된다. 앱에만 필요한 내용은 장·문항의 `web` 필드에 두고, PPTX 생성은 이 필드를 무시한다.
+> **상태: 설계 메모, 시제품 없음.** 실제 기기로 확인한 것은 아직 없다. 시제품을 만들며 이 문서를 고친다.
+> 원고를 쓸 때 지킬 규칙은 스킬의 `.claude/skills/education-ppt/references/app.md` 에 따로 있다(짧다). 이 문서는 앱을 만들 때 읽는다.
+
+같은 원본(`lessons/*.json`)에서 PPTX와 함께 **안드로이드 앱**용 화면 자료를 만든다. 앱은 아이가 직접 조작하고 반복하는 화면이고, PPTX는 부모가 아이와 함께 보며 시범·비교·대화를 하는 화면이다. 두 형식의 내용과 목적은 달라도 된다. 앱에만 필요한 내용은 장·문항의 `app` 필드에 두고, PPTX 생성은 이 필드를 무시한다. **`app` 필드는 시제품으로 형식을 확정한 뒤에 원본에 넣는다**(지금은 어느 차시에도 없다).
 
 화면은 웹 기술(HTML·SVG·JS)로 만들고 안드로이드 앱 껍데기에 넣는다. 개발 중에는 브라우저로 미리 본다. **앱은 안드로이드만 만들고, 스토어(Google Play)에 올리지 않고 직접 설치한다**(아래 ‘안드로이드 앱’). 나중에 **PC 앱(Rust)**을 만들 수 있으므로(아래 ‘PC 앱’), 학습 데이터는 앱과 떼어 두 앱이 같이 읽는 **자료 묶음**으로 만든다(아래 ‘자료 묶음’).
 
-배경 검토: 브랜치 `claude/intelligent-volta-7k2ms5` 의 `docs/웹전환_검토.md`, `docs/초1_상세검토.md`(2026-11-15, 그 뒤 원본이 많이 바뀌었으므로 숫자는 다시 잰다. 그 문서의 PWA·아이패드 전제는 이 규칙으로 바뀌었다).
+배경 검토: 브랜치 `claude/intelligent-volta-7k2ms5` 의 `docs/웹전환_검토.md`, `docs/초1_상세검토.md`(2026-11-15, 그 뒤 원본이 많이 바뀌었으므로 숫자는 다시 잰다. 그 문서의 PWA·아이패드 전제는 이 메모로 바뀌었다).
 
-앱 화면의 글도 이 스킬의 다른 규칙을 그대로 따른다: 말투·문장 길이·등장인물(`tone-by-age.md`), 부모 노트와 1:1 진행(`home-tutoring.md`), 정답 자리와 시간(아래 ‘원본 규칙과 맞추기’).
+앱 화면의 글도 스킬의 다른 규칙을 그대로 따른다: 말투·문장 길이·등장인물(`tone-by-age.md`), 부모 노트와 1:1 진행(`home-tutoring.md`), 정답 자리와 시간(아래 ‘원본 규칙과 맞추기’).
 
 ## 정한 것
 
@@ -51,15 +54,15 @@
 - 원본의 `break_after` 가 하루 분량의 끝이다. `split_default: true` 인 차시(고등 대부분)는 앱에서도 **이틀 차시**로 연다: 첫날은 `break_after` 장까지, 둘째 날은 그다음 장부터.
 - 둘째 날은 노트의 ‘둘째 날 시작 질문’을 첫 화면에 보이고, 첫날 내용을 2~3문제로 다시 꺼낸 뒤 이어 간다.
 - 하루 중간에 멈추면 다음에 연 곳에서 이어 한다(어느 장·문항까지 했는지 기록).
-- 노트의 ‘꼭 할 문제 / 시간이 되면’ 줄을 구조로 옮긴다(`web.priority: "must" | "optional"`). 부모가 ‘시간이 모자라요’를 누르면 남은 장에서 `must` 만 보인다. 문제를 지우지 않는다.
+- 노트의 ‘꼭 할 문제 / 시간이 되면’ 줄을 구조로 옮긴다(`app.priority: "must" | "optional"`). 부모가 ‘시간이 모자라요’를 누르면 남은 장에서 `must` 만 보인다. 문제를 지우지 않는다.
 - 남은 시간 막대는 그날 분량(하루 약 20~30분) 기준으로 보인다. 끝나기 2~3분 전 “곧 끝나요”, 끝나면 “다 했어요 → 끄고 제자리에” 화면에서 멈춘다. 20분쯤 눈 쉬기를 안내한다.
 
-## 문항의 `web` 필드
+## 문항의 `app` 필드
 
 노트 문장에만 있던 정답·허용 답·오답 대응을 구조로 둔다. 연습·확인 장의 문항마다(고르기·견주기 장은 장에):
 
 ```json
-"web": {
+"app": {
   "id": "q-borrow-13-5",
   "input": "numpad",
   "answer": "8", "accept": ["8", "여덟"],
@@ -216,7 +219,7 @@
 
 ### 장면 데이터
 
-장에 `web.interactive` 를 둔다.
+장에 `app.interactive` 를 둔다.
 
 ```json
 "interactive": {
@@ -253,48 +256,11 @@
 - **시범을 먼저:** 새 조작은 부모 시범(또는 짧은 시범 영상) → 함께 → 혼자 순서로 넘긴다.
 - **결과 기록:** 측정값은 표에 자동으로 쌓이고, 아이가 그래프를 그리거나 규칙을 말하는 단계로 잇는다. 원본의 활동지(종이) 기록과 같은 꼴로 둔다.
 
-### 가상 실험의 원칙
 
-- **실제 활동을 대신하지 않는다**(‘화면으로 대신하지 않는 것’). 집에서 할 수 있는 실험·관찰·실물 조작은 실제로 한다. 가상 실험은 다음 경우에 쓴다.
-  - 위험하다(강산·강염기, 불, 전기, 높은 곳에서 떨어뜨리기)
-  - 집에서 할 수 없다(행성 운동, 미시 세계, 오래 걸리는 변화, 비싼 기구)
-  - 변인을 여러 번 바꾸어 규칙을 찾아야 한다(실물로는 시간이 너무 든다)
-  - 실제 실험 전 예상, 실제 실험 뒤 견주기
-- 연구에서는 실물 실험과 가상 실험의 개념 학습 효과가 평균적으로 비슷하고, **둘을 함께 쓸 때** 더 좋다는 보고가 있다. 손으로 만지는 감각이 개념에 중요한 경우(무게·질감·힘의 느낌)와 어린 아이에게는 실물이 낫다는 결과도 있다. 그래서 초등 저학년은 실물을 먼저, 가상은 보충으로 쓴다.
-- **모형의 단순화를 밝힌다.** ‘마찰 없음’, ‘공기 저항 없음’ 같은 가정을 화면에 적고, 정리 단계에서 “실제로는 어떻게 다를까?”를 묻는다. 가상 결과가 교과서 값·실제 측정과 맞는지 검사한다.
-- **집에서 따라 하면 위험한 것**(물질 섞기 등)은 화면에 ‘가상 실험 — 집에서 하지 않음’을 늘 보인다. 실제로 해도 되는 실험은 원본의 안전 안내와 준비물로 이어 준다.
-- **게임처럼 만들지 않는다.** 점수·별·시간 경쟁·보상 애니메이션 없이 만든다. 배울 것과 상관없는 꾸밈(캐릭터 움직임, 배경 효과, 소리 효과)은 주의를 흩트려 학습을 방해한다는 연구가 있으므로 넣지 않는다.
 
-### 차시를 쓸 때 검토할 것 (학습 효과)
+### 가상 실험의 원칙, 차시 검토
 
-차시 원고를 쓰거나 고칠 때(SKILL.md 절차 5), **조작·실험으로 학습 효과를 높일 수 있는 장이 있는지 차시마다 검토**하고 결과를 원본에 남긴다. 화면 앱을 아직 만들지 않았어도 검토는 한다(나중에 앱을 만들 때 그대로 쓴다).
-
-1. **목표에서 시작한다.** 목표마다 “아이가 직접 움직여 보거나 바꿔 보면 더 잘 이해되는가?”를 묻는다. 그렇다고 볼 만한 경우:
-   - 공간·모양을 머릿속으로 돌리거나 옮겨야 한다(도형의 이동, 입체·전개도, 지구와 달)
-   - 양이 변하는 관계를 찾아야 한다(변인과 결과, 함수의 계수, 비율)
-   - 눈에 보이지 않는 것을 보여야 한다(입자, 전류, 힘, 시간에 따른 변화)
-   - 흔한 오개념을 직접 반박할 수 있다(무거운 것이 먼저 떨어진다, 분모가 크면 큰 수다)
-   - 같은 꼴의 연습을 여러 번 해야 한다(조작 + 자동 생성 연습)
-2. **효과가 작거나 해로운 경우를 거른다.**
-   - 말·글로 따지는 것이 목표인 장(논증, 해석, 감상)
-   - 실물·몸 활동이 더 나은 장(위 ‘가상 실험의 원칙’)
-   - 조작이 목표와 상관없이 재미만 더하는 경우(꾸밈은 학습을 방해한다)
-   - 조작 방법을 배우는 데 시간이 더 드는 경우(초1·2는 조작 단계를 짧게)
-3. **어떤 엔진·흐름인지 정한다.** 엔진(위 목록)과 흐름(POE, 구체→기호, 안내가 있는 탐구)을 고르고, 기존 장과 어떻게 잇는지(설명 장 뒤에 조작, 조작 뒤에 확인 문제) 적는다. 확인 문제는 조작 없이도 풀 수 있어야 한다(조작에 기대어서만 맞히지 않게).
-4. **원본에 남긴다.** 차시의 `interactive_review` 에 검토 결과를 적는다. 쓰지 않기로 한 것도 까닭과 함께 적는다.
-
-```json
-"interactive_review": [
-  { "slide": "S05", "engine": "move2d", "goal": "A", "flow": "구체→기호",
-    "why": "조각을 직접 돌려 보면 합동 판단 오개념(M2)을 바로 반박할 수 있다", "priority": "high" },
-  { "slide": "S09", "engine": null, "why": "논증 쓰기 장이라 조작이 목표와 무관하다" }
-]
-```
-
-   - `priority`: high(효과가 크고 다른 방법으로 대신하기 어려움) · mid · low. 앱을 만들 때 high부터 장면을 만든다.
-5. **검토자도 본다.** 차시 검토(1차·2차)에서 `interactive_review` 가 목표·오개념과 맞는지, 실물로 해야 할 것을 가상으로 바꾸지 않았는지, 꾸밈만 더한 것은 없는지 본다.
-
-연구의 근거(아래 ‘근거 자료’): 가상 조작물은 수학 성취에 평균적으로 중간 정도의 효과가 보고되었고, 구체에서 기호로 옮겨 가는 방식(구체성 줄이기)과 예상→관찰→설명(POE)은 개념 이해와 오개념 줄이기에 도움이 된다는 연구가 많다(규모가 작은 연구가 많아 ‘유망하다’ 정도로 본다). 시뮬레이션의 효과는 연구마다 엇갈리며, 안내 없이 맡기면 효과가 떨어진다. 그래서 위 흐름과 원칙을 지킬 때만 효과를 기대한다.
+원고 규칙이므로 `.claude/skills/education-ppt/references/app.md` 에 있다(실물 우선, 게임처럼 만들지 않기, `interactive_review`).
 
 ### 엔진 검사
 
@@ -322,12 +288,10 @@
 - 만든 문제는 그 차시의 범위(`boundary`) 안에 머문다. 아직 안 배운 수의 범위·꼴·낱말을 쓰지 않는다.
 - 생성은 고정값(seed)으로 다시 만들 수 있게 하고, 검사에서 seed 몇 개로 만든 문제를 모두 검산한다.
 
+
 ## 화면으로 대신하지 않는 것
 
-- 실물 조작(바둑돌·콩 묶기·저울·물 붓기), 몸 활동(달리기·박·손 씻기), 실제 관찰(하늘·생물), 만들기·그리기, 역할극과 대화, 그림일기, 실험.
-- 이런 장은 앱에서 ‘짧은 안내 + 다 했어요’로 두고, 결과는 부모 화면의 기록표에 남긴다. 화면 속 놀이로 같은 활동을 대신하지 않는다.
-- 관찰·실험 차시는 아이가 관찰을 마치기 전에 결과 화면이 열리지 않게 잠근다. 원본의 예시 결과는 ‘예시’로 표시한 채 부모가 열 때만 보인다.
-- 활동지는 종이로 유지한다. 손으로 쓰는 연습은 종이가 낫다.
+원고 규칙이므로 `references/app.md` 에 있다.
 
 ## 민감한 주제
 
@@ -369,7 +333,7 @@
 ```
 g01-mat-v3/                 ← 학년·과목 단위, 판 번호
   manifest.json             ← 묶음 판, 차시 목록, 파일마다 해시·크기·형식·길이·출처(저작권)
-  lessons/<ID>.json         ← 원본에서 만든 화면 데이터(web 필드 포함)
+  lessons/<ID>.json         ← 원본에서 만든 화면 데이터(app 필드 포함)
   media/audio/…             ← 자모 낱소리, 시 낭독, 영어 듣기
   media/video/…             ← 시범 영상, 자막(.vtt), 첫 화면 그림(poster)
   media/3d/…                ← 3D 모형(.glb)
@@ -432,7 +396,7 @@ g01-mat-v3/                 ← 학년·과목 단위, 판 번호
 
 ### 만드는 순서
 
-1. 정답 데이터(`web` 필드)를 원본에 정리한다.
+1. 정답 데이터(`app` 필드)를 원본에 정리한다.
 2. 화면을 웹 기술로 만들어 브라우저에서 시제품을 보고, 실제 수업으로 써 본다.
 3. 같은 화면 코드를 앱 껍데기(Capacitor 등, 웹 화면을 앱 안에서 띄우는 방식)에 넣어 안드로이드 앱으로 만든다. 처음부터 안드로이드 전용 코드(Kotlin 등)로 화면을 따로 짜지 않는다.
 4. 앱 기능(저장, 기기 연결, 음성, 카메라, 파일)은 한 곳(바꿔 끼우는 층)에 모은다. 화면 코드는 그 층을 부르고, 브라우저 미리보기에서는 같은 층의 가짜 판을 쓴다.
@@ -482,7 +446,7 @@ g01-mat-v3/                 ← 학년·과목 단위, 판 번호
 ## 검사
 
 - 장마다 고정 16:9 무대에서 글 넘침을 실제로 잰다(앱과 같은 화면 엔진).
-- `web` 필드: 정답이 원본 `checks`·노트와 같은지, `wrong` 의 오개념 ID가 원본에 있는지, `goto` 장이 있는지, `id` 가 차시 안에서 겹치지 않는지, `priority` 가 노트의 ‘꼭 할 문제’ 줄과 맞는지.
+- `app` 필드: 정답이 원본 `checks`·노트와 같은지, `wrong` 의 오개념 ID가 원본에 있는지, `goto` 장이 있는지, `id` 가 차시 안에서 겹치지 않는지, `priority` 가 노트의 ‘꼭 할 문제’ 줄과 맞는지.
 - 답 맞추기: 문항마다 `answer` 와 `accept` 가 실제로 맞음으로 판정되는지, 흔한 오답이 맞음으로 판정되지 않는지 자동으로 돌려 본다.
 - 아이 화면에 정답이 미리 보이지 않는지(그림 `alt`, 캡션, 칸 수, 보기 순서).
 - 정답 자리: 차시와 이웃 차시의 고르기·견주기 정답 분포를 센다.
@@ -498,10 +462,12 @@ g01-mat-v3/                 ← 학년·과목 단위, 판 번호
 - 미디어: 영상·소리마다 길이·해상도·크기 상한, 자막이 있는지, 음량이 고른지 잰다. 3D 모형은 꼭짓점 수·크기·단위·원점을 검사하고, 쓰지 않기로 한 압축 확장이 들어 있지 않은지 본다. 기본 묶음만 받은 상태에서 모든 차시가 끝까지 되는지(정지 그림으로 대신하는지) 본다.
 - 시험한 기기(제조사·모델·안드로이드 판, PC 운영 체제)를 적는다. 확인하지 못한 기기는 통과로 적지 않는다.
 
-## 근거 자료 (2026-11 확인)
+## 근거 자료 (2026-11 검색)
+
+검색으로 찾은 자료다. 숫자·날짜·조건은 쓰기 전에 원문으로 다시 확인한다.
 
 - 안드로이드 개발자 인증: [Android developer verification 안내](https://developer.android.com/developer-verification/guides?hl=en), [Android Developers Blog 2026-03](https://android-developers.googleblog.com/2026/03/android-developer-verification.html?m=0), [Understanding Android developer verification](https://support.google.com/android-developer-console/answer/16561738). 날짜가 문서마다 조금씩 다르므로 설치 전에 다시 확인한다.
-- 근처 기기 연결: [Google — Nearby Connections](https://developers.google.com/nearby/connections?authuser=7), [Android — 근처 Wi-Fi 기기 권한](https://developer.android.com/develop/connectivity/wifi/wifi-permissions?hl=ko), [capacitor-nearby-multipeer(앱 껍데기용 플러그인 예)](https://www.pkgstats.com/pkg:@squareetlabs/capacitor-nearby-multipeer).
+- 근처 기기 연결: [Google — Nearby Connections](https://developers.google.com/nearby/connections), [Android — 근처 Wi-Fi 기기 권한](https://developer.android.com/develop/connectivity/wifi/wifi-permissions?hl=ko), [capacitor-nearby-multipeer(앱 껍데기용 플러그인 예)](https://www.pkgstats.com/pkg:@squareetlabs/capacitor-nearby-multipeer).
 - 자동 백업: [Android — 자동 백업으로 사용자 데이터 백업](https://developer.android.com/identity/data/autobackup?hl=ko).
 - 기기 음성(웹 미리보기에서의 차이): [Readium — SpeechSynthesis in browsers and OSes](https://readium.org/speech/docs/WebSpeech.html).
 - 접근성: [W3C — What's New in WCAG 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/), [Understanding 2.5.8 Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum), [KWCAG 2.2 안내(서울시)](https://news.seoul.go.kr/gov/archives/47485).
@@ -512,7 +478,7 @@ g01-mat-v3/                 ← 학년·과목 단위, 판 번호
 - 시간 제한 연습: [EdWeek 2024 — Do Timed Tasks Really Worsen Math Anxiety?](https://www.edweek.org/teaching-learning/do-timed-tasks-really-worsen-math-anxiety/2024/08), [KQED MindShift — Do math drills help children learn](https://www.kqed.org/mindshift/61712/do-math-drills-help-children-learn).
 - 화면 사용: [AAP 화면 시간 안내(Apple 지원 문서)](https://support.apple.com/guide/aap-apple/dwpwek4yury5/web) — 학령기는 시간 숫자보다 질·균형, 자동 재생·무한 스크롤 끄기를 권한다.
 - 아이용 앱 규칙(스토어에 올리지 않아도 원칙으로 따름): [Google Play 가족 정책](https://support.google.com/googleplay/android-developer/answer/9893335?hl=en), [Apple App Review Guidelines 1.3](https://developer.apple.com/app-store/review/guidelines/).
-- 한글 필순 자료: [hangeul-stroke-order(자모 35개)](https://github-three-lyart.vercel.app/MagisterAdamus/hangeul-stroke-order). 사용 조건 확인 필요.
+- 한글 필순 자료: [hangeul-stroke-order(자모 35개)](https://github.com/MagisterAdamus/hangeul-stroke-order). 사용 조건 확인 필요.
 - 글꼴: [Pretendard](https://github.com/orioncactus/pretendard), [Noto Sans KR(Fontsource)](https://fontsource.org/fonts/noto-sans-kr/about).
 - 저작권: [문화체육관광부 — 저작재산권 보호기간](https://www.mcst.go.kr/kor/s_policy/copyright/knowledge/know07.jsp), [저작권법 원문](https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%91%EA%B6%8C%EB%B2%95_(%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)).
 - 아동 개인정보: [개인정보 보호법 제22조의2 해설](https://korea.legal/wiki/%ea%b0%9c%ec%9d%b8%ec%a0%95%eb%b3%b4-%eb%b3%b4%ed%98%b8%eb%b2%95-%ec%a0%9c22%ec%a1%b0%ec%9d%982/), [개인정보보호위원회 아동 개인정보 캠페인](https://www.privacy.go.kr/front/campaign/campaignChild.do). 조문은 국가법령정보센터 원문으로 다시 확인한다.
@@ -526,5 +492,5 @@ g01-mat-v3/                 ← 학년·과목 단위, 판 번호
 - 예상→관찰→설명: [CERP 2021 — 컴퓨터 기반 POE(초등 5학년)](https://pubs.rsc.org/en/content/articlehtml/2021/rp/d0rp00348d), [Kearney — 영상 기반 POE](https://opus.lib.uts.edu.au/bitstream/10453/5052/3/2004001813.pdf).
 - 꾸밈 세부(seductive details): [위키백과 요약](https://en.wikipedia.org/wiki/Seductive_details), [Seductive details hamper learning even when they do not disrupt](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10176302/).
 - 미디어 형식: [MDN — Web video codec guide](https://developer.mozilla.org/docs/Web/Media/Formats/Video_codecs)(H.264는 특허 코덱, MP4·WebM의 표준 코덱), [MDN — WebCodecs codec selection](https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API/Codec_selection).
-- 리눅스 웹뷰 재생: [WebKit Bug 146351 등 — GStreamer 꾸러미가 없어 H.264 재생 실패](https://bugs.webkit.org/show_bug.cgi?id=146351), [Wails — Linux 안내(동영상 재생에 gst-plugins-good)](https://wails.io/zh-Hans/docs/guides/linux), [Tauri 토론 — WebKitGTK](https://redirect.github.com/tauri-apps/tauri/discussions/8426).
-- 3D: [glTF(위키백과)](https://wikipedia.com/wiki/GlTF), [Rust gltf 크레이트](https://docs.rs/crate/gltf/latest)(지원 확장 목록), [myth-gltf(meshopt 지원 포크)](https://docs.rs/crate/myth-gltf/1.4.2), [draco-gltf](https://docs.rs/draco-gltf), [glTF 확장 목록](https://github.com/liwcv/glTF/blob/master/extensions/README.md). 크레이트의 유지 상태·라이선스는 쓰기 전에 확인한다.
+- 리눅스 웹뷰 재생: [WebKit Bug 146351 등 — GStreamer 꾸러미가 없어 H.264 재생 실패](https://bugs.webkit.org/show_bug.cgi?id=146351), [Wails — Linux 안내(동영상 재생에 gst-plugins-good)](https://wails.io/zh-Hans/docs/guides/linux), [Tauri 토론 — WebKitGTK](https://github.com/tauri-apps/tauri/discussions/8426).
+- 3D: [glTF(위키백과)](https://en.wikipedia.org/wiki/GlTF), [Rust gltf 크레이트](https://docs.rs/crate/gltf/latest)(지원 확장 목록), [myth-gltf(meshopt 지원 포크)](https://docs.rs/crate/myth-gltf/1.4.2), [draco-gltf](https://docs.rs/draco-gltf), [glTF 확장 목록](https://github.com/KhronosGroup/glTF/blob/main/extensions/README.md). 크레이트의 유지 상태·라이선스는 쓰기 전에 확인한다.

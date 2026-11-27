@@ -36,6 +36,7 @@ python3 tools/plan/diagnose.py <막힌 수업 ID> --passed <통과한 수업 ID�
 | `curriculum/` | 「초중고 세부 목차와 학습 목표」에서 추출한 데이터: 12개 학년, 13개 계통, 학습 항목 456개, 기존 단원 331개 |
 | `lessons/` | 수업 원본(JSON). 모든 자료는 여기서 생성합니다 |
 | `dist/` | 생성된 PPTX·PDF (저장소에 넣지 않음, 위 ‘바로 쓰기’ 참고) |
+| `docs/` | 설계 메모(`app-design.md`: 안드로이드·PC 앱, 계획 단계) |
 | `tools/` | 목차 추출, PPTX 생성, 활동지·안내 PDF 생성, 전체 빌드 스크립트 |
 | `.claude/skills/education-ppt/` | 수업 설계 규칙, 원본 스키마, 검사 스크립트 (Claude Code 스킬) |
 
