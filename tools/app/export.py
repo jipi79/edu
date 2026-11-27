@@ -192,7 +192,8 @@ def find_criterion(notes):
     for key in ("예상답", "주의", "막히면"):
         for line in notes.get(key, []) or []:
             for sent in re.split(r"(?<=[.다])\s+", clean(line)):
-                if re.search(r"맞습니다|맞음|됩니다|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|기준:", sent):
+                if (re.search(r"맞습니다|맞음|정답이 하나가 아니|정답은 하나가 아니|정답이 정해져 있지 않|기준:", sent)
+                        or re.search(r"면 됩니다", sent)):  # ‘…면 됩니다’는 기준, ‘…도 됩니다’는 허락이라 기준이 아님
                     return sent
     return None
 

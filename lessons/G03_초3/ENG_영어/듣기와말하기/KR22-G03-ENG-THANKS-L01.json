@@ -330,6 +330,9 @@
           "아이가 Mina일 때: “Yes, please.” → “Thank you.”",
           "아이가 Mom일 때: “Milk?” → “Here you are.” → “You're welcome.”"
         ],
+        "정답": [
+          "기준: 맡은 역할의 말(Yes, please. / Thank you. / Here you are. / You're welcome.)을 차례에 맞게 하면 맞습니다."
+        ],
         "막히면": [
           "아이가 말할 줄을 부모가 먼저 작게 말해 주고 따라 하게 합니다.",
           "Here you are.가 어려우면 아이가 Mom일 때 그 줄은 부모가 함께 말해 줍니다."
@@ -372,6 +375,9 @@
         "예상답": [
           "아이가 Mina일 때: “That's OK.” → “Thank you.”",
           "아이가 Tom일 때: “I'm sorry.” → “Here you are.” → “You're welcome.”"
+        ],
+        "정답": [
+          "기준: 맡은 역할의 말(I'm sorry. / That's OK. / Here you are. / Thank you. / You're welcome.)을 차례에 맞게 하면 맞습니다."
         ],
         "막히면": [
           "“Tom이 미안하다고 했어. 그럼 Mina는 뭐라고 할까? 괜찮아!”처럼 우리말 뜻을 먼저 말해 줍니다."
