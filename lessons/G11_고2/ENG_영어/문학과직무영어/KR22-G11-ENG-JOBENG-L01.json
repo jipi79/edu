@@ -165,7 +165,7 @@
         ],
         "정답": [
           "① Could you please send me the form? / I would appreciate it if you could send me the form.",
-          "② Could you tell me when the meeting starts?",
+          "② Could you tell me when the meeting starts? (‘Could you tell me what time the meeting starts?’도 맞음)",
           "③ 예: That's a good idea, but I'm busy on Monday. How about Friday? / I see your point, but how about Friday? (인정 + 다른 제안이면 정답)"
         ],
         "막히면": [
@@ -366,10 +366,10 @@
           "“손님이나 상사에게 하는 말이라고 생각하고 정중하게 바꿔 말해 줘.”"
         ],
         "정답": [
-          "① May I ask who's calling?",
-          "② Could you hold for a moment, please?",
-          "③ I'm afraid I can't make it on Monday.",
-          "④ Could you send me the file, please?"
+          "① May I ask who's calling? (‘May I ask who is calling?’도 맞음)",
+          "② Could you hold for a moment, please? (‘Could you please hold for a moment?’, ‘Could you hold on, please?’도 맞음)",
+          "③ I'm afraid I can't make it on Monday. (‘I'm afraid I can't come on Monday.’도 맞음)",
+          "④ Could you send me the file, please? (‘Could you please send me the file?’, ‘Could you give me the file, please?’도 맞음)"
         ],
         "막히면": [
           "S03 표에서 비슷한 표현을 찾게 합니다. ③은 “안 좋은 소식은 무엇으로 시작했지?”라고 묻습니다."
@@ -409,8 +409,8 @@
         "정답": [
           "나가 좋습니다. 인사와 이름(this is Junho Lee), 사과(I'm sorry), 얼마나 늦는지(about 10 minutes), 이유(my bus is delayed), 도착 시간(by 5:10), 감사 인사가 모두 들어 있습니다. 가는 누구인지, 얼마나 늦는지, 왜 늦는지 알 수 없습니다."
         ],
-        "막히면": [
-          "“가를 받은 데이비스 선생님은 무엇을 알 수 있을까?”라고 묻습니다."
+        "틀리면": [
+          "가를 고르면: 일터에서도 친구에게 보내는 말투로 충분하다고 생각했습니다(M1). “가를 받은 데이비스 선생님은 무엇을 알 수 있을까?” 하고 묻습니다."
         ],
         "주의": [
           "5시 약속에 10분 늦으면 5시 10분입니다. 직무 메시지에는 ‘누구 · 사과 · 얼마나 · 왜 · 언제 도착’을 넣습니다.",
@@ -724,10 +724,10 @@
           "text": "전화 응대의\n여섯 단계는?"
         },
         {
-          "text": "정중하게 거절하는\n틀은?"
+          "text": "I can't come on Monday.\n→ 정중한 거절 + 대안"
         },
         {
-          "text": "강점 질문에\n답하는 틀은?"
+          "text": "What are your strengths?\n→ For example을 넣어"
         }
       ],
       "next": "긴 문장 구조 분석(고3)",
@@ -743,10 +743,11 @@
         ],
         "정답": [
           "① 받기 → 용건 → 부재·메시지 → 일정 조율 → 확인 → 마무리",
-          "② 거절은 I'm afraid ~ + 이유 + 대안(How about ~? / Could we make it ~ instead?)",
-          "③ 면접: 자기소개 두세 문장, 이유 because, 강점 + For example, 질문 하나"
+          "② 기준: I'm afraid ~로 거절하고 다른 날을 제안하면 맞습니다(예: I'm afraid I can't make it on Monday. How about Tuesday instead?).",
+          "③ 기준: 강점을 말하고 For example로 경험을 붙이면 맞습니다(예: I'm responsible. For example, I've never missed a club meeting this year.)."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "가족끼리 식당 예약이나 병원 예약 전화를 영어 역할극으로 바꾸어 해 보면 좋은 복습이 됩니다. 다음 차시는 고3 ‘긴 문장 구조 분석’으로, 긴 영어 문장의 주어·동사와 수식 구조를 나누어 읽습니다."
         ]
       }
@@ -970,7 +971,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 전화 응대의 여섯 단계를 쓰시오.\n② I can't come on Monday.를 정중한 거절 + 대안으로 바꿔 쓰시오.\n③ What are your strengths?에 For example을 넣어 답을 쓰시오.",
         "lines": 3,
-        "answer": "① 받기 → 용건 → 부재·메시지 → 일정 조율 → 확인 → 마무리 ② I'm afraid I can't make it on Monday. How about Tuesday instead? ③ 예: I'm responsible. For example, I've never missed a club meeting this year. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 받기 → 용건 → 부재·메시지 → 일정 조율 → 확인 → 마무리 ② 기준: I'm afraid ~로 거절하고 다른 날을 제안하면 맞습니다(예: I'm afraid I can't make it on Monday. How about Tuesday instead?). ③ 기준: 강점을 말하고 For example로 경험을 붙이면 맞습니다(예: I'm responsible. For example, I've never missed a club meeting this year.). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
