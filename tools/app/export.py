@@ -182,7 +182,9 @@ def classify(prob, ans_text):
     mm = main.strip()
     if (len(mm) <= 40 and re.fullmatch(r"(?:[0-9A-Za-zα-ωπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+", mm)
             and re.search(r"[0-9πxyzabn√=<>≤≥(]", mm)
-            and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)):
+            and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)
+            and not [w for w in re.findall(r"[A-Za-z]{3,}", mm) if w.lower() not in
+                     ("log", "sin", "cos", "tan", "lim", "max", "min", "mod", "cm", "mm", "km", "kg", "mol", "kcal", "kwh")]):
         return "expr", mm, "", "식·값(같은 값의 다른 꼴도 맞음)", note
     # 과학의 원소 기호·화학식(Ca, Ag, H₂O, NaCl, CO₂): 대소문자를 구별한다(CA는 틀림)
     if STRAND == "SCI" and re.fullmatch(r"(?:[A-Z][a-z]?[₀-₉0-9⁺⁻²³]*)+", main.strip()):
@@ -193,7 +195,7 @@ def classify(prob, ans_text):
     # 영어: 낱말·짧은 말(세 낱말까지)은 자동, 문장은 부모 판정
     if re.fullmatch(r"[A-Za-z][A-Za-z'’]*(?:\s[A-Za-z'’]+){0,2}[.?!]?", main.strip()):
         return "short", main.strip(), "", "영어(대소문자·끝 부호 무시)", note
-    if re.fullmatch(r"[A-Z][A-Za-z'’]*(?:,?\s[A-Za-z'’]+){3,9}[.?!]?", main.strip()):
+    if re.fullmatch(r"[A-Z][A-Za-z'’]*(?:,?\s[A-Za-z0-9'’]+){3,9}[.?!]?", main.strip()):
         return "short", main.strip(), "", "영어 문장(대소문자·끝 부호 무시, 다른 맞는 문장은 accept)", note
     if re.fullmatch(r"[A-Za-z](?:,\s*[A-Za-z])+", main.strip()):
         return "short_all", [x.strip() for x in main.split(",")], "", "", note
