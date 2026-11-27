@@ -30,6 +30,22 @@ FORMAT_VERSION = 0
 GRADE = "G01"  # export()가 차시마다 바꾼다(학년에 따라 다르게 읽는 규칙에 씀)
 STRAND = ""
 LABELS = "가나다라마바"
+LISTEN = re.compile(r"듣고|들려주|불러 주|받아쓰|받아 쓰|말하는 소리")   # 부모가 읽어 주고 아이가 답함(소리 파일 없음)
+SPEAK = re.compile(r"소리 내어 읽고|소리 내어 읽어요|소리 내어 읽기")       # 아이가 소리 내는 과제: 부모 판정
+COVER = re.compile(r"가리고 쓰")                                            # 보고 나서 가리고 쓰기
+
+
+def mode_flags(rec, text):
+    """듣기·말하기·가리고 쓰기 표시. 말하기는 부모 판정으로 돌린다."""
+    ans = rec.get("answer")
+    if (rec["input"] not in ("parent", "none") and SPEAK.search(text) and isinstance(ans, (str, list))
+            and all(str(x) in rec["prompt"] for x in (ans if isinstance(ans, list) else [ans])) and "/" not in rec["prompt"]):
+        # 화면의 낱말을 소리 내어 읽는 과제: 그 낱말을 다시 치게 하면 읽기를 재지 못한다
+        rec.update(input="parent", why="소리 내어 읽기(부모가 듣고 판단)")
+    if LISTEN.search(text):
+        rec["parent_reads"] = True  # 부모가 노트의 낱말·글을 읽어 준 뒤 아이가 답한다
+    if COVER.search(text):
+        rec["cover"] = True  # 화면의 낱말을 본 뒤 가리고 쓴다
 OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|(?<![가-힣0-9])등(?=[\s.,)]|$)|처럼|자유롭|자유로운|자유 답|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
 NUM = r"−?\d+(?:\.\d+)?"
 
@@ -61,8 +77,10 @@ def _main_answer(a):
         first = re.match(r"^([^(]*)\(([^()]*)\)", a)
         inner = re.sub(r"분의", "", first.group(2)) if first else ""
         if (first and not re.search(r"[가-힣=]", inner) and re.search(r"[0-9A-Za-z]", inner)
+                and not re.search(r"\d\s+[A-Za-zΩμ°/%²³]+$", first.group(1))   # ‘50 g(1 g/mL × 50 mL)’: 단위 뒤 괄호는 풀이
                 and (re.search(r"[/×·+\-−√^]$", first.group(1).rstrip())   # 2/(x − 2), −(3분의 1), √(…)
-                     or re.search(r"(?:^|[^A-Za-z])[A-Za-z]′?$", first.group(1))      # N(200, 10²), B(600, 0.3), P(A)
+                     or (re.search(r"(?:^|[^A-Za-z])[A-Za-z]′?$", first.group(1))      # N(200, 10²), B(600, 0.3), P(A)
+                         and not re.search(r"\d\s*[A-Za-z]$", first.group(1)))          # 49 N(9.8 × 5)의 N은 단위
                      or (re.search(r"[0-9A-Za-z)²³′⁰¹⁴-⁹₀-₉Σ∫]$", first.group(1))
                          and re.search(r"(?<![A-Za-z])[a-zA-Z](?![A-Za-z])", inner)))):  # 3(x + 2), f(x)
             # 수식의 괄호(3(x + 2), f(x) = …)는 답의 일부: 한글이 든 첫 괄호부터가 풀이
@@ -79,7 +97,7 @@ def _main_answer(a):
     return a.rstrip("."), ""
 
 
-UNIT = r"(?:만\s?원|억\s?원|[가-힣]{1,3}|cm²|m²|km²|cm³|m³|g/cm³|kg/m³|g/mL|m/s²|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|mol/L|mol|M|kJ|kcal|J|W|kW|kWh|N|Pa|hPa|V|A|Ω|Hz|°C|°|%|t)"
+UNIT = r"(?:만\s?원|억\s?원|[가-힣]{1,3}|cm²|m²|km²|cm³|m³|g/cm³|kg/m³|g/mL|m/s²|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|mol/L|mol|M|kJ|kcal|J|W|kW|kWh|N|Pa|hPa|V|A|Ω|Hz|°C|°|%p|%|t)"
 
 
 def number_unit(s):
@@ -184,6 +202,13 @@ def classify(prob, ans_text):
         return "parent", main, "", "순환소수(점 표기는 부모 확인)", note
     if re.search(r"집에서 정한|정한 곳|정한 제자리", ans_text):
         return "parent", main, "", "집마다 답이 다름", note
+    if re.search(r"\((?:아이|자기|본인)(?:의|가)?\s*[^()\s]{0,6}\)|\((?:아이|자기)가 (?:고른|정한|쓴)", ans_text):
+        return "parent", main, "", "아이마다 답이 다름(아이의 시각·이름 등)", note
+    tail = re.fullmatch(r"(.*=\s*([^=,]+?)),\s+((?:\d{1,3}(?:,\d{3})+|" + NUM + r")\s*" + UNIT + r"?)", main.strip())
+    if (tail and number_unit(tail.group(3))[0] is not None
+            and number_unit(tail.group(2))[0] == number_unit(tail.group(3))[0]):  # ‘10 × 3.14 = 31.4, 31.4 cm’: 풀이 끝 값을 다시 쓴 답
+        note = (tail.group(1) + ("; " + note if note else "")).strip()
+        main = tail.group(3)
     t = re.fullmatch(r"(\d{1,2})시(?:\s*(\d{1,2})분|\s*반)?", main.strip())
     if t:
         mm = t.group(2) or ("30" if main.strip().endswith("반") else "00")
@@ -194,6 +219,9 @@ def classify(prob, ans_text):
     if n is not None and unit == "t" and (STRAND == "MAT" or not re.search(r"\st$", main.strip())):
         n = None  # 수학의 ‘2t’는 식(매개변수 t), 톤은 ‘3 t’처럼 띄어 쓴다
     if n is not None:
+        u = re.match(r"^(?:단위\s*)?(" + UNIT + r")(?:\s*[,;]\s*|$)", note) if not unit and note else None
+        if u and not re.fullmatch(r"[가-힣]{1,3}", u.group(1)) or u and re.fullmatch(r"만\s?원|억\s?원|원|개|명|권|살|쪽|번|장|마리|자루|켤레|대|송이|그루|칸|층|kg|g|cm", u.group(1)):
+            unit, note = u.group(1), note[u.end():].strip()  # ‘12(만 원, 300 × 4 ÷ 100)’
         return "numpad", n, unit, "", note
     # 분수: ‘5분의 2’, ‘1과 2분의 1’, 여러 개(‘15분의 10, 15분의 9’), 식이면 마지막 값(‘8분의 6 = 4분의 3’)
     segs = [x.strip() for x in re.split(r"\s*=\s*", main)]
@@ -263,9 +291,21 @@ def sort_answer(raw, n):
     return out if sorted(used) == list(range(1, n + 1)) else None
 
 
+def expand_shared(raw):
+    """‘②③ 집의 물건에 따라 다릅니다…’처럼 여러 번호가 한 답을 함께 쓰는 줄을 번호마다 한 줄로 편다."""
+    out = []
+    for line in raw:
+        m = re.match(rf"^\s*([{CIRCLED}]{{2,}})\s+(.*)$", clean(line))  # ‘①②③을 …’(가리키는 말)은 펴지 않는다
+        if m:
+            out += [f"{c} {m.group(2)}" for c in m.group(1)]
+        else:
+            out.append(line)
+    return out
+
+
 def problem_items(L, s, key, issues, seen):
     probs = s.get(key) or []
-    raw = s.get("notes", {}).get("정답", [])
+    raw = expand_shared(s.get("notes", {}).get("정답", []))
     out = []
     notes = s.get("notes", {})
     criterion = None
@@ -295,7 +335,13 @@ def problem_items(L, s, key, issues, seen):
             else:
                 issues.append(("정답 짝 불명", s["id"],
                                f"문항 {len(probs)}개, 노트 정답 {len(raw)}줄을 문항별로 나눌 수 없다: {clean(' / '.join(raw))[:120]}"))
-    examples = split_answers(notes.get("예상답", []), len(probs)) if notes.get("예상답") else [""] * len(probs)
+    examples = [""] * len(probs)
+    exp = notes.get("예상답") or []
+    if exp and key != "review":  # 정리 장의 예상답은 말하기 물음의 답이지 복습 문항의 답이 아니다
+        ex = split_answers(exp, len(probs))
+        lumped = len(probs) > 1 and ex[1:] == [""] * (len(probs) - 1)
+        if not lumped:
+            examples = ex
     notes_text = " ".join(" ".join(v) if isinstance(v, list) else str(v) for v in s.get("notes", {}).values())
     for k, (p, a) in enumerate(zip(probs, answers)):
         prompt = render_item(p)
@@ -306,27 +352,53 @@ def problem_items(L, s, key, issues, seen):
             ask = prompt + " " + clean(str(s.get("text") or s.get("title") or ""))
             if inp == "short" and re.search(r"띄어|붙여 쓰|띄어쓰기", ask):
                 inp, why = "short_exact", "띄어쓰기를 묻는 문항(띄어쓰기 그대로 채점)"
+        if inp == "short" and isinstance(ans, str) and len(re.findall(r"_{3,}", prompt)) == 1:
+            # ‘(play) I ______ badminton yesterday.’: 빈칸에 들어갈 말만 치게 하고, 문장 전체도 받는다
+            m = re.fullmatch(r"(.*?)_{3,}(.*)", prompt)
+            pre = re.sub(r"^\([^)]*\)\s*", "", re.split(r"(?:[.?!→:]\s)", m.group(1))[-1]).strip()
+            post = re.sub(r"\s*\(.*$", "", m.group(2)).strip().rstrip(".?!").strip()
+            fill, full = ans.rstrip("."), ans.rstrip(".")
+            if pre and fill.lower().startswith(pre.lower() + " "):
+                fill = fill[len(pre):].strip()
+            if post and re.match(r"[A-Za-z]", post) and fill.lower().endswith(" " + post.lower()):
+                fill = fill[: -len(post)].strip()
+            if fill and fill != full and (not pre or full.lower().startswith(pre.lower())):
+                ans = fill
+                note = (note + "; " if note else "") + f"‘{full}’도 맞음"
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
+        mode_flags(rec, prompt + " " + str(s.get("title", "")) + " " + str(s.get("text", "")))
+        inp = rec["input"]
+        if inp == "parent" and a:
+            rec["answer"], note = clean(a).rstrip("."), ""  # 부모가 보는 답은 노트 정답 줄 그대로(괄호 속 까닭까지)
+        elif inp == "short" and isinstance(rec["answer"], str):
+            rec["answer"] = rec["answer"].rstrip(".")
+        if key in ("problems", "review") and not s.get("_embedded"):
+            rec["problem_index"] = k  # 화면(screen)의 problems/review k번째: 그림·식이 거기 있다
         acc = accepted(note) if inp in ("short", "short_case", "short_exact", "numpad", "expr") else []
         if inp == "short":  # 예·아니요 답은 같은 뜻의 말을 함께 받는다
-            for group in (("아니다", "아니요", "아니오", "아니에요", "아님"), ("그렇다", "예", "네", "맞다", "맞아요", "그래요")):
+            for group in (("아니다", "아니요", "아니오", "아니에요", "아님", "틀렸다", "틀렸습니다", "틀려요", "틀렸어요", "바르지 않다", "바르지 않습니다"),
+                          ("그렇다", "예", "네", "맞다", "맞아요", "그래요", "맞습니다", "맞았다", "바르다", "바릅니다")):
                 if str(ans).rstrip(".") in group:
                     acc = acc + [g for g in group if g != str(ans).rstrip(".") and g not in acc]
         if inp == "expr":
             acc = [korean_fraction(a) or a for a in acc]
+        acc = [x.rstrip(".") if inp == "short" else x for x in acc]
+        acc = [x for i, x in enumerate(acc) if x and x != rec["answer"] and x not in acc[:i]]
         if acc:
             rec["accept"] = acc
         if unit:
             rec["unit"] = unit
         if note:
             rec["note"] = note
-        if why:
+        if why and "why" not in rec:
             rec["why"] = why
         if criterion:
             rec["criterion"] = criterion
         if examples[k] and inp == "parent":
             rec["examples"] = examples[k]
+        if inp == "parent" and not (ans or criterion or rec.get("examples") or note):
+            issues.append(("부모 판정 근거 없음", s["id"], f"{CIRCLED[k]} {prompt[:60]}: 정답·기준·예시가 없다"))
         if "figure" in p:
             rec["figure"] = True
         mine = [m for m in misconception_refs(notes_text) if re.search(rf"[{CIRCLED[k]}][^{CIRCLED}]*?{m}", notes_text)]
@@ -351,8 +423,12 @@ def problem_items(L, s, key, issues, seen):
 def choice_item(L, s, issues, seen):
     opts = [render_item(o) for o in s.get("options", [])]
     raw = clean(" ".join(s.get("notes", {}).get("정답", [])))
+    prompt = clean(s.get("question") or s.get("text") or s.get("title", ""))
+    title = clean(s.get("title", ""))
+    if re.match(r"^(어떻게 알았|왜 그렇게|까닭|왜요|어떻게 생각)", prompt) and title.endswith("?") and title not in prompt:
+        prompt = f"{title} {prompt}"  # ‘어떻게 알았는지 말해 보세요.’는 뒷물음: 장 제목이 본 물음
     rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{s.get('question', '')}|{'|'.join(opts)}", seen),
-           "slide": s["id"], "prompt": clean(s.get("question") or s.get("text") or s.get("title", "")),
+           "slide": s["id"], "prompt": prompt,
            "input": "choice", "options": opts, "answer": None}
     lab = LABELS[:len(opts)]
     order = re.match(rf"^([{lab}])(?:\s*→\s*([{lab}]))+", raw)
@@ -400,8 +476,11 @@ def choice_item(L, s, issues, seen):
         else:
             issues.append(("고르기 정답 불명", s["id"], f"보기 {len(opts)}개, 노트 정답에서 고른 보기를 찾지 못함: {raw[:100]}"))
             rec["why"] = "정답 보기 불명"
+    mode_flags(rec, rec["prompt"] + " " + clean(str(s.get("title", ""))))
     if raw:
         rec["note"] = raw
+        if rec["input"] == "parent" and rec.get("answer") is None:
+            rec["answer"] = raw
     return rec
 
 
@@ -423,7 +502,9 @@ def compare_item(L, s, issues, seen):
         return any(n and re.search(rf"(^|[^가-힣]){re.escape(n)}", first) for n in names)
     judged = re.search(r"맞|옳|알맞|더 |바르|잘|좋", first)
     side_word = re.search(r"(왼쪽|오른쪽)(처럼|이|가|의 말이|은|는)?\s?\S*\s?(맞|바른|옳)", raw) or re.search(r"(왼쪽|오른쪽)처럼", raw)
-    if not re.search(r"누가|누구|어느|맞|바르|옳|좋", q):
+    if re.search(r"공감|마음에 드|더 좋아|하고 싶|되고 싶", q):
+        rec.update(input="parent", why="생각·마음을 고르는 물음(정답보다 까닭을 봄)")
+    elif not re.search(r"누가|누구|어느|맞|바르|옳|좋", q):
         rec.update(input="parent", why="말로 설명하는 견주기(고르는 물음이 아님)")
     elif re.match(r"^(왼쪽|오른쪽)", first) and not ("왼쪽" in first and "오른쪽" in first):
         rec["answer"] = 0 if first.startswith("왼쪽") else 1
@@ -448,6 +529,12 @@ def compare_item(L, s, issues, seen):
         rec["why"] = "정답 쪽 불명"
     if raw:
         rec["note"] = raw
+        if rec["input"] == "parent":
+            rec["answer"] = raw  # 부모가 볼 판정(노트 정답 그대로)
+    exp = s.get("notes", {}).get("예상답")
+    if exp:
+        rec["examples"] = clean(" ".join(exp))
+    mode_flags(rec, q + " " + clean(str(s.get("title", ""))))
     rec["say_why"] = True  # 고른 뒤 까닭을 말하게 한다(부모 판정)
     return rec
 
@@ -462,18 +549,48 @@ def embedded_items(L, s, issues, seen):
     ask = clean(str(ask))
     parts = [x.strip() for x in re.split(rf"[{CIRCLED}]+", ask) if x.strip()]
     per_item = len(parts) == n and n > 1 and re.match(rf"^[{CIRCLED}]", ask)
-    ask = re.sub(rf"^[{CIRCLED}]+\s*", "", ask)
+    one = lambda t: re.match(rf"^[{CIRCLED}](?!\s*~)", t)  # ‘③ 쌓기나무가…’, ‘④는 도전!’: 한 문항만 가리킴
+    if not per_item and n > 1 and one(ask):
+        for alt_ask in (clean(str(s.get("text") or "")), clean(str(s.get("title") or ""))):
+            if alt_ask and not one(alt_ask):
+                ask = alt_ask
+                break
     probs = []
     for k in range(n):
         alt = figs[k].get("alt") if len(figs) == n and isinstance(figs[k], dict) else None
-        label = f"{CIRCLED[k]} " if n > 1 else ""
-        probs.append({"text": f"{label}{parts[k] if per_item else ask}" + (f" ({alt})" if alt else "")})
-    items = problem_items(L, dict(s, problems=probs), "problems", issues, seen)
+        if per_item:
+            text = f"{CIRCLED[k]} {parts[k]}"
+        elif n > 1:
+            text = f"{ask} ({CIRCLED[k]})"  # 화면의 ①, ② …에 답한다
+        else:
+            text = ask
+        probs.append({"text": text + (f" ({alt})" if alt else "")})
+    items = problem_items(L, dict(s, problems=probs, _embedded=True), "problems", issues, seen)
     for k, it in enumerate(items):
         it["embedded"] = True  # 물음이 화면 안에 있음
         if len(figs) == n:
             it["figure_index"] = k
     return items
+
+
+def typed_value(it, v):
+    """오답 값을 그 문항의 입력 칸에서 나올 꼴로 바꾼다. 칠 수 없는 말이면 None."""
+    v = str(v).strip()
+    inp = it.get("input")
+    if inp == "numpad":
+        n, _ = number_unit(v)
+        if n is None:
+            n, _ = number_unit(re.sub(r"\s*\(.*\)$", "", v))
+        return n
+    if inp in ("expr", "expr_all"):
+        return korean_fraction(v) or v
+    if inp == "time":
+        t = re.fullmatch(r"(\d{1,2})시(?:\s*(\d{1,2})분|\s*반)?", v)
+        if not t:
+            return None
+        mm = int(t.group(2) or (30 if v.endswith("반") else 0))
+        return f"{int(t.group(1))}:{mm:02d}" if mm < 60 and int(t.group(1)) <= 12 else None
+    return v
 
 
 def attach_wrong(s, items, issues):
@@ -494,11 +611,18 @@ def attach_wrong(s, items, issues):
                 issues.append(("틀리면 대상 없음", s["id"], f"{CIRCLED[w['n'] - 1]}번 문항이 앱 데이터에 없다"))
                 continue
             it = target[0]
+            typed, spoken = [], []
             for v in w["values"]:
+                t = typed_value(it, v)
+                (typed if t is not None else spoken).append(t if t is not None else v)
+            for v in typed:
                 norm = lambda x: (korean_fraction(str(x)) or number_unit(str(x))[0] or str(x)).replace(" ", "")
                 if it.get("answer") is not None and norm(it["answer"]) == norm(v):
                     issues.append(("오답이 정답과 같음", s["id"], f"{CIRCLED[w['n'] - 1]} ‘{v}’"))
-            it.setdefault("wrong", []).append({"values": w["values"], **entry})
+            e = {"values": typed, **entry} if typed else dict(entry)
+            if spoken:
+                e["spoken"] = spoken  # 입력 칸으로는 칠 수 없는 말(부모가 들을 때 씀)
+            it.setdefault("wrong", []).append(e)
         elif "seq" in w:
             it = next((i for i in items if i["input"] == "order"), None)
             if it is None:
