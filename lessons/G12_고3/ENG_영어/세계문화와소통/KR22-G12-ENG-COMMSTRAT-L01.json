@@ -162,9 +162,9 @@
           "“①②를 정중하게 바꿔 줘. ③은 약속을 정한 뒤 확인하는 말이야.”"
         ],
         "정답": [
-          "① Could you send me the file, please?",
+          "① Could you send me the file, please? (‘Could you please send me the file?’, ‘Would you send me the file, please?’, ‘Can you send me the file, please?’도 맞음)",
           "② I'm afraid I can't come on Monday. How about Tuesday?",
-          "③ So, Tuesday at 3. (So, ~.로 정한 것을 되풀이)"
+          "③ 기준: So, ~.처럼 정한 것을 되풀이해 확인하면 맞습니다(예: So, Tuesday at 3.)."
         ],
         "막히면": [
           "Could you ~, please? / I'm afraid ~ / How about ~? / So, ~. 네 표현을 먼저 보여 줍니다.",
@@ -550,8 +550,8 @@
         "정답": [
           "나가 맞습니다. 선생님(먼 관계), 늦게 낸 과제(작지 않은 일), 이메일(격식)이라 격식 있는 사과가 어울립니다. 나는 사과(I'm sorry for ~) + 인정(I should have ~) + 고칠 방법(by 5 p.m. today)을 모두 갖췄습니다. 가는 my bad, lol 같은 비격식 말을 쓰고, soon이라고만 해서 언제 고칠지가 흐립니다."
         ],
-        "막히면": [
-          "“가를 친구에게 보낸다면 괜찮을까? 선생님께는?”이라고 묻습니다."
+        "틀리면": [
+          "가를 고르면: 관계·크기·자리를 따지지 않고 친구에게 하듯 가볍게 사과했고, 언제 고칠지도 흐립니다(M3). “가를 친구에게 보낸다면 괜찮을까? 선생님께는?” 하고 묻습니다."
         ],
         "주의": [
           "가는 친한 친구에게는 괜찮을 수 있습니다. 표현이 ‘틀린’ 것이 아니라 ‘이 상황에 맞지 않는’ 것임을 짚어 줍니다. 아이가 지치면 여기서 나누어 다음 날 S10부터 해도 됩니다."
@@ -604,12 +604,12 @@
           "(부모는 카드 속 상대가 되어 짧게 답합니다. 세 장을 한 뒤 역할을 바꿔 부모가 말하고 아이가 들으며 짜임을 확인합니다.)"
         ],
         "정답": [
-          "① I was wondering if I could have one more day for the report. I was sick yesterday. Would that be okay? (선생님, 큰 부탁 → 3단계)",
-          "② Can you lend me your charger for a minute? (친구, 작은 부탁 → 1단계)",
-          "③ Thanks for asking! Unfortunately, I have an exam that weekend. Could I join the next one? (선배 → 고마움 + 까닭 + 대안, 조금 격식)",
-          "④ Sorry, I'm afraid I can't. I have to catch my bus. Good luck with your survey! (낯선 사람, 작은 부탁 거절 → 짧고 공손하게)",
-          "⑤ I'm really sorry about the noise last night. We should have been quieter. It won't happen again. (이웃 어른 → 격식 사과)",
-          "⑥ Sorry I sent my part late! I forgot the deadline. I'll finish the next part by Friday. (친구 → 비격식 사과)"
+          "① 예: I was wondering if I could have one more day for the report. I was sick yesterday. Would that be okay? (선생님, 큰 부탁 → 3단계)",
+          "② 예: Can you lend me your charger for a minute? (친구, 작은 부탁 → 1단계)",
+          "③ 예: Thanks for asking! Unfortunately, I have an exam that weekend. Could I join the next one? (선배 → 고마움 + 까닭 + 대안, 조금 격식)",
+          "④ 예: Sorry, I'm afraid I can't. I have to catch my bus. Good luck with your survey! (낯선 사람, 작은 부탁 거절 → 짧고 공손하게)",
+          "⑤ 예: I'm really sorry about the noise last night. We should have been quieter. It won't happen again. (이웃 어른 → 격식 사과)",
+          "⑥ 예: Sorry I sent my part late! I forgot the deadline. I'll finish the next part by Friday. (친구 → 비격식 사과)"
         ],
         "막히면": [
           "S04·S06·S07 표를 펼쳐 두고 한 칸씩 짚으며 말하게 합니다."
@@ -758,6 +758,10 @@
           "나: 친구에게 하듯 너무 가볍다(1단계) / 다: You need to ~로 명령하듯 요구한다 / 라: 사과만 되풀이하고 무엇을 부탁하는지 흐리다",
           "기준: 가를 고르고 나머지 가운데 둘 이상의 문제를 말하면 통과입니다."
         ],
+        "틀리면": [
+          "나를 고르면: 처음 보는 사람에게 친구에게 하듯 가볍게 부탁했습니다. “처음 보는 회사 담당자는 너와 어떤 관계지? 부탁의 크기는?” 하고 묻습니다.",
+          "다를 고르면: 부탁이 아니라 명령하듯 요구하는 말을 골랐습니다. “You need to ~를 들으면 담당자는 어떤 기분일까?” 하고 묻습니다."
+        ],
         "막히면": [
           "S03 표의 세 가지 요소를 하나씩 짚게 합니다."
         ],
@@ -785,10 +789,10 @@
           "text": "공손함을 정하는\n세 가지는?"
         },
         {
-          "text": "거절의 짜임은?"
+          "text": "거절의 짜임과\n초대를 거절하는 문장은?"
         },
         {
-          "text": "사과의 짜임은?"
+          "text": "사과의 짜임과\n지각을 사과하는 문장은?"
         }
       ],
       "notes": {
@@ -803,10 +807,11 @@
         ],
         "정답": [
           "① 관계 · 부탁의 크기 · 자리(격식)",
-          "② 고마움 + 까닭 + 대안",
-          "③ 사과 + 인정 + 고칠 방법"
+          "② 고마움 + 까닭 + 대안. 예: Thanks for asking! But I have a test that day. How about next weekend?",
+          "③ 사과 + 인정 + 고칠 방법. 예: I'm sorry I was late. I should have left home earlier. It won't happen again."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "실제로 선생님께 이메일을 보내거나 친구의 부탁을 거절할 일이 생기면, 보내기 전에 세 가지 요소와 짜임을 함께 점검해 보면 좋은 복습이 됩니다. 이것으로 고3 영어 차시는 모두 끝납니다. 고1부터 배운 정중한 말, 조심스러운 일반화, 오해를 푸는 말을 함께 떠올리게 해 주세요."
         ]
       }
@@ -1025,7 +1030,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 공손함을 정하는 세 가지를 쓰시오.\n② 거절의 짜임을 쓰고, 친구의 초대를 거절하는 영어 문장을 쓰시오.\n③ 사과의 짜임을 쓰고, 선생님께 지각을 사과하는 영어 문장을 쓰시오.",
         "lines": 4,
-        "answer": "① 관계 · 부탁의 크기 · 자리(격식) ② 고마움 + 까닭 + 대안. 예: Thanks for asking! But I have a test that day. Maybe next week? ③ 사과 + 인정 + 고칠 방법. 예: I'm sorry I was late. I should have left home earlier. It won't happen again. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 관계 · 부탁의 크기 · 자리(격식) ② 고마움 + 까닭 + 대안. 예: Thanks for asking! But I have a test that day. How about next weekend? ③ 사과 + 인정 + 고칠 방법. 예: I'm sorry I was late. I should have left home earlier. It won't happen again. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

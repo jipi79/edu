@@ -254,6 +254,18 @@
       "expr": "(5 × 4) ÷ (2 × 1) = □",
       "answer": 10,
       "where": "활동지 4 ₄H₂"
+    },
+    {
+      "type": "blank",
+      "expr": "(5 × 4) ÷ (2 × 1) = □",
+      "answer": 10,
+      "where": "S14 ① ₄H₂ = ₅C₂"
+    },
+    {
+      "type": "blank",
+      "expr": "(6 × 5) ÷ (2 × 1) = □",
+      "answer": 15,
+      "where": "S14 ③ ₃H₄ = ₆C₄ = ₆C₂"
     }
   ],
   "slides": [
