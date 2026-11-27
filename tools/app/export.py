@@ -36,9 +36,26 @@ NUM = r"−?\d+(?:\.\d+)?"
 
 # ── 정답 풀기 ──────────────────────────────────────────────
 
+ABBR = ("p.m.", "a.m.", "Mr.", "Mrs.", "Ms.", "Dr.", "e.g.", "i.e.", "etc.", "St.")
+
+
+def _guard(t):
+    for k, w in enumerate(ABBR):
+        t = t.replace(w, f"\x01{k}\x01")
+    return t
+
+
+def _unguard(t):
+    return re.sub(r"\x01(\d+)\x01", lambda m: ABBR[int(m.group(1))], t)
+
+
 def main_answer(a):
-    """‘6 (1 + 2 = 3, …)’ → (‘6’, ‘1 + 2 = 3, …’). 첫 괄호나 첫 문장 앞까지가 답이다."""
-    a = clean(a)
+    """‘6 (1 + 2 = 3, …)’ → (‘6’, ‘1 + 2 = 3, …’). 첫 괄호나 첫 문장 앞까지가 답이다(p.m.·Mr. 같은 줄임말의 점은 문장 끝이 아님)."""
+    m, n = _main_answer(_guard(clean(a)))
+    return _unguard(m), _unguard(n)
+
+
+def _main_answer(a):
     m = re.match(r"^(.*?)\s*\((.*)\)\s*\.?$", a)
     if m and m.group(1):
         first = re.match(r"^([^(]*)\(([^()]*)\)", a)
@@ -125,6 +142,7 @@ def misconception_refs(text):
 def accepted(note):
     """풀이에 적힌 다른 맞는 답: ‘교실도 맞음’, ‘놀이터, 강당도 맞음’, ‘강당이라고 해도 맞음’, ‘(현관)’."""
     out = []
+    note = _guard(note)
     for m in re.finditer(r"([^.()]+?)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
         chunk = re.split(r"면\s+|(?<![A-Za-z])\.\s+|니까\s+", m.group(1))[-1]
         if re.search(r"[‘“][^’”]+[’”]", chunk):  # 따옴표로 묶은 답은 쉼표·가운뎃점에서 가르지 않는다
@@ -132,7 +150,7 @@ def accepted(note):
         else:
             out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
 
-    return out
+    return [_unguard(x) for x in out]
 
 
 def classify(prob, ans_text):
