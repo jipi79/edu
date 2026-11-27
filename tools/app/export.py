@@ -72,7 +72,8 @@ def korean_fraction(s):
     s = s.replace("\xa0", " ").strip()
     m = re.fullmatch(r"(?:(\d+)\s*(?:과|와)\s*)?(\d+)\s*분의\s*(\d+)", s)
     if not m:
-        return None
+        r = re.fullmatch(r"([−\-]?)(\d+|√\d+|\d+√\d+)\s*분의\s*(\d+|√\d+|\d+√\d+)", s)  # ‘2분의 √3’
+        return f"{r.group(1)}{r.group(3)}/{r.group(2)}" if r else None
     whole, den, num = m.group(1), m.group(2), m.group(3)
     return f"{whole} {num}/{den}" if whole else f"{num}/{den}"
 
@@ -139,8 +140,15 @@ def classify(prob, ans_text):
     main, note = main_answer(ans_text)
     if not main:
         return "parent", None, "", "정답 없음", note
-    if OPEN.search(ans_text):
+    MATHRUN = r"(?:[0-9A-Za-zπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+"
+    roots = GRADE >= "G07" and re.fullmatch(MATHRUN, main.strip()) and re.search(r"[=<>]", main) and "또는" in main
+    if OPEN.search(ans_text) and not (roots and not OPEN.search(re.sub(r"또는", "", ans_text))):
         return "parent", main, "", "열린 답(예·또는·가운데)", note
+    if roots:  # ‘x = √13 또는 x = −√13’: 근을 모두 쓰는 답(또는 = 그리고)
+        return "expr", main.strip(), "", "근·해를 모두(차례 무관)", note
+    approx = re.fullmatch(r"약\s*(" + NUM + r")\s*(" + UNIT + r")?", main.strip())
+    if approx:
+        return "numpad", approx.group(1), approx.group(2) or "", "어림값(반올림 자리 확인)", note
     several = re.fullmatch(r"([가-힣]{1,4})\([^)]*\)(?:,\s*[가-힣]{1,4}\([^)]*\))+\.?", clean(ans_text))
     if several:
         return "short_all", re.findall(r"([가-힣]{1,4})\(", clean(ans_text)), "", "", ""
