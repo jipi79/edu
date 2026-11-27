@@ -59,8 +59,11 @@ def _main_answer(a):
     m = re.match(r"^(.*?)\s*\((.*)\)\s*\.?$", a)
     if m and m.group(1):
         first = re.match(r"^([^(]*)\(([^()]*)\)", a)
-        if (first and re.search(r"[0-9A-Za-z)²³′]$", first.group(1)) and not re.search(r"[가-힣=]", first.group(2))
-                and re.search(r"(?<![A-Za-z])[a-zA-Z](?![A-Za-z])", first.group(2))):
+        inner = re.sub(r"분의", "", first.group(2)) if first else ""
+        if (first and not re.search(r"[가-힣=]", inner) and re.search(r"[0-9A-Za-z]", inner)
+                and (re.search(r"[/×·+\-−√^]$", first.group(1).rstrip())   # 2/(x − 2), −(3분의 1), √(…)
+                     or (re.search(r"[0-9A-Za-z)²³′]$", first.group(1))
+                         and re.search(r"(?<![A-Za-z])[a-zA-Z](?![A-Za-z])", inner)))):  # 3(x + 2), f(x)
             # 수식의 괄호(3(x + 2), f(x) = …)는 답의 일부: 한글이 든 첫 괄호부터가 풀이
             h = re.match(r"^(.*?)\s+\(([^()]*[가-힣=][^()]*)\)\s*(.*)$", a)
             if h and h.group(1).strip():
