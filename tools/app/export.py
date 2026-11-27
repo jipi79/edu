@@ -306,6 +306,10 @@ def attach_wrong(s, items, issues):
         entry = {k: w[k] for k in ("reason", "feedback", "misconceptions", "goto") if w.get(k)}
         if "n" in w:
             target = [it for it in items if it.get("n") == w["n"]]
+            sort = next((it for it in items if it["input"] == "sort"), None)
+            if not target and sort:  # 분류 문항: n번 카드를 잘못 넣은 경우
+                sort.setdefault("wrong", []).append({"card": w["n"], "values": w["values"], **entry})
+                continue
             if not target:
                 issues.append(("틀리면 대상 없음", s["id"], f"{CIRCLED[w['n'] - 1]}번 문항이 앱 데이터에 없다"))
                 continue
