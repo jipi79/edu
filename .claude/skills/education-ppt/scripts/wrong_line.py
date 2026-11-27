@@ -7,6 +7,8 @@
   곰을 고르면: 뒤의 두 수를 먼저 뺐습니다(M2). “돌 9개에서 먼저 몇 개를 덜어 냈지?” 하고 묻습니다.
   ‘받침이 없어요’를 고르면: …   (이름에 빈칸이 있으면 따옴표)
   ‘맞아요’라고 하면: 친구의 말을 그대로 믿었습니다(M1). “아래에 무엇이 있지?” 하고 묻습니다.   (친구 말이 맞는지 묻는 장)
+  ‘가 → 라 → 다 → 나’로 놓으면: 헹구기를 비누칠보다 먼저 했습니다. “비누를 칠하기 전에 헹구면 어떻게 될까?” 하고 묻습니다.   (차례 맞추기)
+  라를 빠뜨리면: 민들레는 움직이지 않아 살아 있지 않다고 생각했습니다(M1). “민들레도 자라고 꽃이 피니?” 하고 묻습니다.   (모두 고르기)
 """
 import re
 
@@ -14,7 +16,9 @@ CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩"
 HEAD = re.compile(
     rf"^(?:(?P<n>[{CIRCLED}])(?:을|를|에서|에)?\s+(?P<val>.+?)(?:이)?라고\s+(?:하면|답하면|쓰면|말하면|읽으면)"
     rf"|(?P<pick>‘[^’]+’|[^\s:‘]+?)(?:을|를)\s+고르면"
-    rf"|(?P<say>‘[^’]+’)(?:이)?라고\s+(?:하면|답하면|말하면))\s*:\s*(?P<rest>.+)$")
+    rf"|(?P<say>‘[^’]+’)(?:이)?라고\s+(?:하면|답하면|말하면)"
+    rf"|(?P<seq>‘[^’]*→[^’]*’)(?:으)?로\s+놓으면"
+    rf"|(?P<omit>‘[^’]+’|[^\s:‘]+?)(?:을|를)\s+빠뜨리면)\s*:\s*(?P<rest>.+)$")
 TAIL = re.compile(
     r"^(?P<reason>.+?)(?:\((?P<m>M\d+(?:·M\d+)*)\))?\.\s*(?P<fb>“[^”]+”)\s*(?:하고|라고)\s*(?:묻습니다|말합니다)\."
     r"(?:\s*(?P<goto>S\d\d)(?:으)?로\s*돌아갑니다\.)?\s*$")
@@ -46,8 +50,22 @@ def parse(line):
     if m.group("n"):
         out["n"] = CIRCLED.index(m.group("n")) + 1
         out["values"] = split_values(m.group("val"))
+    elif m.group("seq"):
+        out["seq"] = [x.strip() for x in m.group("seq").strip("‘’").split("→")]
+    elif m.group("omit"):
+        out["omit"] = m.group("omit").strip("‘’")
     elif m.group("pick"):
         out["pick"] = m.group("pick").strip("‘’")
     else:
         out["say"] = m.group("say").strip("‘’")  # 견주기·고르기 장에서 한 장 전체에 대한 답(‘맞아요’)
     return out
+
+
+def item_count(slide):
+    """장의 문항 수. 문항 목록이 없는 연습·확인 장(물음이 그림·표·지문 안에 있는 장)은
+    노트 정답의 ①②③ 번호로 센다. 번호가 없으면 1."""
+    probs = slide.get("problems") or slide.get("review")
+    if probs:
+        return len(probs)
+    nums = [CIRCLED.index(c) + 1 for line in (slide.get("notes") or {}).get("정답", []) for c in line if c in CIRCLED]
+    return max(nums) if nums else 1

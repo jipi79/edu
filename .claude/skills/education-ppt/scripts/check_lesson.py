@@ -295,7 +295,7 @@ def check(path):
         lines = (s.get("notes") or {}).get("틀리면", [])
         if not lines:
             continue
-        n_items = len(s.get("problems") or s.get("review") or [])
+        n_items = wrong_line.item_count(s)
         labels = "가나다라마바"[:len(s.get("options") or [])]
         sides = [re.split(r"[:：]|\s{2,}", (s.get(k) or {}).get("title", "")) for k in ("left", "right")]
         names = {x.strip() for side in sides for x in side if x.strip()}
@@ -307,8 +307,11 @@ def check(path):
                 continue
             if "n" in w and not (1 <= w["n"] <= n_items):
                 errors.append(f"{s['id']}: 틀리면 ‘{line[:12]}’ — 이 장에 {w['n']}번 문항이 없다")
-            if "pick" in w and w["pick"] not in labels and w["pick"] not in names:
-                errors.append(f"{s['id']}: 틀리면 ‘{w['pick']}를 고르면’ — 이 장의 보기·이름표가 아니다")
+            for key in ("pick", "omit"):
+                if key in w and w[key] not in labels and w[key] not in names:
+                    errors.append(f"{s['id']}: 틀리면 ‘{w[key]}’ — 이 장의 보기·이름표가 아니다")
+            if "seq" in w and (sorted(w["seq"]) != sorted(labels) or len(w["seq"]) != len(labels)):
+                errors.append(f"{s['id']}: 틀리면 차례 ‘{' → '.join(w['seq'])}’가 이 장의 보기({labels})를 한 번씩 쓰지 않는다")
             if "say" in w and s.get("kind") not in ("compare", "choice"):
                 errors.append(f"{s['id']}: 틀리면 ‘{w['say']}라고 하면’은 견주기·고르기 장에만 쓴다")
             for m in w["misconceptions"]:

@@ -118,6 +118,10 @@ def classify(prob, ans_text):
         return "short_all", re.findall(r"([가-힣]{1,4})\(", clean(ans_text)), "", "", ""
     if re.search(r"집에서 정한|정한 곳|정한 제자리", ans_text):
         return "parent", main, "", "집마다 답이 다름", note
+    t = re.fullmatch(r"(\d{1,2})시(?:\s*(\d{1,2})분|\s*반)?", main.strip())
+    if t:
+        mm = t.group(2) or ("30" if main.strip().endswith("반") else "00")
+        return "time", f"{int(t.group(1))}:{int(mm):02d}", "", "", note
     n, unit = number_unit(main)
     if n is not None:
         return "numpad", n, unit, "", note
@@ -322,6 +326,30 @@ def compare_item(L, s, issues, seen):
     return rec
 
 
+def embedded_items(L, s, issues, seen):
+    """문항 목록이 없는 연습·확인 장(물음이 그림·표·지문·카드 안에 있음): 노트 정답의 번호로 문항을 만든다.
+    앱은 장 화면(screen)을 그대로 보이고 번호마다 답 칸을 둔다."""
+    n = wrong_line.item_count(s)
+    key = s.get("key")
+    ask = s.get("question") or (key.get("title") if isinstance(key, dict) else key) or s.get("text") or s.get("title", "")
+    figs = s.get("figures") or []
+    ask = clean(str(ask))
+    parts = [x.strip() for x in re.split(rf"[{CIRCLED}]+", ask) if x.strip()]
+    per_item = len(parts) == n and n > 1 and re.match(rf"^[{CIRCLED}]", ask)
+    ask = re.sub(rf"^[{CIRCLED}]+\s*", "", ask)
+    probs = []
+    for k in range(n):
+        alt = figs[k].get("alt") if len(figs) == n and isinstance(figs[k], dict) else None
+        label = f"{CIRCLED[k]} " if n > 1 else ""
+        probs.append({"text": f"{label}{parts[k] if per_item else ask}" + (f" ({alt})" if alt else "")})
+    items = problem_items(L, dict(s, problems=probs), "problems", issues, seen)
+    for k, it in enumerate(items):
+        it["embedded"] = True  # 물음이 화면 안에 있음
+        if len(figs) == n:
+            it["figure_index"] = k
+    return items
+
+
 def attach_wrong(s, items, issues):
     """노트 ‘틀리면’ 줄을 문항의 wrong 목록으로 붙인다."""
     for line in (s.get("notes") or {}).get("틀리면", []) or []:
@@ -344,6 +372,24 @@ def attach_wrong(s, items, issues):
                 if it.get("answer") is not None and str(it["answer"]).replace(" ", "") == v.replace(" ", ""):
                     issues.append(("오답이 정답과 같음", s["id"], f"{CIRCLED[w['n'] - 1]} ‘{v}’"))
             it.setdefault("wrong", []).append({"values": w["values"], **entry})
+        elif "seq" in w:
+            it = next((i for i in items if i["input"] == "order"), None)
+            if it is None:
+                issues.append(("틀리면 대상 없음", s["id"], "차례 오답인데 차례 맞추기 문항이 없다"))
+                continue
+            seq = ["가나다라마바".index(x) for x in w["seq"]]
+            if seq == it.get("answer"):
+                issues.append(("오답이 정답과 같음", s["id"], f"차례 {' → '.join(w['seq'])}가 정답이다"))
+            it.setdefault("wrong", []).append({"order": seq, **entry})
+        elif "omit" in w:
+            it = next((i for i in items if i["input"] == "multi"), None)
+            if it is None or w["omit"] not in "가나다라마바":
+                issues.append(("틀리면 대상 없음", s["id"], f"‘{w['omit']}를 빠뜨리면’ — 모두 고르기 문항이 없다"))
+                continue
+            idx = "가나다라마바".index(w["omit"])
+            if idx not in (it.get("answer") or []):
+                issues.append(("틀리면 대상 없음", s["id"], f"‘{w['omit']}’는 정답 보기가 아니다"))
+            it.setdefault("wrong", []).append({"missing": idx, **entry})
         elif "say" in w:
             it = next((i for i in items if i.get("options")), None)
             yes = re.match(r"^(맞|네|예|응|바르)", w["say"])
@@ -396,6 +442,8 @@ def export(L):
             items = [choice_item(L, s, issues, seen)]
         elif kind == "compare":
             items = [compare_item(L, s, issues, seen)]
+        elif s.get("role") in ("practice", "check") and kind != "activity":
+            items = embedded_items(L, s, issues, seen)
         elif kind == "activity":
             rec["done_button"] = True  # 실물·몸 활동은 ‘다 했어요’ + 부모 기록
         attach_wrong(s, items, issues)
