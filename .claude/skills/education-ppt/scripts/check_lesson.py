@@ -299,6 +299,7 @@ def check(path):
         labels = "가나다라마바"[:len(s.get("options") or [])]
         sides = [re.split(r"[:：]|\s{2,}", (s.get(k) or {}).get("title", "")) for k in ("left", "right")]
         names = {x.strip() for side in sides for x in side if x.strip()}
+        names |= {(s.get(k) or {}).get("title", "").strip() for k in ("left", "right")}
         for line in lines:
             w = wrong_line.parse(line)
             if w is None:
@@ -308,6 +309,8 @@ def check(path):
                 errors.append(f"{s['id']}: 틀리면 ‘{line[:12]}’ — 이 장에 {w['n']}번 문항이 없다")
             if "pick" in w and w["pick"] not in labels and w["pick"] not in names:
                 errors.append(f"{s['id']}: 틀리면 ‘{w['pick']}를 고르면’ — 이 장의 보기·이름표가 아니다")
+            if "say" in w and s.get("kind") not in ("compare", "choice"):
+                errors.append(f"{s['id']}: 틀리면 ‘{w['say']}라고 하면’은 견주기·고르기 장에만 쓴다")
             for m in w["misconceptions"]:
                 if m not in mids:
                     errors.append(f"{s['id']}: 틀리면이 없는 오개념 {m}을 가리킨다")

@@ -95,6 +95,17 @@ def misconception_refs(text):
     return sorted(set(re.findall(r"M\d+", text)))
 
 
+def accepted(note):
+    """풀이에 적힌 다른 맞는 답: ‘교실도 맞음’, ‘놀이터, 강당도 맞음’, ‘강당이라고 해도 맞음’, ‘(현관)’."""
+    out = []
+    for m in re.finditer(r"([^.()]+?)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
+        chunk = re.split(r"면\s+|\.\s+|니까\s+", m.group(1))[-1]
+        out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
+    if not out and re.fullmatch(r"[가-힣]{1,5}", note.strip()):
+        out = [note.strip()]  # 괄호 속 한 낱말: 같은 뜻의 다른 이름
+    return out
+
+
 def classify(prob, ans_text):
     """입력 종류와 정답. (input, answer, unit, why)"""
     main, note = main_answer(ans_text)
@@ -102,11 +113,18 @@ def classify(prob, ans_text):
         return "parent", None, "", "정답 없음", note
     if OPEN.search(ans_text):
         return "parent", main, "", "열린 답(예·또는·가운데)", note
+    several = re.fullmatch(r"([가-힣]{1,4})\([^)]*\)(?:,\s*[가-힣]{1,4}\([^)]*\))+\.?", clean(ans_text))
+    if several:
+        return "short_all", re.findall(r"([가-힣]{1,4})\(", clean(ans_text)), "", "", ""
+    if re.search(r"집에서 정한|정한 곳|정한 제자리", ans_text):
+        return "parent", main, "", "집마다 답이 다름", note
     n, unit = number_unit(main)
     if n is not None:
         return "numpad", n, unit, "", note
     if len(main) <= 8 and " " not in main.strip() and re.fullmatch(r"[가-힣A-Za-z]+", main):
         return "short", main, "", "", note
+    if re.fullmatch(r"[가-힣A-Za-z]{1,6}(?:,\s*[가-힣A-Za-z]{1,6})+", main):
+        return "short_all", [x.strip() for x in main.split(",")], "", "", note
     return "parent", main, "", "말·글·식으로 답함", note
 
 
@@ -176,6 +194,9 @@ def problem_items(L, s, key, issues, seen):
             inp, ans, unit, why, note = classify(p, a)
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
+        acc = accepted(note) if inp in ("short", "numpad") else []
+        if acc:
+            rec["accept"] = acc
         if unit:
             rec["unit"] = unit
         if note:
@@ -215,12 +236,15 @@ def choice_item(L, s, issues, seen):
            "input": "choice", "options": opts, "answer": None}
     lab = LABELS[:len(opts)]
     order = re.match(rf"^([{lab}])(?:\s*→\s*([{lab}]))+", raw)
-    match = re.findall(rf"(\S+)\s*→\s*([{lab}])(?![가-힣])", raw)
+    match = [(a.strip(), b) for a, b in re.findall(rf"(?:^|[).,→]\s*)([^→().,]{{1,24}}?)\s*→\s*([{lab}])(?![가-힣])", raw)]
+    match = [(re.split(r"\s*→\s*", a)[-1], b) for a, b in match]
     multi = re.match(rf"^([{lab}])(?:\([^)]*\))?(?:\s*,\s*([{lab}])(?:\([^)]*\))?)+[.\s(]", raw + " ")
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
     more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|많|작|적|길|짧|무겁|가볍)", raw)
     first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
-    if len(each) >= 2 and len({x for x, _ in each}) == len(each):
+    if re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
+        rec.update(input="parent", why="무엇을 골라도 맞음(까닭을 봄)")
+    elif len(each) >= 2 and len({x for x, _ in each}) == len(each):
         rec.update(input="numpad_each", answer={x: v for x, v in each})
         if more:
             rec["then_choice"] = LABELS.index(more.group(1))  # 읽은 뒤 더 큰(많은) 쪽 고르기
@@ -271,8 +295,10 @@ def compare_item(L, s, issues, seen):
     side_word = re.search(r"(왼쪽|오른쪽)(처럼|이|가|의 말이|은|는)?\s?\S*\s?(맞|바른|옳)", raw) or re.search(r"(왼쪽|오른쪽)처럼", raw)
     if not re.search(r"누가|누구|어느|맞|바르|옳|좋", q):
         rec.update(input="parent", why="말로 설명하는 견주기(고르는 물음이 아님)")
-    elif re.match(r"^(왼쪽|오른쪽)", first):
+    elif re.match(r"^(왼쪽|오른쪽)", first) and not ("왼쪽" in first and "오른쪽" in first):
         rec["answer"] = 0 if first.startswith("왼쪽") else 1
+    elif mentions(left) != mentions(right) and judged:
+        rec["answer"] = 0 if mentions(left) else 1
     elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and re.match(r"^(바르지 않|틀렸|아니|.{0,12}(틀렸|바르지 않))", first):
         rec.update(options=["맞아요", "아니에요"], answer=1)
     elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and re.match(r"^(바르게|맞습니다|.{0,12}(맞습니다|바르게))", first):
@@ -318,6 +344,16 @@ def attach_wrong(s, items, issues):
                 if it.get("answer") is not None and str(it["answer"]).replace(" ", "") == v.replace(" ", ""):
                     issues.append(("오답이 정답과 같음", s["id"], f"{CIRCLED[w['n'] - 1]} ‘{v}’"))
             it.setdefault("wrong", []).append({"values": w["values"], **entry})
+        elif "say" in w:
+            it = next((i for i in items if i.get("options")), None)
+            yes = re.match(r"^(맞|네|예|응|바르)", w["say"])
+            if it is None or it.get("options") != ["맞아요", "아니에요"]:
+                issues.append(("틀리면 대상 없음", s["id"], f"‘{w['say']}’라고 하면 — 이 장은 맞아요/아니에요 물음이 아니다"))
+                continue
+            idx = 0 if yes else 1
+            if it.get("answer") == idx:
+                issues.append(("오답이 정답과 같음", s["id"], f"‘{w['say']}’가 정답이다"))
+            it.setdefault("wrong", []).append({"option": idx, **entry})
         else:
             it = next((i for i in items if i.get("options")), None)
             if it is None:
@@ -325,7 +361,7 @@ def attach_wrong(s, items, issues):
                 continue
             opts = it["options"]
             idx = "가나다라마바".index(w["pick"]) if w["pick"] in "가나다라마바"[:len(opts)] else next(
-                (i for i, o in enumerate(opts) if w["pick"] in o.split()), None)
+                (i for i, o in enumerate(opts) if w["pick"] == o or w["pick"] in o.split()), None)
             if idx is None:
                 issues.append(("틀리면 대상 없음", s["id"], f"‘{w['pick']}’이 보기에 없다"))
                 continue
