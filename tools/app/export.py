@@ -51,7 +51,7 @@ def _unguard(t):
 
 def main_answer(a):
     """‘6 (1 + 2 = 3, …)’ → (‘6’, ‘1 + 2 = 3, …’). 첫 괄호나 첫 문장 앞까지가 답이다(p.m.·Mr. 같은 줄임말의 점은 문장 끝이 아님)."""
-    m, n = _main_answer(_guard(clean(a)))
+    m, n = _main_answer(_guard(clean(a).replace("\xa0", " ")))
     return _unguard(m), _unguard(n)
 
 
