@@ -274,6 +274,14 @@
               "말하기"
             ],
             "properties": {
+              "목적": {
+                "type": "string",
+                "minLength": 1
+              },
+              "시간": {
+                "type": "string",
+                "minLength": 1
+              },
               "말하기": {
                 "type": "array",
                 "minItems": 1
