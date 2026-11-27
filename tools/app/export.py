@@ -79,7 +79,7 @@ def _main_answer(a):
     return a.rstrip("."), ""
 
 
-UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|g/cm³|kg/m³|g/mL|m/s²|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|mol|kJ|kcal|J|W|kW|kWh|N|Pa|hPa|V|A|Ω|Hz|°C|°|%|t)"
+UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|g/cm³|kg/m³|g/mL|m/s²|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|mol/L|mol|M|kJ|kcal|J|W|kW|kWh|N|Pa|hPa|V|A|Ω|Hz|°C|°|%|t)"
 
 
 def number_unit(s):
