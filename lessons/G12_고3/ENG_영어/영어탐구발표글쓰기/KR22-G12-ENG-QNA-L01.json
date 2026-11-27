@@ -401,8 +401,8 @@
         "정답": [
           "가가 좋습니다. 질문을 확인하고, 좋은 지적이라고 인정한 뒤, 하지 않은 것(난이도 시험)을 솔직하게 말하고 다음 계획을 제시했습니다. 나 쪽은 근거 없이 단정하고(I'm sure), 질문한 사람을 탓해서 믿음을 잃습니다."
         ],
-        "막히면": [
-          "“나 쪽의 ‘I'm sure’에는 근거가 있어?”라고 묻습니다."
+        "틀리면": [
+          "나를 고르면: 반박 질문에 근거 없이 단정하는 답을 골랐습니다(M2·M3). “나 쪽의 ‘I'm sure’에는 근거가 있어?” 하고 묻습니다."
         ],
         "주의": [
           "한계를 인정하는 것은 약점이 아니라 정직함입니다. 과학자들도 발표에서 늘 한계를 말합니다. 여기까지가 발표와 질의응답의 짜임입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
@@ -681,6 +681,10 @@
           "③ 나 (한계를 인정하고 다음 계획을 말함)",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
+        "틀리면": [
+          "②를 나라고 하면: 질문을 확인하지 않고 바로 답하려 했습니다(M1). “잘 못 알아들은 질문은 어떻게 다시 확인할까?” 하고 묻습니다.",
+          "③을 가라고 하면: 하지 않은 것을 물으면 넘기려 했습니다(M2). “That doesn't matter.를 들은 질문자는 어떤 기분일까?” 하고 묻습니다."
+        ],
         "막히면": [
           "①은 S03 표, ②③은 S05 다섯 단계를 다시 보여 줍니다."
         ],
@@ -708,10 +712,10 @@
           "text": "발표의\n여섯 부분은?"
         },
         {
-          "text": "질문에 답하는\n다섯 단계는?"
+          "text": "질문에 답하는\n다섯 단계와 표현은?"
         },
         {
-          "text": "모르는 것을 물으면\n어떻게 답할까?"
+          "text": "하지 않은 것을 물으면\n영어로 어떻게 답할까?"
         }
       ],
       "next": "문학 작품의 문화 맥락",
@@ -727,10 +731,11 @@
         ],
         "정답": [
           "① 인사와 질문 → 고른 까닭 → 방법 → 결과(As you can see) → 결론과 한계 → 질문 받기",
-          "② Thank you for the question. → So you're asking whether ~? → Based on my results, ~ → That's a good point. I didn't ~ → Does that answer your question?",
-          "③ 모르는 것은 지어내지 않고 인정한다"
+          "② 고마움 → 확인 → 근거 → 한계 인정 → 확인(Thank you for the question. → So you're asking whether ~? → Based on my results, ~ → That's a good point. I didn't ~, but ~ → Does that answer your question?)",
+          "③ 예: That's a good point. I didn't test that, but I could try it next time."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "학교 수행평가 발표 전에 오늘의 다섯 단계로 예상 질문 세 개에 답해 보면 좋은 복습이 됩니다. 다음 차시 ‘문학 작품의 문화 맥락’에서는 영미 문학 작품을 시대와 사회 배경에 연결해 읽습니다."
         ]
       }
@@ -987,7 +992,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 탐구 발표의 여섯 부분을 쓰시오.\n② 질문에 답하는 다섯 단계를 영어 표현과 함께 쓰시오.\n③ 하지 않은 것을 물으면 어떻게 답하는지 한 문장으로 쓰시오.",
         "lines": 3,
-        "answer": "① 인사와 질문 → 고른 까닭 → 방법 → 결과 → 결론과 한계 → 질문 받기 ② Thank you for the question. → So you're asking whether ~? → Based on my results, ~ → That's a good point. I didn't ~, but ~ → Does that answer your question? ③ That's a good point. I didn't test that, but I could try it next time. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 인사와 질문 → 고른 까닭 → 방법 → 결과(As you can see) → 결론과 한계 → 질문 받기 ② 고마움 → 확인 → 근거 → 한계 인정 → 확인(Thank you for the question. → So you're asking whether ~? → Based on my results, ~ → That's a good point. I didn't ~, but ~ → Does that answer your question?) ③ 예: That's a good point. I didn't test that, but I could try it next time. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

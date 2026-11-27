@@ -157,9 +157,9 @@
           "“③은 알맞은 것을 골라 읽고, 뜻을 말해 줘.”"
         ],
         "정답": [
-          "① cleaned (방은 청소되는 쪽) — 방이 청소되었어요.",
+          "① cleaned (방은 청소되는 쪽. 방이 청소되었어요.)",
           "② This cake was made by Mom. (이 케이크는 엄마가 만드셨어요.)",
-          "③ me — 톰이 나에게 펜을 주었어요. (‘~에게’ 자리에는 목적어 모양)"
+          "③ me (‘~에게’ 자리에는 목적어 모양. 톰이 나에게 펜을 주었어요.)"
         ],
         "막히면": [
           "①은 “방은 하는 쪽이야, 당하는 쪽이야?”, ②는 “목적어 this cake를 앞으로, made는 was made로.”, ③은 “‘나에게’는 I야, me야?”라고 묻습니다.",
@@ -486,12 +486,16 @@
           "③ We are taught English by Mr. Kim. (우리는 김 선생님께 영어를 배워요.)",
           "④ A bike was bought for me by Dad. (아빠가 나에게 자전거를 사 주셨어요.)"
         ],
+        "틀리면": [
+          "①을 ‘Me was sent a letter by Mina’라고 하면: 목적어 모양을 주어 자리에 그대로 썼습니다(M1). “문장의 주어 자리에는 어떤 모양을 쓰기로 했지?” 하고 묻습니다.",
+          "④를 ‘A bike was bought to me by Dad’라고 하면: buy에 to를 썼습니다(M2). “buy·make 문장에서 사람 앞에는 무엇을 쓰기로 했지?” 하고 묻습니다.",
+          "④를 ‘I was bought a bike by Dad’라고 하면: buy 문장에서 사람을 주어로 썼습니다(M3). “buy는 무엇을 주어로 보낼 수 있었지?” 하고 묻습니다. S06으로 돌아갑니다."
+        ],
         "막히면": [
           "“사람이 주어면 me를 무엇으로 바꾸지?” “물건이 주어면 사람 앞에 무엇을 붙이지? to야, for야?”를 차례로 묻습니다."
         ],
         "주의": [
-          "③은 teaches(현재)라서 are taught, ①②④는 과거라서 was입니다. 주어 We에는 are를 씁니다.",
-          "④를 I was bought a bike.로 말하면 S06 표를 다시 봅니다."
+          "③은 teaches(현재)라서 are taught, ①②④는 과거라서 was입니다. 주어 We에는 are를 씁니다."
         ]
       }
     },
@@ -540,6 +544,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(A bike was bought for me by Dad.)입니다. buy는 사람을 위해 사 주는 것이라서 to가 아니라 for를 씁니다."
+        ],
+        "틀리면": [
+          "가를 고르면: buy에 to를 써도 된다고 보았습니다(M2). “buy·make 문장에서 사람 앞에는 무엇을 쓰기로 했지?” 하고 묻습니다."
         ],
         "막히면": [
           "S06 표의 두 무리를 다시 보여 주고 “give, show, send, teach만 to”라고 말해 줍니다."
@@ -714,16 +721,20 @@
         ],
         "정답": [
           "① He is called Big Joe. (그는 빅 조라고 불려요. by people은 뺌)",
-          "② The cat was named Coco (by us). (그 고양이는 코코라고 이름 지어졌어요.)",
+          "② The cat was named Coco. (‘The cat was named Coco by us’도 맞음. 그 고양이는 코코라고 이름 지어졌어요.)",
           "③ She was made famous by the song. (그녀는 그 노래로 유명해졌어요.)",
           "④ We were made to write a report by the teacher. (우리는 선생님 때문에 보고서를 써야 했어요.)"
+        ],
+        "틀리면": [
+          "①을 ‘Big Joe is called him’이라고 하면: 보어를 주어로 보냈습니다(M4). “주어 자리로 가는 것은 목적어였어, 보어였어?” 하고 묻습니다.",
+          "④를 ‘We were made write a report by the teacher’라고 하면: make의 수동태에서 to를 빠뜨렸습니다(M4). “be made 뒤에 동사원형이 바로 올 수 있었지?” 하고 묻습니다. S10으로 돌아갑니다."
         ],
         "막히면": [
           "“목적어는? 그 목적어를 설명하는 말은?”을 묻고 두 낱말 사이에 = 표시를 하게 합니다."
         ],
         "주의": [
           "②의 name은 ‘이름을 짓다’, ③의 famous는 ‘유명한’, ④의 report는 ‘보고서’입니다.",
-          "④를 We were made write ~로 말하면 S10 열쇠 문장을 다시 봅니다. 주어 We에는 were를 씁니다."
+          "④의 주어 We에는 were를 씁니다."
         ]
       }
     },
@@ -809,8 +820,13 @@
           "① I was shown his photos by Tom.",
           "② His photos were shown to me by Tom. (photos가 여럿이라 were)",
           "③ A scarf was made for me by Grandma.",
-          "④ This dish is called bibimbap (by us).",
+          "④ This dish is called bibimbap. (‘This dish is called bibimbap by us’도 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 shown(과거분사), to와 for, be동사의 수, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘Me was shown his photos by Tom’이라고 하면: 목적어 모양을 주어 자리에 그대로 썼습니다(M1). “문장의 주어 자리에는 어떤 모양을 쓰기로 했지?” 하고 묻습니다.",
+          "③을 ‘A scarf was made to me by Grandma’라고 하면: make에 to를 썼습니다(M2). “make 문장에서 사람 앞에는 무엇을 쓰기로 했지?” 하고 묻습니다.",
+          "④를 ‘Bibimbap is called this dish’라고 하면: 보어를 주어로 보냈습니다(M4). “주어 자리로 가는 것은 목적어였어, 보어였어?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “사람이 주어면 me를 무엇으로?” “물건이 여럿이면 was야, were야?” “make는 to야, for야?” “목적어는 무엇이고 보어는 무엇이야?”라고만 묻습니다.",
@@ -914,8 +930,11 @@
         "정답": [
           "① 나는 삼촌에게 수학을 배웠어요. (직역: 나는 삼촌에 의해 수학을 가르침 받았어요.)",
           "② 그 아기는 하늘이라고 이름 지어졌어요.",
-          "③ to clean (make + 동사원형은 수동태에서 be made to + 동사원형) — 나는 내 방을 청소해야 했어요.",
+          "③ to clean (make + 동사원형은 수동태에서 be made to + 동사원형. 나는 내 방을 청소해야 했어요.)",
           "기준: 세 개 모두 맞으면 통과입니다. ①을 ‘내가 삼촌을 가르쳤다’처럼 거꾸로 해석하면 기록표에 적어 둡니다."
+        ],
+        "틀리면": [
+          "③을 clean이라고 하면: make의 수동태에서 to를 빠뜨렸습니다(M4). “be made 뒤에는 동사가 어떤 모양으로 오지?” 하고 묻습니다. S10으로 돌아갑니다."
         ],
         "막히면": [
           "①은 “I was taught는 누가 배운 거야?”, ③은 S10 표의 마지막 줄을 다시 보여 줍니다."
@@ -963,10 +982,15 @@
         ],
         "정답": [
           "① A card was sent to me by Mina.",
-          "② He is called Big Joe (by us).",
+          "② He is called Big Joe. (‘He is called Big Joe by us’도 맞음)",
           "③ for (make는 for)"
         ],
+        "틀리면": [
+          "①을 ‘A card was sent for me by Mina’라고 하면: send에 for를 썼습니다(M2). “send는 사람 앞에 무엇을 쓰기로 했지?” 하고 묻습니다.",
+          "③을 to라고 하면: make에 to를 썼습니다(M2). “give·send와 buy·make는 사람 앞에 각각 무엇을 쓰기로 했지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집 안 물건을 들고 “What is this called in English?”라고 묻는 놀이를 하면 좋은 복습이 됩니다. 다음 차시 ‘분사구문’에서는 Walking home, I met Tom.(집에 걸어가다가 톰을 만났어요)처럼 -ing로 시작하는 덩어리로 때·이유를 나타내는 방법을 배웁니다."
         ]
       }
@@ -1237,7 +1261,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① Mina sent me a card.를 물건(a card)을 주어로 한 수동태로 쓰시오.\n② We call him Big Joe.를 수동태로 쓰시오.\n③ A cake was made (to / for) me.에서 알맞은 것을 쓰시오.",
         "lines": 3,
-        "answer": "① A card was sent to me by Mina. ② He is called Big Joe (by us). ③ for. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① A card was sent to me by Mina. ② He is called Big Joe. (‘He is called Big Joe by us’도 맞음) ③ for (make는 for). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

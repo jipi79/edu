@@ -27,18 +27,49 @@ sys.path.insert(0, str(ROOT / ".claude" / "skills" / "education-ppt" / "scripts"
 import wrong_line  # noqa: E402
 
 FORMAT_VERSION = 0
+GRADE = "G01"  # export()가 차시마다 바꾼다(학년에 따라 다르게 읽는 규칙에 씀)
+STRAND = ""
 LABELS = "가나다라마바"
-OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|(?<![가-힣0-9])등(?=[\s.,)]|$)|처럼|자유|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
+OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|(?<![가-힣0-9])등(?=[\s.,)]|$)|처럼|자유롭|자유로운|자유 답|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
 NUM = r"−?\d+(?:\.\d+)?"
 
 
 # ── 정답 풀기 ──────────────────────────────────────────────
 
+ABBR = ("p.m.", "a.m.", "Mr.", "Mrs.", "Ms.", "Dr.", "e.g.", "i.e.", "etc.", "St.")
+
+
+def _guard(t):
+    for k, w in enumerate(ABBR):
+        t = t.replace(w, f"\x01{k}\x01")
+    return t
+
+
+def _unguard(t):
+    return re.sub(r"\x01(\d+)\x01", lambda m: ABBR[int(m.group(1))], t)
+
+
 def main_answer(a):
-    """‘6 (1 + 2 = 3, …)’ → (‘6’, ‘1 + 2 = 3, …’). 첫 괄호나 첫 문장 앞까지가 답이다."""
-    a = clean(a)
+    """‘6 (1 + 2 = 3, …)’ → (‘6’, ‘1 + 2 = 3, …’). 첫 괄호나 첫 문장 앞까지가 답이다(p.m.·Mr. 같은 줄임말의 점은 문장 끝이 아님)."""
+    m, n = _main_answer(_guard(clean(a).replace("\xa0", " ")))
+    return _unguard(m), _unguard(n)
+
+
+def _main_answer(a):
     m = re.match(r"^(.*?)\s*\((.*)\)\s*\.?$", a)
     if m and m.group(1):
+        first = re.match(r"^([^(]*)\(([^()]*)\)", a)
+        inner = re.sub(r"분의", "", first.group(2)) if first else ""
+        if (first and not re.search(r"[가-힣=]", inner) and re.search(r"[0-9A-Za-z]", inner)
+                and (re.search(r"[/×·+\-−√^]$", first.group(1).rstrip())   # 2/(x − 2), −(3분의 1), √(…)
+                     or re.search(r"(?:^|[^A-Za-z])[A-Za-z]′?$", first.group(1))      # N(200, 10²), B(600, 0.3), P(A)
+                     or (re.search(r"[0-9A-Za-z)²³′⁰¹⁴-⁹₀-₉Σ∫]$", first.group(1))
+                         and re.search(r"(?<![A-Za-z])[a-zA-Z](?![A-Za-z])", inner)))):  # 3(x + 2), f(x)
+            # 수식의 괄호(3(x + 2), f(x) = …)는 답의 일부: 한글이 든 첫 괄호부터가 풀이
+            h = re.match(r"^(.*?)\s+\(([^()]*[가-힣=][^()]*)\)\s*(.*)$", a)
+            if h and h.group(1).strip():
+                return h.group(1).strip(), (h.group(2) + " " + h.group(3)).strip()
+            return a.rstrip("."), ""
         return m.group(1).strip(), m.group(2).strip()
     m = re.match(r"^(.*?[^0-9])\.\s+(.*)$", a)
     if m and re.fullmatch(r"[A-Za-z][A-Za-z ,'’]*", m.group(1)) and re.match(r"[A-Z]", m.group(2)):
@@ -48,7 +79,7 @@ def main_answer(a):
     return a.rstrip("."), ""
 
 
-UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|°C|°|%|t)"
+UNIT = r"(?:만\s?원|억\s?원|[가-힣]{1,3}|cm²|m²|km²|cm³|m³|g/cm³|kg/m³|g/mL|m/s²|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|mol/L|mol|M|kJ|kcal|J|W|kW|kWh|N|Pa|hPa|V|A|Ω|Hz|°C|°|%|t)"
 
 
 def number_unit(s):
@@ -62,7 +93,8 @@ def korean_fraction(s):
     s = s.replace("\xa0", " ").strip()
     m = re.fullmatch(r"(?:(\d+)\s*(?:과|와)\s*)?(\d+)\s*분의\s*(\d+)", s)
     if not m:
-        return None
+        r = re.fullmatch(r"([−\-]?)(\d+|√\d+|\d+√\d+)\s*분의\s*(\d+|√\d+|\d+√\d+)", s)  # ‘2분의 √3’
+        return f"{r.group(1)}{r.group(3)}/{r.group(2)}" if r else None
     whole, den, num = m.group(1), m.group(2), m.group(3)
     return f"{whole} {num}/{den}" if whole else f"{num}/{den}"
 
@@ -114,12 +146,19 @@ def misconception_refs(text):
 def accepted(note):
     """풀이에 적힌 다른 맞는 답: ‘교실도 맞음’, ‘놀이터, 강당도 맞음’, ‘강당이라고 해도 맞음’, ‘(현관)’."""
     out = []
+    # 따옴표로 묶은 답(마침표·쉼표가 있어도 한 답): ‘…’, ‘…’도 맞음 / ‘…’이라고 해도 맞음
+    for run in re.finditer(r"((?:‘[^’]+’\s*(?:,|이나|나|또는)?\s*)+)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
+        out += [x.strip() for x in re.findall(r"‘([^’]+)’", run.group(1))]
+    note = re.sub(r"(?:‘[^’]+’\s*(?:,|이나|나|또는)?\s*)+(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞(?:음|습니다)?", "", note)
+    note = _guard(note)
     for m in re.finditer(r"([^.()]+?)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
-        chunk = re.split(r"면\s+|\.\s+|니까\s+", m.group(1))[-1]
-        out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
-    if not out and re.fullmatch(r"[가-힣]{1,5}", note.strip()):
-        out = [note.strip()]  # 괄호 속 한 낱말: 같은 뜻의 다른 이름
-    return out
+        chunk = re.split(r"면\s+|(?<![A-Za-z])\.\s+|니까\s+", m.group(1))[-1]
+        if re.search(r"[‘“][^’”]+[’”]", chunk):  # 따옴표로 묶은 답은 쉼표·가운뎃점에서 가르지 않는다
+            out += [x.strip(" ‘’“”,") for x in re.findall(r"[‘“]([^’”]+)[’”]", chunk)]  # 따옴표로 묶은 영어 문장은 쉼표에서 가르지 않는다
+        else:
+            out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
+
+    return [_unguard(x) for x in out]
 
 
 def classify(prob, ans_text):
@@ -127,11 +166,22 @@ def classify(prob, ans_text):
     main, note = main_answer(ans_text)
     if not main:
         return "parent", None, "", "정답 없음", note
-    if OPEN.search(ans_text):
+    if GRADE >= "G07" and re.search(r"[=<>]", main) and "분의" in main:  # 식 속 ‘2분의 1’ → 1/2
+        main = re.sub(r"(√?\d+)\s*분의\s*(√?\d+)", r"\2/\1", main)
+    MATHRUN = r"(?:[0-9A-Za-zπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿˣʸ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+"
+    roots = GRADE >= "G07" and re.fullmatch(MATHRUN, main.strip()) and re.search(r"[=<>≤≥]", main) and "또는" in main
+    if OPEN.search(ans_text) and not (roots and not OPEN.search(re.sub(r"또는", "", ans_text))):
         return "parent", main, "", "열린 답(예·또는·가운데)", note
+    if roots:  # ‘x = √13 또는 x = −√13’: 근을 모두 쓰는 답(또는 = 그리고)
+        return "expr", main.strip(), "", "근·해를 모두(차례 무관)", note
+    approx = re.fullmatch(r"약\s*(" + NUM + r")\s*(" + UNIT + r")?", main.strip())
+    if approx:
+        return "numpad", approx.group(1), approx.group(2) or "", "어림값(반올림 자리 확인)", note
     several = re.fullmatch(r"([가-힣]{1,4})\([^)]*\)(?:,\s*[가-힣]{1,4}\([^)]*\))+\.?", clean(ans_text))
     if several:
         return "short_all", re.findall(r"([가-힣]{1,4})\(", clean(ans_text)), "", "", ""
+    if re.search(r"위에 점|순환\s*마디|마디\s*\d", ans_text):
+        return "parent", main, "", "순환소수(점 표기는 부모 확인)", note
     if re.search(r"집에서 정한|정한 곳|정한 제자리", ans_text):
         return "parent", main, "", "집마다 답이 다름", note
     t = re.fullmatch(r"(\d{1,2})시(?:\s*(\d{1,2})분|\s*반)?", main.strip())
@@ -141,6 +191,8 @@ def classify(prob, ans_text):
     if main.strip() in (">", "<", "=", "＞", "＜"):
         return "symbol", main.strip().replace("＞", ">").replace("＜", "<"), "", "", note
     n, unit = number_unit(main)
+    if n is not None and unit == "t" and (STRAND == "MAT" or not re.search(r"\st$", main.strip())):
+        n = None  # 수학의 ‘2t’는 식(매개변수 t), 톤은 ‘3 t’처럼 띄어 쓴다
     if n is not None:
         return "numpad", n, unit, "", note
     # 분수: ‘5분의 2’, ‘1과 2분의 1’, 여러 개(‘15분의 10, 15분의 9’), 식이면 마지막 값(‘8분의 6 = 4분의 3’)
@@ -154,13 +206,33 @@ def classify(prob, ans_text):
     m = re.fullmatch(r"(\d+)\s*:\s*(\d+)", main.strip())
     if m:
         return "expr", f"{m.group(1)}:{m.group(2)}", "", "", note
+    # 수식·식·좌표·범위(중·고): ‘x = −5’, ‘y = 3x − 1’, ‘(−4, −1)’, ‘6√2’, ‘−1 < x < 1’, ‘x = 2 또는 x = 3’
+    mm = main.strip()
+    if (len(mm) <= 40 and re.fullmatch(r"(?:[0-9A-Za-zα-ωπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿˣʸ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+", mm)
+            and re.search(r"[0-9πxyzabn√=<>≤≥(]", mm)
+            and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)
+            and not [w for w in re.findall(r"[A-Za-z]{3,}", mm) if w.lower() not in
+                     ("log", "sin", "cos", "tan", "lim", "max", "min", "mod", "cm", "mm", "km", "kg", "mol", "kcal", "kwh")]):
+        return "expr", mm, "", "식·값(같은 값의 다른 꼴도 맞음)", note
+    # 과학의 원소 기호·화학식(Ca, Ag, H₂O, NaCl, CO₂): 대소문자를 구별한다(CA는 틀림)
+    if STRAND == "SCI" and re.fullmatch(r"(?:[A-Z][a-z]?[₀-₉0-9⁺⁻²³]*)+", main.strip()):
+        return "short_case", main.strip(), "", "원소 기호·화학식(대소문자 구별)", note
+    # 대문자 이름 목록(모서리·점·선분: ‘CG, DH, EH, FG’)은 차례와 상관없이 모두
+    if re.fullmatch(r"[A-Z]{1,3}′?(?:,\s*[A-Z]{1,3}′?)+", main.strip()):
+        return "short_all", [x.strip() for x in main.split(",")], "", "이름 목록(차례 무관)", note
     # 영어: 낱말·짧은 말(세 낱말까지)은 자동, 문장은 부모 판정
     if re.fullmatch(r"[A-Za-z][A-Za-z'’]*(?:\s[A-Za-z'’]+){0,2}[.?!]?", main.strip()):
         return "short", main.strip(), "", "영어(대소문자·끝 부호 무시)", note
+    if re.fullmatch(r"[A-Z][A-Za-z'’]*(?:,?\s[A-Za-z0-9'’]+){3,9}[.?!]?", main.strip()):
+        return "short", main.strip(), "", "영어 문장(대소문자·끝 부호 무시, 다른 맞는 문장은 accept)", note
     if re.fullmatch(r"[A-Za-z](?:,\s*[A-Za-z])+", main.strip()):
         return "short_all", [x.strip() for x in main.split(",")], "", "", note
     if len(main) <= 8 and " " not in main.strip() and re.fullmatch(r"[가-힣A-Za-z]+", main):
         return "short", main, "", "", note
+    # 중·고의 두 낱말 용어(‘국제 연맹’, ‘이산화 탄소’): 띄어쓰기와 상관없이 채점. 문장 끝(~요, ~다)과 ‘A과 B’ 꼴은 뺀다
+    if (GRADE >= "G07" and re.fullmatch(r"[가-힣]{1,6} [가-힣]{1,6}", main.strip())
+            and not re.search(r"(요|다|까|니다)$", main.strip()) and not re.search(r"[가-힣](과|와) ", main)):
+        return "short", main.strip(), "", "용어(띄어쓰기 무시)", note
     if re.fullmatch(r"[가-힣A-Za-z]{1,6}(?:,\s*[가-힣A-Za-z]{1,6})+", main):
         return "short_all", [x.strip() for x in main.split(",")], "", "", note
     return "parent", main, "", "말·글·식으로 답함", note
@@ -171,7 +243,8 @@ def find_criterion(notes):
     for key in ("예상답", "주의", "막히면"):
         for line in notes.get(key, []) or []:
             for sent in re.split(r"(?<=[.다])\s+", clean(line)):
-                if re.search(r"맞습니다|맞음|됩니다|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|기준:", sent):
+                if (re.search(r"맞습니다|맞음|정답이 하나가 아니|정답은 하나가 아니|정답이 정해져 있지 않|기준:", sent)
+                        or re.search(r"면 됩니다", sent)):  # ‘…면 됩니다’는 기준, ‘…도 됩니다’는 허락이라 기준이 아님
                     return sent
     return None
 
@@ -230,9 +303,16 @@ def problem_items(L, s, key, issues, seen):
             inp, ans, unit, why, note = "parent", None, "", "열린 답(기준으로 판단)", ""
         else:
             inp, ans, unit, why, note = classify(p, a)
+            ask = prompt + " " + clean(str(s.get("text") or s.get("title") or ""))
+            if inp == "short" and re.search(r"띄어|붙여 쓰|띄어쓰기", ask):
+                inp, why = "short_exact", "띄어쓰기를 묻는 문항(띄어쓰기 그대로 채점)"
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
-        acc = accepted(note) if inp in ("short", "numpad", "expr") else []
+        acc = accepted(note) if inp in ("short", "short_case", "short_exact", "numpad", "expr") else []
+        if inp == "short":  # 예·아니요 답은 같은 뜻의 말을 함께 받는다
+            for group in (("아니다", "아니요", "아니오", "아니에요", "아님"), ("그렇다", "예", "네", "맞다", "맞아요", "그래요")):
+                if str(ans).rstrip(".") in group:
+                    acc = acc + [g for g in group if g != str(ans).rstrip(".") and g not in acc]
         if inp == "expr":
             acc = [korean_fraction(a) or a for a in acc]
         if acc:
@@ -281,8 +361,16 @@ def choice_item(L, s, issues, seen):
     multi = re.match(rf"^([{lab}])(?:\([^)]*\))?(?:\s*(?:,|와|과)\s*([{lab}])(?:\([^)]*\))?)+(?:가|이|는|을|를)?[.\s(]", raw + " ")
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
     more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|큽|많|작|적|길|짧|무겁|가볍)", raw)
-    first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
-    if re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
+    first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw) or re.match(rf"^([{lab}])(?:가|이)\s*(?:맞|옳|알맞|바르)", raw)
+    latin = re.match(r"^([A-F]|[ⓐ-ⓕ])(?:[(\s.,]|$)", raw)  # 보기 이름이 A·B·C 또는 ⓐ·ⓑ·ⓒ인 장
+    if latin and not first:
+        k = "ABCDEF".index(latin.group(1)) if latin.group(1) in "ABCDEF" else "ⓐⓑⓒⓓⓔⓕ".index(latin.group(1))
+        if k < len(opts):
+            first = None
+            rec["answer"] = k
+    if rec["answer"] is not None:
+        pass
+    elif re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
         rec.update(input="parent", why="무엇을 골라도 맞음(까닭을 봄)")
     elif len(each) >= 2 and len({x for x, _ in each}) == len(each):
         rec.update(input="numpad_each", answer={x: v for x, v in each})
@@ -445,6 +533,9 @@ def attach_wrong(s, items, issues):
                 issues.append(("틀리면 대상 없음", s["id"], f"‘{w['pick']}를 고르면’ — 고르는 문항이 없다"))
                 continue
             opts = it["options"]
+            for lab in ("가나다라마바", "ABCDEF", "ⓐⓑⓒⓓⓔⓕ"):
+                if w["pick"] in lab[:len(opts)]:
+                    w["pick"] = "가나다라마바"[lab.index(w["pick"])]
             idx = "가나다라마바".index(w["pick"]) if w["pick"] in "가나다라마바"[:len(opts)] else next(
                 (i for i, o in enumerate(opts) if w["pick"] == o or w["pick"] in o.split()), None)
             if idx is None:
@@ -461,6 +552,8 @@ SCREEN_SKIP = ("notes", "purpose", "section")
 
 
 def export(L):
+    global GRADE, STRAND
+    GRADE, STRAND = L["grade"], L["strand"]
     issues, seen = [], Counter()
     slides = []
     for s in L["slides"]:

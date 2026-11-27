@@ -500,6 +500,9 @@
         "정답": [
           "바르게 쓴 쪽은 나(I have already finished my homework.)입니다. 가는 긍정문에 yet을 썼습니다. 긍정문의 ‘벌써’는 already를 have와 과거분사 사이에 씁니다."
         ],
+        "틀리면": [
+          "가를 고르면: 긍정문에도 yet을 쓸 수 있다고 생각했습니다(M2). “yet은 어떤 문장에 쓴다고 했지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S05 표를 다시 보여 주고 “yet은 haven't가 있거나 물음표가 있는 문장에.”라고 말해 줍니다."
         ],
@@ -714,6 +717,9 @@
         "정답": [
           "바르게 쓴 쪽은 가(I finished my homework yesterday.)입니다. 나의 문장은 yesterday와 현재완료를 함께 썼습니다. yesterday가 있으면 과거 시제를 씁니다."
         ],
+        "틀리면": [
+          "나를 고르면: 지난 때를 밝히는 yesterday와 현재완료를 함께 썼습니다(M1). “yesterday가 있으면 어떤 시제를 쓰지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S10 표의 첫 줄을 다시 보여 주고 “yesterday가 있으면 have를 빼요.”라고 말해 줍니다."
         ],
@@ -848,18 +854,20 @@
           "“이번에는 혼자 해 볼래? 지시대로 말하고, 그다음 활동지 5에 써.”"
         ],
         "정답": [
-          "① I have just finished my homework.",
-          "② has lost (She has lost her bag.)",
-          "③ yet (I haven't cleaned my room yet.)",
-          "④ I saw the movie yesterday. (yesterday를 빼고 I have seen the movie.라고 해도 뜻에 맞게 고친 것으로 봅니다.)",
+          "① I have just finished my homework. (‘I've just finished my homework’도 맞음)",
+          "② has lost (‘She has lost her bag’도 맞음)",
+          "③ yet (‘I haven't cleaned my room yet’도 맞음)",
+          "④ I saw the movie yesterday. (‘I have seen the movie’도 맞음 — yesterday를 빼고 고친 것)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 have·has, 과거분사, just·yet의 자리, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘I have finished my homework just’라고 하면: just를 문장 끝에 두었습니다(M2). “just는 어디에 넣는다고 했지?” 하고 묻습니다.",
+          "②를 ‘has lose’라고 하면: has 뒤에 동사원형을 썼습니다(M3). “has 뒤에는 어떤 모양이 오지?” 하고 묻습니다.",
+          "②를 ‘She lost her bag’이라고 하면: 과거 시제로 써서 ‘지금 없다’는 뜻이 드러나지 않습니다(M4). “빈칸 두 개로 지금도 없다는 뜻을 담으려면?” 하고 묻습니다. S08로 돌아갑니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “just는 어디에 넣지?” “잃어버려서 지금 없으면 어떤 모양?” “부정문의 ‘아직’은?” “yesterday가 있으면?”이라고만 묻습니다.",
           "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
-        ],
-        "주의": [
-          "②를 She lost her bag.으로 쓰면 ‘지금 없다’는 뜻이 드러나지 않으니 S08을 다시 봅니다."
         ]
       }
     },
@@ -1004,11 +1012,16 @@
           "“just, already는 have 뒤, yet은 끝이요.” “지금도 없다는 뜻이에요.”"
         ],
         "정답": [
-          "① yet (I haven't done it yet.)",
+          "① yet (‘I haven't done it yet’도 맞음)",
           "② 열쇠를 잃어버려서 지금도 없다.",
-          "③ I saw him yesterday."
+          "③ I saw him yesterday. (‘I have seen him’도 맞음 — yesterday를 빼고 고친 것)"
+        ],
+        "틀리면": [
+          "①을 already라고 하면: 부정문에 already를 썼습니다(M2). “haven't가 있는 문장에서 ‘아직’은 무엇이었지?” 하고 묻습니다.",
+          "③을 ‘I have seen him yesterday’라고 하면: 지난 때를 밝히는 yesterday와 현재완료를 함께 썼습니다(M1). “yesterday가 있으면 어떤 시제를 쓰지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁에 “Have you finished your homework yet?”처럼 생활 속에서 한두 번 물어보면 좋은 복습이 됩니다. 다음 차시 ‘관계부사’에서는 This is the house where I was born.처럼 장소·때·이유·방법을 꾸미는 where, when, why, how를 배웁니다."
         ]
       }
@@ -1275,7 +1288,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① I haven't done it (already / yet).에서 알맞은 것을 쓰시오.\n② I have lost my key.의 뜻을 ‘지금’까지 넣어 쓰시오.\n③ I have seen him yesterday.를 바르게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① yet ② 열쇠를 잃어버려서 지금도 없다. ③ I saw him yesterday. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① yet (‘I haven't done it yet’도 맞음) ② 열쇠를 잃어버려서 지금도 없다. ③ I saw him yesterday. (‘I have seen him’도 맞음 — yesterday를 빼고 고친 것) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

@@ -162,8 +162,8 @@
         ],
         "정답": [
           "① I like summer because I can swim.",
-          "② I think cats are cute because they are soft.",
-          "③ I like soccer because it's fun. (it is fun)"
+          "② I think cats are cute because they are soft. (I think cats are cute because they're soft도 맞음)",
+          "③ I like soccer because it's fun. (I like soccer because it is fun도 맞음)"
         ],
         "막히면": [
           "①은 “수영할 수 있어서니까 I can ~.”, ②는 “고양이들이 부드러우니까 they are ~.”라고 틀을 줍니다.",
@@ -344,11 +344,11 @@
           "② We stayed inside because it was rainy.",
           "③ Mina didn't come to school because she was sick."
         ],
+        "틀리면": [
+          "①을 I was hungry because I ate two sandwiches라고 하면: 이유와 결과를 거꾸로 붙였습니다(M1). “샌드위치를 먹어서 배가 고팠다? 말이 될까?” 하고 묻습니다."
+        ],
         "막히면": [
           "보기를 하나씩 읽어 주고 “배가 고파서 샌드위치를 먹었다, 말이 돼?”처럼 우리말로 맞춰 보게 합니다."
-        ],
-        "주의": [
-          "이유와 결과를 거꾸로 붙이면(I was hungry because I ate two sandwiches.) “샌드위치를 먹어서 배가 고팠다? 말이 될까?”라고 묻습니다(오해 M1)."
         ]
       }
     },
@@ -436,6 +436,11 @@
           "③ because of (We were happy because of the good news.)",
           "④ because (We opened the window because it was hot.)"
         ],
+        "틀리면": [
+          "①을 because라고 하면: 명사 앞에 because를 썼습니다(M2). “빈칸 뒤의 the rain에 주어와 동사가 있어?” 하고 묻습니다.",
+          "②를 because of라고 하면: 주어와 동사가 있는 이유 앞에 because of를 썼습니다(M2). “빈칸 뒤의 I got up late에서 주어와 동사를 찾아볼까?” 하고 묻습니다.",
+          "③을 because라고 하면: 명사 덩어리 the good news 앞에 because를 썼습니다(M2). “the good news에 동사가 있어?” 하고 묻습니다."
+        ],
         "막히면": [
           "빈칸 뒤의 낱말에 밑줄을 긋게 하고 “여기 주어와 동사가 있어?”라고 묻습니다."
         ],
@@ -489,6 +494,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(We stayed home because of the rain.)입니다. 가는 because 뒤에 명사 the rain만 썼습니다. 명사만 올 때는 because of를 씁니다. We stayed home because it rained.라고 써도 맞습니다."
+        ],
+        "틀리면": [
+          "가를 고르면: because 뒤에 명사만 써도 된다고 생각했습니다(M2). “the rain 뒤에 동사가 있어? 명사만 올 때는 무엇을 쓴다고 했지?” 하고 묻습니다. S06으로 돌아갑니다."
         ],
         "막히면": [
           "S06의 두 문장을 다시 보여 주고 가와 같은 모양을 찾게 합니다."
@@ -582,15 +590,15 @@
           "“②의 이유는 무엇이고, 결과는 무엇이야?”"
         ],
         "정답": [
-          "① I went to bed early because I was tired.",
+          "① I went to bed early because I was tired. (‘Because I was tired, I went to bed early’도 맞음)",
           "② She was sick, so she stayed home.",
           "③ It was hot, so we went to the beach."
         ],
+        "틀리면": [
+          "②를 She stayed home so she was sick이라고 하면: 순서를 그대로 두고 so만 넣어 이유와 결과가 바뀌었습니다(M1). “집에 있어서 아팠다? 무엇이 이유지?” 하고 묻습니다."
+        ],
         "막히면": [
           "이유 부분에 밑줄을 긋게 하고, S09의 단계를 다시 보여 줍니다."
-        ],
-        "주의": [
-          "②를 She stayed home, so she was sick.처럼 순서를 그대로 두고 so만 넣으면 “집에 있어서 아팠다? 이유와 결과가 바뀌었어.”라고 말해 줍니다(오해 M1)."
         ]
       }
     },
@@ -676,9 +684,14 @@
         "정답": [
           "① because (I opened the window because it was hot.)",
           "② I got wet because of the rain. (wet: 젖은)",
-          "③ I cried because I was sad.",
+          "③ I cried because I was sad. (‘Because I was sad, I cried’도 맞음)",
           "④ Because I got up late. (예: Because I missed the bus. 주어와 동사가 있는 이유면 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. ④는 Because 뒤에 주어와 동사가 있으면 내용은 자유입니다. 쓸 때는 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 so라고 하면: 이유와 결과를 거꾸로 이었습니다(M1). “창문을 연 까닭은 무엇이지? 그 까닭 앞에 무엇을 쓰지?” 하고 묻습니다.",
+          "②를 I got wet because the rain이라고 하면: because 뒤에 명사만 썼습니다(M2). “the rain에 동사가 있어? 명사만 올 때는 무엇을 쓰지?” 하고 묻습니다.",
+          "③을 I was sad because I cried라고 하면: 이유와 결과를 거꾸로 이었습니다(M1). “울어서 슬펐다? 무엇이 이유지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “이유는 어느 쪽이야?” “because 뒤에 주어와 동사가 있어?”라고만 묻습니다.",
@@ -779,9 +792,12 @@
         ],
         "정답": [
           "① It was rainy, so I took an umbrella.",
-          "② I took an umbrella because it was rainy.",
+          "② I took an umbrella because it was rainy. (‘Because it was rainy, I took an umbrella’도 맞음)",
           "③ Because it's delicious. / Because it's sweet. 등 (Because + 주어 + 동사)",
           "기준: ①②는 이유(it was rainy)와 결과(I took an umbrella)의 순서가 맞으면 통과, ③은 Because 뒤에 주어와 동사가 있으면 내용은 자유입니다. 세 개 모두 맞으면 목표 달성으로 봅니다."
+        ],
+        "틀리면": [
+          "②를 It was rainy because I took an umbrella라고 하면: 이유와 결과를 거꾸로 이었습니다(M1). “우산을 가져가서 비가 왔다? 말이 될까?” 하고 묻습니다."
         ],
         "막히면": [
           "“우산을 왜 가져갔어? 비가 와서. 그럼 이유는?”이라고 우리말로 이유와 결과를 먼저 찾게 합니다."
@@ -829,10 +845,16 @@
         ],
         "정답": [
           "① because of (I was late because of the snow.)",
-          "② I slept because I was tired.",
-          "③ Because I want to ~. 등 (Because + 주어 + 동사)"
+          "② I slept because I was tired. (‘Because I was tired, I slept’도 맞음)",
+          "③ 기준: Because 뒤에 주어와 동사가 있는 이유를 쓰면 맞습니다. 예: Because I want to travel."
+        ],
+        "틀리면": [
+          "①을 because라고 하면: 명사 앞에 because를 썼습니다(M2). “the snow 뒤에 동사가 있어?” 하고 묻습니다.",
+          "②를 I was tired because I slept라고 하면: 이유와 결과를 거꾸로 이었습니다(M1). “잠을 자서 피곤했다? 무엇이 이유지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
+          "세 문제 모두 도움 없이 풀면 통과입니다.",
           "하루에 한두 번 “Why are you happy today?”처럼 이유를 묻고 Because로 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘접속사 if·when’에서는 ‘~하면, ~할 때’를 나타내는 문장을 배웁니다."
         ]
       }
@@ -1050,7 +1072,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① I was late ______ the snow. 빈칸에 because나 because of를 쓰시오.\n② I was tired, so I slept.를 because로 바꾸어 쓰시오.\n③ Why do you study English?에 Because로 대답을 쓰시오.",
         "lines": 3,
-        "answer": "① because of ② I slept because I was tired. ③ Because + 주어 + 동사(예: Because I want to travel.) 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① because of (I was late because of the snow.) ② I slept because I was tired. (‘Because I was tired, I slept’도 맞음) ③ 기준: Because 뒤에 주어와 동사가 있는 이유를 쓰면 맞습니다. 예: Because I want to travel."
       }
     ],
     "record": [

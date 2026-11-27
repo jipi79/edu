@@ -346,6 +346,10 @@
           "⑤ which (값이 싼 휴대 전화)",
           "⑥ that (친절한 선생님. 사람이므로 which는 쓸 수 없습니다.)"
         ],
+        "틀리면": [
+          "②를 who라고 하면: 사물에 who를 썼습니다(M2). “버스는 사람이야, 사람이 아니야?” 하고 묻습니다.",
+          "⑥을 which라고 하면: 사람에 which를 썼습니다(M2). “선생님은 사람이지? which는 무엇에 쓰는 말이었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "“이 명사는 사람이야, 사람이 아니야?”라고 먼저 묻고 S04 표를 다시 보여 줍니다.",
           "뜻이 어려우면 “어떤 친구? 제주에 사는 친구.”처럼 명사부터 말하게 합니다."
@@ -447,18 +451,20 @@
           "“③은 무슨 뜻이야?”"
         ],
         "정답": [
-          "① I have a dog which(that) has long ears. (귀가 긴 개가 있어요.)",
-          "② She is a singer who(that) sings very well. (그녀는 노래를 아주 잘하는 가수예요.)",
-          "③ I bought a bag which(that) was very cheap. (아주 싼 가방을 샀어요.)",
-          "④ We met a boy who(that) came from Canada. (우리는 캐나다에서 온 소년을 만났어요.)"
+          "① I have a dog which has long ears. (‘I have a dog that has long ears’도 맞음. 귀가 긴 개가 있어요.)",
+          "② She is a singer who sings very well. (‘She is a singer that sings very well’도 맞음. 그녀는 노래를 아주 잘하는 가수예요.)",
+          "③ I bought a bag which was very cheap. (‘I bought a bag that was very cheap’도 맞음. 아주 싼 가방을 샀어요.)",
+          "④ We met a boy who came from Canada. (‘We met a boy that came from Canada’도 맞음. 우리는 캐나다에서 온 소년을 만났어요.)"
+        ],
+        "틀리면": [
+          "①을 ‘I have a dog which it has long ears’라고 하면: which 뒤에 대명사를 다시 썼습니다(M1). “It은 무엇으로 바뀌었지? 바뀐 뒤에도 It이 남아 있어야 할까?” 하고 묻습니다.",
+          "①을 ‘I have a dog who has long ears’라고 하면: 동물에 who를 썼습니다(M2). “개는 사람이야?” 하고 묻습니다."
         ],
         "막히면": [
-          "“둘째 문장의 It(She, He)은 첫 문장의 무엇과 같아?”라고 묻고, 그 대명사를 손가락으로 가리게 합니다.",
-          "①에서 who를 고르면 “개는 사람이야?”라고 묻습니다."
+          "“둘째 문장의 It(She, He)은 첫 문장의 무엇과 같아?”라고 묻고, 그 대명사를 손가락으로 가리게 합니다."
         ],
         "주의": [
-          "③④는 지난 일이라 절 안의 동사도 과거형 그대로입니다(was, came). 두 문장을 이어도 동사의 시제는 바뀌지 않습니다.",
-          "which it has, who she sings처럼 대명사를 남기면 다음 장에서 바로 비교합니다."
+          "③④는 지난 일이라 절 안의 동사도 과거형 그대로입니다(was, came). 두 문장을 이어도 동사의 시제는 바뀌지 않습니다."
         ]
       }
     },
@@ -507,6 +513,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(I have a friend who lives in Busan.)입니다. 나는 who가 이미 She를 대신하고 있는데 she를 한 번 더 썼습니다."
+        ],
+        "틀리면": [
+          "나를 고르면: who 뒤에 대명사를 다시 썼습니다(M1). “She가 who로 바뀌었으면 She는 어디 갔지?” 하고 묻습니다."
         ],
         "막히면": [
           "S06의 세 단계를 다시 보여 주고, “2단계에서 She가 who로 바뀌었어. 그럼 She는 어디 갔지?”라고 묻습니다."
@@ -682,9 +691,12 @@
           "③ live (two friends는 여럿이므로 -s 없이)",
           "④ sells (a shop은 하나이므로 -s)"
         ],
+        "틀리면": [
+          "③을 lives라고 하면: 동사를 바로 앞 명사에 맞추지 않았습니다(M3). “two friends를 they로 바꾸면? they lives일까, they live일까?” 하고 묻습니다.",
+          "④를 sell이라고 하면: 앞 명사가 하나인데 -s를 빠뜨렸습니다(M3). “a shop은 하나야, 여럿이야?” 하고 묻습니다."
+        ],
         "막히면": [
-          "①②는 S10처럼 절에 괄호를 치게 합니다. 괄호를 빼면 The girl is my cousin. / The books are mine.이 남습니다.",
-          "③에서 lives라고 하면 “two friends를 they로 바꾸면? they lives일까, they live일까?”라고 묻습니다."
+          "①②는 S10처럼 절에 괄호를 치게 합니다. 괄호를 빼면 The girl is my cousin. / The books are mine.이 남습니다."
         ],
         "주의": [
           "next door는 ‘옆집에’, cousin은 ‘사촌’입니다. 처음 말할 때 뜻을 알려 줍니다."
@@ -773,10 +785,14 @@
         ],
         "정답": [
           "① who (과일을 파는 남자)",
-          "② I have a cat which(that) sleeps all day.",
-          "③ She has a brother who(that) plays the piano.",
+          "② I have a cat which sleeps all day. (‘I have a cat that sleeps all day’도 맞음)",
+          "③ She has a brother who plays the piano. (‘She has a brother that plays the piano’도 맞음)",
           "④ 달리고 있는 소년은 톰이다.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 대명사를 다시 쓰지 않았는지(which it ×), 동사의 -s(sleeps, plays), 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "②를 ‘I have a cat which it sleeps all day’라고 하면: which 뒤에 대명사를 다시 썼습니다(M1). “둘째 문장의 It은 무엇으로 바뀌었지?” 하고 묻습니다.",
+          "③을 ‘She has a brother who play the piano’라고 하면: 동사를 앞 명사에 맞추지 않았습니다(M3). “a brother는 하나야, 여럿이야?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “앞 명사가 사람이야?” “둘째 문장의 대명사는 무엇으로 바뀌지?” “진짜 동사는 어디 있어?”라고만 묻습니다.",
@@ -876,9 +892,9 @@
           "“말한 다음에 우리말 뜻도 말해 볼래?”"
         ],
         "정답": [
-          "예: ① I have a friend who lives in Daegu. / who plays the guitar.",
-          "예: ② I like movies which are funny. / which have happy endings.",
-          "예: ③ I want a robot that cleans my room. / that does my homework.",
+          "① 예: I have a friend who lives in Daegu. / who plays the guitar.",
+          "② 예: I like movies which are funny. / which have happy endings.",
+          "③ 예: I want a robot that cleans my room. / that does my homework.",
           "기준: 내용은 자유입니다. who·which·that 바로 뒤에 동사를 쓰고(대명사 ×), ①③은 하나이므로 -s나 is, ②는 movies가 여럿이므로 -s 없는 동사나 are를 쓰면 맞습니다. 세 개 가운데 두 개 이상이면 목표 B 달성으로 봅니다."
         ],
         "막히면": [
@@ -927,10 +943,15 @@
         ],
         "정답": [
           "① which",
-          "② I have a dog which(that) is white.",
-          "③ 노래하고 있는 소녀는 미나예요."
+          "② I have a dog which is white. (‘I have a dog that is white’도 맞음)",
+          "③ 노래하고 있는 소녀는 미나이다."
+        ],
+        "틀리면": [
+          "①을 who라고 하면: 사물에 who를 썼습니다(M2). “가방은 사람이야, 사람이 아니야?” 하고 묻습니다.",
+          "②를 ‘I have a dog which it is white’라고 하면: which 뒤에 대명사를 다시 썼습니다(M1). “It은 무엇으로 바뀌었지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "가족이나 친구를 소개할 때 “She is my aunt who lives in Jeju.”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘목적격 관계대명사’에서는 the cake which my mom made(엄마가 만든 케이크)처럼 who·which 뒤에 주어가 오는 문장과, which를 빼고 쓰는 문장을 배웁니다."
         ]
       }
@@ -1168,7 +1189,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① a bag (which / who) is red에서 알맞은 말을 쓰시오.\n② I have a dog. + It is white.를 한 문장으로 이어 쓰시오.\n③ The girl who is singing is Mina.의 뜻을 쓰시오.",
         "lines": 3,
-        "answer": "① which ② I have a dog which(that) is white. ③ 노래하고 있는 소녀는 미나이다. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① which ② I have a dog which is white. (‘I have a dog that is white’도 맞음) ③ 노래하고 있는 소녀는 미나이다. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

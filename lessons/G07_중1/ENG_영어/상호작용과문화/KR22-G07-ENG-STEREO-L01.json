@@ -167,8 +167,8 @@
           "“③의 뜻을 말해 줘.”"
         ],
         "정답": [
-          "① Pizza is a famous food in Italy. (모든 사람이 날마다 먹는다는 것은 사실이 아님)",
-          "② That's interesting!",
+          "① 기준: ‘모든 사람이 날마다’라는 뜻을 없애고 사실에 가깝게 고쳐 말하면 맞습니다(예: Pizza is a famous food in Italy.).",
+          "② 기준: 상대의 문화를 존중하는 말로 반응하면 맞습니다(예: That's interesting!).",
           "③ 많은 사람이 한국어를 쓴다(말한다)."
         ],
         "막히면": [
@@ -330,14 +330,14 @@
           "“다는 브라질에서 온 Ana가 축구를 잘한다고 했어. 이건 고정관념일까?”"
         ],
         "정답": [
-          "가(All, 모든 한국 사람이 날마다 김치를 먹는 것은 아님), 라(Everyone, every day)",
+          "가, 라. 가는 All(모든 한국 사람이 날마다 김치를 먹는 것은 아님), 라는 Everyone과 every day가 신호 말입니다.",
           "나는 Many(많은)로 흔한 모습을 말한 것이고, 다는 한 사람(Ana)에 대한 사실이라 고정관념이 아닙니다."
+        ],
+        "틀리면": [
+          "다를 고르면: 한 사람(Ana)에 대한 사실을 고정관념으로 보았습니다(M2). “Ana 한 사람 이야기야, 브라질 사람 모두 이야기야?” 하고 묻습니다."
         ],
         "막히면": [
           "S04 표의 신호 말을 다시 보여 주고, 문장마다 신호 말이 있는지 먼저 찾게 합니다."
-        ],
-        "주의": [
-          "다를 고정관념이라고 하면 “Ana 한 사람 이야기야, 브라질 사람 모두 이야기야?”라고 묻습니다. 한 사람에 대한 사실은 고정관념이 아닙니다."
         ]
       }
     },
@@ -428,10 +428,10 @@
           "“②의 always는 무엇으로 바꿀 수 있을까?”"
         ],
         "정답": [
-          "① Some Brazilians are good at soccer. / Not all Brazilians are good at soccer. / Many Brazilians love soccer.",
-          "② Some Italians often eat pasta for dinner. / Many Italians like pasta. / Not all Italians eat pasta for dinner.",
-          "③ Many people in Korea love K-pop. / Not everyone in Korea loves K-pop.",
-          "‘모두’라는 뜻을 없애고 문장이 사실에 가까워지면 모두 맞습니다."
+          "① 예: Some Brazilians are good at soccer. / Not all Brazilians are good at soccer. / Many Brazilians love soccer.",
+          "② 예: Some Italians often eat pasta for dinner. / Many Italians like pasta. / Not all Italians eat pasta for dinner.",
+          "③ 예: Many people in Korea love K-pop. / Not everyone in Korea loves K-pop.",
+          "기준: ‘모두’라는 뜻을 없애고 문장이 사실에 가까워지면 맞습니다."
         ],
         "막히면": [
           "S06의 오른쪽 문장을 보여 주고 낱말만 바꾸게 합니다."
@@ -715,7 +715,7 @@
           "“고정관념이 담기지 않은 문장 두 개는? 나머지 두 문장은 어떻게 고칠까?”"
         ],
         "정답": [
-          "고정관념이 없는 문장: 나(Some people in Japan don't like sushi.), 다(Pizza is a famous food in Italy.)",
+          "나, 다. 고정관념이 없는 문장은 나(Some people in Japan don't like sushi.)와 다(Pizza is a famous food in Italy.)입니다.",
           "가 → Sushi is a famous food in Japan. / Not all Japanese people eat sushi every day.",
           "라 → Some Italians eat rice, too. (never를 빼고 Some으로 고칩니다.)",
           "기준: 두 개를 바르게 고르고 까닭(신호 말 all, never)을 말하면 목표 A 달성, 나머지 하나 이상을 고쳐 말하면 목표 B도 확인된 것으로 봅니다."
@@ -766,10 +766,11 @@
         ],
         "정답": [
           "① 한 나라·무리의 사람들이 모두 똑같다고 굳게 믿는 생각",
-          "② Some Brazilians are good at soccer. / Not all Brazilians are good at soccer.",
-          "③ Not all ~. / Some ~, but some ~. (정중하게)"
+          "② 기준: ‘모두’라는 뜻을 없애고 사실에 가깝게 고치면 맞습니다(예: Some Brazilians are good at soccer. / Not all Brazilians are good at soccer.).",
+          "③ 기준: Not all ~.이나 Some ~, but some ~.처럼 정중하게 바로잡는 말이면 맞습니다(예: Not all Koreans like spicy food.)."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "뉴스나 영상에서 ‘○○ 사람들은 다 ~해’ 같은 말을 들으면 “정말 모두 그럴까?”라고 함께 이야기해 보면 좋은 복습이 됩니다. 중1 영어 차시는 여기까지이며, 계획상 다음 영어 차시는 중2 ‘현재완료(경험)’입니다. 문화를 보는 눈은 중2 ‘문화적 관점 차이’에서 이어집니다."
         ]
       }
@@ -879,7 +880,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 고정관념이 무엇인지 우리말 한 문장으로 쓰시오.\n② All Brazilians are good at soccer.를 고쳐 쓰시오.\n③ 고정관념이 담긴 말을 들었을 때 정중하게 하는 말을 영어로 쓰시오.",
         "lines": 3,
-        "answer": "① 한 나라나 무리의 사람들이 모두 똑같다고 굳게 믿는 생각 ② Some Brazilians are good at soccer. / Not all Brazilians are good at soccer. ③ Not all ~. (예: Not all Koreans like spicy food.) 또는 Some ~, but some ~. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 한 나라·무리의 사람들이 모두 똑같다고 굳게 믿는 생각 ② 기준: ‘모두’라는 뜻을 없애고 사실에 가깝게 고치면 맞습니다(예: Some Brazilians are good at soccer. / Not all Brazilians are good at soccer.). ③ 기준: Not all ~.이나 Some ~, but some ~.처럼 정중하게 바로잡는 말이면 맞습니다(예: Not all Koreans like spicy food.). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

@@ -173,7 +173,7 @@
         ],
         "정답": [
           "① 오늘은 ~에 대해 이야기하고 싶어요.",
-          "② I have two reasons.",
+          "② I have two reasons. (‘There are two reasons’도 맞음)",
           "③ Do you mean ~? (이해한 뜻을 넣어 확인)"
         ],
         "막히면": [
@@ -409,7 +409,7 @@
         "정답": [
           "① going to (Today I'm going to talk about swimming.)",
           "② Let me show (Let me show you this picture.)",
-          "③ To sum up (To sum up, swimming keeps us safe.)",
+          "③ To sum up (In conclusion도 맞음. To sum up, swimming keeps us safe.)",
           "④ Thank you for listening. Do you have any questions?"
         ],
         "막히면": [
@@ -517,6 +517,9 @@
         ],
         "정답": [
           "나가 좋습니다. 핵심어(Life skill)와 그림 하나라 한눈에 보이고, 듣는 사람이 발표자의 말을 듣게 됩니다. 가는 대본 문장을 그대로 옮겨서 듣는 사람이 글을 읽느라 말을 놓치고, 발표자도 자료를 읽게 됩니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 에세이 문장을 자료에 그대로 옮겨도 된다고 생각했습니다(M1). “가를 보여 주면 듣는 사람은 네 말을 들을까, 자료를 읽을까?” 하고 묻습니다."
         ],
         "막히면": [
           "두 자료를 3초씩만 보여 주고 “무엇이 기억나?”라고 묻습니다."
@@ -914,11 +917,12 @@
           "“Today I'm going to talk about ~, Let me show you ~, To sum up ~.” “한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내요.”"
         ],
         "정답": [
-          "① Today I'm going to talk about ~. / Let me show you ~. (Look at this ~.) / To sum up, ~. Thank you for listening.",
+          "① Today I'm going to talk about ~. / Let me show you ~. (Look at this ~.) / To sum up, ~.",
           "② 한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내",
           "③ 확인(Do you mean ~?) → 답과 근거(I think ~ because ~.) → 모르면 I'm not sure, but I think ~."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "가족 모임이나 저녁 시간에 같은 발표를 한 번 더 해 보면 좋은 복습이 됩니다. 다음 차시 ‘협력적 토의’에서는 동의·반대·확인·보충·정리 표현으로 부모와 함께 토의해 결론을 정합니다."
         ]
       }
@@ -1150,7 +1154,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 발표의 시작·자료·마무리 신호어를 하나씩 쓰시오.\n② 좋은 시각 자료의 기준 세 가지를 쓰시오.\n③ 질문에 답하는 순서를 쓰시오.",
         "lines": 3,
-        "answer": "① Today I'm going to talk about ~. / Let me show you ~.(Look at this ~.) / To sum up, ~. ② 한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내 ③ 확인(Do you mean ~?) → 답과 근거(I think ~ because ~.) → 모르면 I'm not sure, but I think ~. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Today I'm going to talk about ~. / Let me show you ~. (Look at this ~.) / To sum up, ~. ② 한 장에 한 생각, 그림 하나, 핵심어 6낱말 이내 ③ 확인(Do you mean ~?) → 답과 근거(I think ~ because ~.) → 모르면 I'm not sure, but I think ~. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

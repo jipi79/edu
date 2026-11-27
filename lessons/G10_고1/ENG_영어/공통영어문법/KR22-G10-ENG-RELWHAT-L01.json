@@ -157,9 +157,9 @@
           "“③은 알맞은 것을 골라 읽어 줘.”"
         ],
         "정답": [
-          "① I like the cake which(that) you made. (which를 빼고 I like the cake you made.도 맞음)",
+          "① I like the cake which you made. (‘I like the cake that you made’, ‘I like the cake you made’도 맞음)",
           "② 내가 산 것",
-          "③ which (책은 사물이라서 which) — 이것은 내가 읽은 책이에요."
+          "③ which (책은 사물이라서 which — 이것은 내가 읽은 책이에요.)"
         ],
         "막히면": [
           "①은 “it은 무엇과 같아? it을 무엇으로 바꿔 어디로 옮겼지?”, ②는 “내가 무엇을 샀어? → 그것. 그러니까?”, ③은 “책은 사람이야, 사물이야?”라고 묻습니다.",
@@ -377,10 +377,10 @@
           "“①④는 덩어리가 주어야. 진짜 동사는 어디 있지?”"
         ],
         "정답": [
-          "① (What he said) was true. — 그가 말한 것은 사실이었어요. (주어, 진짜 동사 was)",
-          "② I can't believe (what I saw). — 나는 내가 본 것을 믿을 수 없어요. (목적어)",
-          "③ This is (what I made for you). — 이것이 내가 너를 위해 만든 거야. (보어)",
-          "④ (What you need) is some rest. — 네게 필요한 것은 약간의 휴식이야. (주어, 진짜 동사 is)"
+          "① 그가 말한 것은 사실이었어요 — 덩어리 What he said, 진짜 동사 was (주어)",
+          "② 나는 내가 본 것을 믿을 수 없어요 — 덩어리 what I saw (목적어)",
+          "③ 이것이 내가 너를 위해 만든 거야 — 덩어리 what I made for you (보어)",
+          "④ 네게 필요한 것은 약간의 휴식이야 — 덩어리 What you need, 진짜 동사 is (주어)"
         ],
         "막히면": [
           "“what 바로 뒤의 주어와 동사는? 그 뒤에 또 동사가 나오면 거기서 덩어리가 끝나.”라고 알려 줍니다.",
@@ -605,6 +605,9 @@
         "정답": [
           "바르게 쓴 쪽은 가(This is the bag which I bought.)입니다. 나의 문장은 앞 명사 the bag 뒤에 what을 썼습니다. what 안에 이미 ‘것’(the thing)이 들어 있으므로 명사 뒤에 쓰지 않습니다. 나의 문장을 고치면 This is the bag which(that) I bought. 또는 the bag을 빼고 This is what I bought.(이것이 내가 산 거예요)"
         ],
+        "틀리면": [
+          "나를 고르면: 앞 명사 뒤에도 what을 쓸 수 있다고 생각했습니다(M1). “what 안에는 이미 무엇이 들어 있었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S08의 두 카드를 다시 보여 주고 “what = the thing which. 그러면 the bag what은 the bag the thing which가 돼.”라고 말해 줍니다."
         ],
@@ -651,12 +654,16 @@
           "③ What she bought was expensive. (그녀가 산 것은 비쌌어요.)",
           "④ This is what I need. (이것이 내가 필요한 것이다.)"
         ],
+        "틀리면": [
+          "②를 ‘I like what you cooked it’이라고 하면: what 절 안에 목적어 it을 다시 썼습니다(M4). “what이 이미 어느 자리를 대신하고 있지?” 하고 묻습니다. S04로 돌아갑니다.",
+          "④를 ‘This is the thing what I need’라고 하면: the thing을 남긴 채 that만 what으로 바꿨습니다(M1). “what 안에 이미 무엇이 들어 있지?” 하고 묻습니다."
+        ],
         "막히면": [
           "the thing which(that)에 동그라미를 치게 하고, 그 자리에 what만 써서 소리 내어 읽게 합니다."
         ],
         "주의": [
           "②의 the things(것들)도 what으로 바꿉니다. ③은 문장 맨 앞이므로 대문자 What으로 씁니다.",
-          "what you cooked it처럼 it을 다시 쓰면 S04를 다시 봅니다. (expensive: 비싼)"
+          "(expensive: 비싼)"
         ]
       }
     },
@@ -741,10 +748,13 @@
         ],
         "정답": [
           "① 내가 가장 좋아하는 것은 피자예요.",
-          "② what (앞 명사 없음) — 나는 네가 말한 것을 이해하지 못해.",
+          "② what (앞 명사 없음 — 나는 네가 말한 것을 이해하지 못해)",
           "③ This is what I want.",
-          "④ I read the book which(that) you bought. (또는 I read what you bought.)",
+          "④ I read the book which you bought. (‘I read the book that you bought’, ‘I read what you bought’도 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "②를 which라고 하면: 앞 명사가 없는데 which를 썼습니다(M2). “괄호 앞에 명사가 있니?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “what 덩어리는 어디까지야? 진짜 동사는?” “괄호 앞에 명사가 있어?” “the thing which를 무엇으로 바꾸지?”라고만 묻습니다.",
@@ -896,11 +906,16 @@
           "“the thing which요.” “앞에 명사가 있으면 which, 없으면 what이에요.”"
         ],
         "정답": [
-          "① 내가 필요한 것은 잠이에요.",
+          "① 내가 필요한 것은 잠이다.",
           "② that (앞 명사 the song)",
           "③ what I bought"
         ],
+        "틀리면": [
+          "②를 what이라고 하면: 앞 명사 뒤에 what을 썼습니다(M1). “괄호 앞에 명사가 있니?” 하고 묻습니다.",
+          "③을 ‘the thing what I bought’라고 하면: the thing을 남긴 채 which만 바꿨습니다(M1). “what 안에 이미 무엇이 들어 있지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집에서 “What I want for dinner is ~.”처럼 말하는 놀이를 하면 좋은 복습이 됩니다. 다음 차시 ‘현재완료진행’에서는 I have been studying for two hours.(나는 두 시간째 공부하고 있어요)처럼 과거에 시작해 지금도 계속하고 있는 일을 말하는 방법을 배웁니다."
         ]
       }

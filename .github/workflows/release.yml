@@ -1,0 +1,76 @@
+# 릴리스를 게시하면 모든 차시를 새로 만들어 학년별 zip을 그 릴리스에 붙인다.
+# 이미 있는 릴리스에 다시 붙이려면 Actions → "자료 묶음 만들기" → Run workflow 에서 태그를 넣는다.
+name: 자료 묶음 만들기
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "파일을 붙일 릴리스의 태그 (예: v0.1.0)"
+        required: true
+
+permissions:
+  contents: write   # 릴리스에 파일을 붙이는 데 필요
+
+jobs:
+  build:
+    name: ${{ matrix.part.name }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        part:
+          - { name: 초등학교, grades: "G01 G02 G03 G04 G05 G06" }
+          - { name: 중학교, grades: "G07 G08 G09" }
+          - { name: 고등학교, grades: "G10 G11 G12" }
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name || inputs.tag }}
+
+      - name: "묶음 스크립트 (태그에 없으면 이 워크플로의 판에서 가져옴, 예: v0.1.0)"
+        run: |
+          if [ ! -f tools/build_release.sh ]; then
+            git fetch --depth 1 origin "$GITHUB_SHA"
+            git checkout FETCH_HEAD -- tools/build_release.sh
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: 시스템 꾸러미 (LibreOffice, poppler, 한글 글꼴)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libreoffice-impress poppler-utils fonts-nanum zip
+
+      - name: 파이썬·노드 꾸러미
+        run: |
+          pip install python-pptx==1.0.2 jsonschema==4.26.0
+          npm ci
+          npm install --no-save playwright@1.63.0
+          npx playwright install --with-deps chromium
+
+      - name: LibreOffice를 동시에 여러 개 돌릴 수 있게 (실행마다 다른 프로필)
+        run: |
+          printf '#!/bin/sh\nexec soffice -env:UserInstallation=file:///tmp/lo-$$ "$@"\n' | sudo tee /usr/local/bin/soffice-iso
+          sudo chmod +x /usr/local/bin/soffice-iso
+
+      - name: 만들기와 검사
+        env:
+          SOFFICE: soffice-iso
+        run: tools/build_release.sh "$TAG" ${{ matrix.part.grades }}
+
+      - name: 릴리스에 붙이기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$TAG" release/*.zip --clobber --repo "$GITHUB_REPOSITORY"

@@ -277,12 +277,14 @@
           "③ 공정한 말 (Many people in Japan — 범위를 밝혔고 널리 알려진 사실)",
           "④ 고정관념 (never — 모두를 단정)"
         ],
+        "틀리면": [
+          "③을 고정관념이라고 하면: 범위를 밝힌 일반화도 고정관념이라고 생각했습니다(M3). “이 문장은 ‘모두’라고 말해, ‘많은 사람’이라고 말해?” 하고 묻습니다. S03으로 돌아갑니다."
+        ],
         "막히면": [
           "“이 문장은 ‘모두’라고 말해, ‘많은 사람’이나 ‘내 친구 한 명’이라고 말해?”를 먼저 묻습니다."
         ],
         "주의": [
-          "②의 hug는 ‘껴안다’, ③의 bow는 ‘고개 숙여 인사하다’입니다. ②는 친구 한 명의 일을 그대로 말해서 공정합니다. 여기에 so all Brazilians like to hug.를 붙이면 고정관념이 됩니다.",
-          "③을 고정관념이라고 하면 S03 표의 둘째 줄을 다시 보며 ‘범위를 밝힌 일반화는 괜찮다’는 것을 짚습니다(오해 M3)."
+          "②의 hug는 ‘껴안다’, ③의 bow는 ‘고개 숙여 인사하다’입니다. ②는 친구 한 명의 일을 그대로 말해서 공정합니다. 여기에 so all Brazilians like to hug.를 붙이면 고정관념이 됩니다."
         ]
       }
     },
@@ -316,9 +318,9 @@
           "“모두를 단정하는 말을 찾아서, 범위를 밝히는 말로 고쳐 말해 줘.”"
         ],
         "정답": [
-          "① Many people in Korea bow to older people. (everyone → Many people, 범위도 older people로)",
-          "② When I met Lucía, she stood close. / Lucía stood close when we talked. (so 뒤를 빼고 한 사람의 일로만 말함)",
-          "③ Some people in big cities are very busy. / People in big cities are often busy.",
+          "① 예: Many people in Korea bow to older people. (everyone → Many people, 범위도 older people로)",
+          "② 예: When I met Lucía, she stood close. / Lucía stood close when we talked. (so 뒤를 빼고 한 사람의 일로만 말함)",
+          "③ 예: Some people in big cities are very busy. / People in big cities are often busy.",
           "기준: All, always, never, everyone을 빼고 Many·Some·often으로 범위를 밝히거나, 한 사람의 일은 본 대로만 쓰면 맞습니다. 반대로 단정하는 문장(Koreans never bow.)으로 바꾸면 다시 생각하게 합니다."
         ],
         "막히면": [
@@ -358,6 +360,9 @@
         ],
         "정답": [
           "나가 공정합니다. 한 사람(루시아)의 행동을 그 사람의 관점에서 ‘친근함을 보이는 방법일 수 있다’고 해석했고, 나라 전체로 넓히지 않았습니다. 가는 한 사람의 행동으로 나라 사람 모두를 무례하다고 판단했습니다(고정관념, 판단)."
+        ],
+        "틀리면": [
+          "가를 고르면: 한 사람의 행동으로 나라 사람 모두를 무례하다고 판단했습니다(M1·M2). “가는 무엇을 근거로 ‘스페인 사람들’ 모두에 대해 말했지?” 하고 묻습니다."
         ],
         "막히면": [
           "“너라면 처음 보는 친구가 너를 보고 ‘한국 사람은 다 ~해’라고 하면 어때?”라고 묻습니다."
@@ -627,10 +632,10 @@
           "“다 쓰면 소리 내어 읽고, 활동지 5 점검표로 확인해 줘.”"
         ],
         "정답": [
-          "경험 예: In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug.",
-          "처음 생각 예: At first, I thought it was strange because I usually just say hello.",
-          "다른 관점의 까닭 예: But he said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs.",
-          "배운 점 예: Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country by one person. (잘 쓴 예 전체 88낱말)",
+          "① 경험 예: In my experience, people greet each other in different ways. Last year, my cousin's friend from Canada visited us. When he met me, he gave me a big hug.",
+          "② 처음 생각 예: At first, I thought it was strange because I usually just say hello.",
+          "③ 다른 관점의 까닭 예: But he said that many of his friends hug to show they are happy to see someone. Of course, not everyone in Canada hugs.",
+          "④ 배운 점 예: Now I understand that hugging is different, not wrong. I learned that I should not judge a whole country by one person. (잘 쓴 예 전체 88낱말)",
           "기준(점검표 5항목): ① 네 부분(경험·처음 생각·다른 관점의 까닭·배운 점) ② 6~8문장 ③ 조심스러운 말 하나 이상(In my experience, Many·Some people, Of course, not everyone ~) ④ All·always·never로 한 나라 사람 모두를 단정하는 문장이 없음 ⑤ 대문자·마침표·주어와 동사. 다섯 가운데 네 개 이상이면 통과입니다."
         ],
         "막히면": [
@@ -740,6 +745,9 @@
           "가: always로 그 나라 사람 모두를 단정(고정관념) / 나: Everyone으로 모두를 단정 / 다: 서는 거리만 보고 무례하다고 판단",
           "기준: 라를 고르고 나머지 가운데 둘 이상의 문제를 말하면 통과입니다."
         ],
+        "틀리면": [
+          "다를 고르면: 서는 거리만 보고 무례하다고 판단했습니다(M2). “가까이 서는 것이 그 사람에게는 어떤 뜻일 수 있을까?” 하고 묻습니다."
+        ],
         "막히면": [
           "신호 말(always, Everyone, One of my friends)에 동그라미를 치게 합니다."
         ],
@@ -785,11 +793,12 @@
           "“공정한 말은 본 대로만 말하거나 범위를 밝히고, 고정관념은 모두를 단정해요.” “경험, 처음 생각, 다른 관점의 까닭, 배운 점이요.”"
         ],
         "정답": [
-          "① 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝힘(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정함(All, always, never)",
+          "① 기준: 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝히며(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정한다(All, always, never)는 차이를 말하면 맞습니다.",
           "② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점",
-          "③ When I met Lucía, she stood close. (또는 Some people in Lucía's town stand close when they talk.)"
+          "③ 기준: 한 사람의 일은 본 대로만(When I met Lucía, she stood close.) 쓰거나 범위를 밝혀(Some people in Lucía's town stand close when they talk.) 고쳐 쓰면 맞습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "뉴스나 영상에서 ‘○○ 사람들은 모두 ~’ 같은 말을 들으면 함께 고쳐 말해 보면 좋은 복습이 됩니다. 고1 영어 차시는 여기까지입니다. 고2 첫 영어 차시 ‘가정법 과거완료’에서는 지난 일과 반대되는 상상을 말하는 방법을 배웁니다."
         ]
       }
@@ -1001,7 +1010,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 공정한 말과 고정관념의 차이를 쓰시오.\n② 성찰 글의 네 부분을 순서대로 쓰시오.\n③ All Spanish people stand close.를 공정하게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝혀 조심스럽게 말하며(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정한다(All, always, never). ② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점 ③ When I met Lucía, she stood close. / Some people in Lucía's town stand close when they talk. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 기준: 공정한 말은 한 사람의 일은 본 대로만 말하고(One of my ~, When I met ~) 여럿의 일은 범위를 밝히며(Many, Some, often), 고정관념은 한 사람·한 번의 경험으로 모두를 단정한다(All, always, never)는 차이를 말하면 맞습니다. ② 경험 → 처음 생각 → 다른 관점의 까닭 → 배운 점 ③ 기준: 한 사람의 일은 본 대로만(When I met Lucía, she stood close.) 쓰거나 범위를 밝혀(Some people in Lucía's town stand close when they talk.) 고쳐 쓰면 맞습니다. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

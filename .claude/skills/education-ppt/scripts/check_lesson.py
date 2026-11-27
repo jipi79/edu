@@ -296,7 +296,8 @@ def check(path):
         if not lines:
             continue
         n_items = wrong_line.item_count(s)
-        labels = "가나다라마바"[:len(s.get("options") or [])]
+        nopt = len(s.get("options") or [])
+        labels = "가나다라마바"[:nopt] + "ABCDEF"[:nopt] + "ⓐⓑⓒⓓⓔⓕ"[:nopt]
         sides = [re.split(r"[:：]|\s{2,}", (s.get(k) or {}).get("title", "")) for k in ("left", "right")]
         names = {x.strip() for side in sides for x in side if x.strip()}
         names |= {(s.get(k) or {}).get("title", "").strip() for k in ("left", "right")}
@@ -310,7 +311,7 @@ def check(path):
             for key in ("pick", "omit"):
                 if key in w and w[key] not in labels and w[key] not in names:
                     errors.append(f"{s['id']}: 틀리면 ‘{w[key]}’ — 이 장의 보기·이름표가 아니다")
-            if "seq" in w and (sorted(w["seq"]) != sorted(labels) or len(w["seq"]) != len(labels)):
+            if "seq" in w and not any(sorted(w["seq"]) == sorted(lab[:nopt]) for lab in ("가나다라마바", "ABCDEF", "ⓐⓑⓒⓓⓔⓕ")):
                 errors.append(f"{s['id']}: 틀리면 차례 ‘{' → '.join(w['seq'])}’가 이 장의 보기({labels})를 한 번씩 쓰지 않는다")
             if "say" in w and s.get("kind") not in ("compare", "choice"):
                 errors.append(f"{s['id']}: 틀리면 ‘{w['say']}라고 하면’은 견주기·고르기 장에만 쓴다")
@@ -340,7 +341,7 @@ def check(path):
                 hit = fm in ws_ans
             if main.strip() and not hit:
                 msg = f"{summ[-1]['id']}: 복습 {k + 1}번 답 ‘{main.strip()[:30]}’이 활동지 ‘다음 수업을 시작할 때’ 답에 없다(한 벌이 아님)"
-                (errors if lesson["grade"] <= "G06" else notes).append(msg)  # 초등은 정리 완료 기준
+                errors.append(msg)
 
     # 중·고: 화면 이름을 옮긴 부모용 글이 화면과 맞는지(말투 변환 뒤 해요체 이름이 남지 않게)
     if lesson["grade"] >= "G07":

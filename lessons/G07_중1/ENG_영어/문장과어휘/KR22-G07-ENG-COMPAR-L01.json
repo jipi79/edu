@@ -256,11 +256,14 @@
         "정답": [
           "① bigger (b-i-g-g-e-r, g를 한 번 더 씁니다.)",
           "② taller (The tree is taller than the house. 나무가 집보다 키가 더 커요.)",
-          "③ are (My shoes are new. shoes는 여러 개라서 they → are)"
+          "③ are (My shoes are new. shoes는 두 짝이라서 they → are)"
+        ],
+        "틀리면": [
+          "①을 biger라고 하면: 끝 글자를 겹쳐 쓰지 않았습니다(M2). “6학년 때 big은 끝 글자를 어떻게 했지?” 하고 묻습니다.",
+          "③을 is라고 하면: shoes를 하나로 보았습니다. “shoes는 몇 개야? he·she·it·we·they 가운데 무엇으로 바꿀 수 있어?” 하고 묻습니다."
         ],
         "막히면": [
-          "①에서 biger라고 하면 “6학년 때 big은 끝 글자를 한 번 더 썼지?”라고 떠올리게 합니다.",
-          "①②가 모두 어렵거나 taller, than의 뜻을 모르면 S16(보충)을 먼저 합니다. ③을 틀리면 “shoes는 몇 개야? he·she·it·we·they 가운데 무엇으로 바꿀 수 있어?”라고 묻습니다."
+          "①②가 모두 어렵거나 taller, than의 뜻을 모르면 S16(보충)을 먼저 합니다."
         ],
         "주의": [
           "③은 be동사 확인입니다. 비교 문장에도 is, are가 꼭 들어갑니다(The tree is taller ~)."
@@ -455,6 +458,10 @@
           "⑤ heavier (자음 v + y → ier)",
           "⑥ thinner (모음 i 하나 + 자음 n 하나 → n을 한 번 더)"
         ],
+        "틀리면": [
+          "③을 easyer라고 하면: 자음 + y의 y를 i로 바꾸지 않았습니다(M2). “easy는 끝이 어떻게 생겼지?” 하고 묻습니다.",
+          "④를 hoter라고 하면: 모음 하나 + 자음 하나로 끝나는 낱말의 끝 글자를 겹치지 않았습니다(M2). “hot은 S04 표의 몇째 줄이야?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04 표를 다시 띄우고, 낱말이 표의 몇째 줄에 해당하는지 먼저 고르게 합니다."
         ],
@@ -622,6 +629,9 @@
         "정답": [
           "바르게 쓴 쪽은 가(My bag is heavier than your bag.)입니다. 나는 more와 -er을 함께 썼습니다. heavy는 자음 + y로 끝나므로 heavier만 씁니다."
         ],
+        "틀리면": [
+          "나를 고르면: more와 -er을 함께 써도 된다고 생각했습니다(M1). “-er을 붙였는데 more가 또 필요할까?” 하고 묻습니다."
+        ],
         "막히면": [
           "S06 아래 카드(more와 -er은 함께 쓰지 않는다)를 다시 보여 줍니다."
         ],
@@ -699,12 +709,12 @@
           "② smaller (Coco is smaller than Max. 몸길이 35 cm < 60 cm)",
           "③ heavier (Max is heavier than Coco. 8 kg > 3 kg)"
         ],
-        "막히면": [
-          "표의 두 수를 손가락으로 짚으며 “어느 쪽이 더 커(많아)?”를 먼저 묻고, 그 쪽이 문장 앞에 있는지 확인합니다.",
-          "③에서 heavyer라고 하면 S04의 셋째 줄(자음 + y)을 다시 봅니다."
+        "틀리면": [
+          "②를 bigger라고 하면: 문장 앞의 Coco가 더 작다는 것을 놓쳤습니다(M4). “Coco가 Max보다 커, 작아?” 하고 묻습니다.",
+          "③을 heavyer라고 하면: 자음 + y의 y를 i로 바꾸지 않았습니다(M2). “heavy는 끝이 어떻게 생겼지?” 하고 묻습니다. S04로 돌아갑니다."
         ],
-        "주의": [
-          "②에서 bigger라고 하면 “Coco가 더 커? 문장 앞에 있는 Coco가 더 작으니까 smaller”라고 짚어 줍니다(오해 M4)."
+        "막히면": [
+          "표의 두 수를 손가락으로 짚으며 “어느 쪽이 더 커(많아)?”를 먼저 묻고, 그 쪽이 문장 앞에 있는지 확인합니다."
         ]
       }
     },
@@ -745,11 +755,15 @@
           "② more difficult (Math is more difficult than art for me. 나에게는 수학이 미술보다 더 어려워요.)",
           "③ more (Jisu has more books than Minho. 지수는 민호보다 책이 더 많아요.)"
         ],
+        "틀리면": [
+          "①을 ‘gooder’나 ‘more good’이라고 하면: 모양이 바뀌는 말을 규칙대로 만들었습니다(M3). “S07 표에 있었던 말이지?” 하고 묻습니다.",
+          "②를 difficulter라고 하면: 긴 낱말에 -er을 붙였습니다(M1). “difficult는 짧은 낱말이야, 긴 낱말이야?” 하고 묻습니다.",
+          "③을 manyer라고 하면: 모양이 바뀌는 말을 규칙대로 만들었습니다(M3). “many도 S07 표에 있었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S06(more)과 S07(모양이 바뀌는 말)을 다시 보여 줍니다."
         ],
         "주의": [
-          "②에서 difficulter, ①에서 gooder나 more good이라고 하면 바로 고치기보다 “S07 표에 있었던 말이지?”라고 다시 찾게 합니다.",
           "③의 has는 ‘일반동사 현재 문장’ 차시에서 배운 have의 3인칭 단수 모양입니다."
         ]
       }
@@ -834,9 +848,13 @@
         "정답": [
           "① hotter, easier, worse",
           "② more popular",
-          "③ The dog is heavier than the cat. (The cat is lighter than the dog.도 맞습니다.)",
+          "③ The dog is heavier than the cat. (The cat is lighter than the dog도 맞음)",
           "④ Ann is taller than Tom. (more를 지웁니다.)",
           "기준: 네 개 가운데 세 개 이상이면 통과. ①은 세 낱말이 모두 맞아야 합니다. 쓸 때는 철자, 첫 글자 대문자, 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 badder라고 하면: bad를 규칙대로 바꾸었습니다(M3). “bad도 S07 표에 있었지?” 하고 묻습니다.",
+          "④를 ‘Ann is more taller than Tom.’이라고 하면: more와 -er을 함께 썼습니다(M1). “-er을 붙였는데 more가 또 필요할까?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “낱말 끝이 어떻게 생겼어?” “어느 쪽이 더 무거워?”라고만 묻습니다.",
@@ -968,10 +986,14 @@
           "“표를 보고 가방 두 개를 비교해 줘. ①은 무게, ②는 값, ③은 별점이야. 괄호 속 낱말을 써서 문장으로 말해 줘.”"
         ],
         "정답": [
-          "① Bag B is heavier than Bag A. (2 kg > 1 kg)",
-          "② Bag B is more expensive than Bag A. (50,000원 > 30,000원)",
-          "③ Bag A is better than Bag B. (별 4개 > 별 2개)",
-          "Bag A is lighter than Bag B. / Bag A is cheaper than Bag B.처럼 반대쪽을 주어로 해도 뜻이 맞으면 통과입니다. 세 문장 모두 맞으면 목표 달성으로 봅니다."
+          "① Bag B is heavier than Bag A. (Bag A is lighter than Bag B도 맞음. 2 kg > 1 kg)",
+          "② Bag B is more expensive than Bag A. (Bag A is cheaper than Bag B도 맞음. 50,000원 > 30,000원)",
+          "③ Bag A is better than Bag B. (Bag B is worse than Bag A도 맞음. 별 4개 > 별 2개)",
+          "반대쪽을 주어로 해도 뜻이 맞으면 통과입니다. 세 문장 모두 맞으면 목표 달성으로 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘Bag B is more heavier than Bag A.’라고 하면: more와 -er을 함께 썼습니다(M1). “-er을 붙였는데 more가 또 필요할까?” 하고 묻습니다.",
+          "③을 ‘Bag A is more good than Bag B.’라고 하면: 모양이 바뀌는 말을 규칙대로 만들었습니다(M3). “good의 비교급은 S07 표에서 무엇이었지?” 하고 묻습니다."
         ],
         "막히면": [
           "“어느 가방이 더 무거워? 그 가방을 먼저 말해.”처럼 주어를 고르는 것만 도와줍니다."
@@ -1020,9 +1042,14 @@
         "정답": [
           "① bigger, happier, better",
           "② more beautiful",
-          "③ This box is heavier than that box."
+          "③ This box is heavier than that box. (This box is heavier than that one도 맞음)"
+        ],
+        "틀리면": [
+          "②를 beautifuler라고 하면: 긴 낱말에 -er을 붙였습니다(M1). “beautiful은 짧은 낱말이야, 긴 낱말이야?” 하고 묻습니다.",
+          "③을 ‘This box is more heavier than that box.’라고 하면: more와 -er을 함께 썼습니다(M1). “heavy에 -er을 붙였는데 more가 또 필요할까?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "장을 보거나 물건을 정리할 때 “Which is bigger?”처럼 하루에 한두 번 물어보면 좋은 복습이 됩니다. 다음 차시 ‘최상급’에서는 셋 이상 가운데 ‘가장 ~한’을 나타내는 the tallest, the most를 배웁니다."
         ]
       }
@@ -1274,7 +1301,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① big, happy, good의 비교급을 쓰시오.\n② beautiful의 비교급을 쓰시오.\n③ ‘이 상자가 저 상자보다 더 무겁다.’를 영어로 쓰시오.",
         "lines": 3,
-        "answer": "① bigger, happier, better ② more beautiful ③ This box is heavier than that box. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① bigger, happier, better ② more beautiful ③ This box is heavier than that box. (This box is heavier than that one도 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

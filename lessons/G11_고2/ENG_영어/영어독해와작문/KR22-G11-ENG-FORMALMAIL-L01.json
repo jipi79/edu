@@ -159,6 +159,10 @@
           "② I wonder if (whether) the museum is open on Monday.",
           "③ Do you know where the office is?"
         ],
+        "틀리면": [
+          "①을 ‘Could you tell me when does the camp start?’라고 하면: 의문사 뒤를 의문문 순서로 두었습니다. “간접의문문에서 의문사 뒤는 어떤 순서였지?” 하고 묻습니다.",
+          "③을 ‘Do you know where is the office?’라고 하면: 의문사 뒤를 의문문 순서로 두었습니다. “where 뒤에 주어와 동사 가운데 무엇이 먼저 오지?” 하고 묻습니다."
+        ],
         "막히면": [
           "“간접의문문에서는 의문사 뒤가 ‘주어 + 동사’ 순서야. when does the camp start → when the camp starts.”라고 알려 줍니다.",
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
@@ -358,7 +362,7 @@
           "① Dear Ms. Parker,",
           "② I would like to join the camp.",
           "③ Could you please send me the form? / I would appreciate it if you could send me the form.",
-          "④ I apologize for being late. / I am sorry for being late."
+          "④ I apologize for being late. (‘I am sorry for being late.’도 맞음)"
         ],
         "막히면": [
           "S03 표를 다시 보여 주고 같은 줄을 찾게 합니다."
@@ -398,8 +402,8 @@
         "정답": [
           "나가 좋은 제목입니다. 무엇을 원하는지(하루 연장 요청)와 무엇에 대한 것인지(역사 보고서)가 제목만 보고도 보입니다. 가는 길지만 무슨 일인지 알 수 없고, 느낌표가 많아 격식에도 맞지 않습니다."
         ],
-        "막히면": [
-          "“가 제목만 보고 무슨 메일인지 알 수 있어?”라고 묻습니다."
+        "틀리면": [
+          "가를 고르면: 제목이 길고 힘차면 목적이 드러난다고 보았습니다(M2). “가 제목만 보고 무슨 메일인지 알 수 있어?” 하고 묻습니다."
         ],
         "주의": [
           "제목은 문장이 아니라 낱말 묶음으로 쓰고, 중요한 낱말의 첫 글자를 대문자로 씁니다(Request for ~, Question about ~, Apology for ~, Problem with ~).",
@@ -574,11 +578,11 @@
           "“활동지 3의 상황 카드 네 장 가운데 하나를 골라 이메일을 써 볼래? 다 쓰면 소리 내어 읽고 점검표에 표시해 줘.”"
         ],
         "정답": [
-          "잘 쓴 예(카드 A 요청): Subject: Request to Use the Science Lab on Friday / Dear Ms. Lee, / I am Sora Park, the leader of the science club. I am writing to ask if our club could use the science lab this Friday after school. We need it for about an hour to finish our project on plant growth. / We will clean the lab and return the key right after we finish. I would appreciate it if you could let me know by Wednesday. Thank you for your help. / Best regards, / Sora Park",
-          "카드 B 문의 예: Subject: Question about Student Tickets / Dear City Museum Staff, / I am writing to ask about student tickets for a group of ten. We are planning to visit your museum next Saturday. Could you tell me how much a student ticket is? I would also like to know whether we can take photos inside. / Thank you for your time. / Best regards, (이름)",
-          "카드 C 사과 예: Subject: Apology for Missing Practice / Dear Coach Kim, / I am writing to apologize for missing practice yesterday. I had a bad cold. Could you tell me what I missed? It will not happen again. Thank you for your understanding. / Sincerely, (이름)",
-          "카드 D 불만 예: Subject: Wrong Size in My T-shirt Order / Dear Customer Service Team, / I am writing about a problem with my order. Unfortunately, the T-shirt I received is size S, but I ordered size M. I have attached a photo of the label. Could you please send me the right size? / I look forward to hearing from you. / Sincerely, (이름)",
-          "기준(점검표 6항목): ① 목적이 보이는 제목 ② Dear + 이름, ③ 목적 문장(I am writing to ~) ④ 세부 내용과 정중한 요청 ⑤ 맺음 인사와 이름 ⑥ 줄임말·이모티콘·느낌표 없음. 다섯 개 이상이면 통과."
+          "① 카드 A 요청 예: Subject: Request to Use the Science Lab on Friday / Dear Ms. Lee, / I am Sora Park, the leader of the science club. I am writing to ask if our club could use the science lab this Friday after school. We need it for about an hour to finish our project on plant growth. / We will clean the lab and return the key right after we finish. I would appreciate it if you could let me know by Wednesday. Thank you for your help. / Best regards, / Sora Park",
+          "② 카드 B 문의 예: Subject: Question about Student Tickets / Dear City Museum Staff, / I am writing to ask about student tickets for a group of ten. We are planning to visit your museum next Saturday. Could you tell me how much a student ticket is? I would also like to know whether we can take photos inside. / Thank you for your time. / Best regards, (이름)",
+          "③ 카드 C 사과 예: Subject: Apology for Missing Practice / Dear Coach Kim, / I am writing to apologize for missing practice yesterday. I had a bad cold. Could you tell me what I missed? It will not happen again. Thank you for your understanding. / Sincerely, (이름)",
+          "④ 카드 D 불만 예: Subject: Wrong Size in My T-shirt Order / Dear Customer Service Team, / I am writing about a problem with my order. Unfortunately, the T-shirt I received is size S, but I ordered size M. I have attached a photo of the label. Could you please send me the right size? / I look forward to hearing from you. / Sincerely, (이름)",
+          "기준(점검표 6항목): 목적이 보이는 제목 / Dear + 이름, / 목적 문장(I am writing to ~) / 세부 내용과 정중한 요청 / 맺음 인사와 이름 / 줄임말·이모티콘·느낌표 없음. 고른 카드 한 장의 메일이 여섯 가운데 다섯 개 이상이면 통과."
         ],
         "막히면": [
           "바로 고쳐 주지 말고 “지금 몇째 부분을 쓰고 있어? 이 메일을 받은 사람은 무엇을 해 주면 돼?”라고만 묻습니다.",
@@ -683,6 +687,10 @@
           "③ Could you tell me when the deadline is?",
           "기준: 세 개 모두 맞으면 통과입니다(②는 목적과 대상이 보이면 됨)."
         ],
+        "틀리면": [
+          "①을 나라고 하면: 친구에게 쓰는 말투를 선생님께 그대로 썼습니다(M1). “선생님께 보내는 메일을 Hey로 시작해도 될까?” 하고 묻습니다.",
+          "③을 ‘Could you tell me when is the deadline?’이라고 하면: 의문사 뒤를 의문문 순서로 두었습니다. “간접의문문에서 의문사 뒤는 어떤 순서였지?” 하고 묻습니다."
+        ],
         "막히면": [
           "①은 S03 표, ②는 S07, ③은 S02를 다시 보여 줍니다."
         ],
@@ -710,10 +718,10 @@
           "text": "격식 이메일의\n여섯 부분은?"
         },
         {
-          "text": "네 목적의\n목적 문장은?"
+          "text": "요청·문의·사과의\n목적 문장은?"
         },
         {
-          "text": "가장 공손한\n요청 표현은?"
+          "text": "Can you send it?을\n가장 공손하게 바꾸면?"
         }
       ],
       "next": "찬반 토론하기",
@@ -729,10 +737,14 @@
         ],
         "정답": [
           "① 제목 → Dear ~, → 목적 문장 → 세부 내용·질문 → 요청과 기한 → 맺음 인사와 이름",
-          "② I am writing to ask if ~ / ask about ~ / apologize for ~ / I am writing about a problem with ~",
-          "③ Could you please ~? / I would appreciate it if you could ~."
+          "② I am writing to ask if ~ / I am writing to ask about ~ / I am writing to apologize for ~",
+          "③ I would appreciate it if you could send it. (‘Could you please send it?’도 맞음)"
+        ],
+        "틀리면": [
+          "③을 ‘Can you please send it?’이라고 하면: 친구에게 쓰는 Can you를 그대로 두었습니다(M1). “선생님께 부탁할 때 Can 대신 무엇으로 시작했지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "학교 영어 선생님이나 외국인 펜팔에게 실제로 메일을 쓸 기회가 있으면 오늘 점검표로 확인해 보세요. 다음 차시 ‘찬반 토론하기’에서는 입론·반박·최종 발언 표현으로 논제에 대해 토론합니다."
         ]
       }
@@ -948,7 +960,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 격식 이메일의 여섯 부분을 순서대로 쓰시오.\n② 요청·문의·사과 메일의 목적 문장을 하나씩 쓰시오.\n③ Can you send it?을 가장 공손한 표현으로 바꿔 쓰시오.",
         "lines": 3,
-        "answer": "① 제목 → Dear ~, → 목적 문장 → 세부 내용·질문 → 요청과 기한 → 맺음 인사와 이름 ② I am writing to ask if ~ / I am writing to ask about ~ / I am writing to apologize for ~ ③ I would appreciate it if you could send it. (Could you please send it?도 인정). 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 제목 → Dear ~, → 목적 문장 → 세부 내용·질문 → 요청과 기한 → 맺음 인사와 이름 ② I am writing to ask if ~ / I am writing to ask about ~ / I am writing to apologize for ~ ③ I would appreciate it if you could send it. (‘Could you please send it?’도 맞음). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

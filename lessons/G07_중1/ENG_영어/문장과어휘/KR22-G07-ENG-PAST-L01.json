@@ -293,11 +293,12 @@
           "⑤ were (Mina and I → we)",
           "⑥ was (It was cold yesterday.)"
         ],
+        "틀리면": [
+          "②를 was라고 하면: My friends를 한 사람으로 보았습니다(M1). “friends 끝에 s가 있지? 무엇으로 바꿀 수 있어?” 하고 묻습니다.",
+          "⑤를 was라고 하면: Mina and I를 한 사람으로 보았습니다(M1). “Mina and I는 몇 사람이지? 무엇으로 바꿀 수 있어?” 하고 묻습니다."
+        ],
         "막히면": [
           "S03의 표를 다시 띄우고 주어를 표의 어느 줄로 바꿀 수 있는지 먼저 찾게 합니다."
-        ],
-        "주의": [
-          "⑤ Mina and I was는 아주 흔한 실수입니다. 두 사람이니까 we, 그래서 were라고 짚어 줍니다."
         ]
       }
     },
@@ -417,6 +418,11 @@
           "④ stopped (The bus stopped here. p를 하나 더)",
           "⑤ played (They played soccer. 모음 a + y)",
           "⑥ watched (He watched a movie.)"
+        ],
+        "틀리면": [
+          "②를 studyed라고 하면: 자음 + y의 y를 i로 바꾸지 않았습니다(M3). “d와 y, 끝이 어떻게 생겼지?” 하고 묻습니다.",
+          "④를 stoped라고 하면: 끝 글자를 겹쳐 쓰지 않았습니다(M3). “stop은 S05 표의 몇째 줄이야?” 하고 묻습니다.",
+          "⑤를 plaied라고 하면: 모음 + y인데 y를 i로 바꾸었습니다(M3). “a와 y, y 앞이 모음이야, 자음이야?” 하고 묻습니다."
         ],
         "막히면": [
           "철자를 말로 하기 어려우면 종이에 써 보게 하고 S05의 표와 비교합니다."
@@ -573,6 +579,9 @@
         "정답": [
           "바르게 쓴 쪽은 가(I went to the park.)입니다. go는 모양이 바뀌는 불규칙 동사라서 과거형이 went입니다. goed라는 낱말은 없습니다."
         ],
+        "틀리면": [
+          "나를 고르면: 모양이 바뀌는 동사에도 -ed를 붙였습니다(M2). “go는 S07 표에 있었니?” 하고 묻습니다."
+        ],
         "막히면": [
           "S07의 표에서 go 줄을 손가락으로 찾게 합니다."
         ],
@@ -616,14 +625,17 @@
           "“②의 buys는 과거형으로 바꾸면 s는 어떻게 될까?”"
         ],
         "정답": [
-          "① I ate breakfast yesterday.",
-          "② She bought a bag last week.",
-          "③ We saw a movie last Sunday.",
-          "④ He wrote a letter two days ago."
+          "① I ate breakfast yesterday. (Yesterday I ate breakfast도 맞음)",
+          "② She bought a bag last week. (Last week she bought a bag도 맞음)",
+          "③ We saw a movie last Sunday. (Last Sunday we saw a movie도 맞음)",
+          "④ He wrote a letter two days ago. (Two days ago he wrote a letter도 맞음)"
+        ],
+        "틀리면": [
+          "①을 ‘I eated breakfast yesterday.’라고 하면: 모양이 바뀌는 동사에 -ed를 붙였습니다(M2). “eat은 S07 표에 있었지?” 하고 묻습니다.",
+          "②를 ‘She boughts a bag last week.’라고 하면: 과거형에 3인칭 단수 -s를 붙였습니다(M4). “과거형은 주어에 따라 모양이 바뀌었니?” 하고 묻습니다."
         ],
         "막히면": [
-          "S07의 표를 다시 보여 주고 동사를 먼저 찾게 합니다.",
-          "②에서 She boughts라고 하면 “과거형은 주어가 누구든 모양이 하나야. bought.”라고 말해 줍니다(오해 M4)."
+          "S07의 표를 다시 보여 주고 동사를 먼저 찾게 합니다."
         ],
         "주의": [
           "때를 나타내는 말은 보통 문장 끝에 씁니다. Yesterday, I ate breakfast.처럼 맨 앞에 써도 맞습니다."
@@ -712,8 +724,13 @@
           "① were (My parents were busy. my parents → they)",
           "② I studied math.",
           "③ She went to the library.",
-          "④ He had lunch yesterday. (Yesterday he had lunch.도 맞음)",
+          "④ He had lunch yesterday. (Yesterday he had lunch도 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 철자(studied), 문장 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 was라고 하면: 여러 낱말로 된 주어와 was·were의 짝을 틀렸습니다(M1). “my parents는 무엇으로 바꿀 수 있어?” 하고 묻습니다.",
+          "②를 ‘I studyed math.’라고 하면: 자음 + y의 y를 i로 바꾸지 않았습니다(M3). “d와 y, 끝이 어떻게 생겼지?” 하고 묻습니다.",
+          "③을 ‘She goed to the library.’라고 하면: 모양이 바뀌는 동사에 -ed를 붙였습니다(M2). “go는 S07 표에 있었지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “주어를 he, she, it, we, they로 바꾸면?” “ed를 붙이는 동사야, 모양이 바뀌는 동사야?”라고만 묻습니다.",
@@ -814,8 +831,10 @@
           "“시작은 Last weekend, ~로 해도 돼.”"
         ],
         "정답": [
-          "예: ① It was sunny. / I was happy. ② I watched a movie. / I played games. ③ I went to my grandma's house. / I ate chicken.",
-          "기준: 세 문장 모두 과거형이 맞고(was·were의 짝, -ed 철자, 불규칙 과거형), 주어와 동사가 있는 문장이면 통과입니다. 내용은 실제로 한 일이 아니어도 됩니다. 세 문장 모두 맞으면 목표 A·B 달성으로 봅니다."
+          "① 기준: was나 were를 바르게 써서 기분이나 날씨를 말하면 맞습니다(예: It was sunny. / I was happy.).",
+          "② 기준: -ed를 붙이는 동사를 철자에 맞는 과거형으로 써서 말하면 맞습니다(예: I watched a movie. / I played games.).",
+          "③ 기준: 모양이 바뀌는 동사의 과거형을 바르게 써서 말하면 맞습니다(예: I went to my grandma's house. / I ate chicken.).",
+          "세 문장 모두 주어와 동사가 있고 과거형이 맞으면 통과입니다. 내용은 실제로 한 일이 아니어도 됩니다. 세 문장 모두 맞으면 목표 A·B 달성으로 봅니다."
         ],
         "막히면": [
           "부모가 먼저 세 문장으로 시범을 보입니다. “Last weekend, it was cold. I cleaned the house. I made kimchi stew.”",
@@ -867,7 +886,12 @@
           "② studied, stopped",
           "③ ate, bought"
         ],
+        "틀리면": [
+          "①을 was라고 하면: 주어와 was·were의 짝을 틀렸습니다(M1). “they에는 was야, were야?” 하고 묻습니다.",
+          "③을 ‘eated, buyed’라고 하면: 모양이 바뀌는 동사에 -ed를 붙였습니다(M2). “eat과 buy는 S07 표에 있었지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "자기 전에 “Today I ~.”로 오늘 한 일을 과거형으로 한두 문장 말하게 하면 좋은 복습이 됩니다. 다음 차시 ‘과거 부정문·의문문’에서는 didn't, Did you ~?와 wasn't, Were you ~?를 배웁니다."
         ]
       }
@@ -1169,7 +1193,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① They ______ tired yesterday. 빈칸에 was나 were를 쓰시오.\n② study, stop의 과거형을 쓰시오.\n③ eat, buy의 과거형을 쓰시오.",
         "lines": 3,
-        "answer": "① were ② studied, stopped ③ ate, bought. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① were (They were tired yesterday.) ② studied, stopped ③ ate, bought 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

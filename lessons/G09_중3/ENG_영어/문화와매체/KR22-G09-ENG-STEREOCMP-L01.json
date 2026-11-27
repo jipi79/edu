@@ -573,7 +573,7 @@
         "정답": [
           "① everyone, every day",
           "② 40명 가운데 8명(8 + 14 + 6 + 12 = 40). 8명은 절반(20명)보다 적습니다.",
-          "③ Some people play soccer on the beach. / On one Saturday, 8 of 40 people on this beach played soccer. / Not everyone in Brazil plays soccer on the beach.",
+          "③ 예: Some people play soccer on the beach. / On one Saturday, 8 of 40 people on this beach played soccer. / Not everyone in Brazil plays soccer on the beach. (everyone과 every day를 없애고 자료보다 크게 말하지 않으면 맞음)",
           "이 기록은 하루(어느 토요일 아침), 한 바닷가만 센 것이라 ‘날마다’나 ‘브라질의 모든 사람’을 말할 수 없습니다."
         ],
         "막히면": [
@@ -630,6 +630,9 @@
         ],
         "정답": [
           "나가 자료에 더 맞습니다. 5명은 20명의 절반(10명)보다 적으므로 Some(몇몇)이 알맞습니다. 가는 Every를 없앴지만 자료보다 크게 말했습니다. 더 정확하게는 In our survey, 5 of 20 students love super spicy food.라고 씁니다."
+        ],
+        "틀리면": [
+          "가를 고르면: Every만 없애면 자료에 맞는다고 보았습니다(M2). “20명의 절반은 몇 명이지? 5명은 그보다 많아, 적어?” 하고 묻습니다."
         ],
         "막히면": [
           "S05에서 쓴 바둑돌 20개 가운데 5개를 다시 보여 줍니다."
@@ -927,9 +930,13 @@
           "“자막은 ‘일본 사람들은 날마다 초밥을 먹는다’야. 아래 자료는 일본 학생 10명의 지난주 점심을 조사한 지어낸 자료야. 자료에 맞는 문장 두 개는?”"
         ],
         "정답": [
-          "자료에 맞는 문장: 가(초밥을 먹은 학생은 3 + 1 = 4명, 절반보다 적으므로 Some), 나(6 + 3 + 1 = 10명 가운데 6명은 초밥을 먹지 않음)",
+          "가, 나. 가(초밥을 먹은 학생은 3 + 1 = 4명, 절반보다 적으므로 Some), 나(6 + 3 + 1 = 10명 가운데 6명은 초밥을 먹지 않음)",
           "다 – 날마다 먹은 학생은 없고(가장 많이 먹은 학생도 2번), 4명은 절반보다 적어 Many도 맞지 않습니다. 라 – 4명이 먹었으므로 never는 반대로 단정한 말입니다.",
           "기준: 두 개를 바르게 고르고 나머지 하나 이상의 까닭을 숫자로 말하면 통과."
+        ],
+        "틀리면": [
+          "다를 고르면: 자료보다 크게 말했습니다(M2). “날마다 먹은 학생이 있었어? 초밥을 먹은 4명은 절반보다 많아?” 하고 묻습니다.",
+          "라를 고르면: 고정관념을 고친다며 반대로 단정했습니다(M3). “초밥을 한 번이라도 먹은 학생은 몇 명이야?” 하고 묻습니다."
         ],
         "막히면": [
           "“초밥을 한 번이라도 먹은 학생은 몇 명이야? 날마다 먹은 학생은?”이라고만 묻습니다."
@@ -980,7 +987,11 @@
           "② Some (7명은 절반 15명보다 적음)",
           "③ 예: Some Canadians play ice hockey. / Not all Canadians play ice hockey. / In this club, 7 of 30 students play ice hockey."
         ],
+        "틀리면": [
+          "②를 Many라고 하면: 숫자를 절반과 견주지 않고 Many를 골랐습니다(M2). “30명의 절반은 몇 명이지? 7명은 그보다 많아?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "광고나 영상에서 ‘모두가 ~해요!’ 같은 말을 보면 “정말 모두일까? 자료가 있을까?”라고 함께 이야기해 보면 좋은 복습이 됩니다.",
           "이 차시가 중학교 영어의 마지막 차시입니다. 다음은 고등학교 영어로 이어지며, 그 전에 기록표에서 ‘있음’으로 표시된 차시를 골라 다시 해 보면 좋습니다."
         ]
@@ -1141,7 +1152,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① All Canadians play ice hockey!에서 고정관념을 알려 주는 신호 말을 쓰시오.\n② 30명 가운데 7명이 아이스하키를 한다. Many와 Some 가운데 알맞은 말을 쓰시오.\n③ Canadians never play ice hockey.를 고정관념 없이 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① All ② Some ③ 예: Some Canadians play ice hockey. / Not all Canadians play ice hockey. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① All ② Some (7명은 절반 15명보다 적음) ③ 예: Some Canadians play ice hockey. / Not all Canadians play ice hockey. / In this club, 7 of 30 students play ice hockey. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

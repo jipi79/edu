@@ -695,8 +695,8 @@
         "정답": [
           "나가 알맞습니다. 한 사람이 사흘씩 해 본 작은 실험이므로 ‘나에게는 ~일 수 있다(may)’고 쓰고 한계를 밝혀야 합니다. 가는 prove(증명)와 everyone(모든 사람)으로 결론을 과장했습니다."
         ],
-        "막히면": [
-          "“이 실험에 참여한 사람은 몇 명이야? 며칠 했어?”라고 묻습니다."
+        "틀리면": [
+          "가를 고르면: 작은 실험으로 모든 사람에 대한 결론을 낸 것을 알맞다고 보았습니다(M2). “이 실험에 참여한 사람은 몇 명이야? 며칠 했어?” 하고 묻습니다."
         ],
         "주의": [
           "여기까지가 보고서의 짜임과 표현입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
@@ -739,6 +739,10 @@
           "② Results (The results show that, 숫자)",
           "③ Conclusion (This suggests that)",
           "④ Question (The purpose of this inquiry was ~ whether)"
+        ],
+        "틀리면": [
+          "②를 Conclusion이라고 하면: 결과(숫자)와 결론(뜻)을 섞었습니다(M1). “이 문장은 숫자를 말해, 숫자의 뜻을 말해?” 하고 묻습니다.",
+          "③을 Results라고 하면: 숫자의 뜻을 해석한 결론을 결과로 보았습니다(M1). “이 문장은 숫자를 말해, 숫자의 뜻을 말해?” 하고 묻습니다."
         ],
         "막히면": [
           "S04 표에서 같은 표현을 찾게 합니다."
@@ -974,6 +978,9 @@
           "③ (12 + 15 + 18) ÷ 3 = 15 → On average, I solved 15 problems.",
           "기준: 세 개 모두 맞으면 통과입니다."
         ],
+        "틀리면": [
+          "①을 Results라고 하면: 숫자의 뜻을 해석한 결론을 결과로 보았습니다(M1). “이 문장은 숫자를 말해, 숫자의 뜻을 말해?” 하고 묻습니다."
+        ],
         "막히면": [
           "①은 S04 표, ②는 S07, ③은 S06의 평균 계산을 다시 보여 줍니다."
         ],
@@ -998,13 +1005,13 @@
       "dont": "prove · everyone, 숫자 없는 결과",
       "review": [
         {
-          "text": "보고서의\n네 부분은?"
+          "text": "보고서의 네 부분과\n대표 표현은?"
         },
         {
           "text": "결과와 결론의\n차이는?"
         },
         {
-          "text": "작은 실험의 결론에\n쓰는 신중한 말은?"
+          "text": "This proves that\neveryone ~.를\n신중하게 고치는 말은?"
         }
       ],
       "next": "자료를 인용한 논증 글",
@@ -1019,11 +1026,12 @@
           "“Question whether, Method To answer this question, Results show that, Conclusion suggests that이요.” “결과는 숫자, 결론은 뜻이에요.”"
         ],
         "정답": [
-          "① Question(The purpose ~ whether) → Method(To answer this question, I ~) → Results(The results show that ~ / On average) → Conclusion(This suggests that ~ / One limitation is that ~)",
-          "② 결과 = 숫자, 결론 = 숫자의 뜻 + 한계",
-          "③ prove·everyone 대신 suggest·may·for me"
+          "① 네 부분: Question(The purpose of this inquiry was to find out whether ~) / Method(To answer this question, I ~) / Results(The results show that ~) / Conclusion(This suggests that ~, One limitation is that ~)",
+          "② 결과는 숫자, 결론은 그 숫자의 뜻과 한계",
+          "③ suggest, may, for me(+ 한계 문장)"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "궁금한 것 하나를 정해 일주일 동안 기록하고(예: 잠든 시간과 아침 기분) 같은 짜임으로 보고서를 써 보면 좋은 복습이 됩니다. 다음 차시 ‘자료를 인용한 논증 글’에서는 영어 자료를 인용하거나 바꾸어 써서 근거로 삼는 논증 글을 씁니다."
         ]
       }
@@ -1260,7 +1268,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 탐구 보고서의 네 부분과 대표 표현을 쓰시오.\n② 결과와 결론의 차이를 쓰시오.\n③ This proves that everyone ~.를 신중한 결론으로 고칠 때 쓰는 말을 쓰시오.",
         "lines": 3,
-        "answer": "① Question(The purpose of this inquiry was to find out whether ~) / Method(To answer this question, I ~) / Results(The results show that ~) / Conclusion(This suggests that ~, One limitation is that ~) ② 결과는 숫자, 결론은 그 숫자의 뜻과 한계 ③ suggest, may, for me(+ 한계 문장). 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 네 부분: Question(The purpose of this inquiry was to find out whether ~) / Method(To answer this question, I ~) / Results(The results show that ~) / Conclusion(This suggests that ~, One limitation is that ~) ② 결과는 숫자, 결론은 그 숫자의 뜻과 한계 ③ suggest, may, for me(+ 한계 문장) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

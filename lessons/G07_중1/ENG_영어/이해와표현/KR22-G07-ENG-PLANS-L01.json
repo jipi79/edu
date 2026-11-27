@@ -176,8 +176,11 @@
           "② went (Last Sunday, I went to the park. Last Sunday는 지난 일)",
           "③ 처음(언제·어디서·누구와) – 가운데(한 일, First·Then·Finally) – 끝(느낌)"
         ],
+        "틀리면": [
+          "①을 visited라고 하면: going to 뒤에 과거형을 썼습니다(M1). “going to 뒤에는 동사의 어떤 모양이 왔지?” 하고 묻습니다.",
+          "②를 go라고 하면: Last Sunday가 지난 일을 나타낸다는 것을 놓쳤습니다. “Last Sunday는 지난 일이야, 앞으로의 일이야?” 하고 묻습니다."
+        ],
         "막히면": [
-          "①을 틀리면 “going to 뒤에는 동사의 어떤 모양이 왔지?”라고 묻습니다.",
           "①②가 모두 어렵거나 ③을 떠올리지 못하면 S16(보충)을 먼저 합니다."
         ]
       }
@@ -347,10 +350,13 @@
           "“③, Will you read a book this weekend?”"
         ],
         "정답": [
-          "① I'm going to clean my room (this weekend).",
-          "② I'm going to learn taekwondo (next month).",
+          "① I'm going to clean my room (this weekend). (I will clean my room도 맞음)",
+          "② I'm going to learn taekwondo (next month). (I will learn taekwondo도 맞음)",
           "③ Yes, I will.",
-          "①②는 I will clean my room.처럼 will로 대답해도 맞습니다. ③은 Will로 물었으므로 will로 대답합니다."
+          "③은 Will로 물었으므로 will로 대답합니다."
+        ],
+        "틀리면": [
+          "①을 ‘I going to clean my room’이라고 하면: be동사를 빠뜨렸습니다(M2). “I 다음, going to 앞에 빠진 말은 없을까?” 하고 묻습니다."
         ],
         "막히면": [
           "질문의 going to를 그대로 받아 “I'm going to + 단서”로 말하면 된다고 알려 줍니다."
@@ -403,7 +409,10 @@
           "“두 문장은 어디가 달라? 두 군데를 찾아볼래?”"
         ],
         "정답": [
-          "바르게 쓴 쪽은 가(I will go to camp next month.)입니다. 나는 will 뒤에 goes를 썼고(→ go), next month 앞에 in을 썼습니다(→ 지움)."
+          "가. 바르게 쓴 문장은 I will go to camp next month.입니다. 나는 will 뒤에 goes를 썼고(→ go), next month 앞에 in을 썼습니다(→ 지움)."
+        ],
+        "틀리면": [
+          "나를 고르면: will 뒤의 -s와 next month 앞의 in을 바르다고 보았습니다(M1·M3). “will 뒤에는 동사의 어떤 모양이 오지? next 앞에도 in을 쓸까?” 하고 묻습니다."
         ],
         "막히면": [
           "S03 아래 카드와 S04 아래 카드를 차례로 보여 주며 하나씩 찾게 합니다."
@@ -444,9 +453,12 @@
           "“③은 어디가 틀렸을까?”"
         ],
         "정답": [
-          "① Next summer, I'm going to visit my uncle. (Next summer, I will visit my uncle.도 맞음)",
+          "① Next summer, I'm going to visit my uncle. (Next summer I will visit my uncle도 맞음)",
           "② I read a book last week. (read의 과거형은 철자가 같은 read)",
           "③ I'm going to go shopping. (going to 뒤에는 동사원형)"
+        ],
+        "틀리면": [
+          "②를 ‘I'm going to read a book last week’라고 하면: 지난 일 문장에 미래 표현을 그대로 두었습니다(M4). “last week는 지난 일이야, 앞으로의 일이야? 동사는 어떻게 바뀌어야 할까?” 하고 묻습니다."
         ],
         "막히면": [
           "“때를 나타내는 말이 바뀌었지? 지난 일이면 과거형, 앞으로면 will이나 going to + 동사원형.”이라고 짚어 줍니다."
@@ -824,7 +836,7 @@
           "text": "I will goes to camp.를\n바르게 고치면?"
         },
         {
-          "text": "이번 주말 계획을\n두 문장으로 말하기"
+          "text": "이번 주말 계획을\n두 문장으로 쓰기"
         }
       ],
       "next": "뜻 확인하며 대화 잇기",
@@ -841,9 +853,14 @@
         "정답": [
           "① next month",
           "② I will go to camp. (goes → go)",
-          "③ 예: I'm going to visit my grandma this weekend. I will read a book. (동사원형과 때 표현이 있으면 통과)"
+          "③ 예: I'm going to visit my grandma this weekend. I will read a book. (will 하나, be going to 하나에 동사원형과 때 표현을 쓰면 맞음)"
+        ],
+        "틀리면": [
+          "①을 ‘in next month’라고 하면: next 앞에 in을 붙였습니다(M3). “S04 표에서 next month 앞에 무엇이 있었지?” 하고 묻습니다.",
+          "②를 ‘I will goes to camp’라고 하면: will 뒤에 -s를 그대로 두었습니다(M1). “will 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "주말을 앞둔 금요일마다 “What are you going to do this weekend?”라고 묻고 영어로 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘뜻 확인하며 대화 잇기’에서는 잘 못 들었거나 헷갈릴 때 다시 묻고 뜻을 확인하는 표현을 배웁니다."
         ]
       }
@@ -1063,7 +1080,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① ‘다음 달에’를 영어로 쓰시오.\n② I will goes to camp.를 바르게 고쳐 쓰시오.\n③ 이번 주말 계획을 두 문장으로 쓰시오(will 하나, be going to 하나).",
         "lines": 3,
-        "answer": "① next month ② I will go to camp. ③ 예: I'm going to visit my grandma this weekend. I will read a book. (동사원형과 be동사가 맞으면 통과) 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① next month ② I will go to camp. (goes → go) ③ 예: I'm going to visit my grandma this weekend. I will read a book. (will 하나, be going to 하나에 동사원형과 때 표현을 쓰면 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

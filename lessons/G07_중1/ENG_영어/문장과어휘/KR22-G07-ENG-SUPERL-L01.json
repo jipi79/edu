@@ -287,7 +287,7 @@
         "정답": [
           "① heavier (h-e-a-v-i-e-r, 자음 + y → ier)",
           "② better",
-          "③ Minho is taller than Jisu. (160 cm > 150 cm, Jisu is shorter than Minho.도 맞습니다.)"
+          "③ Minho is taller than Jisu. (Jisu is shorter than Minho도 맞음. 160 cm > 150 cm)"
         ],
         "막히면": [
           "①에서 heavyer라고 하면 “y 앞이 자음이면 y를 무엇으로 바꿨지?”라고 묻습니다.",
@@ -485,11 +485,14 @@
           "⑤ the most famous (비교급 more famous)",
           "⑥ the easiest"
         ],
+        "틀리면": [
+          "①을 oldest라고 하면: 최상급 앞의 the를 빠뜨렸습니다(M1). “최상급 앞에는 무엇을 붙였지?” 하고 묻습니다.",
+          "⑤를 ‘the famousest’라고 하면: 긴 낱말에 -est를 붙였습니다(M2). “famous의 비교급은 무엇이었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04 표를 다시 띄우고, 낱말이 어느 줄의 규칙에 해당하는지 먼저 고르게 합니다."
         ],
         "주의": [
-          "the를 빠뜨리고 oldest만 말하면 “최상급 앞에는?”이라고 묻습니다(오해 M1).",
           "헷갈리는 철자(busiest, hottest)는 종이에 써 보게 합니다."
         ]
       }
@@ -656,11 +659,12 @@
           "③ in (the park: 장소)",
           "④ of (all: 모두, 여럿)"
         ],
+        "틀리면": [
+          "①을 in이라고 하면: 여럿 가운데인데 in을 썼습니다(M4). “상자가 몇 개야?” 하고 묻습니다.",
+          "②를 of라고 하면: 한 모임인데 of를 썼습니다(M4). “my family는 한 모임이야, 여럿이야?” 하고 묻습니다."
+        ],
         "막히면": [
           "빈칸 뒤의 낱말이 하나의 장소·모임인지, 여럿인지 먼저 묻습니다."
-        ],
-        "주의": [
-          "①에서 in이라고 하면 “상자가 몇 개야? 넷 ‘가운데’지?”라고 짚어 줍니다."
         ]
       }
     },
@@ -709,6 +713,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(Cal is the tallest of the three.)입니다. 가는 the most와 -est를 함께 썼습니다. tall은 짧은 낱말이라 the tallest만 씁니다."
+        ],
+        "틀리면": [
+          "가를 고르면: the most와 -est를 함께 썼습니다(M2). “tall은 짧은 낱말이야, 긴 낱말이야?” 하고 묻습니다."
         ],
         "막히면": [
           "S04 아래 카드(the most biggest ×)를 다시 보여 줍니다."
@@ -786,9 +793,12 @@
           "② the heaviest (Max is the heaviest of the three. 10 kg이 가장 무거움)",
           "③ heavier (Bori is heavier than Coco. 6 kg > 4 kg, than이 있으므로 비교급)"
         ],
+        "틀리면": [
+          "①을 oldest라고 하면: 최상급 앞의 the를 빠뜨렸습니다(M1). “최상급 앞에는 무엇을 붙였지?” 하고 묻습니다.",
+          "③을 ‘the heaviest’라고 하면: than이 있는데 최상급을 썼습니다(M5). “빈칸 뒤에 than이 있지? 둘만 비교할 때는?” 하고 묻습니다."
+        ],
         "막히면": [
-          "표의 수 세 개를 손가락으로 짚으며 “가장 큰 수는?”을 먼저 묻습니다.",
-          "③에서 the heaviest라고 하면 “빈칸 뒤에 than이 있지? 둘만 비교할 때는?”이라고 묻습니다."
+          "표의 수 세 개를 손가락으로 짚으며 “가장 큰 수는?”을 먼저 묻습니다."
         ],
         "주의": [
           "the oldest than처럼 최상급과 than을 함께 쓰면 고쳐 줍니다(오해 M5)."
@@ -878,6 +888,10 @@
           "③ in (my class: 한 모임)",
           "④ It is the biggest of the three. (most를 지웁니다.)",
           "기준: 네 개 가운데 세 개 이상이면 통과. ①은 세 낱말 모두 맞고 the가 있어야 합니다. 쓸 때는 철자, 첫 글자 대문자, 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "③을 of라고 하면: 한 모임인데 of를 썼습니다(M4). “my class는 한 모임이야, 여럿이야?” 하고 묻습니다.",
+          "④를 ‘It is biggest of the three.’라고 하면: most를 지우면서 the까지 지웠습니다(M1). “최상급 앞에는 무엇이 있어야 하지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “비교급은 뭐였지?” “뒤에 오는 말이 모임이야, 여럿이야?”라고만 묻습니다.",
@@ -1008,10 +1022,13 @@
           "“표를 보고 가방을 말해 줘. ①은 A와 B 둘만 값으로 비교하고, ②③은 셋 가운데 가장인 것을 말해 줘.”"
         ],
         "정답": [
-          "① Bag B is more expensive than Bag A. (35,000원 > 20,000원, Bag A is cheaper than Bag B.도 맞습니다.)",
+          "① Bag B is more expensive than Bag A. (Bag A is cheaper than Bag B도 맞음. 35,000원 > 20,000원)",
           "② Bag C is the most expensive of the three. (50,000원이 가장 비쌈)",
           "③ Bag B is the heaviest of the three. (3 kg이 가장 무거움)",
           "기준: 세 문장 모두 비교급·최상급을 바르게 고르고, ②③에 the와 of the three가 있으면 목표 달성으로 봅니다."
+        ],
+        "틀리면": [
+          "②를 ‘Bag C is the most expensivest of the three.’라고 하면: the most와 -est를 함께 썼습니다(M2). “expensive는 긴 낱말이지? the most를 쓰면 -est도 필요할까?” 하고 묻습니다."
         ],
         "막히면": [
           "“둘이야, 셋이야?”를 먼저 묻고, 둘이면 than, 셋이면 the와 of the three를 떠올리게 합니다."
@@ -1059,10 +1076,15 @@
         ],
         "정답": [
           "① the hottest, the best",
-          "② of (of the four: 넷 가운데, 여럿)",
+          "② of (the four: 넷, 여럿)",
           "③ This book is the most interesting of the three."
         ],
+        "틀리면": [
+          "②를 in이라고 하면: 여럿 가운데인데 in을 썼습니다(M4). “the four는 한 모임이야, 여럿이야?” 하고 묻습니다.",
+          "③을 ‘This book is the interestingest of the three.’라고 하면: 긴 낱말에 -est를 붙였습니다(M2). “interesting은 짧은 낱말이야, 긴 낱말이야?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁 식탁에서 “Who is the oldest in our family?”처럼 하루에 한두 번 물어보면 좋은 복습이 됩니다. 다음 차시 ‘요지와 세부 정보’에서는 짧은 글과 대화를 읽고 들으며 가장 하고 싶은 말과 꼭 필요한 정보를 찾습니다."
         ]
       }
@@ -1332,7 +1354,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① hot, good의 최상급을 쓰시오.\n② the tallest ___ the four의 빈칸에 in과 of 가운데 알맞은 말을 쓰시오.\n③ ‘이 책이 셋 가운데 가장 재미있다.’를 영어로 쓰시오.",
         "lines": 3,
-        "answer": "① the hottest, the best ② of ③ This book is the most interesting of the three. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① the hottest, the best ② of (the four: 넷, 여럿) ③ This book is the most interesting of the three. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

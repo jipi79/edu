@@ -421,12 +421,14 @@
           "⑤ has (He has a bike.)",
           "⑥ like (They like pizza. 여럿이라 그대로)"
         ],
+        "틀리면": [
+          "①을 watchs라고 하면: ch로 끝나는 동사의 규칙을 놓쳤습니다(M2). “watch는 어떤 글자로 끝나지?” 하고 묻습니다.",
+          "②를 studys라고 하면: 자음 + y의 y를 i로 바꾸지 않았습니다(M2). “d와 y, 끝이 어떻게 생겼어?” 하고 묻습니다.",
+          "⑥을 likes라고 하면: 아무 주어에나 -s를 붙였습니다(M1). “they는 한 사람이야?” 하고 묻습니다."
+        ],
         "막히면": [
           "주어에 손가락을 대고 “이 주어는 he, she, it 가운데 무엇으로 바꿀 수 있어?”라고 먼저 묻고, 그다음 S05의 표를 보게 합니다.",
           "철자를 말로 하기 어려우면 종이에 써 보게 합니다."
-        ],
-        "주의": [
-          "⑥ They likes처럼 쓰면 “they는 한 사람이야?”라고 묻습니다(오해 M1의 반대 실수)."
         ]
       }
     },
@@ -475,6 +477,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(My brother plays games.)입니다. My brother는 he로 바꿀 수 있는 3인칭 단수라서 play에 -s를 붙여야 합니다."
+        ],
+        "틀리면": [
+          "나를 고르면: 여러 낱말로 된 주어에서 -s를 빠뜨렸습니다(M1). “My brother 대신 he를 넣으면 동사는 어떻게 될까?” 하고 묻습니다."
         ],
         "막히면": [
           "“He play games.와 He plays games. 가운데 무엇이 맞아?”라고 주어를 he로 바꿔 물은 뒤 원래 문장으로 돌아갑니다."
@@ -646,17 +651,17 @@
           "“②의 drinks는 부정문에서 어떻게 바뀌어?”"
         ],
         "정답": [
-          "① I don't like carrots.",
-          "② My mom doesn't drink coffee.",
+          "① I don't like carrots. (I do not like carrots도 맞음)",
+          "② My mom doesn't drink coffee. (My mom does not drink coffee도 맞음)",
           "③ Does he watch TV?",
           "④ No, I don't."
         ],
-        "막히면": [
-          "S08의 단계와 S09의 표를 다시 보여 줍니다.",
-          "②에서 doesn't drinks라고 하면 “does가 s를 가져갔지?”라고 묻습니다."
+        "틀리면": [
+          "②를 ‘My mom doesn't drinks coffee.’라고 하면: doesn't 뒤에 -s를 남겼습니다(M4). “does가 s를 가져갔지?” 하고 묻습니다.",
+          "③을 ‘Is he watch TV?’나 ‘Does he watches TV?’라고 하면: be동사로 물었거나 does 뒤에 -s를 남겼습니다(M3·M4). “S09의 표에서 같은 줄을 찾아볼까?” 하고 묻습니다."
         ],
-        "주의": [
-          "③을 Is he watch TV?나 Does he watches TV?로 말하면 S09의 표에서 같은 줄을 찾아 비교하게 합니다."
+        "막히면": [
+          "S08의 단계와 S09의 표를 다시 보여 줍니다."
         ]
       }
     },
@@ -740,10 +745,14 @@
         ],
         "정답": [
           "① goes (Minsu goes to school.)",
-          "② She doesn't study math.",
+          "② She doesn't study math. (She does not study math도 맞음)",
           "③ Does your sister have a cat?",
           "④ Yes, he does.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 문장 첫 글자 대문자, 아포스트로피('), 끝의 마침표·물음표와 철자(goes, study, have)도 봅니다."
+        ],
+        "틀리면": [
+          "①을 gos라고 하면: o로 끝나는 동사의 규칙을 놓쳤습니다(M2). “go는 어떤 글자로 끝나지?” 하고 묻습니다.",
+          "③을 ‘Does your sister has a cat?’이라고 하면: does 뒤에 has를 그대로 남겼습니다(M4). “does 뒤에 동사는 어떤 모양이었지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “주어가 3인칭 단수야?” “does 뒤에 동사는 어떤 모양이었지?”라고만 묻습니다.",
@@ -893,10 +902,15 @@
         ],
         "정답": [
           "① watches (My dad watches TV.)",
-          "② She doesn't like cats.",
+          "② She doesn't like cats. (She does not like cats도 맞음)",
           "③ No, he doesn't."
         ],
+        "틀리면": [
+          "①을 watchs라고 하면: ch로 끝나는 동사의 규칙을 놓쳤습니다(M2). “watch는 어떤 글자로 끝나지?” 하고 묻습니다.",
+          "②를 ‘She doesn't likes cats.’라고 하면: doesn't 뒤에 -s를 남겼습니다(M4). “does가 s를 가져갔지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "식사 때 “Do you like kimchi?”, 가족 이야기를 할 때 “Does Grandma like flowers?”처럼 하루에 한두 번 영어로 묻고 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘현재진행형’에서는 지금 하고 있는 일(I'm reading.)을 말하는 방법을 배웁니다."
         ]
       }
@@ -1180,7 +1194,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① My dad (watch) TV. 괄호 안의 동사를 알맞은 모양으로 바꿔 문장을 쓰시오.\n② She likes cats. 부정문으로 바꾸어 쓰시오.\n③ Does he play soccer? No로 대답을 쓰시오.",
         "lines": 3,
-        "answer": "① My dad watches TV. ② She doesn't like cats. ③ No, he doesn't. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① watches (My dad watches TV.) ② She doesn't like cats. (She does not like cats도 맞음) ③ No, he doesn't. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

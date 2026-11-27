@@ -351,16 +351,16 @@
           "① am (I'm hungry.)",
           "② is (My dad → he)",
           "③ are (You're my friend.)",
-          "④ are (The cats → they, 고양이 여러 마리)",
+          "④ are (The cats → they, 고양이가 두 마리 이상)",
           "⑤ are (Tom and I → we)",
           "⑥ is (It's cold today.)"
         ],
-        "막히면": [
-          "S04의 표를 다시 띄우고 주어를 표의 어느 줄로 바꿀 수 있는지 먼저 찾게 합니다.",
-          "④에서 is라고 하면 “cat 끝에 s가 붙었지? 고양이가 몇 마리야?”라고 묻습니다."
+        "틀리면": [
+          "④를 is라고 하면: 고양이가 여러 마리인 것을 놓쳤습니다(M2). “cat 끝에 s가 붙었지? 고양이가 몇 마리야?” 하고 묻습니다.",
+          "⑤를 is라고 하면: Tom and I를 한 사람으로 보았습니다(M2). “Tom and I는 몇 사람이지? he, she, we 가운데 무엇으로 바꿀 수 있어?” 하고 묻습니다."
         ],
-        "주의": [
-          "⑤ Tom and I is는 아주 흔한 실수입니다. 두 사람이니까 we, 그래서 are라고 짚어 줍니다."
+        "막히면": [
+          "S04의 표를 다시 띄우고 주어를 표의 어느 줄로 바꿀 수 있는지 먼저 찾게 합니다."
         ]
       }
     },
@@ -409,6 +409,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(I am hungry.)입니다. 가에는 be동사 am이 빠졌습니다. hungry는 ‘배고픈’이라는 상태를 나타내는 말이라 동사가 아닙니다. I'm hungry.로 줄여 써도 맞습니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 우리말을 낱말 하나씩 옮기다가 be동사를 빠뜨렸습니다(M1). “가에는 동사가 있어?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 세 덩어리(주어·be동사·뒷말)를 다시 보여 주고, 가에서 비어 있는 칸을 찾게 합니다."
@@ -582,17 +585,17 @@
           "“④의 your mom은 대답할 때 무엇으로 바꿔?”"
         ],
         "정답": [
-          "① I'm not sleepy. (I am not sleepy.)",
+          "① I'm not sleepy. (I am not sleepy도 맞음)",
           "② Is it your bag?",
           "③ No, I'm not.",
           "④ Yes, she is."
         ],
+        "틀리면": [
+          "②를 ‘It is your bag?’이라고 하면: 순서를 바꾸지 않고 끝만 올렸습니다(M4). “be동사를 어디로 옮겨야 의문문이 되지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S07의 단계와 S08의 표를 다시 보여 줍니다.",
           "④에서 Yes, your mom is.라고 하면 “엄마는 he, she 중에 무엇?”이라고 묻습니다."
-        ],
-        "주의": [
-          "②에서 It is your bag?처럼 끝만 올려 말하면 “is를 맨 앞으로 옮겨 볼까?”라고 말해 줍니다."
         ]
       }
     },
@@ -677,9 +680,13 @@
         "정답": [
           "① are (My friends are kind. 친구들 → they)",
           "② She's tired.",
-          "③ He isn't a doctor. (He is not a doctor.)",
+          "③ He isn't a doctor. (He is not a doctor, He's not a doctor도 맞음)",
           "④ Is it Monday? — No, it isn't.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 문장 첫 글자 대문자, 아포스트로피('), 끝의 마침표·물음표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 is라고 하면: My friends를 한 사람으로 보았습니다(M2). “friends 끝에 s가 있지? he, they 가운데 무엇으로 바꿀 수 있어?” 하고 묻습니다.",
+          "③을 ‘He not is a doctor.’라고 하면: not을 be동사 앞에 두었습니다(M3). “be동사를 찾았니? not은 그 앞에 올까, 뒤에 올까?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “be동사가 어디 있어?” “주어를 he, she, it, we, they로 바꾸면?”이라고만 묻습니다.",
@@ -829,10 +836,15 @@
         ],
         "정답": [
           "① are (Tom and I → we)",
-          "② He isn't busy. (He is not busy.)",
+          "② He isn't busy. (He is not busy, He's not busy도 맞음)",
           "③ No, I'm not."
         ],
+        "틀리면": [
+          "①을 is라고 하면: Tom and I를 한 사람으로 보았습니다(M2). “Tom and I는 he, we 가운데 무엇으로 바꿀 수 있어?” 하고 묻습니다.",
+          "②를 ‘He not is busy.’라고 하면: not을 be동사 앞에 두었습니다(M3). “be동사를 찾았니? not은 그 앞에 올까, 뒤에 올까?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁을 먹기 전에 “Are you hungry?”, 자기 전에 “Are you sleepy?”처럼 하루에 한두 번 영어로 묻고 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘일반동사 현재 문장’에서는 like, play 같은 동사와 don't·doesn't를 배웁니다."
         ]
       }
@@ -1100,7 +1112,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① Tom and I ______ friends. 빈칸에 알맞은 말을 쓰시오.\n② He is busy.를 부정문으로 바꾸어 쓰시오.\n③ Are you hungry?에 No로 대답을 쓰시오.",
         "lines": 3,
-        "answer": "① are (Tom and I → we) ② He isn't busy. (He is not busy.) ③ No, I'm not. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① are (Tom and I → we) ② He isn't busy. (He is not busy, He's not busy도 맞음) ③ No, I'm not. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

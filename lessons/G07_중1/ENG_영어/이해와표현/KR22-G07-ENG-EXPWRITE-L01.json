@@ -180,8 +180,10 @@
           "② No, I didn't. (No, I didn't watch TV.도 맞습니다.)",
           "③ First 먼저, Then 그다음에, Finally 마지막으로"
         ],
+        "틀리면": [
+          "①을 ‘goed, eated’라고 하면: 모양이 바뀌는 동사에 -ed를 붙였습니다(M2). “go와 eat은 -ed를 붙이는 동사였어, 모양이 바뀌는 동사였어?” 하고 묻습니다."
+        ],
         "막히면": [
-          "①에서 goed, eated라고 하면 “go와 eat은 모양이 바뀌는 동사였지?”라고 떠올리게 합니다.",
           "①②가 모두 어렵거나 ③의 뜻을 모르면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
@@ -471,9 +473,9 @@
         ],
         "정답": [
           "① Last Sunday, I went to the park with my dad.",
-          "② First, we walked the dog.",
-          "③ Then, we ate sandwiches.",
-          "④ Finally, we played badminton."
+          "② First, we walked the dog. (주어는 we·I 어느 것이든 맞음)",
+          "③ Then, we ate sandwiches. (주어는 we·I 어느 것이든 맞음)",
+          "④ Finally, we played badminton. (주어는 we·I 어느 것이든 맞음)"
         ],
         "막히면": [
           "S05 본보기 글의 같은 자리 문장을 보여 주고 낱말만 바꾸게 합니다(Last Saturday, I went to the beach with my family. → Last Sunday, I went to the park with my dad.)."
@@ -528,6 +530,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나입니다. 가는 지난 일(Last Sunday)인데 go, meet처럼 현재형을 썼습니다. went, met으로 고쳐야 합니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 첫 문장만 지난 일로 보고 현재형을 썼습니다(M1). “가의 go와 meet은 지금 모양이야, 과거형이야?” 하고 묻습니다."
         ],
         "막히면": [
           "가의 동사에 손가락을 대게 하고 “이건 지금 모양이야, 과거형이야?”라고 하나씩 묻습니다."
@@ -775,7 +780,10 @@
           "③ then → Then, eated → ate (Then, we ate ice cream.)",
           "④ 맞음 (took는 take의 과거형)",
           "⑤ is → was (It was a fun day.)",
-          "기준: 다섯 군데 가운데 네 군데 이상 찾아 고치면 통과입니다. ④를 고치려 하면 took가 이미 과거형이라고 알려 줍니다."
+          "기준: 다섯 군데 가운데 네 군데 이상 찾아 고치면 통과입니다."
+        ],
+        "틀리면": [
+          "④를 ‘틀림’이라고 하면: took가 이미 과거형인 것을 몰랐습니다(M2). “took는 어떤 동사의 어떤 모양이지?” 하고 묻습니다."
         ],
         "막히면": [
           "“문장마다 동사에 동그라미를 쳐 봐. 지난 일인데 지금 모양인 것은?”이라고 묻습니다."
@@ -824,9 +832,13 @@
         "정답": [
           "① went, saw, ate",
           "② 그 후에",
-          "③ 예: First, I did my homework. Then, I watched TV. (과거형과 First, Then이 있으면 통과)"
+          "③ 예: First, I did my homework. Then, I watched TV. (과거형과 First, Then, 쉼표가 있으면 통과)"
+        ],
+        "틀리면": [
+          "①을 ‘goed, seed, eated’라고 하면: 모양이 바뀌는 동사에 -ed를 붙였습니다(M2). “go, see, eat은 -ed를 붙이는 동사였어, 모양이 바뀌는 동사였어?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁 식탁에서 “What did you do today? What did you do first?”처럼 하루에 한 번 영어로 묻고 대답하면 좋은 복습이 됩니다. 다음 차시 ‘계획 말하고 쓰기’에서는 오늘과 같은 짜임으로 앞으로의 계획을 will과 be going to로 말하고 씁니다."
         ]
       }

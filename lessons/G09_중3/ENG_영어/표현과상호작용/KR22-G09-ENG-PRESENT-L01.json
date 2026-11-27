@@ -165,7 +165,7 @@
         ],
         "정답": [
           "① 주제문, 이유(두세 개), 예시, 마무리 문장",
-          "② 이런 이유로",
+          "② 이런 이유로 (이러한 이유로도 맞음)",
           "③ 아이의 문단에 따라 다릅니다. 예: In my opinion, reading books is a great hobby. / For these reasons, I think reading is the best hobby for students. 기준: 주제문과 마무리 문장이 같은 의견이면 됩니다."
         ],
         "막히면": [
@@ -363,16 +363,16 @@
           "“③④는 영어로 말해 줘.”"
         ],
         "정답": [
-          "① Today I'd like to talk about my town.",
-          "② In conclusion, music is great. (In conclusion, I think music is great.도 맞음)",
+          "① Today I'd like to talk about my town. (‘Today I would like to talk about my town’도 맞음)",
+          "② In conclusion, music is great. (‘In conclusion, I think music is great’도 맞음)",
           "③ I have two reasons.",
           "④ Thank you for listening."
         ],
+        "틀리면": [
+          "②를 ‘In conclusion, music is great, and it is cheap’이라고 하면: In conclusion 뒤에 새 이유를 덧붙였습니다(M3). “마무리에서는 무엇을 다시 말하기로 했지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04 표를 다시 띄우고, 부분 칸을 가리키며 “도입에는? 마무리에는?”이라고 묻습니다."
-        ],
-        "주의": [
-          "②에서 In conclusion, music is great, and it is cheap.처럼 새 이유를 덧붙이면 “마무리에서는 처음 의견만 다시 말해.”라고 알려 줍니다(오해 M3)."
         ]
       }
     },
@@ -601,7 +601,7 @@
           "(발표가 끝나면 박수를 치고) “영어로 끝까지 발표했어! 시간은 ○분 ○초야.”"
         ],
         "정답": [
-          "기준(활동지 4 점검표 일곱 항목): ① 도입 신호어(Hello, everyone. Today I'd like to talk about ~.) ② 이유 신호어(First, Second, (Third)) ③ 마무리 신호어(In conclusion, ~. Thank you for listening.) ④ 문장 끝마다 눈 맞춤 ⑤ 천천히, 신호어 뒤 쉬기 ⑥ 크고 또렷한 목소리 ⑦ 1분~2분. 일곱 항목 가운데 다섯 개 이상이면 통과. 시간(⑦)을 맞추지 못했어도 다른 항목을 지키면 잘한 점을 먼저 말해 줍니다.",
+          "기준: 활동지 4 점검표 일곱 항목(도입 신호어 Hello, everyone. Today I'd like to talk about ~. / 이유 신호어 First, Second, (Third) / 마무리 신호어 In conclusion, ~. Thank you for listening. / 문장 끝마다 눈 맞춤 / 천천히, 신호어 뒤 쉬기 / 크고 또렷한 목소리 / 1분~2분) 가운데 다섯 개 이상 지키면 맞음. 시간을 맞추지 못했어도 다른 항목을 지키면 잘한 점을 먼저 말해 줍니다.",
           "예시 발표(독서): Hello, everyone. Today I'd like to talk about reading books. In my opinion, reading books is a great hobby. I have three reasons. First, we can learn new things. For example, I read a book about space last month, and I learned about Mars. Second, we can read anywhere. For example, I read on the bus every morning. Third, reading helps our writing. For example, my diary got better after I read many stories. In conclusion, reading is the best hobby for students. Thank you for listening."
         ],
         "막히면": [
@@ -711,7 +711,7 @@
           "“가을에 대한 발표 대본이야. ①과 ②에 들어갈 신호어는? 나머지 두 개는 발표의 어디에 쓰는 말이야?”"
         ],
         "정답": [
-          "① 다(Today I'd like to talk about) ② 가(In conclusion,)",
+          "① → 다, ② → 가 (① Today I'd like to talk about, ② In conclusion,)",
           "나(For example,)는 이유 뒤에 예시를 말할 때, 라(Thank you for listening.)는 발표 맨 끝 인사로 씁니다.",
           "기준: ①②를 바르게 고르고 나머지 하나 이상의 자리를 말하면 통과."
         ],
@@ -739,7 +739,7 @@
       "dont": "종이를 그대로 빨리 읽기",
       "review": [
         {
-          "text": "발표를 시작하며\n주제를 알리는 말은?"
+          "text": "주제 my town을 알리는\n발표의 시작 문장은?"
         },
         {
           "text": "발표를 마무리하는\n신호어 두 개는?"
@@ -760,11 +760,12 @@
           "“Today I'd like to talk about, First, In conclusion이요.” “눈 맞춤, 속도, 목소리요.”"
         ],
         "정답": [
-          "① Today I'd like to talk about ~.",
+          "① Today I'd like to talk about my town. (‘Today I would like to talk about my town’도 맞음)",
           "② In conclusion, ~. / Thank you for listening.",
           "③ 눈 맞춤, 속도(천천히, 신호어 뒤 쉬기), 목소리(크고 또렷하게)"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "다음 차시 ‘질문에 답하기’에서는 오늘 발표를 한 번 더 한 뒤 부모님이 준비한 질문 세 개에 답합니다. 메모 카드와 활동지 5(문단)를 챙겨 두세요. 그 사이에 하루 한 번 메모 카드를 보고 발표해 보면 좋은 복습이 됩니다."
         ]
       }
@@ -998,7 +999,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 발표를 시작하며 주제를 알리는 문장을 영어로 쓰시오(주제: my town).\n② 발표를 마무리할 때 쓰는 신호어 두 개를 쓰시오.\n③ 발표를 잘 전달하는 세 가지를 우리말로 쓰시오.",
         "lines": 3,
-        "answer": "① Today I'd like to talk about my town. ② In conclusion, ~. / Thank you for listening. ③ 눈 맞춤, 속도(천천히, 신호어 뒤 쉬기), 목소리(크고 또렷하게). 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Today I'd like to talk about my town. (‘Today I would like to talk about my town’도 맞음) ② In conclusion, ~. / Thank you for listening. ③ 눈 맞춤, 속도(천천히, 신호어 뒤 쉬기), 목소리(크고 또렷하게). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

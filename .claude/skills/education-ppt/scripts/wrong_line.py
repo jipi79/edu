@@ -25,8 +25,16 @@ TAIL = re.compile(
 
 
 def split_values(val):
-    """‘20이나 39’, ‘‘육십십’이나 80’ → ['20', '39'] / ['육십십', '80']"""
-    parts = re.split(r"(?:(?<=[\d’”\]])나|이나|,|\s또는)\s+(?=[‘“\d−A-Za-z가-힣\[])", val)
+    """‘20이나 39’, ‘‘육십십’이나 80’ → ['20', '39'] / ['육십십', '80'].
+    따옴표로 묶은 값은 쉼표가 있어도 한 값이다: ‘‘−2, −1, 0’이나 ‘1, 2’’ → ['−2, −1, 0', '1, 2']"""
+    quoted = re.findall(r"‘([^’]+)’", val)
+    rest = re.sub(r"‘[^’]+’|이나|나|또는|,|\s", "", val)
+    if quoted and not rest:
+        return quoted
+    # 괄호 속 쉼표(좌표 ‘(0, 3)’)는 가르지 않는다
+    guarded = re.sub(r"\([^()]*\)", lambda m: m.group(0).replace(",", "\x00"), val)
+    parts = [x.replace("\x00", ",") for x in
+             re.split(r"(?:(?<=[\d’”\])\]])나|이나|,|\s또는)\s+(?=[‘“\d−A-Za-z가-힣\[(])", guarded)]
     out = []
     for p in parts:
         p = p.strip().strip("‘’“”").strip()

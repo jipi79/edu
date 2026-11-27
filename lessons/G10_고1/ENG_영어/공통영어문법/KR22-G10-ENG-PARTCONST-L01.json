@@ -330,6 +330,10 @@
           "③ Watching TV, I fell asleep. (텔레비전을 보다가 잠이 들었어요. was watching은 watching 하나로)",
           "④ Having no money, I didn't buy the bag. (돈이 없어서 그 가방을 사지 않았어요.)"
         ],
+        "틀리면": [
+          "①을 ‘I opening the door, I saw a cat’이라고 하면: 같은 주어 I를 남긴 채 동사만 -ing로 바꾸었습니다(M1). “접속사와 함께 무엇을 빼기로 했지?” 하고 묻습니다. S04로 돌아갑니다.",
+          "①을 ‘Opened the door, I saw a cat’이라고 하면: 지난 일이라서 과거형을 그대로 두었습니다(M2). “지난 일이어도 동사를 어떤 모양으로 바꾸지?” 하고 묻습니다."
+        ],
         "막히면": [
           "“접속사는? 주어 둘이 같아? 동사는?”을 차례로 묻습니다."
         ],
@@ -430,10 +434,14 @@
           "“세 단계로 줄이되, was 다음에 형용사가 오면 Being을 빼 보고, didn't가 있으면 Not -ing로 말해 줘.”"
         ],
         "정답": [
-          "① (Being) Tired, I went to bed early. (피곤해서 일찍 잤어요.)",
+          "① Tired, I went to bed early. (‘Being tired, I went to bed early’도 맞음. 피곤해서 일찍 잤어요.)",
           "② Not feeling well, she stayed home. (몸이 좋지 않아서 그녀는 집에 있었어요.)",
-          "③ (Being) Sick, he missed school. (아파서 그는 학교에 결석했어요.)",
+          "③ Sick, he missed school. (‘Being sick, he missed school’도 맞음. 아파서 그는 학교에 결석했어요.)",
           "④ Not having time, I skipped breakfast. (시간이 없어서 아침을 걸렀어요.)"
+        ],
+        "틀리면": [
+          "②를 ‘Feeling not well, she stayed home’이라고 하면: not을 -ing 뒤에 두었습니다(M3). “분사구문에서 not은 어디에 두기로 했지?” 하고 묻습니다. S06으로 돌아갑니다.",
+          "④를 ‘Didn't having time, I skipped breakfast’라고 하면: didn't를 남겼습니다(M3). “분사구문으로 ‘~하지 않아서’를 말할 때는 무엇으로 시작하지?” 하고 묻습니다."
         ],
         "막히면": [
           "“was가 있어, didn't가 있어?”부터 묻고, S06 표의 해당 줄을 가리킵니다."
@@ -488,6 +496,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(Not knowing the answer, I said nothing.)입니다. 나는 not을 knowing 뒤에 두었습니다. 분사구문의 부정은 not을 -ing 바로 앞에 씁니다."
+        ],
+        "틀리면": [
+          "나를 고르면: not을 -ing 뒤에 두어도 된다고 보았습니다(M3). “분사구문에서 not은 -ing의 어디에 두기로 했지?” 하고 묻습니다."
         ],
         "막히면": [
           "S06 표의 둘째 줄을 다시 보여 주고 “Not이 맨 앞, 그다음 -ing”라고 말해 줍니다."
@@ -692,6 +703,11 @@
           "④ 그는 책을 읽으면서 나를 기다렸어요. (동시 동작)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 접속사·주어가 빠졌는지, -ing와 Not의 자리, 쉼표도 봅니다."
         ],
+        "틀리면": [
+          "①을 ‘I seeing the news, I was surprised’라고 하면: 같은 주어 I를 남겼습니다(M1). “같은 주어는 어떻게 하기로 했지?” 하고 묻습니다.",
+          "①을 ‘Saw the news, I was surprised’라고 하면: 지난 일이라서 과거형을 그대로 두었습니다(M2). “지난 일이어도 동사를 어떤 모양으로 바꾸지?” 하고 묻습니다.",
+          "②를 ‘Knowing not the way, I got lost’라고 하면: not을 -ing 뒤에 두었습니다(M3). “not은 -ing의 어디에 두지?” 하고 묻습니다."
+        ],
         "막히면": [
           "바로 알려 주지 말고 “세 단계는?” “didn't는 어떻게 바꾸지?” “앞의 일이 뒤의 일의 까닭이야, 함께 일어났어?”라고만 묻습니다.",
           "도움을 받아 해결했다면 기록표에 ‘도움’으로 표시합니다."
@@ -792,7 +808,7 @@
           "“①은 Being을 빼고 분사구문으로 줄여 줘. ②③은 뜻을 말하고, 때인지 이유인지 말해 줘.”"
         ],
         "정답": [
-          "① Hungry, I ate two sandwiches. (Being hungry, ~도 맞음)",
+          "① Hungry, I ate two sandwiches. (‘Being hungry, I ate two sandwiches’도 맞음)",
           "② 공원을 걷다가 나는 지갑을 발견했어요. (때)",
           "③ 늦고 싶지 않아서 나는 택시를 탔어요. (이유)",
           "기준: 세 개 모두 맞으면 통과입니다. ③을 ‘늦고 싶지 않을 때’처럼 때로만 해석하면 기록표에 적어 두고, 다음 수업 첫 5분에 S09를 다시 봅니다."
@@ -843,10 +859,15 @@
         ],
         "정답": [
           "① Opening the box, I found a letter.",
-          "② 피곤해서 나는 잠자리에 들었어요. (이유)",
+          "② 피곤해서 나는 잠자리에 들었다. (이유)",
           "③ Not knowing his name, I said nothing."
         ],
+        "틀리면": [
+          "①을 ‘Opened the box, I found a letter’라고 하면: 지난 일이라서 과거형을 그대로 두었습니다(M2). “지난 일이어도 동사를 어떤 모양으로 바꾸지?” 하고 묻습니다.",
+          "③을 ‘Knowing not his name, I said nothing’이라고 하면: not을 -ing 뒤에 두었습니다(M3). “not은 -ing의 어디에 두지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "영어 책이나 교과서에서 -ing로 시작하고 쉼표가 있는 문장을 찾아 뜻을 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘가정법 과거’에서는 If I were a bird, I would fly to you.(내가 새라면 너에게 날아갈 텐데)처럼 지금 사실과 반대되는 일을 상상해 말하는 방법을 배웁니다."
         ]
       }
@@ -1098,7 +1119,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① When I opened the box, I found a letter.를 분사구문으로 바꾸어 쓰시오.\n② Feeling tired, I went to bed.의 뜻을 쓰시오.\n③ Don't knowing his name, I said nothing.을 바르게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① Opening the box, I found a letter. ② 피곤해서 나는 잠자리에 들었다. ③ Not knowing his name, I said nothing. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Opening the box, I found a letter. ② 피곤해서 나는 잠자리에 들었다. (이유) ③ Not knowing his name, I said nothing. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

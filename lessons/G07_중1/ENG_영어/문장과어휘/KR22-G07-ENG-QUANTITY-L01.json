@@ -424,6 +424,11 @@
           "⑤ many (books는 셀 수 있음)",
           "⑥ much (rice는 셀 수 없음, 부정문)"
         ],
+        "틀리면": [
+          "②를 many라고 하면: time을 셀 수 있다고 보았습니다(M2). “time은 하나, 둘 셀 수 있어?” 하고 묻습니다.",
+          "③을 many라고 하면: water를 셀 수 있다고 보았습니다(M2). “water는 하나, 둘 셀 수 있어?” 하고 묻습니다.",
+          "④를 many라고 하면: money를 셀 수 있다고 보았습니다(M2). “money는 S04의 어느 묶음에 있었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04의 여덟 낱말을 다시 보여 주고, 빈칸 뒤 명사가 그 안에 있는지 찾게 합니다."
         ],
@@ -477,6 +482,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(I have a lot of homework.)입니다. homework는 셀 수 없는 명사라서 -s를 붙이지 않습니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 우리말처럼 숙제도 셀 수 있다고 생각했습니다(M1). “homework는 S04의 어느 묶음에 있었지?” 하고 묻습니다."
         ],
         "막히면": [
           "S04의 낱말 카드를 다시 보여 주고 homework를 찾게 합니다."
@@ -590,12 +598,17 @@
           "“먼저 문장에 not이 있는지, 물음표가 있는지 봐. 그다음 빈칸에 넣어 읽어 줘.”"
         ],
         "정답": [
-          "① some (긍정문)",
-          "② any (부정문)",
-          "③ any (의문문)",
-          "④ some (긍정문)",
-          "⑤ any (의문문)",
-          "⑥ some (긍정문)"
+          "① some (긍정문이라서)",
+          "② any (부정문이라서)",
+          "③ any (의문문이라서)",
+          "④ some (긍정문이라서)",
+          "⑤ any (의문문이라서)",
+          "⑥ some (긍정문이라서)"
+        ],
+        "틀리면": [
+          "①을 any라고 하면: 긍정문에 any를 썼습니다(M3). “이 문장에 not이나 물음표가 있어?” 하고 묻습니다.",
+          "②를 some이라고 하면: 부정문에 some을 썼습니다(M3). “이 문장에 not이 있어?” 하고 묻습니다.",
+          "③을 some이라고 하면: 의문문에 some을 썼습니다(M3). “문장 끝에 무엇이 있지?” 하고 묻습니다."
         ],
         "막히면": [
           "S08의 표에서 문장 종류 칸을 다시 보게 합니다."
@@ -688,9 +701,14 @@
         "정답": [
           "① many (I have many comic books.)",
           "② much (Do you drink much milk?)",
-          "③ I don't have any cookies.",
+          "③ I don't have any cookies. (I do not have any cookies도 맞음)",
           "④ Does she need any water?",
           "기준: 네 개 가운데 세 개 이상이면 통과. ④는 Does 뒤의 동사원형(need)과 any를 함께 봅니다."
+        ],
+        "틀리면": [
+          "①을 much라고 하면: comic books를 셀 수 없다고 보았습니다(M2). “books 끝에 s가 있지? 셀 수 있어?” 하고 묻습니다.",
+          "③을 ‘I don't have some cookies.’라고 하면: 부정문에 some을 그대로 썼습니다(M3). “not이 있는 문장이 되었지? some을 그대로 둬도 될까?” 하고 묻습니다.",
+          "④를 ‘Does she need some water?’라고 하면: 의문문에 some을 그대로 썼습니다(M3). “물음표가 있는 문장이 되었지? some을 그대로 둬도 될까?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “셀 수 있어?” “not이나 물음표가 있어?”라고만 묻습니다.",
@@ -797,6 +815,10 @@
           "④ much sugar (가루, 셀 수 없음)",
           "기준: 네 개 가운데 네 개를 맞히고 이유(끝에 -s가 있다, 가루·덩어리라 셀 수 없다)를 말하면 목표 A 달성으로 봅니다."
         ],
+        "틀리면": [
+          "②를 ‘many cheese’라고 하면: 치즈를 셀 수 있다고 보았습니다(M2). “치즈를 하나, 둘 셀 수 있어, 아니면 잘라서 먹어?” 하고 묻습니다.",
+          "④를 ‘many sugar’라고 하면: 설탕을 셀 수 있다고 보았습니다(M2). “설탕을 하나, 둘 셀 수 있어, 아니면 덜어서 먹어?” 하고 묻습니다."
+        ],
         "막히면": [
           "“끝에 s가 붙어 있어?” “하나, 둘 셀 수 있어, 아니면 물이나 쌀처럼 덜어서 먹어?”라고 묻습니다."
         ],
@@ -844,9 +866,15 @@
         "정답": [
           "① many (many friends)",
           "② any (Do you have any pets?)",
-          "③ I don't have any milk."
+          "③ I don't have any milk. (I do not have any milk도 맞음)"
+        ],
+        "틀리면": [
+          "①을 much라고 하면: friends를 셀 수 없다고 보았습니다(M2). “friends는 하나, 둘 셀 수 있어?” 하고 묻습니다.",
+          "②를 some이라고 하면: 의문문에 some을 썼습니다(M3). “문장 끝에 무엇이 있지?” 하고 묻습니다.",
+          "③을 ‘I don't have some milk.’라고 하면: 부정문에 some을 그대로 썼습니다(M3). “not이 있는 문장이 되었지? some을 그대로 둬도 될까?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "장을 보러 가기 전에 함께 “We need some ~. We don't have any ~.”로 목록을 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘비교급’에서는 taller, more beautiful처럼 두 가지를 비교하는 말을 배웁니다."
         ]
       }
@@ -1120,7 +1148,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① ______ friends: many와 much 가운데 알맞은 말을 쓰시오.\n② Do you have ______ pets? some과 any 가운데 알맞은 말을 쓰시오.\n③ I have some milk. 부정문으로 바꾸어 쓰시오.",
         "lines": 3,
-        "answer": "① many ② any ③ I don't have any milk. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① many (many friends) ② any (Do you have any pets?) ③ I don't have any milk. (I do not have any milk도 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

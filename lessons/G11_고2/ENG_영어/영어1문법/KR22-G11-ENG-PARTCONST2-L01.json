@@ -431,9 +431,9 @@
           "“①②③은 분사구문으로 줄여 말하고, ④는 뜻을 말한 뒤 because 절로 되돌려 볼래?”"
         ],
         "정답": [
-          "① (Being) Written in easy English, the book is popular. (쉬운 영어로 쓰여 있어서 그 책은 인기가 있어요.)",
-          "② Seen from the top, the city looks beautiful. (꼭대기에서 보면 도시가 아름다워 보여요.)",
-          "③ (Being) Tired, he went to bed early. (피곤해서 그는 일찍 잤어요.)",
+          "① Written in easy English, the book is popular. (‘Being written in easy English, the book is popular’도 맞음. 쉬운 영어로 쓰여 있어서 그 책은 인기가 있어요.)",
+          "② Seen from the top, the city looks beautiful. (‘Being seen from the top, the city looks beautiful’도 맞음. 꼭대기에서 보면 도시가 아름다워 보여요.)",
+          "③ Tired, he went to bed early. (‘Being tired, he went to bed early’도 맞음. 피곤해서 그는 일찍 잤어요.)",
           "④ 한국에서 만들어져서 이 전화기는 인기가 있어요. → Because it is made in Korea, this phone is popular. (was made도 맞음)"
         ],
         "막히면": [
@@ -490,8 +490,8 @@
         "정답": [
           "바르게 쓴 쪽은 가(Seen from the sky, ~)입니다. 섬은 보이는 쪽(수동)이라 과거분사를 씁니다. 나처럼 Seeing을 쓰면 ‘섬이 하늘에서 무엇을 보면서’라는 이상한 뜻이 됩니다."
         ],
-        "막히면": [
-          "“섬이 무엇을 볼 수 있을까?”라고 다시 묻습니다."
+        "틀리면": [
+          "나를 고르면: 섬이 보이는 쪽인데 -ing를 썼습니다(M2). “섬이 무엇을 볼 수 있을까?” 하고 묻습니다."
         ],
         "주의": [
           "분사구문의 숨은 주어는 주절의 주어(the island)라는 것을 짚어 줍니다.",
@@ -644,7 +644,7 @@
         ],
         "정답": [
           "① 비가 와서 우리는 집에 있었어요. (분사구문의 주어 it)",
-          "② 저녁이 준비되어서(준비되자) 엄마가 우리를 불렀어요. (분사구문의 주어 dinner)",
+          "② 저녁이 준비되어서 엄마가 우리를 불렀어요. (‘준비되자’도 맞음. 분사구문의 주어 dinner)",
           "③ 그는 TV를 켜 놓은 채로 잤어요. (TV가 켜진: 과거분사)",
           "④ 그녀는 머리카락을 바람에 날리며 나에게 달려왔어요. (머리카락이 날리는: -ing)"
         ],
@@ -691,8 +691,13 @@
         "정답": [
           "① folded (팔이 접힌 상태)",
           "② sitting (개가 앉아 있는 중)",
-          "③ Written (노래는 쓰이는 쪽) — 1990년에 쓰였는데 그 노래는 여전히 인기가 있어요.",
-          "④ Having finished (일을 먼저 끝냄) — 일을 끝내고 나서 나는 집에 갔어요."
+          "③ Written (노래는 쓰이는 쪽, 뜻: 1990년에 쓰였는데 그 노래는 여전히 인기가 있어요)",
+          "④ Having finished (일을 먼저 끝냄, 뜻: 일을 끝내고 나서 나는 집에 갔어요)"
+        ],
+        "틀리면": [
+          "①을 folding이라고 하면: 팔이 접히는 쪽인데 -ing를 골랐습니다(M4). “팔이 스스로 무엇을 접을 수 있을까?” 하고 묻습니다.",
+          "③을 Writing이라고 하면: 노래는 쓰이는 쪽인데 -ing를 골랐습니다(M2). “노래가 무엇을 쓸 수 있을까?” 하고 묻습니다.",
+          "④를 Finished라고 하면: 일을 먼저 끝냈다는 순서를 놓쳤습니다(M1). “일을 끝낸 것과 집에 간 것 가운데 무엇이 먼저야?” 하고 묻습니다."
         ],
         "막히면": [
           "“팔이 접는 거야, 접힌 거야?”처럼 명사와 분사를 짝지어 묻습니다."
@@ -781,10 +786,14 @@
         ],
         "정답": [
           "① Having washed my hands, I ate dinner.",
-          "② (Being) Made by hand, the bag is expensive.",
+          "② Made by hand, the bag is expensive. (‘Being made by hand, the bag is expensive’도 맞음)",
           "③ 추워서 우리는 코트를 입었어요. (분사구문의 주어 it)",
           "④ 그는 다리를 꼰 채로 앉아 있었어요. (다리가 꼬인: 과거분사)",
           "기준: 네 개 가운데 세 개 이상이면 통과. Having 뒤의 과거분사, ~되는 쪽의 과거분사, 쉼표와 마침표를 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘Having wash my hands, I ate dinner.’라고 하면: Having 뒤에 동사원형을 썼습니다(M1). “Having 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다.",
+          "②를 ‘Making by hand, the bag is expensive.’라고 하면: 가방은 만들어지는 쪽인데 -ing를 썼습니다(M2). “가방이 무엇을 만들 수 있을까?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “무엇이 먼저야?” “가방은 만드는 쪽이야, 만들어지는 쪽이야?” “being 앞의 주어는?”이라고만 묻습니다.",
@@ -915,7 +924,7 @@
       "dont": "Seeing from the sky, the island ~",
       "review": [
         {
-          "text": "분사구문으로?\nAfter I finished my\nhomework, I went out."
+          "text": "Having으로 바꾸면?\nAfter I finished my\nhomework, I went out."
         },
         {
           "text": "알맞은 것은?\n(Seeing / Seen) from the\nsky, the island ~"
@@ -937,10 +946,14 @@
         ],
         "정답": [
           "① Having finished my homework, I went out.",
-          "② Seen from the sky, the island looks like a heart.",
-          "③ 눈을 감은 채로 (closed)"
+          "② Seen (섬은 보이는 쪽)",
+          "③ 눈을 감은 채로 (눈이 감긴: 과거분사)"
+        ],
+        "틀리면": [
+          "②를 Seeing이라고 하면: 섬이 보이는 쪽인데 -ing를 골랐습니다(M2). “섬이 하늘에서 무엇을 볼 수 있을까?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "영어 교과서 본문에서 Having, Seen, with 구문을 찾아 형광펜으로 표시해 보면 좋은 복습이 됩니다. 다음 차시 ‘강조 구문’에서는 It was ~ that ~으로 문장의 한 부분을 강조하는 법과 가주어 it과 구별하는 법을 배웁니다."
         ]
       }
@@ -1169,7 +1182,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① After I finished my homework, I went out.을 Having으로 바꾸어 쓰시오.\n② (Seeing / Seen) from the sky, the island looks like a heart.에서 알맞은 것을 쓰시오.\n③ with her eyes closed의 뜻을 쓰시오.",
         "lines": 3,
-        "answer": "① Having finished my homework, I went out. ② Seen ③ 눈을 감은 채로. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Having finished my homework, I went out. ② Seen (섬은 보이는 쪽) ③ 눈을 감은 채로 (눈이 감긴: 과거분사). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

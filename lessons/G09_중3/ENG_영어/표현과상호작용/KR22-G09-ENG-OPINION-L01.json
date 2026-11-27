@@ -373,8 +373,8 @@
           "“고르지 않은 두 문장은 왜 이유가 될 수 없어?”"
         ],
         "정답": [
-          "이유가 될 수 있는 문장: ① 아침에 쓸 힘을 줘요. ② 가족과 이야기할 수 있어요. ④ 달걀 같은 아침 음식은 건강에 좋아요.",
-          "③ ‘아침밥은 정말 중요하다’는 주제문을 되풀이한 말이라 ‘왜?’에 답하지 못합니다. ⑤ ‘저녁으로 피자를 좋아한다’는 아침밥과 관계없습니다."
+          "이유가 됨: ① ② ④ / 이유가 아님: ③ ⑤",
+          "뜻과 까닭 — 첫째 문장은 ‘아침에 쓸 힘을 준다’, 둘째는 ‘가족과 이야기할 수 있다’, 넷째는 ‘달걀 같은 아침 음식은 건강에 좋다’는 뜻으로 모두 ‘왜?’에 답합니다. 셋째 ‘아침밥은 정말 중요하다’는 주제문을 되풀이한 말이라 ‘왜?’에 답하지 못하고(M2), 다섯째 ‘저녁으로 피자를 좋아한다’는 아침밥과 관계없습니다."
         ],
         "막히면": [
           "문장 앞에 Because를 붙여 읽어 보게 합니다. “Breakfast is important because it gives us energy.”처럼 자연스러우면 이유입니다."
@@ -751,16 +751,16 @@
           "“혼자 읽고 답해 줘. delicious는 맛있는, beach는 바닷가야.”"
         ],
         "정답": [
-          "① ⑤ For example, I like snowmen in winter. 겨울 눈사람 이야기라 ‘여름에는 맛있는 과일이 있다’는 이유를 보여 주지 못합니다. 고친 예: For example, I ate a big watermelon with my family last August.",
-          "② ⑥ Third, we can go to the beach in summer. ②(바다에서 놀 수 있다)와 같은 이유입니다. 고친 예: Third, we have a long vacation. (그리고 예시를 붙이면 더 좋습니다: For example, I visited my grandparents for two weeks.)",
-          "기준: 두 문장을 바르게 찾고, 하나 이상을 알맞게 고쳐 말하면 통과. 고친 문장은 우리말로 말해도 됩니다.",
-          "글의 뜻: ① 내 생각에는 여름이 가장 좋은 계절이에요. ② 첫째로, 바다에서 놀 수 있어요. ③ 예를 들어, 우리 가족은 부산에 가서 날마다 바다에서 놀았어요. ④ 둘째로, 여름에는 맛있는 과일이 있어요. ⑤ 예를 들어, 나는 겨울에 눈사람을 좋아해요. ⑥ 셋째로, 여름에는 바닷가에 갈 수 있어요. ⑦ 이런 이유로, 나는 여름이 가장 좋은 계절이라고 생각해요."
+          "① 5번 문장(For example, I like snowmen in winter.) 겨울 눈사람 이야기라 ‘여름에는 맛있는 과일이 있다’는 이유를 보여 주지 못합니다. 고친 예: For example, I ate a big watermelon with my family last August.",
+          "② 6번 문장(Third, we can go to the beach in summer.) 2번 문장(바다에서 놀 수 있다)과 같은 이유입니다. 고친 예: Third, we have a long vacation. 예시를 붙이면 더 좋습니다(For example, I visited my grandparents for two weeks.).",
+          "기준: 두 문장을 바르게 찾고, 하나 이상을 알맞게 고쳐 말하면 통과. 고친 문장은 우리말로 말해도 됩니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “For example 바로 앞의 이유를 읽어 봐.”, “세 이유를 우리말로 바꿔 봐. 같은 게 있어?”라고만 묻습니다."
         ],
         "주의": [
-          "⑥을 찾지 못하면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 봅니다."
+          "6번 문장을 찾지 못하면 기록표에 적어 두고, 다음 수업 첫 5분에 S07을 다시 봅니다.",
+          "글의 뜻: ① 내 생각에는 여름이 가장 좋은 계절이에요. ② 첫째로, 바다에서 놀 수 있어요. ③ 예를 들어, 우리 가족은 부산에 가서 날마다 바다에서 놀았어요. ④ 둘째로, 여름에는 맛있는 과일이 있어요. ⑤ 예를 들어, 나는 겨울에 눈사람을 좋아해요. ⑥ 셋째로, 여름에는 바닷가에 갈 수 있어요. ⑦ 이런 이유로, 나는 여름이 가장 좋은 계절이라고 생각해요."
         ]
       }
     },
@@ -783,10 +783,10 @@
           "text": "이유 세 개를 여는\n연결어 세 개는?"
         },
         {
-          "text": "좋은 예시에\n보이는 세 가지는?"
+          "text": "In my opinion, I think\nreading is fun.을 고치면?"
         },
         {
-          "text": "For these reasons의\n뜻은?"
+          "text": "좋은 예시에\n보이는 세 가지는?"
         }
       ],
       "next": "의견 발표하기",
@@ -802,10 +802,14 @@
         ],
         "정답": [
           "① First, Second, Third",
-          "② 때(언제), 곳(어디서), 사람(누구와)",
-          "③ 이런 이유로"
+          "② In my opinion, reading is fun. (‘I think reading is fun’도 맞음)",
+          "③ 때(언제), 곳(어디서), 사람(누구와)"
+        ],
+        "틀리면": [
+          "②를 ‘In my opinion, I think reading is fun’이라고 하면: In my opinion과 I think를 한 문장에 그대로 함께 두었습니다(M4). “In my opinion과 I think는 뜻이 같지? 한 문장에 몇 개만 쓰기로 했지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "다음 차시 ‘의견 발표하기’에서 오늘 쓴 문단(활동지 5)으로 1~2분 발표를 합니다. 활동지 5를 꼭 챙겨 두세요. 아이가 원하면 그 전에 문단을 한두 번 소리 내어 읽어 보게 합니다."
         ]
       }
@@ -1036,7 +1040,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 이유 세 개를 쓸 때 문장 앞에 쓰는 연결어 세 개를 쓰시오.\n② In my opinion, I think reading is fun.을 바르게 고쳐 쓰시오.\n③ 좋은 예시에 보여야 하는 세 가지를 우리말로 쓰시오.",
         "lines": 3,
-        "answer": "① First, Second, Third ② In my opinion, reading is fun. (또는 I think reading is fun.) ③ 때(언제), 곳(어디서), 사람(누구와). 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① First, Second, Third ② In my opinion, reading is fun. (‘I think reading is fun’도 맞음) ③ 때(언제), 곳(어디서), 사람(누구와) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
