@@ -159,9 +159,9 @@
           "“①②는 더 신중하고 존중하는 말로 바꿔 말해 줘. ③은 빈칸에 알맞은 연결어를 넣어 볼래?”"
         ],
         "정답": [
-          "① Many Koreans eat kimchi often. / Kimchi is a popular food in Korea.",
-          "② That's interesting. / That's different from my culture.",
-          "③ In contrast (또는 However)"
+          "① 기준: always를 빼고 many·some·often 같은 말로 신중하게 바꾸면 맞습니다(예: Many Koreans eat kimchi often. / Kimchi is a popular food in Korea.).",
+          "② 기준: weird 대신 interesting·different 같은 존중의 말로 바꾸면 맞습니다(예: That's interesting. / That's different from my culture.).",
+          "③ In contrast(However도 맞음)"
         ],
         "막히면": [
           "①은 “모든 한국 사람이 늘 그럴까? 어떤 말을 바꾸면 좋을까?”라고 묻습니다.",
@@ -408,8 +408,8 @@
         "정답": [
           "가가 좋습니다. many(많은)로 일반화를 피했고, interesting으로 존중하며 까닭(행운을 빌기 위해)을 말했습니다. 나는 All Spanish people로 모든 사람이 똑같다고 일반화했고, weird로 다른 문화를 판단했습니다."
         ],
-        "막히면": [
-          "“스페인 사람 모두가 포도를 먹을까? weird라는 말을 들으면 스페인 친구는 어떤 기분일까?”라고 묻습니다."
+        "틀리면": [
+          "나를 고르면: All과 weird가 모든 사람을 똑같이 보고 다른 문화를 판단하는 말이라는 것을 놓쳤습니다(M1·M2). “스페인 사람 모두가 포도를 먹을까? weird라는 말을 들으면 스페인 친구는 어떤 기분일까?” 하고 묻습니다."
         ],
         "주의": [
           "여기까지가 비교하는 방법입니다. 아이가 지치면 여기서 나누어 다음 날 S08부터 해도 됩니다."
@@ -702,10 +702,10 @@
           "text": "문화를 비교하는\n네 칸은?"
         },
         {
-          "text": "1분 발표의\n다섯 걸음은?"
+          "text": "1분 발표의 다섯 걸음을\n영어 표현과 함께"
         },
         {
-          "text": "일반화를 피하는\n말 세 개는?"
+          "text": "All Spanish people eat\ngrapes. → 신중하게"
         }
       ],
       "next": "직무 상황 영어",
@@ -721,10 +721,11 @@
         ],
         "정답": [
           "① 때 · 음식 · 하는 일 · 의미와 배경",
-          "② 소개 → Both ~ → While ~, ~ → This is because ~ → I think ~",
-          "③ all, always 대신 many, some, traditionally / weird 대신 different, interesting"
+          "② Today, I'd like to compare ~ → Both ~ → However, while ~ → This is because ~ → I think ~",
+          "③ 기준: All 대신 Many나 Some을 써서 일반화를 피하면 맞습니다(예: Many people in Spain eat twelve grapes at midnight on New Year's Eve.)."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "외국 친구나 영상에서 다른 나라 명절을 하나 찾아 네 칸으로 정리해 보면 좋은 복습이 됩니다. 다음 차시 ‘직무 상황 영어’에서는 전화 응대·일정 조율·정중한 요청 같은 일터의 영어를 역할극으로 연습합니다."
         ]
       }
@@ -970,7 +971,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 문화를 비교하는 네 칸을 쓰시오.\n② 1분 발표의 다섯 걸음을 영어 표현과 함께 쓰시오.\n③ All Spanish people eat grapes.를 신중한 문장으로 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① 때 · 음식 · 하는 일 · 의미와 배경 ② Today, I'd like to compare ~ → Both ~ → However, while ~ → This is because ~ → I think ~ ③ Many people in Spain eat twelve grapes at midnight on New Year's Eve. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 때 · 음식 · 하는 일 · 의미와 배경 ② Today, I'd like to compare ~ → Both ~ → However, while ~ → This is because ~ → I think ~ ③ 기준: All 대신 Many나 Some을 써서 일반화를 피하면 맞습니다(예: Many people in Spain eat twelve grapes at midnight on New Year's Eve.). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
