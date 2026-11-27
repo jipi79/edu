@@ -372,6 +372,9 @@
         "정답": [
           "가가 바릅니다. going to 다음에는 동사의 기본 모양(play)을 씁니다. 나에 쓰인 played는 지난 일을 말할 때 쓰는 모양이라 tomorrow와 함께 쓰지 않습니다."
         ],
+        "틀리면": [
+          "나를 고르면: going to 다음에 과거형을 써도 된다고 생각했습니다(M1). “going to 다음 낱말에 -ed가 붙어도 될까?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04의 카드를 다시 보며 going to 다음 낱말에 -ed가 있는지 확인하게 합니다."
         ],
@@ -603,6 +606,11 @@
           "다. I'm going to play tennis tomorrow.",
           "가는 plays → play, 나는 I 다음에 am('m)이 빠짐, 라는 played → play로 고쳐야 합니다."
         ],
+        "틀리면": [
+          "가를 고르면: going to 다음에 -s를 붙인 것을 놓쳤습니다(M1). “going to 다음 낱말은 어떤 모양이어야 하지?” 하고 묻습니다.",
+          "나를 고르면: I 다음에 am('m)이 빠진 것을 놓쳤습니다(M2). “I 다음에 무엇이 있어야 하지?” 하고 묻습니다.",
+          "라를 고르면: going to 다음에 과거형을 써도 된다고 생각했습니다(M1). “tomorrow 일인데 played를 써도 될까?” 하고 묻습니다."
+        ],
         "막히면": [
           "I'm이 있는지, going to 다음 낱말이 기본 모양인지 두 가지만 차례로 확인하게 합니다."
         ]
@@ -646,10 +654,14 @@
         ],
         "정답": [
           "① 내일",
-          "② 예: I'm going to read a book this weekend.",
+          "② I'm going to ~ this weekend. (예: I'm going to read a book this weekend.)",
           "③ What are you going to do this weekend?"
         ],
+        "틀리면": [
+          "①을 ‘어제’라고 하면: yesterday와 tomorrow를 헷갈렸습니다(M3). “달력에서 tomorrow는 오늘의 앞날이야, 다음 날이야?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁마다 “What are you going to do tomorrow?”라고 물어 내일 계획을 한 문장씩 말해 보세요."
         ]
       }

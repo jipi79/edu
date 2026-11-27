@@ -413,6 +413,9 @@
           "나(I like pizza because it's delicious.). because 뒤에 it's(그것은 ~해요)가 있어야 합니다.",
           "가는 it's가 빠졌습니다. I like pizza because it's delicious.로 고칩니다."
         ],
+        "틀리면": [
+          "가를 고르면: because 뒤에 낱말만 붙여도 된다고 생각했습니다(M1). “because 뒤만 떼어 읽어 볼까? 무엇이 맛있는지 나와 있니?” 하고 묻습니다."
+        ],
         "막히면": [
           "“because 뒤만 떼어 읽어 볼까? delicious. ‘맛있는.’ 무엇이 맛있는지 빠졌지?”라고 짚어 줍니다."
         ],
@@ -504,7 +507,10 @@
           "③ I like soccer because it's fun. / I like riding my bike because it's fun."
         ],
         "정답": [
-          "기준: 좋아하는 것 뒤에 because와 it's ~나 I can ~으로 된 이유가 있고, 이유가 좋아하는 것과 어울리면 맞습니다. 쓸 때는 대문자 I와 마침표를 봅니다."
+          "① 좋아하는 음식 뒤에 because it's ~나 because I can ~으로 어울리는 이유를 말하면 맞음(예: I like chicken because it's delicious.)",
+          "② 좋아하는 계절 뒤에 because it's ~나 because I can ~으로 어울리는 이유를 말하면 맞음(예: I like summer because I can swim.)",
+          "③ 좋아하는 운동이나 놀이 뒤에 because it's ~나 because I can ~으로 어울리는 이유를 말하면 맞음(예: I like soccer because it's fun.)",
+          "쓸 때는 대문자 I와 마침표를 봅니다."
         ],
         "막히면": [
           "운동 이름을 영어로 모르면 soccer, badminton, swimming처럼 아는 낱말 가운데 고르게 합니다.",
@@ -682,6 +688,10 @@
           "가(I like pizza because it's delicious.)",
           "나는 겨울에 수영, 다는 여름에 눈사람이라 이유가 어울리지 않고, 라는 because 뒤에 it's가 빠졌고 축구는 먹는 것이 아니라 delicious가 어울리지 않습니다."
         ],
+        "틀리면": [
+          "나를 고르면: 좋아하는 것과 어울리지 않는 이유를 붙였습니다(M2). “겨울에 밖에서 수영할 수 있을까?” 하고 묻습니다.",
+          "라를 고르면: because 뒤에 낱말만 붙인 문장을 놓쳤습니다(M1). “because 뒤에 it's가 있니? 축구가 맛있을 수 있을까?” 하고 묻습니다."
+        ],
         "막히면": [
           "문장마다 이유를 우리말로 바꾸어 말해 보게 합니다. “겨울을 좋아하는데, 수영할 수 있어서?”"
         ]
@@ -724,9 +734,12 @@
           "“it's ~나 I can ~이요.” “I like summer because I can swim.”"
         ],
         "정답": [
-          "① 왜냐하면, ~해서 ② it's ③ 예: I like winter because I can make a snowman."
+          "① 왜냐하면, ~해서",
+          "② it's",
+          "③ 예: I like winter because I can make a snowman. (이유가 어울리고 because 뒤에 it's나 I can이 있으면 맞음)"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집에서 “Why?”라고 자주 물어 주세요. 아이가 Because ~.로 대답하면 I like ~ because ~. 한 문장으로 다시 말해 보게 합니다."
         ]
       }
@@ -864,7 +877,7 @@
         "eng": {
           "blank": 1
         },
-        "answer": "① 왜냐하면, ~해서 ② it's ③ 예: I like summer because I can swim. (이유가 어울리고 because 뒤에 it's나 I can이 있으면 맞음. 빈 줄에 써 보아도 좋습니다. 세 가지 모두 도움 없이 하면 통과)"
+        "answer": "① 왜냐하면, ~해서 ② it's ③ 예: I like winter because I can make a snowman. (이유가 어울리고 because 뒤에 it's나 I can이 있으면 맞음) (빈 줄에 써 보아도 좋습니다. 세 가지 모두 도움 없이 하면 통과)"
       }
     ],
     "record": [

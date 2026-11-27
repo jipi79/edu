@@ -420,6 +420,9 @@
         "정답": [
           "바르게 말한 쪽은 나(What does \"tiny\" mean?)입니다. 뜻을 물을 때는 What does + 낱말 + mean?으로 말하고 is를 넣지 않습니다."
         ],
+        "틀리면": [
+          "가를 고르면: What 다음에 does 대신 is를 넣어도 된다고 생각했습니다(M2). “뜻을 물을 때 What 다음에 오는 말은 무엇이었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04의 대화를 다시 읽고 What does를 손가락으로 짚게 합니다."
         ],
@@ -508,6 +511,10 @@
           "② does, mean (What does \"puppy\" mean?)",
           "③ spell (How do you spell \"puppy\"?)"
         ],
+        "틀리면": [
+          "①을 ‘What?’이라고 하면: What?만 말하면 퉁명스럽게 들립니다(M1). “더 공손하게 다시 말해 달라고 하려면 뭐라고 할까?” 하고 묻습니다.",
+          "②를 ‘is, mean’이라고 하면: does 대신 is를 넣었습니다(M2). “뜻을 물을 때 What 다음에 무엇이 왔지?” 하고 묻습니다."
+        ],
         "막히면": [
           "①은 A가 같은 말을 다시 한 것을 보고 왜 다시 말했는지 생각하게 합니다.",
           "②③은 S04, S05를 다시 보여 줍니다."
@@ -558,6 +565,9 @@
           "③ How do you spell \"giraffe\"?",
           "④ giraffe (G-I-R-A-F-F-E)",
           "기준: 네 가지 가운데 세 가지 이상을 도움 없이 하면 통과입니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
+        ],
+        "틀리면": [
+          "④를 jiraffe라고 하면: 이름이 비슷한 G와 J를 헷갈렸습니다(M3). “첫 글자를 다시 말해 달라고 해 볼까?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “지금은 못 들은 거야, 뜻을 모르는 거야?”라고만 묻습니다.",
@@ -683,7 +693,7 @@
           "text": "giant의 뜻을\n영어로 묻기"
         },
         {
-          "text": "T-I-N-Y를 듣고\n낱말 말하기"
+          "text": "엄마(아빠)가 말하는\n철자를 듣고 낱말 말하기"
         }
       ],
       "next": "제안하고 답하기",
@@ -697,9 +707,12 @@
           "“Pardon?” “What does ~ mean?” “How do you spell ~?”"
         ],
         "정답": [
-          "① Pardon? / Can you say that again? ② What does \"giant\" mean? ③ tiny (T-I-N-Y)"
+          "① Pardon? / Can you say that again?",
+          "② What does \"giant\" mean?",
+          "③ tiny (부모가 알파벳 이름으로 T-I-N-Y라고 말해 줍니다)"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "영어 영상이나 책을 볼 때 모르는 낱말이 나오면 부모님께 What does ~ mean?으로 묻게 하면 좋은 복습이 됩니다. 다음 차시는 ‘제안하고 답하기’입니다."
         ]
       }
@@ -867,8 +880,8 @@
         "no": 6,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① 잘 못 들었을 때 하는 말 두 가지를 말해 보세요.\n② giant의 뜻을 영어로 물어보세요.\n③ 부모님이 T-I-N-Y라고 말하면 무슨 낱말인지 말해 보세요.",
-        "answer": "① Pardon? / Can you say that again? ② What does \"giant\" mean? ③ tiny (세 가지 모두 도움 없이 하면 통과)"
+        "prompt": "① 잘 못 들었을 때 하는 말 두 가지를 말해 보세요.\n② giant의 뜻을 영어로 물어보세요.\n③ 부모님이 알파벳 이름으로 말하는 철자를 듣고 무슨 낱말인지 말해 보세요.",
+        "answer": "① Pardon? / Can you say that again? ② What does \"giant\" mean? ③ tiny (부모가 알파벳 이름으로 T-I-N-Y라고 말해 줍니다) (세 가지 모두 도움 없이 하면 통과)"
       }
     ],
     "record": [

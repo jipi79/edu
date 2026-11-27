@@ -363,6 +363,9 @@
           "② Why don't we watch a movie?",
           "③ Let's make cookies."
         ],
+        "틀리면": [
+          "①을 ‘Let's riding bikes.’라고 하면: Let's 다음에 -ing를 붙였습니다(M1). “Let's 다음에 할 일을 어떤 모양으로 말했지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S03, S04의 문장을 보여 주고 할 일 부분만 바꾸게 합니다."
         ],
@@ -416,6 +419,9 @@
         ],
         "정답": [
           "가(Sounds good.)가 알맞습니다. Why don't we ~?는 ‘~하는 게 어때?’라는 제안이므로 받아들이거나(Sounds good.) 거절합니다(Sorry, I can't.). 나처럼 Because로 까닭을 말하는 것은 묻는 뜻을 잘못 알아들은 것입니다."
+        ],
+        "틀리면": [
+          "나를 고르면: Why don't we ~?를 까닭을 묻는 말로 알아들었습니다(M2). “친구가 까닭을 물었어, 함께 하자고 했어?” 하고 묻습니다."
         ],
         "막히면": [
           "S04의 뜻(‘~하는 게 어때?’)을 다시 읽어 줍니다."
@@ -554,6 +560,10 @@
           "③ Sounds good.",
           "④ Sorry, I can't. I have homework. (또는 I'm busy.)",
           "기준: 네 개 가운데 세 개 이상을 바른 형태로 말하면 통과입니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘Let's going swimming.’이라고 하면: Let's 다음에 -ing를 붙였습니다(M1). “Let's 다음에 무엇을 바로 말했지?” 하고 묻습니다.",
+          "③을 ‘Because I like it.’이라고 하면: 제안을 까닭을 묻는 말로 알아들었습니다(M2). “엄마(아빠)가 까닭을 물었어, 함께 하자고 했어?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “Let's 다음에 무엇을 바로 말했지?”, “좋을 때는 뭐라고 했지?”라고만 묻습니다.",
@@ -695,11 +705,15 @@
           "“Let's ~.와 Why don't we ~?요.” “Sounds good.이랑 Sorry, I can't.요.”"
         ],
         "정답": [
-          "① Let's play soccer. / Why don't we play soccer?",
+          "① Let's play soccer.와 Why don't we play soccer? 두 가지를 모두 말합니다.",
           "② Sounds good.",
           "③ Sorry, I can't. I have homework. (또는 I'm busy.)"
         ],
+        "틀리면": [
+          "②를 ‘Because I like movies.’라고 하면: Why don't we ~?를 까닭을 묻는 말로 알아들었습니다(M2). “친구가 까닭을 물었어, 함께 하자고 했어?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "주말이나 저녁에 할 일을 정할 때 영어로 제안하고 대답하게 하면 좋은 복습이 됩니다. 다음 차시는 ‘세계 문화 존중’입니다."
         ]
       }
@@ -847,7 +861,7 @@
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 함께 축구하자고 영어로 두 가지 방법으로 제안해 보세요.\n② Why don't we watch a movie?에 좋다고 대답해 보세요.\n③ Let's go to the park.를 거절하고 까닭을 말해 보세요.",
-        "answer": "① Let's play soccer. / Why don't we play soccer? ② Sounds good. ③ Sorry, I can't. I have homework. (또는 I'm busy.) (세 가지 모두 도움 없이 하면 통과)"
+        "answer": "① Let's play soccer.와 Why don't we play soccer? 두 가지를 모두 말합니다. ② Sounds good. ③ Sorry, I can't. I have homework. (또는 I'm busy.) (세 가지 모두 도움 없이 하면 통과)"
       }
     ],
     "record": [

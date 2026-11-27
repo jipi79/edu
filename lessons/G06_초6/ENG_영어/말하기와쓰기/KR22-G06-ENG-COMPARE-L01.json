@@ -927,9 +927,12 @@
           "③ older (o-l-d-e-r)",
           "④ faster (f-a-s-t-e-r)"
         ],
+        "틀리면": [
+          "②를 biger라고 하면: 끝 자음을 한 번 더 쓰지 않았습니다(M2). “big의 끝은 모음 하나, 자음 하나지? 그럴 때는 어떻게 했지?” 하고 묻습니다.",
+          "④를 fastter라고 하면: 끝 자음이 두 개인 낱말까지 자음을 겹쳐 썼습니다(M2). “fast의 끝에는 자음이 몇 개 있지?” 하고 묻습니다."
+        ],
         "막히면": [
-          "S04의 표와 S05의 글자 타일을 다시 보여 줍니다.",
-          "②에서 biger라고 하면 “big의 끝은 모음 하나, 자음 하나지? 그럴 때는 어떻게 했지?”라고만 묻습니다."
+          "S04의 표와 S05의 글자 타일을 다시 보여 줍니다."
         ]
       }
     },
@@ -1127,6 +1130,10 @@
           "② shorter (The house is shorter than the tree.)",
           "③ older (Minho is older than Jisu. 12살이 10살보다 많음)"
         ],
+        "틀리면": [
+          "②를 taller라고 하면: 더 낮은 집을 문장 앞에 두고 taller를 써서 뜻이 거꾸로 되었습니다(M3). “문장 맨 앞의 집이 나무보다 더 높아?” 하고 묻습니다.",
+          "③을 ‘more old’라고 하면: 우리말 ‘더’를 more로 옮겼습니다(M1). “-er에는 이미 어떤 뜻이 들어 있지?” 하고 묻습니다."
+        ],
         "막히면": [
           "“무엇이 더 커?”를 먼저 우리말로 묻고, 그것이 문장 앞에 있는지 확인하게 합니다.",
           "②에서 smaller라고 해도 뜻은 통하지만, 높이를 비교할 때는 shorter가 더 알맞다고 알려 줍니다."
@@ -1181,6 +1188,9 @@
         ],
         "정답": [
           "바르게 말한 쪽은 나(The box is bigger than the ball.)입니다. big, tall 같은 짧은 낱말은 more를 쓰지 않고 -er을 붙입니다. more bigger처럼 둘을 함께 쓰는 것도 틀립니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 우리말 ‘더’를 more로 옮겼습니다(M1). “-er에는 이미 어떤 뜻이 들어 있지?” 하고 묻습니다."
         ],
         "막히면": [
           "S04 표의 뜻 칸(‘더 ~한’)을 다시 읽어 주고, -er이 ‘더’라는 뜻임을 짚습니다."
@@ -1354,9 +1364,12 @@
         "정답": [
           "① The red box is bigger than the blue box. (또는 The blue box is smaller than the red box.)",
           "② My grandpa is older than my dad. (Grandpa is older than Dad.도 맞음)",
-          "③ bigger (b-i-g-g-e-r), faster (f-a-s-t-e-r)",
+          "③ bigger, faster (b-i-g-g-e-r, f-a-s-t-e-r)",
           "④ The rabbit is faster than the turtle.",
           "기준: -er과 than을 넣고, 더 그러한 쪽을 앞에 말하면 맞습니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다. 네 개 가운데 세 개 이상이면 통과입니다."
+        ],
+        "틀리면": [
+          "③을 biger라고 하면: big의 끝 자음을 한 번 더 쓰지 않았습니다(M2). “big의 끝은 모음 하나, 자음 하나지? 그럴 때는 어떻게 했지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “무엇이 더 커(나이가 많아, 빨라)?”라고만 묻습니다.",
@@ -1762,8 +1775,8 @@
           "“이번에는 The house is taller than the tree.”"
         ],
         "정답": [
-          "The box is bigger than the ball. → 나 (가는 공이 더 큼)",
-          "The house is taller than the tree. → 라 (다는 나무가 더 높음)"
+          "첫째 문장 → 나 (The box is bigger than the ball. 가는 공이 더 큼)",
+          "둘째 문장 → 라 (The house is taller than the tree. 다는 나무가 더 높음)"
         ],
         "막히면": [
           "문장 맨 앞의 물건(box, house)을 먼저 찾게 하고, 그것이 더 큰 그림을 고르게 합니다."
@@ -1811,7 +1824,11 @@
           "② The basketball is bigger than the tennis ball. (또는 The tennis ball is smaller than the basketball.)",
           "③ 실제 키에 맞게 I'm shorter(taller) than my mom(dad)."
         ],
+        "틀리면": [
+          "①을 biger라고 하면: 끝 자음을 한 번 더 쓰지 않았습니다(M2). “big의 끝은 모음 하나, 자음 하나지? 그럴 때는 어떻게 했지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "장을 보거나 정리할 때 “Which is bigger?”라고 묻고 아이가 비교 문장으로 대답하게 하면 좋은 복습이 됩니다. 다음 차시는 ‘의견 말하기’입니다."
         ]
       }
