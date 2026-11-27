@@ -170,10 +170,12 @@
         "정답": [
           "① The bus stops here. (does가 빠지고 stop에 -s가 붙습니다.)",
           "② 도서관이 어디에 있어요?",
-          "③ Could you say that again?"
+          "③ Could you say that again? (‘Can you say that again’, ‘Could you say that again, please’, ‘Could you repeat that’도 맞음)"
+        ],
+        "틀리면": [
+          "①을 ‘The bus stop here’라고 하면: 주어가 하나인데 동사에 -s를 붙이지 않았습니다. “주어가 the bus 하나야. 동사에 무엇을 붙였지?” 하고 묻습니다."
         ],
         "막히면": [
-          "①에서 The bus stop here.라고 하면 “주어가 the bus 하나야. 동사에 무엇을 붙였지?”라고 묻습니다.",
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
@@ -395,11 +397,12 @@
           "③ Do you know where Jun lives?",
           "④ Can you tell me when the store opens?"
         ],
+        "틀리면": [
+          "③을 ‘Do you know where Jun live?’라고 하면: does를 뺀 뒤 동사의 -s를 빠뜨렸습니다(M2). “주어 Jun은 한 명이지? 동사에 무엇을 붙여야 할까?” 하고 묻습니다.",
+          "④를 ‘Can you tell me when does the store open?’이라고 하면: does를 그대로 남겼습니다(M2). “does를 빼면 동사는 어떻게 돼?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04의 네 단계를 다시 보며 한 단계씩 말하게 합니다. 주어에 밑줄, 동사에 동그라미를 치듯 손가락으로 짚어 줍니다."
-        ],
-        "주의": [
-          "③에서 where Jun live, ④에서 when the store open처럼 -s를 빠뜨리기 쉽습니다(오해 M2). 주어 Jun, the store가 하나라는 것을 짚습니다."
         ]
       }
     },
@@ -448,6 +451,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가입니다. 문장 속 질문은 의문사 + 주어(the post office) + 동사(is) 순서입니다. 나는 원래 질문의 어순(where is)을 그대로 두었으므로 is를 the post office 뒤로 옮겨야 합니다."
+        ],
+        "틀리면": [
+          "나를 고르면: 원래 질문의 어순(where is)을 그대로 두었습니다(M1). “where 뒤에 주어가 먼저 와야 해, 동사가 먼저 와야 해?” 하고 묻습니다."
         ],
         "막히면": [
           "“The post office is there.처럼 보통 문장에서 주어와 동사 가운데 무엇이 먼저야?”라고 묻습니다."
@@ -553,6 +559,9 @@
           "② Can you tell me if this bus goes to the station? (이 버스가 역에 가는지 알려 줄 수 있어요?)",
           "③ I wonder if the café sells sandwiches. (그 카페가 샌드위치를 파는지 궁금해요.)"
         ],
+        "틀리면": [
+          "②를 ‘Can you tell me if this bus go to the station?’이라고 하면: does를 뺀 뒤 동사의 -s를 빠뜨렸습니다(M2). “주어 this bus는 하나지? 동사는 어떻게 될까?” 하고 묻습니다."
+        ],
         "막히면": [
           "S08의 세 문장을 다시 보여 주고, 원래 질문의 Is·Does 자리에 if를 넣고 주어 + 동사로 이어 가게 합니다."
         ],
@@ -647,6 +656,11 @@
           "③ I wonder if the pool is open today.",
           "④ Can you tell me if this shop sells umbrellas?",
           "기준: 네 개 가운데 세 개 이상 맞으면 통과. 어순, does를 뺀 뒤의 -s(starts, sells), 끝의 마침표·물음표를 모두 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘Do you know where is the bus stop?’이라고 하면: 원래 질문의 어순을 그대로 두었습니다(M1). “where 뒤에 주어와 동사 가운데 무엇이 먼저야?” 하고 묻습니다.",
+          "②를 ‘Can you tell me when does the class start?’라고 하면: does를 그대로 남겼습니다(M2). “does를 빼면 동사는 어떻게 돼?” 하고 묻습니다.",
+          "③을 ‘I wonder the pool is open today’라고 하면: 의문사가 없는 질문인데 if를 뺐습니다(M3). “원래 질문에 의문사가 있었어, 없었어?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “주어가 뭐야?”, “의문사가 있어, 없어?”라고만 묻습니다.",
@@ -748,9 +762,13 @@
           "“네 문장 가운데 바른 문장 두 개는? 나머지 두 개는 어디가 틀렸고, 어떻게 고칠까?”"
         ],
         "정답": [
-          "바른 문장: 나(Can you tell me where the post office is?), 라(Do you know where the post office is?)",
-          "가 → 의문사 where가 있으니 if를 빼요: Can you tell me where the post office is? / 다 → is를 the post office 뒤로: Do you know where the post office is?",
+          "나, 라. 나(Can you tell me where the post office is?), 라(Do you know where the post office is?)",
+          "가 → 의문사 where가 있으니 if를 뺍니다: Can you tell me where the post office is? / 다 → is를 the post office 뒤로 옮깁니다: Do you know where the post office is?",
           "기준: 두 개를 바르게 고르고, 다의 어순을 고쳐 말하면 통과. 가까지 고치면 아주 잘한 것입니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 의문사 where가 있는데 if를 또 넣었습니다. “where가 있는데 if가 또 필요할까?” 하고 묻습니다.",
+          "다를 고르면: 원래 질문의 어순(where is)을 그대로 두었습니다(M1). “where 뒤에 주어가 먼저 와야 해, 동사가 먼저 와야 해?” 하고 묻습니다."
         ],
         "막히면": [
           "“주어와 동사를 찾아봐. 어느 쪽이 먼저야?”라고만 묻습니다."
@@ -779,7 +797,7 @@
           "text": "Where is the park?를\nDo you know로"
         },
         {
-          "text": "What time does it start?를\nCan you tell me로"
+          "text": "What time does the movie\nstart?를 Can you tell me로"
         },
         {
           "text": "Is the shop open now?를\nI wonder if로"
@@ -798,10 +816,15 @@
         ],
         "정답": [
           "① Do you know where the park is?",
-          "② Can you tell me what time it starts?",
+          "② Can you tell me what time the movie starts?",
           "③ I wonder if the shop is open now."
         ],
+        "틀리면": [
+          "①을 ‘Do you know where is the park?’라고 하면: 원래 질문의 어순을 그대로 두었습니다(M1). “where 뒤에 주어와 동사 가운데 무엇이 먼저야?” 하고 묻습니다.",
+          "②를 ‘Can you tell me what time the movie start?’라고 하면: does를 뺀 뒤 동사의 -s를 빠뜨렸습니다(M2). “주어 the movie는 하나지? 동사에 무엇을 붙여야 할까?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "밖에서 길이나 시각을 물을 일이 생기면 “영어로 공손하게 물으면?” 하고 한 번씩 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘의견·이유 문단’에서는 주제 하나를 골라 의견을 쓰고, 그 주제로 ‘의견 발표하기’와 ‘질문에 답하기’까지 이어 갑니다. 오늘 배운 Can you tell me if ~? / I wonder if ~.는 ‘질문에 답하기’에서 부모님이 묻는 질문으로 다시 나옵니다."
         ]
       }

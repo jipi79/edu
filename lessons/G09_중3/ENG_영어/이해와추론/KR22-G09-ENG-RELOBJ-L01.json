@@ -159,7 +159,7 @@
         ],
         "정답": [
           "① who (축구를 하는 소년)",
-          "② I have a dog which(that) has long ears.",
+          "② I have a dog which has long ears. (‘I have a dog that has long ears’도 맞음)",
           "③ 옆집에 사는 소녀는 친절해요."
         ],
         "막히면": [
@@ -329,17 +329,20 @@
           "“다 말하면 우리말 뜻도 말해 볼래?”"
         ],
         "정답": [
-          "① This is the bag which(that) I bought yesterday. (이것은 내가 어제 산 가방이에요.)",
-          "② He is the teacher who(m)(that) I like. (그는 내가 좋아하는 선생님이에요.)",
-          "③ I read the book which(that) Tom wrote. (나는 톰이 쓴 책을 읽었어요.)",
-          "④ She is the girl who(m)(that) I met in Jeju. (그녀는 내가 제주에서 만난 소녀예요.)"
+          "① This is the bag which I bought yesterday. (‘This is the bag that I bought yesterday’, ‘This is the bag I bought yesterday’도 맞음. 이것은 내가 어제 산 가방이에요.)",
+          "② He is the teacher who I like. (‘He is the teacher whom I like’, ‘He is the teacher that I like’, ‘He is the teacher I like’도 맞음. 그는 내가 좋아하는 선생님이에요.)",
+          "③ I read the book which Tom wrote. (‘I read the book that Tom wrote’, ‘I read the book Tom wrote’도 맞음. 나는 톰이 쓴 책을 읽었어요.)",
+          "④ She is the girl who I met in Jeju. (‘She is the girl whom I met in Jeju’, ‘She is the girl that I met in Jeju’, ‘She is the girl I met in Jeju’도 맞음. 그녀는 내가 제주에서 만난 소녀예요.)"
+        ],
+        "틀리면": [
+          "①을 ‘This is the bag which I bought it yesterday’라고 하면: 절 안에 목적어 it을 다시 썼습니다(M1). “it은 무엇으로 바뀌어 어디로 갔지?” 하고 묻습니다."
         ],
         "막히면": [
           "“둘째 문장에서 ‘~을, ~를’에 해당하는 말은?”이라고 묻고, 그 낱말을 손가락으로 가리게 합니다.",
           "①에서 yesterday를 어디에 둘지 헷갈리면 “which I bought yesterday, 원래 문장의 순서 그대로 따라와.”라고 말해 줍니다."
         ],
         "주의": [
-          "②④에서 who 대신 whom이라고 해도 맞습니다. which I bought it처럼 목적어를 남기면 다음 장에서 바로 비교합니다.",
+          "②④에서 who 대신 whom이라고 해도 맞습니다.",
           "①의 yesterday, ④의 in Jeju처럼 목적어 뒤에 있던 말은 그대로 절 끝에 남습니다."
         ]
       }
@@ -389,6 +392,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(This is the cake which my mom made.)입니다. 가는 which가 이미 it을 대신하고 있는데 made 뒤에 it을 한 번 더 썼습니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 절 안에 목적어를 다시 썼습니다(M1). “it이 which가 되어 맨 앞으로 갔으면 원래 자리는 어떻게 될까?” 하고 묻습니다."
         ],
         "막히면": [
           "S04의 단계를 다시 보여 주고 “it이 which가 되어 맨 앞으로 이사 갔어. 원래 자리는 비어야 해.”라고 말해 줍니다."
@@ -708,11 +714,15 @@
           "“이번에는 혼자 해 볼래? ①②는 한 문장으로 이어 말하고, ③은 뜻을, ④는 뺄 수 있는지와 그 까닭을 말해 줘. 그다음 활동지 5에 써.”"
         ],
         "정답": [
-          "① This is the pen which(that) I use every day.",
-          "② She is the singer who(m)(that) I like a lot.",
+          "① This is the pen which I use every day. (‘This is the pen that I use every day’, ‘This is the pen I use every day’도 맞음)",
+          "② She is the singer who I like a lot. (‘She is the singer whom I like a lot’, ‘She is the singer that I like a lot’, ‘She is the singer I like a lot’도 맞음)",
           "③ 내가 만든 케이크는 달았다. (cake와 I 사이에 which가 빠졌습니다.)",
           "④ 뺄 수 없어요. who 바로 뒤가 동사(sings)인 주격입니다.",
-          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 절 안에 it·her를 다시 쓰지 않았는지, 첫 글자 대문자와 마침표도 봅니다. ①②는 which·who를 빼고 쓴 문장(the pen I use every day)도 맞습니다."
+          "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 절 안에 it·her를 다시 쓰지 않았는지, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘This is the pen which I use it every day’라고 하면: 절 안에 목적어 it을 다시 썼습니다(M1). “둘째 문장의 it은 무엇으로 바뀌었지?” 하고 묻습니다.",
+          "②를 ‘She is the singer who I like her a lot’이라고 하면: 절 안에 목적어 her를 다시 썼습니다(M1). “둘째 문장의 her는 무엇으로 바뀌었지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “둘째 문장의 목적어는?” “명사 바로 뒤에 무엇이 와?” “who 바로 뒤는 주어야, 동사야?”라고만 묻습니다.",
@@ -861,11 +871,15 @@
           "“‘~가 …한’으로 해석해요.” “뒤에 주어가 오는 목적격이요.”"
         ],
         "정답": [
-          "① This is the book which(that) I read. (This is the book I read.도 맞음)",
+          "① This is the book which I read. (‘This is the book that I read’, ‘This is the book I read’도 맞음)",
           "② the man who I met (who 뒤가 주어 I)",
           "③ 아빠가 찍은 사진"
         ],
+        "틀리면": [
+          "①을 ‘This is the book which I read it’이라고 하면: 절 안에 목적어 it을 다시 썼습니다(M1). “it은 무엇으로 바뀌어 어디로 갔지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집에서 물건을 가리키며 “This is the ~ (which) I like.”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘분사의 명사 수식’에서는 a crying baby(우는 아기), a broken window(깨진 창문)처럼 동사의 -ing 모양과 과거분사로 명사를 꾸미는 방법을 배웁니다."
         ]
       }
@@ -1122,7 +1136,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① This is the book. + I read it.을 한 문장으로 이어 쓰시오.\n② the man who helped me / the man who I met 가운데 who를 뺄 수 있는 쪽을 쓰시오.\n③ the photo Dad took의 뜻을 쓰시오.",
         "lines": 3,
-        "answer": "① This is the book which(that) I read. (This is the book I read.도 맞음) ② the man who I met ③ 아빠가 찍은 사진. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① This is the book which I read. (‘This is the book that I read’, ‘This is the book I read’도 맞음) ② the man who I met (who 뒤가 주어 I) ③ 아빠가 찍은 사진. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
