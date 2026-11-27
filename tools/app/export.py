@@ -299,6 +299,10 @@ def problem_items(L, s, key, issues, seen):
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
         acc = accepted(note) if inp in ("short", "numpad", "expr") else []
+        if inp == "short":  # 예·아니요 답은 같은 뜻의 말을 함께 받는다
+            for group in (("아니다", "아니요", "아니오", "아니에요", "아님"), ("그렇다", "예", "네", "맞다", "맞아요", "그래요")):
+                if str(ans).rstrip(".") in group:
+                    acc = acc + [g for g in group if g != str(ans).rstrip(".") and g not in acc]
         if inp == "expr":
             acc = [korean_fraction(a) or a for a in acc]
         if acc:
