@@ -27,6 +27,7 @@ sys.path.insert(0, str(ROOT / ".claude" / "skills" / "education-ppt" / "scripts"
 import wrong_line  # noqa: E402
 
 FORMAT_VERSION = 0
+GRADE = "G01"  # export()가 차시마다 바꾼다(학년에 따라 다르게 읽는 규칙에 씀)
 LABELS = "가나다라마바"
 OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|(?<![가-힣0-9])등(?=[\s.,)]|$)|처럼|자유|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
 NUM = r"−?\d+(?:\.\d+)?"
@@ -184,6 +185,10 @@ def classify(prob, ans_text):
         return "short_all", [x.strip() for x in main.split(",")], "", "", note
     if len(main) <= 8 and " " not in main.strip() and re.fullmatch(r"[가-힣A-Za-z]+", main):
         return "short", main, "", "", note
+    # 중·고의 두 낱말 용어(‘국제 연맹’, ‘이산화 탄소’): 띄어쓰기와 상관없이 채점. 문장 끝(~요, ~다)과 ‘A과 B’ 꼴은 뺀다
+    if (GRADE >= "G07" and re.fullmatch(r"[가-힣]{1,6} [가-힣]{1,6}", main.strip())
+            and not re.search(r"(요|다|까|니다)$", main.strip()) and not re.search(r"[가-힣](과|와) ", main)):
+        return "short", main.strip(), "", "용어(띄어쓰기 무시)", note
     if re.fullmatch(r"[가-힣A-Za-z]{1,6}(?:,\s*[가-힣A-Za-z]{1,6})+", main):
         return "short_all", [x.strip() for x in main.split(",")], "", "", note
     return "parent", main, "", "말·글·식으로 답함", note
@@ -485,6 +490,8 @@ SCREEN_SKIP = ("notes", "purpose", "section")
 
 
 def export(L):
+    global GRADE
+    GRADE = L["grade"]
     issues, seen = [], Counter()
     slides = []
     for s in L["slides"]:
