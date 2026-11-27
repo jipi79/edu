@@ -28,6 +28,7 @@ import wrong_line  # noqa: E402
 
 FORMAT_VERSION = 0
 GRADE = "G01"  # export()가 차시마다 바꾼다(학년에 따라 다르게 읽는 규칙에 씀)
+STRAND = ""
 LABELS = "가나다라마바"
 OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|(?<![가-힣0-9])등(?=[\s.,)]|$)|처럼|자유|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
 NUM = r"−?\d+(?:\.\d+)?"
@@ -173,6 +174,9 @@ def classify(prob, ans_text):
             and re.search(r"[0-9πxyzabn√=<>≤≥(]", mm)
             and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)):
         return "expr", mm, "", "식·값(같은 값의 다른 꼴도 맞음)", note
+    # 과학의 원소 기호·화학식(Ca, Ag, H₂O, NaCl, CO₂): 대소문자를 구별한다(CA는 틀림)
+    if STRAND == "SCI" and re.fullmatch(r"(?:[A-Z][a-z]?[₀-₉0-9⁺⁻²³]*)+", main.strip()):
+        return "short_case", main.strip(), "", "원소 기호·화학식(대소문자 구별)", note
     # 대문자 이름 목록(모서리·점·선분: ‘CG, DH, EH, FG’)은 차례와 상관없이 모두
     if re.fullmatch(r"[A-Z]{1,3}′?(?:,\s*[A-Z]{1,3}′?)+", main.strip()):
         return "short_all", [x.strip() for x in main.split(",")], "", "이름 목록(차례 무관)", note
@@ -490,8 +494,8 @@ SCREEN_SKIP = ("notes", "purpose", "section")
 
 
 def export(L):
-    global GRADE
-    GRADE = L["grade"]
+    global GRADE, STRAND
+    GRADE, STRAND = L["grade"], L["strand"]
     issues, seen = [], Counter()
     slides = []
     for s in L["slides"]:
