@@ -735,7 +735,7 @@
         ],
         "정답": [
           "① 왜냐하면, ~해서",
-          "② it's",
+          "② it's(it is도 맞음)",
           "③ 예: I like winter because I can make a snowman. (이유가 어울리고 because 뒤에 it's나 I can이 있으면 맞음)"
         ],
         "주의": [
@@ -877,7 +877,7 @@
         "eng": {
           "blank": 1
         },
-        "answer": "① 왜냐하면, ~해서 ② it's ③ 예: I like winter because I can make a snowman. (이유가 어울리고 because 뒤에 it's나 I can이 있으면 맞음) (빈 줄에 써 보아도 좋습니다. 세 가지 모두 도움 없이 하면 통과)"
+        "answer": "① 왜냐하면, ~해서 ② it's(it is도 맞음) ③ 예: I like winter because I can make a snowman. (이유가 어울리고 because 뒤에 it's나 I can이 있으면 맞음) (빈 줄에 써 보아도 좋습니다. 세 가지 모두 도움 없이 하면 통과)"
       }
     ],
     "record": [

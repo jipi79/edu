@@ -41,6 +41,8 @@ def main_answer(a):
     if m and m.group(1):
         return m.group(1).strip(), m.group(2).strip()
     m = re.match(r"^(.*?[^0-9])\.\s+(.*)$", a)
+    if m and re.fullmatch(r"[A-Za-z][A-Za-z ,'’]*", m.group(1)) and re.match(r"[A-Z]", m.group(2)):
+        return a.rstrip("."), ""  # 영어 여러 문장은 한 답(첫 문장만 떼지 않는다)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return a.rstrip("."), ""
