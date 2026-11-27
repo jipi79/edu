@@ -320,6 +320,21 @@ def check(path):
             if w.get("goto") and w["goto"] not in sids:
                 errors.append(f"{s['id']}: 틀리면의 돌아갈 장 {w['goto']}이 없다")
 
+    # 정리 장 복습과 활동지 ‘다음 수업을 시작할 때’는 같은 문제·같은 답(authoring.md ‘한 벌’)
+    summ = [s for s in slides if s.get("kind") == "summary" and s.get("review")]
+    w_items = (lesson.get("worksheet") or {}).get("items", [])
+    start = next((i for i, it in enumerate(w_items) if "다음 수업" in it.get("heading", "")), None)
+    if summ and start is not None:
+        flat = lambda t: re.sub(r"[\s·,.?!…~\-–—()\[\]“”‘’\"/:;]", "", str(t))
+        ws_ans = flat(" ".join(str(it.get("answer", "")) for it in w_items[start:]))
+        raw = " ".join(summ[-1].get("notes", {}).get("정답", []))
+        parts = [p for p in re.split(r"[①②③④⑤⑥]", raw) if p.strip()] if re.search(r"[①②③]", raw) else [raw]
+        for k, part in enumerate(parts):
+            main = re.split(r"\(|(?<=[^0-9])\.\s", part.strip())[0]
+            if main.strip() and flat(main) not in ws_ans:
+                msg = f"{summ[-1]['id']}: 복습 {k + 1}번 답 ‘{main.strip()[:30]}’이 활동지 ‘다음 수업을 시작할 때’ 답에 없다(한 벌이 아님)"
+                (errors if lesson["grade"] == "G01" else notes).append(msg)
+
     # 중·고: 화면 이름을 옮긴 부모용 글이 화면과 맞는지(말투 변환 뒤 해요체 이름이 남지 않게)
     if lesson["grade"] >= "G07":
         noun_yo = r"(개요|동요|필요|중요|주요|수요|강요|소요|요요)\??\)?$"

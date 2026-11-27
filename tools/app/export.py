@@ -255,6 +255,8 @@ def choice_item(L, s, issues, seen):
     elif order and len(re.findall("→", order.group(0))) >= 2:
         seq = re.findall(rf"[{lab}]", order.group(0))
         rec.update(input="order", answer=[LABELS.index(x) for x in seq])
+        if re.search(r"다른 (차례|순서)", raw):
+            rec["other_ok_with_reason"] = True  # 다른 차례도 까닭이 맞으면 맞음 → 부모 판정으로 넘김
     elif len(match) >= 2 and not raw.startswith(tuple(lab)):
         rec.update(input="match", answer=[{"prompt": a, "option": LABELS.index(b)} for a, b in match])
     elif len(match) == 1 and raw.startswith(match[0][0]):
