@@ -140,6 +140,8 @@ def classify(prob, ans_text):
     main, note = main_answer(ans_text)
     if not main:
         return "parent", None, "", "정답 없음", note
+    if GRADE >= "G07" and re.search(r"[=<>]", main) and "분의" in main:  # 식 속 ‘2분의 1’ → 1/2
+        main = re.sub(r"(√?\d+)\s*분의\s*(√?\d+)", r"\2/\1", main)
     MATHRUN = r"(?:[0-9A-Za-zπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+"
     roots = GRADE >= "G07" and re.fullmatch(MATHRUN, main.strip()) and re.search(r"[=<>]", main) and "또는" in main
     if OPEN.search(ans_text) and not (roots and not OPEN.search(re.sub(r"또는", "", ans_text))):
