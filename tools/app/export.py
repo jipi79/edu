@@ -161,7 +161,7 @@ def classify(prob, ans_text):
     if GRADE >= "G07" and re.search(r"[=<>]", main) and "분의" in main:  # 식 속 ‘2분의 1’ → 1/2
         main = re.sub(r"(√?\d+)\s*분의\s*(√?\d+)", r"\2/\1", main)
     MATHRUN = r"(?:[0-9A-Za-zπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+"
-    roots = GRADE >= "G07" and re.fullmatch(MATHRUN, main.strip()) and re.search(r"[=<>]", main) and "또는" in main
+    roots = GRADE >= "G07" and re.fullmatch(MATHRUN, main.strip()) and re.search(r"[=<>≤≥]", main) and "또는" in main
     if OPEN.search(ans_text) and not (roots and not OPEN.search(re.sub(r"또는", "", ans_text))):
         return "parent", main, "", "열린 답(예·또는·가운데)", note
     if roots:  # ‘x = √13 또는 x = −√13’: 근을 모두 쓰는 답(또는 = 그리고)
