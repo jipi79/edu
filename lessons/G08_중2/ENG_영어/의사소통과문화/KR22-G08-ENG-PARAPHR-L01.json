@@ -163,7 +163,7 @@
         ],
         "정답": [
           "① What does \"starving\" mean?",
-          "② Do you mean twelve o'clock?",
+          "② Do you mean twelve o'clock? (Do you mean 12 o'clock도 맞음)",
           "③ 다시 말해 주시겠어요?"
         ],
         "막히면": [
@@ -384,7 +384,7 @@
           ]
         }
       },
-      "question": "더 잘 설명한 쪽은? 다른 쪽은 무엇이 문제인가?",
+      "question": "어느 쪽이 더 잘 설명했는가? 다른 쪽은 무엇이 문제인가?",
       "notes": {
         "목적": "설명 속에 그 낱말을 다시 쓰는 실수를 비교로 바로잡습니다(목표 A, 오해 M1·M2).",
         "시간": "약 2분",
@@ -396,6 +396,9 @@
         "정답": [
           "더 잘 설명한 쪽은 가입니다. 나는 설명 속에 huge를 다시 써서 모르는 사람은 여전히 뜻을 알 수 없습니다. 가는 쉬운 낱말 very big으로 바꾸고, 코끼리라는 예까지 붙여 이해를 돕습니다.",
           "‘It means 거대한.’처럼 우리말로 답하면 한국어를 모르는 친구는 알아듣지 못합니다(오해 M2)."
+        ],
+        "틀리면": [
+          "나를 고르면: 설명 속에 그 낱말을 다시 써도 된다고 생각했습니다(M1). “huge를 모르는 친구가 a huge thing을 들으면 뜻을 알 수 있을까?” 하고 묻습니다."
         ],
         "막히면": [
           "“네가 huge를 모른다고 생각하고 나를 들어 봐. 알겠어?”라고 묻습니다."
@@ -493,10 +496,10 @@
           "“②의 closed는 ‘문을 닫은’이야. 일요일에 가게가 어떻다는 거지?”"
         ],
         "정답": [
-          "① I'm very hungry.",
-          "② It doesn't open on Sundays. / You can't buy things there on Sundays.",
-          "③ It was very easy.",
-          "기준: 앞 문장과 같은 뜻이고 쉬운 낱말로 된 완성된 문장이면 모두 맞습니다. 정답은 하나가 아닙니다."
+          "① 예: I'm very hungry.",
+          "② 예: It doesn't open on Sundays. / You can't buy things there on Sundays.",
+          "③ 예: It was very easy.",
+          "기준: 앞 문장과 같은 뜻이고 쉬운 낱말로 된 완성된 문장이면 맞습니다. 정답은 하나가 아닙니다."
         ],
         "막히면": [
           "S03·S04의 very ~, not ~를 떠올리게 합니다. 예: closed → not open.",
@@ -585,8 +588,7 @@
           "“Mina는 name tag를 어떤 틀로 설명했지?”"
         ],
         "정답": [
-          "Leo: It means very, very big. In other words, your bag is huge! (very ~ 틀과 In other words로 바꾸어 말함)",
-          "Mina: It's a card for my name and phone number. (a ~ for ~ 틀)",
+          "Leo는 very ~ 틀(It means very, very big.)과 In other words(your bag is huge!)로, Mina는 a ~ for ~ 틀(It's a card for my name and phone number.)로 설명했습니다. 두 사람의 설명을 대화에서 찾아 말하면 맞습니다.",
           "대화의 뜻: 미나: 봐! 이건 내 새 배낭이야. / 레오: 와, 엄청나게 크다! / 미나: 뭐라고? enormous가 무슨 뜻이야? / 레오: 아주아주 크다는 뜻이야. 다시 말해, 네 가방이 정말 크다고! / 레오: 가방에 달린 이 작은 카드는 뭐야? / 미나: 이름표야. 내 이름과 전화번호를 적는 카드야."
         ],
         "막히면": [
@@ -631,10 +633,10 @@
           "“④는 엄마(아빠)가 말할게. The quiz was a piece of cake. 네가 이해한 뜻이 맞는지 Do you mean ~?으로 확인해 줘.”"
         ],
         "정답": [
-          "① It's a baby cat. / It's a very young cat.",
-          "② It's a doctor for your teeth.",
-          "③ In other words, my room is not clean. / In other words, my things are everywhere.",
-          "④ Do you mean it was very easy? (Do you mean the quiz was easy?도 맞음)",
+          "① 예: It's a baby cat. / It's a very young cat.",
+          "② 예: It's a doctor for your teeth.",
+          "③ 예: In other words, my room is not clean. / In other words, my things are everywhere.",
+          "④ 예: Do you mean it was very easy? / Do you mean the quiz was easy?",
           "기준: 네 개 가운데 세 개 이상이면 통과. 그 낱말을 다시 쓰거나 우리말로 설명하면 맞지 않습니다. 설명과 바꾼 문장은 뜻이 맞고 쉬운 영어이면 여러 가지가 됩니다."
         ],
         "막히면": [
@@ -748,11 +750,15 @@
           "가는 다른 뜻(행복하다), 나는 같은 말을 되풀이함(바꾸어 말하지 않음), 라는 반대 뜻(전혀 피곤하지 않다)입니다.",
           "기준: 다를 고르고 나머지 셋 가운데 둘 이상의 까닭을 말하면 통과."
         ],
+        "틀리면": [
+          "나를 고르면: 같은 말을 되풀이해도 바꾸어 말한 것이라고 생각했습니다. “In other words는 다른 말로 다시 하는 거였지?” 하고 묻습니다.",
+          "라를 고르면: 반대 뜻의 문장을 골랐습니다(M3). “not tired at all은 exhausted와 같은 뜻일까?” 하고 묻습니다."
+        ],
         "막히면": [
           "“축구를 세 시간 하면 어떤 느낌일까?”라고 상황부터 묻습니다."
         ],
         "주의": [
-          "나를 고르면 “In other words는 다른 말로 다시 하는 거였지?”라고 짚어 줍니다. 틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S07을 다시 봅니다."
+          "틀리면 기록표에 적어 두고 다음 수업 첫 5분에 S07을 다시 봅니다."
         ]
       }
     },
@@ -793,11 +799,12 @@
           "“a kind of, a ~ for ~, very ~, like ~ but ~요.” “앞 문장과 같은 뜻을 쉬운 말로요.”"
         ],
         "정답": [
-          "① It means very big.",
-          "② It's a thing for rain. / You open it on rainy days. (그 낱말 없이 설명하면 통과)",
-          "③ In other words, I'm very hungry."
+          "① 예: It means very big. (기준: huge를 쓰지 않고 쉬운 영어로 ‘아주 크다’는 뜻을 말하면 맞습니다.)",
+          "② 예: It's a thing for rain. / You open it on rainy days. (기준: umbrella를 쓰지 않고 쉬운 영어로 설명하면 맞습니다.)",
+          "③ 예: In other words, I'm very hungry. (기준: 같은 뜻의 쉬운 문장이면 맞습니다.)"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집에서 영어 낱말이 나오면 “What does ~ mean?”이라고 묻고 아이가 쉬운 영어로 설명해 보게 하면 좋은 복습이 됩니다. 다음 차시 ‘문화적 관점 차이’에서는 같은 행동을 문화에 따라 다르게 보는 관점을 비교하고 내 생각을 말합니다."
         ]
       }
@@ -986,7 +993,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① huge의 뜻을 영어로 설명하시오.\n② 우산(umbrella)을 그 낱말을 쓰지 않고 영어로 설명하시오.\n③ I'm starving.을 In other words, ~.로 바꾸어 쓰시오.",
         "lines": 3,
-        "answer": "① It means very big. ② It's a thing for rain. (You open it on rainy days.) ③ In other words, I'm very hungry. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 예: It means very big. (기준: huge를 쓰지 않고 쉬운 영어로 ‘아주 크다’는 뜻을 말하면 맞습니다.) ② 예: It's a thing for rain. / You open it on rainy days. (기준: umbrella를 쓰지 않고 쉬운 영어로 설명하면 맞습니다.) ③ 예: In other words, I'm very hungry. (기준: 같은 뜻의 쉬운 문장이면 맞습니다.) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

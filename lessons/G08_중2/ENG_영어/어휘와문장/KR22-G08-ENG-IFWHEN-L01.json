@@ -161,6 +161,9 @@
           "② rain (It will rain tonight.)",
           "③ because (I stayed home because it was cold.)"
         ],
+        "틀리면": [
+          "②를 rains라고 하면: will 뒤에 -s가 붙은 모양을 골랐습니다. “will 뒤에는 어떤 모양이 오지?” 하고 묻습니다."
+        ],
         "막히면": [
           "①②는 “앞으로 할 일은 무엇을 썼지? will 뒤에는 어떤 모양?”, ③은 “추웠던 것이 이유야, 결과야?”라고 묻습니다.",
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
@@ -276,7 +279,7 @@
         "정답": [
           "① When I am thirsty, I drink water.",
           "② If I am sleepy, I go to bed.",
-          "③ When I am bored, I read comics. (순서를 바꾸면: I read comics when I am bored. 쉼표 없음)"
+          "③ When I am bored, I read comics. (I read comics when I am bored도 맞음. 순서를 바꾸면 쉼표가 없습니다)"
         ],
         "막히면": [
           "“목마를 때 무엇을 해? 물을 마시지?”처럼 우리말로 맞춰 보게 합니다."
@@ -496,6 +499,9 @@
         "정답": [
           "바르게 쓴 쪽은 가(If it snows tomorrow, we will make a snowman.)입니다. 나는 if 절에 will을 썼습니다. 앞으로의 일이어도 if 절은 현재 시제(snows)로 쓰고, will은 주절에만 씁니다."
         ],
+        "틀리면": [
+          "나를 고르면: 앞으로의 일이라서 if 절에도 will을 썼습니다(M1). “will은 if 절과 주절 가운데 어디에 쓰지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S05의 열쇠 문장(If it will rain ×, If it rains ○)을 다시 보여 줍니다."
         ],
@@ -537,14 +543,14 @@
         ],
         "정답": [
           "① If it is sunny tomorrow, we will go to the park.",
-          "② When I get home, I will wash my hands.",
-          "③ If you are busy, I will help you. (I will help you if you are busy.)"
+          "② When I get home, I will wash my hands. (기준: When이나 If로 시작하고 주절에 will을 쓰면 맞음)",
+          "③ If you are busy, I will help you. (I will help you if you are busy도 맞음)"
         ],
         "막히면": [
           "“먼저 if 쪽부터: 내일 맑으면 → If it is sunny tomorrow. 다음 주절: 우리는 공원에 갈 거예요 → we will ~.”처럼 두 부분으로 나눠 말하게 합니다."
         ],
         "주의": [
-          "②는 집에 도착하는 것이 꼭 일어날 일이므로 when이 자연스럽습니다. If I get home이라고 해도 틀린 문장은 아니지만 when을 권합니다.",
+          "②는 집에 도착하는 것이 꼭 일어날 일이므로 when이 자연스럽습니다. If로 말해도 틀린 문장은 아니지만 when을 권합니다.",
           "쓸 때는 if·when 절이 앞에 오면 쉼표를 넣습니다(오해 M4)."
         ]
       }
@@ -631,6 +637,9 @@
           "③ If I'm free, I'll help you.",
           "④ If I win, Mom will smile.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 if·when 절의 현재 시제(-s), 주절의 will, if 절이 앞일 때 쉼표, 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 will be라고 하면: 앞으로의 일이라서 if 절에도 will을 썼습니다(M1). “if 절에는 어떤 시제를 쓰지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “if·when 쪽이야, 주절 쪽이야?” “if 절이 앞으로 오면 무엇을 찍지?”라고만 묻습니다.",
@@ -757,13 +766,13 @@
       "dont": "If it will rain / If it rain",
       "review": [
         {
-          "text": "알맞은 것은?\nIf it (rains / will rain)"
+          "text": "알맞은 것은?\nIf it (rains / will rain)\ntomorrow, …"
         },
         {
-          "text": "바르게 고치면?\nIf it will snow, …"
+          "text": "바르게 고치면?\nIf it will snow,\nwe will make a snowman."
         },
         {
-          "text": "영어로 (get home, call)\n‘집에 오면 전화할게.’"
+          "text": "영어로 (get home, call you)\n‘집에 오면 전화할게.’"
         }
       ],
       "next": "비교 표현 확장",
@@ -778,11 +787,15 @@
           "“if는 ~하면, when은 ~할 때예요. 쉼표를 찍어요.” “will을 쓰지 않고 현재 시제를 써요.”"
         ],
         "정답": [
-          "① rains (If it rains, …)",
-          "② If it snows, … (will을 빼고 snows)",
-          "③ When I get home, I will call you."
+          "① rains (If it rains tomorrow, …)",
+          "② If it snows, we will make a snowman.",
+          "③ When I get home, I will call you. (기준: 주절을 I will call you 또는 I'll call you로 쓰면 맞음)"
+        ],
+        "틀리면": [
+          "①을 will rain이라고 하면: 앞으로의 일이라서 if 절에도 will을 썼습니다(M1). “will은 if 절과 주절 가운데 어디에만 쓰지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁에 “If it is sunny tomorrow, what will you do?”처럼 물어보고 If ~, I will ~.로 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘비교 표현 확장’에서는 as ~ as와 much를 쓴 비교급으로 두 대상을 비교합니다."
         ]
       }
@@ -994,9 +1007,9 @@
         "no": 7,
         "new_page": true,
         "heading": "다음 수업을 시작할 때",
-        "prompt": "① If it (rains / will rain) tomorrow, I will stay home. 알맞은 것을 쓰시오.\n② If it will snow, we will make a snowman.을 바르게 고쳐 쓰시오.\n③ ‘집에 오면 전화할게.’를 영어로 쓰시오. (get home, call you)",
+        "prompt": "① If it (rains / will rain) tomorrow, …에서 알맞은 것을 쓰시오.\n② If it will snow, we will make a snowman.을 바르게 고쳐 쓰시오.\n③ ‘집에 오면 전화할게.’를 영어로 쓰시오. (get home, call you)",
         "lines": 3,
-        "answer": "① rains ② If it snows, we will make a snowman. ③ When I get home, I will call you. (I'll call you도 맞음) 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① rains (If it rains tomorrow, …) ② If it snows, we will make a snowman. ③ When I get home, I will call you. (기준: 주절을 I will call you 또는 I'll call you로 쓰면 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

@@ -166,9 +166,11 @@
           "② are (We are busy today.)",
           "③ play (I'm going to play soccer tomorrow. going to 뒤에는 기본 모양)"
         ],
+        "틀리면": [
+          "③을 played라고 하면: going to 뒤에 지난 일의 모양을 썼습니다(M1). “tomorrow는 지난 일이야, 앞으로 할 일이야?” 하고 묻습니다."
+        ],
         "막히면": [
           "①②는 “she에는 am, are, is 가운데 무엇이었지? we는?”이라고 묻습니다.",
-          "③에서 played를 고르면 “played는 지난 일이야. 내일 할 일에는 기본 모양을 썼지.”라고 말해 줍니다.",
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
         ],
         "주의": [
@@ -352,9 +354,13 @@
           "⑤ am (I am going to read.)",
           "⑥ come (They will come.)"
         ],
+        "틀리면": [
+          "①을 rains라고 하면: 주어가 3인칭 단수라서 will 뒤에도 -s를 붙였습니다(M1). “will 뒤에는 어떤 모양이 왔지?” 하고 묻습니다.",
+          "②를 are라고 하면: 주어와 be동사의 짝을 틀렸습니다(M2). “she에는 am, are, is 가운데 무엇이었지?” 하고 묻습니다.",
+          "④를 is라고 하면: will 뒤에 동사원형을 쓰지 않았습니다(M1). “am, are, is의 원래 모양은 무엇이지?” 하고 묻습니다."
+        ],
         "막히면": [
-          "S03, S04를 다시 보여 줍니다.",
-          "④에서 is를 고르면 “am, are, is의 원래 모양은 be야. will 뒤에는 be를 써.”라고 알려 줍니다."
+          "S03, S04를 다시 보여 줍니다."
         ],
         "주의": [
           "④ will be는 아이들이 가장 어려워하는 모양입니다. I will be fourteen next year.(나는 내년에 열네 살이 될 거예요.) 같은 예를 하나 더 들어 줍니다."
@@ -406,6 +412,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(He will play soccer.)입니다. will 뒤에는 주어와 상관없이 동사원형을 씁니다. 앞에서 배운 doesn't, didn't 뒤와 같습니다."
+        ],
+        "틀리면": [
+          "나를 고르면: 주어가 3인칭 단수라서 will 뒤에도 -s를 붙였습니다(M1). “will이 있으면 동사 모양은 어떻게 했지?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 ‘주어가 누구든 will은 그대로’ 카드를 다시 보여 줍니다."
@@ -575,10 +584,13 @@
           "“①부터 지시대로 바꾸어 말해 줘. will이 있는지, be동사가 있는지 먼저 볼까?”"
         ],
         "정답": [
-          "① I won't eat pizza. (I will not eat pizza.)",
+          "① I won't eat pizza. (I will not eat pizza도 맞음)",
           "② Is she going to study?",
           "③ Yes, I will.",
           "④ No, they aren't."
+        ],
+        "틀리면": [
+          "①을 ‘I willn't eat pizza.’라고 하면: will not을 잘못 줄였습니다(M3). “will not을 줄이면 어떤 모양이었지?” 하고 묻습니다."
         ],
         "막히면": [
           "S07의 단계와 S08의 표를 다시 보여 줍니다."
@@ -672,6 +684,10 @@
           "③ Are you going to cook?",
           "④ No, it won't.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 won't의 아포스트로피('), 물음표, 문장 첫 글자 대문자도 봅니다."
+        ],
+        "틀리면": [
+          "①을 is라고 하면: 주어와 be동사의 짝을 틀렸습니다(M2). “they에는 am, are, is 가운데 무엇이었지?” 하고 묻습니다.",
+          "②를 ‘I willn't be late.’라고 하면: will not을 잘못 줄였습니다(M3). “will not을 줄이면 어떤 모양이었지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “will 문장이야, be going to 문장이야?” “무엇으로 물었어?”라고만 묻습니다.",
@@ -823,10 +839,15 @@
         ],
         "정답": [
           "① are (We are going to swim.)",
-          "② I won't eat it. (I will not eat it.)",
+          "② I won't eat it. (I will not eat it도 맞음)",
           "③ No, I'm not."
         ],
+        "틀리면": [
+          "①을 is라고 하면: 주어와 be동사의 짝을 틀렸습니다(M2). “we에는 am, are, is 가운데 무엇이었지?” 하고 묻습니다.",
+          "②를 ‘I willn't eat it.’이라고 하면: will not을 잘못 줄였습니다(M3). “will not을 줄이면 어떤 모양이었지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "잠자기 전에 “Tomorrow I'm going to ~.”로 내일 계획을 한 문장 말하게 하면 좋은 복습이 됩니다. 다음 차시 ‘수량 표현’에서는 many, much, some, any를 배웁니다."
         ]
       }
@@ -1052,7 +1073,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① We ______ going to swim. 빈칸에 알맞은 말을 쓰시오.\n② I will eat it. 부정문으로 바꾸어 쓰시오.\n③ Are you going to cook? No로 대답을 쓰시오.",
         "lines": 3,
-        "answer": "① are ② I won't eat it. (I will not eat it.) ③ No, I'm not. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① are (We are going to swim.) ② I won't eat it. (I will not eat it도 맞음) ③ No, I'm not. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

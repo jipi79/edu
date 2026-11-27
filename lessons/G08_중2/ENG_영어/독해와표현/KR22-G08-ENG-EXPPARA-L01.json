@@ -177,8 +177,10 @@
           "② Yes, I have.",
           "③ First 먼저, Then 그다음에, However 그러나(앞과 반대되는 말이 와요)"
         ],
+        "틀리면": [
+          "①을 have go라고 하면: have 뒤에 동사원형을 그대로 썼습니다(M2). “가 본 적이 있다는 have 다음에 be의 어떤 모양을 썼지?” 하고 묻습니다."
+        ],
         "막히면": [
-          "①에서 I have go to라고 하면 “가 본 적이 있다는 have been to로 썼지?”라고 떠올리게 합니다.",
           "②에서 Yes, I did.라고 하면 “Have you로 물으면 have로 대답했지?”라고 묻습니다.",
           "세 문제 가운데 두 개 이상 어려우면 S15(보충)를 먼저 합니다."
         ],
@@ -468,6 +470,9 @@
         "정답": [
           "바르게 쓴 쪽은 가입니다. 나는 현재완료(have been) 문장에 last year라는 정확한 지난 때를 함께 썼습니다. 경험은 I have been to Busan.으로 말하고, 언제 갔는지는 과거형 I went there last year.로 따로 씁니다."
         ],
+        "틀리면": [
+          "나를 고르면: 현재완료 문장에 last year 같은 정확한 지난 때를 함께 써도 된다고 생각했습니다(M1). “언제 했는지 정확히 말할 때는 어떤 시제를 쓴다고 했지?” 하고 묻습니다. S05로 돌아갑니다."
+        ],
         "막히면": [
           "S05 본보기 문단의 ①과 ②를 다시 보여 줍니다. ①에는 때가 없고, ②의 Last spring 문장은 went(과거형)입니다."
         ],
@@ -516,9 +521,13 @@
           "③ ate (I ate sushi yesterday.)",
           "④ have eaten (I have eaten sushi many times.)"
         ],
+        "틀리면": [
+          "②를 have seen이라고 하면: 정확한 지난 때(last May)가 있는데 현재완료를 썼습니다(M1). “last May가 있지? 그럼 see를 어떤 모양으로 바꾸지?” 하고 묻습니다.",
+          "③을 have eaten이라고 하면: 정확한 지난 때(yesterday)가 있는데 현재완료를 썼습니다(M1). “yesterday가 있지? 그럼 eat을 어떤 모양으로 바꾸지?” 하고 묻습니다.",
+          "④를 have ate라고 하면: have 뒤에 과거분사 대신 과거형을 썼습니다(M2). “have 뒤에는 eat의 어떤 모양이 오지?” 하고 묻습니다."
+        ],
         "막히면": [
-          "S07의 가를 다시 보여 주고 “때가 정확하면?”이라고 묻습니다.",
-          "②③에서 have seen, have eaten이라고 하면 “last May, yesterday가 있지? 그럼?”이라고 짚어 줍니다."
+          "S07의 가를 다시 보여 주고 “때가 정확하면?”이라고 묻습니다."
         ],
         "주의": [
           "many times(여러 번)처럼 언제인지 말하지 않고 횟수만 말하면 경험이므로 현재완료를 씁니다.",
@@ -756,7 +765,7 @@
           "① try → tried (I have tried rock climbing, and it was exciting.)",
           "② go → went (Last summer, I went to a climbing gym with my dad.)",
           "③ show → showed (First, a teacher showed us the rules.)",
-          "④ 맞음",
+          "④ 맞음(고칠 곳 없음, 그대로도 맞음)",
           "⑤ however → However (However, I was scared at the top.)",
           "⑥ am → was (I was tired, but I want to try it again!)",
           "주제문은 ①입니다. 기준: 다섯 군데 가운데 네 군데 이상 찾아 고치면 통과입니다.",
@@ -809,10 +818,15 @@
         ],
         "정답": [
           "① seen, eaten, written",
-          "② I went to Busan last year. (또는 I have been to Busan. I went there last year.)",
+          "② I went to Busan last year. 또는 I have been to Busan. I went there last year. (둘 가운데 하나를 쓰면 맞음)",
           "③ 주제문, 뒷받침 문장, 마무리 문장"
         ],
+        "틀리면": [
+          "①을 saw, ate, wrote라고 하면: 과거분사 대신 과거형을 썼습니다(M2). “have 뒤에 쓰는 모양을 물었지? 과거형과 같은 모양일까?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
+          "세 문제 모두 도움 없이 풀면 통과입니다.",
           "가족 나들이를 다녀온 날 “Have you ever been here before?”처럼 묻고 답해 보면 좋은 복습이 됩니다. 다음 차시 ‘의견 문단 쓰기’에서는 오늘의 문단 짜임으로 내 의견과 이유·예시를 씁니다."
         ]
       }
@@ -1054,7 +1068,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① see, eat, write의 과거분사를 쓰시오.\n② I have been to Busan last year.를 바르게 고쳐 쓰시오.\n③ 경험 문단의 세 부분을 쓰시오.",
         "lines": 3,
-        "answer": "① seen, eaten, written ② I went to Busan last year. (또는 I have been to Busan. I went there last year.) ③ 주제문, 뒷받침 문장, 마무리 문장. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① seen, eaten, written ② I went to Busan last year. 또는 I have been to Busan. I went there last year. (둘 가운데 하나를 쓰면 맞음) ③ 주제문, 뒷받침 문장, 마무리 문장"
       }
     ],
     "record": [

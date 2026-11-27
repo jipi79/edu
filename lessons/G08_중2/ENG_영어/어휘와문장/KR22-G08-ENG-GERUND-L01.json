@@ -408,6 +408,11 @@
           "⑤ Reading (Reading comics is fun.)",
           "⑥ dancing (She enjoys dancing.)"
         ],
+        "틀리면": [
+          "②를 Swiming이라고 하면: 모음 하나 + 자음 하나로 끝나는 동사인데 자음을 겹쳐 쓰지 않았습니다(M3). “swim은 S04 표의 어느 줄이야?” 하고 묻습니다.",
+          "④를 runing이라고 하면: 모음 하나 + 자음 하나로 끝나는 동사인데 자음을 겹쳐 쓰지 않았습니다(M3). “run은 S04 표의 어느 줄이야?” 하고 묻습니다.",
+          "⑥을 danceing이라고 하면: e로 끝나는 동사에 e를 빼지 않고 -ing를 붙였습니다(M3). “dance는 어떤 글자로 끝나지? 그럴 때는 어떻게 했지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S04의 철자 표에서 같은 끝 글자의 줄을 찾게 합니다."
         ],
@@ -462,6 +467,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(Swimming is fun.)입니다. 나는 동사원형 swim을 그대로 주어로 썼습니다. ‘수영하는 것’이 되려면 -ing를 붙여 Swimming으로 씁니다."
+        ],
+        "틀리면": [
+          "나를 고르면: 동사원형을 그대로 주어로 써도 된다고 생각했습니다(M1). “swim은 ‘수영하다’야. ‘수영하는 것은’이 되려면 어떻게 바꿔야 할까?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 Reading is fun.을 다시 보여 주고 “read 대신 swim을 넣으면?”이라고 묻습니다."
@@ -644,6 +652,10 @@
           "⑤ 둘 다 맞음 (They like to swim. / They like swimming.)",
           "⑥ to see (I hope to see you.)"
         ],
+        "틀리면": [
+          "①을 to sing이라고 하면: enjoy 뒤에 to ~를 썼습니다(M2). “enjoy는 S08 표의 어느 줄이었지?” 하고 묻습니다.",
+          "④를 learning이라고 하면: decide 뒤에 -ing를 썼습니다(M2). “decide는 S08 표의 어느 줄이었지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S08 표에서 빈칸 앞의 동사를 찾게 합니다."
         ],
@@ -688,7 +700,11 @@
           "① I enjoy drawing.",
           "② He finished doing his homework.",
           "③ We decided to go to Jeju.",
-          "④ Dancing is fun."
+          "④ Dancing is fun. (It is fun to dance도 맞음)"
+        ],
+        "틀리면": [
+          "①을 I enjoy to draw라고 하면: enjoy 뒤에 to ~를 썼습니다(M2). “enjoy 뒤에는 어떤 모양이 오지?” 하고 묻습니다.",
+          "④를 Dance is fun이라고 하면: 동사원형을 그대로 주어로 썼습니다(M1). “‘춤추는 것은’이 되려면 dance를 어떻게 바꿔야 할까?” 하고 묻습니다."
         ],
         "막히면": [
           "②의 do his homework가 막히면 “숙제를 하다는 do his homework야. do에 -ing를 붙이면?”이라고 도와줍니다."
@@ -781,8 +797,13 @@
           "① Reading books is fun.",
           "② watching (I enjoy watching movies.)",
           "③ to learn (She decided to learn yoga.)",
-          "④ I like cooking. / I like to cook.",
+          "④ I like cooking. / I like to cook. (기준: 두 문장을 모두 쓰면 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. ①은 Reading과 is, ④는 두 문장을 모두 써야 맞습니다. 쓸 때는 -ing 철자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 Reading books are fun이라고 하면: 주어 뒤의 books를 보고 are를 썼습니다(M4). “이 문장의 주어는 책들이야, 읽는 것이야?” 하고 묻습니다.",
+          "②를 to watch라고 하면: enjoy 뒤에 to ~를 썼습니다(M2). “enjoy는 S08 표의 어느 줄이었지?” 하고 묻습니다.",
+          "③을 learning이라고 하면: decide 뒤에 -ing를 썼습니다(M2). “decide는 S08 표의 어느 줄이었지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “앞의 동사가 S08 표의 어느 줄이야?” “문장 맨 앞에서 ‘~하는 것은’이 되려면?”이라고만 묻습니다.",
@@ -935,7 +956,13 @@
           "② dancing (I enjoy dancing.)",
           "③ to go (We decided to go home.)"
         ],
+        "틀리면": [
+          "①을 Swiming이라고 하면: 자음을 겹쳐 쓰지 않았습니다(M3). “swim은 모음 하나 + 자음 하나로 끝나지? 그럴 때 철자는 어떻게 했지?” 하고 묻습니다.",
+          "②를 to dance라고 하면: enjoy 뒤에 to ~를 썼습니다(M2). “enjoy 뒤에는 어떤 모양이 오지?” 하고 묻습니다.",
+          "③을 going이라고 하면: decide 뒤에 -ing를 썼습니다(M2). “decide 뒤에는 -ing와 to ~ 가운데 무엇이 오지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁에 “What did you enjoy doing today?”나 “Did you finish doing your homework?”처럼 물어보면 좋은 복습이 됩니다. 다음 차시 ‘접속사 because’에서는 because로 이유를 말하고 so로 결과를 잇습니다."
         ]
       }
@@ -1201,7 +1228,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① (Swim) is fun.의 괄호 안 동사를 알맞게 바꾸어 문장을 쓰시오.\n② I enjoy (dance).의 괄호 안 동사를 알맞게 바꾸어 문장을 쓰시오.\n③ We decided (go) home.의 괄호 안 동사를 알맞게 바꾸어 문장을 쓰시오.",
         "lines": 3,
-        "answer": "① Swimming is fun. ② I enjoy dancing. ③ We decided to go home. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Swimming (Swimming is fun.) ② dancing (I enjoy dancing.) ③ to go (We decided to go home.) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

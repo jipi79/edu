@@ -330,17 +330,19 @@
           "“③의 met은 원래 어떤 동사였지?”"
         ],
         "정답": [
-          "① I didn't buy a cap.",
-          "② He didn't study math.",
+          "① I didn't buy a cap. (I did not buy a cap도 맞음)",
+          "② He didn't study math. (He did not study math도 맞음)",
           "③ Did you meet Jisu?",
           "④ No, she didn't."
+        ],
+        "틀리면": [
+          "①을 ‘I didn't bought a cap.’이라고 하면: didn't 뒤에 과거형을 그대로 썼습니다(M1). “didn't가 과거를 맡으면 동사는 어떤 모양이었지?” 하고 묻습니다.",
+          "②를 ‘He doesn't study math.’라고 하면: 과거인데 주어가 he라서 doesn't를 썼습니다(M2). “공부하지 않은 것은 지난 일이야, 지금 일이야?” 하고 묻습니다.",
+          "③을 ‘Did you met Jisu?’라고 하면: Did 뒤에 과거형을 그대로 썼습니다(M1). “met은 원래 어떤 동사였지?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 단계와 S04의 표를 다시 보여 줍니다.",
           "원래 모양이 생각나지 않으면 지난 차시의 불규칙 동사 표(bought → buy, met → meet)를 함께 봅니다."
-        ],
-        "주의": [
-          "②에서 He doesn't study math.라고 하면 “공부하지 않았다는 지난 일이야. 지난 일은 didn't.”라고 말해 줍니다."
         ]
       }
     },
@@ -389,6 +391,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(I didn't go to school.)입니다. 가는 didn't와 went에서 과거를 두 번 나타냈습니다. didn't가 과거를 나타내므로 동사는 원래 모양 go로 씁니다."
+        ],
+        "틀리면": [
+          "가를 고르면: didn't 뒤에 과거형을 한 번 더 썼습니다(M1). “가에서 과거를 알려 주는 말이 몇 개야?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 셋째 단계(동사는 원래 모양으로 돌린다)를 다시 보여 줍니다."
@@ -502,16 +507,16 @@
           "“②를 물은 다음에는 Yes로 대답도 해 볼까? The test는 무엇으로 바꿔?”"
         ],
         "정답": [
-          "① I wasn't sleepy. (I was not sleepy.)",
+          "① I wasn't sleepy. (I was not sleepy도 맞음)",
           "② Was the test easy? (이어서 대답하면 Yes, it was.)",
           "③ Yes, I was.",
           "④ No, they weren't."
         ],
+        "틀리면": [
+          "①을 ‘I didn't sleepy.’라고 하면: 상태를 나타내는 말에 did를 썼습니다(M3). “sleepy는 한 일이야, 상태야?” 하고 묻습니다."
+        ],
         "막히면": [
           "S07의 표에서 같은 모양의 줄을 찾게 합니다."
-        ],
-        "주의": [
-          "①에서 I didn't sleepy.라고 하면 “sleepy는 동사가 아니라 상태야. 상태는 was로.”라고 말해 줍니다. 다음 장에서 자세히 다룹니다(오해 M3)."
         ]
       }
     },
@@ -613,6 +618,11 @@
           "③ wasn't (I wasn't hungry.)",
           "④ didn't (We didn't watch TV.)"
         ],
+        "틀리면": [
+          "①을 Did라고 하면: 상태를 묻는데 Did를 골랐습니다(M3). “busy는 한 일이야, 상태야?” 하고 묻습니다.",
+          "②를 Was라고 하면: 한 일을 묻는데 Was를 골랐습니다(M3). “go는 한 일이야, 상태야?” 하고 묻습니다.",
+          "③을 didn't라고 하면: 상태를 나타내는 말에 didn't를 골랐습니다(M3). “hungry는 한 일이야, 상태야?” 하고 묻습니다."
+        ],
         "막히면": [
           "S09의 두 질문을 다시 보여 주고, 빈칸 뒤의 낱말이 왼쪽(일반동사)과 오른쪽(상태) 가운데 어느 쪽인지 묻습니다."
         ],
@@ -700,11 +710,16 @@
           "“이번에는 혼자 해 볼래? 먼저 말로 하고, 활동지 5에 써 줘.”"
         ],
         "정답": [
-          "① She didn't watch a movie.",
+          "① She didn't watch a movie. (She did not watch a movie도 맞음)",
           "② Did you eat lunch?",
           "③ Was the bag heavy?",
           "④ No, they weren't.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 did 뒤 동사원형(watch, eat), 아포스트로피('), 물음표와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘She didn't watched a movie.’라고 하면: didn't 뒤에 과거형을 그대로 썼습니다(M1). “didn't 뒤의 동사는 어떤 모양이었지?” 하고 묻습니다.",
+          "②를 ‘Did you ate lunch?’라고 하면: Did 뒤에 과거형을 그대로 썼습니다(M1). “Did 뒤의 동사는 어떤 모양이었지?” 하고 묻습니다.",
+          "③을 ‘Did the bag heavy?’라고 하면: 상태를 묻는데 Did를 썼습니다(M3). “heavy는 한 일이야, 상태야?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “일반동사가 있어, 상태가 있어?” “did 뒤의 동사는 어떤 모양이었지?”라고만 묻습니다.",
@@ -854,11 +869,16 @@
           "“didn't랑 Did요. 동사는 원래 모양이에요.” “Were you hungry?처럼 Was, Were로 물어요.”"
         ],
         "정답": [
-          "① I didn't eat breakfast.",
+          "① I didn't eat breakfast. (I did not eat breakfast도 맞음)",
           "② Were they at home?",
           "③ Yes, I did."
         ],
+        "틀리면": [
+          "①을 ‘I didn't ate breakfast.’라고 하면: didn't 뒤에 과거형을 그대로 썼습니다(M1). “didn't가 과거를 맡으면 동사는 어떤 모양이었지?” 하고 묻습니다.",
+          "②를 ‘Did they at home?’이라고 하면: 상태를 묻는데 Did를 썼습니다(M3). “at home은 한 일이야, 상태야?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁에 “Did you eat lunch at school?” “Were you busy today?”처럼 하루에 한두 번 영어로 묻고 대답하게 하면 좋은 복습이 됩니다. 다음 차시 ‘미래 표현’에서는 will과 be going to로 앞으로 할 일을 말합니다."
         ]
       }
@@ -1134,7 +1154,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① I ate breakfast. 부정문으로 바꾸어 쓰시오.\n② They were at home. 의문문으로 바꾸어 쓰시오.\n③ Did you see the movie? Yes로 대답을 쓰시오.",
         "lines": 3,
-        "answer": "① I didn't eat breakfast. ② Were they at home? ③ Yes, I did. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① I didn't eat breakfast. (I did not eat breakfast도 맞음) ② Were they at home? ③ Yes, I did. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
