@@ -115,8 +115,11 @@ def accepted(note):
     """풀이에 적힌 다른 맞는 답: ‘교실도 맞음’, ‘놀이터, 강당도 맞음’, ‘강당이라고 해도 맞음’, ‘(현관)’."""
     out = []
     for m in re.finditer(r"([^.()]+?)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
-        chunk = re.split(r"면\s+|\.\s+|니까\s+", m.group(1))[-1]
-        out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
+        chunk = re.split(r"면\s+|(?<![A-Za-z])\.\s+|니까\s+", m.group(1))[-1]
+        if len(re.findall(r"[A-Za-z]+", chunk)) >= 3 and re.search(r"[‘“]", chunk):
+            out += [x.strip(" ‘’“”,") for x in re.findall(r"[‘“]([^’”]+)[’”]", chunk)]  # 따옴표로 묶은 영어 문장은 쉼표에서 가르지 않는다
+        else:
+            out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
     if not out and re.fullmatch(r"[가-힣]{1,5}", note.strip()):
         out = [note.strip()]  # 괄호 속 한 낱말: 같은 뜻의 다른 이름
     return out
