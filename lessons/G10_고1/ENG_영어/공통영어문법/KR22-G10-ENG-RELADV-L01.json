@@ -157,16 +157,19 @@
           "“③은 which가 빠진 곳을 손가락으로 짚고, 뜻을 말해 줘.”"
         ],
         "정답": [
-          "① This is the cap which(that) my dad bought. (which를 빼고 This is the cap my dad bought.도 맞음)",
+          "① This is the cap which my dad bought. (‘This is the cap that my dad bought’, ‘This is the cap my dad bought’도 맞음)",
           "② 우리가 방문한 도시",
           "③ photo ∨ I (which가 빠짐) — 내가 찍은 사진은 내 책상 위에 있어요."
+        ],
+        "틀리면": [
+          "①을 ‘This is the cap which my dad bought it’이라고 하면: which로 바뀐 it을 다시 썼습니다(중3 때의 흔한 실수). “it은 이미 무엇으로 바뀌었지?” 하고 묻습니다."
         ],
         "막히면": [
           "①은 “it은 무엇과 같아? it을 무엇으로 바꿨지?”, ②는 “우리가 무엇을 방문했어?”, ③은 “명사 바로 뒤에 주어 I가 오는 곳은?”이라고 묻습니다.",
           "세 문제 가운데 두 개 이상 어려우면 S17(보충)을 먼저 합니다."
         ],
         "주의": [
-          "①에서 which my dad bought it처럼 it을 남기면 중3 때의 흔한 실수입니다. 오늘도 같은 원리(바뀐 말은 다시 쓰지 않음)가 나오므로 여기서 짚어 줍니다. (cap: 모자)"
+          "오늘도 같은 원리(바뀐 말은 다시 쓰지 않음)가 나오므로 여기서 짚어 줍니다. (cap: 모자)"
         ]
       }
     },
@@ -464,6 +467,9 @@
         "정답": [
           "바르게 쓴 쪽은 나(This is how I study English.)입니다. 가는 the way와 how를 함께 썼습니다. 가를 고치면 This is the way I study English. (the way that, the way in which도 맞음)"
         ],
+        "틀리면": [
+          "가를 고르면: the way와 how를 함께 써도 된다고 생각했습니다(M1). “S05 표의 마지막 줄에서 방법은 어떻게 말했지?” 하고 묻습니다."
+        ],
         "막히면": [
           "S05 표의 마지막 줄을 다시 보여 주고 “방법을 말할 때는 the way나 how, 둘 가운데 하나만.”이라고 말해 줍니다."
         ],
@@ -680,6 +686,10 @@
           "③ where (we stayed, 빠진 말 없음 — 우리가 머문 호텔)",
           "④ which (Mom likes 뒤에 ‘무엇을’이 빠짐 — 엄마가 좋아하는 식당)"
         ],
+        "틀리면": [
+          "①을 where라고 하면: 장소 명사 뒤에는 언제나 where를 쓴다고 생각했습니다(M2). “we visited 뒤에 ‘무엇을’이 있니?” 하고 묻습니다.",
+          "④를 where라고 하면: 식당이 장소라서 where를 골랐습니다(M2). “Mom likes 뒤에 ‘무엇을’이 빠졌니?” 하고 묻습니다."
+        ],
         "막히면": [
           "①과 ②를 나란히 두고 “visited 뒤에는 무엇이 있어? saw 뒤에는?”이라고 묻습니다."
         ],
@@ -768,11 +778,15 @@
           "“이번에는 혼자 해 볼래? ①②는 한 문장으로 이어 말하고, ③은 관계부사로 바꾸고, ④는 틀린 곳을 고쳐 말해 줘. 그다음 활동지 5에 써.”"
         ],
         "정답": [
-          "① This is the school where I study. (in which I study, which I study in도 맞음)",
-          "② I remember the day when we met. (on which we met도 맞음)",
+          "① This is the school where I study. (‘This is the school in which I study’, ‘This is the school which I study in’도 맞음)",
+          "② I remember the day when we met. (‘I remember the day on which we met’도 맞음)",
           "③ the house where I live",
-          "④ This is how I cook rice. 또는 This is the way I cook rice.",
+          "④ This is how I cook rice. (‘This is the way I cook rice’, ‘This is the way that I cook rice’, ‘This is the way in which I cook rice’도 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 절 안에 there를 다시 쓰지 않았는지, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘This is the school where I study there’라고 하면: 절 안에 there를 다시 썼습니다(M3). “there는 무엇으로 바뀌었지?” 하고 묻습니다.",
+          "④를 ‘This is the way how I cook rice’라고 하면: the way와 how를 함께 썼습니다(M1). “방법을 말할 때는 몇 개만 쓰지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “같은 장소(때)는? there는 무엇으로 바뀌지?” “in which는 장소야, 때야?” “방법은 몇 개만 써?”라고만 묻습니다.",
@@ -922,10 +936,15 @@
         ],
         "정답": [
           "① when (우리가 만난 날)",
-          "② the park in which(at which) we play",
-          "③ the way I study 또는 how I study"
+          "② the park in which we play (‘the park at which we play’도 맞음)",
+          "③ the way I study (‘how I study’, ‘the way that I study’, ‘the way in which I study’도 맞음)"
+        ],
+        "틀리면": [
+          "①을 where라고 하면: 장소와 때를 헷갈렸습니다. “the day는 장소야, 때야?” 하고 묻습니다.",
+          "②를 ‘the park which we play’라고 하면: 전치사를 빠뜨렸습니다(M4). “we play the park라고 할 수 있니?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집 근처 장소를 지나며 “This is the store where we buy bread.”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘관계대명사 what’에서는 What I want is a new bike.(내가 원하는 것은 새 자전거예요)처럼 앞 명사 없이 ‘~하는 것’을 나타내는 what을 배웁니다."
         ]
       }
@@ -1186,7 +1205,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① the day (where / when) we met에서 알맞은 것을 쓰시오.\n② the park where we play를 ‘전치사 + which’로 바꾸어 쓰시오.\n③ the way how I study를 바르게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① when ② the park in which(at which) we play ③ the way I study 또는 how I study. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① when ② the park in which we play (‘the park at which we play’도 맞음) ③ the way I study (‘how I study’, ‘the way that I study’, ‘the way in which I study’도 맞음). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

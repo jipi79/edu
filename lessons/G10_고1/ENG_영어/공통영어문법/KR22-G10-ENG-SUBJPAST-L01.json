@@ -157,9 +157,12 @@
           "“③은 세 동사의 과거형을 말해 볼래?”"
         ],
         "정답": [
-          "① rains (if 절은 앞으로의 일도 현재형) — 내일 비가 오면 나는 집에 있을 거예요.",
-          "② get — 집에 도착하면 너에게 전화할게.",
+          "① rains (if 절은 앞으로의 일도 현재형 — 내일 비가 오면 나는 집에 있을 거예요.)",
+          "② get (집에 도착하면 너에게 전화할게.)",
           "③ had, knew, was(were)"
+        ],
+        "틀리면": [
+          "①을 ‘will rain’이라고 하면: if 절에도 will을 썼습니다. “if 절에는 앞으로의 일도 어떤 모양으로 썼지?” 하고 묻습니다."
         ],
         "막히면": [
           "①②는 “if·when 절에는 will을 쓰지 않았지?”, ③은 S04 표를 미리 보여 줍니다.",
@@ -392,6 +395,10 @@
           "③ If she knew the answer, she would tell us. (그녀가 답을 안다면 우리에게 말해 줄 텐데. 사실: 답을 몰라요.)",
           "④ If we lived near the sea, we would swim every day. (우리가 바닷가 근처에 산다면 매일 수영할 텐데. 사실: 바닷가 근처에 살지 않아요.)"
         ],
+        "틀리면": [
+          "①을 ‘If I was a bird, I would fly to you’라고 하면: be동사를 주어에 맞춰 was로 썼습니다(M3). “가정법에서 be는 주어와 상관없이 무엇이었지?” 하고 묻습니다.",
+          "②를 ‘If I had a car, I would drove to Busan’이라고 하면: would 뒤에 과거형을 썼습니다(M3). “would 뒤에는 어떤 모양이 오지?” 하고 묻습니다."
+        ],
         "막히면": [
           "“if 뒤에는 무슨 모양? 뒤에는 무슨 모양?”을 묻고 S04 표를 보게 합니다."
         ],
@@ -446,6 +453,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(If I were you, I would say sorry.)입니다. 나는 네가 될 수 없으므로 지금 사실과 반대인 상상입니다. 그래서 If + were, would + 동사원형을 씁니다. 가처럼 쓰면 정말 일어날 수 있는 일처럼 들립니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 지금 사실과 반대되는 일에 현재형과 will을 썼습니다(M1). “내가 정말 네가 될 수 있어?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 새 문장을 다시 보여 주고 “새가 될 수 없는 것처럼, 너도 될 수 없지?”라고 말해 줍니다."
@@ -649,10 +659,14 @@
           "“①②는 가정법으로, ③④는 직설법으로 바꿔 말해 줘. 시제와 긍정·부정을 함께 바꿔야 해.”"
         ],
         "정답": [
-          "① If I were a bird, I could fly. (I would fly도 맞음. can't → could)",
+          "① If I were a bird, I could fly. (‘If I were a bird, I would fly’도 맞음. can't → could)",
           "② If I had a dog, I would walk every day.",
-          "③ I don't know the answer, so I can't tell you. (so I don't tell you도 맞음)",
+          "③ I don't know the answer, so I can't tell you. (‘I don't know the answer, so I don't tell you’도 맞음)",
           "④ I don't live in Jeju, so I don't swim every day."
+        ],
+        "틀리면": [
+          "①을 ‘If I was a bird, I could fly’라고 하면: be동사를 주어에 맞춰 was로 썼습니다(M3). “가정법에서 be는 주어와 상관없이 무엇이었지?” 하고 묻습니다.",
+          "③을 ‘I know the answer, so I can tell you’라고 하면: 시제만 바꾸고 긍정·부정을 바꾸지 않았습니다(M4). “지금 나는 답을 알고 있어, 모르고 있어?” 하고 묻습니다."
         ],
         "막히면": [
           "“지금 사실은 무엇이고, 반대로 하면?”을 묻고 S10 표의 열쇠 문장을 가리킵니다."
@@ -744,10 +758,14 @@
         ],
         "정답": [
           "① If I were rich, I would travel around the world.",
-          "② If I had a bike, I could ride with you. (I would ride with you도 맞음)",
+          "② If I had a bike, I could ride with you. (‘If I had a bike, I would ride with you’도 맞음)",
           "③ 내가 너라면 지금 자러 갈 텐데. (사실: 나는 네가 아니에요. 충고하는 말)",
           "④ rains (내일 비가 올 수 있음, 뒤가 will인 조건문)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 were, would 뒤의 동사원형, 쉼표, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘If I were rich, I would traveled around the world’라고 하면: would 뒤에 과거형을 썼습니다(M3). “would 뒤에는 어떤 모양이 오지?” 하고 묻습니다.",
+          "④를 rained라고 하면: 정말 일어날 수 있는 일도 가정법 모양으로 썼습니다. “내일 비가 오는 건 정말 일어날 수 있는 일이야?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “be는 가정법에서 무엇으로?” “사실을 반대로 하면?” “정말 일어날 수 있는 일이야?”라고만 묻습니다.",
@@ -850,9 +868,13 @@
         ],
         "정답": [
           "① 그녀의 주소를 안다면 카드를 보낼 텐데. (사실: 그녀의 주소를 몰라서 카드를 보낼 수 없어요.)",
-          "② She isn't here, so she can't help us. (so she doesn't help us도 맞음)",
-          "③ will (내일 시간이 있을 수 있음, if 절이 현재형) — 네가 내일 시간이 있으면 우리는 만날 거예요.",
+          "② She isn't here, so she can't help us. (‘She isn't here, so she doesn't help us’도 맞음)",
+          "③ will (내일 시간이 있을 수 있음, if 절이 현재형 — 네가 내일 시간이 있으면 우리는 만날 거예요.)",
           "기준: 세 개 모두 맞으면 통과입니다. ①을 ‘알았다면’처럼 지난 일로 해석하거나 ②에서 긍정·부정을 바꾸지 않으면 기록표에 적어 둡니다."
+        ],
+        "틀리면": [
+          "②를 ‘She is here, so she can help us’라고 하면: 시제만 바꾸고 긍정·부정을 바꾸지 않았습니다(M4). “지금 그녀는 여기 있어, 없어?” 하고 묻습니다.",
+          "③을 would라고 하면: 정말 일어날 수 있는 일을 가정법으로 썼습니다. “if 절의 are는 어떤 모양이지?” 하고 묻습니다."
         ],
         "막히면": [
           "①은 S03의 열쇠 문장(모양은 과거, 뜻은 지금), ②는 S10 표, ③은 S08을 다시 보여 줍니다."
@@ -900,10 +922,15 @@
         ],
         "정답": [
           "① had (지금 차가 없음)",
-          "② If I were tall, I could reach it. (I would reach it도 맞음)",
-          "③ I don't know the answer, so I can't tell you."
+          "② If I were tall, I could reach it. (‘If I were tall, I would reach it’도 맞음)",
+          "③ I don't know the answer, so I can't tell you. (‘I don't know the answer, so I don't tell you’도 맞음)"
+        ],
+        "틀리면": [
+          "①을 have라고 하면: 지금 사실과 반대되는 일에 현재형을 썼습니다(M1). “지금 나에게 차가 있어?” 하고 묻습니다.",
+          "③을 ‘I know the answer, so I can tell you’라고 하면: 시제만 바꾸고 긍정·부정을 바꾸지 않았습니다(M4). “지금 나는 답을 알고 있어, 모르고 있어?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁 식사 때 “If you were a bird, where would you go?”처럼 상상 질문을 주고받으면 좋은 복습이 됩니다. 다음 차시 ‘요지·주제·제목 찾기’에서는 문법에서 독해로 넘어가, 영어 글의 주제문과 반복되는 핵심어를 찾아 글의 요지를 한 문장으로 정리합니다."
         ]
       }
@@ -1142,7 +1169,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① If I (have / had) a car, I would drive.에서 알맞은 것을 쓰시오.\n② I am not tall, so I can't reach it.을 가정법 과거로 바꾸어 쓰시오.\n③ If I knew the answer, I would tell you.를 직설법으로 바꾸어 쓰시오.",
         "lines": 3,
-        "answer": "① had ② If I were tall, I could(would) reach it. ③ I don't know the answer, so I can't(don't) tell you. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① had ② If I were tall, I could reach it. (‘If I were tall, I would reach it’도 맞음) ③ I don't know the answer, so I can't tell you. (‘I don't know the answer, so I don't tell you’도 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
