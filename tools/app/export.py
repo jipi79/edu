@@ -28,7 +28,7 @@ import wrong_line  # noqa: E402
 
 FORMAT_VERSION = 0
 LABELS = "가나다라마바"
-OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|등\b|처럼|자유|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
+OPEN = re.compile(r"또는|예:|예\)|예를 들어|가운데|(?<![가-힣0-9])등(?=[\s.,)]|$)|처럼|자유|여러|다양|모두 맞|어느 것이든|아무|골라도|정해진 답|정답이 하나가 아닙|정답은 하나가 아닙|정답이 정해져 있지 않|정답은 따로 없|까닭을 봅니다|어떤 낱말이든|하면 맞습니다|면 맞음|하면 됩니다")
 NUM = r"−?\d+(?:\.\d+)?"
 
 
@@ -41,14 +41,30 @@ def main_answer(a):
     if m and m.group(1):
         return m.group(1).strip(), m.group(2).strip()
     m = re.match(r"^(.*?[^0-9])\.\s+(.*)$", a)
+    if m and re.fullmatch(r"[A-Za-z][A-Za-z ,'’]*", m.group(1)) and re.match(r"[A-Z]", m.group(2)):
+        return a.rstrip("."), ""  # 영어 여러 문장은 한 답(첫 문장만 떼지 않는다)
     if m:
         return m.group(1).strip(), m.group(2).strip()
     return a.rstrip("."), ""
 
 
+UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|°C|°|%|t)"
+
+
 def number_unit(s):
-    m = re.fullmatch(rf"({NUM})\s*([가-힣]{{1,3}})?", s.strip())
-    return (m.group(1), m.group(2) or "") if m else (None, None)
+    s = s.replace("\xa0", " ").strip()
+    m = re.fullmatch(rf"({NUM}|\d{{1,3}}(?:,\d{{3}})+)\s*({UNIT})?", s)
+    return (m.group(1).replace(",", ""), m.group(2) or "") if m else (None, None)
+
+
+def korean_fraction(s):
+    """‘5분의 2’ → ‘2/5’, ‘1과 2분의 1’ → ‘1 1/2’. 아니면 None."""
+    s = s.replace("\xa0", " ").strip()
+    m = re.fullmatch(r"(?:(\d+)\s*(?:과|와)\s*)?(\d+)\s*분의\s*(\d+)", s)
+    if not m:
+        return None
+    whole, den, num = m.group(1), m.group(2), m.group(3)
+    return f"{whole} {num}/{den}" if whole else f"{num}/{den}"
 
 
 # ── 식 검산 (□ 하나가 든 사칙 계산) ──────────────────────────
@@ -122,9 +138,27 @@ def classify(prob, ans_text):
     if t:
         mm = t.group(2) or ("30" if main.strip().endswith("반") else "00")
         return "time", f"{int(t.group(1))}:{int(mm):02d}", "", "", note
+    if main.strip() in (">", "<", "=", "＞", "＜"):
+        return "symbol", main.strip().replace("＞", ">").replace("＜", "<"), "", "", note
     n, unit = number_unit(main)
     if n is not None:
         return "numpad", n, unit, "", note
+    # 분수: ‘5분의 2’, ‘1과 2분의 1’, 여러 개(‘15분의 10, 15분의 9’), 식이면 마지막 값(‘8분의 6 = 4분의 3’)
+    segs = [x.strip() for x in re.split(r"\s*=\s*", main)]
+    fr = korean_fraction(segs[-1])
+    if fr and all(korean_fraction(x) or number_unit(x)[0] for x in segs):
+        return "expr", fr, "", "", note + ("; " if note else "") + (main if len(segs) > 1 else "")
+    many = [korean_fraction(x) for x in re.split(r",\s*", main)]
+    if len(many) > 1 and all(many):
+        return "expr_all", many, "", "", note
+    m = re.fullmatch(r"(\d+)\s*:\s*(\d+)", main.strip())
+    if m:
+        return "expr", f"{m.group(1)}:{m.group(2)}", "", "", note
+    # 영어: 낱말·짧은 말(세 낱말까지)은 자동, 문장은 부모 판정
+    if re.fullmatch(r"[A-Za-z][A-Za-z'’]*(?:\s[A-Za-z'’]+){0,2}[.?!]?", main.strip()):
+        return "short", main.strip(), "", "영어(대소문자·끝 부호 무시)", note
+    if re.fullmatch(r"[A-Za-z](?:,\s*[A-Za-z])+", main.strip()):
+        return "short_all", [x.strip() for x in main.split(",")], "", "", note
     if len(main) <= 8 and " " not in main.strip() and re.fullmatch(r"[가-힣A-Za-z]+", main):
         return "short", main, "", "", note
     if re.fullmatch(r"[가-힣A-Za-z]{1,6}(?:,\s*[가-힣A-Za-z]{1,6})+", main):
@@ -198,7 +232,9 @@ def problem_items(L, s, key, issues, seen):
             inp, ans, unit, why, note = classify(p, a)
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
-        acc = accepted(note) if inp in ("short", "numpad") else []
+        acc = accepted(note) if inp in ("short", "numpad", "expr") else []
+        if inp == "expr":
+            acc = [korean_fraction(a) or a for a in acc]
         if acc:
             rec["accept"] = acc
         if unit:
@@ -242,9 +278,9 @@ def choice_item(L, s, issues, seen):
     order = re.match(rf"^([{lab}])(?:\s*→\s*([{lab}]))+", raw)
     match = [(a.strip(), b) for a, b in re.findall(rf"(?:^|[).,→]\s*)([^→().,]{{1,24}}?)\s*→\s*([{lab}])(?![가-힣])", raw)]
     match = [(re.split(r"\s*→\s*", a)[-1], b) for a, b in match]
-    multi = re.match(rf"^([{lab}])(?:\([^)]*\))?(?:\s*,\s*([{lab}])(?:\([^)]*\))?)+[.\s(]", raw + " ")
+    multi = re.match(rf"^([{lab}])(?:\([^)]*\))?(?:\s*(?:,|와|과)\s*([{lab}])(?:\([^)]*\))?)+(?:가|이|는|을|를)?[.\s(]", raw + " ")
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
-    more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|많|작|적|길|짧|무겁|가볍)", raw)
+    more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|큽|많|작|적|길|짧|무겁|가볍)", raw)
     first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
     if re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
         rec.update(input="parent", why="무엇을 골라도 맞음(까닭을 봄)")
@@ -305,7 +341,7 @@ def compare_item(L, s, issues, seen):
         rec["answer"] = 0 if first.startswith("왼쪽") else 1
     elif mentions(left) != mentions(right) and judged:
         rec["answer"] = 0 if mentions(left) else 1
-    elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and re.match(r"^(바르지 않|틀렸|아니|.{0,12}(틀렸|바르지 않))", first):
+    elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and (re.match(r"^(바르지 않|틀렸|아니|.{0,12}(틀렸|바르지 않))", first) or re.search(r"않았|않습|틀렸|틀립|아닙", first)):
         rec.update(options=["맞아요", "아니에요"], answer=1)
     elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and re.match(r"^(바르게|맞습니다|.{0,12}(맞습니다|바르게))", first):
         rec.update(options=["맞아요", "아니에요"], answer=0)
@@ -371,7 +407,8 @@ def attach_wrong(s, items, issues):
                 continue
             it = target[0]
             for v in w["values"]:
-                if it.get("answer") is not None and str(it["answer"]).replace(" ", "") == v.replace(" ", ""):
+                norm = lambda x: (korean_fraction(str(x)) or number_unit(str(x))[0] or str(x)).replace(" ", "")
+                if it.get("answer") is not None and norm(it["answer"]) == norm(v):
                     issues.append(("오답이 정답과 같음", s["id"], f"{CIRCLED[w['n'] - 1]} ‘{v}’"))
             it.setdefault("wrong", []).append({"values": w["values"], **entry})
         elif "seq" in w:

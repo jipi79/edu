@@ -501,10 +501,10 @@
           "“②와 ③은 둘 다 동그라미야. 무엇이 달라?”"
         ],
         "정답": [
-          "① It's small. It's blue. It's square.",
-          "② It's big. It's green. It's round.",
-          "③ It's small. It's yellow. It's round.",
-          "②와 ③은 크기(big·small)와 색깔(green·yellow)이 다릅니다."
+          "① It's small. It's blue. It's square. (크기·색깔·모양)",
+          "② It's big. It's green. It's round. (크기·색깔·모양)",
+          "③ It's small. It's yellow. It's round. (크기·색깔·모양)",
+          "두 동그라미 ②, ③은 크기(big·small)와 색깔(green·yellow)이 다릅니다."
         ],
         "막히면": [
           "아래 카드의 낱말을 짚으며 고르게 합니다.",
@@ -660,6 +660,9 @@
         "정답": [
           "바르게 말한 쪽은 가(It's red.)입니다. red, big, round 같은 꾸미는 말만 올 때는 a를 붙이지 않습니다. 물건 이름이 함께 올 때만 It's a red ball.처럼 a를 씁니다."
         ],
+        "틀리면": [
+          "나를 고르면: 꾸미는 말 red 앞에 a를 붙였습니다(M1). “red는 ‘빨간’이라는 뜻이야. ‘그것은 하나의 빨간’이라고 하면 어때?” 하고 묻습니다."
+        ],
         "막히면": [
           "It's big.과 It's round.도 함께 말해 보며 a가 없다는 것을 확인합니다."
         ],
@@ -688,8 +691,11 @@
           "“어떻게 알았어? 가와 나는 무엇이 달라?”"
         ],
         "정답": [
-          "It's small. It's red. It's round. → 나 (가는 big, 라는 yellow)",
-          "It's big. It's green. It's square. → 다"
+          "① 나 (It's small. It's red. It's round. 가는 big, 라는 yellow)",
+          "② 다 (It's big. It's green. It's square.)"
+        ],
+        "틀리면": [
+          "①을 가라고 하면: 첫 문장 It's small.을 놓치고 색깔과 모양만 들었습니다(M2). “첫 문장을 다시 들어 봐. 가는 큰 그림이야, 작은 그림이야?” 하고 묻습니다."
         ],
         "막히면": [
           "한 문장씩 끊어 말하고, 문장마다 맞지 않는 그림을 손으로 가리게 합니다."
@@ -894,8 +900,8 @@
           "“③, 집에 있는 물건 하나를 골라서 세 문장으로 말해 줘. 엄마(아빠)가 맞혀 볼게.”"
         ],
         "정답": [
-          "① It's small. It's green. It's round.",
-          "② It's big. It's yellow. It's square.",
+          "① It's small. It's green. It's round. (크기·색깔·모양)",
+          "② It's big. It's yellow. It's square. (크기·색깔·모양)",
           "③ 고른 물건에 맞게 It's (크기). It's (색깔). It's (모양).",
           "기준: 세 문장 모두 알맞은 낱말을 넣고 a를 붙이지 않으면 맞습니다. 소리가 조금 서툴러도 알맞은 표현을 골라 말했으면 맞은 것으로 봅니다."
         ],
@@ -1252,9 +1258,10 @@
           "“크기, 색깔, 모양이요.” “아니요. It's red.처럼 말해요.”"
         ],
         "정답": [
-          "① big 큰, small 작은, round 동그란, square 네모난(정사각형) ② It's big. It's green. It's square. ③ 고른 물건에 맞는 세 문장"
+          "① big 큰, small 작은, round 동그란, square 네모난(정사각형) ② It's big. It's green. It's square. (크기·색깔·모양) ③ 고른 물건에 맞는 세 문장"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "장난감이나 학용품을 정리할 때 It's ~. 세 문장 수수께끼를 하면 좋은 복습이 됩니다."
         ]
       }

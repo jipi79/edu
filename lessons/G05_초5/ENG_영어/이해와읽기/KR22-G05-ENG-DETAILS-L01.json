@@ -328,12 +328,15 @@
         ],
         "정답": [
           "① Tom (Tom이 Mina에게 놀자고 했습니다.)",
-          "② 배드민턴(badminton)",
+          "② 배드민턴(badminton도 맞음)",
           "③ 토요일 2시(on Saturday, at two)",
-          "④ 학교(at school)"
+          "④ 학교(at school, school도 맞음)"
+        ],
+        "틀리면": [
+          "①을 Mina라고 하면: 처음 들린 이름을 그대로 답했습니다(M3). “첫 줄은 누가 말했지? 누구를 부르면서 말했어?” 하고 묻습니다.",
+          "④를 토요일이라고 하면: When과 Where를 바꾸어 답했습니다(M1). “Where는 때를 묻는 말이야, 곳을 묻는 말이야?” 하고 묻습니다."
         ],
         "막히면": [
-          "①에서 Mina라고 하면 “첫 줄은 누가 말했지? Tom이 Mina를 부르면서 말했어.”라고 짚어 줍니다(M3).",
           "한 물음씩 대본을 다시 읽어 주며 찾을 것이 나오면 손을 들게 합니다."
         ],
         "주의": [
@@ -389,6 +392,9 @@
         "정답": [
           "가(On Saturday, at two.). When은 때를 묻습니다.",
           "나(At school.)는 곳이므로 Where?의 답입니다. at two의 at과 at school의 at은 같은 낱말이지만, 뒤에 시각이 오면 때, 장소가 오면 곳입니다."
+        ],
+        "틀리면": [
+          "나를 고르면: When과 Where를 바꾸어 답했습니다(M1). “When은 무엇을 묻는 말이었지? At school.은 때일까, 곳일까?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 표를 다시 보여 주고 When 줄과 Where 줄을 손으로 짚게 합니다."
@@ -556,11 +562,15 @@
           "“①부터 답해 볼래?”"
         ],
         "정답": [
-          "① 공원(at the park)",
-          "② 지수(Jisu). 첫 줄은 지수가 Sam을 부르며 한 말입니다.",
-          "③ 로봇(a robot)",
+          "① 공원(at the park, park도 맞음)",
+          "② 지수(Jisu도 맞음. 첫 줄은 지수가 Sam을 부르며 한 말입니다.)",
+          "③ 로봇(a robot, robot도 맞음)",
           "④ 토요일 10시(on Saturday, at ten)",
           "기준: 네 물음 가운데 세 개 이상 맞히면 통과입니다. 우리말로 답해도 맞습니다. ④에 공원처럼 곳을 답하면 S06을 다시 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘토요일 10시’라고 하면: When과 Where를 바꾸어 답했습니다(M1). “Where는 무엇을 찾는 물음이었지?” 하고 묻습니다.",
+          "②를 Sam이라고 하면: 처음 들린 이름을 그대로 답했습니다(M3). “첫 줄은 누가 누구를 부르면서 한 말이야?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “이 물음은 무엇을 찾는 거였지?”라고만 묻고 대화를 한 번 더 읽어 줍니다.",
@@ -713,7 +723,7 @@
         ],
         "정답": [
           "When? → 가(on Saturday)",
-          "Where? → 라(at the park), Who?(누구와) → 다(with Mina), What? → 나(badminton)"
+          "Where? → 라(at the park), Who? → 다(with Mina, 누구와), What? → 나(badminton)"
         ],
         "막히면": [
           "S03의 표를 다시 보여 주고 “When은 때였지? 때를 나타내는 말은?”이라고 묻습니다."
@@ -742,7 +752,7 @@
           "text": "듣고 When과 Where에 답하기"
         },
         {
-          "text": "글에서 What의 답 찾기"
+          "text": "‘I have an apple in my bag.’\n글에서 What의 답 찾기"
         }
       ],
       "next": "하루 일과 말하기",
@@ -751,15 +761,19 @@
         "시간": "약 2분",
         "말하기": [
           "“Who, What, When, Where는 각각 무엇을 찾는 물음이었지?”",
-          "“듣기 전에 먼저 무엇을 하기로 했지?”"
+          "“듣기 전에 먼저 무엇을 하기로 했지?”",
+          "(②) 부모가 읽어 줄 대화(화면에 없음, 두 번 읽기): Mina: Let's play at the park. / Tom: OK. When? / Mina: At three."
         ],
         "예상답": [
           "“사람, 물건, 때, 곳이요.” “물음을 먼저 읽어요.”"
         ],
         "정답": [
-          "① When은 때, Where는 곳 ② Where? the park, When? at three(대본은 활동지 5의 부모용 답에 있습니다) ③ an apple"
+          "① When은 때, Where는 곳",
+          "② Where? the park(공원) / When? at three(3시). 들려줄 대화: Mina: Let's play at the park. / Tom: OK. When? / Mina: At three.",
+          "③ an apple"
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "다음 차시 ‘하루 일과 말하기’에서는 at seven처럼 때를 넣어 내 하루를 말합니다. 오늘 배운 When의 답(at two, on Saturday)과 이어집니다."
         ]
       }
@@ -903,7 +917,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① When과 Where에는 각각 무엇을 답하는지 말해 보세요.\n② 부모님이 읽어 주는 대화를 듣고 Where?와 When?에 답해 보세요.\n③ 아래 문장을 읽고 What?(무엇이 있나요?)에 답해 보세요.",
         "read": "I have an apple in my bag.",
-        "answer": "① When은 때, Where는 곳 ② 들려줄 대화: Mina: Let's play at the park. / Tom: OK. When? / Mina: At three. — 답: Where? the park(공원) / When? at three(3시) ③ an apple (세 가지 모두 도움 없이 하면 통과)"
+        "answer": "① When은 때, Where는 곳 ② Where? the park(공원) / When? at three(3시). 들려줄 대화: Mina: Let's play at the park. / Tom: OK. When? / Mina: At three. ③ an apple (세 가지 모두 도움 없이 하면 통과)"
       }
     ],
     "record": [

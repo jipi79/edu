@@ -458,6 +458,9 @@
           "가(I went to the park yesterday.). go는 -ed를 붙이지 않고 went로 모양이 바뀝니다.",
           "나의 goed라는 낱말은 없습니다. eat도 eated가 아니라 ate입니다."
         ],
+        "틀리면": [
+          "나를 고르면: 모양이 바뀌는 동사에도 -ed를 붙였습니다(M1). “go는 -ed를 붙이는 동사야, 모양이 바뀌는 동사야?” 하고 묻습니다."
+        ],
         "막히면": [
           "S05를 다시 보여 주고 “go는 어느 쪽 동사였지?”라고 묻습니다."
         ],
@@ -733,6 +736,11 @@
           "가와 라는 없는 낱말(eated, ated), 나는 yesterday인데 지금 모양(eat)을 썼습니다.",
           "고쳐 말하기: I visited my grandma last Sunday."
         ],
+        "틀리면": [
+          "가를 고르면: 모양이 바뀌는 동사에도 -ed를 붙였습니다(M1). “eat은 -ed를 붙이는 동사였니?” 하고 묻습니다.",
+          "나를 고르면: yesterday를 넣고도 지금 모양으로 말했습니다(M2). “yesterday는 지난 때지? 그럼 eat은 어떻게 바뀌어야 할까?” 하고 묻습니다.",
+          "라를 고르면: 모양이 바뀐 동사에 -ed를 또 붙였습니다(M1). “eat의 지난 일 모양에 -ed가 또 필요할까?” 하고 묻습니다."
+        ],
         "막히면": [
           "S05를 다시 보여 주고 “eat의 지난 일은?”이라고 묻습니다."
         ]
@@ -775,9 +783,15 @@
           "“-ed를 붙이거나 모양이 바뀌어요.” “went, ate, saw, had요.”"
         ],
         "정답": [
-          "① went, ate, saw, had ② I watched TV yesterday. ③ 예: I played soccer yesterday."
+          "① went, ate, saw, had",
+          "② I watched TV yesterday.",
+          "③ 과거형 동사와 yesterday를 넣어 말하면 맞음(예: I played soccer yesterday.)"
+        ],
+        "틀리면": [
+          "①을 ‘goed’나 ‘eated’라고 하면: 모양이 바뀌는 동사에도 -ed를 붙였습니다(M1). “go와 eat은 -ed를 붙이는 동사야, 모양이 바뀌는 동사야?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁마다 “오늘 뭐 했어?”를 영어 한 문장으로 말해 보는 놀이를 해 보세요(예: I went to school. I ate noodles.)."
         ]
       }

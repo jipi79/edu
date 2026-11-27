@@ -635,6 +635,11 @@
         "정답": [
           "가. 나는 까닭(pizza)이 겨울이 재미있는 것과 상관없고, 다는 is와 because 다음 문장(I can play in the snow)이 빠졌고, 라는 Because 부분과 의견이 떨어져 있고 의견 문장(winter is fun)이 완성되지 않았습니다."
         ],
+        "틀리면": [
+          "나를 고르면: 문장 모양만 보고 까닭이 의견과 이어지는지는 살피지 않았습니다(M3). “피자를 좋아하는 게 겨울이 재미있는 까닭이 될까?” 하고 묻습니다.",
+          "다를 고르면: I think와 because 다음에 낱말만 와도 된다고 생각했습니다(M1·M2). “무엇이 어떻다는 문장이 다 들어 있니?” 하고 묻습니다.",
+          "라를 고르면: Because 부분을 따로 떼어 한 문장처럼 써도 된다고 생각했습니다(M2). “의견과 까닭이 한 문장으로 이어져 있니?” 하고 묻습니다."
+        ],
         "막히면": [
           "S09의 점검표를 보며 하나씩 확인하게 합니다."
         ]
@@ -677,9 +682,12 @@
           "“I think로 시작하고 because로 까닭을 이어요.” “다를 수 있어요. 까닭을 들어 봐요.”"
         ],
         "정답": [
-          "① 왜냐하면, ~ 때문에 ② 예: I think summer is great because I can swim in the sea. (기준에 맞으면 맞음) ③ I think dogs are great because they are friendly."
+          "① 왜냐하면, ~ 때문에",
+          "② 예: I think summer is great because I can swim in the sea. (I think + 의견 문장 + because + 까닭 문장이면 통과)",
+          "③ I think dogs are great because they are friendly."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁 메뉴나 주말에 할 일을 고를 때 I think ~ because ~.로 말해 보게 하면 좋은 복습이 됩니다. 다음 차시는 ‘뜻 확인하기’입니다."
         ]
       }
