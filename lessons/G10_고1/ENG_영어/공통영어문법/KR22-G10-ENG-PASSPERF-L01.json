@@ -163,15 +163,15 @@
         ],
         "정답": [
           "① The car is washed by my dad. (차는 아빠가 세차해요.)",
-          "② be used (can 뒤에는 be + 과거분사) — 그것은 여기서 사용될 수 있어요.",
+          "② be used (can 뒤에는 be + 과거분사. 그것은 여기서 사용될 수 있어요.)",
           "③ 그녀는 한 시간째 공부하고 있어요."
+        ],
+        "틀리면": [
+          "①을 ‘The car washes by my dad’라고 하면: be동사를 빠뜨려 수동태의 기본 모양이 흔들렸습니다. “수동태는 be동사와 무엇으로 만들었지?” 하고 묻습니다. S17로 돌아갑니다."
         ],
         "막히면": [
           "①은 “목적어 the car를 앞으로, washes는 is washed로, my dad는 by 뒤로.”, ②는 “can 뒤에는 무엇이 왔지?”, ③은 “have been -ing는 무슨 뜻이었지?”라고 묻습니다.",
           "세 문제 가운데 두 개 이상 어려우면 S17(보충)을 먼저 합니다."
-        ],
-        "주의": [
-          "①에서 The car washes by my dad.처럼 be동사를 빠뜨리면 수동태 기본이 흔들리는 것입니다. S17을 먼저 합니다."
         ]
       }
     },
@@ -425,15 +425,18 @@
         ],
         "정답": [
           "① Dinner is being made by Mom. (저녁이 엄마에 의해 만들어지고 있어요 → 엄마가 저녁을 만들고 계세요.)",
-          "② A new school is being built. (새 학교가 지어지고 있어요. by them은 빼는 것이 자연스러움)",
+          "② A new school is being built. (‘A new school is being built by them’도 맞음. 새 학교가 지어지고 있어요. by them은 빼는 것이 자연스러움)",
           "③ The computer is being used. (컴퓨터가 사용되고 있어요. by someone은 뺌)",
           "④ The dishes are being washed by Tom. (접시들이 톰에 의해 씻기고 있어요 → 톰이 설거지하고 있어요.)"
+        ],
+        "틀리면": [
+          "①을 ‘Dinner is making by Mom’이라고 하면: being을 빠뜨려 능동 진행형처럼 썼습니다(M1). “저녁은 만드는 쪽이야, 만들어지는 쪽이야?” 하고 묻습니다.",
+          "④를 ‘The dishes is being washed by Tom’이라고 하면: be동사를 새 주어에 맞추지 않았습니다(M4). “The dishes는 하나야, 여럿이야?” 하고 묻습니다. S05로 돌아갑니다."
         ],
         "막히면": [
           "“목적어는? 그게 하나야, 여럿이야?” “과거분사는?”을 차례로 묻습니다."
         ],
         "주의": [
-          "④의 the dishes는 여럿이라서 are being입니다. is being으로 말하면 S05의 열쇠 문장을 다시 봅니다.",
           "수동태 문장을 우리말로 옮길 때 ‘~에 의해 ~되다’가 어색하면 ‘톰이 설거지하고 있어요’처럼 자연스럽게 말해도 됩니다."
         ]
       }
@@ -483,6 +486,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(The road is being repaired now.)입니다. 나의 is repairing은 ‘(길이 무언가를) 고치고 있다’는 능동 진행형이라 뜻이 맞지 않습니다. 길은 고쳐지는 쪽이므로 is being + 과거분사를 씁니다."
+        ],
+        "틀리면": [
+          "나를 고르면: being을 빠뜨린 능동 진행형을 수동태로 보았습니다(M1). “길이 스스로 무언가를 고칠 수 있을까?” 하고 묻습니다."
         ],
         "막히면": [
           "S04의 네 덩어리를 다시 보여 주고 “길이 하는 쪽이야, 당하는 쪽이야? 당하면 과거분사”라고 말해 줍니다."
@@ -660,11 +666,14 @@
           "③ My cake has been eaten! (내 케이크를 누가 먹어 버렸어요! by someone은 뺌)",
           "④ This song has been loved for 50 years. (이 노래는 50년 동안 사랑받아 왔어요. by people은 뺌)"
         ],
+        "틀리면": [
+          "①을 ‘The door has being fixed by Dad’라고 하면: have 뒤에 being을 썼습니다(M2). “have·has 뒤에 오는 be의 모양은 무엇이었지?” 하고 묻습니다.",
+          "③을 ‘My cake has been ate’라고 하면: 과거분사 자리에 과거형을 썼습니다. “eat의 과거분사는 무엇이었지?” 하고 묻습니다. S03으로 돌아갑니다."
+        ],
         "막히면": [
           "“목적어는? 그 주어에는 have야, has야?” “과거분사는?”을 차례로 묻습니다."
         ],
         "주의": [
-          "③은 eaten(과거분사)입니다. ate(과거형)를 쓰면 S03 표를 다시 봅니다.",
           "④처럼 for·since가 있으면 ‘~되어 왔다’로 해석합니다. (fix: 고치다, bridge: 다리)"
         ]
       }
@@ -713,6 +722,7 @@
           "“가에서 청소하는 사람은 누구야? 나에서 방은 청소하는 쪽이야, 청소되는 쪽이야?”"
         ],
         "정답": [
+          "기준: 두 문장의 뜻과, -ing와 과거분사를 쓴 까닭을 각각 말하면 맞습니다.",
           "가 Mom has been cleaning the room. — 엄마는 (지금까지 계속) 방을 청소하고 계세요. 엄마가 하는 쪽이라 -ing(현재완료진행).",
           "나 The room has been cleaned. — 방이 청소되었어요. 방이 당하는 쪽이라 과거분사(완료 수동태)."
         ],
@@ -804,11 +814,16 @@
           "“이번에는 혼자 해 볼래? ①②는 수동태로 바꾸고, ③은 뜻을, ④는 알맞은 것을 말해 줘. 그다음 활동지 5에 써.”"
         ],
         "정답": [
-          "① The wall is being painted (by them). — 벽이 칠해지고 있어요.",
-          "② The window has been opened. — 창문이 열렸어요. (by someone은 뺌)",
+          "① The wall is being painted. (‘The wall is being painted by them’도 맞음. 벽이 칠해지고 있어요.)",
+          "② The window has been opened. (by someone은 뺌. 창문이 열렸어요.)",
           "③ 피자가 지금 배달되고 있어요.",
-          "④ been written — 그 편지는 (다) 쓰였어요. (has written만 쓰면 ‘편지가 무언가를 썼다’는 뜻이 됨)",
+          "④ been written (그 편지는 (다) 쓰였어요. has written만 쓰면 ‘편지가 무언가를 썼다’는 뜻이 됨)",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 being·been의 자리, 과거분사, 첫 글자 대문자와 마침표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘The wall is painting’이라고 하면: being을 빠뜨려 능동 진행형으로 썼습니다(M1). “벽은 칠하는 쪽이야, 칠해지는 쪽이야?” 하고 묻습니다.",
+          "②를 ‘The window has being opened’라고 하면: have 뒤에 being을 썼습니다(M2). “have·has 뒤에 오는 be의 모양은 무엇이었지?” 하고 묻습니다.",
+          "④를 written이라고 하면: 편지가 쓰는 쪽인 문장(has written)이 되었습니다. “편지가 무언가를 쓸 수 있을까?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “지금 하는 중이야, 이미 끝났어?” “be 뒤에는 being, have 뒤에는?” “편지는 쓰는 쪽이야, 쓰이는 쪽이야?”라고만 묻습니다.",
@@ -912,8 +927,11 @@
         "정답": [
           "① 박물관이 지금 지어지고 있어요.",
           "② 이곳에 나무가 많이 심어졌어요.",
-          "③ cooking (엄마가 요리하는 쪽, since 5 p.m.) — 엄마는 오후 5시부터 계속 요리하고 계세요.",
-          "기준: 세 개 모두 맞으면 통과입니다. ③에서 cooked를 고르면 기록표에 적어 두고, 다음 수업 첫 5분에 S11을 다시 봅니다."
+          "③ cooking (엄마가 요리하는 쪽이고 since 5 p.m.이 있음. 엄마는 오후 5시부터 계속 요리하고 계세요.)",
+          "기준: 세 개 모두 맞으면 통과입니다. 틀린 문제는 기록표에 적어 둡니다."
+        ],
+        "틀리면": [
+          "③을 cooked라고 하면: 하는 쪽(현재완료진행)과 당하는 쪽(완료 수동태)을 헷갈렸습니다(M3). “엄마는 요리하는 쪽이야, 요리되는 쪽이야?” 하고 묻습니다. S11로 돌아갑니다."
         ],
         "막히면": [
           "①②는 “being이 있어, been이 있어?”, ③은 “엄마가 요리하는 쪽이야, 요리되는 쪽이야?”라고 묻습니다."
@@ -960,11 +978,17 @@
           "“is being + 과거분사요.” “has been + 과거분사요.”"
         ],
         "정답": [
-          "① A house is being built. (by them은 빼도 됨)",
+          "① A house is being built. (‘A house is being built by them’도 맞음. by them은 빼도 됨)",
           "② My bag has been stolen.",
           "③ cleaned (방은 청소되는 쪽)"
         ],
+        "틀리면": [
+          "①을 ‘A house is building’이라고 하면: being을 빠뜨려 능동 진행형으로 썼습니다(M1). “집은 짓는 쪽이야, 지어지는 쪽이야?” 하고 묻습니다.",
+          "②를 ‘My bag has being stolen’이라고 하면: have 뒤에 being을 썼습니다(M2). “have·has 뒤에 오는 be의 모양은 무엇이었지?” 하고 묻습니다.",
+          "③을 cleaning이라고 하면: 방이 청소하는 쪽인 문장이 되었습니다(M3). “방이 무언가를 청소할 수 있을까?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "집안일을 하며 “The dishes are being washed.” “The floor has been cleaned.”처럼 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘4·5형식 문장의 수동태’에서는 I was given a gift.(나는 선물을 받았어요)처럼 목적어가 둘인 문장과, He is called Tom.(그는 톰이라고 불려요)처럼 목적어 뒤에 설명하는 말이 있는 문장을 수동태로 바꿉니다."
         ]
       }
@@ -1226,7 +1250,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① They are building a house.를 수동태로 바꾸어 쓰시오.\n② Someone has stolen my bag.을 수동태로 바꾸어 쓰시오.\n③ The room has been (cleaning / cleaned).에서 알맞은 것을 쓰시오.",
         "lines": 3,
-        "answer": "① A house is being built. (by them은 빼도 됨) ② My bag has been stolen. ③ cleaned. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① A house is being built. (‘A house is being built by them’도 맞음. by them은 빼도 됨) ② My bag has been stolen. ③ cleaned (방은 청소되는 쪽). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

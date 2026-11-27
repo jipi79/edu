@@ -442,12 +442,17 @@
           "“①은 2시부터 4시까지니까 몇 시간이지?”"
         ],
         "정답": [
-          "① I have been reading a book for two hours. (since 2 p.m.도 맞음)",
+          "① I have been reading a book for two hours. (‘I have been reading a book since 2 o'clock’도 맞음. since 2 p.m.도 맞음)",
           "② She has been studying English since 2023.",
           "③ It has been raining since Monday.",
           "④ They have been playing soccer for 30 minutes.",
           "⑤ How long have you been waiting?",
           "⑥ He has been swimming for an hour."
+        ],
+        "틀리면": [
+          "①을 ‘I have reading a book for two hours’라고 하면: been을 빠뜨렸습니다(M2). “have 다음에 무엇이 와야 -ing를 붙일 수 있지?” 하고 묻습니다. S03으로 돌아갑니다.",
+          "③을 ‘It has been raining for Monday’라고 하면: for와 since를 바꾸어 썼습니다(M4). “Monday는 시작한 때야, 기간이야?” 하고 묻습니다.",
+          "⑤를 ‘How long you have been waiting?’이라고 하면: 질문인데 have를 주어 뒤에 두었습니다. “질문에서는 have를 어디에 두지?” 하고 묻습니다."
         ],
         "막히면": [
           "“주어가 he, she, it이야?” “been 다음에 무엇이 오지?” “시작한 때야, 기간이야?”를 차례로 묻습니다."
@@ -503,6 +508,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 나(I have been waiting for an hour.)입니다. 가의 am waiting은 ‘지금 기다리는 중’이라는 뜻만 있어서, 과거부터 지금까지의 기간(for an hour)과 함께 쓰지 않습니다."
+        ],
+        "틀리면": [
+          "가를 고르면: 우리말 ‘~하고 있다’를 그대로 옮겨 현재진행형을 썼습니다(M1). “for an hour는 지금 한순간이야, 과거부터 지금까지의 기간이야?” 하고 묻습니다."
         ],
         "막히면": [
           "S04의 수직선을 다시 보여 주고 “시작부터 지금까지 쭉 이어진 기간이 있으면 have been -ing”라고 말해 줍니다."
@@ -666,9 +674,14 @@
           "“동사가 상태인지 동작인지 먼저 말하고, 알맞은 것을 골라 읽어 줘. 고른 까닭도 말해 볼래?”"
         ],
         "정답": [
-          "① have known (know는 상태 동사) — 나는 2019년부터 미나를 알고 지내요.",
-          "② have been waiting (동작이고 for an hour, 기간이 있음) — 나는 여기서 한 시간째 기다리고 있어요.",
-          "③ has had (have가 ‘가지다’, 상태) — 그녀는 3년째 고양이를 키우고 있어요."
+          "① have known (know는 상태 동사. 나는 2019년부터 미나를 알고 지내요.)",
+          "② have been waiting (동작이고 for an hour, 기간이 있음. 나는 여기서 한 시간째 기다리고 있어요.)",
+          "③ has had (have가 ‘가지다’, 상태. 그녀는 3년째 고양이를 키우고 있어요.)"
+        ],
+        "틀리면": [
+          "①을 ‘have been knowing’이라고 하면: 상태 동사를 진행형으로 썼습니다(M3). “know는 동작이야, 상태야?” 하고 묻습니다. S08로 돌아갑니다.",
+          "②를 ‘am waiting’이라고 하면: 기간(for an hour)이 있는데 현재진행형을 골랐습니다(M1). “for an hour는 과거부터 지금까지의 기간이지?” 하고 묻습니다.",
+          "③을 ‘has been having’이라고 하면: ‘가지다’라는 상태의 have를 진행형으로 썼습니다(M3). “여기서 have는 동작이야, 상태야?” 하고 묻습니다."
         ],
         "막히면": [
           "“이 동사를 지금 몸으로 하고 있는 중이야?”라고 물어 상태와 동작을 가리게 합니다. 그다음 “for나 since가 있어?”를 묻습니다."
@@ -712,17 +725,21 @@
           "“두 문장을 읽고, 시작한 때나 기간을 넣어 한 문장으로 말해 줘. 동사가 상태면 have + 과거분사, 동작이면 have been + -ing야.”"
         ],
         "정답": [
-          "① Tom has been cleaning since 1 p.m. (since 1 o'clock도 맞음)",
+          "① Tom has been cleaning since 1 p.m. (‘Tom has been cleaning since 1 o'clock’도 맞음)",
           "② I have known Jisu since 2020. (know는 상태 동사라서 현재완료)",
           "③ It has been raining for three hours.",
           "④ We have been learning English for five years."
+        ],
+        "틀리면": [
+          "②를 ‘I have been knowing Jisu since 2020’이라고 하면: 상태 동사를 진행형으로 썼습니다(M3). “know는 동작이야, 상태야?” 하고 묻습니다. S08로 돌아갑니다.",
+          "③을 ‘It has been raining since three hours ago’라고 하면: ~ ago를 since 뒤에 붙였습니다(M4). “three hours는 시작한 때야, 기간이야?” 하고 묻습니다."
         ],
         "막히면": [
           "“언제 시작했어? 아니면 얼마 전에 시작했어?”라고 묻고, ‘~ ago’가 있으면 for로 바꾼다고 알려 줍니다."
         ],
         "주의": [
-          "③④처럼 ‘~ ago(~ 전에)’는 for + 기간으로 바꿉니다. since three hours ago는 어색하게 들리므로 for three hours로 씁니다(오해 M4).",
-          "②에서 have been knowing이라고 하면 S08을 다시 봅니다. (still: 아직도, started: 시작했다, learn: 배우다)"
+          "③④처럼 ‘~ ago(~ 전에)’는 for + 기간으로 바꿉니다.",
+          "(still: 아직도, started: 시작했다, learn: 배우다)"
         ]
       }
     },
@@ -806,11 +823,16 @@
           "“이번에는 혼자 해 볼래? ①②는 have been -ing 문장으로, ③은 know를 알맞은 모양으로 바꿔, ④는 질문으로 말해 줘. 그다음 활동지 5에 써.”"
         ],
         "정답": [
-          "① She has been swimming for an hour. (11 − 10 = 1시간, for one hour도 맞음)",
+          "① She has been swimming for an hour. (‘She has been swimming for one hour’도 맞음. 11 − 10 = 1시간)",
           "② It has been snowing since this morning.",
           "③ I have known him for years. (know는 상태 동사라서 have been knowing은 틀림)",
           "④ How long have you been waiting?",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 have·has, been, -ing가 모두 있는지, swimming의 m 두 개, 첫 글자 대문자와 마침표·물음표도 봅니다."
+        ],
+        "틀리면": [
+          "①을 ‘She has swimming for an hour’라고 하면: been을 빠뜨렸습니다(M2). “have·has 다음에 무엇이 와야 -ing를 붙일 수 있지?” 하고 묻습니다.",
+          "①을 ‘She has been swimming since an hour’라고 하면: 기간 앞에 since를 썼습니다(M4). “an hour는 시작한 때야, 기간이야?” 하고 묻습니다.",
+          "③을 ‘I have been knowing him for years’라고 하면: 상태 동사를 진행형으로 썼습니다(M3). “know는 동작이야, 상태야?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “10시부터 11시까지 몇 시간?” “주어가 it이면?” “know는 상태야, 동작이야?” “How long 다음에 무엇이 와?”라고만 묻습니다.",
@@ -914,8 +936,11 @@
         "정답": [
           "① 엄마는 오후 5시부터 계속 요리하고 계세요.",
           "② 나는 미나를 10년째 알고 지내요. (know는 상태 동사라서 have known)",
-          "③ Dad has been reading for two hours. (9 − 7 = 2시간, since 7 p.m.도 맞음)",
-          "기준: 세 개 모두 맞으면 통과입니다. ①을 ‘요리했어요’처럼 끝난 일로 해석하거나 ③에 is reading을 쓰면 기록표에 적어 둡니다."
+          "③ Dad has been reading for two hours. (‘Dad has been reading since 7 o'clock’도 맞음. 9 − 7 = 2시간, since 7 p.m.도 맞음)",
+          "기준: 세 개 모두 맞으면 통과입니다. ①을 ‘요리했어요’처럼 끝난 일로 해석하거나 ③을 틀리면 기록표에 적어 둡니다."
+        ],
+        "틀리면": [
+          "③을 ‘Dad is reading for two hours’라고 하면: 기간이 있는데 현재진행형을 썼습니다(M1). “7시부터 지금까지 계속 읽고 있으면 어떤 모양을 쓰지?” 하고 묻습니다."
         ],
         "막히면": [
           "①은 S04의 수직선, ②는 S08의 두 카드, ③은 “7시부터 9시까지 몇 시간?”을 묻습니다."
@@ -966,7 +991,12 @@
           "② since (Monday는 시작한 때)",
           "③ I have known him for years."
         ],
+        "틀리면": [
+          "①을 ‘am waiting’이라고 하면: 기간(for an hour)이 있는데 현재진행형을 골랐습니다(M1). “for an hour는 과거부터 지금까지의 기간이지?” 하고 묻습니다.",
+          "②를 for라고 하면: 시작한 때와 기간을 헷갈렸습니다(M4). “Monday는 시작한 때야, 기간이야?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "저녁에 “How long have you been watching TV?”처럼 생활 속에서 물어보면 좋은 복습이 됩니다. 다음 차시 ‘진행·완료 수동태’에서는 The road is being repaired.(길이 수리되고 있어요), The room has been cleaned.(방이 청소되었어요)처럼 오늘의 been과 수동태를 합친 모양을 배웁니다."
         ]
       }
@@ -1201,7 +1231,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① I (am waiting / have been waiting) for an hour.에서 알맞은 것을 쓰시오.\n② It has been raining (for / since) Monday.에서 알맞은 것을 쓰시오.\n③ I have been knowing him for years.를 바르게 고쳐 쓰시오.",
         "lines": 3,
-        "answer": "① have been waiting ② since ③ I have known him for years. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① have been waiting (for an hour, 기간이 있음) ② since (Monday는 시작한 때) ③ I have known him for years. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
