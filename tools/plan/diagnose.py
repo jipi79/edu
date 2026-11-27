@@ -70,6 +70,14 @@ def split_answers(answers, n):
     answers = [clean(a) for a in answers]
     if len(answers) == n:
         return [re.sub(rf"^[{CIRCLED}]\s*", "", a) for a in answers]
+    # 줄마다 ①②③으로 시작하고 덧붙인 설명 줄이 따로 있으면 번호 줄만 쓴다
+    numbered = [a for a in answers if a[:1] in CIRCLED]
+    if len(numbered) == n and [a[0] for a in numbered] == list(CIRCLED[:n]):
+        return [a[1:].strip() for a in numbered]
+    # 번호가 든 줄만 가른다(‘네모 2개, 세모 2개입니다.’ 같은 덧붙인 설명 줄은 뺀다)
+    with_num = [a for a in answers if re.search(rf"[{CIRCLED}]", a)]
+    if with_num and len(with_num) < len(answers):
+        answers = with_num
     joined = " ".join(answers)
     # ①, ②, ③을 차례로 찾는다(답 안에 ‘①의 낱말’처럼 번호가 다시 나와도 순서로 가른다)
     pos, at = [], 0

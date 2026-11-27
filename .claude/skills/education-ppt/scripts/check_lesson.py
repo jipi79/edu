@@ -22,6 +22,9 @@ from pathlib import Path
 
 import jsonschema
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import wrong_line  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[4]
 SCHEMA = Path(__file__).resolve().parents[1] / "schemas" / "lesson.schema.json"
 SAFE_RIGHT, SAFE_BOTTOM = 12.75, 6.9
@@ -284,6 +287,53 @@ def check(path):
             if "w" in b and "h" in b:
                 if b["x"] < 0.5 or b["x"] + b["w"] > SAFE_RIGHT + 0.001 or b["y"] + b["h"] > SAFE_BOTTOM + 0.001:
                     errors.append(f"{s['id']}: {b['type']} 블록이 안전 영역을 벗어난다")
+
+    # 노트 ‘틀리면’: 꼴, 문항 번호, 보기 이름, 오개념 ID, 돌아갈 장
+    mids = {m["id"] for m in lesson.get("misconceptions", [])}
+    sids = {s["id"] for s in slides}
+    for s in slides:
+        lines = (s.get("notes") or {}).get("틀리면", [])
+        if not lines:
+            continue
+        n_items = wrong_line.item_count(s)
+        labels = "가나다라마바"[:len(s.get("options") or [])]
+        sides = [re.split(r"[:：]|\s{2,}", (s.get(k) or {}).get("title", "")) for k in ("left", "right")]
+        names = {x.strip() for side in sides for x in side if x.strip()}
+        names |= {(s.get(k) or {}).get("title", "").strip() for k in ("left", "right")}
+        for line in lines:
+            w = wrong_line.parse(line)
+            if w is None:
+                errors.append(f"{s['id']}: 틀리면 줄의 꼴이 맞지 않다: {line[:60]}")
+                continue
+            if "n" in w and not (1 <= w["n"] <= n_items):
+                errors.append(f"{s['id']}: 틀리면 ‘{line[:12]}’ — 이 장에 {w['n']}번 문항이 없다")
+            for key in ("pick", "omit"):
+                if key in w and w[key] not in labels and w[key] not in names:
+                    errors.append(f"{s['id']}: 틀리면 ‘{w[key]}’ — 이 장의 보기·이름표가 아니다")
+            if "seq" in w and (sorted(w["seq"]) != sorted(labels) or len(w["seq"]) != len(labels)):
+                errors.append(f"{s['id']}: 틀리면 차례 ‘{' → '.join(w['seq'])}’가 이 장의 보기({labels})를 한 번씩 쓰지 않는다")
+            if "say" in w and s.get("kind") not in ("compare", "choice"):
+                errors.append(f"{s['id']}: 틀리면 ‘{w['say']}라고 하면’은 견주기·고르기 장에만 쓴다")
+            for m in w["misconceptions"]:
+                if m not in mids:
+                    errors.append(f"{s['id']}: 틀리면이 없는 오개념 {m}을 가리킨다")
+            if w.get("goto") and w["goto"] not in sids:
+                errors.append(f"{s['id']}: 틀리면의 돌아갈 장 {w['goto']}이 없다")
+
+    # 정리 장 복습과 활동지 ‘다음 수업을 시작할 때’는 같은 문제·같은 답(authoring.md ‘한 벌’)
+    summ = [s for s in slides if s.get("kind") == "summary" and s.get("review")]
+    w_items = (lesson.get("worksheet") or {}).get("items", [])
+    start = next((i for i, it in enumerate(w_items) if "다음 수업" in it.get("heading", "")), None)
+    if summ and start is not None:
+        flat = lambda t: re.sub(r"[\s·,.?!…~\-–—()\[\]“”‘’\"/:;]", "", str(t))
+        ws_ans = flat(" ".join(str(it.get("answer", "")) for it in w_items[start:]))
+        raw = " ".join(summ[-1].get("notes", {}).get("정답", []))
+        parts = [p for p in re.split(r"[①②③④⑤⑥]", raw) if p.strip()] if re.search(r"[①②③]", raw) else [raw]
+        for k, part in enumerate(parts):
+            main = re.split(r"\(|(?<=[^0-9])\.\s", part.strip())[0]
+            if main.strip() and flat(main) not in ws_ans:
+                msg = f"{summ[-1]['id']}: 복습 {k + 1}번 답 ‘{main.strip()[:30]}’이 활동지 ‘다음 수업을 시작할 때’ 답에 없다(한 벌이 아님)"
+                (errors if lesson["grade"] == "G01" else notes).append(msg)
 
     # 중·고: 화면 이름을 옮긴 부모용 글이 화면과 맞는지(말투 변환 뒤 해요체 이름이 남지 않게)
     if lesson["grade"] >= "G07":

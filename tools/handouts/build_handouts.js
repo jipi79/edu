@@ -346,7 +346,7 @@ function guideHtml(L, thumbs) {
       <div>${tags}<b>${esc(s.title)}</b> · ${esc(s.purpose)} · ${esc(n.시간 || "")}</div>
       <div>${esc(n.목적 || "")}</div>
       ${listHtml("이렇게 말해 보세요", n.말하기)}${listHtml("예상 답", n.예상답)}${listHtml("정답", n.정답)}
-      ${listHtml("막히면", n.막히면)}${listHtml("주의", n.주의)}
+      ${listHtml("틀리면", n.틀리면)}${listHtml("막히면", n.막히면)}${listHtml("주의", n.주의)}
       ${s.safety ? `<div style="margin-top:1mm; color:#C8434E; font-weight:700">안전: ${esc(s.safety)}</div>` : ""}
     </div></div>`;
   });
