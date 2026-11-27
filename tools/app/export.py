@@ -62,6 +62,7 @@ def _main_answer(a):
         inner = re.sub(r"분의", "", first.group(2)) if first else ""
         if (first and not re.search(r"[가-힣=]", inner) and re.search(r"[0-9A-Za-z]", inner)
                 and (re.search(r"[/×·+\-−√^]$", first.group(1).rstrip())   # 2/(x − 2), −(3분의 1), √(…)
+                     or re.search(r"(?:^|[^A-Za-z])[A-Za-z]′?$", first.group(1))      # N(200, 10²), B(600, 0.3), P(A)
                      or (re.search(r"[0-9A-Za-z)²³′⁰¹⁴-⁹₀-₉Σ∫]$", first.group(1))
                          and re.search(r"(?<![A-Za-z])[a-zA-Z](?![A-Za-z])", inner)))):  # 3(x + 2), f(x)
             # 수식의 괄호(3(x + 2), f(x) = …)는 답의 일부: 한글이 든 첫 괄호부터가 풀이
@@ -358,7 +359,7 @@ def choice_item(L, s, issues, seen):
     multi = re.match(rf"^([{lab}])(?:\([^)]*\))?(?:\s*(?:,|와|과)\s*([{lab}])(?:\([^)]*\))?)+(?:가|이|는|을|를)?[.\s(]", raw + " ")
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
     more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|큽|많|작|적|길|짧|무겁|가볍)", raw)
-    first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
+    first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw) or re.match(rf"^([{lab}])(?:가|이)\s*(?:맞|옳|알맞|바르)", raw)
     latin = re.match(r"^([A-F]|[ⓐ-ⓕ])(?:[(\s.,]|$)", raw)  # 보기 이름이 A·B·C 또는 ⓐ·ⓑ·ⓒ인 장
     if latin and not first:
         k = "ABCDEF".index(latin.group(1)) if latin.group(1) in "ABCDEF" else "ⓐⓑⓒⓓⓔⓕ".index(latin.group(1))
