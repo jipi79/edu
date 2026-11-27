@@ -168,7 +168,7 @@ def classify(prob, ans_text):
         return "parent", None, "", "정답 없음", note
     if GRADE >= "G07" and re.search(r"[=<>]", main) and "분의" in main:  # 식 속 ‘2분의 1’ → 1/2
         main = re.sub(r"(√?\d+)\s*분의\s*(√?\d+)", r"\2/\1", main)
-    MATHRUN = r"(?:[0-9A-Za-zπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+"
+    MATHRUN = r"(?:[0-9A-Za-zπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿˣʸ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+"
     roots = GRADE >= "G07" and re.fullmatch(MATHRUN, main.strip()) and re.search(r"[=<>≤≥]", main) and "또는" in main
     if OPEN.search(ans_text) and not (roots and not OPEN.search(re.sub(r"또는", "", ans_text))):
         return "parent", main, "", "열린 답(예·또는·가운데)", note
@@ -191,6 +191,8 @@ def classify(prob, ans_text):
     if main.strip() in (">", "<", "=", "＞", "＜"):
         return "symbol", main.strip().replace("＞", ">").replace("＜", "<"), "", "", note
     n, unit = number_unit(main)
+    if n is not None and unit == "t" and (STRAND == "MAT" or not re.search(r"\st$", main.strip())):
+        n = None  # 수학의 ‘2t’는 식(매개변수 t), 톤은 ‘3 t’처럼 띄어 쓴다
     if n is not None:
         return "numpad", n, unit, "", note
     # 분수: ‘5분의 2’, ‘1과 2분의 1’, 여러 개(‘15분의 10, 15분의 9’), 식이면 마지막 값(‘8분의 6 = 4분의 3’)
@@ -206,7 +208,7 @@ def classify(prob, ans_text):
         return "expr", f"{m.group(1)}:{m.group(2)}", "", "", note
     # 수식·식·좌표·범위(중·고): ‘x = −5’, ‘y = 3x − 1’, ‘(−4, −1)’, ‘6√2’, ‘−1 < x < 1’, ‘x = 2 또는 x = 3’
     mm = main.strip()
-    if (len(mm) <= 40 and re.fullmatch(r"(?:[0-9A-Za-zα-ωπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+", mm)
+    if (len(mm) <= 40 and re.fullmatch(r"(?:[0-9A-Za-zα-ωπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿˣʸ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+", mm)
             and re.search(r"[0-9πxyzabn√=<>≤≥(]", mm)
             and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)
             and not [w for w in re.findall(r"[A-Za-z]{3,}", mm) if w.lower() not in
