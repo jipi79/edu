@@ -331,7 +331,14 @@ def check(path):
         parts = [p for p in re.split(r"[①②③④⑤⑥]", raw) if p.strip()] if re.search(r"[①②③]", raw) else [raw]
         for k, part in enumerate(parts):
             main = re.split(r"\(|(?<=[^0-9])\.\s", part.strip())[0]
-            if main.strip() and flat(main) not in ws_ans:
+            fm = flat(main)
+            if re.fullmatch(r"[\d\s,.…/:+−×÷=-]+", main.strip()):  # 수로 된 답: 수마다 활동지 답에 온전한 수로 있는지
+                ws_raw = re.sub(r"(?<=\d),(?=\d{3})", "", " ".join(str(it.get("answer", "")) for it in w_items[start:]))
+                nums = re.findall(r"\d+(?:\.\d+)?", re.sub(r"(?<=\d),(?=\d{3})", "", main))
+                hit = all(re.search(rf"(?<![\d.]){re.escape(n)}(?![\d.]|\.\d)", ws_raw) for n in nums)
+            else:
+                hit = fm in ws_ans
+            if main.strip() and not hit:
                 msg = f"{summ[-1]['id']}: 복습 {k + 1}번 답 ‘{main.strip()[:30]}’이 활동지 ‘다음 수업을 시작할 때’ 답에 없다(한 벌이 아님)"
                 (errors if lesson["grade"] <= "G06" else notes).append(msg)  # 초등은 정리 완료 기준
 

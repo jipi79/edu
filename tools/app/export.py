@@ -278,7 +278,7 @@ def choice_item(L, s, issues, seen):
     match = [(re.split(r"\s*→\s*", a)[-1], b) for a, b in match]
     multi = re.match(rf"^([{lab}])(?:\([^)]*\))?(?:\s*(?:,|와|과)\s*([{lab}])(?:\([^)]*\))?)+(?:가|이|는|을|를)?[.\s(]", raw + " ")
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
-    more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|많|작|적|길|짧|무겁|가볍)", raw)
+    more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|큽|많|작|적|길|짧|무겁|가볍)", raw)
     first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
     if re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
         rec.update(input="parent", why="무엇을 골라도 맞음(까닭을 봄)")
