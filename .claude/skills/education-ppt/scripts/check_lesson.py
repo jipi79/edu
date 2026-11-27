@@ -333,7 +333,7 @@ def check(path):
             main = re.split(r"\(|(?<=[^0-9])\.\s", part.strip())[0]
             if main.strip() and flat(main) not in ws_ans:
                 msg = f"{summ[-1]['id']}: 복습 {k + 1}번 답 ‘{main.strip()[:30]}’이 활동지 ‘다음 수업을 시작할 때’ 답에 없다(한 벌이 아님)"
-                (errors if lesson["grade"] == "G01" else notes).append(msg)
+                (errors if lesson["grade"] <= "G06" else notes).append(msg)  # 초등은 정리 완료 기준
 
     # 중·고: 화면 이름을 옮긴 부모용 글이 화면과 맞는지(말투 변환 뒤 해요체 이름이 남지 않게)
     if lesson["grade"] >= "G07":

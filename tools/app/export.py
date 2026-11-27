@@ -46,9 +46,23 @@ def main_answer(a):
     return a.rstrip("."), ""
 
 
+UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|°C|°|%|t)"
+
+
 def number_unit(s):
-    m = re.fullmatch(rf"({NUM})\s*([가-힣]{{1,3}})?", s.strip())
-    return (m.group(1), m.group(2) or "") if m else (None, None)
+    s = s.replace("\xa0", " ").strip()
+    m = re.fullmatch(rf"({NUM}|\d{{1,3}}(?:,\d{{3}})+)\s*({UNIT})?", s)
+    return (m.group(1).replace(",", ""), m.group(2) or "") if m else (None, None)
+
+
+def korean_fraction(s):
+    """‘5분의 2’ → ‘2/5’, ‘1과 2분의 1’ → ‘1 1/2’. 아니면 None."""
+    s = s.replace("\xa0", " ").strip()
+    m = re.fullmatch(r"(?:(\d+)\s*(?:과|와)\s*)?(\d+)\s*분의\s*(\d+)", s)
+    if not m:
+        return None
+    whole, den, num = m.group(1), m.group(2), m.group(3)
+    return f"{whole} {num}/{den}" if whole else f"{num}/{den}"
 
 
 # ── 식 검산 (□ 하나가 든 사칙 계산) ──────────────────────────
@@ -125,6 +139,22 @@ def classify(prob, ans_text):
     n, unit = number_unit(main)
     if n is not None:
         return "numpad", n, unit, "", note
+    # 분수: ‘5분의 2’, ‘1과 2분의 1’, 여러 개(‘15분의 10, 15분의 9’), 식이면 마지막 값(‘8분의 6 = 4분의 3’)
+    segs = [x.strip() for x in re.split(r"\s*=\s*", main)]
+    fr = korean_fraction(segs[-1])
+    if fr and all(korean_fraction(x) or number_unit(x)[0] for x in segs):
+        return "expr", fr, "", "", note + ("; " if note else "") + (main if len(segs) > 1 else "")
+    many = [korean_fraction(x) for x in re.split(r",\s*", main)]
+    if len(many) > 1 and all(many):
+        return "expr_all", many, "", "", note
+    m = re.fullmatch(r"(\d+)\s*:\s*(\d+)", main.strip())
+    if m:
+        return "expr", f"{m.group(1)}:{m.group(2)}", "", "", note
+    # 영어: 낱말·짧은 말(세 낱말까지)은 자동, 문장은 부모 판정
+    if re.fullmatch(r"[A-Za-z][A-Za-z'’]*(?:\s[A-Za-z'’]+){0,2}[.?!]?", main.strip()):
+        return "short", main.strip(), "", "영어(대소문자·끝 부호 무시)", note
+    if re.fullmatch(r"[A-Za-z](?:,\s*[A-Za-z])+", main.strip()):
+        return "short_all", [x.strip() for x in main.split(",")], "", "", note
     if len(main) <= 8 and " " not in main.strip() and re.fullmatch(r"[가-힣A-Za-z]+", main):
         return "short", main, "", "", note
     if re.fullmatch(r"[가-힣A-Za-z]{1,6}(?:,\s*[가-힣A-Za-z]{1,6})+", main):
@@ -371,7 +401,8 @@ def attach_wrong(s, items, issues):
                 continue
             it = target[0]
             for v in w["values"]:
-                if it.get("answer") is not None and str(it["answer"]).replace(" ", "") == v.replace(" ", ""):
+                norm = lambda x: (korean_fraction(str(x)) or number_unit(str(x))[0] or str(x)).replace(" ", "")
+                if it.get("answer") is not None and norm(it["answer"]) == norm(v):
                     issues.append(("오답이 정답과 같음", s["id"], f"{CIRCLED[w['n'] - 1]} ‘{v}’"))
             it.setdefault("wrong", []).append({"values": w["values"], **entry})
         elif "seq" in w:

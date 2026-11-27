@@ -37,6 +37,9 @@ def prereqs(L):
 
 
 def clean(s):
+    if isinstance(s, dict):  # {title, text} 꼴의 물음
+        s = " ".join(str(s.get(k, "")) for k in ("title", "text") if s.get(k))
+    s = str(s)
     return s.replace("⟦", "").replace("⟧", "").replace("\n", " ").strip()
 
 
