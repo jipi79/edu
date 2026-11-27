@@ -335,7 +335,7 @@ def compare_item(L, s, issues, seen):
         rec["answer"] = 0 if first.startswith("왼쪽") else 1
     elif mentions(left) != mentions(right) and judged:
         rec["answer"] = 0 if mentions(left) else 1
-    elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and re.match(r"^(바르지 않|틀렸|아니|.{0,12}(틀렸|바르지 않))", first):
+    elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and (re.match(r"^(바르지 않|틀렸|아니|.{0,12}(틀렸|바르지 않))", first) or re.search(r"않았|않습|틀렸|틀립|아닙", first)):
         rec.update(options=["맞아요", "아니에요"], answer=1)
     elif s.get("claim") and re.search(r"바르게|맞(나요|을까|는지)|맞는지", q) and re.match(r"^(바르게|맞습니다|.{0,12}(맞습니다|바르게))", first):
         rec.update(options=["맞아요", "아니에요"], answer=0)
