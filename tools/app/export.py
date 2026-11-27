@@ -48,7 +48,7 @@ def main_answer(a):
     return a.rstrip("."), ""
 
 
-UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|°C|°|%|t)"
+UNIT = r"(?:[가-힣]{1,3}|cm²|m²|km²|cm³|m³|g/cm³|kg/m³|g/mL|m/s²|mm|cm|km|m|kg|mg|g|mL|L|km/h|m/s|mol|kJ|kcal|J|W|kW|kWh|N|Pa|hPa|V|A|Ω|Hz|°C|°|%|t)"
 
 
 def number_unit(s):
@@ -154,9 +154,17 @@ def classify(prob, ans_text):
     m = re.fullmatch(r"(\d+)\s*:\s*(\d+)", main.strip())
     if m:
         return "expr", f"{m.group(1)}:{m.group(2)}", "", "", note
+    # 수식·식·좌표·범위(중·고): ‘x = −5’, ‘y = 3x − 1’, ‘(−4, −1)’, ‘6√2’, ‘−1 < x < 1’, ‘x = 2 또는 x = 3’
+    mm = main.strip()
+    if (len(mm) <= 40 and re.fullmatch(r"(?:[0-9A-Za-zα-ωπ√∛²³⁴⁵⁶⁷⁸⁹⁰¹ⁿ₀-₉′'±+\-−×÷·=()\[\]{}.,/ ∠°<>≤≥≠∞|^:]|또는)+", mm)
+            and re.search(r"[0-9πxyzabn√=<>≤≥(]", mm)
+            and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)):
+        return "expr", mm, "", "식·값(같은 값의 다른 꼴도 맞음)", note
     # 영어: 낱말·짧은 말(세 낱말까지)은 자동, 문장은 부모 판정
     if re.fullmatch(r"[A-Za-z][A-Za-z'’]*(?:\s[A-Za-z'’]+){0,2}[.?!]?", main.strip()):
         return "short", main.strip(), "", "영어(대소문자·끝 부호 무시)", note
+    if re.fullmatch(r"[A-Z][A-Za-z'’]*(?:,?\s[A-Za-z'’]+){3,9}[.?!]?", main.strip()):
+        return "short", main.strip(), "", "영어 문장(대소문자·끝 부호 무시, 다른 맞는 문장은 accept)", note
     if re.fullmatch(r"[A-Za-z](?:,\s*[A-Za-z])+", main.strip()):
         return "short_all", [x.strip() for x in main.split(",")], "", "", note
     if len(main) <= 8 and " " not in main.strip() and re.fullmatch(r"[가-힣A-Za-z]+", main):
