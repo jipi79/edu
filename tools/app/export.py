@@ -275,6 +275,9 @@ def problem_items(L, s, key, issues, seen):
             inp, ans, unit, why, note = "parent", None, "", "열린 답(기준으로 판단)", ""
         else:
             inp, ans, unit, why, note = classify(p, a)
+            ask = prompt + " " + clean(str(s.get("text") or s.get("title") or ""))
+            if inp == "short" and re.search(r"띄어|붙여 쓰|띄어쓰기", ask):
+                inp, why = "short_exact", "띄어쓰기를 묻는 문항(띄어쓰기 그대로 채점)"
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
         acc = accepted(note) if inp in ("short", "numpad", "expr") else []
