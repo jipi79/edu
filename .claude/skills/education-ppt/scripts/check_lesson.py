@@ -285,6 +285,36 @@ def check(path):
                 if b["x"] < 0.5 or b["x"] + b["w"] > SAFE_RIGHT + 0.001 or b["y"] + b["h"] > SAFE_BOTTOM + 0.001:
                     errors.append(f"{s['id']}: {b['type']} 블록이 안전 영역을 벗어난다")
 
+    # 중·고: 화면 이름을 옮긴 부모용 글이 화면과 맞는지(말투 변환 뒤 해요체 이름이 남지 않게)
+    if lesson["grade"] >= "G07":
+        noun_yo = r"(개요|동요|필요|중요|주요|수요|강요|소요|요요)\??\)?$"
+        polite = lambda t: re.search(r"요\??\)?$", t) and not re.search(noun_yo, t)
+        squash = lambda t: re.sub(r"[\s·,.?!…~\-–—()\[\]“”‘’\"□○:;⟦⟧/「」『』]", "", t)
+
+        def screen(o):
+            if isinstance(o, str):
+                return o
+            if isinstance(o, list):
+                return "".join(screen(x) for x in o)
+            if isinstance(o, dict):
+                return "".join(screen(v) for k, v in o.items() if k not in ("notes", "purpose", "id", "kind", "section", "role", "objectives"))
+            return ""
+        on_screen = {s["id"]: squash(screen(s)) for s in slides}
+        labels = [(f"목표 {o['id']} 증거", o.get("evidence", "")) for o in lesson["objectives"]]
+        labels += [("기록표", r) for r in (lesson.get("worksheet") or {}).get("record", []) if isinstance(r, str)]
+        for where, text in labels:
+            found = [(m.group(1), m.group(2)) for m in re.finditer(r"([^(),]{2,40}?)\((S\d\d)[^)]*\)", text)]
+            m = re.match(r"^(S\d\d)(?:[·,]\s*S\d\d)*\s+([^:]+):", text)
+            if m:
+                found.append((m.group(2), m.group(1)))
+            for name, sid in found:
+                name = name.strip(" ,·")
+                if polite(name) and squash(name) not in on_screen.get(sid, ""):
+                    errors.append(f"{where}: ‘{name}’({sid})이 화면 글에 없다(해요체 옛 이름?)")
+        for s in slides:
+            if polite(s.get("purpose", "")):
+                errors.append(f"{s['id']}: purpose ‘{s['purpose']}’가 해요체다(노트·안내서에 찍힌다)")
+
     return errors, notes
 
 
