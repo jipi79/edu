@@ -39,6 +39,14 @@ def main_answer(a):
     a = clean(a)
     m = re.match(r"^(.*?)\s*\((.*)\)\s*\.?$", a)
     if m and m.group(1):
+        first = re.match(r"^([^(]*)\(([^()]*)\)", a)
+        if (first and re.search(r"[0-9A-Za-z)²³′]$", first.group(1)) and not re.search(r"[가-힣=]", first.group(2))
+                and re.search(r"(?<![A-Za-z])[a-zA-Z](?![A-Za-z])", first.group(2))):
+            # 수식의 괄호(3(x + 2), f(x) = …)는 답의 일부: 한글이 든 첫 괄호부터가 풀이
+            h = re.match(r"^(.*?)\s+\(([^()]*[가-힣=][^()]*)\)\s*(.*)$", a)
+            if h and h.group(1).strip():
+                return h.group(1).strip(), (h.group(2) + " " + h.group(3)).strip()
+            return a.rstrip("."), ""
         return m.group(1).strip(), m.group(2).strip()
     m = re.match(r"^(.*?[^0-9])\.\s+(.*)$", a)
     if m and re.fullmatch(r"[A-Za-z][A-Za-z ,'’]*", m.group(1)) and re.match(r"[A-Z]", m.group(2)):
@@ -120,8 +128,7 @@ def accepted(note):
             out += [x.strip(" ‘’“”,") for x in re.findall(r"[‘“]([^’”]+)[’”]", chunk)]  # 따옴표로 묶은 영어 문장은 쉼표에서 가르지 않는다
         else:
             out += [x.strip(" ‘’“”") for x in re.split(r",\s*|·", chunk) if x.strip()]
-    if not out and re.fullmatch(r"[가-힣]{1,5}", note.strip()):
-        out = [note.strip()]  # 괄호 속 한 낱말: 같은 뜻의 다른 이름
+
     return out
 
 
@@ -163,6 +170,9 @@ def classify(prob, ans_text):
             and re.search(r"[0-9πxyzabn√=<>≤≥(]", mm)
             and not re.fullmatch(r"[A-Za-z][A-Za-z'’ ,.?!]*", mm)):
         return "expr", mm, "", "식·값(같은 값의 다른 꼴도 맞음)", note
+    # 대문자 이름 목록(모서리·점·선분: ‘CG, DH, EH, FG’)은 차례와 상관없이 모두
+    if re.fullmatch(r"[A-Z]{1,3}′?(?:,\s*[A-Z]{1,3}′?)+", main.strip()):
+        return "short_all", [x.strip() for x in main.split(",")], "", "이름 목록(차례 무관)", note
     # 영어: 낱말·짧은 말(세 낱말까지)은 자동, 문장은 부모 판정
     if re.fullmatch(r"[A-Za-z][A-Za-z'’]*(?:\s[A-Za-z'’]+){0,2}[.?!]?", main.strip()):
         return "short", main.strip(), "", "영어(대소문자·끝 부호 무시)", note
