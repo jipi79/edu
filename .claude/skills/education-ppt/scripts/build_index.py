@@ -24,7 +24,9 @@ def main():
            f"- 제작된 수업: {len(lessons)}차시",
            f"- 수업이 하나 이상 연결된 학년 항목: {len(covered)} / {len(items)}", "",
            "상태: 계획 → 원고 완료 → 제작 완료(자동 검사 통과) → 검토 완료(사람이 확인) → 배포. "
-           "실제 아이에게 수업한 효과는 별도로 기록합니다.", ""]
+           "실제 아이에게 수업한 효과는 별도로 기록합니다.", "",
+           "파일 링크는 `dist/` 폴더(직접 빌드하거나 받은 묶음을 푼 곳) 기준입니다. "
+           "`dist/` 는 저장소에 넣지 않으므로 GitHub 화면에서는 링크가 열리지 않습니다(README ‘바로 쓰기’ 참고).", ""]
     for g in meta["grades"]:
         group = [L for L in lessons if L["grade"] == g["code"]]
         if not group:

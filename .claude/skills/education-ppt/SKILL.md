@@ -14,6 +14,7 @@ PPTX를 직접 고치지 않는다. 원본을 고치고 다시 생성한다.
   → `references/home-tutoring.md` 를 반드시 읽는다.
 - 교육과정: 2022 개정 / 권장 학년 배치 v1 (`curriculum/`). 화면 16:9, 한국어, 약 40분.
 - 산출물 네 가지: 수업용 PPTX(노트 포함), 학생용 PPTX(정답 장·노트 제거), 활동지 PDF, 부모용 진행 안내 PDF.
+- 안드로이드 앱(계획 단계, 시제품 없음): 원고를 쓸 때 지킬 것만 `references/app.md` 에 있다. 앱 설계 메모는 `docs/app-design.md`(앱을 만들 때만 읽는다).
 
 필수 입력은 학년(또는 수준)·계통·주제(또는 모듈 ID)다. 모르는 값은 추정해 원본에 적고, 대상 학년이나 범위가 충돌해 결과가 달라질 때만 묻는다.
 
@@ -33,7 +34,7 @@ PPTX를 직접 고치지 않는다. 원본을 고치고 다시 생성한다.
 2. **분할·계획**: 초등은 `plans/elementary/G0N.txt` 에 차시가 이미 나뉘어 있다. 차시를 더하거나 고칠 때는 이 파일을 고치고 `python3 -I tools/plan/build_plan.py` 로 검사한다(ID·단원·선수 차시·순환). 중·고는 같은 형식으로 새 계획 파일을 만든다.
 3. **뼈대**: `python3 -I tools/plan/new_lesson.py <수업 ID>` 가 계획에서 원본 뼈대를 만든다(메타데이터·교육과정 연결·선수 차시).
 4. **목표**: 목표마다 확인 방법(학습 증거)과 성공 기준을 먼저 쓴다. `references/lesson-design.md`.
-5. **원고**: 장·활동지를 쓴다. 장 종류와 그림, 글의 양, 정답 검산은 `references/authoring.md`, 과목별 규칙은 `references/subjects/` 의 해당 파일만 읽는다. 아이가 보는 글의 말투·문장 길이·등장인물은 나이에 맞춘다(`references/tone-by-age.md`: 초등은 해요체, 중·고는 교과서식). 내용 JSON을 따로 쓰고 `python3 -I tools/plan/fill_lesson.py <뼈대> <내용>` 으로 합쳐도 된다.
+5. **원고**: 장·활동지를 쓴다. 장 종류와 그림, 글의 양, 정답 검산은 `references/authoring.md`, 과목별 규칙은 `references/subjects/` 의 해당 파일만 읽는다. 아이가 보는 글의 말투·문장 길이·등장인물은 나이에 맞춘다(`references/tone-by-age.md`: 초등은 해요체, 중·고는 교과서식). 내용 JSON을 따로 쓰고 `python3 -I tools/plan/fill_lesson.py <뼈대> <내용>` 으로 합쳐도 된다. 원고를 쓰거나 고칠 때 조작·실험(도형 옮기기, 퍼즐, 3D 보기, 가상 실험 등)으로 학습 효과를 높일 장이 있는지 검토하고, 결과를 `interactive_review` 에 남기기를 권한다(`references/app.md`, 시제품 전까지 권장). 실물로 할 수 있는 활동은 실물로 둔다.
 6. **검사·제작**: `tools/build_one.sh <원본>` (원고 검사 → PPTX 2벌 → 활동지·안내 PDF → 출력 검사). 글이 넘치거나 검사가 실패하면 원고를 고쳐 다시 돌린다.
 7. **화면 검증**: `python3 -I tools/preview.py <원본> <임시 폴더>` 로 모든 장의 미리보기를 만들어 직접 본다(넘침·겹침·잘림·숫자와 단위가 갈라진 줄바꿈·그림과 설명의 불일치). `references/visuals-and-qa.md`.
 8. **등록**: 원본 `status` 를 "제작 완료"로 두고 `tools/build.sh <원본…>` 으로 목차(`lessons/INDEX.md`)와 계획 현황을 갱신한 뒤 커밋한다. 검사하지 못한 항목은 통과로 적지 않는다.
