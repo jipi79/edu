@@ -142,6 +142,8 @@ def classify(prob, ans_text):
     several = re.fullmatch(r"([가-힣]{1,4})\([^)]*\)(?:,\s*[가-힣]{1,4}\([^)]*\))+\.?", clean(ans_text))
     if several:
         return "short_all", re.findall(r"([가-힣]{1,4})\(", clean(ans_text)), "", "", ""
+    if re.search(r"위에 점|순환\s*마디|마디\s*\d", ans_text):
+        return "parent", main, "", "순환소수(점 표기는 부모 확인)", note
     if re.search(r"집에서 정한|정한 곳|정한 제자리", ans_text):
         return "parent", main, "", "집마다 답이 다름", note
     t = re.fullmatch(r"(\d{1,2})시(?:\s*(\d{1,2})분|\s*반)?", main.strip())
