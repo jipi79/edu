@@ -534,6 +534,7 @@ function formatNotes(spec) {
   list("이렇게 말해 보세요", n.말하기);
   list("예상 답", n.예상답);
   list("정답", n.정답);
+  list("틀리면", n.틀리면);
   list("막히면", n.막히면);
   list("주의", n.주의);
   return lines.join("\n");

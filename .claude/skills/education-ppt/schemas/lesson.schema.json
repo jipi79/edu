@@ -277,6 +277,13 @@
               "말하기": {
                 "type": "array",
                 "minItems": 1
+              },
+              "틀리면": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "흔한 오답 한 줄씩: ‘①을 3이라고 하면: 까닭(M1). “되묻는 말?” 하고 묻습니다.’ (references/authoring.md ‘틀리면’)"
               }
             }
           },

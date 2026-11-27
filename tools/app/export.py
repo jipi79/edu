@@ -23,6 +23,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools" / "plan"))
 from diagnose import CIRCLED, clean, render_item, split_answers  # noqa: E402
+sys.path.insert(0, str(ROOT / ".claude" / "skills" / "education-ppt" / "scripts"))
+import wrong_line  # noqa: E402
 
 FORMAT_VERSION = 0
 LABELS = "가나다라마바"
@@ -294,6 +296,40 @@ def compare_item(L, s, issues, seen):
     return rec
 
 
+def attach_wrong(s, items, issues):
+    """노트 ‘틀리면’ 줄을 문항의 wrong 목록으로 붙인다."""
+    for line in (s.get("notes") or {}).get("틀리면", []) or []:
+        w = wrong_line.parse(line)
+        if w is None:
+            issues.append(("틀리면 꼴 오류", s["id"], line[:80]))
+            continue
+        entry = {k: w[k] for k in ("reason", "feedback", "misconceptions", "goto") if w.get(k)}
+        if "n" in w:
+            target = [it for it in items if it.get("n") == w["n"]]
+            if not target:
+                issues.append(("틀리면 대상 없음", s["id"], f"{CIRCLED[w['n'] - 1]}번 문항이 앱 데이터에 없다"))
+                continue
+            it = target[0]
+            for v in w["values"]:
+                if it.get("answer") is not None and str(it["answer"]).replace(" ", "") == v.replace(" ", ""):
+                    issues.append(("오답이 정답과 같음", s["id"], f"{CIRCLED[w['n'] - 1]} ‘{v}’"))
+            it.setdefault("wrong", []).append({"values": w["values"], **entry})
+        else:
+            it = next((i for i in items if i.get("options")), None)
+            if it is None:
+                issues.append(("틀리면 대상 없음", s["id"], f"‘{w['pick']}를 고르면’ — 고르는 문항이 없다"))
+                continue
+            opts = it["options"]
+            idx = "가나다라마바".index(w["pick"]) if w["pick"] in "가나다라마바"[:len(opts)] else next(
+                (i for i, o in enumerate(opts) if w["pick"] in o.split()), None)
+            if idx is None:
+                issues.append(("틀리면 대상 없음", s["id"], f"‘{w['pick']}’이 보기에 없다"))
+                continue
+            if it.get("answer") == idx:
+                issues.append(("오답이 정답과 같음", s["id"], f"‘{w['pick']}를 고르면’인데 그것이 정답이다"))
+            it.setdefault("wrong", []).append({"option": idx, **entry})
+
+
 # ── 차시 ────────────────────────────────────────────────────
 
 SCREEN_SKIP = ("notes", "purpose", "section")
@@ -322,6 +358,7 @@ def export(L):
             items = [compare_item(L, s, issues, seen)]
         elif kind == "activity":
             rec["done_button"] = True  # 실물·몸 활동은 ‘다 했어요’ + 부모 기록
+        attach_wrong(s, items, issues)
         if items:
             rec["items"] = items
         rec["parent_notes"] = s.get("notes", {})
@@ -368,6 +405,10 @@ def main():
                     stats["식 검산함"] += 1
                 if it.get("misconceptions"):
                     stats["오개념 연결"] += 1
+                if it.get("wrong"):
+                    stats["오답 데이터 있는 문항"] += 1
+                if it["input"] not in ("parent", "none"):
+                    stats["자동 채점 문항"] += 1
         all_issues += [(L["id"], *i) for i in issues]
     kinds = Counter(i[1] for i in all_issues)
     lines = [f"# 앱 데이터 추출 보고서 — {a.grade}", "",
