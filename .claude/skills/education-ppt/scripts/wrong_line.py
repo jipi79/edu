@@ -31,7 +31,10 @@ def split_values(val):
     rest = re.sub(r"‘[^’]+’|이나|나|또는|,|\s", "", val)
     if quoted and not rest:
         return quoted
-    parts = re.split(r"(?:(?<=[\d’”\]])나|이나|,|\s또는)\s+(?=[‘“\d−A-Za-z가-힣\[])", val)
+    # 괄호 속 쉼표(좌표 ‘(0, 3)’)는 가르지 않는다
+    guarded = re.sub(r"\([^()]*\)", lambda m: m.group(0).replace(",", "\x00"), val)
+    parts = [x.replace("\x00", ",") for x in
+             re.split(r"(?:(?<=[\d’”\])\]])나|이나|,|\s또는)\s+(?=[‘“\d−A-Za-z가-힣\[(])", guarded)]
     out = []
     for p in parts:
         p = p.strip().strip("‘’“”").strip()
