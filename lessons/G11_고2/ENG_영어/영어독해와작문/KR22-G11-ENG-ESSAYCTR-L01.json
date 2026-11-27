@@ -357,9 +357,13 @@
         ],
         "정답": [
           "① Admittedly (인정: 휴대 전화가 숙제에 도움이 될 때도 있다)",
-          "② Nevertheless (반박: 대부분 학생은 게임에 씀. Even so도 정답)",
+          "② Nevertheless (반박: 대부분 학생은 게임에 씀. Even so도 맞음)",
           "③ It is true that (인정: 교복이 비쌀 수 있다)",
-          "④ Even so (반박: 3년 입으니 사복보다 싸다. Nevertheless도 정답)"
+          "④ Even so (반박: 3년 입으니 사복보다 싸다. Nevertheless도 맞음)"
+        ],
+        "틀리면": [
+          "①을 Nevertheless라고 하면: 인정 자리에 반박 연결어를 썼습니다(M4). “이 문장은 상대 말을 받아들이는 거야, 내 주장으로 돌아오는 거야?” 하고 묻습니다.",
+          "②를 Admittedly라고 하면: 반박 자리에 인정 연결어를 썼습니다(M4). “이 문장은 상대 말을 받아들이는 거야, 내 주장으로 돌아오는 거야?” 하고 묻습니다."
         ],
         "막히면": [
           "“이 문장은 상대 말에 맞장구치는 거야, 내 주장으로 돌아오는 거야?”라고 묻습니다."
@@ -399,6 +403,9 @@
         ],
         "정답": [
           "나가 설득력 있습니다. 반론(악기가 비싸다)을 인정한 뒤, 근거(학교가 악기를 빌려준다, 리코더는 꽤 싸다)를 들어 반박했습니다. 가는 Nevertheless 뒤에 ‘그래도 나는 그렇게 생각한다’만 있어 근거가 없습니다."
+        ],
+        "틀리면": [
+          "가를 고르면: Nevertheless만 있으면 반박이 된다고 보았습니다(M2). “가의 Nevertheless 뒤에 ‘왜냐하면’에 해당하는 말이 있니?” 하고 묻습니다. S04로 돌아갑니다."
         ],
         "막히면": [
           "“가를 읽은 사람이 ‘왜?’라고 물으면 가는 무엇이라고 대답할 수 있을까?”라고 묻습니다."
@@ -558,11 +565,11 @@
           "“다 쓰면 소리 내어 읽고, 활동지 5 점검표에 스스로 표시해 줘.”"
         ],
         "정답": [
-          "서론 예: Many students listen to music every day, but few of them play it. In my opinion, every student should learn a musical instrument.",
-          "본론 예: First, playing an instrument teaches patience. For example, my friend practiced the guitar for months before she could play her favorite song. Second, music helps students relax. For instance, I play the piano for ten minutes after studying, and I feel calm again.",
-          "반론 문단 예: Some people argue that instruments are too expensive. Admittedly, a new piano or violin can cost a lot. Nevertheless, some schools and community centers lend instruments, and a recorder or a ukulele is quite cheap. So money does not have to stop anyone.",
-          "결론 예: For these reasons, I believe every student should have a chance to learn an instrument.",
-          "기준(점검표 6항목): ① 다섯 문단 ② 서론의 주장 문장 ③ 본론 두 문단에 서로 다른 이유와 예시 ④ 반론 소개와 Admittedly·It is true that 인정 ⑤ Nevertheless·Even so 반박과 근거 ⑥ 결론에서 주장을 다시. 여섯 가운데 다섯 개 이상이면 통과."
+          "① 서론 예: Many students listen to music every day, but few of them play it. In my opinion, every student should learn a musical instrument.",
+          "② 본론 예: First, playing an instrument teaches patience. For example, my friend practiced the guitar for months before she could play her favorite song. Second, music helps students relax. For instance, I play the piano for ten minutes after studying, and I feel calm again.",
+          "③ 반론 문단 예: Some people argue that instruments are too expensive. Admittedly, a new piano or violin can cost a lot. Nevertheless, some schools and community centers lend instruments, and a recorder or a ukulele is quite cheap. So money does not have to stop anyone.",
+          "④ 결론 예: For these reasons, I believe every student should have a chance to learn an instrument.",
+          "기준(점검표 6항목): 다섯 문단 / 서론의 주장 문장 / 본론 두 문단에 서로 다른 이유와 예시 / 반론 소개와 Admittedly·It is true that 인정 / Nevertheless·Even so 반박과 근거 / 결론에서 주장을 다시. 여섯 가운데 다섯 개 이상이면 통과."
         ],
         "막히면": [
           "바로 고쳐 주지 말고 “지금 몇째 문단이야? 그 문단은 무슨 일을 하지?”라고만 묻습니다.",
@@ -668,6 +675,10 @@
           "③ 예: Nevertheless, a short walk after dinner takes only twenty minutes and helps us sleep better.",
           "기준: 세 개 모두 맞으면 통과입니다(③은 근거가 있는 반박이면 됨)."
         ],
+        "틀리면": [
+          "①을 반박이라고 하면: 인정 연결어와 반박 연결어의 역할을 바꾸었습니다(M4). “It is true that은 상대 말을 받아들이는 말이야, 되받는 말이야?” 하고 묻습니다.",
+          "②를 Admittedly라고 하면: 인정 뒤에 또 인정 연결어를 썼습니다(M1). “인정한 다음에는 무엇이 와야 했지?” 하고 묻습니다."
+        ],
         "막히면": [
           "①②는 S04 카드를, ③은 S07을 다시 보여 줍니다."
         ],
@@ -692,7 +703,7 @@
       "dont": "인정으로 끝내기, 근거 없는 반박",
       "review": [
         {
-          "text": "반론 문단의\n세 걸음은?"
+          "text": "반론 문단의 세 걸음과\n연결어는?"
         },
         {
           "text": "다섯 문단의\n순서는?"
@@ -715,9 +726,10 @@
         "정답": [
           "① 반론 소개(Some people argue that ~) → 인정(Admittedly / It is true that) → 반박(Nevertheless / Even so) + 근거",
           "② 서론 → 본론 1 → 본론 2 → 반론 문단 → 결론",
-          "③ 인정으로 끝내지 않고, 반박에 근거를 붙인다."
+          "③ 근거(because ~, 사실, 해결책). 인정으로 끝내지 않고 반박에 근거를 붙입니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "뉴스나 신문 사설에서 ‘물론 ~이지만, 그럼에도 ~’ 같은 문장을 찾아보면 좋은 복습이 됩니다. 다음 차시 ‘목적에 맞는 이메일’에서는 요청·문의·사과 같은 목적에 맞는 격식 표현과 구성으로 이메일을 씁니다."
         ]
       }
@@ -933,7 +945,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① 반론 문단의 세 걸음과 연결어를 쓰시오.\n② 다섯 문단 에세이의 순서를 쓰시오.\n③ Nevertheless 뒤에 꼭 붙여야 하는 것은 무엇인가?",
         "lines": 3,
-        "answer": "① 반론 소개(Some people argue that ~) → 인정(Admittedly / It is true that) → 반박(Nevertheless / Even so) ② 서론 → 본론 1 → 본론 2 → 반론 문단 → 결론 ③ 근거(because ~, 사실, 해결책). 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① 반론 소개(Some people argue that ~) → 인정(Admittedly / It is true that) → 반박(Nevertheless / Even so) + 근거 ② 서론 → 본론 1 → 본론 2 → 반론 문단 → 결론 ③ 근거(because ~, 사실, 해결책). 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

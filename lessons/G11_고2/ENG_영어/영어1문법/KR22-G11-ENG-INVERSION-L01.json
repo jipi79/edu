@@ -373,6 +373,11 @@
           "② Rarely does he watch TV.",
           "③ Little did I know about him."
         ],
+        "틀리면": [
+          "①을 ‘Never I have seen a ghost.’라고 하면: 부정어를 앞에 두고도 주어 + 조동사 순서를 그대로 썼습니다(M1). “Never가 앞에 오면 뒤는 무슨 어순이 와야 하지?” 하고 묻습니다.",
+          "②를 ‘Rarely he watches TV.’라고 하면: 일반동사 문장인데 does를 넣지 않았습니다(M2). “일반동사 문장을 의문문으로 바꿀 때는 무엇을 앞에 넣었지?” 하고 묻습니다.",
+          "③을 ‘Little did I knew about him.’이라고 하면: did 뒤에 과거형을 그대로 썼습니다(M2). “did 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다."
+        ],
         "막히면": [
           "먼저 의문문으로 바꾼 뒤(Have I seen ~? / Does he watch ~?) 앞에 부정어를 붙이게 합니다."
         ],
@@ -426,6 +431,9 @@
         ],
         "정답": [
           "바르게 쓴 쪽은 가(Never have I seen such a big dog.)입니다. 부정어가 앞에 오면 have가 주어 I 앞으로 나가 의문문 어순이 됩니다. 나 쪽은 원래 순서(I have)를 그대로 써서 틀렸습니다."
+        ],
+        "틀리면": [
+          "나를 고르면: 부정어를 앞에 두고도 원래 순서(I have)를 그대로 썼습니다(M1). “나의 Never 뒤를 의문문 어순으로 바꾸면 어떻게 될까?” 하고 묻습니다."
         ],
         "막히면": [
           "S03의 두 카드를 다시 보여 줍니다."
@@ -645,6 +653,10 @@
           "③ So was I.",
           "④ Neither did I."
         ],
+        "틀리면": [
+          "②를 ‘So do I.’라고 하면: 부정 문장에 So를 쓰고 동사도 앞 문장(can't)에 맞추지 않았습니다(M4). “앞 문장이 긍정이야, 부정이야? 동사는 무엇이야?” 하고 묻습니다.",
+          "③을 ‘So did I.’라고 하면: be동사 과거(was)를 did로 바꾸어 썼습니다(M4). “앞 문장의 동사는 일반동사야, be동사야?” 하고 묻습니다."
+        ],
         "막히면": [
           "“긍정이야, 부정이야? 동사는 무엇이야?”를 차례로 묻습니다."
         ],
@@ -735,6 +747,10 @@
           "③ 주어 a clock — 벽에 시계가 걸려 있어요.",
           "④ Neither am I.",
           "기준: 네 개 가운데 세 개 이상이면 통과. ②는 does + 주어 + 동사원형, ④는 be동사(am)를 맞추었는지 봅니다."
+        ],
+        "틀리면": [
+          "②를 ‘Rarely he sleeps late.’라고 하면: 일반동사 문장인데 does를 넣지 않았습니다(M2). “일반동사 문장을 도치할 때는 무엇을 주어 앞에 넣지?” 하고 묻습니다.",
+          "④를 ‘Neither do I.’라고 하면: be동사(am) 문장인데 do를 썼습니다(M4). “I'm not ready.의 동사는 일반동사야, be동사야?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “주어는 어디 있어?” “일반동사면 무엇을 넣지?” “부정이야, 긍정이야?”라고만 묻습니다.",
@@ -887,10 +903,14 @@
         ],
         "정답": [
           "① Never have I seen a ghost.",
-          "② 주어 a castle — 언덕 위에 성이 서 있어요.",
-          "③ So do I. / Neither can I."
+          "② 주어 a castle — 언덕 위에 성이 서 있다.",
+          "③ 기준: I like pizza.에 So do I., I can't swim.에 Neither can I.라고 쓰면 맞습니다."
+        ],
+        "틀리면": [
+          "①을 ‘Never I have seen a ghost.’라고 하면: 부정어를 앞에 두고도 주어 + 조동사 순서를 그대로 썼습니다(M1). “Never가 앞에 오면 뒤는 무슨 어순이 와야 하지?” 하고 묻습니다."
         ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "영어 대화문이나 지문에서 So do I., Here comes ~를 찾아보면 좋은 복습이 됩니다. 다음 차시 ‘요약문 완성’에서는 글의 요지를 한 문장 요약문으로 정리하고 빈칸 (A)(B)를 채웁니다."
         ]
       }
@@ -1123,7 +1143,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① I have never seen a ghost.를 Never로 시작해 쓰시오.\n② On the hill stands a castle.의 주어와 뜻을 쓰시오.\n③ I like pizza.와 I can't swim.에 맞장구(나도 그래·나도 안 그래)를 쓰시오.",
         "lines": 3,
-        "answer": "① Never have I seen a ghost. ② 주어 a castle — 언덕 위에 성이 서 있다. ③ So do I. / Neither can I. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① Never have I seen a ghost. ② 주어 a castle — 언덕 위에 성이 서 있다. ③ 기준: I like pizza.에 So do I., I can't swim.에 Neither can I.라고 쓰면 맞습니다. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

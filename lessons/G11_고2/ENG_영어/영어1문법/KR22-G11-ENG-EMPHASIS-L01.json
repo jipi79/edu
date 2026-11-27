@@ -330,8 +330,8 @@
           "“Mina met Tom at the library last Sunday. 지시한 말을 It was와 that 사이에 넣어 강조해 말하고, 뜻도 말해 줘.”"
         ],
         "정답": [
-          "① It was Mina that(who) met Tom at the library last Sunday. (지난 일요일 도서관에서 톰을 만난 사람은 바로 미나였어요.)",
-          "② It was Tom that(who) Mina met at the library last Sunday. (미나가 지난 일요일 도서관에서 만난 사람은 바로 톰이었어요.)",
+          "① It was Mina that met Tom at the library last Sunday. (‘It was Mina who met Tom at the library last Sunday’도 맞음. 지난 일요일 도서관에서 톰을 만난 사람은 바로 미나였어요.)",
+          "② It was Tom that Mina met at the library last Sunday. (‘It was Tom who Mina met at the library last Sunday’도 맞음. 미나가 지난 일요일 도서관에서 만난 사람은 바로 톰이었어요.)",
           "③ It was at the library that Mina met Tom last Sunday. (미나가 지난 일요일 톰을 만난 곳은 바로 도서관이었어요.)",
           "④ It was last Sunday that Mina met Tom at the library. (미나가 도서관에서 톰을 만난 것은 바로 지난 일요일이었어요.)"
         ],
@@ -484,6 +484,9 @@
         "정답": [
           "나의 해석(준이 경주에서 이긴 것은 사실이다)이 맞습니다. It is와 that을 지우면 문장이 안 되므로 가주어 it 문장이고, 진짜 주어는 that Jun won the race입니다. 가는 강조 구문처럼 ‘바로’를 넣어 해석했습니다."
         ],
+        "틀리면": [
+          "가를 고르면: 가주어 it 문장을 강조 구문처럼 ‘바로’를 넣어 해석했습니다(M2). “It is와 that을 지우고 읽어 볼까? 문장이 되니?” 하고 묻습니다."
+        ],
         "막히면": [
           "S06의 표를 다시 보여 주고 둘째 줄을 함께 읽습니다."
         ],
@@ -591,6 +594,10 @@
           "③ We did clean the room. (우리는 정말 방을 청소했어요.)",
           "④ He does look happy. (그는 정말 행복해 보여요.)"
         ],
+        "틀리면": [
+          "②를 ‘She does studies hard.’라고 하면: does 뒤에 -es가 붙은 동사를 그대로 썼습니다(M3). “does 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다.",
+          "③을 ‘We did cleaned the room.’이라고 하면: did 뒤에 과거형을 그대로 썼습니다(M3). “did에 이미 과거가 들어 있는데, 뒤에 또 과거형을 쓸까?” 하고 묻습니다."
+        ],
         "막히면": [
           "“studies에서 -es를 어디로 옮길까? does study.”처럼 하나를 함께 해 줍니다."
         ],
@@ -635,6 +642,11 @@
           "② go (did 뒤에는 동사원형)",
           "③ does (주어 My brother → does)",
           "④ did (yesterday: 지난 일)"
+        ],
+        "틀리면": [
+          "①을 likes라고 하면: does 뒤에 -s가 붙은 동사를 썼습니다(M3). “does 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다.",
+          "②를 went라고 하면: did 뒤에 과거형을 썼습니다(M3). “did에 이미 과거가 들어 있는데, 뒤에 또 과거형을 쓸까?” 하고 묻습니다.",
+          "④를 do라고 하면: yesterday를 보지 않아 시제를 놓쳤습니다(M4). “yesterday가 있으면 지금 일이야, 지난 일이야?” 하고 묻습니다."
         ],
         "막히면": [
           "“do 뒤에는 무엇이 와? 주어가 he·she면? 지난 일이면?”을 차례로 묻습니다."
@@ -721,11 +733,15 @@
           "“이번에는 혼자 해 볼래? 지시대로 말하고, 그다음 활동지 5에 써.”"
         ],
         "정답": [
-          "① It was my dad that(who) made this cake.",
+          "① It was my dad that made this cake. (‘It was my dad who made this cake’도 맞음)",
           "② It was under the sofa that I found the key.",
           "③ 가주어 (surprising she won ×) — 그녀가 이긴 것은 놀라워요.",
           "④ He does remember my birthday.",
           "기준: 네 개 가운데 세 개 이상이면 통과. ③은 지워서 확인한 까닭을 말해야 맞습니다."
+        ],
+        "틀리면": [
+          "①을 ‘It was my dad that my dad made this cake.’라고 하면: 강조한 말을 that 뒤에 다시 썼습니다(M1). “앞으로 꺼낸 말이 that 뒤에도 남아 있어야 할까?” 하고 묻습니다.",
+          "④를 ‘He does remembers my birthday.’라고 하면: does 뒤에 -s가 붙은 동사를 그대로 썼습니다(M3). “does 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다."
         ],
         "막히면": [
           "바로 알려 주지 말고 “강조할 말은 어디로?” “지우면 문장이 돼?” “remembers의 -s는 어디로?”라고만 묻습니다.",
@@ -878,10 +894,15 @@
         ],
         "정답": [
           "① It was yesterday that Jun broke the window.",
-          "② 가주어 (지우면 문장이 안 됨) — 우리가 운동하는 것은 중요해요.",
+          "② 가주어 — 우리가 운동하는 것은 중요하다(지우면 문장이 안 됨).",
           "③ She does like cats."
         ],
+        "틀리면": [
+          "①을 ‘It was yesterday that Jun broke the window yesterday.’라고 하면: 강조한 말을 뒤에 다시 썼습니다(M1). “앞으로 꺼낸 yesterday가 뒤에도 남아 있어야 할까?” 하고 묻습니다.",
+          "③을 ‘She does likes cats.’라고 하면: does 뒤에 -s가 붙은 동사를 그대로 썼습니다(M3). “does 뒤에는 동사의 어떤 모양이 오지?” 하고 묻습니다."
+        ],
         "주의": [
+          "활동지 마지막 쪽에 같은 문제가 있습니다. 다음 수업을 시작할 때 활동지에 풉니다.",
           "가족끼리 대화할 때 “It was ___ that ___!”로 누가 했는지 강조해 말해 보면 좋은 복습이 됩니다. 다음 차시 ‘도치 구문 입문’에서는 Never have I ~, So do I처럼 주어와 동사의 순서가 바뀐 문장을 배웁니다."
         ]
       }
@@ -1108,7 +1129,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① Jun broke the window yesterday.에서 yesterday를 강조한 문장을 쓰시오.\n② It is important that we exercise.는 강조인가, 가주어인가? 뜻을 쓰시오.\n③ She likes cats.의 동사를 강조한 문장을 쓰시오.",
         "lines": 3,
-        "answer": "① It was yesterday that Jun broke the window. ② 가주어 — 우리가 운동하는 것은 중요하다. ③ She does like cats. 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① It was yesterday that Jun broke the window. ② 가주어 — 우리가 운동하는 것은 중요하다(지우면 문장이 안 됨). ③ She does like cats. 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [

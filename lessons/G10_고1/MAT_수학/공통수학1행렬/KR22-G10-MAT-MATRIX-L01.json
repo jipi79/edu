@@ -532,6 +532,12 @@
       "expr": "(−6) × 2 = □",
       "answer": "−12",
       "where": "S16 보충 연습"
+    },
+    {
+      "type": "blank",
+      "expr": "3 × 2 = □",
+      "answer": 6,
+      "where": "S15 복습 ① 3×2 행렬의 성분 수"
     }
   ],
   "slides": [
