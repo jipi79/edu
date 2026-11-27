@@ -296,7 +296,8 @@ def check(path):
         if not lines:
             continue
         n_items = wrong_line.item_count(s)
-        labels = "가나다라마바"[:len(s.get("options") or [])]
+        nopt = len(s.get("options") or [])
+        labels = "가나다라마바"[:nopt] + "ABCDEF"[:nopt] + "ⓐⓑⓒⓓⓔⓕ"[:nopt]
         sides = [re.split(r"[:：]|\s{2,}", (s.get(k) or {}).get("title", "")) for k in ("left", "right")]
         names = {x.strip() for side in sides for x in side if x.strip()}
         names |= {(s.get(k) or {}).get("title", "").strip() for k in ("left", "right")}

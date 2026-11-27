@@ -145,6 +145,10 @@ def misconception_refs(text):
 def accepted(note):
     """풀이에 적힌 다른 맞는 답: ‘교실도 맞음’, ‘놀이터, 강당도 맞음’, ‘강당이라고 해도 맞음’, ‘(현관)’."""
     out = []
+    # 따옴표로 묶은 답(마침표·쉼표가 있어도 한 답): ‘…’, ‘…’도 맞음 / ‘…’이라고 해도 맞음
+    for run in re.finditer(r"((?:‘[^’]+’\s*(?:,|이나|나|또는)?\s*)+)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
+        out += [x.strip() for x in re.findall(r"‘([^’]+)’", run.group(1))]
+    note = re.sub(r"(?:‘[^’]+’\s*(?:,|이나|나|또는)?\s*)+(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞(?:음|습니다)?", "", note)
     note = _guard(note)
     for m in re.finditer(r"([^.()]+?)(?:이라고|라고)?\s*(?:해도|도)\s*(?:까닭이 맞으면\s*)?맞", note):
         chunk = re.split(r"면\s+|(?<![A-Za-z])\.\s+|니까\s+", m.group(1))[-1]
@@ -355,10 +359,12 @@ def choice_item(L, s, issues, seen):
     each = re.findall(rf"(?:^|\s)([{lab}])\s+({NUM})(?=[\s(,.]|$)", raw)
     more = re.search(rf"([{lab}])(?:\([^)]*\))?가 더 (크|큽|많|작|적|길|짧|무겁|가볍)", raw)
     first = re.match(rf"^([{lab}])(?:[(\s.,]|$)", raw)
-    latin = re.match(r"^([A-F])(?:[(\s.,]|$)", raw)  # 보기 이름이 A·B·C인 장
-    if latin and not first and "ABCDEF".index(latin.group(1)) < len(opts):
-        first = None
-        rec["answer"] = "ABCDEF".index(latin.group(1))
+    latin = re.match(r"^([A-F]|[ⓐ-ⓕ])(?:[(\s.,]|$)", raw)  # 보기 이름이 A·B·C 또는 ⓐ·ⓑ·ⓒ인 장
+    if latin and not first:
+        k = "ABCDEF".index(latin.group(1)) if latin.group(1) in "ABCDEF" else "ⓐⓑⓒⓓⓔⓕ".index(latin.group(1))
+        if k < len(opts):
+            first = None
+            rec["answer"] = k
     if rec["answer"] is not None:
         pass
     elif re.match(r"^(무엇을|어느 것을|아무것이나|아무거나)\s*골라도|^.{0,15}골라도 맞", raw):
@@ -524,6 +530,9 @@ def attach_wrong(s, items, issues):
                 issues.append(("틀리면 대상 없음", s["id"], f"‘{w['pick']}를 고르면’ — 고르는 문항이 없다"))
                 continue
             opts = it["options"]
+            for lab in ("가나다라마바", "ABCDEF", "ⓐⓑⓒⓓⓔⓕ"):
+                if w["pick"] in lab[:len(opts)]:
+                    w["pick"] = "가나다라마바"[lab.index(w["pick"])]
             idx = "가나다라마바".index(w["pick"]) if w["pick"] in "가나다라마바"[:len(opts)] else next(
                 (i for i, o in enumerate(opts) if w["pick"] == o or w["pick"] in o.split()), None)
             if idx is None:
