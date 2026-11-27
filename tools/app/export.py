@@ -136,6 +136,8 @@ def classify(prob, ans_text):
     if t:
         mm = t.group(2) or ("30" if main.strip().endswith("반") else "00")
         return "time", f"{int(t.group(1))}:{int(mm):02d}", "", "", note
+    if main.strip() in (">", "<", "=", "＞", "＜"):
+        return "symbol", main.strip().replace("＞", ">").replace("＜", "<"), "", "", note
     n, unit = number_unit(main)
     if n is not None:
         return "numpad", n, unit, "", note
@@ -228,7 +230,9 @@ def problem_items(L, s, key, issues, seen):
             inp, ans, unit, why, note = classify(p, a)
         rec = {"id": item_id(L["id"], s["id"], f"{s['id']}|{prompt}", seen), "slide": s["id"], "n": k + 1,
                "prompt": prompt, "input": inp, "answer": ans}
-        acc = accepted(note) if inp in ("short", "numpad") else []
+        acc = accepted(note) if inp in ("short", "numpad", "expr") else []
+        if inp == "expr":
+            acc = [korean_fraction(a) or a for a in acc]
         if acc:
             rec["accept"] = acc
         if unit:
