@@ -590,7 +590,7 @@
           "“②의 이유는 무엇이고, 결과는 무엇이야?”"
         ],
         "정답": [
-          "① I went to bed early because I was tired.",
+          "① I went to bed early because I was tired. (‘Because I was tired, I went to bed early’도 맞음)",
           "② She was sick, so she stayed home.",
           "③ It was hot, so we went to the beach."
         ],
@@ -684,7 +684,7 @@
         "정답": [
           "① because (I opened the window because it was hot.)",
           "② I got wet because of the rain. (wet: 젖은)",
-          "③ I cried because I was sad.",
+          "③ I cried because I was sad. (‘Because I was sad, I cried’도 맞음)",
           "④ Because I got up late. (예: Because I missed the bus. 주어와 동사가 있는 이유면 맞음)",
           "기준: 네 개 가운데 세 개 이상이면 통과. ④는 Because 뒤에 주어와 동사가 있으면 내용은 자유입니다. 쓸 때는 첫 글자 대문자와 마침표도 봅니다."
         ],
@@ -792,7 +792,7 @@
         ],
         "정답": [
           "① It was rainy, so I took an umbrella.",
-          "② I took an umbrella because it was rainy.",
+          "② I took an umbrella because it was rainy. (‘Because it was rainy, I took an umbrella’도 맞음)",
           "③ Because it's delicious. / Because it's sweet. 등 (Because + 주어 + 동사)",
           "기준: ①②는 이유(it was rainy)와 결과(I took an umbrella)의 순서가 맞으면 통과, ③은 Because 뒤에 주어와 동사가 있으면 내용은 자유입니다. 세 개 모두 맞으면 목표 달성으로 봅니다."
         ],
@@ -845,7 +845,7 @@
         ],
         "정답": [
           "① because of (I was late because of the snow.)",
-          "② I slept because I was tired.",
+          "② I slept because I was tired. (‘Because I was tired, I slept’도 맞음)",
           "③ 기준: Because 뒤에 주어와 동사가 있는 이유를 쓰면 맞습니다. 예: Because I want to travel."
         ],
         "틀리면": [
@@ -1072,7 +1072,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① I was late ______ the snow. 빈칸에 because나 because of를 쓰시오.\n② I was tired, so I slept.를 because로 바꾸어 쓰시오.\n③ Why do you study English?에 Because로 대답을 쓰시오.",
         "lines": 3,
-        "answer": "① because of (I was late because of the snow.) ② I slept because I was tired. ③ 기준: Because 뒤에 주어와 동사가 있는 이유를 쓰면 맞습니다. 예: Because I want to travel."
+        "answer": "① because of (I was late because of the snow.) ② I slept because I was tired. (‘Because I was tired, I slept’도 맞음) ③ 기준: Because 뒤에 주어와 동사가 있는 이유를 쓰면 맞습니다. 예: Because I want to travel."
       }
     ],
     "record": [

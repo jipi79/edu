@@ -543,7 +543,7 @@
         ],
         "정답": [
           "① If it is sunny tomorrow, we will go to the park.",
-          "② When I get home, I will wash my hands. (기준: When이나 If로 시작하고 주절에 will을 쓰면 맞음)",
+          "② When I get home, I will wash my hands. (‘When I get home, I'll wash my hands’, ‘If I get home, I will wash my hands’도 맞음)",
           "③ If you are busy, I will help you. (I will help you if you are busy도 맞음)"
         ],
         "막히면": [
@@ -633,8 +633,8 @@
         ],
         "정답": [
           "① is (If it is cold tomorrow, I will stay home.)",
-          "② When he comes, I'll go.",
-          "③ If I'm free, I'll help you.",
+          "② When he comes, I'll go. (‘When he comes, I will go’도 맞음)",
+          "③ If I'm free, I'll help you. (‘If I am free, I will help you’도 맞음)",
           "④ If I win, Mom will smile.",
           "기준: 네 개 가운데 세 개 이상이면 통과. 쓸 때는 if·when 절의 현재 시제(-s), 주절의 will, if 절이 앞일 때 쉼표, 마침표도 봅니다."
         ],
@@ -789,7 +789,7 @@
         "정답": [
           "① rains (If it rains tomorrow, …)",
           "② If it snows, we will make a snowman.",
-          "③ When I get home, I will call you. (기준: 주절을 I will call you 또는 I'll call you로 쓰면 맞음)"
+          "③ When I get home, I will call you. (‘When I get home, I'll call you’도 맞음)"
         ],
         "틀리면": [
           "①을 will rain이라고 하면: 앞으로의 일이라서 if 절에도 will을 썼습니다(M1). “will은 if 절과 주절 가운데 어디에만 쓰지?” 하고 묻습니다."
@@ -1009,7 +1009,7 @@
         "heading": "다음 수업을 시작할 때",
         "prompt": "① If it (rains / will rain) tomorrow, …에서 알맞은 것을 쓰시오.\n② If it will snow, we will make a snowman.을 바르게 고쳐 쓰시오.\n③ ‘집에 오면 전화할게.’를 영어로 쓰시오. (get home, call you)",
         "lines": 3,
-        "answer": "① rains (If it rains tomorrow, …) ② If it snows, we will make a snowman. ③ When I get home, I will call you. (기준: 주절을 I will call you 또는 I'll call you로 쓰면 맞음) 세 가지 모두 도움 없이 하면 통과."
+        "answer": "① rains (If it rains tomorrow, …) ② If it snows, we will make a snowman. ③ When I get home, I will call you. (‘When I get home, I'll call you’도 맞음) 세 가지 모두 도움 없이 하면 통과."
       }
     ],
     "record": [
