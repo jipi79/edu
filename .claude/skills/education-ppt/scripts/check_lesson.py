@@ -200,6 +200,16 @@ def check(path):
             errors.append(f"교육과정: 단원 {uid}가 curriculum/units.json에 없다")
         elif lesson["grade"] not in units[uid]["grades"]:
             errors.append(f"교육과정: 단원 {uid}의 연결 학년({units[uid]['grades_text']})에 {lesson['grade_label']}이 없다")
+    std = {x["code"]: x["text"] for x in json.loads((ROOT / "curriculum" / "standards_kr22.json").read_text(encoding="utf-8"))["standards"]}
+    seen_codes = set()
+    for st in cur.get("standards", []):
+        if st["code"] not in std:
+            errors.append(f"교육과정: 성취기준 {st['code']}가 curriculum/standards_kr22.json에 없다")
+        elif st["text"] != std[st["code"]]:
+            errors.append(f"교육과정: 성취기준 {st['code']}의 문장이 목록과 다르다")
+        if st["code"] in seen_codes:
+            errors.append(f"교육과정: 성취기준 {st['code']}가 두 번 있다")
+        seen_codes.add(st["code"])
     if cur["standard_code"] and cur["link_status"] != "확인됨":
         errors.append("교육과정: 원문으로 확인하지 않은 성취기준 코드를 적었다")
     for p in lesson["prerequisites"]:

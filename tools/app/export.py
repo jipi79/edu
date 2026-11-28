@@ -720,6 +720,8 @@ def export(L):
             "objectives": [{"id": o["id"], "text": o["text"]} for o in L["objectives"]],
             "misconceptions": [{"id": m["id"], "text": m["text"]} for m in L.get("misconceptions", [])],
             "prerequisites": [p["lesson"] for p in L["prerequisites"] if p.get("lesson")],
+            "standards": [{"code": x["code"], "text": x["text"], "fit": x["fit"]} for x in L["curriculum"].get("standards", [])],
+            "sources": L.get("sources", []),
             "slides": slides, "worksheet_paper": True}
     return data, issues
 

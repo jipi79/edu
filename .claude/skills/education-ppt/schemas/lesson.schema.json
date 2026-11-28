@@ -130,6 +130,35 @@
             "부분 확인",
             "자체 확장"
           ]
+        },
+        "standards": {
+          "type": "array",
+          "description": "이 차시가 다루는 2022 개정 성취기준. code·text는 curriculum/standards_kr22.json과 같아야 한다. fit: 핵심(이 차시의 목표가 그 성취기준의 중심) · 일부(성취기준의 한 부분만 다룸).",
+          "items": {
+            "type": "object",
+            "required": [
+              "code",
+              "text",
+              "fit"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "code": {
+                "type": "string",
+                "minLength": 4
+              },
+              "text": {
+                "type": "string",
+                "minLength": 5
+              },
+              "fit": {
+                "enum": [
+                  "핵심",
+                  "일부"
+                ]
+              }
+            }
+          }
         }
       }
     },
@@ -366,6 +395,31 @@
         "type": "string"
       },
       "description": "차시 전체의 안전 수칙(부모용 안내 ‘시작 전에’에 인쇄)"
+    },
+    "sources": {
+      "type": "array",
+      "description": "부모가 더 읽을 수 있는 외부 자료(공공기관·학술·교육 기관 위주). 부모용 안내 끝에 실린다.",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 2
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://\\S+$"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

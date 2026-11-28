@@ -367,6 +367,7 @@ function guideHtml(L, thumbs) {
     </ul></div>
     <h2>오늘의 목표와 확인 방법</h2>
     ${L.objectives.map((o) => `<div class="box"><b>목표 ${esc(o.id)}</b> ${esc(o.text)}<br><b class="k">확인</b> ${esc(o.evidence)}<br><b class="k">성공 기준</b> ${esc(o.success)}</div>`).join("")}
+    ${(L.curriculum.standards || []).length ? `<div class="sub" style="margin-top:1.5mm"><b>교육과정 성취기준</b> ${L.curriculum.standards.map((st) => `[${esc(st.code)}] ${esc(st.text)}${st.fit === "일부" ? " (일부)" : ""}`).join(" · ")}</div>` : ""}
     ${L.prerequisites.length ? `<h2>먼저 알고 있어야 할 것</h2>
     <ul>${L.prerequisites.map((p) => `<li>${esc(p.text)}</li>`).join("")}</ul>` : ""}
     ${supportLine(L)}
@@ -380,6 +381,7 @@ function guideHtml(L, thumbs) {
     <h2 style="break-before: page; margin-top: 0">장별 안내</h2>
     ${slides.join("")}
     ${answers}${record}
+    ${(L.sources || []).length ? `<h2>더 읽을거리</h2><ul>${L.sources.map((x) => `<li>${esc(x.title)}${x.note ? ` — ${esc(x.note)}` : ""}<br><span class="sub">${esc(x.url)}</span></li>`).join("")}</ul>` : ""}
   </body></html>`;
 }
 
