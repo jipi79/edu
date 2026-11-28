@@ -8,7 +8,7 @@
 전체 목록은 [lessons/INDEX.md](lessons/INDEX.md) 에 있습니다. 만들어진 파일(PPTX·PDF)은 용량이 커서 저장소에 넣지 않습니다(`dist/` 는 `.gitignore`).
 파일은 다음 중 하나로 받습니다.
 
-1. **릴리스(권장)**: GitHub의 *Releases* 에서 학년별 zip(`edu-<판>-초1.zip` …)을 받습니다. 각 zip에는 그 학년의 모든 차시 파일(수업용·학생용 PPTX, 활동지·부모용 안내 PDF)이 들어 있습니다.
+1. **릴리스(권장)**: GitHub의 *Releases* 에서 학년별 zip을 받습니다. 목록에는 `<판> 초1` 처럼 학년 이름으로 보이고, 받은 파일 이름은 학년 코드입니다(`edu-<판>-G01.zip` = 초1 … `G06` = 초6, `G07` = 중1 … `G12` = 고3). 각 zip에는 그 학년의 모든 차시 파일(수업용·학생용 PPTX, 활동지·부모용 안내 PDF)이 `초1/…` 처럼 학년 폴더째 들어 있습니다.
    - 릴리스를 게시하면 GitHub Actions(`.github/workflows/release.yml`)가 모든 차시를 새로 만들고 검사한 뒤 zip을 붙입니다(약 15~20분).
    - 이미 게시한 릴리스에 붙이려면 *Actions → 자료 묶음 만들기 → Run workflow* 에서 태그(예: `v0.1.0`)를 넣습니다.
    - 같은 일을 직접 하려면 `tools/build_release.sh <판> G01 G02 …` 를 돌립니다(`release/` 에 zip이 생깁니다).
