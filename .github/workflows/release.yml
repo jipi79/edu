@@ -33,12 +33,11 @@ jobs:
         with:
           ref: ${{ github.event.release.tag_name || inputs.tag }}
 
-      - name: "묶음 스크립트 (태그에 없으면 이 워크플로의 판에서 가져옴, 예: v0.1.0)"
+      # 태그의 판은 없거나(v0.1.0) 한글 자산 이름을 쓴다(v0.2.0, 학년끼리 덮어씀). 그래서 언제나 이 워크플로의 판을 쓴다.
+      - name: 묶음 스크립트는 이 워크플로의 판으로
         run: |
-          if [ ! -f tools/build_release.sh ]; then
-            git fetch --depth 1 origin "$GITHUB_SHA"
-            git checkout FETCH_HEAD -- tools/build_release.sh
-          fi
+          git fetch --depth 1 origin "$GITHUB_SHA"
+          git checkout FETCH_HEAD -- tools/build_release.sh
 
       - uses: actions/setup-node@v4
         with:
@@ -70,7 +69,11 @@ jobs:
           SOFFICE: soffice-iso
         run: tools/build_release.sh "$TAG" ${{ matrix.part.grades }}
 
+      # 파일 이름은 edu-<판>-G01.zip, 릴리스 목록에는 '<판> 초1' 처럼 학년 이름으로 보인다
       - name: 릴리스에 붙이기
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload "$TAG" release/*.zip --clobber --repo "$GITHUB_REPOSITORY"
+        run: |
+          assets=()
+          for z in release/*.zip; do assets+=("$z#$(cat "$z.label")"); done
+          gh release upload "$TAG" "${assets[@]}" --clobber --repo "$GITHUB_REPOSITORY"
